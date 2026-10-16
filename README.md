@@ -19,7 +19,10 @@ Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources a
 | 1 | SEC EDGAR 8-K (full-text search) | **Implemented** |
 | 2 | Greenhouse / Lever / Workday / iCIMS job postings | **Implemented** |
 | 3 | Parts catalog + Micron obsolete/PCN-EOL ingest | **Implemented** |
-| 4 | Trade press RSS (EE Times, DigiTimes) | Planned |
+| 4 | Samsung family-status watcher | **Implemented** |
+| 5 | Part-number decoder (offline) | **Implemented** |
+| 6 | Distributor part master (Octopart / DigiKey / mock) | **Implemented** |
+| 7 | Trade press RSS (EE Times, DigiTimes) | Planned |
 
 ### EDGAR 8-K
 
@@ -55,6 +58,49 @@ Manufacturer PCN portals are mostly customer-gated. What ships here:
 3. **Micron obsolete catalog collector** — public AEM JSON for obsolete DRAM catalogs; upserts variants as `obsolete` and links them to an `obsolete_catalog` notice. Temperature ranges map to grades (`0C…` → consumer, `-40C…` → industrial, `…125C` → automotive).
 
 Samsung / SK hynix PCNs are not published as open feeds; register those notices manually (or from distributor PDFs) with `catalog pcn-add` until a public source appears.
+
+### Samsung family-status watcher (Step 1)
+
+Polls Samsung Semiconductor **family** pages only (from sitemap). Reads
+`productStatus` / `productModelName` meta tags — never part pages (those
+redirect to family shells with no part-level specs). Status changes and
+first-seen EOL emit `signals` rows with `source=samsung_family_status`.
+
+```bash
+python -m dram_signals once --source samsung_family_status
+# optional cap: DRAM_SIGNALS_SAMSUNG_FAMILY_MAX=10
+```
+
+### Part-number decoder (Step 2)
+
+Offline pure functions — no network. Rules in [`data/partnum_rules.yaml`](data/partnum_rules.yaml)
+(each rule declares its evidence `source`).
+
+```bash
+python -m dram_signals decode K4VAF325ZC-SC28
+python -m dram_signals decode H5AN8G6NCJR-VKC
+```
+
+Decoded family joins to Step 1 status (e.g. a PN whose family is LPDDR4X
+inherits family EOL).
+
+### Distributor part master (Step 3)
+
+Builds a `parts` table (not signals) from:
+
+1. `data/part_seed.txt` (customer / purchase lists)
+2. MPNs mined from existing `signals.raw_text`
+3. Samsung sitemap part-slug MPNs
+
+Enrichment order: **Octopart/Nexar** (`NEXAR_TOKEN` or `OCTOPART_TOKEN`) →
+**DigiKey** (`DIGIKEY_CLIENT_ID` + `DIGIKEY_CLIENT_SECRET`) → **mock** heuristics.
+Results are disk-cached under `data/part_master_cache/` for 7 days. Lifecycle
+changes emit `source=part_lifecycle` signals.
+
+```bash
+# Works offline via mock provider
+DRAM_SIGNALS_PART_MASTER_MOCK=1 python -m dram_signals once --source part_master
+```
 
 ### Catalog host probes & robots.txt
 
@@ -127,7 +173,11 @@ python -m dram_signals once --source lever
 python -m dram_signals once --source workday
 python -m dram_signals once --source icims
 python -m dram_signals once --source micron_obsolete
+python -m dram_signals once --source samsung_family_status
+python -m dram_signals once --source part_master
+python -m dram_signals once --source catalog_watch
 python -m dram_signals once --source edgar --start 2026-09-01 --end 2026-10-16
+python -m dram_signals decode K3KL2L20DM-JGCT
 ```
 
 Schedule (default every 6 hours; runs immediately, then repeats):
@@ -154,6 +204,12 @@ sqlite3 data/signals.db "SELECT source, company_name, keyword FROM signals WHERE
 | `DRAM_SIGNALS_EDGAR_LOOKBACK_DAYS` | `30` | Initial EDGAR lookback |
 | `DRAM_SIGNALS_SCHEDULE_HOURS` | `6` | Schedule interval |
 | `DRAM_SIGNALS_REQUEST_DELAY` | `0.15` | Seconds between HTTP calls |
+| `DRAM_SIGNALS_CATALOG_REQUEST_DELAY` | `2.0` | Delay for Samsung / distributor hosts |
+| `DRAM_SIGNALS_SAMSUNG_FAMILY_MAX` | unset | Cap family pages per run |
+| `DRAM_SIGNALS_PART_MASTER_MAX` | unset | Cap part enrichments per run |
+| `DRAM_SIGNALS_PART_MASTER_MOCK` | unset | Force mock lifecycle provider |
+| `NEXAR_TOKEN` / `OCTOPART_TOKEN` | unset | Octopart/Nexar API token |
+| `DIGIKEY_CLIENT_ID` / `DIGIKEY_CLIENT_SECRET` | unset | DigiKey Product Information v4 |
 | `DRAM_SIGNALS_MAX_RAW_TEXT` | `100000` | Max chars stored per record |
 
 ## Layout
@@ -177,4 +233,6 @@ data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
 data/seed_catalog.json          # example families with grade twins
 scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
 docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
+data/partnum_rules.yaml         # Step 2 PN decode rules (sourced)
+data/part_seed.txt              # Optional customer MPN list for Step 3
 ```

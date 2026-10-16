@@ -5,6 +5,8 @@ from dram_signals.collectors.greenhouse import GreenhouseCollector
 from dram_signals.collectors.icims import IcimsCollector
 from dram_signals.collectors.lever import LeverCollector
 from dram_signals.collectors.micron_obsolete import MicronObsoleteCollector
+from dram_signals.collectors.part_master import PartMasterCollector
+from dram_signals.collectors.samsung_family_status import SamsungFamilyStatusCollector
 from dram_signals.collectors.workday import WorkdayCollector
 
 __all__ = [
@@ -13,5 +15,7 @@ __all__ = [
     "IcimsCollector",
     "LeverCollector",
     "MicronObsoleteCollector",
+    "PartMasterCollector",
+    "SamsungFamilyStatusCollector",
     "WorkdayCollector",
 ]

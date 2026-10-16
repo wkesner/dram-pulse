@@ -1,0 +1,8 @@
+# Optional customer / purchase MPNs for part-master seeding (one per line).
+# Formats: MPN   or   vendor,MPN
+# Lines starting with # are ignored.
+#
+# Examples:
+# K4A8G165WC-BCTD
+# samsung,K3KL2L20DM-JGCT
+# sk_hynix,H5AN8G6NCJR-VKC

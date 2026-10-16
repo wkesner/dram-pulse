@@ -88,4 +88,36 @@ CREATE INDEX IF NOT EXISTS idx_pcn_affected_pcn
 
 CREATE INDEX IF NOT EXISTS idx_pcn_affected_variant
     ON pcn_affected_parts(variant_id);
+
+-- Samsung Semiconductor family-page lifecycle watcher (Step 1)
+CREATE TABLE IF NOT EXISTS samsung_family_state (
+    family_url TEXT PRIMARY KEY,
+    status TEXT,
+    model_name TEXT,
+    category TEXT,
+    subcategory TEXT,
+    date_published TEXT,
+    discontinued_banner INTEGER NOT NULL DEFAULT 0,
+    checked_at TEXT NOT NULL,
+    previous_status TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_samsung_family_status
+    ON samsung_family_state(status);
+
+-- Distributor / API part master (Step 3) — not the signals table
+CREATE TABLE IF NOT EXISTS parts (
+    vendor TEXT NOT NULL,
+    mpn TEXT NOT NULL,
+    decoded_json TEXT,
+    lifecycle_status TEXT,
+    lifecycle_source TEXT,
+    first_seen_at TEXT NOT NULL,
+    last_seen_at TEXT NOT NULL,
+    sources_json TEXT,
+    PRIMARY KEY (vendor, mpn)
+);
+
+CREATE INDEX IF NOT EXISTS idx_parts_lifecycle
+    ON parts(lifecycle_status);
 """

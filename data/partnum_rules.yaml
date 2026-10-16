@@ -1,0 +1,262 @@
+# DRAM / memory part-number decode rules.
+# Each rule must declare a `source` so unverified knowledge stays marked.
+# confidence for a match starts at the rule's confidence; unknown fields stay null.
+
+rules:
+  # --- Samsung component prefixes (confirmed via semiconductor.samsung.com sitemap) ---
+  - id: samsung_k4a_ddr4
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K4A"
+    family: DDR4
+    confidence: high
+
+  - id: samsung_k4r_ddr5
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: component
+    prefix: "K4R"
+    family: DDR5
+    confidence: medium
+
+  - id: samsung_k4f_lpddr4
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K4F"
+    family: LPDDR4
+    confidence: high
+
+  - id: samsung_k4u_lpddr4x
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K4U"
+    family: LPDDR4X
+    confidence: high
+
+  - id: samsung_k3u_lpddr4x
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K3U"
+    family: LPDDR4X
+    confidence: high
+
+  - id: samsung_k3l_lpddr5
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K3L"
+    family: LPDDR5
+    confidence: high
+
+  - id: samsung_k3k_lpddr5x
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K3K"
+    family: LPDDR5X
+    confidence: high
+
+  - id: samsung_k4l_lpddr5x
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: component
+    prefix: "K4L"
+    family: LPDDR5X
+    confidence: medium
+
+  - id: samsung_k4z_gddr6
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: component
+    prefix: "K4Z"
+    family: GDDR6
+    confidence: medium
+
+  - id: samsung_k4v_gddr7
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: component
+    prefix: "K4V"
+    family: GDDR7
+    confidence: high
+
+  - id: samsung_khb_hbm
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: hbm
+    prefix: "KHB"
+    family: HBM
+    confidence: high
+
+  - id: samsung_km_umcp
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: mcp
+    prefix: "KM"
+    family: uMCP
+    confidence: high
+
+  # --- Samsung module prefixes ---
+  - id: samsung_m321_ddr5_rdimm
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: module
+    prefix: "M321"
+    family: DDR5
+    module_type: RDIMM
+    confidence: high
+
+  - id: samsung_m393_ddr4_rdimm
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: module
+    prefix: "M393"
+    family: DDR4
+    module_type: RDIMM
+    confidence: medium
+
+  - id: samsung_m378_udimm
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: module
+    prefix: "M378"
+    family: DDR4
+    module_type: UDIMM
+    confidence: high
+
+  - id: samsung_m323_udimm
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: module
+    prefix: "M323"
+    family: DDR5
+    module_type: UDIMM
+    confidence: medium
+
+  - id: samsung_m471_sodimm
+    source: samsung_sitemap_confirmed
+    vendor: samsung
+    kind: module
+    prefix: "M471"
+    family: DDR4
+    module_type: SODIMM
+    confidence: high
+
+  - id: samsung_m425_sodimm
+    source: general_knowledge_unverified
+    vendor: samsung
+    kind: module
+    prefix: "M425"
+    family: DDR5
+    module_type: SODIMM
+    confidence: medium
+
+  # --- SK hynix (general knowledge; product.skhynix.com robots broken — unverified) ---
+  - id: sk_h5an_ddr4
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H5AN"
+    family: DDR4
+    confidence: medium
+
+  - id: sk_h5ag_ddr4
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H5AG"
+    family: DDR4
+    confidence: medium
+
+  - id: sk_h5cg_ddr5
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H5CG"
+    family: DDR5
+    confidence: medium
+
+  - id: sk_h5cn_ddr5
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H5CN"
+    family: DDR5
+    confidence: medium
+
+  - id: sk_h9h_lpddr
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H9H"
+    family: LPDDR
+    confidence: low
+
+  - id: sk_h9j_lpddr
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H9J"
+    family: LPDDR
+    confidence: low
+
+  - id: sk_h5gq_gddr
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H5GQ"
+    family: GDDR
+    confidence: low
+
+  - id: sk_h56g_gddr
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: component
+    prefix: "H56G"
+    family: GDDR
+    confidence: low
+
+  - id: sk_hmcg_ddr5_module
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: module
+    prefix: "HMCG"
+    family: DDR5
+    confidence: medium
+
+  - id: sk_hma_ddr4_module
+    source: general_knowledge_unverified
+    vendor: sk_hynix
+    kind: module
+    prefix: "HMA"
+    family: DDR4
+    confidence: medium
+
+  # --- Micron (for joining Micron obsolete catalog / EDGAR) ---
+  - id: micron_mt40_ddr4
+    source: micron_catalog_confirmed
+    vendor: micron
+    kind: component
+    prefix: "MT40"
+    family: DDR4
+    confidence: high
+
+  - id: micron_mt62_lpddr5
+    source: micron_catalog_confirmed
+    vendor: micron
+    kind: component
+    prefix: "MT62"
+    family: LPDDR5
+    confidence: high
+
+  - id: micron_mt53_lpddr4
+    source: micron_catalog_confirmed
+    vendor: micron
+    kind: component
+    prefix: "MT53"
+    family: LPDDR4
+    confidence: high

@@ -22,6 +22,15 @@ from dram_signals.collectors.icims import SOURCE as ICIMS_SOURCE
 from dram_signals.collectors.icims import IcimsCollector
 from dram_signals.collectors.micron_obsolete import SOURCE as MICRON_OBSOLETE_SOURCE
 from dram_signals.collectors.micron_obsolete import MicronObsoleteCollector
+from dram_signals.collectors.part_master import (
+    LIFECYCLE_SIGNAL_SOURCE,
+    SOURCE as PART_MASTER_SOURCE,
+)
+from dram_signals.collectors.part_master import PartMasterCollector
+from dram_signals.collectors.samsung_family_status import (
+    SOURCE as SAMSUNG_FAMILY_SOURCE,
+)
+from dram_signals.collectors.samsung_family_status import SamsungFamilyStatusCollector
 from dram_signals.collectors.workday import SOURCE as WORKDAY_SOURCE
 from dram_signals.collectors.workday import WorkdayCollector
 from dram_signals.db import (
@@ -32,10 +41,20 @@ from dram_signals.db import (
     set_collector_state,
     upsert_signals,
 )
+from dram_signals.partnums import decode as decode_pn
 
 logger = logging.getLogger("dram_signals.run")
 
-ALL_SOURCES = ("edgar", "greenhouse", "lever", "workday", "icims", "micron_obsolete")
+ALL_SOURCES = (
+    "edgar",
+    "greenhouse",
+    "lever",
+    "workday",
+    "icims",
+    "micron_obsolete",
+    "samsung_family_status",
+    "part_master",
+)
 SOURCE_ALIASES = {
     "edgar": ("edgar",),
     "edgar_8k": ("edgar",),
@@ -45,7 +64,12 @@ SOURCE_ALIASES = {
     "icims": ("icims",),
     "micron_obsolete": ("micron_obsolete",),
     "pcn": ("micron_obsolete",),
+    "samsung_family_status": ("samsung_family_status",),
+    "samsung": ("samsung_family_status",),
+    "part_master": ("part_master",),
+    "parts": ("part_master",),
     "jobs": ("greenhouse", "lever", "workday", "icims"),
+    "catalog_watch": ("samsung_family_status", "part_master", "micron_obsolete"),
     "all": ALL_SOURCES,
 }
 
@@ -140,6 +164,33 @@ def run_micron_obsolete_once() -> dict[str, int]:
     return stats
 
 
+def run_samsung_family_once() -> dict[str, int]:
+    stats = SamsungFamilyStatusCollector(
+        max_families=config.SAMSUNG_FAMILY_MAX,
+    ).collect()
+    logger.info(
+        "%s run complete: checked=%d changes=%d db=%s",
+        SAMSUNG_FAMILY_SOURCE,
+        stats["families_checked"],
+        stats["status_changes"],
+        config.DB_PATH,
+    )
+    return stats
+
+
+def run_part_master_once() -> dict[str, int]:
+    stats = PartMasterCollector(max_parts=config.PART_MASTER_MAX).collect()
+    logger.info(
+        "%s run complete: seeded=%d looked_up=%d changes=%d db=%s",
+        PART_MASTER_SOURCE,
+        stats["seeded"],
+        stats["looked_up"],
+        stats["lifecycle_changes"],
+        config.DB_PATH,
+    )
+    return stats
+
+
 def run_sources(
     sources: tuple[str, ...],
     *,
@@ -166,6 +217,10 @@ def run_sources(
             run_icims_once()
         elif source == "micron_obsolete":
             run_micron_obsolete_once()
+        elif source == "samsung_family_status":
+            run_samsung_family_once()
+        elif source == "part_master":
+            run_part_master_once()
         else:
             raise ValueError(f"unsupported source: {source}")
 
@@ -218,6 +273,9 @@ def cmd_status(_args: argparse.Namespace) -> int:
         WORKDAY_SOURCE,
         ICIMS_SOURCE,
         MICRON_OBSOLETE_SOURCE,
+        SAMSUNG_FAMILY_SOURCE,
+        LIFECYCLE_SIGNAL_SOURCE,
+        PART_MASTER_SOURCE,
     )
     with db_session(config.DB_PATH) as conn:
         total = count_signals(conn)
@@ -231,6 +289,10 @@ def cmd_status(_args: argparse.Namespace) -> int:
         fam_n = conn.execute("SELECT COUNT(*) AS n FROM part_families").fetchone()["n"]
         var_n = conn.execute("SELECT COUNT(*) AS n FROM part_variants").fetchone()["n"]
         pcn_n = conn.execute("SELECT COUNT(*) AS n FROM pcn_notices").fetchone()["n"]
+        sf_n = conn.execute(
+            "SELECT COUNT(*) AS n FROM samsung_family_state"
+        ).fetchone()["n"]
+        parts_n = conn.execute("SELECT COUNT(*) AS n FROM parts").fetchone()["n"]
         grade_rows = conn.execute(
             """
             SELECT grade, COUNT(*) AS n
@@ -240,6 +302,7 @@ def cmd_status(_args: argparse.Namespace) -> int:
             """
         ).fetchall()
         print(f"catalog families: {fam_n}  variants: {var_n}  pcn_notices: {pcn_n}")
+        print(f"samsung family pages tracked: {sf_n}  part_master rows: {parts_n}")
         if grade_rows:
             grades = ", ".join(f"{r['grade']}={r['n']}" for r in grade_rows)
             print(f"catalog grades: {grades}")
@@ -276,10 +339,22 @@ def _add_source_arg(p: argparse.ArgumentParser, default: str = "all") -> None:
         default=resolve_sources(default),
         help=(
             "Collector(s): edgar, greenhouse, lever, workday, icims, "
-            "micron_obsolete|pcn, jobs, all "
+            "micron_obsolete|pcn, samsung_family_status|samsung, "
+            "part_master|parts, jobs, catalog_watch, all "
             f"(default: {default})"
         ),
     )
+
+
+def cmd_decode(args: argparse.Namespace) -> int:
+    import json
+
+    result = decode_pn(args.mpn)
+    if not result:
+        print(f"no rule matched for {args.mpn!r}")
+        return 1
+    print(json.dumps(result, indent=2, sort_keys=True))
+    return 0
 
 
 def _add_edgar_opts(p: argparse.ArgumentParser) -> None:
@@ -327,6 +402,11 @@ def build_parser() -> argparse.ArgumentParser:
     status = sub.add_parser("status", help="Show DB counts and recent rows")
     _add_verbose(status)
     status.set_defaults(func=cmd_status)
+
+    decode_cmd = sub.add_parser("decode", help="Decode a DRAM/memory part number (Step 2)")
+    _add_verbose(decode_cmd)
+    decode_cmd.add_argument("mpn", help="Manufacturer part number")
+    decode_cmd.set_defaults(func=cmd_decode)
 
     add_catalog_subparser(sub)
 

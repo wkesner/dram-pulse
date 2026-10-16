@@ -29,6 +29,17 @@ REQUEST_DELAY_SECONDS = float(os.environ.get("DRAM_SIGNALS_REQUEST_DELAY", "0.15
 # Schedule interval for the long-running runner (hours)
 SCHEDULE_HOURS = float(os.environ.get("DRAM_SIGNALS_SCHEDULE_HOURS", "6"))
 
+# Samsung family watcher / part master polite delay (seconds per host)
+CATALOG_REQUEST_DELAY_SECONDS = float(
+    os.environ.get("DRAM_SIGNALS_CATALOG_REQUEST_DELAY", "2.0")
+)
+
+# Cap Samsung family pages per run (None / 0 = all from sitemap)
+SAMSUNG_FAMILY_MAX = int(os.environ.get("DRAM_SIGNALS_SAMSUNG_FAMILY_MAX", "0")) or None
+
+# Cap part-master enrichments per run (None / 0 = all seeds)
+PART_MASTER_MAX = int(os.environ.get("DRAM_SIGNALS_PART_MASTER_MAX", "0")) or None
+
 # EDGAR full-text search
 EDGAR_SEARCH_URL = "https://efts.sec.gov/LATEST/search-index"
 EDGAR_FORMS = "8-K"
