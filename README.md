@@ -103,6 +103,23 @@ changes emit `source=part_lifecycle` signals.
 DRAM_SIGNALS_PART_MASTER_MOCK=1 python -m dram_signals once --source part_master
 ```
 
+### Airtable export (hub for Clay)
+
+Airtable is the shared public-signals hub; Clay enriches Companies only.
+See [`docs/airtable-clay-sync.md`](docs/airtable-clay-sync.md).
+
+```bash
+export AIRTABLE_TOKEN=pat...          # data.records:read + write on one base
+export AIRTABLE_BASE_ID=app...
+python3 export_airtable.py --dry-run --limit 3
+python3 export_airtable.py --limit 3  # real upsert; watermark on success
+python3 export_airtable.py            # incremental via changed_at
+python3 export_csv.py --out data/export_signals.csv   # Clay CSV fallback
+```
+
+Never overwrites human fields (Review, Side, …) or Clay enrichment fields.
+`dramx_*` rows get Internal Only = true.
+
 ### Lead scoring (rubric v1)
 
 Score **leads** (company × supply/demand), not raw documents. After hard gates:

@@ -7,6 +7,7 @@ venv/
 data/*.db
 data/*.db-*
 data/part_master_cache/
+data/export_signals.csv
 *.log
 .DS_Store
 .pytest_cache/
