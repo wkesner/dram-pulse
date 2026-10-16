@@ -1,0 +1,24 @@
+# Starting regime per product family (rubric section 4.2)
+# Flip LPDDR / consumer DDR4 toward balanced when spot turns down.
+families:
+  DDR4:
+    regime: shortage
+    notes: "Aug 2026 TrendForce reporting — contract up, spot high, majors' EOL tightens DDR4"
+  DDR5:
+    regime: shortage
+    notes: "Commodity DRAM overall tight (inferred for DDR5 specifically)"
+  HBM:
+    regime: shortage
+    notes: "Structural — three suppliers control supply"
+  LPDDR4:
+    regime: shortage
+    notes: "Watch for Chinese supply easing consumer side"
+  LPDDR5:
+    regime: shortage
+    notes: "Watch for Chinese supply easing consumer side"
+  GDDR:
+    regime: balanced
+    notes: "Unknown; scored for now — may pull later as unified memory spreads"
+  unknown:
+    regime: balanced
+    notes: "Default when family unresolved"

@@ -1,0 +1,21 @@
+# Market-level allocation (M1). Hand-maintained in v1.
+# active: true adds Timing +5 (cap 10) to every demand lead in that family.
+families:
+  DDR4:
+    active: false
+    source: null
+  DDR5:
+    active: false
+    source: null
+  LPDDR4:
+    active: false
+    source: null
+  LPDDR5:
+    active: false
+    source: null
+  GDDR:
+    active: false
+    source: null
+  HBM:
+    active: false
+    source: null

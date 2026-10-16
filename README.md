@@ -22,7 +22,8 @@ Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources a
 | 4 | Samsung family-status watcher | **Implemented** |
 | 5 | Part-number decoder (offline) | **Implemented** |
 | 6 | Distributor part master (Octopart / DigiKey / mock) | **Implemented** |
-| 7 | Trade press RSS (EE Times, DigiTimes) | Planned |
+| 7 | Lead scorer (classify → S+F+T → tier) | **Implemented (v1)** |
+| 8 | Trade press RSS (EE Times, DigiTimes) | Planned |
 
 ### EDGAR 8-K
 
@@ -101,6 +102,23 @@ changes emit `source=part_lifecycle` signals.
 # Works offline via mock provider
 DRAM_SIGNALS_PART_MASTER_MOCK=1 python -m dram_signals once --source part_master
 ```
+
+### Lead scoring (rubric v1)
+
+Score **leads** (company × supply/demand), not raw documents. After hard gates:
+
+`Signal strength (0–45) + Fit (0–35) + Timing (0–20) → 0–100 → tier A/B/C/D`
+
+```bash
+python -m dram_signals score seed          # regime, end-build map, market allocation
+python -m dram_signals score examples      # section 4.6 worked examples
+python -m dram_signals score run           # classify raw signals + score + snapshot
+python -m dram_signals score status
+```
+
+Design index: [`docs/scoring-rubric.md`](docs/scoring-rubric.md). Hand tables live in `data/scoring/`. Spot prices from unlicensed free indexes stay **internal only**; customer Timing market-movement uses broker quotes / licensed feeds only.
+
+Broker isolation: `broker_id` on companies, typed signals, purchase log, allocation letters, and snapshots. Public signals are shared; broker-entered data never crosses workspaces.
 
 ### Catalog host probes & robots.txt
 
@@ -235,4 +253,7 @@ scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
 docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
 data/partnum_rules.yaml         # Step 2 PN decode rules (sourced)
 data/part_seed.txt              # Optional customer MPN list for Step 3
+data/scoring/                   # regime, market_allocation, end_build_map YAML
+dram_signals/scoring/           # classify, formula, scorer, snapshots, CLI
+docs/scoring-rubric.md          # Engineering index for the lead rubric
 ```

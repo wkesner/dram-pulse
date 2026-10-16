@@ -18,6 +18,7 @@ from dram_signals.collectors.greenhouse import GreenhouseCollector
 from dram_signals.collectors.lever import SOURCE as LEVER_SOURCE
 from dram_signals.collectors.lever import LeverCollector
 from dram_signals.catalog.cli import add_catalog_subparser
+from dram_signals.scoring.cli import add_score_subparser
 from dram_signals.collectors.icims import SOURCE as ICIMS_SOURCE
 from dram_signals.collectors.icims import IcimsCollector
 from dram_signals.collectors.micron_obsolete import SOURCE as MICRON_OBSOLETE_SOURCE
@@ -409,6 +410,7 @@ def build_parser() -> argparse.ArgumentParser:
     decode_cmd.set_defaults(func=cmd_decode)
 
     add_catalog_subparser(sub)
+    add_score_subparser(sub)
 
     return parser
 

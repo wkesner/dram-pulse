@@ -1,0 +1,30 @@
+# Part → end-build map (section 2.1). Shared default; brokers refine privately.
+# match_strength: core | adjacent
+families:
+  DDR4:
+    - {end_build: industrial, match_strength: core}
+    - {end_build: networking_telecom, match_strength: core}
+    - {end_build: legacy_servers, match_strength: core}
+    - {end_build: embedded, match_strength: core}
+    - {end_build: automotive_infotainment, match_strength: adjacent}
+  DDR5:
+    - {end_build: current_servers, match_strength: core}
+    - {end_build: ai_servers, match_strength: core}
+    - {end_build: pcs, match_strength: core}
+  LPDDR4:
+    - {end_build: phones, match_strength: core}
+    - {end_build: tablets, match_strength: core}
+    - {end_build: automotive, match_strength: core}
+    - {end_build: edge_iot, match_strength: core}
+  LPDDR5:
+    - {end_build: phones, match_strength: core}
+    - {end_build: tablets, match_strength: core}
+    - {end_build: automotive, match_strength: core}
+    - {end_build: edge_iot, match_strength: core}
+  GDDR:
+    - {end_build: consoles, match_strength: core}
+    - {end_build: workstations, match_strength: core}
+  HBM:
+    - {end_build: ai_accelerators, match_strength: core}
+    - {end_build: hpc, match_strength: core}
+    - {end_build: high_end_datacenter_gpu, match_strength: core}

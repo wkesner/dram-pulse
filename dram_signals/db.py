@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Iterator, Optional
 
 from dram_signals.catalog.schema import CATALOG_SCHEMA
+from dram_signals.scoring.schema import SCORING_SCHEMA
 
 
 SCHEMA = """
@@ -37,7 +38,7 @@ CREATE TABLE IF NOT EXISTS collector_state (
     last_run_at TEXT,
     watermark TEXT
 );
-""" + CATALOG_SCHEMA
+""" + CATALOG_SCHEMA + SCORING_SCHEMA
 
 
 @dataclass(frozen=True)
