@@ -11,14 +11,12 @@ from __future__ import annotations
 import logging
 import re
 from datetime import date, datetime, timedelta, timezone
-from html import unescape
 from typing import Any, Optional
-
-from bs4 import BeautifulSoup
 
 from dram_signals import config
 from dram_signals.db import SignalRecord
 from dram_signals.http_client import HttpClient
+from dram_signals.textutil import html_to_text
 
 logger = logging.getLogger(__name__)
 
@@ -32,8 +30,6 @@ _DISPLAY_NAME_RE = re.compile(
     r"^(?P<name>.*?)\s*(?:\([A-Z0-9.,\-\s]+\))?\s*(?:\(CIK\s+\d+\))?\s*$",
     re.IGNORECASE,
 )
-_TAG_RE = re.compile(r"<[^>]+>")
-_WS_RE = re.compile(r"\s+")
 
 
 class EdgarCollector:
@@ -188,20 +184,11 @@ class EdgarCollector:
 
     def _fetch_raw_text(self, url: str) -> str:
         html = self.client.get_text(url)
-        return self._html_to_text(html)[: config.MAX_RAW_TEXT_CHARS]
+        return html_to_text(html)[: config.MAX_RAW_TEXT_CHARS]
 
     @staticmethod
     def _html_to_text(html: str) -> str:
-        # Prefer BeautifulSoup for HTML/SGML EDGAR wrappers; fall back to strip tags.
-        try:
-            soup = BeautifulSoup(html, "lxml")
-            for tag in soup(["script", "style"]):
-                tag.decompose()
-            text = soup.get_text(separator=" ")
-        except Exception:
-            text = _TAG_RE.sub(" ", html)
-        text = unescape(text)
-        return _WS_RE.sub(" ", text).strip()
+        return html_to_text(html)
 
     @staticmethod
     def _metadata_stub(source: dict[str, Any], keyword: str, filename: str) -> str:

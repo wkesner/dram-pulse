@@ -1,0 +1,101 @@
+{
+  "greenhouse": [
+    {
+      "token": "skhynixamerica",
+      "company_name": "SK hynix America",
+      "notes": "DRAM manufacturer (US hiring board)"
+    },
+    {
+      "token": "samsungsemiconductor",
+      "company_name": "Samsung Semiconductor",
+      "notes": "Memory / semiconductor hiring board"
+    },
+    {
+      "token": "tenstorrent",
+      "company_name": "Tenstorrent",
+      "notes": "AI accelerator — DRAM buyer"
+    },
+    {
+      "token": "sambanovasystems",
+      "company_name": "SambaNova Systems",
+      "notes": "AI systems — DRAM buyer"
+    },
+    {
+      "token": "graphcore",
+      "company_name": "Graphcore",
+      "notes": "AI accelerator — DRAM buyer"
+    },
+    {
+      "token": "coreweave",
+      "company_name": "CoreWeave",
+      "notes": "GPU cloud — DRAM / HBM demand"
+    },
+    {
+      "token": "xai",
+      "company_name": "xAI",
+      "notes": "AI lab / cluster buildout"
+    },
+    {
+      "token": "asteralabs",
+      "company_name": "Astera Labs",
+      "notes": "Connectivity semiconductor"
+    },
+    {
+      "token": "purestorage",
+      "company_name": "Pure Storage",
+      "notes": "Storage systems"
+    },
+    {
+      "token": "vast",
+      "company_name": "VAST Data",
+      "notes": "Storage systems"
+    },
+    {
+      "token": "lattice",
+      "company_name": "Lattice Semiconductor",
+      "notes": "FPGA"
+    },
+    {
+      "token": "flex",
+      "company_name": "Flex",
+      "notes": "Electronics manufacturing services"
+    },
+    {
+      "token": "lucidmotors",
+      "company_name": "Lucid Motors",
+      "notes": "EV — electronics / memory demand"
+    },
+    {
+      "token": "figureai",
+      "company_name": "Figure AI",
+      "notes": "Robotics — electronics demand"
+    },
+    {
+      "token": "nuro",
+      "company_name": "Nuro",
+      "notes": "Autonomy — electronics demand"
+    },
+    {
+      "token": "rocketlab",
+      "company_name": "Rocket Lab",
+      "notes": "Aerospace electronics"
+    }
+  ],
+  "lever": [
+    {
+      "token": "plexus",
+      "company_name": "Plexus",
+      "notes": "Electronics manufacturing services"
+    },
+    {
+      "token": "shieldai",
+      "company_name": "Shield AI",
+      "notes": "Defense autonomy — electronics / supply chain"
+    },
+    {
+      "token": "palantir",
+      "company_name": "Palantir",
+      "notes": "Procurement roles; software with hardware programs"
+    }
+  ]
+}

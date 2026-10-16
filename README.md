@@ -1,13 +1,13 @@
 # DRAM Signal Pipeline
 
-Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources are pulled into a local SQLite table of normalized records; a later classification step will tag demand-side vs supply-side. Collectors capture broadly and do not filter.
+Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources are pulled into a local SQLite table of normalized records; a later classification step will tag demand-side vs supply-side. Collectors intentionally capture broadly at the source level — job collectors only apply the title keyword gate from the brief, not demand/supply labels.
 
 ## Record shape
 
 | Column | Meaning |
 |--------|---------|
-| `source` | Collector id (`edgar_8k`, later `greenhouse`, `lever`, …) |
-| `timestamp` | Event / filing time (ISO-8601 UTC) |
+| `source` | Collector id (`edgar_8k`, `greenhouse`, `lever`, …) |
+| `timestamp` | Event / filing / posting time (ISO-8601 UTC) |
 | `company_name` | Filing entity or employer |
 | `raw_text` | Document / posting body |
 | `url` | Canonical public URL |
@@ -17,7 +17,7 @@ Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources a
 | Order | Source | Status |
 |-------|--------|--------|
 | 1 | SEC EDGAR 8-K (full-text search) | **Implemented** |
-| 2 | Greenhouse / Lever job postings | Planned |
+| 2 | Greenhouse / Lever job postings | **Implemented** |
 | 3 | Manufacturer PCN/EOL (Micron, Samsung, SK hynix) | Planned |
 | 4 | Trade press RSS (EE Times, DigiTimes) | Planned |
 
@@ -32,6 +32,17 @@ Uses the public full-text search API at `https://efts.sec.gov/LATEST/search-inde
 - `DRAM`
 
 Matching documents are fetched from `sec.gov` Archives, HTML is stripped to plain text, and rows are upserted by `(source, accession:filename)`.
+
+### Greenhouse / Lever jobs
+
+Public board APIs (no auth):
+
+- Greenhouse: `GET https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true`
+- Lever: `GET https://api.lever.co/v0/postings/{token}?mode=json`
+
+Title must contain one of: **buyer**, **procurement**, **commodity manager**, **supply chain**. Matching posts store title + location + description as `raw_text`.
+
+Board tokens live in [`data/job_boards.json`](data/job_boards.json) — a curated DRAM-ecosystem list (SK hynix America, Samsung Semiconductor, AI hardware buyers, EMS, storage, etc.). Add tokens there as you discover more boards.
 
 ## Setup
 
@@ -49,30 +60,32 @@ export DRAM_SIGNALS_USER_AGENT="YourOrg DRAMSignals/0.1 (you@example.com)"
 
 ## Usage
 
-Run once (default: last 30 days, or since the stored watermark):
+Run everything once:
 
 ```bash
 python -m dram_signals once
 ```
 
-Narrow the window or skip document downloads (metadata only):
+Run only job collectors, or a single ATS:
 
 ```bash
-python -m dram_signals once --start 2026-09-01 --end 2026-10-16
-python -m dram_signals once --metadata-only --lookback-days 7
+python -m dram_signals once --source jobs
+python -m dram_signals once --source greenhouse
+python -m dram_signals once --source lever
+python -m dram_signals once --source edgar --start 2026-09-01 --end 2026-10-16
 ```
 
-Run on a schedule (default every 6 hours; runs immediately, then repeats):
+Schedule (default every 6 hours; runs immediately, then repeats):
 
 ```bash
-python -m dram_signals schedule --every-hours 6
+python -m dram_signals schedule --source all --every-hours 6
 ```
 
 Inspect the database:
 
 ```bash
 python -m dram_signals status
-sqlite3 data/signals.db "SELECT company_name, timestamp, keyword FROM signals LIMIT 10;"
+sqlite3 data/signals.db "SELECT source, company_name, keyword FROM signals WHERE source IN ('greenhouse','lever');"
 ```
 
 ## Configuration
@@ -82,7 +95,8 @@ sqlite3 data/signals.db "SELECT company_name, timestamp, keyword FROM signals LI
 | `DRAM_SIGNALS_USER_AGENT` | placeholder research UA | Required for SEC access |
 | `DRAM_SIGNALS_DB` | `data/signals.db` | SQLite path |
 | `DRAM_SIGNALS_DATA_DIR` | `data/` | Data directory |
-| `DRAM_SIGNALS_EDGAR_LOOKBACK_DAYS` | `30` | Initial lookback |
+| `DRAM_SIGNALS_BOARDS_FILE` | `data/job_boards.json` | Greenhouse/Lever board list |
+| `DRAM_SIGNALS_EDGAR_LOOKBACK_DAYS` | `30` | Initial EDGAR lookback |
 | `DRAM_SIGNALS_SCHEDULE_HOURS` | `6` | Schedule interval |
 | `DRAM_SIGNALS_REQUEST_DELAY` | `0.15` | Seconds between HTTP calls |
 | `DRAM_SIGNALS_MAX_RAW_TEXT` | `100000` | Max chars stored per record |
@@ -91,10 +105,14 @@ sqlite3 data/signals.db "SELECT company_name, timestamp, keyword FROM signals LI
 
 ```
 dram_signals/
-  config.py           # paths, keywords, knobs
-  db.py               # SQLite schema + upsert
-  http_client.py      # throttled requests session
-  collectors/edgar.py # EDGAR 8-K collector
-  __main__.py         # once | schedule | status
-data/                 # created at runtime (gitignored DB)
+  config.py                 # paths, keywords, knobs
+  db.py                     # SQLite schema + upsert
+  http_client.py            # throttled requests session
+  boards.py                 # load data/job_boards.json
+  job_titles.py             # buyer/procurement/… title gate
+  collectors/edgar.py       # EDGAR 8-K
+  collectors/greenhouse.py  # Greenhouse Job Board API
+  collectors/lever.py       # Lever Postings API
+  __main__.py               # once | schedule | status
+data/job_boards.json        # curated ATS board tokens
 ```
