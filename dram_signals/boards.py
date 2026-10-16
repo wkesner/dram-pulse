@@ -15,11 +15,12 @@ from dram_signals import config
 class Board:
     """One public ATS job board to scrape."""
 
-    provider: str  # "greenhouse" | "lever" | "workday"
+    provider: str  # "greenhouse" | "lever" | "workday" | "icims"
     token: str
     company_name: str
     notes: str = ""
     cxs_jobs_url: Optional[str] = None  # Workday CXS jobs endpoint
+    host: Optional[str] = None  # iCIMS careers host, e.g. careers-rambus.icims.com
 
 
 def default_boards_path() -> Path:
@@ -33,7 +34,7 @@ def load_boards(path: Path | None = None) -> list[Board]:
     boards_path = path or default_boards_path()
     raw: dict[str, Any] = json.loads(boards_path.read_text(encoding="utf-8"))
     boards: list[Board] = []
-    for provider in ("greenhouse", "lever", "workday"):
+    for provider in ("greenhouse", "lever", "workday", "icims"):
         for entry in raw.get(provider, []):
             boards.append(
                 Board(
@@ -42,6 +43,7 @@ def load_boards(path: Path | None = None) -> list[Board]:
                     company_name=entry["company_name"],
                     notes=entry.get("notes", ""),
                     cxs_jobs_url=entry.get("cxs_jobs_url"),
+                    host=entry.get("host"),
                 )
             )
     return boards

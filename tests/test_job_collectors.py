@@ -22,6 +22,7 @@ def test_load_boards_includes_dram_makers() -> None:
     greenhouse = {b.token for b in boards if b.provider == "greenhouse"}
     lever = {b.token for b in boards if b.provider == "lever"}
     workday = {b.token: b for b in boards if b.provider == "workday"}
+    icims = {b.token: b for b in boards if b.provider == "icims"}
     assert "skhynixamerica" in greenhouse
     assert "samsungsemiconductor" in greenhouse
     assert "tenstorrent" in greenhouse
@@ -33,6 +34,10 @@ def test_load_boards_includes_dram_makers() -> None:
     assert "jabil" in workday
     assert "flextronics" in workday
     assert workday["micron"].cxs_jobs_url is not None
+    assert "rambus" in icims
+    assert "hamiltoncompany" in icims
+    assert "strattec" in icims
+    assert icims["rambus"].host == "careers-rambus.icims.com"
 
 
 def test_greenhouse_job_to_record_filters_and_decodes() -> None:
@@ -100,4 +105,37 @@ def test_workday_url_helpers() -> None:
     )
     public = WorkdayCollector._public_job_url(jobs, path)
     assert public.startswith("https://micron.wd1.myworkdayjobs.com/External/")
+
+
+def test_icims_parse_job_posting_and_location() -> None:
+    from dram_signals.collectors.icims import IcimsCollector
+
+    html = """
+    <html><head>
+    <script type="application/ld+json">
+    {
+      "@type": "JobPosting",
+      "title": "Senior Buyer",
+      "description": "<p>Buy DRAM and NAND.</p>",
+      "datePosted": "2026-10-01T12:00:00.000Z",
+      "url": "https://careers-example.icims.com/jobs/1/senior-buyer/job",
+      "hiringOrganization": {"name": "Example Corp"},
+      "jobLocation": {
+        "address": {
+          "addressLocality": "Austin",
+          "addressRegion": "TX",
+          "addressCountry": "US",
+          "postalCode": "UNAVAILABLE"
+        }
+      }
+    }
+    </script>
+    </head></html>
+    """
+    posting = IcimsCollector._parse_job_posting(html)
+    assert posting is not None
+    assert posting["title"] == "Senior Buyer"
+    assert IcimsCollector._format_location(posting["jobLocation"]) == "Austin, TX, US"
+    assert "UNAVAILABLE" not in IcimsCollector._format_location(posting["jobLocation"])
+
 

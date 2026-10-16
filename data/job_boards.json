@@ -210,5 +210,25 @@
       "cxs_jobs_url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/jobs",
       "notes": "Semiconductor process control / equipment"
     }
+  ],
+  "icims": [
+    {
+      "token": "rambus",
+      "company_name": "Rambus",
+      "host": "careers-rambus.icims.com",
+      "notes": "Memory interface IP / chips — DRAM-adjacent"
+    },
+    {
+      "token": "hamiltoncompany",
+      "company_name": "Hamilton Company",
+      "host": "careers-hamiltoncompany.icims.com",
+      "notes": "Precision instruments — PCBA / electronics commodity roles"
+    },
+    {
+      "token": "strattec",
+      "company_name": "Strattec Security",
+      "host": "careers-strattec.icims.com",
+      "notes": "Automotive electronics / security systems"
+    }
   ]
 }
