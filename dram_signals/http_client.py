@@ -36,9 +36,27 @@ class HttpClient:
         if elapsed < self.delay_seconds:
             time.sleep(self.delay_seconds - elapsed)
 
-    def get_json(self, url: str, params: Optional[dict[str, Any]] = None) -> dict[str, Any]:
+    def get_json(self, url: str, params: Optional[dict[str, Any]] = None) -> Any:
         self._throttle()
         response = self.session.get(url, params=params, timeout=self.timeout)
+        self._last_request_at = time.monotonic()
+        response.raise_for_status()
+        return response.json()
+
+    def post_json(
+        self,
+        url: str,
+        payload: dict[str, Any],
+        params: Optional[dict[str, Any]] = None,
+    ) -> Any:
+        self._throttle()
+        response = self.session.post(
+            url,
+            params=params,
+            json=payload,
+            headers={"Accept": "application/json", "Content-Type": "application/json"},
+            timeout=self.timeout,
+        )
         self._last_request_at = time.monotonic()
         response.raise_for_status()
         return response.json()

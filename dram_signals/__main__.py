@@ -17,6 +17,8 @@ from dram_signals.collectors.greenhouse import SOURCE as GREENHOUSE_SOURCE
 from dram_signals.collectors.greenhouse import GreenhouseCollector
 from dram_signals.collectors.lever import SOURCE as LEVER_SOURCE
 from dram_signals.collectors.lever import LeverCollector
+from dram_signals.collectors.workday import SOURCE as WORKDAY_SOURCE
+from dram_signals.collectors.workday import WorkdayCollector
 from dram_signals.db import (
     SignalRecord,
     count_signals,
@@ -28,13 +30,14 @@ from dram_signals.db import (
 
 logger = logging.getLogger("dram_signals.run")
 
-ALL_SOURCES = ("edgar", "greenhouse", "lever")
+ALL_SOURCES = ("edgar", "greenhouse", "lever", "workday")
 SOURCE_ALIASES = {
     "edgar": ("edgar",),
     "edgar_8k": ("edgar",),
     "greenhouse": ("greenhouse",),
     "lever": ("lever",),
-    "jobs": ("greenhouse", "lever"),
+    "workday": ("workday",),
+    "jobs": ("greenhouse", "lever", "workday"),
     "all": ALL_SOURCES,
 }
 
@@ -109,6 +112,10 @@ def run_lever_once() -> int:
     return _persist(LEVER_SOURCE, LeverCollector().collect())
 
 
+def run_workday_once() -> int:
+    return _persist(WORKDAY_SOURCE, WorkdayCollector().collect())
+
+
 def run_sources(
     sources: tuple[str, ...],
     *,
@@ -129,6 +136,8 @@ def run_sources(
             run_greenhouse_once()
         elif source == "lever":
             run_lever_once()
+        elif source == "workday":
+            run_workday_once()
         else:
             raise ValueError(f"unsupported source: {source}")
 
@@ -174,7 +183,7 @@ def cmd_schedule(args: argparse.Namespace) -> int:
 
 
 def cmd_status(_args: argparse.Namespace) -> int:
-    source_ids = (EDGAR_SOURCE, GREENHOUSE_SOURCE, LEVER_SOURCE)
+    source_ids = (EDGAR_SOURCE, GREENHOUSE_SOURCE, LEVER_SOURCE, WORKDAY_SOURCE)
     with db_session(config.DB_PATH) as conn:
         total = count_signals(conn)
         print(f"db: {config.DB_PATH}")
@@ -215,8 +224,8 @@ def _add_source_arg(p: argparse.ArgumentParser, default: str = "all") -> None:
         type=resolve_sources,
         default=resolve_sources(default),
         help=(
-            "Collector(s) to run: edgar, greenhouse, lever, jobs "
-            f"(greenhouse+lever), all (default: {default})"
+            "Collector(s) to run: edgar, greenhouse, lever, workday, jobs "
+            f"(greenhouse+lever+workday), all (default: {default})"
         ),
     )
 
@@ -240,7 +249,7 @@ def _add_edgar_opts(p: argparse.ArgumentParser) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="dram_signals",
-        description="DRAM market signal collectors (EDGAR, Greenhouse, Lever).",
+        description="DRAM market signal collectors (EDGAR, Greenhouse, Lever, Workday).",
     )
     _add_verbose(parser)
     sub = parser.add_subparsers(dest="command", required=True)

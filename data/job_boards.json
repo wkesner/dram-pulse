@@ -56,14 +56,49 @@
       "notes": "FPGA"
     },
     {
-      "token": "flex",
-      "company_name": "Flex",
+      "token": "lgelectronics",
+      "company_name": "LG Electronics",
+      "notes": "Consumer / automotive electronics"
+    },
+    {
+      "token": "imi",
+      "company_name": "Integrated Micro-Electronics (IMI)",
       "notes": "Electronics manufacturing services"
+    },
+    {
+      "token": "method",
+      "company_name": "Method",
+      "notes": "Electronics / industrial"
+    },
+    {
+      "token": "flex",
+      "company_name": "Flex (Greenhouse board)",
+      "notes": "EMS — small public GH board; prefer Workday Flex entry for coverage"
     },
     {
       "token": "lucidmotors",
       "company_name": "Lucid Motors",
-      "notes": "EV — electronics / memory demand"
+      "notes": "EV manufacturer"
+    },
+    {
+      "token": "waymo",
+      "company_name": "Waymo",
+      "notes": "Autonomy — electronics demand"
+    },
+    {
+      "token": "motional",
+      "company_name": "Motional",
+      "notes": "Autonomy — electronics demand"
+    },
+    {
+      "token": "chargepoint",
+      "company_name": "ChargePoint",
+      "notes": "EV charging hardware"
+    },
+    {
+      "token": "solidpower",
+      "company_name": "Solid Power",
+      "notes": "Solid-state battery"
     },
     {
       "token": "figureai",
@@ -79,6 +114,11 @@
       "token": "rocketlab",
       "company_name": "Rocket Lab",
       "notes": "Aerospace electronics"
+    },
+    {
+      "token": "spacex",
+      "company_name": "SpaceX",
+      "notes": "Aerospace / electronics manufacturing"
     }
   ],
   "lever": [
@@ -86,6 +126,11 @@
       "token": "plexus",
       "company_name": "Plexus",
       "notes": "Electronics manufacturing services"
+    },
+    {
+      "token": "zoox",
+      "company_name": "Zoox",
+      "notes": "Autonomy / automotive"
     },
     {
       "token": "shieldai",
@@ -96,6 +141,74 @@
       "token": "palantir",
       "company_name": "Palantir",
       "notes": "Procurement roles; software with hardware programs"
+    }
+  ],
+  "workday": [
+    {
+      "token": "micron",
+      "company_name": "Micron Technology",
+      "cxs_jobs_url": "https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
+      "notes": "DRAM manufacturer (Workday; not on Greenhouse/Lever)"
+    },
+    {
+      "token": "jabil",
+      "company_name": "Jabil",
+      "cxs_jobs_url": "https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs",
+      "notes": "Major EMS"
+    },
+    {
+      "token": "flextronics",
+      "company_name": "Flex",
+      "cxs_jobs_url": "https://flextronics.wd1.myworkdayjobs.com/wday/cxs/flextronics/Careers/jobs",
+      "notes": "Major EMS"
+    },
+    {
+      "token": "creationtech",
+      "company_name": "Creation Technologies",
+      "cxs_jobs_url": "https://creationtech.wd1.myworkdayjobs.com/wday/cxs/creationtech/Creation/jobs",
+      "notes": "EMS"
+    },
+    {
+      "token": "magna",
+      "company_name": "Magna International",
+      "cxs_jobs_url": "https://magna.wd3.myworkdayjobs.com/wday/cxs/magna/Magna/jobs",
+      "notes": "Automotive supplier"
+    },
+    {
+      "token": "valeo",
+      "company_name": "Valeo",
+      "cxs_jobs_url": "https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs",
+      "notes": "Automotive supplier"
+    },
+    {
+      "token": "aptiv",
+      "company_name": "Aptiv",
+      "cxs_jobs_url": "https://aptiv.wd5.myworkdayjobs.com/wday/cxs/aptiv/Aptiv_Careers/jobs",
+      "notes": "Automotive electronics / ADAS"
+    },
+    {
+      "token": "nxp",
+      "company_name": "NXP Semiconductors",
+      "cxs_jobs_url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+      "notes": "Automotive / embedded semiconductor"
+    },
+    {
+      "token": "analogdevices",
+      "company_name": "Analog Devices",
+      "cxs_jobs_url": "https://analogdevices.wd1.myworkdayjobs.com/wday/cxs/analogdevices/External/jobs",
+      "notes": "Analog / mixed-signal semiconductor"
+    },
+    {
+      "token": "amat",
+      "company_name": "Applied Materials",
+      "cxs_jobs_url": "https://amat.wd1.myworkdayjobs.com/wday/cxs/amat/External/jobs",
+      "notes": "Semiconductor capital equipment"
+    },
+    {
+      "token": "kla",
+      "company_name": "KLA",
+      "cxs_jobs_url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/jobs",
+      "notes": "Semiconductor process control / equipment"
     }
   ]
 }

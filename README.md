@@ -17,7 +17,7 @@ Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources a
 | Order | Source | Status |
 |-------|--------|--------|
 | 1 | SEC EDGAR 8-K (full-text search) | **Implemented** |
-| 2 | Greenhouse / Lever job postings | **Implemented** |
+| 2 | Greenhouse / Lever / Workday job postings | **Implemented** |
 | 3 | Manufacturer PCN/EOL (Micron, Samsung, SK hynix) | Planned |
 | 4 | Trade press RSS (EE Times, DigiTimes) | Planned |
 
@@ -33,16 +33,17 @@ Uses the public full-text search API at `https://efts.sec.gov/LATEST/search-inde
 
 Matching documents are fetched from `sec.gov` Archives, HTML is stripped to plain text, and rows are upserted by `(source, accession:filename)`.
 
-### Greenhouse / Lever jobs
+### Job boards (Greenhouse / Lever / Workday)
 
 Public board APIs (no auth):
 
 - Greenhouse: `GET https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true`
 - Lever: `GET https://api.lever.co/v0/postings/{token}?mode=json`
+- Workday CXS: `POST {cxs_jobs_url}` then detail GET (used for Micron, Jabil, Flex, Magna, Valeo, Aptiv, NXP, ADI, Applied Materials, KLA, …)
 
 Title must contain one of: **buyer**, **procurement**, **commodity manager**, **supply chain**. Matching posts store title + location + description as `raw_text`.
 
-Board tokens live in [`data/job_boards.json`](data/job_boards.json) — a curated DRAM-ecosystem list (SK hynix America, Samsung Semiconductor, AI hardware buyers, EMS, storage, etc.). Add tokens there as you discover more boards.
+Board configs live in [`data/job_boards.json`](data/job_boards.json). Micron is on Workday (not Greenhouse/Lever). Major EMS and automotive/electronics OEMs are included where a public ATS endpoint was found — add more tokens/URLs there as you discover them.
 
 ## Setup
 
@@ -72,6 +73,7 @@ Run only job collectors, or a single ATS:
 python -m dram_signals once --source jobs
 python -m dram_signals once --source greenhouse
 python -m dram_signals once --source lever
+python -m dram_signals once --source workday
 python -m dram_signals once --source edgar --start 2026-09-01 --end 2026-10-16
 ```
 
@@ -113,6 +115,7 @@ dram_signals/
   collectors/edgar.py       # EDGAR 8-K
   collectors/greenhouse.py  # Greenhouse Job Board API
   collectors/lever.py       # Lever Postings API
+  collectors/workday.py     # Workday CXS careers API
   __main__.py               # once | schedule | status
-data/job_boards.json        # curated ATS board tokens
+data/job_boards.json        # curated ATS board tokens / CXS URLs
 ```

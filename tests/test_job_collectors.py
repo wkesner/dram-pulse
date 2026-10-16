@@ -21,10 +21,18 @@ def test_load_boards_includes_dram_makers() -> None:
     boards = load_boards()
     greenhouse = {b.token for b in boards if b.provider == "greenhouse"}
     lever = {b.token for b in boards if b.provider == "lever"}
+    workday = {b.token: b for b in boards if b.provider == "workday"}
     assert "skhynixamerica" in greenhouse
     assert "samsungsemiconductor" in greenhouse
     assert "tenstorrent" in greenhouse
+    assert "waymo" in greenhouse
+    assert "spacex" in greenhouse
     assert "shieldai" in lever
+    assert "zoox" in lever
+    assert "micron" in workday
+    assert "jabil" in workday
+    assert "flextronics" in workday
+    assert workday["micron"].cxs_jobs_url is not None
 
 
 def test_greenhouse_job_to_record_filters_and_decodes() -> None:
@@ -80,3 +88,16 @@ def test_html_to_text_double_encoded() -> None:
     assert "Hello" in text
     assert "welcome" in text
     assert "<" not in text
+
+
+def test_workday_url_helpers() -> None:
+    from dram_signals.collectors.workday import WorkdayCollector
+
+    jobs = "https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs"
+    path = "/job/Boise/Buyer_JR1"
+    assert WorkdayCollector._detail_api_url(jobs, path).endswith(
+        "/wday/cxs/micron/External/job/Boise/Buyer_JR1"
+    )
+    public = WorkdayCollector._public_job_url(jobs, path)
+    assert public.startswith("https://micron.wd1.myworkdayjobs.com/External/")
+

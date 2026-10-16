@@ -1,4 +1,4 @@
-"""Load curated Greenhouse / Lever board tokens for the DRAM ecosystem."""
+"""Load curated ATS board configs for the DRAM ecosystem."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 from dram_signals import config
 
@@ -15,10 +15,11 @@ from dram_signals import config
 class Board:
     """One public ATS job board to scrape."""
 
-    provider: str  # "greenhouse" | "lever"
+    provider: str  # "greenhouse" | "lever" | "workday"
     token: str
     company_name: str
     notes: str = ""
+    cxs_jobs_url: Optional[str] = None  # Workday CXS jobs endpoint
 
 
 def default_boards_path() -> Path:
@@ -32,7 +33,7 @@ def load_boards(path: Path | None = None) -> list[Board]:
     boards_path = path or default_boards_path()
     raw: dict[str, Any] = json.loads(boards_path.read_text(encoding="utf-8"))
     boards: list[Board] = []
-    for provider in ("greenhouse", "lever"):
+    for provider in ("greenhouse", "lever", "workday"):
         for entry in raw.get(provider, []):
             boards.append(
                 Board(
@@ -40,6 +41,7 @@ def load_boards(path: Path | None = None) -> list[Board]:
                     token=entry["token"],
                     company_name=entry["company_name"],
                     notes=entry.get("notes", ""),
+                    cxs_jobs_url=entry.get("cxs_jobs_url"),
                 )
             )
     return boards
