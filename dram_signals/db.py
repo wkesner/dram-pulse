@@ -9,6 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterator, Optional
 
+from dram_signals.catalog.schema import CATALOG_SCHEMA
+
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS signals (
@@ -35,7 +37,7 @@ CREATE TABLE IF NOT EXISTS collector_state (
     last_run_at TEXT,
     watermark TEXT
 );
-"""
+""" + CATALOG_SCHEMA
 
 
 @dataclass(frozen=True)

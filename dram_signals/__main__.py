@@ -17,8 +17,11 @@ from dram_signals.collectors.greenhouse import SOURCE as GREENHOUSE_SOURCE
 from dram_signals.collectors.greenhouse import GreenhouseCollector
 from dram_signals.collectors.lever import SOURCE as LEVER_SOURCE
 from dram_signals.collectors.lever import LeverCollector
+from dram_signals.catalog.cli import add_catalog_subparser
 from dram_signals.collectors.icims import SOURCE as ICIMS_SOURCE
 from dram_signals.collectors.icims import IcimsCollector
+from dram_signals.collectors.micron_obsolete import SOURCE as MICRON_OBSOLETE_SOURCE
+from dram_signals.collectors.micron_obsolete import MicronObsoleteCollector
 from dram_signals.collectors.workday import SOURCE as WORKDAY_SOURCE
 from dram_signals.collectors.workday import WorkdayCollector
 from dram_signals.db import (
@@ -32,7 +35,7 @@ from dram_signals.db import (
 
 logger = logging.getLogger("dram_signals.run")
 
-ALL_SOURCES = ("edgar", "greenhouse", "lever", "workday", "icims")
+ALL_SOURCES = ("edgar", "greenhouse", "lever", "workday", "icims", "micron_obsolete")
 SOURCE_ALIASES = {
     "edgar": ("edgar",),
     "edgar_8k": ("edgar",),
@@ -40,6 +43,8 @@ SOURCE_ALIASES = {
     "lever": ("lever",),
     "workday": ("workday",),
     "icims": ("icims",),
+    "micron_obsolete": ("micron_obsolete",),
+    "pcn": ("micron_obsolete",),
     "jobs": ("greenhouse", "lever", "workday", "icims"),
     "all": ALL_SOURCES,
 }
@@ -123,6 +128,18 @@ def run_icims_once() -> int:
     return _persist(ICIMS_SOURCE, IcimsCollector().collect())
 
 
+def run_micron_obsolete_once() -> dict[str, int]:
+    stats = MicronObsoleteCollector().collect()
+    logger.info(
+        "%s run complete: catalogs=%d parts=%d db=%s",
+        MICRON_OBSOLETE_SOURCE,
+        stats["catalogs"],
+        stats["parts"],
+        config.DB_PATH,
+    )
+    return stats
+
+
 def run_sources(
     sources: tuple[str, ...],
     *,
@@ -147,6 +164,8 @@ def run_sources(
             run_workday_once()
         elif source == "icims":
             run_icims_once()
+        elif source == "micron_obsolete":
+            run_micron_obsolete_once()
         else:
             raise ValueError(f"unsupported source: {source}")
 
@@ -198,6 +217,7 @@ def cmd_status(_args: argparse.Namespace) -> int:
         LEVER_SOURCE,
         WORKDAY_SOURCE,
         ICIMS_SOURCE,
+        MICRON_OBSOLETE_SOURCE,
     )
     with db_session(config.DB_PATH) as conn:
         total = count_signals(conn)
@@ -207,6 +227,22 @@ def cmd_status(_args: argparse.Namespace) -> int:
             n = count_signals(conn, source)
             watermark = get_watermark(conn, source)
             print(f"signals {source}: {n}  watermark={watermark or '(none)'}")
+
+        fam_n = conn.execute("SELECT COUNT(*) AS n FROM part_families").fetchone()["n"]
+        var_n = conn.execute("SELECT COUNT(*) AS n FROM part_variants").fetchone()["n"]
+        pcn_n = conn.execute("SELECT COUNT(*) AS n FROM pcn_notices").fetchone()["n"]
+        grade_rows = conn.execute(
+            """
+            SELECT grade, COUNT(*) AS n
+            FROM part_variants
+            GROUP BY grade
+            ORDER BY n DESC
+            """
+        ).fetchall()
+        print(f"catalog families: {fam_n}  variants: {var_n}  pcn_notices: {pcn_n}")
+        if grade_rows:
+            grades = ", ".join(f"{r['grade']}={r['n']}" for r in grade_rows)
+            print(f"catalog grades: {grades}")
 
         rows = conn.execute(
             """
@@ -218,7 +254,7 @@ def cmd_status(_args: argparse.Namespace) -> int:
         ).fetchall()
 
     if rows:
-        print("latest:")
+        print("latest signals:")
         for row in rows:
             print(
                 f"  [{row['source']}] {row['timestamp'][:10]}  "
@@ -239,8 +275,9 @@ def _add_source_arg(p: argparse.ArgumentParser, default: str = "all") -> None:
         type=resolve_sources,
         default=resolve_sources(default),
         help=(
-            "Collector(s) to run: edgar, greenhouse, lever, workday, icims, jobs "
-            f"(all ATS), all (default: {default})"
+            "Collector(s): edgar, greenhouse, lever, workday, icims, "
+            "micron_obsolete|pcn, jobs, all "
+            f"(default: {default})"
         ),
     )
 
@@ -264,7 +301,7 @@ def _add_edgar_opts(p: argparse.ArgumentParser) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="dram_signals",
-        description="DRAM market signal collectors (EDGAR + ATS job boards).",
+        description="DRAM signal pipeline: collectors + parts catalog / PCN-EOL.",
     )
     _add_verbose(parser)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -290,6 +327,8 @@ def build_parser() -> argparse.ArgumentParser:
     status = sub.add_parser("status", help="Show DB counts and recent rows")
     _add_verbose(status)
     status.set_defaults(func=cmd_status)
+
+    add_catalog_subparser(sub)
 
     return parser
 

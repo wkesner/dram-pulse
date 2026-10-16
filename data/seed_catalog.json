@@ -1,0 +1,117 @@
+{
+  "description": "Example DRAM families with consumer / industrial / automotive packaging-grade variants. Same die family, different temp quals and order packaging — the distinction that matters for PPV and shortage work.",
+  "families": [
+    {
+      "manufacturer": "micron",
+      "family_code": "MT40A1G8SA",
+      "technology": "DDR4",
+      "density": "8Gb",
+      "organization": "x8",
+      "description": "Micron 8Gb DDR4 component family (illustrative seed)",
+      "notes": "Consumer vs industrial twins often differ mainly by temperature qualification and marking; verify MPN against current Micron docs before purchasing.",
+      "variants": [
+        {
+          "mpn": "MT40A1G8SA-062E:B",
+          "grade": "consumer",
+          "package": "TFBGA",
+          "package_detail": "78-ball",
+          "temperature_range": "0C to +95C",
+          "speed_grade": "3200MTPS",
+          "voltage": "1.2 VOLTS",
+          "lifecycle_status": "active",
+          "order_packaging": "tape_reel"
+        },
+        {
+          "mpn": "MT40A1G8SA-062E IT:B",
+          "grade": "industrial",
+          "package": "TFBGA",
+          "package_detail": "78-ball",
+          "temperature_range": "-40C to +95C",
+          "speed_grade": "3200MTPS",
+          "voltage": "1.2 VOLTS",
+          "lifecycle_status": "active",
+          "order_packaging": "tape_reel",
+          "notes": "Industrial temp twin — often still available when consumer grade is short"
+        },
+        {
+          "mpn": "MT40A1G8SA-062E AAT:B",
+          "grade": "automotive",
+          "package": "TFBGA",
+          "package_detail": "78-ball",
+          "temperature_range": "-40C to +105C",
+          "speed_grade": "3200MTPS",
+          "voltage": "1.2 VOLTS",
+          "lifecycle_status": "active",
+          "order_packaging": "tape_reel",
+          "notes": "Automotive-qualified packaging grade"
+        }
+      ]
+    },
+    {
+      "manufacturer": "sk_hynix",
+      "family_code": "H5AN8G8NDJR",
+      "technology": "DDR4",
+      "density": "8Gb",
+      "organization": "x8",
+      "description": "SK hynix 8Gb DDR4 family (illustrative seed)",
+      "variants": [
+        {
+          "mpn": "H5AN8G8NDJR-XNC",
+          "grade": "consumer",
+          "package": "FBGA",
+          "temperature_range": "0C to +95C",
+          "speed_grade": "3200MTPS",
+          "lifecycle_status": "active"
+        },
+        {
+          "mpn": "H5AN8G8NDJR-XNC IT",
+          "grade": "industrial",
+          "package": "FBGA",
+          "temperature_range": "-40C to +95C",
+          "speed_grade": "3200MTPS",
+          "lifecycle_status": "active"
+        }
+      ]
+    },
+    {
+      "manufacturer": "samsung",
+      "family_code": "K4A8G165WC",
+      "technology": "DDR4",
+      "density": "8Gb",
+      "organization": "x16",
+      "description": "Samsung 8Gb DDR4 family (illustrative seed)",
+      "variants": [
+        {
+          "mpn": "K4A8G165WC-BCWE",
+          "grade": "consumer",
+          "package": "FBGA",
+          "temperature_range": "0C to +95C",
+          "speed_grade": "3200MTPS",
+          "lifecycle_status": "nrnd"
+        },
+        {
+          "mpn": "K4A8G165WC-BITC",
+          "grade": "industrial",
+          "package": "FBGA",
+          "temperature_range": "-40C to +95C",
+          "speed_grade": "3200MTPS",
+          "lifecycle_status": "active"
+        }
+      ]
+    }
+  ],
+  "pcns": [
+    {
+      "manufacturer": "samsung",
+      "notice_id": "SEED-EOL-DDR4-1Z",
+      "notice_type": "eol",
+      "title": "Seed example: Samsung DDR4 1Znm phase-out (illustrative)",
+      "published_at": "2025-04-29",
+      "last_order_at": "2025-05-30",
+      "last_ship_at": "2025-07-31",
+      "raw_text": "Illustrative EOL notice for catalog demos. Replace with a real manufacturer or distributor PCN when available.",
+      "affected_mpns": ["K4A8G165WC-BCWE"],
+      "affected_families": ["K4A8G165WC"]
+    }
+  ]
+}

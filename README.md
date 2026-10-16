@@ -18,7 +18,7 @@ Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources a
 |-------|--------|--------|
 | 1 | SEC EDGAR 8-K (full-text search) | **Implemented** |
 | 2 | Greenhouse / Lever / Workday / iCIMS job postings | **Implemented** |
-| 3 | Manufacturer PCN/EOL (Micron, Samsung, SK hynix) | Planned |
+| 3 | Parts catalog + Micron obsolete/PCN-EOL ingest | **Implemented** |
 | 4 | Trade press RSS (EE Times, DigiTimes) | Planned |
 
 ### EDGAR 8-K
@@ -45,6 +45,39 @@ Public board APIs (no auth):
 Title must contain one of: **buyer**, **procurement**, **commodity manager**, **supply chain**. Matching posts store title + location + description as `raw_text`.
 
 Board configs live in [`data/job_boards.json`](data/job_boards.json). Add tokens / CXS URLs / iCIMS hosts there as you discover more boards.
+
+### Parts catalog, families / variants, PCN-EOL
+
+Manufacturer PCN portals are mostly customer-gated. What ships here:
+
+1. **Catalog model** — `part_families` + `part_variants` with first-class **grade** (`consumer` / `industrial` / `automotive` / `military`) and **package** / order-packaging fields. Same die family, different packaging-grade twins stay distinct for PPV and shortage work.
+2. **Manual + seed registration** — register families/variants and attach PCN/EOL notices via CLI.
+3. **Micron obsolete catalog collector** — public AEM JSON for obsolete DRAM catalogs; upserts variants as `obsolete` and links them to an `obsolete_catalog` notice. Temperature ranges map to grades (`0C…` → consumer, `-40C…` → industrial, `…125C` → automotive).
+
+Samsung / SK hynix PCNs are not published as open feeds; register those notices manually (or from distributor PDFs) with `catalog pcn-add` until a public source appears.
+
+```bash
+# Seed example families with consumer / industrial / automotive twins
+python -m dram_signals catalog seed
+
+# Register your own family + packaging-grade variants
+python -m dram_signals catalog family-add --manufacturer micron --code MT40A1G8SA \
+  --technology DDR4 --density 8Gb --organization x8
+python -m dram_signals catalog variant-add --manufacturer micron --family MT40A1G8SA \
+  --mpn 'MT40A1G8SA-062E:B' --grade consumer --package TFBGA --temperature '0C to +95C'
+python -m dram_signals catalog variant-add --manufacturer micron --family MT40A1G8SA \
+  --mpn 'MT40A1G8SA-062E IT:B' --grade industrial --package TFBGA --temperature '-40C to +95C'
+
+python -m dram_signals catalog show MT40A1G8SA
+python -m dram_signals catalog variants --family MT40A1G8SA --grade industrial
+
+# Ingest Micron obsolete catalogs into the catalog + PCN tables
+python -m dram_signals once --source micron_obsolete
+
+# Attach a real EOL/PCN when you have one
+python -m dram_signals catalog pcn-add --manufacturer samsung --notice-id PCN-2025-001 \
+  --type eol --title "DDR4 1Znm phase-out" --mpn K4A8G165WC-BCWE --family K4A8G165WC
+```
 
 ## Setup
 
@@ -76,6 +109,7 @@ python -m dram_signals once --source greenhouse
 python -m dram_signals once --source lever
 python -m dram_signals once --source workday
 python -m dram_signals once --source icims
+python -m dram_signals once --source micron_obsolete
 python -m dram_signals once --source edgar --start 2026-09-01 --end 2026-10-16
 ```
 
@@ -118,7 +152,10 @@ dram_signals/
   collectors/greenhouse.py  # Greenhouse Job Board API
   collectors/lever.py       # Lever Postings API
   collectors/workday.py     # Workday CXS careers API
-  collectors/icims.py       # iCIMS HTML + JSON-LD
-  __main__.py               # once | schedule | status
-data/job_boards.json        # curated ATS board tokens / CXS URLs / hosts
+  collectors/icims.py           # iCIMS HTML + JSON-LD
+  collectors/micron_obsolete.py # Micron obsolete part catalogs → catalog/PCN
+  catalog/                      # families, variants, grades, PCN linkage
+  __main__.py                   # once | schedule | status | catalog
+data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
+data/seed_catalog.json          # example families with grade twins
 ```
