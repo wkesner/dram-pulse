@@ -48,16 +48,41 @@ def section(title: str) -> None:
     print("=" * 72)
 
 
-def print_robots(url: str) -> None:
-    section(f"robots.txt — {url}")
+def print_robots(url: str, *, note: str = "") -> None:
+    title = f"robots — {url}"
+    if note:
+        title = f"{title}  [{note}]"
+    section(title)
     try:
         resp = fetch(url)
         print(f"status: {resp.status_code}")
         print(f"final_url: {resp.url}")
         print(f"content_type: {resp.headers.get('content-type')}")
         print(f"bytes: {len(resp.content)}")
+        # Cap body print for HTML error pages (e.g. SK 500)
+        body = resp.text
+        ctype = (resp.headers.get("content-type") or "").lower()
+        if "html" in ctype and len(body) > 800:
+            print("--- body (first 800 chars; HTML error page truncated) ---")
+            print(body[:800])
+        else:
+            print("--- body ---")
+            print(body)
+        print("--- end ---")
+    except requests.RequestException as exc:
+        print(f"ERROR: {exc}")
+
+
+def probe_skhynix_sitemap() -> None:
+    url = "https://product.skhynix.com/sitemap.xml"
+    section(f"SK hynix product sitemap — {url}")
+    try:
+        resp = fetch(url)
+        print(f"status: {resp.status_code}")
+        print(f"content_type: {resp.headers.get('content-type')}")
+        print(f"bytes: {len(resp.content)}")
         print("--- body ---")
-        print(resp.text)
+        print(resp.text[:2000])
         print("--- end ---")
     except requests.RequestException as exc:
         print(f"ERROR: {exc}")
@@ -215,9 +240,29 @@ def main() -> int:
     print(f"User-Agent: {UA}")
     print(f"timeout_s: {TIMEOUT}")
     print("no retries; print-only; no storage")
+    print("See docs/robots-findings.md for interpretation of these paths.")
 
-    print_robots("https://product.skhynix.com/robots.txt")
-    print_robots("https://semiconductor.samsung.com/robots.txt")
+    # --- SK hynix: canonical robots is broken; document alternates ---
+    print_robots(
+        "https://product.skhynix.com/robots.txt",
+        note="CANONICAL — expected 500 / unreadable",
+    )
+    print_robots(
+        "https://product.skhynix.com/robot.txt",
+        note="NON-STANDARD typo path; not used by REP clients",
+    )
+    print_robots(
+        "https://www.skhynix.com/robots.txt",
+        note="corporate host only; does NOT cover product.skhynix.com",
+    )
+    probe_skhynix_sitemap()
+    probe_skhynix_home()
+
+    # --- Samsung: canonical robots works ---
+    print_robots(
+        "https://semiconductor.samsung.com/robots.txt",
+        note="canonical; /dram/ allowed",
+    )
 
     locs = probe_samsung_sitemap_counts()
     picks = pick_part_urls(locs)
@@ -231,10 +276,27 @@ def main() -> int:
     for label, url in picks.items():
         probe_samsung_part(url, label)
 
-    probe_skhynix_home()
-    print_robots("https://www.dramexchange.com/robots.txt")
+    # --- DRAMeXchange: no robots file; sister hosts are NOT substitutes ---
+    print_robots(
+        "https://www.dramexchange.com/robots.txt",
+        note="English spot host — expected 404",
+    )
+    print_robots(
+        "https://dramexchange.com/robots.txt",
+        note="apex — expected 404",
+    )
+    print_robots(
+        "https://www.dramx.com/robots.txt",
+        note="sister Chinese site — NOT DRAMeXchange EN",
+    )
+    print_robots(
+        "https://www.trendforce.com/robots.txt",
+        note="parent company — does NOT apply to dramexchange.com",
+    )
 
-    section("Step 0 complete — awaiting review before any collector work")
+    section("Step 0 complete — see docs/robots-findings.md")
+    print("SK product: no working canonical /robots.txt (500). Hold Step 4b.")
+    print("DRAMeXchange: no robots file (404). Step 6 still ToS-bound.")
     return 0
 
 

@@ -56,6 +56,23 @@ Manufacturer PCN portals are mostly customer-gated. What ships here:
 
 Samsung / SK hynix PCNs are not published as open feeds; register those notices manually (or from distributor PDFs) with `catalog pcn-add` until a public source appears.
 
+### Catalog host probes & robots.txt
+
+Before any manufacturer catalog crawl, re-check robots paths:
+
+```bash
+export COLLECTOR_CONTACT=you@example.com
+python scripts/probe_catalogs.py
+```
+
+Findings live in [`docs/robots-findings.md`](docs/robots-findings.md). Headline:
+
+| Host | Canonical `/robots.txt` | Collector stance |
+|------|-------------------------|------------------|
+| `product.skhynix.com` | **Broken (HTTP 500)** — only a non-standard `/robot.txt` exists | Step 4b **on hold** |
+| `www.dramexchange.com` | **Missing (HTTP 404)** | No path rules; still ToS-bound for Step 6 |
+| `semiconductor.samsung.com` | **OK** — `/dram/` allowed | Family-status watcher OK |
+
 ```bash
 # Seed example families with consumer / industrial / automotive twins
 python -m dram_signals catalog seed
@@ -158,4 +175,6 @@ dram_signals/
   __main__.py                   # once | schedule | status | catalog
 data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
 data/seed_catalog.json          # example families with grade twins
+scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
+docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
 ```
