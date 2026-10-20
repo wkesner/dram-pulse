@@ -575,3 +575,21 @@ td.mono {
   padding: 12px 0;
   font-size: 13px;
 }
+.ms-notes {
+  margin: 0;
+  padding-left: 1.1em;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 80ch;
+  color: var(--ink);
+}
+.ms-notes b {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.ms-notes code {
+  font-family: var(--f-mono);
+  font-size: 12px;
+}

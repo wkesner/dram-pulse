@@ -1,4 +1,4 @@
-"""API tests for Memory Signals FastAPI server (Prompt 1)."""
+"""API tests for Memory Signals FastAPI server (Prompt 1 / 6)."""
 
 from __future__ import annotations
 
@@ -7,13 +7,15 @@ import shutil
 from pathlib import Path
 
 import pytest
+import yaml
 from fastapi.testclient import TestClient
 
-from app.server import create_app
+from app.server import compute_notes, create_app
 
 REPO = Path(__file__).resolve().parents[1]
 LIVE_SIGNALS = REPO / "data" / "signals.csv"
 LIVE_SIGHTINGS = REPO / "data" / "sightings.csv"
+LIVE_COMPANIES = REPO / "config" / "companies.yaml"
 
 
 @pytest.fixture()
@@ -23,6 +25,7 @@ def data_dir(tmp_path: Path) -> Path:
     assert LIVE_SIGHTINGS.is_file(), "data/sightings.csv required"
     shutil.copy(LIVE_SIGNALS, tmp_path / "signals.csv")
     shutil.copy(LIVE_SIGHTINGS, tmp_path / "sightings.csv")
+    shutil.copy(LIVE_COMPANIES, tmp_path / "companies.yaml")
     votes = tmp_path / "votes.csv"
     votes.write_text("vote_id,signal_id,user,vote,voted_at\n", encoding="utf-8")
     return tmp_path
@@ -34,6 +37,7 @@ def client(data_dir: Path) -> TestClient:
         signals_path=data_dir / "signals.csv",
         sightings_path=data_dir / "sightings.csv",
         votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
         mount_static=False,
     )
     return TestClient(app)
@@ -128,3 +132,69 @@ def test_post_vote_rejects_invalid_vote_value(client: TestClient):
     sid = client.get("/api/signals").json()[0]["signal_id"]
     resp = client.post("/api/votes", json={"signal_id": sid, "user": "Alice", "vote": 2})
     assert resp.status_code == 422
+
+
+def test_meta_notes_match_signals(client: TestClient, data_dir: Path):
+    signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
+    meta = client.get("/api/meta").json()
+    notes = meta["notes"]
+    assert notes["total"] == len(signals)
+    assert notes["general_rows"] == sum(
+        1 for r in signals if r.get("product_family") == "Memory_general"
+    )
+    buyers = [r for r in signals if r.get("role") == "buyer"]
+    assert notes["buyer_rows"] == len(buyers)
+    assert notes["buyer_specific"] == sum(
+        1 for r in buyers if r.get("product_family") != "Memory_general"
+    )
+    assert notes["conflict_rows"] == sum(
+        1
+        for r in signals
+        if str(r.get("direction_conflict", "")).lower() in {"true", "1"}
+    )
+    # Live data: Jabil is listed but has no signals.
+    assert "Jabil" in notes["missing_companies"]
+    assert "Jabil" in notes["missing"]
+
+
+def test_meta_lists_stub_company_with_zero_signals(data_dir: Path):
+    """Prompt 6 check: a company with no filings appears in missing — without
+    committing a fake company to config/companies.yaml."""
+    companies_path = data_dir / "companies.yaml"
+    data = yaml.safe_load(companies_path.read_text(encoding="utf-8"))
+    data["companies"].append(
+        {
+            "name": "Acme Stub Co",
+            "role": "buyer",
+            "source": "EDGAR",
+            "ticker": "ACME",
+        }
+    )
+    companies_path.write_text(yaml.safe_dump(data), encoding="utf-8")
+
+    app = create_app(
+        signals_path=data_dir / "signals.csv",
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=companies_path,
+        mount_static=False,
+    )
+    client = TestClient(app)
+    notes = client.get("/api/meta").json()["notes"]
+    assert "Acme Stub Co" in notes["missing_companies"]
+    assert "Acme Stub Co" in notes["missing"]
+
+    # Pure function also lists the stub.
+    signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
+    names = [c["name"] for c in data["companies"]]
+    computed = compute_notes(signals, names)
+    assert "Acme Stub Co" in computed["missing_companies"]
+
+
+def test_compute_notes_join_missing_labels():
+    notes = compute_notes(
+        [{"company": "A", "role": "supplier", "product_family": "HBM", "source": "EDGAR", "direction_conflict": "false"}],
+        ["A", "B", "C", "D"],
+    )
+    assert notes["missing"] == "B, C, and D"
+    assert notes["missing_companies"] == ["B", "C", "D"]

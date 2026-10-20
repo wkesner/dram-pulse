@@ -234,6 +234,29 @@
                 </p>
                 <div class="ms-chart" id="company-chart"></div>
               </section>
+
+              <section class="ms-card" id="data-notes">
+                <h2>What to know about this data</h2>
+                <ul class="ms-notes">
+                  <li>
+                    <b id="note-missing">—</b> have no rows yet. Every row comes
+                    from <b id="note-sources">—</b>, so sources not in that list
+                    are not in this file.
+                  </li>
+                  <li>
+                    <b id="note-general">—</b> of <b id="note-total">—</b> signals
+                    name memory only in general (<code>Memory_general</code>), so
+                    they can't point a salesperson to a family yet. Buyers name a
+                    specific family in <b id="note-buyer-specific">—</b> of their
+                    <b id="note-buyer-rows">—</b> signals.
+                  </li>
+                  <li>
+                    <b id="note-conflict">—</b> signals had tightening and easing
+                    words in the same passage and are flagged
+                    <code>direction_conflict</code> for review.
+                  </li>
+                </ul>
+              </section>
             </div>
           </section>
 

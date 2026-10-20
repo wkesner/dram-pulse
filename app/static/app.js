@@ -126,7 +126,10 @@
     if (selected === $("#tab-families")) renderFamilies();
     if (selected === $("#tab-map")) {
       // Charts need a visible width; draw after layout.
-      requestAnimationFrame(() => renderMap());
+      requestAnimationFrame(() => {
+        renderMap();
+        renderDataNotes();
+      });
     }
   }
   function showTab(name) {
@@ -521,9 +524,40 @@
       });
   }
 
-  // --- Signal map (Prompt 5) ---
+  // --- Signal map (Prompt 5–6) ---
   let leaveOutRisk = false;
   let mapFamily = null; // product_family key or null
+  let META_NOTES = null;
+
+  async function loadMeta() {
+    const resp = await fetch("/api/meta");
+    if (!resp.ok) throw new Error(`meta ${resp.status}`);
+    const data = await resp.json();
+    META_NOTES = data.notes || null;
+    return META_NOTES;
+  }
+
+  function renderDataNotes() {
+    const n = META_NOTES;
+    const set = (id, text) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text == null ? "—" : String(text);
+    };
+    if (!n) {
+      ["note-missing", "note-sources", "note-general", "note-total", "note-buyer-specific", "note-buyer-rows", "note-conflict"].forEach(
+        (id) => set(id, "—")
+      );
+      return;
+    }
+    const fmt = window.ms?.fmt || ((x) => String(x));
+    set("note-missing", n.missing);
+    set("note-sources", n.sources);
+    set("note-general", fmt(n.general_rows));
+    set("note-total", fmt(n.total));
+    set("note-buyer-specific", fmt(n.buyer_specific));
+    set("note-buyer-rows", fmt(n.buyer_rows));
+    set("note-conflict", fmt(n.conflict_rows));
+  }
 
   const zeroDirs = () => ({
     tightening: { supplier: 0, buyer: 0 },
@@ -766,7 +800,9 @@
     label,
     renderFamilies,
     renderMap,
+    renderDataNotes,
     showTab,
+    getNotes: () => META_NOTES,
     getMapState: () => ({
       leaveOutRisk,
       mapFamily,
@@ -782,8 +818,10 @@
     try {
       await loadSignals();
       await loadUserVotes();
+      await loadMeta();
       renderCard();
       renderFamilies();
+      renderDataNotes();
       if (location.hash === "#families") showTab("families");
       else if (location.hash === "#map") showTab("map");
     } catch (err) {

@@ -21,6 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SIGNALS = REPO_ROOT / "data" / "signals.csv"
 DEFAULT_SIGHTINGS = REPO_ROOT / "data" / "sightings.csv"
 DEFAULT_VOTES = REPO_ROOT / "data" / "votes.csv"
+DEFAULT_COMPANIES = REPO_ROOT / "config" / "companies.yaml"
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 VOTE_COLUMNS = ["vote_id", "signal_id", "user", "vote", "voted_at"]
@@ -97,6 +98,75 @@ def _known_signal_ids(signals_path: Path) -> set[str]:
     return {r.get("signal_id", "") for r in _read_csv(signals_path) if r.get("signal_id")}
 
 
+def _load_company_names(companies_path: Path) -> list[str]:
+    """Return company names from config/companies.yaml (order preserved)."""
+    if not companies_path.is_file():
+        return []
+    try:
+        import yaml
+    except ImportError as exc:  # pragma: no cover
+        raise RuntimeError("PyYAML is required for /api/meta") from exc
+    data = yaml.safe_load(companies_path.read_text(encoding="utf-8")) or {}
+    companies = data.get("companies") or []
+    names: list[str] = []
+    for row in companies:
+        name = (row or {}).get("name") or ""
+        if name:
+            names.append(str(name))
+    return names
+
+
+def _is_truthy(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    return str(value or "").strip().lower() in {"true", "1", "yes"}
+
+
+def compute_notes(
+    signals: list[dict[str, Any]],
+    company_names: list[str],
+) -> dict[str, Any]:
+    """
+    Dynamic coverage notes for the Signal map (Prompt 6).
+
+    All counts come from the provided signals + company list — never hard-coded.
+    """
+    present = {r.get("company") or "" for r in signals}
+    missing = [c for c in company_names if c not in present]
+    buyers = [r for r in signals if (r.get("role") or "").lower() == "buyer"]
+    sources = sorted(
+        {r.get("source") or "" for r in signals if (r.get("source") or "").strip()}
+    )
+    general = sum(
+        1 for r in signals if (r.get("product_family") or "") == "Memory_general"
+    )
+    buyer_specific = sum(
+        1 for r in buyers if (r.get("product_family") or "") != "Memory_general"
+    )
+    conflicts = sum(1 for r in signals if _is_truthy(r.get("direction_conflict")))
+
+    if not missing:
+        missing_label = "None of the chosen companies"
+    elif len(missing) == 1:
+        missing_label = missing[0]
+    elif len(missing) == 2:
+        missing_label = f"{missing[0]} and {missing[1]}"
+    else:
+        missing_label = ", ".join(missing[:-1]) + f", and {missing[-1]}"
+
+    return {
+        "total": len(signals),
+        "companies_listed": len(company_names),
+        "missing_companies": missing,
+        "missing": missing_label,
+        "sources": ", ".join(sources) if sources else "none",
+        "general_rows": general,
+        "buyer_rows": len(buyers),
+        "buyer_specific": buyer_specific,
+        "conflict_rows": conflicts,
+    }
+
+
 def _append_vote_locked(
     votes_path: Path,
     *,
@@ -131,12 +201,14 @@ def create_app(
     signals_path: Path | None = None,
     sightings_path: Path | None = None,
     votes_path: Path | None = None,
+    companies_path: Path | None = None,
     static_dir: Path | None = None,
     mount_static: bool = True,
 ) -> FastAPI:
     signals_path = signals_path or DEFAULT_SIGNALS
     sightings_path = sightings_path or DEFAULT_SIGHTINGS
     votes_path = votes_path or DEFAULT_VOTES
+    companies_path = companies_path or DEFAULT_COMPANIES
     static_dir = static_dir or STATIC_DIR
 
     app = FastAPI(title="Memory Signals", version="0.2.0")
@@ -154,6 +226,14 @@ def create_app(
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
             out.append(payload)
         return out
+
+    @app.get("/api/meta")
+    def get_meta() -> dict[str, Any]:
+        """Coverage notes for the Signal map (companies.yaml + signals.csv)."""
+        signals = _read_csv(signals_path)
+        names = _load_company_names(companies_path)
+        notes = compute_notes(signals, names)
+        return {"notes": notes, "companies": names}
 
     @app.get("/api/votes")
     def get_votes(user: str = Query(..., min_length=1)) -> dict[str, int]:
