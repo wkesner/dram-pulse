@@ -18,6 +18,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
+from src.dedupe import (
+    SIGNAL_COLUMNS,
+    append_sightings,
+    build_signals_from_sightings,
+    dedupe,
+    normalize as normalize_excerpt,
+    write_csv as write_dedupe_csv,
+)
 from src.fetch_edgar import (
     REPO_ROOT,
     Company,
@@ -31,37 +39,8 @@ from src.fetch_edgar import (
     window_bounds,
 )
 
-EXTRACTOR_VERSION = "0.1.0"
-SIGNAL_COLUMNS = [
-    "signal_id",
-    "company",
-    "ticker_or_code",
-    "role",
-    "source",
-    "form",
-    "filing_date",
-    "filing_id",
-    "section",
-    "product_category",
-    "product_family",
-    "topic",
-    "supply_direction",
-    "sentiment",
-    "direction_conflict",
-    "matched_terms",
-    "excerpt",
-    "language",
-    "char_start",
-    "char_end",
-    "raw_path",
-    "source_url",
-    "repeat_of",
-    "lookback_months",
-    "window_start",
-    "window_end",
-    "extractor_version",
-    "extracted_at",
-]
+EXTRACTOR_VERSION = "0.2.0"
+SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 
 SECTION_FILES = {
     "business": "item1_business.txt",
@@ -519,7 +498,9 @@ def _build_row(
 ) -> dict[str, Any]:
     meta = ctx.meta
     source_url = meta["source_url"]
-    rel_raw = str(raw_path.relative_to(REPO_ROOT)).replace("\\", "/")
+    raw_abs = raw_path if raw_path.is_absolute() else (REPO_ROOT / raw_path)
+    rel_raw = str(raw_abs.resolve().relative_to(REPO_ROOT)).replace("\\", "/")
+    # Candidate id (pre-dedupe); final signal_id comes from src.dedupe.
     sid = signal_id(source_url, char_start, char_end, family)
     matched = [
         f"product:{product_hit.term}",
@@ -529,7 +510,6 @@ def _build_row(
         matched.append(f"dir:{dir_hits[0].term}")
     if sent_hits:
         matched.append(f"sent:{sent_hits[0].term}")
-    repeat = find_prior_repeat(excerpt, ctx.prior_texts)
     return {
         "signal_id": sid,
         "company": ctx.company.name,
@@ -553,7 +533,7 @@ def _build_row(
         "char_end": str(char_end),
         "raw_path": rel_raw,
         "source_url": source_url,
-        "repeat_of": repeat,
+        "period_end": meta.get("period_end") or meta.get("report_date") or "",
         "lookback_months": str(meta.get("lookback_months", "")),
         "window_start": meta.get("window_start", ""),
         "window_end": meta.get("window_end", ""),
@@ -861,32 +841,105 @@ def read_signals_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(fh))
 
 
-def write_signals_csv(
-    path: Path, rows: list[dict[str, Any]], *, append: bool = False
+def write_signals_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    """Rewrite signals.csv from deduped signal rows (not append-only)."""
+    write_dedupe_csv(path, rows, SIGNAL_COLUMNS)
+
+
+def prior_year_norms_by_company(
+    companies: list[Company],
+    settings: dict[str, Any],
+    raw_root: Path,
+    *,
+    fetch_prior: bool,
+    session: RateLimitedSession | None,
+) -> dict[str, list[str]]:
+    """Normalized prior-year 10-K bodies per company (for carried_from_prior_year)."""
+    out: dict[str, list[str]] = {}
+    for company in companies:
+        texts = _prior_texts_for_company(
+            company, settings, raw_root, fetch_prior=fetch_prior, session=session
+        )
+        bodies: list[str] = []
+        for _url, body in texts:
+            norm_body = normalize_excerpt(body)
+            if norm_body:
+                bodies.append(norm_body)
+        if bodies:
+            out[company.name] = bodies
+    return out
+
+
+def backfill_period_ends(
+    companies: list[Company],
+    settings: dict[str, Any],
+    session: RateLimitedSession,
 ) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    existing: list[dict[str, str]] = []
-    if append and path.is_file():
-        existing = read_signals_csv(path)
-    by_id: dict[str, dict[str, Any]] = {r["signal_id"]: r for r in existing}
-    for row in rows:
-        by_id[row["signal_id"]] = row
-    merged = list(by_id.values())
-    merged.sort(
-        key=lambda r: (
-            r.get("filing_date", ""),
-            r.get("ticker_or_code", ""),
-            r.get("section", ""),
-            int(r.get("char_start") or 0),
-            r.get("product_family", ""),
-        ),
-        reverse=True,
-    )
-    with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=SIGNAL_COLUMNS)
-        writer.writeheader()
-        for row in merged:
-            writer.writerow({k: row.get(k, "") for k in SIGNAL_COLUMNS})
+    """Ensure every cached meta.json has period_end from EDGAR reportDate."""
+    edgar = settings["edgar"]
+    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+    for company in companies:
+        try:
+            cik = lookup_cik(session, edgar["company_tickers_url"], company.ticker)
+        except LookupError as exc:
+            print(f"  skip period_end backfill {company.ticker}: {exc}", file=sys.stderr)
+            continue
+        submissions_url = edgar["submissions_url_template"].format(cik=int(cik))
+        submissions = session.get(submissions_url).json()
+        by_acc = {
+            row["accessionNumber"]: row.get("reportDate") or ""
+            for row in iter_recent_filings(submissions)
+        }
+        ticker_dir = raw_root / company.ticker
+        if not ticker_dir.is_dir():
+            continue
+        for child in ticker_dir.iterdir():
+            meta_path = child / "meta.json"
+            if not meta_path.is_file():
+                continue
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            acc = meta.get("accession_number") or ""
+            report = by_acc.get(acc) or ""
+            if report and meta.get("period_end") != report:
+                meta["period_end"] = report
+                meta["report_date"] = report
+                meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+
+
+def finalize_candidates(
+    candidates: list[dict[str, Any]],
+    *,
+    signals_path: Path,
+    sightings_path: Path,
+    prior_year_norms: dict[str, set[str]],
+    rebuild_sightings: bool = True,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
+    signals, sightings = dedupe(candidates, prior_year_norms=prior_year_norms)
+
+    if rebuild_sightings:
+        # Fresh extract rebuilds sightings file from this run's candidates so
+        # IDs stay consistent with the just-produced signals. Idempotent re-runs
+        # that only append use append_sightings instead.
+        if sightings_path.is_file():
+            sightings_path.unlink()
+        append_sightings(sightings_path, sightings)
+        # Rebuild signals from the written sightings file.
+        with sightings_path.open(encoding="utf-8", newline="") as fh:
+            all_sightings = list(csv.DictReader(fh))
+        signals = build_signals_from_sightings(
+            all_sightings, prior_year_norms=prior_year_norms
+        )
+    else:
+        append_sightings(sightings_path, sightings)
+        with sightings_path.open(encoding="utf-8", newline="") as fh:
+            all_sightings = list(csv.DictReader(fh))
+        signals = build_signals_from_sightings(
+            all_sightings, prior_year_norms=prior_year_norms
+        )
+
+    write_signals_csv(signals_path, signals)
+    return signals, sightings
 
 
 def extract_all(
@@ -896,16 +949,23 @@ def extract_all(
     taxonomy_path: Path,
     supply_path: Path,
     out_path: Path,
+    sightings_path: Path = SIGHTINGS_PATH,
     fetch_prior: bool = True,
 ) -> list[dict[str, Any]]:
     companies = [c for c in load_companies(companies_path) if c.source.upper() == "EDGAR"]
-    session = None
-    if fetch_prior:
-        ua = resolve_user_agent()
-        max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
-        session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
+    ua = resolve_user_agent()
+    max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
+    session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
+    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
 
-    all_rows: list[dict[str, Any]] = []
+    print("Backfilling period_end (EDGAR reportDate)…")
+    backfill_period_ends(companies, settings, session)
+
+    prior_norms = prior_year_norms_by_company(
+        companies, settings, raw_root, fetch_prior=fetch_prior, session=session
+    )
+
+    all_candidates: list[dict[str, Any]] = []
     for company in companies:
         rows = extract_ticker(
             company.ticker,
@@ -914,17 +974,25 @@ def extract_all(
             taxonomy_path=taxonomy_path,
             supply_path=supply_path,
             out_path=None,
-            fetch_prior=fetch_prior,
+            fetch_prior=False,  # already gathered prior norms above
             write=False,
             session=session,
         )
-        print(f"  {company.ticker}: {len(rows)} signals")
-        all_rows.extend(rows)
+        print(f"  {company.ticker}: {len(rows)} candidate rows")
+        all_candidates.extend(rows)
 
-    # Full rewrite of CSV from this run (all companies), preserving append-only
-    # semantics by merging on signal_id with any prior rows for unknown tickers.
-    write_signals_csv(out_path, all_rows, append=True)
-    return all_rows
+    signals, sightings = finalize_candidates(
+        all_candidates,
+        signals_path=out_path,
+        sightings_path=sightings_path,
+        prior_year_norms=prior_norms,
+        rebuild_sightings=True,
+    )
+    print(
+        f"dedupe: {len(all_candidates)} candidates → "
+        f"{len(sightings)} sightings → {len(signals)} signals"
+    )
+    return signals
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -941,37 +1009,71 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--out", type=Path, default=REPO_ROOT / "data" / "signals.csv")
     parser.add_argument(
+        "--sightings", type=Path, default=SIGHTINGS_PATH, help="Append-only sightings CSV"
+    )
+    parser.add_argument(
         "--no-fetch-prior",
         action="store_true",
-        help="Skip fetching the prior-year 10-K for repeat_of",
+        help="Skip fetching the prior-year 10-K for carried_from_prior_year",
     )
     args = parser.parse_args(argv)
 
     settings = load_yaml(args.settings)
-    if args.all or not args.ticker:
-        rows = extract_all(
-            settings=settings,
-            companies_path=args.companies,
-            taxonomy_path=args.taxonomy,
-            supply_path=args.supply_terms,
-            out_path=args.out,
-            fetch_prior=not args.no_fetch_prior,
+    # Always run the full EDGAR set through dedupe so signals.csv is consistent.
+    # --ticker still supported as a filter on candidates, but we rebuild globally.
+    if args.ticker and not args.all:
+        print(
+            "Note: single-ticker extract still rebuilds signals.csv via dedupe "
+            "for that ticker's candidates only.",
+            file=sys.stderr,
         )
-    else:
-        rows = extract_ticker(
+        companies = [
+            c
+            for c in load_companies(args.companies)
+            if c.source.upper() == "EDGAR" and c.ticker == args.ticker.upper()
+        ]
+        if not companies:
+            raise SystemExit(f"No EDGAR company {args.ticker}")
+        ua = resolve_user_agent()
+        max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
+        session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
+        raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+        backfill_period_ends(companies, settings, session)
+        prior_norms = prior_year_norms_by_company(
+            companies,
+            settings,
+            raw_root,
+            fetch_prior=not args.no_fetch_prior,
+            session=session,
+        )
+        candidates = extract_ticker(
             args.ticker.upper(),
             settings=settings,
             companies_path=args.companies,
             taxonomy_path=args.taxonomy,
             supply_path=args.supply_terms,
-            out_path=None,
-            fetch_prior=not args.no_fetch_prior,
             write=False,
+            fetch_prior=False,
+            session=session,
         )
-        # Merge into CSV so other companies' rows remain (append-only by signal_id).
-        write_signals_csv(args.out, rows, append=True)
-    total = len(read_signals_csv(args.out))
-    print(f"Extracted {len(rows)} signals this run; {total} total rows in {args.out}")
+        signals, _sightings = finalize_candidates(
+            candidates,
+            signals_path=args.out,
+            sightings_path=args.sightings,
+            prior_year_norms=prior_norms,
+            rebuild_sightings=False,
+        )
+    else:
+        signals = extract_all(
+            settings=settings,
+            companies_path=args.companies,
+            taxonomy_path=args.taxonomy,
+            supply_path=args.supply_terms,
+            out_path=args.out,
+            sightings_path=args.sightings,
+            fetch_prior=not args.no_fetch_prior,
+        )
+    print(f"Wrote {len(signals)} signals → {args.out}")
     return 0
 
 

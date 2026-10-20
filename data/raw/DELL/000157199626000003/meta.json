@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/DELL/000157199626000003/primary.html",
     "other": "data/raw/DELL/000157199626000003/other_full.txt"
-  }
+  },
+  "period_end": "2026-02-26",
+  "report_date": "2026-02-26"
 }

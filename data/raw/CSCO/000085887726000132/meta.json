@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/CSCO/000085887726000132/item1a_risk_factors.txt",
     "mdna": "data/raw/CSCO/000085887726000132/item7_mdna.txt",
     "other": "data/raw/CSCO/000085887726000132/other_full.txt"
-  }
+  },
+  "period_end": "2026-07-25",
+  "report_date": "2026-07-25"
 }

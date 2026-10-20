@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/MU/000072312526000006/item1a_risk_factors.txt",
     "mdna": "data/raw/MU/000072312526000006/item7_mdna.txt",
     "other": "data/raw/MU/000072312526000006/other_full.txt"
-  }
+  },
+  "period_end": "2026-02-26",
+  "report_date": "2026-02-26"
 }

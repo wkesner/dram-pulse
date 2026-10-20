@@ -190,6 +190,7 @@ def iter_recent_filings(submissions: dict[str, Any]) -> list[dict[str, Any]]:
     items_list = recent.get("items") or [""] * len(forms)
     primary_docs = recent.get("primaryDocument") or [""] * len(forms)
     primary_docs_desc = recent.get("primaryDocDescription") or [""] * len(forms)
+    report_dates = recent.get("reportDate") or [""] * len(forms)
     for i, form in enumerate(forms):
         items_raw = items_list[i] if i < len(items_list) else ""
         rows.append(
@@ -202,6 +203,7 @@ def iter_recent_filings(submissions: dict[str, Any]) -> list[dict[str, Any]]:
                     primary_docs_desc[i] if i < len(primary_docs_desc) else ""
                 ),
                 "items": items_raw or "",
+                "reportDate": report_dates[i] if i < len(report_dates) else "",
             }
         )
     return rows
@@ -422,6 +424,12 @@ def fetch_one_filing(
 
     if meta_path.is_file() and (dest / "other_full.txt").is_file() and not prior_only:
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        # Backfill period_end (EDGAR reportDate) onto older caches.
+        report_date = filing.get("reportDate") or ""
+        if report_date and not meta.get("period_end"):
+            meta["period_end"] = report_date
+            meta["report_date"] = report_date
+            meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
         return meta
 
     url = archive_url(
@@ -467,6 +475,9 @@ def fetch_one_filing(
         "items": filing.get("items") or "",
         "source_url": url,
         "fiscal_year_end": fiscal_year_end or "",
+        # EDGAR submissions `reportDate` = period the filing covers.
+        "report_date": filing.get("reportDate") or "",
+        "period_end": filing.get("reportDate") or "",
         "lookback_months": int(settings["lookback_months"]),
         "window_start": window_start.isoformat(),
         "window_end": window_end.isoformat(),

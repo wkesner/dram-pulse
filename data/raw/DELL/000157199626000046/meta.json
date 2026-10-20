@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/DELL/000157199626000046/item1a_risk_factors.txt",
     "mdna": "data/raw/DELL/000157199626000046/item7_mdna.txt",
     "other": "data/raw/DELL/000157199626000046/other_full.txt"
-  }
+  },
+  "period_end": "2026-07-31",
+  "report_date": "2026-07-31"
 }

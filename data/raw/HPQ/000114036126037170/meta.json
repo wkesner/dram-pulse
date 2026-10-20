@@ -22,5 +22,7 @@
   "paths": {
     "primary_html": "data/raw/HPQ/000114036126037170/primary.html",
     "other": "data/raw/HPQ/000114036126037170/other_full.txt"
-  }
+  },
+  "period_end": "2026-09-21",
+  "report_date": "2026-09-21"
 }

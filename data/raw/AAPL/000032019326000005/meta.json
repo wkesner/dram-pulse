@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/AAPL/000032019326000005/primary.html",
     "other": "data/raw/AAPL/000032019326000005/other_full.txt"
-  }
+  },
+  "period_end": "2026-01-29",
+  "report_date": "2026-01-29"
 }

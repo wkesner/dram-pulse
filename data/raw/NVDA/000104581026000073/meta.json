@@ -33,5 +33,7 @@
   "paths": {
     "primary_html": "data/raw/NVDA/000104581026000073/primary.html",
     "other": "data/raw/NVDA/000104581026000073/other_full.txt"
-  }
+  },
+  "period_end": "2026-08-26",
+  "report_date": "2026-08-26"
 }

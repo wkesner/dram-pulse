@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/NVDA/000104581026000021/item1a_risk_factors.txt",
     "mdna": "data/raw/NVDA/000104581026000021/item7_mdna.txt",
     "other": "data/raw/NVDA/000104581026000021/other_full.txt"
-  }
+  },
+  "period_end": "2026-01-25",
+  "report_date": "2026-01-25"
 }

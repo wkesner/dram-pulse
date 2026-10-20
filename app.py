@@ -13,10 +13,12 @@ from src.feed_data import (
     family_table,
     filter_signals,
     highlight_excerpt,
+    load_sightings,
     load_signals,
     load_votes,
     lookback_label,
     order_feed,
+    sightings_for_signal,
     vote_counts_for_signal,
 )
 
@@ -38,6 +40,7 @@ def _ensure_state() -> None:
 def main() -> None:
     _ensure_state()
     signals = load_signals()
+    sightings = load_sightings()
     votes = load_votes()
     window = lookback_label(signals)
 
@@ -111,7 +114,7 @@ def main() -> None:
                 st.session_state["feed_index"] = 0
             idx = st.session_state["feed_index"]
             signal = ordered[idx]
-            _render_card(signal, votes, user, idx, len(ordered))
+            _render_card(signal, votes, user, idx, len(ordered), sightings)
 
     # --- Family view ---
     with family_tab:
@@ -171,9 +174,13 @@ def _render_card(
     user: str,
     idx: int,
     total: int,
+    sightings: list[dict[str, str]],
 ) -> None:
     sid = signal["signal_id"]
     up, down = vote_counts_for_signal(sid, votes)
+    related = sightings_for_signal(sid, sightings)
+    times_seen = int(signal.get("times_seen") or len(related) or 1)
+    last_seen = signal.get("last_seen") or signal.get("filing_date") or ""
 
     st.markdown(f"**Card {idx + 1} of {total}**")
     st.markdown(
@@ -183,13 +190,13 @@ def _render_card(
     )
     meta_bits = [
         f"Form **{signal.get('form', '')}**",
-        f"Filed **{signal.get('filing_date', '')}**",
+        f"First seen **{signal.get('first_seen') or signal.get('filing_date', '')}**",
         f"Family **{signal.get('product_family', '')}**",
         f"Direction **{signal.get('supply_direction', '')}**",
         f"Sentiment **{signal.get('sentiment', '')}**",
     ]
-    if (signal.get("repeat_of") or "").strip():
-        meta_bits.append(f"repeat_of `{signal['repeat_of']}`")
+    if (signal.get("carried_from_prior_year") or "").lower() == "true":
+        meta_bits.append("carried from prior year")
     st.markdown(" · ".join(meta_bits))
 
     html = highlight_excerpt(signal.get("excerpt") or "", signal.get("matched_terms") or "")
@@ -201,6 +208,28 @@ def _render_card(
     matched = signal.get("matched_terms") or ""
     if matched:
         st.caption(f"Matched: {matched}")
+
+    with st.expander(f"Seen in {times_seen} filings, latest {last_seen}", expanded=False):
+        if not related:
+            source_url = signal.get("source_url") or ""
+            if source_url:
+                st.markdown(
+                    f"- {signal.get('form', '')} · {signal.get('filing_date', '')} · "
+                    f"[{signal.get('filing_id', 'filing')}]({source_url})"
+                )
+            else:
+                st.caption("No sighting rows loaded.")
+        else:
+            for s in related:
+                label = (
+                    f"{s.get('form', '')} · {s.get('filing_date', '')} · "
+                    f"{s.get('section', '')} · match={s.get('match', '')}"
+                )
+                url = s.get("source_url") or ""
+                if url:
+                    st.markdown(f"- [{label}]({url})")
+                else:
+                    st.markdown(f"- {label}")
 
     source_url = signal.get("source_url") or ""
     if source_url:

@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/MU/000072312526000018/primary.html",
     "other": "data/raw/MU/000072312526000018/other_full.txt"
-  }
+  },
+  "period_end": "2026-09-30",
+  "report_date": "2026-09-30"
 }

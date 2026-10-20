@@ -1,8 +1,8 @@
-"""Verify signals.csv excerpts against cached raw text offsets.
+"""Verify sighting (and legacy signal) excerpts against cached raw text offsets.
 
 Usage:
   python -m src.verify
-  python -m src.verify --csv data/signals.csv
+  python -m src.verify --csv data/sightings.csv
 """
 
 from __future__ import annotations
@@ -33,12 +33,9 @@ def verify_row(row: dict[str, str], repo_root: Path = REPO_ROOT) -> tuple[bool, 
         return False, f"offsets out of range: {start}:{end} vs len={len(text)}"
 
     slice_ = text[start:end]
-    # Excerpts are stored with newlines flattened to spaces.
-    expected = excerpt
     actual_flat = " ".join(slice_.split())
-    expected_flat = " ".join(expected.split())
+    expected_flat = " ".join(excerpt.split())
     if actual_flat != expected_flat and slice_ != excerpt:
-        # Allow exact slice match OR whitespace-normalized match.
         if actual_flat != expected_flat:
             return (
                 False,
@@ -57,24 +54,37 @@ def verify_csv(csv_path: Path, repo_root: Path = REPO_ROOT) -> tuple[int, int, l
             total += 1
             ok, msg = verify_row(row, repo_root)
             if not ok:
-                sid = row.get("signal_id", "?")
+                sid = row.get("sighting_id") or row.get("signal_id") or "?"
                 failures.append(f"line {i} id={sid}: {msg}")
     passed = total - len(failures)
     return total, passed, failures
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Verify Memory Signals CSV offsets")
-    parser.add_argument("--csv", type=Path, default=REPO_ROOT / "data" / "signals.csv")
+    parser = argparse.ArgumentParser(
+        description="Verify Memory Signals sighting/signal CSV offsets"
+    )
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        default=REPO_ROOT / "data" / "sightings.csv",
+        help="CSV to verify (default: data/sightings.csv)",
+    )
     args = parser.parse_args(argv)
 
     if not args.csv.is_file():
-        print(f"CSV not found: {args.csv}", file=sys.stderr)
-        return 2
+        # Fall back to signals.csv for older checkouts.
+        fallback = REPO_ROOT / "data" / "signals.csv"
+        if fallback.is_file() and args.csv.name == "sightings.csv":
+            print(f"sightings.csv missing; verifying {fallback}", file=sys.stderr)
+            args.csv = fallback
+        else:
+            print(f"CSV not found: {args.csv}", file=sys.stderr)
+            return 2
 
     total, passed, failures = verify_csv(args.csv)
     rate = (100.0 * passed / total) if total else 0.0
-    print(f"verify: {passed}/{total} passed ({rate:.1f}%)")
+    print(f"verify: {passed}/{total} passed ({rate:.1f}%) [{args.csv}]")
     for line in failures[:50]:
         print(f"  FAIL {line}", file=sys.stderr)
     if len(failures) > 50:

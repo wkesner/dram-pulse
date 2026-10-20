@@ -22,5 +22,7 @@
   "paths": {
     "primary_html": "data/raw/JBL/000119312526170734/primary.html",
     "other": "data/raw/JBL/000119312526170734/other_full.txt"
-  }
+  },
+  "period_end": "2026-04-22",
+  "report_date": "2026-04-22"
 }

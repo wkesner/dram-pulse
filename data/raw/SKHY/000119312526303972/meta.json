@@ -22,5 +22,7 @@
   "paths": {
     "primary_html": "data/raw/SKHY/000119312526303972/primary.html",
     "other": "data/raw/SKHY/000119312526303972/other_full.txt"
-  }
+  },
+  "period_end": "2026-07-15",
+  "report_date": "2026-07-15"
 }

@@ -36,22 +36,22 @@ def test_two_users_vote_same_signal(tmp_path: Path):
     assert down == 2
 
 
-def test_order_feed_unvoted_first_newest_then_repeat():
+def test_order_feed_unvoted_first_newest_last_seen():
     signals = [
         {
             "signal_id": "a",
             "filing_date": "2026-01-01",
-            "repeat_of": "",
+            "last_seen": "2026-01-01",
         },
         {
             "signal_id": "b",
             "filing_date": "2026-06-01",
-            "repeat_of": "",
+            "last_seen": "2026-06-01",
         },
         {
             "signal_id": "c",
-            "filing_date": "2026-09-01",
-            "repeat_of": "oldid",
+            "filing_date": "2026-03-01",
+            "last_seen": "2026-09-01",
         },
     ]
     votes = [
@@ -64,10 +64,8 @@ def test_order_feed_unvoted_first_newest_then_repeat():
         }
     ]
     ordered = order_feed(signals, "Alice", votes)
-    # Unvoted first: a and c before b; among unvoted, non-repeat before repeat,
-    # and newer date first → a (2026-01, no repeat) vs c (2026-09, repeat):
-    # voted=0 for a,c; is_repeat a=0 c=1 → a then c then b
-    assert [r["signal_id"] for r in ordered] == ["a", "c", "b"]
+    # Unvoted first (a, c), then voted (b). Among unvoted, newest last_seen first → c then a.
+    assert [r["signal_id"] for r in ordered] == ["c", "a", "b"]
 
 
 def test_family_table_matches_signals_csv():
@@ -92,7 +90,9 @@ def test_family_table_matches_signals_csv():
     )
     assert row["supplier_signals"] == sum(1 for r in subset if r["role"] == "supplier")
     assert row["buyer_signals"] == sum(1 for r in subset if r["role"] == "buyer")
-    assert row["latest_filing_date"] == max(r["filing_date"] for r in subset)
+    assert row["latest_filing_date"] == max(
+        (r.get("last_seen") or r["filing_date"]) for r in subset
+    )
 
 
 def test_filter_signals():

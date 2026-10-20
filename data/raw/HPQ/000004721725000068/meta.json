@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/HPQ/000004721725000068/primary.html",
     "other": "data/raw/HPQ/000004721725000068/other_full.txt"
-  }
+  },
+  "period_end": "2025-11-25",
+  "report_date": "2025-11-25"
 }

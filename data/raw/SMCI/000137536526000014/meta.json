@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/SMCI/000137536526000014/item1a_risk_factors.txt",
     "mdna": "data/raw/SMCI/000137536526000014/item7_mdna.txt",
     "other": "data/raw/SMCI/000137536526000014/other_full.txt"
-  }
+  },
+  "period_end": "2026-03-31",
+  "report_date": "2026-03-31"
 }

@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/JBL/000162828026001450/item1a_risk_factors.txt",
     "mdna": "data/raw/JBL/000162828026001450/item7_mdna.txt",
     "other": "data/raw/JBL/000162828026001450/other_full.txt"
-  }
+  },
+  "period_end": "2025-11-30",
+  "report_date": "2025-11-30"
 }

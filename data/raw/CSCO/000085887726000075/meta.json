@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/CSCO/000085887726000075/primary.html",
     "other": "data/raw/CSCO/000085887726000075/other_full.txt"
-  }
+  },
+  "period_end": "2026-05-13",
+  "report_date": "2026-05-13"
 }

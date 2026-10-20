@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/HPQ/000004721726000011/item1a_risk_factors.txt",
     "mdna": "data/raw/HPQ/000004721726000011/item7_mdna.txt",
     "other": "data/raw/HPQ/000004721726000011/other_full.txt"
-  }
+  },
+  "period_end": "2026-01-31",
+  "report_date": "2026-01-31"
 }

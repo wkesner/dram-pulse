@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/SMCI/000137536525000029/primary.html",
     "other": "data/raw/SMCI/000137536525000029/other_full.txt"
-  }
+  },
+  "period_end": "2025-11-04",
+  "report_date": "2025-11-04"
 }

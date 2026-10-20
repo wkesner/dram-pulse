@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/QCOM/000080432825000085/item1a_risk_factors.txt",
     "mdna": "data/raw/QCOM/000080432825000085/item7_mdna.txt",
     "other": "data/raw/QCOM/000080432825000085/other_full.txt"
-  }
+  },
+  "period_end": "2025-09-28",
+  "report_date": "2025-09-28"
 }

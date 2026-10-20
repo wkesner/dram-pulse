@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/QCOM/000080432826000060/primary.html",
     "other": "data/raw/QCOM/000080432826000060/other_full.txt"
-  }
+  },
+  "period_end": "2026-04-29",
+  "report_date": "2026-04-29"
 }

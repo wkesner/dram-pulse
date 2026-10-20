@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/AMD/000000248826000014/primary.html",
     "other": "data/raw/AMD/000000248826000014/other_full.txt"
-  }
+  },
+  "period_end": "2026-02-03",
+  "report_date": "2026-02-03"
 }

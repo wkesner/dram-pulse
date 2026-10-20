@@ -28,5 +28,7 @@
   "paths": {
     "primary_html": "data/raw/SMCI/000137536526000013/primary.html",
     "other": "data/raw/SMCI/000137536526000013/other_full.txt"
-  }
+  },
+  "period_end": "2026-05-05",
+  "report_date": "2026-05-05"
 }

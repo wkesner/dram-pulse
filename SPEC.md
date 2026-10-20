@@ -112,25 +112,27 @@ The term lists in `config/product_taxonomy.yaml` and `config/supply_terms.yaml` 
 - `sentiment` terms: positive (strong, record, robust, improved, favorable, growth) and negative (headwind, challenging, adverse, weak, decline, risk, unable). Both present gives `mixed`.
 - Korean terms (to review): 공급 부족 (supply shortage, tightening), 공급 과잉 (oversupply, easing), 재고 (inventory), 수율 (yield), 감산 (production cut, tightening), 가격 상승 (price increase, tightening), 가격 하락 (price decline, easing), 증설 (capacity expansion), 수요 강세 (strong demand).
 - `topic` is the first matching group: `availability`, `pricing`, `inventory`, `capacity`, `yield_quality`, `demand`.
-- Boilerplate risk factors repeat every year. Flag a passage as `repeat_of` when the same normalised text appears in the same company's prior filing, but keep it. A 12-month window usually holds only one 10-K, so also fetch the previous 10-K. Use it only for this comparison, and never extract signals from it.
+- Boilerplate risk factors repeat every year. De-dupe (see `DEDUPE.md`) collapses overlapping windows and exact/near repeats into one signal with multiple sightings. Flag `carried_from_prior_year` when the passage also appears in the previous year's 10-K. A 12-month window usually holds only one 10-K, so also fetch the previous 10-K. Use it only for this comparison, and never extract signals from it.
 - Keyword rules will mislabel some direction and sentiment. Milestone 2 includes a hand check of those labels specifically. Votes in the feed will also show which rows were mislabelled.
 
 ## Data files
 
-Both files are append-only CSVs in `data/`. Raw downloads are cached in `data/raw/` and never edited.
+`data/sightings.csv` is append-only. `data/signals.csv` is rebuilt from sightings on every extract run (IDs are stable). Raw downloads are cached in `data/raw/` and never edited. See `DEDUPE.md` for matching rules.
 
 ### `data/signals.csv`
 
+One row per distinct signal (rebuilt from sightings).
+
 | column | example / note |
 |---|---|
-| signal_id | sha1 of source_url + char_start + char_end, first 12 chars |
+| signal_id | sha1 of `company\|product_family\|normalize(excerpt)` from the **first** filing, first 12 chars. `normalize`: NFKC, lowercase, curly→straight quotes, non-alnum runs→space, trim |
 | company | Micron |
 | ticker_or_code | MU / 000660 |
 | role | supplier / buyer |
 | source | EDGAR / DART / IR |
-| form | 10-K, 8-K, 6-K, business report, IR-PDF |
-| filing_date | 2026-10-03 |
-| filing_id | EDGAR accession number or DART rcept_no |
+| form | 10-K, 8-K, 6-K, business report, IR-PDF (from first sighting) |
+| filing_date | earliest filing_date among sightings (`first_seen`) |
+| filing_id | EDGAR accession number or DART rcept_no (first sighting) |
 | section | risk_factors, mdna, business, exhibit_99, other |
 | product_category | DRAM / NAND / Other |
 | product_family | HBM |
@@ -139,16 +141,34 @@ Both files are append-only CSVs in `data/`. Raw downloads are cached in `data/ra
 | sentiment | positive / negative / mixed |
 | direction_conflict | true / false |
 | matched_terms | "product:HBM3E; topic:supply; dir:exceeds supply; sent:strong" |
-| excerpt | exact text, max 1,200 characters |
+| excerpt | exact text from the first sighting, max 1,200 characters |
 | language | en / ko |
-| char_start, char_end | offsets into the cached text file |
+| char_start, char_end | offsets into the cached text file (first sighting) |
 | raw_path | data/raw/... cached text the offsets refer to |
 | source_url | link back to the original filing |
-| repeat_of | signal_id of the prior-year match, or blank |
+| first_seen | earliest `filing_date` among sightings |
+| last_seen | latest `filing_date` among sightings |
+| latest_period_end | `period_end` of the latest sighting (EDGAR `reportDate`) |
+| times_seen | number of sightings |
+| carried_from_prior_year | true when the passage also appears in the prior-year 10-K |
 | lookback_months | 12 |
 | window_start, window_end | 2025-10-20, 2026-10-20 |
-| extractor_version | 0.1.0 |
+| extractor_version | 0.2.0 |
 | extracted_at | ISO timestamp |
+
+### `data/sightings.csv`
+
+One appearance of a signal in one filing. Append-only; skip existing `sighting_id` on re-run. `verify.py` checks every sighting at its offsets.
+
+| column | note |
+|---|---|
+| sighting_id | sha1 of filing_id + char_start + char_end + product_family, first 12 chars |
+| signal_id | the signal this appearance belongs to |
+| filing_id, form, filing_date, section | as in signals.csv |
+| period_end | period the filing covers; from EDGAR submissions `reportDate` |
+| char_start, char_end, raw_path, source_url | where this appearance is, for verify |
+| match | `first`, `exact`, or `near` |
+| similarity | Jaccard for `near`, otherwise 1.0 |
 
 ### `data/votes.csv`
 
@@ -166,18 +186,20 @@ Votes are a separate file so several users never overwrite the signals file, and
 
 - Built with Streamlit (`app.py`), run locally.
 - Sidebar: user name (required before voting), plus filters for product category, product family, supply direction, company, role and source.
-- Main area: one card at a time showing company and role, form, date, product family, supply direction, sentiment, the excerpt with matched terms highlighted, and a link to the source. Buttons: 👍, 👎, Skip.
-- Order: signals this user hasn't voted on first, newest filing first, with `repeat_of` rows last.
+- Main area: one card at a time showing company and role, form, date, product family, supply direction, sentiment, the excerpt with matched terms highlighted, and a link to the source. A line reading "Seen in N filings, latest YYYY-MM-DD" expands into the list of sightings, each linked to its filing. Buttons: 👍, 👎, Skip.
+- Order: signals this user hasn't voted on first, then newest `last_seen` first.
 - Each vote is appended to `votes.csv` immediately. The card shows the running 👍/👎 counts from all users.
-- **Family view** (second tab, the first step toward steering): a table with one row per product family showing counts of tightening, easing, stable and unclear signals in the window. It also shows how many come from suppliers versus buyers, and the date of the latest signal. Clicking a family filters the feed to it. These are plain counts, not a score. The column header shows the lookback window.
+- **Family view** (second tab, the first step toward steering): a table with one row per product family showing counts of tightening, easing, stable and unclear **signals** (not sightings) in the window. It also shows how many come from suppliers versus buyers, and the date of the latest signal. Clicking a family filters the feed to it. These are plain counts, not a score. The column header shows the lookback window.
 
 ## Repo layout
 
 ```
 config/settings.yaml  companies.yaml  product_taxonomy.yaml  supply_terms.yaml  ir_documents.yaml
-src/fetch_edgar.py  fetch_dart.py  fetch_ir.py  sections.py  extract.py  verify.py
+src/fetch_edgar.py  fetch_dart.py  fetch_ir.py  sections.py  extract.py  dedupe.py  verify.py
 app.py
-data/raw/  data/signals.csv  data/votes.csv
+DEDUPE.md
+data/raw/  data/signals.csv  data/sightings.csv  data/votes.csv
+fixtures/signals_v010.csv
 tests/
 .env.example   (SEC_USER_AGENT, DART_API_KEY)
 ```
@@ -196,3 +218,4 @@ tests/
 - 2026-10-20: Company list confirmed, including Nvidia, AMD and Qualcomm.
 - 2026-10-20: Lookback is 12 months for all filing types, recorded on every CSV row.
 - 2026-10-20: A signal is positive or negative supply sentiment about a memory product or family (definition above).
+- 2026-10-20: De-dupe per DEDUPE.md — stable `signal_id`, append-only `sightings.csv`, rebuild `signals.csv`; extractor 0.2.0. M4 proof votes cleared (old IDs obsolete).

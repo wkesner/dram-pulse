@@ -11,6 +11,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SIGNALS_PATH = REPO_ROOT / "data" / "signals.csv"
+SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 VOTES_PATH = REPO_ROOT / "data" / "votes.csv"
 
 VOTE_COLUMNS = ["vote_id", "signal_id", "user", "vote", "voted_at"]
@@ -21,6 +22,21 @@ def load_signals(path: Path = SIGNALS_PATH) -> list[dict[str, str]]:
         return []
     with path.open(encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
+
+
+def load_sightings(path: Path = SIGHTINGS_PATH) -> list[dict[str, str]]:
+    if not path.is_file():
+        return []
+    with path.open(encoding="utf-8", newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def sightings_for_signal(
+    signal_id: str, sightings: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    rows = [s for s in sightings if s.get("signal_id") == signal_id]
+    rows.sort(key=lambda r: r.get("filing_date") or "", reverse=True)
+    return rows
 
 
 def load_votes(path: Path = VOTES_PATH) -> list[dict[str, str]]:
@@ -140,13 +156,13 @@ def order_feed(
     user: str,
     votes: list[dict[str, str]],
 ) -> list[dict[str, str]]:
-    """Unvoted by this user first, newest filing first, repeat_of last."""
+    """Unvoted by this user first, then newest last_seen first."""
     user = user.strip()
 
     def key(row: dict[str, str]) -> tuple:
         voted = 1 if user and user_has_voted(user, row["signal_id"], votes) else 0
-        is_repeat = 1 if (row.get("repeat_of") or "").strip() else 0
-        return (voted, is_repeat, _date_sort_key(row.get("filing_date") or ""))
+        last_seen = row.get("last_seen") or row.get("filing_date") or ""
+        return (voted, _date_sort_key(last_seen))
 
     return sorted(signals, key=key)
 
@@ -186,7 +202,7 @@ def family_table(signals: list[dict[str, str]]) -> list[dict[str, Any]]:
                 suppliers += 1
             elif role == "buyer":
                 buyers += 1
-            fd = r.get("filing_date") or ""
+            fd = r.get("last_seen") or r.get("filing_date") or ""
             if fd > latest:
                 latest = fd
         rows.append(

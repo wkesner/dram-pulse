@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/AAPL/000032019326000013/item1a_risk_factors.txt",
     "mdna": "data/raw/AAPL/000032019326000013/item7_mdna.txt",
     "other": "data/raw/AAPL/000032019326000013/other_full.txt"
-  }
+  },
+  "period_end": "2026-03-28",
+  "report_date": "2026-03-28"
 }

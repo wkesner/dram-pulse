@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/AMD/000000248826000018/item1a_risk_factors.txt",
     "mdna": "data/raw/AMD/000000248826000018/item7_mdna.txt",
     "other": "data/raw/AMD/000000248826000018/other_full.txt"
-  }
+  },
+  "period_end": "2025-12-27",
+  "report_date": "2025-12-27"
 }

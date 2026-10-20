@@ -28,5 +28,7 @@
     "risk_factors": "data/raw/HPE/000164559026000080/item1a_risk_factors.txt",
     "mdna": "data/raw/HPE/000164559026000080/item7_mdna.txt",
     "other": "data/raw/HPE/000164559026000080/other_full.txt"
-  }
+  },
+  "period_end": "2026-07-31",
+  "report_date": "2026-07-31"
 }

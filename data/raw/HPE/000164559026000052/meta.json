@@ -33,5 +33,7 @@
   "paths": {
     "primary_html": "data/raw/HPE/000164559026000052/primary.html",
     "other": "data/raw/HPE/000164559026000052/other_full.txt"
-  }
+  },
+  "period_end": "2026-06-01",
+  "report_date": "2026-06-01"
 }
