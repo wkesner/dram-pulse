@@ -159,6 +159,8 @@ def main() -> None:
                 label = f"{row['product_family']} ({row['total']})"
                 if col.button(label, key=f"fam_btn_{row['product_family']}"):
                     st.session_state["filter_family"] = row["product_family"]
+                    # Reset the selectbox widget so it picks up the new family.
+                    st.session_state.pop("filter_family_box", None)
                     st.session_state["feed_index"] = 0
                     st.rerun()
 

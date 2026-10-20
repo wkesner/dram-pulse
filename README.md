@@ -53,6 +53,17 @@ python3 -m src.verify
 
 `config/companies.yaml` lists MU, SKHY, and buyers AAPL DELL HPQ HPE SMCI CSCO NVDA AMD QCOM JBL. Forms: 10-K, 10-Q, 8-K (items 2.02 / 2.06 / 7.01 / 8.01); SKHY also 6-K. CIKs and `fiscalYearEnd` come from EDGAR at runtime.
 
+## Milestone 4 — Feed + family view
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+- Sidebar: type your name (required before voting), then filter by product category / family / supply direction / company / role / source.
+- **Feed** tab: one signal card at a time with highlighted matched terms, source link, 👍 / 👎 / Skip. Votes append to `data/votes.csv`; counts use each user’s latest vote.
+- **Family view** tab: plain counts per product family (tightening / easing / stable / unclear, supplier vs buyer, latest filing date). Header shows the lookback window. Click a family to filter the feed.
+
 ---
 
 # DRAM Signal Pipeline
