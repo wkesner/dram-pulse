@@ -37,10 +37,11 @@ Rule-based extraction from cached Item 1 / 1A / 7 text. Term lists live in `conf
 export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
 # Fetches prior-year 10-K once (for carried_from_prior_year only; no signals extracted from it)
 python3 -m src.extract --ticker MU
-python3 -m src.verify
+python3 -m src.verify   # defaults to data/sightings.csv
+# Fixture: python3 -m src.dedupe fixtures/signals_v010.csv
 ```
 
-Output: `data/signals.csv`. `verify.py` checks every excerpt against `char_start`/`char_end` in the cached raw text (must be 100%).
+Output: append-only `data/sightings.csv` and rebuilt `data/signals.csv` (one row per signal; see `DEDUPE.md`). `verify.py` checks every sighting excerpt against `char_start`/`char_end` in the cached raw text (must be 100%).
 
 ## Milestone 3 — all EDGAR companies
 
