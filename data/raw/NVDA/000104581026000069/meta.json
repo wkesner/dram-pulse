@@ -1,0 +1,26 @@
+{
+  "company": "Nvidia",
+  "ticker": "NVDA",
+  "cik": "0001045810",
+  "form": "8-K",
+  "filing_date": "2026-08-17",
+  "accession_number": "0001045810-26-000069",
+  "primary_document": "nvda-20260817.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.03,7.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+  "fiscal_year_end": "0131",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:41.344948+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/NVDA/000104581026000069/primary.html",
+    "other": "data/raw/NVDA/000104581026000069/other_full.txt"
+  }
+}

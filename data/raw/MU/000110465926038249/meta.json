@@ -1,0 +1,37 @@
+{
+  "company": "Micron",
+  "ticker": "MU",
+  "cik": "0000723125",
+  "form": "8-K",
+  "filing_date": "2026-04-01",
+  "accession_number": "0001104659-26-038249",
+  "primary_document": "tm2610810d1_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm",
+  "fiscal_year_end": "0903",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:01.150193+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "tm2610810d1_ex99-1.htm",
+      "path": "data/raw/MU/000110465926038249/exhibit_99_tm2610810d1_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_ex99-1.htm"
+    },
+    {
+      "name": "tm2610810d1_ex99-2.htm",
+      "path": "data/raw/MU/000110465926038249/exhibit_99_tm2610810d1_ex99-2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_ex99-2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/MU/000110465926038249/primary.html",
+    "other": "data/raw/MU/000110465926038249/other_full.txt"
+  }
+}

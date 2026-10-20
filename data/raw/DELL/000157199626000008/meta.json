@@ -1,0 +1,32 @@
+{
+  "company": "Dell",
+  "ticker": "DELL",
+  "cik": "0001571996",
+  "form": "10-K",
+  "filing_date": "2026-03-16",
+  "accession_number": "0001571996-26-000008",
+  "primary_document": "dell-20260130.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+  "fiscal_year_end": "0129",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:16.374634+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/DELL/000157199626000008/primary.html",
+    "business": "data/raw/DELL/000157199626000008/item1_business.txt",
+    "risk_factors": "data/raw/DELL/000157199626000008/item1a_risk_factors.txt",
+    "mdna": "data/raw/DELL/000157199626000008/item7_mdna.txt",
+    "other": "data/raw/DELL/000157199626000008/other_full.txt"
+  }
+}

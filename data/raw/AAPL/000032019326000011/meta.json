@@ -1,0 +1,32 @@
+{
+  "company": "Apple",
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "form": "8-K",
+  "filing_date": "2026-04-30",
+  "accession_number": "0000320193-26-000011",
+  "primary_document": "aapl-20260430.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm",
+  "fiscal_year_end": "0926",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:10.803720+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "a8-kex991q2202603282026.htm",
+      "path": "data/raw/AAPL/000032019326000011/exhibit_99_a8-kex991q2202603282026.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/a8-kex991q2202603282026.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AAPL/000032019326000011/primary.html",
+    "other": "data/raw/AAPL/000032019326000011/other_full.txt"
+  }
+}

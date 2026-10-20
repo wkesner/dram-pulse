@@ -1,0 +1,26 @@
+{
+  "company": "Micron",
+  "ticker": "MU",
+  "cik": "0000723125",
+  "form": "8-K",
+  "filing_date": "2026-06-24",
+  "accession_number": "0000723125-26-000013",
+  "primary_document": "mu-20260624.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm",
+  "fiscal_year_end": "0903",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:00.557890+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MU/000072312526000013/primary.html",
+    "other": "data/raw/MU/000072312526000013/other_full.txt"
+  }
+}

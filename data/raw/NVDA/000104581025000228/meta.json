@@ -1,0 +1,37 @@
+{
+  "company": "Nvidia",
+  "ticker": "NVDA",
+  "cik": "0001045810",
+  "form": "8-K",
+  "filing_date": "2025-11-19",
+  "accession_number": "0001045810-25-000228",
+  "primary_document": "nvda-20251119.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm",
+  "fiscal_year_end": "0131",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:43.815909+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "q3fy26cfocommentary.htm",
+      "path": "data/raw/NVDA/000104581025000228/exhibit_99_q3fy26cfocommentary.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26cfocommentary.htm"
+    },
+    {
+      "name": "q3fy26pr.htm",
+      "path": "data/raw/NVDA/000104581025000228/exhibit_99_q3fy26pr.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/q3fy26pr.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/NVDA/000104581025000228/primary.html",
+    "other": "data/raw/NVDA/000104581025000228/other_full.txt"
+  }
+}

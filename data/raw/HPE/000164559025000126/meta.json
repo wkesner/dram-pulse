@@ -1,0 +1,32 @@
+{
+  "company": "HPE",
+  "ticker": "HPE",
+  "cik": "0001645590",
+  "form": "8-K",
+  "filing_date": "2025-12-04",
+  "accession_number": "0001645590-25-000126",
+  "primary_document": "hpe-20251204.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000126/hpe-20251204.htm",
+  "fiscal_year_end": "1031",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:29.127315+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex-991x1242025x8k.htm",
+      "path": "data/raw/HPE/000164559025000126/exhibit_99_ex-991x1242025x8k.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000126/ex-991x1242025x8k.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/HPE/000164559025000126/primary.html",
+    "other": "data/raw/HPE/000164559025000126/other_full.txt"
+  }
+}

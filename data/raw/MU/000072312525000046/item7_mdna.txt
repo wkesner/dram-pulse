@@ -1,0 +1,490 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+This discussion should be read in conjunction with the consolidated financial statements and accompanying notes for the year ended August 28, 2025. All period references are to our fiscal periods unless otherwise indicated. Our fiscal year is the 52
+-
+ or 53-week period ending on the Thursday closest to August 31. Fiscal 2026 contains 53
+ 
+weeks and fiscal 2025 contains 52 weeks. All tabular dollar amounts are in millions, except per share amounts.
+Overview
+Micron Technology, Inc. is an industry leader in innovative memory and storage solutions transforming how the world uses information to enrich life for all. With a relentless focus on our customers, technology leadership, and manufacturing and operational excellence, Micron delivers a rich portfolio of high-performance DRAM, NAND, and NOR memory and storage products. Every day, the innovations that our people create fuel the data economy, enabling advances in artificial intelligence (AI) and compute-intensive applications that unleash opportunities — from the data center to the intelligent edge and across the client and mobile user experience.
+We manufacture our products at wholly-owned facilities and also utilize subcontractors for certain manufacturing processes. Our global network of manufacturing centers of excellence not only allows us to benefit from scale while streamlining processes and operations, but it also brings together some of the world’s brightest talent to work on the most advanced memory technology. Centers of excellence bring expertise together in one location, providing an efficient support structure for end-to-end manufacturing, with quicker cycle times, in partnership with teams, such as R&D, product development, human resources, procurement, and supply chain. For our locations in Singapore and Taiwan, this is also a combination of bringing fabrication and back-end manufacturing together. We continue to make significant investments to develop proprietary product and process technology, which generally increases bit density per wafer and reduces per-bit manufacturing costs of each generation of product. We continue to introduce new generations of products that offer improved performance characteristics, including higher data transfer rates, advanced packaging solutions, lower power consumption, improved read/write reliability, and increased memory density.
+We face intense competition in the semiconductor memory and storage markets. To remain competitive, we must continuously develop and implement new products and technologies and decrease manufacturing costs in spite of inflationary pressures, changing technologies, rapid market changes, and regulatory uncertainty. Our success is largely dependent on obtaining returns on our R&D investments, efficient utilization of our manufacturing infrastructure, development and integration of advanced product and process technologies, market acceptance of our diversified portfolio of semiconductor-based memory and storage solutions, and efficient capital spending.
+Product Technologies
+Our product portfolio of memory and storage solutions, advanced solutions, and storage platforms is based on our high-performance semiconductor memory and storage technologies, including DRAM, NAND, and NOR. We sell our products through our business units into various markets in numerous forms, including components, modules, SSDs, managed NAND, multi-chip packages, and wafers. Many of our system-level solutions combine NAND, a controller, firmware, and in some cases DRAM.
+DRAM:
+ DRAM products are dynamic random access memory semiconductor devices with low latency that provide high-speed data retrieval with a variety of performance characteristics. DRAM products lose content when power is turned off (“volatile”) and are most commonly used in the data center, client PC, graphics, industrial, mobile, and automotive markets.
+NAND:
+ NAND products are non-volatile, re-writeable semiconductor storage devices that provide high-capacity, low-cost storage with a variety of performance characteristics. NAND is used in SSDs for the data center, client PC, consumer, and automotive markets, and in removable storage markets. Managed NAND is used in smartphones and other mobile devices, and in the consumer, automotive, and embedded markets. Low-density NAND is ideal for applications like automotive, surveillance, machine-to-machine, automation, printer, and home networking.
+
+26
+Table of Contents
+NOR:
+ NOR products are non-volatile, re-writable semiconductor memory devices that provide fast read speeds. NOR is most commonly used for reliable code storage (e.g., boot, application, operating system, and execute-in-place code in an embedded system) and for frequently changing small data storage and is ideal for automotive, industrial, and consumer applications.
+Industry Conditions
+AI-driven demand is accelerating and outpacing industry supply. In the first quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand growth, driven in part by the continued advancement of AI. The AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply. We continue to shift more of our DRAM production to HBM and high-capacity modules for the data center and hyperscale cloud markets. The transition to these higher-growth segments, together with our strong execution, robust overall industry DRAM demand, and constrained supply, has led to improved profitability across our DRAM portfolio. In the first quarter of 2026, NAND revenue increased due to significant improvements in selling prices and higher bit shipments driven by a combination of factors including tight industry supply, pricing execution, and favorable product mix. Our NAND gross margin percentage increased due to improved pricing and manufacturing cost reductions.
+27 |
+
+2026 Q1 10-Q
+Table of Contents
+Results of Operations
+Consolidated Results
+First Quarter
+Fourth Quarter
+First Quarter
+2026
+2025
+2025
+Revenue
+$
+13,643 
+100 
+%
+$
+11,315 
+100 
+%
+$
+8,709 
+100 
+%
+Cost of goods sold
+5,997 
+44 
+%
+6,261 
+55 
+%
+5,361 
+62 
+%
+Gross margin
+7,646 
+56 
+%
+5,054 
+45 
+%
+3,348 
+38 
+%
+Research and development
+1,171 
+9 
+%
+1,047 
+9 
+%
+888 
+10 
+%
+Selling, general, and administrative
+337 
+2 
+%
+314 
+3 
+%
+288 
+3 
+%
+Other operating (income) expense, net
+2 
+— 
+%
+39 
+— 
+%
+(2)
+— 
+%
+Operating income
+6,136 
+45 
+%
+3,654 
+32 
+%
+2,174 
+25 
+%
+Interest income (expense), net
+65 
+— 
+%
+22 
+— 
+%
+(11)
+— 
+%
+Other non-operating income (expense), net
+(140)
+(1)
+%
+(45)
+— 
+%
+(11)
+— 
+%
+Income tax (provision) benefit
+(829)
+(6)
+%
+(429)
+(4)
+%
+(283)
+(3)
+%
+Equity in net income (loss) of equity method investees
+8 
+— 
+%
+(1)
+— 
+%
+1 
+— 
+%
+Net income
+$
+5,240 
+38 
+%
+$
+3,201 
+28 
+%
+$
+1,870 
+21 
+%
+Total Revenue:
+ Total revenue for the first quarter of 2026 was impacted by the factors described in the section titled “Industry Conditions” above.
+Total revenue for the first quarter of 2026 increased 21% as compared to the fourth quarter of 2025 primarily due to increases in sales of both DRAM and NAND products.
+•
+Sales of DRAM products increased 20% primarily due to an approximate 20% increase in average selling prices.
+•
+Sales of NAND products increased 22% primarily due to a mid-teens percentage range increase in average selling prices and a mid-to-high single digit percentage range increase in bit shipments.
+Total revenue for the first quarter of 2026 increased 57% as compared to the first quarter of 2025 primarily due to increases in sales of both DRAM and NAND products.
+•
+Sales of DRAM products increased 69% primarily due to a mid-30% range increase in average selling prices and a mid-20% range increase in bit shipments.
+•
+Sales of NAND products increased 22% primarily due to a high-20% range increase in bit shipments, partially offset by a mid-single-digit percent range decrease in average selling prices.
+Consolidated Gross Margin:
+Our consolidated gross margin has been impacted by the factors described in the section titled “Industry Conditions.” Our consolidated gross margin percentage increased to 56% for the first quarter of 2026 from 45% for the fourth quarter of 2025 as a result of improvements in margins for both DRAM and NAND products. DRAM and NAND margins improved primarily due to increases in average selling prices and manufacturing cost reductions driven by improvements in product and process technology.
+Our consolidated gross margin percentage improved to 56% for the first quarter of 2026 from 38% for the first quarter of 2025 as a result of improvements in margins for both DRAM and NAND products. DRAM margins improved primarily due to increases in average selling prices; an increased mix of higher-margin products, including HBM and other high-capacity data center products; and manufacturing cost reductions driven by improvements in product and process technology. NAND margins improved primarily due to manufacturing cost reductions.
+
+28
+Table of Contents
+Revenue by Business Unit
+First Quarter
+Fourth Quarter
+First Quarter
+2026
+2025
+2025
+CMBU
+$
+5,284 
+39 
+%
+$
+4,543 
+40 
+%
+$
+2,648 
+30 
+%
+CDBU
+2,379 
+17 
+%
+1,577 
+14 
+%
+2,292 
+26 
+%
+MCBU
+4,255 
+31 
+%
+3,760 
+33 
+%
+2,608 
+30 
+%
+AEBU
+1,720 
+13 
+%
+1,434 
+13 
+%
+1,158 
+13 
+%
+All other
+5 
+— 
+%
+1 
+— 
+%
+3 
+— 
+%
+ 
+$
+13,643 
+$
+11,315 
+$
+8,709 
+Percentages of total revenue may not total 100% due to rounding.
+Changes in revenue for each business unit for the first quarter of 2026 as compared to the fourth quarter of 2025 were as follows:
+•
+CMBU revenue increased 16% primarily due to increases in DRAM average selling prices and bit shipments driven by AI demand in cloud server markets.
+•
+CDBU revenue increased 51% primarily due to increases in bit shipments and average selling prices for both data center DRAM and NAND.
+•
+MCBU revenue increased 13% primarily due to increases in DRAM and NAND average selling prices, partially offset by decreases in bit shipments.
+•
+AEBU revenue increased 20% primarily due to increases in DRAM and NAND average selling prices and DRAM bit shipments.
+Changes in revenue for each business unit for the first quarter of 2026 as compared to the first quarter of 2025 were as follows:
+•
+CMBU revenue increased 100% primarily due to increases in DRAM bit shipments and average selling prices driven by AI demand in cloud server markets for HBM, high-capacity dual in-line memory modules (“DIMMS”), and low-power server DRAM.
+•
+CDBU revenue increased 4% primarily due to increases in DRAM average selling prices and higher NAND bit shipments, partially offset by decreases in NAND average selling prices.
+•
+MCBU revenue increased 63% primarily due to increases in DRAM and NAND average selling prices and bit shipments.
+•
+AEBU revenue increased 49% primarily due to higher DRAM and NAND bit shipments and DRAM average selling prices, partially offset by decreases in NAND average selling prices.
+Operating Income by Business Unit
+First Quarter
+Fourth Quarter
+First Quarter
+2026
+2025
+2025
+CMBU
+$
+2,884 
+55 
+%
+$
+2,170 
+48 
+%
+$
+1,066 
+40 
+%
+CDBU
+890 
+37 
+%
+391 
+25 
+%
+871 
+38 
+%
+MCBU
+2,017 
+47 
+%
+1,104 
+29 
+%
+379 
+15 
+%
+AEBU
+627 
+36 
+%
+292 
+20 
+%
+78 
+7 
+%
+All other
+1 
+20 
+%
+(2)
+(200)
+%
+— 
+— 
+%
+ 
+$
+6,419 
+$
+3,955 
+$
+2,394 
+Percentages reflect operating income as a percentage of revenue for each business unit.
+Changes in operating income for each business unit for the first quarter of 2026 as compared to the fourth quarter of 2025 were as follows:
+•
+CMBU operating income increased primarily due to increases in DRAM average selling prices, higher bit shipments, and manufacturing cost reductions.
+29 |
+
+2026 Q1 10-Q
+Table of Contents
+•
+CDBU operating income increased primarily due to higher bit shipments, increases in data center average selling prices, and manufacturing cost reductions, partially offset by higher R&D expenses.
+•
+MCBU operating income increased primarily due to increases in DRAM and NAND average selling prices and manufacturing cost reductions, partially offset by lower bit shipments for both DRAM and NAND.
+•
+AEBU operating income increased primarily due to increases in DRAM and NAND average selling prices, higher DRAM bit shipments, and DRAM manufacturing cost reductions.
+Changes in operating income for each business unit for the first quarter of 2026 as compared to the first quarter of 2025 were as follows:
+•
+CMBU operating income increased primarily due to higher bit shipments, increases in average selling prices, and manufacturing cost reductions, partially offset by higher R&D expenses.
+•
+CDBU operating income increased primarily due to increases in DRAM average selling prices and cost reductions, partially offset by declines in NAND average selling prices and higher R&D expenses.
+•
+MCBU operating income increased primarily due to increases in average selling prices, higher bit shipments, and manufacturing cost reductions.
+•
+AEBU operating income increased primarily due to higher DRAM and NAND bit shipments, manufacturing cost reductions, and increases in DRAM average selling prices, partially offset by decreases in NAND average selling prices.
+Operating Expenses and Other
+Research and Development:
+R&D expenses vary primarily with the number of development and pre-qualification wafers processed and end-product solutions developed, personnel costs, and the cost of advanced equipment dedicated to new product and process development. Because of the lead times necessary to manufacture our products, we typically begin to process wafers before completion of performance and reliability testing. Development of a product is deemed complete when it is qualified through internal reviews and tests for performance, functionality, and reliability. R&D expenses can vary significantly depending on the timing of product qualification and product specifications.
+R&D expenses for the first quarter of 2026 increased 12% as compared to the fourth quarter of 2025 and 32% as compared to the first quarter of 2025, primarily due to higher volumes of development and pre-qualification wafers and an increase in employee compensation.
+Selling, General, and Administrative:
+SG&A expenses for the first quarter of 2026 increased 7% as compared to the fourth quarter of 2025 and 17% as compared to the first quarter of 2025, primarily due to an increase in employee compensation.
+Interest Income (Expense), Net:
+
+Interest income (expense) improved in the first quarter of 2026 as compared to the fourth quarter of 2025 primarily due to a decrease in interest expense due to lower debt balances. Interest income (expense) improved for the first quarter of 2026 as compared to the first quarter of 2025 primarily due to a decrease in interest expense due to lower debt balances and an increase in interest income due to higher cash and investments balances.
+Income Taxes:
+Our income tax (provision) benefit consisted of the following:
+First Quarter
+Fourth Quarter
+First Quarter
+2026
+2025
+2025
+Income before taxes
+$
+6,061 
+$
+3,631 
+$
+2,152 
+Income tax (provision) benefit
+(829)
+(429)
+(283)
+Effective tax rate
+13.7 
+%
+11.8 
+%
+13.2 
+%
+The change in our effective tax rate for the first quarter of 2026 as compared to the fourth quarter of 2025 and the first quarter of 2025 was primarily due to the 15% minimum tax Pillar Two Model Rules (“Pillar Two”). Singapore enacted legislation to implement Pillar Two, effective for us in 2026, which largely offsets the benefit from our Singapore tax incentive arrangements.
+
+30
+Table of Contents
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was enacted, introducing broad changes to the U.S. tax code, including modifications to corporate and international tax provisions, which primarily are effective for us beginning in 2026 and 2027. The aggregate impact of the OBBBA remains uncertain. We will continue to monitor future developments, including regulatory guidance and interpretations, which could have a material impact on our income tax provision. Further changes in the tax laws of foreign jurisdictions could arise as a result of the base erosion and profit-shifting project, including Pillar Two, undertaken by the Organisation for Economic Co-operation and Development. We continue to monitor for additional guidance and legislative changes related to Pillar Two in the jurisdictions where we operate.
+Various tax reforms are being considered in multiple jurisdictions that, if enacted, contain provisions that could materially impact our tax expense. We continue to monitor the potential impact of these various tax reform proposals to our overall global effective tax rate and financial statements.
+Other:
+
+Further information can be found in the following notes contained in Item 1. Financial Statements, Notes to Consolidated Financial Statements:
+•
+Note 10. Debt
+•
+Note 15. Equity Compensation Plans
+•
+Note 17. Other Non-Operating Income (Expense), Net
+•
+Note 18. Income Taxes
+Liquidity and Capital Resources
+Our primary sources of liquidity are cash generated from operations and financing obtained from capital markets and financial institutions. Cash generated from operations is highly dependent on selling prices for our products, which can vary significantly from period to period. Cash and marketable investments totaled $12.02 billion as of November 27, 2025, and $11.94 billion as of August 28, 2025. Our cash and investments consist primarily of bank deposits, money market funds, and liquid investment-grade, fixed-income securities, which are diversified among industries and individual issuers. To mitigate credit risk, we invest through high-credit-quality financial institutions and by policy generally limit the concentration of credit exposure by restricting the amount of investments with any single obligor. As of November 27, 2025, $2.26 billion of our cash and marketable investments was held by our foreign subsidiaries.
+We continuously evaluate alternatives for efficiently funding our capital expenditures and ongoing operations. We expect to engage in a variety of financing transactions, from time to time, for such purposes, as well as to refinance our existing indebtedness, including the issuance of securities. As of November 27, 2025, $3.50 billion was available to draw under our Revolving Credit Facility. Funding of certain significant capital projects is also dependent on the receipt of government incentives. Our incentives are conditioned upon achieving or maintaining certain outcomes and satisfying compliance requirements and are subject to reduction, termination, or clawback.
+To develop new product and process technology, support future growth, achieve operating efficiencies, and maintain product quality, we must continue to invest in manufacturing technologies, facilities and equipment, and R&D. We estimate capital expenditures for property, plant, and equipment, net of proceeds from government incentives, to be approximately $20 billion in 2026, weighted to the second half of the year. Actual amounts for 2026 will vary depending on market conditions and may vary from quarter to quarter due to the timing of expenditures and proceeds from government incentives. As of November 27, 2025, we had purchase obligations of approximately $1.68 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year. For a description of other contractual obligations, such as leases and debt, see Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 8. Leases, as well as Note 10. Debt.
+In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support projected memory demand in the second half of the decade. Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.
+As part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output projected in mid-calendar 2027.
+31 |
+
+2026 Q1 10-Q
+Table of Contents
+In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI. We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028.
+Our announced plan for New York includes construction of a leading-edge DRAM memory manufacturing site, consisting of up to four fabs to be built over the next 20-plus years, in Clay, New York. We continue to work with state and federal authorities for approval to start ground preparation. We plan to break ground on our first New York fab in early calendar 2026, which will provide supply in 2030 and beyond. We expect these new fabs to be key to meeting our requirements for additional wafer capacity, in line with industry demand trends and our objective of maintaining stable bit share.
+On December 9, 2024, we entered into direct funding agreements with the U.S. Department of Commerce for up to $6.1 billion in direct funding pursuant to the CHIPS Act for a planned fab in Boise, Idaho, and two planned fabs in Clay, New York. On June 11, 2025, we entered into amendments to the direct funding agreements to add a second planned fab in Boise, Idaho, and allocate certain award funding to the second planned Idaho fab from the $6.1 billion grants previously awarded under the December 2024 direct funding agreements. The direct funding for up to $6.1 billion remains unchanged. On June 11, 2025, we also entered into a direct funding agreement with the U.S. Department of Commerce for up to $275 million in direct funding to expand and modernize our fab in Manassas, Virginia. The grants under the funding agreements represent total CHIPS Act grants of up to $6.4 billion in connection with our U.S. manufacturing expansion and modernization projects. In addition, we announced plans to bring advanced HBM packaging capabilities to the U.S.
+In addition to the CHIPS Act direct funding, we receive a 35% investment tax credit on qualified investments in U.S. semiconductor manufacturing under the CHIPS Act. We have also signed a non-binding term sheet with the State of New York that provides for up to $5.5 billion in funding for the planned four-fab facility over the next 20-plus years through a combination of tax credits for qualified capital investments and incentives for eligible new job wages.
+Outside the U.S., we are investing in manufacturing technologies, facilities and equipment, and R&D, and advancing our global back-end assembly and test network. These investments support our product portfolio and extend our ability to meet global market demand in the future. Planned investments and those underway include the following:
+•
+India:
+our assembly and test facility in Gujarat has initiated pilot production and will ramp in 2026;
+•
+Japan:
+we are modernizing our Hiroshima manufacturing facility to support future DRAM nodes and AI memory production;
+•
+Singapore:
+ we broke ground on an HBM advanced packaging facility to meaningfully expand our total advanced packaging capacity beginning in calendar 2027; and
+•
+Taiwan:
+ we are modernizing our production capacity for DRAM and HBM products to meet rising market demand.
+In certain countries outside of the U.S, we receive or expect to receive, government incentives related to our investments. The amounts of these government incentives generally offset a portion of our planned investments and require us to meet certain conditions in order to receive such incentives.
+Our Board of Directors has authorized the discretionary repurchase of up to $10 billion of our outstanding common stock through open-market purchases, block trades, privately-negotiated transactions, derivative transactions, and/or pursuant to Rule 10b5-1 trading plans. The repurchase authorization has no expiration date, does not obligate us to acquire any common stock, and is subject to market conditions, restrictions applicable under our CHIPS Act direct funding agreements, and our ongoing determination of the best use of available cash. Through November 27, 2025, we had repurchased an aggregate of $7.49 billion under the authorization. See Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 12. Equity.
+On December 17, 2025, our Board of Directors declared a quarterly dividend of $0.115 per share, payable in cash on January 14, 2026, to shareholders of record as of the close of business on December 29, 2025. The declaration and payment of any future cash dividends are at the discretion and subject to the approval of our Board of Directors. Our Board of Directors’ decisions regarding the amount and payment of dividends will depend on many factors, including, but not limited to, our financial condition, results of operations, capital requirements, business conditions, debt service obligations, contractual restrictions, industry practice, legal requirements, regulatory constraints, and other factors that our Board of Directors may deem relevant.
+
+32
+Table of Contents
+We expect that our cash and investments, cash flows from operations, funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future.
+Cash Flows
+Three months ended
+November 27,
+2025
+November 28,
+2024
+Net cash provided by operating activities
+$
+8,411 
+$
+3,244 
+Net cash used for investing activities
+(4,594)
+(3,148)
+Net cash used for financing activities
+(3,745)
+(422)
+Effect of changes in currency exchange rates on cash, cash equivalents, and restricted cash
+14 
+(29)
+Net increase (decrease) in cash, cash equivalents, and restricted cash
+$
+86 
+$
+(355)
+Operating Activities:
+ Cash provided by operating activities reflects net income adjusted for certain non-cash items, including depreciation expense, amortization of intangible assets, and stock-based compensation, and the effects of changes in operating assets and liabilities
+.
+Th
+e increase in cash provided by operating activities for the first three months of 2026 as compared to the first three months of 2025 was primarily due to higher net income in the current year adjusted for non-cash items and increases in other current liabilities and noncurrent liabilities, partially offset by an increase in receivables.
+Investing Activities:
+ For the first three months of 2026, net cash used for investing activities consisted primarily of $5.39 billion of expenditures for property, plant, and equipment, partially offset by $878 million of proceeds from government incentives to offset capital expenditures.
+For the first three months of 2025, net cash used for investing activi
+ties consisted primarily of $3.21 billion of expenditures for property, plant, and equipment, partially offset by $65 million received from government incentives to offset capital expenditures and $51 million of net inflows from maturities, sales, and purchases of available-for-sale securities.
+Financing Activities:
+ For the first three months of 2026, net cash used for financing activities consisted primarily of $2.94 billion of repayments of debt, which included the prepayment in full of the 2028 Notes, 2029 B Notes, and 2029 Term Loan A; $367 million for the repurchases of common stock for withholdings on employee equity awards; $300 million for the acquisition of 1.3 million shares of our common stock under our share repurchase authorization; and $134 million for payments of dividends to shareholders. See Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 10. Debt.
+For the first three months of 2025, net cash used for financing activi
+ties consisted primarily of $131 million for paym
+ents of dividends to shareholders, $207 million for the repurchases of common stock for withholdings on employee equity awards, and
+$84 million of repayments of debt
+.
+Critical Accounting Estimates
+For a discussion of our critical accounting estimates, see Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations, Critical Accounting Estimates of our Annual Report on Form 10-K for the year ended August 28, 2025. There have been no significant changes to our critical accounting estimates since our Annual Report on Form 10-K for the year ended August 28, 2025.
+33 |
+
+2026 Q1 10-Q
+Table of Contents
+Recently Issued Accounting Standards
+See Part I, Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 2. Recently Issued Accounting Standards.

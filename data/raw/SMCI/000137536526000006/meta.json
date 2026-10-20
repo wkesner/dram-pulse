@@ -1,0 +1,32 @@
+{
+  "company": "Super Micro",
+  "ticker": "SMCI",
+  "cik": "0001375365",
+  "form": "8-K",
+  "filing_date": "2026-02-03",
+  "accession_number": "0001375365-26-000006",
+  "primary_document": "smci-20260203.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000006/smci-20260203.htm",
+  "fiscal_year_end": "0630",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:34.268822+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991_20251231.htm",
+      "path": "data/raw/SMCI/000137536526000006/exhibit_99_exhibit991_20251231.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000006/exhibit991_20251231.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/SMCI/000137536526000006/primary.html",
+    "other": "data/raw/SMCI/000137536526000006/other_full.txt"
+  }
+}

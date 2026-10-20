@@ -1,0 +1,32 @@
+{
+  "company": "Cisco",
+  "ticker": "CSCO",
+  "cik": "0000858877",
+  "form": "10-Q",
+  "filing_date": "2026-05-19",
+  "accession_number": "0000858877-26-000078",
+  "primary_document": "csco-20260425.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
+  "fiscal_year_end": "0731",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:37.527801+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/CSCO/000085887726000078/primary.html",
+    "business": "data/raw/CSCO/000085887726000078/item1_business.txt",
+    "risk_factors": "data/raw/CSCO/000085887726000078/item1a_risk_factors.txt",
+    "mdna": "data/raw/CSCO/000085887726000078/item7_mdna.txt",
+    "other": "data/raw/CSCO/000085887726000078/other_full.txt"
+  }
+}

@@ -1,7 +1,71 @@
 # Companies for Memory Signals. CIKs / DART corp codes are looked up at runtime —
 # never hardcode them here.
+#
+# forms: optional override of which EDGAR forms to fetch for this company.
+# Default (when omitted) is 10-K, 10-Q, 8-K (filtered items). SK hynix also gets 6-K.
 companies:
   - name: Micron
     role: supplier
     source: EDGAR
     ticker: MU
+
+  - name: SK hynix
+    role: supplier
+    source: EDGAR
+    ticker: SKHY
+    krx_code: "000660"
+    forms:
+      - 10-K
+      - 10-Q
+      - 8-K
+      - 6-K
+
+  - name: Apple
+    role: buyer
+    source: EDGAR
+    ticker: AAPL
+
+  - name: Dell
+    role: buyer
+    source: EDGAR
+    ticker: DELL
+
+  - name: HP Inc.
+    role: buyer
+    source: EDGAR
+    ticker: HPQ
+
+  - name: HPE
+    role: buyer
+    source: EDGAR
+    ticker: HPE
+
+  - name: Super Micro
+    role: buyer
+    source: EDGAR
+    ticker: SMCI
+
+  - name: Cisco
+    role: buyer
+    source: EDGAR
+    ticker: CSCO
+
+  - name: Nvidia
+    role: buyer
+    source: EDGAR
+    ticker: NVDA
+
+  - name: AMD
+    role: buyer
+    source: EDGAR
+    ticker: AMD
+
+  - name: Qualcomm
+    role: buyer
+    source: EDGAR
+    ticker: QCOM
+
+  - name: Jabil
+    role: buyer
+    source: EDGAR
+    ticker: JBL

@@ -42,6 +42,17 @@ python3 -m src.verify
 
 Output: `data/signals.csv`. `verify.py` checks every excerpt against `char_start`/`char_end` in the cached raw text (must be 100%).
 
+## Milestone 3 — all EDGAR companies
+
+```bash
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+python3 -m src.fetch_edgar --all
+python3 -m src.extract --all
+python3 -m src.verify
+```
+
+`config/companies.yaml` lists MU, SKHY, and buyers AAPL DELL HPQ HPE SMCI CSCO NVDA AMD QCOM JBL. Forms: 10-K, 10-Q, 8-K (items 2.02 / 2.06 / 7.01 / 8.01); SKHY also 6-K. CIKs and `fiscalYearEnd` come from EDGAR at runtime.
+
 ---
 
 # DRAM Signal Pipeline

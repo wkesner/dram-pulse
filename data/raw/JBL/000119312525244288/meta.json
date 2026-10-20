@@ -1,0 +1,32 @@
+{
+  "company": "Jabil",
+  "ticker": "JBL",
+  "cik": "0000898293",
+  "form": "8-K",
+  "filing_date": "2025-10-21",
+  "accession_number": "0001193125-25-244288",
+  "primary_document": "d73972d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/898293/000119312525244288/d73972d8k.htm",
+  "fiscal_year_end": "0831",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:58.117712+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d73972dex991.htm",
+      "path": "data/raw/JBL/000119312525244288/exhibit_99_d73972dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/898293/000119312525244288/d73972dex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/JBL/000119312525244288/primary.html",
+    "other": "data/raw/JBL/000119312525244288/other_full.txt"
+  }
+}

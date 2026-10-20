@@ -113,6 +113,12 @@ def split_10k_sections(text: str) -> dict[str, str]:
         "7",
         re.compile(r"management|discussion|md&a|analysis", re.I),
     ) or _pick_body_heading(hits, "7")
+    # 10-Q MD&A is Item 2 (Part I), not Item 7.
+    item2_mdna = _pick_body_heading(
+        hits,
+        "2",
+        re.compile(r"management|discussion|md&a|analysis", re.I),
+    )
 
     sections: dict[str, str] = {SECTION_OTHER: text}
 
@@ -126,15 +132,26 @@ def split_10k_sections(text: str) -> dict[str, str]:
         # fall back to the next stop label after Item 1.
         if end is not None and end <= item1.start:
             end = _next_section_start(hits, item1, ("1A", "1B", "1C", "2"))
-        sections[SECTION_BUSINESS] = text[item1.start : end].strip() + "\n"
+        # Only keep Item 1 when it looks like Business (10-K). 10-Q Item 1 is
+        # financial statements — still useful as context under business key only
+        # if the title hint matched; otherwise skip.
+        title_ok = bool(re.search(r"business", item1.title, re.I)) or item7 is not None
+        if title_ok or item7 is not None:
+            sections[SECTION_BUSINESS] = text[item1.start : end].strip() + "\n"
+        elif re.search(r"financial", item1.title, re.I):
+            pass  # 10-Q financials — leave in other
+        else:
+            sections[SECTION_BUSINESS] = text[item1.start : end].strip() + "\n"
 
     if item1a is not None:
         end = _next_section_start(hits, item1a, ("1B", "1C", "2", "3"))
         sections[SECTION_RISK_FACTORS] = text[item1a.start : end].strip() + "\n"
 
-    if item7 is not None:
-        end = _next_section_start(hits, item7, ("7A", "8", "9"))
-        sections[SECTION_MDNA] = text[item7.start : end].strip() + "\n"
+    mdna_hit = item7 or item2_mdna
+    if mdna_hit is not None:
+        stop = ("7A", "8", "9") if mdna_hit.label == "7" else ("3", "4", "5", "6")
+        end = _next_section_start(hits, mdna_hit, stop)
+        sections[SECTION_MDNA] = text[mdna_hit.start : end].strip() + "\n"
 
     return sections
 

@@ -1,0 +1,26 @@
+{
+  "company": "SK hynix",
+  "ticker": "SKHY",
+  "cik": "0002120882",
+  "form": "6-K",
+  "filing_date": "2026-09-09",
+  "accession_number": "0001193125-26-385841",
+  "primary_document": "d80436d6k.htm",
+  "primary_doc_description": "FORM 6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526385841/d80436d6k.htm",
+  "fiscal_year_end": "1231",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:05.387195+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SKHY/000119312526385841/primary.html",
+    "other": "data/raw/SKHY/000119312526385841/other_full.txt"
+  }
+}

@@ -1,0 +1,1554 @@
+ITEM 7
+—
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+This management’s discussion and analysis should be read in conjunction with the audited Consolidated Financial Statements and accompanying Notes included in this Annual Report on Form 10-K. This section generally discusses Fiscal 2026 results compared to Fiscal 2025 results. Discussion of Fiscal 2025 results compared to Fiscal 2024 results, to the extent not included in this Form 10-K, are presented in “Part II — Item 7 — Management’s Discussion and Analysis of Financial Condition and Results of Operations” of the Company’s Annual Report on Form 10-K for the fiscal year ended January 31, 2025.
+In addition to historical financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, and beliefs, and that are subject to numerous risks and uncertainties. Our actual results may differ materially from those expressed or implied in any forward-looking statements.
+Unless otherwise indicated, all results presented are prepared in a manner that complies, in all material respects, with generally accepted accounting principles in the United States of America (“GAAP”). Unless otherwise indicated, all changes identified for the current-period results represent comparisons to results for the prior corresponding fiscal period.
+Unless the context indicates otherwise, references in this management’s discussion and analysis to “we,” “us,” “our,” the “Company,” and “Dell Technologies” mean Dell Technologies Inc. and its consolidated subsidiaries.
+Our fiscal year is the 52- or 53-week period ending on the Friday nearest January 31. We refer to our fiscal years ended January 30, 2026, January 31, 2025, and February 2, 2024 as “Fiscal 2026,” “Fiscal 2025,” and “Fiscal 2024,” respectively. All fiscal years presented included 52 weeks. We refer to our fiscal year ending January 29, 2027 as “Fiscal 2027.”
+INTRODUCTION
+Company Overview
+Dell Technologies is a leader in the global technology industry focused on providing broad and innovative technology solutions for the data and artificial intelligence (“AI”) era. We build and offer solutions ranging from client devices and peripherals to infrastructure solutions across servers, networking, and storage to meet the evolving needs of our customers and drive better business outcomes. With our extensive portfolio and our commitment to innovation, we offer secure, integrated solutions that extend from the edge to the core to the cloud, and we are at the forefront of AI, software-defined, and cloud native infrastructure solutions. Our vision is to become the most essential technology partner. We intend to realize our vision by executing our strategy of leveraging our strengths to extend our leadership positions and capture new growth.
+We are organized into two business units which are also our reportable segments: Infrastructure Solutions Group and Client Solutions Group.
+Infrastructure Solutions Group (“ISG”)
+ — We provide a comprehensive portfolio of advanced infrastructure solutions designed to help customers simplify, streamline, and automate information technology (“IT”) operations. ISG also offers software, peripherals, and services, including consulting and support and deployment. Given the scale and growth of our AI-optimized servers business, effective in the fourth quarter of Fiscal 2026, we disaggregated our servers and networking offerings within revenue by major product category into AI-optimized servers offerings and traditional servers and networking offerings. As a result, our major product categories within ISG include our AI-optimized servers offerings, our traditional servers and networking offerings, and our storage offerings.
+•
+AI-optimized servers
+ — We offer a specialized portfolio of AI-optimized servers designed to handle the most demanding compute-intensive workloads, including AI model training, fine-tuning, and inferencing.
+•
+Traditional servers and networking
+ — Our traditional servers portfolio provides the trusted foundation for modern IT environments, supporting a wide range of general-purpose and mission-critical workloads. Our networking portfolio helps our business customers transform and modernize their infrastructure, complementing our storage and AI-optimized and traditional servers offerings, and includes wide area network infrastructure, data center and edge networking switches, and cables and optics.
+37
+Table of Contents
+•
+Storage
+ — Our comprehensive storage portfolio includes modern and traditional storage solutions that span primary, unstructured and data protection offerings and are delivered through multiple architectures, including all-flash, purpose-built, software-defined, and hyper-converged infrastructure platforms.
+Client Solutions Group (“CSG”)
+ — Our CSG portfolio includes branded personal computers (“PCs”), including notebooks, desktops, and workstations, branded peripherals, and third-party software and peripherals. CSG also includes services offerings, such as configuration, support and deployment, and extended warranties. Our major product categories within CSG include our commercial offerings and consumer offerings.
+•
+Commercial
+ — Our commercial portfolio provides customers with solutions centered on flexibility to address their complex needs such as IT modernization, hybrid work transformation, and other critical areas.
+•
+Consumer
+ — Our consumer portfolio provides customers with solutions ranging from essential computing, connectivity, and productivity needs of the everyday user to powerful performance, processing, and end-user experiences in high-end consumer and gaming offerings.
+Our other businesses primarily consist of our historical resale of standalone offerings of VMware LLC (formerly VMware, Inc. and individually and together with its subsidiaries, “VMware”), referred to as “VMware Resale,” and offerings of SecureWorks Corp. (“Secureworks”) through the date of the sale of Secureworks as discussed below. These businesses are divested businesses or their offerings are no longer actively sold, and are not classified as reportable segments, either individually or collectively. Their operating results are reported within Corporate and other. On February 3, 2025, the sale of Secureworks to Sophos Inc., an affiliate of Thoma Bravo, L.P., was completed in an all-cash transaction for a purchase price of approximately $0.9 billion. We received total cash consideration for the equity interest held in Secureworks of approximately $0.6 billion, resulting in a gain on sale of $0.2 billion recognized in interest and other, net in the Consolidated Statements of Income during Fiscal 2026.
+For further discussion regarding our current reportable segments, see “Results of Operations — Business Unit Results” and Note 18 of the Notes to the Consolidated Financial Statements included in this report.
+We offer customers choices in how they acquire our solutions, including traditional purchasing and offerings under the Dell Payment Solutions portfolio. These offerings provide both payment and consumption solutions, including utility, subscription, as-a-Service, leases, and loans, which allow our customers to pay over time and provide them with operational and financial flexibility. Dell Financial Services and its affiliates (“DFS”) support financing solutions and services as part of the portfolio. For additional information about our financing arrangements, see Note 5 of the Notes to the Consolidated Financial Statements included in this report.
+Business Trends and Challenges
+During Fiscal 2026, we executed our strategy and delivered exceptional operating results, generating significant net revenue and operating income growth. The following trends and conditions affected the environment in which we operated:
+•
+Macroeconomic environment:
+We experienced significant demand for our AI-optimized servers offerings and strong demand for our traditional servers and networking offerings, resulting in ISG net revenue growth and a shift in the mix of the business towards our ISG offerings. The demand environment was also strong for our commercial offerings, resulting in moderate CSG net revenue growth.
+•
+Demand for AI-optimized servers:
+ Our ISG business continued to benefit from significant increased demand for our AI-optimized servers offerings as customers continue to adopt and further integrate AI, resulting in a substantial increase in backlog as we exited the year. Given the scale of the AI opportunities, the varying stages of customer readiness, and the frequency of component part updates or transitions, there is inherent non-linearity in the timing of demand and subsequent shipments for our AI-optimized servers offerings, which continues to drive variability in our revenue.
+38
+Table of Contents
+•
+Technology refresh in core markets:
+ Within our ISG business, we continue to see customers modernize and consolidate their data centers as more customers transition to next-generation products, which contributed to strong demand and net revenue growth during the year within our traditional servers and networking offerings. Additionally, within our CSG business, the PC refresh cycle is underway as customers continue to upgrade their devices, which has contributed to increased demand for our commercial offerings and moderate CSG net revenue growth.
+•
+Business modernization initiatives:
+ We continue to prioritize ongoing modernization initiatives to achieve greater efficiencies and streamline our processes, while also continuing to make strategic investments designed to enable growth and innovation. These initiatives have resulted in a continued net reduction in our operating expenses.
+We remain focused on executing our key strategic priorities, creating long-term value for our shareholders, and addressing our customers’ needs. We have the following expectations regarding our performance in Fiscal 2027:
+•
+Revenue:
+ We expect significant ISG and modest CSG net revenue growth. We expect ISG net revenue growth will be driven by increased demand across our servers and networking offerings, largely in our AI-optimized servers offerings, and, to a lesser extent, our storage offerings. We anticipate modest CSG net revenue growth to be driven in part by the continuation of the PC refresh cycle. Additionally, we expect a continued reduction of our Corporate and other net revenue due to offerings that are no longer actively sold and businesses that have been divested. Overall, while customers continue to reassess their priorities throughout the year driven by the dynamic commodity supply environment, we anticipate net revenue growth for the full fiscal year.
+•
+Gross margin:
+ We expect margin growth, while balancing anticipated margin rate pressure resulting from a continuing shift in mix towards our AI-optimized servers offerings. We anticipate notable inflation for component costs in Fiscal 2027 and continue to monitor the rapidly evolving commodity supply environment, leverage the agility and scale of our world-class supply chain, and seek to balance profitability and growth while maintaining disciplined pricing.
+•
+Operating expenses:
+ We continue to advance our own capabilities to change the way we work and make decisions, improve business outcomes and the customer experience, and reduce costs by leveraging new technology and optimizing business processes. We remain committed to disciplined cost management in coordination with our ongoing business modernization initiatives, and expect to continue to scale operating expenses as we take targeted measures to reduce costs, including employee reorganizations, limitation of external hiring, and other actions to align our investments with our strategic priorities and customer needs.
+We believe our unique operating advantages provide a foundation to foster business growth, enable innovation, drive efficiencies, and continue to position us for long-term success.
+Relationship with VMware
+
+— In March 2024, following the acquisition of VMware by Broadcom, we terminated our Commercial Framework Agreement with VMware, whereby we acted as a distributor of VMware standalone products and services. We no longer act as a distributor of those products and services, although we continue to support customers that have purchased resale offerings sold in prior periods. We continue to integrate and embed certain VMware products and services with our VxRail solution for end-user customers. The results for this integrated offering are reflected within ISG.
+VMware was a related party until its acquisition by Broadcom on November 22, 2023. The acquisition terminated the preexisting related party relationship with VMware such that no related party relationship exists with either Broadcom or VMware effective as of November 22, 2023. For more information regarding the impact of the Broadcom acquisition of VMware and our prior related party transactions with VMware, see Note 19 of the Notes to the Consolidated Financial Statements included in this report.
+ISG
+
+—
+ We expect that ISG will be influenced by the dynamic nature of the IT infrastructure market and the competitive landscape. With our extensive scale and market-leading solutions portfolio, we believe we are well-positioned to navigate these competitive dynamics and evolving technology trends to meet customer needs. By leveraging our collaborative, customer-focused approach to innovation, we aim to deliver relevant new and next-generation solutions and software to our customers swiftly and efficiently. We remain focused on expanding our customer base and enhancing the lifetime value of our customer relationships.
+39
+Table of Contents
+We anticipate that ISG will continue to benefit from technology advancements and interest in AI as customers continue to adopt and integrate AI. The timing of customer purchases reflects the varying stages of adoption of AI by different customer segments and drives variability in our revenue. To meet the growing demand and increasing complexity of our AI-optimized servers offerings, we have increased our purchases of certain components with suppliers, which has resulted in increased inventory levels, higher purchase obligations, and new working capital dynamics. Additionally, frequent component part updates or transitions create additional challenges in managing demand and supply levels. While we have seen lead times shorten, we anticipate the next generation of these components, for which demand remains high, will be subject to supply constraints.
+We expect that growth in data will continue to generate long-term demand for our storage solutions and services. We continue to expand our offerings in external storage arrays, which incorporate flexible, cloud-based functionality. We benefit from offering solutions that provide the foundation for AI, enabling organizations to store, protect, and manage data across environments for both traditional and AI workloads. Our storage business is subject to seasonal trends, which may continue to impact ISG results.
+CSG
+ —
+Our CSG offerings are an important element of our strategy, generating strong cash flow and opportunities for cross-selling of complementary solutions. We maintain a broad presence across all segments of the PC market. Our strategic focus is on driving share gain while balancing profitability across all segments, enhancing our product portfolio to address evolving customer needs, and expanding our presence across the broader PC ecosystem through branded peripherals. We anticipate that CSG will benefit from advances in AI over the long-term as customers will require PCs with the ability to run their complex AI workloads.
+Competitive dynamics remain an important factor in our CSG business and continue to influence pricing and operating results. We are committed to our long-term CSG strategy and will continue to make investments to innovate across the portfolio. We expect that the CSG demand environment will continue to be subject to seasonal trends and to be influenced by the PC refresh cycle.
+Recurring Revenue and Consumption Models
+
+— We expect that our flexible consumption models will further strengthen our customer relationships and provide a foundation for recurring revenue. We define recurring revenue as revenue recognized that is primarily related to hardware and software maintenance, as well as operating leases, subscription, as-a-Service, and usage-based offerings.
+Strategic Investments and Acquisitions
+
+— As part of our strategy, we will continue to evaluate opportunities for strategic investments through our venture capital investment arm, Dell Technologies Capital, with a focus on emerging technology areas that are relevant to our business and that will complement our existing portfolio of solutions. The technologies or products these companies have under development are typically in the early stages and may never have commercial value, which could result in a loss of a substantial part of our investment in the companies. In addition to these investments, we may also make targeted acquisitions of businesses that advance our strategic objectives and accelerate our innovation agenda.
+Foreign Currency Exposure
+ — We manage our business on a U.S. Dollar basis. However, we have a large global presence, generating approximately 45% and 50% of our net revenue from sales to customers outside of the United States during Fiscal 2026 and Fiscal 2025, respectively. As a result, our operating results can be, and particularly in recent periods have been, impacted by fluctuations in foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts.
+Other Macroeconomic Risks and Uncertainties
+ — During Fiscal 2026, a number of countries, including the United States, imposed or proposed tariffs on imports, and may continue to do so. The impacts of trade protection measures, including changes in tariffs and trade barriers, changes in government policies and international trade arrangements, geopolitical volatility associated with terrorism, military conflicts (including the Iran conflict), and other events, and global macroeconomic conditions, or uncertainty regarding the impact of proposed or future trade protection measures, may affect our results of operations in some markets. We continue to leverage the agility and scale of our world-class supply chain to mitigate impacts of trade protection measures and will continue to respond to changing market conditions as needed.
+40
+Table of Contents
+NON-GAAP FINANCIAL MEASURES
+In this management’s discussion and analysis, we use supplemental measures of our performance which are derived from our consolidated financial information but which are not presented in our consolidated financial statements prepared in accordance with GAAP. These non-GAAP financial measures include non-GAAP product gross margin; non-GAAP services gross margin; non-GAAP gross margin; non-GAAP operating expenses; non-GAAP operating income; non-GAAP net income; non-GAAP earnings per share attributable to Dell Technologies Inc. - diluted; free cash flow; and adjusted free cash flow. These non-GAAP financial measures are not meant to be considered as indicators of performance or liquidity in isolation from or as a substitute for gross margin, operating expenses, operating income, net income, diluted earnings per share, or cash flows from operating activities prepared in accordance with GAAP, and should be read only in conjunction with financial information presented on a GAAP basis.
+We use non-GAAP financial measures to supplement financial information presented on a GAAP basis. Management uses these non-GAAP measures in financial planning and forecasting and when evaluating our financial results and operating trends and performance. We believe, when used supplementally with GAAP financial measures, these non-GAAP financial measures provide our investors with useful and transparent information to help them evaluate our results by facilitating an enhanced understanding of our results of operations and enabling them to make period to period comparisons. There are limitations to the use of the non-GAAP financial measures presented in this report. Our non-GAAP financial measures may not be comparable to similarly titled measures of other companies. Other companies, including companies in our industry, may calculate non-GAAP financial measures differently than we do, limiting the usefulness of those measures for comparative purposes.
+Non-GAAP product gross margin, non-GAAP services gross margin, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP net income, and non-GAAP earnings per share attributable to Dell Technologies Inc. - diluted, as defined by us, exclude amortization of intangible assets, stock-based compensation expense, other corporate expenses and, for non-GAAP net income and non-GAAP earnings per share attributable to Dell Technologies Inc. - diluted, fair value adjustments on equity investments and an aggregate adjustment for income taxes. As the excluded items may have a material impact on our financial results, our management compensates for this limitation by relying primarily on our GAAP results and using non-GAAP financial measures supplementally or for projections when comparable GAAP financial measures are not available.
+Reconciliations of each non-GAAP financial measure to its most directly comparable GAAP financial measure are presented below. We encourage you to review the reconciliations in conjunction with the presentation of the non-GAAP financial measures for each of the periods presented. The discussion below includes information on each of the excluded items as well as our reasons for excluding them from our non-GAAP results. In future fiscal periods, we may exclude such items and may incur income and expenses similar to these excluded items. Accordingly, the exclusion of these items and other similar items in our non-GAAP presentation should not be interpreted as implying that these items are non-recurring, infrequent, or unusual.
+The following is a summary of the items excluded from the most comparable GAAP financial measures to calculate our non-GAAP financial measures.
+•
+Amortization of Intangible Assets
+
+—
+
+Amortization of intangible assets primarily consists of the amortization of customer relationships, developed technology, and trade names. In connection with our acquisition by merger of EMC Corporation in 2016, all of the tangible and intangible assets and liabilities were accounted for and recognized at fair value on the transaction date. We exclude amortization charges for the amortization of intangible assets as they do not reflect our current operating performance and charges are significantly impacted by the timing and magnitude of our acquisitions and, as a result, may vary in amount from period to period.
+•
+Stock-based Compensation Expense
+
+— Stock-based compensation expense consists of equity awards granted based on the estimated fair value of those awards at grant date. To estimate the fair value of performance-based awards containing a market condition, we use the Monte Carlo valuation model. For other share-based awards, the fair value is generally based on the closing price of the Class C Common Stock as reported on the New York Stock Exchange on the date of grant or most recent preceding trading day if the grant date falls on a non-trading day. Although stock-based compensation is an important aspect of the compensation of our employees and executives, we exclude such expense because the fair value of the stock-based awards may fluctuate based on factors unrelated to the operating performance of the business and may bear little resemblance to the actual value realized upon the vesting or future exercise of the related stock-based awards.
+41
+Table of Contents
+•
+Other Corporate Expenses
+
+— Other corporate expenses consist primarily of severance expenses, transaction-related impacts of the sales of businesses, payroll taxes associated with stock-based compensation, incentive charges related to equity investments, transaction-related expenses, facility action costs, and impairment charges. Severance costs are primarily related to severance and benefits for employees impacted by cost management initiatives. During Fiscal 2026, Fiscal 2025, and Fiscal 2024, we recognized $0.6 billion, $0.7 billion, and $0.6 billion, respectively, of severance expense related to workforce reduction activities. During Fiscal 2026, we recognized a $0.2 billion gain related to the sale of Secureworks. Although we may incur these types of items in the future, we exclude other corporate expenses as they can vary from period to period, are significantly impacted by the timing and nature of these events, and are not used by management in assessing operating performance of the business.
+•
+Fair Value Adjustments on Equity Investments
+ — Fair value adjustments on equity investments primarily consist of the gain (loss) on strategic investments, which includes recurring fair value adjustments of investments in publicly-traded companies, as well as those in privately-held companies, which are adjusted for observable price changes and any potential impairments. See Note 4 of the Notes to the Consolidated Financial Statements included in this report for additional information on our strategic investment activity. We exclude fair value adjustments on equity investments given the volatility in ongoing adjustments to the valuation of these strategic investments and because such adjustments are unrelated to the operating performance of our business.
+•
+Aggregate Adjustment for Income Taxes
+
+—
+
+The aggregate adjustment for income taxes is the estimated combined income tax effect for the adjustments described above and determined based on the tax jurisdictions where those adjustments were incurred, as well as an adjustment for discrete tax items. During Fiscal 2025, the aggregate adjustment for income taxes included discrete tax benefits of $0.4 billion related to changes in uncertain tax benefits resulting from the expiration of certain U.S. statutes of limitations and $0.2 billion related to stock-based compensation. We exclude these benefits or charges for purposes of calculating non-GAAP net income due to the variability in recognition of discrete tax items from period to period. The tax effects are determined based on the tax jurisdictions where the above items were incurred. See Note 12 of the Notes to the Consolidated Financial Statements included in this report for additional information about our income taxes. Our non-GAAP income tax was calculated using a fixed estimated annual tax rate that is determined based on historical trends and projections for the current fiscal year. We may adjust our estimated annual tax rate during the fiscal year to take into account events that would significantly impact our income tax expense, including significant changes resulting from tax legislation, material changes in geographic mix of net revenue and expenses, changes to our corporate structure, and other significant events.
+42
+Table of Contents
+The following table presents a reconciliation of each non-GAAP financial measure to the most directly comparable GAAP measure for
+the
+periods indicated:
+Fiscal Year Ended
+ 
+January 30, 2026
+% Change
+January 31, 2025
+% Change
+February 2, 2024
+(in millions, except percentages)
+Product gross margin
+$
+12,348 
+10 
+%
+$
+11,258 
+— 
+%
+$
+11,237 
+Non-GAAP adjustments:
+Amortization of intangibles
+162 
+238 
+331 
+Stock-based compensation expense
+66 
+56 
+51 
+Other corporate expenses
+23 
+22 
+23 
+Non-GAAP product gross margin
+$
+12,599 
+9 
+%
+$
+11,574 
+(1)
+%
+$
+11,642 
+Services gross margin
+$
+10,359 
+4 
+%
+$
+9,992 
+2 
+%
+$
+9,832 
+Non-GAAP adjustments:
+Stock-based compensation expense
+91 
+96 
+98 
+Other corporate expenses
+110 
+148 
+72 
+Non-GAAP services gross margin
+$
+10,560 
+3 
+%
+$
+10,236 
+2 
+%
+$
+10,002 
+Gross margin
+$
+22,707 
+7 
+%
+$
+21,250 
+1 
+%
+$
+21,069 
+Non-GAAP adjustments:
+Amortization of intangibles
+162 
+238 
+331 
+Stock-based compensation expense
+157 
+152 
+149 
+Other corporate expenses
+133 
+170 
+95 
+Non-GAAP gross margin
+$
+23,159 
+6 
+%
+$
+21,810 
+1 
+%
+$
+21,644 
+Operating expenses
+$
+14,558 
+(3)
+%
+$
+15,013 
+(4)
+%
+$
+15,658 
+Non-GAAP adjustments:
+Amortization of intangibles
+(335)
+(429)
+(502)
+Stock-based compensation expense
+(566)
+(633)
+(729)
+Other corporate expenses
+(489)
+(670)
+(661)
+Non-GAAP operating expenses
+$
+13,168 
+(1)
+%
+$
+13,281 
+(4)
+%
+$
+13,766 
+43
+Table of Contents
+Fiscal Year Ended
+ 
+January 30, 2026
+% Change
+January 31, 2025
+% Change
+February 2, 2024
+(in millions, except percentages and per share amounts)
+Operating income
+$
+8,149 
+31 
+%
+$
+6,237 
+15 
+%
+$
+5,411 
+Non-GAAP adjustments:
+Amortization of intangibles
+497 
+667 
+833 
+Stock-based compensation expense
+723 
+785 
+878 
+Other corporate expenses
+622 
+840 
+756 
+Non-GAAP operating income
+$
+9,991 
+17 
+%
+$
+8,529 
+8 
+%
+$
+7,878 
+Net income
+$
+5,936 
+30 
+%
+$
+4,576 
+36 
+%
+$
+3,372 
+Non-GAAP adjustments:
+Amortization of intangibles
+497 
+667 
+833 
+Stock-based compensation expense
+723 
+785 
+878 
+Other corporate expenses
+364 
+830 
+793 
+Fair value adjustments on equity investments
+(254)
+(177)
+(47)
+Aggregate adjustment for income taxes
+(220)
+(816)
+(407)
+Non-GAAP net income
+$
+7,046 
+20 
+%
+$
+5,865 
+8 
+%
+$
+5,422 
+Earnings per share attributable to Dell Technologies Inc. — diluted
+$
+8.68 
+36 
+%
+$
+6.38 
+39 
+%
+$
+4.60 
+Non-GAAP adjustments:
+Amortization of intangibles
+0.72 
+0.93 
+1.13 
+Stock-based compensation expense
+1.06 
+1.09 
+1.19 
+Other corporate expenses
+0.53 
+1.16 
+1.08 
+Fair value adjustments on equity investments
+(0.37)
+(0.25)
+(0.06)
+Aggregate adjustment for income taxes
+(0.32)
+(1.15)
+(0.55)
+Total non-GAAP adjustments attributable to non-controlling interests
+— 
+(0.02)
+(0.02)
+Non-GAAP earnings per share attributable to Dell Technologies Inc. — diluted
+$
+10.30 
+27 
+%
+$
+8.14 
+10 
+%
+$
+7.37 
+44
+Table of Contents
+In addition to the above measures, we use free cash flow and adjusted free cash flow as non-GAAP liquidity measures to evaluate our performance. As presented in the following table, we define free cash flow as cash flow from operations after excluding capital expenditures and capitalized software development costs, net. To measure adjusted free cash flow, we exclude the impact of financing receivables and equipment under operating leases from free cash flow, as the initial funding of these DFS offerings at the time of origination is largely subsequently replaced with cash inflows from our DFS related debt.
+Free cash flow and adjusted free cash flow provide useful information to management and investors in part because we use these metrics in our long-term capital allocation framework. Further, we believe free cash flow and adjusted free cash flow are useful measures to management and investors because they reflect cash that we can use, among other purposes, to repurchase common stock, pay dividends on our common stock, invest in our business, pay down debt, and make strategic acquisitions.
+As is the case with the other non-GAAP measures presented above, users should consider the limitations of using free cash flow and adjusted free cash flow, including the fact that those measures do not provide a complete measure of our cash flows for any period. Free cash flow and adjusted free cash flow do not purport to be alternatives to cash flows from operating activities as a measure of liquidity. In particular, free cash flow and adjusted free cash flow are not intended to be a measure of cash flow available for management’s discretionary use, as these measures do not reflect certain cash requirements, such as debt service requirements and other contractual commitments.
+The following table presents a reconciliation of free cash flow and adjusted free cash flow to cash flow from operations for the periods indicated:
+Fiscal Year Ended
+January 30, 2026
+% Change
+January 31, 2025
+% Change
+February 2, 2024
+(in millions, except percentages)
+Cash flow from operations
+$
+11,185 
+147 
+%
+$
+4,521 
+(48)
+%
+$
+8,676 
+Non-GAAP adjustments:
+Capital expenditures and capitalized software development costs, net (a)
+(2,630)
+(2,563)
+(2,753)
+Free cash flow
+$
+8,555 
+337 
+%
+$
+1,958 
+(67)
+%
+$
+5,923 
+Free cash flow
+$
+8,555 
+337 
+%
+$
+1,958 
+(67)
+%
+$
+5,923 
+Non-GAAP adjustments:
+Financing receivables (b)
+2,740 
+951 
+(309)
+Equipment under operating leases (c)
+213 
+188 
+(7)
+Adjusted free cash flow
+$
+11,508 
+272 
+%
+$
+3,097 
+(45)
+%
+$
+5,607 
+____________________
+(a)
+Capital expenditures and capitalized software development costs, net includes proceeds from sales of facilities, land, and other assets.
+(b)
+Financing receivables represent the operating cash flow impact from the change in financing receivables.
+(c)
+Equipment under operating leases represents the net impact of capital expenditures and depreciation expense for leases and contractually embedded leases identified within flexible consumption arrangements.
+45
+Table of Contents
+RESULTS OF OPERATIONS
+Consolidated Results
+The following table summarizes our consolidated results for the periods indicated. Unless otherwise indicated, all changes identified for the current-period results represent comparisons to results for the prior corresponding fiscal period.
+Fiscal Year Ended
+ 
+January 30, 2026
+January 31, 2025
+February 2, 2024
+ 
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+(in millions, except percentages and per share amounts)
+Net revenue:
+Products
+$
+90,405 
+79.6 
+%
+27 
+%
+$
+71,420 
+74.7 
+%
+11 
+%
+$
+64,353 
+72.8 
+%
+Services
+23,133 
+20.4 
+%
+(4)
+%
+24,147 
+25.3 
+%
+— 
+%
+24,072 
+27.2 
+%
+Total net revenue
+$
+113,538 
+100.0 
+%
+19 
+%
+$
+95,567 
+100.0 
+%
+8 
+%
+$
+88,425 
+100.0 
+%
+Gross margin:
+Products
+$
+12,348 
+13.7 
+%
+10 
+%
+$
+11,258 
+15.8 
+%
+— 
+%
+$
+11,237 
+17.5 
+%
+Services
+10,359 
+44.8 
+%
+4 
+%
+9,992 
+41.4 
+%
+2 
+%
+9,832 
+40.8 
+%
+Total gross margin
+$
+22,707 
+20.0 
+%
+7 
+%
+$
+21,250 
+22.2 
+%
+1 
+%
+$
+21,069 
+23.8 
+%
+Operating expenses
+$
+14,558 
+12.8 
+%
+(3)
+%
+$
+15,013 
+15.7 
+%
+(4)
+%
+$
+15,658 
+17.7 
+%
+Operating income
+$
+8,149 
+7.2 
+%
+31 
+%
+$
+6,237 
+6.5 
+%
+15 
+%
+$
+5,411 
+6.1 
+%
+Net income
+$
+5,936 
+5.2 
+%
+30 
+%
+$
+4,576 
+4.8 
+%
+36 
+%
+$
+3,372 
+3.8 
+%
+Earnings per share attributable to Dell Technologies — diluted
+$
+8.68 
+36 
+%
+$
+6.38 
+39 
+%
+$
+4.60 
+Cash flow from operations
+$
+11,185 
+147 
+%
+$
+4,521 
+(48)
+%
+$
+8,676 
+Non-GAAP Financial Information
+Fiscal Year Ended
+January 30, 2026
+January 31, 2025
+February 2, 2024
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+(in millions, except percentages and per share amounts)
+Non-GAAP gross margin:
+Products
+$
+12,599 
+13.9 
+%
+9 
+%
+$
+11,574 
+16.2 
+%
+(1)
+%
+$
+11,642 
+18.1 
+%
+Services
+10,560 
+45.6 
+%
+3 
+%
+10,236 
+42.4 
+%
+2 
+%
+10,002 
+41.6 
+%
+Total non-GAAP gross margin
+$
+23,159 
+20.4 
+%
+6 
+%
+$
+21,810 
+22.8 
+%
+1 
+%
+$
+21,644 
+24.5 
+%
+Non-GAAP operating expenses
+$
+13,168 
+11.6 
+%
+(1)
+%
+$
+13,281 
+13.9 
+%
+(4)
+%
+$
+13,766 
+15.6 
+%
+Non-GAAP operating income
+$
+9,991 
+8.8 
+%
+17 
+%
+$
+8,529 
+8.9 
+%
+8 
+%
+$
+7,878 
+8.9 
+%
+Non-GAAP net income
+$
+7,046 
+6.2 
+%
+20 
+%
+$
+5,865 
+6.1 
+%
+8 
+%
+$
+5,422 
+6.1 
+%
+Non-GAAP earnings per share attributable to Dell Technologies — diluted
+$
+10.30 
+27 
+%
+$
+8.14 
+10 
+%
+$
+7.37 
+Free cash flow
+$
+8,555 
+337 
+%
+$
+1,958 
+(67)
+%
+$
+5,923 
+Adjusted free cash flow
+$
+11,508 
+272 
+%
+$
+3,097 
+(45)
+%
+$
+5,607 
+Non-GAAP product gross margin, non-GAAP services gross margin, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP net income, non-GAAP earnings per share attributable to Dell Technologies - diluted, free cash flow, and adjusted free cash flow are not measurements of financial performance prepared in accordance with GAAP. See “Non‑GAAP Financial Measures” for additional information about these non-GAAP financial measures, including our reasons for including these measures, material limitations with respect to the usefulness of the measures, and a reconciliation of each non-GAAP financial measure to the most directly comparable GAAP financial measure.
+46
+Table of Contents
+Overview
+During Fiscal 2026, net revenue increased by 19% driven by an increase in ISG net revenue and, to a lesser extent, CSG net revenue that was partially offset by a decrease in Corporate and other net revenue. The increase in ISG net revenue was primarily driven by growth in our AI-optimized servers offerings and, to a lesser extent, our traditional servers and networking offerings. The increase in CSG net revenue was attributable to an increase in sales of our commercial offerings. Corporate and other net revenue declined primarily due to a decrease in VMware Resale revenue, as we no longer act as a distributor of standalone VMware offerings, and, to a lesser extent, the sale of Secureworks.
+During Fiscal 2026, operating income and non-GAAP operating income increased by 31% to $8.1 billion and 17% to $10.0 billion, respectively. The increases in operating income and non-GAAP operating income were primarily attributable to an increase in ISG operating income that was driven by our servers and networking offerings and our storage offerings.
+During Fiscal 2026, operating income as a percentage of net revenue increased 70 basis points to 7.2%. Operating income as a percentage of net revenue benefited from the favorable impact of a decline in operating expense rate as a result of strong net revenue growth coupled with continued disciplined cost management and, to a lesser extent, lower other corporate expenses. The favorable impact of operating expense rate was partially offset by a decline in gross margin rate as a result of a shift in mix towards our AI-optimized servers offerings.
+During Fiscal 2026, non-GAAP operating income as a percentage of net revenue decreased 10 basis points to 8.8%. The decrease reflected a decline in gross margin rate as a result of a shift in mix towards our AI-optimized servers offerings, which was largely offset by the favorable impact of a decline in operating expense rate as a result of strong net revenue growth coupled with continued disciplined cost management.
+Cash provided by operating activities was $11.2 billion during Fiscal 2026 and was driven by net revenue growth, profitability, and working capital dynamics, partially offset by higher financing receivables. Financing receivables and working capital were primarily affected by increased demand for our AI-optimized servers offerings. During Fiscal 2025, cash provided by operating activities was $4.5 billion and was driven by profitability, partially offset by working capital dynamics. Working capital during Fiscal 2025 was primarily impacted by AI dynamics, which led to higher inventory, accounts receivable, and accounts payable levels. See “Liquidity, Cash Requirements, and Market Conditions” for additional information about our cash flow metrics.
+We continue to see opportunities to create value and grow as we respond to long-term demand for our IT solutions driven by a data- and AI-enabled world. We have demonstrated our ability to adjust to changing market conditions with complementary solutions and innovation across both segments of our business, an agile workforce, and the strength of our global supply chain. As we continue to innovate and modernize our offerings, we believe that Dell Technologies is well-positioned for long-term profitable growth.
+Net Revenue
+During Fiscal 2026, net revenue increased 19%, driven by an increase in ISG net revenue and, to a lesser extent, CSG net revenue that was partially offset by a decrease in Corporate and other net revenue. See “Business Unit Results” for further information.
+•
+Product Net Revenue
+ — Product net revenue includes revenue from the sale of hardware products and software licenses. During Fiscal 2026, product net revenue increased 27%, due to an increase in ISG product net revenue and, to a lesser extent, CSG product net revenue. The increase in ISG product net revenue was primarily driven by growth in our AI-optimized servers offerings and, to a lesser extent, our traditional servers and networking offerings. The increase in CSG product net revenue reflected growth in our commercial offerings, which was partially offset by lower demand for our consumer offerings.
+47
+Table of Contents
+•
+Services Net Revenue
+
+— Services net revenue includes revenue from our services offerings and support services related to hardware products and software licenses. During Fiscal 2026, services net revenue decreased 4% due to a decline in Corporate and other services net revenue. The decline was primarily due to a decrease in VMware Resale revenue, as we no longer act as a distributor of standalone VMware offerings and, to a lesser extent, the sale of Secureworks. The decline was partially offset by growth within services net revenue attributable to ISG and CSG, which was driven by support and maintenance associated with products sold in prior periods within both CSG and ISG and higher AI-optimized servers offerings within ISG.
+A substantial portion of services net revenue is derived from offerings that have been deferred over a period of time. As a result, reported growth rates for services net revenue will be different than reported growth rates for product net revenue.
+From a geographical perspective, net revenue during Fiscal 2026 increased in the Americas, driven by our AI-optimized servers offerings, and, to a lesser extent, in EMEA and APJ.
+Gross Margin
+During Fiscal 2026, gross margin and non-GAAP gross margin increased 7% to $22.7 billion and 6% to $23.2 billion, respectively, primarily due to an increase in ISG gross margin that was driven by growth in our servers and networking offerings and, to a lesser extent, growth in our core storage offerings. The increase in ISG gross margin was partially offset by a decline in Corporate and other gross margin driven by the sale of Secureworks.
+During Fiscal 2026, gross margin percentage and non-GAAP gross margin percentage decreased 220 basis points to 20.0% and 240 basis points to 20.4%, respectively. The decreases in gross margin percentage and non-GAAP gross margin percentage were primarily driven by a shift in mix towards our AI-optimized servers offerings.
+•
+Product Gross Margin
+ — During Fiscal 2026, product gross margin and non-GAAP product gross margin increased 10% to $12.3 billion and 9% to $12.6 billion, respectively. The increases in product gross margin and non-GAAP product gross margin were primarily attributable to an increase in ISG product gross margin due to growth in our servers and networking offerings and, to a lesser extent, the mix in our storage offerings.
+During Fiscal 2026, product gross margin percentage and non-GAAP product gross margin percentage decreased 210 basis points to 13.7% and 230 basis points to 13.9%, respectively, primarily due to a shift in mix towards our AI-optimized servers offerings.
+•
+Services Gross Margin
+ — During Fiscal 2026, services gross margin and non-GAAP services gross margin increased 4% to $10.4 billion and 3% to $10.6 billion, respectively. The increases were principally attributable to an increase in ISG services gross margin, which was primarily driven by higher AI-optimized servers offerings and hardware support and maintenance associated with products sold in prior periods. The increase in ISG services gross margin was partially offset by a decline in Corporate and other gross margin driven by the sale of Secureworks.
+During Fiscal 2026, services gross margin percentage and non-GAAP services gross margin percentage increased 340 basis points to 44.8% and 320 basis points to 45.6%, respectively, primarily driven by a shift in mix, as we no longer act as a distributor of standalone VMware offerings.
+Vendor Programs
+Our gross margin is affected by our ability to achieve competitive pricing with our vendors and contract manufacturers, including through our negotiation of a variety of vendor rebate programs to achieve lower net costs for the various components we include in our products. Under these programs, vendors provide us with rebates or other discounts from the list prices for the components, which are generally elements of their pricing strategy. We account for vendor rebates and other discounts as a reduction in cost of net revenue. We manage our costs on a total net cost basis, which includes supplier list prices reduced by vendor rebates and other discounts.
+48
+Table of Contents
+The terms and conditions of our vendor rebate programs are largely based on product volumes and are generally negotiated either at the beginning of the annual or quarterly period, depending on the program. The timing and amount of vendor rebates and other discounts we receive under the programs may vary from period to period, reflecting changes in the competitive environment. We monitor our component costs and seek to address the effects of any changes to terms that might arise under our vendor rebate programs. Our gross margins for Fiscal 2026 were not materially affected by any changes to the terms of our vendor rebate programs, as the amounts we received under these programs were generally stable relative to our total net cost. We are not aware of any significant changes to our vendor rebate programs that will materially impact our results in the near term.
+Operating Expenses
+The following table presents information regarding our operating expenses for the periods indicated:
+Fiscal Year Ended
+January 30, 2026
+January 31, 2025
+February 2, 2024
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+(in millions, except percentages)
+Operating expenses:
+Selling, general, and administrative
+$
+11,416 
+10.0 
+%
+(4)
+%
+$
+11,952 
+12.5 
+%
+(7)
+%
+$
+12,857 
+14.5 
+%
+Research and development
+3,142 
+2.8 
+%
+3 
+%
+3,061 
+3.2 
+%
+9 
+%
+2,801 
+3.2 
+%
+Total operating expenses
+$
+14,558 
+12.8 
+%
+(3)
+%
+$
+15,013 
+15.7 
+%
+(4)
+%
+$
+15,658 
+17.7 
+%
+Fiscal Year Ended
+January 30, 2026
+January 31, 2025
+February 2, 2024
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+% Change
+Dollars
+% of Net Revenue
+(in millions, except percentages)
+Non-GAAP operating expenses
+$
+13,168 
+11.6 
+%
+(1)
+%
+$
+13,281 
+13.9 
+%
+(4)
+%
+$
+13,766 
+15.6 
+%
+During Fiscal 2026, total operating expenses decreased 3% due to a decline in selling, general, and administrative (“SG&A”) expenses.
+•
+Selling, General, and Administrative
+ — During Fiscal 2026, SG&A expenses decreased 4%, driven by a decrease in employee compensation and benefits expense, which primarily resulted from a decline in overall headcount.
+•
+Research and Development
+ —
+Research and development (“R&D”) expenses are primarily composed of personnel-related expenses incurred in connection with product development. R&D expenses increased 3% during Fiscal 2026, principally due to continued support of investments in R&D initiatives.
+As a percentage of net revenue, R&D expenses for Fiscal 2026 and Fiscal 2025 were 2.8% and 3.2%, respectively. We continue to support R&D initiatives to innovate and introduce new and enhanced solutions into the market.
+During Fiscal 2026, non-GAAP operating expenses decreased 1%, driven by a decline in employee compensation and benefits expense which primarily resulted from a decline in overall headcount. The decline in employee compensation and benefits expense was largely offset by continued support of investments in R&D initiatives.
+We continue to make strategic investments designed to enable growth and innovation, while balancing our efforts to drive cost efficiencies in the business. We also expect to continue making investments in support of our own digital transformation, which aims to streamline and optimize our business processes.
+49
+Table of Contents
+Operating Income
+During Fiscal 2026, operating income and non-GAAP operating income increased by 31% to $8.1 billion and 17% to $10.0 billion, respectively. The increases in operating income and non-GAAP operating income were primarily attributable to an increase in ISG operating income that was driven by our servers and networking offerings and our storage offerings.
+During Fiscal 2026, operating income as a percentage of net revenue increased 70 basis points to 7.2%. Operating income as a percentage of net revenue benefited from the favorable impact of a decline in operating expense rate as a result of strong net revenue growth coupled with continued disciplined cost management and, to a lesser extent, lower other corporate expenses. The favorable impact of operating expense rate was partially offset by a decline in gross margin rate as a result of a shift in mix towards our AI-optimized servers offerings.
+During Fiscal 2026, non-GAAP operating income as a percentage of net revenue decreased 10 basis points to 8.8%. The decrease reflected a decline in gross margin rate as a result of a shift in mix towards our AI-optimized servers offerings, which was largely offset by the favorable impact of a decline in operating expense rate as a result of strong net revenue growth coupled with continued disciplined cost management.
+Interest and Other, Net
+The following table presents
+information regarding
+ interest and other, net for the periods indicated:
+Fiscal Year Ended
+ 
+January 30, 2026
+January 31, 2025
+February 2, 2024
+ 
+(in millions)
+Interest and other, net:
+ 
+ 
+Investment income, primarily interest
+$
+256 
+$
+160 
+$
+305 
+Gain on investments, net
+254 
+177 
+47 
+Interest expense
+(1,560)
+(1,394)
+(1,501)
+Foreign exchange
+(95)
+(112)
+(199)
+Gain on disposition of businesses and assets
+236 
+— 
+— 
+Other
+23 
+(20)
+24 
+Total interest and other, net
+$
+(886)
+$
+(1,189)
+$
+(1,324)
+During Fiscal 2026, the change in interest and other, net was favorable primarily due to the gain on the sale of Secureworks, investment income, and gains recognized within our strategic investments portfolio, partially offset by increased interest expense.
+Income and Other Taxes
+The following table presents information regarding our income and other taxes for the periods indicated:
+Fiscal Year Ended
+January 30, 2026
+January 31, 2025
+February 2, 2024
+(in millions, except percentages)
+Income before income taxes
+$
+7,263 
+$
+5,048 
+$
+4,087 
+Income tax expense
+$
+1,327 
+$
+472 
+$
+715 
+Effective income tax rate
+18.3 
+%
+9.4 
+%
+17.5 
+%
+For Fiscal 2026 and Fiscal 2025, our effective income tax rates were 18.3% and 9.4%, respectively. The changes in our effective tax rates for Fiscal 2026 as compared to Fiscal 2025 were primarily attributable to discrete tax items and a change in the Company’s jurisdictional mix of income related to the tax impact of foreign operations. For Fiscal 2025, we recorded discrete tax benefits of $0.4 billion related to changes in uncertain tax benefits resulting from the expiration of certain U.S. statutes of limitations and $0.2 billion related to stock-based compensation.
+50
+Table of Contents
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was enacted into law in the United States. The new law contains a broad range of tax reform provisions, which include the extension and modification of certain provisions of the Tax Cuts and Jobs Act. Effective for Fiscal 2026, changes include, but are not limited to, immediate expensing of domestic research and development expenditures, the restoration of 100% bonus depreciation, and an EBITDA-based interest expense limitation. These provisions did not have a material impact on the Company’s Consolidated Financial Statements for Fiscal 2026. Effective starting in Fiscal 2027, additional changes will include certain modifications to the international tax framework. We currently do not anticipate these changes to have a material impact to our results in future periods. The Company will continue to monitor any developments and guidance related to OBBBA.
+For further discussion regarding tax matters, including the status of income tax audits and the effects of tax holidays, see Note 12 of the Notes to the Consolidated Financial Statements included in this report.
+Net Income
+During Fiscal 2026, net income increased 30% to $5.9 billion primarily due to an increase in operating income and, to a lesser extent, a favorable change in interest and other, net, the effects of which were partially offset by higher income tax expense.
+During Fiscal 2026, non-GAAP net income increased 20% to $7.0 billion, primarily due to an increase in operating income.
+51
+Table of Contents
+Business Unit Results
+Our reportable segments are based on the ISG and CSG business units. A description of our business units is provided under “Introduction.” See Note 18 of the Notes to the Consolidated Financial Statements included in this report for a reconciliation of net revenue and operating income by reportable segment to consolidated net revenue and consolidated operating income, respectively.
+Infrastructure Solutions Group
+The following table presents net revenue and operating income attributable to ISG for the periods indicated:
+Fiscal Year Ended
+ 
+January 30, 2026
+% Change
+January 31, 2025
+% Change
+February 2, 2024
+(in millions, except percentages)
+Net revenue:
+AI-optimized servers
+$
+24,683
+166 
+%
+$
+9,286
+396 
+%
+$
+1,873
+Traditional servers and networking
+19,512
+9 
+%
+17,850
+13 
+%
+15,751
+Servers and networking
+44,195
+63 
+%
+27,136
+54 
+%
+17,624
+Storage
+16,631
+1 
+%
+16,457
+1 
+%
+16,261
+Total ISG net revenue
+$
+60,826
+40 
+%
+$
+43,593
+29 
+%
+$
+33,885
+Operating income:
+ISG operating income
+$
+7,111
+27 
+%
+$
+5,579
+30 
+%
+$
+4,286
+% of segment net revenue
+11.7 
+%
+12.8 
+%
+12.6 
+%
+Net Revenue
+
+—
+During Fiscal 2026, ISG net revenue increased 40%, driven primarily by strength in our AI-optimized servers offerings and, to a lesser extent, our traditional servers and networking offerings.
+AI-optimized servers net revenue increased 166% and 396% during Fiscal 2026 and Fiscal 2025, respectively, primarily driven by an increase in units sold as a result of significant increased demand for our AI-optimized servers offerings for both periods.
+Traditional servers and networking net revenue increased 9% and 13% during Fiscal 2026 and Fiscal 2025, respectively, primarily due to an increase in the average selling price of our traditional servers and networking offerings, partially offset by a decline in units sold for both periods. The increase in the average selling price was primarily driven by richer configurations for both periods.
+During Fiscal 2026, storage net revenue increased 1% primarily due to an increase in our core storage offerings.
+From a geographical perspective, ISG net revenue during Fiscal 2026 increased in the Americas, driven by our AI-optimized servers offerings and, to a lesser extent, in EMEA and APJ.
+Operating Income
+
+—
+During Fiscal 2026, ISG operating income as a percentage of net revenue decreased 110 basis points to 11.7%, due to a decline in gross margin rate that outpaced the decline in operating expense rate. Gross margin rate decreased primarily as the result of a shift in mix towards our AI-optimized servers offerings. Operating expense rate declined primarily due to strong ISG net revenue growth coupled with continued disciplined cost management.
+52
+Table of Contents
+Client Solutions Group
+The following table presents net revenue and operating income attributable to CSG for the periods indicated:
+Fiscal Year Ended
+January 30, 2026
+% Change
+January 31, 2025
+% Change
+February 2, 2024
+ 
+(in millions, except percentages)
+Net revenue:
+Commercial
+$
+44,062
+8 
+%
+$
+40,844
+3 
+%
+$
+39,814
+Consumer
+6,922
+(8)
+%
+7,549
+(17)
+%
+9,102
+Total CSG net revenue
+$
+50,984
+5 
+%
+$
+48,393
+(1)
+%
+$
+48,916
+Operating income:
+CSG operating income
+$
+2,833
+(5)
+%
+$
+2,972
+(20)
+%
+$
+3,712
+% of segment net revenue
+5.6 
+%
+6.1 
+%
+7.6 
+%
+Net Revenue
+
+—
+During Fiscal 2026, CSG net revenue increased 5%, driven by strength in our commercial offerings, partially offset by lower demand for our consumer offerings.
+During Fiscal 2026, commercial net revenue increased 8% primarily due to an increase in units sold and richer configurations, partially offset by a decline in average selling prices.
+Consumer net revenue decreased 8% during Fiscal 2026 due to a decline in average selling prices and units sold. The decline in average selling prices for our consumer offerings was primarily driven by lower attach rates and mix of configurations.
+From a geographical perspective, net revenue attributable to CSG during Fiscal 2026 increased in EMEA and the Americas and, to a lesser extent, in APJ.
+Operating Income
+
+—
+ During Fiscal 2026, CSG operating income as a percentage of net revenue decreased 50 basis points to 5.6%. The decline in operating income rate during Fiscal 2026 was primarily due to a decline in gross margin rate driven by a change in mix within our offerings.
+53
+Table of Contents
+OTHER BALANCE SHEET ITEMS
+Accounts Receivable
+We sell products and services directly to customers and through a variety of sales channels, including retail distribution. Our accounts receivable, net was $17.6 billion and $10.3 billion as of January 30, 2026 and January 31, 2025, respectively. The increase in accounts receivable, net was primarily driven by an increase in net revenue largely due to our AI-optimized servers offerings. We maintain an allowance for expected credit losses to cover receivables that may be deemed uncollectible. The allowance for expected credit losses is an estimate based on an analysis of historical loss experience, current receivables aging, and management’s assessment of current conditions and its reasonable and supportable expectation of future conditions, as well as specific identifiable customer accounts considered at risk or uncollectible. As of January 30, 2026 and January 31, 2025, the allowance for expected credit losses was $77 million and $63 million, respectively. Based on our assessment, we believe that we are adequately reserved for expected credit losses.
+Dell Financial Services and Financing Receivables
+We offer or arrange a portfolio of payment and consumption solutions and services for our customers globally, including as-a-Service, subscription, utility, leases, and loans, designed to match customers' consumption and financing preferences. We believe these options provide operational and financial flexibility and strengthen our customer relationships. To support financing solutions and services as part of the portfolio, DFS originates, collects, and services customer receivables primarily related to the purchase of our product and services solutions. New financing originations were $11.9 billion for Fiscal 2026 and $8.4 billion for both Fiscal 2025 and Fiscal 2024.
+Our leases are generally classified as sales-type leases or operating leases. On commencement of sales-type leases, we recognize profit up-front and recognize amounts due from the customer under the lease contract as financing receivables. Interest income is recognized as net product revenue over the term of the lease. Upon origination of operating leases, we record equipment under operating leases, classified as property, plant, and equipment, net. We recognize product revenue and depreciation expense, classified as cost of net revenue, over the contract term.
+As of January 30, 2026 and January 31, 2025, our financing receivables, net were $14.3 billion and $11.2 billion, respectively
+.
+The increase in financing receivables, net was primarily attributable to our AI-optimized servers offerings.
+
+We maintain an allowance to cover expected financing receivables credit losses and evaluate credit loss expectations based on our total portfolio. The principal charge-off rate for our financing receivables portfolio was 0.2%, 0.6%, and 0.5% for Fiscal 2026, Fiscal 2025, and Fiscal 2024, respectively. The credit quality of our financing receivables remains strong due to the mix of high-quality commercial accounts in our portfolio. We continue to monitor broader economic indicators and their potential impact on future credit loss performance. We have an extensive process to manage our exposure to customer credit risk that includes active management of credit lines and collection activities. We also sell select fixed-term financing receivables without recourse to unrelated third parties on a periodic basis, primarily to manage certain concentrations of customer credit exposure. Based on our assessment of the customer financing receivables, we believe that we are adequately reserved.
+We retain a residual interest in equipment leased under our lease programs. As of January 30, 2026 and January 31, 2025, the residual interest recorded as part of financing receivables was $198 million and $168 million, respectively. The amount of the residual interest is established at the inception of the lease based upon estimates of the value of the equipment at the end of the lease term using historical studies, industry data, and future value-at-risk demand valuation methods. On a quarterly basis, we assess the carrying amount of our recorded residual values for expected losses. Generally, expected losses as a result of residual value risk on equipment under lease are not considered to be significant primarily because of the existence of a secondary market with respect to the equipment. Further, the lease agreement defines applicable return conditions and remedies for non-compliance to ensure that the leased equipment will be in good operating condition upon return. No expected losses were recorded related to residual assets during Fiscal 2026 and Fiscal 2025.
+As of January 30, 2026 and January 31, 2025, equipment under operating leases, net was $2.5 billion and $2.2 billion, respectively. We assess the carrying amount of the equipment under operating leases for impairment whenever events or circumstances may indicate that an impairment has occurred. No material impairment losses were recorded related to such equipment during Fiscal 2026, Fiscal 2025, and Fiscal 2024.
+See Note 5 of the Notes to the Consolidated Financial Statements included in this report for additional information about our financing receivables and the associated allowances, and equipment under operating leases.
+54
+Table of Contents
+LIQUIDITY, CASH REQUIREMENTS, AND MARKET CONDITIONS
+Liquidity and Capital Resources
+We rely on operating cash flows, which are impacted by trends in the demand environment, as our primary source of liquidity for our ongoing business operations. We monitor the efficiency of our balance sheet to ensure that we have adequate liquidity to support our business and strategic initiatives.
+In addition to internally generated cash, we have access to other capital sources to finance our strategic initiatives and fund growth in our financing operations. Our strategy is to deploy capital from any potential source, whether internally generated cash or debt, depending on the adequacy and availability of that source of capital and whether it can be accessed in a cost-effective manner.
+We believe that our current cash and cash equivalents, together with cash that will be provided by future operations and borrowings and issuances expected to be available under our revolving credit facility and commercial paper program, will be sufficient over the next twelve months and for the foreseeable future thereafter to meet our material cash requirements, including funding of our operations, debt-related payments, capital expenditures, and other corporate needs.
+As part of our overall capital allocation strategy, we intend to continue returning capital to our stockholders through both share repurchase programs and dividend payments and to use the remaining available cash to drive growth and maintain our investment grade credit rating.
+The following table presents our cash and cash equivalents as well as our available borrowings as of the dates indicated:
+January 30, 2026
+January 31, 2025
+(in millions)
+Cash and cash equivalents, and available borrowings:
+Cash and cash equivalents
+$
+11,528 
+$
+3,633 
+Remaining available borrowings under the revolving credit facility
+5,886 
+5,999 
+Total cash and cash equivalents, and available borrowings
+$
+17,414 
+$
+9,632 
+During Fiscal 2026, cash and cash equivalents increased by $7.9 billion primarily due to an increase in cash flows from operations, net debt from the issuance of Senior Notes and DFS debt, and the proceeds from the sale of Secureworks, the effects of which were partially offset by the return of capital to our stockholders, capital expenditures, and payments to settle employee tax withholdings on stock-based compensation.
+As of January 30, 2026, our revolving credit facility had a maximum capacity of $6.0 billion. Available borrowings under this facility are reduced by draws on the facility and outstanding letters of credit. As of January 30, 2026, there were no borrowings outstanding under the facility and remaining available borrowings totaled approximately $5.9 billion. The facility also acts as a backstop to provide liquidity support for our commercial paper program.
+We maintain a commercial paper program under which we may issue unsecured notes in a maximum aggregate face amount of $5.0 billion outstanding at any time, with maturities of up to 397 days from the date of issue. As of January 30, 2026, we had no outstanding issuances under the program.
+We may regularly use our available borrowings from the revolving credit facility and issuances under the commercial paper program, generally on a short-term basis, for general corporate purposes. See the following discussion for additional information about our debt.
+
+55
+Table of Contents
+Debt
+The following table presents our outstanding debt as of the dates indicated:
+January 30, 2026
+Change
+January 31, 2025
+(in millions)
+Core debt
+Senior Notes
+$
+21,573 
+$
+6,500 
+$
+15,073 
+Legacy Notes
+952 
+— 
+952 
+DFS allocated debt
+(5,507)
+(2,479)
+(3,028)
+Total core debt
+17,018 
+4,021 
+12,997 
+DFS related debt
+DFS debt
+9,139 
+428 
+8,711 
+DFS allocated debt
+5,507 
+2,479 
+3,028 
+Total DFS related debt
+14,646 
+2,907 
+11,739 
+Other
+99 
+47 
+52 
+Total debt, principal amount
+31,763 
+6,975 
+24,788 
+Carrying value adjustments
+(260)
+(39)
+(221)
+Total debt, carrying value
+$
+31,503 
+$
+6,936 
+$
+24,567 
+The outstanding principal amount of our total debt increased $7.0 billion to $31.8 billion as of January 30, 2026, driven primarily by an increase in net debt from the issuance of Senior Notes and, to a lesser extent, DFS debt.
+Subsequent to the close of the fiscal year ended January 30, 2026, we repaid the remaining outstanding $0.5 billion principal amount of 6.02% Senior Notes due June 2026.
+We define core debt as the total principal amount of our debt, less DFS related debt and other debt. Our core debt was $17.0 billion and $13.0 billion as of January 30, 2026 and January 31, 2025, respectively. See Note 7 of the Notes to the Consolidated Financial Statements included in this report for additional information about our debt.
+DFS debt primarily represents debt from our securitization and structured financing programs. Our risk of loss under these programs is limited to transferred lease and loan payments and associated equipment, as the credit holders have no recourse to Dell Technologies.
+To fund the expansion of our DFS business, we balance the use of the securitization and structured financing programs with other sources of liquidity. We approximate the amount of our core debt used to fund the DFS business by applying a 7:1 debt-to-equity ratio to the sum of our financing receivables balance and equipment under operating leases, net, also referred to as DFS owned assets. The debt-to-equity ratio is based on the underlying credit quality of the assets. See Note 5 of the Notes to the Consolidated Financial Statements included in this report for additional information about our DFS debt.
+The following table presents DFS owned assets as of the dates indicated:
+January 30, 2026
+January 31, 2025
+(in millions)
+Financing receivables, net
+$
+14,280 
+$
+11,231 
+Equipment under operating leases, net
+2,459 
+2,185 
+DFS owned assets
+$
+16,739 
+$
+13,416 
+56
+Table of Contents
+We believe we will continue to be able to make our debt principal and interest payments, including payment of short-term maturities, from existing and expected sources of cash. Cash used for debt principal and interest payments may include operating cash flows, short-term borrowings under our commercial paper program or our revolving credit facility, or other borrowings. Under our variable-rate debt, we could experience variations in our future interest expense from potential fluctuations in applicable reference rates, or from possible fluctuations in the level of DFS debt required to meet future demand for customer financing.
+At our sole discretion, we may purchase, redeem, prepay, refinance, or otherwise retire any amount of our outstanding indebtedness under the terms of such indebtedness at any time and from time to time, in open market or negotiated transactions with the holders of such indebtedness or otherwise, as we consider appropriate in light of market conditions and other relevant factors.
+Cash Flows
+The following table presents a summary of our
+Consolidated Statements of Cash Flows
+ for the periods indicated:
+Fiscal Year Ended
+ 
+January 30, 2026
+January 31, 2025
+February 2, 2024
+(in millions)
+Net change in cash from:
+Operating activities
+$
+11,185 
+$
+4,521 
+$
+8,676 
+Investing activities
+(2,055)
+(2,215)
+(2,783)
+Financing activities
+(1,464)
+(5,815)
+(7,094)
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+221 
+(179)
+(186)
+Change in cash, cash equivalents, and restricted cash
+$
+7,887 
+$
+(3,688)
+$
+(1,387)
+Operating Activities
+ — Cash provided by operating activities was $11.2 billion during Fiscal 2026 and was driven by net revenue growth, profitability, and working capital dynamics, partially offset by higher financing receivables. Financing receivables and working capital were primarily affected by increased demand for our AI-optimized servers offerings. During Fiscal 2025, cash provided by operating activities was $4.5 billion and was driven by profitability, partially offset by working capital dynamics. Working capital was primarily impacted by AI dynamics, which led to higher inventory, accounts receivable, and accounts payable levels.
+Investing Activities
+ —
+ Investing activities primarily consist of cash used to fund capital expenditures for property, plant, and equipment inclusive of equipment under operating leases and equipment used to support our as-a-Service offerings, which we refer to collectively as assets in a customer contract. Additional activities may include capitalized software development costs, the maturities, sales, and purchases of investments, and acquisitions and divestitures. Cash used in investing activities was $2.1 billion during Fiscal 2026 and consisted of cash used for capital expenditures, partially offset by cash proceeds from the sale of Secureworks. Cash used in investing activities was $2.2 billion during Fiscal 2025 and was primarily used for capital expenditures.
+ 
+Financing Activities
+ — Financing activities primarily consist of the proceeds and repayments of debt and return of capital to our stockholders. Cash used in financing activities was $1.5 billion during Fiscal 2026 and primarily consisted of repurchases of common stock, inclusive of payments to settle employee tax withholdings on stock-based compensation, and the payment of quarterly dividends, partially offset by net proceeds from the issuance of Senior Notes and DFS debt. Cash used in financing activities was $5.8 billion during Fiscal 2025 and primarily consisted of repurchases of common stock, inclusive of payments to settle employee tax withholdings on stock-based compensation, net repayments on our DFS debt and Senior Notes, and the payment of quarterly dividends.
+DFS Cash Flow Impacts
+
+— DFS offerings are initially funded through cash on hand at the time of origination, some of which is subsequently replaced with financing. For offerings that qualify as sales-type leases, the initial funding of financing receivables is reflected as an impact to cash flows from operations. For offerings that qualify as operating leases, the initial funding is classified as a capital expenditure and reflected as cash flows used in investing activities. DFS new financing originations were $11.9 billion during Fiscal 2026 and $8.4 billion during both Fiscal 2025 and Fiscal 2024. As of January 30, 2026, we had $14.3 billion of total net financing receivables and $2.5 billion of equipment under operating leases, net.
+57
+Table of Contents
+Supply Chain Finance Program
+
+— We maintain a Supply Chain Finance Program (the “SCF Program”) that enables eligible suppliers to sell receivables due from us to a third-party financial institution at the suppliers’ sole discretion. The SCF Program does not impact our liquidity, as payments by us to participating suppliers are remitted to the financial institution on the original invoice due date. Further, we negotiate payment terms with our suppliers regardless of their decision to participate in the SCF Program. Payments made under the SCF Program are included in cash flows from operating activities on the Consolidated Statements of Cash Flows. See Note 20 of the Notes to the Consolidated Financial Statements included in this report for more information regarding the SCF Program.
+Material Capital Commitments and Cash Requirements
+Our material capital commitments include the following:
+Capital Expenditures
+
+— We spent $2.6 billion and $2.7 billion during Fiscal 2026 and Fiscal 2025, respectively, on property, plant, and equipment and capitalized software development costs. Of total expenditures incurred, funding of assets in a customer contract totaled $1.4 billion and $1.3 billion during Fiscal 2026 and Fiscal 2025, respectively. Product demand, product mix, the use of contract manufacturers, and ongoing investments in operating and information technology infrastructure influence the level and prioritization of our capital expenditures.
+Repurchases of Common Stock
+
+— On September 23, 2021, our Board of Directors approved a stock repurchase program with no fixed expiration date under which we were authorized to repurchase a specified dollar value of Class C Common Stock, exclusive of any fees, commissions, or other expenses related to such repurchases. As of January 30, 2026, our Board of Directors authorized the repurchase of up to $20 billion of Class C Common Stock and on February 26, 2026, subsequent to the close of Fiscal 2026, authorized an additional $10 billion of Class C Common Stock for repurchase. Following the February 26, 2026 approval, we had approximately $15.2 billion of authorized shares remaining for repurchase under the program.
+During Fiscal 2026, we repurchased approximately 54 million shares of Class C Common Stock for a total purchase price of approximately $6.0 billion. During Fiscal 2025, we repurchased approximately 22 million shares of Class C Common Stock for a total purchase price of approximately $2.6 billion.
+Dividend Payments
+
+— During Fiscal 2026 and Fiscal 2025, we paid $1.5 billion and $1.3 billion, respectively, in dividends and dividend equivalents at a rate of $0.525 per share per fiscal quarter and $0.445 per share per fiscal quarter, respectively.
+On February 26, 2026, subsequent to the close of Fiscal 2026, we announced that the Board of Directors approved a 20% increase in the dividend rate to $0.630 per share per fiscal quarter beginning in the first quarter of Fiscal 2027.
+Additionally, our material cash requirements include the following contractual obligations:
+Debt
+ — Our expected principal cash payments on borrowings are exclusive of discounts and premiums. As of January 30, 2026, the Company had outstanding debt in an aggregate principal amount of $31.8 billion, with $8.0 billion payable within 12 months. Included within the aggregate principal amount was $22.6 billion of corporate and other debt with varying maturities, with $2.3 billion payable within 12 months, and $9.1 billion of DFS debt, with $5.7 billion payable within 12 months.
+As of January 30, 2026, future interest payments associated with outstanding debt were $9.1 billion, with $1.4 billion payable within 12 months. Included within total future interest payments are $8.7 billion of payments related to corporate and other debt, with $1.1 billion payable within 12 months, and $0.4 billion of payments related to our DFS debt, with $0.3 billion payable within 12 months.
+Purchase Obligations
+ 
+—
+ Purchase obligations are defined as contractual obligations to purchase goods or services that are enforceable and legally binding on us. These obligations specify all significant terms, including fixed or minimum quantities to be purchased; fixed, minimum, or variable price provisions; and the approximate timing of the transaction. Purchase obligations include the non-cancelable portion or the minimum cancellation fee under the contract and do not include contracts that may be canceled without penalty.
+58
+Table of Contents
+We utilize several suppliers to manufacture sub-assemblies for our products. Our efficient supply chain management allows us to enter into flexible and mutually beneficial purchase arrangements with our suppliers in order to minimize inventory risk. Consistent with industry practice, we acquire raw materials or other goods and services, including product components, by issuing to suppliers authorizations to purchase based on our projected demand and manufacturing needs. These purchase orders are typically fulfilled within 30 days and are entered into during the ordinary course of business in order to establish best pricing and continuity of supply for our production. Purchase orders are not included in purchase obligations, as they typically represent our authorization to purchase rather than binding purchase obligations.
+To meet growing demand, we have increased, and expect we will continue to increase, our purchases of certain components with suppliers, resulting in increased purchase obligations. As of January 30, 2026, the Company had purchase obligations of $18.8 billion, with $16.8 billion payable within 12 months.
+Operating Leases
+ — We lease property and equipment, warehouses, and office space under non-cancelable leases. Certain of these leases obligate us to pay taxes, maintenance, and repair costs. As of January 30, 2026, the Company had operating lease obligations of $0.8 billion, with $0.2 billion payable within 12 months. See Note 6 of the Notes to the Consolidated Financial Statements included in this report for additional information about our leasing transactions in which we are the lessee.
+Market Conditions
+We regularly monitor economic conditions and associated impacts on the financial markets and our business. We consistently evaluate the financial health of our supplier base, carefully manage customer credit, diversify counterparty risk, and monitor the concentration risk of our cash and cash equivalents balances globally. We routinely monitor our financial exposure to borrowers and counterparties.
+We monitor credit risk associated with our financial counterparties using various market credit risk indicators such as credit ratings issued by nationally recognized credit rating agencies and changes in market credit default swap levels. Our AI solutions to date have been purchased primarily by a small number of larger customers and cloud service providers. Such purchases generally involve larger amounts of credit, and could impact overall credit risk in trade and financing receivables. We perform periodic evaluations of our positions with counterparties and may limit exposure to any one counterparty in accordance with our policies. We monitor and manage our positions based on current and expected market developments.
+We use derivative instruments to hedge certain foreign currency exposures. We use forward contracts and purchased options designated as cash flow hedges to protect against the foreign currency exchange rate risks inherent in our forecasted transactions denominated in currencies other than the U.S. Dollar. In addition, we primarily use forward contracts and may use purchased options to hedge monetary assets and liabilities denominated in a foreign currency. See Note 8 of the Notes to the Consolidated Financial Statements included in this report for additional information about our use of derivative instruments.
+We are exposed to interest rate risk related to our variable-rate debt portfolio. In the normal course of business we follow established policies and procedures to manage this risk, including monitoring of our asset and liability mix and the use of derivative instruments. As a result, we do not anticipate any material losses from interest rate risk.
+59
+Table of Contents
+Summarized Guarantor Financial Information
+The Company’s outstanding senior notes (“Senior Notes”) are registered, unsecured, and issued by Dell International L.L.C. and EMC Corporation (the “Issuers”), both of which are wholly-owned subsidiaries of Dell Technologies Inc. The Senior Notes are guaranteed on a joint and several unsecured basis by Dell Technologies Inc. and its wholly-owned subsidiaries, Denali Intermediate, Inc. and Dell Inc. (collectively, the “Guarantors”).
+Basis of Preparation of the Summarized Financial Information
+ — The tables below are summarized financial information provided in conformity with Rule 13-01 of the SEC’s Regulation S-X. The summarized financial information of the Issuers and Guarantors (collectively, the “Obligor Group”) is presented on a combined basis, excluding intercompany balances and transactions between entities in the Obligor Group. The Obligor Group’s investment balances in subsidiaries of Dell Technologies Inc. that are not part of the Obligor Group (the “Non-Obligor Subsidiaries”) have been excluded. The Obligor Group’s amounts due from, amounts due to, and transactions with Non-Obligor Subsidiaries have been presented separately.
+The following table presents summarized results of operations information for the Obligor Group for the period indicated:
+Fiscal Year Ended
+January 30, 2026
+(in millions)
+Net revenue
+$
+7,769 
+Gross margin
+4,011 
+Operating income
+966 
+Interest and other, net
+(4,063)
+Loss before income taxes
+$
+(3,097)
+Net loss attributable to Obligor Group (a)
+$
+(2,312)
+____________________
+(a)
+Includes net loss from intercompany transactions with Non-Obligor Subsidiaries of $4,706 million, which primarily consists of interest expense, shared services, and the resale of solutions.
+The following table presents summarized balance sheet information for the Obligor Group as of the dates indicated:
+January 30, 2026
+January 31, 2025
+(in millions)
+ASSETS
+Current assets
+$
+2,470 
+$
+3,132 
+Intercompany receivables
+317 
+175 
+Short-term intercompany loan receivables
+306 
+— 
+Total current assets
+3,093 
+3,307 
+Goodwill and intangible assets
+13,788 
+14,073 
+Other non-current assets
+3,319 
+3,412 
+Total assets
+$
+20,200 
+$
+20,792 
+LIABILITIES
+Current liabilities
+$
+6,037 
+$
+4,097 
+Long-term debt
+20,035 
+15,824 
+Long-term intercompany loan payables
+44,825 
+44,516 
+Other non-current liabilities
+3,293 
+3,339 
+Total liabilities
+$
+74,190 
+$
+67,776 
+60
+Table of Contents
+Critical Accounting Estimates
+We prepare our financial statements in conformity with GAAP, which requires certain estimates, assumptions, and judgments to be made that may affect our Consolidated Statements of Financial Position and Consolidated Statements of Income. Accounting policies that have a significant impact on our Consolidated Financial Statements are described in Note 2 of the Notes to the Consolidated Financial Statements included in this report. The accounting estimates and assumptions discussed in this section are those that we consider to be the most critical. We consider an accounting policy to be critical if the nature of the estimate or assumption is subject to a material level of judgment and if changes in those estimates or assumptions are reasonably likely to materially impact our Consolidated Financial Statements. We have discussed the development, selection, and disclosure of our critical accounting policies with the Audit Committee of our Board of Directors.
+Revenue Recognition
+ — We sell a wide portfolio of products and services offerings to our customers. Our agreements have varying terms and conditions depending on the goods and services being sold, the rights and obligations conveyed, and the legal jurisdiction of the arrangement. While most of our agreements have standard terms and conditions, more complex agreements may contain nonstandard terms and conditions. There are significant judgments in interpreting agreements to determine the appropriate accounting for nonstandard terms and conditions.
+Our contracts with customers often include multiple performance obligations for various distinct goods and services such as hardware, software licenses, support and maintenance agreements, and other service offerings and solutions. We use significant judgment to assess whether these promises are distinct performance obligations that should be accounted for separately. In certain hardware solutions, the hardware is highly interdependent on, and interrelated with, the embedded software. In these offerings, the hardware and software licenses are accounted for as a single performance obligation.
+The transaction price reflects the amount of consideration to which we expect to be entitled in exchange for transferring goods or services to the customer. If the consideration promised in a contract includes a variable amount, we estimate the amount to which we expect to be entitled using either the expected value or most likely amount method. Estimates are updated each reporting period as the variability is resolved or if additional information becomes available. Generally, volume discounts, rebates, and sales returns reduce the transaction price. When we determine the transaction price, we only include amounts that are not subject to significant future reversal.
+When a contract includes multiple performance obligations, the transaction price is allocated to each performance obligation in proportion to the standalone selling price (“SSP”) of each performance obligation.
+Judgment is required when determining the SSP of our performance obligations. If the observable price is available, we utilize that price for the SSP. If the observable price is not available, the SSP must be estimated by considering multiple factors, including, but not limited to, pricing practices, internal costs, and profit objectives as well as overall market and industry conditions, which include geographic or regional specific factors, competitive positioning, and competitor actions. Our SSP estimates rely, in part, on company pricing trends. Market conditions could impact the selling price in the current period which may not be reflective of trends, and could lead to revenue timing, classification, and segment differences when compared to similar contracts in other periods. SSP for our performance obligations is periodically reassessed.
+For transactions that involve a third party, we evaluate whether we are acting as the principal or the agent in the transaction. This determination requires significant judgment and impacts the amount and timing of revenue recognized. If we determine that we control a good or service before it is transferred to the customer, we are acting as the principal and recognize revenue at the gross amount of consideration we are entitled to from the customer. Indicators that we control a good or service before transferring to a customer include, but are not limited to, Dell Technologies being the primary obligor to the customer, establishing our own pricing, and having inventory and credit risks.
+Goodwill and Indefinite-Lived Intangible Assets Impairment Assessments
+— Goodwill and indefinite-lived intangible assets are tested for impairment annually during the third fiscal quarter and whenever events or circumstances may indicate that an impairment has occurred.
+To determine whether goodwill is impaired, we first assess certain qualitative factors. Qualitative factors that may be assessed include, but are not limited to, macroeconomic conditions, industry and market considerations, cost factors, overall financial performance, or other relevant company-specific events. Based on this assessment, if it is determined to be more likely than not that the fair value of a goodwill reporting unit is less than its carrying amount, we perform a quantitative analysis of the goodwill impairment test. Alternatively, we may bypass the qualitative assessment and perform a quantitative impairment test.
+61
+Table of Contents
+Significant judgment is exercised in the identification of goodwill reporting units, assignment of assets and liabilities to goodwill reporting units, assignment of goodwill to reporting units, and determination of the fair value of each goodwill reporting unit. The fair value of each of our goodwill reporting units is generally estimated using a combination of public company multiples and discounted cash flow methodologies, which is then compared to the carrying value of each goodwill reporting unit. The discounted cash flow and public company multiples methodologies require significant judgment, including estimation of future revenues, gross margins, and operating expenses, which are dependent on internal forecasts, current and anticipated economic conditions and trends, selection of market multiples through assessment of the reporting unit’s performance relative to peer competitors, the estimation of the long-term revenue growth rate and discount rate of our business, and the determination of our weighted average cost of capital. Changes in these estimates and assumptions could materially affect the fair value of the goodwill reporting unit, potentially resulting in a non-cash impairment charge.
+The fair value of the indefinite-lived intangible assets is generally estimated using discounted cash flow methodologies. The discounted cash flow methodologies require significant judgment, including estimation of future revenue, the estimation of the long-term revenue growth rate of our business, and the determination of the weighted average cost of capital and royalty rates. Changes in these estimates and assumptions could materially affect the fair value of the indefinite-lived intangible assets, potentially resulting in a non-cash impairment charge.
+For our annual impairment assessment during the third quarter of Fiscal 2026, we performed a qualitative assessment and determined that it was more likely than not that the estimated fair values of each of the reporting units and indefinite-lived assets were higher than their respective carrying values. For more information about our goodwill and intangible assets, see Note 9 of the Notes to the Consolidated Financial Statements included in this report.
+Income Taxes
+— We are subject to income tax in the United States and numerous foreign jurisdictions. Significant judgments are required in determining the consolidated provision for income taxes. We calculate a provision for income taxes using the asset and liability method, under which deferred tax assets and liabilities are recognized by identifying the temporary differences arising from the different treatment of items for tax and accounting purposes. We account for the tax impact of including Global Intangible Low-Taxed Income (“GILTI”) in U.S. taxable income as a period cost. We provide related valuation allowances for deferred tax assets, where appropriate. Significant judgment is required in determining any valuation allowance against deferred tax assets. In assessing the need for a valuation allowance, we consider all available evidence for each jurisdiction, including past operating results, estimates of future taxable income, and the feasibility of ongoing tax planning strategies. In the event we determine that all or part of the net deferred tax assets are not realizable in the future, we will make an adjustment to the valuation allowance that would be charged to earnings in the period such a determination is made.
+Significant judgment is also required in evaluating our uncertain tax positions. Although we believe our tax return positions are sustainable, we recognize tax benefits from uncertain tax positions in the financial statements only when it is more likely than not that the positions will be sustained upon examination, including resolution of any related appeals or litigation processes, based on the technical merits and a consideration of the relevant taxing authority’s administrative practices and precedents. To the extent that the final tax outcome of these matters is different from the amounts recorded, such differences will impact the provision for income taxes in the period in which such a determination is made. The provision for income taxes includes the impact of reserve provisions and changes to reserves that are considered appropriate, as well as the related net interest and penalties. We believe we have provided adequate reserves for all uncertain tax positions.
+Legal and Other Contingencies
+— The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty. An estimated loss from a loss contingency such as a legal proceeding or claim is accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated. In determining whether a loss should be accrued, we evaluate, among other factors, the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss. Significant judgment is required in determining whether a loss should be accrued, and changes in these factors could materially impact our Consolidated Financial Statements.
+62
+Table of Contents
+Inventories
+— We state our inventory at the lower of cost or net realizable value. We record a write-down for inventories of components and products, including third-party products held for resale, which have become obsolete or are in excess of anticipated demand or net realizable value. We perform a detailed review of inventory each fiscal
+ 
+quarter that considers multiple factors, including demand forecasts, product life cycle status, product development plans, current sales levels, product pricing, and component cost trends. The industries in which we compete are subject to demand changes. If future demand or market conditions for our products are less favorable than
+ 
+forecasted, or if unforeseen technological changes negatively impact the utility of component inventory, we may be required to record additional write-downs, which would adversely affect our gross margin.
+Recently Issued Accounting Pronouncements
+See Note 2 of the Notes to the Consolidated Financial Statements included in this report for a summary of recently issued accounting pronouncements that are applicable to our Consolidated Financial Statements.
+63
+Table of Contents

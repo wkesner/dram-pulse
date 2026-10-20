@@ -1,0 +1,32 @@
+{
+  "company": "AMD",
+  "ticker": "AMD",
+  "cik": "0000002488",
+  "form": "8-K",
+  "filing_date": "2025-10-27",
+  "accession_number": "0001193125-25-250803",
+  "primary_document": "d917887d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525250803/d917887d8k.htm",
+  "fiscal_year_end": "1226",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:47.855905+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d917887dex991.htm",
+      "path": "data/raw/AMD/000119312525250803/exhibit_99_d917887dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525250803/d917887dex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AMD/000119312525250803/primary.html",
+    "other": "data/raw/AMD/000119312525250803/other_full.txt"
+  }
+}

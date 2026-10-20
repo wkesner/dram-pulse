@@ -1,0 +1,28 @@
+{
+  "company": "Qualcomm",
+  "ticker": "QCOM",
+  "cik": "0000804328",
+  "form": "10-K",
+  "filing_date": "2024-11-06",
+  "accession_number": "0000804328-24-000075",
+  "primary_document": "qcom-20240929.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:18:41.045621+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/QCOM/000080432824000075/primary.html",
+    "business": "data/raw/QCOM/000080432824000075/item1_business.txt",
+    "risk_factors": "data/raw/QCOM/000080432824000075/item1a_risk_factors.txt",
+    "mdna": "data/raw/QCOM/000080432824000075/item7_mdna.txt",
+    "other": "data/raw/QCOM/000080432824000075/other_full.txt"
+  }
+}

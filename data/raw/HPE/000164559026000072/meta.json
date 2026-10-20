@@ -1,0 +1,32 @@
+{
+  "company": "HPE",
+  "ticker": "HPE",
+  "cik": "0001645590",
+  "form": "8-K",
+  "filing_date": "2026-07-24",
+  "accession_number": "0001645590-26-000072",
+  "primary_document": "hpe-20260724.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
+  "fiscal_year_end": "1031",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:24.318089+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex991pressreleasedavidgoul.htm",
+      "path": "data/raw/HPE/000164559026000072/exhibit_99_ex991pressreleasedavidgoul.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/ex991pressreleasedavidgoul.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/HPE/000164559026000072/primary.html",
+    "other": "data/raw/HPE/000164559026000072/other_full.txt"
+  }
+}

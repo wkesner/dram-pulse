@@ -18,8 +18,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-import yaml
-
 from src.fetch_edgar import (
     REPO_ROOT,
     Company,
@@ -70,6 +68,9 @@ SECTION_FILES = {
     "risk_factors": "item1a_risk_factors.txt",
     "mdna": "item7_mdna.txt",
 }
+
+# For 8-K / 6-K we extract from full text + any exhibit 99 files.
+PERIODIC_FORMS = {"10-K", "10-K/A", "10-Q", "10-Q/A"}
 
 # Sentence split: keep abbreviations from shredding too aggressively.
 _SENTENCE_SPLIT = re.compile(
@@ -561,26 +562,42 @@ def _build_row(
     }
 
 
-def latest_meta_for_ticker(raw_root: Path, ticker: str) -> tuple[Path, dict[str, Any]]:
+def list_metas_for_ticker(
+    raw_root: Path, ticker: str, *, include_prior: bool = False
+) -> list[tuple[Path, dict[str, Any]]]:
     ticker_dir = raw_root / ticker.upper()
     if not ticker_dir.is_dir():
-        raise FileNotFoundError(f"No cached filings under {ticker_dir}")
+        return []
     metas: list[tuple[Path, dict[str, Any]]] = []
     for child in ticker_dir.iterdir():
         meta_path = child / "meta.json"
         if not meta_path.is_file():
             continue
         meta = json.loads(meta_path.read_text(encoding="utf-8"))
-        # Prefer filings that are not marked prior_only
+        if meta.get("prior_only") and not include_prior:
+            continue
         metas.append((child, meta))
-    if not metas:
-        raise FileNotFoundError(f"No meta.json under {ticker_dir}")
+    metas.sort(
+        key=lambda m: (m[1].get("filing_date", ""), m[1].get("accession_number", "")),
+        reverse=True,
+    )
+    return metas
 
-    # Latest non-prior filing first
-    current = [m for m in metas if not m[1].get("prior_only")]
-    pool = current or metas
-    pool.sort(key=lambda m: m[1].get("filing_date", ""), reverse=True)
+
+def latest_meta_for_ticker(raw_root: Path, ticker: str) -> tuple[Path, dict[str, Any]]:
+    pool = list_metas_for_ticker(raw_root, ticker)
+    if not pool:
+        raise FileNotFoundError(f"No cached filings under {raw_root / ticker}")
     return pool[0]
+
+
+def latest_10k_meta(
+    raw_root: Path, ticker: str
+) -> tuple[Path, dict[str, Any]] | None:
+    for path, meta in list_metas_for_ticker(raw_root, ticker):
+        if str(meta.get("form", "")).upper() in {"10-K", "10-K/A"}:
+            return path, meta
+    return None
 
 
 def fetch_prior_10k_if_needed(
@@ -663,8 +680,216 @@ def fetch_prior_10k_if_needed(
     return meta
 
 
+def _load_term_banks(
+    taxonomy_path: Path, supply_path: Path
+) -> dict[str, Any]:
+    products = load_taxonomy(taxonomy_path)
+    supply = load_supply_terms(supply_path)
+    return {
+        "products": products,
+        "topic_compiled": compile_term_map(supply.get("topics") or {}),
+        "tightening": compile_term_map(
+            {"tightening": (supply.get("direction") or {}).get("tightening") or []}
+        ),
+        "easing": compile_term_map(
+            {"easing": (supply.get("direction") or {}).get("easing") or []}
+        ),
+        "stable": compile_term_map(
+            {"stable": (supply.get("direction") or {}).get("stable") or []}
+        ),
+        "positive": compile_term_map(
+            {"positive": (supply.get("sentiment") or {}).get("positive") or []}
+        ),
+        "negative": compile_term_map(
+            {"negative": (supply.get("sentiment") or {}).get("negative") or []}
+        ),
+    }
+
+
+def _prior_texts_for_company(
+    company: Company,
+    settings: dict[str, Any],
+    raw_root: Path,
+    *,
+    fetch_prior: bool,
+    session: RateLimitedSession | None,
+) -> list[tuple[str, str]]:
+    prior_texts: list[tuple[str, str]] = []
+    tenk = latest_10k_meta(raw_root, company.ticker)
+    if tenk is None:
+        return prior_texts
+    _path, meta = tenk
+    if fetch_prior:
+        if session is None:
+            ua = resolve_user_agent()
+            max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
+            session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
+        prior_meta = fetch_prior_10k_if_needed(company, settings, meta, session)
+    else:
+        # Use any already-cached prior_only 10-K
+        priors = [
+            m
+            for m in list_metas_for_ticker(raw_root, company.ticker, include_prior=True)
+            if m[1].get("prior_only")
+        ]
+        prior_meta = priors[0][1] if priors else None
+
+    if not prior_meta:
+        return prior_texts
+    prior_dir = raw_root / company.ticker / prior_meta["accession_number"].replace("-", "")
+    for fname in SECTION_FILES.values():
+        p = prior_dir / fname
+        if p.is_file():
+            prior_texts.append((prior_meta["source_url"], p.read_text(encoding="utf-8")))
+    other = prior_dir / "other_full.txt"
+    if other.is_file():
+        prior_texts.append((prior_meta["source_url"], other.read_text(encoding="utf-8")))
+    return prior_texts
+
+
+def extract_filing(
+    company: Company,
+    cache_dir_path: Path,
+    meta: dict[str, Any],
+    banks: dict[str, Any],
+    prior_texts: list[tuple[str, str]],
+    extracted_at: str,
+) -> list[dict[str, Any]]:
+    ctx = ExtractContext(
+        company=company,
+        meta=meta,
+        products=banks["products"],
+        topic_compiled=banks["topic_compiled"],
+        tightening=banks["tightening"],
+        easing=banks["easing"],
+        stable=banks["stable"],
+        positive=banks["positive"],
+        negative=banks["negative"],
+        prior_texts=prior_texts,
+        extracted_at=extracted_at,
+    )
+    rows: list[dict[str, Any]] = []
+    form = str(meta.get("form", "")).upper()
+
+    if form in PERIODIC_FORMS:
+        for section, fname in SECTION_FILES.items():
+            path = cache_dir_path / fname
+            if not path.is_file():
+                continue
+            text = path.read_text(encoding="utf-8")
+            rows.extend(extract_from_section(ctx, section, path, text))
+    else:
+        # 8-K / 6-K / other: full text + exhibit 99s
+        other = cache_dir_path / "other_full.txt"
+        if other.is_file():
+            rows.extend(
+                extract_from_section(
+                    ctx, "other", other, other.read_text(encoding="utf-8")
+                )
+            )
+        for path in sorted(cache_dir_path.glob("exhibit_99_*.txt")):
+            rows.extend(
+                extract_from_section(
+                    ctx, "exhibit_99", path, path.read_text(encoding="utf-8")
+                )
+            )
+    return rows
+
+
 def extract_ticker(
     ticker: str,
+    *,
+    settings: dict[str, Any],
+    companies_path: Path,
+    taxonomy_path: Path,
+    supply_path: Path,
+    out_path: Path | None = None,
+    fetch_prior: bool = True,
+    write: bool = True,
+    session: RateLimitedSession | None = None,
+) -> list[dict[str, Any]]:
+    companies = {c.ticker: c for c in load_companies(companies_path)}
+    if ticker not in companies:
+        raise SystemExit(f"Ticker {ticker} not in {companies_path}")
+    company = companies[ticker]
+    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+    filings = list_metas_for_ticker(raw_root, ticker)
+    if not filings:
+        print(f"Warning: no cached filings for {ticker}", file=sys.stderr)
+        return []
+
+    banks = _load_term_banks(taxonomy_path, supply_path)
+    prior_texts = _prior_texts_for_company(
+        company, settings, raw_root, fetch_prior=fetch_prior, session=session
+    )
+    extracted_at = datetime.now(timezone.utc).isoformat()
+
+    rows: list[dict[str, Any]] = []
+    for cache_dir_path, meta in filings:
+        rows.extend(
+            extract_filing(
+                company, cache_dir_path, meta, banks, prior_texts, extracted_at
+            )
+        )
+
+    section_order = {
+        "business": 0,
+        "risk_factors": 1,
+        "mdna": 2,
+        "exhibit_99": 3,
+        "other": 4,
+    }
+    rows.sort(
+        key=lambda r: (
+            r.get("filing_date", ""),
+            section_order.get(r["section"], 9),
+            int(r["char_start"]),
+            r["product_family"],
+        ),
+        reverse=True,
+    )
+
+    if write and out_path is not None:
+        write_signals_csv(out_path, rows, append=False)
+    return rows
+
+
+def read_signals_csv(path: Path) -> list[dict[str, str]]:
+    if not path.is_file():
+        return []
+    with path.open(encoding="utf-8", newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def write_signals_csv(
+    path: Path, rows: list[dict[str, Any]], *, append: bool = False
+) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    existing: list[dict[str, str]] = []
+    if append and path.is_file():
+        existing = read_signals_csv(path)
+    by_id: dict[str, dict[str, Any]] = {r["signal_id"]: r for r in existing}
+    for row in rows:
+        by_id[row["signal_id"]] = row
+    merged = list(by_id.values())
+    merged.sort(
+        key=lambda r: (
+            r.get("filing_date", ""),
+            r.get("ticker_or_code", ""),
+            r.get("section", ""),
+            int(r.get("char_start") or 0),
+            r.get("product_family", ""),
+        ),
+        reverse=True,
+    )
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=SIGNAL_COLUMNS)
+        writer.writeheader()
+        for row in merged:
+            writer.writerow({k: row.get(k, "") for k in SIGNAL_COLUMNS})
+
+
+def extract_all(
     *,
     settings: dict[str, Any],
     companies_path: Path,
@@ -673,87 +898,39 @@ def extract_ticker(
     out_path: Path,
     fetch_prior: bool = True,
 ) -> list[dict[str, Any]]:
-    companies = {c.ticker: c for c in load_companies(companies_path)}
-    if ticker not in companies:
-        raise SystemExit(f"Ticker {ticker} not in {companies_path}")
-    company = companies[ticker]
-    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
-    cache_dir_path, meta = latest_meta_for_ticker(raw_root, ticker)
-
-    prior_texts: list[tuple[str, str]] = []
+    companies = [c for c in load_companies(companies_path) if c.source.upper() == "EDGAR"]
+    session = None
     if fetch_prior:
         ua = resolve_user_agent()
         max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
         session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
-        prior_meta = fetch_prior_10k_if_needed(company, settings, meta, session)
-        if prior_meta:
-            prior_dir = raw_root / ticker / prior_meta["accession_number"].replace("-", "")
-            for key, fname in SECTION_FILES.items():
-                p = prior_dir / fname
-                if p.is_file():
-                    prior_texts.append(
-                        (prior_meta["source_url"], p.read_text(encoding="utf-8"))
-                    )
-            other = prior_dir / "other_full.txt"
-            if other.is_file():
-                prior_texts.append(
-                    (prior_meta["source_url"], other.read_text(encoding="utf-8"))
-                )
 
-    products = load_taxonomy(taxonomy_path)
-    supply = load_supply_terms(supply_path)
-    topic_compiled = compile_term_map(supply.get("topics") or {})
-    tightening = compile_term_map({"tightening": (supply.get("direction") or {}).get("tightening") or []})
-    easing = compile_term_map({"easing": (supply.get("direction") or {}).get("easing") or []})
-    stable = compile_term_map({"stable": (supply.get("direction") or {}).get("stable") or []})
-    positive = compile_term_map({"positive": (supply.get("sentiment") or {}).get("positive") or []})
-    negative = compile_term_map({"negative": (supply.get("sentiment") or {}).get("negative") or []})
-
-    ctx = ExtractContext(
-        company=company,
-        meta=meta,
-        products=products,
-        topic_compiled=topic_compiled,
-        tightening=tightening,
-        easing=easing,
-        stable=stable,
-        positive=positive,
-        negative=negative,
-        prior_texts=prior_texts,
-        extracted_at=datetime.now(timezone.utc).isoformat(),
-    )
-
-    rows: list[dict[str, Any]] = []
-    for section, fname in SECTION_FILES.items():
-        path = cache_dir_path / fname
-        if not path.is_file():
-            print(f"Warning: missing {path}", file=sys.stderr)
-            continue
-        text = path.read_text(encoding="utf-8")
-        rows.extend(extract_from_section(ctx, section, path, text))
-
-    # Stable output order: section, char_start, family
-    section_order = {"business": 0, "risk_factors": 1, "mdna": 2, "other": 3}
-    rows.sort(
-        key=lambda r: (
-            section_order.get(r["section"], 9),
-            int(r["char_start"]),
-            r["product_family"],
+    all_rows: list[dict[str, Any]] = []
+    for company in companies:
+        rows = extract_ticker(
+            company.ticker,
+            settings=settings,
+            companies_path=companies_path,
+            taxonomy_path=taxonomy_path,
+            supply_path=supply_path,
+            out_path=None,
+            fetch_prior=fetch_prior,
+            write=False,
+            session=session,
         )
-    )
+        print(f"  {company.ticker}: {len(rows)} signals")
+        all_rows.extend(rows)
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=SIGNAL_COLUMNS)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({k: row.get(k, "") for k in SIGNAL_COLUMNS})
-    return rows
+    # Full rewrite of CSV from this run (all companies), preserving append-only
+    # semantics by merging on signal_id with any prior rows for unknown tickers.
+    write_signals_csv(out_path, all_rows, append=True)
+    return all_rows
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Extract Memory Signals from cached filings")
-    parser.add_argument("--ticker", default="MU")
+    parser.add_argument("--ticker", help="Single ticker (default: all EDGAR companies)")
+    parser.add_argument("--all", action="store_true", help="Extract all EDGAR companies")
     parser.add_argument("--settings", type=Path, default=REPO_ROOT / "config" / "settings.yaml")
     parser.add_argument("--companies", type=Path, default=REPO_ROOT / "config" / "companies.yaml")
     parser.add_argument(
@@ -771,16 +948,30 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     settings = load_yaml(args.settings)
-    rows = extract_ticker(
-        args.ticker.upper(),
-        settings=settings,
-        companies_path=args.companies,
-        taxonomy_path=args.taxonomy,
-        supply_path=args.supply_terms,
-        out_path=args.out,
-        fetch_prior=not args.no_fetch_prior,
-    )
-    print(f"Wrote {len(rows)} signals to {args.out}")
+    if args.all or not args.ticker:
+        rows = extract_all(
+            settings=settings,
+            companies_path=args.companies,
+            taxonomy_path=args.taxonomy,
+            supply_path=args.supply_terms,
+            out_path=args.out,
+            fetch_prior=not args.no_fetch_prior,
+        )
+    else:
+        rows = extract_ticker(
+            args.ticker.upper(),
+            settings=settings,
+            companies_path=args.companies,
+            taxonomy_path=args.taxonomy,
+            supply_path=args.supply_terms,
+            out_path=None,
+            fetch_prior=not args.no_fetch_prior,
+            write=False,
+        )
+        # Merge into CSV so other companies' rows remain (append-only by signal_id).
+        write_signals_csv(args.out, rows, append=True)
+    total = len(read_signals_csv(args.out))
+    print(f"Extracted {len(rows)} signals this run; {total} total rows in {args.out}")
     return 0
 
 

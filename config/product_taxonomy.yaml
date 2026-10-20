@@ -60,11 +60,20 @@ categories:
       - memory expansion
       - CXL
     Memory_general:
-      # Prefer multi-word forms; bare "memory" is too noisy in 10-K prose.
+      # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
+      # Buyer filings often say "memory components" / "memory shortage".
       - memory and storage
       - semiconductor memory
+      - memory manufacturers
+      - memory manufacturer
+      - memory components
+      - memory component
+      - memory shortages
+      - memory shortage
       - memory products
       - memory solutions
       - memory technology
+      - memory capacity
       - memory supply
       - memory demand
+      - industry-wide memory
