@@ -8,6 +8,7 @@ data/*.db
 data/*.db-*
 data/part_master_cache/
 data/export_signals.csv
+# Keep Memory Signals raw caches in git for M1 verification; ignore local DBs only.
 *.log
 .DS_Store
 .pytest_cache/

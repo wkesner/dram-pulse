@@ -1,3 +1,36 @@
+# Memory Signals
+
+Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
+
+## Milestone 1 — Micron EDGAR 10-K
+
+Fetch Micron's latest 10-K from SEC EDGAR, cache it under `data/raw/`, and split Item 1 (Business), Item 1A (Risk Factors), and Item 7 (MD&A). Full plain text is kept as `other`.
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Required by SEC fair-access. Copy .env.example → .env or export directly:
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+
+python -m src.fetch_edgar --ticker MU
+```
+
+Cached files land in `data/raw/MU/<accession_no_dashes>/`:
+
+| file | contents |
+|------|----------|
+| `primary.html` | raw EDGAR primary document |
+| `item1_business.txt` | Item 1 |
+| `item1a_risk_factors.txt` | Item 1A |
+| `item7_mdna.txt` | Item 7 |
+| `other_full.txt` | full plain text |
+| `meta.json` | accession, filing date, source URL, paths |
+
+Config: `config/settings.yaml` (`lookback_months: 12`), `config/companies.yaml` (ticker `MU` only — CIK looked up at runtime).
+
+---
+
 # DRAM Signal Pipeline
 
 Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources are pulled into a local SQLite table of normalized records; a later classification step will tag demand-side vs supply-side. Collectors intentionally capture broadly at the source level — job collectors only apply the title keyword gate from the brief, not demand/supply labels.

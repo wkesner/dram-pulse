@@ -1,0 +1,7 @@
+# Companies for Memory Signals. CIKs / DART corp codes are looked up at runtime —
+# never hardcode them here.
+companies:
+  - name: Micron
+    role: supplier
+    source: EDGAR
+    ticker: MU

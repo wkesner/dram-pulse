@@ -1,0 +1,12 @@
+# Memory Signals runtime settings
+lookback_months: 12
+
+edgar:
+  # SEC fair-access: stay under 10 requests per second
+  max_requests_per_second: 10
+  company_tickers_url: "https://www.sec.gov/files/company_tickers.json"
+  submissions_url_template: "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+  archives_url_template: "https://www.sec.gov/Archives/edgar/data/{cik}/{accession_no_dashes}/{primary_document}"
+
+paths:
+  raw_dir: data/raw
