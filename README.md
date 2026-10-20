@@ -35,7 +35,7 @@ Rule-based extraction from cached Item 1 / 1A / 7 text. Term lists live in `conf
 
 ```bash
 export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
-# Fetches prior-year 10-K once (for repeat_of only; no signals extracted from it)
+# Fetches prior-year 10-K once (for carried_from_prior_year only; no signals extracted from it)
 python3 -m src.extract --ticker MU
 python3 -m src.verify
 ```
