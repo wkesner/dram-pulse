@@ -97,9 +97,9 @@ class ProductTerm:
 
 
 def _compile_term(term: str) -> re.Pattern[str]:
-    """Case-insensitive word-boundary match; allow flexible whitespace/hyphens."""
-    parts = re.split(r"[\s\-]+", term.strip())
-    body = r"[\s\-]+".join(re.escape(p) for p in parts if p)
+    """Case-insensitive word-boundary match; allow flexible whitespace/hyphens/commas."""
+    parts = re.split(r"[\s,\-]+", term.strip())
+    body = r"[\s,\-]+".join(re.escape(p) for p in parts if p)
     # Alphanumeric boundaries so "DRAM" does not match inside longer tokens,
     # while still allowing "HBM3E" and Korean terms.
     return re.compile(rf"(?<![A-Za-z0-9]){body}(?![A-Za-z0-9])", re.IGNORECASE)

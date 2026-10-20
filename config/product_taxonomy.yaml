@@ -61,19 +61,29 @@ categories:
       - CXL
     Memory_general:
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
-      # Buyer filings often say "memory components" / "memory shortage".
+      # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
       - semiconductor memory
       - memory manufacturers
       - memory manufacturer
+      - memory and other components
       - memory components
       - memory component
+      - memory and systems
+      - elevated memory
       - memory shortages
       - memory shortage
+      - purchased memory products
       - memory products
       - memory solutions
       - memory technology
       - memory capacity
+      - procurement of memory
+      - primarily memory
       - memory supply
       - memory demand
       - industry-wide memory
+      - affecting memory
+      - costs of memory
+      - price of memory
+      - prices in memory

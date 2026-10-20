@@ -3,6 +3,9 @@
 # Topic groups — first match in this order wins for the `topic` column.
 topics:
   availability:
+    - supply availability
+    - supply continuity
+    - supply commitments
     - shortage
     - constrained
     - allocation
@@ -17,6 +20,10 @@ topics:
     - average selling prices
     - selling prices
     - price increase
+    - price increases
+    - pricing increases
+    - rising prices
+    - elevated memory and systems prices
     - price decline
     - pricing
     - prices
@@ -51,8 +58,14 @@ direction:
     - exceeds supply
     - extended lead times
     - extended lead time
+    - elevated memory and systems prices
     - price increase
+    - price increases
+    - pricing increases
     - prices rising
+    - rising prices
+    - prices for data center buildouts higher
+    - drive the prices
     - undersupply
     - sold out
     - shortage
@@ -60,12 +73,14 @@ direction:
     - constrained supply
     - supply constraints
     - supply constraint
+    - supply availability affecting
     - constrained
     - allocation
     - tight supply
     - tightly supplied
     - outpacing
     - outpace
+    - outpaced supply
     - unable to increase supply
     - greater than our ability
     - greater than the industry
@@ -124,6 +139,7 @@ sentiment:
     - decline
     - declines
     - declined
+    - tempered
     # Avoid bare "risk"/"risks" — Item 1A repeats them constantly.
     - material risk
     - significant risk
