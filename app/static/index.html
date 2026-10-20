@@ -117,7 +117,11 @@
             aria-labelledby="tab-feed"
             class="main"
           >
-            <div class="empty">Feed cards arrive in Prompt 3.</div>
+            <div class="queue">
+              <span class="q-left">Loading signals…</span>
+              <span class="q-order">Unvoted first, newest last_seen first</span>
+            </div>
+            <article class="card" id="signal-card" aria-live="polite"></article>
           </section>
 
           <section
