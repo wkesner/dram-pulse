@@ -124,6 +124,10 @@
     }
     if (selected === $("#tab-feed")) renderCard();
     if (selected === $("#tab-families")) renderFamilies();
+    if (selected === $("#tab-map")) {
+      // Charts need a visible width; draw after layout.
+      requestAnimationFrame(() => renderMap());
+    }
   }
   function showTab(name) {
     const map = {
@@ -517,8 +521,262 @@
       });
   }
 
+  // --- Signal map (Prompt 5) ---
+  let leaveOutRisk = false;
+  let mapFamily = null; // product_family key or null
+
+  const zeroDirs = () => ({
+    tightening: { supplier: 0, buyer: 0 },
+    easing: { supplier: 0, buyer: 0 },
+  });
+
+  function signalsInMapView() {
+    return SIGNALS.filter((s) => {
+      if (leaveOutRisk && (s.section || "") === "risk_factors") return false;
+      if (mapFamily && s.product_family !== mapFamily) return false;
+      return true;
+    });
+  }
+
+  /** Flatten sightings for month chart; apply risk + family filters. */
+  function sightingsInMapView() {
+    const out = [];
+    for (const s of SIGNALS) {
+      if (mapFamily && s.product_family !== mapFamily) continue;
+      const list = s.sightings || [];
+      if (!list.length) {
+        // Fall back to signal row as one sighting
+        if (leaveOutRisk && (s.section || "") === "risk_factors") continue;
+        out.push({
+          filing_date: s.filing_date || s.last_seen || "",
+          section: s.section || "",
+          supply_direction: s.supply_direction || "",
+          company: s.company,
+          product_family: s.product_family,
+          role: s.role,
+        });
+        continue;
+      }
+      for (const x of list) {
+        if (leaveOutRisk && (x.section || "") === "risk_factors") continue;
+        out.push({
+          filing_date: x.filing_date || "",
+          section: x.section || "",
+          supply_direction: x.supply_direction || s.supply_direction || "",
+          company: s.company,
+          product_family: s.product_family,
+          role: s.role,
+        });
+      }
+    }
+    return out;
+  }
+
+  function lookbackMonths() {
+    const starts = SIGNALS.map((s) => s.window_start).filter(Boolean).sort();
+    const ends = SIGNALS.map((s) => s.window_end).filter(Boolean).sort();
+    if (!starts.length || !ends.length || !window.d3) return [];
+    const start = starts[0].slice(0, 7) + "-01T00:00:00Z";
+    const end = ends[ends.length - 1].slice(0, 7) + "-01T00:00:00Z";
+    return d3.utcMonth
+      .range(new Date(start), d3.utcMonth.offset(new Date(end), 1))
+      .map(d3.utcFormat("%Y-%m"));
+  }
+
+  function pickMapFamily(f) {
+    mapFamily = mapFamily === f ? null : f;
+    renderMap();
+  }
+
+  function renderMap() {
+    const ms = window.ms;
+    if (!ms || !window.d3) return;
+    const root = $("#signal-map");
+    if (!root || root.closest("[hidden]")) return;
+
+    const view = signalsInMapView();
+    const tightening = view.filter((s) => s.supply_direction === "tightening").length;
+    const easing = view.filter((s) => s.supply_direction === "easing").length;
+    const companies = new Set(view.map((s) => s.company)).size;
+    const tightPct = view.length ? Math.round((100 * tightening) / view.length) : 0;
+
+    const setText = (id, text) => {
+      const n = document.getElementById(id);
+      if (n) n.textContent = text;
+    };
+    setText("ms-v-signals", ms.fmt(view.length));
+    setText("ms-v-tightening", ms.fmt(tightening));
+    setText("ms-v-easing", ms.fmt(easing));
+    setText("ms-v-companies", ms.fmt(companies));
+    setText("ms-v-tight-pct", String(tightPct));
+    setText("ms-t-tight", ms.fmt(tightening));
+    setText("ms-t-all", ms.fmt(view.length));
+    setText(
+      "ms-t-fam",
+      mapFamily ? ` for ${ms.label(mapFamily)}` : ""
+    );
+    setText(
+      "ms-scope",
+      mapFamily ? ms.label(mapFamily) : "All families"
+    );
+
+    const repBtn = $("#toggle-reported");
+    if (repBtn) repBtn.setAttribute("aria-pressed", String(leaveOutRisk));
+    const picked = $("#picked-family");
+    if (picked) {
+      picked.hidden = !mapFamily;
+      picked.textContent = mapFamily ? `${ms.label(mapFamily)} ×` : "";
+      picked.setAttribute(
+        "aria-label",
+        mapFamily
+          ? `Clear family filter ${ms.label(mapFamily)}`
+          : "Clear family filter"
+      );
+    }
+
+    // Family chart — always show all families in current risk-filter (dim non-selected)
+    const famSource = SIGNALS.filter(
+      (s) => !(leaveOutRisk && (s.section || "") === "risk_factors")
+    );
+    const fams = new Map();
+    for (const s of famSource) {
+      const key = s.product_family || "(unknown)";
+      if (!fams.has(key)) {
+        fams.set(key, {
+          key,
+          category: s.product_category || "",
+          ...zeroDirs(),
+        });
+      }
+      const dir = s.supply_direction;
+      const role = (s.role || "").toLowerCase();
+      if ((dir === "tightening" || dir === "easing") && (role === "supplier" || role === "buyer")) {
+        fams.get(key)[dir][role] += 1;
+      }
+    }
+    const famTotal = (d) =>
+      d.tightening.supplier +
+      d.tightening.buyer +
+      d.easing.supplier +
+      d.easing.buyer;
+    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const famRows = [...fams.values()]
+      .map((d) => ({
+        ...d,
+        label: ms.label(d.key),
+        sub: d.category === "Other" ? "No family named" : d.category,
+        tipHead: `${ms.label(d.key)} (${d.category})`,
+      }))
+      .sort(
+        (a, b) =>
+          (CAT[a.category] ?? 9) - (CAT[b.category] ?? 9) ||
+          Number(a.key.endsWith("_general")) - Number(b.key.endsWith("_general")) ||
+          famTotal(b) - famTotal(a)
+      );
+    ms.bars($("#family-chart"), famRows, {
+      selected: mapFamily,
+      onClick: pickMapFamily,
+    });
+
+    // Month chart — sightings
+    const months = lookbackMonths();
+    const counts = new Map(months.map((m) => [m, { tightening: 0, easing: 0 }]));
+    let monthTotal = 0;
+    for (const x of sightingsInMapView()) {
+      const m = (x.filing_date || "").slice(0, 7);
+      if (!counts.has(m)) continue;
+      const dir = x.supply_direction;
+      if (dir !== "tightening" && dir !== "easing") continue;
+      counts.get(m)[dir] += 1;
+      monthTotal += 1;
+    }
+    ms.months($("#month-chart"), months, counts);
+    // Stash for Prompt 5 checks
+    root.dataset.monthTotal = String(monthTotal);
+    root.dataset.signals = String(view.length);
+    root.dataset.tightening = String(tightening);
+    root.dataset.easing = String(easing);
+    root.dataset.companies = String(companies);
+
+    // Company chart
+    const cos = new Map();
+    for (const s of view) {
+      const key = s.company || "(unknown)";
+      if (!cos.has(key)) {
+        cos.set(key, {
+          key,
+          role: (s.role || "").toLowerCase(),
+          ...zeroDirs(),
+        });
+      }
+      const dir = s.supply_direction;
+      const role = (s.role || "").toLowerCase();
+      if ((dir === "tightening" || dir === "easing") && (role === "supplier" || role === "buyer")) {
+        cos.get(key)[dir][role] += 1;
+      }
+    }
+    const coTotal = (d) =>
+      d.tightening.supplier +
+      d.tightening.buyer +
+      d.easing.supplier +
+      d.easing.buyer;
+    const coRows = [...cos.values()]
+      .map((d) => ({
+        ...d,
+        label: d.key,
+        sub: d.role === "supplier" ? "Supplier" : "Buyer",
+      }))
+      .sort(
+        (a, b) =>
+          (a.role === "supplier" ? 0 : 1) - (b.role === "supplier" ? 0 : 1) ||
+          coTotal(b) - coTotal(a)
+      );
+    const companyEl = $("#company-chart");
+    if (!coRows.length) {
+      companyEl.replaceChildren();
+      companyEl.append(el("div", "ms-empty", "No signals in this view."));
+    } else {
+      ms.bars(companyEl, coRows, {});
+    }
+  }
+
+  const repBtn = $("#toggle-reported");
+  if (repBtn) {
+    repBtn.addEventListener("click", () => {
+      leaveOutRisk = !leaveOutRisk;
+      renderMap();
+    });
+  }
+  const pickedBtn = $("#picked-family");
+  if (pickedBtn) {
+    pickedBtn.addEventListener("click", () => {
+      mapFamily = null;
+      renderMap();
+    });
+  }
+  window.addEventListener("resize", () => {
+    if (!$("#view-map")?.hidden) renderMap();
+  });
+
   // Expose helpers for checks / debugging
-  window.__ms = { fragment, latest, highlight, label, renderFamilies, showTab };
+  window.__ms = {
+    fragment,
+    latest,
+    highlight,
+    label,
+    renderFamilies,
+    renderMap,
+    showTab,
+    getMapState: () => ({
+      leaveOutRisk,
+      mapFamily,
+      monthTotal: Number($("#signal-map")?.dataset.monthTotal || 0),
+      signals: Number($("#signal-map")?.dataset.signals || 0),
+      tightening: Number($("#signal-map")?.dataset.tightening || 0),
+      easing: Number($("#signal-map")?.dataset.easing || 0),
+      companies: Number($("#signal-map")?.dataset.companies || 0),
+    }),
+  };
 
   (async () => {
     try {
@@ -527,6 +785,7 @@
       renderCard();
       renderFamilies();
       if (location.hash === "#families") showTab("families");
+      else if (location.hash === "#map") showTab("map");
     } catch (err) {
       console.error(err);
       const card = $("#signal-card");
@@ -538,4 +797,5 @@
     }
   })();
 })();
+
 

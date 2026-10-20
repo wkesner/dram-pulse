@@ -4,17 +4,25 @@
 :root {
   --bg: #f3f5f6; --panel: #ffffff; --ink: #172026; --muted: #5a6872; --line: #d9dfe3;
   --accent: #0f5f63; --accent-ink: #ffffff; --tight: #b4362c; --tight-soft: #f7e3e0; --ease: #2a5fa8; --ease-soft: #e1eaf7;
+  --tight-2: #d98982; --ease-2: #8eb4e0;
   --mark: #fbe9a6; --banner: #e6eef0;
+  --chart-baseline: #9aa6ad; --chart-grid: #e4e9ec;
   --f-display: "Newsreader", Georgia, serif; --f-body: "Public Sans", system-ui, sans-serif; --f-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0f1518; --panel: #172024; --ink: #e5ebee; --muted: #94a3ac; --line: #2a363c;
   --accent: #5cc2c4; --accent-ink: #0b1a1c; --tight: #ef7e72; --tight-soft: #3a1f1c; --ease: #80aef0; --ease-soft: #1b2a40;
-  --mark: #5a4b12; --banner: #1a2a2e; color-scheme: dark; } }
+  --tight-2: #c45f56; --ease-2: #a8c6f0;
+  --mark: #5a4b12; --banner: #1a2a2e;
+  --chart-baseline: #5a6870; --chart-grid: #243038;
+  color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #0f1518; --panel: #172024; --ink: #e5ebee; --muted: #94a3ac; --line: #2a363c;
   --accent: #5cc2c4; --accent-ink: #0b1a1c; --tight: #ef7e72; --tight-soft: #3a1f1c; --ease: #80aef0; --ease-soft: #1b2a40;
-  --mark: #5a4b12; --banner: #1a2a2e; color-scheme: dark; }
+  --tight-2: #c45f56; --ease-2: #a8c6f0;
+  --mark: #5a4b12; --banner: #1a2a2e;
+  --chart-baseline: #5a6870; --chart-grid: #243038;
+  color-scheme: dark; }
 
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -376,4 +384,194 @@ td.mono {
 @media (max-width: 760px) {
   .user { margin-left: 0; width: 100%; }
   #user-name { flex: 1; width: auto; }
+}
+
+/* --- Signal map (Prompt 5) --- */
+.ms {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
+.ms-head {
+  display: grid;
+  gap: 4px;
+}
+.ms-head h1 {
+  margin: 0;
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+}
+.ms-take {
+  margin: 0;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.ms-take b {
+  color: var(--ink);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.ms-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.ms-toggle,
+.ms-picked {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  cursor: pointer;
+}
+.ms-toggle[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+.ms-hint {
+  color: var(--muted);
+  font-size: 13px;
+}
+.ms-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: 12px;
+}
+.ms-tile,
+.ms-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  min-width: 0;
+}
+.ms-tile {
+  display: grid;
+  gap: 4px;
+  align-content: start;
+}
+.ms-tile-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+.ms-tile-value {
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: 26px;
+  font-variant-numeric: tabular-nums;
+  min-height: 1.2em;
+}
+.ms-tile-sub {
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.ms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  gap: 12px;
+}
+.ms-card {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+.ms-card h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.ms-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.ms-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.ms-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.ms-legend i {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.ms-chart {
+  position: relative;
+  min-height: 120px;
+}
+.ms-chart svg {
+  display: block;
+  overflow: visible;
+}
+.ms-tick {
+  fill: var(--muted);
+  font-size: 12px;
+  font-family: var(--f-body);
+}
+.ms-lab {
+  fill: var(--ink);
+  font-size: 12px;
+  font-family: var(--f-body);
+}
+.ms-val {
+  fill: var(--muted);
+  font-size: 12px;
+  font-family: var(--f-body);
+  font-variant-numeric: tabular-nums;
+}
+.ms-hit {
+  cursor: pointer;
+}
+.ms-tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(15, 30, 40, 0.12);
+  padding: 6px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 2;
+  color: var(--ink);
+}
+.ms-tip .h {
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.ms-tip .l {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.ms-tip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.ms-empty {
+  color: var(--muted);
+  padding: 12px 0;
+  font-size: 13px;
 }
