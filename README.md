@@ -62,7 +62,7 @@ The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/
 pip install -r requirements.txt
 uvicorn app.server:app --reload --port 8000
 # open http://localhost:8000/  (static placeholder until Prompt 2+)
-# API: GET /api/signals  GET /api/votes?user=NAME  POST /api/votes
+# API: GET /api/signals  GET /api/meta  GET /api/votes?user=NAME  POST /api/votes
 ```
 
 Legacy Streamlit prototype (optional): `streamlit run app.py`.
