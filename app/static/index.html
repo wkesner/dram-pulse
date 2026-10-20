@@ -2,10 +2,152 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Memory Signals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <p>Memory Signals feed (placeholder — Prompt 2 will replace this).</p>
-    <p>API: <a href="/api/signals">/api/signals</a></p>
+    <div class="app">
+      <header class="top">
+        <h1>Memory signals</h1>
+        <div class="tabs" role="tablist" aria-label="Views">
+          <button
+            class="tab"
+            role="tab"
+            id="tab-feed"
+            aria-selected="true"
+            aria-controls="view-feed"
+            type="button"
+          >
+            Feed
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-map"
+            aria-selected="false"
+            aria-controls="view-map"
+            type="button"
+          >
+            Signal map
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-families"
+            aria-selected="false"
+            aria-controls="view-families"
+            type="button"
+          >
+            Families
+          </button>
+        </div>
+        <label class="user" for="user-name"
+          >Voting as
+          <input
+            id="user-name"
+            type="text"
+            placeholder="Your name"
+            autocomplete="off"
+          />
+        </label>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          title="Toggle light / dark theme"
+        >
+          Theme
+        </button>
+      </header>
+
+      <div class="layout">
+        <aside class="rail" aria-label="Filters">
+          <label for="f-category"
+            >Category
+            <select id="f-category">
+              <option value="">All categories</option>
+            </select>
+          </label>
+          <label for="f-family"
+            >Product family
+            <select id="f-family">
+              <option value="">All families</option>
+            </select>
+          </label>
+          <label for="f-direction"
+            >Supply direction
+            <select id="f-direction">
+              <option value="">Any direction</option>
+            </select>
+          </label>
+          <label for="f-company"
+            >Company
+            <select id="f-company">
+              <option value="">All companies</option>
+            </select>
+          </label>
+          <label for="f-role"
+            >Role
+            <select id="f-role">
+              <option value="">Suppliers and buyers</option>
+            </select>
+          </label>
+          <label for="f-section"
+            >Section
+            <select id="f-section">
+              <option value="">All sections</option>
+            </select>
+          </label>
+          <button class="clear" id="clear-filters" type="button">
+            Clear filters
+          </button>
+        </aside>
+
+        <main class="main">
+          <section
+            id="view-feed"
+            role="tabpanel"
+            aria-labelledby="tab-feed"
+            class="main"
+          >
+            <div class="empty">Feed cards arrive in Prompt 3.</div>
+          </section>
+
+          <section
+            id="view-map"
+            role="tabpanel"
+            aria-labelledby="tab-map"
+            class="panel"
+            hidden
+          >
+            <h2>Signal map</h2>
+            <p class="empty" style="padding: 16px 0; margin: 0">
+              Charts arrive in Prompt 5.
+            </p>
+          </section>
+
+          <section
+            id="view-families"
+            role="tabpanel"
+            aria-labelledby="tab-families"
+            class="panel"
+            hidden
+          >
+            <h2>Families</h2>
+            <p class="empty" style="padding: 16px 0; margin: 0">
+              Family table arrives in Prompt 4.
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="/app.js"></script>
   </body>
 </html>
