@@ -184,8 +184,9 @@ Votes are a separate file so several users never overwrite the signals file, and
 
 ## Feed UI
 
-- Built with Streamlit (`app.py`), run locally.
-- Sidebar: user name (required before voting), plus filters for product category, product family, supply direction, company, role and source.
+- Built with **FastAPI** (`app/server.py`) plus static HTML under `app/static/` (not Streamlit). Design references live in `docs/design/`. See `docs/FEED-BUILD.md` for the build sequence.
+- API: `GET /api/signals` (each signal with its sightings list and vote tallies), `GET /api/votes?user=NAME`, `POST /api/votes` (append-only; file-locked). Votes: latest row per (user, signal) wins.
+- Sidebar / filter rail: user name (required before voting), plus filters for product category, product family, supply direction, company, role and source.
 - Main area: one card at a time showing company and role, form, date, product family, supply direction, sentiment, the excerpt with matched terms highlighted, and a link to the source. A line reading "Seen in N filings, latest YYYY-MM-DD" expands into the list of sightings, each linked to its filing. Buttons: 👍, 👎, Skip.
 - Order: signals this user hasn't voted on first, then newest `last_seen` first.
 - Each vote is appended to `votes.csv` immediately. The card shows the running 👍/👎 counts from all users.
@@ -196,7 +197,8 @@ Votes are a separate file so several users never overwrite the signals file, and
 ```
 config/settings.yaml  companies.yaml  product_taxonomy.yaml  supply_terms.yaml  ir_documents.yaml
 src/fetch_edgar.py  fetch_dart.py  fetch_ir.py  sections.py  extract.py  dedupe.py  verify.py
-app.py
+app/server.py  app/static/
+docs/design/  docs/FEED-BUILD.md
 DEDUPE.md
 data/raw/  data/signals.csv  data/sightings.csv  data/votes.csv
 fixtures/signals_v010.csv
@@ -219,3 +221,4 @@ tests/
 - 2026-10-20: Lookback is 12 months for all filing types, recorded on every CSV row.
 - 2026-10-20: A signal is positive or negative supply sentiment about a memory product or family (definition above).
 - 2026-10-20: De-dupe per DEDUPE.md — stable `signal_id`, append-only `sightings.csv`, rebuild `signals.csv`; extractor 0.2.0. M4 proof votes cleared (old IDs obsolete).
+- 2026-10-20: Feed UI moves from Streamlit to FastAPI + static HTML (`app/server.py`); Streamlit `app.py` kept as a legacy reference until the new UI is complete.

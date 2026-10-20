@@ -1,0 +1,640 @@
+<style>
+  /* Layout: header + takeaway, filter row, headline tiles, family and month charts side by side, company chart, data notes, signal table. */
+  .ms { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .ms-head { display: grid; gap: var(--cds-gap-xs); }
+  .ms-head h1 { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); text-wrap: balance; }
+  .ms-take { margin: 0; max-width: 72ch; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); line-height: 1.5; }
+  .ms .ms-take b { color: var(--color-fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ms-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .ms-toggle, .ms-picked { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); cursor: pointer; }
+  .ms-toggle[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
+  .ms-toggle:focus-visible, .ms-picked:focus-visible, .ms-search:focus-visible, .ms-ex:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ms-hint { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ms-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); }
+  .ms-tile, .ms-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .ms-tile { display: grid; gap: var(--cds-gap-xs); align-content: start; }
+  .ms-tile-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ms-tile-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; min-height: 1.2em; }
+  .ms-tile-sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+  .ms-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+  .ms-card { display: grid; gap: var(--cds-gap-sm); align-content: start; }
+  .ms-card h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .ms-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.45; }
+  .ms-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ms-legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .ms-legend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .ms-chart { position: relative; min-height: 120px; }
+  .ms-chart svg { display: block; overflow: visible; }
+  .ms-tick { fill: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+  .ms-lab { fill: var(--color-fg); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); }
+  .ms-val { fill: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-family: var(--font-anthropic-sans); font-variant-numeric: tabular-nums; }
+  .ms-hit { cursor: pointer; }
+  .ms-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .ms-tip .h { color: var(--cds-text-secondary); margin-bottom: 2px; }
+  .ms-tip .l { display: flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
+  .ms-tip i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+  .ms-fail { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ms-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  .ms-notes { margin: 0; padding-left: 1.1em; display: grid; gap: var(--cds-gap-xs); font-size: var(--cds-font-size-body); line-height: 1.5; max-width: 80ch; }
+  .ms .ms-notes b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ms-search { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); width: min(100%, 22rem); }
+  .ms-tablebox { max-height: 34rem; overflow: auto; border-top: 1px solid var(--color-border-line); }
+  .ms-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); }
+  .ms-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .ms-table td { padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ms-table td.n { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .ms-table a { color: var(--color-fg); }
+  .ms-ex { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; min-width: 16rem; line-height: 1.45; }
+  .ms-ex.open { display: block; -webkit-line-clamp: unset; }
+  .ms-chip { display: inline-block; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; }
+  .ms-chip.tightening { color: var(--cds-chart-diverging-7); }
+  .ms-chip.easing { color: var(--cds-chart-diverging-1); }
+  .ms-copy { font: inherit; font-size: var(--cds-font-size-caption); padding: 2px 10px; border-radius: 999px; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg); cursor: pointer; white-space: nowrap; }
+  .ms-copy.done { background: var(--color-fg); color: var(--color-bg); }
+  .ms-copy:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ms-empty { color: var(--color-fg-muted); padding: var(--cds-pad-md) 0; font-size: var(--cds-font-size-caption); }
+  @media (max-width: 40rem) { .ms-hide-narrow { display: none; } }
+</style>
+
+<div class="ms">
+  <header class="ms-head" id="top">
+    <h1>Memory signal map</h1>
+    <p class="ms-take" id="takeaway">
+      <span class="ms-take-a"><b class="ms-t-tight dash-skeleton" data-source="views" data-field="tightening">—</b> of <b class="ms-t-all" data-source="views" data-field="signals">—</b> signals in this view point to tightening supply<span class="ms-t-fam"></span>.</span>
+      Micron accounts for <b data-source="notes" data-field="easing_micron">—</b> of the <b data-source="notes" data-field="easing_total">—</b> easing signals, and <b data-source="notes" data-field="easing_risk">—</b> of those come from risk-factor language rather than reported results.
+    </p>
+  </header>
+
+  <div class="ms-controls" id="controls">
+    <button class="ms-toggle ms-once" type="button" id="toggle-once" aria-pressed="false">Count each passage once</button>
+    <button class="ms-toggle ms-reported" type="button" id="toggle-reported" aria-pressed="false">Leave out risk factors</button>
+    <button class="ms-picked" type="button" id="picked-family" hidden></button>
+    <span class="ms-hint">Click a product family to filter every card.</span>
+  </div>
+
+  <section class="ms-tiles" id="headline">
+    <div class="ms-tile">
+      <div class="ms-tile-label">Signals</div>
+      <div class="ms-tile-value dash-skeleton ms-v" data-source="views" data-field="signals">—</div>
+      <div class="ms-tile-sub ms-scope">All families</div>
+    </div>
+    <div class="ms-tile">
+      <div class="ms-tile-label">Point to tightening supply</div>
+      <div class="ms-tile-value dash-skeleton ms-v" data-source="views" data-field="tightening">—</div>
+      <div class="ms-tile-sub"><span class="ms-v" data-source="views" data-field="tight_pct">—</span>% of signals</div>
+    </div>
+    <div class="ms-tile">
+      <div class="ms-tile-label">Point to easing supply</div>
+      <div class="ms-tile-value dash-skeleton ms-v" data-source="views" data-field="easing">—</div>
+      <div class="ms-tile-sub">Oversupply, falling prices</div>
+    </div>
+    <div class="ms-tile">
+      <div class="ms-tile-label">Companies saying it</div>
+      <div class="ms-tile-value dash-skeleton ms-v" data-source="views" data-field="companies">—</div>
+      <div class="ms-tile-sub">Suppliers and buyers</div>
+    </div>
+  </section>
+
+  <div class="ms-grid">
+    <section class="ms-card" id="by-family">
+      <h2>Supply direction by product family</h2>
+      <p class="ms-note">Signals per family. Bars to the right point to tightening supply, bars to the left to easing. Darker segments come from memory suppliers, lighter ones from buyers.</p>
+      <div class="ms-legend">
+        <span><i style="background: var(--cds-chart-diverging-7)"></i>Tightening, supplier</span>
+        <span><i style="background: var(--cds-chart-diverging-6)"></i>Tightening, buyer</span>
+        <span><i style="background: var(--cds-chart-diverging-1)"></i>Easing, supplier</span>
+        <span><i style="background: var(--cds-chart-diverging-2)"></i>Easing, buyer</span>
+      </div>
+      <div class="ms-chart ms-family-chart dash-skeleton" id="family-chart" data-source="by_family"></div>
+    </section>
+
+    <section class="ms-card" id="by-month">
+      <h2>Signals by filing month</h2>
+      <p class="ms-note">Tightening above the line, easing below. Counts follow filing calendars: Micron's reports land in December, March, June and October, so those months run tall.</p>
+      <div class="ms-legend">
+        <span><i style="background: var(--cds-chart-diverging-7)"></i>Tightening</span>
+        <span><i style="background: var(--cds-chart-diverging-1)"></i>Easing</span>
+      </div>
+      <div class="ms-chart ms-month-chart dash-skeleton" id="month-chart" data-source="by_month notes"></div>
+    </section>
+  </div>
+
+  <section class="ms-card" id="by-company">
+    <h2>Who is saying it</h2>
+    <p class="ms-note">The same split per company, so you can see whether a family's picture rests on one filer.</p>
+    <div class="ms-chart ms-company-chart dash-skeleton" id="company-chart" data-source="by_company"></div>
+  </section>
+
+  <section class="ms-card" id="data-notes">
+    <h2>What to know about this data</h2>
+    <ul class="ms-notes">
+      <li><b data-source="notes" data-field="missing">—</b> have no rows yet. Every row comes from <b data-source="notes" data-field="sources">—</b>, so DART filings are not in this file.</li>
+      <li><b data-source="notes" data-field="general_rows">—</b> of <b data-source="notes" data-field="total">—</b> signals name memory only in general, so they can't point a salesperson to a family yet. Buyers name a specific family in <b data-source="notes" data-field="buyer_specific">—</b> of their <b data-source="notes" data-field="buyer_rows">—</b> signals.</li>
+      <li><b data-source="notes" data-field="dup_rows">—</b> rows repeat a passage already logged from an earlier filing by the same company for the same family, mostly risk factors carried from one quarterly report to the next. "Count each passage once" drops them.</li>
+      <li><b data-source="notes" data-field="repeat_rows">—</b> rows are marked as repeating last year's text. <b data-source="notes" data-field="repeat_in_file">—</b> of the signals they point to are in this file, because last year's filings are only used for that comparison.</li>
+      <li><b data-source="notes" data-field="conflict_rows">—</b> rows had tightening and easing words in the same passage and are flagged for review.</li>
+    </ul>
+  </section>
+
+  <section class="ms-card" id="signals">
+    <h2>The signals</h2>
+    <p class="ms-note">Newest filing first. Click an excerpt to read all of it, or a date to open the filing on SEC.gov at that passage.</p>
+    <input class="ms-search" id="signal-search" type="search" placeholder="Search excerpts and companies" aria-label="Search signals">
+    <div class="ms-tablebox" data-source="in_view">
+      <table class="ms-table" id="signal-table" data-source="signals" data-row-key="signal_id">
+        <thead><tr>
+          <th data-field="filing_date">Filed</th>
+          <th data-field="company">Company</th>
+          <th data-field="product_family">Family</th>
+          <th data-field="supply_direction">Direction</th>
+          <th data-field="sentiment" class="ms-hide-narrow">Tone</th>
+          <th data-field="section" class="ms-hide-narrow">Section</th>
+          <th data-field="excerpt">Excerpt</th>
+        </tr></thead>
+        <tbody class="ms-tbody"></tbody>
+      </table>
+      <div class="ms-empty" hidden>No signals match.</div>
+    </div>
+  </section>
+</div>
+
+<script>
+  dash.calc('tagged', {
+    inputs: ['signals'],
+    title: 'Signals with repeat flags',
+    description: 'Each signal, flagged where it is the first time its passage appears for that company and family (earliest filing), and where it comes from risk factors.',
+    fn: (signals) => {
+      const key = (r) => [r.company, r.product_family, r.excerpt.toLowerCase().replace(/\W+/g, ' ').trim()].join('|');
+      const first = new Map();
+      [...signals]
+        .sort((a, b) => a.filing_date.localeCompare(b.filing_date) || a.signal_id.localeCompare(b.signal_id))
+        .forEach((r) => { if (!first.has(key(r))) first.set(key(r), r.signal_id); });
+      return signals.map((r) => ({
+        signal_id: r.signal_id, company: r.company, role: r.role, family: r.product_family,
+        category: r.product_category, direction: r.supply_direction, section: r.section,
+        month: r.filing_date.slice(0, 7), first_seen: first.get(key(r)) === r.signal_id,
+        risk_factor: r.section === 'risk_factors',
+      }));
+    },
+  });
+
+  dash.calc('in_view', {
+    inputs: ['tagged'],
+    title: 'Signals in each view',
+    description: 'Each signal listed once per view it belongs to: all rows, each passage once, without risk factors, or both.',
+    fn: (tagged) => {
+      const VIEWS = { all: () => true, once: (r) => r.first_seen, reported: (r) => !r.risk_factor, reported_once: (r) => r.first_seen && !r.risk_factor };
+      return Object.entries(VIEWS).flatMap(([view, keep]) => tagged.filter(keep).map((r) => ({ view, ...r })));
+    },
+  });
+
+  dash.calc('views', {
+    inputs: ['in_view'],
+    title: 'Totals per view and family',
+    description: 'Signal, tightening and easing counts and the number of companies, for each view and each product family (All is every family).',
+    fn: (in_view) => {
+      const fams = ['All', ...new Set(in_view.map((r) => r.family))];
+      const out = [];
+      for (const view of ['all', 'once', 'reported', 'reported_once']) {
+        for (const family of fams) {
+          const rs = in_view.filter((r) => r.view === view && (family === 'All' || r.family === family));
+          const tightening = rs.filter((r) => r.direction === 'tightening').length;
+          out.push({
+            view, family, signals: rs.length, tightening,
+            easing: rs.filter((r) => r.direction === 'easing').length,
+            tight_pct: rs.length ? Math.round((100 * tightening) / rs.length) : null,
+            companies: new Set(rs.map((r) => r.company)).size,
+          });
+        }
+      }
+      return out;
+    },
+  });
+
+  dash.calc('by_family', {
+    inputs: ['in_view'],
+    title: 'Counts by family, role and direction',
+    description: 'Signals per view, product family, filer role and supply direction.',
+    fn: (in_view) => {
+      const m = new Map();
+      for (const r of in_view) {
+        const k = [r.view, r.category, r.family, r.role, r.direction].join('|');
+        m.set(k, (m.get(k) || 0) + 1);
+      }
+      return [...m].map(([k, n]) => {
+        const [view, category, family, role, direction] = k.split('|');
+        return { view, category, family, role, direction, n };
+      });
+    },
+  });
+
+  dash.calc('by_month', {
+    inputs: ['in_view'],
+    title: 'Counts by filing month',
+    description: 'Signals per view, product family (All is every family), filing month and supply direction.',
+    fn: (in_view) => {
+      const m = new Map();
+      for (const r of in_view) {
+        for (const family of ['All', r.family]) {
+          const k = [r.view, family, r.month, r.direction].join('|');
+          m.set(k, (m.get(k) || 0) + 1);
+        }
+      }
+      return [...m].map(([k, n]) => {
+        const [view, family, month, direction] = k.split('|');
+        return { view, family, month, direction, n };
+      });
+    },
+  });
+
+  dash.calc('by_company', {
+    inputs: ['in_view'],
+    title: 'Counts by company',
+    description: 'Signals per view, product family (All is every family), company, role and supply direction.',
+    fn: (in_view) => {
+      const m = new Map();
+      for (const r of in_view) {
+        for (const family of ['All', r.family]) {
+          const k = [r.view, family, r.company, r.role, r.direction].join('|');
+          m.set(k, (m.get(k) || 0) + 1);
+        }
+      }
+      return [...m].map(([k, n]) => {
+        const [view, family, company, role, direction] = k.split('|');
+        return { view, family, company, role, direction, n };
+      });
+    },
+  });
+
+  dash.calc('notes', {
+    inputs: ['signals', 'tagged'],
+    title: 'Data coverage notes',
+    description: 'Facts about the whole file: which chosen companies have no rows, sources, general-memory rows, repeats and flagged rows. The company list is the 13 chosen on 2026-10-20.',
+    fn: (signals, tagged) => {
+      const CHOSEN = ['Micron', 'SK hynix', 'Samsung', 'Apple', 'Dell', 'HP Inc.', 'HPE', 'Super Micro', 'Cisco', 'Jabil', 'Nvidia', 'AMD', 'Qualcomm'];
+      const present = new Set(signals.map((r) => r.company));
+      const ids = new Set(signals.map((r) => r.signal_id));
+      const easing = signals.filter((r) => r.supply_direction === 'easing');
+      const buyers = signals.filter((r) => r.role === 'buyer');
+      return [{
+        total: signals.length,
+        missing: CHOSEN.filter((c) => !present.has(c)).join(' and ') || 'None of the chosen companies',
+        sources: [...new Set(signals.map((r) => r.source))].join(', '),
+        general_rows: signals.filter((r) => r.product_family === 'Memory_general').length,
+        buyer_rows: buyers.length,
+        buyer_specific: buyers.filter((r) => r.product_family !== 'Memory_general').length,
+        easing_total: easing.length,
+        easing_micron: easing.filter((r) => r.company === 'Micron').length,
+        easing_risk: easing.filter((r) => r.section === 'risk_factors').length,
+        dup_rows: tagged.filter((r) => !r.first_seen).length,
+        repeat_rows: signals.filter((r) => r.repeat_of).length,
+        repeat_in_file: signals.filter((r) => r.repeat_of && ids.has(r.repeat_of)).length,
+        conflict_rows: signals.filter((r) => r.direction_conflict === 'true').length,
+        window_start: signals[0] ? signals[0].window_start : null,
+        window_end: signals[0] ? signals[0].window_end : null,
+      }];
+    },
+  });
+
+  window.ms = {
+    fmt: d3.format(','),
+    COL: {
+      tightening: { supplier: 'var(--cds-chart-diverging-7)', buyer: 'var(--cds-chart-diverging-6)' },
+      easing: { supplier: 'var(--cds-chart-diverging-1)', buyer: 'var(--cds-chart-diverging-2)' },
+    },
+    view: () => {
+      const p = dash.params();
+      return p.once && p.reported ? 'reported_once' : p.once ? 'once' : p.reported ? 'reported' : 'all';
+    },
+    family: () => dash.params().family || 'All',
+    label: (f) => f.replace(/_/g, ' '),
+    // Draws a failure line or keeps the skeleton until every source is ok.
+    ready: (el, ids) => {
+      const st = ids.map((id) => dash.data(id).status);
+      if (st.every((s) => s === 'ok')) { el.classList.remove('dash-skeleton'); return true; }
+      if (st.some((s) => s === 'error')) {
+        el.classList.remove('dash-skeleton');
+        const f = document.createElement('div');
+        f.className = 'ms-fail';
+        f.textContent = 'Failed to load';
+        el.replaceChildren(f);
+      } else {
+        el.classList.add('dash-skeleton');
+        el.replaceChildren();
+      }
+      return false;
+    },
+    tip: (el) => {
+      let t = el.querySelector('.ms-tip');
+      if (!t) { t = document.createElement('div'); t.className = 'ms-tip'; t.hidden = true; el.appendChild(t); }
+      return {
+        show: (event, head, lines) => {
+          t.replaceChildren();
+          const h = document.createElement('div'); h.className = 'h'; h.textContent = head; t.appendChild(h);
+          for (const [color, text] of lines) {
+            const l = document.createElement('div'); l.className = 'l';
+            const i = document.createElement('i'); i.style.background = color;
+            const s = document.createElement('span'); s.textContent = text;
+            l.append(i, s); t.appendChild(l);
+          }
+          t.hidden = false;
+          const box = el.getBoundingClientRect();
+          const x = event.clientX - box.left, y = event.clientY - box.top;
+          const w = t.offsetWidth, hgt = t.offsetHeight;
+          t.style.left = Math.max(0, Math.min(box.width - w, x + 12)) + 'px';
+          t.style.top = Math.max(0, y - hgt - 10) + 'px';
+        },
+        hide: () => { t.hidden = true; },
+      };
+    },
+  };
+
+  // Diverging horizontal bars: easing to the left of zero, tightening to the right, each split supplier then buyer.
+  ms.bars = (el, rows, opts) => {
+    const W = el.clientWidth;
+    if (!W) return;
+    el.replaceChildren();
+    const rowH = 30, barH = 16, top = 24;
+    const H = top + rows.length * rowH + 4;
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    const measure = (texts, cls) => {
+      const g = svg.append('g');
+      let w = 0;
+      g.selectAll('text').data(texts).join('text').attr('class', cls).text((d) => d)
+        .each(function () { w = Math.max(w, this.getComputedTextLength()); });
+      g.remove();
+      return w;
+    };
+    const labW = measure(rows.map((d) => d.label), 'ms-lab');
+    const subW = measure(rows.map((d) => d.sub || ''), 'ms-tick');
+    const left = Math.max(labW, subW) + 12;
+    const sum = (o) => o.supplier + o.buyer;
+    const maxT = Math.max(1, d3.max(rows, (d) => sum(d.tightening)) || 0);
+    const maxE = Math.max(1, d3.max(rows, (d) => sum(d.easing)) || 0);
+    const numW = measure([ms.fmt(Math.max(maxT, maxE))], 'ms-val') + 8;
+    const x = d3.scaleLinear([-maxE, maxT], [left + numW, W - numW]);
+    const tip = ms.tip(el);
+
+    svg.append('text').attr('class', 'ms-tick').attr('x', x(0) - 6).attr('y', 12).attr('text-anchor', 'end').text('← Easing');
+    svg.append('text').attr('class', 'ms-tick').attr('x', x(0) + 6).attr('y', 12).text('Tightening →');
+
+    const g = svg.selectAll('g.row').data(rows).join('g').attr('class', 'row')
+      .attr('transform', (d, i) => `translate(0,${top + i * rowH})`)
+      .attr('opacity', (d) => (opts.selected && opts.selected !== d.key ? 0.35 : 1));
+
+    g.append('text').attr('class', 'ms-lab').attr('x', 0).attr('y', d => d.sub ? rowH / 2 - 3 : rowH / 2 + 4).text((d) => d.label);
+    g.filter((d) => d.sub).append('text').attr('class', 'ms-tick').attr('x', 0).attr('y', rowH / 2 + 10).text((d) => d.sub);
+
+    const segs = (d) => {
+      const out = [];
+      const yb = (rowH - barH) / 2;
+      const ts = d.tightening.supplier, tb = d.tightening.buyer, es = d.easing.supplier, eb = d.easing.buyer;
+      if (ts) out.push({ x0: x(0), x1: x(ts) - (tb ? 1 : 0), c: ms.COL.tightening.supplier, y: yb });
+      if (tb) out.push({ x0: x(ts) + (ts ? 1 : 0), x1: x(ts + tb), c: ms.COL.tightening.buyer, y: yb });
+      if (es) out.push({ x0: x(-es) + (eb ? 1 : 0), x1: x(0), c: ms.COL.easing.supplier, y: yb });
+      if (eb) out.push({ x0: x(-es - eb), x1: x(-es) - (es ? 1 : 0), c: ms.COL.easing.buyer, y: yb });
+      return out;
+    };
+    g.selectAll('rect.seg').data(segs).join('rect').attr('class', 'seg')
+      .attr('x', (s) => s.x0).attr('width', (s) => Math.max(1, s.x1 - s.x0))
+      .attr('y', (s) => s.y).attr('height', barH).attr('rx', 3).style('fill', (s) => s.c);
+
+    g.filter((d) => sum(d.tightening)).append('text').attr('class', 'ms-val')
+      .attr('x', (d) => x(sum(d.tightening)) + 5).attr('y', rowH / 2 + 4).text((d) => ms.fmt(sum(d.tightening)));
+    g.filter((d) => sum(d.easing)).append('text').attr('class', 'ms-val').attr('text-anchor', 'end')
+      .attr('x', (d) => x(-sum(d.easing)) - 5).attr('y', rowH / 2 + 4).text((d) => ms.fmt(sum(d.easing)));
+
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', top - 4).attr('y2', H)
+      .style('stroke', 'var(--cds-chart-baseline)').attr('stroke-width', 1);
+
+    g.append('rect').attr('class', opts.onClick ? 'ms-hit' : '').attr('x', 0).attr('width', W).attr('height', rowH)
+      .style('fill', 'transparent')
+      .on('mousemove', (event, d) => tip.show(event, d.tipHead || d.label, [
+        [ms.COL.tightening.supplier, `Tightening, supplier: ${ms.fmt(d.tightening.supplier)}`],
+        [ms.COL.tightening.buyer, `Tightening, buyer: ${ms.fmt(d.tightening.buyer)}`],
+        [ms.COL.easing.supplier, `Easing, supplier: ${ms.fmt(d.easing.supplier)}`],
+        [ms.COL.easing.buyer, `Easing, buyer: ${ms.fmt(d.easing.buyer)}`],
+      ]))
+      .on('mouseleave', tip.hide)
+      .on('click', (event, d) => opts.onClick && opts.onClick(d.key));
+  };
+
+  // Monthly columns: tightening up from the baseline, easing down.
+  ms.months = (el, months, counts) => {
+    const W = el.clientWidth;
+    if (!W) return;
+    el.replaceChildren();
+    const H = 220, padT = 12, padB = 36;
+    const maxT = Math.max(1, d3.max(months, (m) => counts.get(m)?.tightening || 0));
+    const maxE = Math.max(1, d3.max(months, (m) => counts.get(m)?.easing || 0));
+    const y = d3.scaleLinear([-maxE, maxT], [H - padB, padT]).nice();
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', H).attr('viewBox', `0 0 ${W} ${H}`);
+    const ticks = y.ticks(4);
+    const probe = svg.append('g');
+    let tickW = 0;
+    probe.selectAll('text').data(ticks).join('text').attr('class', 'ms-tick').text((t) => ms.fmt(Math.abs(t)))
+      .each(function () { tickW = Math.max(tickW, this.getComputedTextLength()); });
+    probe.remove();
+    const left = tickW + 8;
+    const x = d3.scaleBand(months, [left, W]).paddingInner(0.25).paddingOuter(0.1);
+    const tip = ms.tip(el);
+
+    svg.append('g').selectAll('line').data(ticks.filter((t) => t !== 0)).join('line')
+      .attr('x1', left).attr('x2', W).attr('y1', (t) => y(t)).attr('y2', (t) => y(t))
+      .style('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('class', 'ms-tick')
+      .attr('x', left - 6).attr('y', (t) => y(t) + 4).attr('text-anchor', 'end').text((t) => ms.fmt(Math.abs(t)));
+
+    const parse = (m) => new Date(m + '-01T00:00:00Z');
+    const every = x.bandwidth() < 26 ? 2 : 1;
+    svg.append('g').selectAll('text').data(months.filter((m, i) => i % every === 0)).join('text').attr('class', 'ms-tick')
+      .attr('x', (m) => x(m) + x.bandwidth() / 2).attr('y', H - padB + 16).attr('text-anchor', 'middle')
+      .text((m) => d3.utcFormat('%b')(parse(m)));
+    svg.append('g').selectAll('text').data(months.filter((m, i) => i === 0 || m.endsWith('-01'))).join('text').attr('class', 'ms-tick')
+      .attr('x', (m) => x(m) + x.bandwidth() / 2).attr('y', H - padB + 30).attr('text-anchor', 'middle')
+      .text((m) => d3.utcFormat('%Y')(parse(m)));
+
+    const g = svg.selectAll('g.col').data(months).join('g').attr('class', 'col');
+    const bw = Math.min(32, x.bandwidth());
+    const bx = (m) => x(m) + (x.bandwidth() - bw) / 2;
+    g.filter((m) => counts.get(m)?.tightening).append('rect')
+      .attr('x', bx).attr('width', bw).attr('y', (m) => y(counts.get(m).tightening)).attr('height', (m) => y(0) - y(counts.get(m).tightening) - 1)
+      .attr('rx', 3).style('fill', ms.COL.tightening.supplier);
+    g.filter((m) => counts.get(m)?.easing).append('rect')
+      .attr('x', bx).attr('width', bw).attr('y', y(0) + 1).attr('height', (m) => y(-counts.get(m).easing) - y(0) - 1)
+      .attr('rx', 3).style('fill', ms.COL.easing.supplier);
+    svg.append('line').attr('x1', left).attr('x2', W).attr('y1', y(0)).attr('y2', y(0))
+      .style('stroke', 'var(--cds-chart-baseline)').attr('stroke-width', 1);
+    g.append('rect').attr('x', (m) => x(m)).attr('width', x.bandwidth()).attr('y', padT).attr('height', H - padT - padB)
+      .style('fill', 'transparent')
+      .on('mousemove', (event, m) => tip.show(event, d3.utcFormat('%B %Y')(parse(m)), [
+        [ms.COL.tightening.supplier, `Tightening: ${ms.fmt(counts.get(m)?.tightening || 0)}`],
+        [ms.COL.easing.supplier, `Easing: ${ms.fmt(counts.get(m)?.easing || 0)}`],
+      ]))
+      .on('mouseleave', tip.hide);
+  };
+</script>
+
+<script>
+  const root = document.querySelector('.ms');
+  const onceBtn = root.querySelector('.ms-once');
+  const repBtn = root.querySelector('.ms-reported');
+  const picked = root.querySelector('.ms-picked');
+  const search = root.querySelector('.ms-search');
+  const tbody = root.querySelector('.ms-tbody');
+  const empty = root.querySelector('.ms-empty');
+
+  onceBtn.addEventListener('click', () => dash.setParams({ once: !dash.params().once }));
+  repBtn.addEventListener('click', () => dash.setParams({ reported: !dash.params().reported }));
+  picked.addEventListener('click', () => dash.setParams({ family: null }));
+  search.addEventListener('input', () => drawTable());
+  tbody.addEventListener('click', (event) => {
+    const ex = event.target.closest('.ms-ex');
+    if (ex) ex.classList.toggle('open');
+  });
+  // 8-K press-release rows were logged with the 8-K cover page as their link; the passage lives in the exhibit file named in raw_path.
+  const docUrl = (r) => {
+    const base = (r.raw_path || '').split('/').pop();
+    return base.startsWith('exhibit_99_') && base.endsWith('.txt') ? r.source_url.replace(/[^/]+$/, base.slice(11, -4)) : r.source_url;
+  };
+  // Opens the filing scrolled to the passage (browser text fragment): first and last five words.
+  const fragment = (text) => {
+    const enc = (t) => encodeURIComponent(t).replace(/-/g, '%2D');
+    const w = text.replace(/\s+/g, ' ').trim().split(' ');
+    return '#:~:text=' + (w.length <= 10 ? enc(w.join(' ')) : enc(w.slice(0, 5).join(' ')) + ',' + enc(w.slice(-5).join(' ')));
+  };
+  tbody.addEventListener('keydown', (event) => {
+    const ex = event.target.closest('.ms-ex');
+    if (ex && (event.key === 'Enter' || event.key === ' ')) { event.preventDefault(); ex.classList.toggle('open'); }
+  });
+  const pickFamily = (f) => dash.setParams({ family: dash.params().family === f ? null : f });
+
+  const zero = () => ({ tightening: { supplier: 0, buyer: 0 }, easing: { supplier: 0, buyer: 0 } });
+
+  function drawHeader() {
+    const view = ms.view(), fam = ms.family();
+    const where = `view=${encodeURIComponent(view)}&family=${encodeURIComponent(fam)}`;
+    const v = dash.data('views');
+    const row = v.status === 'ok' ? v.data.find((r) => r.view === view && r.family === fam) : null;
+    root.querySelectorAll('[data-source="views"]').forEach((el) => {
+      el.setAttribute('data-where', where);
+      const val = row ? row[el.dataset.field] : null;
+      el.textContent = val == null ? '—' : ms.fmt(val);
+      if (v.status !== 'loading') el.classList.remove('dash-skeleton');
+    });
+    root.querySelector('.ms-t-fam').textContent = fam === 'All' ? '' : ` for ${ms.label(fam)}`;
+    root.querySelector('.ms-scope').textContent = fam === 'All' ? 'All families' : ms.label(fam);
+
+    const n = dash.data('notes');
+    const note = n.status === 'ok' ? n.data[0] : null;
+    root.querySelectorAll('[data-source="notes"][data-field]').forEach((el) => {
+      const val = note ? note[el.dataset.field] : null;
+      el.textContent = val == null ? '—' : typeof val === 'number' ? ms.fmt(val) : val;
+    });
+
+    const p = dash.params();
+    onceBtn.setAttribute('aria-pressed', String(!!p.once));
+    repBtn.setAttribute('aria-pressed', String(!!p.reported));
+    picked.hidden = !p.family;
+    picked.textContent = p.family ? `${ms.label(p.family)} ×` : '';
+    picked.setAttribute('aria-label', p.family ? `Clear family filter ${ms.label(p.family)}` : 'Clear family filter');
+  }
+
+  function drawFamilies() {
+    const el = root.querySelector('.ms-family-chart');
+    if (!ms.ready(el, ['by_family'])) return;
+    const view = ms.view();
+    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const fams = new Map();
+    for (const r of dash.data('by_family').data) {
+      if (!fams.has(r.family)) fams.set(r.family, { key: r.family, category: r.category, ...zero() });
+      if (r.view === view) fams.get(r.family)[r.direction][r.role] += r.n;
+    }
+    const total = (d) => d.tightening.supplier + d.tightening.buyer + d.easing.supplier + d.easing.buyer;
+    const rows = [...fams.values()]
+      .map((d) => ({ ...d, label: ms.label(d.key), sub: d.category === 'Other' ? 'No family named' : d.category, tipHead: `${ms.label(d.key)} (${d.category})` }))
+      .sort((a, b) => (CAT[a.category] ?? 9) - (CAT[b.category] ?? 9) || a.key.endsWith('_general') - b.key.endsWith('_general') || total(b) - total(a));
+    ms.bars(el, rows, { selected: dash.params().family, onClick: pickFamily });
+  }
+
+  function drawMonths() {
+    const el = root.querySelector('.ms-month-chart');
+    if (!ms.ready(el, ['by_month', 'notes'])) return;
+    const note = dash.data('notes').data[0];
+    if (!note || !note.window_start) return;
+    const months = d3.utcMonth.range(new Date(note.window_start.slice(0, 7) + '-01T00:00:00Z'), d3.utcMonth.offset(new Date(note.window_end.slice(0, 7) + '-01T00:00:00Z'), 1))
+      .map(d3.utcFormat('%Y-%m'));
+    const view = ms.view(), fam = ms.family();
+    const counts = new Map();
+    for (const r of dash.data('by_month').data) {
+      if (r.view !== view || r.family !== fam) continue;
+      if (!counts.has(r.month)) counts.set(r.month, { tightening: 0, easing: 0 });
+      counts.get(r.month)[r.direction] = (counts.get(r.month)[r.direction] || 0) + r.n;
+    }
+    ms.months(el, months, counts);
+  }
+
+  function drawCompanies() {
+    const el = root.querySelector('.ms-company-chart');
+    if (!ms.ready(el, ['by_company'])) return;
+    const view = ms.view(), fam = ms.family();
+    const cos = new Map();
+    for (const r of dash.data('by_company').data) {
+      if (r.view !== view || r.family !== fam) continue;
+      if (!cos.has(r.company)) cos.set(r.company, { key: r.company, role: r.role, ...zero() });
+      cos.get(r.company)[r.direction][r.role] += r.n;
+    }
+    const total = (d) => d.tightening.supplier + d.tightening.buyer + d.easing.supplier + d.easing.buyer;
+    const rows = [...cos.values()]
+      .map((d) => ({ ...d, label: d.key, sub: d.role === 'supplier' ? 'Supplier' : 'Buyer' }))
+      .sort((a, b) => (a.role === 'supplier' ? 0 : 1) - (b.role === 'supplier' ? 0 : 1) || total(b) - total(a));
+    if (!rows.length) {
+      el.replaceChildren();
+      const p = document.createElement('div'); p.className = 'ms-empty'; p.textContent = 'No signals in this view.';
+      el.appendChild(p);
+      return;
+    }
+    ms.bars(el, rows, {});
+  }
+
+  function drawTable() {
+    const s = dash.data('signals'), iv = dash.data('in_view');
+    if (s.status !== 'ok' || iv.status !== 'ok') { tbody.replaceChildren(); return; }
+    const view = ms.view(), fam = ms.family();
+    const keep = new Set(iv.data.filter((r) => r.view === view && (fam === 'All' || r.family === fam)).map((r) => r.signal_id));
+    const q = search.value.trim().toLowerCase();
+    const rows = s.data
+      .filter((r) => keep.has(r.signal_id))
+      .filter((r) => !q || (r.excerpt + ' ' + r.company + ' ' + r.product_family).toLowerCase().includes(q))
+      .sort((a, b) => b.filing_date.localeCompare(a.filing_date) || a.company.localeCompare(b.company));
+    const frag = document.createDocumentFragment();
+    for (const r of rows) {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.signal_id;
+      const td = (text, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; if (text != null) c.textContent = text; tr.appendChild(c); return c; };
+      const d = td(null, 'n');
+      if (/^https:\/\//.test(r.source_url)) {
+        const a = document.createElement('a'); a.href = docUrl(r) + fragment(r.excerpt); a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.filing_date; d.appendChild(a);
+      } else d.textContent = r.filing_date;
+      td(r.company);
+      td(r.product_family);
+      const dir = td(null);
+      const chip = document.createElement('span'); chip.className = `ms-chip ${r.supply_direction === 'easing' ? 'easing' : 'tightening'}`; chip.textContent = r.supply_direction; dir.appendChild(chip);
+      td(r.sentiment, 'ms-hide-narrow');
+      td(r.section, 'ms-hide-narrow');
+      const ex = td(null);
+      const div = document.createElement('div'); div.className = 'ms-ex'; div.tabIndex = 0; div.textContent = r.excerpt; ex.appendChild(div);
+      frag.appendChild(tr);
+    }
+    tbody.replaceChildren(frag);
+    empty.hidden = rows.length > 0;
+  }
+
+  dash.onData(() => {
+    drawHeader();
+    drawFamilies();
+    drawMonths();
+    drawCompanies();
+    drawTable();
+  });
+</script>

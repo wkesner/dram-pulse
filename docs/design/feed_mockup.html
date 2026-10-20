@@ -1,0 +1,322 @@
+<title>Memory Signals Feed</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: app frame. Top bar with name and tabs, filter rail on the left (stacks on top when narrow), one signal card at a time, votes.csv preview under it. */
+  :root {
+    --bg: #f3f5f6; --panel: #ffffff; --ink: #172026; --muted: #5a6872; --line: #d9dfe3;
+    --accent: #0f5f63; --accent-ink: #ffffff; --tight: #b4362c; --tight-soft: #f7e3e0; --ease: #2a5fa8; --ease-soft: #e1eaf7;
+    --mark: #fbe9a6; --banner: #e6eef0;
+    --f-display: "Newsreader", Georgia, serif; --f-body: "Public Sans", system-ui, sans-serif; --f-mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg: #0f1518; --panel: #172024; --ink: #e5ebee; --muted: #94a3ac; --line: #2a363c;
+    --accent: #5cc2c4; --accent-ink: #0b1a1c; --tight: #ef7e72; --tight-soft: #3a1f1c; --ease: #80aef0; --ease-soft: #1b2a40;
+    --mark: #5a4b12; --banner: #1a2a2e; color-scheme: dark; } }
+  :root[data-theme="dark"] {
+    --bg: #0f1518; --panel: #172024; --ink: #e5ebee; --muted: #94a3ac; --line: #2a363c;
+    --accent: #5cc2c4; --accent-ink: #0b1a1c; --tight: #ef7e72; --tight-soft: #3a1f1c; --ease: #80aef0; --ease-soft: #1b2a40;
+    --mark: #5a4b12; --banner: #1a2a2e; color-scheme: dark; }
+  [hidden] { display: none !important; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+  .app { max-width: 1180px; margin-inline: auto; padding-block: 16px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 16px; }
+  .banner { background: var(--banner); border-radius: 6px; padding: 10px 14px; font-size: 13px; color: var(--muted); }
+  .banner b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .top { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; }
+  .top h1 { margin: 0; font-family: var(--f-display); font-weight: 500; font-size: 26px; letter-spacing: -0.01em; }
+  .tabs { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 3px; }
+  .tab { font: inherit; font-size: 14px; border: 0; background: transparent; color: var(--muted); padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+  .tab[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
+  .user { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+  input, select { font: inherit; font-size: 14px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+  #user-name { width: 11rem; }
+  button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible, tr:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .layout { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 20px; align-items: start; }
+  @media (max-width: 760px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+  .rail { display: grid; gap: 12px; }
+  .rail label { display: grid; gap: 4px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .rail select { width: 100%; text-transform: none; letter-spacing: 0; }
+  @media (max-width: 760px) { .rail { grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); } }
+  .clear { font: inherit; font-size: 13px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; justify-self: start; text-decoration: underline; }
+  .main { display: grid; gap: 16px; min-width: 0; }
+  .queue { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 22px; display: grid; gap: 14px; box-shadow: 0 1px 2px rgba(15, 30, 40, 0.06); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+  .co { font-family: var(--f-display); font-size: 22px; font-weight: 500; }
+  .role { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .filing { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 13px; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); }
+  .chip.tightening { background: var(--tight-soft); color: var(--tight); border-color: transparent; font-weight: 600; }
+  .chip.easing { background: var(--ease-soft); color: var(--ease); border-color: transparent; font-weight: 600; }
+  .excerpt { margin: 0; font-size: 17px; line-height: 1.6; max-width: 68ch; }
+  .excerpt mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+  .find { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 14px; }
+  .copy { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+  .copy.done { background: var(--accent); color: var(--accent-ink); }
+  .copy.small { font-size: 12px; padding: 1px 8px; }
+  details { border-top: 1px solid var(--line); padding-top: 10px; }
+  summary { cursor: pointer; font-size: 14px; color: var(--ink); }
+  summary b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .sightings { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; font-size: 13px; }
+  .sightings li { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .sightings .d { font-family: var(--f-mono); }
+  .sightings .m { color: var(--muted); }
+  a { color: var(--accent); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .vote { font: inherit; font-size: 15px; padding: 9px 18px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+  .vote.up:hover, .vote.up[aria-pressed="true"] { border-color: var(--accent); }
+  .vote[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .vote:disabled { opacity: 0.5; cursor: not-allowed; }
+  .vote .n { font-variant-numeric: tabular-nums; font-size: 13px; opacity: 0.8; }
+  .hint { font-size: 13px; color: var(--muted); }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 8px; min-width: 0; }
+  .panel h2 { margin: 0; font-size: 15px; font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th { text-align: left; font-weight: 500; color: var(--muted); padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.mono, .csv td { font-family: var(--f-mono); font-size: 12px; }
+  .fam tbody tr { cursor: pointer; }
+  .fam tbody tr:hover { background: var(--bg); }
+  .fam td.num { text-align: right; }
+  .fam th.num { text-align: right; }
+  .bar { display: inline-block; height: 8px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+  .empty { padding: 32px; text-align: center; color: var(--muted); }
+</style>
+
+<div class="app">
+  <div class="banner" id="banner">Mockup built from your signals.csv: <b class="b-rows"></b> rows become <b class="b-signals"></b> signals after the de-dupe rules (<b class="b-sightings"></b> filing sightings kept under them). Votes you cast here stay in this browser; in the app they go to votes.csv.</div>
+
+  <header class="top">
+    <h1>Memory signals</h1>
+    <div class="tabs" role="tablist" aria-label="Views">
+      <button class="tab" role="tab" id="tab-feed" aria-selected="true" aria-controls="view-feed">Feed</button>
+      <button class="tab" role="tab" id="tab-families" aria-selected="false" aria-controls="view-families">Families</button>
+    </div>
+    <label class="user" for="user-name">Voting as <input id="user-name" type="text" placeholder="Your name" autocomplete="off"></label>
+  </header>
+
+  <div class="layout">
+    <aside class="rail" aria-label="Filters">
+      <label for="f-category">Category<select id="f-category"></select></label>
+      <label for="f-family">Product family<select id="f-family"></select></label>
+      <label for="f-direction">Supply direction<select id="f-direction"></select></label>
+      <label for="f-company">Company<select id="f-company"></select></label>
+      <label for="f-role">Role<select id="f-role"></select></label>
+      <label for="f-section">Section<select id="f-section"></select></label>
+      <button class="clear" id="clear-filters" type="button">Clear filters</button>
+    </aside>
+
+    <main class="main">
+      <section id="view-feed" role="tabpanel" aria-labelledby="tab-feed" class="main">
+        <div class="queue"><span class="q-left"></span><span class="q-order">Unvoted first, newest filing first</span></div>
+        <article class="card" id="signal-card" aria-live="polite"></article>
+        <section class="panel" id="votes-preview">
+          <h2>votes.csv preview</h2>
+          <p class="hint" style="margin:0">The rows this session would append, newest last. A changed vote is a new row; the latest per user and signal wins.</p>
+          <div class="scroll"><table class="csv"><thead><tr><th>vote_id</th><th>signal_id</th><th>user</th><th>vote</th><th>voted_at</th></tr></thead><tbody id="csv-rows"></tbody></table></div>
+        </section>
+      </section>
+
+      <section id="view-families" role="tabpanel" aria-labelledby="tab-families" class="panel" hidden>
+        <h2>Signals per product family</h2>
+        <p class="hint" style="margin:0">Plain counts of de-duplicated signals, not a score. Window <span class="win"></span>. Click a family to open it in the feed.</p>
+        <div class="scroll"><table class="fam"><thead><tr><th>Family</th><th>Category</th><th class="num">Tightening</th><th class="num">Easing</th><th class="num">Suppliers</th><th class="num">Buyers</th><th>Latest</th></tr></thead><tbody id="fam-rows"></tbody></table></div>
+      </section>
+    </main>
+  </div>
+</div>
+
+<script type="application/json" id="signals-data">__DATA__</script>
+<script type="application/json" id="meta-data">__META__</script>
+<script>
+(() => {
+  const SIGNALS = JSON.parse(document.getElementById('signals-data').textContent);
+  const META = JSON.parse(document.getElementById('meta-data').textContent);
+  const $ = (s) => document.querySelector(s);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const label = (f) => f.replace(/_/g, ' ');
+  // Link that opens the filing scrolled to the passage (browser text fragment), first and last five words.
+  const fragment = (text) => {
+    const enc = (t) => encodeURIComponent(t).replace(/-/g, '%2D');
+    const w = text.replace(/\s+/g, ' ').trim().split(' ');
+    return '#:~:text=' + (w.length <= 10 ? enc(w.join(' ')) : enc(w.slice(0, 5).join(' ')) + ',' + enc(w.slice(-5).join(' ')));
+  };
+  const latest = (s) => s.sightings.reduce((m, x) => (x.date > m ? x.date : m), s.filing_date);
+
+  $('.b-rows').textContent = META.rows;
+  $('.b-signals').textContent = SIGNALS.length;
+  $('.b-sightings').textContent = SIGNALS.reduce((n, s) => n + s.sightings.length, 0);
+  $('.win').textContent = `${META.window_start} to ${META.window_end}`;
+
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  };
+  let votes = store.get('ms-votes', []);
+  let skipped = new Set();
+  const userIn = $('#user-name');
+  userIn.value = store.get('ms-user', '');
+  userIn.addEventListener('input', () => { store.set('ms-user', userIn.value.trim()); skipped = new Set(); render(); });
+
+  const FILTERS = [
+    ['category', 'product_category', 'All categories'],
+    ['family', 'product_family', 'All families'],
+    ['direction', 'supply_direction', 'Any direction'],
+    ['company', 'company', 'All companies'],
+    ['role', 'role', 'Suppliers and buyers'],
+    ['section', 'section', 'All sections'],
+  ];
+  for (const [id, field, all] of FILTERS) {
+    const sel = $('#f-' + id);
+    sel.append(new Option(all, ''));
+    [...new Set(SIGNALS.map((s) => s[field]))].sort().forEach((v) => sel.append(new Option(field === 'product_family' ? label(v) : v, v)));
+    sel.addEventListener('change', () => { skipped = new Set(); render(); });
+  }
+  $('#clear-filters').addEventListener('click', () => { FILTERS.forEach(([id]) => { $('#f-' + id).value = ''; }); skipped = new Set(); render(); });
+
+  const latestVote = (user, id) => { let v = null; for (const x of votes) if (x.user === user && x.signal_id === id) v = x.vote; return v; };
+  const tally = (id) => {
+    const last = new Map();
+    for (const x of votes) if (x.signal_id === id) last.set(x.user, x.vote);
+    let up = 0, down = 0; for (const v of last.values()) v > 0 ? up++ : down++;
+    return { up, down };
+  };
+
+  function queue() {
+    const user = userIn.value.trim();
+    const pass = (s) => FILTERS.every(([id, field]) => !$('#f-' + id).value || s[field] === $('#f-' + id).value);
+    return SIGNALS.filter(pass)
+      .filter((s) => !skipped.has(s.signal_id))
+      .sort((a, b) => (latestVote(user, a.signal_id) != null) - (latestVote(user, b.signal_id) != null) || latest(b).localeCompare(latest(a)) || a.signal_id.localeCompare(b.signal_id));
+  }
+
+  function highlight(text, terms) {
+    const frag = document.createDocumentFragment();
+    const ts = terms.filter((t) => t.length > 2).sort((a, b) => b.length - a.length);
+    if (!ts.length) { frag.append(text); return frag; }
+    const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const re = new RegExp('(' + esc.join('|') + ')', 'gi');
+    let last = 0;
+    for (const m of text.matchAll(re)) {
+      frag.append(text.slice(last, m.index));
+      frag.append(el('mark', null, m[0]));
+      last = m.index + m[0].length;
+    }
+    frag.append(text.slice(last));
+    return frag;
+  }
+
+  function vote(s, v) {
+    const user = userIn.value.trim();
+    if (!user) { userIn.focus(); return; }
+    votes.push({ vote_id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()), signal_id: s.signal_id, user, vote: v, voted_at: new Date().toISOString() });
+    store.set('ms-votes', votes);
+    render();
+  }
+
+  function renderCard() {
+    const card = $('#signal-card');
+    card.replaceChildren();
+    const q = queue();
+    const user = userIn.value.trim();
+    const unvoted = q.filter((s) => latestVote(user, s.signal_id) == null).length;
+    $('.q-left').textContent = `${unvoted} of ${q.length} signals in this filter still need your vote`;
+    if (!q.length) { card.append(el('div', 'empty', 'No signals match these filters. Clear a filter to see more.')); return; }
+    const s = q[0];
+
+    const meta = el('div', 'meta');
+    meta.append(el('span', 'co', s.company), el('span', 'role', s.role), el('span', 'filing', `${s.form} · ${s.filing_date} · ${s.section.replace(/_/g, ' ')}`));
+    const chips = el('div', 'chips');
+    chips.append(el('span', `chip ${s.supply_direction}`, s.supply_direction), el('span', 'chip', label(s.product_family)), el('span', 'chip', `tone: ${s.sentiment}`));
+    const terms = s.matched_terms.split(';').map((t) => t.split(':').slice(1).join(':').trim()).filter(Boolean);
+    const ex = el('p', 'excerpt'); ex.append(highlight(s.excerpt, terms));
+
+    const find = el('div', 'find');
+    const open = el('a', null, 'Open filing at this passage'); open.href = s.sightings[0].url + fragment(s.sightings[0].excerpt); open.target = '_blank'; open.rel = 'noopener';
+    find.append(open);
+
+    const det = el('details');
+    const sum = el('summary');
+    const n = s.sightings.length;
+    sum.append(n > 1 ? 'Seen in ' : 'First seen in ', el('b', null, n > 1 ? `${n} filings` : '1 filing'), n > 1 ? `, latest ${latest(s)}` : '');
+    const ul = el('ul', 'sightings');
+    for (const x of s.sightings) {
+      const li = el('li');
+      const a = el('a', 'd', `${x.date} ${x.form}`); a.href = x.url + fragment(x.excerpt); a.target = '_blank'; a.rel = 'noopener';
+      li.append(a, el('span', 'm', x.match === 'first' ? 'first appearance' : x.match === 'exact' ? 'same text' : 'lightly reworded'));
+      ul.append(li);
+    }
+    det.append(sum, ul);
+    if (n > 1) det.open = false;
+
+    const actions = el('div', 'actions');
+    const mine = latestVote(user, s.signal_id);
+    const t = tally(s.signal_id);
+    const mk = (cls, sym, text, count, v) => {
+      const b = el('button', `vote ${cls}`); b.type = 'button';
+      b.append(sym + ' ' + text); if (count != null) b.append(el('span', 'n', String(count)));
+      if (v != null) { b.setAttribute('aria-pressed', String(mine === v)); b.disabled = !user; b.addEventListener('click', () => vote(s, v)); }
+      return b;
+    };
+    const skip = mk('skip', '→', 'Skip', null, null);
+    skip.addEventListener('click', () => { skipped.add(s.signal_id); render(); });
+    actions.append(mk('up', '👍', 'Useful', t.up, 1), mk('down', '👎', 'Not useful', t.down, -1), skip);
+    if (!user) actions.append(el('span', 'hint', 'Type your name above to vote.'));
+
+    card.append(meta, chips, ex, find, det, actions);
+  }
+
+  function renderCsv() {
+    const body = $('#csv-rows');
+    body.replaceChildren();
+    const rows = votes.slice(-8);
+    if (!rows.length) { const tr = el('tr'); const td = el('td', null, 'No votes yet.'); td.colSpan = 5; tr.append(td); body.append(tr); return; }
+    for (const v of rows) {
+      const tr = el('tr');
+      [v.vote_id.slice(0, 8) + '…', v.signal_id, v.user, v.vote > 0 ? '+1' : '-1', v.voted_at.slice(0, 19)].forEach((c) => tr.append(el('td', null, c)));
+      body.append(tr);
+    }
+  }
+
+  function renderFamilies() {
+    const body = $('#fam-rows');
+    body.replaceChildren();
+    const fams = new Map();
+    for (const s of SIGNALS) {
+      const f = fams.get(s.product_family) || { family: s.product_family, category: s.product_category, tightening: 0, easing: 0, supplier: 0, buyer: 0, latest: '' };
+      f[s.supply_direction] = (f[s.supply_direction] || 0) + 1;
+      f[s.role] += 1;
+      if (latest(s) > f.latest) f.latest = latest(s);
+      fams.set(s.product_family, f);
+    }
+    const max = Math.max(...[...fams.values()].map((f) => Math.max(f.tightening, f.easing)));
+    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    [...fams.values()].sort((a, b) => CAT[a.category] - CAT[b.category] || (b.tightening + b.easing) - (a.tightening + a.easing)).forEach((f) => {
+      const tr = el('tr'); tr.tabIndex = 0;
+      const bar = (n, color) => { const td = el('td', 'num'); const b = el('span', 'bar'); b.style.width = `${Math.round((n / max) * 60)}px`; b.style.background = color; if (n) td.append(b); td.append(String(n)); return td; };
+      tr.append(el('td', null, label(f.family)), el('td', null, f.category), bar(f.tightening, 'var(--tight)'), bar(f.easing, 'var(--ease)'), el('td', 'num', String(f.supplier)), el('td', 'num', String(f.buyer)), el('td', 'mono', f.latest));
+      const go = () => { FILTERS.forEach(([id]) => { $('#f-' + id).value = ''; }); $('#f-family').value = f.family; skipped = new Set(); showTab('feed'); };
+      tr.addEventListener('click', go);
+      tr.addEventListener('keydown', (e) => { if (e.key === 'Enter') go(); });
+      body.append(tr);
+    });
+  }
+
+  function showTab(name) {
+    $('#tab-feed').setAttribute('aria-selected', String(name === 'feed'));
+    $('#tab-families').setAttribute('aria-selected', String(name === 'families'));
+    $('#view-feed').hidden = name !== 'feed';
+    $('#view-families').hidden = name !== 'families';
+    render();
+  }
+  $('#tab-feed').addEventListener('click', () => showTab('feed'));
+  $('#tab-families').addEventListener('click', () => showTab('families'));
+
+  function render() { renderCard(); renderCsv(); renderFamilies(); }
+  if (location.hash === '#families') showTab('families'); else render();
+})();
+</script>

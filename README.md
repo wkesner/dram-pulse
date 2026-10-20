@@ -56,14 +56,20 @@ python3 -m src.verify
 
 ## Milestone 4 — Feed + family view
 
+The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/design/`. Build sequence: `docs/FEED-BUILD.md`.
+
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+uvicorn app.server:app --reload --port 8000
+# open http://localhost:8000/  (static placeholder until Prompt 2+)
+# API: GET /api/signals  GET /api/votes?user=NAME  POST /api/votes
 ```
 
-- Sidebar: type your name (required before voting), then filter by product category / family / supply direction / company / role / source.
-- **Feed** tab: one signal card at a time with highlighted matched terms, source link, 👍 / 👎 / Skip. Votes append to `data/votes.csv`; counts use each user’s latest vote.
-- **Family view** tab: plain counts per product family (tightening / easing / stable / unclear, supplier vs buyer, latest filing date). Header shows the lookback window. Click a family to filter the feed.
+Legacy Streamlit prototype (optional): `streamlit run app.py`.
+
+- Name field required before voting; filters for product category / family / supply direction / company / role / source.
+- **Feed**: signal cards with sightings expander, 👍 / 👎 / Skip. Votes append to `data/votes.csv` (file-locked); tallies use each user’s latest vote.
+- **Family view**: plain counts per product family (signals, not sightings). Header shows the lookback window.
 
 ---
 
