@@ -1,0 +1,148 @@
+# Supply-topic, direction, sentiment, and stability term lists (SPEC starting points).
+
+# Topic groups — first match in this order wins for the `topic` column.
+topics:
+  availability:
+    - shortage
+    - constrained
+    - allocation
+    - sold out
+    - lead times
+    - lead time
+    - supply
+    - undersupply
+    - oversupply
+    - exceeds supply
+  pricing:
+    - average selling prices
+    - selling prices
+    - price increase
+    - price decline
+    - pricing
+    - prices
+    - price
+  inventory:
+    - elevated inventory
+    - inventory build
+    - inventories
+    - inventory
+  capacity:
+    - wafer starts
+    - bit growth
+    - capacity expansions
+    - capacity expansion
+    - packaging capacity
+    - wafer capacity
+    - production capacity
+    - capacity
+  yield_quality:
+    - qualification
+    - yields
+    - yield
+  demand:
+    - demand growth
+    - strong demand
+    - demand
+
+# Direction terms (tightening / easing). Presence of either (with product + topic)
+# qualifies a passage as a signal.
+direction:
+  tightening:
+    - exceeds supply
+    - extended lead times
+    - extended lead time
+    - price increase
+    - prices rising
+    - undersupply
+    - sold out
+    - shortage
+    - shortages
+    - constrained supply
+    - supply constraints
+    - supply constraint
+    - constrained
+    - allocation
+    - tight supply
+    - tightly supplied
+    - outpacing
+    - outpace
+    - unable to increase supply
+    - greater than our ability
+    - greater than the industry
+    - supply allocation
+  easing:
+    - inventory build
+    - elevated inventory
+    - price decline
+    - prices falling
+    - prices declined
+    - pricing pressure
+    - oversupplied
+    - oversupply
+    - excess inventory
+    - excess
+    - softness
+    - ample
+    - write-down
+    - write down
+    - write-downs
+    - downward pressure on pricing
+  stable:
+    - balanced
+    - normalized
+    - normalize
+    - stable supply
+    - supply balanced
+
+sentiment:
+  positive:
+    - significantly exceeds
+    - record
+    - robust
+    - improved
+    - improvements
+    - favorable
+    - strong demand
+    - strong growth
+    - strong
+    - accelerating
+    - accelerate
+    - benefited
+    - benefit
+    # Prefer multi-word growth phrases over bare "growth" (too common in filings).
+    - demand growth
+    - bit growth
+    - revenue growth
+  negative:
+    - headwind
+    - headwinds
+    - challenging
+    - adverse
+    - adversely
+    - unable
+    - weak
+    - decline
+    - declines
+    - declined
+    # Avoid bare "risk"/"risks" — Item 1A repeats them constantly.
+    - material risk
+    - significant risk
+    - pressure
+    - negatively
+    - adversely affect
+    - adversely affected
+
+# Korean terms (Milestone 5; included for completeness).
+korean:
+  tightening:
+    - 공급 부족
+    - 감산
+    - 가격 상승
+  easing:
+    - 공급 과잉
+    - 가격 하락
+  topics:
+    - 재고
+    - 수율
+    - 증설
+    - 수요 강세

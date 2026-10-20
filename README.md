@@ -29,6 +29,19 @@ Cached files land in `data/raw/MU/<accession_no_dashes>/`:
 
 Config: `config/settings.yaml` (`lookback_months: 12`), `config/companies.yaml` (ticker `MU` only — CIK looked up at runtime).
 
+## Milestone 2 — Extract + verify (Micron)
+
+Rule-based extraction from cached Item 1 / 1A / 7 text. Term lists live in `config/product_taxonomy.yaml` and `config/supply_terms.yaml`.
+
+```bash
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+# Fetches prior-year 10-K once (for repeat_of only; no signals extracted from it)
+python3 -m src.extract --ticker MU
+python3 -m src.verify
+```
+
+Output: `data/signals.csv`. `verify.py` checks every excerpt against `char_start`/`char_end` in the cached raw text (must be 100%).
+
 ---
 
 # DRAM Signal Pipeline

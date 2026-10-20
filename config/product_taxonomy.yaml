@@ -1,0 +1,70 @@
+# Product taxonomy for Memory Signals extraction.
+# Longer / more specific terms should appear first within each family
+# (the extractor also sorts by term length descending).
+
+categories:
+  DRAM:
+    HBM:
+      - HBM3E
+      - HBM3
+      - HBM4
+      - high-bandwidth memory
+      - high bandwidth memory
+      - 고대역폭메모리
+      - HBM
+    DDR5:
+      - server DRAM
+      - RDIMM
+      - MRDIMM
+      - DDR5
+    DDR4:
+      - legacy DRAM
+      - DDR4
+    LPDDR:
+      - LPDDR4X
+      - LPDDR5X
+      - LPDDR5
+      - LPDDR4
+      - LPCAMM
+      - mobile DRAM
+      - low-power server DRAM
+      - LPDDR
+    GDDR:
+      - GDDR7
+      - GDDR6
+      - graphics memory
+      - GDDR
+    DRAM_general:
+      - 디램
+      - DRAM
+  NAND:
+    Data center SSD:
+      - enterprise SSD
+      - data center SSD
+      - data center SSDs
+      - eSSD
+      - QLC SSD
+    Client SSD:
+      - client SSD
+      - PC SSD
+    Mobile/embedded:
+      - UFS
+      - eMMC
+      - mobile NAND
+    NAND_general:
+      - 낸드
+      - flash memory
+      - NAND
+  Other:
+    CXL:
+      - memory expansion
+      - CXL
+    Memory_general:
+      # Prefer multi-word forms; bare "memory" is too noisy in 10-K prose.
+      - memory and storage
+      - semiconductor memory
+      - memory products
+      - memory solutions
+      - memory technology
+      - memory supply
+      - memory demand

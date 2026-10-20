@@ -1,0 +1,788 @@
+"""Rule-based signal extraction for Memory Signals (Milestone 2).
+
+Usage:
+  export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+  python -m src.extract --ticker MU
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+import re
+import sys
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any, Iterable
+
+import yaml
+
+from src.fetch_edgar import (
+    REPO_ROOT,
+    Company,
+    RateLimitedSession,
+    iter_recent_filings,
+    load_companies,
+    load_yaml,
+    lookup_cik,
+    parse_filing_date,
+    resolve_user_agent,
+    window_bounds,
+)
+
+EXTRACTOR_VERSION = "0.1.0"
+SIGNAL_COLUMNS = [
+    "signal_id",
+    "company",
+    "ticker_or_code",
+    "role",
+    "source",
+    "form",
+    "filing_date",
+    "filing_id",
+    "section",
+    "product_category",
+    "product_family",
+    "topic",
+    "supply_direction",
+    "sentiment",
+    "direction_conflict",
+    "matched_terms",
+    "excerpt",
+    "language",
+    "char_start",
+    "char_end",
+    "raw_path",
+    "source_url",
+    "repeat_of",
+    "lookback_months",
+    "window_start",
+    "window_end",
+    "extractor_version",
+    "extracted_at",
+]
+
+SECTION_FILES = {
+    "business": "item1_business.txt",
+    "risk_factors": "item1a_risk_factors.txt",
+    "mdna": "item7_mdna.txt",
+}
+
+# Sentence split: keep abbreviations from shredding too aggressively.
+_SENTENCE_SPLIT = re.compile(
+    r"(?<=[.!?])\s+(?=[A-Z\"'(\[])|(?<=\n)\s*(?=[A-Z][a-z])"
+)
+_WS = re.compile(r"\s+")
+
+
+@dataclass(frozen=True)
+class TermHit:
+    kind: str
+    label: str
+    term: str
+    start: int
+    end: int
+
+
+@dataclass(frozen=True)
+class ProductTerm:
+    category: str
+    family: str
+    term: str
+    pattern: re.Pattern[str]
+
+
+def _compile_term(term: str) -> re.Pattern[str]:
+    """Case-insensitive word-boundary match; allow flexible whitespace/hyphens."""
+    parts = re.split(r"[\s\-]+", term.strip())
+    body = r"[\s\-]+".join(re.escape(p) for p in parts if p)
+    # Alphanumeric boundaries so "DRAM" does not match inside longer tokens,
+    # while still allowing "HBM3E" and Korean terms.
+    return re.compile(rf"(?<![A-Za-z0-9]){body}(?![A-Za-z0-9])", re.IGNORECASE)
+
+
+def load_taxonomy(path: Path) -> list[ProductTerm]:
+    data = load_yaml(path)
+    terms: list[ProductTerm] = []
+    for category, families in (data.get("categories") or {}).items():
+        for family, term_list in (families or {}).items():
+            for term in term_list or []:
+                terms.append(
+                    ProductTerm(
+                        category=category,
+                        family=family,
+                        term=term,
+                        pattern=_compile_term(term),
+                    )
+                )
+    # Prefer longer terms so HBM3E wins over HBM, etc.
+    terms.sort(key=lambda t: len(t.term), reverse=True)
+    return terms
+
+
+def load_supply_terms(path: Path) -> dict[str, Any]:
+    return load_yaml(path)
+
+
+def compile_term_map(mapping: dict[str, list[str]]) -> list[tuple[str, str, re.Pattern[str]]]:
+    compiled: list[tuple[str, str, re.Pattern[str]]] = []
+    for label, terms in mapping.items():
+        for term in sorted(terms or [], key=len, reverse=True):
+            compiled.append((label, term, _compile_term(term)))
+    compiled.sort(key=lambda t: len(t[1]), reverse=True)
+    return compiled
+
+
+def normalize_text(text: str) -> str:
+    return _WS.sub(" ", text).strip().lower()
+
+
+def split_sentences(text: str) -> list[tuple[int, int, str]]:
+    """Return (start, end, sentence) spans into `text`."""
+    # First split on blank lines / obvious boundaries, then sentence punctuation.
+    chunks: list[tuple[int, int, str]] = []
+    # Find non-empty line-runs as coarse blocks, then split each block.
+    for block in re.finditer(r"\S(?:.|\n)*?(?=\n\s*\n|\Z)", text):
+        block_text = block.group(0)
+        base = block.start()
+        parts = _SENTENCE_SPLIT.split(block_text)
+        # Reconstruct offsets carefully
+        cursor = 0
+        for part in parts:
+            if not part or not part.strip():
+                # advance past the separator whitespace in original
+                m = re.match(r"\s*", block_text[cursor:])
+                cursor += len(m.group(0)) if m else 0
+                continue
+            idx = block_text.find(part, cursor)
+            if idx < 0:
+                idx = cursor
+            start = base + idx
+            end = start + len(part)
+            stripped = part.strip()
+            if stripped:
+                # Trim leading/trailing whitespace inside the span for cleaner excerpts
+                lead = len(part) - len(part.lstrip())
+                trail = len(part) - len(part.rstrip())
+                chunks.append((start + lead, end - trail, stripped))
+            cursor = idx + len(part)
+    # Fallback if nothing found
+    if not chunks and text.strip():
+        s = text.strip()
+        start = text.find(s)
+        chunks.append((start, start + len(s), s))
+    return chunks
+
+
+def find_hits(
+    text: str,
+    compiled: list[tuple[str, str, re.Pattern[str]]],
+    kind: str,
+) -> list[TermHit]:
+    hits: list[TermHit] = []
+    occupied: list[tuple[int, int]] = []
+    for label, term, pattern in compiled:
+        for m in pattern.finditer(text):
+            span = (m.start(), m.end())
+            if any(not (span[1] <= a or span[0] >= b) for a, b in occupied):
+                continue
+            occupied.append(span)
+            hits.append(TermHit(kind=kind, label=label, term=term, start=m.start(), end=m.end()))
+    return hits
+
+
+def find_product_hits(text: str, products: list[ProductTerm]) -> list[TermHit]:
+    hits: list[TermHit] = []
+    occupied: list[tuple[int, int]] = []
+    for product in products:
+        for m in product.pattern.finditer(text):
+            span = (m.start(), m.end())
+            if any(not (span[1] <= a or span[0] >= b) for a, b in occupied):
+                continue
+            occupied.append(span)
+            hits.append(
+                TermHit(
+                    kind="product",
+                    label=f"{product.category}/{product.family}",
+                    term=product.term,
+                    start=m.start(),
+                    end=m.end(),
+                )
+            )
+    return hits
+
+
+def first_topic(
+    topic_compiled: list[tuple[str, str, re.Pattern[str]]], text: str
+) -> TermHit | None:
+    # Topic group order is preserved in supply_terms.yaml; within a group longer first.
+    # Walk groups in file order: rebuild group order from compiled labels' first appearance.
+    group_order: list[str] = []
+    for label, _term, _pat in topic_compiled:
+        if label not in group_order:
+            group_order.append(label)
+    for group in group_order:
+        for label, term, pattern in topic_compiled:
+            if label != group:
+                continue
+            m = pattern.search(text)
+            if m:
+                return TermHit(kind="topic", label=label, term=term, start=m.start(), end=m.end())
+    return None
+
+
+def pick_direction(
+    text: str,
+    product_pos: int,
+    tightening: list[tuple[str, str, re.Pattern[str]]],
+    easing: list[tuple[str, str, re.Pattern[str]]],
+    stable: list[tuple[str, str, re.Pattern[str]]],
+) -> tuple[str, bool, list[TermHit]]:
+    """Return (supply_direction, direction_conflict, matched direction hits)."""
+    t_hits = [
+        TermHit("dir", "tightening", term, m.start(), m.end())
+        for _label, term, pat in tightening
+        for m in pat.finditer(text)
+    ]
+    e_hits = [
+        TermHit("dir", "easing", term, m.start(), m.end())
+        for _label, term, pat in easing
+        for m in pat.finditer(text)
+    ]
+    if t_hits and e_hits:
+        # Closer to product term wins.
+        def dist(h: TermHit) -> int:
+            return min(abs(h.start - product_pos), abs(h.end - product_pos))
+
+        best_t = min(t_hits, key=dist)
+        best_e = min(e_hits, key=dist)
+        if dist(best_t) <= dist(best_e):
+            return "tightening", True, [best_t, best_e]
+        return "easing", True, [best_e, best_t]
+    if t_hits:
+        return "tightening", False, [min(t_hits, key=lambda h: h.start)]
+    if e_hits:
+        return "easing", False, [min(e_hits, key=lambda h: h.start)]
+    for _label, term, pat in stable:
+        m = pat.search(text)
+        if m:
+            hit = TermHit("dir", "stable", term, m.start(), m.end())
+            return "stable", False, [hit]
+    return "unclear", False, []
+
+
+def pick_sentiment(
+    text: str,
+    positive: list[tuple[str, str, re.Pattern[str]]],
+    negative: list[tuple[str, str, re.Pattern[str]]],
+) -> tuple[str, list[TermHit]]:
+    p_hits = [
+        TermHit("sent", "positive", term, m.start(), m.end())
+        for _label, term, pat in positive
+        for m in [pat.search(text)]
+        if m
+    ]
+    n_hits = [
+        TermHit("sent", "negative", term, m.start(), m.end())
+        for _label, term, pat in negative
+        for m in [pat.search(text)]
+        if m
+    ]
+    # Deduplicate by term
+    if p_hits and n_hits:
+        return "mixed", [p_hits[0], n_hits[0]]
+    if p_hits:
+        return "positive", [p_hits[0]]
+    if n_hits:
+        return "negative", [n_hits[0]]
+    return "mixed", []
+
+
+def signal_id(source_url: str, char_start: int, char_end: int, product_family: str) -> str:
+    # SPEC hashes url+offsets; include family so multi-family passages stay unique.
+    payload = f"{source_url}{char_start}{char_end}|{product_family}"
+    return hashlib.sha1(payload.encode("utf-8")).hexdigest()[:12]
+
+
+def prior_match_id(source_url: str, char_start: int, char_end: int) -> str:
+    payload = f"{source_url}{char_start}{char_end}"
+    return hashlib.sha1(payload.encode("utf-8")).hexdigest()[:12]
+
+
+def passage_windows(
+    sentences: list[tuple[int, int, str]], max_n: int = 3
+) -> Iterable[tuple[int, int, str, int, int]]:
+    """Yield (sent_i, width, text, char_start, char_end) for windows up to max_n."""
+    n = len(sentences)
+    for i in range(n):
+        for width in range(1, max_n + 1):
+            if i + width > n:
+                break
+            span = sentences[i : i + width]
+            start = span[0][0]
+            end = span[-1][1]
+            text = " ".join(s[2] for s in span)
+            yield i, width, text, start, end
+
+
+def find_prior_repeat(
+    excerpt: str,
+    prior_texts: list[tuple[str, str]],
+) -> str:
+    """If normalised excerpt appears in a prior filing text, return a synthetic id."""
+    needle = normalize_text(excerpt)
+    if len(needle) < 40:
+        return ""
+    for prior_url, prior_body in prior_texts:
+        hay = normalize_text(prior_body)
+        idx = hay.find(needle)
+        if idx < 0:
+            # Try a shortened core (first 200 chars of normalised excerpt)
+            core = needle[:200]
+            idx = hay.find(core)
+            if idx < 0:
+                continue
+            end = idx + len(core)
+        else:
+            end = idx + len(needle)
+        return prior_match_id(prior_url, idx, end)
+    return ""
+
+
+@dataclass
+class ExtractContext:
+    company: Company
+    meta: dict[str, Any]
+    products: list[ProductTerm]
+    topic_compiled: list[tuple[str, str, re.Pattern[str]]]
+    tightening: list[tuple[str, str, re.Pattern[str]]]
+    easing: list[tuple[str, str, re.Pattern[str]]]
+    stable: list[tuple[str, str, re.Pattern[str]]]
+    positive: list[tuple[str, str, re.Pattern[str]]]
+    negative: list[tuple[str, str, re.Pattern[str]]]
+    prior_texts: list[tuple[str, str]]
+    extracted_at: str
+
+
+def extract_from_section(
+    ctx: ExtractContext,
+    section: str,
+    raw_path: Path,
+    text: str,
+) -> list[dict[str, Any]]:
+    sentences = split_sentences(text)
+    rows: list[dict[str, Any]] = []
+    seen: set[tuple[int, int, str]] = set()
+
+    # Prefer shortest qualifying window per (start_sentence, family).
+    best: dict[tuple[int, str], tuple[int, dict[str, Any]]] = {}
+
+    for sent_i, width, passage, char_start, char_end in passage_windows(sentences, 3):
+        product_hits = find_product_hits(passage, ctx.products)
+        if not product_hits:
+            continue
+        topic_hit = first_topic(ctx.topic_compiled, passage)
+        if topic_hit is None:
+            continue
+
+        # Unique families in this passage (first hit per family).
+        families: dict[str, TermHit] = {}
+        for hit in product_hits:
+            _cat, fam = hit.label.split("/", 1)
+            if fam not in families:
+                families[fam] = hit
+
+        for fam, phit in families.items():
+            category = phit.label.split("/", 1)[0]
+            direction, conflict, dir_hits = pick_direction(
+                passage,
+                phit.start,
+                ctx.tightening,
+                ctx.easing,
+                ctx.stable,
+            )
+            # Gate: require tightening or easing (or stable) direction term.
+            if direction == "unclear" or not dir_hits:
+                continue
+
+            # Product mention must be near a direction or topic hit so we do not
+            # tag a family that only co-occurs in a long 3-sentence window.
+            def _near(hit: TermHit, limit: int = 160) -> bool:
+                return min(abs(hit.start - phit.start), abs(hit.end - phit.end)) <= limit
+
+            if not any(_near(h) for h in dir_hits) and not _near(topic_hit):
+                continue
+
+            # Materials / input shortages are not memory-product supply signals.
+            if re.search(r"\brare earth\b|\braw materials?\b|\bminerals?\b", passage, re.I):
+                if fam in {"Memory_general", "DRAM_general", "NAND_general"}:
+                    continue
+
+            # Accounting policy text mentioning write-downs is not a market signal.
+            if re.search(
+                r"net realizable value|lower of cost|GAAP provides|unit of account",
+                passage,
+                re.I,
+            ):
+                continue
+
+            # Direction must be near the product mention (topic alone is not enough).
+            if not any(_near(h, 180) for h in dir_hits):
+                continue
+
+            sentiment, sent_hits = pick_sentiment(passage, ctx.positive, ctx.negative)
+
+            excerpt = text[char_start:char_end]
+            if len(excerpt) > 1200:
+                excerpt = excerpt[:1200]
+                char_end = char_start + len(excerpt)
+
+            key = (sent_i, fam)
+            row = _build_row(
+                ctx,
+                section=section,
+                raw_path=raw_path,
+                excerpt=excerpt,
+                char_start=char_start,
+                char_end=char_end,
+                category=category,
+                family=fam,
+                topic=topic_hit.label,
+                direction=direction,
+                conflict=conflict,
+                sentiment=sentiment,
+                product_hit=phit,
+                topic_hit=topic_hit,
+                dir_hits=dir_hits,
+                sent_hits=sent_hits,
+            )
+            prev = best.get(key)
+            if prev is None or width < prev[0]:
+                best[key] = (width, row)
+
+    candidates = [row for _width, row in best.values()]
+    # Collapse heavily overlapping same-family windows (sliding 1–3 sentence starts).
+    candidates.sort(key=lambda r: (r["product_family"], int(r["char_start"]), int(r["char_end"])))
+    kept: list[dict[str, Any]] = []
+    for row in candidates:
+        start, end = int(row["char_start"]), int(row["char_end"])
+        family = row["product_family"]
+        overlap_idx = None
+        for i, prev in enumerate(kept):
+            if prev["product_family"] != family:
+                continue
+            ps, pe = int(prev["char_start"]), int(prev["char_end"])
+            overlap = max(0, min(end, pe) - max(start, ps))
+            span = max(end - start, pe - ps, 1)
+            if overlap / span >= 0.55:
+                overlap_idx = i
+                break
+        if overlap_idx is None:
+            kept.append(row)
+            continue
+        # Prefer the longer excerpt (more context) when windows overlap.
+        prev = kept[overlap_idx]
+        if (end - start) > (int(prev["char_end"]) - int(prev["char_start"])):
+            kept[overlap_idx] = row
+
+    for row in kept:
+        dedupe_key = (int(row["char_start"]), int(row["char_end"]), row["product_family"])
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+        rows.append(row)
+    return rows
+
+
+def _build_row(
+    ctx: ExtractContext,
+    *,
+    section: str,
+    raw_path: Path,
+    excerpt: str,
+    char_start: int,
+    char_end: int,
+    category: str,
+    family: str,
+    topic: str,
+    direction: str,
+    conflict: bool,
+    sentiment: str,
+    product_hit: TermHit,
+    topic_hit: TermHit,
+    dir_hits: list[TermHit],
+    sent_hits: list[TermHit],
+) -> dict[str, Any]:
+    meta = ctx.meta
+    source_url = meta["source_url"]
+    rel_raw = str(raw_path.relative_to(REPO_ROOT)).replace("\\", "/")
+    sid = signal_id(source_url, char_start, char_end, family)
+    matched = [
+        f"product:{product_hit.term}",
+        f"topic:{topic_hit.term}",
+    ]
+    if dir_hits:
+        matched.append(f"dir:{dir_hits[0].term}")
+    if sent_hits:
+        matched.append(f"sent:{sent_hits[0].term}")
+    repeat = find_prior_repeat(excerpt, ctx.prior_texts)
+    return {
+        "signal_id": sid,
+        "company": ctx.company.name,
+        "ticker_or_code": ctx.company.ticker,
+        "role": ctx.company.role,
+        "source": ctx.company.source,
+        "form": meta.get("form", "10-K"),
+        "filing_date": meta.get("filing_date", ""),
+        "filing_id": meta.get("accession_number", ""),
+        "section": section,
+        "product_category": category,
+        "product_family": family,
+        "topic": topic,
+        "supply_direction": direction,
+        "sentiment": sentiment,
+        "direction_conflict": "true" if conflict else "false",
+        "matched_terms": "; ".join(matched),
+        "excerpt": excerpt.replace("\n", " ").strip(),
+        "language": "en",
+        "char_start": str(char_start),
+        "char_end": str(char_end),
+        "raw_path": rel_raw,
+        "source_url": source_url,
+        "repeat_of": repeat,
+        "lookback_months": str(meta.get("lookback_months", "")),
+        "window_start": meta.get("window_start", ""),
+        "window_end": meta.get("window_end", ""),
+        "extractor_version": EXTRACTOR_VERSION,
+        "extracted_at": ctx.extracted_at,
+    }
+
+
+def latest_meta_for_ticker(raw_root: Path, ticker: str) -> tuple[Path, dict[str, Any]]:
+    ticker_dir = raw_root / ticker.upper()
+    if not ticker_dir.is_dir():
+        raise FileNotFoundError(f"No cached filings under {ticker_dir}")
+    metas: list[tuple[Path, dict[str, Any]]] = []
+    for child in ticker_dir.iterdir():
+        meta_path = child / "meta.json"
+        if not meta_path.is_file():
+            continue
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        # Prefer filings that are not marked prior_only
+        metas.append((child, meta))
+    if not metas:
+        raise FileNotFoundError(f"No meta.json under {ticker_dir}")
+
+    # Latest non-prior filing first
+    current = [m for m in metas if not m[1].get("prior_only")]
+    pool = current or metas
+    pool.sort(key=lambda m: m[1].get("filing_date", ""), reverse=True)
+    return pool[0]
+
+
+def fetch_prior_10k_if_needed(
+    company: Company,
+    settings: dict[str, Any],
+    current_meta: dict[str, Any],
+    session: RateLimitedSession,
+) -> dict[str, Any] | None:
+    """Fetch the previous 10-K for repeat_of comparison only (no signal extraction)."""
+    edgar = settings["edgar"]
+    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+    cik = current_meta.get("cik") or lookup_cik(
+        session, edgar["company_tickers_url"], company.ticker
+    )
+    submissions_url = edgar["submissions_url_template"].format(cik=int(cik))
+    submissions = session.get(submissions_url).json()
+    filings = [
+        row
+        for row in iter_recent_filings(submissions)
+        if row["form"] in ("10-K", "10-K/A")
+    ]
+    filings.sort(key=lambda r: r["filingDate"], reverse=True)
+    current_acc = current_meta["accession_number"]
+    prior = None
+    for row in filings:
+        if row["accessionNumber"] == current_acc:
+            continue
+        if parse_filing_date(row["filingDate"]) < parse_filing_date(
+            current_meta["filing_date"]
+        ):
+            prior = row
+            break
+    if prior is None:
+        return None
+
+    # Reuse fetch_company_10k machinery by temporarily selecting that accession:
+    # call lower-level cache write via a one-off fetch.
+    from src.fetch_edgar import archive_url, cache_dir, write_sections
+    from src.sections import split_filing
+
+    url = archive_url(
+        cik,
+        prior["accessionNumber"],
+        prior["primaryDocument"],
+        edgar["archives_url_template"],
+    )
+    dest = cache_dir(raw_root, company.ticker, prior["accessionNumber"])
+    meta_path = dest / "meta.json"
+    if meta_path.is_file() and (dest / "other_full.txt").is_file():
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        meta["prior_only"] = True
+        meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+        return meta
+
+    print(f"Fetching prior 10-K {prior['accessionNumber']} for repeat_of only…")
+    html = session.get(url).text
+    sections = split_filing(html)
+    paths = write_sections(dest, html, sections)
+    lookback = int(settings["lookback_months"])
+    # Window fields on prior meta are informational only.
+    w_start, w_end = window_bounds(lookback)
+    meta = {
+        "company": company.name,
+        "ticker": company.ticker,
+        "cik": cik if isinstance(cik, str) else f"{int(cik):010d}",
+        "form": prior["form"],
+        "filing_date": prior["filingDate"],
+        "accession_number": prior["accessionNumber"],
+        "primary_document": prior["primaryDocument"],
+        "source_url": url,
+        "lookback_months": lookback,
+        "window_start": w_start.isoformat(),
+        "window_end": w_end.isoformat(),
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "prior_only": True,
+        "sections_present": sorted(k for k in sections) ,
+        "paths": {k: str(v.relative_to(REPO_ROOT)) for k, v in paths.items()},
+    }
+    meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
+    return meta
+
+
+def extract_ticker(
+    ticker: str,
+    *,
+    settings: dict[str, Any],
+    companies_path: Path,
+    taxonomy_path: Path,
+    supply_path: Path,
+    out_path: Path,
+    fetch_prior: bool = True,
+) -> list[dict[str, Any]]:
+    companies = {c.ticker: c for c in load_companies(companies_path)}
+    if ticker not in companies:
+        raise SystemExit(f"Ticker {ticker} not in {companies_path}")
+    company = companies[ticker]
+    raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+    cache_dir_path, meta = latest_meta_for_ticker(raw_root, ticker)
+
+    prior_texts: list[tuple[str, str]] = []
+    if fetch_prior:
+        ua = resolve_user_agent()
+        max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
+        session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
+        prior_meta = fetch_prior_10k_if_needed(company, settings, meta, session)
+        if prior_meta:
+            prior_dir = raw_root / ticker / prior_meta["accession_number"].replace("-", "")
+            for key, fname in SECTION_FILES.items():
+                p = prior_dir / fname
+                if p.is_file():
+                    prior_texts.append(
+                        (prior_meta["source_url"], p.read_text(encoding="utf-8"))
+                    )
+            other = prior_dir / "other_full.txt"
+            if other.is_file():
+                prior_texts.append(
+                    (prior_meta["source_url"], other.read_text(encoding="utf-8"))
+                )
+
+    products = load_taxonomy(taxonomy_path)
+    supply = load_supply_terms(supply_path)
+    topic_compiled = compile_term_map(supply.get("topics") or {})
+    tightening = compile_term_map({"tightening": (supply.get("direction") or {}).get("tightening") or []})
+    easing = compile_term_map({"easing": (supply.get("direction") or {}).get("easing") or []})
+    stable = compile_term_map({"stable": (supply.get("direction") or {}).get("stable") or []})
+    positive = compile_term_map({"positive": (supply.get("sentiment") or {}).get("positive") or []})
+    negative = compile_term_map({"negative": (supply.get("sentiment") or {}).get("negative") or []})
+
+    ctx = ExtractContext(
+        company=company,
+        meta=meta,
+        products=products,
+        topic_compiled=topic_compiled,
+        tightening=tightening,
+        easing=easing,
+        stable=stable,
+        positive=positive,
+        negative=negative,
+        prior_texts=prior_texts,
+        extracted_at=datetime.now(timezone.utc).isoformat(),
+    )
+
+    rows: list[dict[str, Any]] = []
+    for section, fname in SECTION_FILES.items():
+        path = cache_dir_path / fname
+        if not path.is_file():
+            print(f"Warning: missing {path}", file=sys.stderr)
+            continue
+        text = path.read_text(encoding="utf-8")
+        rows.extend(extract_from_section(ctx, section, path, text))
+
+    # Stable output order: section, char_start, family
+    section_order = {"business": 0, "risk_factors": 1, "mdna": 2, "other": 3}
+    rows.sort(
+        key=lambda r: (
+            section_order.get(r["section"], 9),
+            int(r["char_start"]),
+            r["product_family"],
+        )
+    )
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=SIGNAL_COLUMNS)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({k: row.get(k, "") for k in SIGNAL_COLUMNS})
+    return rows
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Extract Memory Signals from cached filings")
+    parser.add_argument("--ticker", default="MU")
+    parser.add_argument("--settings", type=Path, default=REPO_ROOT / "config" / "settings.yaml")
+    parser.add_argument("--companies", type=Path, default=REPO_ROOT / "config" / "companies.yaml")
+    parser.add_argument(
+        "--taxonomy", type=Path, default=REPO_ROOT / "config" / "product_taxonomy.yaml"
+    )
+    parser.add_argument(
+        "--supply-terms", type=Path, default=REPO_ROOT / "config" / "supply_terms.yaml"
+    )
+    parser.add_argument("--out", type=Path, default=REPO_ROOT / "data" / "signals.csv")
+    parser.add_argument(
+        "--no-fetch-prior",
+        action="store_true",
+        help="Skip fetching the prior-year 10-K for repeat_of",
+    )
+    args = parser.parse_args(argv)
+
+    settings = load_yaml(args.settings)
+    rows = extract_ticker(
+        args.ticker.upper(),
+        settings=settings,
+        companies_path=args.companies,
+        taxonomy_path=args.taxonomy,
+        supply_path=args.supply_terms,
+        out_path=args.out,
+        fetch_prior=not args.no_fetch_prior,
+    )
+    print(f"Wrote {len(rows)} signals to {args.out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
