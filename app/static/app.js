@@ -122,6 +122,16 @@
       tab.setAttribute("aria-selected", on ? "true" : "false");
       panel.hidden = !on;
     }
+    if (selected === $("#tab-feed")) renderCard();
+    if (selected === $("#tab-families")) renderFamilies();
+  }
+  function showTab(name) {
+    const map = {
+      feed: $("#tab-feed"),
+      map: $("#tab-map"),
+      families: $("#tab-families"),
+    };
+    if (map[name]) selectTab(map[name]);
   }
   for (const { tab } of tabDefs) {
     if (tab) tab.addEventListener("click", () => selectTab(tab));
@@ -403,14 +413,120 @@
     else fillFilters();
   }
 
-  // Expose helpers for Prompt 3 checks / debugging
-  window.__ms = { fragment, latest, highlight, label };
+  function lookbackWindow() {
+    const starts = SIGNALS.map((s) => s.window_start).filter(Boolean).sort();
+    const ends = SIGNALS.map((s) => s.window_end).filter(Boolean).sort();
+    if (!starts.length || !ends.length) return "n/a";
+    return `${starts[0]} to ${ends[ends.length - 1]}`;
+  }
+
+  function renderFamilies() {
+    const body = $("#fam-rows");
+    const win = $(".win");
+    if (win) win.textContent = lookbackWindow();
+    if (!body) return;
+    body.replaceChildren();
+    if (!SIGNALS.length) {
+      const tr = el("tr");
+      const td = el("td", null, "No signals loaded.");
+      td.colSpan = 7;
+      tr.append(td);
+      body.append(tr);
+      return;
+    }
+
+    const fams = new Map();
+    for (const s of SIGNALS) {
+      const key = s.product_family || "(unknown)";
+      const f =
+        fams.get(key) || {
+          family: key,
+          category: s.product_category || "",
+          tightening: 0,
+          easing: 0,
+          stable: 0,
+          unclear: 0,
+          supplier: 0,
+          buyer: 0,
+          latest: "",
+        };
+      const dir = s.supply_direction || "unclear";
+      f[dir] = (f[dir] || 0) + 1;
+      const role = (s.role || "").toLowerCase();
+      if (role === "supplier") f.supplier += 1;
+      else if (role === "buyer") f.buyer += 1;
+      const ls = latest(s);
+      if (ls > f.latest) f.latest = ls;
+      fams.set(key, f);
+    }
+
+    const values = [...fams.values()];
+    const max = Math.max(
+      1,
+      ...values.map((f) => Math.max(f.tightening || 0, f.easing || 0))
+    );
+    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    values
+      .sort(
+        (a, b) =>
+          (CAT[a.category] ?? 9) - (CAT[b.category] ?? 9) ||
+          b.tightening + b.easing - (a.tightening + a.easing) ||
+          a.family.localeCompare(b.family)
+      )
+      .forEach((f) => {
+        const tr = el("tr");
+        tr.tabIndex = 0;
+        tr.dataset.family = f.family;
+        const bar = (n, color) => {
+          const td = el("td", "num");
+          const b = el("span", "bar");
+          b.style.width = `${Math.round((n / max) * 60)}px`;
+          b.style.background = color;
+          if (n) td.append(b);
+          td.append(String(n));
+          return td;
+        };
+        tr.append(
+          el("td", null, label(f.family)),
+          el("td", null, f.category),
+          bar(f.tightening || 0, "var(--tight)"),
+          bar(f.easing || 0, "var(--ease)"),
+          el("td", "num", String(f.supplier)),
+          el("td", "num", String(f.buyer)),
+          el("td", "mono", f.latest)
+        );
+        const go = () => {
+          FILTERS.forEach(([id]) => {
+            const sel = $("#f-" + id);
+            if (sel) sel.value = "";
+          });
+          const famSel = $("#f-family");
+          if (famSel) famSel.value = f.family;
+          skipped = new Set();
+          showTab("feed");
+          renderCard();
+        };
+        tr.addEventListener("click", go);
+        tr.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            go();
+          }
+        });
+        body.append(tr);
+      });
+  }
+
+  // Expose helpers for checks / debugging
+  window.__ms = { fragment, latest, highlight, label, renderFamilies, showTab };
 
   (async () => {
     try {
       await loadSignals();
       await loadUserVotes();
       renderCard();
+      renderFamilies();
+      if (location.hash === "#families") showTab("families");
     } catch (err) {
       console.error(err);
       const card = $("#signal-card");
@@ -422,3 +538,4 @@
     }
   })();
 })();
+

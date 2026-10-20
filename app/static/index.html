@@ -144,10 +144,27 @@
             class="panel"
             hidden
           >
-            <h2>Families</h2>
-            <p class="empty" style="padding: 16px 0; margin: 0">
-              Family table arrives in Prompt 4.
+            <h2>Signals per product family</h2>
+            <p class="hint" style="margin: 0">
+              Plain counts of de-duplicated signals, not a score. Window
+              <span class="win">…</span>. Click a family to open it in the feed.
             </p>
+            <div class="scroll">
+              <table class="fam">
+                <thead>
+                  <tr>
+                    <th>Family</th>
+                    <th>Category</th>
+                    <th class="num">Tightening</th>
+                    <th class="num">Easing</th>
+                    <th class="num">Suppliers</th>
+                    <th class="num">Buyers</th>
+                    <th>Latest</th>
+                  </tr>
+                </thead>
+                <tbody id="fam-rows"></tbody>
+              </table>
+            </div>
           </section>
         </main>
       </div>

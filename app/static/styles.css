@@ -320,6 +320,49 @@ a {
   text-align: center;
   color: var(--muted);
 }
+.scroll {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+td.mono {
+  font-family: var(--f-mono);
+  font-size: 12px;
+}
+.fam tbody tr {
+  cursor: pointer;
+}
+.fam tbody tr:hover {
+  background: var(--bg);
+}
+.fam td.num,
+.fam th.num {
+  text-align: right;
+}
+.bar {
+  display: inline-block;
+  height: 8px;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
 .theme-toggle {
   font: inherit;
   font-size: 12px;
