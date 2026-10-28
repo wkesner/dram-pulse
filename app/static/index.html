@@ -90,8 +90,10 @@
           </label>
           <label for="f-direction"
             >Supply direction
-            <select id="f-direction">
+            <select id="f-direction" title="Corpus value easing = loosening">
               <option value="">Any direction</option>
+              <option value="tightening">Tightening</option>
+              <option value="easing">Easing (loosening)</option>
             </select>
           </label>
           <label for="f-company"
@@ -189,7 +191,7 @@
                   </div>
                 </div>
                 <div class="ms-tile">
-                  <div class="ms-tile-label">Point to easing supply</div>
+                  <div class="ms-tile-label">Point to easing (loosening)</div>
                   <div class="ms-tile-value" id="ms-v-easing">—</div>
                   <div class="ms-tile-sub">Oversupply, falling prices</div>
                 </div>
@@ -205,8 +207,9 @@
                   <h2>Supply direction by product family</h2>
                   <p class="ms-note">
                     Signals per family. Bars to the right point to tightening
-                    supply, bars to the left to easing. Darker segments come from
-                    memory suppliers, lighter ones from buyers.
+                    supply, bars to the left to easing (loosening). Darker
+                    segments come from memory suppliers, lighter ones from
+                    buyers.
                   </p>
                   <div class="ms-legend">
                     <span
@@ -218,10 +221,12 @@
                       buyer</span
                     >
                     <span
-                      ><i style="background: var(--ease)"></i>Easing, supplier</span
+                      ><i style="background: var(--ease)"></i>Easing
+                      (loosening), supplier</span
                     >
                     <span
-                      ><i style="background: var(--ease-2)"></i>Easing, buyer</span
+                      ><i style="background: var(--ease-2)"></i>Easing
+                      (loosening), buyer</span
                     >
                   </div>
                   <div class="ms-chart" id="family-chart"></div>
@@ -230,14 +235,18 @@
                 <section class="ms-card" id="by-month">
                   <h2>Signals by filing month</h2>
                   <p class="ms-note">
-                    Tightening above the line, easing below. Counts are
-                    <b>sightings</b> by filing month across the lookback window.
+                    Tightening above the line, easing (loosening) below. Counts
+                    are <b>sightings</b> by filing month across the lookback
+                    window.
                   </p>
                   <div class="ms-legend">
                     <span
                       ><i style="background: var(--tight)"></i>Tightening</span
                     >
-                    <span><i style="background: var(--ease)"></i>Easing</span>
+                    <span
+                      ><i style="background: var(--ease)"></i>Easing
+                      (loosening)</span
+                    >
                   </div>
                   <div class="ms-chart" id="month-chart"></div>
                 </section>
@@ -296,7 +305,7 @@
                     <th>Family</th>
                     <th>Category</th>
                     <th class="num">Tightening</th>
-                    <th class="num">Easing</th>
+                    <th class="num">Easing (loosening)</th>
                     <th class="num">Suppliers</th>
                     <th class="num">Buyers</th>
                     <th>Latest</th>

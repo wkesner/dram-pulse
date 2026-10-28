@@ -107,7 +107,7 @@
       .attr("x", x(0) - 6)
       .attr("y", 12)
       .attr("text-anchor", "end")
-      .text("← Easing");
+      .text("← Easing (loosening)");
     svg
       .append("text")
       .attr("class", "ms-tick")
@@ -226,11 +226,11 @@
           ],
           [
             ms.COL.easing.supplier,
-            `Easing, supplier: ${ms.fmt(d.easing.supplier)}`,
+            `Easing (loosening), supplier: ${ms.fmt(d.easing.supplier)}`,
           ],
           [
             ms.COL.easing.buyer,
-            `Easing, buyer: ${ms.fmt(d.easing.buyer)}`,
+            `Easing (loosening), buyer: ${ms.fmt(d.easing.buyer)}`,
           ],
         ])
       )
@@ -366,7 +366,7 @@
           ],
           [
             ms.COL.easing.supplier,
-            `Easing: ${ms.fmt(counts.get(m)?.easing || 0)}`,
+            `Easing (loosening): ${ms.fmt(counts.get(m)?.easing || 0)}`,
           ],
         ])
       )
