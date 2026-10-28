@@ -119,7 +119,15 @@ def test_aggregate_events_have_no_org_or_user_pii(clerk_env):
     assert resp.json()["count"] >= 1
 
 
-def test_clerk_mode_rejects_missing_auth(clerk_env):
+def test_clerk_mode_rejects_missing_auth(clerk_env, monkeypatch):
+    # Simulate an unconfigured clerk instance regardless of the worker .env.
+    # Use empty strings (not delenv): load_dotenv only fills keys that are unset.
+    monkeypatch.setenv("AUTH_MODE", "clerk")
+    monkeypatch.setenv("CLERK_PUBLISHABLE_KEY", "")
+    monkeypatch.setenv("CLERK_SECRET_KEY", "")
+    monkeypatch.setenv("CLERK_ISSUER", "")
+    monkeypatch.setenv("CLERK_JWT_KEY", "")
+
     app = create_app(
         signals_path=clerk_env["signals"],
         sightings_path=clerk_env["sightings"],
@@ -136,6 +144,7 @@ def test_clerk_mode_rejects_missing_auth(clerk_env):
     # No keys + no resolver → 503 configuration error
     resp = client.get("/api/signals")
     assert resp.status_code == 503
+    assert "not configured" in resp.json()["detail"].lower() or "CLERK" in resp.json()["detail"]
 
 
 def test_bootstrap_seeds_corpus(clerk_env):

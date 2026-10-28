@@ -1,6 +1,7 @@
 /**
  * Clerk browser helpers for AUTH_MODE=clerk.
- * Loads @clerk/clerk-js when a publishable key is present.
+ * Aligns with Clerk JS CDN quickstart (clerk-js@6 + @clerk/ui):
+ * https://clerk.com/docs/js-frontend/getting-started/quickstart
  */
 (() => {
   const state = {
@@ -19,27 +20,68 @@
     return resp.json();
   }
 
-  function loadScript(src) {
+  function loadScript(src, attrs) {
     return new Promise((resolve, reject) => {
       const s = document.createElement("script");
       s.src = src;
       s.async = true;
+      s.crossOrigin = "anonymous";
+      if (attrs) {
+        for (const [k, v] of Object.entries(attrs)) {
+          s.setAttribute(k, v);
+        }
+      }
       s.onload = () => resolve();
       s.onerror = () => reject(new Error("failed to load " + src));
       document.head.appendChild(s);
     });
   }
 
-  async function ensureClerk(publishableKey) {
-    if (window.Clerk && window.Clerk.loaded) return window.Clerk;
+  /** Derive Frontend API host from pk_test_/pk_live_ (Clerk JS quickstart). */
+  function frontendApiFromPublishableKey(pk) {
+    try {
+      const encoded = pk.split("_").slice(2).join("_");
+      const decoded = atob(encoded);
+      return decoded.replace(/\$$/, "").replace(/^https?:\/\//, "");
+    } catch {
+      return "";
+    }
+  }
+
+  async function ensureClerk(publishableKey, issuer) {
+    if (window.Clerk && state.clerk) return window.Clerk;
+
+    let fapi = "";
+    if (issuer) {
+      try {
+        fapi = new URL(issuer).host;
+      } catch {
+        fapi = String(issuer)
+          .replace(/^https?:\/\//, "")
+          .replace(/\/$/, "");
+      }
+    }
+    if (!fapi) fapi = frontendApiFromPublishableKey(publishableKey);
+    if (!fapi) throw new Error("cannot resolve Clerk Frontend API host");
+
+    // Official CDN pattern: UI bundle then clerk-js@6 with data-clerk-publishable-key
+    if (!window.__internal_ClerkUICtor) {
+      await loadScript(
+        `https://${fapi}/npm/@clerk/ui@1/dist/ui.browser.js`
+      );
+    }
     if (!window.Clerk) {
       await loadScript(
-        "https://cdn.jsdelivr.net/npm/@clerk/clerk-js@5/dist/clerk.browser.js"
+        `https://${fapi}/npm/@clerk/clerk-js@6/dist/clerk.browser.js`,
+        { "data-clerk-publishable-key": publishableKey }
       );
     }
     const clerk = window.Clerk;
-    if (!clerk) throw new Error("Clerk global missing");
-    await clerk.load({ publishableKey });
+    if (!clerk) throw new Error("Clerk global missing after CDN load");
+    await clerk.load({
+      publishableKey,
+      ui: { ClerkUI: window.__internal_ClerkUICtor },
+    });
     return clerk;
   }
 
@@ -93,6 +135,7 @@
     orgBtn.id = "clerk-org-switcher";
     row.append(orgBtn, userBtn);
     host.append(row);
+    // Organizations: switcher next to UserButton (Clerk SKILL "After setup")
     clerk.mountOrganizationSwitcher(orgBtn, {
       createOrganizationMode: "modal",
       organizationProfileMode: "modal",
@@ -126,13 +169,16 @@
       if (banner) {
         banner.hidden = false;
         banner.textContent =
-          "Clerk mode is on, but keys are missing. Add CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY, and CLERK_ISSUER to .env (see .env.example), enable Organizations in the Clerk dashboard, then restart uvicorn.";
+          "Clerk mode is on, but keys are missing. Run: npx clerk@latest auth login && npx clerk@latest link --app <id> && npx clerk@latest env pull --file .env — then set AUTH_MODE=clerk and restart uvicorn.";
       }
       return { mode: "clerk", configured: false };
     }
     if (banner) banner.hidden = true;
 
-    const clerk = await ensureClerk(cfg.clerk_publishable_key);
+    const clerk = await ensureClerk(
+      cfg.clerk_publishable_key,
+      cfg.clerk_issuer || ""
+    );
     state.clerk = clerk;
     await refreshSession(clerk);
     mountChrome(clerk);

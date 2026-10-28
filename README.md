@@ -106,29 +106,29 @@ python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 
 Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
 
-For the multi-org demo (`AUTH_MODE=clerk`):
-
-1. Create a Clerk application; enable **Organizations**, **email verification**, and bot/CAPTCHA protection (see agent store `docs/MULTI-ORG-DEMO.md`).
-2. Put keys in gitignored `.env` (never commit them):
+For the multi-org demo, prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
 
 ```bash
-AUTH_MODE=clerk
-CLERK_PUBLISHABLE_KEY=pk_test_…
-CLERK_SECRET_KEY=sk_test_…
-CLERK_ISSUER=https://your-instance.clerk.accounts.dev
-OPERATOR_TOKEN=long-random-string   # optional operator aggregates
+npx -y clerk@latest auth login
+npx -y clerk@latest apps list --json          # if several apps, pick one id
+npx -y clerk@latest link --app <application_id>
+npx -y clerk@latest env pull --file .env      # publishable + secret only
+npx -y clerk@latest enable orgs
+# then ensure:
+#   AUTH_MODE=clerk
+#   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
+#   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
+#   OPERATOR_TOKEN=…   # optional
 ```
 
-3. Install deps and run:
+Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.
 
 ```bash
 pip install -r requirements.txt
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
-4. Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
-
-Without Clerk keys, the UI shows a setup banner; live login will not work until William adds keys and restarts.
+Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
 
 Isolation tests: `pytest tests/test_clerk_isolation.py`.
 

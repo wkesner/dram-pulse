@@ -26,3 +26,9 @@ data/aggregates/**
 .DS_Store
 .pytest_cache/
 .mypy_cache/
+
+.env.clerk.pulled
+
+.env.local
+
+.clerk/

@@ -28,7 +28,9 @@ from app.clerk_auth import (
     ClerkSession,
     SessionResolver,
     auth_mode,
+    clerk_authorized_parties,
     clerk_configured,
+    clerk_issuer,
     clerk_publishable_key,
     verify_clerk_session_token,
 )
@@ -335,6 +337,8 @@ def create_app(
             "auth_mode": mode,
             "clerk_configured": clerk_configured() if mode == "clerk" else False,
             "clerk_publishable_key": clerk_publishable_key() if mode == "clerk" else "",
+            "clerk_issuer": clerk_issuer() if mode == "clerk" else "",
+            "authorized_parties": clerk_authorized_parties() if mode == "clerk" else [],
             "requires_org": mode == "clerk",
         }
 
