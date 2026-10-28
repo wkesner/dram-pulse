@@ -20,6 +20,26 @@ companies:
       - 8-K
       - 6-K
 
+  # Korean filings via OpenDART (Milestone 5). Cached under data/raw/000660/.
+  - name: SK hynix
+    role: supplier
+    source: DART
+    ticker: "000660"
+    krx_code: "000660"
+
+  - name: Samsung Electronics
+    role: supplier
+    source: DART
+    ticker: "005930"
+    krx_code: "005930"
+
+  # English IR PDFs (hand list in config/ir_documents.yaml); ticker matches DART cache root.
+  - name: Samsung Electronics
+    role: supplier
+    source: IR
+    ticker: "005930"
+    krx_code: "005930"
+
   - name: Apple
     role: buyer
     source: EDGAR

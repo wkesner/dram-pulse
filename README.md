@@ -71,6 +71,24 @@ Legacy Streamlit prototype (optional): `streamlit run app.py`.
 - **Feed**: signal cards with sightings expander, 👍 / 👎 / Skip. Votes append to `data/votes.csv` (file-locked); tallies use each user’s latest vote.
 - **Family view**: plain counts per product family (signals, not sightings). Header shows the lookback window.
 
+## Milestone 5 — OpenDART + Samsung IR
+
+Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
+
+```bash
+# Put the 40-character OpenDART key in gitignored .env (never commit it):
+# DART_API_KEY=...
+cp .env.example .env   # then edit
+
+python3 -m src.fetch_dart          # Samsung 005930 + SK hynix 000660
+python3 -m src.fetch_ir            # URLs in config/ir_documents.yaml
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+python3 -m src.extract --all --no-fetch-prior
+python3 -m src.verify              # must be 100%
+```
+
+`document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
+
 ---
 
 # DRAM Signal Pipeline

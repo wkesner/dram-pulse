@@ -84,7 +84,7 @@ Notes:
 - Get a key at opendart.fss.or.kr (email signup; the key is 40 characters). Put it in `.env` as `DART_API_KEY`, never in the repo.
 - `GET https://opendart.fss.or.kr/api/corpCode.xml?crtfc_key=...` returns a ZIP containing `CORPCODE.xml`. Cache it, and map stock code to the 8-digit `corp_code`.
 - `GET https://opendart.fss.or.kr/api/list.json` with `crtfc_key, corp_code, bgn_de, end_de, pblntf_ty, page_no, page_count` returns filings with `rcept_no`.
-- Original document: `document.xml?crtfc_key=...&rcept_no=...` (returns a ZIP). **Not yet confirmed. Check against the official OpenDART guide before building.**
+- Original document: `document.xml?crtfc_key=...&rcept_no=...` returns a **ZIP** (binary). Confirmed against the official OpenDART guide (apiId 2019003 / DS001): response is a Zip FILE; browsers that force a `.xml` download should be renamed to `.zip` before opening.
 - Scope: periodic reports (business, half-year and quarterly reports) and major-event disclosures inside the lookback window.
 - Language: store the Korean text as-is, with `language = ko`. Match against a Korean term list (below). Translation is a later milestone.
 

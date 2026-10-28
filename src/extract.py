@@ -39,7 +39,7 @@ from src.fetch_edgar import (
     window_bounds,
 )
 
-EXTRACTOR_VERSION = "0.2.0"
+EXTRACTOR_VERSION = "0.3.0"
 SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 
 SECTION_FILES = {
@@ -55,6 +55,9 @@ PERIODIC_FORMS = {"10-K", "10-K/A", "10-Q", "10-Q/A"}
 _SENTENCE_SPLIT = re.compile(
     r"(?<=[.!?])\s+(?=[A-Z\"'(\[])|(?<=\n)\s*(?=[A-Z][a-z])"
 )
+# Korean / CJK: split on .!?。 and blank lines (no Latin capital cue).
+_SENTENCE_SPLIT_KO = re.compile(r"(?<=[.!?。])\s+|(?:\n\s*)+")
+_HANGUL = re.compile(r"[\uac00-\ud7a3]")
 _WS = re.compile(r"\s+")
 
 
@@ -120,20 +123,24 @@ def normalize_text(text: str) -> str:
     return _WS.sub(" ", text).strip().lower()
 
 
+def _text_is_korean(text: str) -> bool:
+    sample = text[:8000]
+    if not sample:
+        return False
+    return len(_HANGUL.findall(sample)) >= max(20, len(sample) // 40)
+
+
 def split_sentences(text: str) -> list[tuple[int, int, str]]:
     """Return (start, end, sentence) spans into `text`."""
-    # First split on blank lines / obvious boundaries, then sentence punctuation.
+    splitter = _SENTENCE_SPLIT_KO if _text_is_korean(text) else _SENTENCE_SPLIT
     chunks: list[tuple[int, int, str]] = []
-    # Find non-empty line-runs as coarse blocks, then split each block.
     for block in re.finditer(r"\S(?:.|\n)*?(?=\n\s*\n|\Z)", text):
         block_text = block.group(0)
         base = block.start()
-        parts = _SENTENCE_SPLIT.split(block_text)
-        # Reconstruct offsets carefully
+        parts = splitter.split(block_text)
         cursor = 0
         for part in parts:
             if not part or not part.strip():
-                # advance past the separator whitespace in original
                 m = re.match(r"\s*", block_text[cursor:])
                 cursor += len(m.group(0)) if m else 0
                 continue
@@ -144,12 +151,10 @@ def split_sentences(text: str) -> list[tuple[int, int, str]]:
             end = start + len(part)
             stripped = part.strip()
             if stripped:
-                # Trim leading/trailing whitespace inside the span for cleaner excerpts
                 lead = len(part) - len(part.lstrip())
                 trail = len(part) - len(part.rstrip())
                 chunks.append((start + lead, end - trail, stripped))
             cursor = idx + len(part)
-    # Fallback if nothing found
     if not chunks and text.strip():
         s = text.strip()
         start = text.find(s)
@@ -510,15 +515,22 @@ def _build_row(
         matched.append(f"dir:{dir_hits[0].term}")
     if sent_hits:
         matched.append(f"sent:{sent_hits[0].term}")
+    language = str(meta.get("language") or "").strip().lower()
+    if not language:
+        language = "ko" if str(meta.get("source", "")).upper() == "DART" else "en"
+    source = str(meta.get("source") or ctx.company.source)
+    filing_id = str(
+        meta.get("filing_id") or meta.get("accession_number") or meta.get("rcept_no") or ""
+    )
     return {
         "signal_id": sid,
-        "company": ctx.company.name,
-        "ticker_or_code": ctx.company.ticker,
-        "role": ctx.company.role,
-        "source": ctx.company.source,
+        "company": meta.get("company") or ctx.company.name,
+        "ticker_or_code": meta.get("ticker") or ctx.company.ticker,
+        "role": meta.get("role") or ctx.company.role,
+        "source": source,
         "form": meta.get("form", "10-K"),
         "filing_date": meta.get("filing_date", ""),
-        "filing_id": meta.get("accession_number", ""),
+        "filing_id": filing_id,
         "section": section,
         "product_category": category,
         "product_family": family,
@@ -528,7 +540,7 @@ def _build_row(
         "direction_conflict": "true" if conflict else "false",
         "matched_terms": "; ".join(matched),
         "excerpt": excerpt.replace("\n", " ").strip(),
-        "language": "en",
+        "language": language,
         "char_start": str(char_start),
         "char_end": str(char_end),
         "raw_path": rel_raw,
@@ -660,28 +672,73 @@ def fetch_prior_10k_if_needed(
     return meta
 
 
+def _merge_term_lists(*groups: list[str] | None) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for group in groups:
+        for term in group or []:
+            if term not in seen:
+                seen.add(term)
+                out.append(term)
+    return out
+
+
 def _load_term_banks(
     taxonomy_path: Path, supply_path: Path
 ) -> dict[str, Any]:
     products = load_taxonomy(taxonomy_path)
     supply = load_supply_terms(supply_path)
+    ko = supply.get("korean") or {}
+    ko_topics = ko.get("topics") or {}
+    ko_dir = ko.get("direction") or {}
+    ko_sent = ko.get("sentiment") or {}
+
+    topics: dict[str, list[str]] = {}
+    for label, terms in (supply.get("topics") or {}).items():
+        topics[label] = _merge_term_lists(terms, ko_topics.get(label))
+    for label, terms in ko_topics.items():
+        if label not in topics:
+            topics[label] = list(terms or [])
+
+    direction = supply.get("direction") or {}
+    sentiment = supply.get("sentiment") or {}
     return {
         "products": products,
-        "topic_compiled": compile_term_map(supply.get("topics") or {}),
+        "topic_compiled": compile_term_map(topics),
         "tightening": compile_term_map(
-            {"tightening": (supply.get("direction") or {}).get("tightening") or []}
+            {
+                "tightening": _merge_term_lists(
+                    direction.get("tightening"), ko_dir.get("tightening")
+                )
+            }
         ),
         "easing": compile_term_map(
-            {"easing": (supply.get("direction") or {}).get("easing") or []}
+            {
+                "easing": _merge_term_lists(
+                    direction.get("easing"), ko_dir.get("easing")
+                )
+            }
         ),
         "stable": compile_term_map(
-            {"stable": (supply.get("direction") or {}).get("stable") or []}
+            {
+                "stable": _merge_term_lists(
+                    direction.get("stable"), ko_dir.get("stable")
+                )
+            }
         ),
         "positive": compile_term_map(
-            {"positive": (supply.get("sentiment") or {}).get("positive") or []}
+            {
+                "positive": _merge_term_lists(
+                    sentiment.get("positive"), ko_sent.get("positive")
+                )
+            }
         ),
         "negative": compile_term_map(
-            {"negative": (supply.get("sentiment") or {}).get("negative") or []}
+            {
+                "negative": _merge_term_lists(
+                    sentiment.get("negative"), ko_sent.get("negative")
+                )
+            }
         ),
     }
 
@@ -750,6 +807,18 @@ def extract_filing(
     )
     rows: list[dict[str, Any]] = []
     form = str(meta.get("form", "")).upper()
+    source = str(meta.get("source") or ctx.company.source).upper()
+
+    # DART / IR: full-document text only (no Item 1/1A/7 split).
+    if source in {"DART", "IR"} or form in {"IR-PDF", "DART"}:
+        other = cache_dir_path / "other_full.txt"
+        if other.is_file():
+            rows.extend(
+                extract_from_section(
+                    ctx, "other", other, other.read_text(encoding="utf-8")
+                )
+            )
+        return rows
 
     if form in PERIODIC_FORMS:
         for section, fname in SECTION_FILES.items():
@@ -776,6 +845,19 @@ def extract_filing(
     return rows
 
 
+def _company_for_ticker(companies_path: Path, ticker: str) -> Company:
+    """Prefer EDGAR entry when multiple sources share a ticker; else first match."""
+    want = ticker.upper()
+    matches = [c for c in load_companies(companies_path) if c.ticker == want]
+    if not matches:
+        raise SystemExit(f"Ticker {ticker} not in {companies_path}")
+    for preferred in ("EDGAR", "DART", "IR"):
+        for c in matches:
+            if c.source.upper() == preferred:
+                return c
+    return matches[0]
+
+
 def extract_ticker(
     ticker: str,
     *,
@@ -788,10 +870,7 @@ def extract_ticker(
     write: bool = True,
     session: RateLimitedSession | None = None,
 ) -> list[dict[str, Any]]:
-    companies = {c.ticker: c for c in load_companies(companies_path)}
-    if ticker not in companies:
-        raise SystemExit(f"Ticker {ticker} not in {companies_path}")
-    company = companies[ticker]
+    company = _company_for_ticker(companies_path, ticker)
     raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
     filings = list_metas_for_ticker(raw_root, ticker)
     if not filings:
@@ -799,9 +878,12 @@ def extract_ticker(
         return []
 
     banks = _load_term_banks(taxonomy_path, supply_path)
-    prior_texts = _prior_texts_for_company(
-        company, settings, raw_root, fetch_prior=fetch_prior, session=session
-    )
+    # Prior-year 10-K repeat detection is EDGAR-only.
+    prior_texts: list[tuple[str, str]] = []
+    if company.source.upper() == "EDGAR":
+        prior_texts = _prior_texts_for_company(
+            company, settings, raw_root, fetch_prior=fetch_prior, session=session
+        )
     extracted_at = datetime.now(timezone.utc).isoformat()
 
     rows: list[dict[str, Any]] = []
@@ -881,11 +963,14 @@ def backfill_period_ends(
     for company in companies:
         try:
             cik = lookup_cik(session, edgar["company_tickers_url"], company.ticker)
+            submissions_url = edgar["submissions_url_template"].format(cik=int(cik))
+            submissions = session.get(submissions_url).json()
         except LookupError as exc:
             print(f"  skip period_end backfill {company.ticker}: {exc}", file=sys.stderr)
             continue
-        submissions_url = edgar["submissions_url_template"].format(cik=int(cik))
-        submissions = session.get(submissions_url).json()
+        except Exception as exc:  # noqa: BLE001 — SEC outage / 403
+            print(f"  skip period_end backfill {company.ticker}: {exc}", file=sys.stderr)
+            continue
         by_acc = {
             row["accessionNumber"]: row.get("reportDate") or ""
             for row in iter_recent_filings(submissions)
@@ -952,23 +1037,49 @@ def extract_all(
     sightings_path: Path = SIGHTINGS_PATH,
     fetch_prior: bool = True,
 ) -> list[dict[str, Any]]:
-    companies = [c for c in load_companies(companies_path) if c.source.upper() == "EDGAR"]
+    all_companies = load_companies(companies_path)
+    edgar_companies = [c for c in all_companies if c.source.upper() == "EDGAR"]
+    # Unique tickers across EDGAR / DART / IR (Samsung DART+IR share 005930).
+    tickers: list[str] = []
+    seen: set[str] = set()
+    for c in all_companies:
+        if c.ticker not in seen:
+            seen.add(c.ticker)
+            tickers.append(c.ticker)
+
     ua = resolve_user_agent()
     max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
     session = RateLimitedSession(ua, max_rps=min(max_rps, 8.0))
     raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
 
     print("Backfilling period_end (EDGAR reportDate)…")
-    backfill_period_ends(companies, settings, session)
+    try:
+        backfill_period_ends(edgar_companies, settings, session)
+    except Exception as exc:  # noqa: BLE001 — offline / SEC 403: use cached metas
+        print(f"  period_end backfill skipped: {exc}", file=sys.stderr)
 
-    prior_norms = prior_year_norms_by_company(
-        companies, settings, raw_root, fetch_prior=fetch_prior, session=session
-    )
+    try:
+        prior_norms = prior_year_norms_by_company(
+            edgar_companies,
+            settings,
+            raw_root,
+            fetch_prior=fetch_prior,
+            session=session,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  prior-year norms skipped: {exc}", file=sys.stderr)
+        prior_norms = prior_year_norms_by_company(
+            edgar_companies,
+            settings,
+            raw_root,
+            fetch_prior=False,
+            session=None,
+        )
 
     all_candidates: list[dict[str, Any]] = []
-    for company in companies:
+    for ticker in tickers:
         rows = extract_ticker(
-            company.ticker,
+            ticker,
             settings=settings,
             companies_path=companies_path,
             taxonomy_path=taxonomy_path,
@@ -978,7 +1089,7 @@ def extract_all(
             write=False,
             session=session,
         )
-        print(f"  {company.ticker}: {len(rows)} candidate rows")
+        print(f"  {ticker}: {len(rows)} candidate rows")
         all_candidates.extend(rows)
 
     signals, sightings = finalize_candidates(

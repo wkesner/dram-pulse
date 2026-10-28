@@ -1,0 +1,27 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930",
+  "role": "supplier",
+  "source": "DART",
+  "form": "사업보고서 (2025.12)",
+  "filing_date": "2026-03-10",
+  "accession_number": "20260310002820",
+  "filing_id": "20260310002820",
+  "corp_code": "00126380",
+  "title": "사업보고서 (2025.12)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260310002820",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "ko",
+  "files": [
+    "20260310002820.xml",
+    "20260310002820_00760.xml",
+    "20260310002820_00761.xml"
+  ],
+  "fetched_at": "2026-10-28T16:49:06.983159+00:00",
+  "paths": {
+    "other_full": "data/raw/005930/20260310002820/other_full.txt"
+  }
+}

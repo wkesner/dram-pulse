@@ -1,0 +1,25 @@
+{
+  "company": "SK hynix",
+  "ticker": "000660",
+  "role": "supplier",
+  "source": "DART",
+  "form": "주요사항보고서(자기주식처분결정)",
+  "filing_date": "2026-03-30",
+  "accession_number": "20260330001812",
+  "filing_id": "20260330001812",
+  "corp_code": "00164779",
+  "title": "주요사항보고서(자기주식처분결정)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001812",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "ko",
+  "files": [
+    "20260330001812.xml"
+  ],
+  "fetched_at": "2026-10-28T16:48:54.764453+00:00",
+  "paths": {
+    "other_full": "data/raw/000660/20260330001812/other_full.txt"
+  }
+}
