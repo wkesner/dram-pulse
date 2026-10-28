@@ -1022,6 +1022,33 @@ def _merge_excerpt_en(
     return signals
 
 
+def _enrich_candidate_excerpt_en(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Attach excerpt_en on Korean candidates so cross-source dedupe can match."""
+    need = [
+        c
+        for c in candidates
+        if (c.get("language") or "en").lower() in {"ko", "korean"}
+        and not (c.get("excerpt_en") or "").strip()
+        and (c.get("excerpt") or "").strip()
+    ]
+    if not need:
+        return candidates
+    try:
+        from src.translate_excerpts import _ensure_argos_ko_en, translate_text
+    except Exception:
+        return candidates
+    try:
+        _ensure_argos_ko_en(install=True)
+    except SystemExit:
+        return candidates
+    for c in need:
+        try:
+            c["excerpt_en"] = translate_text(c.get("excerpt") or "", source="ko", target="en")
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: excerpt_en enrich failed: {exc}", file=sys.stderr)
+    return candidates
+
+
 def finalize_candidates(
     candidates: list[dict[str, Any]],
     *,
@@ -1032,6 +1059,8 @@ def finalize_candidates(
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
     prior_en = _prior_excerpt_en_by_id(signals_path)
+    # Cross-source DART↔EDGAR near-match compares excerpt_en to English excerpts.
+    candidates = _enrich_candidate_excerpt_en(list(candidates))
     signals, sightings = dedupe(candidates, prior_year_norms=prior_year_norms)
 
     if rebuild_sightings:
