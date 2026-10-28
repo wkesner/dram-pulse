@@ -159,6 +159,38 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   font-size: 13px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
+  align-items: center;
+}
+.q-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+}
+.feed-mode {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+.feed-mode select {
+  font: inherit;
+  font-size: 13px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+}
+.feed-stack {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
+.feed-stack .card.has-vote {
+  /* Soft cue that this user already voted — keep readable */
+  box-shadow: inset 3px 0 0 var(--accent);
 }
 .card {
   background: var(--panel);

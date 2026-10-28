@@ -68,8 +68,15 @@ uvicorn app.server:app --reload --port 8000
 Legacy Streamlit prototype (optional): `streamlit run app.py`.
 
 - Name field required before voting; filters for product category / family / supply direction / company / role / source.
-- **Feed**: signal cards with sightings expander, 👍 / 👎 / Skip. Votes append to `data/votes.csv` (file-locked); tallies use each user’s latest vote.
+- **Feed**: stacked scroll of signal cards by default (toggle **Layout → One at a time** for the old queue). Sightings expander, 👍 / 👎 / Skip. Votes append to `data/votes.csv` (file-locked); tallies use each user’s latest vote.
 - **Family view**: plain counts per product family (signals, not sightings). Header shows the lookback window.
+
+Demo votes (invented users only; does not invent excerpts):
+
+```bash
+python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
+python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+```
 
 ## Milestone 5 — OpenDART + Samsung IR
 

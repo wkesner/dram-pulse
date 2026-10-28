@@ -122,7 +122,7 @@
       tab.setAttribute("aria-selected", on ? "true" : "false");
       panel.hidden = !on;
     }
-    if (selected === $("#tab-feed")) renderCard();
+    if (selected === $("#tab-feed")) renderFeed();
     if (selected === $("#tab-families")) renderFamilies();
     if (selected === $("#tab-map")) {
       // Charts need a visible width; draw after layout.
@@ -149,6 +149,9 @@
   /** @type {Record<string, number>} signal_id → 1|-1 for current user */
   let userVotes = {};
   let skipped = new Set();
+  const FEED_MODE_KEY = "ms-feed-mode";
+  /** @type {"stack"|"one"} */
+  let feedMode = store.get(FEED_MODE_KEY, "stack") === "one" ? "one" : "stack";
 
   const FILTERS = [
     ["category", "product_category", "All categories"],
@@ -167,7 +170,17 @@
       store.set(USER_KEY, userIn.value.trim());
       skipped = new Set();
       await loadUserVotes();
-      renderCard();
+      renderFeed();
+    });
+  }
+
+  const feedModeSel = $("#feed-mode");
+  if (feedModeSel) {
+    feedModeSel.value = feedMode;
+    feedModeSel.addEventListener("change", () => {
+      feedMode = feedModeSel.value === "one" ? "one" : "stack";
+      store.set(FEED_MODE_KEY, feedMode);
+      renderFeed();
     });
   }
 
@@ -189,7 +202,7 @@
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
         skipped = new Set();
-        renderCard();
+        renderFeed();
       };
     }
   }
@@ -202,7 +215,7 @@
         if (sel) sel.value = "";
       }
       skipped = new Set();
-      renderCard();
+      renderFeed();
     });
   }
 
@@ -262,36 +275,17 @@
     userVotes[s.signal_id] = v;
     // Refresh tallies from server
     await loadSignals({ keepFilters: true });
-    renderCard();
+    renderFeed();
   }
 
-  function renderCard() {
-    const card = $("#signal-card");
-    const qLeft = $(".q-left");
-    if (!card) return;
-
-    card.replaceChildren();
-    const q = queue();
+  function buildCard(s) {
     const user = (userIn?.value || "").trim();
-    const unvoted = q.filter((s) => userVotes[s.signal_id] == null).length;
-    if (qLeft) {
-      qLeft.textContent = `${unvoted} of ${q.length} signals in this filter still need your vote`;
-    }
-    if (!q.length) {
-      card.append(
-        el(
-          "div",
-          "empty",
-          SIGNALS.length
-            ? "No signals match these filters. Clear a filter to see more."
-            : "No signals loaded."
-        )
-      );
-      return;
-    }
-    const s = q[0];
     const sightings = s.sightings || [];
     const firstLink = primarySighting(s);
+    const mine = userVotes[s.signal_id];
+
+    const card = el("article", mine != null ? "card has-vote" : "card");
+    card.dataset.signalId = s.signal_id;
 
     const meta = el("div", "meta");
     meta.append(
@@ -303,6 +297,9 @@
         `${s.form} · ${latest(s)} · ${label(s.section)}`
       )
     );
+    if (s.source && s.source !== "EDGAR") {
+      meta.append(el("span", "filing", s.source));
+    }
 
     const chips = el("div", "chips");
     chips.append(
@@ -320,7 +317,8 @@
 
     const find = el("div", "find");
     const open = el("a", null, "Open filing at this passage");
-    open.href = (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
+    open.href =
+      (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
     open.target = "_blank";
     open.rel = "noopener";
     find.append(open);
@@ -372,7 +370,6 @@
     det.append(sum, ul);
 
     const actions = el("div", "actions");
-    const mine = userVotes[s.signal_id];
     const t = s.votes || { up: 0, down: 0 };
     const mk = (cls, sym, text, count, v) => {
       const b = el("button", `vote ${cls}`);
@@ -389,7 +386,7 @@
     const skip = mk("skip", "→", "Skip", null, null);
     skip.addEventListener("click", () => {
       skipped.add(s.signal_id);
-      renderCard();
+      renderFeed();
     });
     actions.append(
       mk("up", "👍", "Useful", t.up, 1),
@@ -401,6 +398,41 @@
     }
 
     card.append(meta, chips, ex, find, det, actions);
+    return card;
+  }
+
+  function renderFeed() {
+    const stack = $("#feed-stack");
+    const qLeft = $(".q-left");
+    if (!stack) return;
+
+    stack.replaceChildren();
+    const q = queue();
+    const unvoted = q.filter((s) => userVotes[s.signal_id] == null).length;
+    if (qLeft) {
+      qLeft.textContent = `${unvoted} of ${q.length} signals in this filter still need your vote`;
+    }
+    if (!q.length) {
+      stack.append(
+        el(
+          "div",
+          "empty",
+          SIGNALS.length
+            ? "No signals match these filters. Clear a filter to see more."
+            : "No signals loaded."
+        )
+      );
+      return;
+    }
+    const toShow = feedMode === "one" ? q.slice(0, 1) : q;
+    for (const s of toShow) {
+      stack.append(buildCard(s));
+    }
+  }
+
+  /** @deprecated alias kept for any leftover callers / debugging */
+  function renderCard() {
+    renderFeed();
   }
 
   async function loadUserVotes() {
@@ -511,7 +543,7 @@
           if (famSel) famSel.value = f.family;
           skipped = new Set();
           showTab("feed");
-          renderCard();
+          renderFeed();
         };
         tr.addEventListener("click", go);
         tr.addEventListener("keydown", (e) => {
@@ -798,10 +830,13 @@
     latest,
     highlight,
     label,
+    renderFeed,
+    renderCard,
     renderFamilies,
     renderMap,
     renderDataNotes,
     showTab,
+    getFeedMode: () => feedMode,
     getNotes: () => META_NOTES,
     getMapState: () => ({
       leaveOutRisk,
@@ -819,16 +854,16 @@
       await loadSignals();
       await loadUserVotes();
       await loadMeta();
-      renderCard();
+      renderFeed();
       renderFamilies();
       renderDataNotes();
       if (location.hash === "#families") showTab("families");
       else if (location.hash === "#map") showTab("map");
     } catch (err) {
       console.error(err);
-      const card = $("#signal-card");
-      if (card) {
-        card.replaceChildren(
+      const stack = $("#feed-stack");
+      if (stack) {
+        stack.replaceChildren(
           el("div", "empty", "Failed to load /api/signals. Is the server running?")
         );
       }

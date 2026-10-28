@@ -122,9 +122,22 @@
           >
             <div class="queue">
               <span class="q-left">Loading signals…</span>
-              <span class="q-order">Unvoted first, newest last_seen first</span>
+              <div class="q-right">
+                <span class="q-order">Unvoted first, newest last_seen first</span>
+                <label class="feed-mode" for="feed-mode"
+                  >Layout
+                  <select id="feed-mode" aria-label="Feed layout">
+                    <option value="stack" selected>Stacked</option>
+                    <option value="one">One at a time</option>
+                  </select>
+                </label>
+              </div>
             </div>
-            <article class="card" id="signal-card" aria-live="polite"></article>
+            <div
+              class="feed-stack"
+              id="feed-stack"
+              aria-live="polite"
+            ></div>
           </section>
 
           <section
