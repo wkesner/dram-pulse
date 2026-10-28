@@ -1,0 +1,28 @@
+{
+  "company": "Western Digital",
+  "ticker": "WDC",
+  "cik": "0000106040",
+  "form": "8-K",
+  "filing_date": "2026-06-03",
+  "accession_number": "0001193125-26-254621",
+  "primary_document": "d106828d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "3.02,8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526254621/d106828d8k.htm",
+  "fiscal_year_end": "0703",
+  "report_date": "2026-06-02",
+  "period_end": "2026-06-02",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:53:28.208741+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/WDC/000119312526254621/primary.html",
+    "other": "data/raw/WDC/000119312526254621/other_full.txt"
+  }
+}

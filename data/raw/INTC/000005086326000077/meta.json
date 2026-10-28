@@ -1,0 +1,34 @@
+{
+  "company": "Intel",
+  "ticker": "INTC",
+  "cik": "0000050863",
+  "form": "8-K",
+  "filing_date": "2026-04-23",
+  "accession_number": "0000050863-26-000077",
+  "primary_document": "intc-20260423.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/intc-20260423.htm",
+  "fiscal_year_end": "1227",
+  "report_date": "2026-04-23",
+  "period_end": "2026-04-23",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:52:48.163721+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "q126earningsrelease.htm",
+      "path": "data/raw/INTC/000005086326000077/exhibit_99_q126earningsrelease.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/q126earningsrelease.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/INTC/000005086326000077/primary.html",
+    "other": "data/raw/INTC/000005086326000077/other_full.txt"
+  }
+}

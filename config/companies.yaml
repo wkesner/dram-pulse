@@ -89,3 +89,54 @@ companies:
     role: buyer
     source: EDGAR
     ticker: JBL
+
+  # Curated pack (MORE-FILINGS option C) — memory-adjacent buyers / storage / packaging
+  - name: Broadcom
+    role: buyer
+    source: EDGAR
+    ticker: AVGO
+
+  - name: Intel
+    role: buyer
+    source: EDGAR
+    ticker: INTC
+
+  - name: Microsoft
+    role: buyer
+    source: EDGAR
+    ticker: MSFT
+
+  - name: Amazon
+    role: buyer
+    source: EDGAR
+    ticker: AMZN
+
+  - name: Alphabet
+    role: buyer
+    source: EDGAR
+    ticker: GOOGL
+
+  - name: Meta Platforms
+    role: buyer
+    source: EDGAR
+    ticker: META
+
+  - name: Western Digital
+    role: supplier
+    source: EDGAR
+    ticker: WDC
+
+  - name: Seagate
+    role: supplier
+    source: EDGAR
+    ticker: STX
+
+  - name: Sandisk
+    role: supplier
+    source: EDGAR
+    ticker: SNDK
+
+  - name: Amkor
+    role: supplier
+    source: EDGAR
+    ticker: AMKR

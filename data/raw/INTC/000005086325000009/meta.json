@@ -1,0 +1,28 @@
+{
+  "company": "Intel",
+  "ticker": "INTC",
+  "cik": "0000050863",
+  "form": "10-K",
+  "filing_date": "2025-01-31",
+  "accession_number": "0000050863-25-000009",
+  "primary_document": "intc-20241228.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:54:48.768079+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/INTC/000005086325000009/primary.html",
+    "business": "data/raw/INTC/000005086325000009/item1_business.txt",
+    "risk_factors": "data/raw/INTC/000005086325000009/item1a_risk_factors.txt",
+    "mdna": "data/raw/INTC/000005086325000009/item7_mdna.txt",
+    "other": "data/raw/INTC/000005086325000009/other_full.txt"
+  }
+}
