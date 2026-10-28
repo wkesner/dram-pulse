@@ -1,0 +1,25 @@
+{
+  "company": "SK hynix",
+  "ticker": "000660",
+  "role": "supplier",
+  "source": "DART",
+  "form": "[기재정정]주요사항보고서(해외증권시장주권등상장결정)",
+  "filing_date": "2026-07-10",
+  "accession_number": "20260710000002",
+  "filing_id": "20260710000002",
+  "corp_code": "00164779",
+  "title": "[기재정정]주요사항보고서(해외증권시장주권등상장결정)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000002",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "ko",
+  "files": [
+    "20260710000002.xml"
+  ],
+  "fetched_at": "2026-10-28T16:48:50.602074+00:00",
+  "paths": {
+    "other_full": "data/raw/000660/20260710000002/other_full.txt"
+  }
+}

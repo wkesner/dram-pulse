@@ -1,0 +1,22 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930",
+  "role": "supplier",
+  "source": "IR",
+  "form": "IR-PDF",
+  "filing_date": "2026-08-14",
+  "accession_number": "IR_7101S_1-2026-8-31_4b5d15a6",
+  "filing_id": "IR_7101S_1-2026-8-31_4b5d15a6",
+  "title": "2026 Half-year Business Report (half-year ended 2026-06-30)",
+  "period_end": "2026-06-30",
+  "source_url": "https://www.rns-pdf.londonstockexchange.com/rns/7101S_1-2026-8-31.pdf",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "en",
+  "fetched_at": "2026-10-28T16:48:33.253771+00:00",
+  "paths": {
+    "pdf": "data/raw/005930/IR_7101S_1-2026-8-31_4b5d15a6/document.pdf",
+    "other_full": "data/raw/005930/IR_7101S_1-2026-8-31_4b5d15a6/other_full.txt"
+  }
+}

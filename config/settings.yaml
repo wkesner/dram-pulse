@@ -1,0 +1,25 @@
+# Memory Signals runtime settings
+lookback_months: 12
+
+edgar:
+  # SEC fair-access: stay under 10 requests per second
+  max_requests_per_second: 10
+  company_tickers_url: "https://www.sec.gov/files/company_tickers.json"
+  submissions_url_template: "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+  archives_url_template: "https://www.sec.gov/Archives/edgar/data/{cik}/{accession_no_dashes}/{primary_document}"
+
+dart:
+  # OpenDART — confirm document.xml returns ZIP (official guide DS001 / apiId 2019003)
+  max_requests_per_second: 2
+  corp_code_url: "https://opendart.fss.or.kr/api/corpCode.xml"
+  list_url: "https://opendart.fss.or.kr/api/list.json"
+  # Official: GET …/api/document.xml → Zip FILE (binary); rename .xml→.zip in browsers
+  document_url: "https://opendart.fss.or.kr/api/document.xml"
+  # A = periodic reports (사업/반기/분기), B = major events
+  disclosure_types:
+    - A
+    - B
+
+paths:
+  raw_dir: data/raw
+  ir_documents: config/ir_documents.yaml

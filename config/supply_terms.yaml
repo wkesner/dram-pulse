@@ -1,0 +1,213 @@
+# Supply-topic, direction, sentiment, and stability term lists (SPEC starting points).
+
+# Topic groups — first match in this order wins for the `topic` column.
+topics:
+  availability:
+    - supply availability
+    - supply continuity
+    - supply commitments
+    - shortage
+    - constrained
+    - allocation
+    - sold out
+    - lead times
+    - lead time
+    - supply
+    - undersupply
+    - oversupply
+    - exceeds supply
+  pricing:
+    - average selling prices
+    - selling prices
+    - price increase
+    - price increases
+    - pricing increases
+    - rising prices
+    - elevated memory and systems prices
+    - price decline
+    - pricing
+    - prices
+    - price
+  inventory:
+    - elevated inventory
+    - inventory build
+    - inventories
+    - inventory
+  capacity:
+    - wafer starts
+    - bit growth
+    - capacity expansions
+    - capacity expansion
+    - packaging capacity
+    - wafer capacity
+    - production capacity
+    - capacity
+  yield_quality:
+    - qualification
+    - yields
+    - yield
+  demand:
+    - demand growth
+    - strong demand
+    - demand
+
+# Direction terms (tightening / easing). Presence of either (with product + topic)
+# qualifies a passage as a signal.
+direction:
+  tightening:
+    - exceeds supply
+    - extended lead times
+    - extended lead time
+    - elevated memory and systems prices
+    - price increase
+    - price increases
+    - pricing increases
+    - prices rising
+    - rising prices
+    - prices for data center buildouts higher
+    - drive the prices
+    - undersupply
+    - sold out
+    - shortage
+    - shortages
+    - constrained supply
+    - supply constraints
+    - supply constraint
+    - supply availability affecting
+    - constrained
+    - allocation
+    - tight supply
+    - tightly supplied
+    - outpacing
+    - outpace
+    - outpaced supply
+    - unable to increase supply
+    - greater than our ability
+    - greater than the industry
+    - supply allocation
+  easing:
+    - inventory build
+    - elevated inventory
+    - price decline
+    - prices falling
+    - prices declined
+    - pricing pressure
+    - oversupplied
+    - oversupply
+    - excess inventory
+    - excess
+    - softness
+    - ample
+    - write-down
+    - write down
+    - write-downs
+    - downward pressure on pricing
+  stable:
+    - balanced
+    - normalized
+    - normalize
+    - stable supply
+    - supply balanced
+
+sentiment:
+  positive:
+    - significantly exceeds
+    - record
+    - robust
+    - improved
+    - improvements
+    - favorable
+    - strong demand
+    - strong growth
+    - strong
+    - accelerating
+    - accelerate
+    - benefited
+    - benefit
+    # Prefer multi-word growth phrases over bare "growth" (too common in filings).
+    - demand growth
+    - bit growth
+    - revenue growth
+  negative:
+    - headwind
+    - headwinds
+    - challenging
+    - adverse
+    - adversely
+    - unable
+    - weak
+    - decline
+    - declines
+    - declined
+    - tempered
+    # Avoid bare "risk"/"risks" — Item 1A repeats them constantly.
+    - material risk
+    - significant risk
+    - pressure
+    - negatively
+    - adversely affect
+    - adversely affected
+
+# Korean terms (Milestone 5). Merged into English banks at extract time.
+korean:
+  topics:
+    availability:
+      - 공급 부족
+      - 공급부족
+      - 공급 과잉
+      - 공급과잉
+      - 공급
+      - 할당
+    pricing:
+      - 가격 상승
+      - 가격상승
+      - 가격 하락
+      - 가격하락
+      - 가격
+    inventory:
+      - 재고
+    capacity:
+      - 증설
+      - 생산능력
+      - 캐파
+    yield_quality:
+      - 수율
+    demand:
+      - 수요 강세
+      - 수요강세
+      - 수요
+  direction:
+    tightening:
+      - 공급 부족
+      - 공급부족
+      - 감산
+      - 가격 상승
+      - 가격상승
+      - "% 상승"
+      - 상승하였
+      - 상승했
+      - 할당
+    easing:
+      - 공급 과잉
+      - 공급과잉
+      - 가격 하락
+      - 가격하락
+      - "% 하락"
+      - 하락하였
+      - 하락했
+      - 재고 증가
+    stable:
+      - 안정적 공급
+      - 수급 균형
+  sentiment:
+    positive:
+      - 수요 강세
+      - 수요강세
+      - 호조
+      - 성장
+      - 경쟁력 강화
+    negative:
+      - 부진
+      - 둔화
+      - 악화
+      - 부담

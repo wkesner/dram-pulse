@@ -1,0 +1,1755 @@
+Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations.
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+For purposes of this Management's Discussion and Analysis of Financial Condition and Results of Operations (“MD&A”) section, we use the terms “HPE”, the “Company”, “we”, “us” and “our” to refer to Hewlett Packard Enterprise Company.
+We intend the discussion of our financial condition and results of operations that follows to provide information that will assist the reader in understanding our Condensed Consolidated Financial Statements, changes in certain key items in these financial statements from period-to-period and the primary factors that accounted for these changes, as well as how certain accounting principles, policies, and estimates affect our Condensed Consolidated Financial Statements. This discussion should be read in conjunction with our Condensed Consolidated Financial Statements and the related notes that appear elsewhere in this document.
+The financial discussion and analysis in the following MD&A compares the three and six months ended April 30, 2026 to the comparable prior-year period and where appropriate, as of April 30, 2026, unless otherwise noted.
+This MD&A is organized as follows:
+•
+Trends and Uncertainties.
+A discussion of material events and uncertainties known to management, such as the mixed macroeconomic environment and heightening global trade restrictions, uneven demand across our portfolio, increased demand for and adoption of new technologies, supply chain constraints and related cost increases for certain components, increased inventory levels, conservative customer spending environment (though recovering), persistent inflation, foreign exchange pressures, recent tax developments, and competitive pricing pressures.
+•
+Executive Overview.
+ A discussion of our business and a summary of our financial performance and other highlights, including Generally accepted accounting Principles (“GAAP”) and non-GAAP financial measures, affecting the Company in order to provide context to the remainder of the MD&A.
+•
+Results of Operations.
+A discussion of the results of operations at the consolidated level is followed by a discussion of the results of operations at the segment level.
+•
+Critical Accounting Policies and Estimates.
+ A discussion of accounting policies and estimates that we believe are important to understanding the assumptions and judgments incorporated in our reported financial results.
+•
+Liquidity and Capital Resources.
+ An analysis of changes in our cash flows, financial condition, liquidity, and cash requirements and commitments.
+•
+GAAP to Non-GAAP Reconciliations
+. Each non-GAAP financial measure has been reconciled to the most directly comparable GAAP financial measure. This section also includes a discussion of the use, usefulness and economic substance of the non-GAAP financial measures, along with a discussion of material limitations, and compensation for those limitations, associated with the use of non-GAAP financial measures.
+40
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+TRENDS AND UNCERTAINTIES
+During the first six months of fiscal 2026, the effects of the evolving macroeconomic environment on demand for information technology products and supply for components persisted and certain significant developments impacted our operations, as follows:
+Technological Advancements:
+We have observed market trends and demand (of customers of various segments and sizes) gravitating towards AI, hybrid cloud, edge computing, data security capabilities, and related offerings. The volume of data at the edge continues to grow, driven by the proliferation of devices. As a result, the need for a unified cloud experience everywhere has grown, in order to manage the growth of data at the edge. Increasing demand for AI is also contributing to changes in the competitive landscape. With the abundance of data, there are opportunities to develop AI tools with powerful computational abilities to extract insights and value from the captured data. Secure networking that is purpose-built for AI workloads is the foundation that enables users to seamlessly connect and apply AI learnings to such data that lives in various ecosystems. While we believe our recent acquisition of Juniper Networks Inc. (“Juniper Networks”) positions us to capitalize on the growing market opportunities across AI-accelerated computing, data, cloud and networking, our major competitors and emerging competitors are expanding their product and service offerings with integrated products and solutions and exerting increased competitive pressure. We expect these market dynamics and trends to continue in the longer term.
+Macroeconomic Uncertainty:
+The evolving macroeconomic environment has impacted industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more strategic approach to discretionary IT spending. While this dynamic has been easing, it has resulted in uneven demand across our portfolio and geographies, particularly for certain of our hardware offerings, as customers have focused investments on modernizing infrastructure, such as migrating to cloud-based offerings. Additionally, there continues to be significant uncertainty surrounding the tariff environment and import/export regulations due to numerous factors, including but not limited to tariff imposition delays, changes to tariff rates and policies, and enactment of reciprocally restrictive trade policies and measures around the world. These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services. While we have sought to mitigate these adverse impacts by relying on our global supply chain and implementing pricing measures, we expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term.
+Supply Chain:
+We experienced supply chain constraints for certain components, including graphics processing units (“GPUs”), accelerated processing units, solid-state drives (“SSDs”), and other memory components. We are affected by the worldwide shortage in memory components that began to impact the semiconductor industry in the first half of fiscal year 2026 primarily due to the accelerating growth in AI usage and the related rapid expansion in AI data centers and compute refresh cycles. In the first half of fiscal year 2026, we experienced supply chain constraints due to these component shortages and expect such dynamics to continue in the medium term as memory supply constraints may continue until memory vendors transition greater production allocations towards high performance memory components required by AI. The future remains uncertain due to the macroeconomic environment and dynamics discussed above, which have thus far impacted our ability to import and export components and finished products and increased our costs. Additionally, logistics costs have been, and may continue to remain, high due to changes in trade policies and ongoing geopolitical uncertainties and tensions. We have experienced higher-than-normal inventory levels, primarily due to frequent component part updates, customers transitioning to the next generation of GPUs, our efforts to secure supply ahead of demand, and longer customer acceptance timelines on AI-related orders. In addition, our current efforts to secure memory components and SSDs to meet forecasted demand may further increase our inventory levels in the medium term. While we have been working to reduce inventory, any or all of the aforementioned factors could contribute to sustained higher-than-normal levels and further uncertainty. We have experienced, and expect to continue experiencing, rising input component costs due to various factors, including but not limited to global trade uncertainties and the competitive pricing environment, all of which may impact our financial results. We are taking actions through continued disciplined cost pricing management and supply chain diversification to mitigate the impact of these dynamics. However, such actions may not fully mitigate any impact on our financial condition.
+Recurring Revenue and Consumption Models:
+We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the HPE GreenLake cloud, to deliver our entire portfolio as-a-service (“aaS”) and become the edge-to-cloud company of choice for our customers and partners. We expect that such flexible consumption model will continue to strengthen our customer relationships and contribute to growth in recurring revenue.
+Foreign Currency Exposure
+: We have a large global presence, with more than half of our revenue generated outside of the U.S. As a result, our financial results can be, and particularly in recent periods have been, impacted by fluctuations in
+41
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts.
+Public Sector
+: We have a number of engagements with various public sector entities, including the U.S. federal government and its agencies, as direct or indirect customers of our IT services and hardware. Significant staffing and resource reductions at certain public sector entities create an uncertain environment and as a result, our financial results have been, and may continue to be, impacted in the near term.
+Recent Tax Developments:
+Proposals to reform U.S. and foreign tax laws could significantly impact how U.S. multinational corporations are taxed on foreign earnings. Several of the proposals currently being considered, if enacted into law, could have an impact on our effective tax rate, income tax expense, and cash flows. Our future effective tax rate may also be impacted by judicial decisions, changes in interpretation of regulations, as well as additional legislation and guidance. Further, the Organisation for Economic Co-operation and Development (“OECD”), an international association of 38 countries including the United States, has proposed changes to numerous long-standing tax principles, namely, its Pillar Two framework, which imposes a global minimum corporate tax rate of 15%. To date, approximately 65 countries have enacted portions, or all, of the OECD proposal. The adoption and effective dates of these rules may vary by country and could increase tax complexity and uncertainty and may adversely affect our provision for income taxes. While we do not anticipate a material adverse impact to our financial position in fiscal 2026, additional changes to global tax laws are likely to occur. For instance, some countries have enacted, and others have proposed, taxes based on gross receipts applicable to digital services, regardless of profitability. Such changes may adversely affect our tax liability. In addition, the United States has considered, and may adopt, reciprocal tax measures in response to such regimes. These developments could increase our global tax burden, result in double taxation, and adversely affect our tax liability.
+The Internal Revenue Service (“IRS”) is conducting audits of our fiscal 2020 through 2022 U.S. federal income tax returns. During the first quarter of fiscal 2026, the IRS issued notices of proposed adjustments (“NOPAs”) for fiscal 2020, 2021, and 2022 relating to our intercompany transfer pricing. During the second quarter of fiscal 2026, we submitted a formal settlement offer to the IRS to facilitate the closing of the audit and recorded increased reserves for unrecognized tax benefits of $318 million. The impact of the increase in reserves is almost entirely offset with a valuation allowance release, and the net impact to income tax expense for the three and six months ended April 30, 2026 was not material. It is reasonably possible that the IRS audit for fiscal 2020 through 2022 may be concluded in the next 12 months, and it is reasonably possible that existing unrecognized tax benefits related to these years may be reduced by an amount up to $369 million within the next 12 months; the majority of these unrecognized tax benefits are offset by adjustments to foreign tax credits that carry a full valuation allowance, which does not affect our effective tax rate.
+On July 4, 2025, the U.S. government enacted the One Big Beautiful Bill Act (“OB3”) into law. OB3 introduced several changes to tax regulations, including the permanent restoration of 100% depreciation and the permanent restoration of immediate deductibility of costs associated with research and development activities performed in the United States. We do not expect a material impact in fiscal 2026, but we will continue to evaluate the full impact of these changes on our future results.
+Trade and Tariffs Update:
+On February 20, 2026, the United States Supreme Court issued a ruling striking down certain tariffs previously imposed under the International Emergency Economic Powers Act (“IEEPA”). The ultimate availability, timing, and amount of any potential refunds of such tariffs remain highly uncertain and are subject to further legal, regulatory, and administrative developments. Following the Supreme Court’s decision, the U.S. presidential administration announced its intention to invoke other laws to collect tariffs and announced new tariffs on imports from all countries, in addition to any existing non-IEEPA tariffs. There remains substantial uncertainty regarding the duration of existing and newly announced tariffs, potential changes or pauses to such tariffs, tariff levels, and whether further additional tariffs or other retaliatory actions may be imposed, modified, or suspended, and the impacts of such actions on our business. We continue to monitor and evaluate these developments and assess their potential impact on our business, financial condition, and results of operations.
+Other Trends and Uncertainties:
+The impacts of
+geopolitical volatility (including the ongoing geopolitical instability and conflict in the Middle East, the ongoing conflict in Ukraine, and the relationship between China and the U.S.) may impact our operations, financial performance, and ability to conduct business in some non-U.S. markets. We have, in the past, entered into contracts for the sale of certain products and services that reflect discounting due to competitive pressures or were negotiated at prices prior to the recent escalation of component costs, which have resulted in lower margins than expected, and we expect will continue to negatively impact our margins in the near term. We have been monitoring and seeking to mitigate these risks with adjustments to our manufacturing, supply chain, and distribution networks, as well as our pricing and discounting
+42
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+practices. We remain focused on executing our key strategic priorities, building long-term value creation for our stakeholders, and addressing our customers’ needs while continuing to make prudent decisions in response to the environment.
+EXECUTIVE OVERVIEW
+We are a global technology leader focused on developing intelligent solutions that allow customers to capture, analyze, and act upon data seamlessly from edge-to-cloud. We enable customers to accelerate business outcomes by driving new business models, creating new customer and employee experiences, and increasing operational efficiency today and into the future. Our customers range from small-and-medium size businesses to large global enterprises and governmental entities. Our legacy dates to a partnership founded in 1939 by William R. Hewlett and David Packard, and we strive every day to uphold and enhance that legacy through our dedication to providing innovative technological solutions to our customers.
+Our operations are organized into three reportable segments for financial reporting purposes:
+Cloud & AI
+,
+Networking,
+and Corporate Investments and Other. Effective November 1, 2025, HPE implemented an organizational change by (i) merging the Server, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring the Telco and Instant On businesses from the Networking segment to the Corporate Investments and Other segment. Refer to Note 2, “Segment Information” to the Condensed Consolidated Financial Statements in Item 1 of Part I for further information.
+Acquisition of Juniper Networks
+On July 2, 2025, we completed the Juniper Networks Merger. Under the terms of the Agreement and Plan of Merger, dated January 9, 2024, by and among Juniper Networks, HPE and Jasmine Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of HPE Merger Agreement, HPE agreed to pay $40.00 per share of Juniper Networks common stock, issued and outstanding as of July 2, 2025, representing a cash consideration of approximately $13.4 billion. The results of operations of Juniper Networks are included in the Consolidated Financial Statements commencing on July 2, 2025. See Note 7, “Acquisitions and Dispositions” to the Condensed Consolidated Financial Statements in Item 1 of Part I for additional information.
+Divestiture of H3C Technologies Co., Limited Shares
+On November 17, 2025, our subsidiary, H3C Holdings Limited (“H3C Holdings”), entered into (i) share purchase agreements with five counterparties, including Unisplendour International Technology Limited (“UNIS”), whereby such counterparties, in the aggregate, agreed to purchase 10% of the total issued share capital of H3C Technologies Co., Limited (“H3C”) for cash consideration of approximately $714 million and (ii)
+
+a side letter with UNIS, amending the Agreement on Subsequent Arrangements that was previously entered into on May 24, 2024, whereby, among other things, H3C Holdings and UNIS shall retain their put option and call option, respectively, relating to the remaining issued share capital of H3C held by H3C Holdings and have the right to exercise their respective option rights in respect of such shares up to three times, subject to the timing and terms as set forth therein. The agreement referenced in clause (ii) above revises the arrangements governing the sale of all of the remaining issued share capital of H3C held by us through H3C Holdings. On November 28, 2025, H3C Holdings entered into three additional share purchase agreements, including one with UNIS, whereby such counterparties, in the aggregate, agreed to purchase the remaining 9% of the total issued share capital of H3C for cash consideration of approximately $643 million.
+On May 13, 2026, we closed on the sale and disposition of 13.8% of the total issued share capital of H3C for approximately $987 million. On May 28, 2026, the Company closed on the sale of the remaining 5.2% of the total issued share capital of H3C for approximately $370 million.
+Cost Savings Actions
+On March 6, 2025, the Board of Directors approved a cost reduction program (the "Program") intended to reduce structural operating costs and continue advancing our ongoing commitment to profitable growth. The Program is expected to be implemented through fiscal year 2026 and deliver gross savings of approximately $350 million by fiscal year 2027 through reductions in our workforce. The Program has since become a part of Catalyst, a set of broader company-wide actions to reduce costs and enhance efficiency throughout the Company.
+The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the timing thereof are subject to a number of assumptions, including local law requirements in various jurisdictions, and actual amounts may differ materially from estimates. In addition, we may incur other charges or cash expenditures not currently contemplated due to unanticipated events that may occur, including in connection with the
+43
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+implementation of the Program. In connection with the Program, we incurred charges of $30 million and $53 million for the three and six months ended April 30, 2026, respectively, and $146 million for the three and six months ended April 30, 2025.
+In addition, the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies are expected to require approximately $800 million of investment, primarily tied to headcount, supply chain optimization, and portfolio rationalization. In connection with the integration of Juniper Networks, we incurred acquisition costs of $108 million and $231 million, for the three and six months ended April 30, 2026, respectively.
+Three months ended April 30, 2026 compared with three months ended April 30, 2025
+Net revenue of $10.7 billion represented an increase of 40.0%, primarily due to higher revenue in the Networking segment from the Merger, and an increase in the average selling price in the Cloud & AI segment. The gross profit margin of 36.5% (or $3.9 billion), represents an increase of 8.1 percentage points from the prior-year period, primarily due to higher revenue in the Networking and Cloud & AI segments. The operating profit margin of 7.0% represents an increase of 21.5 percentage points from the prior-year period, primarily due to aforementioned gross margin improvement and the absence of goodwill impairment recorded in the prior-year period.
+Six months ended April 30, 2026 compared with six months ended April 30, 2025
+Net revenue of $20.0 billion represented an increase of 29.1%, primarily due to higher revenue in the Networking segment from the Merger, and an increase in the average selling price in the Cloud & AI segment. The gross profit margin of 36.2% (or $7.2 billion), represents an increase of 7.4 percentage points from the prior-year period, primarily due to higher revenue in the Networking and Cloud & AI segments. The operating profit margin of 6.1% represents an increase of 10.5 percentage points from the prior-year period, primarily due to aforementioned gross margin improvement and the absence of goodwill impairment recorded in the prior-year period.
+Financial Results
+The following table summarizes our condensed consolidated GAAP financial results:
+For the three months ended April 30,
+For the six months ended April 30,
+2026
+2025
+Change
+2026
+2025
+Change
+Dollars in millions, except per share amounts
+Net revenue
+$
+10,678 
+$
+7,627 
+40.0%
+$
+19,979 
+$
+15,481 
+29.1%
+Gross profit
+$
+3,900 
+$
+2,169 
+79.8%
+$
+7,240 
+$
+4,464 
+62.2%
+Gross profit margin
+36.5 
+%
+28.4 
+%
+8.1pts
+36.2 
+%
+28.8 
+%
+7.4pts
+Earnings (loss) from operations
+$
+747 
+$
+(1,109)
+167.4%
+$
+1,217 
+$
+(676)
+280.0%
+Operating profit margin
+7.0 
+%
+(14.5)
+%
+21.5pts
+6.1 
+%
+(4.4)
+%
+10.5pts
+Net earnings (loss) attributable to HPE
+$
+624 
+$
+(1,050)
+159.4%
+$
+1,076 
+$
+(423)
+354.4%
+Net earnings (loss) attributable to common stockholders
+$
+595 
+$
+(1,079)
+155.1%
+$
+1,018 
+$
+(481)
+311.6%
+Diluted net earnings (loss) per share attributable to common stockholders
+(1)
+
+$
+0.44 
+$
+(0.82)
+$1.26
+$
+0.75 
+$
+(0.36)
+$1.11
+Cash flow provided by (used in) operations
+$
+1,410 
+$
+(461)
+$1,871
+$
+2,588 
+$
+(851)
+$3,439
+44
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+The following table summarizes our condensed consolidated non-GAAP financial results:
+For the three months ended April 30,
+For the six months ended April 30,
+2026
+2025
+Change
+2026
+2025
+Change
+Dollars in millions, except per share amounts
+Non-GAAP gross profit
+$
+3,937 
+$
+2,244 
+75.4%
+$
+7,340 
+$
+4,554 
+61.2%
+Non-GAAP gross profit margin
+36.9 
+%
+29.4 
+%
+7.5pts
+36.7 
+%
+29.4 
+%
+7.3pts
+Non-GAAP earnings from operations
+$
+1,423 
+$
+613 
+132.1%
+$
+2,605 
+$
+1,393 
+87.0%
+Non-GAAP operating profit margin
+13.3 
+%
+8.0 
+%
+5.3pts
+13.0 
+%
+9.0 
+%
+4.0pts
+Non-GAAP net earnings attributable to HPE
+$
+1,136 
+$
+545 
+108.4%
+$
+2,066 
+$
+1,229 
+68.1%
+Non-GAAP net earnings attributable to common stockholders
+$
+1,107 
+$
+516 
+114.5%
+$
+2,008 
+$
+1,171 
+71.5%
+Non-GAAP diluted net earnings per share attributable to common stockholders
+(1)
+$
+0.79 
+$
+0.38 
+$0.41
+$
+1.44 
+$
+0.87 
+$0.57
+Free cash flow
+$
+915 
+$
+(847)
+$1,762
+$
+1,623 
+$
+(1,724)
+$3,347
+(1)
+For purposes of calculating diluted net earnings (loss) per share (“EPS”), the 7.625% Series C mandatory convertible preferred stock (“Preferred Stock”) dividends are added back to the net earnings attributable to common stockholders and the diluted weighted-average share calculation assumes the Preferred Stock was converted at issuance or as of the beginning of the reporting period.
+Each non-GAAP financial measure has been reconciled to the most directly comparable GAAP financial measure herein. Please refer to the section “GAAP to non-GAAP Reconciliations” included in this MD&A for these reconciliations, a discussion of the use, usefulness and economic substance of the non-GAAP financial measures, along with a discussion of material limitations, and compensation for those limitations, associated with the use of non-GAAP financial measures.
+Dividends and Share Repurchase Program
+Returning capital to our stockholders remains an important part of our capital allocation framework, which also consists of strategic investments.
+The holders of HPE common stock are entitled to receive dividends when and as declared by the Board of Directors. Our ability to pay dividends will depend on many factors, such as the Company’s financial condition, earnings, capital requirements, debt service obligations, restrictive covenants in its debt, industry practice, legal requirements, regulatory constraints, and other factors that the Board of Directors deems relevant. Furthermore, so long as any share of our Preferred Stock remains outstanding, no dividend on shares of common stock (or any other class of stock junior to the Preferred Stock) shall be declared or paid unless all accumulated and unpaid dividends for all preceding dividend periods for the Preferred Stock have been declared and paid in full in cash, shares of the Company’s common stock or a combination thereof, or a sufficient sum of cash or number of shares of its common stock has been set apart for the payment of such dividends, on all outstanding shares of the Preferred Stock.
+During the second quarter of fiscal 2026, we paid a quarterly dividend of $0.1425 per share of common stock. On June 1, 2026, we declared a regular cash dividend of $0.1425 per share of our common stock, payable on or about July 15, 2026, to our holders of record as of the close of business on June 16, 2026. We also declared a cash dividend of $0.953125 per share of our 7.625% Series C Mandatory Convertible Preferred Stock, which was paid on June 1, 2026, to holders of record as of the close of business on May 15, 2026.
+As of April 30, 2026, we had a remaining authorization of approximately $3.3 billion for future share repurchases.
+45
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+RESULTS OF OPERATIONS
+Results of operations in dollars and as a percentage of net revenue were as follows:
+ 
+For the three months ended April 30,
+For the six months ended April 30,
+ 
+2026
+2025
+2026
+2025
+ 
+Dollars
+% of Revenue
+(1)
+Dollars
+% of Revenue
+(1)
+Dollars
+% of Revenue
+(1)
+Dollars
+% of Revenue
+(1)
+ 
+Dollars in millions
+Net revenue
+$
+10,678 
+100.0 
+%
+$
+7,627 
+100.0 
+%
+$
+19,979 
+100.0 
+%
+$
+15,481 
+100.0 
+%
+Cost of sales (exclusive of amortization shown separately below)
+6,778 
+63.5 
+5,458 
+71.6 
+12,739 
+63.8 
+11,017 
+71.2 
+Gross profit
+3,900 
+36.5 
+2,169 
+28.4 
+7,240 
+36.2 
+4,464 
+28.8 
+Research and development
+922 
+8.6 
+540 
+7.1 
+1,666 
+8.3 
+1,015 
+6.6 
+Selling, general and administrative
+1,830 
+17.1 
+1,298 
+17.0 
+3,528 
+17.7 
+2,566 
+16.6 
+Amortization of intangible assets
+323 
+3.0 
+37 
+0.5 
+634 
+3.2 
+75 
+0.5 
+Impairment charges
+— 
+— 
+1,361 
+17.8 
+— 
+— 
+1,361 
+8.8 
+Acquisition, disposition and other charges
+78 
+0.7 
+42 
+0.6 
+195 
+1.0 
+123 
+0.8 
+Earnings (loss) from operations
+747 
+7.0 
+(1,109)
+(14.5)
+1,217 
+6.1 
+(676)
+(4.4)
+Interest and other, net
+(73)
+(0.7)
+39 
+0.5 
+(127)
+(0.6)
+78 
+0.5 
+Gain on sale of a business
+— 
+— 
+— 
+— 
+— 
+— 
+244 
+1.6 
+Earnings from equity interests
+25 
+0.2 
+25 
+0.3 
+42 
+0.2 
+42 
+0.3 
+Earnings (loss) before provision for taxes
+699 
+6.5 
+(1,045)
+(13.7)
+1,132 
+5.7 
+(312)
+(2.0)
+Provision for taxes
+(75)
+(0.7)
+(5)
+(0.1)
+(56)
+(0.3)
+(111)
+(0.7)
+Net earnings (loss) attributable to HPE
+624 
+5.8 
+(1,050)
+(13.8)
+1,076 
+5.4 
+(423)
+(2.7)
+Preferred stock dividends
+(29)
+(0.3)
+(29)
+(0.4)
+(58)
+(0.3)
+(58)
+(0.4)
+Net earnings (loss) attributable to common stockholders
+$
+595 
+5.6 
+%
+$
+(1,079)
+(14.2)
+%
+$
+1,018 
+5.1 
+%
+$
+(481)
+(3.1)
+%
+​
+(1)
+Certain amounts may not add due to use of rounded numbers.
+Three and six months ended April 30, 2026 compared with the three and six months ended April 30, 2025
+Net revenue
+For the three months ended April 30, 2026, total net revenue of $10.7 billion represented an increase of $3.1 billion, or 40.0%. U.S. net revenue increased by $1.2 billion, or 44.3%, to $4.0 billion, and net revenue from outside of the U.S. increased by $1.8 billion, or 37.6%, to $6.7 billion.
+For the six months ended April 30, 2026, total net revenue of $20.0 billion represented an increase of $4.5 billion, or 29.1%. U.S. net revenue increased by $2.0 billion, or 38.3%, to $7.3 billion, and net revenue from outside of the U.S. increased by $2.5 billion, or 24.3%, to $12.7 billion.
+46
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+The components of the weighted net revenue change by segment were as follows:
+For the three months ended April 30, 2026
+For the six months ended April 30, 2026
+Percentage Points
+Networking
+21.1 
+20.9 
+Cloud & AI
+18.8 
+8.1 
+Corporate Investments and Other
+0.1 
+0.1 
+Total HPE
+40.0 
+29.1 
+Three months ended April 30, 2026 compared with three months ended April 30, 2025
+From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:
+•
+Networking net revenue increased $1.6 billion, or 148.2%, primarily due to revenue attributable to Juniper Networks
+•
+Cloud & AI net revenue increased $1.4 billion, or 22.9%, primarily due to an increase in the average selling price
+Six months ended April 30, 2026 compared with six months ended April 30, 2025
+From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:
+•
+Networking net revenue increased $3.2 billion, or 149.8%, primarily due to revenue attributable to Juniper Networks
+•
+Cloud & AI net revenue increased $1.3 billion, or 9.8%, primarily due to an increase in the average selling price
+Please refer to the section “Segment Information” further below for a discussion of our results of operations for each reportable segment.
+Gross profit
+For the three months ended April 30, 2026, the total gross profit margin of 36.5%, represents an increase of 8.1 percentage points, as compared to the respective prior year period. For the six months ended April 30, 2026, the total gross profit margin of 36.2%, represents an increase of 7.4 percentage points, as compared to the respective prior year period. The increases were primarily due to the favorable mix of higher-margin revenues in the Networking and Cloud & AI segments and the acquisition of Juniper Networks.
+Operating expenses
+Research and development (“R&D”)
+For the
+three months ended April 30, 2026, R&D expense increased by $382 million, or 70.7%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed 61.1 percentage points to the change.
+For the
+six months ended April 30, 2026, R&D expense increased by $651 million, or 64.1%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed 54.7 percentage points to the change.
+Selling, general and administrative (“SG&A”)
+For the three months ended April 30, 2026, SG&A expense increased by $532 million, or 41.0%, primarily due to higher variable employee costs and increased operating expenses associated with Juniper Networks, which contributed 35.3 percentage points to the change.
+For the
+six months ended April 30, 2026, SG&A expense increased by $962 million, or 37.5%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed 31.2 percentage points to the change.
+47
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Amortization of intangible assets
+For the three and six months ended April 30, 2026, amortization of intangible assets increased by $286 million, or 773.0%, and $559 million, or 745.3%, respectively, primarily due to the amortization expense of the acquired intangibles as a result of the Merger.
+Impairment charges
+Impairment charges for the three and six months ended April 30, 2025 represents a partial goodwill impairment charge of $1.4 billion, as it was determined that the fair value of the Cloud & AI (excluding Financial Services) reporting unit was below the carrying value of its net assets.
+Acquisition, disposition and other charges
+For the three and six months ended April 30, 2026, acquisition, disposition and other charges increased by $36 million or 85.7%, and $72 million or 58.5%, respectively, primarily due to costs incurred in connection with the Merger.
+Interest and other, net
+
+For the three and six months ended April 30, 2026, interest and other, net expense increased by $112 million, or 287.2%, and $205 million, or 262.8%, respectively, primarily due to higher net interest expense of $108 million and $232 million, respectively.
+Gain on sale of a business
+On December 1, 2024, we completed the disposition of CTG. We received net proceeds of $210 million and recognized a gain of $244 million.
+Provision for taxes
+For the three months ended April 30, 2026 and 2025, we recorded income tax expense of $75 million and $5 million, respectively, which reflects an effective tax rate of 10.7% and (0.5)%, respectively. For the six months ended April 30, 2026 and 2025, we recorded income tax expense of $56 million and $111 million, respectively, which reflects an effective tax rate of 4.9% and (35.6)%, respectively. Our effective tax rate generally differs from the U.S. federal statutory rate of 21% due to favorable tax rates associated with certain earnings from our operations in lower tax jurisdictions throughout the world but is also impacted by discrete tax adjustments during each fiscal period. For the three and six months ended April 30, 2025, the effective tax rate also included the effects of the non-deductible goodwill impairment.
+For further discussion, refer to Note 4, “Taxes on Earnings” to the Condensed Consolidated Financial Statements in Item 1 of Part I.
+Segment Information
+HPE's organizational structure is based on a number of factors that the Chief Operating Decision Maker, who is the Chief Executive Officer, uses to evaluate, view, and run our business operations, which include, but are not limited to, customer base and homogeneity of products and technology. The segments are based on this structure and information reviewed by HPE's management to evaluate segment results.
+As described in Note 1, “Overview and Summary of Significant Accounting Policies,” effective as of the beginning of the first quarter of fiscal 2026, the Company realigned its five reportable segments to three reportable segments. These changes had no impact to HPE’s previously reported consolidated GAAP results. A description of the products and services for each segment, along with other pertinent information related to segments can be found in Note 2, “Segment Information” to the Condensed Consolidated Financial Statements in Item 1 of Part I.
+48
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Segment Results
+The following table and ensuing discussion provide an overview of our key financial metrics by segment for the three months ended April 30, 2026, as compared to the prior-year period:
+HPE Consolidated
+Networking
+Cloud & AI
+Corporate Investments and Other
+Dollars in millions
+Net revenue
+$
+10,678
+$
+2,690
+$
+7,707
+$
+281
+Year-over-year change %
+40.0 
+%
+148.2 
+%
+22.9 
+%
+3.3 
+%
+Gross profit as a % of net revenue
+36.5 
+%
+60.7 
+%
+29.1 
+%
+22.8 
+%
+Earnings (loss) from operations
+(1)
+$
+747 
+$
+581 
+$
+954 
+$
+(9)
+Earnings (loss) from operations as a % of net revenue
+7.0 
+%
+21.6 
+%
+12.4 
+%
+(3.2)
+%
+Year-over-year change percentage points
+21.5 
+pts
+(3.4)
+pts
+5.8 
+pts
+(0.6)
+pts
+The following table and ensuing discussion provide an overview of our key financial metrics by segment for the six months ended April 30, 2026, as compared to the prior-year period:
+HPE Consolidated
+Networking
+Cloud & AI
+Corporate Investments and Other
+Dollars in millions
+Net revenue
+$
+19,979
+$
+5,396
+$
+14,041
+$
+542
+Year-over-year change %
+29.1 
+%
+149.8 
+%
+9.8 
+%
+0.6 
+%
+Gross profit as a % of net revenue
+36.2 
+%
+61.0 
+%
+28.0 
+%
+22.3 
+%
+Earnings (loss) from operations
+(1)
+$
+1,217 
+$
+1,221 
+$
+1,599 
+$
+(21)
+Earnings (loss) from operations as a % of net revenue
+6.1 
+%
+22.6 
+%
+11.4 
+%
+(3.9)
+%
+Year-over-year change percentage points
+10.5 
+pts
+(4.8)
+pts
+3.9 
+pts
+(1.1)
+pts
+​
+(1)
+Segment earnings (loss) from operations exclude certain unallocated corporate costs and eliminations, stock-based compensation expense, amortization of intangible assets, H3C divestiture related severance costs, severance costs related to the cost reduction program, acquisition, disposition and other charges, and impairment charges.
+Networking
+ 
+For the three months ended April 30,
+For the six months ended April 30,
+ 
+2026
+2025
+% Change
+2026
+2025
+% Change
+ 
+Dollars in millions
+Networking net revenue:
+Campus & Branch
+$
+1,322 
+$
+880 
+50.2 
+%
+$
+2,549 
+$
+1,744 
+46.2 
+%
+Data Center Networking
+320 
+96 
+233.3 
+%
+764 
+188 
+306.4 
+%
+Security
+273 
+107 
+155.1 
+%
+528 
+226 
+133.6 
+%
+Routing
+775 
+1 
+N/M
+1,555 
+2 
+N/M
+Total Networking net revenue
+2,690 
+1,084 
+148.2 
+%
+5,396 
+2,160 
+149.8 
+%
+Cost of sales
+1,056 
+422 
+150.2 
+%
+2,105 
+817 
+157.6 
+%
+Gross profit
+1,634 
+662 
+146.8 
+%
+3,291 
+1,343 
+145.0 
+%
+Operating expenses
+1,053 
+391 
+169.3 
+%
+2,070 
+752 
+175.3 
+%
+Earnings from operations
+$
+581 
+$
+271 
+114.4 
+%
+$
+1,221 
+$
+591 
+106.6 
+%
+Earnings from operations as a % of net revenue
+21.6 
+%
+25.0 
+%
+ 
+22.6 
+%
+27.4 
+%
+N/M - Not meaningful
+49
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Three months ended April 30, 2026 compared with three months ended April 30, 2025
+Networking segment net revenue increased by $1,606 million, or 148.2%, primarily due to a $998 million, or 125.7%, increase in product revenue, and $608 million, or 209.7%, increase in service revenue. The increase in product and service revenue was primarily led by revenue attributable to Juniper Networks.
+Networking segment gross profit increased by $972 million, or 146.8%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $634 million, or 150.2%, which was primarily attributable to Juniper Networks.
+Networking segment earnings from operations increased by $310 million, or 114.4%, primarily due to higher gross profit, which was partially offset by an increase in operating expenses of $662 million, or 169.3%. The increase in operating expenses was primarily attributable to Juniper Networks and higher variable employee costs.
+Six months ended April 30, 2026 compared with six months ended April 30, 2025
+Networking segment net revenue increased by $3,236 million, or 149.8%, primarily due to a $2,029 million, or 128.2%, increase in product revenue, and $1,207 million, or 209.2%, increase in service revenue. The increase in product and service revenue was primarily led by revenue attributable to Juniper Networks.
+Networking segment gross profit increased by $1,948 million, or 145.0%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $1,288 million, or 157.6%, which was primarily attributable to Juniper Networks.
+Networking segment earnings from operations increased by $630 million, or 106.6%, primarily due to higher gross profit, which was partially offset by an increase in operating expenses of $1,318 million, or 175.3%. The increase in operating expenses was primarily attributable to Juniper Networks and higher variable employee costs.
+Cloud & AI
+ 
+For the three months ended April 30,
+For the six months ended April 30,
+ 
+2026
+2025
+% Change
+2026
+2025
+% Change
+ 
+Dollars in millions
+Cloud & AI net revenue:
+Server
+$
+5,454 
+$
+4,109 
+32.7 
+%
+$
+9,686 
+$
+8,457 
+14.5 
+%
+Storage
+(1)
+1,175 
+1,148 
+2.4 
+%
+2,236 
+2,203 
+1.5 
+%
+Financial Services
+904 
+856 
+5.6 
+%
+1,780 
+1,729 
+2.9 
+%
+Other
+(2)
+174 
+158 
+10.1 
+%
+339 
+393 
+(13.7)
+%
+Total Cloud & AI net revenue
+7,707 
+6,271 
+22.9 
+%
+14,041 
+12,782 
+9.8 
+%
+Cost of sales
+5,468 
+4,760 
+14.9 
+%
+10,112 
+9,704 
+4.2 
+%
+Gross profit
+2,239 
+1,511 
+48.2 
+%
+3,929 
+3,078 
+27.6 
+%
+Operating expenses
+1,285 
+1,097 
+17.1 
+%
+2,330 
+2,117 
+10.1 
+%
+Earnings from operations
+$
+954 
+$
+414 
+130.4 
+%
+$
+1,599 
+$
+961 
+66.4 
+%
+Earnings from operations as a % of net revenue
+12.4 
+%
+6.6 
+%
+ 
+11.4 
+%
+7.5 
+%
+(1)    Storage includes revenue from GreenLake Flex and Software.
+(2)    Other category includes intersegment revenue eliminations and third-party storage solutions.
+Three months ended April 30, 2026 compared with three months ended April 30, 2025
+Cloud & AI segment net revenue increased
+ by $1,436 million, or 22.9%, primarily due to an increase in Server net revenue. Server net revenue increased by $1,345 million, or 32.7%, predominantly due to an increase in the average selling price. The increase in average selling price was due to commodity price increases, especially memory and SSDs.
+Cloud & AI gross profit increased by $728 million, or 48.2%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher commodity and input costs.
+50
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Cloud & AI earnings from operations increased by $540 million, or 130.4%, primarily driven by higher gross profit, partially offset by an increase in operating expenses of $188 million, or 17.1%, due to higher variable employee costs.
+Six months ended April 30, 2026 compared with six months ended April 30, 2025
+Cloud & AI segment net revenue increased
+ by $1,259 million, or 9.8%, primarily due to an increase in Server net revenue.
+Server net revenue increased
+ by $1,229 million, or 14.5%, predominantly due to an increase in the average selling price. The increase in average selling price was due to commodity price increases, especially memory and SSDs.
+Cloud & AI gross profit increased by $851 million, or 27.6%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher commodity and input costs.
+Cloud & AI earnings from operations increased by $638 million, or 66.4%, primarily driven by higher gross profit, partially offset by an increase in operating expenses of $213 million, or 10.1%, due to higher variable employee costs.
+CRITICAL ACCOUNTING POLICIES AND ESTIMATES
+Our Condensed Consolidated Financial Statements are prepared in accordance with U.S. GAAP which requires us to make estimates, judgments, and assumptions that affect the reported amounts of assets, liabilities, net revenue, and expenses, and the disclosure of contingent liabilities. An accounting policy is deemed to be critical if the nature of the estimate or assumption it incorporates is subject to a material level of judgment related to matters that are highly uncertain, and changes in those estimates and assumptions are reasonably likely to materially impact our Condensed Consolidated Financial Statements.
+Estimates and judgments are based on historical experience, forecasted events, and various other assumptions that we believe to be reasonable under the circumstances. Estimates and judgments may vary under different assumptions or conditions. We evaluate our estimates and judgments on an ongoing basis. Accounting policies that are critical in the portrayal of our financial condition and results of operations and require management’s most difficult, subjective, or complex judgments include revenue recognition, taxes on earnings, impairment assessment of goodwill and intangible assets, and contingencies.
+As of April 30, 2026, there have been no significant changes to our critical accounting estimates since our Annual Report on Form 10-K for the fiscal year ended October 31, 2025.
+LIQUIDITY AND CAPITAL RESOURCES
+Current Overview
+We use cash generated by operations as our primary source of liquidity. We believe that internally generated cash flows will be generally sufficient to support our operating businesses, capital expenditures, product development initiatives, and disposal activities including legal settlements, restructuring activities, indemnifications, maturing debt, interest payments, and income tax payments, in addition to any future investments, share repurchases, and stockholder dividend payments. We expect to supplement this short-term liquidity, if necessary, by accessing the capital markets, issuing commercial paper, and borrowing under credit facilities made available by various domestic and foreign financial institutions. However, our access to capital markets may be constrained and our cost of borrowing may increase under certain business, market and economic conditions. We anticipate that the funds made available, and cash generated from our operations, along with our access to capital markets, will be sufficient to meet our liquidity requirements for at least the next twelve months and for the foreseeable future thereafter. Our liquidity is subject to various risks including the risks identified in the section entitled “Risk Factors” in Item 1A of Part I of the Annual Report on Form 10-K for the fiscal year ended October 31, 2025, as modified by the risk statements in the section titled “Risk Factors” in Item 1A of Part II subsequent Quarterly Reports, and market risks identified in the section entitled “Quantitative and Qualitative Disclosures about Market Risk” in Item 3 of Part I of this Quarterly Report.
+Our cash balances are held in numerous locations throughout the world, with a substantial amount held outside the U.S. as of April 30, 2026. We utilize a variety of planning and financing strategies in an effort to ensure that our worldwide cash is available when and where it is needed.
+Amounts held outside of the U.S. are generally utilized to support our non-U.S. liquidity needs. Repatriations of amounts held outside the U.S. generally will not be taxable from a U.S. federal tax perspective, but may be subject to state income or foreign withholding tax. Where local restrictions prevent an efficient intercompany transfer of funds, our intent is to keep cash balances outside of the U.S. and to meet liquidity needs through ongoing cash flows, external borrowings, or both. We do not
+51
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+expect restrictions or potential taxes incurred on repatriation of amounts held outside of the U.S. to have a material effect on our overall liquidity, financial condition, or results of operations.
+In connection with the share repurchase program previously authorized by our Board of Directors, we repurchased and settled an aggregate amount of $312 million, during the first six months of fiscal 2026. As of April 30, 2026, we had a remaining authorization of approximately $3.3 billion for future share repurchases. For more information on our share repurchase program, refer to the section entitled “Unregistered Sales of Equity Securities and Use of Proceeds” in Item 2 of Part II.
+In May 2026, we repaid the entire $0.75 billion outstanding under the three-year delayed draw-down term loan credit facility at par, along with accrued interest.
+On December 18, 2025, we announced an agreement to divest our Telco Solutions business to HCLTech.
+On November 17, 2025 and November 28, 2025, we announced plans to divest our remaining investment in H3C’s issued share capital for approximately $1.4 billion. On May 13, 2026, we closed on the sale and disposition of 13.8% of the total issued share capital of H3C for approximately $987 million. On May 28, 2026, the Company closed on the sale of the remaining 5.2% of the total issued share capital of H3C for approximately $370 million. For more information, see Note 7, “Acquisitions and Dispositions” to the Condensed Consolidated Financial Statements in Item 1 of Part I.
+Liquidity
+Our cash, cash equivalents, restricted cash, total debt, and available borrowing resources were as follows:
+As of
+April 30, 2026
+October 31, 2025
+In millions
+Cash, cash equivalents and restricted cash
+$
+5,354 
+$
+5,859 
+Total debt
+21,246 
+22,365 
+Available borrowing resources
+6,497 
+6,122 
+Commercial paper programs
+(1)
+5,113 
+5,069 
+Uncommitted lines of credit
+(2)
+$
+1,384 
+$
+1,053 
+(1)     The maximum borrowing amounts available under the commercial paper programs and revolving credit facility are $5.75 billion and $5.25 billion, respectively, as of both April 30, 2026 and October 31, 2025. The combined borrowings between both sources cannot exceed $5.75 billion.
+(2)    The maximum aggregate capacity under the uncommitted lines of credit is $1.8 billion, of which $0.4 billion was primarily utilized towards issuances of bank guarantees.
+The following tables represent the way in which management reviews cash flows:
+For the six months ended April 30,
+2026
+2025
+In millions
+Net cash provided by (used in) operating activities
+$
+2,588 
+$
+(851)
+Net cash used in investing activities
+(993)
+(1,012)
+Net cash used in financing activities
+(2,091)
+(1,492)
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+(9)
+38 
+Change in cash, cash equivalents and restricted cash
+$
+(505)
+$
+(3,317)
+Free cash flow
+$
+1,623 
+$
+(1,724)
+52
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Operating Activities
+For the six months ended April 30, 2026, net cash provided by operating activities increased by $3.4 billion, as compared to the corresponding period in fiscal 2025. The increase was primarily due to the timing of vendor payments and higher net cash generated from operations, primarily due to the acquisition of Juniper Networks.
+Our working capital metrics and cash conversion impacts were as follows:
+ 
+As of
+As of
+ 
+April 30, 2026
+October 31, 2025
+Change
+April 30, 2025
+October 31, 2024
+Change
+Y/Y Change
+Days of sales outstanding in accounts receivable ("DSO")
+53 
+49 
+4 
+46 
+38 
+8 
+7 
+Days of supply in inventory ("DOS")
+120 
+89 
+31 
+134 
+120 
+14 
+(14)
+Days of purchases outstanding in accounts payable ("DPO")
+(150)
+(108)
+(42)
+(154)
+(170)
+16 
+4 
+Cash conversion cycle
+23 
+30 
+(7)
+26 
+(12)
+38 
+(3)
+The cash conversion cycle is the sum of DSO and DOS less DPO. Items which may cause the cash conversion cycle in a particular period to differ include, but are not limited to, changes in business mix, changes in payment terms (including extended payment terms to customers or from suppliers), early or late invoice payments from customers or to suppliers, the extent of receivables factoring, seasonal trends, the timing of the revenue recognition and inventory purchases within the period, the impact of commodity costs, and acquisition activity.
+DSO measures the average number of days our receivables are outstanding. DSO is calculated by dividing ending accounts receivable, net of allowance for doubtful accounts, by a 90-day average of net revenue. Compared to the corresponding three-month period in fiscal 2025, the increase in DSO in the current period was primarily due to a decrease in early payments, along with the impact of the Merger.
+DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the decrease in DOS in the current period was primarily due to higher shipments.
+DPO measures the average number of days our accounts payable balances are outstanding. DPO is calculated by dividing ending accounts payable by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the decrease in DPO in the current period was primarily due to higher payments to contract manufacturers.
+Investing Activities
+For the six months ended April 30, 2026, there was no material change in net cash used in investing activities, as compared to the corresponding period in fiscal 2025.
+Financing Activities
+For the six months ended April 30, 2026, net cash used in financing activities increased by $0.6 billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to higher repayments of debt of $2.3 billion, partially offset by higher proceeds from debt, net of issuance costs of $2.0 billion, and higher cash utilized for share repurchases of $0.2 billion, as compared to the prior-year period.
+Free Cash Flow
+Free cash flow (“FCF”) represents cash flow from operations less net capital expenditures (investments in property, plant and equipment (“PP&E”) and software assets less proceeds from the sale of PP&E), and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash. For the six months ended April 30, 2026, FCF increased by $3.3 billion, as compared to the corresponding period in fiscal 2025. This was primarily due to higher cash provided by operating activities, as compared to the prior-year period. For more information on our FCF, refer to the section entitled “GAAP to non-GAAP Reconciliations” included in this MD&A.
+53
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+For more information on the impact of operating assets and liabilities to our cash flows, see Note 5, “Balance Sheet Details” to the Condensed Consolidated Financial Statements in Item 1 of Part I.
+Capital Resources
+We maintain debt levels that we establish through consideration of several factors, including cash flow expectations, cash requirements for operations, investment plans (including acquisitions), share repurchase activities, our cost of capital, and targeted capital structure. We maintain a revolving credit facility and two commercial paper programs, “the Parent Programs,” and a wholly-owned subsidiary maintains a third program. There have been no changes to our revolving credit facility and commercial paper programs since October 31, 2025.
+In December 2023, we filed a shelf registration statement with the Securities and Exchange Commission that allows us to sell, at any time and from time to time, in one or more offerings, debt securities, preferred stock, common stock, warrants, depository shares, purchase contracts, guarantees or units consisting of any of these securities.
+Significant funding and liquidity activities for the six months ended April 30, 2026 were as follows:
+Debt Issuances:
+•
+In March 2026, we issued multiple debt instruments, including: (i) $300 million of floating rate notes due March 23, 2028; (ii) $500 million of 4.5% Senior Notes due March 23, 2028; (iii) $600 million of 4.6% Senior Notes due March 23, 2029; and (iv) $600 million of 5.25% Senior Notes due April 1, 2033.     
+Debt Repayments:
+•
+In April 2026, we repaid $750 million of 1.75% Senior Notes on their original maturity date.
+•
+In March 2026, we prepaid $1.25 billion of the $2.0 billion outstanding balance under the three-year delayed draw term loan credit facility.
+•
+In December 2025, we repaid $400 million of 1.20% Juniper Global Notes on their original maturity date.
+•
+During the six months ended April 30, 2026, we repaid $0.7 billion of the outstanding asset-backed debt securities.
+Cash Requirements and Commitments
+Unconditional purchase obligations
+As of April 30, 2026, unconditional purchase obligations totaled $5.7 billion, of which $3.4 billion is due within fiscal 2026. Our unconditional purchase obligations are related principally to inventory purchases, software maintenance and support services and other items. Unconditional purchase obligations exclude agreements that are cancellable without penalty.
+Retirement Benefit Plan Funding
+For the remainder of fiscal 2026, we anticipate making contributions of approximately $118 million to our non-U.S. pension plans. Our policy is to fund our pension plans so that we meet at least the minimum contribution requirements, as established by various authorities including local government and tax authorities.
+Restructuring Plans
+As of April 30, 2026, we expect to make future cash payments of approximately $89 million in connection with our approved restructuring plans, which includes $17 million expected to be paid through the remainder of fiscal 2026 and $72 million expected to be paid thereafter.
+Cost Savings Plans
+The Program is expected to be implemented through fiscal year 2026. The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the timing thereof are subject to a number of assumptions, including local law requirements in various jurisdictions, and actual amounts may differ materially from estimates. In connection with the integration of Juniper Networks, we expect to incur costs by fiscal year 2028 to achieve synergies, actual costs incurred may differ from estimates. As of April 30, 2026, we expect to make future cash payments of approximately $726 million in connection with the cost savings plans, which includes $229 million expected to be paid through the remainder of fiscal 2026 and $497 million expected to be paid thereafter.
+54
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Uncertain Tax Positions
+As of April 30, 2026, we had approximately $233 million of recorded liabilities and related interest and penalties pertaining to uncertain tax positions. These liabilities and related interest and penalties include $10 million expected to be paid within one year. For the remaining amount, we are unable to make a reasonable estimate as to when cash settlement with the tax authorities might occur due to the uncertainties related to these tax matters. Payments of these obligations would result from settlements with taxing authorities. For more information on our uncertain tax positions, see Note 4, “Taxes on Earnings” to the Condensed Consolidated Financial Statements in Item 1 of Part I.
+For further information see “Cash Requirements and Commitments” in Item 7 of Part II of our Annual Report on Form 10-K for the fiscal year ended October 31, 2025.
+Off-Balance Sheet Arrangements
+As part of our ongoing business, we have not participated in transactions that generate material relationships with unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or special purpose entities, established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes.
+GAAP to non-GAAP Reconciliations
+The following tables provide a reconciliation of each non-GAAP financial measure to the most directly comparable GAAP financial measure for the periods presented:
+Reconciliation of GAAP gross profit and gross profit margin to non-GAAP gross profit and gross profit margin.
+For the three months ended April 30,
+For the six months ended April 30,
+2026
+2025
+2026
+2025
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars in millions
+GAAP net revenue
+$
+10,678 
+100 
+%
+$
+7,627 
+100 
+%
+$
+19,979 
+100 
+%
+$
+15,481 
+100 
+%
+GAAP cost of sales
+6,778 
+63.5 
+%
+5,458 
+71.6 
+%
+12,739 
+63.8 
+%
+11,017 
+71.2 
+%
+GAAP gross profit
+3,900 
+36.5 
+%
+2,169 
+28.4 
+%
+7,240 
+36.2 
+%
+4,464 
+28.8 
+%
+Non-GAAP adjustments
+Stock-based compensation expense
+23 
+0.2 
+%
+13 
+0.2 
+%
+47 
+0.2 
+%
+30 
+0.2 
+%
+Acquisition, disposition and other charges
+6 
+0.1 
+%
+— 
+— 
+%
+40 
+0.2 
+%
+(3)
+— 
+%
+Cost reduction program
+8 
+0.1 
+%
+46 
+0.6 
+%
+13 
+0.1 
+%
+46 
+0.3 
+%
+H3C divestiture related severance costs
+— 
+— 
+%
+16 
+0.2 
+%
+— 
+— 
+%
+17 
+0.1 
+%
+Non-GAAP gross profit
+$
+3,937 
+36.9 
+%
+$
+2,244 
+29.4 
+%
+$
+7,340 
+36.7 
+%
+$
+4,554 
+29.4 
+%
+​
+(1)
+Certain amounts may not add due to use of rounded numbers.
+55
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Reconciliation of GAAP earnings (loss) from operations and operating profit margin to non-GAAP earnings from operations and operating profit margin.
+For the three months ended April 30,
+For the six months ended April 30,
+2026
+2025
+2026
+2025
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars
+% of
+Revenue
+(1)
+Dollars in millions
+GAAP earnings (loss) from operations
+$
+747 
+7.0 
+%
+$
+(1,109)
+(14.5)
+%
+$
+1,217 
+6.1 
+%
+$
+(676)
+(4.4)
+%
+Non-GAAP Adjustments:
+Amortization of intangible assets
+323 
+3.0 
+%
+37 
+0.5 
+%
+634 
+3.2 
+%
+75 
+0.5 
+%
+Impairment charges
+— 
+— 
+%
+1,361 
+17.8 
+%
+— 
+— 
+%
+1,361 
+8.8 
+%
+Stock-based compensation expense
+218 
+2.0 
+%
+116 
+1.5 
+%
+434 
+2.2 
+%
+270 
+1.7 
+%
+H3C divestiture related severance costs
+— 
+— 
+%
+20 
+0.3 
+%
+— 
+— 
+%
+97 
+0.6 
+%
+Cost reduction program
+30 
+0.3 
+%
+146 
+1.9 
+%
+53 
+0.3 
+%
+146 
+0.9 
+%
+Acquisition, disposition and other charges
+105 
+1.0 
+%
+42 
+0.6 
+%
+267 
+1.3 
+%
+120 
+0.8 
+%
+Non-GAAP earnings from operations
+$
+1,423 
+13.3 
+%
+$
+613 
+8.0 
+%
+$
+2,605 
+13.0 
+%
+$
+1,393 
+9.0 
+%
+​
+(1)
+Certain amounts may not add due to use of rounded numbers.
+56
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Reconciliation of GAAP net earnings (loss) and diluted net EPS to non-GAAP net earnings and diluted net EPS.
+For the three months ended April 30,
+Six months ended April 30,
+2026
+2025
+2026
+2025
+Dollars
+Diluted Net EPS
+(1)
+Dollars
+Diluted Net EPS
+(1)
+Dollars
+Diluted Net EPS
+(1)
+Dollars
+Diluted Net EPS
+(1)
+Dollars in millions except per share amounts
+GAAP net earnings (loss) attributable to common stockholders
+$
+595 
+$
+(1,079)
+$
+(0.82)
+$
+1,018 
+$
+0.75 
+$
+(481)
+$
+(0.36)
+Preferred stock dividends
+29 
+29 
+58 
+58 
+GAAP net earnings (loss) attributable to HPE
+624 
+$
+0.44 
+(1,050)
+1,076 
+(423)
+Non-GAAP Adjustments:
+Amortization of intangible assets
+323 
+0.23 
+37 
+0.03 
+634 
+0.47 
+75 
+0.06 
+Impairment charges
+— 
+— 
+1,361 
+1.03 
+— 
+— 
+1,361 
+1.03 
+Stock-based compensation expense
+218 
+0.15 
+116 
+0.09 
+434 
+0.32 
+270 
+0.20 
+Gain on sale of a business
+— 
+— 
+— 
+— 
+— 
+— 
+(244)
+(0.18)
+H3C divestiture related severance costs
+— 
+— 
+20 
+0.02 
+— 
+— 
+97 
+0.07 
+Cost reduction program
+30 
+0.02 
+146 
+0.11 
+53 
+0.04 
+146 
+0.11 
+Acquisition, disposition and other charges
+105 
+0.08 
+42 
+0.03 
+267 
+0.19 
+120 
+0.08 
+Adjustments for equity interests
+(25)
+(0.02)
+— 
+— 
+(42)
+(0.03)
+— 
+— 
+Loss (gain) on equity investments, net
+3 
+— 
+(7)
+(0.01)
+(11)
+(0.01)
+(9)
+(0.01)
+Other adjustments
+(2)
+(32)
+(0.04)
+(29)
+(0.02)
+(65)
+(0.08)
+(58)
+(0.04)
+Adjustments for taxes
+(110)
+(0.07)
+(91)
+(0.08)
+(280)
+(0.21)
+(106)
+(0.09)
+Non-GAAP net earnings attributable to HPE
+(3)
+1,136 
+$
+0.79 
+545 
+$
+0.38 
+2,066 
+$
+1.44 
+1,229 
+$
+0.87 
+Preferred stock dividends
+(29)
+(29)
+(58)
+(58)
+Non-GAAP net earnings attributable to common stockholders
+$
+1,107 
+$
+516 
+$
+2,008 
+$
+1,171 
+
+(1)  The impact of dilutive effect of employee stock plans is calculated under the treasury stock method, and the impact of dilutive effect of the Preferred Stock is calculated under the if-converted method. See Note 13 “Net Earnings (Loss) Per Share”, to the Condensed Consolidated Financial Statements in Item 1 of Part I for further information. The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock.
+(2)    Other adjustments includes non-service net periodic benefit credit and tax indemnification and other adjustments.
+(3)    For purposes of calculating Non-GAAP diluted net EPS, the Preferred Stock dividends are added back to the Non-GAAP net earnings attributable to common stockholders, and the diluted weighted-average share calculation assumes the Preferred Stock was converted at issuance or as of the beginning of the reporting period. See the table below for the shares used to calculate Non-GAAP diluted net EPS.
+57
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Shares used to calculate Non-GAAP diluted net EPS.
+For the three months ended April 30,
+Six months ended April 30,
+2026
+2025
+2026
+2025
+In millions
+Weighted-average shares used to compute basic net EPS
+1,335 
+1,322 
+1,335 
+1,319 
+Dilutive effect of 7.625% Series C mandatory convertible preferred stock
+76 
+87 
+76 
+76 
+Dilutive effect of employee stock plans
+21 
+10 
+21 
+14 
+Weighted-average shares used to compute Non-GAAP diluted net EPS
+1,432 
+1,419 
+1,432 
+1,409 
+Reconciliation of net cash provided by (used in) operating activities to free cash flow.
+For the three months ended April 30,
+Six months ended April 30,
+2026
+2025
+2026
+2025
+In millions
+Net cash provided by (used in) operating activities
+$
+1,410 
+$
+(461)
+$
+2,588 
+$
+(851)
+Investment in property, plant and equipment and software assets
+(583)
+(547)
+(1,152)
+(1,075)
+Proceeds from sale of property, plant and equipment
+130 
+80 
+196 
+164 
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+(42)
+81 
+(9)
+38 
+Free cash flow
+$
+915 
+$
+(847)
+$
+1,623 
+$
+(1,724)
+Use of Non-GAAP Financial Measures
+The non-GAAP financial measures presented non-GAAP gross profit, non-GAAP gross profit margin, non-GAAP earnings from operations, non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue), non-GAAP tax rate, non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, non-GAAP diluted net earnings per share attributable to common stockholders, and FCF. These non-GAAP financial measures are not computed in accordance with, or as an alternative to, generally accepted accounting principles in the United States. The GAAP measure most directly comparable to non-GAAP gross profit is gross profit. The GAAP measure most directly comparable to non-GAAP gross profit margin is gross profit margin. The GAAP measure most directly comparable to non-GAAP earnings from operations is earnings from operations. The GAAP measure most directly comparable to non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue) is operating profit margin (earnings from operations as a percentage of net revenue). The GAAP measure most directly comparable to non-GAAP income tax rate is income tax rate. The GAAP measure most directly comparable to non-GAAP net earnings attributable to HPE and non-GAAP net earnings attributable to common stockholders is net earnings attributable to HPE and net earnings attributable to common stockholders. The GAAP measure most directly comparable to non-GAAP diluted net earnings per share attributable to common stockholders is diluted net earnings per share attributable to common stockholders. The GAAP measure most directly comparable to FCF is cash flow from operations.
+We believe that providing the non-GAAP measures stated above, in addition to the related GAAP measures provides greater transparency to the information used in our financial and operational decision making and allows the reader of our Condensed Consolidated Financial Statements to see our financial results “through the eyes” of management. We further believe that providing this information provides investors with a supplemental view to understand our historical and prospective operating performance and to evaluate the efficacy of the methodology and information used by management to evaluate and measure such performance. Disclosure of these non-GAAP financial measures also facilitates comparisons of our operating performance with the performance of other companies in the same industry that supplement their GAAP results with non-GAAP financial measures that may be calculated in a similar manner.
+58
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+Economic Substance of non-GAAP Financial Measures
+We believe that excluding the items mentioned below from the non-GAAP financial measures provides a supplemental view to management and our investors of our consolidated financial performance and presents the financial results of the business without costs that we do not believe to be reflective of our ongoing operating results. Exclusion of these items can have a material impact on the equivalent GAAP measure and cash flows thus limiting the use of such non-GAAP financial measures as analytic tools. See “Compensation for Limitations With Use of Non-GAAP Financial Measures” section below for further information.
+Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges related to stock-based compensation expense, acquisition, disposition and other charges, severance costs associated with the cost reduction program, and H3C divestiture related severance costs. See below for the reasons management excludes each item:
+•
+Stock-based compensation expense consists of equity awards granted based on the estimated fair value of those awards at grant date. Although stock-based compensation is a key incentive offered to our employees, we exclude these charges for the purpose of calculating these non-GAAP measures, primarily because they are non-cash expenses and our internal benchmarking analyses evidence that many industry participants and peers present non-GAAP financial measures excluding stock-based compensation expense.
+•
+We incur costs related to our acquisition, disposition and other charges. Charges include expenses associated with acquisitions, non-cash amortization of fair value adjustment for inventory in connection with the Merger, exit costs associated with disposal activities, transformation costs (credits), and disaster (recovery) charges. We exclude these costs because we consider these charges to be discrete events and do not believe they are reflective of normal continuing business operations. For the three and six months ended April 30, 2026, acquisition charges were driven by costs associated with the Merger and miscellaneous disposition related charges. For the three and six months ended April 30, 2025, acquisition charges were driven by costs associated with the pending acquisition of Juniper Networks and miscellaneous disposition related charges.
+•
+We incurred severance and other charges pursuant to cost management initiatives. We exclude these charges because we do not believe they are reflective of normal continuing business operations. We believe eliminating these adjustments for the purposes of calculating non-GAAP measures facilitates the evaluation of our current operating performance.
+•
+We incurred H3C divestiture related severance costs in connection with the disposition of issued share capital of H3C held by HPE. On September 4, 2024, we divested 30% of the total issued share capital of H3C and received proceeds of $2.1 billion of pre-tax consideration ($2.0 billion post-tax). The divestiture resulted in decreased future investment earnings and cash dividend inflows resulting in a decision to implement offsetting cost savings measures. These measures include severance for certain of the Company’s employees. The non-GAAP adjustment represents our costs to execute these related exit actions to offset the loss in equity earnings and related cash flows. We expect future annualized cost savings of approximately $120 million following the completion of these actions.
+Non-GAAP earnings from operations and non-GAAP operating profit margin consist of earnings from operations or earnings from operations as a percentage of net revenue excluding the items mentioned above and charges relating to the amortization of intangible assets and impairment charges. In addition to the items previously explained above, management excludes these items for the following reasons:
+•
+We incur charges relating to the amortization of intangible assets and exclude these charges for purposes of calculating these non-GAAP measures. Such charges are significantly impacted by the timing and magnitude of our acquisitions. We exclude these charges for the purpose of calculating these non-GAAP measures, primarily because they are noncash expenses and our internal benchmarking analyses evidence that many industry participants and peers present non-GAAP financial measures excluding intangible asset amortization. Although this does not directly affect our cash position, the loss in value of intangible assets over time can have a material impact on the equivalent GAAP earnings measure.
+•
+In the second quarter of fiscal 2025, we recorded a non-cash impairment charge for the goodwill associated with our Cloud & AI (excluding Financial Services) reporting unit. HPE believes that this non-cash charge does not reflect the Company’s operating results and is not indicative of the underlying performance of the business. HPE excludes these charges for purposes of calculating these non-GAAP measures to facilitate a more meaningful evaluation of HPE’s current operating performance and comparisons to HPE’s operating performance in other periods. Although this does
+59
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+not directly affect our cash position, the loss in value of goodwill over time can have a material impact on the equivalent GAAP earnings measure.
+Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per share excluding those same charges mentioned above, as well as other items such as gain on sale of a business, adjustments for equity interests, gain on equity investments, other adjustments, and adjustments for taxes. Non-GAAP net earnings attributable to HPE and non-GAAP diluted net earnings per share attributable to common stockholders includes preferred stock dividends added back to non-GAAP net earnings attributable to HPE. The Adjustments for taxes line item includes the impact of tax law changes, structural rate adjustment, excess tax benefit from stock-based compensation, and adjustments for additional taxes or tax benefits associated with each non-GAAP item. In addition to the items previously explained, management excludes these items for the following reasons:
+•
+Gain on sale of a business represents the gain associated with certain disposal activities. On December 1, 2024, we completed the disposition of CTG. We consider this divestiture to be a discrete event and believe eliminating this adjustment for the purposes of calculating non-GAAP measures facilitates the evaluation of our current operating performance.
+•
+As of April 30, 2026, we possess a 19% equity interest in H3C, however, we entered into share purchase agreements to divest all of the remaining issued share capital of H3C held by HPE through its subsidiaries. Beginning in fiscal 2026, we stopped reporting H3C earnings in our non-GAAP results due to the planned divestiture of our H3C investment. In May 2026, the Company sold the remaining equity interest in H3C. We believe that eliminating these amounts for purposes of calculating non-GAAP financial measures facilitates the evaluation of our current operating performance.
+•
+We exclude gains and losses (including impairments) on our non-marketable equity investments because we do not believe they are reflective of normal continuing business operations. These adjustments are reflected in Interest and other, net in the Condensed Consolidated Statements of Earnings. We believe eliminating these adjustments for the purposes of calculating non-GAAP measures facilitates the evaluation of our current operating performance.
+•
+We utilize a structural long-term projected non-GAAP income tax rate in order to provide consistency across the interim reporting periods and to eliminate the effects of items not directly related to our operating structure that can vary in size, frequency and timing. When projecting this long-term rate, we evaluated a three-year financial projection. The projected rate assumes no incremental acquisitions in the three-year projection period and considers other factors including our expected tax structure, our tax positions in various jurisdictions and current impacts from key legislation implemented in major jurisdictions where we operate. For fiscal 2026, we will use a projected non-GAAP income tax rate of 14%, which reflects currently available information as well as other factors and assumptions. For fiscal 2025, we had a non-GAAP income tax rate of 15%. The non-GAAP income tax rate could be subject to change for a variety of reasons, including the rapidly evolving global tax environment, significant changes in our geographic earnings mix including due to acquisition activity, or other changes to our strategy or business operations. We will re-evaluate its long-term rate as appropriate. We believe that making these adjustments for purposes of calculating non-GAAP measures, facilitates a supplemental evaluation of our current operating performance and comparisons to past operating results.
+FCF is defined as cash flow from operations, less net capital expenditures (investments in PP&E and software assets less proceeds from the sale of PP&E), and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash. FCF does not represent the total increase or decrease in cash for the period. Our management and investors can use FCF for the purpose of determining the amount of cash available for investment in our businesses, repurchasing stock and other purposes as well as evaluating our historical and prospective liquidity.
+Compensation for Limitations With Use of Non-GAAP Financial Measures
+These non-GAAP financial measures have limitations as analytical tools, and these measures should not be considered in isolation or as a substitute for analysis of our results as reported under GAAP. Some of the limitations in relying on these non-GAAP financial measures are that they can have a material impact on the equivalent GAAP earnings measures and cash flows, they may be calculated differently by other companies (limiting the usefulness of those measures for comparative purposes) and may not reflect the full economic effect of the loss in value of certain assets.
+60
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Management's Discussion and Analysis of
+Financial Condition and Results of Operations (Continued)
+We compensate for these limitations on the use of non-GAAP financial measures by relying primarily on our GAAP results and using non-GAAP financial measures only as a supplement. We also provide a reconciliation of each non-GAAP financial measure to its most directly comparable GAAP financial measure for this quarter and prior periods, and we encourage investors to review those reconciliations carefully.
+61
+Table of Contents

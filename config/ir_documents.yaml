@@ -1,0 +1,30 @@
+# Hand-maintained Samsung IR English PDF list (SPEC Milestone 5).
+# Add new interim / annual English business-report URLs as Samsung publishes them.
+documents:
+  - company: Samsung Electronics
+    ticker_or_code: "005930"
+    role: supplier
+    form: IR-PDF
+    title: "2025 Business Report (year ended 2025-12-31)"
+    filing_date: "2026-03-31"
+    period_end: "2025-12-31"
+    url: "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf"
+
+  - company: Samsung Electronics
+    ticker_or_code: "005930"
+    role: supplier
+    form: IR-PDF
+    title: "2026 Interim Business Report (quarter ended 2026-03-31)"
+    filing_date: "2026-05-15"
+    period_end: "2026-03-31"
+    url: "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf"
+
+  - company: Samsung Electronics
+    ticker_or_code: "005930"
+    role: supplier
+    form: IR-PDF
+    title: "2026 Half-year Business Report (half-year ended 2026-06-30)"
+    filing_date: "2026-08-14"
+    period_end: "2026-06-30"
+    # English half-year hosted via LSE RNS mirror of Samsung IR filing.
+    url: "https://www.rns-pdf.londonstockexchange.com/rns/7101S_1-2026-8-31.pdf"

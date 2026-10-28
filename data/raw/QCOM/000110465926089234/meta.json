@@ -1,0 +1,28 @@
+{
+  "company": "Qualcomm",
+  "ticker": "QCOM",
+  "cik": "0000804328",
+  "form": "8-K",
+  "filing_date": "2026-07-31",
+  "accession_number": "0001104659-26-089234",
+  "primary_document": "tm2621612d2_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
+  "fiscal_year_end": "0927",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:48.648121+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/QCOM/000110465926089234/primary.html",
+    "other": "data/raw/QCOM/000110465926089234/other_full.txt"
+  },
+  "period_end": "2026-07-31",
+  "report_date": "2026-07-31"
+}

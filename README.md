@@ -1,3 +1,103 @@
+# Memory Signals
+
+Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
+
+## Milestone 1 — Micron EDGAR 10-K
+
+Fetch Micron's latest 10-K from SEC EDGAR, cache it under `data/raw/`, and split Item 1 (Business), Item 1A (Risk Factors), and Item 7 (MD&A). Full plain text is kept as `other`.
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Required by SEC fair-access. Copy .env.example → .env or export directly:
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+
+python -m src.fetch_edgar --ticker MU
+```
+
+Cached files land in `data/raw/MU/<accession_no_dashes>/`:
+
+| file | contents |
+|------|----------|
+| `primary.html` | raw EDGAR primary document |
+| `item1_business.txt` | Item 1 |
+| `item1a_risk_factors.txt` | Item 1A |
+| `item7_mdna.txt` | Item 7 |
+| `other_full.txt` | full plain text |
+| `meta.json` | accession, filing date, source URL, paths |
+
+Config: `config/settings.yaml` (`lookback_months: 12`), `config/companies.yaml` (ticker `MU` only — CIK looked up at runtime).
+
+## Milestone 2 — Extract + verify (Micron)
+
+Rule-based extraction from cached Item 1 / 1A / 7 text. Term lists live in `config/product_taxonomy.yaml` and `config/supply_terms.yaml`.
+
+```bash
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+# Fetches prior-year 10-K once (for carried_from_prior_year only; no signals extracted from it)
+python3 -m src.extract --ticker MU
+python3 -m src.verify   # defaults to data/sightings.csv
+# Fixture: python3 -m src.dedupe fixtures/signals_v010.csv
+```
+
+Output: append-only `data/sightings.csv` and rebuilt `data/signals.csv` (one row per signal; see `DEDUPE.md`). `verify.py` checks every sighting excerpt against `char_start`/`char_end` in the cached raw text (must be 100%).
+
+## Milestone 3 — all EDGAR companies
+
+```bash
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+python3 -m src.fetch_edgar --all
+python3 -m src.extract --all
+python3 -m src.verify
+```
+
+`config/companies.yaml` lists MU, SKHY, and buyers AAPL DELL HPQ HPE SMCI CSCO NVDA AMD QCOM JBL. Forms: 10-K, 10-Q, 8-K (items 2.02 / 2.06 / 7.01 / 8.01); SKHY also 6-K. CIKs and `fiscalYearEnd` come from EDGAR at runtime.
+
+## Milestone 4 — Feed + family view
+
+The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/design/`. Build sequence: `docs/FEED-BUILD.md`.
+
+```bash
+pip install -r requirements.txt
+uvicorn app.server:app --reload --port 8000
+# open http://localhost:8000/  (static placeholder until Prompt 2+)
+# API: GET /api/signals  GET /api/meta  GET /api/votes?user=NAME  POST /api/votes
+```
+
+Legacy Streamlit prototype (optional): `streamlit run app.py`.
+
+- Name field required before voting; filters for product category / family / supply direction / company / role / source.
+- **Feed**: stacked scroll of signal cards by default (toggle **Layout → One at a time** for the old queue). Sightings expander, 👍 / 👎 / Skip. Votes append to `data/votes.csv` (file-locked); tallies use each user’s latest vote.
+- **Family view**: plain counts per product family (signals, not sightings). Header shows the lookback window.
+
+Demo votes (invented users only; does not invent excerpts):
+
+```bash
+python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
+python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+```
+
+## Milestone 5 — OpenDART + Samsung IR
+
+Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
+
+```bash
+# Put the 40-character OpenDART key in gitignored .env (never commit it):
+# DART_API_KEY=...
+cp .env.example .env   # then edit
+
+python3 -m src.fetch_dart          # Samsung 005930 + SK hynix 000660
+python3 -m src.fetch_ir            # URLs in config/ir_documents.yaml
+export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+python3 -m src.extract --all --no-fetch-prior
+python3 -m src.verify              # must be 100%
+```
+
+`document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
+
+---
+
 # DRAM Signal Pipeline
 
 Phase 1 collectors for a DRAM market signal-detection pipeline. Public sources are pulled into a local SQLite table of normalized records; a later classification step will tag demand-side vs supply-side. Collectors intentionally capture broadly at the source level — job collectors only apply the title keyword gate from the brief, not demand/supply labels.

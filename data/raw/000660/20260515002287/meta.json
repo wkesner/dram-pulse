@@ -1,0 +1,25 @@
+{
+  "company": "SK hynix",
+  "ticker": "000660",
+  "role": "supplier",
+  "source": "DART",
+  "form": "분기보고서 (2026.03)",
+  "filing_date": "2026-05-15",
+  "accession_number": "20260515002287",
+  "filing_id": "20260515002287",
+  "corp_code": "00164779",
+  "title": "분기보고서 (2026.03)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002287",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "ko",
+  "files": [
+    "20260515002287.xml"
+  ],
+  "fetched_at": "2026-10-28T16:48:53.603442+00:00",
+  "paths": {
+    "other_full": "data/raw/000660/20260515002287/other_full.txt"
+  }
+}

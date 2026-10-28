@@ -1,0 +1,30 @@
+{
+  "company": "HP Inc.",
+  "ticker": "HPQ",
+  "cik": "0000047217",
+  "form": "10-K",
+  "filing_date": "2024-12-13",
+  "accession_number": "0000047217-24-000080",
+  "primary_document": "hpq-20241031.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/47217/000004721724000080/hpq-20241031.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:18:21.103382+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/HPQ/000004721724000080/primary.html",
+    "business": "data/raw/HPQ/000004721724000080/item1_business.txt",
+    "risk_factors": "data/raw/HPQ/000004721724000080/item1a_risk_factors.txt",
+    "mdna": "data/raw/HPQ/000004721724000080/item7_mdna.txt",
+    "other": "data/raw/HPQ/000004721724000080/other_full.txt"
+  },
+  "period_end": "2024-10-31",
+  "report_date": "2024-10-31"
+}

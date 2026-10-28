@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memory Signals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="/signal-map.js" defer></script>
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="top">
+        <h1>Memory signals</h1>
+        <div class="tabs" role="tablist" aria-label="Views">
+          <button
+            class="tab"
+            role="tab"
+            id="tab-feed"
+            aria-selected="true"
+            aria-controls="view-feed"
+            type="button"
+          >
+            Feed
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-map"
+            aria-selected="false"
+            aria-controls="view-map"
+            type="button"
+          >
+            Signal map
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-families"
+            aria-selected="false"
+            aria-controls="view-families"
+            type="button"
+          >
+            Families
+          </button>
+        </div>
+        <label class="user" for="user-name"
+          >Voting as
+          <input
+            id="user-name"
+            type="text"
+            placeholder="Your name"
+            autocomplete="off"
+          />
+        </label>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          title="Toggle light / dark theme"
+        >
+          Theme
+        </button>
+      </header>
+
+      <div class="layout">
+        <aside class="rail" aria-label="Filters">
+          <label for="f-category"
+            >Category
+            <select id="f-category">
+              <option value="">All categories</option>
+            </select>
+          </label>
+          <label for="f-family"
+            >Product family
+            <select id="f-family">
+              <option value="">All families</option>
+            </select>
+          </label>
+          <label for="f-direction"
+            >Supply direction
+            <select id="f-direction">
+              <option value="">Any direction</option>
+            </select>
+          </label>
+          <label for="f-company"
+            >Company
+            <select id="f-company">
+              <option value="">All companies</option>
+            </select>
+          </label>
+          <label for="f-role"
+            >Role
+            <select id="f-role">
+              <option value="">Suppliers and buyers</option>
+            </select>
+          </label>
+          <label for="f-section"
+            >Section
+            <select id="f-section">
+              <option value="">All sections</option>
+            </select>
+          </label>
+          <button class="clear" id="clear-filters" type="button">
+            Clear filters
+          </button>
+        </aside>
+
+        <main class="main">
+          <section
+            id="view-feed"
+            role="tabpanel"
+            aria-labelledby="tab-feed"
+            class="main"
+          >
+            <div class="queue">
+              <span class="q-left">Loading signals…</span>
+              <div class="q-right">
+                <span class="q-order">Unvoted first, newest last_seen first</span>
+                <label class="feed-mode" for="feed-mode"
+                  >Layout
+                  <select id="feed-mode" aria-label="Feed layout">
+                    <option value="stack" selected>Stacked</option>
+                    <option value="one">One at a time</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div
+              class="feed-stack"
+              id="feed-stack"
+              aria-live="polite"
+            ></div>
+          </section>
+
+          <section
+            id="view-map"
+            role="tabpanel"
+            aria-labelledby="tab-map"
+            class="main"
+            hidden
+          >
+            <div class="ms" id="signal-map">
+              <header class="ms-head">
+                <h1>Memory signal map</h1>
+                <p class="ms-take">
+                  <b id="ms-t-tight">—</b> of <b id="ms-t-all">—</b> signals in
+                  this view point to tightening supply<span id="ms-t-fam"></span>.
+                </p>
+              </header>
+
+              <div class="ms-controls">
+                <button
+                  class="ms-toggle"
+                  type="button"
+                  id="toggle-reported"
+                  aria-pressed="false"
+                >
+                  Leave out risk factors
+                </button>
+                <button class="ms-picked" type="button" id="picked-family" hidden></button>
+                <span class="ms-hint"
+                  >Click a product family to filter every card.</span
+                >
+              </div>
+
+              <section class="ms-tiles" id="headline">
+                <div class="ms-tile">
+                  <div class="ms-tile-label">Signals</div>
+                  <div class="ms-tile-value" id="ms-v-signals">—</div>
+                  <div class="ms-tile-sub" id="ms-scope">All families</div>
+                </div>
+                <div class="ms-tile">
+                  <div class="ms-tile-label">Point to tightening supply</div>
+                  <div class="ms-tile-value" id="ms-v-tightening">—</div>
+                  <div class="ms-tile-sub">
+                    <span id="ms-v-tight-pct">—</span>% of signals
+                  </div>
+                </div>
+                <div class="ms-tile">
+                  <div class="ms-tile-label">Point to easing supply</div>
+                  <div class="ms-tile-value" id="ms-v-easing">—</div>
+                  <div class="ms-tile-sub">Oversupply, falling prices</div>
+                </div>
+                <div class="ms-tile">
+                  <div class="ms-tile-label">Companies saying it</div>
+                  <div class="ms-tile-value" id="ms-v-companies">—</div>
+                  <div class="ms-tile-sub">Suppliers and buyers</div>
+                </div>
+              </section>
+
+              <div class="ms-grid">
+                <section class="ms-card" id="by-family">
+                  <h2>Supply direction by product family</h2>
+                  <p class="ms-note">
+                    Signals per family. Bars to the right point to tightening
+                    supply, bars to the left to easing. Darker segments come from
+                    memory suppliers, lighter ones from buyers.
+                  </p>
+                  <div class="ms-legend">
+                    <span
+                      ><i style="background: var(--tight)"></i>Tightening,
+                      supplier</span
+                    >
+                    <span
+                      ><i style="background: var(--tight-2)"></i>Tightening,
+                      buyer</span
+                    >
+                    <span
+                      ><i style="background: var(--ease)"></i>Easing, supplier</span
+                    >
+                    <span
+                      ><i style="background: var(--ease-2)"></i>Easing, buyer</span
+                    >
+                  </div>
+                  <div class="ms-chart" id="family-chart"></div>
+                </section>
+
+                <section class="ms-card" id="by-month">
+                  <h2>Signals by filing month</h2>
+                  <p class="ms-note">
+                    Tightening above the line, easing below. Counts are
+                    <b>sightings</b> by filing month across the lookback window.
+                  </p>
+                  <div class="ms-legend">
+                    <span
+                      ><i style="background: var(--tight)"></i>Tightening</span
+                    >
+                    <span><i style="background: var(--ease)"></i>Easing</span>
+                  </div>
+                  <div class="ms-chart" id="month-chart"></div>
+                </section>
+              </div>
+
+              <section class="ms-card" id="by-company">
+                <h2>Who is saying it</h2>
+                <p class="ms-note">
+                  The same split per company, so you can see whether a family's
+                  picture rests on one filer. Suppliers first.
+                </p>
+                <div class="ms-chart" id="company-chart"></div>
+              </section>
+
+              <section class="ms-card" id="data-notes">
+                <h2>What to know about this data</h2>
+                <ul class="ms-notes">
+                  <li>
+                    <b id="note-missing">—</b> have no rows yet. Every row comes
+                    from <b id="note-sources">—</b>, so sources not in that list
+                    are not in this file.
+                  </li>
+                  <li>
+                    <b id="note-general">—</b> of <b id="note-total">—</b> signals
+                    name memory only in general (<code>Memory_general</code>), so
+                    they can't point a salesperson to a family yet. Buyers name a
+                    specific family in <b id="note-buyer-specific">—</b> of their
+                    <b id="note-buyer-rows">—</b> signals.
+                  </li>
+                  <li>
+                    <b id="note-conflict">—</b> signals had tightening and easing
+                    words in the same passage and are flagged
+                    <code>direction_conflict</code> for review.
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </section>
+
+          <section
+            id="view-families"
+            role="tabpanel"
+            aria-labelledby="tab-families"
+            class="panel"
+            hidden
+          >
+            <h2>Signals per product family</h2>
+            <p class="hint" style="margin: 0">
+              Plain counts of de-duplicated signals, not a score. Window
+              <span class="win">…</span>. Click a family to open it in the feed.
+            </p>
+            <div class="scroll">
+              <table class="fam">
+                <thead>
+                  <tr>
+                    <th>Family</th>
+                    <th>Category</th>
+                    <th class="num">Tightening</th>
+                    <th class="num">Easing</th>
+                    <th class="num">Suppliers</th>
+                    <th class="num">Buyers</th>
+                    <th>Latest</th>
+                  </tr>
+                </thead>
+                <tbody id="fam-rows"></tbody>
+              </table>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

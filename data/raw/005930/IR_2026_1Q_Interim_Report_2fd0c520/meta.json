@@ -1,0 +1,22 @@
+{
+  "company": "Samsung Electronics",
+  "ticker": "005930",
+  "role": "supplier",
+  "source": "IR",
+  "form": "IR-PDF",
+  "filing_date": "2026-05-15",
+  "accession_number": "IR_2026_1Q_Interim_Report_2fd0c520",
+  "filing_id": "IR_2026_1Q_Interim_Report_2fd0c520",
+  "title": "2026 Interim Business Report (quarter ended 2026-03-31)",
+  "period_end": "2026-03-31",
+  "source_url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_Interim_Report.pdf",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "language": "en",
+  "fetched_at": "2026-10-28T16:48:17.964841+00:00",
+  "paths": {
+    "pdf": "data/raw/005930/IR_2026_1Q_Interim_Report_2fd0c520/document.pdf",
+    "other_full": "data/raw/005930/IR_2026_1Q_Interim_Report_2fd0c520/other_full.txt"
+  }
+}

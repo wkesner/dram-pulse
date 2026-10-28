@@ -1,0 +1,34 @@
+{
+  "company": "Cisco",
+  "ticker": "CSCO",
+  "cik": "0000858877",
+  "form": "8-K",
+  "filing_date": "2026-05-13",
+  "accession_number": "0000858877-26-000075",
+  "primary_document": "csco-20260513.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,2.05,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000075/csco-20260513.htm",
+  "fiscal_year_end": "0731",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:37.799532+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991pressrelease-q3f.htm",
+      "path": "data/raw/CSCO/000085887726000075/exhibit_99_exhibit991pressrelease-q3f.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000075/exhibit991pressrelease-q3f.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CSCO/000085887726000075/primary.html",
+    "other": "data/raw/CSCO/000085887726000075/other_full.txt"
+  },
+  "period_end": "2026-05-13",
+  "report_date": "2026-05-13"
+}

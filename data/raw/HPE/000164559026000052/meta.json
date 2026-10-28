@@ -1,0 +1,39 @@
+{
+  "company": "HPE",
+  "ticker": "HPE",
+  "cik": "0001645590",
+  "form": "8-K",
+  "filing_date": "2026-06-01",
+  "accession_number": "0001645590-26-000052",
+  "primary_document": "hpe-20260601.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.02,5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/hpe-20260601.htm",
+  "fiscal_year_end": "1031",
+  "lookback_months": 12,
+  "window_start": "2025-10-20",
+  "window_end": "2026-10-20",
+  "fetched_at": "2026-10-20T06:17:25.143474+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex-991x612026x8k.htm",
+      "path": "data/raw/HPE/000164559026000052/exhibit_99_ex-991x612026x8k.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/ex-991x612026x8k.htm"
+    },
+    {
+      "name": "ex-992x612026x8k.htm",
+      "path": "data/raw/HPE/000164559026000052/exhibit_99_ex-992x612026x8k.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000052/ex-992x612026x8k.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/HPE/000164559026000052/primary.html",
+    "other": "data/raw/HPE/000164559026000052/other_full.txt"
+  },
+  "period_end": "2026-06-01",
+  "report_date": "2026-06-01"
+}
