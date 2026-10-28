@@ -1,0 +1,2796 @@
+crdo-20260801
+0001807794
+FALSE
+August 1
+Q1
+2027
+http://fasb.org/us-gaap/2026#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2026#OtherLiabilitiesCurrent
+1
+365
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+xbrli:pure
+crdo:segment
+0001807794
+2026-05-03
+2026-08-01
+0001807794
+2026-08-25
+0001807794
+2026-08-01
+0001807794
+2026-05-02
+0001807794
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:CommonStockMember
+2026-05-02
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2026-05-02
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-05-02
+0001807794
+us-gaap:RetainedEarningsMember
+2026-05-02
+0001807794
+us-gaap:CommonStockMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:RetainedEarningsMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CommonStockMember
+2026-08-01
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2026-08-01
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-08-01
+0001807794
+us-gaap:RetainedEarningsMember
+2026-08-01
+0001807794
+us-gaap:CommonStockMember
+2025-05-03
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2025-05-03
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-05-03
+0001807794
+us-gaap:RetainedEarningsMember
+2025-05-03
+0001807794
+2025-05-03
+0001807794
+us-gaap:CommonStockMember
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:RetainedEarningsMember
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:CommonStockMember
+2025-08-02
+0001807794
+us-gaap:AdditionalPaidInCapitalMember
+2025-08-02
+0001807794
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-08-02
+0001807794
+us-gaap:RetainedEarningsMember
+2025-08-02
+0001807794
+2025-08-02
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerAMember
+us-gaap:AccountsReceivableMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerAMember
+us-gaap:AccountsReceivableMember
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerBMember
+us-gaap:AccountsReceivableMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerBMember
+us-gaap:AccountsReceivableMember
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerCMember
+us-gaap:AccountsReceivableMember
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerAMember
+us-gaap:SalesRevenueNetMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerAMember
+us-gaap:SalesRevenueNetMember
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerBMember
+us-gaap:SalesRevenueNetMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CustomerConcentrationRiskMember
+crdo:CustomerBMember
+us-gaap:SalesRevenueNetMember
+2025-05-04
+2025-08-02
+0001807794
+country:US
+2026-05-03
+2026-08-01
+0001807794
+country:US
+2025-05-04
+2025-08-02
+0001807794
+country:HK
+2026-05-03
+2026-08-01
+0001807794
+country:HK
+2025-05-04
+2025-08-02
+0001807794
+country:MY
+2026-05-03
+2026-08-01
+0001807794
+country:MY
+2025-05-04
+2025-08-02
+0001807794
+country:CN
+2026-05-03
+2026-08-01
+0001807794
+country:CN
+2025-05-04
+2025-08-02
+0001807794
+crdo:RESTOFTHEWORLDMember
+2026-05-03
+2026-08-01
+0001807794
+crdo:RESTOFTHEWORLDMember
+2025-05-04
+2025-08-02
+0001807794
+crdo:DustPhotonicsInc.Member
+2026-05-28
+0001807794
+crdo:DustPhotonicsInc.Member
+2026-05-28
+2026-05-28
+0001807794
+2026-05-28
+2026-05-28
+0001807794
+us-gaap:CommonStockMember
+crdo:DustPhotonicsInc.Member
+2026-05-28
+2026-05-28
+0001807794
+crdo:ReplacementEquityAwardsMember
+crdo:DustPhotonicsInc.Member
+2026-05-28
+2026-05-28
+0001807794
+crdo:ComiraSolutionsInc.Member
+2026-02-25
+0001807794
+crdo:ComiraSolutionsInc.Member
+2026-02-25
+2026-02-25
+0001807794
+2026-02-25
+2026-02-25
+0001807794
+crdo:HyperlumeInc.Member
+2025-09-29
+0001807794
+crdo:HyperlumeInc.Member
+2025-09-29
+2025-09-29
+0001807794
+2025-09-29
+2025-09-29
+0001807794
+us-gaap:DevelopedTechnologyRightsMember
+2026-08-01
+0001807794
+us-gaap:InProcessResearchAndDevelopmentMember
+2026-08-01
+0001807794
+us-gaap:CustomerRelationshipsMember
+2026-08-01
+0001807794
+us-gaap:DevelopedTechnologyRightsMember
+2026-05-02
+0001807794
+us-gaap:InProcessResearchAndDevelopmentMember
+2026-05-02
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel1Member
+2026-08-01
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel2Member
+2026-08-01
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel3Member
+2026-08-01
+0001807794
+us-gaap:MoneyMarketFundsMember
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel1Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel2Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel3Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel1Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel2Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel3Member
+2026-08-01
+0001807794
+us-gaap:CertificatesOfDepositMember
+2026-08-01
+0001807794
+us-gaap:FairValueInputsLevel1Member
+2026-08-01
+0001807794
+us-gaap:FairValueInputsLevel2Member
+2026-08-01
+0001807794
+us-gaap:FairValueInputsLevel3Member
+2026-08-01
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel1Member
+2026-05-02
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel2Member
+2026-05-02
+0001807794
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueInputsLevel3Member
+2026-05-02
+0001807794
+us-gaap:MoneyMarketFundsMember
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel1Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel2Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel3Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel1Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel2Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+us-gaap:FairValueInputsLevel3Member
+2026-05-02
+0001807794
+us-gaap:CertificatesOfDepositMember
+2026-05-02
+0001807794
+us-gaap:FairValueInputsLevel1Member
+2026-05-02
+0001807794
+us-gaap:FairValueInputsLevel2Member
+2026-05-02
+0001807794
+us-gaap:FairValueInputsLevel3Member
+2026-05-02
+0001807794
+crdo:ProductionEquipmentMember
+2026-08-01
+0001807794
+crdo:ProductionEquipmentMember
+2026-05-02
+0001807794
+crdo:ComputerEquipmentAndSoftwareMember
+2026-08-01
+0001807794
+crdo:ComputerEquipmentAndSoftwareMember
+2026-05-02
+0001807794
+crdo:LaboratoryEquipmentMember
+2026-08-01
+0001807794
+crdo:LaboratoryEquipmentMember
+2026-05-02
+0001807794
+us-gaap:LeaseholdImprovementsMember
+2026-08-01
+0001807794
+us-gaap:LeaseholdImprovementsMember
+2026-05-02
+0001807794
+us-gaap:ConstructionInProgressMember
+2026-08-01
+0001807794
+us-gaap:ConstructionInProgressMember
+2026-05-02
+0001807794
+crdo:PurchaseCommitmentsToManufacturingVendorsAndFoundryPartnersMember
+2026-08-01
+0001807794
+crdo:TechnologyLicenseFeesMember
+2026-08-01
+0001807794
+srt:MinimumMember
+2026-05-03
+2026-08-01
+0001807794
+srt:MaximumMember
+2026-05-03
+2026-08-01
+0001807794
+crdo:ManufacturingSupplyCapacityReservationAgreementsMember
+2026-08-01
+0001807794
+crdo:ManufacturingSupplyCapacityReservationAgreementsMember
+us-gaap:SubsequentEventMember
+2026-08-02
+2026-09-02
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+2026-05-02
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+2026-08-01
+0001807794
+us-gaap:PerformanceSharesMember
+2026-05-02
+0001807794
+us-gaap:PerformanceSharesMember
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:PerformanceSharesMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:PerformanceSharesMember
+2026-08-01
+0001807794
+2025-05-04
+2026-05-02
+0001807794
+us-gaap:CostOfGoodsAndServicesSold
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:CostOfGoodsAndServicesSold
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:ResearchAndDevelopmentExpense
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:ResearchAndDevelopmentExpense
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:SellingGeneralAndAdministrativeExpense
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:SellingGeneralAndAdministrativeExpense
+2025-05-04
+2025-08-02
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+crdo:HyperlumeInc.Member
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:RestrictedStockMember
+crdo:HyperlumeInc.Member
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:RestrictedStockMember
+crdo:HyperlumeInc.Member
+crdo:NewlyFormedSubsidiaryMember
+2026-05-03
+2026-08-01
+0001807794
+crdo:RestrictedStockUnitsAndRestrictedStockMember
+crdo:HyperlumeInc.Member
+2025-09-29
+0001807794
+crdo:RestrictedStockUnitsAndRestrictedStockMember
+crdo:HyperlumeInc.Member
+2025-09-29
+2025-09-29
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+crdo:DustPhotonicsInc.Member
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:RestrictedStockUnitsRSUMember
+crdo:DustPhotonicsInc.Member
+2026-05-28
+0001807794
+crdo:RestrictedStockUnitsAndRestrictedStockMember
+crdo:DustPhotonicsInc.Member
+2026-05-03
+2026-08-01
+0001807794
+crdo:HyperlumeInc.Member
+2026-05-28
+0001807794
+us-gaap:StockCompensationPlanMember
+2026-05-03
+2026-08-01
+0001807794
+us-gaap:StockCompensationPlanMember
+2025-05-04
+2025-08-02
+0001807794
+crdo:ReportableSegmentMember
+2026-05-03
+2026-08-01
+0001807794
+crdo:ReportableSegmentMember
+2025-05-04
+2025-08-02
+0001807794
+crdo:WilliamJ.BrennanMember
+2026-05-03
+2026-08-01
+0001807794
+crdo:WilliamJ.BrennanMember
+2026-08-01
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM
+10-Q
+
+(Mark One)
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+August 1, 2026
+or
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from __________ to ___________
+Commission File Number:
+001-41249
+
+Credo Technology Group Holding Ltd
+(Exact name of registrant as specified in its charter)
+Cayman Islands
+N/A
+(State or other jurisdiction of incorporation or organization)
+(I.R.S. Employer Identification No.)
+c/o
+Maples Corporate Services, Limited,
+PO Box 309, Ugland House
+Grand Cayman
+,
+KY1-1104
+,
+Cayman Islands
+N/A
+(Address of principal executive offices)
+(Zip Code)
+(
+408
+)
+664-9329
+
+Registrant's telephone number, including area code
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Ordinary shares, par value $0.00005 per share
+CRDO
+The Nasdaq Stock Market LLC
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.    
+Yes
+  ☒    No  ☐ 
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).     
+Yes
+  ☒    No  ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act:
+Large accelerated filer
+☒
+Accelerated filer
+☐
+Non-accelerated filer  
+☐
+Smaller reporting company
+☐
+Emerging growth company
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.     ☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act).     Yes  ☐    No 
+☒
+The registrant had
+187,951,918
+ ordinary shares outstanding as of August 25, 2026.
+Table of Contents
+Page
+Special Note Regarding Forward-looking Statements
+3
+PART
+I
+—FINANCIAL INFORMATION
+5
+Item 1.
+Financial Statements
+5
+Condensed Consolidated Balance Sheets
+5
+Condensed Consolidated Statements of Operations
+6
+Condensed Consolidated Statements of Comprehensive Income
+7
+Condensed Consolidated Statements of Shareholders’ Equity
+8
+Condensed Consolidated Statements of Cash Flows
+9
+Notes to Unaudited Condensed Consolidated Financial Statements
+10
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+22
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+27
+Item 4.
+Controls and Procedures 
+27
+PART II—OTHER INFORMATION
+28
+Item 1.
+Legal Proceedings
+28
+Item 1A.
+Risk Factors
+28
+Item 5.
+Other Information
+28
+Item 6.
+Exhibits
+29
+Signatures
+30
+2
+Special Note Regarding Forward-Looking Statements
+This Quarterly Report on Form 10-Q contains statements relating to our expectations, projections, beliefs, and prospects, which are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. In some cases, you can identify these statements by forward-looking words such as “anticipate,” “expect,” “intend,” “plan,” “goal,” “projects,” “believes,” “seeks,” “estimates,” "forecast," "target," “predict,” “future,” “may,” “can,” “will,” “would” or the negative of these terms or similar expressions. You should read these statements carefully because they may relate to future expectations around growth, strategy and anticipated trends in our business, contain projections of future results of operations or financial condition or state other “forward-looking” information. These statements are only predictions based on our current expectations, estimates, assumptions, and projections about future events and are applicable only as of the dates of such statements. These forward-looking statements are subject to certain risks and uncertainties that could cause our actual results, level of activity, performance or achievements to differ materially from the results, level of activity, performance or achievements expressed or implied by the forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those identified herein, and those discussed in the section titled “Risk Factors” of our Annual Report on Form 10-K for the fiscal year ended May 2, 2026 and our Quarterly Reports on Form 10-Q and other reports we file with the U.S. Securities and Exchange Commission (SEC). Factors that could cause actual results to differ materially from those predicted include, but are not limited to:
+•
+our expectations regarding our ability to address market and customer demands and to timely develop new or enhanced solutions to meet those demands;
+•
+anticipated trends, challenges and growth in our business and the markets in which we operate, including pricing expectations;
+•
+our expectations regarding our revenue, revenue mix, average selling prices, gross margin, and expenses;
+•
+our expectations regarding dependence on a limited number of customers and end customers;
+•
+our expectations regarding the effects of macroeconomic conditions such as economic slowdowns, inflation, stagflation, high or rising interest rates, financial institution instability, and recessions, as well as risks related to global economic conditions such as the current armed conflicts in Israel and the Middle East;
+•
+our customer relationships and our ability to retain and expand our customer relationships and to achieve design wins;
+•
+our expectations regarding the success, cost, and timing of new products;
+•
+the size and growth potential of the markets for our solutions, and our ability to serve and expand our presence in those markets;
+•
+our expectations regarding competition in our existing and future markets;
+•
+our expectations of the success of our acquisitions and how we integrate and generate revenue;
+•
+the impact a pandemic, epidemic, or other outbreak of disease may in the future have on our business, results of operations and financial condition, as well as the businesses of our suppliers and customers;
+•
+our expectations regarding trading relationships between countries in which we operate, including those between the United States and China, and related regulatory developments, such as tariffs, customs duties, trade sanctions and cross-border investment restrictions;
+•
+our expectations regarding the performance of, and our relationships with, our third-party suppliers and manufacturers;
+•
+our expectations regarding intellectual property and related litigation;
+•
+our expectations regarding our ability to attract and retain key personnel; and
+•
+the accuracy of our estimates regarding capital requirements and needs for additional financing.
+The forward-looking statements in this Quarterly Report on Form 10-Q represent our views as of the date of this Quarterly Report on Form 10-Q. It is not possible for our management to predict all risks, nor can we assess the
+3
+impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results to differ materially from those contained in any forward-looking statements we may make. Given these uncertainties, you should not place undue reliance on these forward-looking statements. Except as may be required by law, we assume no obligation to update these forward-looking statements or the reasons that results could differ from these forward-looking statements. You should, therefore, not rely on these forward-looking statements as representing our views as of any date subsequent to the date of this Quarterly Report on Form 10-Q.
+ You should not rely upon forward-looking statements as predictions of future events. Although we believe that the expectations reflected in the forward-looking statements are reasonable, we cannot guarantee that the future results, levels of activity, performance or events and circumstances reflected in the forward-looking statements will be achieved or will occur.
+4
+PART I—FINANCIAL INFORMATION
+Item 1. Financial Statements.
+Credo Technology Group Holding Ltd
+Condensed Consolidated Balance Sheets
+(unaudited, in thousands, except per share amounts)
+August 1, 2026
+May 2, 2026
+Assets
+Current assets:
+Cash and cash equivalents
+$
+466,869
+ 
+$
+1,164,952
+ 
+Short-term investments
+297,389
+ 
+278,334
+ 
+Accounts receivable
+288,798
+ 
+233,377
+ 
+Inventories
+313,051
+ 
+250,831
+ 
+Other current assets
+100,186
+ 
+73,576
+ 
+Total current assets
+1,466,293
+ 
+2,001,070
+ 
+Property and equipment, net
+114,462
+ 
+101,605
+ 
+Right-of-use assets
+25,061
+ 
+24,640
+ 
+Goodwill
+986,447
+ 
+92,798
+ 
+Intangible assets, net
+378,817
+ 
+29,262
+ 
+Other non-current assets
+41,647
+ 
+46,244
+ 
+Total assets
+$
+3,012,727
+ 
+$
+2,295,619
+ 
+Liabilities and Shareholders' Equity
+Current liabilities:
+Accounts payable
+$
+101,822
+ 
+$
+107,345
+ 
+Accrued compensation and benefits
+20,731
+ 
+21,626
+ 
+Other current liabilities
+75,612
+ 
+68,120
+ 
+Total current liabilities
+198,165
+ 
+197,091
+ 
+Non-current operating lease liabilities
+20,737
+ 
+20,617
+ 
+Deferred tax liabilities
+53,659
+ 
+5,754
+ 
+Other non-current liabilities
+11,676
+ 
+8,545
+ 
+Total liabilities
+284,237
+ 
+232,007
+ 
+Commitments and contingencies (Note 9)
+Shareholders' equity:
+Ordinary shares, $
+0.00005
+ par value;
+1,000,000
+ shares authorized;
+187,768
+ and
+185,419
+ shares issued and outstanding at August 1, 2026 and May 2, 2026, respectively
+9
+9
+Additional paid in capital
+2,210,077
+ 
+1,672,060
+ 
+Accumulated other comprehensive income (loss)
+(
+138
+)
+2,426
+ 
+Retained earnings
+518,542
+ 
+389,117
+ 
+Total shareholders' equity
+2,728,490
+ 
+2,063,612
+ 
+Total liabilities and shareholders' equity
+$
+3,012,727
+ 
+$
+2,295,619
+ 
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+5
+Credo Technology Group Holding Ltd
+Condensed Consolidated Statements of Operations
+(unaudited, in thousands, except per share amounts)
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Revenue
+$
+479,003
+ 
+$
+223,074
+ 
+Cost of revenue
+169,923
+ 
+72,706
+ 
+Gross profit
+309,080
+ 
+150,368
+ 
+Operating expenses:
+Research and development
+114,524
+ 
+52,448
+ 
+Selling, general and administrative
+73,856
+ 
+37,178
+ 
+Total operating expenses
+188,380
+ 
+89,626
+ 
+Operating income
+120,700
+ 
+60,742
+ 
+Other income, net
+8,140
+ 
+3,946
+ 
+Income before income taxes
+128,840
+ 
+64,688
+ 
+Provision (benefit) for income taxes
+(
+585
+)
+1,289
+ 
+Net income
+$
+129,425
+ 
+$
+63,399
+ 
+Net income per share:
+Basic
+$
+0.70
+ 
+$
+0.37
+ 
+Diluted
+$
+0.67
+ 
+$
+0.34
+ 
+Weighted-average shares:
+Basic
+186,007
+ 
+171,927
+ 
+Diluted
+194,378
+ 
+184,577
+ 
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+6
+Credo Technology Group Holding Ltd
+Condensed Consolidated Statements of Comprehensive Income
+(unaudited, in thousands)
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Net income
+$
+129,425
+ 
+$
+63,399
+ 
+Other comprehensive income (loss):
+Foreign currency translation gain (loss)
+(
+2,564
+)
+9
+ 
+Total comprehensive income
+$
+126,861
+ 
+$
+63,408
+ 
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+7
+Credo Technology Group Holding Ltd
+Condensed Consolidated Statements of Shareholders’ Equity
+(unaudited, in thousands)
+Ordinary Shares
+Additional Paid-in Capital
+Accumulated Other Comprehensive Income (Loss)
+Retained Earnings (Accumulated Deficit)
+Total Shareholders’ Equity
+Number of Shares
+Amount
+Balances at May 2, 2026
+185,419
+$
+9
+ 
+$
+1,672,060
+ 
+$
+2,426
+ 
+$
+389,117
+ 
+$
+2,063,612
+ 
+Ordinary shares issued under equity incentive plans
+1,694
+— 
+4,452
+ 
+— 
+— 
+4,452
+ 
+Ordinary shares issued in connection with acquisition
+760
+— 
+169,069
+ 
+— 
+— 
+169,069
+ 
+Contingent consideration in connection with acquisition
+—
+— 
+300,000
+ 
+— 
+— 
+300,000
+ 
+Replacement equity awards attributable to pre-acquisition service
+—
+— 
+2,455
+ 
+— 
+— 
+2,455
+ 
+Tax withheld related to RSU settlement
+(
+105
+)
+— 
+(
+25,938
+)
+— 
+— 
+(
+25,938
+)
+Share-based compensation
+—
+— 
+87,979
+ 
+— 
+— 
+87,979
+ 
+Total comprehensive income
+—
+— 
+— 
+(
+2,564
+)
+129,425
+ 
+126,861
+ 
+Balances at August 1, 2026
+187,768
+$
+9
+ 
+$
+2,210,077
+ 
+$
+(
+138
+)
+$
+518,542
+ 
+$
+2,728,490
+ 
+Balances at May 3, 2025
+171,169
+ 
+$
+8
+ 
+$
+765,173
+ 
+$
+(
+437
+)
+$
+(
+83,162
+)
+$
+681,582
+ 
+Ordinary shares issued under equity incentive plans
+1,774
+1
+ 
+4,647
+ 
+— 
+— 
+4,648
+ 
+Tax withheld related to RSU settlement
+(
+48
+)
+— 
+(
+3,712
+)
+— 
+— 
+(
+3,712
+)
+Share-based compensation
+—
+— 
+35,455
+ 
+— 
+— 
+35,455
+ 
+Total comprehensive income
+—
+— 
+— 
+9
+ 
+63,399
+ 
+63,408
+ 
+Balances at August 2, 2025
+172,895
+$
+9
+ 
+$
+801,563
+ 
+$
+(
+428
+)
+$
+(
+19,763
+)
+$
+781,381
+ 
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+8
+Credo Technology Group Holding Ltd
+Condensed Consolidated Statements of Cash Flows
+(unaudited, in thousands)
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Cash flows from operating activities:
+
+Net income
+$
+129,425
+ 
+$
+63,399
+ 
+Adjustments to reconcile net income to net cash provided by operating activities:
+Depreciation and amortization
+8,606
+ 
+5,460
+ 
+Share-based compensation
+87,979
+ 
+35,455
+ 
+Amortization of acquired intangible assets
+11,600
+ 
+—
+ 
+Write-downs for excess and obsolete inventory
+3,911
+ 
+1,993
+ 
+Changes in operating assets and liabilities:
+Accounts receivable
+(
+54,503
+)
+(
+19,059
+)
+Inventories
+(
+61,547
+)
+(
+27,513
+)
+Other current assets
+(
+25,338
+)
+3,940
+ 
+Other non-current assets
+6,515
+ 
+495
+ 
+Accounts payable
+(
+12,563
+)
+(
+8,962
+)
+Accrued compensation and benefits, other current liabilities, deferred tax liabilities and other non-current liabilities
+(
+3,854
+)
+(
+1,040
+)
+Net cash provided by operating activities
+90,231
+ 
+54,168
+ 
+Cash flows from investing activities:
+
+Purchases of property and equipment
+(
+7,282
+)
+(
+2,821
+)
+Maturities of short-term investments
+—
+ 
+50,000
+ 
+Purchases of short-term investments
+(
+19,055
+)
+(
+115,000
+)
+Business acquisition, net of cash acquired
+(
+735,619
+)
+—
+ 
+Net cash used in investing activities
+(
+761,956
+)
+(
+67,821
+)
+Cash flows from financing activities:
+
+Payments on technology license obligations
+(
+5,172
+)
+(
+3,906
+)
+Proceeds from employee share incentive plans
+4,452
+ 
+4,648
+ 
+Tax withheld related to RSU settlement
+(
+25,938
+)
+(
+3,712
+)
+Net cash used in financing activities
+(
+26,658
+)
+(
+2,970
+)
+Effect of exchange rate changes on cash
+300
+ 
+(
+69
+)
+Net decrease in cash and cash equivalents
+(
+698,083
+)
+(
+16,692
+)
+Cash and cash equivalents at beginning of the period
+1,164,952
+ 
+236,328
+ 
+Cash and cash equivalents at end of the period
+$
+466,869
+ 
+$
+219,636
+ 
+Supplemental cash flow information:
+Purchases of property and equipment included in accounts payable, other current liabilities and other non-current liabilities
+$
+10,108
+ 
+$
+9,680
+ 
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+9
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+
+1.
+Description of Business and Basis of Presentation
+Credo Technology Group Holding Ltd was formed as an exempted company under the laws of the Cayman Islands in September 2014. Credo Technology Group Holding Ltd directly owns Credo Technology Group Ltd., which owns, directly and indirectly, all of the shares of its subsidiaries in mainland China, Hong Kong, Singapore, Canada, Israel and the United States (U.S.).  References to the “Company” in these notes refer to Credo Technology Group Holding Ltd and its subsidiaries on a consolidated basis, unless otherwise specified.
+The Company’s mission is to transform connectivity at scale through fast, reliable and energy-efficient system solutions. The Company’s high-speed copper and optical interconnect technologies deliver industry-leading power and performance from chip to cluster to meet the ever-expanding data infrastructure demands of AI. The Company’s vertical integrated connectivity product portfolio includes flagship purple ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers; optical components including silicon photonics-based photonic integrated circuits (SiPho PICs) and DSPs; OmniConnect AI memory and chip-to-chip interconnect; and retimers for Ethernet and PCIe—supported by the PILOT diagnostic and analytics software platform. The Company’s innovations enable our customers to connect the systems that connect the world.
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements are presented in accordance with generally accepted accounting principles in the United States (US GAAP) applicable to interim periods, under the rules and regulations of the U.S. Securities and Exchange Commission (the SEC). Certain information and footnote disclosures normally included in financial statements prepared in accordance with US GAAP have been condensed or omitted as permitted by the SEC. These unaudited condensed consolidated financial statements and related notes should be read in conjunction with the Company’s fiscal year 2026 audited financial statements included in the Company’s Annual Report on Form 10-K for the fiscal year ended May 2, 2026. The unaudited condensed consolidated financial statements include all adjustments, including normal recurring adjustments and other adjustments, that are considered necessary for fair presentation of the Company’s financial position and results of operations. All inter-company accounts and transactions have been eliminated. Operating results for the periods presented herein are not necessarily indicative of the results that may be expected for the entire year.
+
+The Company’s fiscal year is a 52- or 53-week period ending on the Saturday closest to April 30. Its fiscal year ending May 1, 2027 (fiscal year 2027) is a 52-week fiscal year. The Company’s fiscal year ended May 2, 2026 (fiscal year 2026) was a 52-week fiscal year.
+2.
+Significant Accounting Policies
+The Company believes that other than the accounting policies as described below, there have been no significant changes to the items disclosed in Note 2, “Significant Accounting Policies,” included in the Company’s Annual Report on Form 10-K for the fiscal year ended May 2, 2026.
+Contingent Consideration
+Certain of the Company’s acquisition agreements include contingent earn-out arrangements, which are generally based on the achievement of future financial metrics. The fair values of these earn-out arrangements are included as part of the purchase price of the acquired companies on their respective acquisition dates. For each transaction, the Company estimates the fair value of contingent earn-out payments as part of the initial purchase price and records the estimated fair value of contingent consideration as a liability or an equity on the consolidated balance sheets. The Company reviews and re-assesses the estimated fair value of contingent consideration liabilities on a quarterly basis, and the updated fair value could be materially different from the initial estimates or prior amounts. Changes in the estimated fair value of its contingent earn-out liabilities and adjustments to the estimated fair value related to changes in all other unobservable inputs are reported in other income, net on the Company’s consolidated statements of operations.
+Use of Estimates
+The preparation of these condensed consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the Company’s condensed consolidated financial statements and accompanying notes.
+10
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+The Company bases its estimates and judgments on historical experience, knowledge of current conditions and beliefs of what could occur in the future, given the available information. Estimates are used for, but not limited to, write-down for excess and obsolete inventories, variable consideration from revenue contracts, determination of the fair value of share-based awards valued under Monte Carlo simulation, determination of the probability of achieving performance conditions for performance-based share-based awards, the realization of tax assets and estimates of tax reserves, valuation of acquired intangible assets and contingent consideration, and impairment of long-lived assets and goodwill (as applicable). Actual results may differ from those estimates and such differences may be material to the financial statements. In the current macroeconomic environment, these estimates require increased judgment and carry a higher degree of variability and volatility. As events continue to evolve and additional information becomes available, these estimates may change materially in future periods.
+Reclassifications
+Certain prior period balances were reclassified to conform to the current period’s presentation. None of these reclassifications had an impact on reported net income or cash flows for any of the periods presented.
+Accounting Pronouncement Recently Adopted
+In July 2025, the FASB issued ASU 2025-05, Financial Instruments—Credit Losses (Topic 326) Measurement of Credit Losses for Accounts Receivable and Contract Assets, providing all entities with a practical expedient when estimating expected credit losses for current accounts receivable and current contract assets arising from transactions accounted for under Topic 606. This ASU is effective for annual reporting periods beginning after December 15, 2025 and interim periods within the fiscal year beginning after December 15, 2025. The Company adopted this guidance in the first quarter of fiscal year 2027 and the adoption did not have a material impact to the Company’s consolidated financial statements.
+Recent Accounting Pronouncements Not Yet Adopted
+In November 2024, the FASB issued ASU 2024-03, Income Statement—Reporting Comprehensive Income— Expense Disaggregation Disclosures, which requires disclosure of, in interim and annual reporting periods, additional information about certain expenses in the financial statements. This standard is effective for fiscal years beginning after December 15, 2026 and interim periods beginning after December 15, 2027 and may be applied on a retrospective or prospective basis. The Company is currently evaluating the impact of adopting this guidance on its consolidated financial statements and disclosures.
+3.
+Concentrations
+Financial instruments that subject the Company to concentrations of credit risk consist primarily of cash and cash equivalents, short-term investments and accounts receivable. Cash is placed in major financial institutions around the world. The Company’s cash deposits exceed insured limits. Short-term investments are subject to counterparty risk up to the amount presented on the balance sheet.
+Historically, a relatively small number of customers have accounted for a significant portion of the Company’s revenue. The particular customers which account for revenue concentration have varied from period-to-period as a result of the volumes and prices at which the customers have recently bought the Company’s products. These variations are expected to continue in the foreseeable future.
+The following tables summarize the accounts receivable and revenue as a percentage of total accounts receivable and total revenue, respectively:
+Accounts Receivable
+August 1, 2026
+May 2, 2026
+Customer A
+57
+ 
+%
+53
+ 
+%
+Customer B
+28
+ 
+%
+20
+ 
+%
+Customer C
+*
+19
+ 
+%
+Three Months Ended
+Revenue
+August 1, 2026
+August 2, 2025
+Customer A
+43
+ 
+%
+50
+ 
+%
+Customer B
+28
+ 
+%
+35
+ 
+%
+11
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+* Less than 10% of total accounts receivable or total revenue.
+4.
+Revenue Recognition
+The following table summarizes revenue disaggregated by primary geographical market based on destination of shipment for revenue, which may differ from the customer’s principal offices (in thousands):
+Three Months Ended
+August 1, 2026
+August 2, 2025
+United States
+$
+255,442
+ 
+$
+82,828
+ 
+Hong Kong
+91,175
+ 
+74,885
+ 
+Malaysia
+74,455
+ 
+6,383
+ 
+Mainland China
+1,095
+ 
+51,781
+ 
+Rest of World
+56,836
+ 
+7,197
+ 
+$
+479,003
+ 
+$
+223,074
+ 
+Remaining Performance Obligations
+Revenue allocated to remaining performance obligations represents the transaction price allocated to the performance obligations that are unsatisfied, or partially unsatisfied, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods. The contracted but unsatisfied performance obligations as of August 1, 2026 were approximately $
+4.2
+ million, which the Company expects to recognize over the next 12 months.
+5.
+Business Combination
+DustPhotonics
+On May 28, 2026, the Company acquired
+100
+% of the equity interest of DustPhotonics Ltd. (DustPhotonics), a developer of Silicon Photonics Photonic Integrated Circuit technology for optical transceivers, for a total purchase consideration of $
+1.3
+ billion. This acquisition was primarily intended to position the Company with a vertically integrated connectivity stack spanning SerDes, DSP, Silicon Photonics and system integration for scale out and scale up networks — addressing both electrical and optical interconnects across the full AI infrastructure build-out.
+The factors contributing to the recognition of goodwill were based upon the Company’s conclusion that there are strategic and synergistic benefits that are expected to be realized from the acquisition. Goodwill recorded for the DustPhotonics acquisition is not expected to be deductible for tax purposes. The Company has
+one
+ reportable segment and accordingly, there is no goodwill assignment based on reporting units.
+The following table summarizes the total purchase consideration (in thousands):
+Cash consideration
+$
+769,587
+ 
+Ordinary shares issued
+169,069
+ 
+Ordinary shares consideration for replacement equity awards attributable to pre-combination services
+2,455
+ 
+Contingent consideration
+310,000
+ 
+Total purchase consideration
+$
+1,251,111
+ 
+In accordance with U.S. GAAP requirements for business combinations, the Company allocated the fair value of the purchase consideration to the tangible assets, liabilities and intangible assets, generally based on their estimated fair values. The excess purchase price over those fair values is recorded as goodwill. IPR&D is initially capitalized at fair value as an intangible asset with an indefinite life and assessed for impairment thereafter. When an IPR&D project is completed, the IPR&D is reclassified as an amortizable intangible asset and amortized over the asset’s estimated
+12
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+useful life. The Company’s valuation assumptions of acquired assets and assumed liabilities require significant estimates, especially with respect to intangible assets and contingent consideration.
+The Company estimates the fair value of contingent earn-out payments in cash and the Company’s ordinary shares as part of the initial purchase price and records the estimated fair value of contingent consideration as a liability of $
+10.0
+ million and equity of $
+300.0
+ million on the condensed consolidated balance sheets.
+Acquisition-related costs are expensed in the periods such costs are incurred and were not material for the periods presented. Pro forma results of operations for both acquisitions have not been presented because the effect of the acquisitions was not material to the Company’s financial results.
+The purchase price allocation is as follows (in thousands):
+Cash
+$
+33,968
+ 
+Inventory
+4,585
+ 
+Property and equipment
+8,647
+ 
+Goodwill
+895,839
+ 
+Intangible assets
+361,700
+ 
+Accounts receivable, other current assets and other non-current assets
+3,996
+ 
+Accounts payable
+(
+4,690
+)
+Deferred tax liabilities
+(
+48,044
+)
+Accrued compensation and benefits, other current liabilities and non-current liabilities
+(
+4,890
+)
+$
+1,251,111
+ 
+The fair values assigned to assets acquired and liabilities assumed are preliminary and based on management’s estimates and assumptions which may be subject to change as additional information is received. The primary areas that remain preliminary relate to the fair values of certain intangible assets acquired, contingent consideration as of the acquisition date, income tax, including deferred taxes, and residual goodwill. The Company expects to finalize the valuation no later than one year from the acquisition date.
+Comira
+On February 25, 2026, the Company acquired
+100
+% of the equity interest of CoMira Solutions, Inc. (Comira), a high-speed connectivity IP innovator, for a total cash consideration of $
+35.1
+ million. This acquisition was primarily intended to bring specialized link layer, error correction and security semiconductor IP to support the development of new and advanced system-level solutions for scale-up and scale-out AI architectures.
+The factors contributing to the recognition of goodwill were based upon the Company’s conclusion that there are strategic and synergistic benefits that are expected to be realized from the acquisition. Goodwill recorded for the Comira acquisition is not expected to be deductible for tax purposes. The Company has
+one
+ reportable segment and accordingly, there is no goodwill assignment based on reporting units.
+The following table summarizes the total purchase consideration (in thousands):
+Cash consideration
+$
+35,073
+ 
+Less: Cash and cash equivalents acquired
+(
+4,729
+)
+Net cash payment for acquisition
+$
+30,344
+ 
+The purchase price allocation is as follows (in thousands):
+13
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+Cash and other assets
+$
+5,167
+ 
+Goodwill
+21,789
+ 
+Intangible asset
+12,000
+ 
+Deferred tax liabilities
+(
+2,714
+)
+Other current liabilities and non-current operating lease liabilities
+(
+1,169
+)
+$
+35,073
+ 
+Acquisition-related costs are expensed in the periods such costs are incurred and were not material for the periods presented. Pro forma results of operations for both acquisitions have not been presented because the effect of the acquisitions was not material to the Company’s financial results.
+Hyperlume
+On September 29, 2025, the Company acquired
+100
+% of the equity interest of Hyperlume, Inc. (Hyperlume), a developer of miniature light-emitting diode (microLED)-based optical interconnect technology for chip-to-chip communication, for a total purchase consideration of $
+92.0
+ million. Total purchase consideration is attributable to cash consideration of $
+88.7
+ million and cash settlement of vested share-based payment awards of $
+3.3
+ million by Hyperlume. This acquisition was primarily intended to expand the Company’s comprehensive portfolio of end-to-end system-level connectivity solutions with Hyperlume’s cutting-edge microLED technology to address the future of artificial intelligence-driven data infrastructure deployments.
+The factors contributing to the recognition of goodwill were based upon the Company’s conclusion that there are strategic and synergistic benefits that are expected to be realized from the acquisition. Goodwill recorded for the Hyperlume acquisition is not expected to be deductible for tax purposes. The Company has
+one
+ reportable segment and accordingly, there is no goodwill assignment based on reporting units.
+The following table summarizes the total purchase consideration (in thousands):
+Cash consideration
+$
+88,698
+ 
+Cash settlement of Hyperlume share-based payment awards
+3,319
+ 
+Total purchase consideration
+92,017
+ 
+Less: Cash and cash equivalents acquired
+(
+9,453
+)
+Net cash payment for acquisition
+$
+82,564
+ 
+The purchase price allocation is as follows (in thousands):
+Cash
+$
+9,453
+ 
+Other current assets, property and equipment and right-of-use assets
+1,631
+ 
+Goodwill
+69,134
+ 
+Intangible asset
+17,200
+ 
+Deferred tax liabilities
+(
+4,558
+)
+Other current liabilities and non-current operating lease liabilities
+(
+843
+)
+$
+92,017
+ 
+Acquisition-related costs are expensed in the periods such costs are incurred and were not material for the periods presented. Pro forma results of operations have not been presented because the effect of the acquisition was not material to the Company’s financial results.
+6.
+Goodwill and Intangible Assets, Net
+Goodwill
+Goodwill represents the excess of the purchase price over the fair value of the net tangible and identifiable intangible assets acquired in business combinations. The carrying value of goodwill as of August 1, 2026 and May 2, 2026 was $
+986.4
+ million and $
+92.8
+ million, respectively.
+Intangible Assets, Net
+14
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+As of August 1, 2026 and May 2, 2026, the net carrying amounts are as follows (in thousands, except for weighted-average remaining amortization period):
+August 1, 2026
+Gross Carrying Amounts
+Accumulated Amortization
+Foreign Currency Translation
+Net Carrying Amounts
+Weighted-Average Remaining Amortization Period (Years)
+Developed technology
+$
+276,000
+ 
+$
+(
+9,800
+)
+$
+— 
+$
+266,200
+ 
+5
+IPR&D
+98,200
+ 
+— 
+(
+83
+)
+98,117
+ 
+N/A
+Customer relationships
+15,000
+ 
+(
+500
+)
+— 
+14,500
+ 
+5
+Total intangible assets
+$
+389,200
+ 
+$
+(
+10,300
+)
+$
+(
+83
+)
+$
+378,817
+ 
+May 2, 2026
+Gross Carrying Amounts
+Accumulated Amortization
+Foreign Currency Translation
+Net Carrying Amounts
+Weighted-Average Remaining Amortization Period (Years)
+Developed technology
+$
+12,000
+ 
+$
+(
+400
+)
+$
+— 
+$
+11,600
+ 
+5
+IPR&D
+17,200
+ 
+— 
+462
+ 
+17,662
+ 
+N/A
+Total intangible assets
+$
+29,200
+ 
+$
+(
+400
+)
+$
+462
+ 
+$
+29,262
+ 
+The weighted-average amortization period for developed technology and customer relationships is
+5
+ years. Amortization for intangible assets was $
+11.6
+ million during the three months ended August 1, 2026.
+The aggregate future amortization expense for the amortizable intangible assets as of August 1, 2026 is as follows (in thousands):
+Fiscal Year
+Amount
+Remainder of 2027
+$
+43,650
+ 
+2028
+58,200
+ 
+2029
+58,200
+ 
+2030
+58,200
+ 
+2031
+57,800
+ 
+Thereafter
+4,650
+ 
+$
+280,700
+ 
+7.
+Fair Value Measurements
+Fair value is an exit price representing the amount that would be received in the sale of an asset or paid to transfer a liability in an orderly transaction between market participants. As such, fair value is a market-based measurement that should be determined based on assumptions that market participants would use in pricing an asset or a liability. As a basis for considering such assumptions, the accounting guidance establishes a three-tier value hierarchy, which prioritizes the inputs used in the valuation methodologies in measuring fair value:
+Level 1 - Observable inputs that reflect quoted prices for identical assets or liabilities in active markets.
+Level 2 - Other inputs that are directly or indirectly observable in the marketplace.
+Level 3 - Unobservable inputs that are supported by little or no market activity.
+The fair value hierarchy also requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value.
+The Company measures the fair value of money market funds using Level 1 inputs. The Company’s certificates of deposit are classified as held-to-maturity securities as the Company intends to hold until their maturity dates. The certificates of deposit are valued using Level 2 inputs.
+ Pricing sources
+may
+include industry standard data providers,
+15
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+security master files from large financial institutions and other
+third
+-party sources used to determine a daily market value.
+The following tables present the fair value of the financial instruments measured on a recurring basis, or measured at amortized cost which approximates fair value, as of August 1, 2026 and May 2, 2026 (in thousands).
+August 1, 2026
+Level 1
+Level 2
+Level 3
+Total
+Cash equivalents:
+Money market funds
+$
+396,975
+ 
+$
+—
+ 
+$
+—
+ 
+$
+396,975
+ 
+Certificates of deposit
+—
+ 
+57,522
+ 
+—
+ 
+57,522
+ 
+Short-term investments:
+Certificates of deposit
+—
+ 
+297,389
+ 
+—
+ 
+297,389
+ 
+Total cash equivalents and short-term investments
+$
+396,975
+ 
+$
+354,911
+ 
+$
+—
+ 
+$
+751,886
+ 
+May 2, 2026
+Level 1
+Level 2
+Level 3
+Total
+Cash equivalents:
+Money market funds
+$
+1,073,486
+ 
+$
+—
+ 
+$
+—
+ 
+$
+1,073,486
+ 
+Certificates of deposit
+—
+ 
+77,864
+ 
+—
+ 
+77,864
+ 
+Short-term investments:
+Certificates of deposit
+—
+ 
+278,334
+ 
+—
+ 
+278,334
+ 
+Total cash equivalents and short-term investments
+$
+1,073,486
+ 
+$
+356,198
+ 
+$
+—
+ 
+$
+1,429,684
+ 
+The carrying amount of the Company’s financial instruments, including cash equivalents, short-term investments, accounts receivable and accounts payable, approximate their respective fair values because of their short maturities. As of August 1, 2026 and May 2, 2026, there were no unrealized losses or gains associated with the Company’s financial instruments. The interest income recognized for the three months ended August 1, 2026 and August 2, 2025 was $
+7.9
+ million and $
+4.3
+ million, respectively.
+8.
+Supplemental Financial Information
+Inventories
+Inventories consisted of the following (in thousands):
+August 1, 2026
+May 2, 2026
+Raw materials
+$
+99,188
+ 
+$
+64,357
+ 
+Work in process
+66,512
+ 
+34,296
+ 
+Finished goods
+147,351
+ 
+152,178
+ 
+$
+313,051
+ 
+$
+250,831
+ 
+16
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+Property and Equipment, Net
+Property and equipment consisted of the following (in thousands):
+August 1, 2026
+May 2, 2026
+Production equipment
+$
+81,948
+ 
+$
+63,214
+ 
+Computer equipment and software
+50,004
+ 
+48,924
+ 
+Laboratory equipment
+40,458
+ 
+36,933
+ 
+Leasehold improvements
+4,282
+ 
+4,096
+ 
+Construction in progress
+24,984
+ 
+27,027
+ 
+201,676
+ 
+180,194
+ 
+Less: Accumulated depreciation and amortization
+(
+87,214
+)
+(
+78,589
+)
+$
+114,462
+ 
+$
+101,605
+ 
+Depreciation and amortization expense was $
+8.6
+ million and $
+5.5
+ million for the three months ended August 1, 2026 and August 2, 2025, respectively. Computer equipment and software primarily includes technology licenses for computer-aided design tools relating to the Company’s R&D design of future products and intellectual properties. Production equipment and construction in progress primarily include mask set costs capitalized relating to the Company’s products already introduced or to be introduced.
+Other Current Assets
+Other current assets consisted of the following (in thousands):
+August 1, 2026
+May 2, 2026
+Refundable deposits related to capacity reserve arrangements
+$
+62,915
+ 
+$
+39,932
+ 
+Others
+37,271
+ 
+33,644
+ 
+$
+100,186
+ 
+$
+73,576
+ 
+Other Current Liabilities
+Other current liabilities consisted of the following (in thousands):
+August 1, 2026
+May 2, 2026
+Accruals relating to inventory purchases
+$
+14,601
+ 
+$
+7,193
+ 
+Current payables relating to purchases of property and equipment
+9,818
+ 
+12,179
+ 
+Current portion of operating lease liabilities
+5,468
+ 
+4,831
+ 
+Others
+45,725
+ 
+43,917
+ 
+$
+75,612
+ 
+$
+68,120
+ 
+9.
+Commitments and Contingencies
+Non-cancelable Purchase Obligations
+Total future non-cancelable purchase obligations as of August 1, 2026 are as follows (in thousands):
+Fiscal Year
+ Purchase Commitments to Manufacturing Vendors and Foundry Partners
+ Technology License Fees
+Total
+Remainder of 2027
+$
+212,717
+ 
+$
+3,513
+ 
+$
+216,230
+ 
+2028
+—
+ 
+5,982
+ 
+5,982
+ 
+Total unconditional purchase commitments
+$
+212,717
+ 
+$
+9,495
+ 
+$
+222,212
+ 
+Technology license fees include the liabilities under agreements for technology licenses between the Company and various vendors. Under the Company’s manufacturing relationships with its foundry partners, cancellation of
+17
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+outstanding purchase orders is allowed but requires payment of all costs and expenses incurred through the date of cancellation.
+The Company has multiple manufacturing supply capacity reservation agreements with certain assembly subcontractors as of August 1, 2026. The agreements require the Company to make upfront deposits to the subcontractors in exchange for reserved manufacturing capacity over the agreement term, which ranges from
+2
+ to
+6
+ years. The deposits are refundable through future purchases upon meeting certain volume requirements. As of August 1, 2026, the Company had refundable deposits of $
+88.4
+ million of which $
+62.9
+ million was recorded in other current assets and $
+25.5
+ million in other non-current assets on the condensed consolidated balance sheet.
+Subsequent to August 1, 2026, the Company entered into an additional manufacturing supply capacity reservation agreement with an assembly subcontractor and will pay $
+102.4
+ million of refundable deposits within fiscal 2027.
+Warranty Obligations
+The Company’s products generally carry a standard
+one-year
+ warranty. The Company’s warranty expense was not material in the periods presented.
+Indemnifications
+In the ordinary course of business, the Company has entered into agreements that contain certain indemnification obligations of varying scope and terms to customers, vendors, lessors, investors, directors, officers, employees and other parties with respect to certain matters, including, but not limited to, certain losses arising out of the Company’s breach of such agreements, services to be provided by the Company or from intellectual property infringement claims made by third parties. These indemnification obligations may survive termination of the underlying agreement and the maximum potential amount of future payments the Company could be required to make under these indemnification provisions may not be subject to maximum loss limitations. The Company has not incurred material costs to defend lawsuits or settle claims related to these indemnification obligations. Accordingly, the Company had no liabilities recorded for these agreements as of August 1, 2026 and May 2, 2026.
+Legal Proceedings
+From time to time, the Company may be a party to various litigation claims in the ordinary course of business. Legal fees and other costs associated with such actions are expensed as incurred. The Company assesses, in conjunction with legal counsel, the need to record a liability for litigation and contingencies. Accrual estimates are recorded when and if it is determined that such a liability for litigation and contingencies is both probable and reasonably estimable. As of the date of issuance of these unaudited condensed consolidated financial statements, the Company was not subject to any material litigation. No accruals for loss contingencies or recognition of actual losses have been recorded in any of the periods presented.
+10.
+Share Incentive Plan
+
+Restricted Stock Unit (RSU) Awards
+A summary of information related to RSU activity during the three months ended August 1, 2026 is as follows:
+RSUs Outstanding
+Number of Shares (in millions)
+Weighted-Average Grant Date Fair Value
+Weighted-Average Remaining Contractual Term
+Aggregate Intrinsic Value (in millions)
+Balance as of May 3, 2026
+7.2
+$
+58.43
+1.18
+$
+1,319.6
+ 
+Granted
+2.1
+$
+226.57
+Vested
+(
+0.9
+)
+$
+41.21
+Canceled/ forfeited
+(
+0.1
+)
+$
+100.54
+Balance and expected to vest as of August 1, 2026
+8.3
+$
+104.26
+2.50
+$
+1,703.6
+ 
+Performance-based Restricted Stock Unit (PSU) Awards
+18
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+A summary of information related to PSU activity during the three months ended August 1, 2026 is as follows:
+PSUs Outstanding
+Number of Shares (in millions)
+Weighted-Average Grant Date Fair Value
+Weighted-Average Remaining Contractual Term
+Aggregate Intrinsic Value (in millions)
+Balance as of May 3, 2026
+1.5
+$
+85.33
+2.15
+$
+272.1
+ 
+Granted
+1.9
+$
+155.39
+Vested
+(
+0.3
+)
+$
+59.82
+Balance and expected to vest as of August 1, 2026
+3.1
+$
+131.31
+1.67
+$
+632.0
+ 
+Share Option Awards
+A summary of information related to share option activity during the three months ended August 1, 2026 is as follows:
+Options Outstanding
+Outstanding Share Options (in millions)
+Weighted-Average Exercise Price
+Weighted-Average Remaining Contractual Term
+Aggregate Intrinsic Value (in millions)
+Balance as of May 3, 2026
+2.1
+$
+2.24
+3.96
+$
+383.4
+ 
+Options vested and exercised
+(
+0.4
+)
+$
+1.80
+Balance expected to vest and exercisable as of August 1, 2026
+1.7
+$
+2.34
+3.84
+$
+353.1
+ 
+Summary of Share-based Compensation Expense
+The following table summarizes share-based compensation expense included in the unaudited condensed consolidated statements of operations (in thousands):
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Cost of revenue
+$
+5,715
+ 
+$
+356
+ 
+Research and development
+44,999
+ 
+19,158
+ 
+Selling, general and administrative
+37,265
+ 
+15,941
+ 
+$
+87,979
+ 
+$
+35,455
+ 
+
+In connection with the Hyperlume acquisition, the Company issued
+87
+ thousand RSUs under its 2021 long-term incentive plan in replacement for the unvested options under Hyperlume’s equity incentive plan. The RSUs retain the same vesting conditions as the unvested options that they replaced. The Company also issued
+132
+ thousand restricted shares of the Company to one of the founders of Hyperlume and
+132
+ thousand restricted shares of a newly formed subsidiary of the Company that are exchangeable into restricted shares of the Company to the other founder of Hyperlume. The restricted shares were issued in exchange for the founders’ outstanding equity interests in Hyperlume and vest on a quarterly basis, subject to continued employment with the Company over the next
+3
+ years.
+Both RSUs and restricted shares were measured at the acquisition date’s fair value of $
+146.01
+ per share and the fair value of those shares represent post-acquisition share-based compensation expense that will be recognized as these employees provide service over the remaining vesting periods of up to
+4
+ years.
+In connection with the DustPhotonics acquisition, the Company issued
+254
+ thousand RSUs under its 2021 long-term incentive plan in replacement for the unvested options under DustPhotonics’ equity incentive plan. The RSUs retain the same vesting conditions as the unvested options that they replaced. The RSUs were measured at the acquisition date’s fair value of $
+222.35
+ per share and the fair value of those shares represent post-acquisition share-based compensation expense that will be recognized as these employees provide service over the remaining vesting periods of up to
+4
+ years.
+19
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+11.
+Income Taxes
+The Company’s tax provision for interim periods is determined using an estimate of its annual effective tax rate, excluding zero rate jurisdictions and adjusted for discrete items, if any, that arise during the period. Each quarter, the Company updates its estimate of the annual effective tax rate, and if the estimated annual effective tax rate changes, the Company makes a cumulative adjustment in such period. The Company’s quarterly tax provision, and estimate of its annual effective tax rate, is subject to variation due to several factors, including variability in accurately predicting its pre-tax income or loss and the mix of jurisdictions to which they relate, intercompany transactions, changes in tax laws, the applicability of special tax regimes, changes in how we do business and discrete items.
+Provision for income taxes for the three months ended August 1, 2026 and August 2, 2025 was as follows (in thousands except percentages):
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+Provision (benefit) for income taxes
+$
+(
+585
+)
+$
+1,289
+ 
+(
+45.4
+)
+%
+Effective tax rate
+(
+0.5
+)
+%
+2.0
+ 
+%
+The Company’s effective tax rate for the three months ended August 1, 2026 differed from that of the corresponding period in the prior year primarily due to the tax impact of acquired intangible assets and related purchase accounting adjustments arising from the DustPhotonics acquisition.
+During the three months ended August 1, 2026, there were no material changes to the total amount of unrecognized tax benefits and we do not expect any significant changes in the next 12 months.
+In connection with the DustPhotonics acquisition, the Company recognized a deferred tax liability of $
+48.0
+ million related to the acquired intangible assets and acquired tax attributes.
+12.
+Net Income Per Share
+The Company reports both basic net income per share, which is based on the weighted-average number of ordinary shares outstanding during the period and diluted net income per share, which is based on the weighted-average number of ordinary shares outstanding and potentially dilutive shares outstanding during the period.
+Net income per share for the
+three
+ months ended
+August 1, 2026
+ and
+August 2, 2025
+, respectively, was determined as follows (in thousands, except per share amounts):
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Numerator:
+Net income
+$
+129,425
+ 
+$
+63,399
+ 
+Denominator:
+Weighted-average shares outstanding used in basic calculation
+186,007
+ 
+171,927
+ 
+Effect of dilutive shares
+Share-based compensation awards
+8,371
+ 
+9,115
+ 
+Customer Warrant
+—
+ 
+3,535
+ 
+Weighted-average shares outstanding used in dilution calculation
+194,378
+ 
+184,577
+ 
+Net income per share:
+Basic
+$
+0.70
+ 
+$
+0.37
+ 
+Diluted
+$
+0.67
+ 
+$
+0.34
+ 
+20
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+The Customer Warrant relates to an agreement entered in fiscal year 2022 that was fully vested and exercised in fiscal year
+2026
+.
+Potential dilutive securities include dilutive ordinary shares from the share-based awards attributable to the assumed exercise of share options, restricted stock units, performance-based restricted stock units and employee stock purchase plan shares using the treasury stock method. Under the treasury stock method, potential ordinary shares outstanding are not included in the computation of diluted net income per share if their effect is anti-dilutive.
+The following potentially dilutive securities outstanding (in thousands) have been excluded from the computations of diluted weighted-average shares outstanding for the
+three months ended August 1, 2026
+ and August 2, 2025:
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Share-based compensation awards
+1,406
+ 
+296
+ 
+13.
+Segment Information
+The Company’s Chief Operating Decision Maker (CODM) manages the Company’s business activities as a single reportable segment at the consolidated level. Accordingly, the CODM uses net income or loss for the purposes for making operating decisions, allocating resources and evaluating financial performance. The measure of segment assets is reported on the condensed consolidated balance sheet as total assets, although the CODM does not evaluate asset information of purposes of allocating resources or evaluating performance.
+The table below provides information about the Company’s revenue, significant segment expenses and other segment expenses (in thousands):
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Revenue
+$
+479,003
+ 
+$
+223,074
+ 
+Less:
+Cost of revenue
+169,923
+ 
+72,706
+ 
+Personnel related expenses
+43,180
+ 
+27,253
+ 
+Share-based compensation
+87,979
+ 
+35,455
+ 
+Other segment items*
+48,496
+ 
+24,261
+ 
+Net income
+$
+129,425
+ 
+$
+63,399
+ 
+*Other segment items primarily include lease expense, external professional service expenses, depreciation and amortization, interest income and tax provision.
+21
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the unaudited condensed consolidated financial statements and the related notes thereto included elsewhere in this Quarterly Report on Form 10-Q and the audited consolidated financial statements and notes thereto and management’s discussion and analysis of financial condition and results of operations for the fiscal year ended May 2, 2026 included in the Company’s Annual Report on Form 10-K for the fiscal year ended May 2, 2026. Some of the information contained in this discussion and analysis includes forward-looking statements that involve risks and uncertainties as described under the heading “Special Note Regarding Forward-Looking Statements” of this Quarterly Report on Form 10-Q.
+Overview
+At Credo, our mission is to transform connectivity at scale through fast, reliable and energy-efficient system solutions. The Company’s high-speed copper and optical interconnect products deliver industry-leading power and performance at up to 1.6T to meet the ever-expanding data infrastructure demands of AI. The Company’s product portfolio includes ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers, OmniConnect memory solutions and a suite of retimers and DSPs for optical and copper Ethernet and PCIe, all leveraging the PILOT diagnostic and analytics software platform. The Company’s innovations enable our customers to connect the systems that connect the world.
+Our connectivity solutions are optimized for optical and electrical Ethernet, PCIe and emerging UALink, ESUN and SUE applications, ranging in speeds from 32G (or Gigabits per second per lane) to 200G. Our products are based on our own optimized Serializer/Deserializer (SerDes) and DSP technologies. Our product families include integrated circuits (ICs), Active Electrical Cables (AECs) and SerDes Chiplets. Our intellectual property (IP) solutions consist primarily of SerDes IP licensing.
+Artificial Intelligence (AI) has bred a new generation of data centers over the past 5 years that depend much more heavily on high speed, reliable communications for Front End, Scale Out, Scale Up and emerging Scale In Networks. Our proprietary SerDes and DSP technologies enable us to achieve similar performance to leading competitors’ products but at a lower cost and more highly available legacy node (n-1 advantage). Beyond power and performance, Credo continues to innovate to address customers’ system level requirements. We partnered with Oracle to develop our ZeroFlap Optics that helps address the reliability issues known as Link Flap which plague commodity options in AI data centers enabling faster AI cluster turn on and time to first revenue.
+The multibillion-dollar data infrastructure market that we serve is driven largely by hyperscale data centers (hyperscalers) and emerging NeoClouds building AI/Machine Learning (ML) Infrastructure as well as general compute and data centers. The demands for increased bandwidth, better reliability and improved power efficiency have grown as AI model sizes have increased from billions to trillions of parameters and the workload has expanded from training to inference.
+We design, market and sell product, software and IP solutions. We help define industry conventions and standards within the markets we target by collaborating with technology leaders and standards bodies. We contract with a variety of manufacturing partners to build our products based on our proprietary SerDes and DSP technologies. We develop standard solutions we can sell broadly to our end markets and also develop tailored solutions designed to address specific customer needs. Once developed, these tailored solutions can generally be broadly leveraged across our portfolio and we are able to sell the part or license the IP to the broader market.
+During the three months ended August 1, 2026 and August 2, 2025, we generated $479.0 million and $223.1 million in revenue, respectively. Geographically, 53% and 37% of our total revenue in the three months ended August 1, 2026 and August 2, 2025, respectively, was generated from customers in North America, and 47% and 63% of our total revenue in the three months ended August 1, 2026 and August 2, 2025, respectively, was generated from customers in the rest of the world, primarily in Asia. During the three months ended August 1, 2026 and August 2, 2025, we generated $129.4 million and $63.4 million in net income, respectively.
+We derive the substantial majority of our revenue from a limited number of customers. We anticipate we will continue to derive a significant portion of our revenue from a limited number of customers for the foreseeable future. We expect that as our products are more widely adopted and as our number of customers increase, customer concentration will decrease.
+22
+We sell our products to hyperscalers, Neoclouds, original equipment manufacturers (OEMs), original design manufacturers (ODMs) and optical module manufacturers, as well as to companies in the enterprise and HPC markets. We work closely and have engagements with industry-leading companies across these segments. A relatively small number of customers have historically accounted for and continue to account for a significant portion of our revenue. We report revenue by customer in our financial statement disclosure based on the contracting parties who place purchase orders or sign revenue contracts with us. See Note 3 to our unaudited condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q. However, certain of our end customers have their contract manufacturing partners place orders with us. As a result, the contract manufacturers, rather than the end customers, are reported as our customers for financial reporting purposes. As a supplement to our financial statement footnote disclosure and to provide further insight into our end customer concentration, the following table summarizes our revenue by customer as a percentage of revenue based on end customer profile, rather than based on the contracting parties who place purchase orders or sign revenue contracts with us:
+Three Months Ended
+Revenue
+August 1, 2026
+August 2, 2025
+Customer C
+28 
+%
+35 
+%
+Customer D
+33 
+%
+33 
+%
+Customer E
+13 
+%
+20 
+%
+Customer F
+10 
+%
+*
+* Less than 10% of total revenue.
+Our Business Model
+We are a product-focused business with a strong foundation in IP, pioneering comprehensive connectivity solutions that deliver bandwidth, scalability and end-to-end signal integrity for next-generation platforms.
+We utilize a fabless business model, working with a network of third parties to manufacture, assemble and test our connectivity products. This approach allows us to focus our engineering and design resources on our core competencies and to control our fixed costs and capital expenditures.
+We employ a two-pronged sales strategy targeting both the end users of our products, as well as the suppliers of our end users. By engaging directly with the end user, we are able to better understand the needs of our customers and cater our solutions to their most pressing connectivity requirements.
+This strategy has enabled us to become the preferred vendor to a number of our customers who, in turn, in some cases, require their suppliers, OEMs, ODMs and optical module manufacturers to utilize our solutions.
+23
+Results of Operations
+Three Months Ended August 1, 2026 and August 2, 2025
+The following table sets forth information derived from our unaudited condensed consolidated statements of operations expressed as a percentage of revenue:
+Three Months Ended
+August 1, 2026
+August 2, 2025
+Revenue
+100.0 
+%
+100.0 
+%
+Cost of revenue
+35.5 
+%
+32.6 
+%
+Gross margin
+64.5 
+%
+67.4 
+%
+Operating expenses:
+Research and development
+23.9 
+%
+23.5 
+%
+Selling, general and administrative
+15.4 
+%
+16.7 
+%
+Total operating expenses
+39.3 
+%
+40.2 
+%
+Operating income
+25.2 
+%
+27.2 
+%
+Other income, net
+1.7 
+%
+1.8 
+%
+Income before income taxes
+26.9 
+%
+29.0 
+%
+Provision (benefit) for income taxes
+(0.1)
+%
+0.6 
+%
+Net income
+27.0 
+%
+28.4 
+%
+Comparison of Three Months Ended August 1, 2026 and August 2, 2025
+Revenue
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Revenue
+$
+479,003 
+$
+223,074 
+114.7 
+%
+Revenue for the three months ended August 1, 2026 increased by $255.9 million, compared to the same period in fiscal year 2026. The increase in revenue for the three months ended August 1, 2026, compared to the same period in fiscal year 2026, was primarily due to a significant increase in the volume of unit shipment of AEC products which contributed over 90% of the increase in revenue. The sales increase was primarily driven by the ramp-up of our AEC solutions at our hyperscale data center customers during the three months ended August 1, 2026.
+Cost of Revenue
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Cost of revenue
+$
+169,923 
+72,706 
+133.7 
+%
+Cost of revenue for the three months ended August 1, 2026 increased by $97.2 million compared to the same period in fiscal year 2026, primarily due to the increased shipments of AEC products noted above.
+Gross Profit and Gross Margin
+24
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Gross profit
+$
+309,080 
+$
+150,368 
+105.5 
+%
+Gross margin
+64.5 
+%
+67.4 
+%
+(2.9)
+%
+Gross margin in the three months ended August 1, 2026 decreased by 2.9 percentage points, compared to the same period in fiscal year 2026, primarily driven by amortization of acquired intangible assets.
+Research and Development
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Research and development
+$
+114,524 
+$
+52,448 
+118.4 
+%
+% of revenue
+23.9 
+%
+23.5 
+%
+Research and development expense for the three months ended August 1, 2026 increased by $62.1 million compared to the same period in fiscal year 2026. The increase was due primarily to a $25.8 million increase in share-based compensation expense driven by increased amortization expense from new equity awards granted to employees, a $13.0 million increase in personnel costs as a result of new hires for product development, a $17.8 million increase in design activities and higher engineering activities relating to testing and laboratory supplies for new product development and a $2.5 million increase in depreciation and amortization expense associated with an increase in R&D equipment and amortization of acquired intangible assets.
+Selling, General and Administrative
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Selling, general and administrative
+$
+73,856 
+$
+37,178 
+98.7 
+%
+% of revenue
+15.4 
+%
+16.7 
+%
+Selling, general and administrative expense for the three months ended August 1, 2026 increased by $36.7 million compared to the same period in fiscal year 2026. The increase was primarily due to a $21.3 million increase in share-based compensation expense driven by increased amortization expense from new equity awards granted to executives and employees, a $5.9 million increase in personnel costs as a result of higher selling, general and administrative headcount, a $7.4 million increase in external consultation fees relating to general and administrative expenses and acquisition-related costs relating to the DustPhotonics acquisition.
+Provision (benefit) for Income Taxes
+Three Months Ended
+August 1, 2026
+August 2, 2025
+% Change
+(in thousands, except percentages)
+Provision (benefit) for income taxes
+$
+(585)
+$
+1,289 
+(145.4)
+%
+% of revenue
+(0.1)
+%
+0.6 
+%
+Provision for income taxes for the three months ended August 1, 2026 decreased by $1.9 million, compared to the same period in fiscal year 2026. The decrease was primarily due to the tax impact of acquired intangible assets and related purchase accounting adjustments arising from the DustPhotonics acquisition.
+25
+Liquidity and Capital Resources
+Our activities consist primarily of selling our products. As of August 1, 2026 and May 2, 2026, we had $466.9 million and $1.2 billion in cash and cash equivalents, respectively, and working capital of $1.3 billion and $1.8 billion, respectively. Our principal use of cash is to fund our operations, invest in research and development and acquisitions of complementary businesses or technologies to support our growth. See Note 9 to our unaudited condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q for a further discussion of our cash requirements under non-cancelable purchase obligations.
+We believe our existing cash and cash equivalents and other components of working capital will be sufficient to meet our needs for at least the next 12 months and in the longer term. Our future capital requirements will depend on many factors, including our growth rate, the timing and extent of our sales and marketing and research and development expenditures, customer demand and the continuing market acceptance of our solutions. In the event that we need to borrow funds or issue additional equity, we cannot be assured that any such additional financing will be available on terms acceptable to us, if at all. If we are unable to raise additional capital when we need it, our business, results of operations and financial condition would be adversely affected.
+Cash Flows
+The following table summarizes our cash flows for the periods indicated.
+Three Months Ended
+August 1, 2026
+August 2, 2025
+(in thousands)
+Net cash provided by operating activities
+$
+90,231 
+$
+54,168 
+Net cash used in investing activities
+$
+(761,956)
+$
+(67,821)
+Net cash used in financing activities
+$
+(26,658)
+$
+(2,970)
+Cash Flows Provided by Operating Activities
+Net cash provided by operating activities was $90.2 million for the three months ended August 1, 2026. The cash inflows from operating activities for the three months ended August 1, 2026 were primarily due to net income of $129.4 million adjusted for the following non-cash items: share-based compensation expense of $88.0 million, depreciation and amortization of $8.6 million, amortization of acquired intangible assets of $11.6 million and write-downs for excess and obsolete inventory of $3.9 million, partially offset by $151.3 million of cash outflows from working capital purposes. The cash outflows from working capital for the three months ended August 1, 2026 were primarily driven by (a) an increase in accounts receivable of $54.5 million primarily due to increased sales in the three months ended August 1, 2026; (b) an increase in inventory of $61.5 million to support unfulfilled backlog and related new product ramps; (c) an increase in other non-current assets of $25.3 million primarily relating to payments of refundable deposits for a manufacturing supply capacity reservation agreement; and (d) a decrease in accounts payable and other current liabilities of $16.4 million due to timing of payments for inventory and IP license purchases.
+ Net cash provided by operating activities was $54.2 million for the three months ended August 2, 2025. The cash inflows from operating activities for the three months ended August 2, 2025 were primarily due to $63.4 million in net income adjusted for the following non-cash items: share-based compensation expense of $35.5 million, depreciation and amortization of $5.5 million and other non-cash items of $2.0 million. This was offset by $52.1 million of cash outflows from working capital for the three months ended August 2, 2025, which was primarily driven by (a) an increase in accounts receivable of $19.1 million primarily due to increased sales in the three months ended August 2, 2025; (b) an increase in inventory of $27.5 million to support unfulfilled backlog and related new product ramps and (c)  an increase in accounts payable of $9.0 million due to timing of payment for purchases of property and equipment.
+Cash Flows Used in Investing Activities
+Net cash used in investing activities of $762.0 million in the three months ended August 1, 2026 was primarily attributable to purchases of property and equipment of $7.3 million, purchases of certificates of deposit for $19.1 million, and net cash payment for DustPhotonics acquisition of $735.6 million. Purchases of property and equipment primarily related to equipment, computer equipment and software used for research and development purposes.
+Net cash used in investing activities of $67.8 million in the three months ended August 2, 2025 was primarily attributable to purchases of the certificates of deposit for $115.0 million and purchases of property and equipment of
+26
+$2.8 million, offset by maturities of certificates of deposit for $50.0 million. Purchases of property and equipment primarily related to third-party IP licenses and computer equipment and software used for research and development purposes.
+Cash Flows Used in Financing Activities
+Net cash used in financing activities of $26.7 million for the three months ended August 1, 2026 was primarily attributable to $5.2 million in payments for long-term technology license obligations and $25.9 million tax withheld related to RSU settlement offset by $4.5 million in proceeds from exercises of employee share options.
+Net cash used in financing activities of $3.0 million for the three months ended August 2, 2025 was primarily attributable to $3.9 million in payments for long-term technology license obligations, offset by $0.9 million in proceeds from exercises of employee share options and the issuance of shares under the ESPP net of tax withheld for RSU settlement.
+Critical Accounting Estimates
+There have been no material changes to our critical accounting estimates during the three months ended August 1, 2026, as compared to those disclosed under the heading “Management’s Discussion and Analysis of Financial Condition and Results of Operations-Critical Accounting Policies and Estimates” in our Annual Report on Form 10-K for the fiscal year ended May 2, 2026. In the current macroeconomic environment, our estimates could require increased judgment and carry a higher degree of variability and volatility. We continue to monitor and assess our estimates in light of developments, and as events continue to evolve and additional information becomes available, our estimates may change materially in future periods.
+Item 3. Quantitative and Qualitative Disclosures About Market Risk.
+For a discussion of market risks, refer to Item 7A, “Quantitative and Qualitative Disclosures about Market Risk” in our Annual Report on Form 10-K for the fiscal year ended May 2, 2026. During the three months ended August 1, 2026, there were no material changes or developments that would materially alter the market risk assessment performed as of May 2, 2026.
+
+Item 4. Controls and Procedures.
+Disclosure Controls and Procedures
+We maintain “disclosure controls and procedures” (as defined in Rules 13a-15(e) and 15d-15(e) under the Securities Exchange Act of 1934, as amended (the Exchange Act)), that are designed to provide reasonable assurance that information required to be disclosed by us in reports that we file or submit under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms, and that such information is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, to allow timely decisions regarding required disclosure.
+Based on their evaluation as of the end of the period covered by this Quarterly Report on Form 10-Q, our Chief Executive Officer and Chief Financial Officer have concluded that, as of such date, our disclosure controls and procedures were effective at the reasonable assurance level.
+Changes in Internal Control Over Financial Reporting
+There was no change in our “internal control over financial reporting,” as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act, that occurred during the quarter ended August 1, 2026 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+Inherent Limitations on Effectiveness of Controls
+Our management, including our principal executive officer and principal financial officer, does not expect that our disclosure controls and procedures or our internal controls will prevent all error and all fraud. A control system, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that the objectives of the control system are met. Further, the design of a control system must reflect the fact that there are resource constraints, and the benefits of controls must be considered relative to their costs. Because of the inherent limitations in all control systems, no evaluation of controls can provide absolute assurance that all control issues and instances of fraud, if any, within Credo have been detected.
+27
+PART II—OTHER INFORMATION
+Item 1. Legal Proceedings.
+From time to time, we are involved in various legal proceedings arising in the ordinary course of our business. We are not presently a party to any litigation the outcome of which, we believe, if determined adversely to us, would individually or taken together have a material adverse effect on us. The results of any current or future litigation cannot be predicted with certainty, and regardless of the outcome, litigation can have an adverse impact on us because of defense and settlement costs, diversion of management resources and other factors.
+Item 1A. Risk Factors.
+Our operations and financial results are subject to various risks and uncertainties, including those described in Part I, Item 1A, "Risk Factors" in our Annual Report on Form 10-K for the fiscal year ended May 2, 2026, which could adversely affect our business, financial condition, results of operations, cash flows and the trading price of our ordinary shares. As of the date of this Quarterly Report on Form 10-Q there have been no material changes from the risk factors previously disclosed in our Annual Report on Form 10-K for the fiscal year ended May 2, 2026.
+Item 5. Other Information.
+Rule 10b5-1
+Trading Plans
+On
+June 10, 2026
+,
+William J. Brennan
+, our
+Chief Executive Officer and a member of our board of directors
+,
+adopted
+ a Rule 10b5-1 Trading Plan, intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) of the Exchange Act, pursuant to which a maximum amount of
+440,000
+ of our ordinary shares held by The Brennan Family Trust, DTD 09/06/2002 may be sold between September 14, 2026 and September 14, 2027. The plan terminates on the earlier of: (i)
+September 14, 2027
+, (ii) the first date on which all trades set forth in the plan have been executed or (iii) such date as the plan is otherwise terminated according to its terms. Mr. Brennan is a joint trustee with shared voting and investment power over the shares held by The Brennan Family Trust, DTD 09/06/2002.
+28
+Item 6. Exhibits.
+Incorporated by Reference
+Exhibit Number
+Exhibit Description
+Form
+File No.
+Exhibit No.
+Filing Date
+Provided Herewith
+31.1
+*
+Certification of Principal Executive Officer pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+X
+31.2
+*
+Certification of Principal Financial Officer pursuant to Rule 13a-14(a)/15d-14(a), as adopted pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+X
+32.1
+**
+Certification of Principal Executive Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+X
+32.2
+**
+Certification of Principal Financial Officer pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+X
+101.INS
+*
+Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because XBRL tags are embedded within the Inline XBRL document)
+101.SCH
+*
+Inline XBRL Taxonomy Extension Schema Document
+X
+101.CAL
+*
+Inline XBRL Taxonomy Extension Calculation Linkbase Document
+X
+101.DEF
+*
+Inline XBRL Taxonomy Extension Definition Linkbase Document
+X
+101.LAB
+*
+Inline XBRL Taxonomy Extension Label Linkbase Document
+X
+101.PRE
+*
+Inline XBRL Taxonomy Extension Presentation Linkbase Document
+X
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document)
+X
+*Filed herewith
+      **Furnished herewith
+29
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+CREDO TECHNOLOGY GROUP HOLDING LTD
+Date: September 2, 2026
+By:
+/s/ William Brennan
+Name:
+William Brennan
+Title:
+President and Chief Executive Officer
+Date: September 2, 2026
+By:
+/s/ Daniel Fleming
+Name:
+Daniel Fleming
+Title:
+Chief Financial Officer
+30

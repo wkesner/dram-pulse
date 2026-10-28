@@ -24,5 +24,7 @@
     "risk_factors": "data/raw/WDC/000010604025000038/item1a_risk_factors.txt",
     "mdna": "data/raw/WDC/000010604025000038/item7_mdna.txt",
     "other": "data/raw/WDC/000010604025000038/other_full.txt"
-  }
+  },
+  "period_end": "2025-06-27",
+  "report_date": "2025-06-27"
 }

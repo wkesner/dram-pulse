@@ -1,0 +1,28 @@
+{
+  "company": "FormFactor",
+  "ticker": "FORM",
+  "cik": "0001039399",
+  "form": "8-K",
+  "filing_date": "2026-01-09",
+  "accession_number": "0001039399-26-000002",
+  "primary_document": "form-20260105.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.05,2.06",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000002/form-20260105.htm",
+  "fiscal_year_end": "1226",
+  "report_date": "2026-01-05",
+  "period_end": "2026-01-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:32.443332+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/FORM/000103939926000002/primary.html",
+    "other": "data/raw/FORM/000103939926000002/other_full.txt"
+  }
+}

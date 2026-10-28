@@ -39,7 +39,7 @@ from src.fetch_edgar import (
     window_bounds,
 )
 
-EXTRACTOR_VERSION = "0.3.0"
+EXTRACTOR_VERSION = "0.3.1"
 SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 
 SECTION_FILES = {

@@ -1,0 +1,34 @@
+{
+  "company": "Credo",
+  "ticker": "CRDO",
+  "cik": "0001807794",
+  "form": "8-K",
+  "filing_date": "2026-06-01",
+  "accession_number": "0001628280-26-039474",
+  "primary_document": "crdo-20260528.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,5.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/crdo-20260528.htm",
+  "fiscal_year_end": "0429",
+  "report_date": "2026-05-28",
+  "period_end": "2026-05-28",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:11.854705+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "credoq42026ex-991.htm",
+      "path": "data/raw/CRDO/000162828026039474/exhibit_99_credoq42026ex-991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026039474/credoq42026ex-991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CRDO/000162828026039474/primary.html",
+    "other": "data/raw/CRDO/000162828026039474/other_full.txt"
+  }
+}

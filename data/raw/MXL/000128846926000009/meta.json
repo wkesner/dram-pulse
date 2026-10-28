@@ -1,0 +1,34 @@
+{
+  "company": "MaxLinear",
+  "ticker": "MXL",
+  "cik": "0001288469",
+  "form": "8-K",
+  "filing_date": "2026-01-29",
+  "accession_number": "0001288469-26-000009",
+  "primary_document": "mxl-20260129.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000009/mxl-20260129.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-01-29",
+  "period_end": "2026-01-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:10.277716+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "a12312025exhibit991.htm",
+      "path": "data/raw/MXL/000128846926000009/exhibit_99_a12312025exhibit991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000009/a12312025exhibit991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/MXL/000128846926000009/primary.html",
+    "other": "data/raw/MXL/000128846926000009/other_full.txt"
+  }
+}

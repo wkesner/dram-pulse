@@ -1,0 +1,39 @@
+{
+  "company": "Lattice",
+  "ticker": "LSCC",
+  "cik": "0000855658",
+  "form": "8-K",
+  "filing_date": "2026-07-27",
+  "accession_number": "0001437749-26-024519",
+  "primary_document": "lscc20260723_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.01,2.03,3.02,5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/855658/000143774926024519/lscc20260723_8k.htm",
+  "fiscal_year_end": "0102",
+  "report_date": "2026-07-27",
+  "period_end": "2026-07-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:41.805028+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex_993320.htm",
+      "path": "data/raw/LSCC/000143774926024519/exhibit_99_ex_993320.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/855658/000143774926024519/ex_993320.htm"
+    },
+    {
+      "name": "ex_993742.htm",
+      "path": "data/raw/LSCC/000143774926024519/exhibit_99_ex_993742.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/855658/000143774926024519/ex_993742.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/LSCC/000143774926024519/primary.html",
+    "other": "data/raw/LSCC/000143774926024519/other_full.txt"
+  }
+}

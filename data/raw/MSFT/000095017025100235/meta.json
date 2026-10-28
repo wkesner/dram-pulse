@@ -24,5 +24,7 @@
     "risk_factors": "data/raw/MSFT/000095017025100235/item1a_risk_factors.txt",
     "mdna": "data/raw/MSFT/000095017025100235/item7_mdna.txt",
     "other": "data/raw/MSFT/000095017025100235/other_full.txt"
-  }
+  },
+  "period_end": "2025-06-30",
+  "report_date": "2025-06-30"
 }

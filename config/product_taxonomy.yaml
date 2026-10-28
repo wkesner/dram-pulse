@@ -55,12 +55,40 @@ categories:
     NAND_general:
       - 낸드플래시
       - 낸드
+      - NAND flash memory
+      - NAND flash
       - flash memory
       - NAND
   Other:
     CXL:
       - memory expansion
       - CXL
+    # Hyperscaler / custom-silicon BOM language (memory demand drivers).
+    # Prefer multi-word forms; avoid bare "GPU"/"semiconductor" (too noisy).
+    AI_accelerators:
+      - custom AI silicon
+      - custom AI chips
+      - custom AI chip
+      - custom-built TPUs
+      - custom-built TPU
+      - custom AI accelerators
+      - custom AI accelerator
+      - AI accelerators
+      - AI accelerator
+      - graphics processing units
+      - graphics processing unit
+      - Trainium4
+      - Trainium3
+      - Trainium2
+      - Trainium
+      - TPU systems
+      - TPUs
+      # Prefer "custom XPUs" — bare XPU/XPUs matched too many Broadcom risk-factor windows.
+      - custom XPUs
+      - custom XPU
+    Packaging:
+      - advanced packaging
+      - packaging capacity
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
@@ -92,3 +120,16 @@ categories:
       - costs of memory
       - price of memory
       - prices in memory
+      # Curated-pack buyer / storage phrasing (2026-10 term-list pass)
+      - shortages of semiconductors
+      - shortage of semiconductors
+      - semiconductor shortages
+      - semiconductor shortage
+      - memory chips
+      - memory devices
+      - server memory
+      - DRAM chips
+      - NAND flash memory
+      - NAND flash
+      - critical hardware
+      - hardware components

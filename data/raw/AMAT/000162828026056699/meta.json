@@ -1,0 +1,34 @@
+{
+  "company": "Applied Materials",
+  "ticker": "AMAT",
+  "cik": "0000006951",
+  "form": "8-K",
+  "filing_date": "2026-08-13",
+  "accession_number": "0001628280-26-056699",
+  "primary_document": "amat-20260813.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/amat-20260813.htm",
+  "fiscal_year_end": "1026",
+  "report_date": "2026-08-13",
+  "period_end": "2026-08-13",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:20.647631+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991q32026earningsre.htm",
+      "path": "data/raw/AMAT/000162828026056699/exhibit_99_exhibit991q32026earningsre.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AMAT/000162828026056699/primary.html",
+    "other": "data/raw/AMAT/000162828026056699/other_full.txt"
+  }
+}

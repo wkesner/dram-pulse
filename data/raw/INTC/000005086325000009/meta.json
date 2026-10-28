@@ -24,5 +24,7 @@
     "risk_factors": "data/raw/INTC/000005086325000009/item1a_risk_factors.txt",
     "mdna": "data/raw/INTC/000005086325000009/item7_mdna.txt",
     "other": "data/raw/INTC/000005086325000009/other_full.txt"
-  }
+  },
+  "period_end": "2024-12-28",
+  "report_date": "2024-12-28"
 }

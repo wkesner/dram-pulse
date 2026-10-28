@@ -1,0 +1,500 @@
+ITEM 2.         MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion of our financial condition and results of operations should be read in conjunction with the condensed consolidated financial statements and the notes thereto included elsewhere in this Quarterly Report on Form 10-Q and our Annual Report on Form 10-K for the fiscal year ended October 3, 2025 filed with the United States Securities and Exchange Commission (“SEC”) on November 14, 2025 (the “2025 Annual Report on Form 10-K”).
+In this document, the words “Company,” “we,” “our,” “us,” and similar terms refer only to MACOM Technology Solutions Holdings, Inc. and its consolidated subsidiaries, and not any other person or entity.
+“MACOM,” “MACOM Technology Solutions,” and related logos are trademarks of MACOM Technology Solutions Holdings, Inc. All other brands and names listed are trademarks of their respective owners.
+Cautionary Note Regarding Forward-Looking Statements
+This Item 2, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and other sections of this Quarterly Report on Form 10-Q contain “forward-looking statements” including statements regarding our business outlook, strategic plans and priorities, expectations, anticipated drivers of future revenue growth, industry trends, our plans for use of our cash and cash equivalents and short-term investments, interest rate and foreign currency risks, our ability to meet working capital requirements, estimates and objectives for future operations, our future results of operations and our financial position, including liquidity, and other matters that do not relate strictly to historical facts. Forward-looking statements generally may be identified by terms such as “anticipates,” “believes,” “could,” “continue,” “estimates,” “expects,” “intends,” “may,” “plans,” “potential,” “predicts,” “projects,” “seeks,” “should,” “targets,” “will,” “would” or similar expressions or variations or the negatives of those terms. Forward-looking statements are neither historical facts nor assurances about future performance. Instead, they are based only on our current beliefs, expectations and assumptions. Because forward-looking statements relate to the future, such statements involve inherent risks, changes and uncertainties that are difficult to predict and many of which are outside of our control. A number of important factors could cause actual results and outcomes to differ materially and adversely from those expressed or implied by our forward-looking statements. Important factors that could cause actual results to differ materially from the forward-looking statements include, among others, the risks described in the section entitled “Item 1A - Risk Factors” in this Quarterly Report on Form 10-Q and our 2025 Annual Report on Form 10-K. We caution the reader to carefully consider such factors. Furthermore, such forward-looking statements speak only as of the date of this Quarterly Report on Form 10-Q. Except as required by law, we undertake no obligation to revise or update our forward-looking statements to reflect any event or circumstance that may arise after the date of this Quarterly Report on Form 10-Q.
+Overview
+We design, develop and manufacture differentiated semiconductor products and solutions for the Industrial and Defense (“I&D”), Data Center and Telecommunications (“Telecom”) industries for customers who demand high performance, quality and reliability. We are headquartered in Lowell, Massachusetts, with operational facilities throughout North America, Europe and Asia. We have more than 70 years of application expertise, combined with expertise in analog and mixed signal circuit design, compound semiconductor fabrication (including GaAs, GaN, indium phosphide (“InP”) and specialized silicon), advanced packaging and back-end assembly and test. We offer a broad portfolio of thousands of standard and custom devices, which include integrated circuits (“ICs”), multi-chip modules (MCM), diodes, amplifiers, switches and switch limiters, passive
+22
+and active components and radio frequency (RF) and optical subsystems, which make up dozens of product lines that service over 6,000 end customers in our three primary markets. Our products are electronic components that our customers generally incorporate into larger electronic systems, such as wireless basestations, high-capacity optical networks, data center networks, radar, medical systems, satellite networks and test and measurement applications. Our primary end markets are: (1) I&D, which includes military and commercial radar, RF jammers, electronic countermeasures, communication data links, space-related electronics and various wired and wireless multi-market applications, which include industrial, medical, test and measurement and scientific applications; (2) Data Center, which includes intra-Data Center, Data Center Interconnect (DCI) applications, at 100G, 200G, 400G, 800G, 1.6T, 3.2T and higher speeds, enabled by our broad portfolio of analog ICs and photonic components for high speed connectivity customers; and (3) Telecom, which includes carrier infrastructure such as long-haul/metro, 5G and 6G infrastructure, satellite communications (“SATCOM”) and Fiber-to-the-X (FTTx)/passive optical network (PON), among others.
+Description of Our Revenue
+Revenue.
+ Our revenue is derived from sales of high-performance RF, microwave, millimeter wave, optical and photonic semiconductor products. We design, integrate, manufacture and package differentiated, semiconductor-based products that we sell to customers through our direct sales organization, our network of independent sales representatives and our distributors.
+ We believe the primary drivers of our future revenue growth will include:
+•
+continued growth in the demand for high-performance analog, digital and optical semiconductors in our three primary markets;
+•
+introducing new products using advanced technologies, added features, higher levels of integration and improved performance;
+•
+increasing content of our semiconductor solutions in customers’ systems through cross-selling our product lines;
+•
+leveraging our core strength and leadership position in standard, catalog products that service all of our end applications; and
+•
+engaging early with our lead customers to develop custom and standard products.
+Our core strategy is to develop and innovate high-performance products that address our customers’ most difficult technical challenges in our primary markets: I&D, Data Center and Telecom.
+We expect our revenue in the I&D market to be driven by the expanding product portfolio that we offer which services applications such as test and measurement, space-related electronics, civil and military radar, industrial, automotive, scientific and medical applications, further supported by growth in applications for our multi-market catalog products.
+We expect our revenue in the Data Center market to be driven by the adoption of higher speed processing technologies and the upgrade of data center architectures to 100G, 200G, 400G, 800G, 1.6T and 3.2T interconnects, which we expect will drive adoption of higher speed optical and photonic components.
+We expect our revenue in the Telecom market to be driven by 5G deployments, with continued upgrades and expansion of communications equipment, SATCOM networks and increasing adoption of our high-performance RF, millimeter wave, optical and photonic components.
+Critical Accounting Policies and Estimate
+s
+Our discussion and analysis of our financial condition and results of operations are based on our condensed consolidated financial statements. The preparation of financial statements, in conformity with GAAP, requires management to make estimates and judgments that affect the reported amounts of assets and liabilities, the reported amounts of revenue and expenses during the reporting period and disclosure of contingent assets and liabilities at the date of the financial statements. By their nature, these estimates and judgments are subject to an inherent degree of uncertainty and could be material if our actual or expected experience were to change unexpectedly. On an ongoing basis, we re-evaluate our estimates and judgments.
+We base our estimates and judgments on our historical experience and on other assumptions that we believe are reasonable under the circumstances, the results of which form the basis for making the judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results could differ from those estimates and material effects on our operating results and financial position may result. The accounting policies which our management believes involve the most significant application of judgment or involve complex estimation, are inventories and associated reserves; revenue reserves; business combinations; goodwill and intangible asset valuation; share-based compensation valuations and income taxes.
+Business combinations
+23
+We apply significant estimates and judgments in order to determine the fair value of the identified tangible and intangible assets acquired, liabilities assumed and goodwill recognized in business combinations. The value of all assets and liabilities are recognized at fair value as of the acquisition date using a market participant approach. In measuring fair values, we utilize a number of valuation techniques. When determining the fair value of property and equipment acquired, generally we must estimate the cost to replace the asset with a new asset taking into consideration such factors as age, condition and the economic useful life of the asset. When determining the fair value of intangible assets acquired, typically determined using a discounted cash flow valuation method, we use assumptions such as the timing and amount of future cash flows, discount rates, weighted average cost of capital and estimated useful lives. These assessments can be significantly affected by our judgments.
+Goodwill and intangible asset valuation
+Significant management judgment is required in our valuation of goodwill and intangible assets, many of which are based on the creation of forecasts of future operating results that are used in the valuation, including (i) estimation of future cash flows, (ii) estimation of the long-term rate of growth for our business, (iii) estimation of the useful life over which cash flows will occur, (iv) terminal values, if applicable, and (v) the determination of our weighted average cost of capital, which helps determine the discount rate. It is possible that these forecasts may change, and our performance projections included in our forecasts of future results may prove to be inaccurate. The value of our goodwill and purchased intangible assets could also be impacted by future adverse changes, such as a decline in the valuation of technology company stocks, including the valuation of our common stock, or a significant slowdown in the worldwide economy or in the semiconductor industry.
+For additional information related to these and other accounting policies refer to
+Note 2 - Summary of Significant Accounting Policies
+ to our Consolidated Financial Statements included in Item 8 of Part II, “Financial Statements and Supplementary Data,” of the 2025 Annual Report on Form 10-K and
+Note 1 - Basis of Presentation and Summary of Significant Accounting Policies
+ to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q.
+Income taxes
+We are required to estimate our income taxes in each of the jurisdictions in which we operate. This process involves estimating our current tax exposure and assessing temporary differences resulting from differing treatment of items for tax and accounting purposes. These differences result in deferred tax assets and liabilities, which are included within our Consolidated Balance Sheets. We then assess the likelihood that our deferred tax assets will be recovered from future taxable income within the relevant jurisdiction. To the extent we believe that recovery is not likely, we must establish a valuation allowance. We provide valuation allowances for certain deferred tax assets where it is more likely than not that any portion will not be realized.
+The application of tax laws and regulations to calculate our tax liabilities is subject to legal and factual interpretation, judgment and uncertainty in a multitude of jurisdictions. Tax laws and regulations themselves are subject to change as a result of changes in fiscal policy, changes in legislation, the evolution of regulations, including the July 4, 2025 Bill, as well as court rulings. We recognize potential liabilities for anticipated tax audit matters in the United States and other tax jurisdictions based on our estimate of whether, and the extent to which, additional taxes and interest will be due. We record an amount as an estimate of probable additional income tax liability at the largest amount that we feel is more likely than not, based upon the technical merits of the position, to be sustained upon audit by the relevant tax authority.
+24
+Results of Operations
+The following table sets forth, for the periods indicated, our statements of operations data (in thousands):
+ 
+Three Months Ended
+Six Months Ended
+ 
+April 3,
+2026
+April 4,
+2025
+April 3,
+2026
+April 4,
+2025
+Revenue
+$
+288,955 
+$
+235,887 
+$
+560,567 
+$
+454,009 
+Cost of revenue
+(1)
+124,522 
+105,731 
+244,355 
+206,744 
+Gross profit
+164,433 
+130,156 
+316,212 
+247,265 
+Operating expenses:
+Research and development
+ (1)
+68,983 
+57,837 
+135,442 
+118,206 
+Selling, general and administrative
+(1)
+44,619 
+37,449 
+86,642 
+76,662 
+Total operating expenses
+113,602 
+95,286 
+222,084 
+194,868 
+Income from operations
+50,831 
+34,870 
+94,128 
+52,397 
+Other income (expense):
+Interest income
+7,759 
+7,239 
+15,749 
+14,239 
+Interest expense
+(1,667)
+(1,179)
+(3,365)
+(2,545)
+Loss on extinguishment of debt
+— 
+— 
+— 
+(193,098)
+Total other income (expense)
+6,092 
+6,060 
+12,384 
+(181,404)
+Income (loss) before income taxes
+56,923 
+40,930 
+106,512 
+(129,007)
+Income tax expense
+10,592 
+9,264 
+11,414 
+6,857 
+Net income (loss)
+$
+46,331 
+$
+31,666 
+$
+95,098 
+$
+(135,864)
+(1)     Includes (a) Amortization expense related to intangible assets arising from acquisitions, purchased software licenses and licensed technology and (b) Share-based compensation expense included in our condensed consolidated statements of operations as set forth below (in thousands):
+
+ 
+Three Months Ended
+Six Months Ended
+ 
+April 3,
+2026
+April 4,
+2025
+April 3,
+2026
+April 4,
+2025
+(a) Intangible amortization expense:
+Cost of revenue
+$
+1,623 
+$
+3,342 
+$
+3,244 
+$
+6,674 
+Research and development
+2,617 
+2,284 
+$
+5,200 
+$
+4,349 
+Selling, general and administrative
+1,911 
+1,755 
+$
+3,918 
+$
+5,015 
+(b) Share-based compensation expense:
+Cost of revenue
+$
+2,352 
+$
+1,703 
+$
+4,596 
+$
+4,648 
+Research and development
+9,184 
+6,876 
+$
+17,957 
+$
+18,126 
+Selling, general and administrative
+11,102 
+10,188 
+$
+22,223 
+$
+21,513 
+25
+The following table sets forth, for the periods indicated, our statements of operations data expressed as a percentage of our revenue:
+ 
+ 
+Three Months Ended
+Six Months Ended
+ 
+April 3,
+2026
+April 4,
+2025
+April 3,
+2026
+April 4,
+2025
+Revenue
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Cost of revenue
+43.1 
+44.8 
+43.6 
+45.5 
+Gross profit
+56.9 
+55.2 
+56.4 
+54.5 
+Operating expenses:
+Research and development
+23.9 
+24.5 
+24.2 
+26.0 
+Selling, general and administrative
+15.4 
+15.9 
+15.5 
+16.9 
+Total operating expenses
+39.3 
+40.4 
+39.7 
+42.9 
+Income from operations
+17.6 
+14.8 
+16.7 
+11.6 
+Other income (expense):
+Interest income
+2.7 
+3.1 
+2.8 
+3.1 
+Interest expense
+(0.6)
+(0.5)
+(0.6)
+(0.6)
+Loss on extinguishment of debt
+— 
+— 
+— 
+(42.5)
+Total other income (expense)
+2.1 
+2.6 
+2.2 
+(40.0)
+Income (loss) before income taxes
+19.7 
+17.4 
+18.9 
+(28.4)
+Income tax expense
+3.7 
+3.9 
+2.0 
+1.5 
+Net income (loss)
+16.0 
+%
+13.5 
+%
+16.9 
+%
+(29.9)
+%
+Comparison of the Three and Six Months Ended April 3, 2026 to the Three and Six Months Ended April 4, 2025
+Revenue.
+ Our revenue increased by $53.1 million, or 22.5%, to $289.0 million for the three months ended April 3, 2026, from $235.9 million for the three months ended April 4, 2025, and our revenue increased by $106.6 million, or 23.5%, to $560.6 million for the six months ended April 3, 2026, from $454.0 million for the six months ended April 4, 2025. The increase in revenue in the three and six months ended April 3, 2026 is described by end market in the following paragraphs.
+Revenue from our primary markets, the percentage of change between the periods presented, and revenue by primary markets expressed as a percentage of total revenue in the periods presented were (in thousands, except percentages):
+ 
+Three Months Ended
+ 
+Six Months Ended
+ 
+ 
+April 3,
+2026
+April 4,
+2025
+%
+Change
+April 3,
+2026
+April 4,
+2025
+%
+Change
+Industrial & Defense
+$
+120,652
+$
+98,542
+22.4%
+$
+238,365
+$
+195,942
+21.7 
+%
+Data Center
+98,188
+72,180
+36.0%
+183,942
+137,464
+33.8 
+%
+Telecom
+70,115
+65,165
+7.6%
+138,260
+120,603
+14.6 
+%
+Total
+$
+288,955
+$
+235,887
+22.5%
+$
+560,567
+$
+454,009
+23.5 
+%
+Industrial & Defense
+41.8 
+%
+41.8 
+%
+42.5 
+%
+43.1 
+%
+Data Center
+34.0 
+%
+30.6 
+%
+32.8 
+%
+30.3 
+%
+Telecom
+24.2 
+%
+27.6 
+%
+24.7 
+%
+26.6 
+%
+Total
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+In the three months ended April 3, 2026, our I&D market revenue increased by $22.1 million, or 22.4%, compared to the three months ended April 4, 2025. In the six months ended April 3, 2026, our I&D market revenue increased by $42.4 million, or 21.7%, compared to the six months ended April 4, 2025. The increase in the three and six months ended April 3, 2026 was primarily driven by revenue growth from defense programs.
+In the three months ended April 3, 2026, our Data Center market revenue increased by $26.0 million, or 36.0%, compared to the three months ended April 4, 2025. In the six months ended April 3, 2026, our Data Center market revenue increased by $46.5 million, or 33.8%, compared to the six months ended April 4, 2025. The increase in the three and six months ended
+26
+April 3, 2026 was primarily driven by higher sales of high-performance analog, coherent and optical Data Center products primarily supporting high speed data rates from 100G up to 1.6T.
+In the three months ended April 3, 2026, our Telecom market revenue increased by $5.0 million, or 7.6%, compared to the three months ended April 4, 2025. In the six months ended April 3, 2026, our Telecom market revenue increased by $17.7 million, or 14.6%, compared to the six months ended April 4, 2025. The increase in the three and six months ended April 3, 2026 was primarily driven by higher sales of products for PON, metro long haul, broadband access and SATCOM applications.
+Certain areas of our end markets could be negatively affected by any weakening of global economic conditions, including as a result of geopolitical conflicts and related trade restrictions, the evolving impacts from tariffs, sanctions, obtaining required licenses or other trade tensions (including implementation of new tariffs or retaliatory trade measures).
+Gross profit.
+ Gross margin was 56.9% and 55.2% for the three months ended April 3, 2026 and April 4, 2025, respectively, and 56.4% and 54.5% for the six months ended April 3, 2026 and April 4, 2025, respectively. Gross profit increased by $34.3 million, or 26.3%, to $164.4 million, or 56.9% of our revenue, for the three months ended April 3, 2026, compared to $130.2 million, or 55.2% of our revenue, for the three months ended April 4, 2025. Gross profit increased by $68.9 million, or 27.9%, to $316.2 million, or 56.4% of our revenue, for the six months ended April 3, 2026, compared to $247.3 million, or 54.5% of our revenue, for the six months ended April 4, 2025. Gross profit increased for the three and six months ended April 3, 2026 as compared to the three and six months ended April 4, 2025 primarily as a result of higher sales, partially offset by increases in employee-related costs, primarily due to additional headcount from the RTP Fab, higher maintenance expense and increases in production supplies.
+Research and development.
+ Research and development expense increased by $11.1 million, or 19.3%, to $69.0 million, or 23.9% of our revenue, for the three months ended April 3, 2026, compared to $57.8 million, or 24.5% of our revenue, for the three months ended April 4, 2025. Research and development expense increased $17.2 million, or 14.6%, to $135.4 million, or 24.2% of our revenue, for the six months ended April 3, 2026, compared to $118.2 million, or 26.0% of our revenue, for the six months ended April 4, 2025. Research and development expense increased in the three months ended April 3, 2026 primarily due to increases in employee-related costs, including increases in headcount, higher R&D-related material costs and share-based compensation expense. Research and development expense increased in the six months ended April 3, 2026 primarily due to employee-related costs, including increases in headcount, higher R&D-related material costs and depreciation expense.
+Selling, general and administrative.
+Selling, general and administrative expense increased by $7.2 million, or 19.1%, to $44.6 million, or 15.4% of our revenue, in the three months ended April 3, 2026, compared to $37.4 million, or 15.9% of our revenue, for the three months ended April 4, 2025. Selling, general and administrative expense increased by $10.0 million, or 13.0%, to $86.6 million, or 15.5% of our revenue, in the six months ended April 3, 2026, compared to $76.7 million, or 16.9% of our revenue, for the six months ended April 4, 2025. Selling, general and administrative expense increased in the three months ended April 3, 2026 primarily due to increases in employee-related costs, share-based compensation expense and professional service fees. Selling, general and administrative expense increased in the six months ended April 3, 2026 primarily due to increases in employee-related costs, software costs and variable selling costs.
+Interest income.
+In the three months ended April 3, 2026, interest income was $7.8 million, compared to $7.2 million for the three months ended April 4, 2025. In the six months ended April 3, 2026, interest income was $15.7 million, compared to $14.2 million for the six months ended April 4, 2025. The increase for the three and six months ended April 3, 2026 is primarily due to the interest income earned from the higher cash and cash equivalents and short-term investments balance prior to the settlement of the 2026 Convertible Notes.
+Provision for income taxes.
+Our income tax expense and effective income tax rates for the periods indicated were (in thousands, except percentages):
+
+Three Months Ended
+Six Months Ended
+April 3,
+2026
+April 4,
+2025
+April 3,
+2026
+April 4,
+2025
+Income tax expense (benefit)
+$
+10,592 
+$
+9,264 
+$
+11,414 
+$
+6,857 
+Effective income tax rate
+18.6 
+%
+22.6 
+%
+10.7 
+%
+(5.3)
+%
+Our estimated annual effective tax rate for the fiscal year ending October 2, 2026 is expected to be approximately 17.3%, which reflects the statutory rate adjusted for expected tax credits, primarily for R&D. This effective tax rate does not reflect the adjustment for any discrete tax matters arising during the year, such as the excess deduction related to share-based compensation. The actual effective income tax rate for the fiscal quarter ended April 3, 2026 was reduced by excess tax benefits related to share-based compensation.
+The effective income tax rate for the fiscal quarter ended April 4, 2025 was impacted by the non-deductibility of the charge for extinguishment of debt as well as excess tax benefits related to share-based compensation.
+27
+For additional information refer to
+Note 15 - Income Taxes
+ to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q.
+Liquidity and Capital Resources
+The following table summarizes our cash flow activities (in thousands):
+Six Months Ended
+April 3, 2026
+April 4, 2025
+Cash and cash equivalents, beginning of period
+$
+112,142 
+$
+146,806 
+Net cash provided by operating activities
+121,589 
+105,346 
+Net cash provided by (used in) investing activities
+73,516 
+(167,133)
+Net cash (used in) provided by financing activities
+(208,700)
+26,282 
+Foreign currency effect on cash
+(26)
+(375)
+Cash and cash equivalents, end of period
+$
+98,521 
+$
+110,926 
+Cash Flow from Operating Activities
+Our cash flow from operating activities for the six months ended April 3, 2026 of $121.6 million consisted of net income of $95.1 million, which included non-cash charges of $80.5 million, primarily related to share-based compensation expense of $44.8 million and depreciation and intangible asset amortization expense of $31.0 million and a net increase in working capital of $54.0 million. The net increase in working capital of $54.0 million was primarily driven by an increase in inventories of $14.4 million, an increase in accounts receivables of $11.0 million, an increase in prepaid expenses and other assets of $10.9 million and a decrease in accrued and other liabilities of $9.1 million.
+Our cash flow from operating activities for the six months ended April 4, 2025 of $105.3 million consisted of a net loss of $135.9 million plus adjustments of $263.1 million, to reconcile our net loss to cash provided by operating activities, less cash used in operating assets and liabilities of $21.9 million. Adjustments to reconcile our net loss to cash provided by operating activities primarily included loss on extinguishment of debt of $193.1 million, share-based compensation expense of $44.3 million and depreciation and intangible amortization expense of $30.8 million. In addition, cash used in operating assets and liabilities was $21.9 million for the six months ended April 4, 2025, primarily driven by an increase in accounts receivables of $24.7 million, an increase in inventories of $15.0 million, partially offset by an increase in accounts payable of $14.8 million.
+Cash Flow from Investing Activities
+Our cash flow provided by investing activities for the six months ended April 3, 2026 of $73.5 million consisted primarily of proceeds of $176.1 million for the sale and maturity of short-term investments, offset by purchases of $70.5 million of short-term investments, capital expenditures of $26.1 million and purchases of software licenses and licensed technology of $7.4 million.
+Our cash flow used in investing activities for the six months ended April 4, 2025 of $167.1 million consisted primarily of cash paid for acquisitions, net of cash acquired of $12.7 million, capital expenditures of $13.5 million and purchases of $320.5 million of short-term investments and other investing activities of $8.0 million, offset by proceeds of $187.6 million for the sale and maturity of short-term investments.
+Cash Flow from Financing Activities
+During the six months ended April 3, 2026, our cash used in financing activities of $208.7 million was primarily related to repayment of the 2026 Convertible Notes of $161.2 million and $51.5 million of common stock withheld associated with employee taxes on vested equity awards, partially offset by $5.2 million of proceeds from employee stock purchases.
+During the six months ended April 4, 2025, our cash provided by financing activities of $26.3 million was primarily related to $86.6 million of proceeds from 2029 Convertible Notes and $4.5 million of proceeds from employee stock purchases, partially offset by $41.3 million of common stock withheld associated with employee taxes on vested equity awards and $23.1 million of fees for the convertible note exchange and payments for debt issuance costs.
+28
+Liquidity
+As of April 3, 2026, we held $98.5 million of cash and cash equivalents, primarily deposited with financial institutions, as well as $566.3 million of liquid short-term investments. The undistributed earnings of certain foreign subsidiaries are considered indefinitely reinvested for the periods presented and we do not intend to repatriate such earnings. We believe the decision to reinvest these earnings will not have a significant impact on our liquidity. As of April 3, 2026, cash held by our indefinitely reinvested foreign subsidiaries was $8.8 million, which, along with cash generated from foreign operations, is expected to be used in the support of international growth and working capital requirements as well as the repayment of certain intercompany loans.
+On January 14, 2025, we announced the execution of a preliminary, non-binding agreement with the CHIPS Program Office (“CPO”), which could provide for proposed direct funding from the U.S. Department of Commerce under the CHIPS Act of up to $70 million. The potential direct funding arrangement and the associated definitive agreement remain under discussion with the CPO.
+We plan to use our remaining available cash and cash equivalents and short-term investments for general corporate purposes, including working capital, payment on the
+ 2029 Convertible Notes, or for the acq
+uisition of or investment in complementary technologies, design teams, products and businesses. We believe that our cash and cash equivalents, short-term investments and cash generated from operations will be sufficient to meet our working capital requirements for at least the next twelve months. We may need to raise additional capital from time to time through the issuance and sale of equity or debt securities, and there is no assurance that we will be able to do so on favorable terms or at all.
+As of April 3, 2026, we had no off-balance sheet arrangements.
+For additional information related to our Liquidity and Capital Resources, see
+Note 10 - Debt
+ to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q.
+Recent Accounting Pronouncements
+See
+Note 1 - Basis of Presentation and Summary of Significant Accounting Policies
+ to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q for information about recent accounting pronouncements.

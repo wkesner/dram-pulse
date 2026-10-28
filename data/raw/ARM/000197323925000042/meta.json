@@ -1,0 +1,28 @@
+{
+  "company": "Arm Holdings",
+  "ticker": "ARM",
+  "cik": "0001973239",
+  "form": "6-K",
+  "filing_date": "2025-11-05",
+  "accession_number": "0001973239-25-000042",
+  "primary_document": "arm-20251105.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000042/arm-20251105.htm",
+  "fiscal_year_end": "0331",
+  "report_date": "2025-11-05",
+  "period_end": "2025-11-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:30.399801+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ARM/000197323925000042/primary.html",
+    "other": "data/raw/ARM/000197323925000042/other_full.txt"
+  }
+}

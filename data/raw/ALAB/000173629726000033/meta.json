@@ -1,0 +1,34 @@
+{
+  "company": "Astera Labs",
+  "ticker": "ALAB",
+  "cik": "0001736297",
+  "form": "8-K",
+  "filing_date": "2026-08-04",
+  "accession_number": "0001736297-26-000033",
+  "primary_document": "alab-20260804.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/alab-20260804.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-04",
+  "period_end": "2026-08-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:04.504056+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "q226exhibit991.htm",
+      "path": "data/raw/ALAB/000173629726000033/exhibit_99_q226exhibit991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ALAB/000173629726000033/primary.html",
+    "other": "data/raw/ALAB/000173629726000033/other_full.txt"
+  }
+}

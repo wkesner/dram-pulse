@@ -1,0 +1,2059 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The
+
+following
+
+discussion
+
+and
+
+analysis
+
+of
+
+our
+
+financial
+
+condition
+
+and results
+
+of operations
+
+should
+
+be read in conjunction
+
+with
+
+the
+ unaudited condensed
+consolidated
+
+financial
+
+statements
+
+and
+
+related
+
+notes
+
+included
+elsewhere in this Quarterly Report on Form 10-Q and the audited consolidated financial statements and notes thereto and management’s discussion and analysis of financial condition and results of operations for the year ended December 31, 2025 included in our Annual Report on Form 10-K filed with the SEC on February 20, 2026. As discussed in the section titled “Special Note about Forward-Looking Statements,” this discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed in these forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those discussed in the section titled “Risk Factors” and included elsewhere in this Quarterly Report on Form 10-Q and Annual Report on Form 10-K filed with the SEC on February 20, 2026.
+Overview
+Our mission
+
+is
+
+to innovate,
+
+design,
+
+and deliver
+
+semiconductor-based
+
+connectivity
+
+solutions
+
+that are purpose-built
+
+to unleash
+
+the
+
+full
+
+potential
+
+of cloud
+
+and AI infrastructure.
+Building
+
+on
+
+years
+
+of
+
+experience
+
+with
+
+a
+
+singular
+
+focus
+
+on
+
+addressing
+
+connectivity
+
+challenges
+
+in data-centric systems,
+
+we
+
+have
+
+developed
+
+and
+
+deployed
+
+our
+
+Intelligent
+
+Connectivity
+
+Platform
+
+built
+
+from
+
+the
+
+ground up for
+
+cloud
+
+and AI infrastructure.
+
+Our Intelligent
+
+Connectivity
+
+Platform is
+
+comprised of semiconductor-based,
+
+high-speed,
+
+mixed-signal
+
+connectivity
+
+products
+
+that
+
+integrate
+
+a matrix
+
+of microcontrollers
+
+and sensors, and
+COSMOS, our software suite, which is embedded in our connectivity products and integrated into our customers’ systems.
+Our
+
+Intelligent Connectivity Platform provides
+
+our customers with the ability
+
+to deploy and operate high-performance
+
+cloud
+
+and
+
+AI
+
+infrastructure
+
+at
+
+scal
+e
+,
+
+addressing
+
+an
+
+increasingly
+
+diverse
+
+set
+
+of
+
+requirements. We provide
+
+our connectivity
+
+products
+
+in various
+
+form
+
+factors,
+
+including
+
+Integrated Circuits (“ICs”), boards,
+
+and modules.
+Our patented software-defined
+
+platform
+
+approach delivers
+
+critical
+
+connectivity
+
+performance,
+
+enables flexibility
+
+and
+
+customization,
+
+and supports
+
+observability
+
+and predictive
+
+analytics.
+
+This approach
+ is designed to
+efficiently address
+
+the
+
+data,
+
+network,
+
+and
+
+memory
+
+bottlenecks,
+
+scalability,
+
+and other
+
+unique
+
+infrastructure
+
+requirements
+
+of our hyperscaler
+
+and system
+
+OEM customers.
+Based
+
+on
+
+trusted
+
+relationships
+
+with
+
+the
+
+leading
+
+hyperscalers
+
+and
+
+collaboration
+
+with data
+
+center
+
+infrastructure suppliers,
+
+our
+
+platform
+
+is
+
+designed
+
+to
+
+meet our
+
+customers’
+
+unique
+
+cloud
+
+scale
+
+requirements.
+
+Our
+
+COSMOS software
+
+suite
+
+is
+
+foundational
+
+to
+
+our
+
+Intelligent Connectivity
+
+Platform
+
+and is
+
+designed
+
+to enable
+
+our customers
+
+to seamlessly
+
+configure,
+
+manage,
+
+monitor, optimize,
+
+troubleshoot,
+
+and customize
+
+functions
+
+in our IC, board,
+
+and module
+
+products.
+Today,
+
+our connectivity
+
+solutions
+
+are
+
+at
+
+the
+
+heart
+
+of major
+
+AI platforms
+
+deployed
+
+worldwide
+
+featuring
+
+both commercially
+
+available
+
+Graphic Processing Units (“GPUs”) and
+
+proprietary
+
+AI
+
+accelerators.
+ We offer our customers
+
+four
+product
+
+families
+
+across
+
+multiple
+
+form
+
+factors
+
+including
+
+ICs, boards,
+
+and module
+s, shipping millions of devices across leading hyperscalers
+.
+
+Our
+
+products,
+
+which include
+
+Aries PCIe
+®
+/CX
+L
+®
+Smart
+
+DSP Retimers,
+Aries PCIe®/CXL® Smart Cable Modules™,
+Taurus
+
+Ethernet
+
+Smart
+
+Cable
+
+Module
+s
+™
+, Leo
+
+CXL Memory Connectivity
+
+Controllers, and Scorpio Smart Fabric Switches,
+
+are
+
+built
+
+upon industry
+
+standard
+
+connectivity
+
+protocols
+
+such as Peripheral Component Interconnect Express (“PCIe”), Ethernet,
+
+and Compute Express Link (“CXL”), to address
+
+the
+
+growing demand
+
+for
+
+purpose-built
+
+connectivity
+
+solutions
+
+that solve critical
+
+data,
+
+network,
+
+and memory
+
+bottlenecks
+
+inherent
+
+in cloud
+
+and AI infrastructure.
+Since
+
+our
+
+inception,
+
+we
+
+have
+
+created
+
+and
+
+commercialized
+
+first-to-market
+
+PCIe,
+
+Ethernet,
+
+and
+
+CXL products. We have become
+
+a trusted
+
+partner
+
+and a proven
+
+supplier
+
+to our hyperscaler and
+
+system
+
+OEM
+
+customers.
+
+We have experienced
+
+strong
+
+growth since
+
+the
+
+commercial
+
+launch
+
+of
+
+Aries
+
+in
+
+2020.
+
+Our
+
+revenue
+
+grew
+
+from
+
+$34.8
+
+million
+
+in
+
+2021, $79.9
+
+million
+
+in
+
+2022,
+
+$115.8 million
+
+in
+
+2023, $396.3 million in 2024, and to $852.5 million in 2025. Our revenue was
+$308.4 million
+
+for the three months ended
+March 31, 2026, driven by a sizable increase in demand for our products.
+17
+Table of Contents
+Summary of Financial Highlights
+Our revenue was $308.4 million for the three months ended
+March 31, 2026, c
+ompared to
+
+$159.4 million for
+the same period in 2025, representing an increase of
+93% year over year.
+Gross
+
+margin
+
+increased by 136 basis points (“bps”)
+to 
+76.3%
+for
+
+the
+ three months ended
+March 31, 2026, compared to 74.9%
+
+for
+
+the same period in 2025.
+
+Operating income was $61.8 million for the three months ended
+March 31, 2026, compared to
+$11.3 million for the same period in 2025, representing an increase of 448% year over year.
+Net income was $80.3 million for the three months ended
+March 31, 2026, compared to
+$31.8 million
+  for the same period in 2025,
+representing an increase of 152%
+
+year over year.
+Results
+
+of Operations
+Comparison of the Three Months Ended March 31, 2026 and 2025
+Revenue
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+Revenue
+$
+308,361 
+$
+159,442 
+$
+148,919 
+93 
+%
+Total
+
+revenue
+
+increased
+
+$148.9 million
+,
+
+or 
+93%,
+ for
+
+the three
+ months ended
+March 31, 2026,
+compared
+
+to
+
+the same period in 2025, primarily
+
+due to an increase in overall unit shipments driven by higher demand for our
+Scorpio, Aries, and Taurus
+products, as well as higher overall average selling prices resulting from an increased mix of hardware modules
+and Scorpio products
+.
+Cost of Revenue, Gross Profit, and Gross Margin
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages and bps)
+Cost of revenue
+$
+73,220 
+$
+40,031 
+$
+33,189 
+83 
+%
+Gross profit
+235,141 
+119,411 
+115,730 
+97 
+%
+Gross margin
+76.3 
+%
+74.9 
+%
+136 bps
+Total
+
+cost
+
+of
+
+revenue
+
+increased
+
+$33.2 million
+,
+
+or 
+83%
+,
+
+for
+
+the
+ three months ended
+March 31, 2026,
+compared
+
+to
+
+the same period in 2025, primarily
+
+due to higher overall unit shipments and a favorable shift in product mix.
+Gross
+
+margin
+
+increased 136 bps
+to 
+76.3%
+for
+
+the
+ three months ended
+March 31, 2026 compared to 74.9%
+
+for
+
+the same period in 2025.
+
+The increase was primarily driven by a favorable product mix
+.
+18
+Table of Contents
+Research and Development
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+Research
+
+and development
+$
+125,634 
+$
+64,554 
+$
+61,080 
+95 
+%
+Percentage
+
+of revenue
+41 
+%
+40 
+%
+Research
+
+and
+
+development
+
+expense
+
+increased $61.1 million
+,
+
+or 
+95%
+, for
+
+the
+ three months ended
+March 31, 2026
+compared
+
+to the same period in 2025.
+
+The
+
+increase
+ was primarily due to a $29.3 million increase in overall spending to support our R&D initiatives, which includes hardware design, software license, and cloud hosting services costs, a $17.1 million
+
+increase in personnel-related costs
+ and
+$10.2 million of non-cash stock-based compensation expenses resulting from
+a 90%
+increase in
+
+headcount, and $3.1 million increase in other operating costs to support our business expansion.
+Sales
+
+and Marketing
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+Sales
+
+and marketing
+$
+21,899 
+$
+21,702 
+$
+197 
+1 
+%
+Percentage
+
+of revenue
+7 
+%
+14 
+%
+Sales
+
+and
+
+marketing
+
+expense increased by $0.2 million, or 1%, for
+
+the
+ three months ended
+March 31, 2026
+compared
+
+to the same period in 2025. The increase was primarily due to a $2.0 million increase in personnel-related costs resulting from a 55% increase in headcount and $0.3 million in other operating costs to support our business expansion, partially offset by a $2.4 million decrease in non-cash stock-based compensation expenses.
+General and Administrative
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+General
+
+and administrative
+$
+25,775 
+$
+21,870 
+$
+3,905 
+18 
+%
+Percentage
+
+of revenue
+8 
+%
+14 
+%
+General
+
+and
+
+administrative
+
+expense
+
+increased $3.9 million
+,
+
+or 
+18%
+,
+
+for the
+ three months ended
+March 31, 2026
+compared
+
+to the same period in 2025.
+
+The
+ in
+crease
+
+was primarily due to
+
+a $2.5 million increase in professional services fees associated with the continued development of our public company infrastructure, a $1.8 million increase in personnel-related costs resulting from
+a 57%
+increase in
+
+headcount, a $1.5 million increase in other operating costs to support our business expansion. The increase was partially offset by
+a
+$1.9 million de
+crease in non-cash stock-based compensation expenses.
+Interest
+
+Income
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+Interest
+
+income
+$
+11,581 
+$
+10,432 
+$
+1,149 
+11 
+%
+19
+Table of Contents
+Fo
+r
+
+th
+e
+
+three months ended
+March 31, 2026, interest income
+
+increased $1.1 million
+,
+
+o
+r 
+11%, compared to
+the same period in 2025,
+
+primaril
+y
+
+du
+e
+
+t
+o
+ higher average balances of short-term investments and cash equivalents as a result of cash flow from operations.
+Income
+
+Tax Benefit
+Three Months Ended
+March 31,
+Change
+2026
+2025
+Amount
+%
+(in thousands, except percentages)
+Income
+
+tax benefit
+$
+(6,896)
+$
+(10,102)
+$
+3,206 
+(32)
+%
+The benefit from income
+
+tax de
+creased $3.2 million
+,
+
+or 
+32%
+,
+
+for
+
+the
+ t
+hree months ended
+March 31, 2026
+compared
+
+to the same period in 2025
+,
+ primarily due to a decrease in excess tax benefits related to equity compensation.
+Non-GAAP
+
+Financial
+
+Measures
+This Quarterly Report on Form 10-Q contains certain financial measures that are not presented in accordance with generally accepted accounting principles in the United States (“GAAP”), which we use to supplement the performance measures in our condensed consolidated financial statements, which are presented in accordance with GAAP. We refer to these measures as “non-GAAP financial measures.” These non-GAAP financial measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating income, and non-GAAP net income. We use these non-GAAP financial measures for financial and operational decision-making and as a means to assist us in evaluating period-to-period comparisons. By excluding certain items that may not be indicative of our recurring core operating results, we believe that non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating income, and non-GAAP net income provide meaningful supplemental information regarding our performance. Accordingly, we believe these non-GAAP financial measures are useful to investors and others because they allow for additional information with respect to financial measures used by management in its financial and operational decision-making and they may be used by our institutional investors and the analyst community to help them analyze the health of our business. However, there are a number of limitations related to the use of non-GAAP financial measures, and these non-GAAP measures should be considered in addition to, not as a substitute for or in isolation from, our financial results prepared in accordance with GAAP. Other companies, including companies in our industry, may calculate these non-GAAP financial measures differently or not at all, which reduces their usefulness as comparative measures.
+Non-GAAP
+ Gross Profit and Non-GAAP Gross Margin
+We
+
+define
+
+non-GAAP gross profit as gross profit presented
+
+in accordance
+
+with GAAP, adjusted
+
+to
+
+exclude
+ non-cash
+stock-based
+
+compensation
+
+expenses.
+ The non-GAAP gross margin is non-GAAP gross profit divided by revenue.
+We
+
+have
+
+presented
+
+non-GAAP gross profit because
+
+we
+
+consider
+
+non-GAAP gross profit to
+
+be
+
+a
+
+useful
+
+metric
+
+for
+
+investors
+
+and other
+
+users
+
+of our financial
+
+information
+
+in evaluating
+
+our operating
+
+performance
+ as
+it
+
+excludes
+
+the
+
+impact
+
+of non-cash stock-based compensation,
+ a
+charge
+
+that
+
+can vary
+
+from
+
+period
+
+to period
+
+for
+
+reasons
+
+that
+
+are
+
+unrelated
+
+to our core operating
+
+performance.
+
+This
+
+metric
+
+also
+
+provides
+
+investors
+
+and
+
+other
+
+users
+
+of our financial
+
+information
+
+with an additional
+
+tool
+
+to
+
+eliminate
+
+the
+
+effects
+
+of items
+
+that
+
+may
+
+vary
+
+for
+
+different
+
+companies
+
+for
+
+reasons
+
+unrelated
+
+to core
+
+operating
+
+performanc
+e
+.
+20
+Table of Contents
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP gross profit and GAAP gross margin,
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measures,
+
+to non-GAAP
+ gross profit
+ and non-GAAP gross margin
+is
+
+presented
+
+below:
+Three Months Ended
+March 31,
+2026
+2025
+(in thousands, except percentages)
+GAAP gross profit
+$
+235,141 
+$
+119,411 
+Stock-based compensation expense
+499 
+(38)
+Non-GAAP gross profit
+$
+235,640 
+$
+119,373 
+GAAP gross margin
+76.3 
+%
+74.9 
+%
+Stock-based compensation expense
+0.2 
+— 
+Non-GAAP gross margin
+(1)
+76.4 
+%
+74.9 
+%
+(1) Total may not sum due to rounding.
+Non-GAAP
+
+Operating
+
+Income
+and Non-GAAP Operating Margin
+We
+
+define
+
+non-GAAP operating
+
+income
+
+as operating
+ income
+presented
+
+in accordance
+
+with GAAP, adjusted
+
+to
+
+exclude
+ non-cash
+stock-based
+
+compensation
+
+expenses and acquisition-related costs.
+ We define non-GAAP operating margin as non-GAAP operating income divided by revenue.
+We
+
+have
+
+presented
+
+non-GAAP operating
+ income and non-GAAP operating margin
+because
+
+we
+
+consider
+ them
+
+useful
+
+metrics
+
+for
+
+investors
+
+and other
+
+users
+
+of our financial
+
+information
+
+in evaluating
+
+our operating
+
+performance
+ as
+
+it
+
+excludes
+
+the
+
+impact
+
+of non-cash stock-based compensation expense and acquisition-related costs, a charge
+
+that
+
+can vary
+
+from
+
+period
+
+to period or are one time charges
+
+for
+
+reasons
+
+that
+
+are
+
+unrelated
+
+to our core operating
+
+performance.
+
+These
+
+metrics
+
+also
+
+provide
+
+investors
+
+and
+
+other
+
+users
+
+of our financial
+
+information
+
+with an additional
+
+tool
+to
+eliminate
+
+the
+
+effects
+
+of items
+
+that
+
+may
+
+vary
+
+for
+
+different
+
+companies
+
+for
+
+reasons
+
+unrelated
+
+to core
+
+operating
+
+performanc
+e
+.
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP
+
+operating income and GAAP operating margin,
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measures,
+
+to non-GAAP
+
+operating
+ income and non-GAAP operating margin is
+
+presented
+
+below:
+Three Months Ended
+March 31,
+2026
+2025
+(in
+
+thousands, except percentages)
+GAAP
+
+operating income
+$
+61,833 
+$
+11,285 
+Stock-based
+
+compensation
+
+expense
+48,913 
+42,446 
+Acquisition-related costs
+(1)
+983 
+— 
+Non-GAAP operating income
+$
+111,729 
+$
+53,731 
+GAAP
+
+operating
+ margin
+20.1 
+%
+7.1 
+%
+Stock-based
+
+compensation
+
+expense
+15.9 
+26.6 
+Acquisition-related costs
+(1)
+0.3 
+— 
+Non-GAAP operating margin
+ (2)
+36.2 
+%
+33.7 
+%
+(1) Acquisition-related costs include certain incremental expenses incurred to effect a business combination such as third-party costs: advisory, legal, accounting, valuation, and other professional fees.
+(2) Total may not sum due to rounding.
+Non-GAAP
+
+Net Income
+We monitor non-GAAP net income for planning and performance measurement purposes. We define non-GAAP net income as net income presented
+
+in accordance
+
+with GAAP on our condensed consolidated statements of operations,
+21
+Table of Contents
+excluding the impact of non-cash stock-based compensation expenses, acquisition-related costs, and the related tax impact on the adjustments. We have presented non-GAAP net income because we believe that the exclusion of these charges allows for a more relevant comparison of our results of operations to other companies in our industry and facilitates period-to-period comparisons as it eliminates the effect of certain factors unrelated to our overall operating performance.
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP
+
+net income,
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measure,
+
+to
+
+our non-GAAP
+
+net
+ income
+is
+
+presented
+
+below:
+Three Months Ended
+March 31,
+2026
+2025
+(in
+
+thousands)
+GAAP
+
+net
+ income
+$
+80,310 
+$
+31,819 
+Stock-based compensation expense
+48,913 
+42,446 
+Acquisition-related costs
+(1)
+983 
+— 
+Income tax effect
+ (2)
+(20,137)
+(14,638)
+Non-GAAP net income
+$
+110,069 
+$
+59,627 
+(1) Acquisition-related costs include certain incremental expenses incurred to effect a business combination such as third-party costs: advisory, legal, accounting, valuation, and other professional fees.
+(2) Income
+tax effect is calculated based on the tax laws in the jurisdictions in which we operate and is calculated to exclude the impact of non-cash s
+tock-based compensation expense and one-off discrete tax adjustments that are unrelated to our core operating performance. We no longer maintain valuation allowance for non-GAAP purposes due to our cumulative tax profits on a non-GAAP basis. For the three months ended March 31, 2026 and 2025, the non-GAAP tax rate was approximately 11% and 7%, respectively.
+Liquidity
+
+and Capital
+
+Resources
+Since
+
+our
+
+inception,
+
+we
+
+have
+
+financed
+
+our operations
+
+primarily
+
+through
+
+proceeds
+
+from
+equity
+issuances including net proceeds from our IPO,
+
+and
+
+cash
+
+generated
+
+from
+
+the
+
+sale
+
+of
+
+our
+
+products.
+
+As
+
+of
+
+March 31, 2026
+,
+
+our
+
+principal
+
+sources
+
+of
+
+liquidity
+
+were
+
+cash,
+
+cash
+
+equivalents,
+
+and
+
+marketable
+
+securities
+
+of
+
+$1.2 billion
+. Our
+
+principal
+
+use
+
+of cash is
+ t
+o fund our operations, invest
+
+in research
+
+and development, fund capital expenditures for production equipment, acquisitions of businesses or technologies, and to support
+
+our overall growth.
+We generated
+$74.6 million
+ in cash flow from operating activities for the three months ended
+March 31, 2026 and a retained earnings of $90.6 million as of March 31, 2026. W
+e
+
+believe
+
+that
+
+our current
+
+cash,
+
+cash equivalents,
+
+and
+
+marketable
+
+securities
+
+will
+
+be
+
+sufficient
+
+to
+
+fund
+
+our
+
+operations
+
+for
+
+at
+
+least
+
+the
+
+next
+
+12
+
+months and beyond. Our
+
+future
+
+capital
+
+requirements,
+
+however,
+
+will
+
+depend
+
+on
+
+many
+
+factor
+s
+,
+
+including
+
+our
+
+growth rate,
+
+the
+
+timing
+
+and extent
+
+of our sales
+
+and marketing
+
+and research
+
+and development
+
+expenditures, capital expenditures for production equipment,
+
+the
+
+continuing
+
+market
+
+acceptance of
+
+our
+
+product
+s
+,
+
+and
+
+the
+
+use
+
+of
+
+cash
+
+to
+
+fund
+
+potential
+
+mergers
+
+or
+
+acquisitions.
+
+In
+
+the
+
+event
+
+that
+
+additional financing
+
+is
+
+required
+
+from
+
+outside
+
+sources,
+
+we
+
+may
+
+seek
+
+to raise
+
+additional
+
+funds
+
+through
+
+equity,
+
+equity-linked arrangements,
+
+and debt.
+
+If
+
+we are
+
+unable
+
+to raise
+
+additional
+
+capital
+
+when desired
+
+and at reasonable
+
+rates, our business,
+
+results
+
+of operations,
+
+and financial
+
+condition
+
+could
+
+be adversely
+
+affected.
+Cash Flows
+The following
+
+table
+
+summarizes
+
+our cash
+
+flows
+
+for
+
+the
+
+periods
+
+presented:
+Three Months Ended
+March 31,
+2026
+2025
+Change
+(in
+
+thousands)
+Net cash provided by operating activities
+$
+74,598 
+$
+10,504 
+$
+64,094 
+Net cash used in investing activities
+$
+(94,007)
+$
+(3,940)
+$
+(90,067)
+Net cash provided by financing activities
+$
+82 
+$
+386 
+$
+(304)
+22
+Table of Contents
+Change in Cash Flows from Operating
+
+Activities
+Net cash provided by operating activities for the three
+ months ended March 31, 2026
+was $74.6 million,
+ compared to
+$10.5 million
+
+for the comparable period in 2025. The $64.1 million increase in operating cash inflows was a result of a $48.5 million increase in net income, higher non-cash charges of $12.3 million, and a favorable change of $3.3 million from changes in operating assets and liabilities. The higher non-cash charges of $12.3 million were primarily due to a $6.5 million increase in stock-based compensation expense, $2.6 million increase in depreciation and amortization, a $1.7 million increase in warrants contra revenue, and $1.3 million increase in accretion of discounts on marketable securities. The favorable change of $3.3 million in operating assets and liabilities was predominantly attributable to a $28.4 million favorable change in the prepaid expenses and other assets, and a $7.1 million favorable change in inventory. The favorable change was partially offset by (i) a $20.8 million unfavorable changes
+
+in accounts receivable due to higher product sales and the timing of customer payments, and (ii) a $11.4 million unfavorable change in accounts payables and accrued other liabilities primarily due to the timing of payments.
+Change in Cash Flows from Investing
+
+Activities
+Net cash used in investing activities for the three
+ months ended March 31, 2026
+was $94.0 million,
+ compared to
+$3.9 million for the comparable period in 2025. The $90.1 million increase in cash used in investing activities was primarily due to a $65.0 million increase associated with the acquisition of a business, a $53.7 million decrease
+
+in
+
+proceeds
+
+from
+
+sales and maturities of
+
+marketable
+
+securities, and a
+$3.0 million increase in proceeds used in purchase of property and equipment,
+partially offset by a
+$34.2 million
+
+decrease in
+purchases of
+
+marketable
+
+securities.
+Change in Cash Flows from Financing Activities
+Net cash provided by financing activities for the three
+ months ended March 31, 2026
+was $0.1 million,
+ compared to
+$0.4 million
+
+for the comparable period in 2025. The $0.3 million decrease in cash provided by financing activities was primarily due to a decrease related to proceeds received from exercises of stock options.
+Material Cash Requirements
+Operating
+
+lease
+
+commitments.
+
+Our
+
+operating
+
+lease
+
+commitments
+
+primarily
+
+include
+
+corporate
+
+offices.
+
+For an additional discussion of our operating lease commitments,
+s
+ee Note 7 - Leases in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Purchase
+
+commitments.
+
+Our
+
+purchase
+
+commitments
+
+are
+
+primarily
+
+related
+
+to software
+
+licenses, cloud hosting services, or performance of certain services.
+For an additional discussion of our purchase commitments,
+s
+ee Note 8 in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+For an additional discussion of our Material Cash Requirements, s
+ee Note 8 - Commitments and Contingencies in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Indemnification
+
+Agreements
+See Note 8 - Commitments and Contingencies in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Critical
+
+Accounting Estimates
+Our unaudited condensed consolidated financial statements and the related notes thereto included elsewhere in this Quarterly Report on Form 10-Q are prepared in accordance with GAAP. The preparation of unaudited condensed consolidated financial statements in accordance with GAAP requires us to make certain estimates, judgments, and assumptions that affect the reported amounts of assets and liabilities and the related disclosures as of the date of the financial statements, as well as the reported amounts of revenue and expenses during the period presented. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances. Actual results could differ significantly from our estimates. To the extent that there are differences between our estimates and actual
+23
+Table of Contents
+results, our future financial statement presentation, financial condition, results of operations, and cash flows could be affected.
+There have been no material changes to our critical accounting policies and estimates as described in our
+Annual Report on Form 10-K for the year ended December 31, 2025
+.
+Recent Accounting Pronouncements
+For
+
+more
+
+information,
+
+see
+
+Note
+
+1 -
+ Nature of Business and Summary of Significant Accounting Policies
+
+in the notes
+to the
+ unaudited condensed c
+onsolidated
+ f
+inancial
+ s
+tatements
+set forth in Part I, Item 1 of
+ this Quarterly Report on Form 10-Q.

@@ -24,5 +24,7 @@
     "risk_factors": "data/raw/SNDK/000202355425000034/item1a_risk_factors.txt",
     "mdna": "data/raw/SNDK/000202355425000034/item7_mdna.txt",
     "other": "data/raw/SNDK/000202355425000034/other_full.txt"
-  }
+  },
+  "period_end": "2025-06-27",
+  "report_date": "2025-06-27"
 }

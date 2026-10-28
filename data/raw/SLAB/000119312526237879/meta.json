@@ -1,0 +1,28 @@
+{
+  "company": "Silicon Labs",
+  "ticker": "SLAB",
+  "cik": "0001038074",
+  "form": "8-K",
+  "filing_date": "2026-05-26",
+  "accession_number": "0001193125-26-237879",
+  "primary_document": "d467226d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1038074/000119312526237879/d467226d8k.htm",
+  "fiscal_year_end": "0102",
+  "report_date": "2026-05-22",
+  "period_end": "2026-05-22",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:46.513660+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SLAB/000119312526237879/primary.html",
+    "other": "data/raw/SLAB/000119312526237879/other_full.txt"
+  }
+}

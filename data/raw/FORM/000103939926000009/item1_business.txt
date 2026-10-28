@@ -1,0 +1,184 @@
+Item 1:    
+Business
+General
+FormFactor, Inc. is a leading provider of electrical and optical test and measurement technologies along the full semiconductor product lifecycle - from characterization, modeling, reliability, and design de-bug, to qualification and production test. We provide a broad range of high-performance probe cards, analytical probes, probe stations, thermal systems, and cryogenic systems to both semiconductor companies and scientific institutions. Our products provide electrical and optical information from a variety of semiconductor and electro-optical devices and integrated circuits from early research, through development, to high-volume production. Customers use our products and services to accelerate profitability by optimizing device performance, reducing scrap, and improving yields.
+Founded in 1993, we introduced our first product in 1995. From time to time, we have acquired businesses to help transform our business into a semiconductor test and measurement market leader with greater scale, diversification, breadth and market opportunities from Lab to Fab. We continue to evaluate opportunities to acquire businesses and technologies to further these goals.
+As of December 27, 2025, we operate in two reportable segments consisting of the Probe Cards segment and the Systems segment. Sales of our probe cards and analytical probes are included in the Probe Cards segment, while sales of our probe stations, thermal systems and cryogenic systems are included in the Systems segment.
+Products
+We design, manufacture and sell multiple product lines, including probe cards, analytical probes, probe stations, thermal systems, cryogenic systems, and related services.
+Probe Cards.
+ Our probe cards utilize a variety of technologies and product architectures, including micro-electromechanical systems (MEMS) technologies. We use advanced design and automation technologies to enable rapid and cost-effective manufacturing of resilient composite contact elements with characteristic length scales of a few microns. These contact elements are designed to provide a specific range of forces on and across a chip’s bond pad, solder bump, micro-bump, through-silicon-via (TSV), or copper pillar, during the test process, and maintain their shape and position over a range of compression levels. In addition, while maintaining these mechanical characteristics, the contact elements must achieve reliable and high-fidelity electrical contact through wafer surfaces that are generally oxidized or otherwise contaminated, and must maintain these attributes over hundreds of thousands, and even millions, of compression cycles. Our range of capabilities enable us to rapidly produce customer-design specific probe cards that deliver leading precision, quality, reliability, and electro-mechanical performance.
+Our probe cards are customized to our customers’ unique wafer and chip designs by modifying and adapting our standard product architectures to meet each customer’s specific wafer layouts, chip layouts, and electrical test requirements. We offer probe cards to test a wide range of semiconductor device types, including logic system-on-chip (SoC) devices such as high-performance computing chips (graphics processing units, central processing units, digital processing units, and other custom application-specific processing units); consumer devices (mobile application processors, microprocessors, and microcontrollers); network devices such as switches and network processing units; dynamic random-access memory (DRAM), including high-bandwidth memory (HBM); radio-frequency amplifiers and filters; antenna-in-package devices; analog and mixed-signal integrated circuits; image sensors; co-packaged optical integrated circuits (ICs); NAND flash memory; NOR flash memory; and quantum computing processors.
+For many advanced applications, our products must maintain tens of thousands, and sometimes even hundreds of thousands, of simultaneous high-fidelity low-impedance electrical contacts with the corresponding chip contacts on the wafer. Our present technologies enable probe cards with over 150,000 contact elements with spacings as small as 40 microns over geometries as large as an entire 300mm wafer. In addition, for high signal-fidelity devices such as wireless radio frequency transceivers and automotive radar chips, our probe card technologies are capable of testing at millimeter-wave frequencies currently exceeding 80 GHz.
+We have invested, and intend to continue to invest, considerable resources in proprietary probe card design tools and processes. These tools and processes are intended to enable the rapid and accurate customization of products required to meet customer requirements, including automated routing and trace length adjustment within our probe cards, to rapidly design complex structures.
+5
+In addition, some of our customers test certain chips over a large range of operating temperatures, such as for automotive and cryogenic applications. We design probe cards to provide for a precise match with the thermal expansion characteristics of the wafer under test across the range of test operating temperatures. For many of our products, our customers can use the same probe card for both low and high temperature testing. We also design probe cards for customers that require extreme positional accuracy at a specific temperature.
+Through ongoing investments in both our technology and operations, we continue to innovate and improve so that our products will meet customers’ future technical roadmap performance, quality, and commercial requirements. We also focus on leveraging these ongoing investments across all advanced probe card markets to realize synergies and economies of scale to benefit our competitiveness, time-to-market and overall profitability.
+Analytical Probes.
+ We offer over 50 different analytical probe models for engineering and production testing. Analytical probes are used for a diverse set of applications, including device characterization, electrical simulation model development, failure analysis, and prototype design debugging. Our customers for analytical probes include universities, research institutions, semiconductor integrated device manufacturers, semiconductor foundries, and fabless semiconductor companies. We continue to add new models of analytical probes that address measurements with increasing measurement complexity and at higher frequencies.
+Probe Stations.
+ Probe stations, also referred to as probe systems, are a critical tool for the development of new generations of semiconductor and electro-optical processes and designs. Probe stations are highly configurable for the required measurements, the size and type of wafer under test, the characteristics of the device design to be tested, and the temperatures at which testing is to be performed. Process development and design complexities have continually increased with each new generation of semiconductor technology to accommodate smaller design geometries, complex 3-D architectures, new materials and more layers. Probe systems are a fundamental tool for characterizing and verifying electrical performance and reliability to enable new semiconductor technologies. We design our probe systems for semiconductor development engineers to capture and analyze more accurate data in a shorter amount of time and to be able to control and manage testing at temperatures from near absolute zero to hundreds of degrees centigrade.
+We build upon our probe stations to create integrated measurement systems that provide complete solutions for our customers’ complex measurement requirements. These systems include test instrumentation, probe, cabling configurations, and software to enable fast, accurate, on-wafer data collection for complex application and measurement needs. We offer pre-configured and customized measurement systems for production testing, power device characterization, vacuum probing, cryogenic probing, high-pressure probing, photonics testing, and a variety of other specialized applications.
+We are collaborating with certain customers to transition from the lab to the fab with co-packaged optics, which is poised to revolutionize chip-to-chip communication in the data center by significantly reducing power consumption at high data rates. As silicon photonics matures and moves to high-volume-production in the coming years, we expect that our leadership positions in combined electrical and optical test may provide new growth.
+Thermal Subsystems.
+ Our thermal subsystems include thermal chucks and other test systems used in probe stations and other applications where precise temperature management is required. Thermal chuck systems enable the testing of devices at precise temperatures or across a range of temperatures. These systems are both marketed externally and allow for vertical integration with our probe stations.
+Cryogenic Systems.
+ Our cryogenic systems include the manufacture of precision cryogenic instruments and semiconductor test and measurement systems. These include advanced cryogenic probe systems to test complete wafers or singulated die, as well as dilution refrigerator cryostats used in various applications at temperatures close to absolute zero, including quantum and superconducting computing applications, astronomy, and other situations where cryogenic temperature management is required. These systems are marketed externally and designed to enable vertical integration with our existing cryogenic wafer and chip probe stations and cryogenic probes.
+Services and Support.
+ In addition to routine installation services at the time of sale, we offer services to enable our customers to maintain and more effectively utilize our products and to enhance our customer relationships. Our applications engineers assist our customers in test methodologies to make advanced measurements during process and product development, and during mass production, along with offering traditional maintenance services.
+Customers
+Our customers include companies, universities and institutions that design and develop or manufacture semiconductor and semiconductor related products in the foundry & logic, DRAM, flash, display, sensor and quantum computer markets. Our
+6
+customers use our products to test nearly all semiconductor device types, including SoC devices such as high-performance computing chips (graphics processing units, central processing units, digital processing units, and other custom application-specific processing units); consumer devices (mobile application processors, microprocessors, and microcontrollers); network devices such as switches and network processing units; DRAM, including HBM; radio-frequency amplifiers and filters; antenna-in-package devices; analog and mixed-signal integrated circuits; image sensors; co-packaged optical ICs; NAND flash memory; NOR flash memory; and quantum computing processors.
+Fabless semiconductor suppliers do not manufacture their own semiconductors, but they purchase our analytical probes, probe stations, and other System segment products for research and development, and device characterization. They also purchase, or direct their foundries or wafer test facilities to purchase, our probe cards to test wafers manufactured for them.
+We consider timely service and support to be an important aspect of our relationship as our products are critical elements of high-volume manufacturing and design-specific product ramps. Our probe stations are installed at customer sites either by us, our manufacturers’ representatives or our distributors, depending on the complexity of the installation and the customer’s geographic location. We assist our customers in the selection, integration and use of our products through application engineering support. We also provide worldwide on-site probe card maintenance and service training, seminars and telephone support. In certain geographic regions, and for selected products, our manufacturers’ representatives and distributors provide additional service and support.
+Information concerning revenue concentration by customer appears under Note 2 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K. The following customers represented 10% or more of our quarterly revenues for the quarters indicated:
+Fiscal Quarters Ended
+Dec 27,
+2025
+Sep 27,
+2025
+Jun 28,
+2025
+Mar 29,
+2025
+Dec 28,
+2024
+Sep 28,
+2024
+Jun 29,
+2024
+Mar 30,
+2024
+SK hynix Inc.
+19.2 
+%
+24.5 
+%
+25.0 
+%
+23.3 
+%
+22.0 
+%
+18.1 
+%
+19.5 
+%
+15.5 
+%
+Intel Corporation
+*
+*
+12.4 
+%
+12.0 
+%
+*
+17.1 
+%
+16.7 
+%
+15.7 
+%
+Taiwan Semiconductor Manufacturing Company Ltd.
+*
+*
+10.4 
+%
+*
+*
+*
+*
+*
+Samsung Electronics Co., Ltd.
+*
+*
+*
+*
+*
+*
+*
+12.4 
+%
+19.2 
+%
+24.5 
+%
+47.8 
+%
+35.3 
+%
+22.0 
+%
+35.2 
+%
+36.2 
+%
+43.6 
+%
+*
+ Less than 10% of revenues.
+Manufacturing
+Our probe cards are designed for each of our customers' unique chip design, by modifying and adapting our product architectures to meet an individual customer’s chip layout and test requirements. The manufacturing process includes a complex interconnection system-level design process; a front-end process, which may include wire bonding, photolithography, plating and metallurgical processes, dry and electro-deposition, and pick and place assembly; and a back-end process, which includes general assembly and test. Critical steps in our manufacturing process are performed in a variety of clean room environments up to ISO Class 5 (Class 100), depending on the requirements of the specific manufacturing processes.
+Our probe stations are designed to provide highly accurate electrical and optical measurements enabled by precise and reliable mechanical components and assemblies. We prototype and perform robust testing of our product designs and components to ensure high electrical signal integrity, mechanical accuracy and safety. We also monitor our product quality throughout the various stages of our manufacturing processes using a variety of process control methods and tests.
+We depend on suppliers for materials and some critical components of our manufacturing processes, including ceramic and organic substrates and complex printed circuit boards. We also rely on suppliers to provide certain contact elements and interconnects that are incorporated into our products. Some of these components and materials are supplied by a single vendor, and some are subject to certain minimum order quantities. Generally, we rely on purchase orders rather than long-term contracts with our suppliers, which subjects us to risks, including price increases, manufacturing capacity constraints and component shortages. We regularly assess and evaluate alternative sources of supply for all components and materials.
+Our primary manufacturing facilities for probe cards and analytical probes are located in Livermore, California and Beaverton, Oregon, United States. Our current manufacturing operations in Carlsbad and Baldwin Park, California are consolidating to other sites, which we expect to be largely completed by the end of fiscal 2026. We also have smaller manufacturing operations
+7
+in Yokohama, Japan. We have acquired a new manufacturing facility in Farmers Branch, Texas that is currently in the build‑out phase and is expected to support probe card production beginning in late fiscal 2026.
+Our primary manufacturing facilities for probe stations, thermal systems, and cryogenic systems are located in Boulder, Colorado, United States, and in Thiendorf, Munich and Karlsruhe, Germany.
+We maintain repair and service capabilities in Livermore, Carlsbad, and Baldwin Park, California and Beaverton, Oregon, United States; Thiendorf, Dresden and Munich Germany; Bundang, South Korea; Yokohama, Japan; Hsinchu, Taiwan; and Singapore. As noted above, our repair and service capabilities in Carlsbad and Baldwin Park, California are consolidating to other sites, which we expect to be largely completed by the end of fiscal 2026, subject to execution and operational considerations.
+Research, Development and Engineering
+The semiconductor industry is subject to rapid technological change with a continuous stream of new product introductions and technology enhancements. We believe that our continued commitment to research and development and our timely introduction of new and enhanced products and technologies are integral to maintaining and enhancing our competitive position. We allocate significant resources to these efforts and prioritize those resources to prepare for our customers’ next generation electrical test and measurement challenges. We also increasingly seek to deploy our resources to solve fundamental challenges that are both common to, and provide competitive advantage across, our probe card and system product offerings and roadmaps.
+Sales and Marketing
+We sell our products worldwide through a global direct sales force and through a combination of manufacturers’ representatives and distributors.
+Our direct sales and marketing staff is located in the United States, France, Germany, Italy, United Kingdom, Japan, Singapore, South Korea, and Taiwan. They work closely with customers to understand their businesses, anticipate trends and define products that will provide significant technical and economic advantages to our customers. We employ a highly skilled team of application and customer support engineers that support our customers as they integrate our products into their research, development and manufacturing processes. Through these customer relationships, we seek to develop a strong understanding of customer and product requirements to align our capabilities with our customers’ roadmaps and production ramps.
+We also have a network of representatives and distributors across the globe to broaden our reach. We engage sales representatives to act as independent third parties to promote our products, at our prices and on terms set by us, in return for a commission based on sales. We typically use sales representatives in areas that we believe require greater levels of customer support than we can deliver from our own sales offices and where local language capabilities can offer an advantage. Our distributors purchase our products and resell them at prices and upon terms set by the particular distributor. We typically use distributors in particular geographies due to local regulations or business customs.
+Governmental Regulations
+We are subject to international, federal, state and local regulations that are customary to businesses in our industry. These regulations relate to, among other things, environmental matters, anti-corruption, marketing, fraud and abuse, trade, employment, and privacy.
+Environmental Matters
+We are subject to U.S. federal, state, local, and foreign governmental laws and regulations relating to the protection of the environment, including those governing the discharge of pollutants into the air and water, the management and disposal of hazardous substances and wastes, the clean-up of contaminated sites and the maintenance of a safe workplace. We believe that we comply in all material respects with the environmental laws and regulations that apply to us as of December 27, 2025. There are no matters pending that we currently believe are reasonably likely to have a material impact to our business, consolidated financial condition, results of operations or cash flows. We have received, and may receive in the future, notices of violations of environmental regulations, or otherwise learn of such violations. Environmental contamination or violations may negatively impact our business.
+Import and Export Control
+We manufacture, market and sell our products both inside an
+d outside the U.S. Certain products are subject to export control regulations. Failure to comply with these laws could result in sanctions by the U.S. or other governments, including substantial monetary penalties, denial of import, export or other privileges, and debarment from government contracts. For example,
+8
+approximately 7% of our fiscal 2025 revenue and 14% of our fiscal 2024 revenue was derived from sales to customers in China, which was one of the regions subject to the expanded export license requirements imposed by the United States government.
+Competition
+The markets for our products are highly competitive, and we anticipate that these markets will continually evolve and be subject to rapid technological change. Our current and potential competitors are as below:
+Probe Cards.
+ The probe card market is comprised of many domestic and foreign companies, and has historically been fragmented with many local suppliers servicing individual customers in often differentiated applications. Our primary competitors are Japan Electronic Materials Corporation, Korea Instrument Co., Ltd., Micronics Japan Co., Ltd., MPI Corporation, STAr Technologies, Inc., Max One, Technoprobe S.p.A, TSE Co., Ltd., among others.
+Probe card vendors such as Japan Electronic Materials Corporation, Micronics Japan Co., and Technoprobe offer probe cards built using similar types of MEMS technology as we do. The high capital investment and other costs associated with the development of MEMS probe cards and the time and high cost of the customer evaluation process represent significant barriers to entry for this type of technology.
+We believe that the primary competitive factors in the production probe card market depend upon the type of integrated circuit being tested. These factors include customer service, knowledge of measurement techniques, custom design success, delivery time, price, probe card lifetime, chip damage prevention, probe tip touch-down accuracy, electrical signal speed and current carrying capability, number of chips contacted in parallel, number of probe tips and their layout and pitch, signal integrity, and the frequency and effectiveness of any required cleaning. As a result of our relative strengths in these areas, we believe that we compete favorably in the advanced probe card market, and in probe cards for parallel testing of chips with densely-packed bond pads, bumps or pillars, and in high signal integrity testing of wireless radio frequency devices that operate up to millimeter-wave frequencies, a capability needed for components used in 5G applications. We believe that this high-frequency capability also enables us to compete favorably in HBM testing, which is a stack of eight, twelve, or even sixteen individual DRAM die assembled with advanced packaging processes like through-silicon-vias and thermo-compression bonding.
+Analytical Probes.
+ Our primary competitors in the analytical probe market are GGB Industries Inc. and MPI Corporation. We believe that the primary competitive factors in this market are breadth of probe types, probe frequency and electrical signal integrity, contact integrity and the related cleaning required, knowledge of measurement techniques, calibration support, delivery time and price. We believe that we compete favorably with respect to these factors.
+Probe Stations.
+ Our primary competitors in the probe station market are MPI Corporation, Shenzhen Senmeixieer Technology Co., Ltd (“Semishare”), STAr Technologies, Inc., Tokyo Electron Limited (“TEL”), and Wentworth Laboratories, Inc. We believe that the primary competitive factors in the probe station market are measurement accuracy and versatility at temperature, including cryogenic temperatures, measurement speed, automation features, knowledge of measurement techniques, completeness of the measurement solutions, delivery time and price. We believe that we compete favorably with respect to these factors.
+Thermal Subsystems.
+In the market for thermal subsystems, we compete principally against AEM Singapore Pte., ERS Electronic GmbH, and Temptronic Corporation. In addition, many of our probe station competitors develop and produce their own thermal subsystems for use in their products. We believe the primary competitive factors in this market are thermal performance, reliability, flexibility and completeness of product offerings. We believe that we compete favorably with respect to these factors.
+Cryogenic Systems.
+ In the market for cryogenic systems, we compete principally against Bluefors Oy, Lake Shore Cryotronics, Inc, Maybell Quantum Industries Inc., Montana Instruments, and Quantum Design. We believe the primary competitive factors in this market are cryogenic performance, reliability, throughput and application expertise. We believe we compete favorably with respect to these factors.
+Some of our competitors are also suppliers of other types of test and measurement equipment or other semiconductor equipment and may have greater financial and other resources than we do. Our competitors may enhance their current products and may introduce new products that will be competitive with ours. New alternatives to our products may also be introduced, by our current competitors or others, which may reduce the value of one or more of our products.
+Semiconductor manufacturers may implement chip designs that include capabilities or use other methodologies that increase test throughput and reduce test content. This may reduce or eliminate some or all of our current products’ advantages. Semiconductor manufacturers may also increase their use of test strategies that include low performance semiconductor testers,
+9
+less complex probe cards, or test procedures that do not involve our products. Our ability to compete favorably may also be adversely affected by the long-standing relationships between our competitors and certain semiconductor manufacturers.
+Intellectual Property
+Our success depends in part upon our ability to continue to innovate and invest in research and development to meet the test and measurement requirements of our customers, to maintain and protect our proprietary technology, and to conduct our business without infringing on the proprietary rights of others. We rely on a combination of patents, trade secrets, trademarks and contractual restrictions on disclosure to protect our intellectual property rights. We have filed actions to enforce those rights against third parties in the past, and may pursue such actions in the future.
+We have generated, and continue to generate and maintain, patents and other intellectual property rights covering innovations that are intended to create a competitive advantage, and to support the protection of our investments in research and development. We believe that we possess one of the most substantial patent portfolios relevant to our products.
+Although we believe that our patents and other intellectual property rights have significant value for each of our segments, we do not believe that maintaining or growing our business is materially dependent on any single patent. Due to the rapid pace of innovation within the markets that we serve, it is possible that our protection through patents may be less important than factors such as our technological expertise, continuing development of new products and technologies, protection of trade secrets, market penetration, customer relationships, and our ability to provide comprehensive support and service to customers worldwide.
+No assurance can be given that patents will not be challenged, invalidated or circumvented, or that the rights granted thereunder will provide us with a sustained competitive advantage. In addition, there can be no assurance that we will be able to protect our technology, or that competitors will not be able to independently develop similar or functionally competitive technologies, design around our patents, or attempt to manufacture and sell infringing products in countries that do not strongly enforce intellectual property rights.
+Our People
+We are committed to a set of core values that define our company culture, represent what we believe, and guide our actions. We cultivate our culture through our people development programs that enhance talent acquisition, retention, and employee engagement. These initiatives include thoughtfully designed compensation programs across all levels, learning and development opportunities, diversity and inclusion programs, and various other initiatives.
+Our compensation programs help attract and retain key talent and are designed for our employees to share in our company’s success. These programs focus on compensation that we believe is market-competitive, reflects company performance, and aligns with drivers of stockholder value with differentiation based on performance, role, geographic location, and tenure. We use information from outside compensation and benefits consulting firms to evaluate the competitiveness of the rewards we offer to employees, and to evaluate the structure of our compensation and benefit programs, as a benchmark against our peers within the industry.
+We offer a variety of benefits such as health insurance, paid and unpaid leaves, retirement, and life and disability/accident coverage as applicable to their geographic location. We also offer a variety of other benefits which allow employees to select the options which meet their needs, such as wellness, insurance, and professional services.
+Our learning and development initiatives promote the continuous improvement of our workforce to keep pace with an increasingly complex business and industry and are designed to foster skills development and compliance and promote our company values. In addition to formal training, the capabilities of our workforce are intended to grow through structured feedback, mentorship, team building, career progression, tuition assistance, and a culture of transparency.
+We leverage both formal and informal programs to identify, reward, and retain top talent. On an annual basis, we conduct a talent review process with our Chief Executive Officer and leaders of our business units and functions that is focused on performance, potential, and succession for critical roles.
+We are continuing to build and sustain a culture of diversity and inclusion where our people can be their authentic selves and are encouraged to reach their full potential. As a global technology company, we believe that a diverse employee population makes FormFactor stronger, more innovative, and a more engaging place to work. We are always striving to attract talented individuals from a global candidate pool.
+10
+We are committed to providing a safe and healthy workplace for all employees. Our workplace health and safety programs include policies, procedures, training programs, and self-audits. Nearly all of our manufacturing employees are located in California, Oregon and Germany, where workplace safety and labor regulations support maintaining high standards of employee protection.
+For our manufacturing activities, the speed at which we can recruit, train and deploy skilled new and replacement personnel is an important part of our ability to ramp up and maintain our production capacity. We rely upon both employees and resources from staffing firms to meet our manufacturing labor needs. Similarly, it is important to our business that we are able to regularly recruit and train engineering staff. For example, our probe card products require that we develop custom designs for our customers’ new product designs. We face strong competition from companies in a variety of technology fields to secure the engineering talent that we require.
+As of December 27, 2025, we had 2,153 regular full-time employees, including 1,298 in operations, 422 in research and development, 235 in sales and marketing and 198 in general and administrative functions. By region, 1,553 of our employees were in North America, 325 in Asia, and 275 in Europe. As of December 27, 2025, our Probe Cards Segment had 1,579 regular full-time employees, our Systems Segment had 377 regular full-time employees, plus we had 197 regular full-time employees in corporate functions.
+Available Information
+We maintain a website at
+http://www.formfactor.com
+. We make available free of charge on our website our Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Exchange Act, as soon as reasonably practicable after we electronically file such material with, or furnish it to, the United State Securities and Exchange Commission, or SEC.
+We also use the investor relations page on our website as a channel of distribution for important company information. Important information, including press releases, analyst presentations and financial information regarding us, as well as corporate governance information, is routinely posted and accessible on the investor relations page on our website. We encourage investors, the media and others interested in FormFactor to review the information we make public in these locations, as such information could be deemed to be material information. Information on or that can be accessed through our website is not part of this Annual Report on Form 10-K, any other report or document we file with the SEC, and the inclusion of our website address is an inactive textual reference only.

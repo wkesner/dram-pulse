@@ -3,6 +3,12 @@
 # Topic groups — first match in this order wins for the `topic` column.
 topics:
   availability:
+    - component shortages
+    - component shortage
+    - supply shortages
+    - supply shortage
+    - industry shortages
+    - industry allocations
     - supply availability
     - supply continuity
     - supply commitments
@@ -55,6 +61,19 @@ topics:
 # qualifies a passage as a signal.
 direction:
   tightening:
+    - fully subscribed
+    - fully-subscribed
+    - nearly fully-subscribed
+    - has largely sold out
+    - largely sold out
+    - component shortages
+    - component shortage
+    - supply shortages
+    - semiconductor shortages
+    - shortages of semiconductors
+    - claim the supply
+    - longer lead times
+    - multi-year lead times
     - exceeds supply
     - extended lead times
     - extended lead time

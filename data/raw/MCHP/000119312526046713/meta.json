@@ -1,0 +1,39 @@
+{
+  "company": "Microchip",
+  "ticker": "MCHP",
+  "cik": "0000827054",
+  "form": "8-K",
+  "filing_date": "2026-02-11",
+  "accession_number": "0001193125-26-046713",
+  "primary_document": "d18435d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.03,3.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/827054/000119312526046713/d18435d8k.htm",
+  "fiscal_year_end": "0331",
+  "report_date": "2026-02-09",
+  "period_end": "2026-02-09",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:21.913345+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d18435dex991.htm",
+      "path": "data/raw/MCHP/000119312526046713/exhibit_99_d18435dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/827054/000119312526046713/d18435dex991.htm"
+    },
+    {
+      "name": "d18435dex992.htm",
+      "path": "data/raw/MCHP/000119312526046713/exhibit_99_d18435dex992.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/827054/000119312526046713/d18435dex992.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/MCHP/000119312526046713/primary.html",
+    "other": "data/raw/MCHP/000119312526046713/other_full.txt"
+  }
+}

@@ -1,0 +1,168 @@
+batch: sic_batch1
+dry_run_only_source: config/sic_candidates.yaml
+selection_rule: Bounded high-value subset (~32) from SIC 3570–3679 dry-run candidates, prioritizing memory
+  IP/controllers, foundry/OSAT, fab ecosystem names still in 367x, and AI compute/interconnect demand
+  drivers. Excludes WFE names not in the dry-run (LRCX/KLAC/ASML often SIC 3559) and non-semi power/fuel-cell
+  noise.
+count: 32
+tickers:
+- ticker: RMBS
+  name: Rambus
+  role: supplier
+  why: Memory interface IP; HBM/DDR attach
+- ticker: SIMO
+  name: Silicon Motion
+  role: supplier
+  why: 'NAND flash controllers (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: MXL
+  name: MaxLinear
+  role: supplier
+  why: Connectivity/signal-chain; datacenter adjacency
+- ticker: TSM
+  name: TSMC
+  role: supplier
+  why: 'Leading foundry; HBM & advanced packaging capacity (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: GFS
+  name: GlobalFoundries
+  role: supplier
+  why: 'Specialty foundry capacity (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: TSEM
+  name: Tower Semiconductor
+  role: supplier
+  why: 'Specialty analog/foundry (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: UMC
+  name: UMC
+  role: supplier
+  why: 'Foundry capacity (ADR) (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: ASX
+  name: ASE Technology
+  role: supplier
+  why: 'OSAT / advanced packaging (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: IMOS
+  name: ChipMOS
+  role: supplier
+  why: 'Memory packaging & test (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: AMAT
+  name: Applied Materials
+  role: supplier
+  why: Wafer-fab equipment; memory capex proxy
+- ticker: FORM
+  name: FormFactor
+  role: supplier
+  why: Probe cards / test for advanced nodes & memory
+- ticker: UCTT
+  name: Ultra Clean Holdings
+  role: supplier
+  why: Fab process subsystems / contamination control
+- ticker: PLAB
+  name: Photronics
+  role: supplier
+  why: Photomasks; node transition demand
+- ticker: ARM
+  name: Arm Holdings
+  role: supplier
+  why: 'CPU IP in AI/server SoCs (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: MRVL
+  name: Marvell
+  role: buyer
+  why: DPUs/custom ASICs; HBM attach commentary
+- ticker: ALAB
+  name: Astera Labs
+  role: supplier
+  why: AI connectivity / memory extensibility
+- ticker: CRDO
+  name: Credo
+  role: supplier
+  why: High-speed connectivity for AI clusters
+- ticker: ANET
+  name: Arista Networks
+  role: buyer
+  why: AI datacenter networking
+- ticker: APH
+  name: Amphenol
+  role: supplier
+  why: Interconnects for servers/AI racks
+- ticker: AMBA
+  name: Ambarella
+  role: supplier
+  why: Edge AI silicon
+- ticker: ADI
+  name: Analog Devices
+  role: supplier
+  why: Signal chain; industrial/auto silicon cycles
+- ticker: NXPI
+  name: NXP
+  role: supplier
+  why: Auto/edge semis; DRAM attach historically
+- ticker: TXN
+  name: Texas Instruments
+  role: supplier
+  why: Analog; channel inventory & capacity cycles
+- ticker: MCHP
+  name: Microchip
+  role: supplier
+  why: MCU; channel inventory cycles
+- ticker: 'ON'
+  name: onsemi
+  role: supplier
+  why: Power/sensing; capacity & inventory cycles
+  note: YAML ticker quoted as "ON"
+- ticker: MPWR
+  name: Monolithic Power
+  role: supplier
+  why: Power ICs for AI servers
+- ticker: STM
+  name: STMicroelectronics
+  role: supplier
+  why: 'Broad semi; auto/industrial memory attach (foreign issuer: 20-F/6-K)'
+  forms:
+  - 20-F
+  - 6-K
+- ticker: LSCC
+  name: Lattice
+  role: supplier
+  why: FPGA; supply/lead-time language
+- ticker: SLAB
+  name: Silicon Labs
+  role: supplier
+  why: IoT/connectivity silicon
+- ticker: SMTC
+  name: Semtech
+  role: supplier
+  why: Analog/IoT; LoRa + circuit protection
+- ticker: MTSI
+  name: MACOM
+  role: supplier
+  why: RF/optical for datacenter interconnect
+- ticker: CRUS
+  name: Cirrus Logic
+  role: supplier
+  why: Audio/edge silicon; US 10-K filer replacing IFNNY (no recent EDGAR forms under IFNNY)
+notes:
+- Foreign ADRs/issuers use forms 20-F + 6-K (default 10-K/10-Q/8-K yields 0 filings).
+- IFNNY dropped (empty recent EDGAR forms); replaced with CRUS.
+- onsemi ticker must be YAML-quoted as "ON" (bare ON parses as boolean).

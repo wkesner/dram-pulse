@@ -24,5 +24,7 @@
     "risk_factors": "data/raw/GOOGL/000165204425000014/item1a_risk_factors.txt",
     "mdna": "data/raw/GOOGL/000165204425000014/item7_mdna.txt",
     "other": "data/raw/GOOGL/000165204425000014/other_full.txt"
-  }
+  },
+  "period_end": "2024-12-31",
+  "report_date": "2024-12-31"
 }

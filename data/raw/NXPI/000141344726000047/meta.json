@@ -1,0 +1,28 @@
+{
+  "company": "NXP",
+  "ticker": "NXPI",
+  "cik": "0001413447",
+  "form": "8-K",
+  "filing_date": "2026-08-28",
+  "accession_number": "0001413447-26-000047",
+  "primary_document": "nxpi-20260828.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000047/nxpi-20260828.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-28",
+  "period_end": "2026-08-28",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:02.104158+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/NXPI/000141344726000047/primary.html",
+    "other": "data/raw/NXPI/000141344726000047/other_full.txt"
+  }
+}
