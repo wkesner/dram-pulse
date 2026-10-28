@@ -137,6 +137,33 @@ def test_post_vote_rejects_invalid_vote_value(client: TestClient):
     assert resp.status_code == 422
 
 
+def test_skip_persists_and_does_not_tally(client: TestClient, data_dir: Path):
+    """vote=0 is Skip: stored for the profile, ignored in 👍/👎 tallies."""
+    signals = client.get("/api/signals").json()
+    sid = signals[0]["signal_id"]
+
+    r = client.post("/api/votes", json={"signal_id": sid, "user": "Dana", "vote": 0})
+    assert r.status_code == 200
+    assert r.json()["vote"] == "0"
+
+    mine = client.get("/api/votes", params={"user": "Dana"}).json()
+    assert mine[sid] == 0
+
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 0, "down": 0}
+
+    # Another user can still rate; skip does not inflate tallies.
+    client.post("/api/votes", json={"signal_id": sid, "user": "Eli", "vote": 1})
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 1, "down": 0}
+
+    with (data_dir / "votes.csv").open(encoding="utf-8", newline="") as fh:
+        votes = list(csv.DictReader(fh))
+    assert any(v["user"] == "Dana" and v["vote"] == "0" for v in votes)
+
+
 def test_meta_notes_match_signals(client: TestClient, data_dir: Path):
     signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
     meta = client.get("/api/meta").json()

@@ -156,12 +156,15 @@
 
   // --- Feed state ---
   let SIGNALS = [];
-  /** @type {Record<string, number>} signal_id → 1|-1 for current user */
+  /** @type {Record<string, number>} signal_id → 1|-1|0 (skip) for current user */
   let userVotes = {};
-  let skipped = new Set();
   const FEED_MODE_KEY = "ms-feed-mode";
   /** @type {"stack"|"one"} */
   let feedMode = store.get(FEED_MODE_KEY, "stack") === "one" ? "one" : "stack";
+
+  function hasRated(signalId) {
+    return Object.prototype.hasOwnProperty.call(userVotes, signalId);
+  }
 
   const FILTERS = [
     ["category", "product_category", "All categories"],
@@ -178,7 +181,6 @@
     if (typeof saved === "string") userIn.value = saved;
     userIn.addEventListener("input", async () => {
       store.set(USER_KEY, userIn.value.trim());
-      skipped = new Set();
       await loadUserVotes();
       renderFeed();
     });
@@ -243,7 +245,6 @@
       }
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
-        skipped = new Set();
         refreshActiveView();
       };
     }
@@ -256,7 +257,6 @@
         const sel = $("#f-" + id);
         if (sel) sel.value = "";
       }
-      skipped = new Set();
       refreshActiveView();
     });
   }
@@ -291,11 +291,11 @@
   }
 
   function queue() {
+    // Hide anything this profile already rated (👍/👎) or skipped.
     return railFilteredSignals()
-      .filter((s) => !skipped.has(s.signal_id))
+      .filter((s) => !hasRated(s.signal_id))
       .sort(
         (a, b) =>
-          (userVotes[a.signal_id] != null) - (userVotes[b.signal_id] != null) ||
           latest(b).localeCompare(latest(a)) ||
           a.signal_id.localeCompare(b.signal_id)
       );
@@ -485,10 +485,8 @@
       return b;
     };
     const skip = mk("skip", "→", "Skip", null, null);
-    skip.addEventListener("click", () => {
-      skipped.add(s.signal_id);
-      renderFeed();
-    });
+    skip.disabled = !canVote;
+    skip.addEventListener("click", () => castVote(s, 0));
     actions.append(
       mk("up", "👍", "Useful", t.up, 1),
       mk("down", "👎", "Not useful", t.down, -1),
@@ -516,21 +514,27 @@
     if (!stack) return;
 
     stack.replaceChildren();
+    const scoped = railFilteredSignals();
     const q = queue();
-    const unvoted = q.filter((s) => userVotes[s.signal_id] == null).length;
+    const done = scoped.length - q.length;
     if (qLeft) {
-      qLeft.textContent = `${unvoted} of ${q.length} signals in this filter still need your vote`;
+      if (!scoped.length) {
+        qLeft.textContent = "No signals in this filter";
+      } else if (!q.length) {
+        qLeft.textContent = `Caught up — ${done} already rated or skipped in this filter`;
+      } else {
+        qLeft.textContent = `${q.length} left to rate · ${done} already done in this filter`;
+      }
     }
     if (!q.length) {
-      stack.append(
-        el(
-          "div",
-          "empty",
-          SIGNALS.length
-            ? "No signals match these filters. Clear a filter to see more."
-            : "No signals loaded."
-        )
-      );
+      let emptyMsg = "No signals loaded.";
+      if (SIGNALS.length && !scoped.length) {
+        emptyMsg = "No signals match these filters. Clear a filter to see more.";
+      } else if (scoped.length && !q.length) {
+        emptyMsg =
+          "You're caught up — every signal in this filter was already rated or skipped.";
+      }
+      stack.append(el("div", "empty", emptyMsg));
       return;
     }
     const toShow = feedMode === "one" ? q.slice(0, 1) : q;
@@ -669,7 +673,6 @@
           });
           const famSel = $("#f-family");
           if (famSel) famSel.value = f.family;
-          skipped = new Set();
           showTab("feed");
           renderFeed();
         };
@@ -995,7 +998,6 @@
   }
 
   window.__msOnAuthChange = async () => {
-    skipped = new Set();
     try {
       if (isClerkMode() && window.__msAuth?.orgId) {
         await fetch("/api/orgs/bootstrap", {

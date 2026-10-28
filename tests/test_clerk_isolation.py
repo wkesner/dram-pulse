@@ -119,6 +119,32 @@ def test_aggregate_events_have_no_org_or_user_pii(clerk_env):
     assert resp.json()["count"] >= 1
 
 
+def test_skip_persists_per_user_without_aggregate(clerk_env):
+    client_a, _ = _client(clerk_env, "org_alpha", "user_a")
+    signals = client_a.get("/api/signals").json()
+    sid = signals[0]["signal_id"]
+    before = (
+        clerk_env["aggregates"].read_text(encoding="utf-8")
+        if clerk_env["aggregates"].is_file()
+        else ""
+    )
+
+    r = client_a.post("/api/votes", json={"signal_id": sid, "vote": 0})
+    assert r.status_code == 200
+    assert client_a.get("/api/votes").json().get(sid) == 0
+
+    after = (
+        clerk_env["aggregates"].read_text(encoding="utf-8")
+        if clerk_env["aggregates"].is_file()
+        else ""
+    )
+    assert after == before
+
+    # Tallies unchanged by skip
+    row = next(s for s in client_a.get("/api/signals").json() if s["signal_id"] == sid)
+    assert row["votes"] == {"up": 0, "down": 0}
+
+
 def test_clerk_mode_rejects_missing_auth(clerk_env, monkeypatch):
     # Simulate an unconfigured clerk instance regardless of the worker .env.
     # Use empty strings (not delenv): load_dotenv only fills keys that are unset.
