@@ -256,15 +256,38 @@
       );
   }
 
+  function isClerkMode() {
+    return window.__msAuth?.mode === "clerk";
+  }
+
+  function currentUserLabel() {
+    if (isClerkMode()) {
+      return window.__msAuth?.displayName || window.__msAuth?.userId || "";
+    }
+    return (userIn?.value || "").trim();
+  }
+
+  function apiHeaders(extra) {
+    const h = { ...(extra || {}) };
+    if (window.msClerk?.authHeaders) {
+      Object.assign(h, window.msClerk.authHeaders());
+    }
+    return h;
+  }
+
   async function castVote(s, v) {
-    const user = (userIn?.value || "").trim();
-    if (!user) {
+    const user = currentUserLabel();
+    if (!isClerkMode() && !user) {
       userIn?.focus();
+      return;
+    }
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      console.warn("select an organization before voting");
       return;
     }
     const resp = await fetch("/api/votes", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: apiHeaders({ "Content-Type": "application/json" }),
       body: JSON.stringify({ signal_id: s.signal_id, user, vote: v }),
     });
     if (!resp.ok) {
@@ -279,7 +302,10 @@
   }
 
   function buildCard(s) {
-    const user = (userIn?.value || "").trim();
+    const user = currentUserLabel();
+    const canVote = isClerkMode()
+      ? Boolean(window.__msAuth?.orgId && window.__msAuth?.sessionToken)
+      : Boolean(user);
     const sightings = s.sightings || [];
     const firstLink = primarySighting(s);
     const mine = userVotes[s.signal_id];
@@ -378,7 +404,7 @@
       if (count != null) b.append(el("span", "n", String(count)));
       if (v != null) {
         b.setAttribute("aria-pressed", String(mine === v));
-        b.disabled = !user;
+        b.disabled = !canVote;
         b.addEventListener("click", () => castVote(s, v));
       }
       return b;
@@ -393,8 +419,16 @@
       mk("down", "👎", "Not useful", t.down, -1),
       skip
     );
-    if (!user) {
-      actions.append(el("span", "hint", "Type your name above to vote."));
+    if (!canVote) {
+      actions.append(
+        el(
+          "span",
+          "hint",
+          isClerkMode()
+            ? "Sign in and select an organization to vote."
+            : "Type your name above to vote."
+        )
+      );
     }
 
     card.append(meta, chips, ex, find, det, actions);
@@ -436,8 +470,15 @@
   }
 
   async function loadUserVotes() {
-    const user = (userIn?.value || "").trim();
     userVotes = {};
+    if (isClerkMode()) {
+      if (!window.__msAuth?.orgId || !window.__msAuth?.sessionToken) return;
+      const resp = await fetch("/api/votes", { headers: apiHeaders() });
+      if (!resp.ok) return;
+      userVotes = await resp.json();
+      return;
+    }
+    const user = (userIn?.value || "").trim();
     if (!user) return;
     const resp = await fetch(`/api/votes?user=${encodeURIComponent(user)}`);
     if (!resp.ok) return;
@@ -445,7 +486,12 @@
   }
 
   async function loadSignals({ keepFilters = false } = {}) {
-    const resp = await fetch("/api/signals");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      SIGNALS = [];
+      fillFilters();
+      return;
+    }
+    const resp = await fetch("/api/signals", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`signals ${resp.status}`);
     SIGNALS = await resp.json();
     if (!keepFilters) fillFilters();
@@ -562,7 +608,11 @@
   let META_NOTES = null;
 
   async function loadMeta() {
-    const resp = await fetch("/api/meta");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      META_NOTES = null;
+      return null;
+    }
+    const resp = await fetch("/api/meta", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`meta ${resp.status}`);
     const data = await resp.json();
     META_NOTES = data.notes || null;
@@ -849,16 +899,38 @@
     }),
   };
 
+  async function bootApp() {
+    await loadSignals();
+    await loadUserVotes();
+    await loadMeta();
+    renderFeed();
+    renderFamilies();
+    renderDataNotes();
+    if (location.hash === "#families") showTab("families");
+    else if (location.hash === "#map") showTab("map");
+  }
+
+  window.__msOnAuthChange = async () => {
+    skipped = new Set();
+    try {
+      if (isClerkMode() && window.__msAuth?.orgId) {
+        await fetch("/api/orgs/bootstrap", {
+          method: "POST",
+          headers: apiHeaders(),
+        });
+      }
+      await bootApp();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   (async () => {
     try {
-      await loadSignals();
-      await loadUserVotes();
-      await loadMeta();
-      renderFeed();
-      renderFamilies();
-      renderDataNotes();
-      if (location.hash === "#families") showTab("families");
-      else if (location.hash === "#map") showTab("map");
+      if (window.msClerk?.init) {
+        await window.msClerk.init();
+      }
+      await bootApp();
     } catch (err) {
       console.error(err);
       const stack = $("#feed-stack");

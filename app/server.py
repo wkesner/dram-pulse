@@ -1,5 +1,9 @@
 """Memory Signals FastAPI server — CSV-backed signals / votes API.
 
+Auth modes:
+  AUTH_MODE=single (default) — typed name votes, shared data/signals.csv
+  AUTH_MODE=clerk — Clerk session JWT + org isolation under data/orgs/{org_id}/
+
 Run:
   uvicorn app.server:app --reload --port 8000
 """
@@ -8,14 +12,35 @@ from __future__ import annotations
 
 import csv
 import fcntl
+import os
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Literal
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
+from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+
+from app.clerk_auth import (
+    ClerkConfigError,
+    ClerkSession,
+    SessionResolver,
+    auth_mode,
+    clerk_configured,
+    clerk_publishable_key,
+    verify_clerk_session_token,
+)
+from app.rate_limit import RateLimiter
+from app.tenant import (
+    DEFAULT_AGGREGATES,
+    DEFAULT_ORGS_ROOT,
+    append_aggregate_event,
+    ensure_org_corpus,
+    read_aggregate_events,
+)
+from src.envutil import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SIGNALS = REPO_ROOT / "data" / "signals.csv"
@@ -25,6 +50,15 @@ DEFAULT_COMPANIES = REPO_ROOT / "config" / "companies.yaml"
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 VOTE_COLUMNS = ["vote_id", "signal_id", "user", "vote", "voted_at"]
+ORG_VOTE_COLUMNS = [
+    "vote_id",
+    "org_id",
+    "user_id",
+    "user",
+    "signal_id",
+    "vote",
+    "voted_at",
+]
 SIGHTING_API_FIELDS = (
     "filing_date",
     "form",
@@ -37,7 +71,7 @@ SIGHTING_API_FIELDS = (
 
 class VoteIn(BaseModel):
     signal_id: str
-    user: str
+    user: str = ""
     vote: Literal[1, -1]
 
 
@@ -50,20 +84,26 @@ def _read_csv(path: Path) -> list[dict[str, str]]:
 
 def _latest_votes_by_user_signal(
     votes: list[dict[str, str]],
+    *,
+    user_key: str = "user",
 ) -> dict[tuple[str, str], dict[str, str]]:
     latest: dict[tuple[str, str], dict[str, str]] = {}
     for row in votes:
-        key = (row.get("user", ""), row.get("signal_id", ""))
+        key = (row.get(user_key, "") or row.get("user", ""), row.get("signal_id", ""))
         prev = latest.get(key)
         if prev is None or (row.get("voted_at") or "") >= (prev.get("voted_at") or ""):
             latest[key] = row
     return latest
 
 
-def _vote_tallies(votes: list[dict[str, str]]) -> dict[str, dict[str, int]]:
+def _vote_tallies(
+    votes: list[dict[str, str]],
+    *,
+    user_key: str = "user",
+) -> dict[str, dict[str, int]]:
     """signal_id → {up, down} from each user's latest vote."""
     tallies: dict[str, dict[str, int]] = {}
-    for (user, sid), row in _latest_votes_by_user_signal(votes).items():
+    for (user, sid), row in _latest_votes_by_user_signal(votes, user_key=user_key).items():
         if not user or not sid:
             continue
         try:
@@ -173,7 +213,11 @@ def _append_vote_locked(
     signal_id: str,
     user: str,
     vote: int,
+    org_id: str = "",
+    user_id: str = "",
+    columns: list[str] | None = None,
 ) -> dict[str, str]:
+    cols = columns or (ORG_VOTE_COLUMNS if org_id else VOTE_COLUMNS)
     row = {
         "vote_id": str(uuid.uuid4()),
         "signal_id": signal_id,
@@ -181,6 +225,10 @@ def _append_vote_locked(
         "vote": str(vote),
         "voted_at": datetime.now(timezone.utc).isoformat(),
     }
+    if "org_id" in cols:
+        row["org_id"] = org_id
+    if "user_id" in cols:
+        row["user_id"] = user_id
     votes_path.parent.mkdir(parents=True, exist_ok=True)
     lock_path = votes_path.with_suffix(votes_path.suffix + ".lock")
     lock_path.parent.mkdir(parents=True, exist_ok=True)
@@ -188,12 +236,21 @@ def _append_vote_locked(
         fcntl.flock(lock_fh.fileno(), fcntl.LOCK_EX)
         write_header = not votes_path.is_file() or votes_path.stat().st_size == 0
         with votes_path.open("a", encoding="utf-8", newline="") as fh:
-            writer = csv.DictWriter(fh, fieldnames=VOTE_COLUMNS)
+            writer = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
             if write_header:
                 writer.writeheader()
-            writer.writerow(row)
+            writer.writerow({k: row.get(k, "") for k in cols})
             fh.flush()
     return row
+
+
+def _bearer_token(authorization: str | None) -> str | None:
+    if not authorization:
+        return None
+    parts = authorization.split(None, 1)
+    if len(parts) == 2 and parts[0].lower() == "bearer":
+        return parts[1].strip() or None
+    return None
 
 
 def create_app(
@@ -204,20 +261,128 @@ def create_app(
     companies_path: Path | None = None,
     static_dir: Path | None = None,
     mount_static: bool = True,
+    mode: str | None = None,
+    orgs_root: Path | None = None,
+    aggregates_path: Path | None = None,
+    session_resolver: SessionResolver | None = None,
+    operator_token: str | None = None,
 ) -> FastAPI:
+    load_dotenv()
     signals_path = signals_path or DEFAULT_SIGNALS
     sightings_path = sightings_path or DEFAULT_SIGHTINGS
     votes_path = votes_path or DEFAULT_VOTES
     companies_path = companies_path or DEFAULT_COMPANIES
     static_dir = static_dir or STATIC_DIR
+    orgs_root = orgs_root or DEFAULT_ORGS_ROOT
+    aggregates_path = aggregates_path or DEFAULT_AGGREGATES
+    mode = (mode or auth_mode()).lower()
+    if mode not in {"single", "clerk"}:
+        mode = "single"
+    op_token = (
+        operator_token
+        if operator_token is not None
+        else (os.environ.get("OPERATOR_TOKEN") or "").strip()
+    )
 
-    app = FastAPI(title="Memory Signals", version="0.2.0")
+    vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
+    bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
 
-    @app.get("/api/signals")
-    def get_signals() -> list[dict[str, Any]]:
-        signals = _read_csv(signals_path)
-        sightings = _sightings_by_signal(_read_csv(sightings_path))
-        tallies = _vote_tallies(_read_csv(votes_path))
+    app = FastAPI(title="Memory Signals", version="0.3.0")
+    app.state.auth_mode = mode
+    app.state.orgs_root = orgs_root
+
+    def resolve_session(
+        authorization: str | None = Header(default=None),
+    ) -> ClerkSession:
+        if session_resolver is not None:
+            return session_resolver(_bearer_token(authorization))
+        if not clerk_configured():
+            raise HTTPException(
+                status_code=503,
+                detail=(
+                    "Clerk is not configured. Set CLERK_PUBLISHABLE_KEY, "
+                    "CLERK_SECRET_KEY, and CLERK_ISSUER in .env "
+                    "(see .env.example and docs/MULTI-ORG-DEMO.md)."
+                ),
+            )
+        token = _bearer_token(authorization)
+        try:
+            return verify_clerk_session_token(token or "")
+        except ClerkConfigError as exc:
+            raise HTTPException(status_code=503, detail=str(exc)) from exc
+        except PermissionError as exc:
+            raise HTTPException(status_code=401, detail=str(exc)) from exc
+
+    def require_clerk_session(
+        session: ClerkSession = Depends(resolve_session),
+    ) -> ClerkSession:
+        return session
+
+    def org_corpus(session: ClerkSession) -> dict[str, Path]:
+        try:
+            return ensure_org_corpus(
+                session.org_id,
+                orgs_root=orgs_root,
+                base_signals=signals_path,
+                base_sightings=sightings_path,
+            )
+        except (ValueError, FileNotFoundError) as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    @app.get("/api/config")
+    def get_config() -> dict[str, Any]:
+        return {
+            "auth_mode": mode,
+            "clerk_configured": clerk_configured() if mode == "clerk" else False,
+            "clerk_publishable_key": clerk_publishable_key() if mode == "clerk" else "",
+            "requires_org": mode == "clerk",
+        }
+
+    @app.get("/api/me")
+    def get_me(session: ClerkSession = Depends(require_clerk_session)) -> dict[str, Any]:
+        if mode != "clerk":
+            raise HTTPException(status_code=404, detail="clerk mode only")
+        return {
+            "user_id": session.user_id,
+            "org_id": session.org_id,
+            "org_role": session.org_role,
+            "org_slug": session.org_slug,
+            "display_name": session.display_name,
+        }
+
+    @app.post("/api/orgs/bootstrap")
+    def bootstrap_org(
+        request: Request,
+        session: ClerkSession = Depends(require_clerk_session),
+    ) -> dict[str, Any]:
+        """Seed this org's private corpus copy (idempotent)."""
+        if mode != "clerk":
+            raise HTTPException(status_code=404, detail="clerk mode only")
+        ip = request.client.host if request.client else "unknown"
+        if not bootstrap_limiter.allow(f"boot:{session.user_id}:{ip}"):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+        paths = org_corpus(session)
+
+        def _rel(p: Path) -> str:
+            try:
+                return str(p.resolve().relative_to(REPO_ROOT)).replace("\\", "/")
+            except ValueError:
+                return str(p)
+
+        return {
+            "org_id": session.org_id,
+            "signals": _rel(paths["signals"]),
+            "sightings": _rel(paths["sightings"]),
+            "votes": _rel(paths["votes"]),
+            "seeded": True,
+        }
+
+    def _signals_payload(
+        sig_path: Path, sight_path: Path, votes_file: Path, *, user_key: str
+    ) -> list[dict[str, Any]]:
+        signals = _read_csv(sig_path)
+        sightings = _sightings_by_signal(_read_csv(sight_path))
+        tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
         out: list[dict[str, Any]] = []
         for row in signals:
             sid = row.get("signal_id") or ""
@@ -227,22 +392,66 @@ def create_app(
             out.append(payload)
         return out
 
+    @app.get("/api/signals")
+    def get_signals(
+        authorization: str | None = Header(default=None),
+    ) -> list[dict[str, Any]]:
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            paths = org_corpus(session)
+            return _signals_payload(
+                paths["signals"],
+                paths["sightings"],
+                paths["votes"],
+                user_key="user_id",
+            )
+        return _signals_payload(
+            signals_path, sightings_path, votes_path, user_key="user"
+        )
+
     @app.get("/api/meta")
-    def get_meta() -> dict[str, Any]:
+    def get_meta(authorization: str | None = Header(default=None)) -> dict[str, Any]:
         """Coverage notes for the Signal map (companies.yaml + signals.csv)."""
-        signals = _read_csv(signals_path)
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            paths = org_corpus(session)
+            signals = _read_csv(paths["signals"])
+        else:
+            signals = _read_csv(signals_path)
         names = _load_company_names(companies_path)
         notes = compute_notes(signals, names)
         return {"notes": notes, "companies": names}
 
     @app.get("/api/votes")
-    def get_votes(user: str = Query(..., min_length=1)) -> dict[str, int]:
+    def get_votes(
+        user: str = Query(default=""),
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, int]:
         """Latest vote per signal_id for this user. Values are 1 or -1."""
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            paths = org_corpus(session)
+            latest = _latest_votes_by_user_signal(
+                _read_csv(paths["votes"]), user_key="user_id"
+            )
+            result: dict[str, int] = {}
+            for (uid, sid), row in latest.items():
+                if uid != session.user_id or not sid:
+                    continue
+                # Hard isolation: ignore rows that somehow lack/mismatch org_id
+                if (row.get("org_id") or "") != session.org_id:
+                    continue
+                try:
+                    result[sid] = int(row["vote"])
+                except (KeyError, ValueError):
+                    continue
+            return result
+
         name = user.strip()
         if not name:
             raise HTTPException(status_code=400, detail="user is required")
         latest = _latest_votes_by_user_signal(_read_csv(votes_path))
-        result: dict[str, int] = {}
+        result = {}
         for (u, sid), row in latest.items():
             if u != name or not sid:
                 continue
@@ -253,19 +462,68 @@ def create_app(
         return result
 
     @app.post("/api/votes")
-    def post_vote(body: VoteIn) -> dict[str, str]:
+    def post_vote(
+        body: VoteIn,
+        request: Request,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, str]:
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            ip = request.client.host if request.client else "unknown"
+            if not vote_limiter.allow(f"vote:{session.org_id}:{session.user_id}:{ip}"):
+                raise HTTPException(status_code=429, detail="rate limit exceeded")
+            paths = org_corpus(session)
+            if body.signal_id not in _known_signal_ids(paths["signals"]):
+                raise HTTPException(status_code=400, detail="unknown signal_id")
+            direction = ""
+            for row in _read_csv(paths["signals"]):
+                if row.get("signal_id") == body.signal_id:
+                    direction = row.get("supply_direction") or ""
+                    break
+            row = _append_vote_locked(
+                paths["votes"],
+                signal_id=body.signal_id,
+                user=session.display_name,
+                vote=body.vote,
+                org_id=session.org_id,
+                user_id=session.user_id,
+                columns=ORG_VOTE_COLUMNS,
+            )
+            append_aggregate_event(
+                aggregates_path,
+                signal_id=body.signal_id,
+                direction=direction,
+                vote=body.vote,
+            )
+            return row
+
         user = body.user.strip()
         if not user:
             raise HTTPException(status_code=400, detail="user is required")
         if body.signal_id not in _known_signal_ids(signals_path):
             raise HTTPException(status_code=400, detail="unknown signal_id")
-        row = _append_vote_locked(
+        return _append_vote_locked(
             votes_path,
             signal_id=body.signal_id,
             user=user,
             vote=body.vote,
         )
-        return row
+
+    @app.get("/api/operator/aggregates")
+    def operator_aggregates(
+        x_operator_token: str | None = Header(default=None),
+        limit: int = Query(default=200, ge=1, le=5000),
+    ) -> dict[str, Any]:
+        """Anonymized vote events across orgs (operator only)."""
+        if not op_token:
+            raise HTTPException(
+                status_code=503,
+                detail="OPERATOR_TOKEN not configured on server",
+            )
+        if not x_operator_token or x_operator_token != op_token:
+            raise HTTPException(status_code=401, detail="invalid operator token")
+        events = read_aggregate_events(aggregates_path, limit=limit)
+        return {"events": events, "count": len(events)}
 
     if mount_static and static_dir.is_dir():
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")

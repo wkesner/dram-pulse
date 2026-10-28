@@ -1,6 +1,32 @@
 /* Layout: app frame. Top bar with name and tabs, filter rail on the left
    (stacks on top when narrow). Tokens copied exactly from docs/design/feed_mockup.html. */
 
+.clerk-banner {
+  background: var(--tight-soft, #fde8e8);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 18px;
+  font-size: 14px;
+}
+.clerk-chrome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.clerk-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.clerk-hint {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 28ch;
+}
+
 :root {
   --bg: #f3f5f6; --panel: #ffffff; --ink: #172026; --muted: #5a6872; --line: #d9dfe3;
   --accent: #0f5f63; --accent-ink: #ffffff; --tight: #b4362c; --tight-soft: #f7e3e0; --ease: #2a5fa8; --ease-soft: #e1eaf7;

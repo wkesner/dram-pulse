@@ -102,6 +102,36 @@ python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
+## Multi-org demo (Clerk)
+
+Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
+
+For the multi-org demo (`AUTH_MODE=clerk`):
+
+1. Create a Clerk application; enable **Organizations**, **email verification**, and bot/CAPTCHA protection (see agent store `docs/MULTI-ORG-DEMO.md`).
+2. Put keys in gitignored `.env` (never commit them):
+
+```bash
+AUTH_MODE=clerk
+CLERK_PUBLISHABLE_KEY=pk_test_…
+CLERK_SECRET_KEY=sk_test_…
+CLERK_ISSUER=https://your-instance.clerk.accounts.dev
+OPERATOR_TOKEN=long-random-string   # optional operator aggregates
+```
+
+3. Install deps and run:
+
+```bash
+pip install -r requirements.txt
+python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+```
+
+4. Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
+
+Without Clerk keys, the UI shows a setup banner; live login will not work until William adds keys and restarts.
+
+Isolation tests: `pytest tests/test_clerk_isolation.py`.
+
 ## Milestone 5 — OpenDART + Samsung IR
 
 Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
