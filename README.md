@@ -2,6 +2,30 @@
 
 Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
 
+## Remotes (Origin + GitHub)
+
+- **`origin`** — Cursor Origin (`origin.cursor.com/git/william-kesner/dram-pulse`) — primary.
+- **`github`** — public mirror (`https://github.com/wkesner/dram-pulse.git`).
+
+Until GitHub credentials are available on the worker, push both explicitly:
+
+```bash
+git push -u origin HEAD
+git push -u github HEAD
+```
+
+After `gh auth login` (or a PAT in the credential helper), you can enable dual-push so one `git push origin` updates both:
+
+```bash
+ORIGIN_URL=$(git remote get-url --push origin)   # keep existing Origin URL
+git remote set-url --push --add origin "$ORIGIN_URL"
+git remote set-url --push --add origin https://github.com/wkesner/dram-pulse.git
+# Do not enable this until `git push github HEAD` succeeds — a failing GitHub
+# push URL makes the whole `git push origin` fail.
+```
+
+Never commit `.env` or API keys.
+
 ## Milestone 1 — Micron EDGAR 10-K
 
 Fetch Micron's latest 10-K from SEC EDGAR, cache it under `data/raw/`, and split Item 1 (Business), Item 1A (Risk Factors), and Item 7 (MD&A). Full plain text is kept as `other`.
