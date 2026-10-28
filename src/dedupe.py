@@ -89,6 +89,7 @@ SIGNAL_COLUMNS = [
     "matched_terms",
     "excerpt",
     "language",
+    "excerpt_en",
     "char_start",
     "char_end",
     "raw_path",
@@ -430,6 +431,8 @@ def build_signals_from_sightings(
                 "matched_terms": first_match.get("matched_terms") or "",
                 "excerpt": first_match.get("excerpt") or "",
                 "language": first_match.get("language") or "en",
+                # Filled by `python -m src.translate_excerpts`; blank for language=en.
+                "excerpt_en": first_match.get("excerpt_en") or "",
                 "char_start": first_match.get("char_start") or "",
                 "char_end": first_match.get("char_end") or "",
                 "raw_path": first_match.get("raw_path") or "",

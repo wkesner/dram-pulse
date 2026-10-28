@@ -387,10 +387,36 @@
       .split(";")
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
+    const lang = String(s.language || "en").toLowerCase();
+    const excerptEn = String(s.excerpt_en || "").trim();
+    const canTranslate =
+      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    let showEnglish = false;
     const ex = el("p", "excerpt");
-    ex.append(highlight(s.excerpt || "", terms));
+    const paintExcerpt = () => {
+      ex.replaceChildren();
+      const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
+      // Highlight only on original language (matched_terms are source-language).
+      if (showEnglish && excerptEn) ex.append(text);
+      else ex.append(highlight(text, terms));
+    };
+    paintExcerpt();
 
     const find = el("div", "find");
+    if (canTranslate) {
+      const tog = el("button", "lang-toggle", "Show English");
+      tog.type = "button";
+      tog.setAttribute("aria-pressed", "false");
+      tog.title = "Machine translation (Argos); original excerpt is unchanged";
+      tog.addEventListener("click", () => {
+        showEnglish = !showEnglish;
+        tog.textContent = showEnglish ? "Original" : "Show English";
+        tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        paintExcerpt();
+      });
+      find.append(tog);
+      chips.append(el("span", "chip lang", lang));
+    }
     const open = el("a", null, "Open filing at this passage");
     open.href =
       (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);

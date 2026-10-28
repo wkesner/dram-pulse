@@ -291,6 +291,27 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   align-items: center;
   font-size: 14px;
 }
+.lang-toggle {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--panel, transparent);
+  color: var(--ink);
+  cursor: pointer;
+}
+.lang-toggle[aria-pressed="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.chip.lang {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 11px;
+  color: var(--muted);
+}
 details {
   border-top: 1px solid var(--line);
   padding-top: 10px;
