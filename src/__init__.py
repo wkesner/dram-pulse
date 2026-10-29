@@ -1,1 +1,1 @@
-"""Memory Signals source package."""
+"""EC Signals source package."""

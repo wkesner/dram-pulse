@@ -1,4 +1,4 @@
-# Memory Signals: build spec (v1)
+# EC Signals: build spec (v1)
 
 Paste this into a new Cursor repo as `SPEC.md` and build in the order of the milestones at the bottom.
 
@@ -88,7 +88,7 @@ Notes:
 - Ticker to CIK: `https://www.sec.gov/files/company_tickers.json`.
 - Filing list: `https://data.sec.gov/submissions/CIK{cik:010d}.json` gives form, filingDate, accessionNumber, primaryDocument and, for 8-Ks, `items`.
 - Documents: `https://www.sec.gov/Archives/edgar/data/{cik}/{accession_no_dashes}/{primaryDocument}`. For 8-Ks, also fetch exhibit 99.x (the press release) from the filing index.
-- **Required:** send a `User-Agent` header of the form `"MemorySignals your-name your-email"`, and stay under 10 requests per second. SEC blocks clients that don't.
+- **Required:** send a `User-Agent` header of the form `"ECSignals your-name your-email"` (legacy `MemorySignals …` still accepted), and stay under 10 requests per second. SEC blocks clients that don't.
 - Scope: every 10-K, 10-Q, 8-K (items 2.02, 2.06, 7.01 or 8.01) and 6-K filed inside the **lookback window** (see below).
 - Sections to split out of 10-K/10-Q: Item 1 (Business), Item 1A (Risk Factors), Item 7 (MD&A). Keep the full text too, with section set to `other`.
 

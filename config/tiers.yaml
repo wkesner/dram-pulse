@@ -1,4 +1,4 @@
-# Company tiers for Memory Signals graphs and feed scope.
+# Company tiers for EC Signals graphs and feed scope.
 # Tiers are product/UX labels — not a credit rating. Assign in companies.yaml.
 #
 # Default Signal map = Tier 1 only. Feed can filter by tier. Brokers typically

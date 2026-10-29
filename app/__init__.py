@@ -1,1 +1,1 @@
-"""Memory Signals FastAPI feed app."""
+"""EC Signals FastAPI feed app."""

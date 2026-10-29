@@ -48,7 +48,7 @@ def ensure_org_corpus(
     base_sightings: Path = DEFAULT_BASE_SIGHTINGS,
 ) -> dict[str, Path]:
     """
-    Copy the base Memory Signals corpus into data/orgs/{org_id}/ on first use.
+    Copy the base EC Signals corpus into data/orgs/{org_id}/ on first use.
     Idempotent: existing files are left alone.
     """
     paths = org_paths(orgs_root, org_id)

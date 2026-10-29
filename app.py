@@ -1,4 +1,4 @@
-"""Memory Signals feed — Milestone 4 Streamlit UI.
+"""EC Signals feed — Milestone 4 Streamlit UI.
 
 Run:
   streamlit run app.py
@@ -22,7 +22,7 @@ from src.feed_data import (
     vote_counts_for_signal,
 )
 
-st.set_page_config(page_title="Memory Signals", layout="wide")
+st.set_page_config(page_title="EC Signals", layout="wide")
 
 ALL = "(all)"
 
@@ -44,7 +44,7 @@ def main() -> None:
     votes = load_votes()
     window = lookback_label(signals)
 
-    st.title("Memory Signals")
+    st.title("EC Signals")
     st.caption(f"Qualitative memory supply signals · {window}")
 
     # --- Sidebar ---

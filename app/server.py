@@ -1,4 +1,4 @@
-"""Memory Signals FastAPI server — CSV-backed signals / votes API.
+"""EC Signals FastAPI server — CSV-backed signals / votes API.
 
 Auth modes:
   AUTH_MODE=single (default) — typed name votes, shared data/signals.csv
@@ -365,7 +365,7 @@ def create_app(
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
 
-    app = FastAPI(title="Memory Signals", version="0.3.0")
+    app = FastAPI(title="EC Signals", version="0.3.0")
     app.state.auth_mode = mode
     app.state.orgs_root = orgs_root
 
@@ -530,6 +530,7 @@ def create_app(
             (t["id"] for t in tier_catalog if t.get("map_default")), 1
         )
         return {
+            "product_name": "EC Signals",
             "notes": notes,
             "companies": names,
             "tiers": tier_catalog,

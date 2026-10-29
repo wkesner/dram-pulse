@@ -62,7 +62,7 @@ def verify_csv(csv_path: Path, repo_root: Path = REPO_ROOT) -> tuple[int, int, l
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Verify Memory Signals sighting/signal CSV offsets"
+        description="Verify EC Signals sighting/signal CSV offsets"
     )
     parser.add_argument(
         "--csv",

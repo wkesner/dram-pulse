@@ -1,4 +1,4 @@
-"""Data helpers for the Memory Signals Streamlit feed (Milestone 4)."""
+"""Data helpers for the EC Signals Streamlit feed (Milestone 4)."""
 
 from __future__ import annotations
 
