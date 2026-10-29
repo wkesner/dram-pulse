@@ -23,6 +23,7 @@ from src.dedupe import (
     append_sightings,
     build_signals_from_sightings,
     dedupe,
+    merge_group,
     normalize as normalize_excerpt,
     window_keep_score,
     write_csv as write_dedupe_csv,
@@ -488,8 +489,9 @@ def extract_from_section(
                 best[key] = (width, row)
 
     candidates = [row for _width, row in best.values()]
-    # Collapse heavily overlapping windows across families too — the same span
-    # tagged DRAM + NAND + Memory_general must not become three Feed cards.
+    # Collapse heavily overlapping windows within a merge group (Memory together;
+    # Compute/Analog/Passives only with themselves) so DRAM+NAND+Memory_general
+    # stay one card while a co-listed Capacitor/MCU still surfaces.
     candidates.sort(
         key=lambda r: (
             int(r["char_start"]),
@@ -501,9 +503,12 @@ def extract_from_section(
     for row in candidates:
         start, end = int(row["char_start"]), int(row["char_end"])
         direction = row.get("supply_direction") or ""
+        row_group = merge_group(str(row.get("product_category") or ""))
         overlap_idx = None
         for i, prev in enumerate(kept):
             if (prev.get("supply_direction") or "") != direction:
+                continue
+            if merge_group(str(prev.get("product_category") or "")) != row_group:
                 continue
             ps, pe = int(prev["char_start"]), int(prev["char_end"])
             overlap = max(0, min(end, pe) - max(start, ps))
