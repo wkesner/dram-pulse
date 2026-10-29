@@ -45,6 +45,14 @@ _FAMILY_SPECIFICITY = {
     "CXL": 2,
     "AI_accelerators": 2,
     "Packaging": 2,
+    # Other electronic commodities (prefer named family over bare general).
+    "GPU": 2,
+    "CPU": 2,
+    "FPGA": 2,
+    "MCU": 2,
+    "Power_IC": 2,
+    "Capacitor": 2,
+    "Resistor": 2,
 }
 
 # Curly / typographic quotes → straight.

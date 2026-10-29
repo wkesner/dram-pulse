@@ -12,9 +12,14 @@ topics:
     - supply availability
     - supply continuity
     - supply commitments
+    - component lead times
+    - component lead time
+    - component allocations
+    - component allocation
     - shortage
     - constrained
-    - allocation
+    # Prefer "supply allocation" / "industry allocations" — bare "allocation"
+    # matched "allocating resources" / "fair value allocated" boilerplate.
     - sold out
     - lead times
     - lead time
@@ -94,7 +99,6 @@ direction:
     - supply constraint
     - supply availability affecting
     - constrained
-    - allocation
     - tight supply
     - tightly supplied
     - outpacing
@@ -104,6 +108,8 @@ direction:
     - greater than our ability
     - greater than the industry
     - supply allocation
+    # Prefer "supply allocation" noun form — "allocate supply" matched Nvidia
+    # competition-regulator inquiries about allocating GPU supply.
   easing:
     - inventory build
     - elevated inventory

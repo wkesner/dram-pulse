@@ -402,10 +402,48 @@ def extract_from_section(
             if not any(_near(h) for h in dir_hits) and not _near(topic_hit):
                 continue
 
-            # Materials / input shortages are not memory-product supply signals.
+            # Materials / input shortages are not component-product supply signals.
             if re.search(r"\brare earth\b|\braw materials?\b|\bminerals?\b", passage, re.I):
-                if fam in {"Memory_general", "DRAM_general", "NAND_general"}:
+                if fam in {
+                    "Memory_general",
+                    "DRAM_general",
+                    "NAND_general",
+                    "GPU",
+                    "CPU",
+                    "FPGA",
+                    "MCU",
+                    "Power_IC",
+                    "Capacitor",
+                    "Resistor",
+                }:
                     continue
+            # Legal / IP boilerplate naming "FPGA" / "microcontroller" is not a supply signal.
+            if re.search(
+                r"\bpatent(s|ed)?\b|\btrademark(s)?\b|\blicens(e|es|ing)\b|\binfringe",
+                passage,
+                re.I,
+            ):
+                if fam in {"GPU", "CPU", "FPGA", "MCU", "Power_IC"}:
+                    continue
+            # Competition-regulator inquiries that mention allocating GPU supply are not
+            # commodity-tightness signals; same for debt/credit facility boilerplate.
+            if fam in {"GPU", "CPU", "FPGA", "MCU", "Power_IC", "Capacitor", "Resistor"}:
+                if re.search(
+                    r"competition regulators?|antitrust|requests for information from|"
+                    r"regulatory (?:inquir|investigat)",
+                    passage,
+                    re.I,
+                ):
+                    continue
+                if re.search(
+                    r"\b(?:credit facility|term loan|DDTL|indenture|revolving credit|"
+                    r"depreciable cost|loans? (?:available|may be drawn)|"
+                    r"loans?(?:\s+\w+){0,3}\s+are constrained)\b",
+                    passage,
+                    re.I,
+                ):
+                    continue
+
 
             # Accounting policy text mentioning write-downs is not a market signal.
             if re.search(
