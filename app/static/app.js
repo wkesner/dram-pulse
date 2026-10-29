@@ -748,9 +748,14 @@
       ...values.map((f) => Math.max(f.tightening || 0, f.easing || 0))
     );
     const CAT = CATEGORY_ORDER;
+    const GROUP_ORDER = Object.fromEntries(
+      CATEGORY_GROUPS.map((g, i) => [g.id, i])
+    );
     values
       .sort(
         (a, b) =>
+          (GROUP_ORDER[categoryGroupFor(a.category)] ?? 9) -
+            (GROUP_ORDER[categoryGroupFor(b.category)] ?? 9) ||
           (CAT[a.category] ?? 9) - (CAT[b.category] ?? 9) ||
           b.tightening + b.easing - (a.tightening + a.easing) ||
           a.family.localeCompare(b.family)
@@ -768,9 +773,10 @@
           td.append(String(n));
           return td;
         };
+        const group = categoryGroupFor(f.category) || f.category;
         tr.append(
-          el("td", null, label(f.family)),
-          el("td", null, f.category),
+          el("td", null, FAMILY_LABELS[f.family] || label(f.family)),
+          el("td", null, group),
           bar(f.tightening || 0, "var(--tight)"),
           bar(f.easing || 0, "var(--ease)"),
           el("td", "num", String(f.supplier)),
@@ -995,8 +1001,16 @@
   }
 
   function pickMapFamily(f) {
-    mapFamily = mapFamily === f ? null : f;
+    // Click a family bar → open Feed filtered to that family (same as map tiles).
+    // Click the already-selected family → clear the map filter only.
+    if (mapFamily === f) {
+      mapFamily = null;
+      renderMap();
+      return;
+    }
+    mapFamily = f;
     renderMap();
+    openFeedFromMap();
   }
 
   /** Open the Feed with filters matching the current map scope (tier / family / direction). */
