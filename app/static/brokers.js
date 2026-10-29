@@ -1,9 +1,12 @@
-/* Broker market performance charts (D3, same stack as Signal map). */
+/* Broker market performance charts — baseline vs scored twins. */
 (() => {
   const SERIES_COLORS = {
     apex: "#0f5f63",
+    apex_scored: "#0f5f63",
     harbor: "#2a5fa8",
+    harbor_scored: "#2a5fa8",
     summit: "#b4362c",
+    summit_scored: "#b4362c",
   };
 
   const METRIC_LABELS = {
@@ -17,18 +20,11 @@
   const state = {
     data: null,
     metric: "equity",
+    cohort: "all",
   };
 
   function $(id) {
     return document.getElementById(id);
-  }
-
-  function money(n) {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      maximumFractionDigits: 0,
-    }).format(n);
   }
 
   function moneyExact(n) {
@@ -59,6 +55,8 @@
     const days = Number($("f-days").value) || 30;
     const seed = Number($("f-seed").value) || 42;
     const live = $("f-live").checked;
+    const includeScored = $("f-scored").checked;
+    const scoreLag = Number($("f-lag").value);
     const status = $("status");
     status.hidden = false;
     status.dataset.tone = "";
@@ -68,6 +66,11 @@
     url.searchParams.set("seed", String(seed));
     url.searchParams.set("live", live ? "true" : "false");
     url.searchParams.set("starting_cash", "250000");
+    url.searchParams.set("include_scored", includeScored ? "true" : "false");
+    url.searchParams.set(
+      "score_lag",
+      String(Number.isFinite(scoreLag) ? scoreLag : 1)
+    );
     try {
       const resp = await fetch(url);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
@@ -83,14 +86,16 @@
   function renderAll() {
     const data = state.data;
     if (!data) return;
-    renderPriceMeta(data.prices);
+    renderPriceMeta(data);
+    renderPairs(data.pair_comparisons || []);
     renderLeaderboard(data.brokers || []);
     renderQuotes(data.prices);
     drawChart();
   }
 
-  function renderPriceMeta(prices) {
+  function renderPriceMeta(data) {
     const el = $("price-meta");
+    const prices = data.prices;
     if (!prices) {
       el.hidden = true;
       return;
@@ -99,11 +104,48 @@
       `prices=${prices.source}`,
       prices.session_utc ? `session=${prices.session_utc}` : null,
       `matched=${prices.matched_skus}`,
+      data.include_scored
+        ? `scored twins lag=${data.score_lag_days}d`
+        : "baseline only",
       prices.attribution || null,
     ].filter(Boolean);
     el.textContent = bits.join(" · ");
     el.hidden = false;
-    el.title = [prices.detail, prices.license_note].filter(Boolean).join("\n");
+    el.title = [prices.detail, prices.license_note, data.score_model && data.score_model.description]
+      .filter(Boolean)
+      .join("\n");
+  }
+
+  function renderPairs(pairs) {
+    const root = $("pair-compare");
+    root.innerHTML = "";
+    if (!pairs.length) {
+      root.hidden = true;
+      return;
+    }
+    root.hidden = false;
+    const title = document.createElement("h2");
+    title.textContent = "Baseline vs scored twin";
+    root.appendChild(title);
+    const grid = document.createElement("div");
+    grid.className = "pair-grid";
+    pairs.forEach((p) => {
+      const card = document.createElement("article");
+      card.className = "pair-card";
+      const color = SERIES_COLORS[p.baseline_id] || "var(--accent)";
+      card.style.setProperty("--series", color);
+      const verb = p.scored_wins ? "beats" : "trails";
+      card.innerHTML = `
+        <h3>${escapeHtml(p.baseline_id)} → scored</h3>
+        <p class="meta">Scored twin ${verb} baseline</p>
+        <div class="stats">
+          <div><span>Δ Equity</span><br />${moneyExact(p.equity_delta)}</div>
+          <div><span>Δ P&amp;L</span><br />${moneyExact(p.pnl_delta)}</div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+    root.appendChild(grid);
   }
 
   function renderLeaderboard(brokers) {
@@ -112,10 +154,12 @@
     brokers.forEach((b, i) => {
       const card = document.createElement("article");
       card.className = "broker-card";
+      if (b.cohort === "scored") card.classList.add("scored");
       card.style.setProperty("--series", SERIES_COLORS[b.broker_id] || "#0f5f63");
+      const badge = b.cohort === "scored" ? "scored" : "baseline";
       card.innerHTML = `
         <h3>${escapeHtml(b.name)}${i === 0 ? " · lead" : ""}</h3>
-        <p class="meta">${escapeHtml(b.personality || "")}</p>
+        <p class="meta"><span class="badge">${badge}</span> ${escapeHtml(b.personality || "")}</p>
         <div class="stats">
           <div><span>Equity</span><br />${moneyExact(b.equity)}</div>
           <div><span>P&amp;L</span><br />${moneyExact(b.pnl_vs_start)}</div>
@@ -152,13 +196,27 @@
     });
   }
 
-  function seriesFromHistory(history, metric) {
+  function visibleIds(brokers) {
+    const ids = brokers.map((b) => b.broker_id);
+    if (state.cohort === "baseline") {
+      return ids.filter((id) => !id.endsWith("_scored"));
+    }
+    if (state.cohort === "scored") {
+      return ids.filter((id) => id.endsWith("_scored"));
+    }
+    return ids;
+  }
+
+  function seriesFromHistory(history, metric, ids) {
     const byId = {};
+    ids.forEach((id) => {
+      byId[id] = [];
+    });
     (history || []).forEach((row) => {
       const day = row.day;
       const brokers = row.brokers || {};
-      Object.keys(brokers).forEach((id) => {
-        if (!byId[id]) byId[id] = [];
+      ids.forEach((id) => {
+        if (!brokers[id]) return;
         byId[id].push({ day, value: Number(brokers[id][metric]) });
       });
     });
@@ -171,17 +229,19 @@
     svg.selectAll("*").remove();
     $("chart-caption").textContent = METRIC_LABELS[state.metric] || state.metric;
 
-    const seriesMap = seriesFromHistory(data.history || [], state.metric);
-    const ids = Object.keys(seriesMap);
+    const ids = visibleIds(data.brokers || []);
+    const seriesMap = seriesFromHistory(data.history || [], state.metric, ids);
     if (!ids.length) return;
 
     const wrap = document.querySelector(".chart-wrap");
     const width = Math.max(640, wrap.clientWidth - 16);
     const height = 360;
-    const margin = { top: 24, right: 24, bottom: 40, left: 72 };
+    const margin = { top: 28, right: 24, bottom: 40, left: 72 };
     svg.attr("viewBox", `0 0 ${width} ${height}`);
 
-    const allPoints = ids.flatMap((id) => seriesMap[id]);
+    const allPoints = ids.flatMap((id) => seriesMap[id] || []);
+    if (!allPoints.length) return;
+
     const x = d3
       .scaleLinear()
       .domain(d3.extent(allPoints, (d) => d.day))
@@ -243,27 +303,35 @@
     });
 
     ids.forEach((id) => {
+      const scored = id.endsWith("_scored");
       g.append("path")
         .datum(seriesMap[id])
         .attr("fill", "none")
         .attr("stroke", SERIES_COLORS[id] || "#0f5f63")
-        .attr("stroke-width", 2.25)
+        .attr("stroke-width", scored ? 2.5 : 2.0)
+        .attr("stroke-dasharray", scored ? "6 4" : null)
         .attr("d", line);
     });
 
-    const legend = g.append("g").attr("transform", `translate(${margin.left + 8},${margin.top - 8})`);
+    // Compact legend in two rows if needed
+    const legend = g.append("g").attr("transform", `translate(${margin.left + 4},${margin.top - 14})`);
     ids.forEach((id, i) => {
-      const row = legend.append("g").attr("transform", `translate(${i * 170},0)`);
-      row
-        .append("rect")
-        .attr("width", 12)
-        .attr("height", 3)
-        .attr("y", -6)
-        .attr("fill", SERIES_COLORS[id] || "#0f5f63");
-      row
+      const col = i % 3;
+      const row = Math.floor(i / 3);
+      const item = legend.append("g").attr("transform", `translate(${col * 200},${row * 14})`);
+      item
+        .append("line")
+        .attr("x1", 0)
+        .attr("x2", 16)
+        .attr("y1", -3)
+        .attr("y2", -3)
+        .attr("stroke", SERIES_COLORS[id] || "#0f5f63")
+        .attr("stroke-width", 2)
+        .attr("stroke-dasharray", id.endsWith("_scored") ? "6 4" : null);
+      item
         .append("text")
         .attr("class", "chart-legend")
-        .attr("x", 18)
+        .attr("x", 20)
         .attr("y", 0)
         .text(nameById[id] || id);
     });
@@ -280,7 +348,7 @@
     return escapeHtml(s).replace(/'/g, "&#39;");
   }
 
-  function initMetricTabs() {
+  function initTabs() {
     document.querySelectorAll(".metric-tab").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.metric = btn.dataset.metric;
@@ -290,11 +358,20 @@
         if (state.data) drawChart();
       });
     });
+    document.querySelectorAll(".cohort-tab").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.cohort = btn.dataset.cohort;
+        document.querySelectorAll(".cohort-tab").forEach((b) => {
+          b.setAttribute("aria-selected", b === btn ? "true" : "false");
+        });
+        if (state.data) drawChart();
+      });
+    });
   }
 
   function boot() {
     initTheme();
-    initMetricTabs();
+    initTabs();
     $("sim-form").addEventListener("submit", runSim);
     window.addEventListener("resize", () => {
       if (state.data) drawChart();

@@ -34,9 +34,10 @@
       </header>
 
       <p class="lede">
-        Three fictional DRAM brokers buy under market and sell at or above
-        market on the shared seed catalog. Charts show equity, cash, inventory,
-        and realized P&amp;L over the run. Starting cash is $250k each.
+        Baseline Apex / Harbor / Summit trade without a memory score. Each has a
+        scored twin with the same personality and $250k start cash, but
+        <strong>faster memory-score access</strong> (default lag 1 day) that
+        nudges buy/sell timing. Charts compare equity and P&amp;L over the run.
       </p>
 
       <form class="broker-controls" id="sim-form">
@@ -48,6 +49,14 @@
           >Seed
           <input id="f-seed" type="number" value="42" />
         </label>
+        <label
+          >Score lag
+          <input id="f-lag" type="number" min="0" max="30" value="1" />
+        </label>
+        <label class="check">
+          <input id="f-scored" type="checkbox" checked />
+          Include scored twins
+        </label>
         <label class="check">
           <input id="f-live" type="checkbox" checked />
           Live MemoryIndex prices
@@ -57,6 +66,8 @@
 
       <p class="price-meta" id="price-meta" hidden></p>
       <p class="status" id="status" role="status">Loading…</p>
+
+      <section class="pair-compare" id="pair-compare" hidden></section>
 
       <section class="leaderboard" id="leaderboard" aria-live="polite"></section>
 
@@ -75,6 +86,21 @@
         </button>
         <button type="button" class="metric-tab" data-metric="realized_pnl" aria-selected="false">
           Realized P&amp;L
+        </button>
+      </div>
+
+      <div class="cohort-tabs" role="tablist" aria-label="Cohort filter">
+        <button type="button" class="cohort-tab" data-cohort="all" aria-selected="true">
+          All brokers
+        </button>
+        <button type="button" class="cohort-tab" data-cohort="baseline" aria-selected="false">
+          Baseline only
+        </button>
+        <button type="button" class="cohort-tab" data-cohort="scored" aria-selected="false">
+          Scored only
+        </button>
+        <button type="button" class="cohort-tab" data-cohort="pairs" aria-selected="false">
+          Pairs (baseline vs twin)
         </button>
       </div>
 

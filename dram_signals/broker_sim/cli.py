@@ -7,13 +7,14 @@ import json
 from pathlib import Path
 
 from dram_signals.broker_sim.simulation import format_summary, run_simulation
+from dram_signals.broker_sim.strategies import DEFAULT_SCORED_LAG_DAYS
 
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description=(
-            "Simulate three DRAM component brokers buying under market and "
-            "selling at/above market with overlapping customer books."
+            "Simulate DRAM component brokers (baseline + optional scored twins) "
+            "buying under market and selling at/above market."
         )
     )
     p.add_argument("--days", type=int, default=30, help="Simulation days (default 30)")
@@ -38,6 +39,26 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p.add_argument("--offers-per-day", type=int, default=6)
     p.add_argument("--bids-per-day", type=int, default=8)
+    scored = p.add_mutually_exclusive_group()
+    scored.add_argument(
+        "--with-scored",
+        dest="include_scored",
+        action="store_true",
+        default=True,
+        help="Include scored twins with fast memory-score access (default)",
+    )
+    scored.add_argument(
+        "--baseline-only",
+        dest="include_scored",
+        action="store_false",
+        help="Run only the three unscored baseline brokers",
+    )
+    p.add_argument(
+        "--score-lag",
+        type=int,
+        default=DEFAULT_SCORED_LAG_DAYS,
+        help=f"Observation lag in days for scored twins (default {DEFAULT_SCORED_LAG_DAYS})",
+    )
     prices = p.add_mutually_exclusive_group()
     prices.add_argument(
         "--live",
@@ -64,6 +85,8 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.days < 1:
         raise SystemExit("--days must be >= 1")
+    if args.score_lag < 0:
+        raise SystemExit("--score-lag must be >= 0")
     result = run_simulation(
         days=args.days,
         seed=args.seed,
@@ -73,6 +96,8 @@ def main(argv: list[str] | None = None) -> int:
         offers_per_day=args.offers_per_day,
         bids_per_day=args.bids_per_day,
         prefer_live_prices=args.prefer_live,
+        include_scored=args.include_scored,
+        score_lag_days=args.score_lag,
     )
     if args.json:
         print(json.dumps(result.summary(), indent=2, default=str))

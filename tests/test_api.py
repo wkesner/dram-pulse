@@ -203,7 +203,13 @@ def test_compute_notes_join_missing_labels():
 def test_broker_sim_api_offline(client: TestClient):
     resp = client.get(
         "/api/broker-sim",
-        params={"days": 3, "seed": 9, "live": "false", "starting_cash": 250000},
+        params={
+            "days": 3,
+            "seed": 9,
+            "live": "false",
+            "starting_cash": 250000,
+            "include_scored": "false",
+        },
     )
     assert resp.status_code == 200
     body = resp.json()
@@ -213,3 +219,22 @@ def test_broker_sim_api_offline(client: TestClient):
     assert len(body["history"]) == 3
     assert body["prices"]["source"] == "illustrative"
     assert "equity" in body["history"][0]["brokers"]["apex"]
+
+
+def test_broker_sim_api_with_scored_twins(client: TestClient):
+    resp = client.get(
+        "/api/broker-sim",
+        params={
+            "days": 4,
+            "seed": 3,
+            "live": "false",
+            "include_scored": "true",
+            "score_lag": 1,
+        },
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert len(body["brokers"]) == 6
+    assert len(body["pair_comparisons"]) == 3
+    assert body["include_scored"] is True
+    assert "apex_scored" in body["history"][0]["brokers"]

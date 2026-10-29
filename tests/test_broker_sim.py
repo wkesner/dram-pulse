@@ -109,14 +109,34 @@ def test_buy_requires_under_market() -> None:
         base_market_price=4.0,
     )
     bad = BuyOffer(sku="X", qty=100, offer_price=4.0, market_price=4.0)
-    assert _should_buy(spec, bad, product, state) is False
+    assert (
+        _should_buy(
+            spec,
+            bad,
+            product,
+            state,
+            min_buy_discount=spec.min_buy_discount,
+            inventory_target=spec.inventory_target_units,
+        )
+        is False
+    )
     assert _fill_buy(state, bad) is False
     assert state.units_bought == 0
     assert state.cash == 100_000
 
     good = BuyOffer(sku="X", qty=100, offer_price=3.5, market_price=4.0)
     # Apex min discount is 3%; 12.5% clears it.
-    assert _should_buy(spec, good, product, state) is True
+    assert (
+        _should_buy(
+            spec,
+            good,
+            product,
+            state,
+            min_buy_discount=spec.min_buy_discount,
+            inventory_target=spec.inventory_target_units,
+        )
+        is True
+    )
     assert _fill_buy(state, good) is True
     assert state.units_bought == 100
     assert state.cash == pytest.approx(100_000 - 350)
@@ -133,14 +153,14 @@ def test_sell_requires_at_or_above_market() -> None:
     under = SellBid(
         sku="X", qty=50, bid_price=3.9, market_price=4.0, customer="Dell"
     )
-    assert _should_sell(spec, under, state) == 0
+    assert _should_sell(under, state, min_sell_premium=spec.min_sell_premium) == 0
     assert _fill_sell(state, under, 50) is False
     assert state.units_sold == 0
 
     ok = SellBid(
         sku="X", qty=50, bid_price=4.0, market_price=4.0, customer="Dell"
     )
-    qty = _should_sell(spec, ok, state)
+    qty = _should_sell(ok, state, min_sell_premium=spec.min_sell_premium)
     assert qty == 50
     assert _fill_sell(state, ok, qty) is True
     assert state.units_sold == 50
@@ -157,7 +177,7 @@ def test_sell_cannot_exceed_inventory() -> None:
     bid = SellBid(
         sku="Y", qty=100, bid_price=5.0, market_price=4.5, customer="Apple"
     )
-    qty = _should_sell(spec, bid, state)
+    qty = _should_sell(bid, state, min_sell_premium=spec.min_sell_premium)
     assert qty == 40
     assert _fill_sell(state, bid, qty) is True
     assert state.units_on_hand("Y") == 0
@@ -178,17 +198,45 @@ def test_harbor_rejects_shallow_discount() -> None:
         base_market_price=4.0,
     )
     shallow = BuyOffer(sku="Z", qty=100, offer_price=3.80, market_price=4.0)  # 5%
-    assert _should_buy(harbor, shallow, product, state) is False
+    assert (
+        _should_buy(
+            harbor,
+            shallow,
+            product,
+            state,
+            min_buy_discount=harbor.min_buy_discount,
+            inventory_target=harbor.inventory_target_units,
+        )
+        is False
+    )
     deep = BuyOffer(sku="Z", qty=100, offer_price=3.40, market_price=4.0)  # 15%
-    assert _should_buy(harbor, deep, product, state) is True
+    assert (
+        _should_buy(
+            harbor,
+            deep,
+            product,
+            state,
+            min_buy_discount=harbor.min_buy_discount,
+            inventory_target=harbor.inventory_target_units,
+        )
+        is True
+    )
 
 
 def test_simulation_reproducible_and_cash_nonnegative() -> None:
     a = run_simulation(
-        days=15, seed=42, starting_cash=100_000, prefer_live_prices=False
+        days=15,
+        seed=42,
+        starting_cash=100_000,
+        prefer_live_prices=False,
+        include_scored=False,
     )
     b = run_simulation(
-        days=15, seed=42, starting_cash=100_000, prefer_live_prices=False
+        days=15,
+        seed=42,
+        starting_cash=100_000,
+        prefer_live_prices=False,
+        include_scored=False,
     )
     assert format_summary(a) == format_summary(b)
     assert len(a.history) == 15
@@ -203,7 +251,9 @@ def test_simulation_reproducible_and_cash_nonnegative() -> None:
 
 
 def test_simulation_has_three_named_brokers() -> None:
-    result = run_simulation(days=5, seed=1, prefer_live_prices=False)
+    result = run_simulation(
+        days=5, seed=1, prefer_live_prices=False, include_scored=False
+    )
     assert set(result.brokers) == {"apex", "harbor", "summit"}
     names = {s.spec.name for s in result.brokers.values()}
     assert "Apex Component Brokers" in names
@@ -216,7 +266,9 @@ def test_simulation_has_three_named_brokers() -> None:
 
 
 def test_default_starting_cash_is_250k() -> None:
-    result = run_simulation(days=2, seed=3, prefer_live_prices=False)
+    result = run_simulation(
+        days=2, seed=3, prefer_live_prices=False, include_scored=False
+    )
     assert result.starting_cash == 250_000.0
 
 
@@ -247,7 +299,7 @@ def test_products_from_minimal_seed() -> None:
 def test_cli_main_runs(capsys) -> None:
     from dram_signals.broker_sim.cli import main
 
-    assert main(["--days", "3", "--seed", "0", "--no-live"]) == 0
+    assert main(["--days", "3", "--seed", "0", "--no-live", "--baseline-only"]) == 0
     out = capsys.readouterr().out
     assert "Apex Component Brokers" in out
     assert "Customer overlap" in out

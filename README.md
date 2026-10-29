@@ -92,6 +92,13 @@ names — not three disjoint books). Starting cash is **$250k** per broker.
 | Harbor Electronics Trading | Deep discounts only, quick flips at ≥ market |
 | Summit Memory Partners | Balanced volume, broadest customer affinity |
 
+Each baseline has a **scored twin** (same strategy + $250k) with fast access to
+a simple 0–100 **memory timing score** (shortage ≥60 / glut ≤40; inspired by
+rubric S*/D* sides). Twins observe the latent score with **lag=1 day** by
+default and nudge buy/sell thresholds; baselines are unscored. Market mid
+drift is weakly biased by the true score so earlier information can matter.
+See `dram_signals/broker_sim/memory_score.py`.
+
 **Prices:** prefer the free MemoryIndex public board
 (`GET https://memoryindex.io/api/public/v1/prices`, no key for a 10-contract
 slice; optional `MEMORYINDEX_KEY`). Rows often cite DRAMeXchange / TrendForce
@@ -101,22 +108,22 @@ illustrative technology × density × grade model. Not used: DRAMeXchange HTML
 scrape (ToS), Ornn/DigiKey spot (paid keys).
 
 ```bash
-python3 -m scripts.simulate_brokers --days 30 --seed 42          # try live prices
-python3 -m scripts.simulate_brokers --days 30 --seed 42 --no-live
-python3 -m dram_signals.broker_sim --days 60 --seed 7 --json
-pytest tests/test_broker_sim.py tests/test_broker_live_prices.py
+python3 -m scripts.simulate_brokers --days 30 --seed 42          # baselines + scored twins
+python3 -m scripts.simulate_brokers --baseline-only --no-live
+python3 -m scripts.simulate_brokers --score-lag 1 --json
+pytest tests/test_broker_sim.py tests/test_broker_live_prices.py tests/test_broker_scored_twins.py
 ```
 
-**GUI / graphs** (equity, P&L, cash, inventory over time). Uses port **8010**
-so it does not collide with the feed server on 8000:
+**GUI / graphs** (equity, P&L, cash, inventory; baseline vs scored). Port **8010**
+avoids colliding with the feed server on 8000:
 
 ```bash
-uvicorn app.server:app --reload --port 8010
+uvicorn app.server:app --host 0.0.0.0 --port 8010
 # open http://127.0.0.1:8010/brokers.html
-# API: GET /api/broker-sim?days=30&seed=42&live=true
+# API: GET /api/broker-sim?days=30&seed=42&live=true&include_scored=true&score_lag=1
 ```
 
-Details: `dram_signals/broker_sim/` (especially `live_prices.py`).
+Details: `dram_signals/broker_sim/` (`live_prices.py`, `memory_score.py`).
 
 ## Milestone 5 — OpenDART + Samsung IR
 

@@ -69,22 +69,34 @@ class CustomerBook:
     def customers_for(self, broker_id: str) -> frozenset[str]:
         return self.membership.get(broker_id, frozenset())
 
-    def overlap_stats(self) -> dict[str, float | int]:
-        """Summary of how many customers sit on 1 / 2 / 3 broker books."""
+    def overlap_stats(
+        self,
+        broker_ids: Optional[Sequence[str]] = None,
+    ) -> dict[str, float | int]:
+        """Summary of how many customers sit on 1 / 2 / 3 broker books.
+
+        Pass ``broker_ids`` (e.g. baseline only) so scored twins that inherit
+        a parent's book do not inflate overlap counts.
+        """
+        ids = list(broker_ids) if broker_ids is not None else sorted(self.membership)
+        id_set = set(ids)
         counts = {1: 0, 2: 0, 3: 0}
-        for brokers in self.by_customer.values():
-            n = len(brokers)
+        for name in self.by_customer:
+            n = len(self.by_customer[name] & id_set)
             if n in counts:
                 counts[n] += 1
-        total = len(self.by_customer) or 1
+        # Customers with no membership in the filtered set are ignored in rate.
+        covered = counts[1] + counts[2] + counts[3]
+        total = covered or 1
         pairwise: dict[str, int] = {}
-        broker_ids = sorted(self.membership)
-        for i, a in enumerate(broker_ids):
-            for b in broker_ids[i + 1 :]:
-                shared = self.membership[a] & self.membership[b]
+        for i, a in enumerate(ids):
+            for b in ids[i + 1 :]:
+                shared = self.membership.get(a, frozenset()) & self.membership.get(
+                    b, frozenset()
+                )
                 pairwise[f"{a}|{b}"] = len(shared)
         return {
-            "customers": len(self.by_customer),
+            "customers": covered,
             "exclusive": counts[1],
             "on_two_brokers": counts[2],
             "on_three_brokers": counts[3],

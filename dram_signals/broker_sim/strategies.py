@@ -1,13 +1,14 @@
 """Named broker companies and their trading personalities.
 
-All three share the same objective: buy under market, sell at/above market.
-They differ in discount thresholds, sell patience, inventory appetite, and
-customer-book affinity (used when building overlapping books).
+Baseline trio (Apex / Harbor / Summit) share the objective: buy under market,
+sell at/above market. Each has a **scored twin** with the same personality and
+$250k start cash, but with fast memory-score access (see ``memory_score``).
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
+from typing import Optional
 
 
 @dataclass(frozen=True)
@@ -29,16 +30,24 @@ class BrokerSpec:
     customer_affinity: float
     # Prefer active-lifecycle SKUs when True (skip nrnd/obsolete unless deep).
     prefer_active: bool
+    # Memory-score access (scored twins only).
+    has_memory_score: bool = False
+    # Days of lag on the latent score (1 = see yesterday's true score).
+    score_lag_days: int = 1
+    # "baseline" or "scored".
+    cohort: str = "baseline"
+    # For scored twins: id of the unscored original.
+    parent_id: Optional[str] = None
 
 
-# Distinct fictional companies — not real brokers.
-BROKER_SPECS: tuple[BrokerSpec, ...] = (
+# Distinct fictional companies — not real brokers. Unscored baselines.
+BASELINE_SPECS: tuple[BrokerSpec, ...] = (
     BrokerSpec(
         broker_id="apex",
         name="Apex Component Brokers",
         personality=(
             "Hungry buyer: thin discounts OK, patient seller, holds inventory "
-            "to wait for a premium bid."
+            "to wait for a premium bid. No memory-score feed."
         ),
         min_buy_discount=0.03,
         min_sell_premium=0.02,
@@ -46,13 +55,15 @@ BROKER_SPECS: tuple[BrokerSpec, ...] = (
         max_cash_fraction_per_buy=0.35,
         customer_affinity=1.0,
         prefer_active=False,
+        has_memory_score=False,
+        cohort="baseline",
     ),
     BrokerSpec(
         broker_id="harbor",
         name="Harbor Electronics Trading",
         personality=(
             "Selective / cash-conservative: only deep discounts, flips inventory "
-            "at any price at or above market."
+            "at any price at or above market. No memory-score feed."
         ),
         min_buy_discount=0.12,
         min_sell_premium=0.0,
@@ -60,13 +71,15 @@ BROKER_SPECS: tuple[BrokerSpec, ...] = (
         max_cash_fraction_per_buy=0.15,
         customer_affinity=0.7,
         prefer_active=True,
+        has_memory_score=False,
+        cohort="baseline",
     ),
     BrokerSpec(
         broker_id="summit",
         name="Summit Memory Partners",
         personality=(
             "Volume / balanced: moderate discounts, sells near market, broadest "
-            "customer coverage, prefers active lifecycle SKUs."
+            "customer coverage, prefers active lifecycle SKUs. No memory-score feed."
         ),
         min_buy_discount=0.06,
         min_sell_premium=0.005,
@@ -74,9 +87,59 @@ BROKER_SPECS: tuple[BrokerSpec, ...] = (
         max_cash_fraction_per_buy=0.25,
         customer_affinity=1.35,
         prefer_active=True,
+        has_memory_score=False,
+        cohort="baseline",
     ),
 )
 
+# Back-compat alias used throughout the package.
+BROKER_SPECS: tuple[BrokerSpec, ...] = BASELINE_SPECS
 
-def specs_by_id() -> dict[str, BrokerSpec]:
-    return {s.broker_id: s for s in BROKER_SPECS}
+DEFAULT_SCORED_LAG_DAYS = 1
+
+
+def make_scored_twin(
+    base: BrokerSpec,
+    *,
+    score_lag_days: int = DEFAULT_SCORED_LAG_DAYS,
+) -> BrokerSpec:
+    """Clone a baseline broker with fast memory-score access."""
+    if base.cohort != "baseline" or base.parent_id is not None:
+        raise ValueError(f"Expected a baseline spec, got {base.broker_id}")
+    return replace(
+        base,
+        broker_id=f"{base.broker_id}_scored",
+        name=f"{base.name} (scored)",
+        personality=(
+            f"{base.personality} Twin with memory-score access "
+            f"(lag={score_lag_days} day(s))."
+        ),
+        has_memory_score=True,
+        score_lag_days=score_lag_days,
+        cohort="scored",
+        parent_id=base.broker_id,
+    )
+
+
+def scored_twin_specs(
+    *,
+    score_lag_days: int = DEFAULT_SCORED_LAG_DAYS,
+    baselines: tuple[BrokerSpec, ...] = BASELINE_SPECS,
+) -> tuple[BrokerSpec, ...]:
+    return tuple(make_scored_twin(b, score_lag_days=score_lag_days) for b in baselines)
+
+
+def all_broker_specs(
+    *,
+    include_scored: bool = True,
+    score_lag_days: int = DEFAULT_SCORED_LAG_DAYS,
+) -> tuple[BrokerSpec, ...]:
+    if not include_scored:
+        return BASELINE_SPECS
+    return BASELINE_SPECS + scored_twin_specs(score_lag_days=score_lag_days)
+
+
+def specs_by_id(
+    specs: tuple[BrokerSpec, ...] | None = None,
+) -> dict[str, BrokerSpec]:
+    return {s.broker_id: s for s in (specs or all_broker_specs())}

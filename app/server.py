@@ -273,8 +273,12 @@ def create_app(
         seed: int = Query(42),
         live: bool = Query(True, description="Prefer MemoryIndex live/public prices"),
         starting_cash: float = Query(250_000.0, gt=0),
+        include_scored: bool = Query(
+            True, description="Include scored twins with fast memory-score access"
+        ),
+        score_lag: int = Query(1, ge=0, le=30, description="Score lag days for twins"),
     ) -> dict[str, Any]:
-        """Run the three-broker DRAM market sim and return summary + history."""
+        """Run the broker market sim (baseline ± scored twins) + history."""
         from dram_signals.broker_sim.simulation import run_simulation
 
         result = run_simulation(
@@ -283,6 +287,8 @@ def create_app(
             starting_cash=starting_cash,
             companies_path=companies_path,
             prefer_live_prices=live,
+            include_scored=include_scored,
+            score_lag_days=score_lag,
         )
         return result.summary()
 

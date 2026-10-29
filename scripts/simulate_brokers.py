@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
-"""Simulate three DRAM electronic-component brokers competing for virtual P&L.
+"""Simulate DRAM electronic-component brokers competing for virtual P&L.
 
-Co-located with ``scripts/simulate_votes.py``. Brokers share a seed DRAM
-catalog and a partially overlapping customer universe; each tries to buy under
-market and sell at or above market.
+Co-located with ``scripts/simulate_votes.py``. Baseline Apex / Harbor / Summit
+plus optional scored twins (same personality, faster memory-score access).
 
 Usage::
 
     python3 -m scripts.simulate_brokers
     python3 -m scripts.simulate_brokers --days 60 --seed 7 --live
-    python3 -m scripts.simulate_brokers --no-live --json
-    python3 -m dram_signals.broker_sim --days 30 --seed 42
+    python3 -m scripts.simulate_brokers --baseline-only --no-live
+    python3 -m scripts.simulate_brokers --score-lag 1 --json
 
 GUI (port 8010 — avoids clash with the feed on 8000)::
 
-    uvicorn app.server:app --reload --port 8010
+    uvicorn app.server:app --host 0.0.0.0 --port 8010
     # http://127.0.0.1:8010/brokers.html
 """
 
