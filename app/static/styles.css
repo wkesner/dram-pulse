@@ -494,11 +494,44 @@ td.mono {
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
+.ms-tier-note {
+  margin: 0;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
 .ms-controls {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+}
+.ms-tier-switch {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--panel);
+}
+.ms-tier-switch button {
+  font: inherit;
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.ms-tier-switch button:last-child {
+  border-right: 0;
+}
+.ms-tier-switch button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
 }
 .ms-toggle,
 .ms-picked {

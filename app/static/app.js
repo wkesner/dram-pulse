@@ -167,12 +167,27 @@
   }
 
   const FILTERS = [
+    ["tier", "tier", "All tiers"],
     ["category", "product_category", "All categories"],
     ["family", "product_family", "All families"],
     ["direction", "supply_direction", "Any direction"],
     ["company", "company", "All companies"],
     ["role", "role", "Suppliers and buyers"],
     ["section", "section", "All sections"],
+  ];
+
+  const MAP_TIER_KEY = "ms-map-tier";
+  /** @type {string} "" = all tiers; default Tier 1 for the primary graph */
+  let mapTier = store.get(MAP_TIER_KEY, "1");
+  if (mapTier !== "" && mapTier !== "1" && mapTier !== "2" && mapTier !== "3") {
+    mapTier = "1";
+  }
+
+  /** @type {Array<{id:number,label:string,summary:string}>} */
+  let TIER_META = [
+    { id: 1, label: "Tier 1", summary: "Core graph" },
+    { id: 2, label: "Tier 2", summary: "F500–F1000 electronics / DC" },
+    { id: 3, label: "Tier 3", summary: "Smaller listed" },
   ];
 
   const userIn = $("#user-name");
@@ -199,10 +214,19 @@
   function optionLabel(field, value) {
     if (field === "supply_direction") return directionLabel(value);
     if (field === "product_family") return label(value);
+    if (field === "tier") {
+      const meta = TIER_META.find((t) => String(t.id) === String(value));
+      return meta ? `${meta.label}` : `Tier ${value}`;
+    }
     return String(value);
   }
 
   function filterValues(field) {
+    if (field === "tier") {
+      return ["1", "2", "3"].filter((t) =>
+        SIGNALS.some((s) => String(s.tier || "1") === t)
+      );
+    }
     const present = [
       ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
     ];
@@ -282,11 +306,15 @@
     return frag;
   }
 
-  function railFilteredSignals() {
+  function railFilteredSignals({ ignoreTier = false } = {}) {
     return SIGNALS.filter((s) =>
-      FILTERS.every(
-        ([id, field]) => !$("#f-" + id)?.value || s[field] === $("#f-" + id).value
-      )
+      FILTERS.every(([id, field]) => {
+        if (ignoreTier && field === "tier") return true;
+        const sel = $("#f-" + id);
+        if (!sel?.value) return true;
+        if (field === "tier") return String(s.tier || "1") === sel.value;
+        return s[field] === sel.value;
+      })
     );
   }
 
@@ -701,7 +729,51 @@
     if (!resp.ok) throw new Error(`meta ${resp.status}`);
     const data = await resp.json();
     META_NOTES = data.notes || null;
+    if (Array.isArray(data.tiers) && data.tiers.length) {
+      TIER_META = data.tiers.map((t) => ({
+        id: t.id,
+        label: t.label || `Tier ${t.id}`,
+        summary: t.summary || "",
+      }));
+    }
+    if (
+      data.default_map_tier != null &&
+      store.get(MAP_TIER_KEY, null) == null
+    ) {
+      mapTier = String(data.default_map_tier);
+    }
+    syncMapTierSwitch();
     return META_NOTES;
+  }
+
+  function syncMapTierSwitch() {
+    const root = $("#map-tier-switch");
+    if (!root) return;
+    for (const btn of root.querySelectorAll("button[data-tier]")) {
+      const v = btn.getAttribute("data-tier") ?? "";
+      btn.setAttribute("aria-pressed", String(v === mapTier));
+    }
+    const note = $("#ms-tier-note");
+    if (note) {
+      const meta = TIER_META.find((t) => String(t.id) === mapTier);
+      if (mapTier === "") {
+        note.textContent = "Map shows all tiers (Tier 1–3). Feed filter is separate.";
+      } else if (meta) {
+        note.textContent = `${meta.label} map — ${meta.summary || "scoped graph"}. Switch tiers for a different company set.`;
+      }
+    }
+  }
+
+  const mapTierRoot = $("#map-tier-switch");
+  if (mapTierRoot) {
+    mapTierRoot.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-tier]");
+      if (!btn) return;
+      mapTier = btn.getAttribute("data-tier") ?? "";
+      store.set(MAP_TIER_KEY, mapTier);
+      syncMapTierSwitch();
+      renderMap();
+    });
   }
 
   function renderDataNotes() {
@@ -732,7 +804,9 @@
   });
 
   function signalsInMapView() {
-    return railFilteredSignals().filter((s) => {
+    // Map has its own tier scope (default Tier 1) — separate from the feed filter.
+    return railFilteredSignals({ ignoreTier: true }).filter((s) => {
+      if (mapTier && String(s.tier || "1") !== mapTier) return false;
       if (leaveOutRisk && (s.section || "") === "risk_factors") return false;
       if (mapFamily && s.product_family !== mapFamily) return false;
       return true;
@@ -742,7 +816,8 @@
   /** Flatten sightings for month chart; apply rail + risk + family filters. */
   function sightingsInMapView() {
     const out = [];
-    for (const s of railFilteredSignals()) {
+    for (const s of railFilteredSignals({ ignoreTier: true })) {
+      if (mapTier && String(s.tier || "1") !== mapTier) continue;
       if (mapFamily && s.product_family !== mapFamily) continue;
       const list = s.sightings || [];
       if (!list.length) {
@@ -835,10 +910,11 @@
       );
     }
 
-    // Family chart — rail filters + optional risk leave-out (dim non-selected)
-    const famSource = railFilteredSignals().filter(
-      (s) => !(leaveOutRisk && (s.section || "") === "risk_factors")
-    );
+    // Family chart — map tier + rail filters + optional risk leave-out
+    const famSource = railFilteredSignals({ ignoreTier: true }).filter((s) => {
+      if (mapTier && String(s.tier || "1") !== mapTier) return false;
+      return !(leaveOutRisk && (s.section || "") === "risk_factors");
+    });
     const fams = new Map();
     for (const s of famSource) {
       const key = s.product_family || "(unknown)";

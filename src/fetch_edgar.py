@@ -49,6 +49,8 @@ class Company:
     ticker: str
     krx_code: str | None = None
     forms: tuple[str, ...] = DEFAULT_FORMS
+    # 1 = primary map; 2 = F500–F1000 electronics/DC; 3 = smaller listed.
+    tier: int = 1
 
 
 class RateLimitedSession:
@@ -119,17 +121,47 @@ def load_companies(path: Path) -> list[Company]:
             form_tuple = tuple(str(f).upper() for f in forms)
         else:
             form_tuple = DEFAULT_FORMS
+        tier_raw = row.get("tier", 1)
+        try:
+            tier = int(tier_raw)
+        except (TypeError, ValueError):
+            tier = 1
+        if tier not in {1, 2, 3}:
+            tier = 1
+        ticker = str(row["ticker"])
+        # Keep Korean stock codes zero-padded; uppercase Latin tickers.
+        if ticker.isdigit():
+            ticker = ticker.zfill(6)
+        else:
+            ticker = ticker.upper()
         out.append(
             Company(
                 name=row["name"],
                 role=row["role"],
                 source=row["source"],
-                ticker=str(row["ticker"]).upper(),
+                ticker=ticker,
                 krx_code=str(row["krx_code"]) if row.get("krx_code") else None,
                 forms=form_tuple,
+                tier=tier,
             )
         )
     return out
+
+
+def company_tier_index(path: Path) -> dict[str, int]:
+    """Map ticker_or_code / company name → tier (lowest tier wins on conflict)."""
+    by_key: dict[str, int] = {}
+    for c in load_companies(path):
+        for key in {c.ticker, c.name, (c.krx_code or "")}:
+            if not key:
+                continue
+            k = key.strip()
+            prev = by_key.get(k)
+            if prev is None or c.tier < prev:
+                by_key[k] = c.tier
+            # Also index uppercase ticker variants
+            by_key[k.upper()] = by_key[k]
+    return by_key
 
 
 def resolve_user_agent() -> str:
@@ -466,6 +498,8 @@ def fetch_one_filing(
     meta = {
         "company": company.name,
         "ticker": company.ticker,
+        "role": company.role,
+        "tier": company.tier,
         "cik": cik if isinstance(cik, str) else f"{int(cik):010d}",
         "form": form,
         "filing_date": filing["filingDate"],

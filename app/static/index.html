@@ -96,6 +96,15 @@
               <option value="easing">Easing (loosening)</option>
             </select>
           </label>
+          <label for="f-tier"
+            >Tier
+            <select id="f-tier" title="Tier 1 = primary graph; 2–3 = broader public set">
+              <option value="">All tiers</option>
+              <option value="1">Tier 1 — core graph</option>
+              <option value="2">Tier 2 — F500–F1000</option>
+              <option value="3">Tier 3 — smaller listed</option>
+            </select>
+          </label>
           <label for="f-company"
             >Company
             <select id="f-company">
@@ -160,9 +169,23 @@
                   <b id="ms-t-tight">—</b> of <b id="ms-t-all">—</b> signals in
                   this view point to tightening supply<span id="ms-t-fam"></span>.
                 </p>
+                <p class="ms-tier-note" id="ms-tier-note">
+                  Graphs are scoped by company tier — Tier 1 is the default map.
+                </p>
               </header>
 
               <div class="ms-controls">
+                <div
+                  class="ms-tier-switch"
+                  id="map-tier-switch"
+                  role="group"
+                  aria-label="Map company tier"
+                >
+                  <button type="button" data-tier="1" aria-pressed="true">Tier 1</button>
+                  <button type="button" data-tier="2" aria-pressed="false">Tier 2</button>
+                  <button type="button" data-tier="3" aria-pressed="false">Tier 3</button>
+                  <button type="button" data-tier="" aria-pressed="false">All</button>
+                </div>
                 <button
                   class="ms-toggle"
                   type="button"

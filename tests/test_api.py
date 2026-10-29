@@ -164,6 +164,18 @@ def test_skip_persists_and_does_not_tally(client: TestClient, data_dir: Path):
     assert any(v["user"] == "Dana" and v["vote"] == "0" for v in votes)
 
 
+def test_meta_exposes_tiers_and_signals_have_tier(client: TestClient, data_dir: Path):
+    meta = client.get("/api/meta").json()
+    assert "tiers" in meta and len(meta["tiers"]) == 3
+    assert meta["default_map_tier"] == 1
+    assert meta["company_roster"]
+    assert {c["tier"] for c in meta["company_roster"]} <= {1, 2, 3}
+
+    signals = client.get("/api/signals").json()
+    assert signals
+    assert all(str(s.get("tier")) in {"1", "2", "3"} for s in signals)
+
+
 def test_meta_notes_match_signals(client: TestClient, data_dir: Path):
     signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
     meta = client.get("/api/meta").json()

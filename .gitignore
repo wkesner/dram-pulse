@@ -32,3 +32,4 @@ data/aggregates/**
 .env.local
 
 .clerk/
+company_tickers.json

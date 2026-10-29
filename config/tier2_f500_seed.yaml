@@ -1,0 +1,102 @@
+# Curated Fortune-scale / electronics-distribution seed (Tier 2) and broker-dense
+# public names (Tier 3). Merged into companies.yaml — this file is the rationale log.
+#
+# fortune_hint: approximate 2025 Fortune 500 rank when known (guide only).
+
+seed:
+  - ticker: IBM
+    tier: 2
+    fortune_hint: 68
+    why: Hybrid cloud / servers — memory demand in filings
+  - ticker: ORCL
+    tier: 2
+    fortune_hint: 87
+    why: Cloud & datacenter capacity / AI infra
+  - ticker: SNX
+    tier: 2
+    fortune_hint: 73
+    why: Electronics wholesale distribution
+  - ticker: ARW
+    tier: 2
+    fortune_hint: 154
+    why: Electronics wholesale distribution
+  - ticker: AVT
+    tier: 2
+    fortune_hint: 181
+    why: Electronics wholesale distribution
+  - ticker: CDW
+    tier: 2
+    fortune_hint: null
+    why: IT reseller — enterprise hardware demand
+  - ticker: FLEX
+    tier: 2
+    fortune_hint: null
+    why: EMS peer to Jabil
+  - ticker: BBY
+    tier: 2
+    fortune_hint: 108
+    why: Electronics retail channel
+  - ticker: VRT
+    tier: 2
+    fortune_hint: 471
+    why: Datacenter thermal / power
+  - ticker: NTAP
+    tier: 2
+    fortune_hint: null
+    why: Enterprise storage — flash/DRAM attach
+  - ticker: LRCX
+    tier: 2
+    fortune_hint: null
+    why: WFE memory fab capex proxy
+  - ticker: KLAC
+    tier: 2
+    fortune_hint: null
+    why: Process control / WFE
+  - ticker: ASML
+    tier: 2
+    fortune_hint: null
+    why: Lithography (20-F/6-K)
+  - ticker: TEL
+    tier: 2
+    fortune_hint: null
+    why: Interconnect for servers / DC
+  - ticker: GLW
+    tier: 2
+    fortune_hint: null
+    why: Glass / optics materials
+  - ticker: WCC
+    tier: 2
+    fortune_hint: 199
+    why: Electrical / datacenter distribution
+  - ticker: PANW
+    tier: 2
+    fortune_hint: 470
+    why: Security appliances — hardware BOM
+  - ticker: KEYS
+    tier: 2
+    fortune_hint: null
+    why: Electronic test equipment
+  - ticker: SANM
+    tier: 3
+    why: EMS mid-market
+  - ticker: CLS
+    tier: 3
+    why: EMS / datacenter hardware
+  - ticker: PLXS
+    tier: 3
+    why: EMS mid-market
+  - ticker: BHE
+    tier: 3
+    why: EMS mid-market
+  - ticker: NSIT
+    tier: 3
+    why: IT reseller
+  - ticker: COHU
+    tier: 3
+    why: Semiconductor test / handlers — memory & advanced packaging adjacency
+  - ticker: AEIS
+    tier: 3
+    why: Fab power systems
+  - ticker: FFIV
+    tier: 3
+    why: Application delivery appliances
