@@ -1,0 +1,22 @@
+{
+  "company": "IQE",
+  "ticker": "IQE",
+  "role": "supplier",
+  "source": "CH",
+  "form": "confirmation-statement-with-no-updates",
+  "filing_date": "2026-04-01",
+  "accession_number": "MzUxMzg2MjE4MmFkaXF6a2N4",
+  "filing_id": "MzUxMzg2MjE4MmFkaXF6a2N4",
+  "company_number": "03745726",
+  "category": "confirmation-statement",
+  "title": "confirmation-statement-with-no-updates",
+  "source_url": "https://find-and-update.company-information.service.gov.uk/company/03745726/filing-history",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "en",
+  "fetched_at": "2026-10-29T22:21:25.726123+00:00",
+  "paths": {
+    "other_full": "data/raw/IQE/MzUxMzg2MjE4MmFkaXF6a2N4/other_full.txt"
+  }
+}
