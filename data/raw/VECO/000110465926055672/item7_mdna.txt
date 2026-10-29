@@ -1,0 +1,1021 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+​
+Cautionary Statement Regarding Forward Looking Statements
+​
+Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is intended to facilitate an understanding of our business and results of operations. This MD&A should be read in conjunction with our Consolidated Financial Statements and the accompanying Notes to Consolidated Financial Statements included elsewhere in this Form 10-Q. The following discussion contains forward-looking statements and should also be read in conjunction with the cautionary statement set forth at the beginning of this Form 10-Q.
+​
+The following section generally discusses 2026 and 2025 items and year-to-year comparisons between 2026 and 2025. Discussions of 2025 items that are not included in this Form 10-Q can be found in "Management's Discussion and Analysis of Financial Condition and Results of Operations" in Item 2 of our Quarterly Report on Form 10-Q for the interim period ended March 31, 2025, filed on May 7, 2025.
+​
+Executive Summary
+​
+We are an innovative manufacturer of semiconductor process equipment. Our proven ion beam, laser annealing, lithography, MOCVD, and single wafer wet processing technologies play an integral role in the fabrication and packaging of advanced semiconductor devices. With equipment designed to optimize performance, yield and cost of ownership, Veeco holds leading technology positions in the markets we serve. To learn more about Veeco’s systems and service offerings, visit
+www.veeco.com
+.
+​
+Merger with Axcelis Technologies, Inc.
+​
+On September 30, 2025, we entered into an Agreement and Plan of Merger (the “Merger Agreement”) with Axcelis Technologies, Inc., a Delaware corporation (“Axcelis”), and Victory Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of Axcelis (“Merger Sub”). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, Merger Sub shall be merged with and into Veeco (the “Merger”), with Veeco surviving as a wholly-owned subsidiary of Axcelis. The Merger Agreement was approved by our board of directors (except for one (1) independent director who serves on the Axcelis’ board of directors as well who recused himself) and, on February 6, 2026, by the stockholders of each company. The completion of the Merger remains subject to the satisfaction or (to the extent permissible) waiver of customary closing conditions, including the final pending regulatory approval from the State Administration for Market Regulation of the People’s Republic of China.
+​
+For more information regarding the Merger, see Note 10 “Merger” to the accompanying Consolidated Financial Statements included elsewhere in this Quarterly Report on Form 10-Q.
+​
+Business Update
+​
+Overview
+​
+Sales in the Semiconductor industry are estimated to have increased year-over-year in 2025 to approximately $770 billion dollars, according to Gartner. Looking ahead, industry analysts are forecasting long-term growth of the industry, driven by secular growth trends such as artificial intelligence, high-performance computing, mobile connectivity, and the electrification of the automotive industry. Additionally, government investments in the Semiconductor industry are projected to accelerate global spending in next-generation technologies.
+​
+Growth in the Semiconductor industry, coupled with increasing technological complexity of Semiconductor chips, are expected to drive long-term growth in Wafer Fab Equipment (“WFE”) spending. In an effort to improve chip performance, optimize power consumption, and reduce costs, today’s most advanced Semiconductor manufacturers are shrinking device geometries, investing in more complex transistor designs such as Gate-All-Around and exploring 3D
+24
+
+Table of Contents
+architectures. As a result, growth of the WFE market is forecasted to keep pace with long-term growth of the Semiconductor industry, which we believe should benefit semiconductor capital equipment providers, including Veeco.
+​
+Veeco’s technologies are at the forefront of enabling new technical innovations in the manufacturing of high-performance AI chips and High-Bandwidth Memory (“HBM”). We continue to invest in new technologies to expand our Serviceable Available Market (“SAM”) to a broad range of new applications.
+​
+Semiconductor Market
+​
+Semiconductor revenue comprised 69% of first quarter total revenue primarily driven by system shipments of our Laser Spike Annealing (“LSA”), and our Advanced Packaging, wet processing and lithography products. Semiconductor revenue decreased 12% from the comparable prior period due to a reduction in China revenue of 74% partially offset by increases in Rest of APAC revenue of 38% and United States revenue of 69%.
+​
+In the logic market, our annealing solutions continue to gain traction at advanced node customers. Our LSA platform is production tool of record at all three Tier 1 logic customers. Our next-generation Nanosecond Annealing (“NSA”) system is progressing through evaluations at Tier 1 logic customers. Our NSA tool addresses critical low-thermal budget applications such as contact annealing, 3D device integration and materials modification. These evaluations are advancing well, and we are anticipating an additional evaluation shipment to a third Tier 1 logic customer in the coming months.
+​
+In the memory market, we continue to expand our presence as current and future roadmap requirements for Dynamic-Random-Access Memory (“DRAM”) drive the need for low-thermal-budget anneals used in high-band-width memory and vertical DRAM devices. We are the production tool of record at a leading high-bandwidth memory customer, and we continue to make progress with another LSA evaluation system at a second Tier 1 DRAM customer, with potential for pilot line orders in the second half of 2026.
+​
+We also have two Ion Beam Deposition “IBD300” systems under evaluation at leading DRAM memory customers. Our IBD300 system provides Veeco with another opportunity to expand our SAM to advanced node applications where low resistance films are critical. These initial systems are being evaluated for advanced memory applications, such as DRAM bitline metallization.
+​
+The ongoing adoption of EUV Lithography for advanced node semiconductor manufacturing continues to drive demand for our Ion Beam Deposition EUV system for mask blanks. Leading logic and memory customers expect EUV and High Numerical Aperture (“High-NA”) lithography to be integral to their future roadmaps. Our Ion Beam Deposition technology is a key enabler of the EUV mask blank Multiple Layer Mirror deposition. Our product roadmap is well positioned as the industry adopts next-generation High-NA EUV lithography, and we are expanding our EUV related business to EUV pellicles which are increasingly being used to improve the productivity of EUV steps. Our IBD-EUV system is also used to form the high-transparency membrane used in pellicles.
+​
+In Advanced Packaging (“AP”), our wet processing systems are used for several applications, and we continue to see strong demand driven by Heterogenous Integration and 2.5D and 3D Packaging for AI and high-performance computing. In the first quarter, we had an increase in orders for our wet processing systems from leading OSAT customers, supporting high-volume manufacturing of next-generation AI accelerators using 2.5D AP architectures.
+​
+Looking ahead, we anticipate growth in the semiconductor market in leading-edge investment driven by AI and high-performance computing.
+
+​
+Compound Semiconductor Market
+​
+Compound Semiconductor revenue increased by 31% in the first quarter from the comparable prior year period, comprising 12% of total revenue. In the Compound Semiconductor market, we have a broad portfolio of products which are gaining momentum due to a significant inflection point within the industry with AI data center infrastructure build-out.
+25
+
+Table of Contents
+​
+The AI build-out is impacting interconnects where there is a shift from copper wiring to pluggables and co-packaged optics as data centers demand higher-speed and lower-power communication. Within this space, Indium Phosphide (“InP”) lasers are a major component as the light-source for pluggables and co-packaged optics for next-generation AI infrastructure. As the industry transitions toward future capacity requirements, we believe this represents growth opportunity of approximately $2.0 billion dollars over the next several years. Our technology plays a critical role within the manufacturing of InP lasers and order demand is greatly accelerating across multiple of our products. These products include Lumina MOCVD Arsenide Phosphide batch platform, Wafer Etch and Wafer Storm for etching and metal lift-off, and importantly our Spector ion beam deposition for the laser diode facet coatings. Our Spector ion beam deposition system, designed for the critical laser facet coating step, is essential to the process. Veeco is the market leader in ion beam deposition and is highly differentiated from traditional approaches such as E-beam evaporation, ion assisted deposition or physical vapor deposition (“PVD”). Compared with other approaches, the Spector Ion Beam Deposition (“IBD”) tool delivers low-loss optical films with tight control of thickness, uniformity, and reflectivity – precision that is required for anti-reflective and high-reflective facet coatings on InP. We received orders over $250 million dollars from multiple customers for our MOCVD, wet processing and ion beam deposition tools to support the manufacturing of InP lasers with deliveries starting in 2026 and significantly accelerating in 2027. A large portion of these orders is from a leading supplier of next-generation 800-gig and 1.6-terabit optical transceivers for hyperscale customers, for our Spector IBD systems. This significant order activity underscores the long-term value of our ion beam deposition technology leadership and our expanding role in this rapidly growing market. We have long-standing partnerships with our customers, spanning more than two decades, and we are well positioned across our multiple differentiated products to meet their growing needs in silicon photonics.
+​
+Additionally, there are other photonics applications driving growth for our products in this space, including red MircoLEDs, low earth orbit solar cells and augmented / virtual reality applications.
+​
+Lastly, our Propel300mm GaN on Si product continues to be a strong long-term driver tied to AI data center power efficiency, electrification, and high-power density applications. At a leading power IDM customer, we have an evaluation for our Propel300 system in place, and we received a pilot-line order for a multi-chamber system at the end of 2025. As this leading customer ramps and finalizes long-term capacity plans, there is potential for additional system orders in the second half of 2026 for delivery in 2027.
+​
+We expect our compound semiconductor market to grow as AI, power efficiency and advanced connectivity continue to reshape the industry.
+​
+​
+Data Storage Market
+​
+Data Storage market revenue increased by 52% in the first quarter from the comparable prior year period, comprising 6% of total revenue. We address the Data Storage market with sales of our Ion Beam technology and wet process systems driven by demand for cloud and AI data centers. We have seen increase in order activity in the back-half of 2025 and increased customer utilization rates as customers gain traction in new technologies like Heat Assisted-Magnetic-Recording (“HAMR”). Orders received in the third and fourth quarter of 2025 for our ion beam and wet processing equipment from demand for cloud and AI data centers, will drive revenue growth in 2026, principally in the second half. Customer engagement remains strong with our business fully booked in 2026 and extending into 2027.
+​
+Scientific & Other Market
+​
+Scientific & Other market revenue decreased by 9% in the first quarter from the comparable prior year period, comprising 13% of total revenue. Sales in the Scientific & Other market are largely driven by sales to government-funded laboratories, universities, and research institutions. We address the Scientific & Other market with several technologies, including MBE, ALD, MOCVD, Wet Processing, and IBD/IBE, which support diverse R&D and niche low-volume production applications.
+​
+​
+26
+
+Table of Contents
+Results of Operations
+​
+For the three months ended March 31, 2026 and 2025
+​
+The following table presents revenue and expense line items reported in our Consolidated Statements of Operations for the indicated periods in 2026 and 2025 and the period-over-period dollar and percentage changes for those line items. Our results of operations are reported as one business segment, represented by our single operating segment.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended March 31,
+​
+​
+Change
+​
+​
+​
+2026
+​
+​
+2025
+​
+​
+Period to Period
+​
+​
+​
+(dollars in thousands)
+​
+Net sales
+  ​ ​ ​
+$
+ 158,341
+  ​ ​ ​
+100%
+​
+​
+$
+ 167,292
+  ​ ​ ​
+100%
+​
+​
+$
+ (8,951)
+  ​ ​ ​
+(5)%
+​
+  ​ ​ ​
+Cost of sales
+​
+ 
+ 102,513
+ 
+65%
+​
+​
+ 
+ 98,825
+ 
+59%
+​
+​
+ 
+ 3,688
+ 
+4%
+​
+​
+Gross profit
+​
+ 
+ 55,828
+ 
+35%
+​
+​
+ 
+ 68,467
+ 
+41%
+​
+​
+ 
+ (12,639)
+ 
+(18)%
+​
+​
+Operating expenses, net:
+​
+ 
+  ​
+ 
+  ​
+​
+​
+ 
+  ​
+ 
+​
+​
+​
+ 
+  ​
+ 
+​
+​
+​
+Research and development
+​
+ 
+ 29,875
+ 
+19%
+​
+​
+ 
+ 28,514
+ 
+17%
+​
+​
+ 
+ 1,361
+ 
+5%
+​
+​
+Selling, general, and administrative
+​
+ 
+ 26,016
+ 
+16%
+​
+​
+ 
+ 25,028
+ 
+15%
+​
+​
+ 
+ 988
+ 
+4%
+​
+​
+Amortization of intangible assets
+​
+ 
+ 705
+ 
+0%
+​
+​
+ 
+ 821
+ 
+0%
+​
+​
+ 
+ (116)
+ 
+(14)%
+​
+​
+Merger costs
+​
+ 
+ 2,012
+ 
+1%
+​
+​
+ 
+ —
+ 
+0%
+​
+​
+ 
+ 2,012
+ 
+*
+​
+​
+Other operating expense (income), net
+​
+ 
+ (122)
+ 
+(0)%
+​
+​
+ 
+ (44)
+ 
+(0)%
+​
+​
+ 
+ (78)
+ 
+*
+​
+​
+Total operating expenses, net
+​
+ 
+ 58,486
+ 
+37%
+​
+​
+ 
+ 54,319
+ 
+32%
+​
+​
+ 
+ 4,167
+ 
+8%
+​
+​
+Operating income (loss)
+​
+ 
+ (2,658)
+ 
+(2)%
+​
+​
+ 
+ 14,148
+ 
+8%
+​
+​
+ 
+ (16,806)
+ 
+*
+​
+​
+Interest income, net
+​
+ 
+ 1,175
+ 
+1%
+​
+​
+ 
+ 836
+ 
+0%
+​
+​
+ 
+ 339
+ 
+41%
+​
+​
+Income (loss) before income taxes
+​
+ 
+ (1,483)
+ 
+(1)%
+​
+​
+ 
+ 14,984
+ 
+9%
+​
+​
+ 
+ (16,467)
+ 
+(110)%
+​
+​
+Income tax expense (benefit)
+​
+ 
+ (1,159)
+ 
+(1)%
+​
+​
+ 
+ 3,037
+ 
+2%
+​
+​
+ 
+ (4,196)
+ 
+(138)%
+​
+​
+Net income (loss)
+​
+$
+ (324)
+ 
+(0)%
+​
+​
+$
+ 11,947
+ 
+7%
+​
+​
+$
+ (12,271)
+ 
+(103)%
+​
+​
+*   Not meaningful
+Net Sales
+The following is an analysis of sales by market and by region:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended March 31,
+​
+​
+Change
+ 
+​
+​
+​
+2026
+​
+​
+2025
+​
+​
+Period to Period
+ 
+​
+​
+​
+(dollars in thousands)
+ 
+​
+Sales by end-market
+  ​ ​ ​
+​
+  ​
+  ​ ​ ​
+  ​
+​
+​
+​
+  ​
+  ​ ​ ​
+  ​
+​
+​
+​
+  ​
+  ​ ​ ​
+  ​
+​
+  ​ ​ ​
+Semiconductor
+​
+$
+ 109,042
+ 
+69%
+​
+​
+$
+ 123,823
+ 
+74%
+​
+​
+$
+ (14,781)
+ 
+(12)%
+​
+​
+Compound Semiconductor
+​
+ 
+ 18,808
+ 
+12%
+​
+​
+ 
+ 14,397
+ 
+9%
+​
+​
+ 
+ 4,411
+ 
+31%
+​
+​
+Data Storage
+​
+ 
+ 10,213
+ 
+6%
+​
+​
+ 
+ 6,705
+ 
+4%
+​
+​
+ 
+ 3,508
+ 
+52%
+​
+​
+Scientific & Other
+​
+ 
+ 20,278
+ 
+13%
+​
+​
+ 
+ 22,367
+ 
+13%
+​
+​
+ 
+ (2,089)
+ 
+(9)%
+​
+​
+Total
+​
+$
+ 158,341
+ 
+100%
+​
+​
+$
+ 167,292
+ 
+100%
+​
+​
+$
+ (8,951)
+ 
+(5)%
+​
+​
+Sales by geographic region
+​
+ 
+  ​
+ 
+  ​
+​
+​
+ 
+  ​
+ 
+  ​
+​
+​
+ 
+  ​
+ 
+​
+​
+​
+United States
+​
+$
+ 32,225
+ 
+20%
+​
+​
+$
+ 24,062
+ 
+15%
+​
+​
+$
+ 8,163
+ 
+34%
+​
+​
+EMEA
+​
+ 
+ 15,784
+ 
+10%
+​
+​
+ 
+ 12,337
+ 
+7%
+​
+​
+ 
+ 3,447
+ 
+28%
+​
+​
+China
+​
+​
+ 19,956
+​
+13%
+​
+​
+​
+ 70,892
+​
+42%
+​
+​
+​
+ (50,936)
+ 
+(72)%
+​
+​
+Rest of APAC
+​
+ 
+ 90,364
+ 
+57%
+​
+​
+ 
+ 59,976
+ 
+36%
+​
+​
+ 
+ 30,388
+ 
+51%
+​
+​
+Rest of World
+​
+ 
+ 12
+ 
+-
+​
+​
+ 
+ 25
+ 
+-
+​
+​
+ 
+ (13)
+ 
+(52)%
+​
+​
+Total
+​
+$
+ 158,341
+ 
+100%
+​
+​
+$
+ 167,292
+ 
+100%
+​
+​
+$
+ (8,951)
+ 
+(5)%
+​
+​
+​
+Sales decreased for the three months ended March 31, 2026 against the comparable prior year period driven by a decrease in sales in the Semiconductor, and Scientific & Other markets, partially offset by an increase in sales in the
+27
+
+Table of Contents
+Compound Semiconductor and Data Storage markets. By geography, sales decreased in the China region, partially offset by increased sales in the Rest of APAC, United States, and EMEA regions. Sales in the Rest of APAC region for the three months ended March 31, 2026 included sales in Taiwan and Japan of $65.6 million and $9.2 million, respectively. Sales in the Rest of APAC region for the three months ended March 31, 2025 included sales in Japan and Taiwan of $32.5 million, and $14.0 million respectively. In light of the global nature of our business, we are impacted by conditions in the various countries in which we and our customers operate, including the recent tariff and trade dynamics. We expect there will continue to be year-to-year variations in our future sales distribution across markets and geographies.
+​
+Gross Profit
+​
+For the three months ended March 31, 2026, gross profit decreased against the comparable prior period primarily due to a decrease in sales volume, as well as a decrease in gross margins. Gross margins decreased principally due to unfavorable product mix and higher logistics costs. Additionally other factors will cause our gross margins to fluctuate each period, including the impact of the evolving tariffs landscape, which may include potential refunds on previously paid tariffs, newly implemented tariffs, or changes to existing tariffs.
+​
+Research and Development
+​
+The markets we serve are characterized by continuous technological development and product innovation, and we invest in various research and development initiatives to maintain our competitive advantage and achieve our growth objectives. Research and development expenses increased for the three months ended March 31, 2026 against the comparable prior period due to an increase in personnel-related expenses.
+​
+Selling, General, and Administrative
+​
+Selling, general, and administrative expenses increased for the three months ended March 31, 2026 against the comparable prior period due to personnel-related expenses.
+ 
+Merger Costs
+​
+During the three months ended March 31, 2026, we incurred an additional $2.0 million in legal, accounting, consulting fees and employee-related costs in connection with the proposed Merger.
+​
+Interest Income (Expense)
+​
+We recorded net interest income of $1.2 million for the three months ended March 31, 2026, compared to net interest income of $0.8 million for the comparable prior year period. The increase in net interest income was primarily due to reduced interest expense on the 2025 Notes as they matured on January 15, 2025 and the 2027 Notes that were settled on May 15, 2025.
+​
+Income Taxes
+​
+Our tax benefit for the three months ended March 31, 2026, was $1.2 million, compared to $3.0 million of tax expense for the comparable prior period. For the three months ended March 31, 2026, the effective tax rate was higher than the U.S. statutory tax rate primarily related to a discrete income tax benefit for share-based compensation windfall. For the three months ended March 31, 2025, the effective tax rate was in line with the U.S. statutory tax rate, which included a $1.5 million tax expense related to share-based compensation shortfalls, partially offset by tax benefits related to Foreign-Derived Intangible Income and research and development tax credits.
+​
+28
+
+Table of Contents
+Liquidity and Capital Resources
+​
+Our cash and cash equivalents, restricted cash, and short-term investments are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+December 31,
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+(in thousands)
+Cash and cash equivalents
+​
+$
+ 179,535
+​
+$
+ 163,466
+Short-term investments
+​
+ 
+ 203,796
+​
+ 
+ 226,763
+Total
+​
+$
+ 383,331
+​
+$
+ 390,229
+​
+At March 31, 2026 and December 31, 2025, cash and cash equivalents of $34.0 million and $23.6 million, respectively, were held outside the United States. As of March 31, 2026, we had $27.5 million of accumulated undistributed earnings generated by our non-U.S. subsidiaries for which the U.S. tax has previously been provided. Approximately $13.4 million of undistributed earnings will be subject to foreign withholding taxes if distributed back to the United States and we accrued $1.4 million for foreign withholding taxes for the undistributed earnings.
+​
+We believe that our projected cash flow from operations, combined with our cash and short-term investments, will be sufficient to meet our projected working capital requirements, contractual obligations, and other cash flow needs for the next twelve months, including scheduled principal and interest payments on our convertible senior notes, purchase commitments, and payments required under our operating leases.
+​
+A summary of the cash flow activity for the three months ended March 31, 2026 and 2025 is as follows:
+​
+Cash Flows from Operating Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended March 31,
+  ​ ​ ​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands)
+​
+Net income (loss)
+​
+$
+ (324)
+​
+$
+ 11,947
+​
+Non-cash items:
+​
+​
+​
+​
+​
+​
+​
+Depreciation and amortization
+​
+ 
+ 5,037
+​
+ 
+ 5,035
+​
+Non-cash interest expense
+​
+ 
+ 244
+​
+ 
+ 257
+​
+Deferred income taxes
+​
+ 
+ (1,088)
+​
+ 
+ 1,567
+​
+Share-based compensation expense
+​
+ 
+ 8,511
+​
+ 
+ 9,208
+​
+Changes in operating assets and liabilities
+​
+ 
+ (4,445)
+​
+ 
+ (8,022)
+​
+Net cash provided by (used in) operating activities
+​
+$
+ 7,935
+​
+$
+ 19,992
+​
+​
+Net cash provided by operating activities was $7.9 million for the three months ended March 31, 2026 and was due to net loss of $0.3 million and adjustments for non-cash items of $12.7 million, partially offset by a decrease in cash flow from changes in operating assets and liabilities of $4.4 million. The changes in operating assets and liabilities were largely attributable to an increase in accounts receivables, and inventories, partially offset by an increase in contract liabilities, accrued expenses, and accounts payable.
+​
+Cash Flows from Investing Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands)
+​
+Capital expenditures
+​
+$
+ (5,103)
+​
+$
+ (6,755)
+​
+Changes in investments, net
+​
+ 
+ 22,794
+​
+ 
+ 21,278
+​
+Net cash provided by (used in) investing activities
+​
+$
+ 17,691
+​
+$
+ 14,523
+​
+​
+The cash provided by investing activities during the three months ended March 31, 2026 was primarily attributable to net cash provided for investment activity, partially offset by capital expenditures. The cash provided by investing activities
+29
+
+Table of Contents
+during the three months ended March 31, 2025 was primarily attributable to net cash used for investment activity, partially offset by capital expenditures.
+ 
+Cash Flows from Financing Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands)
+​
+Settlement of equity awards, net of withholding taxes
+​
+$
+ (9,558)
+​
+$
+ (5,276)
+​
+Net cash provided by (used in) financing activities
+​
+$
+ (9,558)
+​
+$
+ (5,276)
+​
+​
+The cash used in financing activities for the three months ended March 31, 2026 was related to cash used to settle taxes related to employee equity programs, offset by cash received under the Employee Stock Purchase Plan. The cash used in financing activities for the three months ended March 31, 2025 was related to cash used to settle taxes related to employee equity programs, partially offset by cash received under the Employee Stock Purchase Plan.
+​
+Convertible Senior Notes
+​
+We have $230.0 million outstanding principal balance of convertible senior notes that bear interest at a rate of 2.875% per year, payable semiannually in arrears on June 1 and December 1 of each year, and mature on June 1, 2029, unless earlier purchased by the Company, redeemed, or converted.
+​
+We believe that we have sufficient capital resources and cash flows from operations to support scheduled interest payments on this debt. In addition, in June 2025, we increased the total funds available to us through our revolving credit facility from $225 million to $250 million and extended the maturity until June 16, 2030, subject to a springing maturity date of March 2, 2029. The Company has no immediate plans to draw down on the facility. Interest under the facility is variable based on the Company’s secured net leverage ratio and is expected to bear interest based on SOFR plus a range of 125 to 200 basis points, if drawn. There is a yearly commitment fee of 20 to 30 basis points, based on the Company’s secured net leverage ratio, charged on the unused portion of the Facility.
+​
+In connection with the Merger, the convertible senior notes will be assumed by Axcelis.
+​
+Contractual Obligations and Commitments
+​
+We have commitments under certain contractual arrangements to make future payments for goods and services. These contractual arrangements secure the rights to various assets and services to be used in the future in the normal course of business. We expect to fund these contractual arrangements with cash generated from operations in the normal course of business.
+​

@@ -1,0 +1,2470 @@
+ITEM 2.       MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+This management discussion and analysis should be read in conjunction with our Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the Securities and Exchange Commission (the “SEC”) on February 13, 2026 (the “2025 Form 10-K”).
+Special Note on Forward-Looking Statements
+This Quarterly Report on Form 10-Q (this “report”) contains, in addition to historical information, forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Statements in this report that are not historical information are forward-looking statements. For example, statements relating to our beliefs, expectations, and plans are forward-looking statements, as are statements that certain actions, conditions, events, or circumstances will continue. The inclusion of words such as “anticipate,” “expect,” “estimate,” “can,” “may,” “might,” “continue,” “enable,” “plan,” “intend,” “should,” “could,” “would,” “will,” “likely,” “potential,” “believe,” and similar expressions and the negative versions thereof indicate forward-looking statements;
+ however, not all forward-looking statements may contain such words or expressions
+.
+These forward-looking statements are based upon information available as of the date of this report and management’s current estimates, forecasts, and assumptions. Although we believe that our expectations reflected in or suggested by these forward-looking statements are reasonable, we may not achieve the results, performance, plans, or objectives expressed or implied by such forward-looking statements. 
+Forward-looking statements involve risks and uncertainties, which are difficult to predict and many of which are beyond our control.
+Risks and uncertainties to which our forward-looking statements are subject include:
+●
+volatility, cyclicality, and business fluctuations in the industries in which we compete;
+●
+risks associated with availability and price of certain semiconductor and other components which may be in limited supply relative to global demand;
+●
+risks related to geopolitical conditions, such as the impact of tariffs and export regulations, and escalating global conflicts on macroeconomic conditions, including recent developments in the Middle East;
+●
+macroeconomic conditions such as economic uncertainty, rising interest rates, inflation, lack of growth in our markets, fluctuations in commodity prices and currency exchange rates, and recession;
+●
+our ability to achieve design wins with new and existing customers;
+●
+our ability to accurately forecast and meet customer demand;
+●
+risks associated with scaling our manufacturing capacity, timely customer qualification of new manufacturing lines, improving our manufacturing efficiency, and controlling manufacturing costs;
+●
+pricing pressure from customers and competitors;
+●
+concentration of our customer base;
+●
+risks associated with potential breach of our information security measures— either external breach or internal data theft;
+●
+difficulties with the implementation of our enterprise resource planning and other enterprise-wide information technology system applications;
+●
+our loss of or inability to attract and retain key personnel;
+●
+risks associated with our manufacturing footprint optimization and movement of manufacturing locations for certain products;
+26
+
+Table of Contents
+●
+disruptions to our manufacturing operations or those of our customers or suppliers;
+●
+our ability to successfully identify, close, integrate and realize anticipated benefits from our acquisitions or divestitures;
+●
+quality issues, unanticipated costs in fulfilling our warranty obligations or adequacy of our warranty reserves, claims outside of warranty, or product liability claims;
+●
+our ability to enforce, protect and maintain our proprietary technology and intellectual property rights
+
+and avoid claims alleging infringement of the intellectual property rights of others;
+●
+legal matters, claims, investigations, and proceedings;
+●
+changes to tax laws and regulations or our tax rates;
+●
+changes to and maintaining compliance with U.S. federal, state, local and foreign regulations, including with respect to trade compliance, privacy and data protection, supply chain, and environmental, health and safety regulation;
+●
+effect of our debt obligations and restrictive covenants on our ability to operate our business;
+●
+risks related to our unfunded pension obligations;
+●
+our estimates of the fair value of intangible assets;
+●
+the potential impact of dilution and counterparty default risk related to our convertible debt, hedge, warrant and capped call transactions
+;
+●
+ risks relating to ownership of our common stock; and
+●
+the risks and uncertainties described in Part I, Item 1A in the 2025 Form 10-K.
+These risks and uncertainties could cause actual results to differ materially and adversely from those expressed in any forward-looking statements, and readers are cautioned not to place undue reliance on forward-looking statements. We assume no obligation to update any forward-looking statements or provide reasons why our actual results may differ.
+27
+
+Table of Contents
+BUSINESS AND MARKET OVERVIEW
+Company Overview
+Advanced Energy provides highly engineered, critical, precision power conversion, measurement, and control solutions to our global customers. We design, manufacture, sell, and service precision power products that transform, refine, and modify the raw electrical power coming from either the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Many of our products enable customers to reduce or optimize their energy consumption through increased power conversion efficiency, power density, power coupling, and process control across a wide range of applications.
+We are organized on a global, functional basis and operate as a single segment of power electronics conversion products. Within this segment, our products are sold in the Semiconductor Equipment, Data Center Computing, Industrial and Medical, and Telecom and Networking markets.
+Recent Events
+On May 18, 2026, we completed a private, unregistered offering of $1.15 billion aggregate principal amount of 0% Convertible Notes due 2031 (the “2031 Notes”), and received net proceeds of approximately $1,128.1 million after deducting initial purchasers’ discounts and offering expenses. Concurrent with the issuance of the 2031 Notes, we also entered into privately negotiated exchange agreements on a portion of our outstanding 2.5% Convertible Notes due 2028 (the “2028 Notes”) and exchanged an aggregate of approximately $438.3 million principal amount for aggregate consideration consisting of approximately $442.4 million in cash and approximately 2.0 million shares of common stock. We intend to use the remainder of the net proceeds from the offering for general corporate purposes and debt repayment.
+On June 12, 2026, we issued a notice of redemption for the remaining $136.7 million principal amount of the 2028 Notes and set a redemption date of September 23, 2026. The redemption price will equal 100% of the principal amount plus accrued and unpaid interest. Holders of the 2028 Notes that wish to convert their 2028 Notes must surrender their 2028 Notes for conversion prior to the close of business on September 22, 2026. The Company is electing to settle conversions of the 2028 Notes by paying cash in respect of the principal portion of the converted 2028 Notes and delivering shares of common stock in respect of the remainder (other than cash in lieu of any fractional share). As of the date of the redemption notice, each $1,000 principal amount of the 2028 Notes is convertible into common stock at a conversion price of approximately $137.46 (based on the Conversion Rate of 7.2747 shares of common stock per $1,000 principal amount of Notes, as adjusted). For 2028 Notes converted in connection with the redemption notice, the conversion rate will be increased by 0.0743 additional shares of common stock per $1,000 principal amount of the 2028 Notes in accordance with the applicable indenture.
+See
+Note 6. Long-Term Debt
+ in Part I, Item 1 “Unaudited Consolidated Financial Statements” above and the Liquidity and Capital Resources section of this Item 2 below.
+Product and Services
+Our precision power products and solutions are designed to enable process technologies, improve productivity, lower the cost of ownership, and/or provide critical power capabilities for our customers.
+Our plasma power products enable innovation in complex semiconductor and thin film plasma processes such as dry etch and deposition. Our broad portfolio of high and low voltage power products is used in a wide range of applications, such as semiconductor equipment, data center computing, industrial production, medical and life science equipment, aerospace and defense, networking, and telecommunications.
+Our network of global service support centers provides repair services, calibration, conversions, upgrades, refurbishments, and used equipment to companies that use our products.
+End Markets Summary and Trends
+28
+
+Table of Contents
+Our business and results of operations continue to be influenced by a dynamic global trade, geopolitical, and supply chain environment. We continue to monitor developments related to tariffs and trade policy. In addition, heightened geopolitical instability, including the conflicts in the Middle East, has contributed to volatility in energy markets, disruptions to global shipping, and broader macroeconomic uncertainty. Increased demand relative to supply for AI-related equipment and semiconductors is extending lead times and increasing prices of certain components, impacting both timing of some customer demand and many of our suppliers. We continue to take actions to procure strategic supply of materials and endeavor to recover increased costs through pricing actions. While these factors were not material to our results in the current quarter, they could become material in future periods and adversely affect our costs such as higher energy and supply chain costs, as well as negatively impact our ability to sell our products and provide services.
+Advanced Energy generates revenue from the sale of a broad range of advanced and system power products and services to global original equipment manufacturers (“OEMs”), distributors, and end customers. Our customers select our products based on various performance metrics such as high power conversion efficiency, high power density, low noise emission, and lower power consumption as well as our ability to tailor our solutions to meet the unique requirements of their critical applications. The future growth and demand for our products is driven by a combination of factors within each of the end markets we serve, as follows:
+
+Semiconductor Equipment Market
+The Semiconductor Equipment market supports and enables the long-term need for production capacity and new process technologies to meet demand for semiconductor devices across many applications driven by megatrends such as artificial intelligence (“AI”), energy efficiency, automobile electrification, and Internet of things.
+Our portfolio of power conversion and related products sold into this market includes plasma power, high-voltage power, system power, and adjacent sensing solutions. Our plasma power solutions are used to create plasma-based etch and deposition processes. Our semiconductor market products are incorporated into a wide range of applications, including dry etch and strip, deposition, ion implant, inspection and metrology, thermal, epitaxy, and back-end test and packaging.
+In the first half of 2026, the Semiconductor Equipment market continued to grow due to demand for leading-edge devices in logic and memory used in AI applications, driving growing demand for our products. We expect these market conditions to continue in the remainder of the year.
+Data Center Computing Market
+The Data Center Computing market is being driven by the rapid growth of AI and related investments. The accelerated power rating of next-generation AI processors and increased density of AI processors in IT racks have significantly increased the power requirements for AI-based servers and racks which, in turn, increased the importance of high power efficiency, density, and reliability for server rack power solutions.
+Our products are designed into data center server and storage systems and are also used by cloud service providers and their partners in their custom designed server racks and power shelves.
+Due to increased investments in AI applications by leading hyperscale customers, revenue in the Data Center Computing market increased in the first half of 2026 compared to the same period in the previous year.
+We expect this trend to continue, along with adoption of our next generation high power solutions, to support growing demand in the remainder of 2026.
+Industrial and Medical Market
+The Industrial and Medical market is fueled by continued investment in complex manufacturing processes, increased adoption of new industrial technologies such as automation and clean energy, and increased breadth and precision requirements of medical devices and life science equipment.
+​
+29
+
+Table of Contents
+We supply this market with critical, precision power conversion products that deliver precise and highly reliable, low noise and/or differentiated power. In addition, our sensing, control, and instrumentation products complement our power solutions. Our products are used in a wide variety of applications, such as advanced material fabrication, medical devices, life science, test and measurement equipment, robotics, industrial production, defense, aerospace, and large-scale lighting applications.
+​
+In the first half of 2026, we believe demand in the Industrial and Medical market has returned to normalized levels after customers completed their inventory rebalancing as a result of macroeconomic conditions and supply chain disruptions from prior years. The recovery continued in the second quarter of 2026 compared to the same quarter in the previous year. We expect demand to continue to improve in the remainder of 2026.
+​
+Telecom and Networking Market
+Demand in the Telecom and Networking market is driven by adoption of more advanced mobile standards, such as 5G technologies, networking investments by telecommunication service providers, enterprises upgrading their communication networks, and data centers investing in their networks for AI-driven increased bandwidth.
+We serve this market by providing application-specific power conversion products to many leading OEMs of wireless infrastructure equipment and computer networking equipment.
+End market demand in the Telecom and Networking market remained stable in the first half of 2026, with growth primarily driven by demand in AI-related applications. We expect this trend to continue for the remainder of 2026.
+30
+
+Table of Contents
+Results of Continuing Operations
+The analysis presented below is organized to provide the information we believe will be helpful for an understanding of our historical performance and relevant trends going forward and should be read in conjunction with our “Unaudited Consolidated Financial Statements” in Part I, Item 1 of this report, including the notes thereto. Also included in the following analysis are measures that are not prepared in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”). A reconciliation of the non-GAAP measures to U.S. GAAP is provided below.
+The following table sets forth certain data derived from our Consolidated Statements of Operations:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended June 30, 
+  ​ ​ ​
+​
+Six Months Ended June 30, 
+​
+​
+​
+2026
+​
+​
+2025
+​
+​
+2026
+​
+​
+2025
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(in millions)
+​
+Revenue
+  ​
+$
+ 574.1
+  ​ ​ ​
+ 100.0
+%
+  ​
+$
+ 441.5
+  ​
+ 100.0
+%
+  ​
+$
+ 1,085.1
+  ​
+ 100.0
+%
+  ​
+$
+ 846.1
+  ​
+ 100.0
+%
+Gross profit
+​
+ 
+ 236.1
+​
+ 41.1
+​
+​
+ 
+ 163.4
+​
+ 37.0
+​
+​
+ 
+ 437.0
+​
+ 40.3
+​
+​
+ 
+ 313.9
+​
+ 37.1
+​
+Operating expenses
+​
+ 
+ 141.0
+​
+ 24.6
+​
+​
+ 
+ 131.8
+​
+ 29.9
+​
+​
+ 
+ 273.6
+​
+ 25.2
+​
+​
+ 
+ 251.7
+​
+ 29.7
+​
+Operating income from continuing operations
+​
+ 
+ 95.1
+​
+ 16.6
+​
+​
+ 
+ 31.6
+​
+ 7.2
+​
+​
+ 
+ 163.4
+​
+ 15.1
+​
+​
+ 
+ 62.2
+​
+ 7.4
+​
+Interest income
+​
+​
+ 8.2
+​
+ 1.4
+​
+​
+​
+ 6.6
+​
+ 1.5
+​
+​
+​
+ 14.0
+​
+ 1.3
+​
+​
+​
+ 13.5
+​
+ 1.6
+​
+Interest expense
+​
+​
+ (3.3)
+​
+ (0.6)
+​
+​
+​
+ (4.2)
+​
+ (1.0)
+​
+​
+​
+ (7.4)
+​
+ (0.7)
+​
+​
+​
+ (8.4)
+​
+ (1.0)
+​
+Loss on induced conversion of debt
+​
+​
+ (31.8)
+​
+ (5.5)
+​
+​
+​
+ —
+​
+ —
+​
+​
+​
+ (31.8)
+​
+ (2.9)
+​
+​
+​
+ —
+​
+ —
+​
+Other expense, net
+​
+ 
+ (1.6)
+​
+ (0.3)
+​
+​
+ 
+ (4.7)
+​
+ (1.1)
+​
+​
+ 
+ (1.6)
+​
+ (0.1)
+​
+​
+ 
+ (8.1)
+​
+ (1.0)
+​
+Income from continuing operations, before income tax
+​
+ 
+ 66.6
+​
+ 11.6
+​
+​
+ 
+ 29.3
+​
+ 6.6
+​
+​
+ 
+ 136.6
+​
+ 12.6
+​
+​
+ 
+ 59.2
+​
+ 7.0
+​
+Income tax provision
+​
+ 
+ 12.1
+​
+ 2.1
+​
+​
+ 
+ 3.8
+​
+ 0.9
+​
+​
+ 
+ 14.8
+​
+ 1.4
+​
+​
+ 
+ 8.8
+​
+ 1.0
+​
+Income from continuing operations
+​
+$
+ 54.5
+​
+ 9.5
+%
+​
+$
+ 25.5
+​
+ 5.8
+%
+​
+$
+ 121.8
+​
+ 11.2
+%
+​
+$
+ 50.4
+​
+ 6.0
+%
+​
+31
+
+Table of Contents
+Revenue
+The following tables summarize net sales and percentages of net sales by markets:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended June 30, 
+​
+​
+Change 2026 v. 2025
+​
+​
+  ​ ​ ​
+2026
+​
+  ​ ​ ​
+2025
+  ​
+  ​ ​
+Dollar
+  ​ ​ ​
+Percent
+​
+​
+​
+(in millions)
+Semiconductor Equipment
+​
+$
+ 278.3
+  ​ ​ ​
+ 48.5
+%
+​
+$
+ 209.5
+  ​ ​ ​
+ 47.5
+%
+​
+$
+ 68.8
+ 
+ 32.8
+%
+Data Center Computing
+​
+ 
+ 191.5
+​
+ 33.4
+​
+​
+ 
+ 141.6
+​
+ 32.1
+​
+​
+ 
+ 49.9
+ 
+ 35.2
+%
+Industrial and Medical
+​
+​
+ 80.0
+​
+ 13.9
+​
+​
+​
+ 68.6
+​
+ 15.5
+​
+​
+​
+ 11.4
+​
+ 16.6
+%
+Telecom and Networking
+​
+ 
+ 24.3
+​
+ 4.2
+​
+​
+ 
+ 21.8
+​
+ 4.9
+​
+​
+ 
+ 2.5
+ 
+ 11.5
+%
+Total
+​
+$
+ 574.1
+​
+ 100.0
+%
+​
+$
+ 441.5
+​
+ 100.0
+%
+​
+$
+ 132.6
+ 
+ 30.0
+%
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Six Months Ended June 30, 
+​
+​
+Change 2026 v. 2025
+​
+​
+​
+2026
+​
+  ​ ​ ​
+2025
+  ​
+  ​
+Dollar
+  ​ ​ ​
+Percent
+​
+​
+​
+(in millions)
+Semiconductor Equipment
+​
+$
+ 497.7
+  ​ ​ ​
+ 45.9
+%
+​
+$
+ 431.7
+  ​ ​ ​
+ 51.0
+%
+​
+$
+ 66.0
+ 
+ 15.3
+%
+Data Center Computing
+​
+​
+ 385.7
+​
+ 35.5
+​
+​
+​
+ 237.8
+​
+ 28.1
+​
+​
+​
+ 147.9
+ 
+ 62.2
+%
+Industrial and Medical
+​
+ 
+ 152.0
+​
+ 14.0
+​
+​
+ 
+ 132.9
+​
+ 15.7
+​
+​
+ 
+ 19.1
+ 
+ 14.4
+%
+Telecom and Networking
+​
+ 
+ 49.7
+​
+ 4.6
+​
+​
+ 
+ 43.7
+​
+ 5.2
+​
+​
+ 
+ 6.0
+ 
+ 13.7
+%
+Total
+​
+$
+ 1,085.1
+​
+ 100.0
+%
+​
+$
+ 846.1
+​
+ 100.0
+%
+​
+$
+ 239.0
+ 
+ 28.2
+%
+​
+Revenue by Market
+Semiconductor Equipment revenue for the three and six months ended June 30, 2026 increased compared to the same periods in 2025 on strengthening equipment demand driven by investments in AI.
+The increases in Data Center Computing revenue for the three and six months ended June 30, 2026, compared to the same periods in 2025 were due to increased AI investments by leading hyperscale customers and incremental growth associated with design wins secured previously.
+The increases in Industrial and Medical revenue for the three and six months ended June 30, 2026, compared to the same periods in 2025 were primarily due to recovery in the end markets as a result of the completion of customer inventory rebalancing and an improved demand environment.
+​
+The increases in Telecom and Networking revenue for the three and six months ended June 30, 2026, compared to the same periods in 2025 were primarily driven by growth in AI-related applications
+.
+Gross Profit and Gross Margin
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended June 30, 
+​
+Change 2026 v. 2025
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​
+Dollar
+  ​ ​ ​
+Percent
+​
+​
+​
+(in millions)
+Gross profit
+​
+$
+ 236.1
+​
+$
+ 163.4
+​
+$
+ 72.7
+ 
+ 44.5
+%
+Gross margin
+​
+​
+ 41.1
+%
+​
+ 37.0
+%
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Six Months Ended June 30, 
+​
+Change 2026 v. 2025
+​
+​
+​
+2026
+  ​ ​ ​
+2025
+  ​
+Dollar
+  ​ ​ ​
+Percent
+​
+​
+​
+(in millions)
+Gross profit
+​
+$
+ 437.0
+​
+$
+ 313.9
+​
+$
+ 123.1
+​
+ 39.2
+%
+Gross margin
+​
+​
+ 40.3
+%
+​
+ 37.1
+%
+​
+​
+​
+​
+​
+​
+The increase in gross profit was largely due to the increase in revenue and mix driven by new products.  Gross margin grew mainly due to improved mix, the impact of tariff refunds for 120 basis points, and higher volume.
+32
+
+Table of Contents
+Operating Expenses
+The following table summarizes our operating expenses and as a percentage of revenue:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+​
+  ​ ​ ​
+2025
+​
+​
+​
+(in millions)
+​
+Research and development
+​
+$
+ 65.0
+  ​ ​ ​
+​
+ 11.3
+%
+​
+$
+ 59.0
+  ​ ​ ​
+ 13.4
+%
+Selling, general, and administrative
+​
+ 
+ 69.4
+​
+​
+ 12.1
+​
+​
+ 
+ 60.2
+​
+ 13.6
+​
+Amortization of intangible assets
+​
+
+​
+ 5.2
+​
+​
+ 0.9
+​
+​
+
+​
+ 5.6
+​
+ 1.3
+​
+Restructuring, asset impairments, and other charges
+​
+ 
+ 1.4
+​
+​
+ 0.2
+​
+​
+ 
+ 7.0
+​
+ 1.6
+​
+Total operating expenses
+​
+$
+ 141.0
+​
+​
+ 24.6
+%
+​
+$
+ 131.8
+​
+ 29.9
+%
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Six Months Ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+​
+​
+2025
+​
+​
+​
+(in millions)
+Research and development
+  ​ ​ ​
+$
+ 127.4
+  ​ ​ ​
+​
+ 11.7
+%
+​
+$
+ 113.2
+  ​ ​ ​
+ 13.4
+%
+Selling, general, and administrative
+​
+ 
+ 131.7
+​
+​
+ 12.1
+​
+​
+ 
+ 119.2
+​
+ 14.1
+​
+Amortization of intangible assets
+​
+
+​
+ 10.5
+​
+​
+ 1.0
+​
+​
+
+​
+ 11.1
+​
+ 1.3
+​
+Restructuring, asset impairments, and other charges
+​
+ 
+ 4.0
+​
+​
+ 0.4
+​
+​
+ 
+ 8.2
+​
+ 0.9
+​
+Total operating expenses
+​
+$
+ 273.6
+​
+​
+ 25.2
+%
+​
+$
+ 251.7
+​
+ 29.7
+%
+​
+Research and Development
+The increase in research and development expense was driven by higher compensation costs related to stock-based compensation and annual merit increases, and higher engineering program and materials costs compared to the same periods in the prior year.
+Selling, General and Administrative
+The increase in selling, general, and administrative expense was mainly due to higher compensation costs including stock-based compensation and annual merit increases.
+Amortization of Intangible Assets
+Amortization expense declined primarily due to certain intangible assets reaching the end of their estimated useful life.
+Restructuring, Asset Impairments and Other Charges
+The decrease in restructuring, asset impairments, and other charges is primarily driven by the timing of our restructuring plan decisions.
+For additional information about this and prior restructuring plans, see 
+Note 10. Restructuring, Asset Impairments, and Other Charges
+in Part I, Item 1 “Unaudited Consolidated Financial Statements.”
+​
+33
+
+Table of Contents
+Interest Income, Interest Expense, and Other Expense, Net
+We experienced an increase in interest income caused by higher cash balances primarily as a result of net proceeds from the issuance of the 2031 Notes.
+Other expense, net consists primarily of foreign exchange gains and losses and other miscellaneous items. For the three and six months ended June 30, 2026, we had a $3.1 million and $6.5 million improvement, respectively, in other expense, net compared to the same periods in the prior year primarily as a result of foreign exchange gains.
+Interest expense remained relatively flat compared to the same period in the prior year. See
+Note 6. Long-Term Debt
+ in Part I, Item 1 “Unaudited Consolidated Financial Statements” for information regarding our debt.
+Loss on Induced Conversion of Debt
+The induced conversion expense represents the fair value of the consideration issued upon conversion in excess of the fair value of the securities issuable under the original terms of the 2028 Notes.
+Income Tax Provision
+The following table summarizes tax provision and the effective tax rate for our income from continuing operations:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+(in millions)
+​
+Income from continuing operations, before income tax
+​
+$
+ 66.6
+​
+$
+ 29.3
+​
+$
+ 136.6
+​
+$
+ 59.2
+​
+Income tax provision
+​
+$
+ 12.1
+​
+$
+ 3.8
+​
+$
+ 14.8
+​
+$
+ 8.8
+​
+Effective tax rate
+​
+​
+ 18.2
+%
+​
+ 13.0
+%
+​
+ 10.8
+%
+​
+ 14.9
+%
+​
+Our effective tax rate differs from the U.S. federal statutory rate of 21% primarily due to the benefit of earnings in foreign jurisdictions that are subject to lower tax rates, as well as tax credits, partially offset by net U.S. tax on foreign operations. The effective tax rate for the three months ended June 30, 2026, was higher than the effective tax rate for the same period in 2025 primarily due to the tax effect of the convertible note inducement charge incurred in the second quarter of 2026 being treated as a discrete event and disallowed as an expense for tax purposes, partially offset by the release of tax reserves based on statute of limitation expirations and the settlement of an audit in the same period. The effective tax rate for the six months ended June 30, 2026, was lower than the effective tax rate for the same period in 2025 primarily due to excess tax benefits recognized in 2026 from share-based compensation and the release of tax reserves based on statute of limitation expirations and the settlement of an audit in the same period.
+​
+As of June 30, 2026, certain countries in which the Company operates have implemented or are in the process of implementing the Pillar II minimum global effective tax rate regime as put forth by the Organization for Economic Cooperation and Development (“OECD”). Specifically, the OECD released prospective “Side-by-Side” guidance in early 2026 which is generally beneficial to U.S. parented organizations but will require adoption by member countries to implement. As countries continue to make revisions to their legislation and release additional guidance with respect to the global minimum tax, we continue to monitor and evaluate any potential cash tax expenses and tax rate impacts in the countries in which we operate.
+On July 4, 2025, the One Big Beautiful Bill (“OBBB”) Act, which includes a broad range of elective tax law items available in 2025 and prescribed tax law changes in 2026, was signed into law in the United States. The Company has reflected the impact of the OBBB’s elective tax law items in its financial statements for the period ending June 30, 2026. OBBB is expected to have an overall positive effect on the GAAP and non-GAAP effective tax rate of the Company, benefiting from revisions to foreign-derived intangible income (FDII) and the foreign tax credit rules.
+34
+
+Table of Contents
+Non-GAAP Results
+Management uses non-GAAP net income, non-GAAP operating income, and non-GAAP earnings per share (“EPS”) to evaluate business performance without the impacts of certain non-cash charges and other charges which are not part of our usual operations. We use these non-GAAP measures to assess performance against business objectives, and make business decisions, including developing budgets and forecasting future periods. In addition, management’s incentive plans include certain of these non-GAAP measures as criteria for achievements. These non-GAAP measures are not prepared in accordance with U.S. GAAP and may differ from non-GAAP methods of accounting and reporting used by other companies. However, we believe these non-GAAP measures provide additional information that enables readers to evaluate our business from the perspective of management. The presentation of this additional information should not be considered a substitute for results prepared in accordance with U.S. GAAP.
+The non-GAAP results presented below exclude the impact of non-cash related charges, such as stock-based compensation, amortization of intangible assets, and long-term unrealized foreign exchange gains and losses. In addition, we exclude discontinued operations and other items such as acquisition-related costs, facility, infrastructure, and other transition costs, and restructuring expenses, as they are not indicative of future performance. The tax effect of our non-GAAP adjustments represents the anticipated annual tax rate applied to each non-GAAP adjustment after consideration of their respective book and tax treatments. Non-GAAP results also exclude certain non-recurring discrete tax expenses or benefits. Finally, non-GAAP diluted weighted-average common shares are adjusted to reflect the dilutive impact of our convertible notes based on the higher note hedge strike price instead of the initial conversion price.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Non-GAAP gross profit, gross margin, operating expenses,
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+​
+operating income, and operating margin
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in millions)
+​
+Gross profit from continuing operations, as reported
+​
+$
+ 236.1
+​
+$
+ 163.4
+​
+$
+ 437.0
+​
+$
+ 313.9
+​
+Adjustments to gross profit:
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+Stock-based compensation
+​
+ 
+ 2.2
+​
+ 
+ 1.2
+​
+ 
+ 3.7
+​
+ 
+ 2.3
+​
+Facility, infrastructure, and other transition costs
+​
+ 
+ 2.0
+​
+ 
+ 3.5
+​
+ 
+ 4.4
+​
+ 
+ 5.3
+​
+Non-GAAP gross profit
+​
+ 
+ 240.3
+​
+ 
+ 168.1
+​
+​
+ 445.1
+​
+​
+ 321.5
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+GAAP gross margin
+​
+​
+41.1%
+​
+​
+37.0%
+​
+​
+40.3%
+​
+​
+37.1%
+​
+Non-GAAP gross margin
+​
+​
+41.9%
+​
+ 
+38.1%
+​
+ 
+41.0%
+​
+ 
+38.0%
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Operating expenses from continuing operations, as reported
+​
+ 
+ 141.0
+​
+ 
+ 131.8
+​
+​
+ 273.6
+​
+​
+ 251.7
+​
+Adjustments:
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+Amortization of intangible assets
+​
+ 
+ (5.2)
+​
+ 
+ (5.6)
+​
+ 
+ (10.5)
+​
+ 
+ (11.1)
+​
+Stock-based compensation
+​
+ 
+ (19.2)
+​
+ 
+ (12.4)
+​
+ 
+ (35.8)
+​
+ 
+ (24.3)
+​
+Acquisition-related costs
+​
+ 
+ 0.1
+​
+ 
+ (1.8)
+​
+ 
+ (0.1)
+​
+ 
+ (2.8)
+​
+Facility, infrastructure, and other transition costs
+​
+ 
+ (0.5)
+​
+ 
+ (1.4)
+​
+ 
+ (1.4)
+​
+ 
+ (3.1)
+​
+Restructuring, asset impairments, and other charges
+​
+ 
+ (1.4)
+​
+ 
+ (7.0)
+​
+ 
+ (4.0)
+​
+ 
+ (8.2)
+​
+Non-GAAP operating expenses
+​
+ 
+ 114.8
+​
+ 
+ 103.6
+​
+ 
+ 221.8
+​
+ 
+ 202.2
+​
+Non-GAAP operating income
+​
+$
+ 125.5
+​
+$
+ 64.5
+​
+$
+ 223.3
+​
+$
+ 119.3
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Operating income, as reported
+​
+$
+ 95.1
+​
+$
+ 31.6
+​
+$
+ 163.4
+​
+$
+ 62.2
+​
+Adjustments to gross profit
+​
+​
+ 4.2
+​
+​
+ 4.7
+​
+​
+ 8.1
+​
+​
+ 7.6
+​
+Adjustments to operating expenses
+​
+​
+ 26.2
+​
+​
+ 28.2
+​
+​
+ 51.8
+​
+​
+ 49.5
+​
+Non-GAAP operating income
+​
+$
+ 125.5
+​
+$
+ 64.5
+​
+$
+ 223.3
+​
+$
+ 119.3
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Income from continuing operations, as reported
+​
+$
+ 54.5
+​
+$
+ 25.5
+​
+$
+ 121.8
+​
+$
+ 50.4
+​
+GAAP operating margin
+​
+​
+16.6%
+​
+​
+7.2%
+​
+​
+15.1%
+​
+​
+7.4%
+​
+Non-GAAP operating margin
+​
+​
+21.9%
+​
+ 
+14.6%
+​
+ 
+20.6%
+​
+ 
+14.1%
+​
+​
+35
+
+Table of Contents
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+​
+Non-GAAP income, net of income tax
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+(in millions)
+​
+Income from continuing operations, net of income tax
+​
+$
+ 54.5
+​
+$
+ 25.5
+​
+$
+ 121.8
+​
+$
+ 50.4
+​
+Adjustments:
+​
+ 
+​
+​
+ 
+​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+Amortization of intangible assets
+​
+ 
+ 5.2
+​
+ 
+ 5.6
+​
+ 
+ 10.5
+​
+ 
+ 11.1
+​
+Acquisition-related costs
+​
+ 
+ (0.1)
+​
+ 
+ 1.8
+​
+ 
+ 0.1
+​
+ 
+ 2.8
+​
+Facility, infrastructure, and other transition costs
+​
+ 
+ 2.5
+​
+ 
+ 4.9
+​
+ 
+ 5.8
+​
+ 
+ 8.4
+​
+Restructuring, asset impairments, and other charges
+​
+ 
+ 1.4
+​
+ 
+ 7.0
+​
+ 
+ 4.0
+​
+ 
+ 8.2
+​
+Loss on induced conversion of debt
+​
+​
+ 31.8
+​
+​
+ —
+​
+​
+ 31.8
+​
+​
+ —
+​
+Unrealized foreign currency loss (gain)
+​
+​
+ (1.0)
+​
+​
+ 4.4
+​
+​
+ (2.9)
+​
+​
+ 6.0
+​
+Other costs included in other expense, net
+​
+​
+ 2.6
+​
+​
+ 0.2
+​
+​
+ 2.6
+​
+​
+ 0.2
+​
+Stock-based compensation
+​
+​
+ 21.4
+​
+​
+ 13.6
+​
+​
+ 39.5
+​
+​
+ 26.6
+​
+Tax effect of non-GAAP adjustments, including certain discrete tax benefits
+​
+ 
+ (6.1)
+​
+​
+ (6.4)
+​
+​
+ (17.6)
+​
+​
+ (10.2)
+​
+Non-GAAP income, net of income tax
+​
+$
+ 112.2
+​
+$
+ 56.6
+​
+$
+ 195.6
+​
+$
+ 103.5
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+​
+Non-GAAP diluted weighted-average common shares
+​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+(in millions)
+​
+Diluted weighted-average common shares outstanding
+​
+​
+ 42.3
+​
+​
+ 37.8
+​
+​
+ 42.3
+​
+​
+ 38.0
+​
+Hedge effect of convertible notes
+​
+​
+ (1.3)
+​
+​
+ —
+​
+​
+ (1.5)
+​
+​
+ —
+​
+Non-GAAP diluted weighted-average common shares outstanding
+​
+​
+ 41.0
+​
+​
+ 37.8
+​
+​
+ 40.8
+​
+​
+ 38.0
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+Three Months Ended June 30, 
+ 
+Six Months Ended June 30, 
+Non-GAAP earnings per share
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Diluted earnings per share from continuing operations, as reported
+​
+$
+ 1.29
+​
+$
+ 0.67
+ 
+$
+ 2.88
+​
+$
+ 1.33
+Add back:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Per share impact of non-GAAP adjustments, net of tax
+ 
+​
+ 1.45
+ 
+​
+ 0.83
+​
+​
+ 1.91
+​
+​
+ 1.39
+Non-GAAP earnings per share
+​
+$
+ 2.74
+​
+$
+ 1.50
+​
+$
+ 4.79
+​
+$
+ 2.72
+​
+​
+36
+
+Table of Contents
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+Non-GAAP provision for income taxes
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+(in millions)
+​
+​
+​
+​
+​
+(in millions)
+Provision for income taxes, as reported
+​
+$
+ 12.1
+​
+$
+ 3.8
+​
+$
+ 14.8
+​
+$
+ 8.8
+Adjustment:
+​
+ 
+​
+​
+ 
+​
+​
+ 
+  ​
+​
+ 
+​
+Non-GAAP items and other discrete tax items excluding stock-based compensation
+​
+ 
+ 1.6
+​
+ 
+ 3.5
+​
+ 
+ 9.3
+​
+ 
+ 4.6
+Tax effect of stock-based compensation
+​
+ 
+ 4.5
+​
+ 
+ 2.9
+​
+ 
+ 8.3
+​
+ 
+ 5.6
+Non-GAAP provision for income taxes
+​
+$
+ 18.2
+​
+$
+ 10.2
+​
+$
+ 32.4
+​
+$
+ 19.0
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Reconciliation of non-GAAP measures
+​
+Three Months Ended June 30, 
+​
+Six Months Ended June 30, 
+Non-GAAP income before income taxes
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+​
+​
+​
+​
+​
+(in millions)
+Income from continuing operations, before income tax
+​
+$
+ 66.6
+​
+$
+ 29.3
+​
+$
+ 136.6
+​
+$
+ 59.2
+Adjustments:
+​
+ 
+​
+​
+ 
+​
+​
+ 
+  ​
+​
+ 
+​
+Amortization of intangible assets
+​
+​
+ 5.2
+​
+​
+ 5.6
+​
+​
+ 10.5
+​
+​
+ 11.1
+Stock-based compensation
+​
+​
+ 21.4
+​
+​
+ 13.6
+​
+​
+ 39.5
+​
+​
+ 26.6
+Acquisition-related costs
+​
+​
+ (0.1)
+​
+​
+ 1.8
+​
+​
+ 0.1
+​
+​
+ 2.8
+Facility, infrastructure, and other transition costs
+​
+​
+ 2.5
+​
+​
+ 4.9
+​
+​
+ 5.8
+​
+​
+ 8.4
+Restructuring, asset impairments, and other charges
+​
+​
+ 1.4
+​
+​
+ 7.0
+​
+​
+ 4.0
+​
+​
+ 8.2
+Loss on induced conversion of debt
+​
+​
+ 31.8
+​
+​
+ —
+​
+​
+ 31.8
+​
+​
+ —
+Unrealized foreign currency loss (gain)
+​
+​
+ (1.0)
+​
+​
+ 4.4
+​
+​
+ (2.9)
+​
+​
+ 6.0
+Other costs included in other expense, net
+​
+ 
+ 2.6
+​
+ 
+ 0.2
+​
+ 
+ 2.6
+​
+ 
+ 0.2
+Non-GAAP income before income taxes
+​
+$
+ 130.4
+​
+$
+ 66.8
+​
+$
+ 228.0
+​
+$
+ 122.5
+Effective tax rate, as reported
+​
+​
+18.2%
+​
+​
+13.0%
+​
+​
+10.8%
+​
+​
+14.9%
+Non-GAAP effective tax rate
+​
+​
+14.0%
+​
+​
+15.3%
+​
+​
+14.2%
+​
+​
+15.5%
+​
+Liquidity and Capital Resources
+Liquidity
+Adequate liquidity and cash generation are important to the execution of our strategic initiatives. Our ability to fund our operations, acquisitions, capital expenditures, and product development efforts may depend on our ability to generate cash from operating activities, which is subject to future operating performance, as well as general economic, financial, competitive, legislative, regulatory, and other conditions, some of which may be beyond our control. Our primary sources of liquidity continue to be our available cash, proceeds from the issuance of convertible notes, cash generated from operations, and available borrowing capacity under the Revolving Facility (defined in
+Note 6. Long-Term Debt
+ in Part I, Item 1 “Unaudited Consolidated Financial Statements”).
+As of June 30, 
+2026, our cash and cash equivalents totaled $1,396.5 million, while our available funding under our undrawn Revolving Facility was $600.0 million. We believe our sources of liquidity will be adequate to meet operational needs, including capital expenditures, as well as anticipated debt service, share repurchase programs, dividends, and strategic investments. We have suspended activity under our share repurchase plan in connection with the issuance of the redemption notice for the remaining 2028 Notes.  The share repurchase program has no expiration date, has not been terminated, and remains authorized.
+During the ordinary course of business, we evaluate our cash requirements and, if necessary, adjust our expenditures to reflect the current market conditions and our projected revenue and demand. Our capital expenditures are primarily directed towards manufacturing and operations and can materially influence our available cash for other initiatives. In the past year and through the second quarter, our capital expenditures increased as we are investing in our factories to expand capacity and in our new ERP system. In addition, we may seek additional debt or equity financing from time to time; however, such additional financing may not be available on acceptable terms, if at all.
+37
+
+Table of Contents
+Debt
+
+During the quarter, we completed a private, unregistered offering of $1.15 billion aggregate principal amount of the 2031 Notes and received net proceeds of approximately $1,128.1 million after deducting initial purchasers’ discounts and offering expenses. Concurrent with the issuance of the 2031 Notes, we also entered into privately negotiated exchange agreements on a portion of our outstanding 2028 Notes and exchanged an aggregate of approximately $438.3 million principal amount for aggregate consideration consisting of approximately $442.4 million in cash and approximately 2.0 million shares of common stock. We intend to use the remainder of the net proceeds from the offering for general corporate purposes.
+As of June 30, 2026, our outstanding debt includes $136.7 million principal amount of the 2028 Notes and $1.15 billion principal amount of the 2031 Notes. As of June 30, 2026, we had no borrowings under our Credit Agreement. Should we have future borrowings under our Term Loan Facility or Revolving Facility of our Credit Agreement, those borrowings would be subject to a variable rate.
+On June 12, 2026, we issued a notice of redemption for the remaining outstanding principal amount of the 2028 Notes and specified a redemption date of September 23, 2026.
+As of June 30, 2026, no amounts were outstanding under the Revolving Facility, and we had $600.0 million in available funding. In addition to the available capacity on the Revolving Facility, prior to the maturity date of the Credit Agreement, we may request an increase to the financing commitments in either the Term Loan Facility or Revolving Facility by an aggregate amount not to exceed $250.0 million. Any requested increase is subject to lender approval.
+See
+Note 6. Long-Term Debt
+ in Part I, Item 1 “Unaudited Consolidated Financial Statements” for additional details.
+Dividends
+During the six months ended June 30, 2026, we paid quarterly cash dividends of $0.10 per share, totaling $7.9 million. We currently anticipate that a cash dividend of $0.10 per share will continue to be paid on a quarterly basis, although the declaration of any future cash dividend is at the discretion of our Board and will depend on our financial condition, results of operations, capital requirements, business conditions, and other factors.
+Share Repurchases
+There were no share repurchases during the three months ended June 30, 2026.
+Cash Flows
+A summary of our cash from operating, investing, and financing activities is as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Six Months Ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+(in millions)
+​
+Net cash from operating activities from continuing operations
+​
+$
+ 80.0
+​
+$
+ 75.7
+​
+Net cash from operating activities from discontinued operations
+​
+ 
+ (1.0)
+​
+ 
+ (1.6)
+​
+Net cash from operating activities
+​
+ 
+ 79.0
+​
+ 
+ 74.1
+​
+Net cash from investing activities
+​
+ 
+ (87.5)
+​
+ 
+ (43.6)
+​
+Net cash from financing activities
+​
+ 
+ 616.8
+​
+ 
+ (42.8)
+​
+Effect of currency translation on cash, cash equivalents and restricted cash
+​
+ 
+ (1.0)
+​
+ 
+ 3.7
+​
+Net change in cash, cash equivalents and restricted cash
+​
+ 
+ 607.3
+​
+ 
+ (8.6)
+​
+Cash, cash equivalents and restricted cash, beginning of period
+​
+ 
+ 791.2
+​
+ 
+ 722.1
+​
+Cash, cash equivalents and restricted cash, end of period
+​
+$
+ 1,398.5
+​
+$
+ 713.5
+​
+​
+38
+
+Table of Contents
+Operating Activities
+Net cash from continuing operations for the six months ended June 30, 2026, was $80.0 million, as compared to $75.7 million for the same period in the prior year. The $4.3 million increase was primarily due to higher net income from continuing operations offset by a net increase in working capital driven by increases in accounts receivable on higher revenue and inventory to support anticipated future demand partially offset by an increase in accounts payable.
+Investing Activities
+Net cash used in investing activities for the six months ended June 30, 2026, was $87.5 million primarily due to $86.1 million in purchases of property and equipment, which was largely driven by continued investments in our manufacturing footprint and capacity, our new ERP system, and investments in other capabilities across multiple sites.
+Net cash used in investing activities for the six months ended June 30, 2025, was $43.6 million primarily due to $42.0 million in purchases of property and equipment, which was largely driven by investments in our manufacturing footprint and capacity, and $1.6 million in purchases of investments.
+Financing Activities
+Net cash from financing activities for the six months ended June 30, 2026, was $616.8 million driven by net proceeds of $1,129.3 million from issuance of the 2031 Notes partially offset by $440.5 million for partial repayment of the 2028 Notes. In connection with the 2031 Notes, $69.0 million was paid for the cost of the Capped Call and $44.6 million was received for the partial unwind of the Note Hedges and Warrants associated with the 2028 Notes. Additionally, other financing activities include $39.1 million in net payments related to stock-based award activities, and $7.9 million for dividend payments.
+Net cash used in financing activities for the six months ended June 30, 2025, was $42.8 million and included $23.7 million for repurchase of common stock, $8.0 million in net payments related to stock-based award activities, and $7.7 million for dividend payments. In addition, we paid $1.9 million in fees related to entering the Credit Agreement and $1.5 million for the release of the holdback associated with the Airity Acquisition.
+Effect of Currency Translation on Cash
+During the six months ended June 30, 2026, foreign currency translation had a minimal impact on cash. See “Foreign Currency Exchange Rate Risk” in Part I, Item 3 for more information
+.
+​
+Critical Accounting Policies and Estimates
+The preparation of financial statements and related disclosures in conformity with U.S. GAAP requires us to make judgments, assumptions, and estimates that affect the amounts reported in the consolidated financial statements and accompanying notes.
+Note 1. Summary of Operations and Significant Accounting Policies and Estimates
+ to the consolidated financial statements in the 2025 Form 10-K describes the significant accounting policies and methods used in the preparation of our consolidated financial statements. Our critical accounting estimates, discussed in the “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the 2025 Form 10-K, include assessing excess and obsolete inventories, accounting for income taxes, and estimates for the valuation of assets and liabilities acquired in business combinations.
+Such accounting policies and estimates require significant judgments and assumptions to be used in the preparation of the consolidated financial statements and actual results could differ materially from the amounts reported based on variability in factors affecting these estimates.
+​
+​
+​
+39
+
+Table of Contents

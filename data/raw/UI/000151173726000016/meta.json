@@ -1,0 +1,36 @@
+{
+  "company": "Ubiquiti",
+  "ticker": "UI",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001511737",
+  "form": "8-K",
+  "filing_date": "2026-02-06",
+  "accession_number": "0001511737-26-000016",
+  "primary_document": "ui-20260206.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1511737/000151173726000016/ui-20260206.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2026-02-06",
+  "period_end": "2026-02-06",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:41:20.371254+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991-123125.htm",
+      "path": "data/raw/UI/000151173726000016/exhibit_99_exhibit991-123125.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1511737/000151173726000016/exhibit991-123125.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/UI/000151173726000016/primary.html",
+    "other": "data/raw/UI/000151173726000016/other_full.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "company": "nLIGHT",
+  "ticker": "LASR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001124796",
+  "form": "8-K",
+  "filing_date": "2026-02-04",
+  "accession_number": "0001628280-26-005461",
+  "primary_document": "lasr-20260203.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1124796/000162828026005461/lasr-20260203.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-03",
+  "period_end": "2026-02-03",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:37:46.675916+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/LASR/000162828026005461/primary.html",
+    "other": "data/raw/LASR/000162828026005461/other_full.txt"
+  }
+}

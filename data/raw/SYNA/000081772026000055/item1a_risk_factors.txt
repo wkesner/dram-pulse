@@ -1,0 +1,4774 @@
+Item 1A. Risk Factors.”
+Introduction
+In this section, we discuss the results of our operations and changes in financial condition for fiscal 2026 compared to fiscal 2025. Discussions of our fiscal 2024 items and year-to-year comparisons between our fiscal 2025 and 2024 that are not included in this Annual Report can be found in “Part II – Item 7. Management’s Discussion and Analysis of Financial Conditions and Results of Operations” in our fiscal 2025 Annual Report on Form 10-K for the fiscal year ended June 28, 2025.
+Overview
+We design and deliver AI-native edge solutions that bring AI closer to end users and transform how we engage with intelligent, connected devices, whether at home, at work, or on the move. We are a strategic partner for many global OEMs, offering standard and custom silicon and software platforms for Edge AI, Physical AI, wireless connectivity and human interface technologies. Our Synaptics Astra™ family of processors and wireless solutions combine embedded compute, connectivity, and multimodal sensing to support intuitive, secure, and seamless experiences. Our touch, biometrics, AI-enabled wireless connectivity, video, vision, audio, and speech processing solutions support the next generation of intelligent devices that enhance how people live, work and interact with technology.
+In fiscal 2026, we achieved revenue growth with net revenue increasing 11.4% to $1,197.2 million compared to $1,074.3 million in fiscal 2025. The growth was primarily driven by an increase in net revenue in our Core IoT product applications. Net revenue from Core IoT was $389.7 million, increasing 43.1% compared to $272.4 million a year ago, and included the contribution from our Broadcom transaction. This growth was fueled primarily by an increase in units sold coupled with an increase in average selling prices due to our product sales mix. Enterprise and Automotive net revenue was $641.1 million, increasing 5.1% compared to $610.1 million a year ago. The increase was primarily driven by higher unit sales, a better product mix, and increased license revenue from certain of our IP. Mobile net revenue was $166.4 million, decreasing 13.2% compared to $191.8 million a year ago, primarily due to lower average selling prices and a decrease in license revenue from certain of our IP.
+Cash and cash equivalents at the end of fiscal 2026 and 2025 totaled $442.5 million and $391.5 million, respectively. During fiscal 2026, we returned $92.7 million to shareholders through repurchase of approximately 1.3 million shares under the share repurchase program.
+Pending Merger with ON Semiconductor Corporation
+On June 25, 2026, we entered into the Merger Agreement, by and among Synaptics, onsemi and Merger Sub, pursuant to which the Merger will be effected, with Synaptics surviving as a wholly-owned subsidiary of onsemi. Subject to the terms and conditions set forth in the Merger Agreement, at the Effective Time, by virtue of the Merger, each share of Synaptics common stock outstanding immediately prior to the Effective Time, subject to limited exceptions in the Merger Agreement, will be converted into the right to receive 1.350 validly issued, fully paid and non-assessable shares of common stock of onsemi. No fractional shares of onsemi common stock will be issued in connection with the Merger. Instead, any Synaptics stockholder who would otherwise be entitled to receive a fractional share of onsemi common stock will instead receive a cash payment (without interest) equal to such fraction multiplied by the “Average Parent Stock Price,” which is defined in the Merger Agreement as the average of the volume-weighted average trading prices per share of onsemi common stock on the Nasdaq Global Select Market on each of the five consecutive trading days ending on (and including) the trading day that is three trading days prior to the closing date (as reported by Bloomberg L.P. or another authoritative source mutually selected by the parties). The transaction is expected to close in mid-2027, subject to customary closing conditions, including approval by Synaptics stockholders and the receipt of required regulatory approvals.
+27
+Table of Contents
+Trends and Uncertainties
+Current Economic Conditions
+As a global company, we are exposed to and impacted by global macroeconomic factors and geopolitical conditions including military conflicts (such as the ongoing conflict involving the United States, Israel, Iran and other countries in the Middle East and beyond), U.S. and foreign government policies, inflation, tariffs, interest rates, foreign exchange fluctuations, potential economic slowdowns, and evolving trade regulations and sanctions. These factors may affect our operating environment, costs and financial results.
+The ongoing conflict in the Middle East has increased geopolitical tensions, including sanctions and restrictions affecting key transportation routes such as the Strait of Hormuz, contributing to volatility in global energy prices. As a result, we may experience disruptions to transportation routes and supply chains, including those involving third-party vendors, as well as higher transportation and logistics costs and broader inflationary pressures, which could adversely affect our revenue and gross margin. The extent and duration of these impacts remain uncertain, and further escalation and continued duration could materially and adversely affect our business and financial results.
+Given that a significant portion of our sales and supply chain, including outsourced manufacturing, assembly and test operations, occurs outside of the United States, we are also exposed to, and impacted by, changes in international trade policies, particularly increased tariffs and other barriers or restrictions on trade between the United States and other countries, including China. Based on our current import and export practices, we believe our direct tariff exposure remains limited. However, some of our customers and suppliers may be affected depending on their own supply chain strategies and sourcing locations. We continue to monitor for any potential customer and supplier impacts, ranging from supply chain adjustments to changes in end demand. While the broader implications of these activities remain uncertain, based on our current lead times and order activity, we have not observed material changes in order patterns or timing due to tariffs, the ongoing conflict in the Middle East, or related geopolitical developments that would be likely to impact our near-term financial performance. We will continue to assess the potential short- and long-term effects of these developments on our financial and operational performance.
+Industry Conditions
+The continuing constrained availability and elevated pricing of certain memory components across the broader electronics supply chain have, at times, influenced the timing of orders for certain products, particularly for smaller customers. These conditions did not have a material impact on our results of operations during fiscal 2026; however, limited visibility into future availability, timing, increased associated costs, and the potential for these conditions to persist, could affect customer development timelines, purchasing behavior, production schedules, booking patterns, and the timing or visibility of orders in future periods. We continue to monitor these conditions and their potential impact on customer demand and ordering behavior.
+28
+Table of Contents
+Results of Operations
+The following sets forth certain of our consolidated statements of operations data for fiscal 2026 and 2025 along with comparative information regarding the absolute and percentage changes in these amounts (in millions, except percentages):
+2026
+% of net sales
+2025
+% of net sales
+Enterprise and Automotive product applications
+$
+641.1 
+53.5
+%
+$
+610.1 
+56.8
+%
+Core IoT product applications
+389.7 
+32.6
+%
+272.4 
+25.4
+%
+Mobile product applications
+166.4 
+13.9
+%
+191.8 
+17.8
+%
+Net revenue
+1,197.2 
+100.0
+%
+1,074.3 
+100.0
+%
+Gross margin
+535.4 
+44.7
+%
+480.4 
+44.7
+%
+Operating expenses:
+Research and development
+381.8 
+31.9
+%
+346.8 
+32.3
+%
+Selling, general and administrative
+198.3 
+16.6
+%
+180.3 
+16.8
+%
+Acquired intangibles amortization
+12.3 
+1.0
+%
+16.7 
+1.5
+%
+Intangible asset impairment charge
+6.8 
+0.6
+%
+13.8 
+1.3
+%
+Restructuring costs
+3.3 
+0.3
+%
+16.9 
+1.6
+%
+Total operating expenses
+602.5 
+50.4
+%
+574.5 
+53.5
+%
+Operating loss
+(67.1)
+(5.7
+%)
+(94.1)
+(8.8
+%)
+Interest and other income, net
+11.1 
+0.9
+%
+26.9 
+2.5
+%
+Interest expense
+(23.4)
+(2.0
+%)
+(39.8)
+(3.7
+%)
+Loss on early extinguishment of debt
+— 
+—
+%
+(6.5)
+(0.6
+%)
+Loss before provision (benefit) for income taxes
+(79.4)
+(6.7
+%)
+(113.5)
+(10.6
+%)
+Provision (benefit) for income taxes
+411.4 
+34.3
+%
+(65.7)
+(6.2
+%)
+Net loss
+$
+(490.8)
+(41.0)
+%
+$
+(47.8)
+(4.4)
+%
+Percentages may not reconcile due to rounding.
+Fiscal 2026 Compared with Fiscal 2025
+Net Revenue.
+Net revenue was $1,197.2 million for fiscal 2026 compared with $1,074.3 million for fiscal 2025, an increase of $122.9 million, or 11.4%. Of this net revenue, $641.1 million, or 53.5%, was from Enterprise and Automotive product applications, $389.7 million, or 32.6%, was from the Core IoT product applications market and $166.4 million, or 13.9%, was from the Mobile product applications market. Revenue increased in most of our product applications in fiscal 2026. Net revenue from Enterprise and Automotive product applications increased $31.0 million, primarily driven by higher unit sales (1.9%), a better product mix, and increased license revenue from certain of our IP. Net revenue from Core IoT product applications increased $117.3 million, driven by an increase in units sold (25.8%) and an increase in average selling prices (8.0%) due to our product sales mix compared to the same period a year ago, inclusive of the contribution from the Broadcom transaction. Net revenue from Mobile product applications decreased primarily due to a decrease in average selling prices (8.1%) and lower license revenue from certain of our IP.
+Gross Margin.
+Gross margin as a percentage of net revenue remained flat at 44.7% in fiscal 2026 and fiscal 2025. Because we sell our technology solutions in designs that are generally unique or specific to an OEM customer’s application, gross margin varies on a product-by-product basis, making our cumulative gross margin a blend of our product specific designs. As a fabless manufacturer, our gross margin percentage is generally not materially impacted by our shipment volume.
+Operating Expenses.
+Research and Development Expenses.
+ Research and development expenses increased $35.0 million, to $381.8 million, for fiscal 2026 compared with $346.8 million in fiscal 2025. The increase in research and development expenses primarily reflected an $18 million increase in share-based compensation
+primarily driven by the charges related to the awards granted to the Broadcom employees onboarded during the third quarter of fiscal 2025, a
+ $10.6 million increase in personnel-related costs, and a $3.9 million increase in project specific costs.
+29
+Table of Contents
+Selling, General and Administrative Expenses.
+ Selling, general and administrative expenses increased by $18.0 million, to $198.3 million, for fiscal 2026 compared with $180.3 million in fiscal 2025. The increase in selling, general and administrative expenses primarily reflected a $15.6 million increase in share-based compensation primarily attributable to forfeitures associated with the departures of certain executives in the third quarter of fiscal 2025, which did not recur in fiscal 2026,
+ and $10.9 million
+ in professional service fees primarily related to the pending merger with onsemi. Selling, general and administrative expenses in fiscal 2025 included professional service fees of
+$3.3 million
+ related to the Broadcom transaction we executed in the third quarter of fiscal 2025 and a
+$4.5 million
+ unfavorable impact from exchange rates on foreign currencies recorded in fiscal 2025, which did not recur in fiscal 2026.
+Acquired Intangibles Amortization.
+ Acquired intangibles amortization reflects the amortization of intangibles acquired through recent acquisitions. See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 7. Goodwill and Acquired Intangible Assets.”
+Intangible asset impairment charge.
+Intangible asset impairment reflects the impairment of certain indefinite-lived intangible assets. See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 7. Goodwill and Acquired Intangible Assets.”
+Restructuring Costs.
+ Restructuring costs primarily reflect employee severance costs and facilities consolidation costs related to the restructuring action we executed in fiscal
+2026
+ and 2025. These headcount-related costs included personnel in operations, research and development and selling, general and administrative functions. Restructuring costs incurred in fiscal 2026 and 2025 were $3.3 million and $16.9 million, respectively. See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 19. Restructuring Activities.”
+Non-Operating Income.
+Interest and Other Income, net.
+ Interest and other income decreased by $15.8 million, to $11.1 million, in fiscal 2026 compared with $26.9 million in fiscal 2025.
+The decrease was primarily driven by a decrease in interest income of $13.2 million due to the overall reduction in invested cash balances following the early repayment of our incremental term loan facility, which was scheduled to mature in December 2028 (“Term Loan Facility”), in November 2024 and the cash paid for the Broadcom acquisition in January 2025. The decrease also included an impairment charge of
+$5.0 million
+ from a cost method investment during the fourth quarter of fiscal 2026, partially offset by miscellaneous other income of
+$2.3 million
+ relating to a refund of amounts we paid previously to a third party recorded during the first quarter of fiscal 2026.
+Interest Expense
+. Interest expense primarily includes interest on our debt and amortization of debt discount and issuance costs. Interest expense decreased by $16.4 million to $23.4 million during fiscal 2026 as compared to $39.8 million during fiscal 2025.
+The decrease was primarily driven by the early repayment of the Term Loan Facility in November 2024. During fiscal 2025, the interest expense on the Term Loan Facility was $18.7 million. The Term Loan Facility was repaid with the net proceeds received from the issuance of the 2031 Notes, which bears a significantly lower interest rate of 0.75%. See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 8. Debt and Revolving Credit Facility.”
+Provision (Benefit) for Income Taxes
+. The provision (benefit) for income taxes of $411.4 million and $(65.7) million in fiscal 2026 and 2025, respectively, represented estimated federal, foreign and state income taxes. The effective tax rate for fiscal 2026 diverged from the combined U.S. federal and state statutory tax rate primarily due to
+a significant non-cash tax expense associated with the establishment of a full valuation allowance against our U.S. federal deferred tax assets. This expense was partially offset by the benefits from research and development tax credits and foreign-derived deduction eligible income. See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 16. Income Taxes.”
+On July 4, 2025, the One Big Beautiful Bill Act, or OBBBA, was signed into law. The legislation includes a permanent extension and modification of certain provisions under the Tax Cuts and Jobs Act of 2017. Provisions effective for Synaptics beginning June 29, 2025, were reflected in the Company’s income tax provision for fiscal 2026 and did not have a material impact on the effective tax rate or cash flows. We will continue to monitor forthcoming U.S. Treasury and Internal Revenue Service guidance related to OBBBA and assess potential implications for future reporting periods.
+The Organization for Economic Co-operation and Development, or OECD, introduced Pillar Two model rules for a global minimum tax of 15% applicable to large multinational corporations. Many countries in which we have business operations, including the United Kingdom, Hong Kong, Switzerland, and Japan, have implemented certain aspects of Pillar Two. The OECD and the implementing countries are expected to continue issuing guidance and refining their laws. Based on the latest legislation, Pillar Two had immaterial impact on our effective tax rate or cash flows for fiscal 2026. We will continue to evaluate the potential impact of these developments as additional guidance is issued and further local enactments occur.
+30
+Table of Contents
+Liquidity and Capital Resources
+Our cash and cash equivalents were $442.5 million as of the end of fiscal 2026 compared with $391.5 million as of the end of fiscal 2025, an increase of $51.0 million. The increase in cash and cash equivalents was driven by cash provided by operating activities of
+$149.4 million
+, partially offset by cash used in financing activities of $111.5 million primarily related to repurchases of our common stock during fiscal 2026.
+We consider almost all earnings of our foreign subsidiaries as
+ not indefinitely reinvested and have made appropriate provisions for income or withholding taxes that may result from a future repatriation of those earnings. As of the end of fiscal 2026, $254.8 million of cash and cash equivalents was held by our foreign subsidiaries. If these funds are needed for our operations in the United States, we will be able to repatriate these funds without a material impact on our provision for income taxes.
+Cash Flows from Operating Activities.
+Operating activities during fiscal 2026 generated $149.4 million compared with $142.0 million net cash generated in fiscal 2025. In fiscal 2026, net cash provided by operating activities was primarily driven by our results of operations, adjusted for non-cash charges of $728.3 million primarily related to deferred taxes due to an establishment of valuation allowance against U.S. deferred tax assets, share-based compensation costs, and acquired intangible amortization, and net cash outflows of $88.1 million from changes in our operating assets and liabilities. The primary drivers of the change in operating assets and liabilities relate to a decrease of $30.9 million in other accrued liabilities primarily associated with customer related liabilities, an increase in inventories of $17.1 million, related to the availability of supply and the impact of variations between forecasted and actual demand, and an increase in accounts receivable of $33.7 million, primarily related to the timing of collections and billings.
+Cash Flows from Investing Activities.
+ Net cash provided by investing activities for fiscal 2026 was $13.0 million compared with cash used in investing activities of $297.9 million during fiscal 2025. Net cash provided by investing activities for fiscal 2026 primarily consisted of $61.0 million in proceeds from maturities of short-term investments which were not subsequently reinvested in short-term investments, partially offset by purchases of property and equipment of $48.0 million.
+Cash Flows from Financing Activities.
+ Net cash used in financing activities for fiscal 2026 was $111.5 million compared with $331.4 million used in financing activities for fiscal 2025. Net cash used in financing activities for fiscal 2026 primarily consisted of $92.7 million used to repurchase our common stock and $48.4 million used for payroll taxes in connection with the delivery of the underlying shares for share-based awards, partially offset by $17.2 million in proceeds from the issuance of our common shares primarily under our employee stock purchase plan and $14.0 million from the refund of a deposit previously paid to a vendor.
+Liquidity
+We have $350.0 million available under our revolving credit facility with a maturity date to be the earlier of November 2029 or three months prior to any maturity of our Senior Notes. No funds were drawn from this credit facility during fiscal 2026.
+Our aggregate principal debt obligations were $850.0 million as of June 2026 and mature at various dates through December 2031.
+The net carrying amount of our 2031 Notes, which have an aggregate principal balance of $450.0 million maturing in 2031, of $439.6 million is presented in the current portion of long-term debt in our consolidated balance sheets as of June 2026.  D
+uring the fourth quarter of fiscal 2026, the last reported sale pr
+ice per share of our common stock exceeded 130% of the conversion price for at least 20 trading days during the 30 consecutive trading days of the calendar quarter, which caused the 2031 Notes to be convertible by the holders for the calendar quarter ending September 30, 2026.
+The net carrying amount of our Senior Notes, which have an aggregate principal balance of $400.0 million maturing in 2029, of $397.7 million is presented in long-term debt in our consolidated balance sheets as of June 2026.
+See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 8. Debt and Revolving Credit Facility.”
+Contractual Obligations and Commercial Commitments.
+For our operating lease obligations, see “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 9. Leases.” For our purchase obligations, see “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 12. Commitments and Contingencies.”
+Working Capital Needs.
+ We believe our existing cash and cash equivalents, anticipated cash flows from operating activities and available credit under our revolving credit facility will be sufficient to meet our working capital and other cash
+31
+Table of Contents
+requirements, and our debt service obligations for at least the next 12 months. Our future capital requirements will depend on many factors, including our revenue, the timing and extent of spending to support product development efforts, costs associated with restructuring activities net of projected savings from those activities, costs related to protecting our intellectual property, the expansion of sales and marketing activities, the timing of introduction of new products and enhancements to existing products, costs to ensure access to adequate manufacturing, costs of maintaining sufficient space for our workforce, the continuing market acceptance of our product solutions, our common stock repurchase program and the amount and timing of our investments in, or acquisitions of, other technologies or companies. Further equity or debt financing may not be available to us on acceptable terms. If sufficient funds are not available or are not available on acceptable terms, our ability to fund our future long-term working capital needs, take advantage of business opportunities or to respond to competitive pressures could be limited or severely constrained.
+The undistributed earnings of our foreign subsidiaries are not currently required to meet our U.S. working capital and other cash requirements, but should we repatriate a portion of these earnings, we may be required to pay certain previously accrued state and foreign taxes, which would impact our cash flows.
+Critical Accounting Estimates
+Our discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with U.S. generally accepted accounting principles (“U.S. GAAP”). The preparation of our consolidated financial statements requires us to make estimates and judgments in applying our most critical accounting policies that can have a significant impact on the results we report in our consolidated financial statements.
+The SEC has defined critical accounting estimates as those that are both most important to the portrayal of our financial condition and results and which require our most difficult, complex or subjective judgments or estimates. We evaluate our estimates on an on-going basis, including those related to our revenue, inventory valuation, business combinations, goodwill and income taxes. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances, the results of which form the bases for making judgments about the carrying values of assets and liabilities. Although actual results have historically been reasonably consistent with our expectations, the actual results may differ from these estimates or our estimates may be affected by different assumptions or conditions.
+We believe the following critical accounting estimates are the most significant to the presentation of our financial statements and require the most difficult, subjective and complex judgments.
+Revenue Recognition
+We recognize revenue upon the transfer of control of goods to our customers in an amount that reflects the consideration we expect to receive. Our pricing terms are negotiated independently with each customer on a stand-alone basis. In evaluating the transaction price, we assess whether it is subject to adjustment or refund, such as stock rotation rights, price protection or volume-based incentives, and we estimate the resulting variable consideration accordingly. Although such arrangements occur in limited circumstances, they require judgment to determine the net consideration to which we expect to be entitled. We estimate variable consideration based on historical data and experience with returns, rebates and credits. We believe these amounts to be immaterial to total revenue and do not anticipate significant changes to our estimates. This estimate qualifies as a critical accounting estimate due to the subjective judgments required to assess variable consideration and the potential impact on revenue recognition timing and amount, even if the current magnitude of such estimates is limited.
+Inventory Valuation
+We value inventory at standard cost, adjusted to approximate the lower of actual cost and estimated net realizable value using assumptions about future demand and market conditions. In determining excess or obsolescence reserves for our products, we consider assumptions such as changes in business and economic conditions, other-than-temporary decreases in demand for our products and changes in customer requirements. In determining the lower of cost and net realizable value of our inventories, we consider assumptions such as recent historical sales activity and selling prices, as well as estimates of future selling prices.
+We fully reserve for inventories and non-cancellable purchase orders for inventory deemed obsolete. We perform periodic reviews of inventory items to identify excess inventories on hand by comparing on-hand balances and non-cancellable purchase orders to anticipated usage based on recent historical activity as well as anticipated or forecasted demand. We also record a charge to cost of revenue for estimated losses for inventory we are obligated to purchase from our contract manufacturers when such losses become probable from customer delays, order cancellations or other factors.
+32
+Table of Contents
+The following factors influence our estimates: changes to, or cancellations of, customer orders, unexpected or sudden decline in demand, rapid product improvements, technological advances and termination or changes by our OEM customers of any product offerings incorporating our product solutions. Our reserves contain uncertainties because the calculation requires us to make assumptions and to apply judgment regarding historical experience, market conditions and technological obsolescence. Overall, our estimates of inventory carrying value adjustments have been materially consistent with actual results. Due to the subjective inputs and forward-looking assumptions, this estimate qualifies as a critical accounting estimate with potential impact on gross margin and inventory-related balances.
+Business Combinations
+Accounting for a business combination requires us to estimate the fair value of consideration paid and the individual assets acquired and liabilities assumed, which involves a number of judgments, assumptions and estimates that could materially affect the amount and timing of costs recognized in subsequent periods. We typically obtain independent third-party valuation studies to assist us in determining fair values, including assistance in estimating future cash flows, discount rates and comparable market values. Items involving significant assumptions, estimates and judgments include the following:
+•
+Fair value of consideration paid or transferred and
+•
+Intangible assets, including valuation methodology such as the income approach that includes the use of a discounted cash flow model, estimates of future revenues and costs, discount and royalty rates.
+We estimate the fair value of assets acquired and liabilities assumed based upon assumptions we believe to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. Estimates associated with the accounting for acquisitions may change as additional information becomes available regarding the assets acquired and liabilities assumed. Due to the subjectivity and reliance on forward-looking inputs, these acquisition-related estimates qualify as critical accounting estimates.
+Impairment of Long-Lived Assets and Intangible Assets
+We assess the impairment of long-lived assets and definite-lived intangible assets whenever events or changes in circumstances indicate that the carrying amount of long-lived assets may not be recoverable. We assess the impairment of indefinite-lived intangible assets annually, and more frequently, if events or changes in circumstances indicate that it is more likely than not that the asset is impaired. Circumstances which could trigger a review include, but are not limited to the following:
+•
+Significant decreases in the market price of the asset;
+•
+Significant adverse changes in the business climate or legal factors;
+•
+Accumulation of costs significantly in excess of the amount originally expected for the acquisition or construction of the asset;
+•
+Current period cash flow or operating losses combined with a history of losses or a forecast of continuing losses associated with the use of the asset; and
+•
+Current expectation that the asset will more likely than not be sold or disposed of significantly before the end of its estimated useful life.
+Whenever events or changes in circumstances suggest that the carrying amount of long-lived assets and intangible assets may not be recoverable, we estimate the future cash flows, undiscounted and without interest charges, expected to be generated by the asset from its use or eventual disposition. If the sum of the expected undiscounted future cash flows is less than the carrying amount of those assets, we recognize an impairment loss based on the excess of the carrying amount over the fair value of the assets. Significant management judgment is required in the forecasts of future operating results that are used in the discounted cash flow method of valuation. These significant judgments may include future expected revenue, expenses, capital expenditures and other costs, discount rates and whether or not alternative uses are available for impacted long-lived assets.
+Income Taxes
+We estimate our income taxes in each of the jurisdictions in which we operate. The determination of our income tax provision requires significant judgment and estimates, including the amount and timing of taxable income by jurisdiction, the tax treatment of transactions, the realizability of deferred tax assets, uncertain tax positions and the expected resolution of tax examinations.
+Our most significant income tax estimate relates to the realizability of deferred tax assets and the related valuation allowance. Assessing the need for a valuation allowance for deferred tax assets requires judgment and analysis in
+33
+Table of Contents
+evaluating all available positive and negative evidence, including cumulative earnings or losses over the most recent three-year period, recent operating results, the scheduled reversal of existing taxable temporary differences, projected future taxable income, and prudent and feasible tax planning strategies. We record a valuation allowance when it is more likely than not that some or all of a deferred tax asset will not be realized. Our projections of future taxable income by jurisdiction are based on management’s estimates of future operating results, the timing and amount of taxable income, reversals of temporary differences and available tax-planning strategies. These estimates may differ from actual results. Changes in our projections or in the weight assigned to available evidence could result in a material increase or decrease in the valuation allowance and related income tax expense.
+When assessing the need for a valuation allowance all positive and negative evidence is analyzed, including our ability to carry back net operating losses to prior periods, the reversal of deferred tax liabilities, tax planning strategies and projected future taxable income. Accordingly, as of June 2026, we had recorded a full valuation allowance on our net U.S. deferred tax assets based on our assessment that it is more likely than not that the deferred tax asset will not be realized. As a result of the losses incurred in fiscal 2026, we had a three-year cumulative loss, which represents significant negative evidence regarding the ability to realize deferred tax assets.
+As a multinational corporation, we conduct our business in many countries and are subject to taxation in many jurisdictions. Our income tax estimates are also affected by the geographic distribution of our worldwide earnings or losses, tax laws and regulations in various jurisdictions, tax incentives, the availability of tax credits and loss carryforwards and the effectiveness of our tax planning strategies, which includes our estimates of the fair value of our intellectual property. The application of tax laws and regulations is subject to legal and factual interpretation, judgment and uncertainty. We use judgment to evaluate the technical merits of tax positions and estimate the amount of tax benefits expected to be sustained upon examination. These estimates may change as a result of new information, changes in tax laws or interpretations, court decisions, audit developments or settlements with tax authorities.
+Due to the complexity of international tax laws, reliance on future projections and the significant level of judgment involved, income tax-related estimates qualify as critical accounting estimates and may impact our results of operations and financial position.
+Recent Accounting Pronouncements
+See “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 2. Basis of Presentation and Significant Accounting Policies – Accounting Pronouncements Adopted.” and “Item 8. Financial Statements and Supplementary Data – Notes to Consolidated Financial Statements – Note 2. Basis of Presentation and Significant Accounting Policies – Accounting Pronouncements Issued But Not Yet Adopted.”
+34
+Table of Contents
+ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+We are exposed to certain market risks in the ordinary course of our business. These risks primarily include:
+Foreign Currency Exchange Risk
+Our total net revenue for fiscal 2026 and 2025 was denominated in U.S. dollars. Costs denominated in foreign currencies were approximately 17% of our total costs in fiscal 2026 and 2025.
+We face the risk that our accounts payable and monetary liabilities denominated in foreign currencies will increase if such foreign currencies strengthen quickly and significantly against the U.S. dollar. Approximately 5% and 3% of our accounts payable were denominated in foreign currencies as of June 2026 and 2025, respectively.
+To provide an assessment of the foreign currency exchange risk associated with our foreign currency exposures within cost and operating expenses, we performed a sensitivity analysis to determine the impact that an adverse change in exchange rates would have on our financial statements. A hypothetical weighted-average change of 10% in currency exchange rates would have changed our operating loss before income taxes and our net loss by approximately $22.0 million for fiscal 2026, assuming no offsetting hedge positions. However, this quantitative measure has inherent limitations. The sensitivity analysis disregards the possibility that U.S. dollar and other exchange rates can move in opposite directions and that gains from one currency may or may not be offset by losses from another currency.
+Interest Rate Risk on Cash and Cash Equivalents
+Our exposure to market risk for changes in interest rates relates primarily to our investment portfolio. Our investment portfolio consists of cash and cash equivalents (money market funds and short-term investments). Our primary objective with our investment portfolio is to invest available cash while preserving principal and meeting liquidity needs. Our cash equivalent investments have short-term maturity periods that mitigate the impact of market or interest rate risk.
+Based on our results of operations for fiscal 2026, a hypothetical increase or decrease of 50 basis points in the interest rates on our cash, cash equivalents and short-term investments compared to rates at the end of fiscal 2026 would result in a corresponding increase or decrease in interest income of approximately $2.0 million.
+Interest Rate Risk on Debt
+As of June 2026, our outstanding long-term debt had fixed interest rates. Consequently, our exposure to market risk for changes in interest rates on reported interest expense and corresponding cash flows is minimal.
+35
+Table of Contents
+ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+INDEX TO FINANCIAL STATEMENTS
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+Report of Independent Registered Public Accounting Firm (
+KPMG LLP
+,
+Santa Clara, California
+, PCAOB Audit Firm ID:
+185
+)
+37
+Consolidated Balance Sheets
+39
+Consolidated Statements of Operations
+40
+Consolidated Statements of Comprehensive (Loss) Income
+41
+Consolidated Statements of Stockholders’ Equity
+42
+Consolidated Statements of Cash Flows
+43
+Notes to Consolidated Financial Statements
+44
+36
+Table of Contents
+Report of Independent Registered Public Accounting Firm
+To the Stockholders and Board of Directors
+Synaptics Incorporated:
+Opinions on the Consolidated Financial Statements and Internal Control Over Financial Reporting
+We have audited the accompanying consolidated balance sheets of Synaptics Incorporated and subsidiaries (the Company) as of June 27, 2026 and June 28, 2025, the related consolidated statements of operations, comprehensive (loss) income, stockholders’ equity, and cash flows for each of the fiscal years in the three-year period ended June 27, 2026, and the related notes (collectively, the consolidated financial statements). We also have audited the Company’s internal control over financial reporting as of June 27, 2026, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission.
+In our opinion, the consolidated financial statements referred to above present fairly, in all material respects, the financial position of the Company as of June 27, 2026 and June 28, 2025, and the results of its operations and its cash flows for each of the fiscal years in the three-year period ended June 27, 2026, in conformity with U.S. generally accepted accounting principles. Also in our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of June 27, 2026 based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission.
+Basis for Opinions
+The Company’s management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company’s consolidated financial statements and an opinion on the Company’s internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud, and whether effective internal control over financial reporting was maintained in all material respects.
+Our audits of the consolidated financial statements included performing procedures to assess the risks of material misstatement of the consolidated financial statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the consolidated financial statements. Our audit of internal control over financial reporting included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, and testing and evaluating the design and operating effectiveness of internal control based on the assessed risk. Our audits also included performing such other procedures as we considered necessary in the circumstances. We believe that our audits provide a reasonable basis for our opinions.
+Definition and Limitations of Internal Control Over Financial Reporting
+A company’s internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company’s internal control over financial reporting includes those policies and procedures that (1) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (2) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (3) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company’s assets that could have a material effect on the financial statements.
+37
+Table of Contents
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+Critical Audit Matter
+The critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that: (1) relates to accounts or disclosures that are material to the consolidated financial statements and (2) involved our especially challenging, subjective, or complex judgments. The communication of a critical audit matter does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates.
+Valuation of inventories
+As discussed in Note 2 and 3 to the consolidated financial statements, the Company held $156.4 million of inventories as of June 27, 2026 which are stated at the lower of cost and net realizable value. The Company records a write-down for excess, obsolete or unmarketable inventories based on forecasts of future demand and market conditions.
+We identified the valuation of inventories associated with excess, obsolete or unmarketable inventories as a critical audit matter.  A higher degree of auditor judgment was required to evaluate the Company’s estimate of net realizable value for these inventories. Specifically, there is a high degree of subjectivity in evaluating the effect of any unexpected or sudden declines in market demand which may result from changes to or cancellations of customer orders, rapid product improvements or technological advances, due to the nature of the evidence available related to these factors.
+The following are the primary procedures we performed to address this critical audit matter. We evaluated the design and tested the operating effectiveness of certain internal controls related to the Company’s process to develop the estimated net realizable value of inventory. For a selection of inventory items, we assessed the Company’s assumptions by comparing them to historical activity and demand forecasts. As part of the procedure, we considered customer communications, as well as end user and third-party publications. For a sample of inventory items, we recalculated the required write-downs and compared this to the recorded amounts.
+/s/
+ KPMG LLP
+We have served as the Company’s auditor since 2003.
+Santa Clara, California
+August 10, 2026
+38
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED BALANCE SHEETS
+(in millions, except par value and share amounts)
+June
+2026
+June
+2025
+ASSETS
+Current Assets:
+Cash and cash equivalents
+$
+442.5
+ 
+$
+391.5
+ 
+Short-term investments
+—
+ 
+61.0
+ 
+Receivables, net
+164.0
+ 
+130.3
+ 
+Inventories
+156.4
+ 
+139.5
+ 
+Prepaid expenses and other current assets
+24.1
+ 
+29.6
+ 
+Total current assets
+787.0
+ 
+751.9
+ 
+Property and equipment, net
+86.9
+ 
+72.1
+ 
+Goodwill
+872.3
+ 
+872.3
+ 
+Acquired intangible assets
+187.8
+ 
+262.2
+ 
+Deferred tax assets
+6.2
+ 
+408.8
+ 
+Non-current other assets
+161.8
+ 
+217.1
+ 
+Total assets
+$
+2,102.0
+ 
+$
+2,584.4
+ 
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current Liabilities:
+Accounts payable
+$
+82.6
+ 
+$
+98.5
+ 
+Accrued liabilities
+179.1
+ 
+172.4
+ 
+Current portion of long-term debt
+439.6
+ 
+—
+ 
+Total current liabilities
+701.3
+ 
+270.9
+ 
+Long-term debt
+397.7
+ 
+834.8
+ 
+Other long-term liabilities
+73.5
+ 
+83.8
+ 
+Total liabilities
+1,172.5
+ 
+1,189.5
+ 
+Stockholders’ Equity:
+Preferred stock:
+$
+0.001
+ par value;
+10,000,000
+ shares authorized;
+no
+ shares issued and outstanding
+—
+ 
+—
+ 
+Common stock:
+$
+0.001
+ par value;
+120,000,000
+ shares authorized;
+72,350,090
+ and
+70,611,845
+ shares issued,
+39,062,676
+ and
+38,642,761
+ shares outstanding, at June 2026 and June 2025, respectively
+0.1
+ 
+0.1
+ 
+Additional paid-in capital
+1,329.9
+ 
+1,211.8
+ 
+Treasury stock:
+33,287,414
+ and
+31,969,084
+ common shares at June 2026 and June 2025, respectively, at cost
+(
+1,099.6
+)
+(
+1,006.9
+)
+Retained earnings
+699.1
+ 
+1,189.9
+ 
+Total stockholders’ equity
+929.5
+ 
+1,394.9
+ 
+Total liabilities and stockholders’ equity
+$
+2,102.0
+ 
+$
+2,584.4
+ 
+See accompanying notes to consolidated financial statements.
+39
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share amounts)
+Fiscal Year
+
+2026
+2025
+2024
+Net revenue
+$
+1,197.2
+ 
+$
+1,074.3
+ 
+$
+959.4
+ 
+Cost of revenue
+661.8
+ 
+593.9
+ 
+519.6
+ 
+Gross margin
+535.4
+ 
+480.4
+ 
+439.8
+ 
+Operating expenses:
+Research and development
+381.8
+ 
+346.8
+ 
+336.3
+ 
+Selling, general and administrative
+198.3
+ 
+180.3
+ 
+161.3
+ 
+Acquired intangibles amortization
+12.3
+ 
+16.7
+ 
+17.3
+ 
+Intangible asset impairment charge
+6.8
+ 
+13.8
+ 
+16.0
+ 
+Restructuring costs
+3.3
+ 
+16.9
+ 
+10.5
+ 
+Total operating expenses
+602.5
+ 
+574.5
+ 
+541.4
+ 
+Operating loss
+(
+67.1
+)
+(
+94.1
+)
+(
+101.6
+)
+ Interest and other income, net
+11.1
+ 
+26.9
+ 
+42.3
+ 
+ Interest expense
+(
+23.4
+)
+(
+39.8
+)
+(
+65.3
+)
+Loss on early extinguishment of debt
+—
+ 
+(
+6.5
+)
+—
+ 
+Loss before provision (benefit) for income taxes
+(
+79.4
+)
+(
+113.5
+)
+(
+124.6
+)
+Provision (benefit) for income taxes
+411.4
+ 
+(
+65.7
+)
+(
+250.2
+)
+Net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+Net (loss) income per share:
+Basic
+$
+(
+12.62
+)
+$
+(
+1.22
+)
+$
+3.20
+ 
+Diluted
+$
+(
+12.62
+)
+$
+(
+1.22
+)
+$
+3.16
+ 
+Shares used in computing net (loss) income per share:
+Basic
+38.9
+39.3
+39.2
+Diluted
+38.9
+39.3
+39.7
+See accompanying notes to consolidated financial statements.
+40
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME
+(in millions)
+Fiscal Year
+
+2026
+2025
+2024
+Net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+Other comprehensive (loss) income , net of tax:
+Unrealized gain on available-for-sale-securities
+—
+ 
+—
+ 
+0.2
+ 
+Reclassification adjustments for gains included in net (loss) income
+—
+ 
+—
+ 
+(
+0.2
+)
+Other comprehensive (loss) income
+—
+ 
+—
+ 
+—
+ 
+Comprehensive (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+See accompanying notes to consolidated financial statements.
+41
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(in millions, except share amounts)
+Common Stock
+Shares
+Amount
+Additional Paid-In Capital
+
+Treasury Stock
+Retained Earnings
+Total Stockholders’
+Equity
+Balance at June 2023
+68,687,511
+$
+0.1
+ 
+$
+1,009.2
+ 
+$
+(
+878.0
+)
+$
+1,112.1
+ 
+$
+1,243.4
+ 
+Net income
+—
+— 
+— 
+— 
+125.6
+ 
+125.6
+ 
+Issuance of common stock for share-based award compensation plans
+996,480
+— 
+15.9
+ 
+— 
+— 
+15.9
+ 
+Payroll taxes related to net share settlement of share-based awards
+—
+— 
+(
+36.9
+)
+— 
+— 
+(
+36.9
+)
+Share-based compensation
+—
+— 
+118.8
+ 
+— 
+— 
+118.8
+ 
+Balance at June 2024
+69,683,991
+0.1
+ 
+1,107.0
+ 
+(
+878.0
+)
+1,237.7
+ 
+1,466.8
+ 
+Net loss
+—
+— 
+— 
+— 
+(
+47.8
+)
+(
+47.8
+)
+Issuance of common stock for share-based award compensation plans
+927,854
+— 
+13.9
+ 
+— 
+— 
+13.9
+ 
+Payroll taxes related to net share settlement of share-based awards
+—
+— 
+(
+19.6
+)
+— 
+— 
+(
+19.6
+)
+Purchase of capped calls related to the 2031 convertible senior notes
+—
+— 
+(
+49.9
+)
+— 
+— 
+(
+49.9
+)
+Common stock repurchased
+—
+— 
+— 
+(
+128.9
+)
+— 
+(
+128.9
+)
+Share-based compensation attributable to acquisition
+—
+— 
+47.6
+ 
+— 
+— 
+47.6
+ 
+Share-based compensation
+—
+— 
+112.8
+ 
+— 
+— 
+112.8
+ 
+Balance at June 2025
+70,611,845
+0.1
+ 
+1,211.8
+ 
+(
+1,006.9
+)
+1,189.9
+ 
+1,394.9
+ 
+Net loss
+— 
+— 
+— 
+— 
+(
+490.8
+)
+(
+490.8
+)
+Issuance of common stock for share-based award compensation plans
+1,738,245
+— 
+17.2
+ 
+— 
+— 
+17.2
+ 
+Payroll taxes related to net share settlement of share-based awards
+—
+— 
+(
+48.4
+)
+— 
+— 
+(
+48.4
+)
+Common stock repurchased
+—
+— 
+— 
+(
+92.7
+)
+— 
+(
+92.7
+)
+Share-based compensation
+—
+— 
+149.3
+ 
+— 
+— 
+149.3
+ 
+Balance at June 2026
+72,350,090
+$
+0.1
+ 
+$
+1,329.9
+ 
+$
+(
+1,099.6
+)
+$
+699.1
+ 
+$
+929.5
+ 
+See accompanying notes to consolidated financial statements.
+42
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+Fiscal Year
+
+2026
+2025
+2024
+Cash flows from operating activities
+Net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+Adjustments to reconcile net (loss)/income to net cash provided by operating activities:
+Share-based compensation costs
+149.3
+ 
+112.8
+ 
+118.8
+ 
+Depreciation
+30.8
+ 
+28.9
+ 
+27.6
+ 
+Acquired intangibles amortization
+119.0
+ 
+114.2
+ 
+81.6
+ 
+Deferred taxes
+403.8
+ 
+(
+75.4
+)
+(
+288.8
+)
+Intangible asset impairment charge
+6.8
+ 
+13.8
+ 
+16.0
+ 
+Other
+18.6
+ 
+24.7
+ 
+25.0
+ 
+Changes in operating assets and liabilities, net of acquisitions:
+Accounts receivable, net
+(
+33.7
+)
+12.3
+ 
+22.4
+ 
+Inventories
+(
+17.1
+)
+(
+25.1
+)
+6.5
+ 
+Prepaid expenses and other assets
+8.2
+ 
+12.0
+ 
+(
+14.3
+)
+Accounts payable
+(
+13.7
+)
+10.8
+ 
+38.9
+ 
+Income taxes payable
+(
+0.9
+)
+(
+43.3
+)
+(
+19.1
+)
+Other accrued liabilities
+(
+30.9
+)
+4.1
+ 
+(
+4.3
+)
+Net cash provided by operating activities
+149.4
+ 
+142.0
+ 
+135.9
+ 
+Cash flows from investing activities
+Acquisition of business, net of cash and cash equivalents acquired
+—
+ 
+(
+201.1
+)
+—
+ 
+Advance payment on intangible assets
+—
+ 
+—
+ 
+(
+120.3
+)
+Proceeds from maturities of investments
+61.0
+ 
+—
+ 
+26.5
+ 
+Purchases of short-term investments
+—
+ 
+(
+61.0
+)
+(
+16.6
+)
+Purchases of property and equipment
+(
+48.0
+)
+(
+25.8
+)
+(
+33.8
+)
+Purchases of intangible assets
+—
+ 
+(
+10.0
+)
+(
+13.5
+)
+Net cash provided by (used in) investing activities
+13.0
+ 
+(
+297.9
+)
+(
+157.7
+)
+Cash flows from financing activities
+Proceeds from issuance of convertible notes, net of issuance costs
+—
+ 
+439.5
+ 
+—
+ 
+Payment of debt issuance costs on convertible senior notes and revolving credit facility
+—
+ 
+(
+4.4
+)
+—
+ 
+Payments for capped call transactions related to convertible senior notes
+—
+ 
+(
+49.9
+)
+—
+ 
+Proceeds from issuance of shares
+17.2
+ 
+13.9
+ 
+15.9
+ 
+Payroll taxes related to net share settlement of share-based awards
+(
+48.4
+)
+(
+19.6
+)
+(
+36.9
+)
+Repurchases of common stock, exclusive of excise taxes
+(
+92.7
+)
+(
+128.3
+)
+—
+ 
+Return of deposit from vendor
+14.0
+ 
+—
+ 
+—
+ 
+Repayment of debt
+—
+ 
+(
+583.5
+)
+(
+7.5
+)
+Other
+(
+1.6
+)
+0.9
+ 
+3.4
+ 
+Net cash used in financing activities
+(
+111.5
+)
+(
+331.4
+)
+(
+25.1
+)
+Effect of exchange rate changes on cash and cash equivalents
+0.1
+ 
+1.9
+ 
+(
+0.9
+)
+Net increase / (decrease) in cash and cash equivalents
+51.0
+ 
+(
+485.4
+)
+(
+47.8
+)
+Cash and cash equivalents, beginning of period
+391.5
+ 
+876.9
+ 
+924.7
+ 
+Cash and cash equivalents, end of period
+$
+442.5
+ 
+$
+391.5
+ 
+$
+876.9
+ 
+Supplemental disclosures of cash flow information
+Cash paid for taxes, net of refunds
+$
+3.2
+ 
+$
+47.2
+ 
+$
+55.2
+ 
+Cash paid for interest
+$
+20.5
+ 
+$
+38.7
+ 
+$
+63.4
+ 
+Supplemental disclosures of non-cash transactions
+Deferred payment of purchase consideration
+$
+—
+ 
+$
+3.2
+ 
+$
+—
+ 
+Purchases of property and equipment in current liabilities
+$
+1.4
+ 
+$
+3.5
+ 
+$
+4.3
+ 
+Receipt of intangible assets from advance payments
+$
+51.3
+ 
+$
+—
+ 
+$
+74.0
+ 
+See accompanying notes to consolidated financial statements.
+43
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(all tabular amounts in millions, except per share amounts)
+
+Note 1.
+Description of Business
+We design and deliver AI-native edge solutions that bring AI closer to end users and transform how we engage with intelligent, connected devices, whether at home, at work, or on the move. We are a strategic partner for many global original equipment manufacturers (“OEMs”), offering standard and custom silicon and software platforms for Edge AI, Physical AI, wireless connectivity and human interface technologies.
+
+Pending Merger with ON Semiconductor Corporation
+On June 25, 2026, we entered into an Agreement and Plan of Reorganization (the “Merger Agreement”), by and among Synaptics, ON Semiconductor Corporation, a Delaware corporation (“Parent” or “onsemi”), and Sonic Acquisition Corp., a Delaware corporation and wholly-owned subsidiary of Parent (“Merger Sub”), pursuant to which Merger Sub will merge with and into Synaptics (the “Merger”), with Synaptics surviving as a wholly-owned subsidiary of Parent (the “Surviving Corporation”). Subject to the terms and conditions set forth in the Merger Agreement, including the approval of a proposal to approve the Merger and the Merger Agreement at a special meeting of Synaptics stockholders, at the effective time of the Merger (the “Effective Time”), by virtue of the Merger, each share of Synaptics common stock outstanding immediately prior to the Effective Time, subject to limited exceptions in the Merger Agreement, shall be converted into the right to receive
+1.350
+ validly issued, fully paid and non-assessable shares of onsemi common stock, par value $
+0.01
+ per share (“onsemi common stock”) (such number of shares of onsemi common stock per share of Synaptics common stock, the “Exchange Ratio”, and such consideration, the “Merger Consideration”). No fractional shares of onsemi common stock will be issued in connection with the Merger. Instead, any Synaptics stockholder who would otherwise be entitled to receive a fractional share of onsemi common stock will instead receive a cash payment (without interest) equal to such fraction multiplied by the “Average Parent Stock Price,” which is defined in the Merger Agreement as the average of the volume-weighted average trading prices per share of onsemi common stock on the Nasdaq Global Select Market on each of the
+five
+ consecutive trading days ending on (and including) the trading day that is
+three
+ trading days prior to the closing date (as reported by Bloomberg L.P. or another authoritative source mutually selected by the parties). The transaction is expected to close in mid-2027, subject to customary closing conditions, including approval by Synaptics stockholders and the receipt of required regulatory approvals.
+
+Note 2.
+Basis of Presentation and Significant Accounting Policies
+Basis of Presentation and Principles of Consolidation
+Our fiscal year is the 52- or 53-week period ending on the last Saturday in June. The fiscal years presented in this report are the 52-week periods ended June 27, 2026 and June 28, 2025, and the 53-week period ended June 29, 2024. For simplicity, the accompanying consolidated financial statements have been shown as ending on calendar quarter end dates as of and for all periods presented, unless otherwise indicated.
+The consolidated financial statements are presented in accordance with U.S. generally accepted accounting principles (“U.S. GAAP”) and include Synaptics Incorporated and its consolidated subsidiaries. Intercompany balances and transactions have been eliminated in consolidation.
+Use of Estimates
+The preparation of financial statements and related disclosures in conformity with U.S. GAAP requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenue, expenses and disclosures. On an ongoing basis, we evaluate our estimates, including those related to revenue, allowance for credit losses, cost of revenue, inventories, loss on purchase commitments, product warranty, accrued liabilities, share-based compensation costs, provision for income taxes, deferred income tax assets, valuation allowances, uncertain tax positions, goodwill, intangible assets, investments and loss contingencies. We base our estimates on historical experience, applicable laws and regulations and various other assumptions that we believe to be reasonable under the circumstances, the results of which form the bases for making judgments about the carrying value of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates under different assumptions or conditions.
+44
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Cash Equivalents
+Cash equivalents consist of highly liquid investments with original maturities of three months or less at the time of purchase.
+Short-Term Investments
+Investments with an original maturity of three months or less at the date of purchase are considered cash equivalents, while all other investments are classified as short-term based on management’s intent and ability to use the funds in current operations. Unrealized gains and losses are reported as a component of other comprehensive (loss) income. Realized gains and losses are determined based on the specific identification method and are reflected as interest and other income in the accompanying consolidated statements of operations.
+We regularly review our investment portfolio to identify and evaluate investments that have indicators of possible impairment. Some of the factors we consider include, but are not limited to, the following: the length of time and extent to which a security’s fair value has been below its cost, the financial condition and near-term prospects of the investee, the credit quality of the security’s issuer, the likelihood of recovery and our intent and ability to hold the security for a period of time sufficient to allow for any anticipated recovery in value.
+Fair Value Measurements
+We apply fair value accounting for all financial assets and liabilities that are required to be recognized or disclosed at fair value in the consolidated financial statements. Fair value is defined as the price that would be received from selling an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. When determining the fair value measurements for assets and liabilities, we consider the principal or most advantageous market in which we would transact and the market-based risk measurements or assumptions that market participants would use in pricing the asset or liability, such as inherent risk, transfer restrictions and credit risk. The carrying amounts reported in the accompanying consolidated financial statements approximate the fair value for cash, accounts receivable, accounts payable and accrued liabilities due to their short-term nature.
+Intangible assets, property and equipment and goodwill are measured at fair value on a non-recurring basis if impairment is indicated. The interest rate on our revolving credit facility is variable, which is subject to change from time-to-time to reflect a market interest rate; however, no balance was outstanding under the revolving credit facility during fiscal 2026. See “Note 6. Fair Value Measurements.”
+Revenue Recognition
+Revenue is recognized when control of the promised goods or services is transferred to our customers. Substantially all of our revenue is generated from product sales. Generally, our revenue is recognized at a point in time, either upon shipment or delivery of the product, in accordance with customer terms and conditions. We account for shipping and handling costs as fulfillment costs before the customer obtains control of the goods and classify shipping and handling costs as a cost of revenue. We account for the collection of transaction taxes on a net basis.
+Substantially all payments from our customers are generally due within our standard contractual terms, which do not include a significant financing component.
+Products
+We transfer control and recognize revenue at a point in time when products are shipped to our customers, including OEMs and distributors, in accordance with the shipping terms of the sale. We recognize revenue in an amount that reflects the consideration we expect to receive in exchange for those goods or services, net of accruals for estimated sales returns and rebates. Certain OEMs and distributors may be entitled to rights of return and rebates under OEM and distributor agreements. We estimate the amount of variable consideration under these arrangements based on the expected value to be provided to customers. When incentives, stock rotation rights, price protection, volume discounts or other price allowances are applicable, they are estimated and recorded in the period the related revenue is recognized. Our accrual for estimated returns is based on historical return rates and recorded as a reduction to revenue with a corresponding reduction to cost of goods sold for the estimated cost of inventory expected to be returned.
+45
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Intellectual property licensing arrangements
+Rights to our intellectual property (“IP”) are either sold or licensed to customers. Revenue recognition from the licensing of our IP is dependent on the nature and terms of each agreement. We recognize revenue from the licensing of our IP upon delivery of the IP if there are no substantive future obligations to perform under the arrangement. Sales-based or usage-based royalties from the license of IP are recognized at the latter of the period the sale or usage occurs or the satisfaction of performance obligations, if any, to which some or all of the sales-based or usage-based royalties have been allocated.
+As of June 2026, we did
+not
+ have any remaining unsatisfied performance obligations with an original duration greater than one year. Accordingly, under the optional exception provided by the applicable accounting standard, we have not disclosed revenues allocated to future performance obligations of partially completed contracts.
+Advertising Costs
+Advertising costs are expensed when incurred.
+Allowance for Credit Losses
+We maintain allowances for expected credit losses resulting from the inability of customers to meet their financial obligations. On an ongoing basis, we evaluate the collectability of accounts receivable based on a combination of factors. In circumstances in which we are aware of a specific customer’s potential inability to meet its financial obligation, we record a specific reserve of the estimated credit loss against amounts due. In addition, we make judgments and estimates on the collectability of accounts receivable based on our historical bad debt experience, customers’ creditworthiness, current economic trends, recent changes in customers’ payment trends and deterioration in customers’ operating results or financial position. If circumstances change adversely, additional credit loss allowances may be required. At both June 2026 and June 2025, the allowance for credit losses on our trade receivables was $
+4.2
+ million.
+Cost of Revenue
+Our cost of revenue includes the cost of products shipped to customers, which primarily includes the cost of products built to our specifications by our contract manufacturers, the cost of silicon wafers supplied by independent semiconductor wafer manufacturers and the related assembly, package and test costs of our products. Also included in our cost of revenue are personnel and related costs, including share-based compensation for manufacturing support personnel; logistics costs; depreciation of equipment supporting manufacturing; amortization of acquired intangibles; fair value adjustments of inventory associated with acquired businesses; write-downs of inventory and losses on purchase obligations; and warranty costs.
+Inventories
+Inventories are stated at the lower of cost (first-in, first-out method) and net realizable value. The carrying value of our inventories is reduced for any difference between costs and estimated net realizable value of total inventory that is determined to be excess, obsolete or unsellable inventory based on forecasts of future demand and market conditions. Any adjustments to reduce the cost of inventories to their net realizable value are recognized in earnings in the current period. Once inventory is written down, a new accounting cost basis is established and, accordingly, any associated reserve is not released until the inventory is sold or scrapped.
+Property and Equipment
+Property and equipment are carried at cost less accumulated depreciation and amortization. We compute depreciation using the straight-line method over the estimated useful lives of the assets. We amortize leasehold improvements over the shorter of the lease term or the estimated useful lives of the assets.
+Foreign Currency
+The U.S. dollar is our functional and reporting currency. We remeasure our monetary assets and liabilities not denominated in our functional currency into U.S. dollar equivalents at the rate of exchange in effect on the balance sheet date. We measure and record non-monetary balance sheet accounts at the historical rate in effect at the date of transaction. The effects of foreign currency remeasurement are reported in current results of operations.
+46
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Goodwill
+Goodwill represents the excess of the purchase price of an acquired business over the identifiable assets acquired and liabilities assumed. We test goodwill for impairment on an annual basis in the fourth quarter and at any other time when events occur or circumstances indicate that the carrying amount of goodwill may not be recoverable. We have the option to first assess qualitative factors to determine whether it is necessary to perform the quantitative goodwill impairment test. The qualitative factors we assess include long-term prospects of our performance, share price trends and market capitalization and other company-specific events. Unanticipated events and circumstances may occur that affect the accuracy of our assumptions, estimates and judgments.
+If we determine that, as a result of the qualitative assessment, it is more likely than not (i.e., greater than 50% likelihood) that the fair value of a reporting unit is less than its carrying amount, the quantitative test is required. Otherwise, no further testing is required. The quantitative goodwill impairment test requires us to estimate the fair value of our reporting units. If the carrying value of a reporting unit exceeds its fair value, the goodwill of that reporting unit is potentially impaired and we record an impairment loss equal to the excess of the carrying value of the goodwill over its fair value, not to exceed the carrying amount of goodwill. The fair value of each of our goodwill reporting units is generally estimated using discounted cash flow methodologies.
+We performed the qualitative goodwill impairment test in fiscal 2026, 2025 and 2024. Based on the impairment analysis performed in the fourth quarter of each year presented, no goodwill impairment was recognized.
+Intangible Assets
+Intangible assets consist primarily of intangible assets purchased through acquisitions. Finite-lived intangible assets are amortized for financial reporting purposes using the straight-line method over the estimated useful lives of the assets ranging from
+
+1
+ to
+6
+ years.
+Impairment of Long-Lived Assets
+We evaluate long-lived assets, such as property and equipment and intangible assets subject to amortization, for impairment whenever events or changes in circumstances indicate that the carrying value of an asset may not be recoverable. In such cases, we measure recoverability of assets to be held and used by a comparison of the carrying amount of an asset to the estimated undiscounted future cash flows expected to be generated by the use and eventual disposition of the asset.
+We review the carrying value of indefinite-lived intangible assets for impairment at least annually during the fourth quarter of our fiscal year or more frequently if indicators of impairment exist. If the carrying amount of the asset exceeds its estimated undiscounted future cash flows, we recognize an impairment charge in an amount by which the carrying amount of the asset exceeds the fair value of the intangible asset.
+Leases
+We determine if an arrangement is a lease at inception. Operating lease right-of-use (“ROU”) assets and liabilities are recognized at the commencement date based on the present value of minimum lease payments over the lease term. Operating lease ROU assets also include any initial direct costs and prepayments less lease incentives. Lease terms may include options to extend or terminate the lease when it is reasonably certain that such option will be exercised. As our leases do not provide an implicit rate, we use our collateralized incremental borrowing rate based on the information available as of the lease commencement date, including lease term, in determining the present value of lease payments. Lease expense for these leases is recognized on a straight-line basis over the lease term.
+We have elected, for all classes of underlying assets, not to recognize ROU assets and lease liabilities for leases with a term of twelve months or less. Lease costs for short-term leases are recognized on a straight-line basis over the lease term.
+Share-Based Compensation
+We recognize compensation expense for all of our share-based payment awards made to employees and directors based on estimated fair values. The determination of fair value of restricted and certain performance stock awards is based on the fair value of our stock on the grant date with performance awards adjusted for the actual outcome of the underlying performance condition. For awards with market-based performance conditions, we employ a Monte Carlo simulation valuation method to calculate the fair value of the awards based on the most likely outcome. We estimate the grant-date fair
+47
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+value of stock to be issued under our 2019 Employee Stock Purchase Plan, as amended and restated (“ESPP”), using the Black-Scholes model. Compensation expense is recognized over the vesting period of the applicable award using the straight-line method, except for awards with market conditions, which are recognized ratably for each vesting tranche from the service inception date to the end of the requisite service period. Compensation cost for performance-based awards is recognized over the requisite service period based on the grant-date fair value of the awards when it becomes probable that the performance conditions will be met. The Company reassesses the probability of achieving the performance condition at each reporting date and adjusts compensation expense as necessary. Forfeitures are recorded when they occur and previously recognized compensation expense is reversed for the portion of awards forfeited prior to the vesting date.
+Income Taxes
+We recognize deferred tax assets and liabilities for the future tax consequences attributable to differences between the financial statement carrying amounts of assets and liabilities and their respective tax bases and operating loss and tax credit carryforwards. We measure deferred tax assets and liabilities using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled. We recognize the effect of a change in tax rates on deferred tax assets and liabilities in the period that includes the enactment date. We establish valuation allowances when necessary to reduce deferred tax assets to the amounts that are more likely than not to be realized.
+We use a two-step approach to recognizing and measuring uncertain tax positions. The first step is to determine whether it is more likely than not that a tax position will be sustained upon examination, including resolution of any related appeals or litigation processes. The second step is to measure the tax benefit as the largest amount that is more than 50% likely of being realized upon ultimate settlement with a taxing authority. The calculation of tax liabilities involves significant judgment in estimating the impact of uncertainties in the application of highly complex tax laws. Resolution of these uncertainties in a manner inconsistent with our expectations could have a material impact on our consolidated financial position, results of operations and cash flows. We believe we have adequately provided for reasonably foreseeable outcomes in connection with the resolution of income tax uncertainties. However, our results have in the past, and could in the future, include favorable and unfavorable adjustments to our estimated tax liabilities in the period a determination of such estimated tax liability is made or resolved, upon the filing of an amended return, upon a change in facts, circumstances or interpretation or upon the expiration of a statute of limitation. Accordingly, our effective tax rate could fluctuate materially from period to period.
+Product Warranty
+We generally provide warranties to cover defects in workmanship, materials and manufacturing for a period of twelve months to meet the stated functionality as agreed in each sales arrangement. Products are tested against specified functionality requirements prior to delivery, but we nevertheless from time to time experience claims under our warranty guarantees. These standard warranties are assurance type warranties and do not offer any services in addition to the assurance that the product will continue working as specified. Therefore, warranties are not considered separate performance obligations in the arrangement. We accrue for estimated warranty costs based upon historical experience, and for specific items, at the time their existence is known and the amounts are determinable.
+Acquisitions
+We account for business combinations by applying the acquisition method. If the assets acquired are not a business, we account for the transaction or other event as an asset acquisition. Under both methods, we recognize identifiable assets acquired, liabilities assumed and any noncontrolling interest in the acquired entity. We capitalize acquisition-related costs and fees associated with asset acquisitions and immediately expense acquisition-related costs and fees associated with business combinations.
+We allocate the fair value of purchase consideration to the assets acquired and liabilities assumed based on their estimated fair values. Any excess of the fair value of purchase consideration over the fair values of these identifiable assets and liabilities is recorded as goodwill. When determining the fair values of assets acquired and liabilities assumed, we make significant estimates and assumptions, especially with respect to intangible assets. Critical estimates in valuing certain intangible assets include, but are not limited to, future expected cash flows from customer relationships and acquired developed technology and discount rates. Our estimates of fair value are based upon assumptions believed to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ materially from estimates. Other estimates associated with the accounting for acquisitions may change as additional information becomes available regarding the assets acquired and liabilities assumed. Any adjustments from change in facts and circumstances that existed
+48
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+as of the acquisition date and that impact our preliminary estimates are recorded to goodwill if identified within the measurement period. Any adjustments subsequent to the measurement period or our final determination of fair value of assets and liabilities are reported in current results of operations.
+Research and Development
+Research and development costs are expensed as incurred.
+Accounting Pronouncements Adopted
+In December 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) No. 2023-09, “Income Taxes: Improvements to Income Tax Disclosures.” This ASU requires consistent categories and greater disaggregation of information in the rate reconciliation and disclosures of income taxes paid by jurisdiction. We adopted this standard on a prospective basis in the fourth quarter of fiscal 2026. See “Note 16. Income Taxes.”
+Accounting Pronouncements Issued But Not Yet Adopted
+In November 2024, the FASB issued ASU 2024-03, “Income Statement – Reporting Comprehensive Income – Expense Disaggregation Disclosures (Subtopic 220-40).” This ASU requires companies to disclose additional information about specific expense categories in the notes to financial statements. This ASU is effective for annual periods beginning after December 15, 2026 and interim periods beginning after December 15, 2027, with early adoption permitted. We are currently assessing the impact of this guidance on our disclosures.
+Note 3.
+Supplemental Financial Statement Information
+Inventories
+2026
+2025
+Raw materials and work-in-progress
+$
+99.4
+ 
+$
+69.4
+ 
+Finished goods
+57.0
+ 
+70.1
+ 
+$
+156.4
+ 
+$
+139.5
+ 
+Property and equipment
+Life
+2026
+2025
+Computer equipment
+3
+ -
+5
+ years
+$
+18.5
+ 
+$
+15.5
+ 
+Manufacturing equipment
+1
+ -
+5
+ years
+141.8
+ 
+119.1
+ 
+Furniture, fixtures and leasehold improvements
+3
+ -
+10
+ years
+37.5
+ 
+40.3
+ 
+Capitalized software
+3
+ -
+7
+ years
+19.6
+ 
+19.7
+ 
+Construction in progress
+  
+21.7
+ 
+16.8
+ 
+239.1
+ 
+211.4
+ 
+Accumulated depreciation and amortization
+(
+152.2
+)
+(
+139.3
+)
+Property and equipment, net
+$
+86.9
+ 
+$
+72.1
+ 
+Non-current other assets
+2026
+2025
+Prepayment of intangible assets
+$
+88.0
+ 
+$
+139.3
+ 
+Right-of-use assets
+37.1
+ 
+45.2
+ 
+Other
+36.7
+ 
+32.6
+ 
+$
+161.8
+ 
+$
+217.1
+ 
+49
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Accrued liabilities
+2026
+2025
+Customer rebate liabilities
+$
+32.4
+ 
+$
+46.4
+ 
+Other customer-related obligations (1)
+6.8
+ 
+20.8
+ 
+Accrued compensation and benefits
+65.1
+ 
+58.9
+ 
+Other (2)
+74.8
+ 
+46.3
+ 
+$
+179.1
+ 
+$
+172.4
+ 
+(1) Amounts include deferred revenue, price discounts and stock rotation rights.
+(2) As of June 2026, other accrued liabilities include a $
+25.0
+ million license fee payable to a third party.
+No
+ such amount was payable as of June 2025.
+Note 4.
+Business Combinations and Asset Acquisitions
+Fiscal Year 2025 Acquisition
+Broadcom Wi-Fi technology
+On January 19, 2025, we entered into definitive asset purchase agreements with Broadcom to acquire certain assets, and obtain non-exclusive licenses relating to, Broadcom’s Wi-Fi Business in the IoT market for an aggregate consideration of $
+200.3
+ million in cash, which closed on January 30, 2025 (“Closing Date”). These assets include non-exclusive licenses to
+three
+ developed technology products, property and equipment and the right to obtain licenses for
+eight
+ roadmap technology intangible assets (“roadmap IP”) expected to be delivered at various dates through May 2028. We also entered into transition agreements with Broadcom, under which both parties will provide one another with certain transition services (including one year inventory supply agreement in which Broadcom will facilitate Synaptics to place purchase orders with respective suppliers) following the Closing Date. We acquired these assets from Broadcom in order to solidify our leadership position for end-to-end AI IoT connectivity.
+The acquisition has been accounted for using the purchase method of accounting in accordance with the business acquisition guidance. Under the purchase accounting method, the total estimated purchase consideration of the acquisition was allocated to the identifiable intangible assets acquired, property and equipment and long-term assets for roadmap IP based on their estimated fair values. The excess of the purchase consideration over the identifiable intangible assets acquired and long-term assets was recorded as goodwill.
+The final allocation of the purchase price to the assets acquired and liabilities assumed, based on their relative fair values after the measurement period adjustment was as follows:
+Final as Adjusted
+Long-term assets for product roadmap IP
+$
+96.8
+ 
+Acquired intangible assets
+85.2
+ 
+Goodwill
+52.3
+ 
+Deferred tax asset
+11.3
+ 
+Property and equipment, net
+2.3
+ 
+Net assets acquired
+$
+247.9
+ 
+We estimated the fair value of the identified intangible assets and long-term assets for roadmap IP using a discounted cash flow model, estimates of future revenues and costs, discount and royalty rates for each of the underlying identified assets, except for IPR&D, which was estimated using replacement cost method. These fair value measurements were based on significant inputs not observable in the market and thus represented a Level 3 measurement. Key assumptions included the level and timing of expected future cash flows, conditions and demands specific to each asset over its remaining useful life and discount rates we believe to be consistent with the inherent risks associated with each type of asset, which range from
+5.8
+% -
+10.5
+%. The fair value of these assets is primarily affected by the projected revenue, gross margins, operating
+50
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+expenses, the expected technological obsolescence, probability of securing future customer contracts for next generation devices and the anticipated timing of the projected income associated with each asset coupled with the discount rates used to derive their estimated present values. We believe the level and timing of expected future cash flows appropriately reflects market participant assumptions.
+Long-term assets for product roadmap IP represent a prepayment for technology products to be received in the future. This prepayment was classified under non-current other assets in the accompanying consolidated balance sheets. Upon obtaining control of the developed technologies, the amounts recorded are reclassified as intangible assets based on their respective fair values determined as of the Closing Date. As of June 2026, the balance of $
+88.0
+ million, which represents the fair value of those technology intangible assets not yet received, is presented within other long-term assets in the accompanying consolidated balance sheets. We expect these assets to be delivered at various dates through May 2028.
+The following table summarizes the fair value of the intangible assets as of the Closing Date:
+Estimated Weighted Average Useful Lives in Years
+Fair Value
+Developed technology
+3.0
+$
+24.5
+ 
+Customer contract and related relationships
+8.0
+27.9
+ 
+Favorable component of supply contract
+1.0
+19.0
+ 
+Order backlog
+1.0
+7.0
+ 
+IPR&D
+7.0
+6.8
+ 
+Estimated fair value of acquired intangibles
+$
+85.2
+ 
+The value of goodwill of $
+52.3
+ million reflects the anticipated synergies of the expected benefits from future generations of acquired intellectual property and workforce of the transferred assets as of the Closing Date. As of June 2026, approximately $
+16.0
+ million of this goodwill is expected to be deductible for income tax purposes.
+Note 5.
+Cash, Cash Equivalents and Short-Term Investments
+Cash, cash equivalents and short-term investments were as follows:
+2026
+2025
+Amortized Cost
+Gross unrealized gain/(loss)
+Fair Value
+Amortized Cost
+Gross unrealized gain/(loss)
+Fair Value
+Cash
+$
+390.7
+ 
+$
+—
+ 
+$
+390.7
+ 
+$
+360.7
+ 
+$
+—
+ 
+$
+360.7
+ 
+Cash equivalents:
+Money market funds
+—
+ 
+—
+ 
+—
+ 
+16.7
+ 
+—
+ 
+16.7
+ 
+Certificates of deposit
+51.8
+ 
+—
+ 
+51.8
+ 
+14.1
+ 
+—
+ 
+14.1
+ 
+Total cash and cash equivalents
+$
+442.5
+ 
+$
+—
+ 
+$
+442.5
+ 
+$
+391.5
+ 
+$
+—
+ 
+$
+391.5
+ 
+Short-term investments:
+Certificates of deposit
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+61.0
+ 
+$
+—
+ 
+$
+61.0
+ 
+Note 6.
+Fair Value Measurements
+We determine fair value based on the fair value hierarchy, which requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. Fair value is defined as the price that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants at the measurement date. Fair value assumes that a transaction to sell an asset or transfer a liability occurs in the principal or most advantageous market for the asset or liability and establishes that the fair value of an asset or liability shall be determined
+51
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+based on the assumptions that market participants would use in pricing the asset or liability. The classification of a financial asset or liability within the hierarchy is based upon the lowest level input that is significant to the fair value measurement. The fair value hierarchy prioritizes the inputs into three levels that may be used to measure fair value
+:
+•
+Level 1 – Valuation is based upon unadjusted quoted prices for identical assets or liabilities in active markets.
+•
+Level 2 – Valuation is based upon quoted prices for similar assets and liabilities in active markets or other inputs that are observable for the asset or liability, either directly or indirectly, for substantially the full term of the financial instruments.
+•
+Level 3 – Valuation is based upon other unobservable inputs that are significant to the fair value measurements.
+Our Level 1 financial instruments are traded in active markets and for which the fair value is based on quoted market prices for identical instruments. The fair value of our Level 2 fixed-income securities is obtained from an independent pricing service, which may use quoted market prices for identical or comparable instruments or model-driven valuations using observable market data or inputs corroborated by observable market data. Our marketable securities are held by custodians who obtain investment prices from a third-party pricing provider that incorporates standard inputs in various asset price models.
+Financial assets measured at fair value on a recurring basis were as follows:
+2026
+2025
+Level 1
+Level 2
+Total
+Level 1
+Level 2
+Total
+Assets:
+Cash equivalents:
+Money market funds
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+16.7
+ 
+$
+—
+ 
+$
+16.7
+ 
+Certificates of deposit
+—
+ 
+51.8
+ 
+51.8
+ 
+—
+ 
+14.1
+ 
+14.1
+ 
+Short-term investments:
+Certificates of deposit
+—
+ 
+—
+ 
+—
+ 
+—
+ 
+61.0
+ 
+61.0
+ 
+Total assets
+$
+—
+ 
+$
+51.8
+ 
+$
+51.8
+ 
+$
+16.7
+ 
+$
+75.1
+ 
+$
+91.8
+ 
+The above table excludes $
+390.7
+ million and $
+360.7
+ million of cash held in bank accounts at the end of
+June 2026
+ and
+2025
+, respectively. We did not have any financial instruments measured at fair value on a recurring basis within Level 1 or Level 3 fair value during fiscal
+2026,
+ and within Level 3 fair value during fiscal
+2025.
+ There were
+no
+ transfers in or out of our Level 1, 2, or 3 assets during the same periods.
+Financial Instruments Not Recorded at Fair Value on a Recurring Basis
+We report our financial instruments at fair value with the exception of the Senior Notes and 2031 Notes.
+See “Note 8. Debt and Revolving Credit Facility.”
+The estimated fair value of the Senior Notes was determined based on the trading price of the notes as of the last day of trading for the period. We consider the fair value of these notes to be a Level 2 measurement as they are not traded in active markets.
+The carrying amounts and estimated fair values of the Senior Notes and 2031 Notes were as follows:
+2026
+2025
+Carrying Amount
+Estimated Fair Value
+Carrying Amount
+Estimated Fair Value
+Senior Notes
+$
+397.7
+ 
+$
+382.8
+ 
+$
+397.0
+ 
+$
+373.2
+ 
+2031 Notes
+439.6
+ 
+658.0
+ 
+437.8
+ 
+415.7
+ 
+$
+837.3
+ 
+$
+1,040.8
+ 
+$
+834.8
+ 
+$
+788.9
+ 
+52
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Note 7.
+Goodwill and Acquired Intangible Assets
+Goodwill was as follows:
+2026
+2025
+Beginning balance
+$
+872.3
+ 
+$
+816.4
+ 
+Acquisition activity
+—
+ 
+55.9
+ 
+Ending balance
+$
+872.3
+ 
+$
+872.3
+ 
+The gross carrying value and related accumulated amortization of acquired intangible assets were as follows:
+Weighted Average
+Life in Years
+2026
+2025
+Gross Carrying
+Value
+Accumulated
+Amortization
+Net Carrying
+Value
+Gross Carrying
+Value
+Accumulated
+Amortization
+Net Carrying
+Value
+Finite-lived assets:
+Audio and video technology
+5.6
+$
+231.9
+ 
+$
+(
+214.8
+)
+$
+17.1
+ 
+$
+231.9
+ 
+$
+(
+198.4
+)
+$
+33.5
+ 
+Customer relationships
+4.7
+187.1
+ 
+(
+163.0
+)
+24.1
+ 
+187.1
+ 
+(
+150.7
+)
+36.4
+ 
+Wireless connectivity technology
+5.4
+323.2
+ 
+(
+200.3
+)
+122.9
+ 
+271.9
+ 
+(
+139.6
+)
+132.3
+ 
+Video interface technology
+3.4
+133.0
+ 
+(
+110.7
+)
+22.3
+ 
+133.0
+ 
+(
+97.9
+)
+35.1
+ 
+Other
+2.4
+41.9
+ 
+(
+40.5
+)
+1.4
+ 
+52.1
+ 
+(
+34.0
+)
+18.1
+ 
+Total finite-lived assets
+917.1
+ 
+(
+729.3
+)
+187.8
+ 
+876.0
+ 
+(
+620.6
+)
+255.4
+ 
+Indefinite-lived assets: In-process research and development
+Not applicable
+—
+ 
+— 
+—
+ 
+6.8
+ 
+— 
+6.8
+ 
+Total intangible assets
+$
+917.1
+ 
+$
+(
+729.3
+)
+$
+187.8
+ 
+$
+882.8
+ 
+$
+(
+620.6
+)
+$
+262.2
+ 
+Amortization expense is calculated using the straight-line method over the estimated useful lives of the acquired intangibles. The total amortization expense for acquired intangible assets was $
+119.0
+ million in fiscal 2026, $
+114.2
+ million in fiscal 2025 and $
+81.6
+ million in fiscal 2024. This amortization expense was included in the accompanying consolidated statements of operations as acquired intangibles amortization and cost of revenue.
+Expected annual aggregate amortization expense in future fiscal years are as follows:
+2027
+$
+71.5
+ 
+2028
+51.8
+ 
+2029
+28.7
+ 
+2030
+19.1
+ 
+2031
+10.6
+ 
+Thereafter
+6.1
+ 
+Future amortization
+$
+187.8
+ 
+53
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+IPR&D is accounted for as an indefinite-lived intangible asset and is not amortized until the underlying project reaches technological feasibility and commercial production, at which point the IPR&D is amortized over the estimated useful life. In the event the IPR&D is abandoned, the related assets are written off.
+Impairment of intangible assets
+During fiscal 2026, we recorded an indefinite-lived intangible asset impairment charge of $
+6.8
+ million for  IPR&D, which related to Ultra-Wideband (“UWB”) IP technology we acquired from Broadcom in fiscal 2025. The impairment charge represented the carrying value of the UWB IPR&D asset, reducing the asset’s carrying value to zero. The impairment charge was recorded as a result of our decision to cease development and commercialization activities for the UWB IP technology, the absence of alternative uses for the acquired UWB IP technology, and management’s conclusion that no further development or investment is planned for this project. The impairment charge was presented as an operating expense in our consolidated statement of operations.
+During fiscal 2025, we recorded an intangible asset impairment charge of $
+13.8
+ million related to a license of certain technology we acquired in fiscal 2024. We recorded the impairment charge due to a lack of potential customers, no alternative uses for the acquired technology and no further development or investment planned for this project. The impairment charge was presented as an operating expense in our consolidated statement of operations.
+During fiscal 2024, we recorded an indefinite-lived intangible asset impairment charge of $
+16.0
+ million of IPR&D from our December 2021 acquisition of DSP Group, Inc. (“DSPG”). We recorded the impairment charge as a result of a lack of commitment from certain key customers, no anticipated customer migration to the IPR&D technologies acquired from DSPG and no further development or investment planned for this project. The impairment charge was presented as an operating expense in our consolidated statement of operations.
+Note 8.
+Debt and Revolving Credit Facility
+Our total debt outstanding consisted of the following:
+2026
+2025
+Net Carrying Amount
+Net Carrying Amount
+Stated Rate
+Effective Rate
+Principal
+Short-term
+Long-term
+Total
+Principal
+Long-term
+Total
+2031 Notes
+0.75
+%
+1.19
+%
+$
+450.0
+ 
+$
+450.0
+ 
+$
+— 
+$
+450.0
+ 
+$
+450.0
+ 
+$
+450.0
+ 
+$
+450.0
+ 
+Senior Notes
+4.00
+%
+4.17
+%
+400.0
+ 
+— 
+400.0
+ 
+400.0
+ 
+400.0
+ 
+400.0
+ 
+400.0
+ 
+Total borrowings
+850.0
+ 
+450.0
+ 
+400.0
+ 
+850.0
+ 
+850.0
+ 
+850.0
+ 
+850.0
+ 
+Less: unamortized debt issuance costs
+— 
+(
+10.4
+)
+(
+2.3
+)
+(
+12.7
+)
+— 
+(
+15.2
+)
+(
+15.2
+)
+Total debt
+$
+850.0
+ 
+$
+439.6
+ 
+$
+397.7
+ 
+$
+837.3
+ 
+$
+850.0
+ 
+$
+834.8
+ 
+$
+834.8
+ 
+2031 Convertible Senior Notes
+On November 19, 2024 and November 26, 2024, we issued and sold $
+400.0
+ million and $
+50.0
+ million, respectively, in aggregate principal amount of
+0.75
+% Convertible Senior Notes due 2031 (“2031 Notes”) in a private placement. The 2031 Notes were issued pursuant to an indenture (“2031 Indenture”), dated November 19, 2024. The 2031 Notes are unsecured, bear interest at a fixed rate of
+0.75
+% per year, payable semi-annually in arrears on June 1 and December 1 of each year, beginning on June 1, 2025, and mature on December 1, 2031, unless earlier converted, redeemed or repurchased by us.
+The 2031 Notes are our senior, unsecured obligations and are (i) equal in right of payment with our existing and future senior unsecured indebtedness; (ii) senior in right of payment to our existing and future indebtedness that is expressly subordinated to the 2031 Notes; (iii) effectively subordinated to our existing and future secured indebtedness, to the extent of the value of the collateral securing that indebtedness; and (iv) structurally subordinated to all existing and future indebtedness and other liabilities.
+54
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+The initial conversion rate of the 2031 Notes is 10.0308 shares of our common stock per $1,000 principal amount of 2031 Notes (which is equivalent to an initial conversion price of approximately $
+99.69
+ per share). The conversion rate is subject to adjustment upon the occurrence of certain events specified in the 2031 Indenture. In addition, upon the occurrence of a Make-Whole Fundamental Change or if we deliver a Redemption Notice, both as defined in the 2031 Indenture, we will, in certain circumstances, increase the conversion rate by a number of additional shares of common stock as described in the 2031 Indenture for a holder who elects to convert its 2031 Notes in connection with such Make-Whole Fundamental Change or to convert its 2031 Notes called (or deemed called as provided in the 2031 Indenture) for redemption in connection with such Redemption Notice, as the case may be.
+At any time before September 2, 2031, the 2031 Notes are convertible at the option of the holders thereof only under the following circumstances: (1) during any calendar quarter commencing after the first calendar quarter ending on March 31, 2025, if the last reported sale price per share of our common stock exceeds
+130
+% of the conversion price for at least
+20
+ trading days (whether or not consecutive) during the
+30
+ consecutive trading days ending on, and including, the last trading day of the immediately preceding calendar quarter; (2) during the
+five
+ consecutive business days after any
+ten
+ consecutive trading day period (such
+ten
+ consecutive trading day period, the “measurement period”) in which the trading price per $1,000 principal amount of the 2031 Notes for each trading day of the measurement period was less than
+98
+% of the product of the last reported sale price per share of our common stock on such trading day and the conversion rate on such trading day; (3) if we call such 2031 Notes for redemption; or (4) upon the occurrence of specified corporate events or distributions on our common stock (as specified in the 2031 Indenture). On or after September 2, 2031 until the close of business on the second scheduled trading day immediately preceding the maturity date of the 2031 Notes, holders of the 2031 Notes may convert all or a portion of their 2031 Notes, regardless of the foregoing conditions.
+Upon conversion, the 2031 Notes are settled in cash or through the combination settlement method (as defined in 2031 Indenture) at our election, with the default settlement method being combination settlement, under which the face amount of the notes is settled in cash and any excess conversion value is settled in shares of our common stock. During the fourth quarter of fiscal 2026, the last reported sale pr
+ice per share of our common stock exceeded
+130
+% of the conversion price for at least
+20
+ trading days during the
+30
+ consecutive trading days of the calendar quarter, which caused the 2031 Notes to be convertible by the holders for the calendar quarter ending September 30, 2026. As a result, the carrying value of $
+439.6
+ million has been reclassified to Current portion of long-term debt in the accompanying consolidated balance sheets as of June 2026.
+The 2031 Notes are redeemable, at our option at any time, and from time to time, on or after December 6, 2028. We may redeem for cash all or any portion of the 2031 Notes (subject to the limitation described below), at our option, on or after December 6, 2028 and on or before the 40th scheduled trading day immediately before December 1, 2031 at a cash redemption price equal to the principal amount of the 2031 Notes to be redeemed, plus accrued and unpaid interest, if any, to, but excluding, the redemption date, but only if (i) the notes are Freely Tradable (as defined in 2031 Indenture) as of the date we send the related redemption notice and all accrued and unpaid additional interest, if any, has been paid in full as of the most recent interest payment date occurring on or before the date we send such notice; and (ii) the last reported sale price per share of our common stock exceeds
+130
+% of the conversion price on (1) each of at least
+20
+ trading days, whether or not consecutive, during the
+30
+ consecutive trading days ending on, and including, the trading day immediately before the date we send such redemption notice; and (2) the trading day immediately before the date we send such notice. However, we may not redeem less than all of the outstanding notes unless at least $
+100.0
+ million aggregate principal amount of notes are outstanding and not called for redemption as of the time we send, and after giving effect to, the related redemption notice. In addition, calling any note for redemption will constitute a Make-Whole Fundamental Change with respect to that note, in which case the conversion rate applicable to the conversion of that note will be increased in certain circumstances if it is converted after it is called for redemption. No sinking fund is provided for the 2031 Notes.
+Upon the occurrence of a Fundamental Change (as defined in the 2031 Indenture) prior to the maturity date of the 2031 Notes, holders of the 2031 Notes may require us to repurchase their notes for a cash repurchase price equal to the principal amount of the 2031 Notes to be repurchased, plus any accrued and unpaid interest, if any, to, but excluding, the Fundamental Change Repurchase Date (as defined in the 2031 Indenture).
+55
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Contractual interest expense and amortization of debt issuance costs on the 2031 Notes was as follows:
+2026
+2025
+2024
+Interest expense
+$
+3.4
+ 
+$
+2.1
+ 
+$
+—
+ 
+Amortization of debt issuance costs
+1.8
+ 
+1.1
+ 
+—
+ 
+Total interest expense
+$
+5.2
+ 
+$
+3.2
+ 
+$
+—
+ 
+2031 Capped Calls
+In connection with the issuance of the 2031 Notes, we entered into privately negotiated capped call transactions (each, a “2031 Capped Call” and collectively, the “2031 Capped Calls”) with certain financial institutions. The 2031 Capped Calls have an initial strike price of $
+99.69
+, subject to certain adjustments, which corresponds to the initial conversion price of the 2031 Notes. The 2031 Capped Calls have an initial cap price of $
+150.48
+ per share, subject to certain adjustments. The 2031 Capped Calls are expected to partially offset the potential dilution to the company’s common stock upon any conversion of the 2031 Notes, with such offset subject to a cap based on the cap price. The 2031 Capped Calls cover, subject to anti-dilution adjustments, approximately
+4.5
+ million shares of the company’s common stock. The 2031 Capped Calls are subject to adjustment upon the occurrence of specified extraordinary events affecting the company, including merger events, tender offers and announcement events. For accounting purposes, each 2031 Capped Call is treated as a separate transaction from, and not part of, the terms of the 2031 Notes. As these transactions meet certain accounting criteria, the 2031 Capped Calls are recorded in stockholders’ equity and are not accounted for as derivatives. The 2031 Capped Calls will not be remeasured as long as they continue to meet the conditions for equity classification.
+Senior Notes
+In March 2021, we issued $
+400.0
+ million aggregate principal amount of senior notes due June 15, 2029 (“Senior Notes”), which bear interest at a rate of
+4.0
+% payable semi-annually on December 15 and June 15 of each year. The Senior Notes are fully and unconditionally guaranteed, jointly and severally, on a senior unsecured basis by each of our current and future domestic restricted subsidiaries that guarantee our obligations under our senior secured credit facilities.
+The indenture to the Senior Notes contains covenants that, among other things, limit our ability and the ability of our Restricted Subsidiaries (as defined in the indenture) to (i) incur additional indebtedness and guarantee indebtedness; (ii) pay dividends or make other distributions or repurchase or redeem our company’s or any parent’s capital stock; (iii) prepay, redeem or repurchase certain indebtedness; (iv) issue certain preferred stock or similar equity securities; (v) make loans and investments; (vi) dispose of assets; (vii) incur liens; (viii) enter into transactions with affiliates; (ix) enter into agreements restricting its subsidiaries’ ability to pay dividends; and (x) consolidate, merge or sell all, or substantially all, of its assets.
+The indenture contains customary events of default. An event of default under the indenture will allow either the trustee or the holders of at least 25% in aggregate principal amount of the then outstanding Senior Notes to accelerate, or in certain cases automatically cause the acceleration of, the maturity of the principal and accrued interest on all outstanding Senior Notes.
+We may redeem some or all of the Senior Notes at a price of
+100
+% of the principal amount in 2026 and thereafter.
+Contractual interest expense and amortization of debt issuance costs on the Senior Notes was as follows:
+2026
+2025
+2024
+Interest expense
+$
+16.0
+ 
+$
+16.0
+ 
+$
+16.0
+ 
+Amortization of debt issuance costs
+0.7
+ 
+0.7
+ 
+0.7
+ 
+Total interest expense
+$
+16.7
+ 
+$
+16.7
+ 
+$
+16.7
+ 
+Term Loan Facility
+On November 19, 2024, we used a portion of the net proceeds from the 2031 Notes to repay the outstanding balance and accrued interest of our Term Loan Facility, which was accounted for as a debt extinguishment. The consideration used to extinguish the Term Loan Facility, including unamortized debt issuance costs, resulted in a loss on early extinguishment of
+56
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+debt of $
+6.5
+ million and is included in loss on early extinguishment of debt in the accompanying consolidated statements of operations.
+Contractual interest expense and amortization of debt issuance costs for our Term Loan Facility was as follows:
+2026
+2025
+2024
+Interest expense
+$
+—
+ 
+$
+18.7
+ 
+$
+46.1
+ 
+Amortization of debt issuance costs
+—
+ 
+0.4
+ 
+1.7
+ 
+Total interest expense
+$
+—
+ 
+$
+19.1
+ 
+$
+47.8
+ 
+Revolving Credit Facility
+We have $
+350.0
+ million available under a revolving credit agreement, as amended (“Revolving Credit Facility”), with a maturity date to be the earlier of (i) November 21, 2029 and (ii) ninety-one (
+91
+) days prior to any maturity of the Senior Notes. Additionally, the Revolving Credit Facility provides a $
+25.0
+ million sublimit for letters of credit and a $
+25.0
+ million sublimit for swingline loans. As of June 2026 and 2025 there was
+no
+ balance outstanding under the Revolving Credit Facility.
+The Revolving Credit Facility bears interest, at our election, at a Base Rate plus an Applicable Margin or Adjusted Term SOFR, as defined in the Revolving Credit Facility agreement. We are required to pay a commitment fee on any unused commitments which is determined on a leverage-based sliding scale ranging from
+0.175
+% to
+0.25
+% per annum. The unused commitment fees on the Revolving Credit Facility were $
+1.1
+ million in fiscal 2026, $
+0.4
+ million in fiscal 2025 and $
+0.6
+ million in fiscal 2024.
+The Revolving Credit Facility contains various restrictive covenants, including
+two
+ financial covenants which limit the consolidated total net leverage ratio and the consolidated net interest coverage ratio. As of June 2026, we remain in compliance with the restrictive covenants.
+Maturities
+As of the end of fiscal 2026, principal maturities of our Senior Notes and 2031 Notes were as follows:
+Senior Notes
+2031 Notes
+Total
+2027 - 2028
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+2029
+400.0
+ 
+—
+ 
+400.0
+ 
+2030 and thereafter
+—
+ 
+450.0
+ 
+450.0
+ 
+$
+400.0
+ 
+$
+450.0
+ 
+$
+850.0
+ 
+Note 9.
+Leases
+We have operating leases for our headquarters office and research and development facilities. Certain of these leases have renewal options that are under our discretion. The leases expire at various dates through fiscal 2034, some of which include options to extend the lease for up to
+seven years
+. During fiscal 2026, 2025, and 2024  we recorded $
+12.4
+ million, $
+12.7
+ million, and $
+11.8
+ million of operating lease expense, respectively. Our short-term leases are immaterial.
+Components of leases were as follows:
+2026
+2025
+Operating lease right-of-use assets
+$
+37.1
+ 
+$
+45.2
+ 
+Operating lease liabilities
+$
+9.2
+ 
+$
+12.3
+ 
+Operating lease liabilities, long-term
+30.3
+ 
+35.8
+ 
+Total operating lease liabilities
+$
+39.5
+ 
+$
+48.1
+ 
+57
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Supplemental cash flow information related to leases was as follows:
+2026
+2025
+Cash paid for operating leases included in operating cash flows
+$
+14.2
+ 
+$
+14.5
+ 
+Supplemental non-cash information related to lease liabilities arising from obtaining right-of-use assets
+$
+7.0
+ 
+$
+9.8
+ 
+As of the end of fiscal 2026, the weighted average remaining lease term was
+5.44
+ years and the weighted average discount rate was
+5.18
+%.
+As of the end of fiscal 2026, future minimum lease payments for operating lease liabilities were as follows:
+Fiscal Year
+Operating
+Lease
+Payments
+2027
+$
+10.7
+ 
+2028
+8.9
+ 
+2029
+7.9
+ 
+2030
+5.4
+ 
+2031
+3.6
+ 
+Thereafter
+8.7
+ 
+Total future minimum operating lease payments
+45.2
+ 
+Less: interest
+(
+5.7
+)
+Total lease liabilities
+$
+39.5
+ 
+Note 10.
+Concentrations of Credit Risk and Significant Customers
+Financial instruments that potentially subject us to concentrations of credit risk consist primarily of cash equivalents, short-term investments and accounts receivable. Our cash and cash equivalents and short-term investments are maintained with high-quality financial institutions.
+We believe that the concentration of credit risk in our accounts receivable is substantially mitigated by our credit evaluation process, relatively short collection terms and the level of credit worthiness of our customers. We extend credit based on an evaluation of a customer’s financial condition and generally do not require collateral. We perform ongoing credit evaluations on our customers and limit the amount of credit extended when deemed necessary based upon payment history and current credit worthiness. We regularly review the allowance for credit losses by considering factors such as historical experience, credit quality, age of accounts receivable balances and current economic conditions that may negatively impact our customers’ ability to pay.
+As of June 2026, two customers comprised a total of
+24
+% of our accounts receivable. As of June 2025, three customers comprised a total of
+45
+% of our accounts receivable.
+58
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Note 11.
+Net (Loss) Income Per Share
+The computation of basic and diluted net (loss) income per share was as follows:
+2026
+2025
+2024
+Numerator:
+Net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+Denominator:
+Shares, basic
+38.9
+39.3
+39.2
+Effect of dilutive share-based awards and convertible notes
+0.0
+0.0
+0.5
+Shares, diluted
+38.9
+39.3
+39.7
+Net (loss) income per share:
+Basic
+$
+(
+12.62
+)
+$
+(
+1.22
+)
+$
+3.20
+ 
+Diluted
+$
+(
+12.62
+)
+$
+(
+1.22
+)
+$
+3.16
+ 
+Our basic net income per share amounts for each period presented have been computed using the weighted average number of shares of common stock outstanding. Our diluted net income per share amounts for each period presented include the weighted average effect of potentially dilutive shares. For a period in which we report a net income, we use the “treasury stock” method to determine the dilutive effect of outstanding share-based awards. For a period in which we report a net loss, all potentially dilutive shares are excluded from the computation of diluted net loss per share as their inclusion would be anti-dilutive. We use the if-converted method for calculating any potential dilutive effect of our 2031 Notes. The anti-dilutive shares that were excluded from the computation of diluted net loss per share were
+3.1
+ million,
+3.3
+ million, and
+0.2
+ million shares in fiscal 2026, 2025 and 2024, respectively.
+Note 12.
+Commitments and Contingencies
+Commitments
+As of June 2026, we had commitments of $
+25.7
+ million for purchase obligations which include payments for the acquisition of inventories and other goods or services of either a fixed or minimum quantity.
+Total future unconditional purchase commitments in future fiscal years were as follows:
+2027
+$
+19.5
+ 
+2028
+6.2
+ 
+2029 and thereafter
+—
+ 
+Total
+$
+25.7
+ 
+Indemnifications
+In connection with certain agreements, we are obligated to indemnify the counterparty against third party claims alleging infringement of certain intellectual property rights. We have in the past, and may in the future, receive notices from third parties that claim our products infringe their intellectual property rights. We cannot be certain that our technologies and products do not, and will not, infringe issued patents or other proprietary rights of third parties. Any infringement claims, with or without merit, could result in significant litigation costs and diversion of management and financial resources, including the payment of damages, which could have a material adverse effect on our business, financial condition and results of operations. We accrue for liabilities arising from indemnifications when it is both probable that we will incur the loss and we can reasonably estimate the amount of the loss or range of loss.
+We have also entered into indemnification agreements with our officers and directors. Maximum potential future payments under these agreements cannot be estimated because these agreements generally do not have a maximum stated liability. However, historical costs related to these indemnification provisions have not been significant.
+59
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Environmental Matters
+In connection with our acquisition of Conexant Systems, LLC (“Conexant”) in fiscal 2018, we agreed to assume certain environmental liabilities, including remediation of environmental impacts at a property formerly owned by Conexant (“Conexant Site”). We continue to incur costs to investigate and remediate the Conexant Site’s environmental impacts. The liabilities are reviewed periodically and, as investigation and remediation activities continue, adjustments are made as necessary. Liabilities for losses from environmental remediation obligations do not consider the effects of inflation and anticipated expenditures are not discounted to their present value. We believe that the outcome of this matter should not have a material adverse effect on our financial condition, cash flows or operating results.
+Legal Proceedings
+From time to time, we are subject to various claims and legal proceedings, either asserted or unasserted, that arise in the ordinary course of business. We accrue for loss contingencies when it is both probable that we will incur the loss and we can reasonably estimate the amount of the loss or range of loss. While we currently believe that resolving claims against us, individually or in the aggregate, will not have a material adverse impact on our business, financial condition or results of operations, these matters are subject to inherent uncertainties and our view of these matters may change in the future.
+Note 13.
+Stockholders’ Equity
+Preferred Stock
+We are authorized, subject to limitations imposed by Delaware law, to issue up to
+10,000,000
+ shares of preferred stock in one or more series without stockholder approval. Our Board of Directors has the authority to establish, from time-to-time, the number of shares to be included in each series and to fix the rights, preferences and privileges of the shares of each wholly unissued series and any of its qualifications, limitations or restrictions. Our Board of Directors can also increase or decrease the number of shares of a series, but not below the number of shares of that series then outstanding, without any further vote or action by the stockholders. As of the end of fiscal 2026, there were
+no
+ shares of preferred stock outstanding.
+Shares Reserved for Future Issuance
+As of the end of fiscal 2026, shares of common stock reserved for future issuance were as follows:
+Restricted stock units
+2.8
+Market stock units
+0.2
+Performance stock units
+0.2
+ 
+Awards available for grant under all share-based compensation plans
+5.0
+Reserved for future issuance
+8.2
+Common Stock Repurchase Program
+We have a Board of Directors-approved stock repurchase program, authorized by our Board of Directors in August 2025, authorizing repurchases of up to $
+150.0
+ million of our common stock. This program does not have an expiration date; however, we will periodically review the authorization to assess its continued appropriateness in light of our capital allocation priorities and market conditions. The number of shares repurchased and the timing of repurchases depend on the level of our cash balances, general business and market conditions and other factors, including alternative investment opportunities. Our prior stock repurchase program expired in July 2025.
+In fiscal year 2026 and 2025, we repurchased
+1.3
+ million shares of our common stock for $
+92.7
+ million and
+1.8
+ million shares for $
+128.3
+ million, respectively. We did
+not
+ repurchase any of our common stock in fiscal 2024. All repurchased shares are held as treasury stock. Following the announcement of the Merger, we suspended our share repurchase activity in accordance with the terms of the Merger Agreement; however, we may resume share repurchases in the future in accordance with the terms of the Merger Agreement.
+60
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Note 14.
+Share-Based Compensation
+Share-Based Compensation Plans
+As of the end of fiscal 2026, we had the following equity compensation plans under which equity securities were authorized for issuance to our employees and directors:
+2025 Inducement Equity Plan
+Effective January 27, 2025, we adopted the 2025 Inducement Equity Plan (“2025 Inducement Plan”) which provides for the issuance of option or appreciation rights, restricted stock units (“RSUs”) or dividend equivalents to our employees. Awards granted under the 2025 Inducement Plan will not exceed
+1,700,000
+ shares of common stock. As of June 2026,
+693,494
+ shares of our common stock are reserved for issuance under the 2025 Inducement Plan. Equity awards granted under the 2025 Inducement Plan generally vest ratably over
+two years
+ from the vesting commencement date.
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Our Synaptics Incorporated Amended and Restated 2019 Equity and Incentive Compensation Plan (“2019 Incentive Plan”) provides for the grant of equity-based compensation in the form of stock options, stock appreciation rights, RSUs, cash incentive awards, performance stock units (“PSUs”) or market stock units (“MSUs”) and other share-based awards. As of June 2026,
+2,711,150
+ shares of our common stock are reserved for issuance under the 2019 Incentive Plan. The performance metrics of PSU and MSU awards can be financial performance and/or market-based conditions. Each PSU and MSU award reflects a target number of shares that may be issued to an award recipient before adjusting based on our financial performance and/or market-based conditions. The actual number of shares that an award recipient receives at the end of the period may range from
+0
+% to
+300
+% of the target number of shares granted, depending upon the achievement of the performance target designated by each individual award.
+Our 2025 Inducement Plan and 2019 Incentive Plan are collectively referred to as “Stock Compensation Plans.”
+Restricted Stock Units
+RSUs granted generally vest ratably over
+two
+ to
+four years
+ from the vesting commencement date.
+RSU activity, including RSUs granted, delivered and forfeited in fiscal 2026, and the balance and aggregate intrinsic value of RSUs as of the end of fiscal 2026 were as follows:
+RSU
+Awards
+Outstanding
+Weighted-Average
+Grant Date
+Fair Value per Share
+Balance as of June 2025
+3.0
+$
+66.3
+ 
+Granted
+1.9
+$
+70.1
+ 
+Vested
+(
+1.8
+)
+$
+67.2
+ 
+Forfeited
+(
+0.3
+)
+$
+73.3
+ 
+Balance as of June 2026
+2.8
+$
+67.6
+ 
+At the end of fiscal 2026, the aggregate intrinsic value of RSUs expected to vest was $
+333.4
+ million. Our closing stock price of $
+121.00
+ on the last day of trading in fiscal 2026 was used to calculate the intrinsic value for the RSUs.
+The unrecognized share-based compensation cost for RSUs granted under Stock Compensation Plans was
+$
+146.7
+ million
+ as of the end of fiscal 2026, which will be recognized over a weighted average period of
+1.7
+ years.
+61
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Market Stock Units
+MSU activity, including MSUs granted, delivered and forfeited in fiscal 2026, and the balance and aggregate intrinsic value of MSUs as of the end of fiscal 2026 were as follows:
+MSU Awards
+Outstanding
+Weighted
+Average
+Grant Date
+Fair Value per Share
+Balance at June 2025
+0.1
+$
+179.1
+ 
+Granted
+0.1
+$
+100.2
+ 
+Vested
+—
+ 
+$
+187.0
+ 
+Forfeited
+—
+ 
+$
+162.8
+ 
+Balance at June 2026
+0.2
+$
+122.0
+ 
+At the end of fiscal 2026, the aggregate intrinsic value of MSUs expected to vest was $
+21.9
+ million. Our closing stock price of $
+121.00
+ on the last day of trading in fiscal 2026 was used to calculate the intrinsic value for the MSUs. The unrecognized share-based compensation cost of our outstanding MSUs was
+$
+10.3
+ million
+ as of the end of fiscal 2026, which will be recognized over a weighted average period of
+1.5
+ years.
+The fair value of each MSU granted from our plans was estimated at the date of grant using the Monte Carlo simulation model, assuming no expected dividends and the following assumptions.
+The ranges disclosed in the table also include the July 2025 MSU granted to our Chief Executive Officer.
+2026
+2025
+2024
+Expected volatility of company
+50.87
+%-
+51.72
+%
+52.40
+%
+52.61
+%
+Expected volatility of Index
+17.5
+%-
+229.8
+%
+14.9
+%-
+213.7
+%
+11.5
+%-
+762.5
+%
+Correlation coefficient
+0.68
+-
+0.69
+0.73
+0.69
+Expected life in years
+2.87
+-
+2.95
+2.87
+2.87
+Risk-free interest rate
+3.70
+%-
+3.85
+%
+3.86
+%
+4.65
+%
+Fair value per award
+$
+98.54
+-$
+105.10
+$
+71.14
+ - $
+182.80
+$
+159.79
+ - $
+268.61
+Performance Stock Units
+PSU activity, including PSUs granted, delivered and forfeited in fiscal 2026, and the balance and aggregate intrinsic value of PSUs as of the end of fiscal 2026 were as follows:
+PSU Awards
+Outstanding
+Weighted
+Average
+Grant Date
+Fair Value per Share
+Balance at June 2025
+0.2
+$
+81.5
+ 
+Granted
+0.2
+$
+70.3
+ 
+Vested
+(
+0.1
+)
+$
+76.6
+ 
+Forfeited
+(
+0.1
+)
+$
+86.0
+ 
+Balance at June 2026
+0.2
+$
+70.3
+ 
+We value PSUs using the aggregate intrinsic value on the grant date and amortize the compensation expense over the
+three-year
+ service period on a ratable basis, dependent upon the probability of meeting the performance measures. The PSU
+62
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+awards outstanding balance at June 2026 is based on the target grant quantity and does not include any performance adjustment of shares for completed performance periods.
+At the end of fiscal 2026, the aggregate intrinsic value of PSUs expected to vest was $
+22.2
+ million. Our closing stock price of $
+121.00
+ on the last day of trading in fiscal 2026 was used to calculate the intrinsic value for the PSUs.
+The unrecognized share-based compensation cost of our outstanding PSUs was $
+7.6
+ million as of June 2026, which will be recognized over a weighted average period of
+0.8
+ years.
+Employee Stock Purchase Plan
+Our ESPP allows employees to designate up to
+15
+% of their base compensation, subject to legal restrictions and limitations, to purchase shares of common stock at
+85
+% of the lesser of the fair market value at the beginning of the offering period or the exercise date. Under the ESPP, the offering period extends for up to
+one year
+ and includes
+two
+ exercise dates occurring at
+six-month
+ intervals. Under the terms of our ESPP, if the fair market value at an exercise date is less than the fair market value at the beginning of the offering period, the current offering period will terminate and a new offering period will commence. As of June 2026,
+1,629,107
+ shares of our common stock are reserved for issuance under the ESPP. In connection with the Merger, the ESPP will terminate as of the Effective Time. On the Final Exercise Date (as defined in the Merger Agreement), the funds credited as of such date within the associated accumulated payroll withholding account for each participant will be used to purchase shares of our common stock in accordance with the terms of the ESPP. Those shares will then be converted into Merger Consideration in accordance with the terms of the Merger Agreement. Any unused contributions will be refunded following the Effective Time, without interest. Until the closing of the Merger, the ESPP will continue to be operative in accordance with the terms of the Merger Agreement.
+Shares purchased, weighted average purchase price, cash received and the aggregate intrinsic value for ESPP purchases were as follows:
+2026
+2025
+2024
+Shares purchased
+0.3
+0.2
+0.2
+Weighted average purchase price
+$
+53.60
+ 
+$
+58.53
+ 
+$
+74.22
+ 
+Cash received
+$
+17.2
+ 
+$
+13.9
+ 
+$
+15.7
+ 
+Aggregate intrinsic value
+$
+16.1
+ 
+$
+2.5
+ 
+$
+4.1
+ 
+The fair value of each award granted under our ESPP was based on the Black-Scholes option pricing model. The fair value per award for fiscal 2026, 2025 and 2024 was $
+36.48
+, $
+22.58
+ and $
+34.54
+, respectively. Unrecognized share-based compensation costs for awards granted under our ESPP at the end of fiscal 2026 were $
+6.4
+ million that will be amortized over the next
+10
+ months.
+Share-based Compensation Expense
+Share-based compensation and the related tax benefit for our share-based awards recognized in the accompanying consolidated statements of operations were as follows:
+2026
+2025
+2024
+Cost of revenue
+$
+1.2
+ 
+$
+(
+1.7
+)
+$
+4.1
+ 
+Research and development
+86.8
+ 
+68.8
+ 
+61.0
+ 
+Selling, general and administrative
+61.3
+ 
+45.7
+ 
+53.7
+ 
+Total
+$
+149.3
+ 
+$
+112.8
+ 
+$
+118.8
+ 
+Income tax benefit on share-based compensation
+$
+17.0
+ 
+$
+8.4
+ 
+$
+8.6
+ 
+Historically, we have issued new shares in connection with our share-based compensation plans, however, treasury shares are also available for issuance. Any additional shares repurchased under our common stock repurchase program will be available for issuance under our share-based compensation plans.
+63
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Note 15.
+Employee Benefit Plans
+We provide retirement benefit plans primarily in the United States and certain foreign countries. We have a 401(k) Retirement Savings Plan (“401k Plan”) for U.S. full-time employees that allows eligible employees to contribute as defined in the 401k Plan and subject to Internal Revenue Service limitations. In fiscal 2026, we provided matching funds of
+25
+% of our employees’ contributions, excluding catch-up contributions. The employer matching funds vest immediately. We made matching contributions to the 401k Plan of $
+1.8
+ million in fiscal 2026, $
+1.8
+ million in fiscal 2025, and $
+1.9
+ million in fiscal 2024.
+Note 16.
+Income Taxes
+Loss before provision (benefit) for income taxes was as follows:
+2026
+2025
+2024
+United States
+$
+(
+125.1
+)
+$
+(
+64.3
+)
+$
+(
+80.5
+)
+Foreign
+45.7
+ 
+(
+49.2
+)
+(
+44.1
+)
+Loss before provision (benefit) for income taxes
+$
+(
+79.4
+)
+$
+(
+113.5
+)
+$
+(
+124.6
+)
+The provision (benefit) for income taxes consisted of the following:
+2026
+2025
+2024
+Current tax (benefit) provision
+Federal
+$
+0.7
+ 
+$
+2.4
+ 
+$
+(
+17.4
+)
+State
+—
+ 
+—
+ 
+—
+ 
+Foreign
+6.9
+ 
+7.3
+ 
+56.0
+ 
+7.6
+ 
+9.7
+ 
+38.6
+ 
+Deferred tax (benefit) provision
+Federal
+395.0
+ 
+(
+49.9
+)
+(
+280.8
+)
+State
+—
+ 
+—
+ 
+—
+ 
+Foreign
+8.8
+ 
+(
+25.5
+)
+(
+8.0
+)
+403.8
+ 
+(
+75.4
+)
+(
+288.8
+)
+Provision (benefit) for income taxes
+$
+411.4
+ 
+$
+(
+65.7
+)
+$
+(
+250.2
+)
+64
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+The provision for income taxes differs from the U.S. federal statutory rate for fiscal 2026, as follows, reflecting the adoption of ASU 2023-09:
+2026
+Amount
+Percent
+U.S. federal statutory tax rate
+(
+16.7
+)
+21.0
+ 
+%
+State and local income taxes, net of federal income tax effect
+—
+ 
+—
+ 
+%
+Foreign tax effects
+Hong Kong
+Statutory tax rate difference between Hong Kong and United States
+(
+1.4
+)
+1.8
+ 
+%
+Share-based payment awards
+(
+2.7
+)
+3.4
+ 
+%
+Other
+(
+0.3
+)
+0.4
+ 
+%
+India
+Statutory tax rate difference between India and United States
+1.6
+ 
+(
+2.0
+)
+%
+Share-based payment awards
+2.3
+ 
+(
+2.9
+)
+%
+Other
+(
+0.8
+)
+0.6
+ 
+%
+Japan
+Statutory tax rate difference between Japan and United States
+0.4
+ 
+(
+0.5
+)
+%
+Foreign exchange gain/(loss)
+1.2
+ 
+(
+1.5
+)
+%
+Share-based payment awards
+(
+1.1
+)
+1.4
+ 
+%
+Other
+(
+0.1
+)
+0.1
+ 
+%
+Israel
+Statutory tax rate difference between Israel and United States
+(
+0.2
+)
+0.3
+ 
+%
+Foreign exchange gain/(loss)
+(
+1.4
+)
+1.8
+ 
+%
+Other
+1.9
+ 
+(
+2.3
+)
+%
+Other foreign jurisdictions
+1.3
+ 
+(
+1.6
+)
+%
+Effect of cross-border tax laws
+Foreign-derived deduction eligible income
+(
+4.7
+)
+5.9
+ 
+%
+Subpart F income
+2.6
+(
+3.2
+)
+%
+Global intangible low-taxed income
+1.3
+(
+1.6
+)
+%
+Foreign disregarded entity income
+(
+1.4
+)
+1.7
+ 
+%
+Tax credits
+  Research and development tax credits
+(
+8.0
+)
+10.1
+ 
+%
+Changes in valuation allowances
+425.3
+(
+535.6
+)
+%
+Nontaxable or nondeductible Items
+Non-deductible share-based compensation
+7.2
+(
+9.1
+)
+%
+Non-deductible officer compensation
+5.9
+(
+7.4
+)
+%
+Changes in unrecognized tax benefits
+(
+0.7
+)
+0.9
+ 
+%
+Other adjustments
+(
+0.1
+)
+0.2
+ 
+%
+Effective tax rate
+411.4
+(
+518.1
+)
+%
+The effective tax rate for fiscal 2026 diverged from the combined U.S. federal and state statutory tax rate primarily due to $
+425.3
+ million of non-cash tax expenses associated with the establishment of a full valuation allowance against our U.S.
+65
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+federal deferred tax assets. During the fourth quarter of fiscal 2026, we recorded a full valuation allowance against our net U.S. federal deferred tax assets after determining that it was not more likely than not that such deferred tax assets would be realized, primarily based on our three-year cumulative adjusted taxable loss position for U.S. federal income tax purposes as of fiscal 2026.
+For fiscal 2025 and 2024 , the benefit for income taxes differed from the U.S. federal statutory rate as follows:
+2025
+2024
+Benefit  at U.S. federal statutory tax rate
+$
+(
+23.8
+)
+$
+(
+26.2
+)
+Non-deductible share-based compensation
+7.2
+ 
+7.6
+ 
+Shortfall/(windfall) related to share-based compensation
+3.9
+ 
+3.5
+ 
+Non-deductible officer compensation
+2.5
+ 
+4.8
+ 
+Business credits
+(
+4.4
+)
+(
+5.2
+)
+Foreign tax differential
+(
+10.6
+)
+45.2
+ 
+U.S. inclusion of foreign income
+(
+10.3
+)
+(
+0.3
+)
+Deferred taxes on unremitted foreign earnings
+(
+14.2
+)
+—
+ 
+U.S. provision to return adjustment
+0.5
+ 
+(
+18.1
+)
+Deferred tax benefit from domestication
+(
+7.7
+)
+(
+262.8
+)
+Tax benefit from U.S. transition tax
+(
+8.9
+)
+—
+ 
+Other differences
+0.1
+ 
+1.3
+ 
+Benefit for income taxes
+$
+(
+65.7
+)
+$
+(
+250.2
+)
+Non-current deferred tax assets and non-current deferred tax liabilities are included in deferred tax assets and other long-term liabilities, respectively, in the accompanying consolidated balance sheets.
+Significant components of deferred tax assets (liabilities) consisted of the following:
+2026
+2025
+Deferred tax assets:
+Capital loss carryforward
+$
+35.4
+ 
+$
+34.6
+ 
+Inventory write downs
+5.2
+ 
+5.7
+ 
+Intangibles and capitalized research and development costs
+351.2
+ 
+306.5
+ 
+Property and equipment
+3.5
+ 
+3.9
+ 
+Share-based compensation
+8.9
+ 
+22.6
+ 
+Nondeductible interest
+—
+ 
+22.6
+ 
+Lease liabilities
+8.5
+ 
+10.7
+ 
+Business credit carryforward
+97.2
+ 
+89.0
+ 
+Net operating loss carryforward
+10.8
+ 
+17.9
+ 
+Other accruals
+26.6
+ 
+18.0
+ 
+547.3
+ 
+531.5
+ 
+Valuation allowance
+(
+522.6
+)
+(
+94.8
+)
+24.7
+ 
+436.7
+ 
+Deferred tax liabilities:
+Right-of-use assets
+(
+8.1
+)
+(
+10.2
+)
+Acquisition intangibles
+(
+16.2
+)
+(
+22.7
+)
+(
+24.3
+)
+(
+32.9
+)
+Net deferred tax assets
+$
+0.4
+ 
+$
+403.8
+ 
+66
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Realization of deferred tax assets depends on our generating sufficient U.S. and certain foreign taxable income in future years to obtain a benefit from the utilization of those deferred tax assets on our tax returns. Accordingly, the amount of deferred tax assets considered realizable or unrealizable may increase or decrease when we reevaluate the underlying basis for our estimates of future U.S. and foreign taxable income. As of the end of fiscal 2026, we maintained a valuation allowance of $
+522.6
+ million against deferred tax assets related to capital loss carryforwards in a foreign jurisdiction and substantially all of our U.S. federal and California deferred tax assets, reducing these deferred tax assets to the amounts that we believe are more likely than not to be realized. The net change in the valuation allowance during fiscal 2026 was an increase of $
+427.8
+ million.
+We consider almost all earnings of our foreign subsidiaries as not indefinitely reinvested overseas and have made appropriate provisions for income or withholding taxes, that may result from a future repatriation of those earnings. We continue to assert indefinite reinvestment with respect to certain accumulated earnings and outside basis differences, primarily related to our DSPG acquisition. If these earnings and outside basis differences were recognized in a taxable transaction, the associated foreign tax credits would be expected to reduce the related U.S. income tax liability. The amount of the unrecognized deferred tax liability related to these indefinitely reinvested earnings and outside basis differences is not practicable to determine.
+As of the end of fiscal 2026, we had federal, California, and foreign net operating loss carryforwards of $
+2.8
+ million, $
+26.2
+ million and $
+55.7
+ million, respectively. The federal net operating loss can be carried forward indefinitely and the California net operating loss will begin to expire in fiscal 2027 if not utilized. Most of the foreign net operating loss carryforwards have no expiration date. Under current tax law, net operating loss and tax credit carryforwards are available to offset future income or income taxes, if utilized before expiration. However, the use of these carryforwards may be limited by statute or upon the occurrence of certain events, including significant changes in ownership.
+We had $
+41.5
+ million and $
+78.6
+ million of federal and state research tax credit carryforwards, respectively, as of the end of fiscal 2026. The federal research tax credit carryforward will begin to expire in 2038 and the state research tax credit can be carried forward indefinitely.
+The total liability for gross unrecognized tax benefits related to uncertain tax positions, included in other liabilities in our consolidated balance sheets, decreased by $
+3.0
+ million from $
+44.6
+ million in fiscal 2025 to $
+41.6
+ million in fiscal 2026. Of this amount, $
+30.6
+ million will reduce the effective tax rate on income from continuing operations, if recognized.
+A reconciliation of the beginning and ending balance of gross unrecognized tax benefits for fiscal 2026, 2025, and 2024 consisted of the following:
+2026
+2025
+2024
+Beginning balance
+$
+44.6
+ 
+$
+46.5
+ 
+$
+43.7
+ 
+Increase in unrecognized tax benefits related to current year tax positions
+3.3
+ 
+1.9
+ 
+10.4
+ 
+Decrease in unrecognized tax benefits related to prior year tax positions
+(
+2.7
+)
+(
+2.4
+)
+(
+5.3
+)
+Decrease due to effective settlement with tax authorities
+—
+ 
+(
+0.4
+)
+—
+ 
+Remeasurement of unrecognized tax benefits
+1.6
+ 
+1.2
+ 
+(
+1.0
+)
+Decrease due to statute expiration
+(
+5.2
+)
+(
+2.2
+)
+(
+1.3
+)
+Ending balance
+$
+41.6
+ 
+$
+44.6
+ 
+$
+46.5
+ 
+Accrued interest and penalties decreased by $
+0.1
+ million in fiscal 2026 as compared to fiscal 2025 and increased by $
+0.6
+ million in fiscal 2025 as compared to fiscal 2024. Accrued interest and penalties were $
+4.1
+ million and $
+4.2
+ million as of the end of fiscal 2026 and 2025, respectively. Our policy is to classify interest and penalties, if any, as components of income tax expense.
+Our major tax jurisdictions are the U.S., Hong Kong SAR, Japan, India, Israel, and the United Kingdom. From fiscal 2018 onward, we remain subject to examination by one or more of these jurisdictions.
+The amount of cash paid for income taxes (net of refunds) for fiscal 2026, is as follows:
+67
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+2026
+Federal
+$
+6.0
+ 
+State
+—
+ 
+Foreign
+Switzerland
+(
+5.3
+)
+Hong Kong
+(
+2.4
+)
+India
+2.4
+ 
+Taiwan
+1.2
+ 
+China
+1.0
+ 
+Other countries
+0.3
+ 
+Total income taxes paid, net of refunds
+$
+3.2
+ 
+Cash paid for income taxes, net of refunds, during fiscal 2025 and 2024, was $
+47.2
+ million and $
+55.2
+ million, respectively.
+Note 17.
+Revenue
+The majority of our revenue is generated from product shipments to our customers. A summary of our product categories is as follows:
+•
+Enterprise and Automotive: Includes products for PC Touch Pad, PC Fingerprint, Video Interface Solutions and Automotive Solutions.
+•
+Core IoT: Includes products for Wireless and Processor Solutions.
+•
+Mobile: Includes products for Touch and Display Solutions for Mobile phone applications.
+Disaggregation of revenue
+Net revenue by product category was as follows:
+2026
+2025
+2024
+Enterprise and Automotive product applications
+$
+641.1
+ 
+$
+610.1
+ 
+$
+570.0
+ 
+Core IoT product applications
+389.7
+ 
+272.4
+ 
+177.6
+ 
+Mobile product applications
+166.4
+ 
+191.8
+ 
+211.8
+ 
+$
+1,197.2
+ 
+$
+1,074.3
+ 
+$
+959.4
+ 
+Net revenue by geographic region, based on the billing location of our customers, was as follows:
+2026
+2025
+2024
+China
+$
+536.8
+ 
+$
+493.0
+ 
+$
+435.0
+ 
+Taiwan
+363.4
+ 
+307.2
+ 
+201.3
+ 
+Japan
+128.3
+ 
+137.6
+ 
+192.3
+ 
+South Korea
+74.5
+ 
+71.7
+ 
+59.9
+ 
+United States
+23.6
+ 
+7.4
+ 
+21.3
+ 
+Other
+70.6
+ 
+57.4
+ 
+49.6
+ 
+$
+1,197.2
+ 
+$
+1,074.3
+ 
+$
+959.4
+ 
+68
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Net revenue derived from customers whose revenue represented 10% or more of our total net revenue was as follows:
+2026
+2025
+2024
+Customer A
+11
+%
+*
+*
+Customer B
+17
+%
+15
+%
+*
+Customer C
+*
+11
+%
+12
+%
+____________________________
+*
+Less than 10%
+Contract Liabilities
+Our contract liabilities are comprised of deferred revenue and primarily relate to our obligation to transfer goods, services or licenses of our IP to customers for which we have received consideration. Contract liabilities were $
+1.7
+ million and $
+16.2
+ million as of June 2026 and 2025, respectively, and are presented as part of customer-related liabilities in accrued liabilities in the accompanying consolidated balance sheets. See “Note 3. Supplemental Financial Statement Information.” During fiscal 2026 and 2025, we recognized $
+14.1
+ million and $
+13.8
+ million, respectively, in revenue related to contract liabilities outstanding as of the beginning of each such fiscal year.
+Note 18.
+Segment and Other Information
+Segment reporting
+We operate in
+one
+ segment — the development, marketing and sale of semiconductor products used in electronic devices and products. This determination is based on the management approach, which designates internal information regularly available to the chief operating decision maker (“CODM”) for making decisions and assessing performance as the source of determination of our reportable segment. Our CODM, the company’s Chief Executive Officer, reviews financial information presented on a consolidated basis for the purpose of making operating decisions and assessing financial performance.
+Our CODM uses consolidated net income, as reported in our consolidated statements of operations, as the measure of profit or loss to allocate resources and assess performance. Financial forecasts and budget-to-actual results used by the CODM to assess performance and allocate resources, as well as those used for strategic decisions related to headcount and capital expenditures, are also reviewed on a consolidated basis. The CODM considers the impact of the significant segment expenses in the tables below when deciding whether to reinvest profits or pursue strategic mergers and acquisitions.
+The measure of segment assets is reported on the consolidated balance sheet as total assets. The CODM does not review segment assets at a level other than that presented in the accompanying consolidated balance sheets.
+69
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+The following table presents the calculation of segment net income as follows:
+2026
+2025
+2024
+Revenue
+$
+1,197.2
+ 
+$
+1,074.3
+ 
+$
+959.4
+ 
+Adjusted cost of revenue (1)
+553.9
+ 
+498.1
+ 
+451.1
+ 
+Adjusted operating expenses (2)
+420.5
+ 
+398.7
+ 
+380.2
+ 
+Share-based compensation costs
+149.3
+ 
+112.8
+ 
+118.9
+ 
+Acquired intangibles amortization
+119.0
+ 
+114.2
+ 
+81.6
+ 
+Interest and other expense, net
+6.6
+ 
+10.2
+ 
+20.4
+ 
+Provision (benefit) for income taxes
+411.4
+ 
+(
+65.7
+)
+(
+250.2
+)
+Other segment expenses (3)
+27.3
+ 
+53.8
+ 
+31.8
+ 
+Segment net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+Consolidated net (loss) income
+$
+(
+490.8
+)
+$
+(
+47.8
+)
+$
+125.6
+ 
+(1) Adjusted cost of revenue is cost of revenue adjusted for intangible asset amortization and share-based compensation as follows:
+2026
+2025
+2024
+Cost of revenue
+$
+661.8
+ 
+$
+593.9
+ 
+$
+519.6
+ 
+Less:
+Acquired intangibles amortization
+106.7
+ 
+97.5
+ 
+64.3
+ 
+Share-based compensation costs
+1.2
+ 
+(
+1.7
+)
+4.2
+ 
+Adjusted cost of revenue
+$
+553.9
+ 
+$
+498.1
+ 
+$
+451.1
+ 
+(2) Adjusted operating expenses include operating expenses comprised of research and development and selling, general and administrative expenses adjusted for share-based compensation, intangible asset amortization, restructuring and impairment related charges as follows:
+2026
+2025
+2024
+Operating expenses
+$
+602.5
+ 
+$
+574.5
+ 
+$
+541.4
+ 
+Less:
+Share-based compensation costs
+148.1
+ 
+114.5
+ 
+114.7
+ 
+Acquired intangibles amortization
+12.3
+ 
+16.7
+ 
+17.3
+ 
+Intangible asset impairment charge
+6.8
+ 
+13.8
+ 
+16.0
+ 
+Restructuring costs
+3.3
+ 
+16.9
+ 
+10.5
+ 
+Other
+11.5
+ 
+13.9
+ 
+2.7
+ 
+Adjusted operating expenses
+$
+420.5
+ 
+$
+398.7
+ 
+$
+380.2
+ 
+(3) Other segment expenses primarily include impairment charges, legal and vendor related charges and settlements, amortization of debt issuance costs and loss on early extinguishment of debt.
+70
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Other Geographical information
+Long-lived assets by geographic area were as follows:
+2026
+2025
+North America
+$
+534.0
+ 
+$
+559.5
+ 
+EMEA
+405.5
+ 
+453.6
+ 
+Asia Pacific
+244.6
+ 
+238.7
+ 
+$
+1,184.1
+ 
+$
+1,251.8
+ 
+
+Long-lived assets are comprised of property and equipment, goodwill, acquired intangible assets, and operating lease right-of-use assets.
+Note 19.
+Restructuring Activities
+We continuously evaluate our operations to reduce costs and increase profitability, increase operational efficiencies and gain synergies from previous acquisitions and align our business in response to market conditions.
+A summary of restructuring costs as presented in our consolidated statements of operations was as follows:
+2026
+2025
+2024
+Employee severance and related costs
+$
+2.5
+ 
+$
+15.5
+ 
+$
+10.5
+ 
+Other charges (1)
+0.8
+ 
+1.4
+ 
+—
+ 
+$
+3.3
+ 
+$
+16.9
+ 
+$
+10.5
+ 
+(1) Other charges include non-cash lease termination costs and write-off of property and equipment.
+The following table presents the beginning and ending restructuring liability balances for each restructuring action:
+Fiscal 2024
+Restructuring
+Fiscal 2025
+Restructuring
+Fiscal 2026
+Restructuring
+Total
+Balance, June 2024
+$
+1.4
+ 
+$
+—
+ 
+$
+—
+ 
+$
+1.4
+ 
+Charges (1)
+0.5
+ 
+15.0
+ 
+—
+ 
+15.5
+ 
+Payments
+(
+1.9
+)
+(
+15.0
+)
+—
+ 
+(
+16.9
+)
+Balance, June 2025
+—
+ 
+—
+ 
+—
+ 
+—
+ 
+Charges (1)
+—
+ 
+—
+ 
+2.5
+ 
+2.5
+ 
+Payments
+—
+ 
+—
+ 
+(
+2.5
+)
+(
+2.5
+)
+Balance, June 2026
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+(1) Restructuring activities in the table above include only those charges that resulted in, or will result in, cash payments. As a result, the table above excludes non-cash lease termination costs and write-off of property and equipment.
+Fiscal 2026 Restructuring Plan
+A restructuring plan was initiated during the first and fourth quarters of fiscal 2026 (“Fiscal 2026 Restructuring Plan”) to streamline and optimize resources and to reduce operating costs. Restructuring charges under this plan were mainly comprised of severance and one-time termination benefits.
+Fiscal 2025 Restructuring Plan
+A restructuring plan was initiated during the first quarter of fiscal 2025 (“Fiscal 2025 Restructuring Plan”) primarily intended to focus on key growth initiatives, reduce costs and align our business in response to market conditions. Restructuring charges were mainly comprised of severance and one-time termination benefits and lease termination costs.
+71
+Table of Contents
+SYNAPTICS INCORPORATED AND SUBSIDIARIES
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (continued)
+(all tabular amounts in millions, except per share amounts)
+Fiscal 2024 Restructuring Plan
+A restructuring plan was initiated during the first and fourth quarter of fiscal 2024 (“Fiscal 2024 Restructuring Plan”) intended to further improve efficiencies in our operational activities, decrease costs and increase profitability.
+
+72
+Table of Contents
+ITEM 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE
+Not applicable.
+ITEM 9A. CONTROLS AND PROCEDURES
+Conclusions Regarding Disclosure Controls and Procedures
+Under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, we conducted an evaluation of the effectiveness of the design and operation of our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act). Based on this evaluation, our Chief Executive Officer and Chief Financial Officer, as of June 27, 2026, concluded that our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act) were effective at the reasonable assurance level to ensure that information required to be disclosed by us in the reports we file or submit under the Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms and that such information is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosure.
+Management’s Report on Internal Control Over Financial Reporting
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) for our company. Under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in the
+Internal Control—Integrated Framework (2013)
+ issued by the Committee of Sponsoring Organizations of the Treadway Commission (“COSO 2013 Framework”).
+Based on our evaluation under the COSO 2013 Framework, our management concluded that our internal control over financial reporting was effective, at the reasonable assurance level, as of June 27, 2026. KPMG LLP, an independent registered public accounting firm, has audited the consolidated financial statements included in this Annual Report, and as part of its audit, has issued its attestation report on our internal control over financial reporting, as of June 27, 2026, included herein under the caption “Report of Independent Registered Public Accounting Firm” in Part II, Item 8 of this Annual Report.
+Changes in Internal Control Over Financial Reporting
+There have been no changes to our internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the fourth quarter of fiscal 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
+Inherent Limitations on Effectiveness of Controls
+Our management, including our Chief Executive Officer and Chief Financial Officer, does not expect that our disclosure controls and procedures or our internal controls over financial reporting will prevent or detect all error and all fraud. A control system, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that the objectives of the control system are met. Further, the design of a control system must reflect the fact that there are resource constraints, and the benefits of controls must be considered relative to their costs. Because of the inherent limitations in all control systems, no evaluation of controls can provide absolute assurance that all control issues, misstatements, errors and instances of fraud, if any, within our company have been or will be prevented or detected. Further, internal controls may become inadequate as a result of changes in conditions or through the deterioration of the degree of compliance with policies or procedures.
+ITEM 9B. OTHER INFORMATION
+Trading Arrangements
+During the fiscal quarter ended June 2026, none of our directors or officers (as defined in Rule 16a-1(f) of the Exchange Act)
+adopted
+,
+terminated
+ or modified a Rule 10b5-1 trading arrangement or non-Rule 10b5-1 trading arrangement (as such terms are defined in Item 408 of Regulation S-K).
+73
+Table of Contents
+ITEM 9C. DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS
+Not applicable.
+74
+Table of Contents
+PART III
+ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
+The information required by this Item relating to our directors and corporate governance is incorporated herein by reference to the definitive Proxy Statement to be filed pursuant to Regulation 14A of the Exchange Act for our 2026 Annual Meeting of Stockholders. The information required by this Item relating to our executive officers is included in Part I – Item 1 of this Annual Report under the caption “Information About Our Executive Officers.”
+We have adopted a code of ethics that applies to our chief executive officer, chief financial officer, principal accounting officer and other senior accounting personnel. The “Code of Conduct” is located on our website at
+www.synaptics.com
+ in the Investor Relations section under Corporate Governance.
+We intend to satisfy the disclosure requirement under Item 5.05(c) of Form 8-K regarding any amendment to, or waiver from, a provision of this code of ethics by posting such information on our website, at the address and location specified above.
+ITEM 11. EXECUTIVE COMPENSATION
+The information required by this Item is incorporated herein by reference to the definitive Proxy Statement to be filed pursuant to Regulation 14A of the Exchange Act for our 2026 Annual Meeting of Stockholders.
+ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS
+The information required by this Item is incorporated herein by reference to the definitive Proxy Statement (particularly under the captions “Beneficial Ownership of Certain Stockholders” and “Equity Compensation Plan Information”) to be filed pursuant to Regulation 14A of the Exchange Act for our 2026 Annual Meeting of Stockholders.
+ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTOR INDEPENDENCE
+The information required by this Item is incorporated herein by reference to the definitive Proxy Statement (particularly under the captions “Board Composition and Governance – Independent Directors” and “Certain Relationships and Related Transactions”) to be filed pursuant to Regulation 14A of the Exchange Act for our 2026 Annual Meeting of Stockholders.
+ITEM 14. PRINCIPAL ACCOUNTANT FEES AND SERVICES
+The information required by this Item is incorporated herein by reference to the definitive Proxy Statement (particularly under the captions “Ratification of Appointment of the Independent Auditor” and “Audit and Non-Audit Fees”) to be filed pursuant to Regulation 14A of the Exchange Act for our 2026 Annual Meeting of Stockholders.
+75
+Table of Contents
+PART IV
+ITEM 15. EXHIBITS AND FINANCIAL STATEMENT SCHEDULES
+We have filed the following documents as part of this Form 10-K:
+1.
+Consolidated Financial Statements:
+Report of Independent Registered Public Accounting Firm (
+KPMG LLP
+,
+Santa Clara, California
+, PCAOB Audit Firm ID:
+185
+)
+37
+Consolidated Balance Sheets
+39
+Consolidated Statements of Operations
+40
+Consolidated Statements of Comprehensive
+(Loss)
+Income
+41
+Consolidated Statements of Stockholders’ Equity
+42
+Consolidated Statements of Cash Flows
+43
+Notes to Consolidated Financial Statements
+44
+2.
+Financial Statement Schedules
+All schedules have been omitted because the information is not required, is not applicable or is included in the Consolidated Financial Statements.
+3.
+Exhibits
+Incorporated by Reference
+Exhibit
+Number
+Exhibit
+To
+Date Filed
+2.1
+Agreement and Plan of Reorganization, dated as of June 25, 2026, by and among ON Semiconductor Corporation, Sonic Acquisition Corp. and Synaptics Incorporated
+Current Report on Form 8-K
+June 25, 2026
+3.1
+Amended and Restated Certificate of Incorporation
+Current Report on Form 8-K
+October 26, 2023
+3.2
+Certificate of Designation of Series A Junior Participating Preferred Stock
+Registration Statement on Form 8-A
+August 16, 2002
+3.3
+Fourth Amended and Restated Bylaws (amended and restated as of July 29, 2025)
+Current Report on Form 8-K
+July 31, 2025
+4.1
+Form of Common Stock Certificate
+Annual Report on Form 10-K
+September 12, 2002
+4.2
+Description of Registrant’s Securities
+Annual Report on Form 10-K
+August 23, 2019
+4.3
+Indenture, dated as of March 11, 2021, by and among the Company, the guarantors named therein and Wells Fargo Bank, National Association, as trustee
+Current Report on Form 8-K
+March 11, 2021
+4.4
+Form of 4.000% Senior Notes due 2029 (included in Exhibit 4.3).
+
+Current Report on Form 8-K
+March 11, 2021
+76
+Table of Contents
+4.5
+Indenture, dated as of November 19, 2024, between Synaptics Incorporated and U.S. Bank Trust Company, National Association, as trustee
+Current Report on Form 8-K
+November 19, 2024
+4.6
+Form of Certificate representing the 0.75% Convertible Senior Notes due 2031 (included as Exhibit A to Exhibit 4.5)
+Current Report on Form 8-K
+November 29, 2024
+10.1(a)
+Second Amended and Restated Credit Agreement, dated March 11, 2021, by and among Synaptics Incorporated, as borrower, the lenders from time to time party thereto, Wells Fargo Bank, National Association, as administrative agent, swingline lender and issuing lender, Wells Fargo Securities, LLC, as joint lead arranger and joint bookrunner, MUFG Union Bank, N.A. and BMO Capital Markets Corp., as joint lead arrangers, joint bookrunners and co-syndication agents
+Current Report on Form 8-K
+March 11, 2021
+10.1(b)
+First Amendment and Lender Joinder Agreement, dated as of December 2, 2021, by and among Synaptics Incorporated, the Lenders party thereto, and Wells Fargo Bank, National Association, as Administrative Agent
+Current Report on Form 8-K
+December 2, 2021
+10.1(c)
+Second Amendment, dated as of March 16, 2023, by and among Synaptics Incorporated, the Lenders party thereto, and Wells Fargo Bank, National Association, as Administrative Agent
+Current Report on Form 8-K
+March 17, 2023
+10.1(d)
+Third Amendment, dated as of July 28, 2023, by and among Synaptics Incorporated, the Revolving Credit Lenders party thereto, and Wells Fargo Bank, National Association, as Administrative Agent
+Current Report on Form 8-K
+August 3, 2023
+10.1(e)
+Fourth Amendment and Lender Joinder Agreement, dated as of November 21, 2024, by and among Synaptics Incorporated, Wells Fargo Bank, National Association, as Administrative Agent, and the revolving credit lenders party thereto
+Current Report on Form 8-K
+November 21, 2024
+10.2*
+Synaptics Incorporated 2025 Inducement Equity Plan
+Registration Statement on Form S-8
+January 30, 2025
+10.3(a)*
+2019 Equity and Incentive Compensation Plan
+Registration Statement on Form S-8
+November 1, 2019
+10.3(b)*
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+October 29, 2020
+10.3(c)*
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+October 28, 2021
+10.3(d)*
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+October 27, 2022
+10.3(e)*
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+October 26, 2023
+77
+Table of Contents
+10.3(f)*
+Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+October 31, 2024
+10.3(g)*
+Form of Restricted Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan (for awards granted before July 27, 2021)
+Registration Statement on Form S-8
+November 1, 2019
+10.3(h)*
+Form of Performance Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan (for awards granted before July 27, 2021)
+Registration Statement on Form S-8
+November 1, 2019
+10.3(i)*
+Form of Restricted Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan (for awards granted after July 27, 2021)
+Annual Report on Form 10-K
+August 23, 2021
+10.3(j)*
+Form of Performance Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan (for awards granted after July 27, 2021)
+Annual Report on Form 10-K
+August 23, 2021
+10.3(k)*
+Form of Market Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan
+Quarterly Report on Form 10-Q
+November 5, 2020
+10.3(l)*
+Form of Performance Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan
+Quarterly Report on Form 10-Q
+November 5, 2020
+10.3(m)*
+Form of Market Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan
+Annual Report on Form 10-K
+August 22, 2022
+10.3(n)*
+Form of Market Stock Unit Award Agreement under the 2019 Equity and Incentive Compensation Plan
+Annual Report on Form 10-K
+August 23, 2024
+10.3(o)*
+Form of Retention Restricted Stock Unit Award Agreement under the Synaptics Incorporated Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+April 18, 2025
+10.3(p)*
+Form of Retention Restricted Stock Unit Award Agreement under the Synaptics Incorporated Amended and Restated 2019 Equity and Incentive Compensation Plan
+Current Report on Form 8-K
+May 23, 2025
+10.3(q)*
+Synaptics Incorporated Amended and Restated 2019 Equity and Incentive Compensation Plan, as amended
+Quarterly Report on Form 10-Q
+February 5, 2026
+10.3(r)*
+Form of Non-Employee Director Restricted Stock Unit Award Agreement under the Amended and Restated 2019 Equity and Incentive Compensation Plan, as amended
+Quarterly Report on Form 10-Q
+February 5, 2026
+10.4(a)*
+2019 Employee Stock Purchase Plan
+Registration Statement on Form S-8
+November 1, 2019
+78
+Table of Contents
+10.4(b)*
+Synaptics Incorporated Amended and Restated 2019 Employee Stock Purchase Plan
+Current Report on Form 8-K
+October 30, 2025
+10.5*
+Form of Change in Control and Severance Agreement
+Current Report on Form 8-K
+April 18, 2025
+10.6*
+Form of Director and Officer Indemnification Agreement
+Current Report on Form 8-K
+May 17, 2016
+10.7*
+Form of Indemnification Agreement (Directors)
+Current Report on Form 8-K
+April 18, 2025
+10.8*
+Form of Indemnification Agreement (Officers)
+Current Report on Form 8-K
+April 18, 2025
+10.9*
+Employment Offer Letter, dated May 10, 2024, between the registrant and Ken Rizvi
+Annual Report on Form 10-K
+August 23, 2024
+10.10*
+Employment Offer Letter, dated November 22, 2023 between the registrant and Lisa Bodensteiner
+Quarterly Report on Form 10-Q
+February 8, 2024
+10.11*
+Employment Offer Letter, dated December 16, 2022, between the registrant and Vikram Gupta
+Quarterly Report on Form 10-Q
+February 8, 2024
+10.12*
+Employment offer letter dated October 24, 2019, between the registrant and Satish Ganesan
+Annual Report on Form 10-K
+August 23, 2024
+10.13*
+Letter Agreement between Synaptics Incorporated and Ken Rizvi, dated March 10, 2025
+Current Report on Form 8-K
+March 14, 2025
+10.14*
+Letter Agreement between Synaptics Incorporated and Nelson Chan, dated March 10, 2025
+Current Report on Form 8-K
+March 14, 2025
+10.15*
+Offer Letter, dated May 19, 2025 by and between Rahul Patel and Synaptics Incorporated
+Current Report on Form 8-K
+May 21, 2025
+10.16*
+Change in Control and Severance Agreement by and between Rahul Patel and Synaptics Incorporated
+Current Report on Form 8-K
+May 21, 2025
+10.17
+Form of Confirmation of Base Capped Call Transaction
+Current Report on Form 8-K
+November 19, 2024
+10.18
+Form of Confirmation for the Additional Capped Call Transactions
+Current Report on Form 8-K
+November 26, 2024
+19
+Synaptics Incorporated Insider Trading Policy
+
+Annual Report on Form 10-K
+August 23, 2024
+21
+List of Subsidiaries
+Annual Report on Form 10-K
+August 23, 2024
+23.1
+Consent of Independent Registered Public Accounting Firm
+Filed herewith
+31.1
+Certification of Chief Executive Officer pursuant to Rule 13a-14(a)/15d-14(a)
+Filed herewith
+31.2
+Certification of Chief Financial Officer pursuant to Rule 13a-14(a)/15d-14(a)
+Filed herewith
+79
+Table of Contents
+32.1#
+Section 1350 Certification of Chief Executive Officer
+Furnished herewith
+32.2#
+Section 1350 Certification of Chief Financial Officer
+Furnished herewith
+97.1
+Synaptics Compensation Recovery Policy, adopted as of October 23, 2023
+
+Annual Report on Form 10-K
+August 23, 2024
+101.INS
+Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document).
+101.SCH
+Inline XBRL Taxonomy Extension Schema Document
+101.CAL
+Inline XBRL Taxonomy Extension Calculation Linkbase Document.
+101.DEF
+Inline XBRL Taxonomy Extension Definition Linkbase Document
+101.LAB
+Inline XBRL Taxonomy Extension Labels Linkbase Document
+101.PRE
+Inline XBRL Taxonomy Extension Presentation Linkbase Document
+104
+Cover Page Interactive Data File -the Cover Page Interactive Data File does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document
+*
+Indicates a contract with management or compensatory plan or arrangement.
+#
+This certification is being furnished solely pursuant to 18 U.S.C. § 1350 and shall not be deemed filed by the company for purposes of Section 18 of the Exchange Act or incorporated by reference in any registration statement of the company filed under the Securities Act.
+ITEM 16. FORM 10-K SUMMARY
+Not applicable.
+80
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+SYNAPTICS INCORPORATED
+Date: August 10, 2026
+By:
+ /s/
+Rahul Patel
+Rahul Patel
+President and Chief Executive Officer
+Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
+Signature
+Title
+Date
+ /s/
+Rahul Patel
+President and Chief Executive Officer,
+August 10, 2026
+Rahul Patel
+and Director (Principal Executive Officer)
+/
+s
+/ Ken Rizvi
+Senior Vice President and Chief Financial Officer
+August 10, 2026
+Ken Rizvi
+(Principal Financial Officer)
+/s/
+Esther Song
+
+Vice President and Corporate Controller
+August 10, 2026
+Esther Song
+(Principal Accounting Officer)
+/s/
+Nelson C. Chan
+Chair of the Board
+August 10, 2026
+Nelson C. Chan
+/s/
+Jeffrey D. Buchanan
+Director
+August 10, 2026
+Jeffrey D. Buchanan
+/s/
+Keith B. Geeslin
+Director
+August 10, 2026
+Keith B. Geeslin
+/s/
+Susan Hardman
+Director
+August 10, 2026
+Susan Hardman
+/s/
+Patricia Kummrow
+Director
+August 10, 2026
+Patricia Kummrow
+/s/
+Vivie Lee
+Director
+August 10, 2026
+Vivie Lee
+/s/
+Venkatesh Nathamuni
+Director
+August 10, 2026
+Venkatesh Nathamuni
+/s/
+James L. Whims
+Director
+August 10, 2026
+James L. Whims
+81

@@ -1,0 +1,36 @@
+{
+  "company": "Bel Fuse",
+  "ticker": "BELFA",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000729580",
+  "form": "10-Q",
+  "filing_date": "2025-11-04",
+  "accession_number": "0001437749-25-032940",
+  "primary_document": "belfb20250930_10q.htm",
+  "primary_doc_description": "FORM 10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/729580/000143774925032940/belfb20250930_10q.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-09-30",
+  "period_end": "2025-09-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:45:24.701237+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/BELFA/000143774925032940/primary.html",
+    "business": "data/raw/BELFA/000143774925032940/item1_business.txt",
+    "risk_factors": "data/raw/BELFA/000143774925032940/item1a_risk_factors.txt",
+    "mdna": "data/raw/BELFA/000143774925032940/item7_mdna.txt",
+    "other": "data/raw/BELFA/000143774925032940/other_full.txt"
+  }
+}

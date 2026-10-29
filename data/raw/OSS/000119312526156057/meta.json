@@ -1,0 +1,36 @@
+{
+  "company": "One Stop Systems",
+  "ticker": "OSS",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001394056",
+  "form": "8-K",
+  "filing_date": "2026-04-15",
+  "accession_number": "0001193125-26-156057",
+  "primary_document": "oss-20260415.htm",
+  "primary_doc_description": "8-K",
+  "items": "7.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526156057/oss-20260415.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-04-15",
+  "period_end": "2026-04-15",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:50:25.676097+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "oss-ex99_1.htm",
+      "path": "data/raw/OSS/000119312526156057/exhibit_99_oss-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526156057/oss-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/OSS/000119312526156057/primary.html",
+    "other": "data/raw/OSS/000119312526156057/other_full.txt"
+  }
+}

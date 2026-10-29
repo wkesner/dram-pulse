@@ -1,0 +1,36 @@
+{
+  "company": "Methode Electronics",
+  "ticker": "MEI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000065270",
+  "form": "10-Q",
+  "filing_date": "2026-03-05",
+  "accession_number": "0000065270-26-000007",
+  "primary_document": "mei-20260131.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/65270/000006527026000007/mei-20260131.htm",
+  "fiscal_year_end": "0503",
+  "report_date": "2026-01-31",
+  "period_end": "2026-01-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:47:10.783757+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MEI/000006527026000007/primary.html",
+    "business": "data/raw/MEI/000006527026000007/item1_business.txt",
+    "risk_factors": "data/raw/MEI/000006527026000007/item1a_risk_factors.txt",
+    "mdna": "data/raw/MEI/000006527026000007/item7_mdna.txt",
+    "other": "data/raw/MEI/000006527026000007/other_full.txt"
+  }
+}

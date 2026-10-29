@@ -1,0 +1,36 @@
+{
+  "company": "Advanced Energy",
+  "ticker": "AEIS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000927003",
+  "form": "8-K",
+  "filing_date": "2026-05-14",
+  "accession_number": "0001104659-26-060543",
+  "primary_document": "aeis-20260513x8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926060543/aeis-20260513x8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-13",
+  "period_end": "2026-05-13",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:29:20.962182+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "aeis-20260513xex99d1.htm",
+      "path": "data/raw/AEIS/000110465926060543/exhibit_99_aeis-20260513xex99d1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926060543/aeis-20260513xex99d1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AEIS/000110465926060543/primary.html",
+    "other": "data/raw/AEIS/000110465926060543/other_full.txt"
+  }
+}

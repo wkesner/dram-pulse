@@ -1,0 +1,36 @@
+{
+  "company": "Corsair Gaming",
+  "ticker": "CRSR",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001743759",
+  "form": "10-Q",
+  "filing_date": "2026-05-07",
+  "accession_number": "0001193125-26-211947",
+  "primary_document": "crsr-20260331.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1743759/000119312526211947/crsr-20260331.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-03-31",
+  "period_end": "2026-03-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:49:57.263466+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/CRSR/000119312526211947/primary.html",
+    "business": "data/raw/CRSR/000119312526211947/item1_business.txt",
+    "risk_factors": "data/raw/CRSR/000119312526211947/item1a_risk_factors.txt",
+    "mdna": "data/raw/CRSR/000119312526211947/item7_mdna.txt",
+    "other": "data/raw/CRSR/000119312526211947/other_full.txt"
+  }
+}

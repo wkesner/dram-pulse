@@ -979,3 +979,278 @@ companies:
     ticker: CACI
     tier: 2
 
+
+# Tier 3 public long-tail (electronics / DC / components) — indexing pass
+  - name: SiTime
+    role: supplier
+    source: EDGAR
+    ticker: SITM
+    tier: 3
+
+  - name: Diodes Incorporated
+    role: supplier
+    source: EDGAR
+    ticker: DIOD
+    tier: 3
+
+  - name: Power Integrations
+    role: supplier
+    source: EDGAR
+    ticker: POWI
+    tier: 3
+
+  - name: Synaptics
+    role: supplier
+    source: EDGAR
+    ticker: SYNA
+    tier: 3
+
+  - name: Allegro MicroSystems
+    role: supplier
+    source: EDGAR
+    ticker: ALGM
+    tier: 3
+
+  - name: Wolfspeed
+    role: supplier
+    source: EDGAR
+    ticker: WOLF
+    tier: 3
+
+  - name: Alpha and Omega Semiconductor
+    role: supplier
+    source: EDGAR
+    ticker: AOSL
+    tier: 3
+
+  - name: Impinj
+    role: supplier
+    source: EDGAR
+    ticker: PI
+    tier: 3
+
+  - name: indie Semiconductor
+    role: supplier
+    source: EDGAR
+    ticker: INDI
+    tier: 3
+
+  - name: Universal Display
+    role: supplier
+    source: EDGAR
+    ticker: OLED
+    tier: 3
+
+  - name: Valens Semiconductor
+    role: supplier
+    source: EDGAR
+    ticker: VLN
+    tier: 3
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Lumentum
+    role: supplier
+    source: EDGAR
+    ticker: LITE
+    tier: 3
+
+  - name: Applied Optoelectronics
+    role: supplier
+    source: EDGAR
+    ticker: AAOI
+    tier: 3
+
+  - name: Viavi Solutions
+    role: supplier
+    source: EDGAR
+    ticker: VIAV
+    tier: 3
+
+  - name: nLIGHT
+    role: supplier
+    source: EDGAR
+    ticker: LASR
+    tier: 3
+
+  - name: AXT Inc
+    role: supplier
+    source: EDGAR
+    ticker: AXTI
+    tier: 3
+
+  - name: Calix
+    role: buyer
+    source: EDGAR
+    ticker: CALX
+    tier: 3
+
+  - name: Extreme Networks
+    role: buyer
+    source: EDGAR
+    ticker: EXTR
+    tier: 3
+
+  - name: Harmonic
+    role: buyer
+    source: EDGAR
+    ticker: HLIT
+    tier: 3
+
+  - name: ADTRAN
+    role: buyer
+    source: EDGAR
+    ticker: ADTN
+    tier: 3
+
+  - name: Clearfield
+    role: supplier
+    source: EDGAR
+    ticker: CLFD
+    tier: 3
+
+  - name: Digi International
+    role: supplier
+    source: EDGAR
+    ticker: DGII
+    tier: 3
+
+  - name: Ubiquiti
+    role: buyer
+    source: EDGAR
+    ticker: UI
+    tier: 3
+
+  - name: Ribbon Communications
+    role: buyer
+    source: EDGAR
+    ticker: RBBN
+    tier: 3
+
+  - name: Axcelis
+    role: supplier
+    source: EDGAR
+    ticker: ACLS
+    tier: 3
+
+  - name: Veeco
+    role: supplier
+    source: EDGAR
+    ticker: VECO
+    tier: 3
+
+  - name: Camtek
+    role: supplier
+    source: EDGAR
+    ticker: CAMT
+    tier: 3
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Kulicke and Soffa
+    role: supplier
+    source: EDGAR
+    ticker: KLIC
+    tier: 3
+
+  - name: Ichor Holdings
+    role: supplier
+    source: EDGAR
+    ticker: ICHR
+    tier: 3
+
+  - name: ACM Research
+    role: supplier
+    source: EDGAR
+    ticker: ACMR
+    tier: 3
+
+  - name: Nova Ltd
+    role: supplier
+    source: EDGAR
+    ticker: NVMI
+    tier: 3
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Vicor
+    role: supplier
+    source: EDGAR
+    ticker: VICR
+    tier: 3
+
+  - name: Bel Fuse
+    role: supplier
+    source: EDGAR
+    ticker: BELFA
+    tier: 3
+
+  - name: Rogers Corporation
+    role: supplier
+    source: EDGAR
+    ticker: ROG
+    tier: 3
+
+  - name: Littelfuse
+    role: supplier
+    source: EDGAR
+    ticker: LFUS
+    tier: 3
+
+  - name: CTS Corporation
+    role: supplier
+    source: EDGAR
+    ticker: CTS
+    tier: 3
+
+  - name: Methode Electronics
+    role: supplier
+    source: EDGAR
+    ticker: MEI
+    tier: 3
+
+  - name: Modine
+    role: supplier
+    source: EDGAR
+    ticker: MOD
+    tier: 3
+
+  - name: Kimball Electronics
+    role: buyer
+    source: EDGAR
+    ticker: KE
+    tier: 3
+
+  - name: Richardson Electronics
+    role: buyer
+    source: EDGAR
+    ticker: RELL
+    tier: 3
+
+  - name: Cognex
+    role: supplier
+    source: EDGAR
+    ticker: CGNX
+    tier: 3
+
+  - name: Novanta
+    role: supplier
+    source: EDGAR
+    ticker: NOVT
+    tier: 3
+
+  - name: Corsair Gaming
+    role: buyer
+    source: EDGAR
+    ticker: CRSR
+    tier: 3
+
+  - name: One Stop Systems
+    role: buyer
+    source: EDGAR
+    ticker: OSS
+    tier: 3
+

@@ -1,0 +1,36 @@
+{
+  "company": "Impinj",
+  "ticker": "PI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001114995",
+  "form": "8-K",
+  "filing_date": "2026-03-16",
+  "accession_number": "0001193125-26-108622",
+  "primary_document": "pi-20260311.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1114995/000119312526108622/pi-20260311.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-03-11",
+  "period_end": "2026-03-11",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:35:00.783989+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "pi-ex99_1.htm",
+      "path": "data/raw/PI/000119312526108622/exhibit_99_pi-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1114995/000119312526108622/pi-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/PI/000119312526108622/primary.html",
+    "other": "data/raw/PI/000119312526108622/other_full.txt"
+  }
+}

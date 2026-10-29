@@ -1,0 +1,36 @@
+{
+  "company": "Applied Optoelectronics",
+  "ticker": "AAOI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001158114",
+  "form": "8-K",
+  "filing_date": "2026-05-07",
+  "accession_number": "0001683168-26-003562",
+  "primary_document": "aaoi_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826003562/aaoi_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-07",
+  "period_end": "2026-05-07",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:36:48.705545+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "aaoi_ex9901.htm",
+      "path": "data/raw/AAOI/000168316826003562/exhibit_99_aaoi_ex9901.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826003562/aaoi_ex9901.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AAOI/000168316826003562/primary.html",
+    "other": "data/raw/AAOI/000168316826003562/other_full.txt"
+  }
+}

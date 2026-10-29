@@ -1,0 +1,36 @@
+{
+  "company": "Ichor Holdings",
+  "ticker": "ICHR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001652535",
+  "form": "8-K",
+  "filing_date": "2025-11-03",
+  "accession_number": "0001652535-25-000075",
+  "primary_document": "ichr-20251103.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1652535/000165253525000075/ichr-20251103.htm",
+  "fiscal_year_end": "1227",
+  "report_date": "2025-11-03",
+  "period_end": "2025-11-03",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:43:34.129390+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex-991_25q3xearnings.htm",
+      "path": "data/raw/ICHR/000165253525000075/exhibit_99_ex-991_25q3xearnings.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652535/000165253525000075/ex-991_25q3xearnings.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ICHR/000165253525000075/primary.html",
+    "other": "data/raw/ICHR/000165253525000075/other_full.txt"
+  }
+}

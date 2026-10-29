@@ -1,0 +1,41 @@
+{
+  "company": "Alpha and Omega Semiconductor",
+  "ticker": "AOSL",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001387467",
+  "form": "8-K",
+  "filing_date": "2026-02-05",
+  "accession_number": "0001387467-26-000012",
+  "primary_document": "aosl-20260205.htm",
+  "primary_doc_description": "8-K EARNING RELEASE Q2'2026",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1387467/000138746726000012/aosl-20260205.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2026-02-05",
+  "period_end": "2026-02-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:34:35.063202+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991earningreleasede.htm",
+      "path": "data/raw/AOSL/000138746726000012/exhibit_99_exhibit991earningreleasede.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1387467/000138746726000012/exhibit991earningreleasede.htm"
+    },
+    {
+      "name": "exhibit992earningreleasede.htm",
+      "path": "data/raw/AOSL/000138746726000012/exhibit_99_exhibit992earningreleasede.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1387467/000138746726000012/exhibit992earningreleasede.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AOSL/000138746726000012/primary.html",
+    "other": "data/raw/AOSL/000138746726000012/other_full.txt"
+  }
+}

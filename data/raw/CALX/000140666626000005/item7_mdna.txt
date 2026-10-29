@@ -1,0 +1,340 @@
+ITEM 7.    Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The Management’s Discussion and Analysis of Financial Condition and Results of Operations contains forward-looking statements regarding future events and our future results that are subject to the safe harbors created under the Securities Act of 1933 (the “Securities Act”) and the Securities Exchange Act of 1934 (the “Exchange Act”). All statements other than statements of historical facts are statements that could be deemed forward-looking statements. These statements are based on current expectations, estimates, forecasts and projections about the industry in which we operate and the beliefs and assumptions of our management. In some cases, forward-looking statements can be identified by the use of words such as “believe,” “could,”
+ “
+expect,” “may,” “estimate,” “continue,” “anticipate,” “intend,”
+
+“should,” “plan,”
+
+“predict,” “will,” “would,” “project,” “potential,”
+
+or the negative thereof or other comparable terminology. In addition, any statements that refer to projections of our future financial performance, our anticipated growth and trends in our business and industry and other characterizations of future events or circumstances are forward-looking statements. Readers are cautioned that these forward-looking statements are only predictions and are subject to risks, uncertainties and assumptions that are difficult to predict, including those identified in the Risk Factors discussed in Item 1A, in the discussion below, as well as in other sections of this Annual Report on Form 10-K. Therefore, actual results may differ materially and adversely from those expressed in any forward-looking statements. All forward-looking statements and reasons why results may differ included in this report are made as of the date hereof, and we assume no obligation to update these forward-looking statements or reasons why actual results might differ.
+Overview
+We develop, market and sell platform, cloud and managed services, which are powered by agentic AI, that enable CSPs providers of all types and sizes to innovate and transform their businesses to focus on delivering outstanding subscriber experiences and become CXPs. The platform combines the Calix Agent Workforce™ with intelligent appliances, software, cloud and fully integrated SmartLife™ managed services to enable simplified business models that acquire, retain and grow subscribers and revenue. Calix Customer Success guides service providers through every stage of their transformation journey with expertise across technology, business and market insights. Our partner community extends innovation so customers can grow their businesses across markets at scale. With deep broadband expertise and an end-to-end approach from the datacenters’ access edge to every residential, business and municipal subscriber location, Calix enables any service provider to
+simplify
+ operations, engagement, and service;
+innovate
+ for their subscribers; and
+grow
+ value for members, investors, and the communities they serve. This focus on subscriber experience allows CXPs to expand their brand through increased subscriber acquisition, loyalty and revenue while reducing their operating costs.
+We market our platform, cloud and managed services to CSPs globally through our direct sales force as well as select resellers. Our customers range from smaller, regional service providers to some of the world’s largest service providers. We have approximately 1,600 active customers that have deployed passive optical, Active Ethernet or point-to-point Ethernet fiber access networks or our subscriber premise appliances.
+Our revenue and potential revenue growth will depend on, among other things, our ability to develop, market and sell our platform and managed services to strategically aligned customers of all types such as MSPs, local and competitive exchange carriers, cable MSOs, WISPs, fiber overbuilders such as municipalities, electric cooperatives, tribal communities, multiple dwelling units (“MDU”) and hospitality providers in the U.S. and internationally. Our growth is also highly dependent on the speed and willingness of customers to adopt our platform and managed services.
+Revenue fluctuations result from many factors, including, but not limited to: increases or decreases in customer orders for our products and services, global economic and geopolitical events and conditions, including tariffs, trade controls, inflation, economic downturns and market, financial or other factors such as government stimulus or shutdowns that may delay or materially impact customer purchasing decisions, non-availability of products due to supply chain challenges, including component and labor shortages and increasing lead times as well as disruptions as a result of pandemics or natural disasters, contractual terms with customers that result in delayed revenue recognition and varying budget cycles and seasonal buying patterns of our customers. More specifically, our customers have in the past spent less in the first quarter as they are finalizing their annual budgets, and in certain regions, customers are challenged by winter weather conditions that inhibit fiber deployment in outside infrastructure. Our revenue is also dependent upon our customers’ success in growing their subscribers, timing of purchases, capital expenditure plans and decisions to upgrade their networks or adopt new technologies, including adoption of our software and cloud platform solutions, as well as our ability to grow our customer base.
+Cost of revenue is strongly correlated to revenue and tends to fluctuate due to all of the above factors that may cause revenue fluctuations. Factors that have impacted our cost of revenue, or that we expect may impact cost of revenue in future periods, also include: changes in the mix of products delivered, customer location and regional mix, changes in the cost of our inventory, investments to support expansion of cloud and customer support offerings as well as our customer success organization, changes in product warranty, incurrence of retrofit costs, amortization of intangibles, allowances for obligations to our suppliers and inventory write-downs. Factors that we expect may impact our cost of revenue in future periods include the
+30
+Table of Contents
+same factors in the prior quarter, changes in trade policies and the transition from DDR4 to DDR5 memory. Regarding trade policies, in April 2025, the U.S. President signed an executive order increasing tariffs on imports from numerous countries, including China and other Asian countries where our sole-source or limited-source suppliers are located. Currently, the majority of our finished goods are exempt from tariffs. For imported components for domestic manufacturing and certain finished goods, these actions increased our cost of revenue. We continue to evaluate the actions we may be able to take to mitigate such costs as we monitor and navigate this challenging and dynamic operating environment. Regarding the DDR4 to DDR5 transition, the reduction in manufacturing capacity of DDR4 memory has resulted in increased DDR4 memory prices and will increase the cost of our products. In addition, we periodically ship by air versus by ocean in order to meet delivery commitments to our customers, which is more costly. Cost of revenue also includes fixed expenses related to our internal operations, which could increase our cost of revenue as a percentage of revenue if our revenue declines.
+Our gross profit and gross margin fluctuate based on timing of factors such as changes in customer mix and changes in the mix of products demanded and sold (and any related write-downs of existing inventory or accrual for supplier commitments) and have in the past been and may be negatively impacted by increases in mix of revenue from channel sales rather than direct sales or other unfavorable customer or product mix, shipment volumes and any related volume discounts, changes in our product and services costs, pricing decreases or discounts, new product introductions or upgrades to existing products, customer rebates and incentive programs due to competitive pressure or materials shortages, supply constraints, investments to support expansion of cloud and customer support offerings, tariffs or unfavorable changes in trade policies.
+Our operating expenses fluctuate based on the following factors among others: changes in headcount and personnel costs, which comprise a significant portion of our operating expenses; variable compensation due to fluctuations in shipment volumes or level of achievement against performance targets; timing of research and development expenses, including investments in innovative solutions and new customer segments, prototype builds and outsourced development resources; investments in marketing programs; asset write-offs; investments in our business and information technology infrastructure; and fluctuations in stock-based compensation expenses due to timing of equity grants or other factors affecting vesting.
+Further, as a result of factors contributing to the fluctuations described above among other factors, many of which are outside our control, our quarterly operating results fluctuate from period to period. Comparing our operating results on a period-to-period basis may not be meaningful, and you should not rely on our past results as an indication of our future performance.
+Critical Accounting Estimates
+Our financial statements are prepared in accordance with U.S. generally accepted accounting principles. These accounting principles require us to make certain estimates and judgments that can affect the reported amounts of assets and liabilities as of the date of the financial statements, as well as the reported amounts of revenue, costs and expenses during the periods presented. We base our estimates, assumptions and judgments on historical experience and on various other factors that are believed to be reasonable under the circumstances. To the extent there are material differences between these estimates and actual results, our financial statements may be affected. We evaluate our estimates, assumptions and judgments on an ongoing basis.
+We believe the following critical accounting policies affect our significant judgments and estimates used in the preparation of our financial statements.
+Revenue Recognition
+Revenue is recognized when a performance obligation is satisfied, which occurs when control of the promised goods or services is transferred to the customer, in an amount that reflects the consideration we expect to be entitled to in exchange for those goods or services. Revenue from sales of access and premises appliances is recognized when control is transferred to the customer, which is generally when the products are shipped. Revenue from software platform licenses, which provides the customer with a right to use the software as it exists, is generally recognized upfront when the license is made available to the customer. Revenue from cloud-based software subscriptions, customer support, maintenance, extended warranty subscriptions and managed services is generally recognized ratably over the contract term. Revenue from professional services and training is recognized as the services are delivered.
+A performance obligation is a promise in a contract to transfer a distinct good or service to the customer and is the unit of account. A contract’s transaction price is allocated to each distinct performance obligation and recognized as revenue when, or as, the performance obligation is satisfied. Our hardware products contain both software and non-software components that function together to deliver the products’ essential functionality and therefore constitutes a single performance obligation as the promise to transfer the individual software and non-software components is not separately identifiable and, therefore, not distinct. Cloud-based software subscriptions can include multi-year agreements with a fixed annual fee for a minimum committed usage level. To the extent that minimum committed usage level each year varies, we have concluded that each year represents a distinct stand-ready performance obligation and the transaction price allocated to each performance obligation is recognized as revenue ratably over each annual period.
+31
+Table of Contents
+Our contracts generally include multiple performance obligations. For such arrangements, we allocate the contract’s transaction price to each performance obligation using the relative stand-alone selling price of each distinct good or service in the contract. Observable prices of a product or service when we sell them separately based on stratification by classes of customers and  products are the best estimate of stand-alone selling prices. However, when stand-alone selling prices are not directly observable, they are estimated, and judgment is required in their determination. In these instances, we determine stand-alone selling prices using all other available information, which may include pricing practices relative to geographies, market conditions, competitive landscape, characteristics of targeted customers for hardware products, internal costs and gross margin objectives for services and internal costs and value assessments for subscriptions.
+Inventory Valuation and Supplier Purchase Commitments
+Inventory, which primarily consists of finished goods purchased from CMs or ODMs, is stated at the lower of cost (determined by the first-in, first-out method) and net realizable value. Inbound shipping costs and tariffs are included in the cost of inventory. In addition, from time to time, we procure component inventory primarily due to the discontinuation of critical components by suppliers, a change in suppliers or in connection with our supply assurance plans. This component inventory is then consigned back to our suppliers to be consumed on future finished good builds.
+We regularly monitor inventory on-hand and record write-downs for excess and obsolete inventory. We also evaluate our supplier purchase commitments and record a liability for excess and obsolete components consistent with the valuation of our excess and obsolete inventory and future production requirements. These write-downs and accruals are based on our assumptions of demand for our products and requires significant judgement of relevant factors including a comparison of the quantity and cost of inventory on hand to our estimated forecast of customer demand, current levels of orders and backlog, market conditions, potential obsolescence of technology, product life cycles and whether pricing trends or forecasts indicate that the carrying value of inventory exceeds our estimated selling price. Factors that could influence management’s assumptions and judgements include changes in economic conditions, competitive dynamics, losing a key customer, changes in our customers’ capital expenditures, government investment programs, technology changes, new product introductions and supply-chain lead times. Actual demand may differ from forecasted demand and may have a material effect on gross profit. If inventory is written down, a new cost basis is established that cannot be increased in future periods.
+Recent Accounting Pronouncements Not Yet Adopted
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standard Update (“ASU”) No. 2024-03,
+Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures
+, which requires additional disclosure of certain costs and expenses within the notes to the financial statements. The updated standard is effective for our annual periods beginning in 2027 and interim periods beginning in the first quarter of 2028. Early adoption is permitted. We are currently evaluating the impact that the updated standard will have on our financial statement disclosures.
+In September 2025, the FASB issued ASU No. 2025-06,
+Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software
+, which clarifies and modernizes the accounting for internal-use software. ASU No. 2025-06 is effective for us in the first quarter of 2028, with early adoption permitted. The standard permits application of the guidance using a prospective, retrospective, or modified transition approach. We are currently evaluating the impact that the updated standard will have on our financial statement disclosures.
+There have been no other accounting pronouncements or changes in accounting pronouncements that are significant or potentially significant to us.
+Results of Operations for Years Ended December 31, 2025 and 2024
+Revenue
+The following table sets forth our revenue (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Revenue:
+Appliance
+$
+825,649 
+$
+694,147 
+$
+131,502 
+19 
+%
+Software and service
+174,361 
+137,371 
+36,990 
+27 
+%
+$
+1,000,010 
+$
+831,518 
+$
+168,492 
+20 
+%
+Our revenue increased by $168.5 million, or 20%, during 2025 compared with 2024. The increase in appliance revenue was due to the adoption of our platform, cloud and managed services by new customers as we continue to take footprint from legacy box vendors and the continued robust expansion of our appliances within our existing customer base. The increase in software and service revenue is due to our CXP customers adding new subscribers. Our software is sold on a per-subscriber basis. CXPs use
+32
+Table of Contents
+our platform, cloud and managed services to deliver better subscriber experiences as evidenced by best-in-class Net Promoter Scores
+SM
+, thereby allowing them to take market share.
+Our revenue is principally derived in the U.S., which represented 93% of revenue in 2025 and 92% in 2024. Our primary focus has been, and in the near term will continue to be, the U.S. and Canada given our large, direct sales and marketing presence and the amount of government stimulus being invested into underserved and not-served areas of these countries. With the introduction of our third-generation platform, we will increase our attention on international markets.
+No customer accounted for more than 10% of our revenue for 2025, 2024 or 2023. See Note 11 “Revenue from Contracts with Customers” to the Consolidated Financial Statements included in this Annual Report on Form 10-K for more details on concentration of revenue for the years presented.
+Gross Profit and Gross Margin
+The following table sets forth our gross profit and gross margin (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Gross profit:
+Appliance
+$
+458,561 
+$
+376,305 
+$
+82,256 
+22 
+%
+Software and service
+109,755 
+77,289 
+32,466 
+42 
+%
+$
+568,316 
+$
+453,594 
+$
+114,722 
+25 
+%
+Gross margin:
+Appliance
+55.5 
+%
+54.2 
+%
+Software and service
+62.9 
+%
+56.3 
+%
+56.8 
+%
+54.6 
+%
+Gross profit increased by $114.7 million to $568.3 million during 2025 from $453.6 million during 2024. This increase was mainly due to the corresponding increase in revenue. Gross margin increased to 56.8% during 2025 from 54.6% during 2024. The increase in gross margin of 220 basis points, compared to the corresponding period in 2024, was primarily related to the continued adoption of our platform, cloud and managed services by new broadband service providers and our CXP customers winning new subscribers.
+Operating Expenses
+Sales and Marketing Expenses
+Sales and marketing expenses consist of personnel costs, employee sales commissions, marketing programs and events, software tools and travel-related expenses. The following table sets forth our sales and marketing expenses (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Sales and marketing
+$
+248,636 
+$
+217,879 
+$
+30,757 
+14 
+%
+Percent of revenue
+25 
+%
+26 
+%
+Sales and marketing expenses increased by $30.8 million during 2025 compared to 2024 primarily due to increases in personnel expenses of $20.6 million, mostly related to incentive compensation and increased headcount, stock-based compensation of $9.9 million and travel expenses of $2.3 million. These increases were partially offset by a decrease in marketing expenses of $1.7 million.
+During 2025, sales and marketing expenses as a percentage of revenue decreased to 25% from 26% due to higher revenue compared to 2024. We expect our investments in sales and marketing will increase in absolute dollars on a year-over-year basis, but decline as a percentage of revenue, as we continue to land new customers and expand our platform, cloud and managed services.
+33
+Table of Contents
+Research and Development Expenses
+Research and development expenses include personnel costs, outside contractor and consulting services, depreciation on lab equipment, costs of prototypes and overhead allocations. The following table sets forth our research and development expenses (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Research and development
+$
+190,356 
+$
+179,870 
+$
+10,486 
+6 
+%
+Percent of revenue
+19 
+%
+22 
+%
+Percent of gross profit
+33 
+%
+40 
+%
+The increase in research and development expenses of $10.5 million during 2025 compared with 2024 was mainly due to increases in stock-based compensation of $4.3 million, outside services of $3.7 million, depreciation and amortization of $1.9 million and prototypes and test equipment expenses of $1.7 million. These increases were partially offset by decreases in facility expenses of $1.2 million.
+During 2025, research and development expenses as a percentage of revenue decreased to 19% from 22% due to the increase in revenue, and research and development expenses as a percentage of gross profit decreased to 33% from 40% due to the increase in gross profit. We expect our investments in research and development to increase in absolute dollars and as a percentage of gross profit in the short term as we accelerate the development of AI functionality and capabilities of our platform, cloud and managed services.
+General and Administrative Expenses
+General and administrative expenses consist primarily of personnel costs related to our executive, finance, human resources, information technology and legal organizations, outside consulting services, insurance, facilities and fees for professional services. Professional services consist of outside audit, legal, accounting and tax services. The following table sets forth our general and administrative expenses (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+General and administrative
+$
+108,334 
+$
+98,879 
+$
+9,455 
+10 
+%
+Percent of revenue
+11 
+%
+12 
+%
+The increase in general and administrative expenses of $9.5 million in 2025 compared to 2024 was mainly due to increases in personnel expenses of $6.1 million and stock-based compensation of $2.9 million.
+During 2025, general and administrative expenses as a percentage of revenue decreased to 11% from 12% due to higher revenue compared to 2024. We expect our general and administrative investments to increase in absolute dollars but decline as a percentage of revenue.
+Interest Income and Other Expense, Net
+The following table sets forth our interest income and other expense, net (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Interest income and other expense, net
+$
+13,178 
+$
+11,388 
+$
+1,790 
+16 
+%
+Interest income and other expense, net increased by $1.8 million in 2025 compared with 2024 mainly due to a larger average cash balance offset partially by a decrease in interest rates.
+Income Tax (Benefit)
+The following table sets forth our income tax (benefit) (dollars in thousands):
+Years Ended December 31,
+2025 vs 2024 Change
+2025
+2024
+$
+%
+Income tax (benefit)
+$
+16,284 
+$
+(1,899)
+$
+18,183 
+958 
+%
+Effective tax rate
+48 
+%
+6 
+%
+34
+Table of Contents
+During 2025, our current tax expense was $3.4 million, and our deferred tax expense was $12.9 million. Our effective tax rate was higher than the federal statutory rate of 21% primarily due to the impact of non-deductible stock-based compensation offset by the favorable impact of U.S. federal research tax credits.
+During 2024, our current tax expense was $8.1 million, and our deferred tax benefit was $10.0 million. Our effective tax rate was lower than the federal statutory rate of 21% primarily due to the impact of stock-based compensation, foreign operations, valuation allowance and uncertain tax positions, offset by research and development tax credits and provision to return adjustments.
+We continue to maintain a valuation allowance of $32.3 million on certain state deferred tax assets that we believe are not more likely than not to be realized in future periods.
+Our income taxes may be subject to fluctuation during the year and in future years as new information is obtained, which may affect the assumptions used to estimate the annual effective tax rate, including factors such as actual results differing from our estimates of pre-tax earnings in the various jurisdictions in which we operate, which could impact the recognition of our deferred tax assets, the recognition or de-recognition of tax benefits related to uncertain tax positions and changes in or the interpretation of tax laws in jurisdictions where we conduct business.
+2024 Compared to 2023
+For a comparison of our results of operations for the years ended December 31, 2024 and 2023, see Item 7 “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of our Annual Report on Form 10-K for the year ended December 31, 2024 filed with the SEC on February 21, 2025.
+Liquidity and Capital Resources
+We fund our operations and investing activities primarily through cash flow generated from operations and sales of our common stock. As of December 31, 2025, we had cash, cash equivalents and marketable securities of $388.1 million, which consisted of deposits held at banks and major financial institutions and highly liquid marketable securities such as U.S. government securities and commercial paper. This includes $12.4 million of cash primarily held by our foreign subsidiaries. As of December 31, 2025, our liability for taxes that would be payable because of repatriation of undistributed earnings of our foreign subsidiaries was limited to foreign withholding taxes as the future distribution is not expected to be taxable in the U.S.
+The following table presents the cash inflows and outflows by activity during 2025 and 2024 (in thousands):
+Years Ended December 31,
+2025
+2024
+Net cash provided by operating activities
+$
+134,953 
+$
+68,400 
+Net cash used in investing activities
+(6,373)
+(109,530)
+Net cash provided by (used in) financing activities
+(28,434)
+20,897 
+Operating Activities
+Our operating activities provided cash of $135.0 million in 2025 and $68.4 million in 2024. The increase in net cash provided by operating activities during 2025 as compared to 2024 was due primarily to an increase in our net operating results after adjustment of non-cash charges of $87.4 million partially offset by a decrease in our net cash inflow resulting from changes in operating assets and liabilities of $20.9 million. Non-cash charges consisted of stock-based compensation of $87.9 million,  depreciation and amortization of $17.7 million and deferred income taxes of $12.9 million partially offset by net accretion of available-for-sale securities of $3.7 million.
+In 2025, cash inflows from changes in operating assets and liabilities primarily consisted of an increase in accounts payable of $21.5 million due to increased inventory purchases, a decrease in prepaid expenses and other assets of $17.3 million due to a reduction in our inventory deposits, an increase in accrued liabilities of $11.8 million mainly due to incentive compensation related accruals and an increase in deferred revenue of $2.6 million. These changes were partially offset by increases in inventory of $31.0 million and accounts receivable of $20.0 million to support increased revenue.
+Investing Activities
+In 2025, net cash used in investing activities of $6.4 million consisted capital expenditures of $19.4 million, primarily consisting of purchases of test and computer equipment, partially offset by net maturities and sales of marketable securities of $13.0 million.
+35
+Table of Contents
+Financing Activities
+In 2025, net cash used in financing activities of $28.4 million consisted of purchases of our common stock of $93.6 million partially offset by the issuance of common stock related to our equity plans of $65.2 million.
+2024 Compared to 2023
+For a discussion of our liquidity and capital resources and our cash flow activities for the years ended December 31, 2024 and 2023, see Item 7 “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” of our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 21, 2025.
+Working Capital and Capital Expenditure Needs
+Our material cash commitments include non-cancelable firm purchase commitments, normal recurring trade payables, compensation-related and expense accruals and operating leases. We believe that our outsourced approach to manufacturing provides us significant flexibility in both managing inventory levels and financing our inventory. Furthermore, we have a common stock repurchase program which had $109.3 million available as of December 31, 2025. In January 2026, our Board of Directors authorized a $125.0 million increase to this program. In 2026 to date, we repurchased $148.7 million of our common stock. Our stock repurchase program does not require us to purchase a specific number of shares and may be modified, suspended or terminated at any time.
+We believe, based on our current operating plan and expected operating cash flows, that our existing cash, cash equivalents and marketable securities will be sufficient to meet our anticipated cash needs for at least the next twelve months. If we are unable to generate sufficient cash flows or obtain other sources of liquidity, we will be forced to limit or terminate our stock repurchase program, limit our development activities, reduce our investment in growth initiatives and/or institute cost-cutting measures, all of which may adversely impact our business and potential growth.
+Contractual Obligations and Commitments
+Our principal commitments as of December 31, 2025 consisted of our contractual obligations under non-cancelable outstanding purchase obligations and operating lease obligations for office space. The following table summarizes our contractual obligations as of December 31, 2025 (in thousands):
+Payments Due by Period
+Total
+Less Than 1 Year
+1-3 Years
+3-5 Years
+More Than 5 Years
+Non-cancelable purchase commitments
+(1)
+$
+317,751 
+$
+217,460 
+$
+83,867 
+$
+16,424 
+$
+— 
+Operating lease obligations
+(2)
+18,382 
+3,610 
+6,200 
+4,956 
+3,616 
+$
+336,133 
+$
+221,070 
+$
+90,067 
+$
+21,380 
+$
+3,616 
+(1)
+ Represents outstanding purchase commitments to be delivered by our third-party manufacturers and other vendors such as enterprise software vendors. See Note 5 “Commitments and Contingencies”
+
+of the Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K for further discussion regarding our outstanding purchase commitments.
+(2)
+
+Future minimum operating lease obligations in the table above primarily include payments for our office locations, which expire at various dates through 2033. See Note 5 “Commitments and Contingencies” of the Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K for further discussion regarding our operating leases.

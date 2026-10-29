@@ -1,0 +1,41 @@
+{
+  "company": "Littelfuse",
+  "ticker": "LFUS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000889331",
+  "form": "8-K",
+  "filing_date": "2026-01-28",
+  "accession_number": "0001628280-26-003710",
+  "primary_document": "lfus-20260128.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/889331/000162828026003710/lfus-20260128.htm",
+  "fiscal_year_end": "1226",
+  "report_date": "2026-01-28",
+  "period_end": "2026-01-28",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:46:14.356471+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "q42025earningsslide.htm",
+      "path": "data/raw/LFUS/000162828026003710/exhibit_99_q42025earningsslide.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/889331/000162828026003710/q42025earningsslide.htm"
+    },
+    {
+      "name": "q42025ex991.htm",
+      "path": "data/raw/LFUS/000162828026003710/exhibit_99_q42025ex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/889331/000162828026003710/q42025ex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/LFUS/000162828026003710/primary.html",
+    "other": "data/raw/LFUS/000162828026003710/other_full.txt"
+  }
+}

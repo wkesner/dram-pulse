@@ -1,0 +1,41 @@
+{
+  "company": "indie Semiconductor",
+  "ticker": "INDI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001841925",
+  "form": "8-K",
+  "filing_date": "2026-05-07",
+  "accession_number": "0001193125-26-212163",
+  "primary_document": "indi-20260507.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1841925/000119312526212163/indi-20260507.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-07",
+  "period_end": "2026-05-07",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:35:34.880010+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "indi-ex99_1.htm",
+      "path": "data/raw/INDI/000119312526212163/exhibit_99_indi-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841925/000119312526212163/indi-ex99_1.htm"
+    },
+    {
+      "name": "indi-ex99_2.htm",
+      "path": "data/raw/INDI/000119312526212163/exhibit_99_indi-ex99_2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1841925/000119312526212163/indi-ex99_2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/INDI/000119312526212163/primary.html",
+    "other": "data/raw/INDI/000119312526212163/other_full.txt"
+  }
+}

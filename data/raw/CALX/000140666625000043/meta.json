@@ -1,0 +1,41 @@
+{
+  "company": "Calix",
+  "ticker": "CALX",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001406666",
+  "form": "8-K",
+  "filing_date": "2025-10-29",
+  "accession_number": "0001406666-25-000043",
+  "primary_document": "calx-20251029.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666625000043/calx-20251029.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-10-29",
+  "period_end": "2025-10-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:39:01.359986+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex991pressrelease25q3.htm",
+      "path": "data/raw/CALX/000140666625000043/exhibit_99_ex991pressrelease25q3.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666625000043/ex991pressrelease25q3.htm"
+    },
+    {
+      "name": "ex992stockholderletter25q3.htm",
+      "path": "data/raw/CALX/000140666625000043/exhibit_99_ex992stockholderletter25q3.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666625000043/ex992stockholderletter25q3.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CALX/000140666625000043/primary.html",
+    "other": "data/raw/CALX/000140666625000043/other_full.txt"
+  }
+}

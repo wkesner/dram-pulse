@@ -1,0 +1,30 @@
+{
+  "company": "Nova Ltd",
+  "ticker": "NVMI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001109345",
+  "form": "6-K",
+  "filing_date": "2026-02-17",
+  "accession_number": "0001178913-26-000506",
+  "primary_document": "zk2634385.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1109345/000117891326000506/zk2634385.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-17",
+  "period_end": "2026-02-17",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:53:38.062639+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/NVMI/000117891326000506/primary.html",
+    "other": "data/raw/NVMI/000117891326000506/other_full.txt"
+  }
+}

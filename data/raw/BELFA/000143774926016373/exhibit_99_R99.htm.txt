@@ -1,0 +1,243 @@
+XML
+
+108
+
+R99.htm
+
+IDEA: XBRL DOCUMENT
+
+v3.26.1
+
+Note 15 - Retirement Fund and Profit Sharing Plan - Recognized in Accumulated Other Comprehensive Loss (Details) - Supplemental Employee Retirement Plan [Member] - USD ($)
+ $ in Thousands
+
+Dec. 31, 2025
+
+Dec. 31, 2024
+
+Dec. 31, 2023
+
+Prior service cost
+
+$ 55
+
+$ 132
+
+$ 212
+
+Net loss
+
+(3,085)
+
+(3,303)
+
+(1,336)
+
+Defined Benefit Plan, Accumulated Other Comprehensive (Income) Loss, before Tax
+
+$ (3,030)
+
+$ (3,171)
+
+$ (1,124)
+
+X
+
+- Definition
+Amount, before tax, of accumulated other comprehensive (income) loss for defined benefit plan, that has not been recognized in net periodic benefit cost (credit).
+
++ References
+Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Topic 220
+ -SubTopic 10
+ -Section 45
+ -Paragraph 14A
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+Reference 2: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 10A
+ -Subparagraph (j)
+ -SubTopic 10
+ -Topic 220
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-10A
+Reference 3: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 10A
+ -Subparagraph (k)
+ -SubTopic 10
+ -Topic 220
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-10A
+Reference 4: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Topic 220
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 10A
+ -Subparagraph (i)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-10A
+Reference 5: http://www.xbrl.org/2009/role/commonPracticeRef
+ -Topic 715
+ -SubTopic 20
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (j)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+
++ Details
+
+ Name:
+
+us-gaap_DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeBeforeTax
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+debit
+
+ Period Type:
+
+instant
+
+X
+
+- Definition
+Amount, before tax, of accumulated other comprehensive income (loss) for gain (loss) of defined benefit plan, that has not been recognized in net periodic benefit (cost) credit.
+
++ References
+Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Topic 220
+ -SubTopic 10
+ -Section 45
+ -Paragraph 14A
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 715
+ -SubTopic 20
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 5
+ -Subparagraph (i)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 715
+ -SubTopic 20
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (j)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+
++ Details
+
+ Name:
+
+us-gaap_DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetGainsLossesBeforeTax
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+credit
+
+ Period Type:
+
+instant
+
+X
+
+- Definition
+Amount, before tax, of accumulated other comprehensive (income) loss for cost (credit) of benefit change attributable to participants' prior service from plan amendment or plan initiation of defined benefit plan, that has not been recognized in net periodic benefit cost (credit).
+
++ References
+Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Topic 220
+ -SubTopic 10
+ -Section 45
+ -Paragraph 14A
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482790/220-10-45-14A
+Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 715
+ -SubTopic 20
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 5
+ -Subparagraph (i)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147480506/715-20-50-5
+Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 715
+ -SubTopic 20
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (j)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147480506/715-20-50-1
+
++ Details
+
+ Name:
+
+us-gaap_DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetPriorServiceCostCreditBeforeTax
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+debit
+
+ Period Type:
+
+instant
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RetirementPlanTypeAxis=us-gaap_SupplementalEmployeeRetirementPlanDefinedBenefitMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:

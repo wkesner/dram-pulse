@@ -1,0 +1,41 @@
+{
+  "company": "Modine",
+  "ticker": "MOD",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000067347",
+  "form": "8-K",
+  "filing_date": "2026-07-29",
+  "accession_number": "0001104659-26-088230",
+  "primary_document": "mod-20260729x8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729x8k.htm",
+  "fiscal_year_end": "0331",
+  "report_date": "2026-07-29",
+  "period_end": "2026-07-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:47:33.461570+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "mod-20260729xex99d1.htm",
+      "path": "data/raw/MOD/000110465926088230/exhibit_99_mod-20260729xex99d1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d1.htm"
+    },
+    {
+      "name": "mod-20260729xex99d2.htm",
+      "path": "data/raw/MOD/000110465926088230/exhibit_99_mod-20260729xex99d2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/MOD/000110465926088230/primary.html",
+    "other": "data/raw/MOD/000110465926088230/other_full.txt"
+  }
+}

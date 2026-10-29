@@ -1,0 +1,520 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion of our financial condition and results of operations should be read together with the Consolidated Financial Statements (unaudited) and related notes that are included elsewhere in this Quarterly Report on Form 10-Q, as well as our audited consolidated financial statements and related notes for the fiscal year ended June 30, 2025 contained in our Annual Report. In addition to historical consolidated financial information, the following discussion contains forward-looking statements that reflect our plans, estimates and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. Factors that could cause or contribute to these differences include those discussed below and elsewhere in this Quarterly Report on Form 10-Q, particularly in Note 9, “Commitments and Contingencies” to our Consolidated Financial Statements (unaudited) and Part II. Item 1. Legal Proceedings and Item 1A. Risk Factors, in this Quarterly Report on Form 10-Q. We assume no obligation to update any of these forward-looking statements.
+Overview
+We develop technology platforms for high-capacity distributed Internet access, unified information technology, and consumer electronics for professional, home and personal use. We categorize our solutions into three main categories: high performance networking technology for enterprises, service providers and consumers. We target the enterprise and service provider markets through our highly engaged community of service providers, distributors, value added resellers, webstores, systems integrators and corporate IT professionals, which we refer to as the Ubiquiti Community. We target consumers through digital marketing, including through our webstores, retail chains and, to a lesser extent, the Ubiquiti Community.
+In addition to Mr. Pera, our founder, Chairman of the Board and Chief Executive Officer, who is central to our business, the majority of our human capital resources consist of entrepreneurial and de-centralized research and development (“R&D”) personnel. We do not employ a traditional direct sales force, but instead drive brand awareness through online reviews and publications, our website, our distributors and our user community where customers can interface directly with our R&D, marketing, and support teams. Our technology platforms were designed from the ground up with a focus on delivering highly-advanced and easily-deployable solutions that appeal to a global customer base.
+We offer a broad and expanding portfolio of networking products and solutions for operator-owners of wireless internet services (“WISPs”), enterprises and smart homes. Our operator-owner service-provider-product platforms provide carrier-class network infrastructure for fixed wireless broadband, wireless backhaul systems and routing and the related software for WISPs to easily control, track and bill their customers. Our enterprise product platforms provide wireless LAN (“WLAN”) infrastructure, video surveillance products, switching and routing solutions, security gateways, door access systems, and other complimentary WLAN products along with a unique software platform, which enables users to control their network from one simple, easy to use software interface. Our consumer products are targeted to the smart home and highly connected consumers. We believe that our products are differentiated due to our proprietary software, firmware expertise, and hardware design capabilities.
+We distribute our products through a worldwide network of over 100 distributors and online retailers and direct to customers through our webstores.
+Tariff and Trade Tensions
+
+– Recently, the U.S. government has issued several executive orders imposing significant tariffs on imports from China, and tariffs on most imports from other counties, including Vietnam. The U.S. government has made numerous changes to the tariff rates including temporary pauses with a reduction in rates and product exclusions. Further, recent judicial rulings have introduced significant additional uncertainty regarding the legal basis for U.S. tariff policy. In addition, the U.S. government may in the future propose and implement additional changes to international trade agreements and tariffs. These actions have increased the cost of importing products containing certain raw materials and have affected our operating results and margins. The magnitude and scope of the recent changes have increased our product costs. For so long as such tariffs are in effect, we expect such tariffs and related trade policy uncertainty will continue to affect our product costs, operating results and margins. As a result, our historical and current gross profit margins may not be indicative of our gross profit margins for future periods. Refer to “Part II—Item 1A. Risk Factors—Risks Related to Our International Operations—Our business may be negatively affected by geopolitical events and foreign policy responses” for additional information.
+Supply Constraints and Risks
+ – We have experienced in the past, particularly from 2020 to 2023, and may experience in the future, periodic volatility in the supply of components used to manufacture our products. This volatility has resulted in supply constraints and corresponding increases in component delivery lead times and costs to obtain components, and resulted in delays in product production. Our efforts to mitigate these supply constraints have included, for example, increasing our inventory build in an attempt to secure supply and meet customer demand, paying higher component and shipping costs to secure supply and modifying our product designs to leverage alternate suppliers. Although these mitigation efforts are intended to optimize our access to the components required to meet customer demand for our products, we have limited visibility into future sales, which makes it difficult to forecast our future results of operations. These mitigation efforts have caused our inventory and vendor deposit balances to increase in the past, and
+21
+Table of Contents
+they may cause such increases in the future. These mitigation efforts therefore significantly increase the risks of future material excess, obsolete inventory and related losses. We believe that we have taken the right actions to mitigate these supply constraints; however, we recognize the associated risks.
+Russia-Ukraine Military Conflict
+ – We are monitoring the ongoing military conflict between Russia and Ukraine, associated tensions in surrounding countries, and associated economic sanctions. While the impact on our operations in Ukraine and its surrounding countries has not been material to our business or results of operations as of the date hereof, the full impact of the military conflict on our business and results of operations remains uncertain. The extent to which the conflict may impact our business or results of operations in future periods will depend on future developments, including the severity and duration of the conflict, its impact on regional and global economic conditions, as well as its impact on surrounding countries, including its impact on our operations in Ukraine and its surrounding countries, and its impact on global supply chains. Refer to “Part II – Item 1A. Risk Factors” for a discussion of these factors and other risks.
+China-Taiwan Tensions
+ – We are monitoring the escalating tensions between China and Taiwan, and associated tensions between the U.S. and China. While the impact on our operations in Taiwan has not been material to our business or results of operations as of the date hereof, the full impact of the escalating tensions and potential military conflict on our business and results of operations remains uncertain. The extent to which the conflict may impact our business or results of operations in future periods will depend on future developments, including the severity and duration of the conflict, its impact on regional and global economic conditions, as well as its impact on China-U.S. relations, including its impact on our operations in Taiwan, and its impact on global supply chains. Refer to “Part II – Item IA. Risk Factors” for a discussion of these factors and other risks.
+Key Components of Our Results of Operations and Financial Condition
+Revenues
+We operate our business as one reportable and operating segment. Further information regarding the segment can be found in Note 12, “Segment Information, Revenues by Geography and Significant Customers” to our Consolidated Financial Statements (unaudited). Our revenues are derived principally from the sale of networking hardware. Because we have historically included implied post-contract customer support (“PCS”) free of charge in many of our arrangements, we attribute a portion of our revenues to this implied PCS.
+We classify our revenues into two primary product categories: Enterprise Technology and Service Provider Technology.
+•
+Enterprise Technology
+ includes our UniFi platforms, including UniFi Cloud Gateways, UniFi WiFi, UniFi Switches, UniFi Protect, UniFi Access, UniFi Talk, UniFi Connect and accessories.
+•
+Service Provider Technology
+
+includes our airMAX, UISP, EdgeMAX, UFiber, Wave, GPON and airFiber platforms, as well as embedded radio products and other 802.11 standard products including base stations, radios, backhaul equipment and CPE.
+We sell our products and solutions globally to enterprises and service providers primarily through our extensive network of distributors and through direct sales through our webstores. Sales to distributors accounted for 55% of our revenues during the nine months ended March 31, 2026. Direct sales accounted for 45% of our revenue during the nine months ended March 31, 2026.
+Cost of Revenues
+Our cost of revenues is comprised primarily of the costs of procuring finished goods from our contract manufacturers and certain key
+components that we consign to certain of our contract manufacturers. In addition, cost of revenues includes labor and other costs w
+hich include salary, benefits and share-based compensation, in addition to costs associated with tooling, testing and quality assurance, warranty costs, logistics costs, tariffs and excess and obsolete inventory write-downs.
+We currently operate warehouses located in the U.S., Europe and Asia Pacific. In addition, we outsource other logistics warehousing and order fulfillment functions located in Vietnam and to a lesser extent in other countries. We also evaluate and utilize other vendors for various portions of our supply chain from time to time. Our operations organization consists of employees and consultants engaged in the management of our contract manufacturers, new product introduction activities, logistical support and engineering.
+Gross Profit
+Our gross profit has been, and may in the future be, influenced by several factors including changes in product mix, target end markets for our products, channel inventory levels, tariffs, and trade disputes, pricing due to competitive pressure, production costs and global
+22
+Table of Contents
+demand for electronic components. Although we procure and sell our products mostly in U.S. dollars, our contract manufacturers incur many costs, including labor costs, in other currencies. To the extent that the exchange rates move unfavorably for our contract manufacturers, they may try to pass these additional costs on to us, which could have a material impact on our future average selling prices and unit costs. Recently, the U.S. government has issued several executive orders imposing significant tariffs on imports from China, and tariffs on most imports from other counties, including Vietnam. The U.S. government has made numerous changes to the tariff rates including temporary pauses with a reduction in rates and product exclusions. In addition, the U.S. government may in the future propose and implement additional changes to international trade agreements and tariffs. These actions have increased the cost of importing products containing certain raw materials and have affected our operating results and margins. The magnitude and scope of the recent changes have increased and will significantly increase our product costs. For so long as such tariffs are in effect, we expect such tariffs, and related trade policy uncertainty, will continue to affect our operating results and margins. As a result, our historical and current gross profit margins may not be indicative of our gross profit margins for future periods. Refer to “Part II—Item 1A. Risk Factors—Risks Related to Our International Operations—Our business may be negatively affected by geopolitical events and foreign policy responses” for additional information.
+Operating Expenses
+We classify our operating expenses as research and development and sales, general and administrative expenses. 
+•
+Research and development expenses
+ consist primarily of salary and benefit expenses, including share-based compensation, for employees and costs for contractors engaged in research, design and development activities, as well as costs for prototypes, licensed or purchased intellectual property, facilities and travel. Over time, we expect our research and development costs to increase as we continue making significant investments in developing new products in addition to new versions of our existing products.
+•
+Sales, general and administrative expenses
+ include salary and benefit expenses, including share-based compensation, for employees and costs for contractors engaged in sales, marketing and general and administrative activities, credit card processing fees, legal expenses, trade shows, marketing programs, promotional materials, bad debt expense, professional services, facilities, general liability insurance and travel. As our product portfolio and targeted markets expand, we may need to employ different sales models, such as building a traditional direct sales force. These sales models would likely increase our costs. Over time, we expect our sales, general and administrative expenses to increase in absolute dollars due to continued growth in headcount, expansion of our efforts to register and defend trademarks and patents and to support our business and operations.
+Provisions for Income Taxes
+We use the asset and liability method to account for income taxes. Significant management judgment is required in determining the provision for income taxes, deferred tax assets and liabilities and any valuation allowance recorded against net deferred tax assets. In preparing the consolidated financial statements, we are required to estimate income taxes in each of the jurisdictions in which we operate. We must assess potential exposures and, where necessary, provide a reserve to cover any expected loss. To the extent that we establish a reserve, the provision for income taxes would be increased. If we ultimately determine that payment of these amounts is unnecessary, we reverse the liability and recognize a tax benefit during the period in which we determine that the liability is no longer necessary. We record an additional charge in our provision for taxes in the period in which we determine that tax liability is greater than our original estimate. We recognize interest and penalties related to unrecognized tax benefits on the income tax expense line in the accompanying consolidated statement of operations. Refer to “Part II—Item 1A. Risk Factors—Risks Related to Regulatory, Legal and Tax Matters—Changes in applicable tax regulations could negatively affect our financial results” for additional information.
+Critical Accounting Estimates
+We prepare our consolidated financial statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”). In many cases, the accounting treatment of a particular transaction is specifically dictated by GAAP and does not require management’s judgment in its application. In other cases, management’s judgment is required in selecting among available alternative accounting standards that provide for different accounting treatment for similar transactions. The preparation of consolidated financial statements also requires us to make estimates and assumptions that affect the amounts we report as assets, liabilities, revenues, costs and expenses and affect the related disclosures. We base our estimates on historical experience and other assumptions that we believe are reasonable under the circumstances. In many instances, we could reasonably use different accounting estimates, and in some instances changes in the accounting estimates are reasonably likely to occur from period to period. Accordingly, our actual results could differ significantly from the estimates made by our management. To the extent that there are differences between our estimates and actual results, our future financial statement presentation, financial condition, results of operations and cash flows will be affected. Our critical accounting policies are discussed in our Annual Report, and there have been no material changes other than that have been disclosed in Note 2, “Summary of Significant Accounting Policies” to our consolidated
+23
+Table of Contents
+financial statements herein. As events continue to evolve our estimates may change materially in future periods. We believe that the accounting policies discussed in our Annual Report, are critical to understanding our historical and future performance, as these policies relate to the more significant areas involving management’s judgments and estimates.
+24
+Table of Contents
+Results of Operations
+Comparison of Three and Nine Months Ended March 31, 2026 and 2025
+The following table summarizes our consolidated results of operations for the periods indicated, expressed in dollars and as a percentage of total revenues (in thousands, except percentages):
+ 
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+ 
+% of Revenues
+% of Revenues
+% of Revenues
+% of Revenues
+Revenues
+$
+788,199 
+100
+%
+$
+664,170 
+100
+%
+$
+2,336,839 
+100
+%
+$
+1,814,393 
+100
+%
+Cost of revenues
+(1)
+417,488 
+53
+%
+368,296 
+55
+%
+1,254,719 
+54
+%
+1,039,672 
+57
+%
+Gross profit
+370,711 
+47
+%
+295,874 
+45
+%
+1,082,120 
+46
+%
+774,721 
+43
+%
+Operating expenses:
+Research and development
+(1)
+51,813 
+7
+%
+44,262 
+7
+%
+151,202 
+6
+%
+122,217 
+7
+%
+Sales, general and administrative
+(1)
+28,077 
+4
+%
+24,751 
+4
+%
+85,475 
+4
+%
+77,626 
+4
+%
+Total operating expenses
+79,890 
+11
+%
+69,013 
+11
+%
+236,677 
+10
+%
+199,843 
+11
+%
+Income from operations
+290,821 
+36
+%
+226,861 
+34
+%
+845,443 
+36
+%
+574,878 
+32
+%
+Interest expense and other, net
+661 
+—
+%
+5,420 
+1
+%
+5,431 
+—
+%
+27,437 
+2
+%
+Income before income taxes
+290,160 
+36
+%
+221,441 
+33
+%
+840,012 
+36
+%
+547,441 
+30
+%
+Provisions for income taxes
+56,246 
+7
+%
+41,006 
+6
+%
+164,613 
+7
+%
+102,224 
+6
+%
+Net income
+$
+233,914 
+29
+%
+$
+180,435 
+27
+%
+$
+675,399 
+29
+%
+$
+445,217 
+24
+%
+(1)    Includes share-based compensation as follows:
+Cost of revenues
+59 
+62 
+201 
+173 
+Research and development
+1,052 
+1,351 
+3,675 
+3,907 
+Sales, general and administrative
+501 
+435 
+1,525 
+1,257 
+Total share-based compensation
+$
+1,612 
+$
+1,848 
+$
+5,401 
+$
+5,337 
+Revenues
+Total revenues increased $124.0 million, or 19%, from $664.2 million in the three months ended March 31, 2025 to $788.2 million in the three months ended March 31, 2026.
+Total revenues increased $522.4 million, or 29%, from $1,814.4 million in the nine months ended March 31, 2025 to $2,336.8 million in the nine months ended March 31, 2026.
+The increase in revenues for the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was driven by an increase in revenue from our Enterprise Technology platform, offset in part by a decrease in revenue from our Service Provider Technology platform.
+Revenues by Product Type, expressed in dollars (in thousands) and as a percentage of total revenues
+ 
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+% of Revenues
+% of Revenues
+% of Revenues
+% of Revenues
+Enterprise technology
+$
+717,850 
+91
+%
+$
+585,723 
+88
+%
+$
+2,103,988 
+90
+%
+$
+1,574,108 
+87
+%
+Service provider technology
+70,349 
+9
+%
+78,447 
+12
+%
+232,851 
+10
+%
+240,285 
+13
+%
+Total revenues
+$
+788,199 
+100
+%
+$
+664,170 
+100
+%
+$
+2,336,839 
+100
+%
+$
+1,814,393 
+100
+%
+Enterprise Technology revenue increased $132.1 million, or 23%, from $585.7 million in the three months ended March 31, 2025 to
+25
+Table of Contents
+$717.9 million in the three months ended March 31, 2026. Enterprise Technology revenue increased $529.9 million, or 34%, from $1,574.1 million in the nine months ended March 31, 2025 to $2,104.0 million in the nine months ended March 31, 2026.
+The increase in Enterprise Technology revenue during the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was due to an increase in revenue from our Enterprise Technology platform across all regions.
+Service Provider Technology revenue decreased $8.1 million, or 10%, from $78.4 million in the three months ended March 31, 2025 to $70.3 million in the three months ended March 31, 2026. Service Provider Technology revenue decreased $7.4 million, or 3.1%, from $240.3 million in the nine months ended March 31, 2025 to $232.9 million in the nine months ended March 31, 2026.
+The decrease in Service Provider Technology in the three months ended March 31, 2026, as compared to the same period in the prior year, was due to a decrease in revenues across all regions except North America and South America. The decrease in Service Provider Technology in the nine months ended March 31, 2026, as compared to the same period in the prior year, was due to a decrease in revenues across all regions except North America.
+Revenues by Geography, expressed in dollars (in thousands) and as a percentage of total revenues
+We have determined the geographical distribution of our product revenues based on our customers’ ship-to destinations. A majority of our sales are to distributors who either sell to resellers or directly to end customers, who may be located in different countries than the initial ship-to destination. The following are our revenues by geography for the three and nine months ended March 31, 2026 and 2025 (in thousands, except percentages):
+ 
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+% of Revenues
+% of Revenues
+% of Revenues
+% of Revenues
+North America
+(1)
+$
+410,206 
+52
+%
+$
+322,726 
+49
+%
+$
+1,236,598 
+53
+%
+$
+915,615 
+50
+%
+Europe, the Middle East and Africa (“EMEA”)
+303,761 
+39
+%
+282,121 
+42
+%
+847,593 
+36
+%
+695,589 
+38
+%
+Asia Pacific
+43,170 
+5
+%
+37,480 
+6
+%
+150,759 
+7
+%
+121,499 
+7
+%
+South America
+31,062 
+4
+%
+21,843 
+3
+%
+101,889 
+4
+%
+81,690 
+5
+%
+Total revenues
+$
+788,199 
+100
+%
+$
+664,170 
+100
+%
+$
+2,336,839 
+100
+%
+$
+1,814,393 
+100
+%
+(1)
+
+Revenue for the United States was $374.1 million and $298.5 million for the three months ended March 31, 2026 and 2025, respectively. Revenue for the United States was $1,113.7 million and $843.3 million for the nine months ended March 31, 2026 and 2025, respectively.
+North America
+Revenues in North America increased by $87.5 million, or 27%, from $322.7 million in the three months ended March 31, 2025 to $410.2 million in the three months ended March 31, 2026 and increased by $321.0 million, or 35%, from $915.6 million in the nine months ended March 31, 2025 to $1,236.6 million in the nine months ended March 31, 2026.
+The increase in North America revenues during the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was due to increased revenue from both our Enterprise Technology products and our Service Provider Technology products.
+Europe, the Middle East, and Africa (“EMEA”)
+Revenues in EMEA increased by $21.6 million, or 8%, from $282.1 million in the three months ended March 31, 2025 to $303.8 million in the three months ended March 31, 2026 and increased by $152.0 million, or 22%, from $695.6 million in the nine months ended March 31, 2025 to $847.6 million in the nine months ended March 31, 2026.
+The increase in EMEA revenues during the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was due to increased revenue from our Enterprise Technology products, offset in part by a decline in revenues from our Service Provider Technology products.
+Asia Pacific
+Revenues in the Asia Pacific region increased by $5.7 million, or 15%, from $37.5 million in the three months ended March 31, 2025 to $43.2 million in the three months ended March 31, 2026 and increased by $29.3 million, or 24%, from $121.5 million in the nine
+26
+Table of Contents
+months ended March 31, 2025 to $150.8 million in the nine months ended March 31, 2026.
+The increase in Asia Pacific revenues during the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was due to increased revenue from our Enterprise Technology products, offset in part by a decline in revenues from our Service Provider Technology products.
+South America
+Revenues in South America increased by $9.2 million, or 42%, from $21.8 million in the three months ended March 31, 2025 to $31.1 million in the three months ended March 31, 2026 and increased by $20.2 million, or 25%, from $81.7 million in the nine months ended March 31, 2025 to $101.9 million in the nine months ended March 31, 2026.
+The increase in South America revenues during the three months ended March 31, 2026, as compared to the same period in the prior year, was due to an increase in revenues from both our Enterprise Technology products and Service Provider Technology products. The increase in South America revenues during the nine months ended March 31, 2026, as compared to the same period in the prior year, was due to an increase in revenues from our Enterprise Technology products, offset in part by a decline in revenues from our Service Provider Technology products.
+Gross Profit
+Gross profit margin increased to 47% in the three months ended March 31, 2026, compared to 45% in the three months ended March 31, 2025 and increased to 46% in the nine months ended March 31, 2026, compared to 43% in the nine months ended March 31, 2025. The increase in gross profit margin for the three months ended March 31, 2026, as compared to the comparable prior year period, was primarily driven by favorable product mix, reduced charges for excess and obsolete inventory, lower shipping costs and other indirect costs. These positive factors were offset in part by higher tariff costs. The increase in gross profit margin for the nine months ended March 31, 2026, as compared to the comparable prior year period, was primarily driven by favorable product mix, lower shipping costs, reduced charges for excess and obsolete inventory and other indirect costs. These positive factors were offset in part by higher tariff costs.
+Operating Expenses
+Research and Development
+Research and development (“R&D”) expenses increased by $7.6 million, or 17%, from $44.3 million in the three months ended March 31, 2025 to $51.8 million in the three months ended March 31, 2026. As a percentage of revenues, R&D expenses remained consistent at 7% for both periods.
+R&D expenses increased by $29.0 million, or 24%, from $122.2 million in the nine months ended March 31, 2025 to $151.2 million in the nine months ended March 31, 2026. As a percentage of revenues, R&D expenses decreased from 7% for the nine months ended March 31, 2025 to 6% for the nine months ended March 31, 2026.
+The increase in R&D expenses during the three months ended March 31, 2026, as compared to the comparable prior year period, was primarily driven by higher employee-related expenses, facility costs and software expenses, offset in part by lower depreciation. The increase in R&D expenses during the nine months ended March 31, 2026, as compared to the comparable prior year period, was primarily driven by higher employee-related expenses, prototype-related expenses, facility costs and software expenses, offset in part by lower depreciation.
+Sales, General and Administrative
+Sales, general and administrative (“SG&A”) expenses increased by $3.3 million, or 13%, from $24.8 million in the three months ended March 31, 2025 to $28.1 million in the three months ended March 31, 2026. As a percentage of revenues, SG&A expenses remained consistent at 4% for both periods.
+SG&A expenses increased by $7.8 million, or 10%, from $77.6 million in the nine months ended March 31, 2025 to $85.5 million in the nine months ended March 31, 2026. As a percentage of revenues, SG&A expenses remained consistent at 4% for both periods.
+The increase in SG&A for the three months ended March 31, 2026, as compared to the comparable prior year period, was primarily attributable to higher credit card processing fees associated with higher webstore sales, higher professional fees, software expenses, marketing expenses and employee-related expenses, offset in part by lower facility costs. The increase in SG&A for the nine months ended March 31, 2026, as compared to the comparable prior year period, was primarily attributable to higher credit card processing
+27
+Table of Contents
+fees associated with higher webstore sales, higher marketing expenses, professional fees, software expenses and employee-related expenses, offset in part by lower bad debt expenses relating to a customer default.
+Interest Expense and Other, net
+Interest expense and other, net (“I&O”) expenses decreased $4.8 million, or 88% from $5.4 million in the three months ended March 31, 2025 to $0.7 million in the three months ended March 31, 2026. As a percentage of revenue, I&O decreased from 1% for the three months ended March 31, 2025 to 0% for the three months ended March 31, 2026.
+I&O expenses decreased $22.0 million, or 80% from $27.4 million in the nine months ended March 31, 2025 to $5.4 million in the nine months ended March 31, 2026. As a percentage of revenue, I&O decreased from 2% for the nine months ended March 31, 2025 to 0% for the nine months ended March 31, 2026.
+As of March 31, 2026, the Company repaid all of its outstanding debt. The decrease in I&O expenses during the three months ended March 31, 2026, as compared to the comparable prior year period, was primarily attributable to lower interest expense, driven by a decrease in borrowings and lower interest rates, offset in part by higher foreign exchange losses. The decrease in I&O expenses during the nine months ended March 31, 2026, as compared to the comparable prior year period, was primarily attributable to lower interest expense driven by a decrease in borrowings and lower interest rates.
+Provision for Income Taxes
+Our provision for income taxes increased $15.2 million, or 37%, from $41.0 million for the three months ended March 31, 2025 to $56.2 million for the three months ended March 31, 2026. Our effective tax rate increased from 18.5% for the three months ended March 31, 2025 to 19.4% for the three months ended March 31, 2026.
+Our provision for income taxes increased $62.4 million, or 61%, from $102.2 million for the nine months ended March 31, 2025 to $164.6 million for the nine months ended March 31, 2026. Our effective tax rate increased from 18.7% for the nine months ended March 31, 2025 to 19.6% for the nine months ended March 31, 2026.
+The change in effective tax rates for the three and nine months ended March 31, 2026, as compared to the same periods in the prior year, was primarily driven by a change in the mix of income earned in various tax jurisdictions as well as in the mix of income eligible for the Foreign-Derived Intangible Income rules and subject to the Global Intangible Low-Taxes Income and Pillar Two rules.
+Liquidity and Capital Resources
+Sources and Uses of Cash
+Our principal source of liquidity are cash and cash equivalents, cash generated by operations and the availability of additional funds under the Facilities. We had cash and cash equivalents of $368.7 million and $149.7 million as of March 31, 2026 and June 30, 2025, respectively.
+Consolidated Cash Flow Data
+The following table sets forth the major components of our consolidated statements of cash flows data for the periods presented:
+ 
+Nine Months Ended
+March 31,
+ 
+2026
+2025
+ 
+(in thousands)
+Net cash provided by operating activities
+$
+630,145 
+$
+509,671 
+Net cash used in investing activities
+(14,350)
+(7,418)
+Net cash used in financing activities
+(396,864)
+(477,628)
+Net increase in cash and cash equivalents
+$
+218,931 
+$
+24,625 
+Cash Flows from Operating Activities
+Net cash provided by operating activities during the nine months ended March 31, 2026 consisted primarily of net income of $675.4 million, non-cash adjustments of $32.3 million and the benefit of decreasing inventories of $15.5 million, offset in part by other changes in operating assets and liabilities that resulted in net cash outflows of $93.1 million. This net change in operating assets and
+28
+Table of Contents
+liabilities was attributable primarily to a $41.3 million decrease in net accounts payable and accrued liabilities, a $39.2 million decrease in taxes payable, a $31.7 million increase in prepaid expenses and other assets, a $6.1 million increase in vendor deposits, and a $1.3 million increase in accounts receivable, offset in part by a $26.6 million increase in deferred revenue.
+Net cash provided by operating activities during the nine months ended March 31, 2025 consisted primarily of net income of $445.2 million, the benefit of decreasing vendor deposits of $51.5 million and non-cash adjustments of $44.2 million, offset in part by other changes in operating assets and liabilities that resulted in net cash outflows of $31.3 million. This net change in operating assets and liabilities consisted primarily of a $135.4 million increase in inventory, a $58.6 million increase in accounts receivable, a 23.3 million decrease in taxes payable and a $15.6 million increase in prepaid expenses and other assets, offset in part by a $181.2 million increase in net accounts payable and accrued liabilities and a $20.4 million increase in deferred revenue.
+Cash Flows from Investing Activities
+We used $14.4 million of cash in investing activities during the nine months ended March 31, 2026. Our investing activities consisted primarily of $14.4 million of capital expenditures.
+We used $7.4 million of cash in investing activities during the nine months ended March 31, 2025. Our investing activities consisted primarily of $7.4 million of capital expenditures.
+Cash Flows from Financing Activities
+We used $396.9 million of cash in financing activities during the nine months ended March 31, 2026. During the nine months ended March 31, 2026, we repaid $250.0 million under the Company's credit Facilities and used $145.2 million related to dividends paid on our common stock.
+We used $477.6 million of cash in financing activities during the nine months ended March 31, 2025. During the nine months ended March 31, 2025, we repaid $368.1 million under the Company’s credit Facilities and used $108.9 million related to dividends paid on our common stock.
+Liquidity
+We believe our existing cash and cash equivalents in addition to the ability to draw cash under the 2026 Revolving Facility, if needed, will be sufficient to meet our near-term working capital requirements, pay quarterly dividends, make repurchases of our common stock and meet capital expenditure needs for the next twelve months. However, this estimate is based on a number of assumptions that may prove to be wrong and we could exhaust our available cash and cash equivalents earlier than presently anticipated or need to rely more heavily on the 2026 Revolving Facility or other sources of liquidity to continue to meet our needs. Our future capital requirements may vary materially from those currently planned and will depend on many factors, including our rate of revenue growth, the timing and extent of spending to support development efforts, the timing of new product introductions, market acceptance of our products, management of inventory and vendor deposits and overall economic conditions. Inflation and the current geopolitical environment have caused and may continue to cause significant volatility in financial markets and the domestic and global economy. This volatility may contribute to potential payment delays or defaults in our accounts receivable, affect asset valuations resulting in impairment charges, and affect the availability of financing credit as well as other segments of the credit markets. For a further discussion of the uncertainties and business risks, refer to “Part II - Item 1A. Risk Factors – Risks Related to Our Business and Industry – Our contract manufacturers, logistics centers and certain administrative and research and development operations, as well as our customers and suppliers, are located in areas likely to be subject to natural disasters, public health problems, military conflicts and geopolitical tensions, which could adversely affect our business, results of operations and financial condition” and “Part II - Item 1A. Risk Factors – Risks Related to Our Business and Industry – General global economic downturns and macroeconomic trends, including inflation or slowed economic growth, may negatively affect our customers and their ability to purchase our products. A downturn or such other trends may decrease our revenues and increase our costs and may increase credit risk with our customers and impact our ability to collect account receivable and recognize revenue,” for additional information. We expect to continue to maintain financing flexibility in the current market conditions. However, due to the rapidly evolving global situation, it is not possible to predict whether unanticipated consequences of global economic downturns and macroeconomic trends are reasonably likely to materially affect our liquidity and capital resources in the future.
+Warranties and Indemnifications
+Our products are generally accompanied by a twelve to twenty-four month warranty from date of purchase, which covers both parts and labor. Generally, the distributor is responsible for the freight costs associated with warranty returns, and we absorb the freight costs of replacing items under warranty. In accordance with the Financial Accounting Standard Board’s, Accounting Standards Codification, 450-20, Loss Contingencies, we record an accrual when we believe it is reasonably estimable and probable based upon
+29
+Table of Contents
+historical experience. We record a provision for estimated future warranty work in cost of goods sold upon recognition of revenues, and we review the resulting accrual regularly and periodically adjust it to reflect changes in warranty estimates.
+We have entered and may in the future enter into standard indemnification agreements with certain distributors as well as other business partners in the ordinary course of business. These agreements may include provisions for indemnifying the distributor, OEM or other business partner against any claim brought by a third-party to the extent any such claim alleges that a Ubiquiti product infringes a patent, copyright or trademark or violates any other proprietary rights of that third-party. The maximum amount of potential future indemnification is unlimited. The maximum potential amount of future payments we could be required to make under these indemnification agreements is not estimable.
+We have agreed to indemnify our directors, officers and certain other employees for certain events or occurrences, subject to certain limits, while such persons are or were serving at our request in such capacity. We may terminate the indemnification agreements with these persons upon the termination of their services with us, but termination will not affect claims for indemnification related to events occurring prior to the effective date of termination. The maximum amount of potential future indemnification is unlimited. We have a Directors and Officers insurance policy that limits our potential exposure for our indemnification obligations to our directors, officers and certain other employees. We believe the fair value of these indemnification agreements is minimal. We have not recorded any liabilities for these agreements as of March 31, 2026.
+Based upon our historical experience and information known as of the date of this Quarterly Report on Form 10-Q, we do not believe it is likely that we will have material liability for the above indemnities as of March 31, 2026.
+Contractual Obligations and Off-Balance Sheet Arrangements
+Our contractual obligations represent material expected or contractually committed future payment obligations. We believe that we will be able to fund these obligations through our existing cash and cash equivalents, cash generated from operations and the availability of additional funds under the Facilities.
+Repayment of Credit Facilities and Entry into New Credit Agreement
+On February 27, 2026, we fully repaid all amounts outstanding under the Term Loan Facility. The Facilities were scheduled to mature on March 30, 2026. There were no amounts outstanding under the Revolving Facility at maturity. See Note 7, “Debt” to the Consolidated Financial Statements. On May 7, 2026, the Company, as borrower and certain domestic subsidiaries, as guarantors, entered into the 2026 Credit Agreement with PNC, the other Lenders named therein, and PNC, as administrative agent for the Lenders, pursuant to which PNC provided the Company with the 2026 Revolving Facility. In addition, the 2026 Revolving Facility includes an option to request increases in the amounts of such credit facility by up to an additional $500 million in the aggregate. See Note 15, “Subsequent Events” to the Consolidated Financial Statements.
+Purchase Obligations
+We subcontract with third parties to manufacture our products and supply key components. As of March 31, 2026, we had $1,226.7 million of purchase commitments with these third parties. If we cancel all or part of the orders, we may still be liable to the contract manufacturers for the cost of the components purchased by the subcontractors to manufacture our products. There have been no significant liabilities for current or anticipated cancellations recorded as of March 31, 2026. Our consolidated financial position and results of operations could be negatively impacted if we were required to compensate these third parties. In addition, we may be subject to additional purchase obligations to our contract manufacturers for supply agreements and components ordered by them based on manufacturing forecasts we provide them each month.
+Other Obligations
+We had other obligations of $6.1 million as of March 31, 2026, which consisted primarily of commitments related to research and development projects.
+Unrecognized Tax Benefits
+As of March 31, 2026, we had $34.7 million of unrecognized tax benefits and an additional $7.1 million for accrued interest classified as non-current liabilities. At this time, we are unable to make a reasonably reliable estimate of timing of payments in individual years in connection with these tax liabilities.
+30
+Table of Contents
+Recent Accounting Pronouncements
+For a discussion of recent accounting pronouncements, refer to Note 2 to the Consolidated Financial Statements.
+Note About Forward-Looking Statements
+When used in this Report, the words “anticipates,” “believes,” “could,” “seeks,” “estimates,” “expects,” “intends,” “may,” “plans” “potential,” “predicts,” “projects,” “should,” “will,” “would” or similar expressions and negatives of those terms are intended to identify forward-looking statements. These are statements that relate to future periods and include statements about our future results, sources of revenue, our dividend, our continued growth, market trends, our product development, our introduction of new products, technological developments, the features, benefits and performance of our current and future products, the ability of our products to address a variety of markets, our growth strategies, future prices, our competitive status, our efforts to mitigate shortages of components used to manufacture our products, the effects of government regulations, the impact of tariffs, the expected impact of taxes on our liquidity and results of operations, our compliance with laws and regulations, our expected future operating costs and expenses and expenditure levels for research and development, selling, general and administrative expenses, fluctuations in operating results, fluctuations in our stock price, our payment of dividends, our future liquidity and cash needs, and the adequacy of and our reliance on our sources of liquidity to meet such needs, our ability to access new sources of liquidity, future acquisitions of and investments in complimentary businesses, the expected impact of various accounting policies and rules adopted by the Financial Accounting Standards Board, the military conflict between Russia and Ukraine and the escalating tensions between China and Taiwan on our business and results of operations. Forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially from those projected. These risks and uncertainties include, but are not limited to, our limited visibility into end customer demand and channel inventory levels, the impact of the global shortage of components and pricing inflation and supply chain constraints associated therewith, the impact of U.S. tariffs on results of operations, our ability to procure products, our ability to manage our growth, our ability to sustain or increase profitability, demand for our products, our ability to compete, our ability to rapidly develop new technology and introduce new products, our dependence on our senior management, our ability to safeguard our intellectual property, our dependence on and concentration of our distributors, our ability to compete in the markets we serve, our ability to comply with applicable law and regulations, our employee relations, current and potential litigation, current or potential indemnification liabilities, trends in the markets that we compete and fluctuations in general economic conditions, the military conflict between Russia and Ukraine and the escalating tensions between China and Taiwan on our business, results and liquidity, and the risks set forth throughout this Report, including under Part II: “Other Information”, Item 1, “Legal Proceedings” and under Item 1A, “Risk Factors.” These forward-looking statements speak only as of the date hereof. Except as required by law, we expressly disclaim any obligation or undertaking to release publicly any updates or revisions to any forward-looking statements contained herein to reflect any change in our expectations with regard thereto or any change in events, conditions or circumstances on which any such statement is based.

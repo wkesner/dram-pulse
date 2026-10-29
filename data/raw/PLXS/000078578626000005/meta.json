@@ -1,0 +1,36 @@
+{
+  "company": "Plexus",
+  "ticker": "PLXS",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000785786",
+  "form": "8-K",
+  "filing_date": "2026-01-28",
+  "accession_number": "0000785786-26-000005",
+  "primary_document": "plxs-20260128.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000005/plxs-20260128.htm",
+  "fiscal_year_end": "1003",
+  "report_date": "2026-01-28",
+  "period_end": "2026-01-28",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:27:35.838108+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "plxsf26q1earningsrelease-e.htm",
+      "path": "data/raw/PLXS/000078578626000005/exhibit_99_plxsf26q1earningsrelease-e.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/785786/000078578626000005/plxsf26q1earningsrelease-e.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/PLXS/000078578626000005/primary.html",
+    "other": "data/raw/PLXS/000078578626000005/other_full.txt"
+  }
+}

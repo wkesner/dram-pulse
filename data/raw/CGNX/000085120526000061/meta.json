@@ -1,0 +1,36 @@
+{
+  "company": "Cognex",
+  "ticker": "CGNX",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000851205",
+  "form": "8-K",
+  "filing_date": "2026-08-05",
+  "accession_number": "0000851205-26-000061",
+  "primary_document": "cgnx-20260805.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/cgnx-20260805.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-05",
+  "period_end": "2026-08-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:48:59.128369+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "a07052026-xex991xq22026ear.htm",
+      "path": "data/raw/CGNX/000085120526000061/exhibit_99_a07052026-xex991xq22026ear.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000061/a07052026-xex991xq22026ear.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CGNX/000085120526000061/primary.html",
+    "other": "data/raw/CGNX/000085120526000061/other_full.txt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "company": "Benchmark Electronics",
+  "ticker": "BHE",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000863436",
+  "form": "8-K",
+  "filing_date": "2026-06-08",
+  "accession_number": "0001193125-26-261721",
+  "primary_document": "bhe-20260608.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526261721/bhe-20260608.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-06-08",
+  "period_end": "2026-06-08",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:27:55.241072+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "bhe-ex99_1.htm",
+      "path": "data/raw/BHE/000119312526261721/exhibit_99_bhe-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/863436/000119312526261721/bhe-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/BHE/000119312526261721/primary.html",
+    "other": "data/raw/BHE/000119312526261721/other_full.txt"
+  }
+}

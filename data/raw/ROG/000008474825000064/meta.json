@@ -1,0 +1,30 @@
+{
+  "company": "Rogers Corporation",
+  "ticker": "ROG",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000084748",
+  "form": "8-K",
+  "filing_date": "2025-10-29",
+  "accession_number": "0000084748-25-000064",
+  "primary_document": "rog-20251029.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/84748/000008474825000064/rog-20251029.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-10-29",
+  "period_end": "2025-10-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:45:45.553557+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ROG/000008474825000064/primary.html",
+    "other": "data/raw/ROG/000008474825000064/other_full.txt"
+  }
+}

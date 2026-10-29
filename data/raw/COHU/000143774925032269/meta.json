@@ -1,0 +1,36 @@
+{
+  "company": "Cohu",
+  "ticker": "COHU",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000021535",
+  "form": "10-Q",
+  "filing_date": "2025-10-30",
+  "accession_number": "0001437749-25-032269",
+  "primary_document": "cohu20250927_10q.htm",
+  "primary_doc_description": "FORM 10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/21535/000143774925032269/cohu20250927_10q.htm",
+  "fiscal_year_end": "1226",
+  "report_date": "2025-09-27",
+  "period_end": "2025-09-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:29:07.276945+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/COHU/000143774925032269/primary.html",
+    "business": "data/raw/COHU/000143774925032269/item1_business.txt",
+    "risk_factors": "data/raw/COHU/000143774925032269/item1a_risk_factors.txt",
+    "mdna": "data/raw/COHU/000143774925032269/item7_mdna.txt",
+    "other": "data/raw/COHU/000143774925032269/other_full.txt"
+  }
+}

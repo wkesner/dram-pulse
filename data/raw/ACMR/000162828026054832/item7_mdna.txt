@@ -1,0 +1,1209 @@
+Item 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations
+You should read the following discussion of our financial condition and results of operations together with our condensed consolidated financial statements and the related notes and other financial information included elsewhere in this report and our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, or our
+2025
+Annual Report. The following discussion contains forward‑looking statements that reflect our plans, estimates, and beliefs. Our actual results could differ materially from those discussed in the forward‑looking statements. Factors that could cause or contribute to these differences include those discussed in Part I, Item 1A. “Risk Factors” in our
+ 2025
+ Annual Report, as well as those discussed below and elsewhere in this report, particularly in the section titled “Item 1A – Risk Factors” in Part II below.
+ACM Research, Inc., or ACM Research, is a Delaware corporation founded in California in 1998 to supply capital equipment developed for the global semiconductor industry. Since 2005, ACM Research has conducted its business operations principally through its subsidiary ACM Research (Shanghai), Inc., or ACM Shanghai, a corporation formed by ACM Research in the People’s Republic of China, or mainland China, in 2005. Unless the context requires otherwise, references in this report to “our company,” “our,” “us,” “we” and similar terms refer to ACM Research, Inc. and its subsidiaries, including ACM Shanghai, collectively.
+Our principal corporate office is located in Fremont, California. We conduct a substantial majority of our product development, manufacturing, support and services in mainland China through ACM Shanghai. We perform, through a subsidiary of ACM Shanghai, additional product development and subsystem production in Korea, and we conduct, through ACM Research, sales and marketing activities focused on sales of ACM Shanghai products in North America, Europe and certain regions in Asia outside mainland China.
+ACM Research is not a mainland China operating company, and we do not conduct our operations in mainland China through the use of a variable interest entity, or VIE, or any other structure designed for the purpose of avoiding mainland China legal restrictions on direct foreign investments in mainland China-based companies. ACM Research has a direct ownership interest in ACM Shanghai as the result of its holding 73.2% of the outstanding shares of ACM Shanghai. Stockholders of ACM Research may never directly own equity interests in ACM Shanghai. We do not believe that our corporate structure or any other matters relating to our business operations require that we obtain any permissions or approvals from the China Securities Regulatory Commission, the Cyberspace Administration of China, or any other mainland China central government authority in order to continue to list shares of Class A common stock of ACM Research on the Nasdaq Global Select Market. This determination was based on the facts aforementioned and mainland China Company Law, mainland China Securities Law, cybersecurity regulations and other relevant laws, regulations and regulatory requirements in mainland China currently in effect.  However, if this determination proves to be incorrect, then it could have a material adverse effect on ACM Research.  See “Item IA. Risk Factors—Risks Related to International Aspects of Our Business—If any mainland China central government authority were to determine that existing mainland China laws or regulations require that ACM Shanghai obtain the authority’s permission or approval to continue the listing of ACM Research’s Class A common stock in the United States or if those existing mainland China laws and regulations, or interpretations thereof, were to change to require such permission or approval, ACM Shanghai may be unable to obtain the required permission or approval or may only be able to obtain such permission or approval on terms and conditions that impose material new restrictions and limitations on operation of ACM Shanghai, either of which could have a material adverse effect on our business, financial condition, results of operations, reputation and prospects and on the trading price of ACM Research Class A common stock, which could decline in value or become worthless” in our 2025 Annual Report.
+In addition, in the ordinary course of business, ACM Shanghai is required to obtain certain operating permits and licenses necessary for it to operate in mainland China, including business licenses, certifications relating to quality management standards, import and export-related qualifications from customs, as well as environmental and construction permits, licenses and approvals relating to construction projects. We believe ACM Shanghai has all such required permits and licenses.  However, from time to time mainland China government issues new regulations, which may require additional actions on the part of ACM Shanghai to comply.  If ACM Shanghai does not, or is unable to, obtain any such additional permits or licenses, ACM Shanghai may be subjected to restrictions and penalties imposed by the relevant mainland China regulatory authorities, and it could have a material adverse effect on our business, financial condition, results of operations, reputation and prospects and on the trading price of ACM Research Class A common stock, which could decline in value or become worthless.
+On February 6, 2026, ACM completed the sale of approximately 4.8 million shares of ACM Shanghai at a price of RMB160.00 per share (approximately $23.05 per share based on the exchange rate in effect on the date of the sale), generating approximately $110.2 million in gross proceeds and approximately $86 million net of taxes.
+27
+Table of Contents
+On May 12, 2026, ACM Shanghai's employees exercised 2,431,900 options for shares of ACM Shanghai stock. Following this transactions, ACM’s ownership percentage in ACM Shanghai decreased from 73.6% as of March 31, 2025 to 73.2% as of June 30, 2026.
+The following chart depicts our corporate organization as of June 30, 2026:
+A detailed description of how cash is transferred through our organization is set forth under “Note 2 – Summary of Significant Accounting Policies – Cash and Cash Equivalents” to
+the Condensed Consolidated Financial Statements of
+ this report.
+The U.S. Holding Foreign Companies Accountable Act, or the HFCA Act, requires that the Public Company Accounting Oversight Board, or the PCAOB, determine whether it is unable to inspect or investigate completely registered public accounting firms located in a non-U.S. jurisdiction because of a position taken by one or more authorities in any non-U.S. jurisdiction.  Under current regulations, if ACM Research were to be included on the SEC's "Conclusive list of issuers identified under the HFCA Act" for two consecutive years due to our independent auditor being located in a jurisdiction that does not allow for PCAOB inspections, the SEC would prohibit trading in our securities and this ultimately could cause our securities to be delisted in the U.S., and their value may significantly decline or become worthless.  See “Item 1A. Risk Factors—Risks Related to International Aspects of Our Business—We could be adversely affected if we are unable to comply with legislation and regulations regarding improved access to audit and other information and audit inspections of accounting firms, including registered public accounting firms, such as our prior and current audit firms, operating in mainland China” in our 2025 Annual Report for more information.
+Effective on December 2, 2024, the U.S. Department of Commerce’s Bureau of Industry and Security (“BIS”) promulgated a final rule naming a number of companies to the BIS Entity List (the "BIS Entity List"). Among the 140 companies added to the BIS Entity List were two subsidiaries of ACM Research, ACM Shanghai, located in the People’s Republic of China, and ACM Korea, a direct subsidiary of ACM Shanghai, which is located in the Republic of Korea, and other related entities. In general terms, the new BIS Entity List designations prohibit any party worldwide from furnishing hardware, software, or technologies that are subject to U.S. export controls jurisdiction, directly or indirectly to ACM Shanghai or ACM Korea without obtaining authorization.  See “Item 1A. Risk Factors—Regulatory Risks—Our operations in mainland China and Korea, including the import of components, technology, and activities of U.S. personnel therein, may be further impacted by the addition of ACM Shanghai, ACM Korea and related entities to the BIS Entity List” in our 2025 Annual Report for more information.
+On November 15, 2024, the U.S. Department of the Treasury published a final rule implementing a framework for the regulation of outbound foreign investment from the United States. The new program, known as the Outbound Investment Security Program (“OISP”) was codified in the United States Code of Federal Regulations at 31 C.F.R. Part 850, effective as of January 2, 2025. The OISP was amended by the Comprehensive Outbound Investment National Security Act (“COINS Act”) which was signed into law on December 18, 2025, although the provisions of the COINS Act will not come into effect until the Department of the Treasury issues implementing regulations, which by law must occur by March 2027. The OISP marks a shift in U.S. economic policy, as historically the United States government declined to restrict outbound investment from the United States for national security reasons. Going forward, the investment activities of multinational companies, including ACM Research are subject to both CFIUS and OISP requirements, which together will limit cross-border investment opportunities, especially as they relate to China.  The OISP regulations in effect today could
+28
+Table of Contents
+be interpreted to restrict certain types of private investment in ACM Research in the United States, although these measures do not impact investment in ACM Research’s publicly traded securities. The COINS Act reverses the possible application of the OISP to certain U.S. companies, including ACM Research, and therefore it appears ACM Research will not be subject to the OISP’s private investment restrictions once the provisions of the COINS Act enter into force in 2026 or 2027. See “Item 1A. Risk Factors—Regulatory Risks—The U.S. Government has implemented an outbound investment review mechanism, which may prevent us from taking advantage of investment opportunities hat could otherwise be advantageous to our stockholders” in our 2025 Annual Report for more information.
+In addition to the matters discussed above, we are also subject to a number of legal and operational risks associated with our corporate structure, including, as the result of a substantial portion of our operations being conducted in mainland China. Consequences of any of those risks could result in a material adverse change in our operations or cause the value of ACM Research Class A common stock to significantly decline in value or become worthless. Please carefully read the information included in “Item 1A. Risk Factors” in our 2025 Annual Report, in particular, the risk factors addressing the following issues:
+•  If any mainland China central government authority were to determine that existing mainland China laws or regulations require that ACM Shanghai obtain the authority’s permission or approval to continue the listing of ACM Research’s Class A common stock in the United States or if those existing mainland China laws and regulations, or interpretations thereof, were to change to require such permission or approval, or if we inadvertently conclude that such permissions or approvals are not required, ACM Shanghai may be unable to obtain the required permission or approval or may only be able to obtain such permission or approval on terms and conditions that impose material new restrictions and limitations on operation of ACM Shanghai, either of which could have a material adverse effect on our business, financial condition, results of operations, reputation and prospects and on the trading price of ACM Research Class A common stock, which could decline in value or become worthless.
+•
+Mainland China central government authorities may intervene in, or influence, ACM Shanghai’s mainland China-based operations at any time, and those authorities’ rules and regulations in mainland China can change quickly with little or no advance notice.
+•
+The mainland China central government may determine to exert additional control over offerings conducted overseas or foreign investment in mainland China-based issuers, which could result in a material change in operations of ACM Shanghai and cause significant declines in the value of ACM Research Class A common stock, or make them worthless.
+Recent statements and regulatory actions by mainland China central government authorities with respect to the use of VIEs and to data security and anti-monopoly concerns have not affected our ability to conduct our business operations in China. For further information, see “Item 1A. Risk Factors —Risks Related to International Aspects of Our Business”
+
+of our 2025 Annual Report for more information.
+Overview
+We supply advanced, innovative capital equipment developed for the global semiconductor industry. Fabricators of advanced integrated circuits, or chips, can use our wet-cleaning and other front-end processing tools in numerous steps to improve product yield, even at increasingly advanced process nodes. We have designed these tools for use in fabricating foundry, logic and memory chips, including dynamic random-access memory, or DRAM, and 3D NAND-flash memory chips. We also develop, manufacture and sell a range of advanced packaging tools to wafer assembly and packaging customers.
+Since 2009 we have
+ delivered more than 1,590 tools to our customers, more than 1,430 of which were repeat orders or acceptances upon contractual performance obligations that have been met and thereby generated revenue to us. The balance of the delivered tools is subject to the customer's acceptance of the tool upon the tool's satisfaction of applicable contractual requirements or subject to the customer's subsequent discretionary commitment to purchase the tool. To date, substantially all of our sales of equipment for semiconductor-manufacturing have been to customers located in Asia, and we anticipate that a substantial majority of our revenue from these products will continue to come from customers located in this region for the foreseeable future. We have begun to add to our efforts to further address customers in North Americ
+a, Western Europe and Southeast Asia, by expanding our direct sales teams and increasing our global marketing activities.
+We estimate, based on third-party reports, customer feedback and other information, that our current product portfolio addresses approximately $22 billion of the 2025 global wafer fab equipment, or WFE, market. By product line, we estimate an approximately $7.4 billion market opportunity is addressed by our wafer cleaning equipment, $6.2 billion by our
+29
+Table of Contents
+Plasma-Enhanced Chemical Vapor Deposition, or PECVD, equipment, $3.5 billion by our Track equipment, $1.7 billion by our furnace equipment, $1.8 billion by our electro-chemical plating, or ECP, equipment, and $1.5 billion by our stress-free polishing, advanced packaging, wafer processing, and other processing equipment.
+
+Frost & Sullivan estimates the total worldwide semiconductor equipment market grew by 16.3% from $122.2 billion in 2024 to $142.1 billion in 2025, and is expected to increase by 7.3% to $152.5 billion in 2026. Frost & Sullivan estimates the China semiconductor equipment market increased by 11.8%, from $46.8 billion in 2024 to $52.3 billion in 2025, and is expected to increase by 10.1% to $57.6 billion in 2026
+1
+.
+Recent Developments
+ACM Registered Direct Offering
+On May 12, 2026, we entered into a Securities Purchase Agreement (the “Securities Purchase Agreement”) with certain U.S. institutional investors named therein managed by Tekne Capital Management, LLC (the “Investors”). Pursuant to the Securities Purchase Agreement, we agreed to issue and sell to the Investors in a registered direct offering (the “Direct Offering”) an aggregate of 2,884,615 shares (the “Direct Offering Shares”) of our Class A common stock at an offering price of $52.00 per Direct Offering Share pursuant to an effective shelf registration statement on Form S-3 (File No. 333-278041) and a related prospectus supplement filed with the SEC on May 12, 2026.  The transaction closed on May 15, 2026 and generated proceeds of approximately $148.4 million, net of issuance costs.
+ACM Shanghai Proposed IPO listing on The Stock Exchange of Hong Kong Limited
+On May 26, 2026, ACM Shanghai issued an announcement (the “Announcement”) to the SSE regarding the Resolutions of the Fifth Meeting of the Third Board of Directors. At the meeting, the board of directors of ACM Shanghai approved, among other matters, the proposal on the offering of H shares and listing on the Main Board of The Stock Exchange of Hong Kong Limited (the “H Share Listing”) and, on an item-by-item basis, the proposal on the plan for the H Share Listing. These proposals have been approved by ACM Shanghai’s board of directors and remain subject to approval by its shareholders. Pursuant to the approved plan, ACM Shanghai proposes to issue H shares representing no more than 7% of its total issued share capital upon completion of the proposed offering (prior to the exercise of any over-allotment option), and may grant the overall coordinators an over-allotment option to purchase up to 15% of the number of H shares initially offered. The H shares to be issued will be ordinary shares of H share class, with a par value of RMB 1.00 per share, to be listed and traded on the Main Board of The Stock Exchange of Hong Kong Limited. Net proceeds from the proposed H Share Listing, after deduction of offering expenses, are intended to be used for purposes including, but not limited to, further product development and enhancement of independent research and development capabilities, improvement of global market expansion and service capabilities, replenishment of general working capital and repayment of bank loans. The proposed H Share Listing remains subject to market conditions and the obtaining of necessary filings, approvals and/or other regulatory clearances, including those from the China Securities Regulatory Commission, The Stock Exchange of Hong Kong Limited and the Securities and Futures Commission of Hong Kong.
+ACM Shanghai Facility Purchase
+On June 5, 2026, we purchased a facility consisting of 3,196-square-meters of general-purpose office space located in Shanghai’s Pudong New Area for RMB 312.7 million ($45.9 million). To partially finance the purchase, we entered into a loan agreement with the Bank of China in the loan amount of RMB 231.5 million ($34.0 million) at a 2.65% interest rate, with a repayment term of 120 months. The facility was subsequently pledged as security for loan from the Bank of China in July 2026.
+Mainland China Government Research and Development Funding
+Since 2008, ACM Shanghai has received various government grants for the development and commercialization of certain technologies, and the development of the R&D and production center in the Lingang Special Area of Shanghai.
+1
+The information contains statistical data and estimates, including forecasts, that are based on information provided by Frost & Sullivan, "Global and China Semiconductor Equipment Market Research, June 2026."
+30
+Table of Contents
+The governmental grants contain certain operating conditions, and we are required to complete a government due diligence process once the project is complete. The grants therefore are recorded as long-term liabilities upon receipt, although we are not required to return any funds received by ACM Shanghai.
+Grant amounts are recognized in our condensed consolidated statements of comprehensive income as follows:
+•
+Government subsidies relating to current expenses are recorded as reductions of those expenses in the periods in which the current expenses are recorded. Such subsidies included in our condensed consolidated statements of comprehensive income were both $0.5 million, in each of the three months ended June 30, 2026 and 2025, respectively, and $1.1 million and $0.8 million in the six months ended June 30, 2026 and 2025, respectively.
+•
+Government subsidies related to depreciable assets are credited to income over the useful lives of the related assets for which the grant was received. Government subsidies related to VAT reduction are credited to income in the period received. Such subsidies included in our condensed consolidated statements of comprehensive income were $1.2 million and $0.4 million, in the three months ended June 30, 2026 and 2025, respectively, and $1.4 million and $0.7 million in the six months ended June 30, 2026 and 2025, respectively.
+Recent Accounting Pronouncements
+A discussion of recent accounting pronouncements is included in our
+2025 Annual
+Report and is updated in
+Note
+ 2 to the condensed consolidated financial statements included in this report.
+Net Income Attributable to Non-Controlling Interests
+Net income attributable to non-controlling interests is attributable to the minority holders of shares of ACM Shanghai stock. As a result, we reflect the portion of our net income allocable to the minority holders of ACM Shanghai shares as net income attributable to non-controlling interests. As of June 30, 2026, ACM Research held 73.2% of ACM Shanghai’s outstanding shares.
+Critical Accounting Policies and Estimates
+In preparing our condensed consolidated financial statements in conformity with GAAP, we make assumptions, judgments and estimates in applying our accounting policies that can have a significant impact on our revenue, operating income and net income, as well as on the value of certain assets and liabilities on our condensed consolidated balance sheets. We base our assumptions, judgments and estimates on historical experience and various other factors that we believe to be reasonable under the circumstances. At least quarterly, we evaluate our assumptions, judgments and estimates and make changes as deemed necessary. Actual results could differ materially from these estimates under different assumptions or conditions.
+We believe that the assumptions, judgments and estimates involved in the accounting for the following accounting policies have the greatest potential impact on our condensed consolidated financial statements, and we therefore consider these to be our critical accounting estimates. For information on our significant accounting policies, see Note 2 in the notes to condensed consolidated financial statements in Part I, Item 1 of this report and in the Notes to Condensed Consolidated Financial Statements in Part II, Item 8 of our 2025 Annual Report, describe the significant accounting policies and methods used in the preparation of the Company’s condensed consolidated financial statements. There have been no material changes to the Company’s critical accounting estimates included in our 2025 Annual Report.
+31
+Table of Contents
+Results of Operations
+The following table sets forth our results of operations for the periods presented,
+ as percentages of revenue:
+Three Months Ended June 30,
+Six Months Ended June 30,
+2026
+2025
+2026
+2025
+Revenue
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Cost of revenue
+54.0 
+51.5 
+53.9 
+51.8 
+        Gross margin
+46.0 
+48.5 
+46.1 
+48.2 
+Operating expenses:
+    Sales and marketing
+8.1 
+10.3 
+8.5 
+9.9 
+    Research and development
+14.4 
+15.7 
+15.0 
+15.8 
+    General and administrative
+6.4 
+7.8 
+6.2 
+7.7 
+         Total operating expenses
+28.9 
+33.8 
+29.7 
+33.4 
+     Income from operations
+17.1 
+14.7 
+16.4 
+14.8 
+Interest income, net
+1.7 
+1.1 
+1.5 
+1.0 
+Unrealized gain on short-term investments
+23.8 
+1.3 
+13.0 
+0.4 
+Other expense, net
+(3.3)
+(0.2)
+(3.6)
+(0.2)
+Income from equity method investments
+7.2 
+0.8 
+4.4 
+0.7 
+      Income before income taxes
+46.5 
+17.7 
+31.7 
+16.7 
+Income tax expense
+(4.6)
+(0.9)
+(3.3)
+(1.0)
+       Net income
+41.9 
+16.8 
+28.4 
+15.7 
+Less: Net income attributable to non-controlling interests
+11.4 
+3.0 
+8.0 
+2.9 
+Net income attributable to ACM Research, Inc.
+30.5 
+%
+13.8 
+%
+20.4 
+%
+12.8 
+%
+Comparison of Three Months Ended June 30, 2026 and 2025
+Revenue
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Single wafer cleaning, Tahoe and semi-critical cleaning equipment
+$
+132,978 
+$
+154,961 
+(14.2)
+%
+$
+(21,983)
+ECP (front-end and packaging), furnace and other technologies
+128,546 
+48,016 
+167.7 
+%
+80,530 
+Advanced packaging (excluding ECP), services & spares
+31,395 
+12,395 
+153.3 
+%
+19,000 
+Total Revenue by Product Category
+$
+292,919
+ 
+$
+215,372
+ 
+36.0
+ 
+%
+$
+77,547
+ 
+The increase in revenue for three months ended June 30, 2026 as compared to the same period in 2025 reflects higher sales of ECP (front-end and packaging), furnace and other technologies, and Advanced packaging (excluding ECP), services and
+32
+Table of Contents
+spares, partially offset by lower sales of single wafer cleaning, Tahoe and semi-critical cleaning equipment. We attribute the increase to a longer-term commitment by our mainland China-based customers to increase production capacity to achieve a greater share of the global semiconductor market together with the market share changes and product cycles.
+Cost of Revenue and Gross Margin
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Cost of revenue
+$
+158,301 
+$
+110,911 
+42.7 
+%
+$
+47,390 
+Gross profit
+134,618 
+104,461 
+28.9 
+%
+30,157 
+Gross margin
+46.0 
+%
+48.5 
+%
+(5.2)
+%
+(255) bps
+Cost of revenue and gross profit increased due to the increased sales volume together with a decrease in gross margin. The decrease in gross margin versus the prior-year period was primarily due to revenue mix between product categories
+. Gross margin may vary from period to period, primarily related to the level of utilization and the timing and mix of revenue. We expect gross margin to be between 42.0% and 48.0% for the foreseeable future.
+Operating Expenses
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Sales and marketing expense
+$
+23,778 
+$
+22,102 
+7.6 
+%
+$
+1,676 
+Research and development expense
+42,254 
+33,817 
+24.9 
+%
+8,437 
+General and administrative expense
+18,843 
+16,848 
+11.8 
+%
+1,995 
+Total operating expenses
+$
+84,875 
+$
+72,767 
+16.6 
+%
+$
+12,108 
+Sales and marketing expense
+ increased
+due to a $1.5 million increase in commissions, professional services, and other expenses, and a $1.0 million increase in personnel costs, offset by a $0.8 million decrease in stock-based compensation.
+We expect that, for the foreseeable future, sales and marketing
+expense
+ will increase in
+absolute
+dollars, as we
+continue to invest in sales and marketing by hiring
+ additional
+employees and expanding marketing programs in existing or new markets. We must invest in sales and marketing processes to develop and maintain close relationships with customers. We are making dollar-based investments to support the growth of
+our customer base in
+the United States and global markets
+.
+Res
+earch and development expense
+ increased due to an increase of $4.7 million in personnel, and travel and entertainment costs, a net increase of $2.7 million in depreciation, outside services and other research and development costs, an increase of $2.1 million in costs of components for tools built for product development purposes, and partially offset by a $1.0 million decrease in stock-based compensation. We expect that, for the foreseeable future, research and development expense will increase in absolute dollars as we continue to invest in research and development to advance our technologies. We intend to continue to invest in research and development to support and enhance our cleaning, plating, advanced packaging, furnace, track, PECVD and future product offerings to build and maintain our technology leadership position.
+General and administrative expense
+increased primarily reflecting a $3.3 million net increase in personnel costs, professional services costs, and other costs related to general and administrative expenses, partially offset by a $1.2 million decrease in stock-based compensation. We expect that, for the foreseeable future, general and administrative expense will
+33
+Table of Contents
+increase in absolute dollars, as we continue to invest in general and administrative by hiring additional employees and expanding in existing or new markets.
+Interest income, Interest expense, and Other expense, net
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Interest income
+$
+7,142 
+$
+4,013 
+78.0 
+%
+$
+3,129 
+Interest expense
+(2,059)
+(1,757)
+17.2 
+%
+(302)
+Other expense, net
+(9,793)
+(346)
+2,730 
+%
+(9,447)
+Other
+expense, net primarily refle
+cts (a) the impact of exchange rates between the RMB and U.S. dollar on our working capital which resulted in a loss of $10.9 million for the three months ended June 30, 2026, and a loss of $0.9 million in the three months ended June 30, 2025, and (b) government subsidies, as described under “—Mainland China Government Research and Development Funding” above, and other f
+actors.
+
+Realized and unrealized gain on short-term investments, and income from equity method investments
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Realized gain on short term investments
+$
+— 
+$
+54 
+100.0 
+%
+$
+(54)
+Unrealized gain on short term investments
+69,592 
+2,730 
+2,449.2 
+%
+66,862 
+Income from equity method investments
+21,097 
+1,773 
+1,089.9 
+%
+19,324 
+The increase in the unrealized gain from short term investments for the three months ended June 30, 2026 is mainly due to a significant increase during the period in the market price of certain of our holdings of publicly traded stocks which are listed on the Shanghai Stock Exchange. The increase in the
+income from equity investments
+for the three months ended June 30, 2026
+is mainly derived from gain on disposal of available-for-sale securities held by our equity method investee
+.
+34
+Table of Contents
+Income Tax Expense
+The following presents components of income tax expense for the indicated periods:
+Three Months Ended June 30,
+2026
+2025
+(Dollars in thousands)
+Income tax expense
+$
+(13,472)
+$
+(1,891)
+The tax expense for the three months ended June 30, 2026 primarily resulted from tax effect of an increase in operating profit for the period.
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Net income attributable to non-controlling interests
+$
+33,266 
+$
+6,510 
+411.0 
+%
+$
+26,756 
+ACM Research owns 73.2% of ACM Shanghai’s (note 1) outstanding shares, which is reflected in our condensed consolidated financial statements. We reflect the portion of net income allocable to the minority holders of ACM Shanghai shares as net income attributable to non-controlling interests. The significant increase was due to the overall increase in net income.
+Foreign currency translation adjustment
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Foreign currency translation adjustment
+$
+30,141 
+$
+3,905 
+671.9 
+%
+$
+26,236 
+We recorded a gain of
+ foreign currency translation adjustment primarily
+due to
+ the
+strengthening
+ of RMB to
+ U.S.
+ dollar exchange rate fluctuations for the period on the converted value of ACM Shanghai’s RMB-denominated balances to U.S. dollar equivalents.
+35
+Table of Contents
+Comprehensive income attributable to non-controlling interests
+Three Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Comprehensive income attributable to non-controlling interests
+$
+41,477 
+$
+7,250 
+472.1 
+%
+$
+34,227 
+Comprehensive income attributable to non-controlling interests represents the portions of ACM Shanghai's operating results attributable to shares of ACM Shanghai stock held by unaffiliated shareholders.
+Comparison of Six Months Ended June 30, 2026 and 2025
+Revenue
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Single wafer cleaning, Tahoe and semi-critical cleaning equipment
+$
+255,460 
+$
+284,530 
+(10.2)
+%
+$
+(29,070)
+ECP (front-end and packaging), furnace and other technologies
+212,785 
+75,646 
+181.3 
+%
+137,139 
+Advanced packaging (excluding ECP), services & spares
+55,937 
+27,543 
+103.1 
+%
+28,394 
+Total Revenue by Product Category
+$
+524,182
+ 
+$
+387,719
+ 
+35.2
+ 
+%
+$
+136,463
+ 
+The increase in revenue reflects higher sales of ECP (front-end and packaging), furnace and other technologies and Advanced packaging (excluding ECP), services and spares, offset by the lower sales of single wafer cleaning, Tahoe and semi-critical cleaning equipment. We attribute the increase to a longer-term commitment by our mainland China-based customers to increase production capacity to achieve a greater share of the global semiconductor market together with the market share changes and product cycles.
+Cost of Revenue and Gross Margin
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Cost of revenue
+$
+282,326 
+$
+200,708 
+40.7 
+%
+$
+81,618 
+Gross profit
+241,856 
+187,011 
+29.3 
+%
+54,845 
+Gross margin
+46.1 
+%
+48.2 
+%
+(4.4)
+%
+(210 bps)
+Cost of revenue and gross profit increased due to the increased sales volume, partly offset by a decrease in gross margin. The decrease in gross margin versus the prior-year period was primarily due to revenue mix between product categories,
+and a higher provision for inventory.
+Operating Expenses
+36
+Table of Contents
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Sales and marketing expense
+$
+44,466 
+$
+38,445 
+15.7 
+%
+$
+6,021 
+Research and development expense
+78,803 
+61,320 
+28.5 
+%
+17,483 
+General and administrative expense
+32,667 
+29,775 
+9.7 
+%
+2,892 
+Total operating expenses
+$
+155,936 
+$
+129,540 
+20.4 
+%
+$
+26,396 
+Sales and marketing expense
+ increased due to a $3.0 million increase in personnel costs, a $2.0 million increase in commissions and travel and entertainment, a $1.3 million increase in promotional tools, a $1.2 million net increase in professional services, outside services and other sales and marketing related expenses, offset by a $1.4 million decrease in stock-based compensation.
+Research and development expense
+ increased due to a $7.4 million increase in personnel costs, a $6.7 million increase in costs of components for tools built for product development purposes, a net increase of $5.4 million in outside services and other R&D-related costs, offset by a $2.0 million decrease in stock-based compensation.
+General and administrative expense
+increased primarily reflecting a $2.0 million increase in allowance for credit losses, a $2.6 million increase in outside services and others, a $1.9 million increase in personnel and professional services costs, offset by a $3.6 million decrease in stock-based compensation.
+Interest income, Interest expense and Other expense, net
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Interest income
+$
+11,861 
+$
+7,352 
+61.3 
+%
+$
+4,509 
+Interest expense
+(3,992)
+(3,315)
+20.4 
+%
+(677)
+Other expense, net
+(19,093)
+(608)
+3,040.3 
+%
+(18,485)
+Other expense, net primarily reflects (a) loss recognized from the impact of exchange rates on our working-capital which was $20.4 million for the six months ended June 30, 2026 compared to $1.5 million for the six months ended June 30, 2025, and (b) government subsidies, as described under “Mainland China Government Research and Development Funding” above, and other factors.
+Realized and unrealized gain on short-term investments, and income from equity method investments
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Realized gain from sale of short-term investments
+$
+— 
+$
+54 
+(100.0)
+%
+$
+(54)
+Unrealized gain on short-term investments
+68,186 
+1,648 
+4,037.5 
+%
+66,538 
+Income from equity method investments
+22,846 
+2,725 
+738.4 
+%
+20,121 
+37
+Table of Contents
+Realized gain on short-term investments includes dividends and net gains from sales of short-term investments during the period. The increase in unrealized gain on short-term investments is mainly due to a significant increase during the period in the market price of certain of our holdings of publicly traded stocks which are listed on the Shanghai Stock Exchange. The increase in the
+i
+ncome from equity investments
+for the six months ended June 30, 2026
+is mainly derived from gain on disposal of available-for-sale securities held by our equity method investee
+.    
+Income Tax Expense
+The following presents components of income tax expense for the indicated periods:
+Six Months Ended June 30,
+2026
+2025
+(in thousands)
+Income tax expense
+$
+(17,243)
+$
+(4,044)
+The tax expense for the six months ended June 30, 2026 primarily resulted from the tax effect of an increase in operating profit for the period and increase in certain discrete items.
+Net Income Attributable to Non-Controlling Interests
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Net income attributable to non-controlling interests
+$
+42,194 
+$
+11,143 
+278.7 
+%
+$
+31,051 
+ACM Research owns 73.2% of ACM Shanghai’s (note 1) outstanding shares, which is reflected in our condensed consolidated financial statements. We reflect the portion of net income allocable to the minority holders of ACM Shanghai shares as net income attributable to non-controlling interests. The significant increase was due to the overall increase in net income.
+Foreign currency translation adjustment
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Foreign currency translation adjustment
+$
+57,938 
+$
+5,655 
+924.5 
+%
+$
+52,283 
+The foreign currency translation adjustment is primarily based on the net effect of RMB to dollar exchange rate fluctuations for the period on the converted value of ACM Shanghai’s RMB-denominated balances to U.S. dollar equivalents.
+38
+Table of Contents
+Comprehensive income attributable to non-controlling interests
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Comprehensive income attributable to non-controlling interests
+$
+57,644 
+$
+12,207 
+372.2 
+%
+$
+45,437 
+Liquidity and Capital Resources
+A detailed description of how cash is transferred through our organization is set forth under “note 2 – Summary of Significant Accounting Policies – Cash and Cash Equivalents” to the Consolidated Financial Statements of this report.
+During the first
+six
+ months of
+2026
+, we funded our technology development and operations principally through our beginning global cash balances, including the cash balances at ACM Shanghai, borrowings by ACM Shanghai from local financial insti
+tutions, proceeds from issuance of ACMR shares, and proceeds from the sales of our shares and shares of our subsidiary. The $223.1 million increase in cash and time deposits was primarily driven by $332.6 million in net cash provided by financing activities, and a $18.9 million increase from the effect of exchange rate on cash, cash equivalents, restricted cash and non-cash items, offset by $35.9 million of cash used in operations, and $92.5 million of net cash used in investing activities, excluding the change in net cash related to time deposits.
+June 30,
+2026
+December 31,
+2025
+(In thousands)
+Cash and cash equivalents, restricted cash, and time deposits:
+     Cash and cash equivalents and restricted cash
+$
+990,587 
+$
+765,962 
+      Short-term time deposits
+365,055 
+366,591 
+Total
+$
+1,355,642
+ 
+$
+1,132,553
+ 
+Our future working capital needs beyond the next twelve months will depend on many factors, including the rate of our business and revenue growth, the payment schedules of our customers, the timing and magnitude of our capital expenditures, and the timing of investment in our research and development as well as sales and marketing. We believe our existing cash and cash equivalents, and short-term time deposits, our cash flow from operating activities, and bank borrowings by us and ACM Shanghai will be sufficient to meet our anticipated cash needs within our longer term planning horizon.
+ACM Shanghai has historically participated in certain mainland China government-sponsored grant and subsidy programs, as described under “—Mainland China Government Research and Development Funding” and “—Contractual Obligations” and we expect that ACM Shanghai will continue to take advantage of these programs when they are available and fit with our business strategy. ACM Shanghai generally applies for these grants and subsidies through the applicable mainland China government agency’s defined processes. Periodically, the public relations department researches the availability of these grants and subsidies through mainland China government agencies with whom ACM Shanghai files business surveys and taxes. Management of ACM Shanghai then assesses which grants and subsidies for which ACM Shanghai may be eligible and submits the relevant application. The decision to award the grant to ACM Shanghai is made by the relevant mainland China government agencies based on suitability and the merits of the application. Neither ACM Research, nor ACM Shanghai or any of our other subsidiaries, has any direct relationship with any mainland China government agency, and our anticipated cash needs for the next twelve months neither anticipate, nor require, receipt of any mainland China government grants or subsidies.
+39
+Table of Contents
+To the extent our cash and cash equivalents, cash flow from operating activities and short-term and long-term bank borrowings are insufficient to fund our future activities in accordance with our strategic plan, we may determine to raise additional funds through public or private debt or equity financings or additional bank credit arrangements. We also may need to raise additional funds in the event we determine in the future to effect one or more acquisitions of businesses, technologies and products. If additional funding is necessary or desirable, we may not be able to obtain bank credit arrangements or to obtain an equity or debt financing on terms acceptable to us or at all.
+Restrictions under mainland China laws and regulations as well as restrictions under ACM Shanghai’s bank loan agreements, may significantly restrict ACM Shanghai’s ability to transfer a portion of ACM Shanghai’s net assets to ACM Research, other subsidiaries of ACM Research and to holders of ACM Research Class A common stock. See “Item 1A. Risk Factors – Regulatory Risks – Mainland China's currency exchange control and government restrictions on investment repatriation may impact our ability to transfer funds outside of mainland China, which could materially and adversely affect our ability to grow, make investments or acquisitions that could benefit our business, otherwise fund and conduct our business, or pay dividends on our common stock” in our 2025 Annual Report.
+For the six months ended June 30, 2026 and 2025, with the exception of sales and services-related transfer-pricing payments in the ordinary course of business, no transfers or distributions have been made between ACM Research, and its subsidiaries, including ACM Shanghai, or to holders of ACM Research Class A common stock.
+Our cash and cash equivalents at June 30, 2026 were held for working capital purposes and other potential investments. ACM Shanghai, our only direct mainland China subsidiary, is, however, subject to mainland China restrictions on distributions to equity holders.
+The use of proceeds raised
+by the sales of shares by ACM Shanghai, and the S
+TAR Market IPO
+,
+ without further approvals, are limited to specific usage.
+ We currently intend for ACM Shanghai, with the exception of dividends paid to  shareholders of ACM Shanghai, to retain all available funds from any future earnings for use in the operation of its business. Our accounts receivable balance fluctuates from period to period, which affects our cash flow from operating activities. Fluctuations vary depending on cash collections, client mix, and the timing of shipment and acceptance of our tools.
+ACM Research has never declared or paid cash dividends on our capital stock. ACM Research intends to retain all available funds and any future earnings to support the operation of and to finance the growth and development of our business and does not anticipate paying any cash dividends in the foreseeable future.
+Cash Flow Used in Operating Activities.
+Net cash used in operating activities during the six months ended June 30, 2026 and 2025 consisted of:
+Six Months Ended June 30,
+2026
+2025
+(In thousands)
+Net income
+$
+148,485 
+$
+61,283 
+Non-cash operating lease cost
+2,384 
+2,081 
+Provision for inventory
+12,019 
+5,625 
+Provision for credit losses
+3,710 
+1,435 
+Depreciation and amortization
+11,766 
+6,356 
+Income from equity method investments
+(22,846)
+(2,725)
+Unrealized gain on short-term investments
+(68,186)
+(1,648)
+Deferred income taxes
+4,186 
+(7,451)
+Stock-based compensation
+12,204 
+19,587 
+Dividends from unconsolidated affiliates
+2,821 
+— 
+Others
+— 
+1,086 
+Net changes in operating assets and liabilities
+(142,439)
+(125,248)
+Net cash used in operating activities
+$
+(35,896)
+$
+(39,619)
+40
+Table of Contents
+Significant changes in operating asset and
+liability accounts during the six
+ months ended June 30, 2026 included the following u
+ses of cash: an increase in inventories of $69.9 million (note 5), a decrease in customer advances of $25.9 million (note 3), a decrease in income tax payable impacting income tax expense of $19.8 million, an increase in prepaid expenses and other current assets of $14.3 million, a $10.7 million increase in accounts payable, an increase in accounts receivable of $4.4 million (note 4), and a decrease in deferred revenue of $1.5 million. The uses of cash were partially offset by a decrease in other payables and accrued expenses of $13.6 million.
+Cash Flow Used in Investing A
+ctivities.
+Net cash used in investing activities, excluding the change in net cash related to time deposits, for the six months ended June 30, 2026 was $92.5 million, primarily consisting of purchases of property, plant and equipment of $87.3 million and purchase of long-term investments of $4.7 million with the remaining use attributable to intangible assets.
+Cash Flow Provided by Financing Activities.
+Net cash provided by financing activities
+
+for the six months ended June 30, 2026
+ was $332.6 million, primarily consisting of $43.2 million in net proceeds and repayments of short-term and long-term borrowing (note 11), $148.4 million of proceeds from issuance of ACMR shares, $110.2 million of gross proceeds from sales of ACM Shanghai's shares, and $30.8 million of proceeds from the exercise of stock options.
+We and ACM Shanghai, together with the subsidiaries of ACM Shanghai, have short-term and long-term borrowings with
+the following banks:
+41
+Table of Contents
+Lender
+Agreement Date
+Maturity Date
+Annual
+Interest Rate
+Maximum Borrowing
+Amount (1)
+Amount Outstanding
+at  June 30, 2026
+(in thousands)
+China Everbright Bank
+December 2024
+September 2027
+2.60%
+RMB600,000
+ RMB181,567
+$
+88,080 
+$
+26,654 
+China Merchants Bank
+December 2025
+May 2036
+2.11%-2.38%
+RMB500,000
+ RMB500,251
+$
+73,400 
+$
+73,437 
+Bank of China (3)
+September 2025
+May 2036
+2.11%-2.62%
+ RMB831,518
+ RMB620,903
+$
+122,067 
+$
+91,149 
+Shanghai Pudong Development Bank
+January 2026
+January 2027
+2.11%
+ RMB300,000
+RMB100,053
+$
+44,040 
+$
+14,688 
+Industrial and Commercial Bank of China
+November 2024
+March 2029
+2.25%-2.65%
+ RMB500,000
+RMB466,224
+$
+73,400 
+$
+68,440 
+China Merchants Bank (2)
+November 2020
+Repayable by installments and the last installments repayable in November 2030
+2.95%
+RMB128,500
+RMB63,042
+$
+18,568 
+$
+9,255 
+Agricultural Bank of China
+April 2024
+Repayable by installments and the last installments repayable in April 2034
+2.43%
+ RMB300,000
+ RMB290,177
+$
+44,040 
+$
+42,598 
+China CITIC Bank
+September 2025
+September 2026
+2.11%
+RMB100,000
+ RMB100,053
+$
+14,680 
+$
+14,688 
+  
+  
+  
+ Total  US Dollars
+  
+$
+478,275 
+$
+340,909 
+(1)
+Converted from RMB to dollars as of
+June 30, 2026
+.
+(2)
+The loan from China Merchants Bank is secured by a pledge of the property of ACM Lingang and guaranteed by ACM Shanghai, as described above under “—Contractual Obligations.”
+(3)
+In May 2026, the Company entered into a loan agreement of RMB231,518 ($33,987) at a 2.65% interest rate, which was subsequently secured by a pledge of the property of ACM Shanghai (note 6) in July 2026.
+Loan Covenants
+In 2025, ACM Shanghai secured a long-term loan with the Bank of China (note 9) for ACM Shanghai’s project expenditures. The loan requires ACM Shanghai’s year-end outstanding interest-bearing debt not to exceed five times of its
+42
+Table of Contents
+annual EBITDA, and to comply with other non-financial covenants, or Bank of China has the right to suspend the loan, or request ACM Shanghai to accelerate repayment or provide credit enhancement.
+Effect of exchange rate changes on cash, cash equivalents and restricted cash
+The impact of fluctuations of the RMB to U.S. dollar currency exchange rate in RMB-denominated accounts (note 2) contributed to a $7.4 million increase in the value of these items during the six months ended June 30, 2026.
+Contractual Obligations
+Grant Contract for State-owned Construction Land Use Right in Shanghai City
+In 2020, ACM Shanghai, through its wholly-owned subsidiary ACM Lingang, entered into a Grant Contract for State-owned Construction Land Use Right in Shanghai City (Category of R&D Headquarters and Industrial Projects), or the Grant Agreement, with the China (Shanghai) Pilot Free Trade Zone Lin-gang Special Area Administration, or the Grantor. ACM Lingang obtained rights to use approximately 43,000 square meters (10.6 acres) of land in the East China Silicon Hub of Lin-gang Special Area of China (Shanghai) Pilot Free Trade Zone for a period of fifty years, commencing on the date of delivery of the land in July 2020. For a description of the material terms of the Grant Agreement, see “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations—Contractual Obligations” in our 2025 Annual Report and see
+ note 16 for additio
+nal detail.
+How We Evaluate Our Operations
+We present information below with respect to four measures of financial performance:
+•
+We define shipments of tools to include (a) a repeat shipment to a customer of a type of tool that the customer has previously accepted, for which we recognize revenue upon shipment or delivery, and (b) a first-time shipment of a first tool to a customer on an approval basis, for which we may recognize revenue in the future if contractual conditions are met, or if a purchase order is received.
+•
+We define “adjusted EBITDA” as net income excluding interest expense (net), income tax benefit (expense), depreciation and amortization, unrealized (gain) loss on short-term investments, and stock-based compensation. We define adjusted EBITDA to also exclude restructuring costs, although we have not incurred any such costs to date.
+•
+We define “free cash flow” as net cash provided by operating activities less purchases of property and equipment (net of proceeds from disposals) and purchase of short-term and long-term investments.
+•
+We define “adjusted operating income (loss)” as our income (loss) from operations excluding stock-based compensation.
+These financial measures are not based on any standardized methodologies prescribed by accounting principles generally accepted in the United States, or GAAP, and are not necessarily comparable to similarly titled measures presented by other companies.
+We have presented shipments, adjusted EBITDA, free cash flow and adjusted operating income (loss) because they are key measures used by our management and board of directors to understand and evaluate our operating performance, to establish budgets and to develop operational goals for managing our business. We believe that these financial measures help identify underlying trends in our business that could otherwise be masked by the effect of the expenses that we exclude. In particular, we believe that the exclusion of the expenses eliminated in calculating adjusted EBITDA and adjusted operating income (loss) can provide useful measures for period-to-period comparisons of our core operating performance and that the exclusion of property and equipment purchases from operating cash flow can provide a usual means to gauge our capability to generate cash. Accordingly, we believe that these financial measures provide useful information to investors and others in understanding and evaluating our operating results, enhancing the overall understanding of our past performance and future prospects, and allowing for greater transparency with respect to key financial metrics used by our management in its financial and operational decision-making.
+Shipments, adjusted EBITDA, free cash flow and adjusted operating income (loss) are not prepared in accordance with GAAP, and should not be considered in isolation of, or as an alternative to, measures prepared in accordance with GAAP.
+43
+Table of Contents
+Shipments
+We consider shipments a key operating metric as it reflects the total value of products delivered to customers and prospective customers by our productive assets.
+ Shipments consist of two components:
+•
+a shipment to a customer of a type of tool that the customer has previously accepted, for which we recognize revenue when the tool is delivered; and
+•
+a shipment to a customer of a type of tool that the customer is receiving and evaluating for the first time, in each case a first tool, for which we may recognize revenue at a later date, subject to the customer’s acceptance of the tool upon the tool’s satisfaction of applicable contractual requirements or subject to the customer’s subsequent discretionary commitment to purchase the tool.
+First tool shipments can be made to either an existing customer that has not previously accepted that specific type of tool in the past ─ for example, a delivery of a SAPS V tool to a customer that previously had received only SAPS II tools ─ or to a new customer that has never purchased any tool from us.
+S
+hipments in the six months ended June 30, 2026 totaled $522.2 million, as compared to $363.1 million for the same period in 2025. Repeat tool shipments in the six months ended June 30, 2026 totaled $266.2 million, as compared to $167.9 million for same period in 2025. First tool shipments in the six months ended June 30, 2026 totaled $256.0 million, as compared to $195.1 million for the same period in 2025.
+The dollar amount attributed to a first tool shipment is equal to the consideration we expect to receive if any and all contractual requirements are satisfied and the customer accepts the tool, or if the customer subsequently determines in its discretion to purchase the tool. There are a number of limitations related to the use of shipments in evaluating our business, including that customers have significant, or in some cases total, discretion in determining whether to accept or purchase our tools after evaluation and their decision not to accept or purchase delivered tools is likely to result in our inability to recognize revenue from the delivered tools. “First tool” shipments reflect the value of incremental new products under evaluation delivered to our customers or prospective customers for a given period and is used as an internal key metric to reflect future potential revenue opportunity. The cumulative cost of “first tool” shipments under evaluation at customers which have not been accepted by the customer is carried at cost and reflected in finished goods inventory (see Note 5 to the condensed consolidated financial statements included in this report). “First tool” shipments exclude deliveries to customers for which ACM Research does not have a basis to expect future revenue.
+Adjusted
+EBITDA
+There are a number of limitations related to the use of adjusted EBITDA rather than net income (loss), which is the nearest GAAP equivalent. Some of these limitations are:
+•
+adjusted EBITDA excludes depreciation and amortization and, although these are non-cash expenses, the assets being depreciated or amortized may have to be replaced in the future;
+•
+we exclude stock-based compensation expense from adjusted EBITDA and adjusted operating income (loss), although (a) it has been, and will continue to be for the foreseeable future, a significant recurring expense for our business and an important part of our compensation strategy and (b) if we did not pay out a portion of our compensation in the form of stock-based compensation, the cash salary expense included in operating expenses would be higher, which would affect our cash position;
+•
+the expenses and other items that we exclude in our calculation of adjusted EBITDA may differ from the expenses and other items, if any, that other companies may exclude from adjusted EBITDA when they report their operating results;
+•
+adjusted EBITDA does not reflect changes in, or cash requirements for, working capital needs;
+•
+adjusted EBITDA does not reflect interest expense, or the requirements necessary to service interest or principal payments on debt;
+•
+adjusted EBITDA does not reflect income tax expense (benefit) or the cash requirements to pay taxes;
+•
+adjusted EBITDA does not reflect historical cash expenditures or future requirements for capital expenditures or contractual commitments; and
+•
+adjusted EBITDA includes expense reductions and non-operating other income attributable to mainland China governmental grants, which may mask the effect of underlying developments in net income, including trends in
+44
+Table of Contents
+current expenses and interest expense, and free cash flow includes mainland China governmental grants, the amount and timing of which can be difficult to predict and are outside our control.
+The following table reconciles net income, the most directly comparable GAAP financial measure, to adjusted EBITDA:
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Adjusted EBITDA Data:
+Net income
+$
+148,485 
+$
+61,283 
+142.3
+%
+$
+87,202 
+    Interest income, net
+(7,869)
+(4,037)
+94.9
+%
+(3,832)
+    Income tax expense
+17,243 
+4,044 
+326.4
+%
+13,199 
+    Depreciation and amortization
+11,766 
+6,356 
+85.1
+%
+5,410 
+    Stock based compensation
+12,204 
+19,587 
+(37.7
+%)
+(7,383)
+    Unrealized gain on short-term investments
+(68,186)
+(1,648)
+4,037.5
+%
+(66,538)
+Adjusted EBITDA
+$
+113,643 
+$
+85,585 
+32.8
+%
+$
+28,058 
+We do not exclude from adjusted EBITDA expense reductions and non-operating other income attributable to mainland China governmental grants because we consider and incorporate the expected amounts and timing of those grants in incurring expenses and capital expenditures. If we did not receive the grants, our cash expenses therefore would be lower, and our cash position would not be affected, to the extent we have accurately anticipated the amounts of the grants. For additional information regarding our mainland China grants, please see “
+—M
+ainland China Government Research and Development Funding.”
+Free Cash Flow
+The following table reconciles net cash
+(used in)
+provided by
+
+operating activities, the most directly comparable GAAP financial measure, to free cash flow:
+Six Months Ended June 30,
+2026
+2025
+% Change
+ 2026 v 2025
+Absolute Change
+2026 v 2025
+(Dollars in thousands)
+Free Cash Flow Data:
+Net cash used in operating activities
+$
+(35,896)
+$
+(39,619)
+(9.4
+%)
+$
+3,723 
+Purchase of property and equipment
+(87,311)
+(31,458)
+177.5
+%
+(55,853)
+Purchase of short-term and long-term investments
+(4,698)
+— 
+NM
+(4,698)
+Free cash flow
+$
+(127,905)
+$
+(71,077)
+80.0
+%
+$
+(56,828)
+The reduction in free cash flow for the six months ended June 30, 2026 as compared to the same period in 2025 reflected the factors driving net cash used in operating activities,
+an increase
+ of purchases of property and equipment, and long-term investments. Consistent with our methodology for calculating adjusted EBITDA, we do not adjust free cash flow for the effects of mainland China government subsidies, because we take those subsidies into account in incurring expenses and capital expenditures. We do not adjust free cash flow for the effects of time-deposits, which for our internal purposes are considered as largely similar to cash.
+45
+Table of Contents
+Adjusted Operating Income
+Adjusted operating income excludes stock-based compensation from income from operations. Although stock-based compensation is an important aspect of the compensation of our employees and executives, determining the fair value of certain of the stock-based instruments we utilize involves
+a high degree of
+judgment and estimation and the expense recorded may bear little resemblance to the actual value realized upon the vesting or future exercise of the related stock-based awards. Furthermore, unlike cash compensation, the value of stock options, which is an element of our ongoing stock-based compensation expense, is determined using a complex formula that incorporates factors,
+ such as market volatility, that are beyond our control.
+ Management believes it is useful to exclude stock-based compensation in order to better understand the long-term performance of our core business and to facilitate comparison of our results to those of peer companies. The use of non-GAAP financial measures excluding stock-based compensation has limitations. If we did not pay out a portion of our compensation in the form of stock-based compensation, the cash salary expense included in operating expenses would be higher and our cash holdings would be less. The following tables reflect the exclusion of stock-based compensation, or SBC, from line items comprising income from operations:
+Six Months Ended June 30,
+2026
+2025
+Actual
+(GAAP)
+SBC
+Adjusted
+(Non-
+GAAP)
+Actual
+(GAAP)
+SBC
+Adjusted
+(Non-GAAP)
+(in thousands)
+Revenue
+$
+524,182 
+$
+- 
+$
+524,182 
+$
+387,719 
+$
+- 
+$
+387,719 
+Cost of revenue
+(282,326)
+(525)
+(281,801)
+(200,708)
+(885)
+(199,823)
+     Gross profit
+241,856 
+(525)
+242,381 
+187,011 
+(885)
+187,896 
+Operating expenses:
+    Sales and marketing
+(44,466)
+(2,822)
+(41,644)
+(38,445)
+(4,253)
+(34,192)
+    Research and development
+(78,803)
+(3,374)
+(75,429)
+(61,320)
+(5,355)
+(55,965)
+    General and administrative
+(32,667)
+(5,483)
+(27,184)
+(29,775)
+(9,094)
+(20,681)
+Income (loss) from operations
+$
+85,920 
+$
+(12,204)
+$
+98,124 
+$
+57,471 
+$
+(19,587)
+$
+77,058

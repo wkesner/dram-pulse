@@ -1,0 +1,873 @@
+Item 1. Business
+
+  
+
+Overview
+ 
+
+  
+
+Applied Optoelectronics, Inc. (the "Company" or "AOI") is a leading, vertically integrated provider of fiber-optic networking products, primarily for four networking end-markets:
+internet data center,
+cable television ("CATV"), telecommunications, ("telecom"), and fiber-to-the-home ("FTTH"). We design and manufacture a range of optical communications products at varying levels of integration, from components, subassemblies and modules to complete turn-key equipment.
+
+  
+
+In designing products for our customers, we typically begin with the fundamental building blocks of lasers and laser components. From these foundational products, we design and manufacture a wide range of products to meet our customers’ needs and specifications, and such products differ from each other by their end market, intended use and level of integration. We are primarily focused on the higher-performance segments within all four of our target markets, which increasingly demand faster connectivity and innovation.
+
+  
+
+The four end markets we target are all driven by significant bandwidth demand fueled by the growth of network-connected devices, video traffic, cloud computing and online social networking. Within the internet data center market, we benefit from the increasing use of higher-capacity optical networking technology as a replacement for older, lower-speed optical interconnects, particularly as speeds reach 800 Gbps and above, as well as the movement to open internet data center architectures and the increasing use of in-house equipment design among leading internet companies. Within the CATV market, we benefit from a number of ongoing trends including the move to higher bandwidth networks among CATV service providers, especially the desire by CATV multiple system operators ("MSOs") to increase the return-path bandwidth available to offer to their customers. In the FTTH market, we benefit from continuing passive optical network deployments and system updates among telecom service providers. In the telecom market, we benefit from deployment of new high-speed fiber-optic networks by telecom network operators, including 5G networks.
+
+ 
+
+      3
+
+Table of Contents
+
+ 
+
+The CATV market is our most established business, for which we supply a broad array of products, including lasers, transmitters and transceivers, and turn-key equipment. Sales of headend, node and distribution equipment, including amplifiers, have contributed significantly to our revenue in recent years as a result of our ability to meet the needs of CATV equipment vendors who have continued to outsource both the design and manufacturing of this equipment.  In 2023, we began offering many of our CATV products directly to MSO customers, under Quantum Bandwidth™ brand name. We made this strategic decision in order to better address the needs of our MSO customers as we believe they are embarking on a complex and lengthy series of network upgrades that will likely require significant innovation from their equipment suppliers. By selling products directly to these customers, we believe that we will be able to address these needs more efficiently and will improve our time to market for these new innovations, which MSOs have indicated will be critical to timely rollout of their planned network upgrades. 
+
+ 
+
+The internet data center market is currently our fastest-growing business. Our customers in this market are generally large internet-based ("hyperscale") data center operators, along with equipment suppliers who supply our products along with others to our hyperscale data center operator customers. In both cases, we supply optical transceivers that plug into switches and servers within the data center and allow these network devices to send and receive data over fiber optic cables. The majority of the data center optical transceivers that we sell utilize our own lasers and subassemblies (we refer to the transceivers subassemblies as "light engines"), and we believe that our in-house technology and manufacturing capability for these lasers and subassemblies gives us an advantage over many of our competitors who often lack either development or manufacturing capabilities for these advanced optical modules. In addition, we believe that the significant automation employed in our production process for data center optical modules gives us advantages over our competitors in the ability to scale production rapidly, which is beneficial because the rapid adoption of artificial intelligence ("AI") is fueling a new wave of investment by hyperscale data center operators, as AI computing is very compute and bandwidth intensive.
+
+ 
+
+As the complexity of CATV networks has increased over the years, equipment vendors, many of whom are our customers, have been under pressure to supply a wider variety of increasingly complex equipment to MSOs. In order to meet these demands, many equipment vendors have looked to engage with suppliers like us who have the capability to design and manufacture various network equipment or subassemblies, rather than developing these devices themselves. This outsourcing trend has been a significant contributor to the revenue we derive from the CATV market. We believe that our extensive high-speed optical, mixed-signal semiconductor and mechanical engineering capabilities position us well to continue to benefit from these industry dynamics. Our recent launch of our own branded line of equipment offers an additional growth opportunity for us, enabling us to sell directly to MSOs in certain cases rather than to CATV equipment vendors.
+
+ 
+
+In the telecom market we supply lasers and laser subassemblies as well as transceivers.  Our customers in this segment consist mostly of network equipment manufacturers ("NEMs") and other manufacturers of optical transceivers.  Our NEM customers manufacture equipment used in telecommunications networks and our transceiver manufacturer customers use our lasers and subassemblies in the manufacture of their optical transceivers.  Most of our products in this segment are purchased for use in advanced 5G mobile network deployments.
+
+  
+
+Our vertically integrated manufacturing model provides us several advantages, including rapid product development, fast response times to customer requests and greater control over product quality and manufacturing costs. We design, manufacture and integrate our own analog and digital lasers using proprietary Molecular Beam Epitaxy ("MBE") and Metal Organic Chemical Vapor Deposition ("MOCVD"), alternative processes for the fabrication of lasers. We believe the use of both processes, and our knowledge of how to combine these processes with others to fabricate lasers is unique in our industry. We manufacture the majority of the laser chips and optical components that are used in our products. The lasers we manufacture are tested extensively to enable reliable operation over time and our devices are often highly tolerant of changes in temperature and humidity, making them well-suited to the CATV, FTTH and 5G markets where networking equipment is often installed outdoors. All of our laser chips are manufactured in our facility in Sugar Land, Texas. We believe that our domestic production capacity for these devices gives us a competitive advantage over many of our competitors, as we believe that many of our customers prefer to source key components from suppliers who have domestic manufacturing capacity.
+
+ 
+
+In
+2025, 2024 and 2023
+, our revenue was $455.7 million, $249.4 million and $217.6 million and our gross margin was 30.0%, 24.8% and 27.1%, respectively. In the years ended
+December 31, 2025, 2024 and 2023
+, we had net loss of $38.2 million, $186.7 million and $56.0 million
+, respectively. At 
+December 31, 2025 and 2024
+, our accumulated deficits were $493.1 million and $451.9 million, respectively. In
+2025
+, we earned 53.8% of our total revenue from the CATV market and 42.9% of our total revenue from the internet data center market.
+
+ 
+
+      4
+
+Table of Contents
+
+ 
+
+In
+2025
+, our key customer in the CATV market was Digicomm. In
+2025
+,
+2024
+, and
+2023
+, Digicomm accounted for 53.1%, 34.1% and 11.3% of our revenue, respectively, and in 2023, ATX Networks accounted for 15.6% of our revenue. In
+2025
+, our key customer in the internet data center market was Microsoft
+. In
+2025, 2024 and 2023
+, Microsoft accounted for 28.8%, 43.7% and 46.6% of our revenue, respectively, and in 2024, Oracle accounted for 12.4% of our revenue.
+
+ 
+
+Industry Background
+ 
+
+  
+
+During
+2025
+, our four target markets, internet data center, CATV, telecom and FTTH, experienced a significant growth in bandwidth consumption and the corresponding need for network infrastructure improvement to support this growth.
+
+  
+
+The prevailing trends in our target markets include:
+
+  
+
+ 
+
+‑ 
+
+Trends
+in the Internet Data Center Market.
+
+To support the substantial increase in bandwidth consumption, internet data center operators are increasing the scale of their internet data centers and deploying infrastructure capable of higher data transmission rates.
+As a result, there is an ongoing transition from the use of copper cable, typically at speeds of up to 1 gigabit per second ("Gbps"), to optical fiber as a transport medium, typically providing speeds from 10 Gbps to 1.6 Tbps. In recent years, a number of leading internet companies have adopted more open internet data center architectures, using a mix of systems and components from a variety of vendors, and in some cases designing their own equipment. For these companies, compatibility of new networking equipment with legacy infrastructure is not as important, and consequently, these companies are more willing to work with non-traditional equipment vendors, which we believe creates an opportunity for optical device vendors. Moreover, transmission speeds have continued to increase among the companies who have previously transitioned from copper-based to fiber-based infrastructure, resulting in opportunities for optical device vendors to supply new optical transceivers capable of operating at these higher data rates. In recent years, supply chain disruptions have become increasingly concerning to our customers. As a result, we believe that our ability to manufacture lasers and other data center products in the US represents a competitive advantage compared with many of our competitors who have most or all of their production outside the US.
+ We have developed a highly-automated production process for many of our data center products, and we believe that this gives us advantages over many of our competitors in terms of ability to scale production rapidly, as well as being able to locate production in favorable geographic locations while maintaining relatively low production costs. Hyperscale data center operators have consistently sought and deployed the most advanced technologies to support the compute and bandwidth needs within their facilities, driving the growth of optical networking within data centers. These operators have adopted more open internet data center architectures and have designed their own networking equipment, both of which use a mix of systems and components from a variety of vendors. We have benefited from these trends over the past several years, and we expect to continue to benefit from them. Recently the hyperscale data center operators have begun to build and upgrade their data centers to support AI, offering us a new growth opportunity. The leading-edge AI applications require significantly more compute capacity and bandwidth, driving the need for faster (800Gbps and higher) and innovative optical networking solutions to support the intra-data center connectivity needs.
+
+  
+
+ 
+
+‑ 
+
+Trends in the CATV Market.
+  ﻿
+Beginning over two decades ago, CATV service providers have invested extensively to support high speed, two-way communications over their networks and we expect that they will continue to do so. In North America, CATV service providers have most recently upgraded their networks with technologies like DOCSIS 3.1, which enables them to offer high speed internet connections to their customers. In order to increase available bandwidth for their customers beyond the bandwidth possible with DOCSIS 3.1, cable MSOs have supported the development of DOCSIS 4.0, which is primarily aimed at increasing the amount of bandwidth available to offer to customers, and also to making the distribution of bandwidth between "forward-path" (i.e. from the MSO office to the customer) and "return-path" (i.e. from the customer to the MSO office) more flexible. In part, enabling the flexible deployment of bandwidth between forward-path and return-path is an effort by MSOs to enable their networks to more effectively scale with consumer demand trends in the future. MSOs like Comcast and Charter have announced plans to spend billions of dollars over the next few years to upgrade to DOCSIS 4.0 network equipment. As one of the early developers of DOCSIS 4.0 equipment, we believe that this represents a significant opportunity for sales of CATV equipment in the next few years. Beginning in 2025, nearly all of our CATV equipment sold meets DOCSIS 4.0 standards.
+
+ 
+
+      5
+
+Table of Contents
+
+ 
+
+ 
+
+‑ 
+
+Trends in the Telecom Market.
+
+The telecom market is composed of customers who deploy wireline optical networks, other than Passive Optical Networks, or PONs, for telecom access networks, including for backhaul of cellular telephone signals. As demand for mobile internet connectivity has increased in recent years, reliable and high-speed optical networks have become increasingly important. In particular, the use of wavelength division multiplexing ("WDM") to expand the capacity of mobile networks has led to increased demand for WDM components (including lasers and transceivers) by telecom equipment manufacturers. In coming years, we believe that the deployment of advanced 5G networks will result in increased demand for optical components, especially those used in connecting between antennas and base stations, as well as for backhaul.
+
+ 
+
+ 
+
+‑ 
+
+Trends in the FTTH Market. 
+The FTTH market generally refers to the PONs that telecom service providers deploy. The most commonly deployed PON technology is Gigabit PON, or GPON, which delivers up to 2.5 Gbps of data, but due to the splitting of the bandwidth among multiple users, the actual bandwidth delivered to an individual subscriber is far less than 2.5 Gbps. One approach that does support true 1 Gbps service to the home is wavelength division multiplexing PON, or WDM-PON, a technology that enables the transmission of multiple wavelengths of data over a single fiber-optic strand. Another approach is XGS-PON, which offers 10 Gbps over a single fiber strand. We also see opportunities for 10 Gbps Ethernet Passive Optical Network ("EPON") and higher data rate PON networks in the future.  We have also developed solutions for 25 Gbps PON networks and 50 Gbps PON networks, which we believe will one day be adopted by customers. We have seen trends towards cable television MSOs beginning to deploy PON networks.  We see opportunities with these customers particularly given our knowledge and experience in CATV.
+
+  
+
+Our Solutions
+ 
+
+  
+
+We experience certain challenges within our target markets, including continuous pressure to innovate and deliver highly integrated products that perform reliably in harsh, demanding environments and to produce high-quality devices in large volumes at competitive prices.
+
+ 
+
+By addressing the challenges in our target markets, we provide the following benefits to our customers:
+
+  
+
+ 
+
+‑ 
+
+Enable customers to deliver innovative products.
+We leverage our extensive expertise in high-speed optical, mixed-signal semiconductor and mechanical engineering, and MOCVD and our proprietary MBE laser fabrication process to deliver technologically advanced products to our customers.
+
+  
+
+ 
+
+‑ 
+
+Enhance efficiency and cost effectiveness of our customers’ supply chains.
+We design and sell products at the level of integration desired by a customer, from components to turn-key equipment, providing our customers a dependable, cost-effective and simplified supply chain. Our relatively more automated production process for certain optical modules also allows us more freedom in locating our manufacturing operations in customer-favored geographic locations while maintaining relatively low labor costs.
+
+  
+
+ 
+
+‑ 
+
+Deliver high quality, reliable products in high volume.
+As a vertically integrated supplier, we are able to monitor and maintain quality control throughout the production process, using our internally produced components, where possible, for our final products. With manufacturing facilities in the U.S., Taiwan and China, we can support high volume production and timely delivery for our customers around the world.
+
+  
+
+ 
+
+‑ 
+
+Provide sophisticated design solutions to our customers.
+We believe our in-house expertise in both analog and digital optical engineering enables us to design comprehensive solutions that meet many of the different network architectures and protocols used by our customers.
+
+    
+
+Our Strengths
+ 
+
+  
+
+Our key competitive strengths include the following:
+
+  
+
+ 
+
+‑ 
+
+Proprietary technological expertise and track record of innovation.
+We continue to develop innovative products by leveraging our technological expertise, including our proprietary MBE and MOCVD laser fabrication process.
+
+  
+
+ 
+
+‑ 
+
+Innovative light engine design and manufacturing.
+High-speed data center interconnect transceivers increasingly rely on multiple parallel optical signals. Our expertise in designing and manufacturing light engines, which combine lasers and photodiodes, and in some cases, driver electronics and/or signal amplifiers, with channel multiplexing and de-multiplexing elements, gives us the ability to quickly develop new products for our data center customers.
+
+  
+
+      6
+
+Table of Contents
+
+ 
+
+ 
+
+‑ 
+
+Proven system design capabilities.
+We have extensive expertise and proven design capabilities in high-speed optical, mixed-signal semiconductor and mechanical engineering, which we believe position us to take advantage of the continuing shift to outsourced design and manufacturing among CATV equipment vendors.
+
+  
+
+ 
+
+‑ 
+
+Industry-leading position in the CATV market.
+We continue to be awarded new design and manufacturing opportunities for CATV components and equipment. We serve a majority of the largest CATV equipment manufacturers in the world and our knowledge of both their requirements and the needs of their customers (the CATV network operators) allows us to access these new opportunities.
+
+  
+
+ 
+
+‑ 
+
+Vertically integrated, highly automated and geographically distributed manufacturing model.
+Our vertically integrated design and manufacturing process encompasses various steps from laser design and fabrication to complete optical system design and assembly. Furthermore, we have geographically distributed our manufacturing by strategically locating our operations in the U.S., China and Taiwan to reduce development time and production costs, to better support our customers and to help protect our intellectual property. In addition, we have developed many automated processes used in our production which we believe give us advantages in terms of scalability and control of labor costs.
+
+  
+
+Our Strategy
+ 
+
+  
+
+We seek to be the leading global provider of optical components, modules and equipment for each of our four target markets: internet data centers, CATV, telecom and FTTH. Our strategy includes the following key elements:  
+
+ 
+
+ 
+
+‑ 
+
+Continue to penetrate the internet data center market.
+
+In the internet data center market, we primarily target internet data center operators who have adopted an open system architecture—one in which the optical connectivity solutions can be provided by a different vendor than the vendor which provides their servers and switches.
+
+ 
+
+ 
+
+‑
+
+Invest in US production capacity for data center products.
+
+We believe that our flexible and highly-automated production process gives us a competitive advantage by allowing us to locate production in the U.S., which is desirable to our customers, without dramatically increasing the cost of production by doing so. We intend to enhance this advantage by continuing to aggressively invest in U.S. production.
+
+ 
+
+ 
+
+‑ 
+
+ 
+
+Extend our leadership in CATV networking.
+﻿
+We intend to add to our product portfolio in the CATV market following our launch in 2023 of our own branded products to sell directly to MSOs, which we believe offers us further opportunity to enhance our presence as a supplier in the CATV market.
+
+  
+
+ 
+
+‑ 
+
+Continue to invest in our capabilities, especially our automated module production, and infrastructure.
+We intend to continue to invest in new products, new technology and our highly-automated production infrastructure and facilities to maintain and strengthen our competitive position. We engage in an active research and development program to develop new products and enhance existing products.
+
+  
+
+ 
+
+‑ 
+
+Selectively pursue other opportunities that leverage our existing expertise.
+Our expertise in designing and manufacturing outdoor equipment for the CATV industry positions us well to pursue applications that are also characterized by having varying and demanding environments, including wireless and wireline telecom infrastructure, industrial robotics, aerospace and defense, and oil and gas exploration.
+
+  
+
+ 
+
+‑ 
+
+Pursue complementary acquisition and strategic alliance opportunities.
+We evaluate and selectively pursue acquisition opportunities or strategic alliances that we believe will enhance or complement our current product offerings, augment our technology roadmap, or diversify our revenue base.
+
+   
+
+      7
+
+Table of Contents
+
+ 
+
+Our Technology
+ 
+
+  
+
+We believe that we have technology leadership in four key areas: semiconductor laser manufacturing, electronic technologies that enhance the performance of our lasers, optical hybrid integration and mixed-signal semiconductor design.
+
+  
+
+ 
+
+‑ 
+
+Differentiated semiconductor laser manufacturing.
+We use a combination of MBE and MOCVD processes in the fabrication of our lasers. We believe that the combination of these two epitaxial processes allows our products to benefit from the advantages afforded by each of these techniques. Among the differentiators of MBE relative to MOCVD fabrication are a lower process temperature and the use of solid phase materials rather than gaseous sources to grow wafers and the growth of more highly strained crystals. These factors contribute to longer operating lives of our lasers, improved laser efficiency and threshold current, and other performance attributes that make them well-suited to our target markets. While we believe that these advantages of MBE are important, MBE does have disadvantages including the inability to use certain dopant materials (for example, Iron), difficulty in certain types of regrowth, and the necessity to maintain complex ultra-high vacuum equipment. By utilizing MOCVD in a portion of our production process, we are able to ameliorate some of these disadvantages. However, the epitaxial and processing steps required in the fabrication of our devices are very complex, with numerous critical steps requiring highly precise control. As a result of some of these challenges, production yields and the performance attributes of laser devices are highly variable and optimizing these characteristics requires numerous enhancements and modifications to standard MBE equipment and the MBE process. To our knowledge, we are unique in incorporating MBE processes in the production of communications lasers in high volume, and believe it would be difficult and time-consuming for other vendors to replicate our production technology.
+
+ 
+
+ 
+
+‑ 
+
+Laser enhancement technology.
+Certain properties of the semiconductor lasers predominantly used in traditional communications devices, such as chirp and wavelength drift, negatively affect their ability to transmit signals over long fiber distances or prevent them from transmitting signals with acceptable fidelity in certain applications. We have developed laser enhancement circuitry that can correct many of these deficiencies. We believe that our technology will become more essential with wider deployment of higher capacity CATV and FTTH systems, which place more stringent demands on laser performance.
+
+  
+
+ 
+
+‑
+
+Optical hybrid-integration technology.
+Reducing the size, power consumption and complexity of optical devices is essential for achieving the price and performance targets of our customers. Our ability to integrate multiple optical networking functions into a single device and to co-package multiple devices into smaller form factors helps us meet customer requirements, which we believe can also create new opportunities. For instance, the transmission speed between network elements (switches and servers, for example) within the data center has continued to increase. However, the rate at which this data can be converted from electrical signals to optical signals by laser diodes has not increased at the same pace. Therefore, to achieve data rates of 40 Gbps and above, many customers utilize multiple lower data rate lasers co-packaged together into a single optical module, which we refer to as a light engine. The technology required to cost-effectively and reliably co-package these lasers and the associated electronic control circuitry is complex. Our extensive experience with the processes and the manufacturing technologies required to produce these devices gives us a competitive advantage.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Similarly, in FTTH and telecom networks, installing new fiber-optic cable is expensive and difficult, and in some situations prohibitively so for a network service provider. As a consequence, network operators seek to maximize the utilization of their installed fiber plant. In long-haul and metropolitan networks, the number of service providers who deployed WDM technology as fiber utilization rose. Fiber utilization in access networks has risen, but the use of WDM technology in the access segment has been problematic due to the relatively high cost and power consumption of the requisite optical devices. We have developed proprietary miniaturized optical packaging, electronic control circuitry and testing algorithms to create a hybrid WDM-PON solution that addresses these historical impediments that we believe will make WDM-PON a cost-effective alternative for deployment.
+
+ 
+
+ 
+
+‑
+
+Mixed-signal design.
+As CATV providers continue to evolve from primarily broadcast-video content providers to a mixture of HD video content together with data-connectivity providers, the networks they utilize to offer these services must evolve as well. Older analog networks are giving way to hybrid networks that incorporate both analog and digital signals. For example, many newer networks are being designed with "digital return-path" capabilities, and certain MSOs have begun to deploy "Remote-PHY" technologies.  Both of these technologies involve transporting certain network signals in digital format, and then converting these signals to and from analog signals at various points in the MSO’s network. This combination of analog and digital signaling creates unique design challenges. Our engineers have many years of experience in developing equipment, modules and components that are well suited to these sorts of mixed-signal architectures. We believe that having deep experience in both digital and analog signaling allows us to offer superior solutions to our customers, compared with companies who have expertise in only one of these signal types.
+
+  
+
+      8
+
+Table of Contents
+
+ 
+
+Our Products
+ 
+
+  
+
+Our products include an array of optical communications solutions at varying levels of integration. We commonly begin from the fundamental building blocks of lasers and laser components. From these foundational products, we design and manufacture a wide range of products from optical modules to complete turn-key equipment. We design our products to target customers in our identified markets to meet their needs and specifications.
+
+  
+
+Our components often incorporate one or more of our optical laser chips inside a precision housing that provides mechanical protection as well as standardized electrical contacts. More complex optical components may also include optical filters (for example, for use in WDM) or other optical elements by which optical signals are routed internally within the component. These more advanced components may also include coolers, heaters and sensors that allow the temperature of the laser chip to be measured and controlled. We manufacture the majority of the laser chips and optical components that are used in our own products.
+
+ 
+
+At the next level of integration, our module or sub-assembly products typically contain one or more of our optical components and some additional control circuitry. Examples of modules include our transceiver line primarily used in internet data center markets, telecom markets, and FTTH markets.
+
+  
+
+At the highest level of integration and complexity, our equipment products typically contain one or more optical components, modules and additional electronic control circuitry required to enable these subsystems to operate independently. For example, our CATV transmitter equipment requires utilization of our optical components and assembly onto a circuit board and to an external housing. Examples of equipment include our CATV transmitter and CATV nodes. Notwithstanding our expertise in optical transmission equipment, in some cases we utilize our technical expertise in radio frequency ("RF") design to develop products that do not have significant optical technology incorporated, for example our CATV amplifier products which serve to amplify the RF signals in the coaxial-cable portion of an MSO's network do not incorporate optics, but do rely on advanced mixed-signal RF and digital electronic design as well as software and firmware which we develop in house.
+
+ 
+
+Research and Development
+ 
+
+  
+
+To maintain our growth and competitiveness, we engage in an active research and development program to develop new products and enhance existing products. As a result of these efforts, we anticipate releasing various new or enhanced products over the next several years. 
+
+ 
+
+As of
+
+    December 31, 2025
+
+, we had a total of 425 employees working in the R&D department, including 14 with Ph.D. degrees. We continue to recruit talented engineers to further enhance our research and development capabilities. We have research and development departments in our facilities in Texas, Georgia, China and Taiwan. Our research and development teams collaborate on joint projects, and by co-locating with our manufacturing operations enable us to achieve an efficient cost structure and improve our time to market.
+
+ 
+
+A key factor in our research and development success is our highly collaborative process for new product development. Particularly in our equipment and module businesses, we often collaborate very closely with our customers from a very early stage in product development. By purposefully fostering this close collaboration, we believe that we can more rapidly develop leading solutions meeting the needs of our customers.
+
+  
+
+Intellectual Property
+ 
+
+  
+
+We rely on a combination of patent, copyright, trademark, trade secret laws and unfair competition laws, as well as confidentiality and licensing arrangements, to establish and protect our intellectual property. We employ various methods to protect these intellectual property rights, including maintaining a technological infrastructure with significant security measures, limiting disclosure and restricting access to only those individuals with an operational need for such information, and having employees, consultants and suppliers execute confidentiality agreements with us. While we expect our intellectual property to provide competitive advantages, we also find meaningful value from unpatented proprietary process knowledge, know-how and trade secrets.
+
+  
+
+      9
+
+Table of Contents
+
+ 
+
+Patents
+ 
+
+  
+
+As of
+December 31, 2025
+, we owned a total of 199 U.S. issued patents, 140 patents issued in China and Taiwan and 10 patents issued in Europe, plus a number of pending U.S. and foreign/international patent applications. Our issued U.S. and foreign patents will expire between 2026 and 2046. While our patents are an important element of our success, our business as a whole is not dependent on any one patent or group of patents. We do not anticipate any material effect on our business due to any patents expiring in 2025, and we continue to obtain new patents through our ongoing research and development.
+
+ 
+
+Our portfolio of patents and patent applications covers several different technology families including:
+
+  
+
+ 
+
+‑
+
+laser structure and design;
+
+  
+
+ 
+
+‑
+
+optical signal conditioning and laser control;
+
+  
+
+ 
+
+‑ 
+
+laser fabrication;
+
+  
+
+ 
+
+‑ 
+
+photodiode and optical receiver design and fabrication;
+
+  
+
+ 
+
+‑
+
+optical device and module designs;
+
+  
+
+ 
+
+‑ 
+
+optical device packaging equipment and techniques;
+
+  
+
+ 
+
+‑ 
+
+optical network enhancements; and
+
+  
+
+ 
+
+-﻿
+
+CATV networking technologies.﻿
+
+ 
+
+Trademarks
+ 
+
+ 
+
+   We have registered the trademarks APPLIED OPTOELECTRONICS, INC., AOI, and Quantum Bandwidth with the U.S. Patent and Trademark Office on the Principal Register. These marks are also registered in, or have applications for registration pending in, various foreign trademark offices.
+
+   
+
+Manufacturing and Operations
+ 
+
+  
+
+We have three manufacturing sites: Sugar Land, Texas, Ningbo, China and Taipei, Taiwan. Our research and development functions are generally partnered with our manufacturing locations, and we have an additional research and development facility in Duluth, Georgia. In our Sugar Land facility, we manufacture laser chips (utilizing our MBE and MOCVD processes), subassemblies and components. The subassemblies are used in the manufacture of components by our other manufacturing facilities or sold to third parties as modules. We manufacture our laser chips only within our Sugar Land facility, where our laser design team is located. In our Taiwan location, which comprises several buildings in close proximity to each other, we manufacture optical components, such as our butterfly lasers, which incorporate laser chips, subassemblies and components manufactured within our Sugar Land facility. In addition, in our Taiwan location, we manufacture transceivers for the internet data center, telecom, FTTH and other markets and we also manufacture CATV outdoor equipment including amplifiers. In our China facility, we take advantage of lower labor costs and manufacture certain more labor intensive components and optical equipment systems, such as optical subassemblies and transceivers for the CATV transmitters (at the headend), internet data center market, and CATV outdoor equipment. Each manufacturing facility conducts testing on the components, modules or subsystems it manufactures and each facility is certified to ISO 9001:2015 and ISO 14001:2015.
+
+ 
+
+We sell our products to customers worldwide, and in addition to these external customer sales many of our products are used internally in the production of transceivers and equipment that we manufacture. With a vertically integrated manufacturing process, we produce many of our own laser chips and other parts required to manufacture our optical components. Through this model, we are able to reduce development time and product costs as well as actively monitor and control product quality. We incorporate our own components into our transceivers, subsystems and equipment products wherever possible. In instances where we do not produce components ourselves, we source them from external suppliers and regularly evaluate these relationships in an attempt to reduce risk and lower cost.
+
+  
+
+      10
+
+Table of Contents
+
+ 
+
+We depend on a limited number of suppliers, including in some cases our own internal supply, for certain raw materials and components used in our products. We regularly review our vendor relationships in an attempt to mitigate risks and lower costs, especially where we depend on one or two vendors for critical components or raw materials. While maintaining inventories that we believe are sufficient to meet our near-term needs, we strive not to carry significant inventories of externally sourced raw materials. Accordingly, we maintain ongoing communications with our vendors in order to help prevent any interruptions in supply, and have implemented a supply-chain management program to maintain quality and lower purchase prices through standardized purchasing efficiencies and design requirements.
+
+ 
+
+Sources of Raw Materials
+
+  
+
+We depend on a limited number of suppliers for certain raw materials, components, and equipment used in our products. We continually review our supplier relationships to mitigate risks and lower costs, especially where we depend on one or two suppliers for critical components or raw materials. While maintaining inventories that we believe are sufficient to meet our near-term needs, we strive not to carry significant inventories of raw materials. Accordingly, we maintain ongoing communications with our suppliers in order to prevent any interruptions in supply, and have implemented a supply-chain management program to maintain quality and lower purchase prices through standardized purchasing efficiencies and design requirements. To date, we generally have been able to obtain sufficient quantities of critical supplies in a timely manner.
+
+  
+
+We are subject to rules promulgated by the SEC pursuant to the Dodd-Frank Wall Street Reform and Consumer Protection Act regarding the use of "conflict minerals". These rules have imposed and will continue to impose additional costs and may introduce new risks related to our ability to verify the origin of any "conflict minerals" used in our products.
+
+ 
+
+Customers
+ 
+
+  
+
+Our customers are primarily internet data center operators, CATV and telecom equipment manufacturers, and internet service providers. We generally employ a direct sales model in North America and in the rest of the world we use both direct and indirect sales channels. In
+2025, 2024 and 2023
+, we obtained
+44.7%,
+ 64.4% and 88.6% of our revenue, respectively, through our direct sales efforts and the remainder of our revenue through our indirect sales channels. Our sales channel partners provide logistical services and day-to-day customer support. Where we sell through an indirect sales channel, we work with the end customer to establish technological specifications for our products. We also from time to time offer design or manufacturing services to customers to assist them in more effectively using our products and realizing time-to-market advantages.
+
+ 
+
+We have taken several actions to increase the diversity of our customer base. These actions include hiring sales staff to improve our ability to serve new customers and the introduction of new products that we believe will appeal to new customers. Furthermore, we have developed additional original design manufacturer, or ODM, relationships with customers in each of our target markets which should enable us to diversify our revenue base.
+
+  
+
+In
+2025
+, the largest customer who contributed most to our internet data center revenue was Microsoft. In 2025, our largest CATV customer was Digicomm. In
+2025
+, revenue from CATV market, the internet data center market, telecom market, FTTH and other markets provided 53.8%, 42.9%, 3.0% and 0.3% of our revenue, respectively, compared to 35.2%, 59.5%, 4.4% and 0.9%, respectively, in
+2024
+.
+
+  
+
+In our telecom market, we manufacture and sell optical products which include transceivers designed to transmit signals used in 5th Generation ("5G") mobile networks, and various products targeted at the metro-scale telecom networking market. We have various other products designed for diverse applications, both inside and outside of communications technology, which generally are derivatives of products developed for our four target markets.
+
+  
+
+We support our sales efforts by attendance at industry trade shows, technical conferences and other promotional efforts. These efforts are aimed at attracting new customers and enhancing our existing customer relationships.
+
+ 
+
+Backlog
+ 
+
+  
+
+We generally make sales pursuant to short-term purchase orders without deposits and subject to rescheduling, revision or cancellation on short notice. We accordingly believe that purchase orders are not an accurate indicator of our future sales and any backlog of purchase orders is not a reliable indicator of our future revenue.
+
+  
+
+      11
+
+Table of Contents
+
+ 
+
+Competition
+ 
+
+  
+
+The optical networking market is intensely competitive. Because of the broad nature of our product offerings, we do not believe that we face a single major competitor across all of our markets. We do, however, experience intense competition in each product area from a number of manufacturers and we anticipate that competition will increase. Our major competitors in one or more of our markets include Coherent Corporation, Eoptolink Technology Inc., Ltd., Foxconn Interconnect Technology Ltd., InnoLight Technology (Suzhou) Ltd., Intel Corporation, Lumentum Holdings, Inc., Mitsubishi, Molex, LLC, Source Photonics, Inc. and Sumitomo Electric Industries, Ltd.
+
+ 
+
+Many of our competitors are larger than we are and have significantly greater financial, marketing and other resources.
+
+  
+
+In addition, several of our competitors have large market capitalizations or cash reserves and are much better positioned to acquire other companies to gain new technologies or products that may displace our products. Network equipment providers, who are our customers, and network service providers, who are supplied by our customers, may decide to manufacture the optical subsystems incorporated into their network systems in-house. We also encounter potential customers that, because of existing relationships, are committed to the products offered by these competitors.
+
+ 
+
+We believe the principal competitive factors in our target markets include the following:
+
+  
+
+ 
+
+‑
+
+use of internally manufactured components;
+
+  
+
+ 
+
+‑ 
+
+product breadth and functionality;
+
+  
+
+ 
+
+‑
+
+timing and pace of new product development;
+
+  
+
+ 
+
+‑ 
+
+breadth of customer base;
+
+  
+
+ 
+
+‑ 
+
+technological expertise;
+
+  
+
+ 
+
+‑ 
+
+reliability of products;
+
+  
+
+ 
+
+‑ 
+
+product pricing; and
+
+  
+
+ 
+
+‑ 
+
+manufacturing efficiency.
+
+  
+
+We believe that we compete favorably with respect to the above factors based on our MBE and MOCVD processes, our vertically integrated model, the performance and reliability of our product offerings, and our technical expertise in light engine design and manufacture.
+
+    
+
+Seasonality
+
+ 
+
+See Part II, Item 7, "Management’s Discussion and Analysis of Financial Condition and Results of Operations—Seasonality," regarding seasonality of certain of the Company’s products.
+
+  
+
+Human Capital
+
+ 
+
+Employees
+
+ 
+
+As of
+December 31, 2025
+, we employed 4,691 full-time employees, of which 69 held Ph.D. degrees in a science or engineering field. Of our employees, 548 are located in the U.S., 1,262 are located in Taiwan and 2,881 are located in China. 
+
+ 
+
+As of
+December 31, 2025
+, none of our employees are represented by any collective bargaining agreement, but certain employees of our China subsidiary are members of a trade union. We have never suffered any work stoppage as a result of an employment related strike or any employee related dispute and believe that we have satisfactory relations with our employees.
+
+ 
+
+      12
+
+Table of Contents
+
+ 
+
+Employee Engagement, Development and Career Planning
+  
+
+ 
+
+Our business results depend in part on our ability to successfully manage our human capital resources, including attracting, identifying, and retaining key talent. Factors that may affect our ability to attract and retain qualified employees include employee morale, our reputation, competition from other employers, and availability of qualified individuals.  We believe our commitment to our human capital resources is an important component of our mission to deliver superior products to our customers. We provide all employees with the opportunity to share their opinions in open dialogues with our human resources department and senior management. In the past, we have conducted confidential surveys of select workforce members to measure engagement. The results are discussed with senior leadership and managers. We provide all employees a wide range of professional development experiences, both formal and informal. We offer our highest level employees/executives/VPs leadership development programs as part of our talent and succession planning process. Also, we have development programs for managers and supervisors and learning opportunities for all employees. We provide access to learning platforms so employees can access resources to support their career aspirations and advance their skills.
+
+ 
+
+Employee Safety
+
+ 
+
+The safety of our employees is a paramount value for us. We provide mandatory safety trainings in our production facilities, which are designed to focus on empowering our employees with the knowledge and tools they need to make safe choices and to mitigate risks. Supervisors complete safety management courses as well.
+
+ 
+
+Compensation, Benefits and Wellness 
+
+ 
+
+We offer fair, competitive compensation and benefits that support our employees’ overall wellness. Further, the health and wellness of our employees are critical to our success. We provide our employees with access to a variety of innovative, flexible and convenient health and wellness programs. Such programs are designed to support employees' physical and mental health by providing tools and resources to help them improve or maintain their health status and encourage engagement in healthy behaviors. We offer financial education and financial wellness tools and resources to help employees reach their personal financial goals. Additionally, we provide robust compensation and benefits through internal and external benchmarking.
+
+ 
+
+Governmental Regulations
+ 
+
+  
+
+Our research and development and manufacturing operations and our products are subject to a variety of federal, state, local and foreign environmental, health and safety laws and regulations, including those governing discharges of pollutants to air and water, the use, storage, handling and disposal of hazardous materials and solid wastes, employee health and safety, and the hazardous material content in our products. To date, costs and accruals incurred to comply with these governmental regulations have not been material to our capital expenditures, results of operations, and competitive position. Our environmental management systems in our facilities in Sugar Land, Texas, Ningbo, China and Taipei, Taiwan are all certified to meet the requirements of ISO14001:2015. However, there can be no assurance that violations of applicable laws at any of our facilities will not occur in the future as a result of human error, accident, equipment failure or other causes. We use, store and dispose of hazardous materials and solid wastes in our manufacturing operations and hazardous materials are present in our products. We incur costs to comply with environmental, health and safety requirements, and any failure to comply, or the identification of contamination for which we are found liable, could cause us to incur substantial costs, including cleanup costs, natural resource damages, monetary fines, or administrative, civil or criminal penalties, and subject us to property damage and personal injury claims, and result in injunctive relief including the suspension of production, alteration or upgrades of our manufacturing processes, redesign of our products, or curtailment of sales, and could result in adverse publicity. Liability under environmental, health and safety laws can be joint and several and without regard to fault or negligence. For example, pursuant to environmental laws and regulations, including but not limited to the Comprehensive Environmental Response Compensation and Liability Act, or CERCLA, we may be liable for the full amount of any remediation-related costs at properties we currently own or operate or formerly owned, such as our currently owned Sugar Land, Texas facility, or at properties at which we previously operated, as well as at properties we will own or operate in the future, and properties to which we have sent hazardous substances, whether or not we caused the contamination.
+
+ 
+
+Environment
+
+ 
+
+We are committed to maintaining compliance with all environmental laws applicable to our operations, products, and services and to reducing our environmental impact across our business. Our operations and many of our products are subject to various federal, state, local, and foreign regulations that have been adopted with respect to the environment, such as the Directive on the Restriction of the Use of Certain Hazardous Substances in Electrical and Electronic Equipment; Registration, Evaluation, Authorization, and Restriction of Chemicals; and Substances of Concern In Products, regulations adopted by the European Union, or EU.
+
+       13
+
+Table of Contents
+
+ 
+
+Over and above our commitment to compliance with all environmental laws, we have further committed ourselves to the following environment goals:
+
+    
+
+ 
+
+–
+
+Obtain at least 20% of the energy used in our operations from renewable sources
+
+ 
+
+–
+
+Properly recycle waste materials including paper, electronic components, glass and batteries
+
+ 
+
+–
+
+Reduce our generation of hazardous waste by at least 10% over the five year period beginning in 2024
+
+ 
+
+In order to meet these goals, we maintain an Integrated Environmental and Safety Management System.
+
+ 
+
+We expect that our operations and products will be affected by new environmental requirements on an ongoing basis. Environmental, health and safety requirements have become more stringent over time, and changes to existing requirements could restrict our ability to expand our facilities, require us to acquire costly pollution control equipment, require us to obtain additional permits for our activities, or cause us to incur other significant expenses or to modify our manufacturing processes or the hazardous material content of our products. Identification of presently unidentified environmental conditions, more vigorous enforcement by a governmental authority, enactment of more stringent legal requirements or other unanticipated events could give rise to adverse publicity, restrict our operations, affect the design or marketability of our products or otherwise cause us to incur material environmental costs or delays in planned activities.
+
+  
+
+We face increasing complexity in our product design and procurement operations as we adjust to new and upcoming requirements relating to the materials composition of our products. Some jurisdictions in which our products are sold have enacted requirements regarding the hazardous material content of certain products. For example, member states of the European Union and China are among a growing number of jurisdictions that have placed restrictions on the use of lead, among other chemicals, in electronic products, which affect the composition and packaging of our products. The passage of such requirements in additional jurisdictions, or the tightening of standards or elimination of certain exemptions in jurisdictions where our products are already subject to such requirements, could cause us to incur significant expenditures to make our products compliant with new requirements, or could limit the markets into which we may sell our products. Other governmental regulations may require us to reengineer our products to use components that are more environmentally compatible, resulting in additional costs to us.
+
+ 
+
+Climate Change and Sustainability
+
+ 
+
+We are spreading initiatives that aim to drive sustainability and reduce our environmental impact. In addition, we continue to focus on the efficiency of our technology, including but not limited to using light sensors and dimming technology that control brightness and exploring alternative energy sources. 
+
+ 
+
+Export Controls
+
+ 
+
+The Bureau of Industry and Security (BIS) of the U.S. Department of Commerce is responsible for regulating the export of most commercial items that are classified as dual-use goods that may have both commercial and military applications. Our products are primarily classified under Export Control Classification Numbers ("ECCN") 5A991, 6A995, and EAR99. Export Control Classification requirements are dependent upon an item’s technical characteristics, the destination, the end-use, the end-user, and the activities of the end-user. Should the ECCN change, then the export of our products to certain countries would be restricted. However, we currently do not export our products to any countries on the restricted list, and therefore a change in the ECCN would not materially impact our business.
+
+ 
+
+Additional information concerning regulatory compliance and a discussion of the risks associated with governmental regulations that may materially impact us is described more fully under the heading "Risk Factors" in this Form 10-K.
+
+  
+
+Corporate Information
+ 
+
+  
+
+We were incorporated in the State of Texas in 1997. In March 2013, Applied Optoelectronics, Inc., a Texas corporation, converted into a Delaware corporation. Prime World International Holdings, Ltd. ("Prime World") is a wholly-owned subsidiary of the Company incorporated in the British Virgin Islands on January 13, 2006. Prime World is the parent company of Global Technology, Inc. ("Global"). Global was established in June 2002 in the People’s Republic of China ("PRC") and was acquired by Prime World on March 30, 2006. Prime World also operates a division in Taiwan, which is qualified to do business in Taiwan and primarily manufactures transceivers and performs research and development activities.
+
+ 
+
+Our principal executive offices are located at 13139 Jess Pirtle Blvd., Sugar Land, TX 77478, and our telephone number is (281) 295-1800. Our website address is www.ao-inc.com. Information contained on our website is not incorporated by reference into this Form 10-K.
+
+ 
+
+      14
+
+Table of Contents
+
+ 
+
+Available Information
+
+  
+
+We file electronically with the United States Securities and Exchange Commission, or SEC, our annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended. We make available on our website at www.ao-inc.com free of charge, copies of these reports as soon as reasonably practicable after filing these reports with, or furnishing them to, the SEC.

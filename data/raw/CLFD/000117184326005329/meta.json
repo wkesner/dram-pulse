@@ -1,0 +1,36 @@
+{
+  "company": "Clearfield",
+  "ticker": "CLFD",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000796505",
+  "form": "10-Q",
+  "filing_date": "2026-08-06",
+  "accession_number": "0001171843-26-005329",
+  "primary_document": "clfd20260630_10q.htm",
+  "primary_doc_description": "FORM 10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/796505/000117184326005329/clfd20260630_10q.htm",
+  "fiscal_year_end": "0930",
+  "report_date": "2026-06-30",
+  "period_end": "2026-06-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:40:31.135763+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/CLFD/000117184326005329/primary.html",
+    "business": "data/raw/CLFD/000117184326005329/item1_business.txt",
+    "risk_factors": "data/raw/CLFD/000117184326005329/item1a_risk_factors.txt",
+    "mdna": "data/raw/CLFD/000117184326005329/item7_mdna.txt",
+    "other": "data/raw/CLFD/000117184326005329/other_full.txt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "company": "Harmonic",
+  "ticker": "HLIT",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000851310",
+  "form": "8-K",
+  "filing_date": "2025-12-09",
+  "accession_number": "0001193125-25-311656",
+  "primary_document": "d30982d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/851310/000119312525311656/d30982d8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-08",
+  "period_end": "2025-12-08",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:39:47.495648+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d30982dex991.htm",
+      "path": "data/raw/HLIT/000119312525311656/exhibit_99_d30982dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/851310/000119312525311656/d30982dex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/HLIT/000119312525311656/primary.html",
+    "other": "data/raw/HLIT/000119312525311656/other_full.txt"
+  }
+}

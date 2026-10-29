@@ -1,0 +1,1598 @@
+ITEM 7. MANAGEMENT’
+S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS OF INDIE
+Throughout this section, unless otherwise noted, “indie” refers to indie Semiconductor, Inc. and its consolidated subsidiaries.
+The following discussion and analysis provides information that management believes is relevant to an assessment and understanding of our consolidated results of operations and financial condition. You should read this discussion and analysis in conjunction with the accompanying audited consolidated financial statements and notes thereto included elsewhere in this Form 10-K. Certain amounts may not foot due to rounding. This discussion and analysis contains forward-looking statements and involves numerous risks and uncertainties, including, but not limited to, those described under the sections entitled “Risk Factors” and “Cautionary Note Regarding Forward-Looking Statements” included elsewhere in this Form 10-K. We assume no obligation to update any of these forward-looking statements except as required by law. Actual results may differ materially from those contained in any forward-looking statements.
+OUR COMPANY
+indie offers highly innovative, high-performance and energy-efficient mixed-signal system-on-chips ("SoCs") and system solutions for advanced driver assistance systems (“ADAS”) in addition to adjacent industrial applications. Our sensors span all major modalities, including Radar, LiDAR, Ultrasound and Computer Vision, while our embedded system control, power management, and interfacing solutions are accelerating the proliferation of automated vehicle safety features. We are an approved vendor to Tier 1 automotive suppliers and our platforms can be found in marquee automotive manufacturers around the world. Headquartered in Aliso Viejo, California, indie has design centers and sales offices in Austin, Texas; Detroit, Michigan; San Jose, California; Cordoba, Argentina; Budapest, Hungary; Dresden, Frankfurt an der Oder, Munich and Nuremberg, Germany; Edinburgh, Scotland; Schlieren, Switzerland; Rabat, Morocco; Haifa, Israel; Quebec City and Toronto, Canada; Seoul, South Korea; Tokyo, Japan; and several locations throughout China.
+We maintain design centers for our semiconductor engineers and designers in the United States, Argentina, Canada, Hungary, Germany, Scotland, Morocco, Israel, Switzerland and China. We engage subcontractors to manufacture our products. These subcontractors, as well as the majority of our customers’ locations, are primarily in Asia. For the years ended December 31, 2025, 2024 and 2023, approximately 65%, 66% and 63%, respectively, of our product revenues were recognized for shipments to customer locations in Asia.
+Potential Divestiture of Wuxi
+
+In May 2025, indie entered into a non-binding agreement with United Faith Auto-Engineering Co., Ltd., a publicly-listed company in the People’s Republic of China (“United Faith”), to sell up to all of our 34.38% equity interest in Wuxi. On October 27, 2025, we entered into an Asset Purchase Agreement (the "Wuxi Agreement") through Ay Dee Kay LLC ("ADK"), pursuant to which we have agreed to sell ADK's entire equity interest in Wuxi to United Faith.
+
+ 
+Pursuant to the Wuxi Agreement, subject to the satisfaction of closing conditions and receipt of all required regulatory approvals, United Faith will purchase all of ADK’s outstanding equity interest in Wuxi for a total gross transaction consideration of RMB 960,834,355, or approximately $135 million (based on the exchange rate in effect on October 24, 2025), payable in cash to ADK, net of applicable local taxes.
+
+ 
+The Wuxi Agreement contains certain customary representations, warranties and covenants. The representations and warranties of parties under the Wuxi Agreement will not survive closing, and there is no post-closing indemnification arrangement for breaches of representations, warranties or covenants. The Wuxi Agreement’s covenants include obligations of (i) ADK to assist Wuxi to maintain its ordinary course of business operations during the period between signing the Wuxi Agreement and closing the Wuxi Divestiture, (ii) United Faith to use reasonable best efforts to obtain its shareholder approval of the purchase of all of the outstanding equity of Wuxi (the “Whole Transaction”), (iii) both ADK and United Faith to use reasonable best efforts to cooperate with Wuxi to prepare documents and make all filings necessary to complete the Wuxi Divestiture, and (iv) both parties to register the Wuxi Divestiture and the Whole Transaction with the relevant authorities, as may be applicable.
+
+ 
+The Wuxi Agreement also contains customary closing conditions, including (i) receipt of shareholder approval of the Whole Transaction by United Faith’s shareholders and (ii) the receipt of all required regulatory approvals of the Whole Transaction, including approval by the Shenzhen Stock Exchange and the China Securities Regulatory Commission.
+
+44
+
+Table of Contents
+
+ 
+
+ 
+During the period between entering into the Wuxi Agreement and prior to closing the Wuxi Divestiture, the divestiture of Wuxi will meet the criteria to be reported as discontinued operations when indie determines that it is probable that United Faith will receive all necessary local regulatory approvals within the requisite period under applicable accounting guidance. Upon the completion of this potential Wuxi Divestiture, indie will fully deconsolidate the financial results of Wuxi and in return, recognize a pre-tax gain/loss, which would be presented in indie’s then Consolidated Statements of Operations. For the year ended December 31, 2025, Wuxi accounted for approximately 43% and 11% of indie’s consolidated revenue and operating expenses, respectively. Further, as of December 31, 2025, Wuxi accounted for approximately 12% and 3% of indie’s consolidated total assets and total liabilities, respectively. Following any deconsolidation of Wuxi, we will no longer include any financial results of Wuxi in our future consolidated financial statements.
+
+ 
+As of both December 31, 2025 through February 27, 2026, we determined that the Wuxi Asset Sale has not met the requirements under applicable accounting guidance to be presented as discontinued operations within our consolidated financial statements.
+
+ 
+Further, we cannot provide any assurance regarding the timing for the completion of the Wuxi Divestiture, that the closing conditions of the Wuxi Divestiture, including, but not limited to, approval of the Whole Transaction by United Faith shareholders and receipt of all required regulatory approvals, will be satisfied, or that the Wuxi Divestiture will be completed.
+ 
+Execution of At-The-Market Agreement
+On August 26, 2022, we entered into an At Market Issuance Agreement (“ATM Agreement”) with B. Riley Securities, Inc., Craig-Hallum Capital Group LLC and Roth Capital Partners, LLC (collectively as “Sales Agents”) relating to shares of our Class A common stock, par value $0.0001 per share (the “Class A common stock”). In accordance with the terms of the ATM Agreement, we may offer and sell shares of our Class A common stock having an aggregate offering price of up to $150.0 million from time to time through the Sales Agents, acting as our agent or principal. The ATM Agreement was previously registered on our registration statement on Form S-3 (Registration No. 333-267120) (the "2022 Registration Statement"), which expired on September 7, 2025. Prior to its expiration, on August 29, 2025, we filed with the SEC a prospectus supplement to our automatic shelf registration on Form S-3ASR (Registration No. 333-285653) to register the offering of the unsold securities of $59.8 million pursuant to the ATM Agreement. We implemented and renewed this program for the flexible access it provides to the capital markets. As of December 31, 2025, we had raised gross proceeds of $90.2 million and issued 11,138,984 shares of Class A common stock at an average per-share sales price of $8.10 through this program. For the years ended December 31, 2024 and 2023, we incurred total issuance costs of $0.4 million and $1.1 million, respectively, in connection with the ATM Agreement. For the year ended December 31, 2025 there was no ATM activity.
+Recent Acquisition
+Acquisition of emotion3D
+On September 26, 2025 (the “emotion3D Closing Date”), Ay Dee Kay Ltd. completed its acquisition of emotion3D GmbH (“emotion3D”). The acquisition was consummated pursuant to a Share Purchase Agreement (the “SPA”) whereby Ay Dee Kay Ltd. acquired all of the outstanding common shares of emotion3D. The closing consideration consisted of: (i) $17.7 million in cash as the initial cash consideration (including debt paid at closing and net of cash acquired); (ii) certain contingent considerations with total preliminary fair value of $7.3 million, payable in cash or Class A common stock at indie's sole election, subject to emotion3D's achievement of certain revenue-based milestones through February 28, 2027; and (iii) certain holdbacks and adjustments totaling $3.0 million subject to final release 24 months from the emotion3D Closing Date. See
+Note 2
+ —
+Business Combinations
+ for additional descriptions of our recent acquisitions.
+Impact of Macroeconomic Conditions
+Current and continued inflationary conditions have led, and may continue to lead to, rising prices or rising interest rates, which has had, and may continue to have, a dampening effect on overall economic activity and consumer demand for automotive products. There continues to be uncertainty regarding overall macroeconomic conditions, including increased geopolitical tensions, risk of recessions, and the effects of current global trade policies including tariffs. The U.S. government has also threatened tariffs against Taiwan that could specifically target imports of semiconductor products, which, if imposed, could seriously and negatively affect our business and the U.S. economy overall.
+These and any additional tariff actions could lead to retaliatory tariffs on U.S. goods and escalate trade disputes in China and in other
+
+45
+
+Table of Contents
+
+ 
+
+countries in which we do business. For example, China has responded with tariffs on certain U.S. goods. While we are still evaluating the potential impacts of these proposed tariffs, as well as our ability to mitigate their related impacts, these tariffs may adversely impact our revenue and cost of goods sold in the United States. The institution of trade tariffs both globally and between the United States and China specifically carries the risk of negatively affecting China’s overall economic condition, which could have a negative impact on us as we have significant operations in China. Furthermore, the imposition of tariffs could cause a decrease in the sales of products to customers located in China, other customers selling to Chinese end users, or other global customers which could materially and adversely affect our business, financial condition and results of operations. The ultimate impact of any tariffs will depend on various factors, including if any tariffs are ultimately implemented, the timing of implementation, and the amount, scope and nature of the tariffs. For additional information, see “Item 1A. Risk Factors”, including the risk factor titled “
+If significant tariffs or other trade restrictions are placed on our products or third-party suppliers, or if we become subject to expanded export controls or trade restrictions, our revenue and results of operations may be materially harmed
+.
+”
+Additionally, the ongoing conflict in the Ukraine and Middle East and the implications of these events have created global political and economic uncertainty. We are closely monitoring developments, including any potential impact to our business, customers, suppliers, our employees and operations in Israel, the Middle East and elsewhere. At this time, the impact to indie is subject to change given the volatile nature of the situation.
+Results of Operations
+A discussion of our results of operations for the year ended December 31, 2023, including a comparison to our results of operations for the year ended December 31, 2024, is included under “Results of Operations” in Part II, Item 7, Management’s Discussion and Analysis of Financial Condition and Results of Operations, included in our Annual Report on Form 10-K for the year ended December 31, 2024 filed with the Securities and Exchange Commission on March 3, 2025.
+
+Revenue
+We design, develop and manufacture primarily analog, digital and mixed-signal integrated circuits (“ICs”) together with software running on the embedded processors in the majority of our ICs. Our revenue represents both (i) non-recurring engineering (“NRE”) fees for the development of ICs and prototypes and (ii) product sales, including the sale of semiconductors under separate commercial supply arrangements.
+Our revenues fluctuate in response to a combination of factors, including the following:
+•
+our overall product mix and sales volumes;
+•
+gains and losses in market share and design win traction;
+•
+semiconductor content per vehicle;
+•
+pace at which technology is adopted in our end markets;
+•
+fluctuations in currency exchange rates that affect our prices;
+•
+the stage of our products in their respective life cycles;
+•
+the effects of competition and competitive pricing strategies;
+•
+governmental regulations influencing our markets; and
+•
+the global and regional economic cycles.
+Product Revenue
+. Our product revenue is recognized when the customer obtains control of the product and is based on the contractual shipping terms of a contract. We provide an assurance-type warranty which is not sold separately and does not represent a separate performance obligation. Therefore, the estimated costs of warranty claims are generally accrued as cost of goods sold in the period the related revenue is recorded. Under limited circumstances, we may offer an extended limited warranty to customers for certain products. We accrue for known warranty and indemnification issues if a loss is probable and can be reasonably estimated. The majority of our product revenue originates from sales shipped to customer locations in Asia and the United States.
+Contract Revenue
+. Contract revenue is revenue earned from NRE services. Generally, our NRE contracts with our customers initially contain a single distinct performance obligation, which is to provide NRE design services for products based on the customer’s specifications. Generally, our contracts also include the optional purchase of products that may be exercised at stated prices subsequent to completion of NRE design services. We have determined that the option to purchase products is not a material right and have not allocated transaction price to this provision.
+
+46
+
+Table of Contents
+
+ 
+
+For NRE arrangements, we recognize revenue over time as services are provided based on the terms of the contract on an input basis, using costs incurred as the measure of progress. The costs incurred represent the most reliable measure of transfer of control to the customer. Revenue is deferred for amounts billed or received prior to delivery of the services.
+Cost of Goods Sold
+Cost of goods sold consists primarily of the cost of semiconductors purchased from subcontractors, including wafer fabrication, assembly, testing and packaging, board and device costs, manufacturing support costs, including labor and overhead associated with such purchases, final test yield fallout, inventory and warranty provisions, memory and component costs, and shipping costs. Cost of goods sold also includes compensation related to personnel associated with manufacturing and amortization of certain intangible assets acquired through the business combinations. Cost of goods sold generally does not include development costs incurred related to servicing our NRE services contracts, which are recorded to research and development and expensed as incurred.
+Research and Development Expense
+Costs related to research, design, and development of our products are expensed as incurred. Research and development expense consists primarily of pre-production costs related to the design and development of our products and technologies, including costs related to developing products subsidized by NRE services contracts. This includes costs with customers such as employee compensation, benefits and related costs of sustaining our engineering teams, project material costs, third-party fees paid to consultants, prototype development expenses, costs related to IP licenses, occupancy costs and related overhead based on headcount, other costs incurred in the product design and development process and amortization expenses for certain intangible assets acquired from the business combinations.
+Selling, General, and Administrative Expense
+Selling, general, and administrative costs include employee compensation, including compensation and benefits for executive, finance, accounting, legal, business operations and other administrative personnel. In addition, it includes marketing and advertising, outside legal, tax and accounting services, insurance, occupancy costs and related overhead based on headcount and amortization expenses for certain intangible assets acquired from the business combinations. Selling, general, and administrative costs are expensed as incurred.
+
+Restructuring Costs
+In August 2024, we initiated a plan intended to improve our operating performance (the “2024 Restructuring Plan”). The 2024 Restructuring Plan consisted of actions including but not limited to, workforce and facilities reductions. Due to the size, nature and frequency of this plan, it is fundamentally different from our ongoing productivity actions. As a result, all pre-tax charges related to such initiatives are separately reflected in
+Note 4 — Restructuring costs
+in our accompanying financial statements for more information.
+In May 2025, we initiated a restructuring plan designed to improve operational efficiencies, reduce operating costs, better align the Company's workforce with top strategic priorities and key growth opportunities, and exiting over time some of the Company's lower margin products outside of the ADAS application (the "2025 Restructuring Plan"). The 2025 Restructuring Plan includes, but is not limited to, consolidation of facilities, reduction of workforce in various geographic locations, impairment of certain intangible assets related to intellectual property licenses and early termination of certain contractual obligations. Due to the size, nature and frequency of this 2025 Restructuring Plan, it is fundamentally different from our ongoing productivity actions. As a result, all pre-tax charges related to such initiatives are separately reflected in
+Note 4 — Restructuring costs
+in our accompanying financial statements for more information.
+Amortization for Intangible Assets Acquired from Business Combinations
+As a result of our most recent business combinations, we acquired various intangible assets. The corresponding amortization expenses are included within
+Cost of goods sold, Research and development expenses
+,
+
+and
+Selling, general and administrative expenses
+based on their respective nature. Our acquired intangible assets with definite lives are amortized from the date of acquisition over periods ranging from two to twelve years.
+Interest Income
+Interest income represents cash or income earned on our cash balances and investments with certain banking institutions.
+
+47
+
+Table of Contents
+
+ 
+
+Interest Expense
+Interest expense primarily consists of cash and non-cash interest under our term loan facilities, convertible notes and line of credit.
+Other Income (Expense)
+Other income (expense) primarily comprises the change in the fair value of the warrants and earn-out liabilities issued as a result of the Transaction and contingent considerations and holdbacks issued as a result of our recent business combinations.
+
+Income Taxes Benefit (Provision)
+We utilize the asset and liability method in accounting for income taxes. Deferred tax assets and liabilities reflect the estimated future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled. Deferred tax expense or benefit is the result of changes in the deferred tax asset and liability. Valuation allowances are established when necessary to reduce deferred tax assets where it is more likely than not that the deferred tax assets will not be realized. We make estimates, assumptions, and judgments to determine our provision for our income taxes, deferred tax assets and liabilities, and any valuation allowance recorded against deferred tax assets. We also assess the likelihood that our deferred tax assets, if any, will be recovered from future taxable income, and to the extent we believe that recovery is not likely, we establish a valuation allowance.
+We recognize the tax benefit from an uncertain tax position only if it is more likely than not that the tax position will be sustained on examination by the taxing authorities, based on the technical merits of the position. The tax benefits recognized from such positions are then measured based on the largest benefit that has a greater than 50% likelihood of being realized upon settlement. Interest and penalties related to unrecognized tax benefits which, as of the date of this report, have not been material, are recognized within provision for income taxes.
+Income tax benefits for the year ended December 31, 2025 is primarily related to our foreign operations and U.S. subsidiaries that are nonconsolidated for tax purposes. Income tax benefits for the year ended December 31, 2024 are primarily related to our foreign operations.
+Refer to
+Note 18
+ —
+Income Tax
+, in our accompanying financial statements for additional detail.
+Comparison of the Years Ended December 31, 2025 and 2024
+Revenue
+ 
+
+ 
+
+ 
+
+Fiscal Years Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(in thousands)
+
+ 
+
+$
+
+ 
+
+ 
+
+% of
+Revenue
+
+ 
+
+ 
+
+$
+
+ 
+
+ 
+
+% of
+Revenue
+
+ 
+
+ 
+
+$ Change
+
+ 
+
+ 
+
+%
+Change
+
+ 
+
+Revenue:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Product revenue
+
+ 
+
+$
+
+206,961
+
+ 
+
+ 
+
+ 
+
+95
+
+%
+
+ 
+
+$
+
+202,698
+
+ 
+
+ 
+
+ 
+
+94
+
+%
+
+ 
+
+$
+
+4,263
+
+ 
+
+ 
+
+ 
+
+2
+
+%
+
+Contract revenue
+
+ 
+
+ 
+
+10,433
+
+ 
+
+ 
+
+ 
+
+5
+
+%
+
+ 
+
+ 
+
+13,984
+
+ 
+
+ 
+
+ 
+
+6
+
+%
+
+ 
+
+ 
+
+(3,551
+
+)
+
+ 
+
+ 
+
+(25
+
+)%
+
+Total revenue
+
+ 
+
+$
+
+217,394
+
+ 
+
+ 
+
+ 
+
+100
+
+%
+
+ 
+
+$
+
+216,682
+
+ 
+
+ 
+
+ 
+
+100
+
+%
+
+ 
+
+$
+
+712
+
+ 
+
+ 
+
+ 
+
+0
+
+%
+
+ 
+Revenue for the year ended December 31, 2025 was $217.4 million, compared to $216.7 million for the year ended December 31, 2024, an increase of $0.7 million or 0%, which was primarily driven by a $4.3 million increase in product revenue, partially offset by a $3.6 million decrease in contract revenue. The increase in product revenue was due primarily to increase in volume of products sold, partially offset by change in average selling price as well as product mix. The decrease in contract revenue of $3.6 million or 25% was primarily due to a large multi-year non-recurring engineering project that commenced in early 2022 that is winding down in the current year toward its completion stage.
+
+48
+
+Table of Contents
+
+ 
+
+Operating expenses
+ 
+
+ 
+
+ 
+
+Fiscal Years Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(in thousands)
+
+ 
+
+$
+
+ 
+
+ 
+
+% of
+Revenue
+
+ 
+
+ 
+
+$
+
+ 
+
+ 
+
+% of
+Revenue
+
+ 
+
+ 
+
+$ Change
+
+ 
+
+ 
+
+%
+Change
+
+ 
+
+Operating expenses:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cost of goods sold
+
+ 
+
+$
+
+130,762
+
+ 
+
+ 
+
+ 
+
+60
+
+%
+
+ 
+
+$
+
+126,373
+
+ 
+
+ 
+
+ 
+
+58
+
+%
+
+ 
+
+$
+
+4,389
+
+ 
+
+ 
+
+ 
+
+3
+
+%
+
+Research and development
+
+ 
+
+ 
+
+154,092
+
+ 
+
+ 
+
+ 
+
+71
+
+%
+
+ 
+
+ 
+
+175,112
+
+ 
+
+ 
+
+ 
+
+81
+
+%
+
+ 
+
+ 
+
+(21,020
+
+)
+
+ 
+
+ 
+
+(12
+
+)%
+
+Selling, general, and administrative
+
+ 
+
+ 
+
+77,689
+
+ 
+
+ 
+
+ 
+
+36
+
+%
+
+ 
+
+ 
+
+80,945
+
+ 
+
+ 
+
+ 
+
+37
+
+%
+
+ 
+
+ 
+
+(3,256
+
+)
+
+ 
+
+ 
+
+(4
+
+)%
+
+Restructuring costs
+
+ 
+
+ 
+
+9,066
+
+ 
+
+ 
+
+ 
+
+4
+
+%
+
+ 
+
+ 
+
+4,332
+
+ 
+
+ 
+
+ 
+
+2
+
+%
+
+ 
+
+ 
+
+4,734
+
+ 
+
+ 
+
+ 
+
+109
+
+%
+
+Total operating expenses
+
+ 
+
+$
+
+371,609
+
+ 
+
+ 
+
+ 
+
+171
+
+%
+
+ 
+
+$
+
+386,762
+
+ 
+
+ 
+
+ 
+
+178
+
+%
+
+ 
+
+$
+
+(15,153
+
+)
+
+ 
+
+ 
+
+(4
+
+)%
+
+ 
+Cost of goods sold for the year ended December 31, 2025 was $130.8 million, compared to $126.4 million for the year ended December 31, 2024. The increase of $4.4 million or 3% was primarily due to a $6.8 million increase in volume and offset by $3.2 million decrease due to change in product mix. Total cost of goods sold also included certain non-cash and non-operational driven charges such as share-based compensation and amortization of certain intangible assets acquired through business combinations. For the year ended December 31, 2025, total share-based compensation and amortization of acquired intangible assets included in cost of goods sold were $1.4 million and $17.4 million, respectively. For the year ended December 31, 2024, total share-based compensation and amortization of acquired intangible assets included in cost of goods sold were $1.0 million and $16.5 million, respectively.
+
+Research and development (“R&D”) expense for the year ended December 31, 2025 was $154.1 million, compared to $175.1 million for the year ended December 31, 2024. This decrease of $21.0 million or 12% was primarily due to a $12.8 million decrease in personnel cost, a $3.8 million decrease in share-based compensation expense, and a $7.3 million decrease in various R&D program related expenses. Decreases in both the personnel cost and share-based compensation expense were primarily driven by a decrease in headcount resulting from the reduction in force that took place in August 2024 and May 2025 (See
+Note 4
+—
+ Restructuring Costs
+for additional discussion of the 2025 Restructuring Plan and 2024 Restructuring Plan). The decrease in R&D program expense reflects the wind-down of completed projects and the progression of the current development pipeline. We expect research and development expense to stabilize over time.
+
+Selling, general and administrative expense for the year ended December 31, 2025 was $77.7 million, compared to $80.9 million for the year ended December 31, 2024. The decrease of $3.3 million or 4% was primarily due to a decrease in third party professional fees and business expenses of $2.3 million. We expect selling, general, and administrative expense to stabilize over time.
+Restructuring costs for the year ended December 31, 2025 were $9.1 million due to the 2025 Restructuring Plan initiated in May 2025. Total restructuring costs for the year ended December 31, 2024 was due to the 2024 Restructuring Plan (See
+Note 4
+—
+ Restructuring Costs
+for additional discussion of the 2025 Restructuring Plan and 2024 Restructuring Plan).
+
+Other income (expense), net
+ 
+
+ 
+
+ 
+
+Fiscal Years Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(in thousands)
+
+ 
+
+$
+
+ 
+
+ 
+
+$
+
+ 
+
+ 
+
+$ Change
+
+ 
+
+ 
+
+% Change
+
+ 
+
+Other income (expense), net:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Interest income
+
+ 
+
+$
+
+7,292
+
+ 
+
+ 
+
+$
+
+4,588
+
+ 
+
+ 
+
+$
+
+2,704
+
+ 
+
+ 
+
+ 
+
+59
+
+%
+
+Interest expense
+
+ 
+
+ 
+
+(17,642
+
+)
+
+ 
+
+ 
+
+(9,258
+
+)
+
+ 
+
+ 
+
+(8,384
+
+)
+
+ 
+
+ 
+
+91
+
+%
+
+Gain from change in fair value of contingent considerations and acquisition related holdbacks
+
+ 
+
+ 
+
+6,970
+
+ 
+
+ 
+
+ 
+
+29,041
+
+ 
+
+ 
+
+ 
+
+(22,071
+
+)
+
+ 
+
+ 
+
+(76
+
+)%
+
+Gain from extinguishment of debt
+
+ 
+
+ 
+
+2,623
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+2,623
+
+ 
+
+ 
+
+ 
+
+100
+
+%
+
+Other income (expense)
+
+ 
+
+ 
+
+1,247
+
+ 
+
+ 
+
+ 
+
+(400
+
+)
+
+ 
+
+ 
+
+1,647
+
+ 
+
+ 
+
+ 
+
+(412
+
+)%
+
+Total other income, net
+
+ 
+
+$
+
+490
+
+ 
+
+ 
+
+$
+
+23,971
+
+ 
+
+ 
+
+$
+
+(23,481
+
+)
+
+ 
+
+ 
+
+(98
+
+)%
+
+ 
+Interest income for the year ended December 31, 2025 was $7.3 million, compared to $4.6 million for the year ended December 31,  2024. The increase of $2.7 million from the year ended December 31, 2024 was primarily as a result of higher cash balances due to the cash inflow from the 2029 Notes in December 2024.
+
+49
+
+Table of Contents
+
+ 
+
+Interest expense for the year ended December 31, 2025 was $17.6 million, compared to $9.3 million for the year ended December 31, 2024. The increase of  $8.4 million was primarily as a result of the addition of the 2029 Notes in December 2024.
+For the years ended December 31, 2025 and 2024, we recognized gains from change in fair value for contingent considerations and acquisition-related holdbacks. During the year ended December 31, 2025, we recognized a net gain from change in fair value of our contingent considerations and acquisition-related holdbacks of $7.0 million. The net gain is primarily attributed to a net unrealized gain of $1.8 million, $0.6 million and $1.9 million for the contingent considerations related to the emotion3D, Exalos and Kinetic acquisitions, respectively, and a net realized gain of $2.7 million for the acquisition-related holdbacks related to the GEO acquisition. During the year ended December 31, 2024, we recognized a net gain from change in fair value of our contingent considerations and acquisition-related holdbacks of $29.0 million, which is primarily contributed by a net gain of $31.9 million for the contingent considerations and acquisition-related holdback related to our acquisition of GEO Semiconductor Inc. which closed in March 2023, partially offset by a loss of $3.0 million for the contingent considerations related to indie Switzerland.
+Gain from extinguishment of debt of $2,623 for the year ended December 31, 2025 resulted from the repurchase of our 2027 Notes in June 2025 (See
+Note 9
+—
+ Debt
+for additional discussion of the transaction related to the 2027 Notes).
+Other income (expense) for the year ended December 31, 2025 was $1.2 million, compared to $(0.4) million for the year ended December 31, 2024. Other income (expense) relates primarily to the realized and unrealized foreign currency gains and losses during the period, which was primarily driven by a net gain of $0.8 million and a net loss of $1.6 million, respectively, related to the change in fair value of our currency forward contracts entered during the periods.
+
+Income Taxes
+Income tax benefits for the year ended December 31, 2025 are primarily related to our foreign operations and U.S. subsidiaries that are nonconsolidated for tax purposes. Income tax benefits for the year ended December 31, 2024 is primarily related to our foreign operations.
+Liquidity and Capital Resources
+Our primary use of cash is to fund operating expenses, which consist primarily of research and development expenditures, working capital requirements related to inventory, accounts payable and general and administrative expenditures. In addition, from time to time, we use cash to fund our mergers and acquisitions, purchases of various capital, intellectual property and software assets and scheduled repayments for outstanding debt obligations. Our immediate sources of liquidity are cash, cash equivalents and funds anticipated to be generated from our operations, and available borrowings under our revolving credit facility and the issuance of Class A common stock under the ATM Agreement. We believe these sources of liquidity will be sufficient to meet our liquidity needs for at least the next 12 months. Our future capital requirements may vary from those currently planned and will depend on many factors, including our rate of sales growth, the timing and extent of spending on various business initiatives, including potential merger and acquisition activities, our international expansion, the timing of new product introductions, market acceptance of our solutions, and overall economic conditions including the potential impact of global supply imbalances, rising interest rates, inflationary pressures, and volatility in the global financial markets. To the extent that current and anticipated future sources of liquidity are insufficient to fund our future business activities and requirements, we may be required to seek additional equity or debt financing. We have cash deposits with large financial institutions that have stable outlooks and credit ratings as of February 27, 2026. These cash deposits may exceed the insurance provided on such deposits. As part of our cash management strategy going forward, we concentrate cash deposits with large financial institutions that are subject to regulation and maintain deposits across diverse retail banks.
+
+50
+
+Table of Contents
+
+ 
+
+Historically, we derive liquidity primarily from debt and equity financing activities as we have historically had negative cash flows from operations. On August 26, 2022, we entered into the ATM Agreement with the Sales Agents relating to shares of our Class A common stock. In accordance with the terms of the ATM Agreement, we may offer and sell shares of our Class A common stock having an aggregate offering price of up to $150.0 million from time to time through the Sales Agents, acting as our agent or principal. The ATM Agreement was previously registered on our registration statement on Form S-3 (Registration No. 333-267120) (the "2022 Registration Statement") which expired on September 7, 2025. Prior to its expiration, on August 29, 2025, we filed with the SEC a prospectus supplement to our automatic shelf registration on Form S-3ASR (Registration No. 333-285653) to register the offering of the unsold securities of $59.8 million pursuant to the ATM Agreement. We implemented and renewed this program for the flexible access it provides to the capital markets. During the year ended December 31, 2025, there was no ATM related activity. As of December 31, 2025, we have raised gross proceeds of $90.2 million and issued 11,138,984 shares of Class A common stock at an average per-share sales price of $8.10 through this program and had approximately $59.8 million available for future issuances under the ATM Agreement. As of December 31, 2025, we have incurred total issuance costs of $1.9 million since inception.
+In December 2023, employees in Wuxi exercised options granted to them through the Wuxi Employee Equity Incentive Plan (the “Wuxi EIP”) and contributed total capital of CNY88.0 million (or approximately $12.3 million) from option proceeds in preparation for a potential IPO in China. The funds were and will be used by Wuxi for general corporate purposes. Wuxi does not have an obligation to repay the collected capital to its employees in the case of an unsuccessful IPO.
+On March 29, 2024, we entered into a revolving line of credit agreement with Wells Fargo Bank, National Association (“Wells Fargo”) with a credit limit of $10.0 million, bearing interest at the Secured Overnight Financing Rate (“SOFR”) plus 1.75%. The outstanding principal balance was originally due and payable in full on March 28, 2025. This revolving line of credit was renewed on March 29, 2025, and the outstanding principal balance is due and payable in full on March 27, 2026. Interest is payable monthly beginning on May 1, 2025 through the maturity date. Fees of $50 thousand incurred will be amortized over the life of the credit agreement. This line of credit required us to collateralize a cash balance equal to the total outstanding balance in a cash security account with Wells Fargo.
+On December 6, 2024, we issued $218.5 million in aggregate principal amount of our 2029 Notes. The 2029 Notes will be convertible into cash, shares of common stock or a combination of cash and common stock at our election in accordance with the terms of the indenture governing the 2029 Notes. In connection with the 2029 Notes, we entered into privately negotiated capped call transactions with certain of the initial purchasers or their respective affiliates and other financial institutions. The capped call transactions are expected generally to reduce potential dilution to our common stock upon any conversion of 2029 Notes and/or offset any potential cash payments we are required to make in excess of the principal amount of converted 2029 Notes, as the case may be. We used approximately $23.4 million of the net proceeds from issuance of the 2029 Notes to pay the cost of the capped call transactions. We intend to use the remainder of the net proceeds from the issuance of the 2029 Notes for working capital and general corporate purposes, which may include potential acquisitions. Refer to
+Note 9 - Debt
+, in our accompanying consolidated financial statements for additional detail.
+In June 2025, we entered into several separate, privately negotiated purchase agreements to repurchase $30.0 million in aggregate principal amount of our 2027 Notes at a discount. The repurchase was funded by cash on hand and accounted for as an extinguishment of debt. Concurrent with the repurchase, we repaid $0.1 million of accrued interest associated with the repurchased principal. Upon completion of this repurchase, $130.0 million principal amount of the 2027 Notes remains outstanding. Refer to
+Note 9 - Debt
+,
+
+in our accompanying consolidated financial statements for additional detail.
+Acquisitions
+We have completed multiple acquisitions in the last couple of years and we plan to selectively pursue and assess inorganic growth opportunities that are complementary to our existing technologies and portfolio of products and/or accelerate our growth initiatives.
+
+In connection with our acquisitions, we may from time to time be required to make future payments or issue additional shares of our common stock to satisfy our obligations under the acquisition agreements, including to satisfy certain earn-out requirements.
+
+In September 2023, we acquired indie Switzerland. The closing consideration consisted of (i) the issuance by indie of 6,613,786 shares of Class A common stock at closing, with a fair value of $42.8 million; (ii) a contingent consideration with fair value of $9.8 million at closing, payable in cash, subject to indie Switzerland's achievement of certain revenue-based milestones through September 30, 2025; and (iii) a holdback of $2.5 million subject to final release 12 months from the acquisition date payable in shares of Class A common stock.
+
+51
+
+Table of Contents
+
+ 
+
+On January 25, 2024, we completed the acquisition of certain business properties from Kinetic through an asset purchase agreement. The closing consideration consisted of (i) $3.2 million in cash as the initial cash consideration, net of an adjustment holdback amount of $0.5 million and an indemnity holdback amount of $0.8 million, (ii) $2.3 million of total contingent considerations, payable in cash or Class A common stock, subject to achievement of certain production based milestone for the next 24 months, or through January 25, 2026, and (iii) $2.3 million of contingent considerations, payable in cash or Class A common stock, subject to achievement of certain revenue based milestones 12 months after January 25, 2024. The indemnity holdback amount was payable within five business days after the 18-month anniversary of the closing date of January 25, 2024 and is payable in shares of Class A common stock.
+On September 26, 2025, we completed the acquisition of emotion3D, whereby Ay Dee Kay Ltd. acquired all of the outstanding common shares of emotion3D. The closing consideration consisted of (i) $17.7 million in cash as the initial cash consideration (including debt paid at closing and net of cash acquired) (ii) certain contingent considerations with total preliminary fair value of $7.3 million, payable in cash or Class A common stock at indie's sole election, subject to emotion3D's achievement of certain revenue-based milestones through February 28, 2027; and (iii) certain holdbacks and adjustments totaling $3.0 million subject to final release 24 months from the Deal Closing Date.
+We expect to continue to incur net operating losses and negative cash flows from operations. We also expect our research and development expenses, general and administrative expenses and capital expenditures to stabilize over time.
+As of December 31, 2025, our balance of cash and cash equivalents, including restricted cash, was $155.7 million.
+The following table summarizes our consolidated cash flows for the years ended December 31, 2025 and 2024:
+ 
+
+ 
+
+Fiscal Years Ended
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+Net cash used in operating activities
+
+ 
+
+$
+
+(57,130
+
+)
+
+ 
+
+$
+
+(58,601
+
+)
+
+Net cash used in investing activities
+
+ 
+
+ 
+
+(31,967
+
+)
+
+ 
+
+ 
+
+(19,259
+
+)
+
+Net cash provided by (used in) financing activities
+
+ 
+
+ 
+
+(38,941
+
+)
+
+ 
+
+ 
+
+209,334
+
+ 
+
+ 
+A discussion of our cash flows for the year ended December 31, 2024 is included under “Liquidity and Capital Resources” in Part II, Item 7, Management’s Discussion and Analysis of Financial Condition and Results of Operations, included in our Annual Report on Form 10-K for the year ended December 31, 2024 filed with the Securities and Exchange Commission on March 3, 2025.
+Operating Activities
+Our primary use of cash is to fund operating expenses, which consist primarily of research and development expenditures, working capital requirements related to inventory, accounts payable and general and administrative expenditures.
+
+For the year ended December 31, 2025, net cash used in operating activities was $57.1 million, which included net loss of $150.7 million and reflected adjustments for certain non-cash items and changes in operating assets and liabilities. Non-cash adjustments primarily consisted of (i) $65.1 million in share-based compensation expense and $40.4 million in depreciation and amortization, which are partially offset by (ii) $7.8 million of net gains resulting from a change in fair value for contingent considerations and currency forward contracts. Changes in operating assets and liabilities from operations used $12.2 million of cash, primarily driven by a decrease in accounts payable and an increase in accounts receivable, offset by a decrease in inventory and accrued expenses and other liabilities.
+
+Cash used in operating activities during the year ended December 31, 2024 was $58.6 million, which included net loss of $144.2 million and reflected adjustments for certain non-cash items and changes in operating assets and liabilities. Non-cash adjustments primarily consisted of (i) $67.2 million in share-based compensation expense and $39.8 million in depreciation and amortization, which are partially offset by (ii) $27.4 million of net gains resulting from a change in fair value for contingent considerations and currency forward contracts. Changes in operating assets and liabilities from operations provided $1.1 million of cash, primarily driven by an increase in inventory and a decrease in other liabilities, offset by a decrease in accounts receivable and an increase in accounts payable.
+Investing Activities
+Net cash used in investing activities for the year ended December 31, 2025 was $32.0 million. During the year ended December 31, 2025, the decrease in cash was primarily due to the acquisition of emotion3D for $17.7 million, net of cash acquired, as well as the
+
+52
+
+Table of Contents
+
+ 
+
+purchase of capital expenditures for $14.3 million. We expect that we will make additional capital expenditures in the future, including licenses to various intangible assets, in order to support the future growth of our business.
+
+Net cash used in investing activities for the year ended December 31, 2024 was $19.3 million. The decrease in cash was primarily due to the acquisition of Kinetic for $3.2 million, net of cash acquired, as well as cash used of $14.3 million for the purchase of capital expenditures. We expect that we will make additional capital expenditures in the future, including licenses to various intangible assets, in order to support the future growth of our business.
+
+Financing Activities
+Net cash used in financing activities for the year ended December 31, 2025 was $38.9 million, which was primarily attributed to $26.8 million net payments for the repurchase of the 2027 Notes in June 2025, $8.0 million of payments on financed software, and $2.5 million of payment in connection with the first contingent consideration under the Kinetic acquisition.
+Net cash provided by financing activities for the year ended December 31, 2024 was $209.3 million, which was primarily attributed to $186.1 million net proceeds from the 2029 Notes, which included $218.5 million gross proceeds, $9.0 million issuance cost and $23.4 million cost of capped call. We also received $19.4 million of net proceeds from the issuance of common stock through the ATM, and $10.0 million of net proceeds from the issuance of the line of credit through Wells Fargo. These cash inflows are partially offset by $8.0 million payments on other debt obligations and $5.5 million of payments on financed software.
+Future Material Cash Obligations
+Following is a summary of our material cash requirements from known contractual and other obligations, including commitments for capital expenditures, as of December 31, 2025:
+ 
+
+ 
+
+Future Estimated Cash Payments Due by Period
+
+ 
+
+Contractual Obligations
+
+ 
+
+Less than
+1 year
+
+ 
+
+ 
+
+1 - 3 years
+
+ 
+
+ 
+
+3-5 years
+
+ 
+
+ 
+
+>5 years
+
+ 
+
+ 
+
+Total
+
+ 
+
+Debt obligations
+
+ 
+
+$
+
+13,891
+
+ 
+
+ 
+
+$
+
+130,000
+
+ 
+
+ 
+
+$
+
+218,500
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+362,391
+
+ 
+
+Interest on debt obligations
+
+ 
+
+ 
+
+13,497
+
+ 
+
+ 
+
+ 
+
+20,414
+
+ 
+
+ 
+
+ 
+
+7,329
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+41,240
+
+ 
+
+Operating leases
+
+ 
+
+ 
+
+4,193
+
+ 
+
+ 
+
+ 
+
+7,954
+
+ 
+
+ 
+
+ 
+
+4,625
+
+ 
+
+ 
+
+ 
+
+2,388
+
+ 
+
+ 
+
+ 
+
+19,160
+
+ 
+
+Holdbacks payable in cash
+
+ 
+
+ 
+
+1,720
+
+ 
+
+ 
+
+ 
+
+1,000
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+2,720
+
+ 
+
+Total contractual obligations
+
+ 
+
+$
+
+33,301
+
+ 
+
+ 
+
+$
+
+159,368
+
+ 
+
+ 
+
+$
+
+230,454
+
+ 
+
+ 
+
+$
+
+2,388
+
+ 
+
+ 
+
+$
+
+425,511
+
+ 
+
+ 
+In connection with our acquisitions (See subheading titled
+Liquidity and Capital Resources
+—
+Acquisitions
+above), we may be required to make future payments or issue additional shares of our common stock to satisfy certain earn-out requirements under the acquisition agreements.
+Critical Accounting Estimates
+The discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with generally accepted accounting principles (“GAAP”). The preparation of these financial statements requires us to make estimates and judgments in applying our most critical accounting policies that can have a significant impact on the results we report in our financial statements. The SEC has defined critical accounting estimates as those that involve a significant level of estimation uncertainty and have had or are reasonably likely to have a material impact on a registrant’s financial condition or results of operations. Based on this definition, our most critical accounting estimates include revenue recognition, which impacts the recording of net revenue; business combinations, which impacts the fair value of acquired assets and assumed liabilities; and contingent considerations, which impact the fair value of assumed liabilities and the recording of other income (expense). These policies and significant judgments involved are discussed further below. We have other significant accounting policies that do not generally require subjective estimates or judgments or would not have a material impact on our results of operations. Our significant accounting policies and estimates are described in
+Note 2 — Summary of Significant Accounting Policies
+ to Item 8 of this Annual Report on Form 10-K.
+Revenue Recognition
+
+53
+
+Table of Contents
+
+ 
+
+We enter into contracts with customers that can include various combinations of products and services. As a result, our contracts may contain multiple performance obligations. We determine whether arrangements are distinct based on whether the customer can benefit from the product or service on its own or together with other resources that are readily available and whether our commitment to transfer the product or service to the customer is separately identifiable from other obligations in the contract.
+In particular, we enter into engineering services contracts with customers that generally contain only one distinct performance obligation, which is design services for ICs based on agreed-upon specifications. Engineering services contracts typically also include the purchase, at the customer’s option, of ICs at agreed upon prices subsequent to completion of IC design services. We have determined that the option to purchase ICs is not a material right and has not allocated transaction price to this provision.
+For IC development arrangements, revenue is recognized over time as services are provided based on the terms of the contract on an input basis, using costs incurred as the measure of progress and is recorded as contract revenue in the consolidated statement of operations. The costs incurred represent the most reliable measure of transfer of control to the customer.
+
+Business Combinations
+We allocate the fair value of the purchase consideration of a business acquisition to the tangible assets, liabilities, and intangible assets acquired, including in-process research and development (“IPR&D”), based on their estimated fair values. The excess of the fair value of purchase consideration over the fair values of these identifiable assets and liabilities is recorded as goodwill. IPR&D is initially capitalized at fair value as an intangible asset with an indefinite life and assessed for impairment thereafter. When an IPR&D project is completed, the IPR&D is reclassified as an amortizable purchased intangible asset and amortized over the asset’s estimated useful life. Our valuation of acquired assets and assumed liabilities requires significant estimates, especially with respect to intangible assets. The valuation of intangible assets, in particular, requires that we use valuation techniques such as the market, income and cost approach. These approaches include the use of a discounted cash flow model, which includes discounted cash flow scenarios and requires the following significant estimates: future expected revenue, expenses, capital expenditures and other costs, and discount rates; or weighted average cost of capital, and any cost savings that are expected to be derived in the future from the viewpoint of a market participant. We estimate the fair value based upon assumptions we believe to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. Estimates associated with the accounting for acquisitions may change as additional information becomes available regarding the assets acquired and liabilities assumed. Acquisition-related expenses are recognized separately from the business combination and are expensed as incurred.
+Contingent Considerations
+Our contingent consideration obligations are arrangements resulting from acquisitions that involve potential future payment of consideration that is contingent upon the achievement of certain financial metrics. Contingent consideration is recognized at its estimated fair value at the date of acquisition based on our expected future payment, discounted using accepted valuation methodologies.
+We review and re-assess the estimated fair value of contingent consideration liabilities at each reporting period and the updated fair value could differ materially from the initial estimates. We measure contingent consideration recognized in connection with acquisitions at fair value on a recurring basis using significant unobservable inputs classified as Level 3 inputs. The fair value is measured based on a Monte Carlo simulation or a scenario-based method, depending on the earnout objective and the timing of the measurement. The fair value measurement includes the following significant inputs: volatility, projected financial information and scenario probability. Significant increases or decreases to any of these inputs in isolation could result in a significantly higher or lower liability. Ultimately, the liability will be equivalent to the amount paid, and the difference between the fair value estimate on the acquisition date and each reporting period and the amount paid will be recognized in earnings within
+Other Income (Expense), net
+ on the consolidated statements of operations.
+
+Impairment Assessment for Goodwill and Indefinite Lived Intangible Assets
+We follow the Financial Accounting Standards Board ("FASB") Accounting Standards Codification ("ASC") Topic 350,
+Intangibles-Goodwill and Other
+ (“ASC 350”).
+ASC 350
+ requires the completion of a goodwill impairment test and test of other indefinite lived intangible assets at least annually based on either an optional qualitative assessment or a quantitative analysis comparing the estimated
+
+54
+
+Table of Contents
+
+ 
+
+fair value of a reporting unit or indefinite lived intangible asset to its carrying value as of the test date of October 1st each year, unless there are indications requiring a more frequent impairment test. Any impairment charges are based on the quantitative analysis.
+We have two reporting units with allocated goodwill, which are reevaluated annually or when triggered, such as upon reorganization of our operating segments or due to business reasons that result in material changes as to how our reporting units are organized and managed. Impairment assessments may be qualitative or quantitative in nature. A quantitative assessment is required if we determine, based on a qualitative assessment, that it is more likely than not that a reporting unit’s fair value is less than its carrying value, or if there are material changes to the structure of our reporting units. The reporting unit's carrying value used in an impairment assessment represents the allocation of various assets and liabilities, excluding certain corporate assets and liabilities, such as cash, investments and debt.
+
+Our quantitative assessments considered both the income and market approaches to estimate the fair value of each reporting unit. Inherent in the fair value determinations are significant judgments and estimates, including assumptions about future revenue, profitability and cash flows, our operational plans and our interpretation of current economic indicators and market valuations. The income approach was based on the discounted cash flow method that used estimates of the reporting units' revenue growth rates and operating margins as part of our long-term planning process, taking into consideration, historical data and industry and market conditions. The discount rate used to determine the present value of future cash flows was based on the weighted-average cost of capital adjusted for the relevant risk associated with business-specific characteristics and the uncertainty related to the ability to execute on the projected cash flows. The market approach estimated fair value based on market multiples of revenue and earnings derived from comparable publicly traded companies with similar operating and investment characteristics.
+On October 1, 2025, we completed a quantitative analysis over both of our reporting units using a combination of income and market approaches. The fair value of both reporting units exceeded their carrying values.
+Our fiscal 2024 annual assessment was performed using a qualitative approach as of October 1, 2024 on our two reporting units with a remaining goodwill balance. While performing qualitative assessments, we consider the following factors which could trigger a goodwill impairment review: (i) significant underperformance relative to historical or projected future operating results; (ii) significant changes in the manner or our use of the acquired assets or the strategy for our overall business; (iii) significant negative industry or economic trends; (iv) a significant decline in our stock price for a sustained period; and (v) a significant change in our market capitalization relative to our net book value. Based on our fiscal 2024 qualitative assessment, we concluded there were no events or circumstances that indicated it was more likely than not that the fair value of each reporting unit was less than its respective carrying value.
+Refer to
+Note 7 - Intangible Assets, Net
+and
+Note 8 - Goodwill
+ to the accompanying consolidated financial statements for additional information regarding our goodwill and intangible assets.
+Recently Issued and Adopted Accounting Standards
+For information regarding new accounting pronouncements, and the impact of these pronouncements on our consolidated financial statements, if any, see
+Note 2 —Summary of Significant Accounting Policies
+ in our accompanying financial statements.
+
+55
+
+Table of Contents

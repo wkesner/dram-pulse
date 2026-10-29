@@ -1,0 +1,30 @@
+{
+  "company": "Insight Enterprises",
+  "ticker": "NSIT",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000932696",
+  "form": "8-K",
+  "filing_date": "2025-12-19",
+  "accession_number": "0000932696-25-000032",
+  "primary_document": "nsit-20251217.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/932696/000093269625000032/nsit-20251217.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-17",
+  "period_end": "2025-12-17",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:28:45.728891+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/NSIT/000093269625000032/primary.html",
+    "other": "data/raw/NSIT/000093269625000032/other_full.txt"
+  }
+}

@@ -1,0 +1,978 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Cautionary Statement Concerning Forward-Looking Statements
+This report contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, as amended. You should not place undue reliance on these statements. All statements other than statements of historical fact included in this report are forward-looking statements. These statements relate to analyses and other information which are based on forecasts of future results and estimates of amounts not yet determinable. These statements also relate to our future prospects, developments and business strategies. These forward-looking statements are identified by the use of terms and phrases such as “anticipate," “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “predict,” “project,” “will,” and similar terms and phrases, including references to assumptions. However, these words are not the exclusive means of identifying such statements. Although we believe that our plans, intentions and expectations reflected in or suggested by such forward-looking statements are reasonable, we cannot assure you that we will achieve those plans, intentions or expectations. All forward-looking statements are subject to risks and uncertainties that may cause actual results to differ materially from those that we expected. Important factors that could cause actual results to differ materially from our expectations, or cautionary statements, include geopolitical, economic and market conditions, including high inflation, changes to tax, trade, fiscal and monetary policy, high interest rates, currency fluctuations, challenges in the supply chain and any disruptions in the global economy as a result of the conflicts in Ukraine and the Middle East; dependence on expenditures by manufacturers and cyclical downturns in the semiconductor capital equipment industry; reliance on a very small number of original equipment manufacturers (“OEMs”) for a significant portion of sales; being unable to attract, hire, integrate and retain key personnel and other necessary employees; negotiating leverage held by our customers; competitiveness and rapid evolution of the industries in which we participate; keeping pace with developments in the industries we serve and with technological innovation generally; designing, developing and introducing new products that are accepted by OEMs in order to retain our existing customers and obtain new customers; becoming involved in litigation and regulatory proceedings, which could require significant attention from our management and result in significant expense to us and disruptions in our business; managing our manufacturing and procurement process effectively; defects in our products that could damage our reputation, decrease market acceptance and result in potentially costly litigation; our dependence on a limited number of suppliers; and other factors set forth in this report, and those set forth in
+Part I – Item 1A. Risk Factors
+ of our Annual Report on Form 10‑K for the fiscal year ended December 27, 2024 (“2024 Annual Report on Form 10-K”) and our other filings with the Securities and Exchange Commission (“SEC”). All written and oral forward-looking statements attributable to us, or persons acting on our behalf, are expressly qualified in their entirety by the cautionary statements contained in this report and in our 2024 Annual Report on Form 10-K, as well as other cautionary statements that are made from time to time in our other filings with the SEC and public communications. You should evaluate all forward-looking statements made in this report in the context of these risks and uncertainties.
+We caution you that the important factors referenced above may not contain all of the factors that are important to you. In addition, we cannot assure you that we will realize the results or developments we expect or anticipate or, even if substantially realized, that they will result in the consequences or affect us or our operations in the way we expect. The forward-looking statements included in this report are made only as of the date hereof. We undertake no obligation to publicly update or revise any forward-looking statement as a result of new information, future events or otherwise, except as otherwise required by law.
+You should read the following discussion and analysis of our financial condition and results of operations in conjunction with our consolidated unaudited financial statements and related notes included elsewhere in this report.
+16
+Overview
+We are a leader in the design, engineering, and manufacturing of critical fluid delivery subsystems and components for semiconductor capital equipment. Our product offerings include gas and chemical delivery systems and subsystems, collectively known as fluid delivery systems and subsystems, which are key elements of the process tools used in the manufacturing of semiconductor devices. Our gas delivery subsystems deliver, monitor, and control precise quantities of the specialized gases used in semiconductor manufacturing processes such as etch and deposition. Our chemical delivery systems and subsystems precisely blend and dispense the reactive liquid chemistries used in semiconductor manufacturing processes such as chemical-mechanical planarization, electroplating, and cleaning. We also provide precision-machined components, weldments, electron beam (“e‑beam”) and laser-welded components, precision vacuum and hydrogen brazing and surface treatment technologies, and other proprietary products for the commercial space, aerospace, defense, medical device, and general-industrial industries. This vertically integrated portion of our business is primarily focused on metal and plastic parts that are used in gas and chemical systems, respectively.
+Fluid delivery subsystems ensure accurate measurement and uniform delivery of specialty gases and chemicals at critical steps in the semiconductor manufacturing processes. Any malfunction or material degradation in fluid delivery reduces yields and increases the likelihood of manufacturing defects in these processes. Most OEMs outsource all or a portion of the design, engineering, and manufacturing of their gas delivery subsystems to a few specialized suppliers, including us. Additionally, many OEMs are outsourcing the design, engineering, and manufacturing of their chemical delivery subsystems due to the increased fluid expertise required to manufacture these subsystems. Outsourcing these subsystems allows OEMs to leverage suppliers’ highly specialized engineering, design, and production skills while focusing their internal resources on their own value-added processes. Outsourcing enables OEMs to reduce their costs and development time, as well as provide growth opportunities for specialized subsystems suppliers like us.
+We have a global footprint with production facilities in California, Minnesota, Oregon, Texas, Singapore, Malaysia, Mexico, and Korea.
+The following table summarizes key financial information for the periods indicated. Amounts are presented in accordance with GAAP unless explicitly identified as being a non-GAAP metric. For a description of our non-GAAP metrics and reconciliations to the most comparable GAAP metrics, please refer below to the section entitled
+Non-GAAP Financial Results
+ within this report.
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+(dollars in thousands, except per share amounts)
+Net sales
+$
+239,296 
+$
+211,139 
+$
+724,046 
+$
+615,749 
+Gross margin
+4.6 
+%
+13.2 
+%
+9.2 
+%
+12.4 
+%
+Non-GAAP gross margin
+12.1 
+%
+13.6 
+%
+12.3 
+%
+12.9 
+%
+Operating margin
+(8.1)
+%
+(0.2)
+%
+(3.5)
+%
+(1.0)
+%
+Non-GAAP operating margin
+2.2 
+%
+3.0 
+%
+2.5 
+%
+2.2 
+%
+Net loss
+$
+(22,853)
+$
+(2,776)
+$
+(36,820)
+$
+(16,877)
+Non-GAAP net income
+$
+2,302 
+$
+4,020 
+$
+7,635 
+$
+3,127 
+Diluted EPS
+$
+(0.67)
+$
+(0.08)
+$
+(1.08)
+$
+(0.52)
+Non-GAAP diluted EPS
+$
+0.07 
+$
+0.12 
+$
+0.22 
+$
+0.10 
+17
+Macroeconomic Conditions and Business Update
+The semiconductor capital equipment industry is inherently cyclical. Overall semiconductor equipment spending in 2025 is anticipated to grow over 2024 levels, particularly in our primary markets of etch and deposition, where current demand remains healthy among our customers. However, the global trade environment and the outcome of ongoing negotiations between the United States and other countries with respect to tariffs remains uncertain and could materially affect our costs for materials, prices for our products, and demand. To date, although we have experienced modest increases in costs for certain of our materials, tariffs have not materially impacted demand for our products or costs for materials. Currently, semiconductors are excluded from the "reciprocal tariffs" and our tariff exemption under the U.S.-Mexico-Canada Agreement remains applicable to imports from our operations in Mexico. However, we cannot provide any assurance that these exclusions and exemptions will remain in place indefinitely, or that any new or expanded tariffs will not have a material adverse impact on our business in the future. Additionally, recent and potential future expansions of U.S. export controls and similar regulations aimed at restricting China's access to advanced semiconductor technology create market uncertainty and could adversely impact our sales. These controls, which require specific export licenses, could reduce demand for our equipment, disrupt our supply chain, and negatively affect our financial results.
+While challenging macroeconomic conditions may persist in the near and intermediate term, we remain confident in our belief that the long-term demand for semiconductors, semiconductor capital equipment, and our products will continue to grow, driven by an increasing need for expanded semiconductor productive capacity and advanced manufacturing process technologies.
+Results of Operations
+The following table sets forth our unaudited results of operations for the periods presented. The period‑to‑period comparison of results is not necessarily indicative of results for future periods.
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+(in thousands)
+Net sales
+$
+239,296 
+$
+211,139 
+$
+724,046 
+$
+615,749 
+Cost of sales
+228,227 
+183,348 
+657,253 
+539,407 
+Gross profit
+11,069 
+27,791 
+66,793 
+76,342 
+Operating expenses:
+Research and development
+5,898 
+5,872 
+17,482 
+17,168 
+Selling, general, and administrative
+22,519 
+20,227 
+68,515 
+59,253 
+Amortization of intangible assets
+2,077 
+2,077 
+6,233 
+6,309 
+Total operating expenses
+30,494 
+28,176 
+92,230 
+82,730 
+Operating loss
+(19,425)
+(385)
+(25,437)
+(6,388)
+Interest expense, net
+1,653 
+1,638 
+4,934 
+7,592 
+Other expense, net
+1,092 
+587 
+1,366 
+876 
+Loss before income taxes
+(22,170)
+(2,610)
+(31,737)
+(14,856)
+Income tax expense
+683 
+166 
+5,083 
+2,021 
+Net loss
+$
+(22,853)
+$
+(2,776)
+$
+(36,820)
+$
+(16,877)
+18
+The following table sets forth our unaudited results of operations as a percentage of our total sales for the periods presented.
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+Net sales
+100.0 
+100.0 
+100.0 
+100.0 
+Cost of sales
+95.4 
+86.8 
+90.8 
+87.6 
+Gross profit
+4.6 
+13.2 
+9.2 
+12.4 
+Operating expenses:
+Research and development
+2.5 
+2.8 
+2.4 
+2.8 
+Selling, general, and administrative
+9.4 
+9.6 
+9.5 
+9.6 
+Amortization of intangible assets
+0.9 
+1.0 
+0.9 
+1.0 
+Total operating expenses
+12.7 
+13.3 
+12.7 
+13.4 
+Operating loss
+(8.1)
+(0.2)
+(3.5)
+(1.0)
+Interest expense, net
+0.7 
+0.8 
+0.7 
+1.2 
+Other expense, net
+0.5 
+0.3 
+0.2 
+0.1 
+Loss before income taxes
+(9.3)
+(1.2)
+(4.4)
+(2.4)
+Income tax expense
+0.3 
+0.1 
+0.7 
+0.3 
+Net loss
+(9.6)
+(1.3)
+(5.1)
+(2.7)
+Comparison of the Three and Nine Months Ended September 26, 2025 and September 27, 2024
+Net sales
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Net sales
+$
+239,296 
+$
+211,139 
+$
+28,157 
+13.3 
+%
+$
+724,046 
+$
+615,749 
+$
+108,297 
+17.6 
+%
+The increase in net sales from the three and nine months ended September 27, 2024 to the three and nine months ended September 26, 2025 was primarily due to increased customer demand as a result of a stronger semiconductor capital equipment spending environment.
+19
+Gross margin
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Cost of sales
+$
+228,227 
+$
+183,348 
+$
+44,879 
+24.5%
+$
+657,253 
+$
+539,407 
+$
+117,846 
+21.8%
+Gross profit
+$
+11,069 
+$
+27,791 
+$
+(16,722)
+(60.2)%
+$
+66,793 
+$
+76,342 
+$
+(9,549)
+(12.5)%
+Gross margin
+4.6 
+%
+13.2 
+%
+-860 
+ bps
+9.2 
+%
+12.4 
+%
+-320 
+ bps
+The decrease in gross margin from the third quarter of 2024 to the third quarter of 2025 was primarily due to increased inventory write-off costs of $16.7 million associated with our ongoing Consolidation Restructuring Plan, partially offset by higher volume.
+The decrease in gross margin from the nine months ended September 27, 2024 to the nine months ended September 26, 2025 was primarily due to inventory write-off costs of $18.3 million associated with our Consolidation Restructuring Plan and the planned exit from our Scotland operations, and additional employee expenses, partially offset by higher volume.
+Research and development
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Research and development
+$
+5,898 
+$
+5,872 
+$
+26 
+0.4 
+%
+$
+17,482 
+$
+17,168 
+$
+314 
+1.8 
+%
+The increase in research and development expenses from the three and nine months ended September 27, 2024 to the three and nine months ended September 26, 2025, respectively, was primarily due to fluctuations in material and service costs from our new product development programs and in employee-related expenses, inclusive of share-based compensation expense, and professional legal expenses.
+Selling, general, and administrative
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Selling, general, and administrative
+$
+22,519 
+$
+20,227 
+$
+2,292 
+11.3 
+%
+$
+68,515 
+$
+59,253 
+$
+9,262 
+15.6 
+%
+The increase in selling, general, and administrative expenses from the third quarter of 2024 to the third quarter of 2025 was primarily due to restructuring costs associated with the Consolidation Restructuring Plan of $0.9 million, increased employee salary cost of $0.7 million, increased legal and professional consulting costs of $0.4 million, increased employee health insurance claims of $0.2 million, and increased severance costs of $0.2 million, partially offset by reduced stock based compensation of $0.2 million.
+The increase in selling, general, and administrative expenses from the nine months ended September 27, 2024 to the nine months ended September 26, 2025 was primarily due to increased exit disposal costs of $2.1 million associated with the planned exit from our Scotland operations, increased employee salary cost of $1.9 million, increased share based compensation expense of $1.8 million, increased employee health insurance claims of $1.6 million, restructuring costs associated with the Consolidation Restructuring Plan of $0.9 million, increased costs associated with software and IT services of $0.9 million, increased outside service provider costs of $0.7 million, and increased severance costs of $0.6 million, partially offset by reduced transaction-related costs associated with our acquisitions pipeline of $0.8 million.
+20
+Amortization of intangible assets
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Amortization of intangible assets
+$
+2,077 
+$
+2,077 
+$
+— 
+— 
+%
+$
+6,233 
+$
+6,309 
+$
+(76)
+(1.2)
+%
+Amortization expense remained substantially unchanged from the three and nine months ended September 27, 2024 to the three and nine months ended September 26, 2025.
+Interest expense, net
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Interest expense, net
+$
+1,653 
+$
+1,638 
+$
+15 
+0.9 
+%
+$
+4,934 
+$
+7,592 
+$
+(2,658)
+(35.0)
+%
+Weighted average borrowings outstanding
+$
+123,805 
+$
+131,250 
+$
+(7,445)
+(5.7)
+%
+$
+125,678 
+$
+169,430 
+$
+(43,752)
+(25.8)
+%
+Weighted average borrowing rate
+6.08 
+%
+7.23 
+%
+-115 bps
+6.13 
+%
+7.43 
+%
+-130 bps
+Interest expense, net, remained substantially unchanged from the three months ended September 27, 2024 to the three months ended September 26, 2025 due to a decrease in our weighted average borrowings outstanding and a decrease in our weighted average borrowing rate, offset by lower interest income.
+The decrease in interest expense, net from the nine months ended September 27, 2024 to the nine months ended September 26, 2025 was primarily due to a decrease in our weighted average borrowings outstanding and a decrease in our weighted average borrowing rate, partially offset by lower interest income.
+The reduction in our weighted average borrowings outstanding was primarily due to paying off our revolving credit facility near the end of the first quarter of 2024. The decrease in our weighted average borrowing rate was due to lower applicable margin as a result of a lower leverage ratio (-25 and -40 bps for the third quarter of 2025 and 2024, respectively) and lower Secured Overnight Financing Rate ("SOFR") rates, the variable portion of our borrowing rate (-90 bps for both the nine months ended September 26, 2025 and September 27, 2024).
+Other expense, net
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Other expense, net
+$
+1,092 
+$
+587 
+$
+505 
+86.0 
+%
+$
+1,366 
+$
+876 
+$
+490 
+55.9 
+%
+The change in other expense, net from the three and nine months ended September 27, 2024 to the three and nine  months ended September 26, 2025 was primarily due to $0.7 million in costs associated with executing an amended and restated credit agreement during the third quarter, offset by currency exchange rate fluctuations related to our local currency payables and cash holdings of our foreign operations.
+21
+Income tax expense
+Three Months Ended
+Change
+Nine Months Ended
+Change
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+September 26,
+2025
+September 27,
+2024
+Amount
+%
+(dollars in thousands)
+Income tax expense
+$
+683 
+$
+166 
+$
+517 
+311.4 
+%
+$
+5,083 
+$
+2,021 
+$
+3,062 
+151.5 
+%
+Loss before income taxes
+$
+(22,170)
+$
+(2,610)
+$
+(19,560)
+749.4 
+%
+$
+(31,737)
+$
+(14,856)
+$
+(16,881)
+113.6 
+%
+Effective income tax rate
+-3.1 
+%
+-6.4 
+%
++330 bps
+-16.0 
+%
+-13.6 
+%
+-240 bps
+The increase in income tax expense from the three and nine months ended September 27, 2024 to the three and nine months ended September 26, 2025 was primarily due to additional tax expense provisioned in Singapore in connection with Pillar Two minimum tax rules and increased withholding taxes.
+Non‑GAAP Financial Results
+Management uses certain non-GAAP metrics to evaluate our operating and financial results. We believe the presentation of non-GAAP results is useful to investors for analyzing business trends and comparing performance to prior periods, along with enhancing investors’ ability to view our results from management’s perspective. All non-GAAP adjustments are presented on a gross basis. Non-GAAP gross profit, operating income, and net income (loss) are defined as: gross profit, operating income (loss), or net income (loss), respectively, excluding (1) amortization of intangible assets, share-based compensation expense, and discrete or infrequent charges and gains that are outside of normal business operations, including transaction-related costs, contract and legal settlement gains and losses, facility shutdown costs, inventory impairment charges, and severance costs associated with reduction-in-force programs, to the extent they are present in gross profit, operating income (loss), and net income (loss), respectively; and (2) with respect to non-GAAP net income (loss), the tax impacts associated with these non-GAAP adjustments, as well as non-recurring discrete tax items, including deferred tax asset valuation allowance charges. The related income tax effects, including current and deferred income tax expense, are included in the adjustment line under the heading "Tax adjustments related to non-GAAP adjustments". Non-GAAP diluted earnings per share ("EPS") is defined as non-GAAP net income divided by weighted average diluted ordinary shares outstanding during the period. Non-GAAP gross margin and non-GAAP operating margin are defined as non-GAAP gross profit and non-GAAP operating income, respectively, divided by net sales.
+Non-GAAP results have limitations as analytical tools, and you should not consider them in isolation or as substitutes for our results reported under GAAP. Other companies may calculate non-GAAP results differently or may use other measures to evaluate their performance, both of which could reduce the usefulness of our non-GAAP results as tools for comparison.
+Because of these limitations, you should consider non-GAAP results alongside other financial performance measures and results presented in accordance with GAAP. In addition, in evaluating non-GAAP results, you should be aware that in the future we will incur expenses such as those that are the subject of adjustments in deriving non-GAAP results and you should not infer from our presentation of non-GAAP results that our future results will not be affected by these expenses or other discrete or infrequent charges and gains that are outside of normal business operations.
+22
+The following table presents our unaudited non‑GAAP gross profit and non-GAAP gross margin and a reconciliation from GAAP gross profit and GAAP gross margin, the most comparable GAAP measures, for the periods indicated:
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+(dollars in thousands)
+U.S. GAAP gross profit
+$
+11,069 
+$
+27,791 
+$
+66,793 
+$
+76,342 
+Non-GAAP adjustments:
+Restructuring plan costs (1)
+16,713 
+— 
+16,713 
+— 
+Share-based compensation
+773 
+955 
+2,254 
+2,448 
+Facility shutdown costs (2)
+341 
+— 
+2,264 
+— 
+Other (3)
+10 
+— 
+1,171 
+908 
+Non-GAAP gross profit
+$
+28,906 
+$
+28,746 
+$
+89,195 
+$
+79,698 
+U.S. GAAP gross margin
+4.6 
+%
+13.2 
+%
+9.2 
+%
+12.4 
+%
+Non-GAAP gross margin
+12.1 
+%
+13.6 
+%
+12.3 
+%
+12.9 
+%
+(1)
+Represents the costs associated with our Consolidation Restructuring Plan which was initiated and approved by the Board of Directors during the third quarter of 2025. Included in this amount for the three and nine months ended September 26, 2025 is the impairment of inventories of $16.7 million.
+(2)
+Represents costs associated with the exit from our Scotland and Korea operations. Included in this amount for the three and nine months ended September 26, 2025 are inventory write-off charges of $1.6 million and severance costs associated with affected employees of $0.6 million.
+(3)
+Represents severance costs associated with our global reduction-in-force programs (other than severance costs associated with the exit from our Scotland and Korea operations, as described above).
+23
+The following table presents our unaudited non‑GAAP operating income and non-GAAP operating margin and a reconciliation from GAAP operating loss and GAAP operating margin, the most comparable GAAP measures, for the periods indicated:
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+(dollars in thousands, except per share amounts)
+U.S. GAAP operating loss
+$
+(19,425)
+$
+(385)
+$
+(25,437)
+$
+(6,388)
+Non-GAAP adjustments:
+Restructuring plan costs (1)
+17,586 
+— 
+17,586 
+— 
+Share-based compensation
+4,221 
+4,672 
+12,571 
+10,985 
+Amortization of intangible assets
+2,077 
+2,077 
+6,233 
+6,309 
+Facility shutdown costs (2)
+618 
+— 
+5,506 
+— 
+Other (3)
+68 
+— 
+1,408 
+1,600 
+Transaction-related costs (4)
+— 
+— 
+— 
+785 
+Non-GAAP operating income
+$
+5,145 
+$
+6,364 
+$
+17,867 
+$
+13,291 
+U.S. GAAP operating margin
+(8.1)
+%
+(0.2)
+%
+(3.5)
+%
+(1.0)
+%
+Non-GAAP operating margin
+2.2 
+%
+3.0 
+%
+2.5 
+%
+2.2 
+%
+(1)
+Represents the costs associated with our Consolidation Restructuring Plan which was initiated and approved by the Board of Directors during the third quarter of 2025. Included in this amount for the three and nine months ended September 26, 2025 are costs associated with impairment of inventories of $16.7 million, the write-off costs of construction in progress associated with North American facilities of $0.5 million, and the impairment of certain leases in North America of $0.4 million.
+(2)
+Represents costs associated with the exit from our Scotland and Korea operations. Included in this amount for the three and nine months ended September 26, 2025 are inventory write-off charges of $1.6 million, an impairment of the facility lease right-of-use asset of $1.3 million, severance costs associated with affected employees of $0.7 million, other direct and incremental facility exit-related costs of $0.7 million, and accelerated depreciation charges of $0.6 million.
+(3)
+Represents severance costs associated with our global reduction-in-force programs (other than severance costs associated with the exit from our Scotland and Korea operations, as described above).
+(4)
+Represents transaction-related costs incurred in connection with our acquisitions pipeline.
+24
+The following table presents our unaudited non‑GAAP net income and non-GAAP diluted EPS and a reconciliation from GAAP net loss and GAAP diluted EPS, the most comparable GAAP measures, for the periods indicated. All non-GAAP adjustments are presented on a gross basis; the related income tax effects, including current and deferred income tax expense, are included in the adjustment line under the heading "Tax adjustments related to non-GAAP adjustments".
+Three Months Ended
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+September 26,
+2025
+September 27,
+2024
+(dollars in thousands, except per share amounts)
+U.S. GAAP net loss
+$
+(22,853)
+$
+(2,776)
+$
+(36,820)
+$
+(16,877)
+Non-GAAP adjustments:
+Restructuring plan costs (1)
+17,586 
+— 
+17,586 
+— 
+Share-based compensation
+4,221 
+4,672 
+12,571 
+10,985 
+Amortization of intangible assets
+2,077 
+2,077 
+6,233 
+6,309 
+Facility shutdown costs (2)
+618 
+— 
+5,506 
+— 
+Other (3)
+68 
+— 
+1,408 
+1,600 
+Transaction-related costs (4)
+— 
+— 
+— 
+785 
+Loss on extinguishment of debt (5)
+667 
+— 
+667 
+— 
+Tax adjustments related to non-GAAP adjustments (6)
+172 
+47 
+401 
+325 
+Tax expense (benefit) from valuation allowance (7)
+(254)
+— 
+83 
+— 
+Non-GAAP net income
+$
+2,302 
+$
+4,020 
+$
+7,635 
+$
+3,127 
+U.S. GAAP diluted EPS
+$
+(0.67)
+$
+(0.08)
+$
+(1.08)
+$
+(0.52)
+Non-GAAP diluted EPS
+$
+0.07 
+$
+0.12 
+$
+0.22 
+$
+0.10 
+Shares used to compute non-GAAP diluted EPS
+34,463,930
+33,986,269
+34,272,310
+32,851,091
+(1)
+Represents the costs associated with our Consolidation Restructuring Plan which was initiated and approved by the Board of Directors during the third quarter of 2025. Included in this amount for the three and nine months ended September 26, 2025 are costs associated with the write-off costs of inventories determined to be impaired of $16.7 million, the write-off costs of construction in progress associated with North American facilities of $0.5 million, and the impairment of certain leases in North America of $0.4 million.
+(2)
+Represents costs associated with the exit from our Scotland and Korea operations. Included in this amount for the three and nine months ended September 26, 2025 are write-off costs of inventories determined to be obsolete of $1.6 million, an impairment of the facility lease right-of-use asset of $1.3 million, severance costs associated with affected employees of $0.7 million, other direct and incremental facility exit-related costs of $0.7 million, and accelerated depreciation charges of $0.6 million.
+(3)
+Represents severance costs associated with our global reduction-in-force programs (other than severance costs associated with the exit from our Scotland and Korea operations, as described above).
+(4)
+Represents transaction-related costs incurred in connection with our acquisitions pipeline.
+(5)
+In September 2025, we entered into an amended and restated credit agreement, which includes a group of financial institutions as direct lenders underlying the agreement. Under the debt modification literature codified in ASC 470, a portion of the refinance was treated as an extinguishment. Accordingly, $0.2 million of existing capitalized deferred issuance costs were written off as a loss on extinguishment of debt and $0.5 million of third-party and lender fees were expensed as incurred.
+(6)
+Adjusts GAAP income tax expense for the impact of our non-GAAP adjustments, which are presented on a gross basis.
+(7)
+During the first quarter of 2025, we recorded a valuation allowance against the deferred tax assets of our Scotland and Korea operations. During the third quarter, we reversed the valuation allowance on our Scotland deferred tax assets due to a change in the facts and circumstances around our ability to utilize our deferred tax assets.
+25
+Liquidity and Capital Resources
+The following section discusses our liquidity and capital resources, including our primary sources of liquidity and our material cash requirements. Our cash and cash equivalents are maintained in highly liquid and accessible accounts with no significant restrictions.
+Material Cash Requirements
+Our primary liquidity requirements arise from: (i) working capital requirements, including procurement of raw materials inventory for use in our factories and employee-related costs, (ii) business acquisitions, (iii) interest and principal payments under our credit facilities, (iv) research and development investments and capital expenditures, (v) payment of income taxes, and (vi) payments associated with our noncancellable leases and related occupancy costs. We have no significant long-term purchase commitments related to procuring raw materials inventory. Our ability to fund these requirements will depend, in part, on our future cash flows, which are determined by our future operating performance and are therefore subject to prevailing global macroeconomic conditions, such as interest rates, increased tariffs and retaliatory trade policies, geopolitical events, and financial, business, and other factors, some of which are beyond our control.
+We believe that our cash and cash equivalents, the amounts available under our credit facilities, and our operating cash flow will be sufficient to fund our business and our current obligations for at least the next 12 months and beyond.
+Sources and Conditions of Liquidity
+Our ongoing sources of liquidity to fund our material cash requirements are primarily derived from: (i) sales to our customers and the related changes in our net operating assets and liabilities and (ii) proceeds from our credit facilities and equity offerings, when applicable.
+Summary of Cash Flows
+We ended the third quarter of 2025 with cash and cash equivalents of $92.5 million, a decrease of $16.2 million from the prior year ended December 27, 2024. The decrease was primarily due to capital expenditures of $32.9 million, net payments on our credit facilities of $4.4 million, and payments for debt issuance and modification costs of $1.2 million, partially offset by cash provided by operating activities of $20.7 million and net cash receipts related to share-based compensation of $1.6 million.
+The following table sets forth a summary of operating, investing, and financing activities for the periods presented:
+Nine Months Ended
+September 26,
+2025
+September 27,
+2024
+(in thousands)
+Cash provided by operating activities
+$
+20,716 
+$
+30,368 
+Cash used in investing activities
+(32,920)
+(13,238)
+Cash provided by (used in) financing activities
+(3,965)
+19,362 
+Net increase (decrease) in cash
+$
+(16,169)
+$
+36,492 
+Our cash provided by operating activities of $20.7 million for the nine months ended September 26, 2025 consisted of net non-cash charges of $57.6 million, consisting primarily of depreciation and amortization of $23.5 million, inventory impairment of $16.7 million, and share-based compensation expense of $12.6 million, partially offset by a net loss of $36.8 million.
+The increase in our net operating assets and liabilities of $0.1 million for the nine months ended September 26, 2025, was primarily due to an increase in inventory of $8.3 million and a decrease in other liabilities of $6.2 million, partially offset by a decrease in prepaid expense and other assets of $7.6 million, an increase in accrued liabilities of $2.8 million, a decrease in accounts receivable of $2.2 million, and an increase in accounts payable of $1.9 million.
+26
+The decrease in cash provided by operating activities from the nine months ended September 27, 2024 to the nine months ended September 26, 2025 was primarily due to an increase in net loss of $19.9 million and unfavorable changes in working capital of $13.4 million, partially offset by an increase in net non-cash charges of $23.7 million.
+Cash used in investing activities during the nine months ended September 26, 2025 and September 27, 2024 consisted of capital expenditures.
+Cash used in financing activities during the nine months ended September 26, 2025 consisted of net payments on our credit facilities of $4.4 million and payments for debt issuance and modification costs of $1.2 million, partially offset by net proceeds from share-based compensation activity of $1.6 million. The decrease in cash provided by financing activities from the nine months ended September 27, 2024 to the nine months ended September 26, 2025 was primarily due to net proceeds of $136.7 million from our issuance of 3.8 million ordinary shares in the first quarter of 2024 in connection with an underwritten public offering, partially offset by the payoff of our revolving credit facility of $115.0 million in the first quarter of 2024.
+Critical Accounting Estimates
+Our consolidated financial statements have been prepared in accordance with U.S. GAAP. The preparation of these consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, sales, expenses, and related disclosures. We base our estimates on historical experience and on various other assumptions that we believe are reasonable under the circumstances. We evaluate our estimates and assumptions on an ongoing basis. Actual results may differ from these estimates. To the extent that there are material differences between these estimates and our actual results, our future financial statements will be affected.
+The critical accounting policies requiring estimates, assumptions, and judgments that we believe have the most significant impact on our consolidated financial statements are identified and described in our annual consolidated financial statements and the notes included in our 2024 Annual Report on Form 10‑K.

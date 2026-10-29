@@ -1,0 +1,459 @@
+Item 7.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion of our financial condition and results of operations contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934 and Section 27A of the Securities Act of 1933. These statements include, but are not limited to, statements about our plans, objectives, expectations, strategies, intentions or other characterizations of future events or circumstances and are generally identified by the words "expects," "anticipates," "intends," "plans," "believes," "seeks," "estimates," and similar expressions. These forward-looking statements are based on current information and expectations and are subject to a number of risks and uncertainties. Our actual results could differ materially from those expressed or implied by these forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those discussed under "Item 1A. Risk Factors" herein and in other documents we file from time to time with the Securities and Exchange Commission. We assume no obligation to revise or update any such forward-looking statements.
+Overview
+F5 is a global leader in application delivery and security solutions which enables its customers to deploy, operate, secure, optimize, and govern every application and API across on-premises architectures, in the cloud, and at the network edge. Our cloud, software, and hardware solutions enable our customers to deliver fast, available, and secure digital experiences to their customers at scale. Our application services are available as hardware, software, SaaS, and software-only solutions optimized for hybrid, multicloud environments, with modules that can run independently, or as part of an integrated solution on our high-performance appliances. We market and sell our products primarily through multiple indirect sales channels in our Americas; Europe, the Middle East, and Africa ("EMEA"); and Asia Pacific ("APAC") regions. Enterprise customers (Fortune 1000 or Business Week Global 1000 companies) in the technology, financial services, transportation, education, manufacturing, and health care industries, along with government customers, and service providers continue to make up the largest percentage of our customer base.
+Our management team monitors and analyzes a number of key performance indicators in order to manage our business and evaluate our financial and operating performance on a consolidated basis. Those indicators include:
+•
+Revenues
+. Our revenue is derived from the sales of both products and services. The majority of our product revenues are derived from sales of our application delivery and security solutions including our F5 BIG-IP software and systems, F5 NGINX software, and our F5 Distributed Cloud Services offerings. Our F5 BIG-IP software solutions are sold both on a subscription and perpetual license basis. We sell F5 NGINX on a subscription basis as deployable software or SaaS. F5 Distributed Cloud Services provides security, multicloud networking, and edge-based computing solutions and are offered on a subscription basis, under a unified SaaS platform and managed service platform. Our services revenue includes annual maintenance contracts, training and consulting services.
+We monitor the sales mix of our revenues within each reporting period. We believe customer acceptance rates of our new products, feature enhancements and consumption models are indicators of future trends. We also consider overall revenue concentration by geographic region as an additional indicator of current and future trends. In fiscal 2025, we benefited from improving customer demand, which began to stabilize and improve following macroeconomic uncertainties at the start of fiscal 2024.
+•
+Cost of revenues and gross margins.
+ We strive to control our cost of revenues and thereby maintain our gross margins. Significant items impacting cost of revenues are hardware costs paid to our contract manufacturers, third-party software license fees, technology costs, including cloud hosting and software licenses expenses, amortization of developed technology and personnel and overhead expenses. In addition, factors such as sales price, product and services mix, inventory obsolescence, returns, component price increases, warranty costs, and global supply chain constraints could significantly impact our gross margins.
+•
+Operating expenses.
+ Operating expenses are substantially driven by personnel and related overhead expenses. Existing headcount and future hiring plans are the predominant factors in analyzing and forecasting future operating expense trends. Other significant operating expenses that we monitor include costs associated with cyber and enterprise-wide security, marketing and promotions, travel, professional fees, technology costs, including cloud hosting and software licenses expenses, related to the development of new products and provision of services, facilities and depreciation expenses.
+•
+Liquidity and cash flows.
+ Our financial condition remains strong with significant cash and investments. The increase in cash and investments for fiscal year 2025 was primarily due to cash provided by operating activities of $949.7 million, partially offset by $502.1 million of cash used for the repurchase of outstanding common stock under our stock repurchase program, including the payment of related excise taxes. In addition, $171.1 million of cash was used for the acquisition of businesses during fiscal 2025, and $43.3 million of cash was used for capital expenditures related to the expansion of our facilities to support our operations worldwide, as well as investments in technology, including cloud hosting and software licenses, and equipment purchases to support our core business activities. Going forward, we believe the primary driver of cash flows will
+35
+Table of Contents
+continue to be net income from operations. We will continue to evaluate possible acquisitions of, or investments in businesses, products, or technologies that we believe are strategic, which may require the use of cash. Additionally, on January 31, 2020, we entered into a Revolving Credit Agreement (the "Revolving Credit Agreement") that provides for a senior unsecured revolving credit facility in an aggregate principal amount of $350.0 million (the "Revolving Credit Facility"). On January 31, 2025, the Revolving Credit Facility expired. At the time of expiration, there were no outstanding borrowings under the Revolving Credit Facility.
+•
+Balance sheet.
+ We view cash, short-term and long-term investments, deferred revenue, accounts receivable balances and days sales outstanding as important indicators of our financial health. Deferred revenues continued to increase in fiscal 2025 due to an increase in deferred subscription contracts, including SaaS and maintenance associated with licensed-based subscriptions, which includes sales as part of our Flexible Consumption Program. Our days sales outstanding for the fourth quarter of fiscal year 2025 was 46. Days sales outstanding is calculated by dividing ending accounts receivable by revenue per day for a given quarter.
+Cyber Incident
+On October 15, 2025, we disclosed information about a Cyber Incident in which a highly sophisticated nation-state threat actor had gained unauthorized long-term, persistent access to certain Company systems, and exfiltrated certain files, some of which contained certain portions of our BIG-IP source code and information about undisclosed vulnerabilities that our engineering teams were working on in BIG-IP. Upon identifying the threat, we immediately activated our incident response process and took extensive actions to contain the threat actor, which included engaging leading external cybersecurity experts. Our investigation, monitoring, and related activities related to the incident are ongoing. To date, we believe our containment actions have been successful, and since the initiation of these efforts, we have not observed any evidence of new unauthorized activity.
+To date, we are not aware of any undisclosed critical or remote code vulnerabilities, and we are not aware of active exploitation of any undisclosed vulnerabilities within our products. Further, to date, we have no evidence of modification to our software supply chain, including our source code and our build and release pipelines. This assessment has been validated through independent reviews by leading cybersecurity research firms. We have no evidence that the threat actor accessed or modified the NGINX source code or product development environment, nor do we have evidence they accessed or modified our F5 Distributed Cloud Services or Silverline systems. In response to the incident, we have prioritized delivering reliable software release updates to address all undisclosed high vulnerabilities in BIG-IP source code, with a significant number of our largest customers having completed these updates with minimal disruption. We have, and will continue to prioritize steps to bolster our security posture in implementing further measures to strengthen our security environment and protect our customers.
+To date, this incident has not had a material impact on our operations. As a result of the incident, we anticipate near-term disruption to our sales cycles with demand impacts more pronounced in the early part of the fiscal year and normalizing in the second half of the fiscal year 2026. These disruptions may also lead to a near term impact on our operating margin within fiscal year 2026. We expect to continue to incur additional professional services and other expenses associated with incident response during fiscal year 2026. As of the date of this filing these expenses were not material. See Note 12. Commitments and Contingencies in the Notes to Consolidated Financial Statements included in Item 8 of Part II of this Annual Report on Form 10-K for more information.
+Critical Accounting Estimates
+Our consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses, and related disclosure of contingent assets and liabilities. We base our estimates on historical experience and on various other assumptions that are believed to be reasonable under the circumstances. Actual results may differ from these estimates under different assumptions or conditions.
+We believe that, of our significant accounting policies, which are described in Note 1 of the notes to the consolidated financial statements, the following accounting policy involves a greater degree of judgment and complexity. Accordingly, we believe the following policy is the most critical to aid in fully understanding and evaluating our consolidated financial condition and results of operations.
+Revenue Recognition.
+ The majority of our contracts with our customers include various combinations of our products and subscriptions and support. Our hardware products and software licenses are distinct from our subscriptions and support services as the customer can benefit from the product without these services and such services are separately identifiable within the contract. We account for multiple agreements with a single customer as a single contract if the contractual terms and/or substance of those agreements indicate that they may be so closely related that they are, in effect, parts of a single contract. The
+36
+Table of Contents
+amount of consideration we expect to receive in exchange for delivering on the contract is allocated to each performance obligation based on its relative standalone selling price.
+When estimating standalone selling price, we first consider the prices charged for a deliverable when sold separately. If the standalone selling price is not observable through past transactions, we estimate it based on our pricing model and our go-to-market strategy, which include factors such as target gross margins, the geographies in which our offerings were sold, and offering type (products or services). As our business offerings evolve over time, we may be required to modify our estimated standalone selling prices, and as a result the timing and classification of our revenue could be affected.
+Impact of Macroeconomic Conditions
+Our overall performance depends in part on worldwide economic and geopolitical conditions and their impacts on customer behavior. Uncertain economic conditions, including inflation, tariffs and other duties, higher interest rates, slower growth, fluctuations in foreign exchange rates, and other changes in economic conditions, may adversely affect our results of operations and financial performance. For further discussion of the potential impacts of recent macroeconomic events on our business, financial condition, and operating results, see Part I, Item 1A titled "Risk Factors."
+Results of Operations
+The following discussion and analysis comparing our fiscal 2025 financial results to fiscal 2024 should be read in conjunction with our consolidated financial statements, related notes and risk factors included elsewhere in this Annual Report on Form 10-K. For discussion and analysis related to our financial results comparing fiscal 2024 to 2023, refer to Part II, Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for fiscal 2024, which was filed with the Securities and Exchange Commission on November 18, 2024.
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+ 
+(in thousands, except percentages)
+Net revenues
+Products
+$
+1,508,640 
+$
+1,272,795 
+$
+1,334,638 
+Services
+1,579,432 
+1,543,325 
+1,478,531 
+Total
+$
+3,088,072 
+$
+2,816,120 
+$
+2,813,169 
+Percentage of net revenues
+Products
+48.9 
+%
+45.2 
+%
+47.4 
+%
+Services
+51.1 
+54.8 
+52.6 
+Total
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Net Product Revenues.
+ Net product revenues increased 18.5% in fiscal year 2025 from fiscal year 2024. The increase of $235.8 million in net product revenues for fiscal year 2025 was due to an increase in revenues associated with systems and software of $168.2 million and $67.6 million, respectively.
+Net Service Revenues.
+ Net service revenues increased 2.3% in fiscal year 2025 from fiscal year 2024. The increase of $36.1 million in service revenue for fiscal year 2025 was primarily the result of increased initial purchases and renewals of maintenance contracts.
+37
+Table of Contents
+The following presents net product revenues by systems and software (in thousands):
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+Net product revenues
+Systems revenue
+$
+705,551 
+$
+537,318 
+$
+670,652 
+Software revenue
+Subscription
+507,585 
+430,474 
+352,615 
+SaaS and managed services
+175,641 
+193,201 
+203,326 
+Perpetual licenses
+119,863 
+111,802 
+108,045 
+Total net product revenue
+$
+1,508,640 
+$
+1,272,795 
+$
+1,334,638 
+Percentage of net product revenues
+Systems revenue
+46.8 
+%
+42.2 
+%
+50.2 
+%
+Software revenue
+Subscription
+33.7 
+33.8 
+26.4 
+SaaS and managed services
+11.6 
+15.2 
+15.3 
+Perpetual licenses
+7.9 
+8.8 
+8.1 
+Total net product revenue
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Total systems revenue increased 31.3% in fiscal year 2025 from 2024 was primarily due to increases in customer demand and pricing increases on system offerings. Total systems revenue decreased 19.9% in fiscal year 2024 from 2023 primarily due to a lower level of shipments due to 2022 supply chain constrained demand fulfilled in 2023. Total software revenue was $803.1 million, $735.5 million, and $664.0 million for fiscal years 2025, 2024, and 2023, respectively. Total software revenue increased by 9.2% in fiscal year 2025 from 2024 primarily due to increases in renewals and initial purchases of subscription offerings. Total software revenue increased by 10.8% in fiscal year 2024 from 2023 primarily due to increases in renewals and initial purchases of subscription offerings. Total SaaS and managed services revenue did not account for 10% or more of total net revenues for any period presented.
+The following distributor customers accounted for more than 10% of total net revenue:
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+Customer A
+15.8 
+%
+16.3 
+%
+15.6 
+%
+Customer B
+17.5 
+%
+15.9 
+%
+15.0 
+%
+The following distributor customers accounted for more than 10% of total receivables:
+September 30,
+2025
+2024
+Customer A
+11.1 
+%
+20.3 
+%
+Customer B
+17.8 
+%
+14.8 
+%
+Customer C
+10.9 
+%
+— 
+Customer D
+11.4 
+%
+— 
+No end-user customers accounted for more than 10% of total net revenue or receivables. No other distributor customers accounted for more than 10% of total net revenue or receivables, other than those noted above.
+ 
+38
+Table of Contents
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+ 
+(in thousands, except percentages)
+Cost of net revenues and gross profit
+Products
+$
+338,037 
+$
+336,237 
+$
+375,192 
+Services
+235,941 
+221,410 
+218,116 
+Total
+573,978 
+557,647 
+593,308 
+Gross profit
+$
+2,514,094 
+$
+2,258,473 
+$
+2,219,861 
+Percentage of net revenues and gross margin (as a percentage of related net revenue)
+Products
+22.4 
+%
+26.4 
+%
+28.1 
+%
+Services
+14.9 
+14.3 
+14.8 
+Total
+18.6 
+19.8 
+21.1 
+Gross margin
+81.4 
+%
+80.2 
+%
+78.9 
+%
+Cost of Net Product Revenues.
+ Cost of net product revenues consist of finished products purchased from our contract manufacturers, personnel costs, including the salaries, stock-based compensation, and related benefits of our personnel, manufacturing overhead, freight, warranty, provisions for excess and obsolete inventory, technology costs, including cloud hosting and software licenses expenses, facilities and depreciation expenses, and amortization expenses in connection with developed technology from acquisitions. Cost of net product revenues increased primarily due to systems and software revenue growth. The increase was largely offset by an improvement in product margins driven by a more favorable product mix.
+Cost of Net Service Revenues.
+ Cost of net service revenues consist of personnel costs, including the salaries, stock-based compensation, and related benefits of our professional services personnel, travel, technology costs, including cloud hosting and software licenses expenses, facilities and depreciation expenses. Cost of net service revenues increased $14.5 million, or 6.6% in fiscal year 2025 from the prior year. The increase in cost of net service revenues was primarily due to an increase in personnel costs.
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+ 
+(in thousands, except percentages)
+Operating expenses
+Sales and marketing
+$
+860,506 
+$
+832,279 
+$
+878,215 
+Research and development
+539,815 
+490,120 
+540,285 
+General and administrative
+322,340 
+268,828 
+263,405 
+Restructuring charges
+25,484 
+8,655 
+65,388 
+Total
+$
+1,748,145 
+$
+1,599,882 
+$
+1,747,293 
+Operating expenses (as a percentage of net revenue)
+Sales and marketing
+27.9 
+%
+29.6 
+%
+31.2 
+%
+Research and development
+17.5 
+17.4 
+19.2 
+General and administrative
+10.4 
+9.5 
+9.4 
+Restructuring charges
+0.8 
+0.3 
+2.3 
+Total
+56.6 
+%
+56.8 
+%
+62.1 
+%
+Sales and Marketing.
+ Sales and marketing expenses consist of personnel costs, including the salaries, commissions, stock-based compensation, and related benefits of our sales and marketing personnel, the costs of our marketing programs, including public relations, advertising and trade shows, travel, facilities, technology costs, including cloud hosting and software licenses expenses, facilities and depreciation expenses. Sales and marketing expense increased $28.2 million, or 3.4% in fiscal year 2025 from the prior year. The increase in sales and marketing expense for fiscal year 2025 was primarily due to an increase of $20.6 million in personnel costs. Sales and marketing headcount at the end of fiscal year 2025 increased to 2,186 from 2,165 at the end of fiscal year 2024. In addition, technology expenditures to support the sales and marketing organization increased $6.5 million in fiscal year 2025 from the prior year.
+Research and Development.
+ Research and development expenses consist of personnel costs, including the salaries, stock-based compensation, and related benefits of our product development personnel, prototype materials and other expenses related to the development of new and improved products, technology costs, including cloud hosting and software licenses expenses,
+39
+Table of Contents
+facilities, depreciation and amortization expenses. Research and development expense increased $49.7 million, or 10.1% in fiscal year 2025 from the prior year. The increase in research and development expense for fiscal year 2025 was primarily due to an increase of $31.4 million in personnel costs. In addition, technology costs to support the research and development organization increased $18.9 million in fiscal year 2025 from the prior year.
+General and Administrative.
+ General and administrative expenses consist of personnel costs, including the salaries, benefits and related costs of our executive, finance, information technology, human resource and legal personnel, third-party professional service fees, bad debt charges, technology costs, including cloud hosting and software licenses expenses, facilities and depreciation expenses. General and administrative expense increased $53.5 million, or 19.9% in fiscal year 2025 from the prior year. The increase in general and administrative expense for fiscal year 2025 was primarily due to an increase of $25.8 million in personnel costs. General and administrative headcount at the end of fiscal year 2025 increased to 898 from 875 at the end of fiscal year 2024. In addition, fees paid for professional services increased $19.7 million in fiscal year 2025 from the prior year, primarily due to activity related to acquisitions.
+Restructuring charges
+. In the first and fourth fiscal quarters of 2025, and the first fiscal quarter of 2024, we completed restructuring plans to better align strategic and financial objectives, optimize operations, and drive efficiencies for long-term growth and profitability. As a result of the first and fourth quarters of fiscal 2025 restructuring initiatives, we recorded charges of $11.3 million and $14.3 million, net of adjustments, related to reductions in workforce that are reflected in our results for fiscal 2025. As a result of the first quarter of fiscal 2024 restructuring initiative, we recorded a charge of $8.7 million, net of adjustments, related to a reduction in workforce that is reflected in our results for fiscal 2024.
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+ 
+(in thousands, except percentages)
+Other income and income taxes
+Income from operations
+$
+765,949 
+$
+658,591 
+$
+472,568 
+Other income, net
+42,387 
+36,874 
+13,420 
+Income before income taxes
+808,336 
+695,465 
+485,988 
+Provision for income taxes
+115,956 
+128,687 
+91,040 
+Net income
+$
+692,380 
+$
+566,778 
+$
+394,948 
+Other income and income taxes (as percentage of net revenue)
+Income from operations
+24.8 
+%
+23.4 
+%
+16.8 
+%
+Other income, net
+1.4 
+1.3 
+0.5 
+Income before income taxes
+26.2 
+24.7 
+17.3 
+Provision for income taxes
+3.8 
+4.6 
+3.3 
+Net income
+22.4 
+%
+20.1 
+%
+14.0 
+%
+Other Income, Net.
+The change in other income, net for the fiscal year ended September 30, 2025 was primarily driven by interest income and expense, investment income, and foreign currency transaction gains and losses compared to the same periods in the prior year.
+Provision for Income Taxes.
+ We recorded a 14.3% provision for income taxes for fiscal year 2025, compared to 18.5% in fiscal year 2024. The decrease in effective tax rate from fiscal year 2024 to 2025 is primarily due to the tax impact from stock-based compensation and tax reserves.
+We record a valuation allowance to reduce our deferred tax assets to the amount we believe is more likely than not to be realized. In making these determinations we consider historical and projected taxable income, and ongoing prudent and feasible tax planning strategies in assessing the appropriateness of a valuation allowance. The net decrease in the valuation allowance of $5.4 million for fiscal year 2025 was primarily related to tax net operating losses and credits incurred in certain foreign jurisdictions, and state tax carryforwards. Our net deferred tax assets as of September 30, 2025 and 2024 were $444.5 million and $358.8 million, respectively.
+     Our worldwide effective tax rate may fluctuate based on a number of factors, including variations in projected taxable income in the various geographic locations in which we operate, the impact of stock-based compensation, changes in the valuation of our net deferred tax assets, resolution of potential exposures, tax positions taken on tax returns filed in the various geographic locations in which we operate, and the introduction of new accounting standards or changes in tax laws or interpretations thereof in the various geographic locations in which we operate. We have recorded liabilities to address potential tax exposures related to business and income tax positions we have taken that could be challenged by taxing authorities. The
+40
+Table of Contents
+ultimate resolution of these potential exposures may be greater or less than the liabilities recorded, which could result in an adjustment to our future tax expense.
+  On July 4, 2025, the One Big Beautiful Bill Act ("OBBBA") was enacted into law. The new legislation did not have a material impact for fiscal year 2025. The Company is currently evaluating the impact on future years but does not expect a material impact to the consolidated financial statements.
+ The Company operates in countries that have enacted, or have committed to enact, a minimum tax in accordance with the Organization for Economic Co-operation and Development’s Pillar Two framework. The Pillar Two legislation was effective for the Company starting fiscal year 2025 but did not have a material impact. The Company will continue to monitor for additional guidance but does not expect a material impact to the consolidated financial statements for future years.
+Liquidity and Capital Resources
+We have funded our operations with our cash balances and cash generated from operations.
+ 
+Years Ended September 30,
+ 
+2025
+2024
+2023
+ 
+(in thousands)
+Liquidity and Capital Resources
+Cash and cash equivalents and investments
+$
+1,359,966 
+$
+1,083,182 
+$
+808,391 
+Cash provided by operating activities
+949,666 
+792,419 
+653,409 
+Cash (used in) provided by investing activities
+(219,491)
+(59,214)
+36,393 
+Cash used in financing activities
+(464,815)
+(457,002)
+(653,299)
+Cash and cash equivalents, short-term investments and long-term investments totaled $1,360.0 million as of September 30, 2025, compared to $1,083.2 million as of September 30, 2024, representing an increase of $276.8 million. The increase was primarily due to cash provided by operating activities of $949.7 million for fiscal 2025, partially offset by cash used for the repurchase of outstanding common stock and the payment of related excise taxes of $502.1 million. In addition, $171.1 million of cash was used for the acquisition of businesses during fiscal 2025, and $43.3 million of cash was used for capital expenditures related to the expansion of our facilities to support our operations worldwide, as well as investments in technology, including cloud hosting and software licenses, and equipment purchases to support our core business activities. As of September 30, 2025, 64.0% of our cash and cash equivalents and investment balances were outside of the U.S. The cash and cash equivalents and investment balances outside of the U.S. are subject to fluctuation based on the settlement of intercompany balances.
+Cash provided by operating activities during fiscal year 2025 was $949.7 million compared to $792.4 million in fiscal year 2024. Cash provided by operating activities resulted primarily from cash generated from net income, after adjusting for non-cash charges such as stock-based compensation, depreciation and amortization charges and changes in operating assets and liabilities. Cash provided by operating activities for fiscal year 2025 increased from the prior year primarily due to growth of our business as reflected by increases in collections during fiscal 2025, partially offset by higher cash expenditure to support our business growth.
+Cash from operations could be affected by various risks and uncertainties, including, but not limited to the risks detailed in Part I, Item 1A titled "Risk Factors." However, we anticipate our current cash, cash equivalents and investment balances and anticipated cash flows generated from operations will be sufficient to meet our liquidity needs.
+Cash used in investing activities during fiscal year 2025 was $219.5 million compared to cash used in investing activities of $59.2 million in fiscal year 2024. Investing activities include purchases, sales and maturities of available-for-sale securities, business acquisitions and capital expenditures. Cash used in investing activities for fiscal year 2025 was primarily the result of $171.1 million in cash paid for acquisitions and $43.3 million in capital expenditures related to maintaining our operations worldwide. Cash used in investing activities for fiscal year 2024 was primarily the result of $32.9 million in cash paid for acquisitions and $30.4 million in capital expenditures related to maintaining our operations worldwide, partially offset by $6.2 million in maturities of investments.
+41
+Table of Contents
+Cash used in financing activities was $464.8 million for fiscal year 2025, compared to cash used in financing activities of $457.0 million for fiscal year 2024. Cash used in financing activities for fiscal year 2025 included $502.1 million of cash used for the repurchase of outstanding common stock and the payment of related excise taxes, as well as $21.9 million in cash used for taxes related to the net share settlement of equity awards. Cash used in financing activities was partially offset by cash received from the exercise of employee stock options and stock purchases under our employee stock purchase plan of $59.2 million. Cash used in financing activities for fiscal year 2024 included $500.6 million of cash used for the repurchase of outstanding common stock and the payment of related excise taxes, as well as $11.5 million in cash used for taxes related to the net share settlement of equity awards. Cash used in financing activities was partially offset by cash received from the exercise of employee stock options and stock purchases under our employee stock purchase plan of $55.1 million.
+On January 31, 2020, we entered into a Revolving Credit Agreement (the "Revolving Credit Agreement") that provides for a senior unsecured revolving credit facility in an aggregate principal amount of $350.0 million (the "Revolving Credit Facility"). On January 31, 2025, the Revolving Credit Facility expired. At the time of expiration, there were no outstanding borrowings under the Revolving Credit Facility.
+Based on our current operating and capital expenditure forecasts, we believe that our existing cash and investment balances, together with cash generated from operations should be sufficient to meet our operating requirements for the next twelve months. Our future capital requirements will depend on many factors, including our rate of revenue growth, the expansion of our sales and marketing activities, the timing and extent of expansion into new territories, the timing of introductions of new products and enhancements of existing products, the continuing market acceptance of our products,  cash paid for future strategic initiatives such as our share repurchase program and acquisitions, and macroeconomic events or conditions.
+Obligations and Commitments
+As of September 30, 2025, we had approximately $99.3 million of tax liabilities, including interest and penalties, related to uncertain tax positions (See Note 8 to our Consolidated Financial Statements). Because of the high degree of uncertainty regarding the settlement of these liabilities, we are unable to estimate the years in which future cash outflows may occur.
+As of September 30, 2025, our principal commitments consisted of obligations outstanding under operating leases and purchase obligations with one of our component suppliers.
+In October 2022, we entered into an unconditional purchase commitment with one of our suppliers for the delivery of systems components. Under the terms of the agreement, we are obligated to purchase $10 million of component inventory annually, with a total committed amount of $40 million over a four-year term. As of September 30, 2025, we had no remaining purchase commitments under the third year of the agreement. Our total non-cancelable long-term purchase commitments outstanding as of September 30, 2025 was $
+10.0
+ million.
+We have a contractual obligation to purchase inventory components procured by our primary contract manufacturer in accordance with our annual build forecast. The contractual terms of the obligation contain cancellation provisions, which reduce our liability to purchase inventory components for periods greater than one year. In order to support our build forecast, we will, from time-to-time prepay our primary contract manufacturer for inventory purchases.
+Recently Issued Accounting Pronouncements
+Refer to "Recently Issued Accounting Pronouncements" in Note 1. Summary of Significant Accounting Policies in Part II, Item 8 of this Annual Report on Form 10-K for a description of recent accounting pronouncements and our expectation of their impact, if any, on our results of operations and financial condition.
+42
+Table of Contents

@@ -1,0 +1,1968 @@
+Item 2.	Management’s Discussion and Analysis of
+Financial Condition and Results of Operations.
+This report contains certain forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Statements containing words such as “may,” “believe,” “anticipate,” “expect,” “intend,” “plan,” “project,” “projections,” “business outlook,” “estimate,” or similar expressions constitute forward-looking statements. You should read these statements carefully because they discuss future expectations, contain projections of future results of operations or financial condition or state other “forward-looking” information. These statements relate to our future plans, objectives, expectations, intentions and financial performance and the assumptions that underlie these statements. They include, but are not limited to, statements about:
+•
+our market opportunity;
+•
+the adoption of RAIN technology and solutions;
+•
+our ability to compete effectively against competitors and competing technologies;
+•
+our market share and product leadership;
+•
+our business model, strategic plans and product-development plans;
+•
+the impact of tariffs, trade measures and other macroeconomic conditions;
+•
+our future financial performance, including our average selling prices, or ASPs, gross margins and the dependency of our future financial performance on macroeconomic conditions or industry trends, including tariffs;
+•
+the performance of third parties on which we rely for product development, manufacturing, assembly and testing; and our relationship with other third parties on which we rely for product distribution, sales, integration and deployment;
+•
+our ability to adequately protect our intellectual property;
+•
+the regulatory environment for our products and services; and
+•
+our leadership in industry and standards-setting bodies.
+Our actual results may differ materially from those contained in or implied by any forward-looking statements. Factors that could cause or contribute to these differences include those discussed below and elsewhere in this report, including those factors discussed in Part II, Item 1A (Risk Factors).
+Considering the significant uncertainties and risks inherent in these forward-looking statements, you should not regard these statements as a representation or warranty by us or anyone else that we will achieve our objectives and plans in any specified time frame, or at all, or as predictions of future events. Moreover, neither we nor any other person assumes responsibility for the accuracy and completeness of the forward-looking statements. We undertake no obligation to publicly update any forward-looking statements, whether as a result of new information, future events or otherwise, except as required by law.
+Our Business
+Our vision is a world in which every item that enterprises manufacture, transport and sell, and that people own, use and recycle, is wirelessly and ubiquitously connected to the cloud. And a world in which the ownership, history and linked information for every one of those items is seamlessly available to enterprises and people. We call our expansive vision a Boundless Internet of Things, or IoT. We design and sell a platform that enables that wireless item-to-cloud connectivity and with which we and our partners innovate IoT solutions.
+Our mission is to connect every thing. We have enabled connectivity for more than 120 billion items to date, delivering item visibility and improving operational efficiencies for retailers, supply chain and logistics, or SC&L providers, restaurants and food-service providers, airlines, automobile manufacturers, healthcare companies and many more. We are today focused on extending item connectivity from tens of billions to trillions of items, and delivering item data not just to enterprises but to people, so they too can derive value from their connected items. We believe the Boundless IoT we are enabling will, in the not-too-distant future, give people ubiquitous access to cloud-based digital twins of every item, each storing the item’s history and linked information and helping people explore and learn about the item. We believe that that connectivity will transform the world.
+We and our partner ecosystem build item-visibility solutions using products that we design and either sell or license, including silicon RAIN radios; manufacturing, test, encoding and reading systems; software and services that encapsulate our solutions know-how; and intellectual property. We sell two types of silicon integrated circuit, or IC, radios. The first are endpoint ICs that store a serialized number to wirelessly identify an item. Our partners embed endpoint ICs into an item or its packaging. The ICs may also contain a cryptographic key to authenticate the item. The second are reader ICs that our partners use in finished readers to wirelessly discover, inventory and engage the endpoint ICs. Those readers may also protect an item or consumer, for example by authenticating
+
+19
+
+Table of Contents
+ 
+
+the item as genuine or privatizing the item by rendering the endpoint IC unresponsive without the consumer first providing a password. Our manufacturing, test and encoding systems enable partner products and facilitate enterprise deployments. Our reading systems comprise high-performance finished readers and gateways for autonomous reading solutions. Our software and services focus on solutions enablement.
+
+We sell our products, individually or as a whole platform offering primarily with or through our partner ecosystem. That ecosystem comprises original equipment manufacturers, or OEMs, tag service bureaus, original device manufacturers, or ODMs, systems integrators, or SIs, value-added resellers, or VARs, independent software vendors, or ISVs, and other solution partners.
+
+Our radios follow the RAIN industry’s air-interface standard for their core reading functionality. We create partner and enterprise preference for our radios and solutions by adding differentiated features into them, supporting those features across our platform and licensing them where appropriate, to deliver solutions capabilities and performance that surpasses mix-and-match solutions built from competitor products. We have also introduced a set of compatible extensions to the RAIN industry’s air-interface standard, which we call Gen2X, that enhance the performance and protection of our solutions. The RAIN industry, on the reader and solutions side, has broadly embraced Gen2X.
+Factors Affecting Our Performance
+Macroeconomic Factors
+We are subject to impacts from the evolving macroeconomic environment, including uncertainty and volatility in trade measures and tariffs. Because most of our revenue derives from endpoint ICs that our partners embed into or onto items, to the extent that those items are impacted, positively or negatively, by trade measure and tariffs, we are impacted as well. While the impact that recent trade measures will have on our business and financial results is difficult to predict, they could negatively affect our business and financial results. We continue to monitor the broader impacts of these measures on our business, our supply chain and our results of operations. See risk factor “Changes in global trade policies could have a material adverse effect on us.” in Part II, Item 1A. of this report for further information.
+
+Inventory Supply
+
+We sell most of our products, both endpoint ICs and systems, through partners and distributors, limiting our visibility to actual enterprise demand. We work closely with those partners and distributors to gain as accurate a view as possible, however, correctly forecasting demand for our products and identifying market shifts in a timely manner remains a challenge. As a result, we sometimes experience inventory overages or shortages. Inventory overages can increase expenses, expose us to product obsolescence and/or increased reserves and negatively affect our business. Inventory shortages can cause long lead times, missed opportunities, market-share losses and/or damaged customer relationships, also negatively affecting our business.
+
+In 2021 and 2022, demand for our endpoint ICs increased while worldwide wafer demand also increased, leading to wafer shortfalls for many semiconductor companies, including us. These wafer shortfalls prevented us from fully meeting customer demand and, in some cases, caused customers to cancel orders, qualify alternative suppliers or purchase from our competitors. In 2023, macroeconomic conditions led to softness in demand and inventory overages.
+
+Product Adoption and Unit Growth Rates
+Enterprises have significantly adopted RAIN in retail apparel, our largest market, and SC&L, but the rate of adoption and unit growth rates have been uneven and unpredictable. From 2010 to 2024, our overall endpoint IC sales volumes increased at a 27% compounded annual growth rate; however, we have experienced declines in endpoint IC sales volumes during various periods.
+Regardless of the uneven pace of retail, SC&L and other industry adoption and growth rates, we believe the long-term trend is continued RAIN adoption and growth and we intend to continue investing in developing new products and expanding our product offerings for the foreseeable future. However, we cannot predict whether historical annual growth rates are indicative of the pace of future growth.
+Our systems business, at least for readers and gateways, depends significantly on large-scale deployments at discrete end users, and deployment timing causes large yearly variability in our systems revenue. For example, we generated 14% of total 2019 revenue from a gateway deployment at a large North American SC&L provider. We did not have comparable project-based revenue in 2020. Similarly, in second-quarter 2021, we generated 13% of our revenue from a project-based gateway deployment for RAIN-based self-checkout and loss prevention at a large Europe-based global retailer. While we continue generating project-based revenue, we have not seen it at a comparable scale in 2022 to 2024, or in the first three quarters of fiscal year 2025.
+Seasonality and Pricing
+We typically negotiate pricing with most of our endpoint IC OEMs with an effective date of the first quarter of the calendar year. In the past, this negotiation typically resulted in reduced revenue and gross margins in the first quarter compared to prior periods,
+
+20
+
+Table of Contents
+ 
+
+which then normalized in subsequent quarters as we reduced costs and adjust product mix by migrating those OEMs and end users to newer, lower-cost products.
+
+Endpoint IC volumes tend to be lower in the fourth quarter than in the third quarter. System sales tend to be higher in the fourth quarter and lower in the first quarter, we believe due to the availability of residual funding for capital expenditures prior to the end of many end users’ fiscal years.
+We did not see these seasonal trends in 2023 but began to see them in second half 2024 and into 2025. We do expect continued quarter-to-quarter revenue and gross margin variability due to macroeconomic conditions, program-launch timing and our ability to migrate OEMs and end users to newer, lower cost products. These variables, among others, may impact seasonal trends in the near term, given current retail uncertainty and other market dynamics, and in the future.
+Results of Operations
+The following table presents our results of operations for the periods indicated:
+
+ 
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands, except percentages)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Revenue
+
+ 
+
+$
+
+96,055
+
+ 
+
+ 
+
+$
+
+95,198
+
+ 
+
+ 
+
+$
+
+857
+
+ 
+
+ 
+
+$
+
+268,226
+
+ 
+
+ 
+
+$
+
+274,518
+
+ 
+
+ 
+
+$
+
+(6,292
+
+)
+
+Gross profit
+
+ 
+
+$
+
+48,328
+
+ 
+
+ 
+
+$
+
+47,569
+
+ 
+
+ 
+
+$
+
+759
+
+ 
+
+ 
+
+$
+
+141,622
+
+ 
+
+ 
+
+$
+
+142,633
+
+ 
+
+ 
+
+$
+
+(1,011
+
+)
+
+Gross margin
+
+ 
+
+ 
+
+50.3
+
+%
+
+ 
+
+ 
+
+50.0
+
+%
+
+ 
+
+ 
+
+0.3
+
+%
+
+ 
+
+ 
+
+52.8
+
+%
+
+ 
+
+ 
+
+52.0
+
+%
+
+ 
+
+ 
+
+0.8
+
+%
+
+Income (loss) from operations
+
+ 
+
+$
+
+656
+
+ 
+
+ 
+
+$
+
+(769
+
+)
+
+ 
+
+$
+
+1,425
+
+ 
+
+ 
+
+$
+
+1,961
+
+ 
+
+ 
+
+$
+
+(3,456
+
+)
+
+ 
+
+$
+
+5,417
+
+ 
+
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Revenue and gross profit increased, due primarily to increased systems revenue partially offset by lower endpoint IC revenue. The systems revenue increase was driven primarily by increased shipment volumes while the endpoint IC revenue decrease was driven primarily by lower ASP when compared to the prior-year period. Gross margin was comparable to the prior-year period. Income from operations increased, due primarily to increased revenue and decreased operating expenses. The operating expense decrease was due to lower general and administrative and sales and marketing costs.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Revenue and gross profit decreased, due primarily to lower endpoint IC revenue, partially offset by higher systems revenue. The endpoint IC revenue decrease was driven primarily by lower ASP when compared to the prior-year period and the systems revenue increase was driven primarily by increased shipment volumes when compared to the prior-year period. Gross margin increased, due primarily to lower indirect costs in the current year compared to the prior-year period. Income from operations increased, due primarily to decreased operating expenses, partially offset by decreased gross profit. The operating expense decrease was due to lower sales and marketing costs, general and administrative costs, restructuring costs and amortization of intangibles, partially offset by increased research and development costs.
+Revenue
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Endpoint ICs
+
+ 
+
+$
+
+78,782
+
+ 
+
+ 
+
+$
+
+80,966
+
+ 
+
+ 
+
+$
+
+(2,184
+
+)
+
+ 
+
+$
+
+224,619
+
+ 
+
+ 
+
+$
+
+231,864
+
+ 
+
+ 
+
+$
+
+(7,245
+
+)
+
+Systems
+
+ 
+
+ 
+
+17,273
+
+ 
+
+ 
+
+ 
+
+14,232
+
+ 
+
+ 
+
+ 
+
+3,041
+
+ 
+
+ 
+
+ 
+
+43,607
+
+ 
+
+ 
+
+ 
+
+42,654
+
+ 
+
+ 
+
+ 
+
+953
+
+ 
+
+Total revenue
+
+ 
+
+$
+
+96,055
+
+ 
+
+ 
+
+$
+
+95,198
+
+ 
+
+ 
+
+$
+
+857
+
+ 
+
+ 
+
+$
+
+268,226
+
+ 
+
+ 
+
+$
+
+274,518
+
+ 
+
+ 
+
+$
+
+(6,292
+
+)
+
+We currently derive substantially all our revenue from sales of endpoint ICs, reader ICs, readers, gateways, test and measurement solutions and licensing. We sell our endpoint ICs and test and measurement solutions primarily to inlay manufacturers; our reader ICs primarily to OEMs and ODMs through distributors; and our readers and gateways to solutions providers, VARs and SIs, also primarily through distributors. We expect endpoint IC sales to represent the majority of our revenue for the foreseeable future.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Endpoint IC revenue decreased $2.2 million, due to a $7.5 million decrease from lower ASP due to product mix and new customer pricing that went into effect at the beginning of the year, offset by a $5.3 million increase in shipment volumes.
+
+21
+
+Table of Contents
+ 
+
+Systems revenue increased $3.0 million due primarily to an increase in shipment volumes. Reader revenue increased by $3.5 million and gateway revenue increased $0.9 million. These increases were partially offset by a decrease of $1.6 million in reader IC revenue.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Endpoint IC revenue decreased $7.2 million, due to a $24.6 million decrease from lower ASP due to product mix and new customer pricing that went into effect at the beginning of the year, offset by a $16.3 million increase in shipment volumes and a $1.0 million increase in licensing revenue.
+Systems revenue increased $1.0 million due primarily to an increase in shipment volumes. Reader revenue increased by $5.5 million. This increase was partially offset by decreases of $3.2 million in reader IC revenue, $0.9 million in gateway revenue and $0.7 million in test and measurement solutions revenue.
+Gross Profit and Gross Margin
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands, except percentages)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Cost of revenue
+
+ 
+
+$
+
+47,727
+
+ 
+
+ 
+
+$
+
+47,629
+
+ 
+
+ 
+
+$
+
+98
+
+ 
+
+ 
+
+$
+
+126,604
+
+ 
+
+ 
+
+$
+
+131,885
+
+ 
+
+ 
+
+$
+
+(5,281
+
+)
+
+Gross profit
+
+ 
+
+ 
+
+48,328
+
+ 
+
+ 
+
+ 
+
+47,569
+
+ 
+
+ 
+
+ 
+
+759
+
+ 
+
+ 
+
+ 
+
+141,622
+
+ 
+
+ 
+
+ 
+
+142,633
+
+ 
+
+ 
+
+ 
+
+(1,011
+
+)
+
+Gross margin
+
+ 
+
+ 
+
+50.3
+
+%
+
+ 
+
+ 
+
+50.0
+
+%
+
+ 
+
+ 
+
+0.3
+
+%
+
+ 
+
+ 
+
+52.8
+
+%
+
+ 
+
+ 
+
+52.0
+
+%
+
+ 
+
+ 
+
+0.8
+
+%
+
+Cost of revenue includes costs associated with manufacturing our endpoint ICs, reader ICs, readers, gateways and test and measurement solutions, including direct materials and outsourced manufacturing costs as well as associated overhead costs such as logistics, quality control, planning and procurement. Cost of revenue also includes charges for excess and obsolescence and warranty costs. Our gross margin varies from period to period based on the mix of endpoint IC and systems; underlying product margins driven by changes in mix, ASPs or costs; as well as from inventory excess and obsolescence charges.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Gross profit increased, due primarily to increased systems revenue. Gross margin increased, due primarily to lower indirect costs in the current year compared to the prior-year period.
+ 
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Gross profit decreased, due primarily to decreased endpoint IC revenue. Gross margin increased, due primarily to lower indirect costs in the current year compared to the prior-year period.
+
+Operating Expenses
+Research and Development
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Research and development
+
+ 
+
+$
+
+25,720
+
+ 
+
+ 
+
+$
+
+25,492
+
+ 
+
+ 
+
+$
+
+228
+
+ 
+
+ 
+
+$
+
+75,686
+
+ 
+
+ 
+
+$
+
+72,935
+
+ 
+
+ 
+
+$
+
+2,751
+
+ 
+
+Research and development expense comprises primarily personnel expenses (salaries, benefits and other employee related costs) and stock-based compensation expense for our product-development personnel; product development costs which include external consulting and service costs, prototype materials and other new-product development costs; and an allocated portion of infrastructure costs which include occupancy, depreciation and software costs. We expect research and development expense to increase in absolute dollars in future periods as we continue to focus on new product development and introductions.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Research and development expense increased $0.2 million, due primarily to increases of $1.2 million in product development costs due to timing and an increase $0.8 million in infrastructure costs, partially offset by a decrease of $1.9 million in personnel expenses related to lower bonus achievement compared to the prior-year period.
+
+22
+
+Table of Contents
+ 
+
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Research and development expense increased $2.8 million, due primarily to increases of $2.6 million in product development costs due to timing; $1.7 million in infrastructure costs; and $1.2 million in stock-based compensation expense, primarily related to increased outstanding equity grants. These increases were partially offset by a decrease of $2.9 million in personnel expenses related to lower bonus achievement compared to the prior-year period.
+ 
+Sales and Marketing
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Sales and marketing
+
+ 
+
+$
+
+9,380
+
+ 
+
+ 
+
+$
+
+9,888
+
+ 
+
+ 
+
+$
+
+(508
+
+)
+
+ 
+
+$
+
+26,173
+
+ 
+
+ 
+
+$
+
+29,891
+
+ 
+
+ 
+
+$
+
+(3,718
+
+)
+
+Sales and marketing expense comprises primarily personnel expenses (salaries, incentive sales compensation, or commission, benefits and other employee-related costs) and stock-based compensation expense for our sales and marketing personnel; travel, advertising and promotional expenses; and an allocated portion of infrastructure costs which include occupancy, depreciation and software costs.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Sales and marketing expense decreased $0.5 million, due primarily to a decrease of $0.5 million in stock-based compensation expense related to timing of annual equity grants and lower expense resulting from the retirement of our Chief Revenue Officer in the first quarter of fiscal year 2025.
+ 
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Sales and marketing expense decreased $3.7 million, due primarily to a decrease of $3.4 million in stock-based compensation expense, driven by forfeitures related to the retirement of our Chief Revenue Officer in the first quarter of fiscal year 2025 and the resulting lower ongoing expense, and a decrease of $0.5 million in personnel expenses related to lower bonus achievement compared to the prior-year period.
+General and Administrative
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+General and administrative
+
+ 
+
+$
+
+12,035
+
+ 
+
+ 
+
+$
+
+12,452
+
+ 
+
+ 
+
+$
+
+(417
+
+)
+
+ 
+
+$
+
+36,259
+
+ 
+
+ 
+
+$
+
+39,040
+
+ 
+
+ 
+
+$
+
+(2,781
+
+)
+
+General and administrative expense comprises primarily personnel expenses (salaries, benefits and other employee related costs) and stock-based compensation expense for our executive, finance, human resources and information technology personnel; legal, accounting and other professional service fees; travel and insurance expense; and an allocated portion of infrastructure costs which include occupancy, depreciation and software costs.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+General and administrative expense decreased $0.4 million, due primarily to a decrease of $1.0 million in personnel expenses related to lower bonus achievement compared to the prior-year period, partially offset by an increase of $0.2 million in stock-based compensation expense related to timing of annual equity grants and an increase of $0.2 million in professional services related to consulting fees.
+ 
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+General and administrative expense decreased $2.8 million, due primarily to a decrease of $2.0 million in professional services related to legal fees and a decrease of $2.0 million in personnel expenses related to lower bonus achievement compared to the prior-year period. This decrease was partially offset by an increase of $0.9 million in stock compensation expense related to increased outstanding equity grants.
+Amortization of Intangibles
+
+23
+
+Table of Contents
+ 
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Amortization of intangibles
+
+ 
+
+$
+
+537
+
+ 
+
+ 
+
+$
+
+506
+
+ 
+
+ 
+
+$
+
+31
+
+ 
+
+ 
+
+$
+
+1,543
+
+ 
+
+ 
+
+$
+
+2,411
+
+ 
+
+ 
+
+$
+
+(868
+
+)
+
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Amortization of intangibles was comparable for the periods.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Amortization of intangibles decreased $0.9 million. The decrease relates to the intangibles acquired as part of our April 3, 2023 acquisition of Voyantic Oy. Certain intangible assets acquired had a useful life of less than 1 year, resulting in a higher amortization expense in the prior-year period.
+Restructuring Costs
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Restructuring costs
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+1,812
+
+ 
+
+ 
+
+$
+
+(1,812
+
+)
+
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+There were no restructuring costs for the periods.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+The decrease in restructuring costs relates to the restructuring we initiated on February 7, 2024. There were no restructuring costs for the nine months ended September 30, 2025. See Note 11 Restructuring for further information.
+Other Income, net
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Other income, net
+
+ 
+
+$
+
+2,592
+
+ 
+
+ 
+
+$
+
+2,416
+
+ 
+
+ 
+
+$
+
+176
+
+ 
+
+ 
+
+$
+
+6,705
+
+ 
+
+ 
+
+$
+
+5,830
+
+ 
+
+ 
+
+$
+
+875
+
+ 
+
+Other income, net, comprises primarily interest income on our short-term investments.
+
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Other income, net, was comparable for the periods.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Other income, net, increased from the prior period due to increased interest income given higher invested balances.
+Income From Settlement of Litigation
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Income from settlement of litigation
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+45,000
+
+ 
+
+ 
+
+$
+
+(45,000
+
+)
+
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+There was no income from settlement of litigation for the periods.
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+The decrease in income from settlement of litigation is related to the litigation settlement we reached with NXP on March 13, 2024. There was no income from litigation for the nine months ended September 30, 2025. See Note 6 Commitments and Contingencies for further information.
+Induced Conversion Expense
+ 
+
+24
+
+Table of Contents
+ 
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Induced conversion expense
+
+ 
+
+$
+
+15,026
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+15,026
+
+ 
+
+ 
+
+$
+
+15,026
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+15,026
+
+ 
+
+Three and nine months ended September 30, 2025 compared with three and nine months ended September 30, 2024
+In September 2025, we completed a privately negotiated exchange of $190.0 million principal amount of the 2021 Convertible Notes, or the 2021 Note Exchange. The 2021 Note Exchange transaction was accounted for as an induced conversion in accordance with Accounting Standards Codification 470-20, Debt with Conversion and Other Options (ASC 470-20), as amended for ASU 2024-04. As a result of the induced conversion, we recorded $15.0 million in induced conversion expense which is included in the Consolidated Statements of Operations for the three and nine months ended September 30, 2025. The induced conversion expense represents the fair value of the consideration issued upon conversion in excess of the fair value of the securities issuable under the original terms of the 2021 Convertible Notes. See Note 7 Long-term Debt for further information.
+Interest Expense
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Interest expense
+
+ 
+
+$
+
+1,121
+
+ 
+
+ 
+
+$
+
+1,219
+
+ 
+
+ 
+
+$
+
+(98
+
+)
+
+ 
+
+$
+
+3,569
+
+ 
+
+ 
+
+$
+
+3,652
+
+ 
+
+ 
+
+$
+
+(83
+
+)
+
+Interest expense comprises primarily cash interest and amortization of debt issuance costs on our debt.
+Three months ended September 30, 2025 compared with three months ended September 30, 2024
+Interest expense was comparable for the periods.
+
+Nine months ended September 30, 2025 compared with nine months ended September 30, 2024
+Interest expense was comparable for the periods.
+
+ 
+Income Tax Expense
+
+ 
+
+Three Months Ended September 30,
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+Change
+
+ 
+
+Income tax benefit (expense)
+
+ 
+
+$
+
+89
+
+ 
+
+ 
+
+$
+
+(207
+
+)
+
+ 
+
+$
+
+296
+
+ 
+
+ 
+
+$
+
+221
+
+ 
+
+ 
+
+$
+
+(194
+
+)
+
+ 
+
+$
+
+415
+
+ 
+
+We are subject to federal and state income taxes in the United States and foreign jurisdictions. Income tax benefit increased $0.3 million for the three months ended September 30, 2025 and income tax benefit increased $0.4 million for the nine months ended September 30, 2025, each compared to the prior-year periods, due to changes in income (loss).
+
+On July 4, 2025, President Trump signed H.R. 1, the “One Big Beautiful Bill Act”, into law. One key provision, applicable to us, is the treatment of domestic research and experimental expenditures, which can now be capitalized or expensed currently. We are currently evaluating the available implementation options and expect to finalize our approach in the fourth quarter of calendar year 2025. In accordance with U.S. GAAP, we have also assessed the impact of the OBBBA on our annual consolidated financial statements and related disclosures and do not expect a material impact given we have a full valuation allowance on our U.S. deferred tax assets.
+
+Liquidity and Capital Resources
+As of September 30, 2025, we had cash, cash equivalents and short-term investments of $190.1 million, comprising cash deposits held at major financial institutions and short-term investments in a variety of securities, including U.S. government securities, treasury bills, corporate notes and bonds, commercial paper and money market funds. As of September 30, 2025, we had working capital of $220.0 million.
+Historically, we have funded our operations primarily through cash generated from operations and by issuing equity securities, convertible-debt offerings and/or borrowing under our prior senior credit facility.
+
+We believe, based on our current operating plan, that our existing cash, cash equivalents and short-term investments will be sufficient to meet our anticipated cash needs for at least the next 12 months. Over the longer term, we plan to continue investing to enhance and extend our platform. If our available funds are insufficient to fund our future activities or execute our strategy, then we may raise additional capital through equity, equity-linked or debt financing, to the extent such funding sources are available. Alternatively, we may need to reduce expenses to manage liquidity; however, any such reductions could adversely impact our business and competitive position.
+
+25
+
+Table of Contents
+ 
+
+Sources of Funds
+From time to time, we may explore additional financing sources and ways to reduce our cost of capital, including equity, equity-linked and debt financing. In addition, in connection with any future acquisitions, we may pursue additional financing which may be debt, equity or equity-linked financing or a combination thereof. We can provide no assurance that any additional financing will be available to us on acceptable terms.
+2021 Notes
+In November 2021, we issued convertible notes due 2027 in an aggregate principal amount of $287.5 million, or the 2021 Notes. The 2021 Notes are our senior unsecured obligation, bearing interest at a fixed rate of 1.125% per year, payable semi-annually in arrears on May 15 and November 15 of each year, beginning on May 15, 2022. The 2021 Notes are convertible into cash, shares of our common stock or a combination thereof, at our election, and will mature on May 15, 2027 unless earlier repurchased, redeemed or converted in accordance with the terms of the terms of the Indenture governing the 2021 Notes.
+The net proceeds from the 2021 Notes were approximately $278.4 million after initial debt issuance costs, fees and expenses. We used approximately $183.6 million of the net proceeds to repurchase approximately $76.4 million aggregate principal amount of convertible notes due 2026, or the 2019 Notes, through individual privately negotiated transactions concurrent with the 2021 Notes offering. We used $17.6 million to repurchase the remaining $9.85 million aggregate principal of the 2019 Notes through individual privately negotiated transactions in June 2022. We will use the rest of the net proceeds for general corporate purposes.
+
+In September 2025, we completed a privately negotiated exchange of $190.0 million principal amount of the 2021 Convertible Notes, or the 2021 Note Exchange. The 2021 Note Exchange was accounted for as an induced conversion in accordance with Accounting Standards Codification 470-20, Debt with Conversion and Other Options (ASC 470-20) and in accordance with ASU 2024-04: Debt—Debt with Conversion and Other Options (Subtopic 470-20) - Induced Conversions of Convertible Debt Instruments, which we early adopted as of January 1, 2025. In connection with the induced conversion, we paid $190.0 million in cash, representing the principal amount exchanged, issued approximately 811,000 shares of our common stock, representing the exchange value in excess thereof, and also paid accrued and unpaid interest thereon.
+For further information on the terms of this debt, please refer to Note 7 to our condensed consolidated financial statements included elsewhere in this report.
+
+2025 Notes
+In September 2025, we issued convertible notes due 2029 in an aggregate principal amount of $190.0 million, or the 2025 Notes. The 2025 Notes are our senior unsecured obligation, bearing no regular interest. The 2025 Notes are convertible into cash, shares of our common stock or a combination thereof, at our election, and will mature on September 15, 2029 unless earlier repurchased, redeemed or converted in accordance with the terms of the Indenture governing the 2025 Notes.
+The net proceeds from the 2025 Notes were approximately $183.6 million after initial debt issuance costs, fees and expenses. We used the net proceeds and cash on hand to exchange $190.0 million aggregate principal amount of the 2021 Notes for approximately $190.0 million in cash, representing the principal amount exchanged, and approximately 811,000 shares of our common stock, representing the exchange value in excess thereof, and also paid accrued and unpaid interest thereon, in individual privately negotiated transactions concurrent with the 2025 Notes offering. In addition, we used approximately $11.2 million of cash on hand to pay the cost of the capped call transactions entered into in connection with the issuance of the 2025 Notes.
+For further information on the terms of this debt, please refer to Note 7 to our condensed consolidated financial statements included elsewhere in this report.
+Cash Flows
+The following table shows a summary of our cash flows for the periods indicated:
+
+ 
+
+ 
+
+Nine Months Ended September 30,
+
+ 
+
+(in thousands)
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+Net cash provided by operating activities
+
+ 
+
+$
+
+43,610
+
+ 
+
+ 
+
+$
+
+115,687
+
+ 
+
+Net cash used in investing activities
+
+ 
+
+ 
+
+(29,219
+
+)
+
+ 
+
+ 
+
+(148,705
+
+)
+
+Net cash provided by (used in) financing activities
+
+ 
+
+ 
+
+(9,077
+
+)
+
+ 
+
+ 
+
+11,897
+
+ 
+
+Operating Cash Flows
+For the nine months ended September 30, 2025, we generated $43.6 million of net cash proceeds from operating activities. These net cash proceeds were due primarily to $55.6 million of net income adjusted for non-cash items, partially offset by a $12.0 million decrease in working capital due primarily to lower accrued compensation.
+
+26
+
+Table of Contents
+ 
+
+Investing Cash Flows
+For the nine months ended September 30, 2025, we used $29.2 million of net cash for investing activities. This net cash was used for purchases of investments of $146.3 million and equipment purchases of $11.3 million, partially offset by cash generated from investment maturities and sales of $128.4 million.
+Financing Cash Flows
+For the nine months ended September 30, 2025, we used $9.1 million of net cash from financing activities. This net cash was used for payment of our 2021 Notes of $190 million, premiums paid for capped call transactions of $11.2 million and $2.6 million in taxes paid to cover RSU vesting. This net cash usage was offset by $183.7 million of net proceeds from issuance of our 2025 Notes and $11.0 million of proceeds from stock-option exercises and our employee stock purchase plan.
+
+Cash Requirements and Contractual Obligations
+
+Our primary cash requirements are for operating expenses and capital expenditures. Our operating expenses have generally increased as we invest in developing products and technologies that we believe have the potential to drive long-term business growth.
+Convertible Notes
+ – As of September 30, 2025, the principal balance outstanding on the 2021 Notes and 2025 Notes is $97.5 million and $190.0 million, respectively. Refer to Note 7 of our Notes to Condensed Consolidated Financial Statements in this Quarterly Report on Form 10-Q for maturity date, stated interest rate and additional information on the Notes.
+Operating Lease Obligations
+ – Our lease portfolio comprises primarily operating leases for our office space. For additional information regarding our operating leases, see Note 11 of our Notes to Consolidated Financial Statements of our Annual Report on Form 10-K for the year ended December 31, 2024.
+Purchase Commitments
+ – Purchase commitments as of September 30, 2025 total $24.6 million and comprise noncancelable commitments to purchase inventory.
+Off-Balance-Sheet Arrangements
+Since inception, we have not had any relationships with unconsolidated entities, such as entities often referred to as structured finance or special-purpose entities, or financial partnerships that would have been established for the purpose of facilitating off-balance-sheet arrangements or for another contractually narrow or limited purpose.
+Critical Accounting Policies and Significant Estimates
+We have prepared our condensed consolidated financial statements in accordance with GAAP. Our preparation of these financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, expenses and related disclosures. We evaluate our estimates and assumptions on an ongoing basis. Our estimates are based on historical experience and various other assumptions that we believe to be reasonable under the circumstances. Our actual results could differ from these estimates and assumptions. For information on our critical accounting policies and estimates, see Part II, Item 7 (Management’s Discussion and Analysis of Financial Condition and Results of Operations) of our Annual Report on Form 10-K for the year ended December 31, 2024.

@@ -1,0 +1,36 @@
+{
+  "company": "Synaptics",
+  "ticker": "SYNA",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000817720",
+  "form": "10-K",
+  "filing_date": "2026-08-10",
+  "accession_number": "0000817720-26-000055",
+  "primary_document": "syna-20260627.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/817720/000081772026000055/syna-20260627.htm",
+  "fiscal_year_end": "0626",
+  "report_date": "2026-06-27",
+  "period_end": "2026-06-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:32:26.737140+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SYNA/000081772026000055/primary.html",
+    "business": "data/raw/SYNA/000081772026000055/item1_business.txt",
+    "risk_factors": "data/raw/SYNA/000081772026000055/item1a_risk_factors.txt",
+    "mdna": "data/raw/SYNA/000081772026000055/item7_mdna.txt",
+    "other": "data/raw/SYNA/000081772026000055/other_full.txt"
+  }
+}

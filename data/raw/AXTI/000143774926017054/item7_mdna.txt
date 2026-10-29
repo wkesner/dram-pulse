@@ -1,0 +1,3244 @@
+ITEM 2. MANAGEMENT
+’
+S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+
+ 
+
+This Quarterly Report on Form 10-Q of AXT, Inc., a Delaware corporation (“AXT”, “the Company”, “we,” “us,” and “our” refer to AXT, Inc. and its consolidated subsidiaries) contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). Statements relating to our expectations regarding the receipt of export permits for our indium phosphide substrates, results of operations, market and customer demand for our products, our ability to expand our markets or increase sales, emerging applications using chips or devices fabricated on our substrates, including the use of InP wafer substrates in artificial intelligence (“AI”) applications, the development and adoption of new products, applications, enhancements or technologies, the life cycles of our products and applications, product yields and gross margins, expense levels, the impact of the adoption of certain accounting pronouncements, our investments in capital projects, ramping production at our new sites, potential severance costs with respect to any reduction in our work force, our ability to have new customers qualify substrates from our new manufacturing locations in China, our ability to utilize or increase our manufacturing capacity, to enable our industry to meet future demands and needs for our indium phosphide wafer substrates, and our belief that we have adequate cash and investments to meet our needs over the next 12 months are forward-looking statements. Additionally, statements regarding completing steps in connection with the proposed listing of shares of our wafer manufacturing company, Beijing Tongmei Xtal Technology Co., Ltd. (“Tongmei”), on the Shanghai Stock Exchange’s Sci-Tech innovAtion boaRd (the “STAR Market”), being accepted to list shares of Tongmei on the STAR Market, the timing and completion of such listing of shares of Tongmei on the STAR Market are forward-looking statements. The words “believe,” “may,” “will,” “estimate,” “continue,” “anticipate,” “intend,” “expect,” “could,” “would,” “project,” “plan,” “potentially,” “likely,” and similar expressions and variations thereof are intended to identify forward-looking statements, but are not the exclusive means of identifying such statements in this Quarterly Report on Form 10-Q, and include statements regarding the intent, belief or current expectations of our management that are subject to known and unknown risks, uncertainties and assumptions which could cause actual results to differ materially from those expressed or implied in the forward-looking statement. Additionally, statements concerning future matters such as our strategy and plans, industry trends and the impact of trends, tariffs and trade wars, geopolitical tensions, export restrictions in China, results of operations and financial condition, mandatory factory shutdowns in China, changes in policies and regulations in China and economic cycles on our business are forward-looking statements.
+
+ 
+
+Our forward-looking statements are based upon assumptions that are subject to uncertainties and factors relating to the Company’s operations and business environment, which could cause actual results to differ materially from those expressed or implied in the forward-looking statements contained in this Quarterly Report on Form 10-Q. These uncertainties and factors include, but are not limited to: the receipt of export permits to export indium phosphide wafers from China, as well as our other wafer products, and the timing of such export permit approvals, the withdrawal, cancellations or requests for redemptions by private equity funds in China of their investments in Tongmei, the administrative challenges in satisfying the requirements of various government agencies in China in connection with the investments in Tongmei and the listing of shares of Tongmei on the STAR Market, continued open access to companies to list shares on the STAR Market, investor enthusiasm for new listings of shares on the STAR Market and geopolitical tensions between China and the United States. Additional uncertainties and factors include, but are not limited to: the timing and receipt of significant orders; the cancellation of orders and return of product; emerging applications using chips or devices fabricated on our substrates; end-user acceptance of products containing chips or devices fabricated on our substrates; our ability to bring new products to market; product announcements by our competitors; the ability to control costs and improve efficiency; the ability to utilize our manufacturing capacity; product yields and their impact on gross margins; the relocation of manufacturing lines and ramping of production; possible factory shutdowns as a result of air pollution in China; outbreaks of a contagious disease; tariffs and other trade war issues; export restrictions in China; the financial performance of our partially owned supply chain companies; policies and regulations in China; and other factors as set forth in this Quarterly Report on Form 10-Q, including those set forth under the section entitled “Risk Factors” in Part II, Item 1A below. All forward-looking statements are based upon management’s views as of the date of this Quarterly Report on Form 10-Q and are subject to risks and uncertainties that could cause actual results to differ materially from historical results or those anticipated in such forward-looking statements. Such risks and uncertainties include those set forth under the section entitled “Risk Factors” in Part II, Item 1A below, as well as those discussed elsewhere in this Quarterly Report on Form 10-Q and identify important factors that could disrupt or injure our business or cause actual results to differ materially from those predicted in any such forward-looking statements.
+
+ 
+
+       28
+
+Table of Contents
+
+ 
+
+These forward-looking statements are not guarantees of future performance.  Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date hereof. Readers are urged to carefully review and consider the various disclosures made in this Quarterly Report on Form 10-Q, which attempt to advise interested parties of the risks and factors that may affect our business, financial condition, results of operations and prospects. We undertake no obligation to revise or update any forward‑looking statements in order to reflect any development, event or circumstance that may arise after the date of this Quarterly Report on Form 10-Q. This discussion should be read in conjunction with Management’s Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the year ended December 31, 2025 (the “2025 Annual Report”) and the condensed consolidated financial statements included elsewhere in this Quarterly Report on Form 10-Q.
+
+ 
+
+Overview
+
+ 
+
+AXT is a worldwide materials science company that develops and produces high-performance compound and single element semiconductor substrate wafers and certain raw materials integral to these substrates. Two of our consolidated subsidiaries produce and sell certain raw materials some of which are used in our substrate manufacturing process and some of which are sold to other companies.
+
+ 
+
+Our substrate wafers are used when a typical silicon substrate wafer cannot meet the performance requirements of a semiconductor or optoelectronic device. The dominant substrates used in producing semiconductor chips and other electronic circuits are made from silicon. However, certain chips may become too hot or perform their function too slowly if silicon is used as the base material. In addition, optoelectronic applications, such as LED lighting and chip-based lasers, do not use silicon substrates because they require a waveform frequency that cannot be achieved using silicon. Alternative or specialty materials are used to replace silicon as the preferred base in these situations. Our wafers provide such alternative or specialty materials. We do not design or manufacture the chips. We add value by researching, developing and producing the specialty material wafers. We have two product lines: specialty material substrates and raw materials integral to these substrates. Our compound substrates combine indium with phosphorous (indium phosphide: InP) or gallium with arsenic (gallium arsenide: GaAs). Our single element substrates are made from germanium (Ge).
+
+ 
+
+InP is a high-performance semiconductor wafer substrate used in broadband and fiber optic applications, 5G infrastructure and data center connectivity. Data centers use InP devices for high-speed optical data transmission. We believe the growth of AI applications is increasing the need for high-speed data transfer, which may enable a growing increase in InP substrate demand for such data centers. Currently, InP substrates are being used in certain consumer products, including proximity sensors and other sensors in mobile devices, biometric wearables and other health monitoring applications. In recent years, InP demand has increased. Semi-insulating GaAs substrates are used to create various high-speed microwave components, including power amplifier chips used in cell phones, satellite communications and broadcast television applications. Semi-conducting GaAs substrates are used to create opto-electronic products, such as light emitting diodes (LEDs) that are used in a wide range of applications, including automotive lighting, horticulture, signage, display, sensors and machine vision. Semi-conducting GaAs substrates are also used in making industrial lasers. GaAs wafers could also be used for making vertical cavity surface emitting lasers (VCSELs) for facial recognition. Ge substrates are used in applications such as solar cells for space and terrestrial photovoltaic applications.
+
+ 
+
+Our supply chain strategy includes several consolidated raw material companies. One of these consolidated companies produces pyrolytic boron nitride (pBN) crucibles used in the high temperature (typically in the range 500 C to 1,500 C) growth process of single crystal ingots, effusion rings when growing OLED (Organic Light Emitting Diode) tools, epitaxial layer growth in MOCVD (Metal-Organic Chemical Vapor Deposition) reactors and MBE (Molecular Beam Epitaxy) reactors. We use these pBN crucibles in our own ingot growth processes and they are also sold in the open market to other companies. A second consolidated company converts raw gallium to purified gallium. We use purified gallium in producing our GaAs substrates and it is also sold in the open market to other companies for use in producing magnetic materials, high temperature thermometers, single crystal ingots, including gallium arsenide, gallium nitride, gallium antimonite and gallium phosphide ingots, and other materials and alloys. In addition to purified gallium, the second consolidated company also produces InP base material which we then use to grow single crystal ingots. Our substrate product group generated 67%, 68%, and 63% of our consolidated revenue and our raw materials product group generated 33%, 32%, and 37% for 2025, 2024, and 2023, respectively.
+
+ 
+
+       29
+
+Table of Contents
+
+ 
+
+The following chart shows our substrate products and their materials, diameters and illustrative applications and shows our raw materials group primary products and their illustrative uses and applications.
+
+ 
+
+Products
+
+ 
+
+ 
+
+Substrate Group and Wafer Diameter
+
+ 
+
+Sample of Applications
+
+Indium Phosphide
+
+ 
+
+•Data center connectivity using light/lasers
+
+(InP)
+
+ 
+
+•High-speed data transfer in data centers to support AI applications
+
+2”, 3”, 4”, 6”
+
+ 
+
+•5G communications
+
+ 
+
+ 
+
+•Fiber optic lasers and detectors
+
+ 
+
+ 
+
+•Consumer devices
+
+ 
+
+ 
+
+•Passive Optical Networks (PONs)
+
+ 
+
+ 
+
+•Silicon photonics
+
+ 
+
+ 
+
+•Photonic Integrated circuits (PICs)
+
+ 
+
+ 
+
+•Thermo-Photovoltaics (TPVs)
+
+ 
+
+ 
+
+•RF amplifier and switching (military wireless & 5G)
+
+ 
+
+ 
+
+•Infrared light-emitting diode (LEDs) motion control
+
+ 
+
+ 
+
+•Lidar for robotics and autonomous vehicles
+
+ 
+
+ 
+
+•Infrared thermal imaging
+
+Gallium Arsenide
+
+ 
+
+•Wi-Fi devices
+
+(GaAs - semi-insulating)
+
+ 
+
+•IoT devices
+
+1”, 2”, 3”, 4”, 5”, 6”
+
+ 
+
+•High-performance transistors
+
+ 
+
+ 
+
+•Direct broadcast television
+
+ 
+
+ 
+
+•Power amplifiers for wireless devices
+
+ 
+
+ 
+
+•Satellite communications
+
+ 
+
+ 
+
+•High efficiency solar cells for drones and automobiles
+
+ 
+
+ 
+
+•Solar cells
+
+Gallium Arsenide
+
+ 
+
+•High brightness LEDs
+
+(GaAs - semi-conducting)
+
+ 
+
+•Screen displays using micro-LEDs
+
+1”, 2”, 3”, 4”, 5”, 6”, 8”
+
+ 
+
+•Printer head lasers and LEDs
+
+ 
+
+ 
+
+•3-D sensing using VCSELs
+
+ 
+
+ 
+
+•Data center communication using VCSELs
+
+ 
+
+ 
+
+•Sensors for industrial robotics/Near-infrared sensors
+
+ 
+
+ 
+
+•Laser machining, cutting and drilling
+
+ 
+
+ 
+
+•Optical couplers
+
+ 
+
+ 
+
+•High efficiency solar cells for drones and automobiles
+
+ 
+
+ 
+
+•Other lasers
+
+ 
+
+ 
+
+•Night vision goggles
+
+ 
+
+ 
+
+•Lidar for robotics and autonomous vehicles
+
+ 
+
+ 
+
+•Solar cells
+
+Germanium
+
+ 
+
+•Multi-junction solar cells for satellites
+
+(Ge)
+
+ 
+
+•Optical sensors and detectors
+
+2”, 4”, 6”
+
+ 
+
+•Terrestrial concentrated photo voltaic (CPV) cells
+
+ 
+
+ 
+
+•Infrared detectors
+
+ 
+
+ 
+
+•Carrier wafer for LED
+
+Raw Materials Group
+
+ 
+
+ 
+
+6N+ and 7N+ purified gallium
+
+ 
+
+•Key material in single crystal ingots such as:
+
+ 
+
+ 
+
+- Gallium Arsenide (GaAs)
+
+ 
+
+ 
+
+- Gallium Nitride (GaN)
+
+ 
+
+ 
+
+- Gallium Antimonite (GaSb)
+
+ 
+
+ 
+
+- Gallium Phosphide (GaP)
+
+Boron trioxide (B2O3)
+
+ 
+
+•Encapsulant in the ingot growth of III-V compound semiconductors
+
+Gallium-Magnesium alloy
+
+ 
+
+•Used for the synthesis of organo-gallium compounds in epitaxial growth on semiconductor wafers
+
+pyrolytic boron nitride (pBN) crucibles
+
+ 
+
+•Used when growing single-crystal compound semiconductor ingots
+
+ 
+
+ 
+
+•Used as effusion rings when growing OLED tools
+
+pBN insulating parts
+
+ 
+
+•Used in MOCVD reactors
+
+ 
+
+ 
+
+•Used when growing epitaxial layers in Molecular Beam Epitaxy (MBE) reactors
+
+ 
+
+       30
+
+Table of Contents
+
+ 
+
+All of our substrate products and raw material products are manufactured in the People’s Republic of China (PRC or China) by our PRC subsidiaries and PRC joint ventures. The PRC generally has favorable costs for facilities and labor compared with comparable facilities in the United States, Europe or Japan. Our supply chain includes partial ownership of raw material companies in China (subsidiaries/joint ventures). We believe this supply chain arrangement provides us with pricing advantages, reliable supply, market trend visibility and better sourcing lead-times for key raw materials central to manufacturing our substrates. In the event of industry-wide supply shortages we believe our vertically integrated supply chain strategy will be even more advantageous. Our raw material companies produce materials, including raw gallium (4N Ga), high purity gallium (6N and 7N Ga), starting material for InP, arsenic, germanium, germanium dioxide, pyrolytic boron nitride (pBN) crucibles, quartz tubing and boron oxide (B2O3). One company does recycling of our scrap materials. We have board representation in all of these raw material companies. We consolidate the companies in which we have either a controlling financial interest, or majority financial interest combined with the ability to exercise substantive control over the operations, or financial decisions, of such companies. We use the equity method to account for companies in which we have noncontrolling financial interest and have the ability to exercise significant influence, but not control, over such companies. We purchase portions of the materials produced by these companies for our own use and they sell the remainder of their production to third parties.
+
+ 
+
+In 2015, the Beijing city government announced its decision to move most of its offices to the Tongzhou district where our original manufacturing facility is currently located. The Beijing city government has moved thousands of government employees into this district. The government has constructed showcase tower buildings and overseen the establishment of new apartment complexes, retail stores and restaurants. A large park, named Green Heart City Park, was built across the street from our facility and Universal Studios has developed an amusement park within a few miles of our facility. To create room and upgrade the district, the city instructed virtually all existing manufacturing companies, including Tongmei, to relocate all or some of their manufacturing lines. We were instructed to relocate our gallium arsenide manufacturing lines. For reasons of manufacturing efficiency, we elected to also move part of our germanium manufacturing line. Our indium phosphide manufacturing line, as well as various administrative and sales functions, remain primarily at our original site in Beijing.
+
+ 
+
+Begun in 2017, the relocation of our gallium arsenide production lines is now completed. Our PRC subsidiary, Baoding Tongmei Xtal Technology Co., Ltd. (“Baoding Tongmei”), entered into volume production in 2020. To mitigate our risks and maintain our production schedule, we moved our gallium arsenide equipment in stages. By December 31, 2019, we had ceased all crystal growth for gallium arsenide in our original manufacturing facility in Beijing and transferred 100% of our ingot production to the new manufacturing facility of our PRC subsidiary, ChaoYang Tongmei Xtal Technology Co., Ltd., (“ChaoYang Tongmei”), in Kazuo, a city approximately 250 miles from Beijing. We transferred our wafer processing equipment for gallium arsenide to Baoding Tongmei’s new manufacturing facility in Dingxing, a city approximately 75 miles from Beijing. These new facilities enabled us to expand capacity and upgrade some of the equipment. In 2021 and 2022, we added additional equipment, including certain more advanced equipment. We have also invested in additional buildings to complement the initial construction and add capacity as needed. Our PRC subsidiaries also acquired sufficient land to enable them to add facilities, if needed in the future. We believe our success in the relocation and our ability to add capacity in the future gives us competitive advantages. In addition, a new level of technological sophistication in our manufacturing capabilities is enabling us to support the major trends that we believe are likely to drive demand for our products in the years ahead.
+
+ 
+
+New customer qualifications and expanding capacity as needed require us to continue to diligently address the many details that arise at each of our sites. A failure to properly accomplish this could result in disruption to our production and have a material adverse impact on our revenue, our results of operations and our financial condition. If we fail to meet the product qualification and volume requirements of a customer, we may lose sales to that customer. Our reputation may also be damaged. Any loss of sales could have a material adverse effect on our revenue, our results of operations and our financial condition.
+
+ 
+
+On November 16, 2020, we announced a strategic initiative to access China’s capital markets by beginning a process to list shares of Tongmei in an initial public offering (the “IPO”) on the STAR Market, an exchange intended to support innovative companies in China. We formed and founded Tongmei in 1998 and believe Tongmei has grown into a company that will be an attractive offering on the STAR Market. To qualify for a STAR Market listing, the first major step in the process was to engage private equity firms in China (“Investors”) to invest funds in Tongmei. By December 31, 2020, Investors, which consist of 10 private equity funds, had entered into two sets of definitive transaction documents, each consisting of a capital increase agreement along with certain supplemental agreements in substantially the same form (collectively, the “Capital Investment Agreements”), with Tongmei for a total investment of approximately $48.1 million. The currency used in the investment transactions was the Chinese renminbi, which has been converted to approximate U.S. dollars for this Quarterly Report on Form 10-Q. The remaining investment of approximately $1.5 million of new capital was funded in January 2021. The government approved the approximately $49 million investment in its entirety on January 25, 2021. In exchange for an investment of approximately $49 million, the Investors received a 7.28% redeemable noncontrolling interest in Tongmei.
+
+ 
+
+       31
+
+Table of Contents
+
+ 
+
+Pursuant to the Capital Investment Agreements with the Investors, each Investor has the right to require AXT to redeem any or all Tongmei shares held by such Investor at the original purchase price paid by such Investor, without interest, in the event the IPO fails to pass the audit of the Shanghai Stock Exchange, is not approved by the Chinese Securities Regulatory Commission (“CSRC”) or Tongmei cancels the IPO application. The aggregate redemption amount is approximately $49 million, subject to the foreign exchange rate variable at time of redemption.
+
+ 
+
+Tongmei submitted its IPO application to the Shanghai Stock Exchange in December 2021 and it was formally accepted for review on January 10, 2022. The Shanghai Stock Exchange approved the IPO application on July 12, 2022. On August 1, 2022, the CSRC accepted for review Tongmei’s IPO application. The STAR Market IPO remains subject to review and approval by the CSRC and other authorities. The process of going public on the STAR Market includes several periods of review and, therefore, is a lengthy process. Subject to review and approval by the CSRC and other authorities, Tongmei hopes to accomplish this goal in the coming months. The listing of Tongmei on the STAR Market will not change the status of AXT as a U.S. public company.
+
+ 
+
+An early step in the STAR Market IPO process involved certain entity reorganizations and alignment of assets under Tongmei. In this regard our two consolidated raw material companies, JinMei and BoYu and their subsidiaries were assigned to Tongmei in December 2020. As of June 30, 2021, AXT-Tongmei, Inc., a wholly owned subsidiary of AXT, was assigned to Tongmei. The assignment to Tongmei of JinMei, BoYu and their subsidiaries, and AXT-Tongmei, Inc. increased the number of customers and employees attributable to Tongmei as well as increased Tongmei’s consolidated revenue.
+
+ 
+
+We are neither a PRC operating company nor do we conduct our operations in China through the use of variable interest entities (“VIEs”). Recent statements and regulatory actions by China’s government on the use of VIEs and data security or anti-monopoly concerns have not impacted our ability to conduct our business or continue to list our common stock on the Nasdaq Global Select Market.
+
+ 
+
+The following organization chart depicts the consolidated structure as of March 31, 2026:
+
+ 
+
+ 
+
+       32
+
+Table of Contents
+
+ 
+
+The businesses of our PRC subsidiaries and PRC joint ventures are subject to complex and rapidly evolving laws and regulations in the PRC, which can change quickly with little advance notice. The PRC government is a single party form of government with virtually unlimited authority and power to intervene in or influence commercial operations in China. We have experienced such interventions or influence by the PRC government and expect that such intervention or influence or change in the rules and regulations in China could occur in the future.
+
+ 
+
+In September 2018, the United States announced a list of thousands of categories of goods that became subject to Section 301 tariffs when imported into the United States from China. This pronouncement imposed tariffs on wafer substrates we imported into the United States. The initial tariff rate was 25%. On July 3, 2023, China announced new export control regulations on materials including gallium and germanium and compounds of these materials, effective as of August 1, 2023. Materials that could be used in military applications, specifically including weapons of mass destruction, were the primary focus. This required Tongmei to seek permits from the applicable Chinese authorities to export gallium arsenide and germanium substrates. Since that time, a general escalation has been underway with further increases to the tariffs from the US and additional export controls from China.
+
+ 
+
+In late 2024 and early 2025, a new round of trade restrictions was announced by China and the United States. On December 3, 2024, China issued further rules restricting exports of materials that can typically be used in military applications including antimony, gallium, germanium and other superhard materials. The effective date was December 3, 2024, the same day as the announcement itself. Reciprocally, the United States increased tariffs on many items from China from 25% to 50%, effective January 1, 2025. On February 1, 2025, the United States again further increased the tariff on imports of many products from China, including our wafer substrates, to 60%. On March 4, 2025, the United States further increased the tariff on imports of many products, including our wafer substrates, to 70%. In 2024, 8% of our total worldwide revenue was from sales in North America, primarily in the U.S. Indium phosphide substrates are the primary revenue generator derived from imports into the U.S. This revenue has been impacted by additional tariffs imposed by the United States and by export controls implemented by China. As such, in 2025, only approximately 2% of our revenue was generated by sales to customers in North America. On February 20, 2026, the U.S. Supreme Court invalidated many of the global tariffs previously imposed under the International Emergency Economic Powers Act of 1977 (the "IEEPA") and the U.S. Customs and Border Protection subsequently announced that IEEPA-based tariff provisions would be terminated effective February 24, 2026. However, tariffs imposed under other authorities, including Section 232 of the Trade Expansion Act of 1962 and Section 301 of the Trade Act of 1974, remain in effect, and the U.S. government has indicted that it may pursue additional or replacement tariffs under alternative legal authorities, including temporary measures under Section 122 of the Trade Act of 1974. If maintained, these announced new tariffs, as well as related measures that could be taken by other countries and the potential escalation of trade disputes, could affect our business and results of operations. We continue to monitor developments closely, including pending legal challenges to certain tariff authorities, updated guidance from regulators, retaliatory measures, resolution of trade agreements and ongoing negotiations with additional trade partners.
+
+ 
+
+We have little or no germanium imports into the U.S. and historically a relatively small value of imports of gallium arsenide wafers into the U.S. While Tongmei has generally received the required permits for exports to countries in Asia and Europe, our U.S. gallium arsenide customers are considered “dual use” customers: in addition to commercial applications they have significant levels of military involvement. As such, no permits for the export of gallium arsenide to the U.S. have yet been approved.
+
+ 
+
+On February 4, 2025, China added indium phosphide substrates to its export control list. As a result, the three wafer substrate product families manufactured by Tongmei all require permits from China’s Ministry of Commerce before they can be exported from China. InP export permits represent the most significant challenge we currently face. The portal to apply for exports of indium phosphide from China opened in March 2025 and we immediately began to submit our applications. On June 11, 2025, Tongmei was informed that it had satisfied the applicable requirements for a permit to export indium phosphide and received its initial export permits from the Ministry of Commerce of the People’s Republic of China to resume shipping indium phosphide substrates to certain customers in Europe and Japan. While we continue to receive permits, we have a backlog of orders for which we have not yet received permits and as of the date of this report we still cannot predict when a permit application will be reviewed and approved. The fluidity of the export permit requirements and ongoing lack of surety creates anxiety for us and for our customers. To our knowledge, indium phosphide is rarely used in military applications and we can reasonably expect that export permits to ship our indium phosphide substrates to the U.S. will be granted. However, the timing for receiving permits remains uncertain, unclear and beyond our control. We are actively monitoring and following up on the status of our applications. Obtaining export permits on a timely basis may result in a mismatch between our receipt of purchase orders for indium phosphide substrates and the recognition of revenue under U.S. GAAP and this may have a material adverse effect on our business, financial condition, and results of operations.
+
+ 
+
+       33
+
+Table of Contents
+
+ 
+
+On December 27, 2025, the Standing Committee of the National People’s Congress of China (“NPC”) enacted substantial revisions to the Foreign Trade Law of the People’s Republic of China, effective March 1, 2026 (the “Foreign Trade Law”). The revisions to the Foreign Trade Law provide, among other things, enhanced power vested in governmental agencies to prohibit or restrict the import or export of goods and technologies for a variety of reasons set forth in Article 18 of the Foreign Trade Law, including, but not limited to, (i) safeguarding national security, (ii) where there is a domestic shortage of supply or to protect potentially depleted natural resources, (iii) in order to establish or accelerate the establishment of specific domestic industries, and (iv) other circumstances where it is necessary to prohibit or restrict the import or export of relevant goods or technologies, or take other necessary measures. The revisions also include a chapter on intellectual property introducing new trade sanctions for the infringement of intellectual property rights when such infringement endangers the order of foreign trade and targets specific licensing practices that prohibit the challenge of a license’s validity or portfolio licensing bundling. The specific prohibitions and restrictions on the import and export of goods and technologies are delegated to the Ministry of Commerce of the People’s Republic of China, among other agencies. We do not believe that the revisions will have any additional material adverse effects on our wafer substrate products beyond the current restrictions and licensing requirements. However, with the Foreign Trade Law’s enhanced power over import and export prohibitions and restrictions, no assurances can be given that additional restrictions will not be imposed in the future.
+
+ 
+
+In the ordinary course of business, our PRC subsidiaries and PRC joint ventures require permits and licenses to operate in the PRC. Such permits and licenses include permits to use hazardous materials in manufacturing operations. From time to time, the PRC government issues new regulations, which may require additional actions on the part of our PRC subsidiaries and PRC joint ventures to comply. For example, on February 27, 2015, the China State Administration of Work Safety updated its list of hazardous substances. The previous list, which was published in 2002, did not restrict the materials that we use in our wafers. The new list added gallium arsenide. Another example of a change in the rules and regulations in China occurred in 2015 when we were instructed by the Beijing municipal government to relocate part of our manufacturing facility in Beijing. Any such intervention or influence or change in the rules and regulations in China could result in a material change in our PRC operations and/or the value of our common stock or cause the value of such securities to significantly decline or be worthless.
+
+ 
+
+We have created a vertically integrated supply chain and transfer cash through our corporate structure in three ways. First, we capitalize our investments in our PRC subsidiaries. We licensed to our PRC subsidiaries intellectual property and received from our PRC subsidiaries royalty payments or one-time fees. Second, we use transfer pricing arrangements to buy from our PRC subsidiaries and PRC joint ventures wafers and raw materials. We review the terms of the transfer pricing arrangements annually with our independent registered public accounting firm. In the past, we sold to our PRC subsidiaries capital equipment that we purchased at the request of our PRC subsidiaries and for which we were reimbursed by the applicable PRC subsidiary. In recent years, Tongmei purchases capital equipment from suppliers in Taiwan, Japan, China, Europe or South Korea. Third, our PRC subsidiaries and PRC joint ventures pay dividends to entities within the Company’s corporate structure. For the three months ended March 31, 2026, the aggregate dividends paid to the Company, directly or to an intermediate entity within our corporate structure, by our PRC subsidiaries and PRC raw material joint ventures wer
+e $0 mil
+lion. For the year ended December 31, 2025, the aggregate dividends paid to the Company, directly or to an intermediate entity within our corporate structure, by our PRC subsidiaries and PRC raw material joint ventures were approximately $0.9 million. For the year ended December 31, 2025, the aggregate dividends paid to minority shareholders by our PRC subsidiaries and PRC raw material joint ventures were approximately $0. All of these distributions were paid to our PRC subsidiaries and the minority shareholders. For the three months ended March 31, 2026 and the year ended December 31, 2025, no transfers, dividends, or distributions were made between the Company and its PRC subsidiaries, or to investors, except for the settlement of amounts owed under our transfer pricing arrangements in the ordinary course of business. We have no current intentions to distribute earnings to our investors under our corporate structure.
+
+ 
+
+The cash generated from one PRC subsidiary is not used to fund another PRC subsidiary’s operations. None of our PRC subsidiaries has faced difficulties or limitations on its ability to transfer cash between our subsidiaries. We have cash management policies that dictate the amount of such funding.
+
+ 
+
+We are subject to a number of unique legal and operational risks associated with our corporate structure, any of which could result in a material change in our operations and/or the value of our common stock or cause the value of such securities to significantly decline or be worthless. Please carefully read the section entitled “Risk Factors” in Part II, Item 1A below. In particular, the following risk factors address issues associated with our corporate structure:
+
+ 
+
+ 
+
+●
+
+Although we are a Delaware corporation and are neither a PRC operating company nor do we conduct our operations in China through the use of VIEs, in the event we inadvertently concluded that we do not require any permissions or approvals from the CSRC or other PRC central government authorities to complete a public offering of securities in the U.S. or applicable laws, regulations, or interpretations change, we may be required to obtain such permissions or approvals to complete such a public offering of securities.
+
+ 
+
+●
+
+The PRC central government may intervene in or influence our PRC operations at any time and the rules and regulations in China can change quickly with little advance notice.
+
+       34
+
+Table of Contents
+
+ 
+
+ 
+
+●
+
+The PRC central government may also exert more control over offerings conducted overseas and/or foreign investment in China-based issuers, which could result in a material change in our operations and/or the value of our common stock.
+
+ 
+
+●
+
+Changes in China’s political, social, regulatory or economic environments may affect our financial performance.
+
+ 
+
+●
+
+Joint venture raw material companies in China bring certain risks.
+
+ 
+
+●
+
+The Chinese central government is increasingly aware of air pollution and other forms of environmental pollution and their reform efforts can impact our manufacturing, including intermittent mandatory shutdowns.
+
+ 
+
+●
+
+Shutdowns or underutilizing our manufacturing facilities may result in declines in our gross margins.
+
+ 
+
+●
+
+Escalating and volatile trade tariffs, import restrictions, export restrictions, Chinese regulations or other trade barriers may materially harm our business.
+
+ 
+
+●
+
+If China places restrictions on freight and transportation routes and on ports of entry and departure this could result in shipping delays or increased costs for shipping.
+
+ 
+
+●
+
+Our international operations are exposed to potential adverse tax consequence in China.
+
+ 
+
+●
+
+We derive a significant portion of our revenue from international sales, and our ability to sustain and increase our international sales involves significant risks.
+
+ 
+
+●
+
+The terms of the private equity raised in China as a first step toward an IPO on the STAR Market grant each Investor a right of redemption if Tongmei fails to achieve its IPO.
+
+ 
+
+●
+
+We are subject to foreign exchange gains and losses that may materially impact our statement of operations.
+
+ 
+
+●
+
+Although the audit report is prepared by an independent registered public accounting firm that is currently inspected fully by the Public Company Accounting Oversight Board (the “PCAOB”), there is no guarantee that future audit reports will be prepared by an independent registered public accounting firm that is completely inspected by the PCAOB.
+
+ 
+
+Our independent registered public accounting firm is BPM LLP (“BPM”), which is registered with the PCAOB. The Holding Foreign Companies Accountable Act (the “HFCA Act”) requires that the PCAOB determine whether it is unable to inspect or investigate completely registered public accounting firms located in a non-U.S. jurisdiction because of a position taken by one or more authorities in that jurisdiction. On December 16, 2021, the PCAOB issued a report on its determinations that the PCAOB is unable to inspect or investigate completely registered public accounting firms headquartered in the PRC and Hong Kong because of positions taken by PRC authorities in those jurisdictions. BPM is headquartered in the United States and not in the PRC or Hong Kong. As such, BPM is not subject to the determinations announced by the PCAOB. Accordingly, the Company does not expect the HFCA Act, the Accelerating Holding Foreign Companies Accountable Act and the related regulations to affect the Company and does not expect to be identified by the Securities and Exchange Commission, or SEC, under the HFCA Act. On December 15, 2022, the PCAOB vacated its 2021 determinations that the positions taken by authorities in the PRC and Hong Kong prevented it from inspecting and investigating completely registered public accounting firms headquartered in those jurisdictions. See “Although the audit report is prepared by an independent registered public accounting firm that is currently inspected fully by the PCAOB, there is no guarantee that future audit reports will be prepared by an independent registered public accounting firm that is completely inspected by the PCAOB” under the section entitled “Risk Factors” in Part II, Item 1A below for further information on risks related to our foreign operations and dependence.
+
+ 
+
+Critical Accounting Policies, Estimates and Change in Accounting Estimates
+
+ 
+
+We prepare our condensed consolidated financial statements in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”). Accordingly, we make estimates, assumptions and judgments that affect the amounts reported on our condensed consolidated financial statements. These estimates, assumptions and judgments about future events and their effects on our results cannot be determined with certainty, and are made based upon our historical experience and on other assumptions that are believed to be reasonable under the circumstances. These estimates may change as new events occur or additional information is obtained, and we may periodically be faced with uncertainties, the outcomes of which are not within our control and may not be known for a prolonged period of time.
+
+ 
+
+We have identified the policies below as critical to our business operations and understanding of our financial condition and results of operations. Critical accounting policies are material to the presentation of our condensed consolidated financial statements and require us to make difficult, subjective or complex judgments that could have a material effect on our financial reports and results of operations. They may require us to make assumptions about matters that are highly uncertain at the time of the estimate. Different estimates that we could have used, or changes in the estimate that are reasonably likely to occur, may have a material impact on our financial condition or results of operations.
+
+ 
+
+       35
+
+Table of Contents
+
+ 
+
+Revenue Recognition
+
+ 
+
+We manufacture and sell high-performance compound semiconductor substrates including indium phosphide, gallium arsenide and germanium wafers, and our consolidated subsidiaries sell certain raw materials, including high purity gallium (6N and 7N Ga), pyrolytic boron nitride (pBN) crucibles and boron oxide (B2O3). After we ship our products, there are no remaining obligations or customer acceptance requirements that would preclude revenue recognition. Our products are typically sold pursuant to purchase orders placed by our customers, and our terms and conditions of sale do not require customer acceptance. We account for a contract with a customer when there is a legally enforceable contract, which could be the customer’s purchase order, the rights of the parties are identified, the contract has commercial terms, and collectibility of the contract consideration is probable. The majority of our contracts have a single performance obligation to transfer products and are short term in nature, usually less than six months. Our revenue is measured based on the consideration specified in the contract with each customer in exchange for transferring products that are generally based upon a negotiated, formula, list or fixed price. Revenue is recognized when control of the promised goods is transferred to our customer, which is either upon shipment from our dock, receipt at the customer’s dock, or removal from consignment inventory at the customer’s location, in an amount that reflects the consideration we expect to be entitled to receive in exchange for those goods.
+
+ 
+
+Accounts Receivable and Allowance for Credit Losses
+
+ 
+
+Accounts receivable are recorded at the invoiced amount and are not interest bearing. We review at least quarterly, or when there are changes in credit risks, the likelihood of collection on our accounts receivable balances and provide an allowance for credit losses. We measure the expected credit losses on a collective (pool) basis when similar delinquency status exists. We evaluate receivables from U.S. customers with an emphasis on balances in excess of 90 days and for receivables from customers located outside the U.S. with an emphasis on balances in excess of 120 days and establish a reserve allowance on the receivable balances if needed. The reason for the difference in the evaluation of receivables between foreign and U.S. customers is that U.S. customers have historically made payments in a shorter period of time than foreign customers. Foreign business practices generally require us to allow customer payment terms that are longer than those accepted in the United States.
+
+ 
+
+In accordance with ASC Topic 326, Financial Instruments – Credit Losses current expected credit loss impairment model, we exercise judgment when determining the adequacy of our reserves as we evaluate historical bad debt trends, general economic conditions in the United States and internationally, and reasonable and supportable forecasts of future economic conditions. Uncollectible receivables are recorded as provision for credit losses when a credit loss is expected through the establishment of an allowance, which would then be written off when all efforts to collect have been exhausted and recoveries are recognized when they are received. As of March 31, 2026 and December 31, 2025, our accounts receivable, net balance w
+as $32.0
+million and $26.8 million, respectively, which was net of an allowance
+of $164,000
+and $164,000, respectively. If actual uncollectible accounts differ substantially from our estimates, revisions to the estimated allowance for credit losses would be required, which could have a material impact on our financial results for the future periods.
+
+ 
+
+Warranty Reserve
+
+ 
+
+We maintain a product warranty based upon our claims experience during the prior twelve months and any pending claims and returns of which we are aware. Warranty costs are accrued at the time revenue is recognized. As of March 31, 2026 and December 31, 2025, accrued product warranties total
+ed $439,000 a
+nd $411,000, respectively.
+ The increase in accrued product warranties is primarily attributable to increased claims for quality issues experienced by customers. If ac
+tual warranty costs or pending new claims differ substantially from our estimates, revisions to the estimated warranty liability would be required, which could have a material impact on our financial condition and results of operations for future periods.
+
+ 
+
+Inventory Valuation
+
+ 
+
+Inventories are stated at the lower of cost (approximated by standard cost) or net realizable value. Cost is determined using the weighted-average cost method. Our inventory consists of raw materials as well as finished goods and work in process that include material, labor and manufacturing overhead costs. We routinely evaluate the levels of our inventory in light of current market conditions in order to identify excess and obsolete inventory, and we provide a valuation allowance for certain inventories based upon the age and quality of the product and the projections for sale of the completed products. As of March 31, 2026 and December 31, 2025, we had an inventory reserve
+ of $29.8 milli
+on and $28.4 million, respectively, for excess and obsolete inventory a
+nd $71,000 and
+$180,000, respectively, for lower of cost or net realizable value reserves. If actual demand for our products were to be substantially lower than estimated, additional inventory adjustments for excess or obsolete inventory might be required, which could have a material impact on our business, financial condition and results of operations.
+
+ 
+
+       36
+
+Table of Contents
+
+ 
+
+Impairment of Investments
+
+ 
+
+We classify marketable investments in debt securities as available-for-sale debt securities in accordance with ASC Topic 320,
+Investments -
+
+Debt Securities
+. All available-for-sale debt securities with a quoted market value below cost (or adjusted cost) are reviewed in order to determine whether the decline is other-than-temporary. Factors considered in determining whether a loss is temporary include the magnitude of the decline in market value, the length of time the market value has been below cost (or adjusted cost), credit quality, and our ability and intent to hold the securities for a period of time sufficient to allow for any anticipated recovery in market value. We also review our debt investment portfolio at least quarterly, or when there are changes in credit risks or other potential valuation concerns to identify and evaluate whether an allowance for expected credit losses or impairment would be necessary.
+
+ 
+
+We also invest in equity instruments of privately-held companies in China for business and strategic purposes. Investments in our unconsolidated PRC joint venture companies are classified as other assets and accounted for under the equity method. We monitor our investments for impairment and record reductions in carrying value when events or changes in circumstances indicate that the carrying value may not be recoverable. Determination of impairment is highly subjective and is based on a number of factors, including an assessment of the strength of each company’s management, the length of time and extent to which the fair value has been less than our cost basis, the financial condition and near-term prospects of the company, fundamental changes to the business prospects of the company, share prices of subsequent offerings, and our intent and ability to hold the investment for a period of time sufficient to allow for any anticipated recovery in our carrying value.
+
+ 
+
+Fair Value of Investments
+
+ 
+
+ASC 820, establishes three levels of inputs that may be used to measure fair value.
+
+ 
+
+Level 1 instruments represent quoted prices in active markets. Therefore, determining fair value for Level 1 instruments does not require significant management judgment, and the estimation is not difficult.
+
+ 
+
+Level 2 instruments include observable inputs other than Level 1 prices, such as quoted prices for identical instruments in markets with insufficient volume or infrequent transactions (less active markets), issuer bank statements, credit ratings, non-binding market consensus prices that can be corroborated with observable market data, model-derived valuations in which all significant inputs are observable or can be derived principally from or corroborated with observable market data for substantially the full term of the assets or liabilities, or quoted prices for similar assets or liabilities. These Level 2 instruments require more management judgment and subjectivity compared to Level 1 instruments, including:
+
+ 
+
+ 
+
+●
+
+Determining which instruments are most comparable to the instrument being priced requires management to identify a sample of similar securities based on the coupon rates, maturity, issuer, credit rating, and instrument type, and subjectively select an individual security or multiple securities that are deemed most similar to the security being priced.
+
+ 
+
+ 
+
+●
+
+Determining which model-derived valuations to use in determining fair value requires management judgment. When observable market prices for similar securities or similar securities are not available, we price our marketable debt instruments using non-binding market consensus prices that are corroborated with observable market data or pricing models, such as discounted cash flow models, with all significant inputs derived from or corroborated with observable market data.
+
+ 
+
+Level 3 instruments include unobservable inputs to the valuation methodology that are significant to the measurement of fair value of assets or liabilities. The determination of fair value for Level 3 instruments requires the most management judgment and subjectivity.
+
+ 
+
+We place short-term foreign currency hedges that are intended to offset the potential cash exposure related to fluctuations in the exchange rate between the United States dollar and Japanese yen. We measure the fair value of these foreign currency hedges at each month end and quarter end using current exchange rates and in accordance with U.S. GAAP. At quarter end any foreign currency hedges not settled are netted in “Accrued liabilities” in the condensed consolidated balance sheets and classified as Level 3 assets and liabilities. As of March 31, 2026, the net change in fair value from the placement of the hedge to settlement at each month end during the quarter had a de minimis impact to the condensed consolidated results.
+
+ 
+
+There have been no transfers between fair value measurement levels during the three months ended March 31, 2026 and 2025.
+
+ 
+
+       37
+
+Table of Contents
+
+ 
+
+Impairment of Long-Lived Assets
+
+ 
+
+We evaluate the recoverability of property, equipment and intangible assets in accordance with ASC Topic 360, 
+Property, Plant and Equipment.
+ When events and circumstances indicate that long-lived assets may be impaired, we compare the carrying value of the long-lived assets to the projection of future undiscounted cash flows attributable to these assets. In the event that the carrying value exceeds the future undiscounted cash flows, we record an impairment charge against income equal to the excess of the carrying value over the assets’ fair value. Fair values are determined based on quoted market values, discounted cash flows or internal and external appraisals, as applicable. Assets held for sale are carried at the lower of carrying value or estimated net realizable value.  We had no “Assets held for sale” or any impairment of long-lived assets in the condensed consolidated balance sheets as of March 31, 2026 and December 31, 2025.
+
+ 
+
+Stock-based Compensation
+
+ 
+
+We account for stock-based compensation in accordance with ASC Topic 718,
+Stock-based Compensation
+. Share-based awards granted include stock options and restricted stock awards. We utilize the Black‑Scholes option pricing model to estimate the grant date fair value of stock options, which requires the input of highly subjective assumptions, including estimating stock price volatility and expected term. Historical volatility of our stock price was used while the expected term for our options was estimated based on historical option exercise behavior and post-vesting forfeitures of options, and the contractual term, the vesting period and the expected term of the outstanding options. Further, we apply an expected forfeiture rate in determining the amount of share-based compensation. We use historical forfeitures to estimate the rate of future forfeitures. Changes in these inputs and assumptions can materially affect the measure of estimated fair value of our stock compensation. The cost of restricted stock awards is determined using the fair value of our common stock on the date of grant.
+
+ 
+
+The award of performance Restricted Stock covering Shares (the “Performance Award”) will be subject to vesting requirements relating to both the recipient of the Performance Award (the “Participant”) continuously remaining a Service Provider through specified dates and achievement of specified performance-based criteria (“Performance Criteria”). Any capitalized term not defined herein will have the meaning ascribed to such term in the 2025 Equity Incentive Plan.
+
+ 
+
+The financial Performance Criteria are metrics based upon prior year-end actual results as compared to the Company’s 2024 year-end actual results with respect to the 2024 Performance Awards or based upon the 2025 year-end actual results with respect to the 2025 Performance Awards. All performance shares, if earned, are still subject to annual vesting over a four-year period except that no shares are vested on the first anniversary because the performance measurement is based on year-end results for the entire year.
+
+ 
+
+We recognize the compensation costs net of an estimated forfeiture rate over the requisite service period of the options award, which is generally the vesting term of four years. Compensation expense for restricted stock awards is recognized over the vesting period, which is generally one, three or four years. Stock-based compensation expense is recorded in cost of revenue, research and development, and selling, general and administrative expenses.
+
+ 
+
+Income Taxes
+
+ 
+
+We account for income taxes in accordance with ASC Topic 740, 
+Income Taxes
+ (“ASC 740”), which requires that deferred tax assets and liabilities be recognized using enacted tax rates for the effect of temporary differences between the book and tax bases of recorded assets and liabilities. ASC 740 also requires that deferred tax assets be reduced by a valuation allowance if it is more likely than not that a portion of the deferred tax asset will not be realized. 
+
+ 
+
+We provide for income taxes based upon the geographic composition of worldwide earnings and tax regulations governing each region, particularly China. The calculation of tax liabilities involves significant judgment in estimating the impact of uncertainties in the application of complex tax laws, particularly in foreign countries such as China.
+
+ 
+
+See Note 14—“Income Taxes” in the notes to condensed consolidated financial statements for additional information.
+
+ 
+
+       38
+
+Table of Contents
+
+ 
+
+Economic Challenges, Risks and Uncertainties
+
+ 
+
+The Company has been impacted by escalating trade tensions and regulations. On December 3, 2024, China issued further rules restricting exports of materials that can typically be used in military applications including antimony, gallium, germanium and other superhard materials. The effective date was December 3, 2024, the same day as the announcement itself. Reciprocally, the United States increased tariffs on many items from China from 25% to 50%, effective January 1, 2025. On February 1, 2025, the United States again further increased the tariff on imports of many products from China, including our wafer substrates, to 60%. On February 4, 2025, China added indium phosphide substrates to its export control list. On March 4, 2025, the United States further increased the tariff on imports of many products, including our wafer substrates, to 70%. InP export permits represent the most significant challenge we currently face. On February 20, 2026, the U.S. Supreme Court invalidated many of the global tariffs previously imposed under the International Emergency Economic Powers Act of 1977; however, tariffs imposed under other authorities remain in effect, and the U.S. government has indicted that it may pursue additional or replacement tariffs under alternative legal authorities, including temporary measures under Section 122 of the Trade Act of 1974. Due to the uncertainties pertaining to export restrictions in China and tariffs and tariff levels in the United States, it is difficult for us to reliably forecast the short-term or ongoing impact to our business or that of our customers but is expected that tariffs and export regulations will negatively impact our revenues, profitability and cash flows. We are closely monitoring the fluid nature of both export permits and their impact on our operations. More broadly, we will continue to monitor the macroeconomic conditions and evaluate the financial and operational impact of ongoing trade policies.
+
+ 
+
+Previously, as of August 1, 2023, Tongmei was required to secure permits from the applicable Chinese authorities to export gallium arsenide and germanium substrates. Materials that could be used in military applications, specifically including weapons of mass destruction, are the primary focus. We have little or no germanium imports into the U.S. and historically a relatively small value of imports of gallium arsenide wafers into the U.S. Our primary revenue generator derived from imports into the U.S. is indium phosphide substrates. In 2024, approximately 8% of our revenue was generated by sales to customers in the U.S. On February 4, 2025, China added indium phosphide substrates to its export control list. As a result, the three wafer substrate product families manufactured by Tongmei all require permits from China’s Ministry of Commerce before they can be exported from China. The portal to apply for exports of indium phosphide from China opened in March 2025 and we immediately began to submit our applications. On June 11, Tongmei was informed that it had satisfied the applicable requirements for a permit to export indium phosphide and has received its initial export permits from the Ministry of Commerce of the People’s Republic of China to resume shipping indium phosphide substrates to certain customers in Europe and Japan. While we continue to receive permits, we have a backlog of orders for which we have not yet received permits and as of the date of this report we still cannot predict when a permit application will be reviewed and approved. On December 27, 2025 China’s National People’s Congress enacted substantial revisions to the Foreign Trade Law of the People’s Republic of China, effective March 1, 2026 (the “Foreign Trade Law”). The revisions to the Foreign Trade Law provide, among other things, enhanced power vested in governmental agencies to prohibit or restrict the import or export of goods and technologies for a variety of reasons set forth in Article 18 of the Foreign Trade Law, including, but not limited to, (i) safeguarding national security, (ii) where there is a domestic shortage of supply or to protect potentially depleted natural resources, (iii) in order to establish or accelerate the establishment of specific domestic industries, and (iv) other circumstances where it is necessary to prohibit or restrict the import or export of relevant goods or technologies, or take other necessary measures. The revisions also include a chapter on intellectual property introducing new trade sanctions for the infringement of intellectual property rights when such infringement endangers the order of foreign trade and targets specific licensing practices that prohibit the challenge of a license’s validity or portfolio licensing bundling. The specific prohibitions and restrictions on the import and export of goods and technologies are delegated to the Ministry of Commerce of the People’s Republic of China, among other agencies. We do not believe that the revisions will have any additional material adverse effects on our wafer substrate products beyond the current restrictions and licensing requirement. However, with the Foreign Trade Law’s enhanced power over import and export prohibitions and restrictions, no assurances can be given that additional restrictions will not be imposed in the future. The fluidity of the export permit requirements and ongoing lack of surety creates anxiety for us and for our customers. To our knowledge, indium phosphide is rarely used in military applications and we can reasonably expect that export permits to ship our indium phosphide substrates to the U.S. will be granted. However, the timing for when permits will be granted remains uncertain, unclear and beyond our control. We are unable to estimate when we will receive the necessary export permits to resume shipping our indium phosphide substrates to the U.S. We are actively monitoring and following-up on the status of our applications.
+
+ 
+
+The political tensions between China and the U.S. remain high and tariffs and controls on exports are changing and fluid. There can be no assurances that Tongmei will receive the necessary China permits to export our wafer substrates or that China will not adopt additional export control regulations that affect our business, financial condition and results of operations. Reciprocally, there can be no assurance that the U.S. will allow products to be imported into the U.S. from China or what the tariff charge rate might be. We are actively evaluating the potential impacts of these proposed tariffs, as well as our ability to mitigate their related impacts. Tariffs and export restrictions clearly affect our revenue and operations. For additional discussion regarding these factors and other risks, please refer to “Part II. Other Information – Item 1A. Risk Factors – Risks Related to International Aspects of Our Business”.
+
+ 
+
+       39
+
+Table of Contents
+
+ 
+
+Board of Director Changes
+
+ 
+
+On July 11, 2025, Ms. Christine Russell, our independent director, Chair of the Audit Committee, member of the Compensation Committee and the Nominating and Corporate Governance Committee, passed away. On July 14, 2025, we notified The Nasdaq Stock Market LLC (“Nasdaq”) that due to the passing of Ms. Russell, our Audit Committee had been reduced to two independent directors, and we were not compliant with Nasdaq Listing Rule 5605(c)(2)(A), which requires the Audit Committee to be comprised of a minimum of three independent directors, and our non-compliance was confirmed by Nasdaq on July 18, 2025.
+
+ 
+
+On July 29, 2025, we appointed Mr. Leonard J. LeBlanc as a non-independent member of its Board in reliance on the limited exception provided under the Nasdaq Listing Rules. On January 26, 2026, the Board re-evaluated Mr. LeBlanc’s independence under the Nasdaq Listing Rules, and determined that Mr. LeBlanc is now independent under the Nasdaq Listing Rules. The Board previously determined that Mr. LeBlanc met all independence requirements for a member of the audit committee under Rule 10A-3 of the Securities and Exchange Act of 1934, as amended, and the other independence requirements under the Nasdaq Listing Rules. Upon the Board’s determination that Mr. LeBlanc is now independent under the Nasdaq Listing Rules, the Company’s Audit Committee will consist of three independent directors as required by Nasdaq Listing Rule 5605(c)(2)(A). On January 30, 2026, we received notification from the Nasdaq Listing Qualifications Department that we have regained compliance with Nasdaq Listing Rule 5605(c)(2).
+
+ 
+
+Effective upon Mr. LeBlanc’s determination as an independent director by the Board, Mr. Chen stepped down as Chair of the Audit Committee and the Board appointed Mr. LeBlanc as Chair of the Audit Committee. Mr. Chen will remain a member of the Audit Committee. The Board has determined that Mr. LeBlanc is an “audit committee financial expert” as defined by the rules and regulations of the SEC.
+
+ 
+
+Recent Financing
+
+ 
+
+On April 21, 2026, we entered into an underwriting agreement (the “Underwriting Agreement”) with Northland Securities, Inc., as representative of the underwriters named therein (the “Underwriters”) related to the offer and sale of shares of the Company’s common stock (the “Offering”). The Underwriting Agreement provides for the offer and sale by the Company, and the purchase by the Underwriters, of 8,560,311 shares of the Company’s common stock (the “Base Shares”) at a price to the public of $64.25 per share. Pursuant to the Underwriting Agreement, the Company granted the Underwriters a 30-day option to purchase up to 1,284,046 additional shares of common stock at the public offering price, which was exercised in full on April 22, 2026. The Company received total gross proceeds of approximately $632.5 million, before deducting the underwriting discounts and commissions and other offering expenses. 
+
+ 
+
+       40
+
+Table of Contents
+
+ 
+
+Results of Operations
+
+ 
+
+Reven
+ue
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+Product Type:
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Substrates
+
+ 
+
+$
+
+19,281
+
+ 
+
+ 
+
+$
+
+11,082
+
+ 
+
+ 
+
+$
+
+8,199
+
+ 
+
+ 
+
+ 
+
+74.0
+
+%
+
+Raw materials and other
+
+ 
+
+ 
+
+7,643
+
+ 
+
+ 
+
+ 
+
+8,274
+
+ 
+
+ 
+
+ 
+
+(631
+
+)
+
+ 
+
+ 
+
+(7.6
+
+)%
+
+Total revenue
+
+ 
+
+$
+
+26,924
+
+ 
+
+ 
+
+$
+
+19,356
+
+ 
+
+ 
+
+$
+
+7,568
+
+ 
+
+ 
+
+ 
+
+39.1
+
+%
+
+ 
+
+Re
+venue increased $7.6 million, or 39.1%, to $26.9 milli
+on for the three months ended March 31, 2026 from $19.4 million for the three months ended March 31, 2025
+. The substrate revenue increase for the three months ended
+March 31, 2026
+ as compared to the same period in
+2025
+ was primarily the result of higher demand for InP wafer substrates used for data center applications and in passive optical networks, as a result of additional export approvals granted by the China government.
+Raw materials s
+ales decreased $0.6 million, or 7.6%, to $7.6 million
+ for the three months ended March 31, 2026 as compared to the same period in 2025. The dec
+rease in ra
+w materials revenue for the three months ended March 31, 2026 as compared to the same period in 2025 was primarily the result of a decrease in sales of refined gallium resulting from weaker market demand, partially offset by increased sales of pBN crucibles resulting from stronger market demand.
+
+ 
+
+Revenue by Geographic Region
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+2025 to 2026
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+China
+
+ 
+
+$
+
+16,565
+
+ 
+
+ 
+
+$
+
+13,426
+
+ 
+
+ 
+
+$
+
+3,139
+
+ 
+
+ 
+
+ 
+
+23.4
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+61
+
+%
+
+ 
+
+ 
+
+69
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Taiwan
+
+ 
+
+ 
+
+699
+
+ 
+
+ 
+
+ 
+
+1,221
+
+ 
+
+ 
+
+ 
+
+(522
+
+)
+
+ 
+
+ 
+
+(42.8
+
+)%
+
+% of total revenue
+
+ 
+
+ 
+
+3
+
+%
+
+ 
+
+ 
+
+6
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Japan
+
+ 
+
+ 
+
+1,546
+
+ 
+
+ 
+
+ 
+
+718
+
+ 
+
+ 
+
+ 
+
+828
+
+ 
+
+ 
+
+ 
+
+115.3
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+6
+
+%
+
+ 
+
+ 
+
+4
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Asia Pacific (excluding China, Taiwan and Japan)
+
+ 
+
+ 
+
+2,183
+
+ 
+
+ 
+
+ 
+
+781
+
+ 
+
+ 
+
+ 
+
+1,402
+
+ 
+
+ 
+
+ 
+
+179.5
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+8
+
+%
+
+ 
+
+ 
+
+4
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Europe (primarily Germany)
+
+ 
+
+ 
+
+5,724
+
+ 
+
+ 
+
+ 
+
+2,101
+
+ 
+
+ 
+
+ 
+
+3,623
+
+ 
+
+ 
+
+ 
+
+172.4
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+21
+
+%
+
+ 
+
+ 
+
+11
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+North America (primarily the United States)
+
+ 
+
+ 
+
+207
+
+ 
+
+ 
+
+ 
+
+1,109
+
+ 
+
+ 
+
+ 
+
+(902
+
+)
+
+ 
+
+ 
+
+(81.3
+
+)%
+
+% of total revenue
+
+ 
+
+ 
+
+1
+
+%
+
+ 
+
+ 
+
+6
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Total revenue
+
+ 
+
+$
+
+26,924
+
+ 
+
+ 
+
+$
+
+19,356
+
+ 
+
+ 
+
+$
+
+7,568
+
+ 
+
+ 
+
+ 
+
+39.1
+
+%
+
+ 
+
+       41
+
+Table of Contents
+
+ 
+
+Revenue in China
+increased $3.1 million for the three months ended
+March 31, 2026
+, primarily due to higher demand for our InP wafer substrates and pBN crucibles sold by one of our consolidated subsidiaries, partially offset by lower demand for our GaAs and Ge wafer substrates and refined gallium sold by one of our consolidated subsidiaries. R
+evenue in Taiwan decrea
+sed $0.5 million, primarily due to reduced export approvals granted by the China government. Revenue in Japan increased $0.8 million, primarily due to additional export approvals granted by the China government for our GaAs and InP wafer substrates.
+Revenue in Asia Pac
+ific increased $1.4 million, primarily due to higher demand for our InP wafer substrates, partially offset by lower demand for our GaAs wafer substrates. R
+evenue in Euro
+pe increased $3.6 million, primarily due to additional export approvals granted by the China government.
+Revenue in North America
+decreased $0.9 million, primarily due to the impact of China export restrictions on our InP and GaAs wafer substrates and lower demand for pBN crucibles sold by one of our consolidated subsidiaries.
+
+ 
+
+Gross Profit
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gross profit (loss)
+
+ 
+
+$
+
+7,978
+
+ 
+
+ 
+
+$
+
+(1,241
+
+)
+
+ 
+
+$
+
+9,219
+
+ 
+
+ 
+
+ 
+
+742.9
+
+%
+
+Gross Profit %
+
+ 
+
+ 
+
+29.6
+
+%
+
+ 
+
+ 
+
+(6.4
+
+)%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Gro
+ss profit increased 9.2 million, or 742.9%, to a profit of $8.0 m
+illion for the three months ended March 31, 2026 from a loss of $1.2 million for the three months ended March 31, 2025. The in
+crease in gross profit is attributed to higher revenue resulting in fixed costs being spread over more units and a favorable change in product mix.
+
+ 
+
+Selling, General and Administrative Expenses
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Selling, general and administrative expenses
+
+ 
+
+$
+
+6,551
+
+ 
+
+ 
+
+$
+
+5,916
+
+ 
+
+ 
+
+$
+
+635
+
+ 
+
+ 
+
+ 
+
+10.7
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+24.3
+
+%
+
+ 
+
+ 
+
+30.6
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Selling, general and administrative expe
+nses increased $635,000, or 10.7%, to $6.6 mi
+llion for the three months ended March 31, 2026 from $5.9 million for the three months ended March 31, 2025. T
+he higher selling, general and administrative expenses were primarily from an increase in compensation related costs, travel related costs and legal expenses, partially offset by a decrease in license, tax and registration fees.
+
+ 
+
+Research and Development
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Research and development
+
+ 
+
+$
+
+3,012
+
+ 
+
+ 
+
+$
+
+3,118
+
+ 
+
+ 
+
+$
+
+(106
+
+)
+
+ 
+
+ 
+
+(3.4
+
+)%
+
+% of total revenue
+
+ 
+
+ 
+
+11.2
+
+%
+
+ 
+
+ 
+
+16.1
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Research and development exp
+enses decreased $0.1 million, or 3.4%, to $3.0 million fo
+r the three months ended March 31, 2026 from $3.1 million for the three months ended March 31, 2025. Th
+e decrease in r
+esearch and development expenses for the three months ended March 31, 2026 was primarily d
+ue to a decrease in compensation related costs, partially offset by 
+the increased
+use of certain materials for new product development.
+
+ 
+
+       42
+
+Table of Contents
+
+ 
+
+Interest Expense, Net
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Interest income (expense), net
+
+ 
+
+$
+
+101
+
+ 
+
+ 
+
+$
+
+(269
+
+)
+
+ 
+
+$
+
+370
+
+ 
+
+ 
+
+ 
+
+137.5
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+0.4
+
+%
+
+ 
+
+ 
+
+(1.4
+
+)%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Interest income (expense)
+, net increased $370,000, or 137.5%, to an income of $101,000 for t
+he three months ended March 31, 2026 from an expense of $269,000 for the three months ended March 31, 2025. The
+ increase was primarily due to higher interest income resulting from proceeds from our secondary public offering in the gross amount of $100 million in December 2025
+.
+
+ 
+
+Equity in Income of Unconsolidated Joint Venture Companies
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Equity in income of unconsolidated joint ventures
+
+ 
+
+$
+
+353
+
+ 
+
+ 
+
+$
+
+248
+
+ 
+
+ 
+
+$
+
+105
+
+ 
+
+ 
+
+ 
+
+42.3
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+1.3
+
+%
+
+ 
+
+ 
+
+1.3
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The equity in income of unconsolidated joint ventures companies was income o
+f $0.4 milli
+on for the three months ended March 31, 2026 as compared to income of $0.2 million for the three months ended March 31, 2025. T
+he increase in income of $0.1 m
+illion is primarily due
+t
+o stronger performance in unconsolidated joint ventures.
+
+ 
+
+Other Income, Net
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Other Income
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Other income, net
+
+ 
+
+$
+
+76
+
+ 
+
+ 
+
+$
+
+354
+
+ 
+
+ 
+
+$
+
+(278
+
+)
+
+ 
+
+ 
+
+(78.5
+
+)%
+
+% of total revenue
+
+ 
+
+ 
+
+0.3
+
+%
+
+ 
+
+ 
+
+1.8
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Other incom
+e, net decreased $0.3 million, or 78.5%, to $76,000 for the th
+ree months ended March 31, 2026 from $0.4 million for the three months ended March 31, 2025. Other income,
+n
+et decreased primarily due to foreign currency exc
+hange losses 
+in the current period compared to foreign currency exchange gains in the prior period.
+
+ 
+
+Provision for Income Taxes
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+Increase
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+(Decrease)
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Provision for income taxes
+
+ 
+
+$
+
+430
+
+ 
+
+ 
+
+$
+
+74
+
+ 
+
+ 
+
+$
+
+356
+
+ 
+
+ 
+
+ 
+
+481.1
+
+%
+
+% of total revenue
+
+ 
+
+ 
+
+1.6
+
+%
+
+ 
+
+ 
+
+0.4
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Provision for incom
+e taxes increased $356,000, or 481.1%, t
+o
+$430,000
+for the three months ended March 31, 2026 as compared to $74,000 for the three months ended March 31, 2025. The tax expense recorded for the three months ended March 31, 2026 is the result of mainly foreign taxes, federal income taxes, and some minimum state taxes. Additionally, there is uncertainty of generating future profit in the U.S., which has resulted in our deferred tax assets being fully reserved for the U.S. parent company. Our estimated tax rate can vary greatly from year to year because of the change or benefit in the mix of taxable income between our U.S. and China-based operations.
+
+ 
+
+       43
+
+Table of Contents
+
+ 
+
+Net (Income) loss Attributable to Noncontrolling Interests and Redeemable Noncontrolling Interests
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Net (income) loss attributable to
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+noncontrolling interests and
+
+ 
+
+ 
+
+ 
+
+March 31,
+
+ 
+
+ 
+
+redeemable noncontrolling interests
+
+ 
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+Change
+
+ 
+
+ 
+
+% Change
+
+ 
+
+ 
+
+ 
+
+($ in thousands)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Net (income) loss attributable to noncontrolling interests and redeemable noncontrolling interests
+
+ 
+
+$
+
+(135
+
+)
+
+ 
+
+$
+
+1,218
+
+ 
+
+ 
+
+$
+
+(1,353
+
+)
+
+ 
+
+ 
+
+(111.1
+
+)%
+
+% of total revenue
+
+ 
+
+ 
+
+(0.5
+
+)%
+
+ 
+
+ 
+
+6.3
+
+%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Net (income) loss attributable to noncontrolling interests and redeemable noncontrolling inte
+rests increased $1.4 million or 111.1% to an income of $0.1 mi
+llion for the three months ended March 31, 2026, from a loss of $1.2 million for the three months ended March 31, 2025, primarily due to higher profitability from our PRC subsidiaries as sales increased.
+
+ 
+
+Liquidity and Capital Resources
+
+ 
+
+We consider cash and short-term investments as liquid and available for use within one year in our current operations. Short-term investments are comprised of U.S. government securities, certificates of deposit and investment-grade corporate notes and bonds.
+
+ 
+
+As of March 31, 2026, our principal source of liquidity w
+as $57.9 mil
+lion, which consisted of cash o
+f $41.8 m
+illion and restricted cash
+of $16.1 m
+illion. In the three months ended March 31, 2026, cash and restricted c
+ash decreased by $70.5 m
+illion. Th
+e decrease in
+ cash and restricted cash of $70.5 million in the three months ended March 31, 2026 was primarily du
+e to net cash used in investing activities of $67.3 million and net cash used in operating activities of $11.7 million, partially offset by net cash provided by financing activities of $8.0 million and the effect of exchange rate changes of $0.5 million.
+As of March 31, 2026, we and our PRC subsidiaries held approximatel
+y $32.6 mi
+llion in cash and investments in foreign bank accounts, of whic
+h $15.9 mil
+lion was classified in restricted cash.
+
+ 
+
+As of March 31, 2025, our principal source of liquidity was $38.2 million, which consisted of cash of $31.6 million and restricted cash of $6.6 million. In the three months ended March 31, 2025, cash and restricted cash increased by $4.4 million. The increase in cash and restricted cash of $4.4 million in the three months ended March 31, 2025 was primarily due to net cash provided by financing activities of $6.9 million and the effect of exchange rate changes of $1.6 million, partially offset by net cash used in operating activities of $3.3 million and net cash used in investing activities of $0.8 million. As of March 31, 2025, we and our PRC subsidiaries held approximately $31.8 million in cash and investments in foreign bank accounts, of which $6.4 million was classified in restricted cash.
+
+ 
+
+Net cash used in operating activities
+of $11.7 milli
+on for the three months ended March 31, 2026 was primarily comprised
+of a net change of $13.4 million in operating assets and liabilities, a net loss before income attributable to noncontrolling interest and redeemable noncontrolling interests of $1.5 million and gain from
+unconsolidated joint ventures
+ of $0.4 million, partially offset by the adjustment for non-cash items of depreciation and amortization of $2.4 million, and stock-based compensation of $1.0 million and change in deferred tax assets of $0.1 million
+.
+
+ 
+
+       44
+
+Table of Contents
+
+ 
+
+Net cash used in operating activities of $3.3 million for the three months ended March 31, 2025 was primarily comprised  of a net loss before income attributable to noncontrolling interest and redeemable noncontrolling interests of $10.0 million, and income from equity method investments of $0.2 million, partially offset by a net change of $4.1 million in operating assets and liabilities, the adjustment for non-cash items of depreciation and amortization of $2.2 million, and stock-based compensation of $0.6 million.
+
+ 
+
+Net cash used in investing activities
+of $67.3 milli
+on for the three months ended March 31, 2026 was primarily from the purchase of available-for-sale debt securities of $65.9 million and the purchase of property, plant and equipment o
+f $1.4 million
+.
+
+ 
+
+Net cash used in investing activities of $0.8 million for the three months ended March 31, 2025 was primarily from the purchase of property, plant and equipment of $0.5 million, and investment in non-marketable equity investments of $0.3 million.
+
+ 
+
+Net cash provided by financing activities was
+ $8.0 m
+illion for the three months ended March 31, 2026, which consisted of proceeds from short-term loan
+s of $20.9 million, long-term loan of $2.9 million and
+common stock options exercised of $1.5 million
+, p
+artially offset by repayment of short-term loans
+of $16.6 million and repayment of long-term loan of $0.8 m
+illion.
+
+ 
+
+Net cash provided by financing activities was $6.9 million for the three months ended March 31, 2025, which consisted of  proceeds from short-term loans of $13.7 million and long-term loan of $2.8 million, partially offset by repayment of short-term loans of $9.3 million and repayment of long-term loan of $0.3 million.
+
+ 
+
+On October 27, 2014, our Board of Directors approved a stock repurchase program pursuant to which we may repurchase up to $5.0 million of our outstanding common stock. These repurchases could be made from time to time in the open market and could be funded from our existing cash balances and cash generated from operations. During 2015, we repurchased approximately 908,000 shares at an average price of $2.52 per share for a total purchase price of approximately $2.3 million under the stock repurchase program. Since 2015, no shares were repurchased under this program. As of March 31, 2026, approximat
+ely $2.7 mi
+llion remained available for future repurchases under this program. Currently, we do not plan to repurchase additional shares.
+
+ 
+
+Dividends accrue on our outstanding Series A preferred stock, and are payable as and when declared by our Board of Directors. We have never declared or paid any dividends on the Series A preferred stock.  By the terms of the Series A preferred stock, so long as any shares of Series A preferred stock are outstanding, neither the Company nor any subsidiary of the Company shall redeem, repurchase or otherwise acquire any shares of common stock, unless all accrued dividends on the Series A preferred stock have been paid. During 2013 and 2015, we repurchased shares of our outstanding common stock. As of December 31, 2015, the Series A preferred stock had cumulative dividends of $2.9 million and we include such cumulative dividends in “Accrued liabilities” in our condensed consolidated balance sheets. As of March 31, 2026, the balance remained unchanged. At the time we pay this accrued liability, our cash will be reduced. We account for the cumulative year to date dividends on the Series A preferred stock when calculating our earnings per share. 
+
+ 
+
+Occasionally, one of our PRC subsidiaries or PRC raw material joint ventures declares and pays a dividend. These dividends generally occur when the PRC joint venture declares a dividend for all of its shareholders. Dividends paid to the Company are subject to a 10% PRC withholding tax. The Company is required to obtain approval from the State Administration of Foreign Exchange (“SAFE”) to transfer funds in or out of the PRC. SAFE requires a valid agreement to approve the transfers, which are processed through a bank. Other than PRC foreign exchange restrictions, the Company is not subject to any PRC restrictions and limitations on its ability to distribute earnings from its businesses, including its PRC subsidiaries and PRC joint ventures, to the Company and its investors as well as the ability to settle amounts owed by the Company to its PRC subsidiaries and PRC joint ventures. If SAFE approval is denied the dividend payable to the Company would be owed but would not be paid.
+
+ 
+
+For the three months ended March 31, 2026 and 2025, there were no dividends paid to us, directly or to an intermediate entity within our corporate structure, by our PRC subsidiaries and PRC raw material joint ventures. For the three months ended March 31, 2026 and 2025, there were no dividends paid to minority shareholders by our PRC subsidiaries or PRC raw material joint ventures. For the three months ended March 31, 2026, no transfers, dividends, or distributions have been made to date between the Company and its PRC subsidiaries, or to investors, except for the settlement of amounts owed under our transfer pricing arrangements in the ordinary course of business.
+
+ 
+
+       45
+
+Table of Contents
+
+ 
+
+We have no current intentions to distribute to our investors earnings under our corporate structure. We settle amounts owed under our transfer pricing arrangements in the ordinary course of business.
+
+ 
+
+The cash generated from one PRC subsidiary is not used to fund another PRC subsidiary’s operations. None of our PRC subsidiaries has faced difficulties or limitations on its ability to transfer cash between our subsidiaries. AXT has cash management policies that dictate the amount of such funding.
+
+ 
+
+As one of the first steps in the process of listing Tongmei on the STAR Market and going public, we sold approximately 7.28% of Tongmei to private equity investors for approximately $49 million in the aggregate. Pursuant to the Capital Investment Agreements with the Investors, each Investor has the right to require AXT to redeem any or all Tongmei shares held by such Investor at the original purchase price paid by such Investor, without interest, in the event the IPO fails to pass the audit of the Shanghai Stock Exchange, is not approved by the CSRC or Tongmei cancels the IPO application. The aggregate redemption amount is approximately $49 million.
+
+ 
+
+Tongmei submitted its IPO application to the Shanghai Stock Exchange, and it was formally accepted for review on January 10, 2022. The Shanghai Stock Exchange approved the IPO application on July 12, 2022. On August 1, 2022, the CSRC accepted for review Tongmei’s IPO application. The STAR Market IPO remains subject to review and approval by the CSRC and other authorities. The process of going public on the STAR Market includes several periods of review and, therefore, is a lengthy process. Subject to review and approval by the CSRC and other authorities, Tongmei expects to accomplish this goal in the coming months. The listing of Tongmei on the STAR Market will not change the status of AXT as a U.S. public company.  
+
+ 
+
+Our bank loans and credit facilities are primarily entered into by our subsidiaries with various PRC banks and generally have original maturities of 12 months or less. These borrowings are classified as “Short-term loans” in our condensed consolidated balance sheets. As of March 31, 2026, the outstanding balance of short-term loans was $63.8 million, with interest rates ranging from 2.0% to 3.8%. Of this amount, $45.2 million was unsecured, $10.7 million was secured by the time deposit of the Company, and $7.9 million was secured by real estate properties owned by certain subsidiaries. As of December 31, 2025, the outstanding balance of short-term loans was $58.6 million, with interest rates ranging from 2.2% to 3.9%. Of this amount, $43.0 million was unsecured, $7.4 million was secured by the time deposit of the Company, and $8.2 million was secured by real estate properties owned by certain subsidiaries.
+
+ 
+
+On January 30, 2024, one of our consolidated subsidiaries secured a new line of credit amounting to $9.7 million, structured as a five-year bank loan. The credit facility bears interest at a rate of 6.5% per annum on the amount drawn from the line of credit. The credit facility is collateralized by the real estate properties owned by the subsidiary. In January 2024, the subsidiary borrowed $5.8 million against the credit facility. The intended use of the credit facility is for construction projects. As of March 31, 2026, $4.4 million is included in “Other long-term liabilities” and $0.9 million is included in “Short-term loans” in our condensed consolidated balance sheets.
+
+ 
+
+ 
+
+In December 2023 and February 2026, two of our consolidated subsidiaries entered into financing arrangements with unrelated financing companies, receiving proceeds of approximately $2.1 million and $2.9 million, respectively. According to the agreements, the subsidiaries temporarily transferred ownership of its production lines and related equipment to the financing companies, while retaining the right to use the properties in their operations. The arrangements have terms of 30 months and 36 months, respectively, and provide the subsidiaries with options to repurchase the production lines and related equipment at the end of the respective terms for nominal consideration of approximately $14.00 per arrangement. As of March 31, 2026, $1.9 million is included in “Other long-term liabilities” and $1.3 million is included in “Short-term loans” in our condensed consolidated balance sheets.
+
+ 
+
+ In February 2025, one of our consolidated subsidiaries secured a fourteen-month unsecured bank loan totaling $2.7 million at an interest rate of 3.2%. As of March 31, 2026, the full amount is included in “Short-term loans” in our condensed consolidated balance sheets.
+
+ 
+
+ In September and November 2025, one of our consolidated subsidiaries entered into a four-year bank loan totaling $0.7 million at an interest rate of 3.1%. The loan is secured by the real estate properties owned by one of our consolidated subsidiaries. As of March 31, 2026, $0.5 million is included in “Other long-term liabilities” and $0.2 million is included in “Short-term loans” in our condensed consolidated balance sheets.  
+
+ 
+
+       46
+
+Table of Contents
+
+ 
+
+On November 7, 2025, we filed with the SEC a registration statement on Form S-3, pursuant to which we may offer up to $100 million of common stock, preferred stock, debt securities, depositary shares, warrants, subscription rights, purchase contracts and/or units in one or more offerings and in any combination, which became effective in accordance with the provisions of Section 8(a) of the Securities Act on November 27, 2025. On December 29, 2025, we filed a prospectus supplement relating to an offering of 7,098,492 shares of our common stock at a public offering price of $12.25 per share and up to 1,064,773 shares of common stock subject to an option to purchase additional shares granted to the underwriters of the offering at the public offering price (the “December Offering”). The closing of the December Offering occurred on December 30, 2025, including the full exercise of the underwriters’ option. Net proceeds from the December Offering, after deducting underwriting discounts, commissions, and other offering costs, were $93.9 million. 
+
+ 
+
+On April 20, 2026, we filed with the SEC an automatic registration statement on Form S-3, pursuant to which we may offer common stock, warrants and/or units in one or more offerings and in any combination, which became effective upon filing on April 20, 2026 pursuant to Rule 462(e) of the Securities Act. On April 21, 2026, filed a prospectus supplement relating to an offering of 8,560,311 shares of our common stock at a public offering price of $64.25 per share and up to 1,284,046 shares of common stock subject to a 30-day option to purchase additional shares granted to the underwriters of the offering at the public offering price (the “April Offering”). The closing of the April Offering occurred on April 22, 2026. On April 22, 2026, the Underwriters exercised the option in full. Net proceeds from the offering, after deducting underwriting discounts, commissions, and other offering costs, were $600.2 million. 
+
+ 
+
+We intend to use the net proceeds from the December Offering and April Offering to financially support our subsidiary Tongmei in its efforts to increase its manufacturing capacity to produce indium phosphide substrates for export worldwide, for research and development of new or improved products, for working capital and for general corporate purposes. Pending these uses, we intend to invest the net proceeds in a variety of capital preservation instruments, including certificates of deposit, or guaranteed obligations of the U.S. government or other instruments that are not considered “investment securities” under the Investment Company Act of 1940, as amended.
+
+ 
+
+We believe that we have adequate cash and investments to meet our operating needs and capital expenditures over the next 12 months. If our sales decrease, however, our ability to generate cash from operations will be adversely affected which could adversely affect our future liquidity, require us to use cash at a more rapid rate than expected, and require us to seek additional capital.
+
+ 
+
+Cash from operations could be affected by various risks and uncertainties, including, but not limited to those set forth below under the section entitled “Risk Factors” in Part II, Item 1A below.
+
+ 
+
+Contract to Purchase Goods and Services
+
+ 
+
+Purchase orders or contracts for the purchase of certain goods and services are not considered to be part of our contractual obligations. We cannot determine the aggregate amount of such purchase orders that represent contractual obligations because purchase orders may represent authorizations to purchase rather than binding agreements. For the purposes of this disclosure, contractual obligations for purchase of goods or services are defined as agreements that are enforceable and legally binding and that specify all significant terms, including fixed or minimum quantities to be purchased; fixed, minimum, or variable price provisions; and the approximate timing of the transaction. Our purchase orders are based on our current needs and are fulfilled by our vendors within short time horizons. We also enter into contracts for outsourced services; however, the obligations under these contracts were not significant and the contracts generally contain clauses allowing for cancellation without significant penalty. Contractual obligations that are contingent upon the achievement of certain milestones would also not be included.
+
+ 
+
+       47
+
+Table of Contents
+
+ 
+
+Land Purchase and Investment Agreement
+
+ 
+
+We have established a wafer processing production line in Dingxing, China. In addition to a land rights and building purchase agreement that we entered into with a private real estate development company to acquire our new manufacturing facility, we also entered into a cooperation agreement with the Dingxing local government. In addition to pledging its full support and cooperation, the Dingxing local government will issue certain tax credits to us as we achieve certain milestones. We, in turn, agreed to hire local workers over time, pay taxes when due and eventually demonstrate a total investment of approximately $90 million in value, assets and capital. The investment will include cash paid for the land and buildings, cash on deposit in our name at local banks, the gross value of new and used equipment (including future equipment that might be used for indium phosphide and germanium substrates production), the deemed value for our customer list or the end user of our substrates (for example, the end users of the 3-D sensing VCSELs), a deemed value for employment of local citizens, a deemed value for our proprietary process technology, other intellectual property, other intangibles and additional items of value. There is no timeline or deadline by which this must be accomplished, rather it is a good faith covenant entered into between AXT and the Dingxing local government. Further, there is no specific penalty contemplated if either party breaches the agreement, however the agreement does state that each party has a right to seek from the other party compensation for losses. Under certain conditions, the Dingxing local government may purchase the land and building at the appraised value. We believe that such cooperation agreements are normal, customary and usual in China and that the future valuation is flexible. We have a similar agreement with the city of Kazuo, China, although on a smaller scale. The total investment targeted by AXT in Kazuo is approximately $15 million in value, assets and capital.
+
+ 
+
+Off-Balance Sheet Arrangements
+
+ 
+
+As of March 31, 2026, we did not have any off-balance sheet financing arrangements and have never established any special purpose entities as defined under SEC Regulation S-K Item 303(a)(4)(ii).
+
+ 
+
+       48
+
+Table of Contents

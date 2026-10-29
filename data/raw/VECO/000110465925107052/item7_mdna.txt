@@ -1,0 +1,1680 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+​
+Cautionary Statement Regarding Forward Looking Statements
+​
+Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is intended to facilitate an understanding of our business and results of operations. This MD&A should be read in conjunction with our Consolidated Financial Statements and the accompanying Notes to Consolidated Financial Statements included elsewhere in this Form 10-Q. The following discussion contains forward-looking statements and should also be read in conjunction with the cautionary statement set forth at the beginning of this Form 10-Q.
+​
+The following section generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2024 items that are not included in this Form 10-Q can be found in "Management's Discussion and Analysis of Financial Condition and Results of Operations" in Item 2 of our Quarterly Report on Form 10-Q for the interim period ended September 30, 2024, filed on November 6, 2024.
+​
+Executive Summary
+​
+We are an innovative manufacturer of semiconductor process equipment. Our proven ion beam, laser annealing, lithography, MOCVD, and single wafer wet processing technologies play an integral role in the fabrication and packaging of advanced semiconductor devices. With equipment designed to optimize performance, yield and cost of ownership, Veeco holds leading technology positions in the markets we serve. To learn more about Veeco’s systems and service offerings, visit
+www.veeco.com
+.
+​
+Merger with Axcelis Technologies, Inc.
+​
+On September 30, 2025, we entered into an Agreement and Plan of Merger (the “Merger Agreement”) with Axcelis Technologies, Inc., a Delaware corporation (“Axcelis”), and Victory Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of Axcelis (“Merger Sub”). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, Merger Sub shall be merged with and into Veeco (the “Merger”), with Veeco surviving as a wholly-owned subsidiary of Axcelis. The Merger Agreement was unanimously approved by our board of directors (except for one (1) independent director who serves on the Axcelis board of directors as well and thus recused himself) and is subject to certain customary closing conditions, including the approval by the stockholders of each company and various regulatory approvals. For more information regarding the previously announced Merger, see Note 10
+Subsequent Events
+ to the accompanying Consolidated Financial Statements included elsewhere in this Quarterly Report on Form 10-Q.
+​
+Business Update
+​
+Sales in the Semiconductor industry are estimated to have increased year-over-year in 2024 to around $650 billion. Looking ahead, industry analysts are forecasting long-term growth of the industry, driven by secular growth trends such as artificial intelligence, high-performance computing, mobile connectivity, and the electrification of the automotive industry. Additionally, government investments in the Semiconductor industry are projected to accelerate global spending in next-generation technologies.
+​
+Growth in the Semiconductor industry, coupled with increasing technological complexity of Semiconductor chips, are expected to drive long-term growth in WFE spending. In an effort to improve chip performance, optimize power consumption, and reduce costs, today’s most advanced Semiconductor manufacturers are shrinking device geometries, investing in more complex transistor designs such as Gate-All-Around and exploring 3D architectures. As a result, growth of the WFE market is forecasted to keep pace with long-term growth of the Semiconductor industry, which we believe should benefit semiconductor capital equipment providers, including Veeco.
+​
+Our strategy of investing in advanced logic and memory has enabled our Semiconductor business to outperform WFE growth for four consecutive years. Veeco’s technologies are at the forefront of enabling new technical innovations in the
+26
+
+Table of Contents
+manufacture of high-performance AI chips and High-Bandwidth Memory (“HBM”). We continue to invest in new technologies to expand our SAM to a broad range of new applications.
+​
+While the long-term outlook of the Semiconductor industry remains favorable, recently enacted tariffs, foreign and domestic, have resulted in uncertainty across Veeco’s business. The tariffs have resulted in an increase in certain of our costs and those of our customers and could impact future end market demand. Given the dynamic nature of the situation, we continue to evaluate the potential impacts to our business, and our team is working diligently with our suppliers and customers to assess, manage and mitigate the related impacts.
+​
+Semiconductor revenue decreased by 5% in the third quarter from the comparable prior year period, comprising 71% of total revenue. Revenue was primarily driven by system shipments of our Laser Spike Annealing (“LSA”), Ion Beam Deposition EUV for mask blanks and our Advanced Packaging wet processing.
+​
+Our laser annealing solutions continue to gain traction at advanced logic nodes, highlighted by recent order activity and shipments to leading-edge logic customers Gate-All-Around nodes. In the memory market, we continue to ship LSA systems to a Tier 1 customer for high volume production of HBM and advanced DRAM devices.
+​
+We have two next generation laser annealing systems under evaluation at Tier 1 foundry and logic customers. This next generation system, the NSA500, covers the nano-second annealing regime and complements our LSA product. This new system is part of our continued effort to enable our customers’ product roadmap by providing annealing solutions and driving higher device performance. Nanosecond annealing provides Veeco with an opportunity to expand our laser annealing SAM for new advanced node logic and memory applications, including low thermal budget anneals for Gate-All-Around transistors and advanced 3D devices.
+​
+The ongoing adoption of EUV Lithography for advanced node semiconductor manufacturing continues to drive demand for our Ion Beam Deposition EUV system for mask blanks. Leading logic and memory customers expect EUV and High Numerical Aperture (“High-NA”) lithography to be integral to their future roadmaps, which our Ion Beam Deposition technology is a key enabler of the EUV mask blank Multiple Layer Mirror. Our product roadmap is well positioned as the industry adopts next-generation High-NA EUV lithography, and we are expanding our EUV related business to EUV pellicles which are increasingly being used to improve the productivity of EUV steps. Our IBD-EUV system is used to form the high-transparency membrane used in pellicles.
+​
+We also have two Ion Beam Deposition “IBD300” systems under evaluation at leading DRAM memory customers. Our IBD300 system provides Veeco with another opportunity to expand our SAM to advanced node applications where low resistance films are critical. These initial systems are being evaluated for advanced memory applications, such as DRAM bitline.
+​
+In Advanced Packaging, our Wet Processing systems are used for several applications, and we continue to see strong demand driven by Heterogenous Integration and 3D Packaging for AI and high-performance computing. In the third quarter of 2025, we had increased order activity supporting these end markets.
+​
+Our Advanced Packaging lithography systems are used for packaging applications such as 2.5D and 3D packaging, fan out wafer level packaging and other advanced packaging solutions. We are seeing an uptick in the order activity from several OSAT customers driven by AI and consumer markets recovery.
+​
+Looking ahead, we anticipate seeing growth in the semiconductor market in leading-edge investment driven by new nodes and AI-related demand, including investment in Gate-All-Around nodes, High-Bandwidth Memory, and 3D packaging for AI.
+​
+Veeco also serves customers in the Compound Semiconductor, Data Storage, and Scientific & Other markets. We address the Compound Semiconductor market with a broad portfolio of technologies, including Wet Processing, MOCVD, MBE and Ion Beam, for Power Electronics, Photonics, and 5G RF applications. Sales in the Compound Semiconductor market declined in the third quarter from the comparable prior year period. In GaN Power, emerging use cases have driven some traditional silicon power electronics manufacturers to consider adoption of GaN at 300mm.
+27
+
+Table of Contents
+Additionally, we received an order for a Propel 300mm GaN on Silicon Epitaxy system from a leading power device IDM customer. This order cements our position as a leader in 300mm MOCVD technology.
+​
+We are also seeing photonics orders driven by demand for space-grade solar cells and panels, optical communication solutions for datacom industry, as well as opportunities in MicroLEDs for applications such as luxury TVs, AR/VR, and automotive.
+​
+We address the Data Storage market with sales of our Ion Beam technology. Demand for our Ion Beam products is driven by demand for cloud and AI Data Centers. Revenue in our Data Storage market declined in the third quarter from the comparable prior year period. While customers are not adding new system capacity in 2025, we have started seeing new order activity in the third quarter, driven by increased customer utilization rates and adoption of new technologies like Heat Assisted-Magnetic-Recording (“HAMR”).
+​
+Sales in the Scientific & Other market are largely driven by sales to government-funded laboratories, universities, and research institutions. We address the Scientific & Other market with several technologies, including MBE, ALD, MOCVD, Wet Processing, and IBD/IBE, which support diverse R&D and niche low-volume production applications. Sales in this market increased in the third quarter from the comparable prior year period driven by optical deposition systems.
+​
+Results of Operations
+​
+For the three months ended September 30, 2025 and 2024
+​
+The following table presents revenue and expense line items reported in our Consolidated Statements of Operations for the indicated periods in 2025 and 2024 and the period-over-period dollar and percentage changes for those line items. Our results of operations are reported as one business segment, represented by our single operating segment.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended September 30,
+​
+​
+Change
+​
+​
+​
+2025
+​
+​
+2024
+​
+​
+Period to Period
+​
+​
+​
+(dollars in thousands)
+​
+Net sales
+    
+$
+ 165,881
+    
+100%
+​
+​
+$
+ 184,807
+    
+100%
+​
+​
+$
+ (18,926)
+    
+(10)%
+​
+    
+Cost of sales
+​
+ 
+ 98,178
+ 
+59%
+​
+​
+ 
+ 105,596
+ 
+57%
+​
+​
+ 
+ (7,418)
+ 
+(7)%
+​
+​
+Gross profit
+​
+ 
+ 67,703
+ 
+41%
+​
+​
+ 
+ 79,211
+ 
+43%
+​
+​
+ 
+ (11,508)
+ 
+(15)%
+​
+​
+Operating expenses, net:
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+​
+​
+​
+ 
+  
+ 
+​
+​
+​
+Research and development
+​
+ 
+ 28,988
+ 
+17%
+​
+​
+ 
+ 32,216
+ 
+17%
+​
+​
+ 
+ (3,228)
+ 
+(10)%
+​
+​
+Selling, general, and administrative
+​
+ 
+ 27,263
+ 
+16%
+​
+​
+ 
+ 25,291
+ 
+14%
+​
+​
+ 
+ 1,972
+ 
+8%
+​
+​
+Amortization of intangible assets
+​
+ 
+ 771
+ 
+0%
+​
+​
+ 
+ 1,687
+ 
+1%
+​
+​
+ 
+ (916)
+ 
+(54)%
+​
+​
+Other operating expense (income), net
+​
+ 
+ 127
+ 
+0%
+​
+​
+ 
+ (4,318)
+ 
+(2)%
+​
+​
+ 
+ 4,445
+ 
+(103)%
+​
+​
+Total operating expenses, net
+​
+ 
+ 57,149
+ 
+34%
+​
+​
+ 
+ 54,876
+ 
+30%
+​
+​
+ 
+ 2,273
+ 
+4%
+​
+​
+Operating income
+​
+ 
+ 10,554
+ 
+6%
+​
+​
+ 
+ 24,335
+ 
+13%
+​
+​
+ 
+ (13,781)
+ 
+(57)%
+​
+​
+Interest income, net
+​
+ 
+ 1,321
+ 
+1%
+​
+​
+ 
+ 323
+ 
+0%
+​
+​
+ 
+ 998
+ 
+309%
+​
+​
+Income before income taxes
+​
+ 
+ 11,875
+ 
+7%
+​
+​
+ 
+ 24,658
+ 
+13%
+​
+​
+ 
+ (12,783)
+ 
+(52)%
+​
+​
+Income tax expense
+​
+ 
+ 1,279
+ 
+1%
+​
+​
+ 
+ 2,707
+ 
+1%
+​
+​
+ 
+ (1,428)
+ 
+(53)%
+​
+​
+Net income
+​
+$
+ 10,596
+ 
+6%
+​
+​
+$
+ 21,951
+ 
+12%
+​
+​
+$
+ (11,355)
+ 
+(52)%
+​
+​
+​
+28
+
+Table of Contents
+Net Sales
+The following is an analysis of sales by market and by region:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended September 30,
+​
+​
+Change
+ 
+​
+​
+​
+2025
+​
+​
+2024
+​
+​
+Period to Period
+ 
+​
+​
+​
+(dollars in thousands)
+ 
+​
+Sales by end-market
+    
+​
+  
+    
+  
+​
+​
+​
+  
+    
+  
+​
+​
+​
+  
+    
+  
+​
+    
+Semiconductor
+​
+$
+ 118,322
+ 
+71%
+​
+​
+$
+ 124,143
+ 
+67%
+​
+​
+$
+ (5,821)
+ 
+(5)%
+​
+​
+Compound Semiconductor
+​
+ 
+ 10,912
+ 
+7%
+​
+​
+ 
+ 15,556
+ 
+8%
+​
+​
+ 
+ (4,644)
+ 
+(30)%
+​
+​
+Data Storage
+​
+ 
+ 9,971
+ 
+6%
+​
+​
+ 
+ 32,750
+ 
+18%
+​
+​
+ 
+ (22,779)
+ 
+(70)%
+​
+​
+Scientific & Other
+​
+ 
+ 26,676
+ 
+16%
+​
+​
+ 
+ 12,358
+ 
+7%
+​
+​
+ 
+ 14,318
+ 
+116%
+​
+​
+Total
+​
+$
+ 165,881
+ 
+100%
+​
+​
+$
+ 184,807
+ 
+100%
+​
+​
+$
+ (18,926)
+ 
+(10)%
+​
+​
+Sales by geographic region
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+​
+​
+​
+United States
+​
+$
+ 26,513
+ 
+16%
+​
+​
+$
+ 59,207
+ 
+32%
+​
+​
+$
+ (32,694)
+ 
+(55)%
+​
+​
+EMEA
+​
+ 
+ 11,581
+ 
+7%
+​
+​
+ 
+ 9,898
+ 
+5%
+​
+​
+ 
+ 1,683
+ 
+17%
+​
+​
+China
+​
+​
+ 45,650
+​
+28%
+​
+​
+​
+ 54,590
+​
+30%
+​
+​
+​
+ (8,940)
+ 
+(16)%
+​
+​
+Rest of APAC
+​
+ 
+ 82,100
+ 
+49%
+​
+​
+ 
+ 60,969
+ 
+33%
+​
+​
+ 
+ 21,131
+ 
+35%
+​
+​
+Rest of World
+​
+ 
+ 37
+ 
+-
+​
+​
+ 
+ 143
+ 
+-
+​
+​
+ 
+ (106)
+ 
+(74)%
+​
+​
+Total
+​
+$
+ 165,881
+ 
+100%
+​
+​
+$
+ 184,807
+ 
+100%
+​
+​
+$
+ (18,926)
+ 
+(10)%
+​
+​
+​
+Sales decreased for the three months ended September 30, 2025 against the comparable prior year period driven by a decrease in sales in the Data Storage, Semiconductor, and Compound Semiconductor markets, partially offset by an increase in sales in the Scientific & Other market. By geography, sales decreased in the United States and China, partially offset by increased sales in the Rest of APAC and EMEA regions. Sales in the Rest of APAC region for the three months ended September 30, 2025 included sales in Taiwan and Japan of $54.9 million and $10.3 million, respectively. Sales in the Rest of APAC region for the three months ended September 30, 2024 included sales in Taiwan and Japan of $49.9 million, and $4.0 million respectively. In light of the global nature of our business, we are impacted by conditions in the various countries in which we and our customers operate, including the recent tariff and trade dynamics. We expect there will continue to be year-to-year variations in our future sales distribution across markets and geographies.
+​
+Gross Profit
+​
+For the three months ended September 30, 2025, gross profit decreased against the comparable prior period primarily due to a decrease in sales volume, as well as a decrease in gross margins. Gross margins decreased principally due to lower volume and higher logistics costs partially offset by favorable product mix. Additionally other factors will cause our gross margins to fluctuate each period. We expect higher costs in future periods as we incur tariffs on imported materials from overseas suppliers, as well as higher costs from domestic suppliers incurring tariffs on their imports. Additionally, we anticipate a reduction in gross margin for the remainder of the year primarily driven by a shift in product mix.
+​
+Research and Development
+​
+The markets we serve are characterized by continuous technological development and product innovation, and we invest in various research and development initiatives to maintain our competitive advantage and achieve our growth objectives. Research and development expenses decreased for the three months ended September 30, 2025 against the comparable prior period due to a decrease in personnel-related and operating-related expenses as part of our efforts to manage costs.
+​
+29
+
+Table of Contents
+Selling, General, and Administrative
+​
+Selling, general, and administrative expenses increased for the three months ended September 30, 2025 against the comparable prior period due to expenses incurred associated with the Company entering into the Merger Agreement described above, partially offset by a reduction in personnel-related expenses as part of our efforts to manage costs.
+​
+Amortization Expense
+​
+Amortization expense decreased compared to the comparable prior year period primarily due to changes in amortization expense to reflect expected cash flows of certain intangible assets, and certain other intangible assets becoming fully amortized, as well as the full impairment of the Epiluvac related intangibles in 2024.
+​
+Other Operating Expense (Income), Net
+​
+Other operating income decreased compared to the comparable prior year period primarily due to reduction in the expected earn-out payment to the previous shareholders of Epiluvac during the three months ended September 30, 2024.
+ 
+Interest Income (Expense)
+​
+We recorded net interest income of $1.3 million for the three months ended September 30, 2025, compared to net interest income of $0.3 million for the comparable prior year period. The increase in net interest income was primarily due to reduced interest expense on the 2025 Notes as they matured on January 15, 2025 and the 2027 Notes that were settled on May 15, 2025.
+​
+Income Taxes
+​
+Our tax expense for the three months ended September 30, 2025, was $1.3 million, compared to $2.7 million of tax expense for the comparable prior period. For the three months ended September 30, 2025, the effective tax rate was lower than the U.S. statutory tax rate primarily relating to tax benefits related to Foreign-Derived Intangible Income and research and development tax credits. For the three months ended September 30, 2024, the effective tax rate was lower than the U.S. statutory tax rate primarily relating to tax benefits related to Foreign-Derived Intangible Income and research and development tax credits.
+​
+30
+
+Table of Contents
+For the nine months ended September 30, 2025 and 2024
+​
+The following table presents revenue and expense line items reported in our Consolidated Statements of Operations for the indicated periods in 2025 and 2024 and the period-over-period dollar and percentage changes for those line items. Our results of operations are reported as one business segment, represented by our single operating segment.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Nine Months Ended September 30,
+​
+​
+Change
+​
+​
+2025
+​
+​
+2024
+​
+​
+Period to Period
+​
+​
+(dollars in thousands)
+Net sales
+    
+$
+ 499,277
+    
+100%
+​
+​
+$
+ 535,170
+    
+100%
+​
+​
+$
+ (35,893)
+    
+(7)%
+​
+Cost of sales
+​
+ 
+ 294,380
+ 
+59%
+​
+​
+ 
+ 305,150
+ 
+57%
+​
+​
+ 
+ (10,770)
+ 
+(4)%
+​
+Gross profit
+​
+ 
+ 204,897
+ 
+41%
+​
+​
+ 
+ 230,020
+ 
+43%
+​
+​
+ 
+ (25,123)
+ 
+(11)%
+​
+Operating expenses, net:
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+​
+​
+​
+ 
+  
+ 
+​
+​
+Research and development
+​
+ 
+ 89,062
+ 
+18%
+​
+​
+ 
+ 93,554
+ 
+17%
+​
+​
+ 
+ (4,492)
+ 
+(5)%
+​
+Selling, general, and administrative
+​
+ 
+ 76,218
+ 
+15%
+​
+​
+ 
+ 74,586
+ 
+14%
+​
+​
+ 
+ 1,632
+ 
+2%
+​
+Amortization of intangible assets
+​
+ 
+ 2,413
+ 
+0%
+​
+​
+ 
+ 5,403
+ 
+1%
+​
+​
+ 
+ (2,990)
+ 
+(55)%
+​
+Other operating expense (income), net
+​
+ 
+ 132
+ 
+0%
+​
+​
+ 
+ (6,625)
+ 
+(1)%
+​
+​
+ 
+ 6,757
+ 
+*
+​
+Total operating expenses, net
+​
+ 
+ 167,825
+ 
+34%
+​
+​
+ 
+ 166,918
+ 
+31%
+​
+​
+ 
+ 907
+ 
+1%
+​
+Operating income (loss)
+​
+ 
+ 37,072
+ 
+7%
+​
+​
+ 
+ 63,102
+ 
+12%
+​
+​
+ 
+ (26,030)
+ 
+(41)%
+​
+Interest income (expense), net
+​
+ 
+ 3,062
+ 
+1%
+​
+​
+ 
+ 1,377
+ 
+0%
+​
+​
+ 
+ 1,685
+ 
+122%
+​
+Other income (expense), net
+​
+​
+ (653)
+​
+(0)%
+​
+​
+​
+ —
+​
+0%
+​
+​
+​
+ (653)
+​
+*
+​
+Income (loss) before income taxes
+​
+ 
+ 39,481
+ 
+8%
+​
+​
+ 
+ 64,479
+ 
+12%
+​
+​
+ 
+ (24,998)
+ 
+(39)%
+​
+Income tax expense (benefit)
+​
+ 
+ 5,205
+ 
+1%
+​
+​
+ 
+ 5,730
+ 
+1%
+​
+​
+ 
+ (525)
+ 
+(9)%
+​
+Net income (loss)
+​
+$
+ 34,276
+ 
+7%
+​
+​
+$
+ 58,749
+ 
+11%
+​
+​
+$
+ (24,473)
+ 
+(42)%
+​
+*
+Not meaningful
+Net Sales
+​
+The following is an analysis of sales by market and by region:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Nine Months Ended September 30,
+​
+​
+Change
+​
+​
+2025
+​
+​
+2024
+​
+​
+Period to Period
+​
+​
+(dollars in thousands)
+Sales by end-market
+    
+​
+  
+    
+  
+​
+​
+​
+  
+    
+  
+​
+​
+​
+  
+    
+  
+Semiconductor
+​
+$
+ 366,019
+ 
+73%
+​
+​
+$
+ 354,463
+ 
+66%
+​
+​
+$
+ 11,556
+ 
+3%
+Compound Semiconductor
+​
+ 
+ 39,506
+ 
+8%
+​
+​
+ 
+ 54,781
+ 
+10%
+​
+​
+ 
+ (15,275)
+ 
+(28)%
+Data Storage
+​
+ 
+ 29,030
+ 
+6%
+​
+​
+ 
+ 84,727
+ 
+16%
+​
+​
+ 
+ (55,697)
+ 
+(66)%
+Scientific & Other
+​
+​
+ 64,722
+ 
+13%
+​
+​
+​
+ 41,199
+ 
+8%
+​
+​
+​
+ 23,523
+ 
+57%
+Total
+​
+$
+ 499,277
+ 
+100%
+​
+​
+$
+ 535,170
+ 
+100%
+​
+​
+$
+ (35,893)
+ 
+(7)%
+Sales by geographic region
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+  
+​
+​
+ 
+  
+ 
+​
+United States
+​
+$
+ 72,427
+ 
+15%
+​
+​
+$
+ 129,819
+ 
+24%
+​
+​
+$
+ (57,392)
+ 
+(44)%
+EMEA
+​
+ 
+ 42,451
+ 
+9%
+​
+​
+ 
+ 42,188
+ 
+8%
+​
+​
+ 
+ 263
+ 
+1%
+China
+​
+ 
+ 144,032
+ 
+29%
+​
+​
+ 
+ 184,274
+ 
+35%
+​
+​
+ 
+ (40,242)
+ 
+(22)%
+Rest of APAC
+​
+ 
+ 240,262
+ 
+48%
+​
+​
+ 
+ 178,124
+ 
+33%
+​
+​
+ 
+ 62,138
+ 
+35%
+Rest of World
+​
+​
+ 105
+​
+-
+​
+​
+​
+ 765
+​
+-
+​
+​
+​
+ (660)
+​
+(86)%
+Total
+​
+$
+ 499,277
+ 
+100%
+​
+​
+$
+ 535,170
+ 
+100%
+​
+​
+$
+ (35,893)
+ 
+(7)%
+​
+Sales decreased for the nine months ended September 30, 2025 against the comparable prior year period driven by a decrease in sales in the Data Storage and Compound Semiconductor markets, partially offset by an increase in sales in the Semiconductor and Scientific & Other markets. By geography, sales decreased in the United States, China, and the Rest of the World partially offset by increased sales in the Rest of APAC and EMEA regions. Sales in the Rest of APAC
+31
+
+Table of Contents
+region for the nine months ended September 30, 2025 included sales in Taiwan, Japan, and Singapore of $132.9 million, $39.0 million, and $33.1 million, respectively. Sales in the Rest of APAC region for the nine months ended September 30, 2024 included sales in Taiwan and Japan of $90.2 million, and $45.8 million respectively. In light of the global nature of our business, we are impacted by conditions in the various countries in which we and our customers operate, including the recent tariff and trade dynamics. We expect there will continue to be year-to-year variations in our future sales distribution across markets and geographies.
+​
+Gross Profit
+​
+For the nine months ended September 30, 2025, gross profit decreased against the comparable prior period primarily due to a decrease in sales volume, as well as a decrease in gross margins. Gross margins decreased principally due to lower volume and higher logistics costs. Additionally other factors will cause our gross margins to fluctuate each period. We expect higher costs in future periods as we incur tariffs on imported materials from overseas suppliers, as well as higher costs from domestic suppliers incurring tariffs on their imports.
+​
+Research and Development
+​
+The markets we serve are characterized by continuous technological development and product innovation, and we invest in various research and development initiatives to maintain our competitive advantage and achieve our growth objectives. Research and development expenses decreased for the nine months ended September 30, 2025 against the comparable prior period due to a decrease in personnel-related and operating-related expenses as part of our efforts to manage costs.
+​
+Selling, General, and Administrative
+​
+Selling, general, and administrative expenses increased for the nine months ended September 30, 2025 against the comparable prior period due to expenses incurred associated with the Company entering into the Merger Agreement described above, partially offset by a reduction in personnel-related expenses as part of our efforts to manage costs.
+​
+Amortization Expense
+​
+Amortization expense decreased compared to the comparable prior year period primarily due to changes in amortization expense to reflect expected cash flows of certain intangible assets, and certain other intangible assets becoming fully amortized, as well as the full impairment of the Epiluvac related intangibles in 2024.
+​
+Other Operating Expense (Income), Net
+​
+Other operating income decreased compared to the comparable prior year period primarily due to a reduction in the expected earn-out payment to the previous shareholders of Epiluvac, as well as proceeds from the sale of productive assets during the nine months ended September 30, 2024.
+ 
+Interest Income (Expense)
+​
+We recorded net interest income of $3.1 million for the nine months ended September 30, 2025, compared to net interest income of $1.3 million for the comparable prior year period. The increase in net interest income was primarily due to reduced interest expense on the 2025 Notes as they matured on January 15, 2025 and the 2027 Notes that were settled on May 15, 2025.
+​
+Income Taxes
+​
+Our tax expense for the nine months ended September 30, 2025, was $5.2 million, compared to $5.7 million of tax expense for the comparable prior period. For the nine months ended September 30, 2025, the effective tax rate was favorably impacted by tax benefits related to Foreign-Derived Intangible Income and research and development tax credits, partially offset by a discrete income tax expense resulting from the share-based compensation shortfall. For the
+32
+
+Table of Contents
+nine months ended September 30, 2024, the effective tax rate was favorably impacted by tax benefits related to Foreign-Derived Intangible Income and research and development tax credits, as well as a discrete income tax benefit resulting from the share-based compensation windfall.
+​
+Liquidity and Capital Resources
+​
+Our cash and cash equivalents, restricted cash, and short-term investments are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+September 30,
+​
+December 31,
+​
+    
+2025
+    
+2024
+​
+​
+(in thousands)
+Cash and cash equivalents
+​
+$
+ 193,192
+​
+$
+ 145,595
+Restricted cash
+​
+ 
+ 30
+​
+ 
+ 224
+Short-term investments
+​
+ 
+ 176,130
+​
+ 
+ 198,719
+Total
+​
+$
+ 369,352
+​
+$
+ 344,538
+​
+At September 30, 2025 and December 31, 2024, cash and cash equivalents of $36.4 million and $45.1 million, respectively, were held outside the United States. As of September 30, 2025, we had $23.8 million of accumulated undistributed earnings generated by our non-U.S. subsidiaries for which the U.S. tax has previously been provided. Approximately $9.8 million of undistributed earnings will be subject to foreign withholding taxes if distributed back to the United States and we accrued $1.0 million for foreign withholding taxes for the undistributed earnings.
+​
+We believe that our projected cash flow from operations, combined with our cash and short-term investments, will be sufficient to meet our projected working capital requirements, contractual obligations, and other cash flow needs for the next twelve months, including scheduled principal and interest payments on our convertible senior notes, purchase commitments, and payments required under our operating leases.
+​
+A summary of the cash flow activity for the nine months ended September 30, 2025 and 2024 is as follows:
+​
+Cash Flows from Operating Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Nine Months Ended September 30,
+    
+​
+    
+2025
+    
+2024
+    
+​
+​
+(in thousands)
+​
+Net income
+​
+$
+ 34,276
+​
+$
+ 58,749
+​
+Non-cash items:
+​
+​
+​
+​
+​
+​
+​
+Depreciation and amortization
+​
+ 
+ 15,038
+​
+ 
+ 19,161
+​
+Non-cash interest expense
+​
+ 
+ 833
+​
+ 
+ 935
+​
+Deferred income taxes
+​
+ 
+ 427
+​
+ 
+ 1,885
+​
+Share-based compensation expense
+​
+ 
+ 28,004
+​
+ 
+ 26,774
+​
+Change in contingent consideration
+​
+ 
+ —
+​
+ 
+ (4,775)
+​
+Changes in operating assets and liabilities
+​
+ 
+ (34,011)
+​
+ 
+ (67,299)
+​
+Net cash provided by (used in) operating activities
+​
+$
+ 44,567
+​
+$
+ 35,430
+​
+​
+Net cash provided by operating activities was $44.6 million for the nine months ended September 30, 2025 and was due to net income of $34.3 million and adjustments for non-cash items of $44.3 million, partially offset by a decrease in cash flow from changes in operating assets and liabilities of $34.0 million. The changes in operating assets and liabilities were largely attributable to a decrease in contract liabilities and increases in accounts receivables, and inventories, partially offset by a decrease in prepaid expenses and other current assets.
+​
+33
+
+Table of Contents
+Cash Flows from Investing Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Nine Months Ended September 30,
+​
+​
+    
+2025
+    
+2024
+    
+​
+​
+(in thousands)
+​
+Capital expenditures
+​
+$
+ (12,928)
+​
+$
+ (12,934)
+​
+Changes in investments, net
+​
+ 
+ 24,860
+​
+ 
+ (7,929)
+​
+Proceeds from the sale of productive assets
+​
+​
+ —
+​
+​
+ 2,033
+​
+Net cash provided by (used in) investing activities
+​
+$
+ 11,932
+​
+$
+ (18,830)
+​
+​
+The cash provided by investing activities during the nine months ended September 30, 2025 was primarily attributable to net cash provided for investment activity, partially offset by capital expenditures. The cash provided by investing activities during the nine months ended September 30, 2024 was primarily attributable to net cash used for capital expenditures, and net investment activity, partially offset by proceeds from the sale of productive assets.
+ 
+Cash Flows from Financing Activities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Nine Months Ended September 30,
+​
+​
+    
+2025
+    
+2024
+    
+​
+​
+(in thousands)
+​
+Settlement of equity awards, net of withholding taxes
+​
+$
+ (3,048)
+​
+$
+ (10,507)
+​
+Debt issuance costs
+​
+​
+ (885)
+​
+​
+ —
+​
+Repayment of convertible debt
+​
+​
+ (5,229)
+​
+​
+ —
+​
+Contingent consideration payment
+​
+​
+ —
+​
+​
+ (1,818)
+​
+Net cash provided by (used in) financing activities
+​
+$
+ (9,162)
+​
+$
+ (12,325)
+​
+​
+The cash used in financing activities for the nine months ended September 30, 2025 was related to cash used to settle taxes related to employee equity programs, settlement of the 2027 Notes, and debt issuance costs associated with the execution of the Fourth Amendment of the Loan and Security Agreement, partially offset by cash received under the Employee Stock Purchase Plan. The cash used in financing activities for the nine months ended September 30, 2024 was related to cash used to settle taxes related to employee equity programs and contingent consideration payment related to Epiluvac acquisition, partially offset by cash received under the Employee Stock Purchase Plan.
+​
+Convertible Senior Notes
+​
+We have $230.0 million outstanding principal balance of convertible senior notes that bear interest at a rate of 2.875% per year, payable semiannually in arrears on June 1 and December 1 of each year, and mature on June 1, 2029, unless earlier purchased by the Company, redeemed, or converted.
+​
+We believe that we have sufficient capital resources and cash flows from operations to support scheduled interest payments on this debt. In addition, in June 2025, we increased the total funds available to us through our revolving credit facility from $225 million to $250 million and extended the maturity until June 16, 2030, subject to a springing maturity date of March 2, 2029. The Company has no immediate plans to draw down on the facility. Interest under the facility is variable based on the Company’s secured net leverage ratio and is expected to bear interest based on SOFR plus a range of 125 to 200 basis points, if drawn. There is a yearly commitment fee of 20 to 30 basis points, based on the Company’s secured net leverage ratio, charged on the unused portion of the Facility.
+​
+In connection with the Merger, the convertible senior notes will be assumed by Axcelis.
+​
+Contractual Obligations and Commitments
+​
+We have commitments under certain contractual arrangements to make future payments for goods and services. These contractual arrangements secure the rights to various assets and services to be used in the future in the normal course of business. We expect to fund these contractual arrangements with cash generated from operations in the normal course of business.
+34
+
+Table of Contents
+​

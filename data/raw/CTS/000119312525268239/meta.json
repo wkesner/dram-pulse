@@ -1,0 +1,36 @@
+{
+  "company": "CTS Corporation",
+  "ticker": "CTS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000026058",
+  "form": "8-K",
+  "filing_date": "2025-11-06",
+  "accession_number": "0001193125-25-268239",
+  "primary_document": "cts-20251105.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/26058/000119312525268239/cts-20251105.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-11-05",
+  "period_end": "2025-11-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:46:57.514477+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "cts-ex99_1.htm",
+      "path": "data/raw/CTS/000119312525268239/exhibit_99_cts-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/26058/000119312525268239/cts-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CTS/000119312525268239/primary.html",
+    "other": "data/raw/CTS/000119312525268239/other_full.txt"
+  }
+}

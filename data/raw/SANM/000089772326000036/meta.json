@@ -1,0 +1,30 @@
+{
+  "company": "Sanmina",
+  "ticker": "SANM",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000897723",
+  "form": "8-K",
+  "filing_date": "2026-07-27",
+  "accession_number": "0000897723-26-000036",
+  "primary_document": "sanm-20260727.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/897723/000089772326000036/sanm-20260727.htm",
+  "fiscal_year_end": "1003",
+  "report_date": "2026-07-27",
+  "period_end": "2026-07-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:26:37.532840+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SANM/000089772326000036/primary.html",
+    "other": "data/raw/SANM/000089772326000036/other_full.txt"
+  }
+}

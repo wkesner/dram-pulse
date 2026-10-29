@@ -1,0 +1,36 @@
+{
+  "company": "Kimball Electronics",
+  "ticker": "KE",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001606757",
+  "form": "8-K",
+  "filing_date": "2026-01-08",
+  "accession_number": "0001606757-26-000004",
+  "primary_document": "ke-20260108.htm",
+  "primary_doc_description": "KIMBALL ELECTRONICS, INC. FORM 8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1606757/000160675726000004/ke-20260108.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2026-01-08",
+  "period_end": "2026-01-08",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:48:24.606575+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit991kimballelectroni.htm",
+      "path": "data/raw/KE/000160675726000004/exhibit_99_exhibit991kimballelectroni.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1606757/000160675726000004/exhibit991kimballelectroni.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/KE/000160675726000004/primary.html",
+    "other": "data/raw/KE/000160675726000004/other_full.txt"
+  }
+}

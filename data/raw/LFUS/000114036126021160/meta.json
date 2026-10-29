@@ -1,0 +1,36 @@
+{
+  "company": "Littelfuse",
+  "ticker": "LFUS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000889331",
+  "form": "8-K",
+  "filing_date": "2026-05-14",
+  "accession_number": "0001140361-26-021160",
+  "primary_document": "ef20073358_8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/889331/000114036126021160/ef20073358_8k.htm",
+  "fiscal_year_end": "1226",
+  "report_date": "2026-05-14",
+  "period_end": "2026-05-14",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:46:02.600409+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ef20073358_ex99-1.htm",
+      "path": "data/raw/LFUS/000114036126021160/exhibit_99_ef20073358_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/889331/000114036126021160/ef20073358_ex99-1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/LFUS/000114036126021160/primary.html",
+    "other": "data/raw/LFUS/000114036126021160/other_full.txt"
+  }
+}

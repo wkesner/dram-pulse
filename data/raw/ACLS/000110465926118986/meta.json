@@ -1,0 +1,36 @@
+{
+  "company": "Axcelis",
+  "ticker": "ACLS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001113232",
+  "form": "8-K",
+  "filing_date": "2026-10-27",
+  "accession_number": "0001104659-26-118986",
+  "primary_document": "tm2628310d1_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1113232/000110465926118986/tm2628310d1_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-10-24",
+  "period_end": "2026-10-24",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:41:51.727052+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "tm2628310d1_ex99-1.htm",
+      "path": "data/raw/ACLS/000110465926118986/exhibit_99_tm2628310d1_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1113232/000110465926118986/tm2628310d1_ex99-1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ACLS/000110465926118986/primary.html",
+    "other": "data/raw/ACLS/000110465926118986/other_full.txt"
+  }
+}

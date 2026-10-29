@@ -1,0 +1,41 @@
+{
+  "company": "ADTRAN",
+  "ticker": "ADTN",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000926282",
+  "form": "8-K",
+  "filing_date": "2026-05-05",
+  "accession_number": "0001193125-26-204995",
+  "primary_document": "adtn-20260504.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/926282/000119312526204995/adtn-20260504.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-04",
+  "period_end": "2026-05-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:40:10.596379+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "adtn-ex99_1.htm",
+      "path": "data/raw/ADTN/000119312526204995/exhibit_99_adtn-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/926282/000119312526204995/adtn-ex99_1.htm"
+    },
+    {
+      "name": "adtn-ex99_2.htm",
+      "path": "data/raw/ADTN/000119312526204995/exhibit_99_adtn-ex99_2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/926282/000119312526204995/adtn-ex99_2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ADTN/000119312526204995/primary.html",
+    "other": "data/raw/ADTN/000119312526204995/other_full.txt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "company": "Vicor",
+  "ticker": "VICR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000751978",
+  "form": "8-K",
+  "filing_date": "2026-07-21",
+  "accession_number": "0001193125-26-309538",
+  "primary_document": "d115827d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526309538/d115827d8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-07-21",
+  "period_end": "2026-07-21",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:44:43.813870+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d115827dex991.htm",
+      "path": "data/raw/VICR/000119312526309538/exhibit_99_d115827dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526309538/d115827dex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/VICR/000119312526309538/primary.html",
+    "other": "data/raw/VICR/000119312526309538/other_full.txt"
+  }
+}

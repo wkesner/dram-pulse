@@ -1,0 +1,41 @@
+{
+  "company": "SiTime",
+  "ticker": "SITM",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001451809",
+  "form": "8-K",
+  "filing_date": "2026-02-04",
+  "accession_number": "0001193125-26-037802",
+  "primary_document": "d35227d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526037802/d35227d8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-04",
+  "period_end": "2026-02-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:30:29.703541+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d35227dex991.htm",
+      "path": "data/raw/SITM/000119312526037802/exhibit_99_d35227dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526037802/d35227dex991.htm"
+    },
+    {
+      "name": "d35227dex992.htm",
+      "path": "data/raw/SITM/000119312526037802/exhibit_99_d35227dex992.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1451809/000119312526037802/d35227dex992.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/SITM/000119312526037802/primary.html",
+    "other": "data/raw/SITM/000119312526037802/other_full.txt"
+  }
+}

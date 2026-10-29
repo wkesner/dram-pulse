@@ -1,0 +1,36 @@
+{
+  "company": "Digi International",
+  "ticker": "DGII",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000854775",
+  "form": "8-K",
+  "filing_date": "2026-08-05",
+  "accession_number": "0000854775-26-000025",
+  "primary_document": "dgii-20260805.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/854775/000085477526000025/dgii-20260805.htm",
+  "fiscal_year_end": "0930",
+  "report_date": "2026-08-05",
+  "period_end": "2026-08-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:40:55.279377+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "dgii-ex991_20260805.htm",
+      "path": "data/raw/DGII/000085477526000025/exhibit_99_dgii-ex991_20260805.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/854775/000085477526000025/dgii-ex991_20260805.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/DGII/000085477526000025/primary.html",
+    "other": "data/raw/DGII/000085477526000025/other_full.txt"
+  }
+}

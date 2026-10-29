@@ -1,0 +1,41 @@
+{
+  "company": "Bel Fuse",
+  "ticker": "BELFA",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000729580",
+  "form": "8-K",
+  "filing_date": "2026-05-14",
+  "accession_number": "0001213900-26-056732",
+  "primary_document": "ea0290047-8k_belfu.htm",
+  "primary_doc_description": "CURRENT REPORT",
+  "items": "1.01,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea0290047-8k_belfu.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-12",
+  "period_end": "2026-05-12",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:45:03.963156+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ea029004701ex99-1.htm",
+      "path": "data/raw/BELFA/000121390026056732/exhibit_99_ea029004701ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea029004701ex99-1.htm"
+    },
+    {
+      "name": "ea029004701ex99-2.htm",
+      "path": "data/raw/BELFA/000121390026056732/exhibit_99_ea029004701ex99-2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/729580/000121390026056732/ea029004701ex99-2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/BELFA/000121390026056732/primary.html",
+    "other": "data/raw/BELFA/000121390026056732/other_full.txt"
+  }
+}

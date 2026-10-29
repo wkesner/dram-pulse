@@ -1,0 +1,485 @@
+Item 2.
+Management's Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion of our financial condition and results of operations contains forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934 and Section 27A of the Securities Act of 1933. These statements include, but are not limited to, statements about our plans, objectives, expectations, strategies, intentions or other characterizations of future events or circumstances and are generally identified by the words "expects," "anticipates," "intends," "plans," "believes," "seeks," "estimates," and similar expressions. These forward-looking statements are based on current information and expectations and are subject to a number of risks and uncertainties. Our actual results could differ materially from those expressed or implied by these forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those discussed in Part II, Item 1A. "Risk Factors" herein and in other documents we file from time to time with the Securities and Exchange Commission. We assume no obligation to revise or update any such forward-looking statements.
+Overview
+F5 is a global leader in application delivery and security solutions which enable its customers to deploy, operate, secure, optimize, and govern every application and API across on-premises architectures, in the cloud, and at the network edge. Our cloud, software, and hardware solutions enable our customers to deliver fast, available, and secure digital experiences to their customers at scale. Our enterprise-grade application services are available as hardware, software, and SaaS solutions optimized for hybrid, multicloud environments, with modules that can run independently, or as part of an integrated solution on our high-performance appliances. We market and sell our products primarily through multiple indirect sales channels in our Americas; Europe, the Middle East, and Africa ("EMEA"); and Asia Pacific ("APAC") regions. Enterprise customers (Fortune 1000 or Business Week Global 1000 companies) in the technology, financial services, transportation, education, manufacturing, and health care industries, along with government customers, and service providers continue to make up the largest percentage of our customer base.
+Our management team monitors and analyzes a number of key performance indicators in order to manage our business and evaluate our financial and operating performance on a consolidated basis. Those indicators include:
+•
+Revenues.
+ Our revenue is derived from the sales of both products and services. The majority of our product revenues are derived from sales of our application delivery and security solutions including our F5 BIG-IP software and systems, F5 NGINX software, and our F5 Distributed Cloud Services offerings. Our F5 BIG-IP software solutions are sold both on a subscription and perpetual license basis. We sell F5 NGINX on a subscription basis as deployable software or SaaS. F5 Distributed Cloud Services provides security, multicloud networking, and edge-based computing solutions and are offered on a subscription basis, under a unified SaaS platform and managed service platform. Our services revenue includes annual maintenance contracts, training and consulting services.
+We monitor the sales mix of our revenues within each reporting period. We believe customer acceptance rates of our new products, feature enhancements, and consumption models are indicators of future trends. We also consider overall revenue concentration by geographic region as an additional indicator of current and future trends.
+22
+Table of Contents
+•
+Cost of revenues and gross margins.
+ We strive to control our cost of revenues and thereby maintain our gross margins. Significant items impacting cost of revenues are hardware costs paid to our contract manufacturers, personnel costs, including the salaries, stock-based compensation and related benefits of our personnel, technology costs, including third-party cloud hosting and related services, depreciation of cloud infrastructure costs, software licenses expenses, and amortization expense in connection with developed technology from acquisitions. In addition, factors such as sales price, product and services mix, inventory obsolescence, returns, component price increases, warranty costs, and global supply chain constraints could significantly impact our gross margins.
+•
+Operating expenses.
+ Operating expenses are substantially driven by personnel and related overhead expenses. Existing headcount and future hiring plans are the predominant factors in analyzing and forecasting future operating expense trends. Other significant operating expenses that we monitor include costs associated with cyber and enterprise-wide security, marketing and promotions, travel, professional fees, technology costs, including cloud hosting and software licenses expenses, related to the development of new products and provision of services, facilities and depreciation expenses.
+•
+Liquidity and cash flows.
+ Our financial condition remains strong with significant cash and investments. The increase in cash and investments for the first six months of fiscal year 2026 was primarily due to cash provided by operating activities of $525.1 million, partially offset by purchases of property and equipment of $28.1 million and cash used to repurchase outstanding common stock under our stock repurchase program, including excise taxes, of $401.1 million. Going forward, we believe the primary driver of cash flows will continue to be net income from operations. We will continue to evaluate possible acquisitions of, or investments in businesses, products, or technologies that we believe are strategic, which may require the use of cash.
+•
+Balance sheet.
+ We view cash, short-term and long-term investments, deferred revenue, accounts receivable balances, and days sales outstanding as important indicators of our financial health. Deferred revenues increased to $2.1 billion as of March 31, 2026 from $2.0 billion as of September 30, 2025 primarily due to an increase in maintenance contracts related to strong systems shipments, in addition to an increase in deferred revenue associated with our subscription offerings. Our days sales outstanding for the second quarter of fiscal year 2026 was
+47
+. Days sales outstanding is calculated by dividing ending accounts receivable by revenue per day for a given quarter.
+Cyber Incident
+On October 15, 2025, we disclosed a security incident in which a threat actor maintained long-term, persistent access to F5 systems, and exfiltrated certain files, referred to as the "Cyber Incident." For further information about the Cyber Incident, see "Risk Factors" included in Item 1A of Part I and "Management’s Discussion and Analysis of Financial Condition and Results of Operations - Cyber Incident" included in Item 7 of Part II of the Annual Report on Form 10-K for the fiscal year ended September 30, 2025.
+Critical Accounting Estimates
+The preparation of our financial condition and results of operations requires us to make judgments and estimates that may have a significant impact upon our financial results. We believe that, of our significant accounting policies, revenue recognition requires estimates and assumptions that require complex, subjective judgments by management, which can materially impact reported results. Actual results may differ from these estimates under different assumptions or conditions.
+There were no material changes to our critical accounting policies and estimates compared to the critical accounting policies and estimates described in "Management's Discussion and Analysis of Financial Condition and Results of Operations" in the Form 10-K for the fiscal year ended September 30, 2025.
+Recent Accounting Pronouncements
+The anticipated impact of recent accounting pronouncements is discussed in Note 1 to the accompanying Notes to Consolidated Financial Statements of this Quarterly Report on Form 10-Q.
+23
+Table of Contents
+Impact of Macroeconomic Conditions
+Our overall performance depends in part on worldwide economic and geopolitical conditions and their impacts on customer behavior. Uncertain economic conditions, including inflation, tariffs and other duties, risks related to global supply chain shortages that may impact sourcing and pricing of components used within our products, including rising costs of memory and storage, higher interest rates, slower growth, fluctuations in foreign exchange rates, ongoing geopolitical conflicts, and other changes in economic conditions, may adversely affect our results of operations and financial performance. For further discussion of the potential impacts of recent macroeconomic events on our business, financial condition, and operating results, see Part I, Item 1A, "Risk Factors" of our Annual Report on Form 10-K for the fiscal year ended September 30, 2025.
+Results of Operations
+The following discussion and analysis should be read in conjunction with our consolidated financial statements, related notes and risk factors included elsewhere in this Quarterly Report on Form 10-Q.
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+ 
+(in thousands, except percentages)
+Net revenues
+Products
+$
+410,515 
+$
+337,196 
+$
+820,798 
+$
+705,693 
+Services
+401,185 
+393,927 
+813,367 
+791,919 
+Total
+$
+811,700 
+$
+731,123 
+$
+1,634,165 
+$
+1,497,612 
+Percentage of net revenues
+Products
+50.6 
+%
+46.1 
+%
+50.2 
+%
+47.1 
+%
+Services
+49.4 
+53.9 
+49.8 
+52.9 
+Total
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Net Product Revenues.
+ Net product revenues increased 21.7% and 16.3% for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year. The increase in net product revenues for the three and six months ended March 31, 2026 was due to an increase in revenues associated with systems and software.
+Net Service Revenues.
+Net service revenues increased 1.8% and 2.7% for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year. The increase in net service revenues for the three and six months ended March 31, 2026 was primarily the result of increased purchases of maintenance contracts.
+The following presents net product revenues by systems and software:
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+(in thousands, except percentages)
+Net product revenues
+Systems revenue
+$
+226,389 
+$
+179,405 
+$
+444,745 
+$
+339,113 
+Software revenue
+184,126 
+157,791 
+376,053 
+366,580 
+Total net product revenue
+$
+410,515 
+$
+337,196 
+$
+820,798 
+$
+705,693 
+Percentage of net product revenues
+Systems revenue
+55.1 
+%
+53.2 
+%
+54.2 
+%
+48.1 
+%
+Software revenue
+44.9 
+46.8 
+45.8 
+51.9 
+Total net product revenue
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Total systems revenue increased 26.2% and 31.1% for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year. The increase in systems revenue was primarily due to increases in customer demand. Total software revenue increased 16.7% and 2.6% for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year. The increase in software revenue was primarily due to increases in subscription offerings.
+24
+Table of Contents
+The following distributor customers accounted for more than 10% of total net revenue:
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+Customer A
+16.1 
+%
+16.9 
+%
+17.7 
+%
+16.5 
+%
+Customer B
+15.3 
+%
+17.4 
+%
+15.4 
+%
+17.1 
+%
+The following distributor customers accounted for more than 10% of total receivables:
+March 31,
+2026
+September 30,
+2025
+Customer A
+14.7 
+%
+11.1 
+%
+Customer B
+16.7 
+%
+17.8 
+%
+Customer C
+— 
+10.9 
+%
+Customer D
+— 
+11.4 
+%
+No end-user customers accounted for more than 10% of total net revenue or receivables. No other distributor customers accounted for more than 10% of total net revenue or receivables, other than those noted above.
+  
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+ 
+(in thousands, except percentages)
+Cost of net revenues and gross profit
+Products
+$
+90,890 
+$
+81,287 
+$
+183,161 
+$
+164,123 
+Services
+60,010 
+59,672 
+119,524 
+117,346 
+Total
+150,900 
+140,959 
+302,685 
+281,469 
+Gross profit
+$
+660,800 
+$
+590,164 
+$
+1,331,480 
+$
+1,216,143 
+Percentage of net revenues and gross margin (as a percentage of related net revenue)
+Products
+22.1 
+%
+24.1 
+%
+22.3 
+%
+23.3 
+%
+Services
+15.0 
+15.1 
+14.7 
+14.8 
+Total
+18.6 
+19.3 
+18.5 
+18.8 
+Gross margin
+81.4 
+%
+80.7 
+%
+81.5 
+%
+81.2 
+%
+Cost of Net Product Revenues
+. Cost of net product revenues consist of finished products purchased from our contract manufacturers, personnel costs, including the salaries, stock-based compensation, and related benefits of our personnel, manufacturing overhead, freight, warranty, provisions for excess and obsolete inventory, technology costs, including third-party cloud hosting and related services, depreciation of cloud infrastructure, software licenses expenses, facilities and depreciation expenses, and amortization expenses in connection with developed technology from acquisitions. Cost of net product revenues increased $9.6 million, or 11.8% for the three months ended March 31, 2026 and increased $19.0 million, or 11.6% for the six months ended March 31, 2026 from the comparable periods in the prior year primarily due to systems revenue growth.
+Cost of Net Service Revenues
+.  Cost of net service revenues consist of personnel costs, including the salaries, stock-based compensation, and related benefits of our professional services personnel, travel, technology costs, including cloud hosting and software licenses expenses, facilities and depreciation expenses. Cost of net service revenues increased $0.3 million, or 0.6% for the three months ended March 31, 2026  and increased $2.2 million, or 1.9% for the six months ended March 31, 2026 from the comparable periods in the prior year. The increase in cost of net service revenues was primarily due to an increase in personnel costs.
+25
+Table of Contents
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+ 
+(in thousands, except percentages)
+Operating expenses
+Sales and marketing
+$
+239,411 
+$
+218,061 
+$
+464,188 
+$
+424,096 
+Research and development
+151,039 
+136,561 
+292,200 
+267,079 
+General and administrative
+91,647 
+76,645 
+182,245 
+149,668 
+Restructuring charges
+(315)
+— 
+(358)
+11,321 
+Total
+$
+481,782 
+$
+431,267 
+$
+938,275 
+$
+852,164 
+Operating expenses (as a percentage of net revenue)
+Sales and marketing
+29.5 
+%
+29.8 
+%
+28.4 
+%
+28.3 
+%
+Research and development
+18.6 
+18.7 
+17.9 
+17.8 
+General and administrative
+11.3 
+10.5 
+11.1 
+10.0 
+Restructuring charges
+— 
+— 
+— 
+0.8 
+Total
+59.4 
+%
+59.0 
+%
+57.4 
+%
+56.9 
+%
+Sales and Marketing.
+ Sales and marketing expenses consist of personnel costs, including the salaries, commissions, stock-based compensation, and related benefits of our sales and marketing personnel, the costs of our marketing programs, including public relations, advertising and trade shows, travel, facilities, technology costs, including cloud hosting and software licenses expenses, facilities, and depreciation expenses. Sales and marketing expenses increased $21.4 million, or 9.8% for the three months ended March 31, 2026 and increased $40.1 million, or 9.5% for the six months ended March 31, 2026 from the comparable periods in the prior year. The increase in sales and marketing expense for the three and six months ended March 31, 2026 was primarily due to an increase of $18.9 million and $33.5 million, respectively, in personnel costs from the comparable periods in the prior year.
+Research and Development
+. Research and development expenses consist of personnel costs, including the salaries, stock-based compensation, and related benefits of our product development personnel, prototype materials, and other expenses related to the development of new and improved products, technology costs, including cloud hosting and software licenses expenses, facilities, depreciation, and amortization expenses. Research and development expenses increased $14.5 million, or 10.6% for the three months ended March 31, 2026 and increased $25.1 million, or 9.4% for the six months ended March 31, 2026 from the comparable periods in the prior year. The increase in research and development expenses for the three and six months ended March 31, 2026 was primarily due to an increase in personnel costs of $7.9 million and $8.6 million, respectively, and an increase in technology costs of $5.1 million and $9.2 million, respectively, from the comparable periods in the prior year. In addition, expenses for professional services increased $2.0 million and $7.6 million, driven by costs incurred in response to the Cyber Incident, for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year.
+General and Administrative
+. General and administrative expenses consist of personnel costs, including the salaries, benefits and related costs of our executive, finance, information technology, human resource, and legal personnel, third-party professional service fees, bad debt charges, costs associated with cyber and enterprise-wide security, technology costs, including cloud hosting and software licenses expenses, facilities, and depreciation expenses. General and administrative expenses increased $15.0 million, or 19.6% for the three months ended March 31, 2026 and increased $32.6 million, or 21.8% for the six months ended March 31, 2026 from the comparable periods in the prior year. The increase in general and administrative expenses for the three and six months ended March 31, 2026 was primarily due to an increase in personnel costs of $7.6 million and $18.0 million, respectively, from the comparable periods in the prior year. In addition, expenses for professional services increased $5.5 million and $12.1 million, driven by costs incurred in response to the Cyber Incident, for the three and six months ended March 31, 2026, respectively, from the comparable periods in the prior year.
+Restructuring Charges
+. In the first fiscal quarter of 2025, we completed a restructuring plan to align strategic and financial objectives and optimize resources for long term growth. As a result of our restructuring initiative, we recorded charges of $11.3 million, net of adjustments, related to a reduction in workforce that is reflected in our results for the six months ended March 31, 2025.
+26
+Table of Contents
+ 
+Three Months Ended
+March 31,
+Six Months Ended
+March 31,
+ 
+2026
+2025
+2026
+2025
+ 
+(in thousands, except percentages)
+Other income and income taxes
+Income from operations
+$
+179,018 
+$
+158,897 
+$
+393,205 
+$
+363,979 
+Other income, net
+10,199 
+12,303 
+18,934 
+16,265 
+Income before income taxes
+189,217 
+171,200 
+412,139 
+380,244 
+Provision for income taxes
+41,462 
+25,670 
+84,330 
+68,269 
+Net income
+$
+147,755 
+$
+145,530 
+$
+327,809 
+$
+311,975 
+Other income and income taxes (as percentage of net revenue)
+Income from operations
+22.1 
+%
+21.7 
+%
+24.1 
+%
+24.3 
+%
+Other income, net
+1.2 
+1.7 
+1.1 
+1.1 
+Income before income taxes
+23.3 
+23.4 
+25.2 
+25.4 
+Provision for income taxes
+5.1 
+3.5 
+5.1 
+4.6 
+Net income
+18.2 
+%
+19.9 
+%
+20.1 
+%
+20.8 
+%
+Other Income, Net.
+ The change in other income, net for the three and six months ended March 31, 2026 compared to the same periods in the prior year was primarily driven by interest income and expense, investment income, and foreign currency transaction gains and losses.
+Provision for Income Taxes.
+We record a valuation allowance to reduce our deferred tax assets to the amount we believe is more likely than not to be realized. In making these determinations we consider historical and projected taxable income, and ongoing prudent and feasible tax planning strategies in assessing the appropriateness of a valuation allowance. Our net deferred tax assets at March 31, 2026 and September 30, 2025 were $465.5 million and $444.5 million, respectively. The net deferred tax assets include valuation allowances of $34.3 million as of March 31, 2026 and September 30, 2025, which are primarily related to certain state and foreign net operating losses and tax credit carryforwards.
+Our worldwide effective tax rate may fluctuate based on a number of factors, including variations in projected taxable income in the various geographic locations in which we operate, the impact of stock-based compensation, changes in the valuation of our net deferred tax assets, resolution of potential exposures, tax positions taken on tax returns filed in the various geographic locations in which we operate, and the introduction of new accounting standards or changes in tax laws or interpretations thereof in the various geographic locations in which we operate. We have recorded liabilities to address potential tax exposures related to business and income tax positions we have taken that could be challenged by taxing authorities. The ultimate resolution of these potential exposures may be greater or less than the liabilities recorded, which could result in an adjustment to our future tax expense.
+Liquidity and Capital Resources
+Cash and cash equivalents, short-term investments and long-term investments totaled $1,463.6 million as of March 31, 2026, compared to $1,360.0 million as of September 30, 2025, representing an increase of $103.6 million. The increase was primarily due to cash provided by operating activities of $525.1 million for the six months ended March 31, 2026, partially offset by cash used for the repurchase of common stock, including excise taxes, during the six months ended March 31, 2026 of $401.1 million.
+Cash provided by operating activities for the first six months of fiscal year 2026 resulted from net income of $327.8 million combined with changes in operating assets and liabilities, as adjusted for various non-cash items including stock-based compensation, deferred revenue, depreciation, impairment, and amortization charges. Cash provided by operating activities for the first six months of fiscal year 2026 increased from the com
+parable period in the prior year primarily due to growth of our business as reflected by increases in collections during the six months ended March 31, 2026.
+Cash from operations could be affected by various risks and uncertainties, including, but not limited to, the effects of the risks detailed in Part I, Item 1A, "Risk Factors" of our Annual Report on Form 10-K for the fiscal year ended September 30, 2025. However, we anticipate our current cash, cash equivalents and investment balances and anticipated cash flows generated from operations will be sufficient to meet our liquidity needs.
+27
+Table of Contents
+Cash used in investing activities was $29.2 million for the six months ended March 31, 2026, compared to cash used in investing activities of $30.6 million for the same period in the prior year. Investing activities include purchases, sales and maturities of long-term investments, business acquisitions, and capital expenditures. The amount of cash used in investing activities for the six months ended March 31, 2026 was primarily the result of $28.1 million in capital expenditures related to maintaining our operations worldwide.
+Cash used in financing activities was $396.3 million for the six months ended March 31, 2026, compared to cash used in financing activities of $244.3 million for the same period in the prior year. Our financing activities for the six months ended March 31, 2026 primarily consisted of $401.1 million of cash used to repurchase shares of common stock and the payment of related excise taxes. In addition, $18.1 million in cash was used for taxes related to net share settlement of equity awards. Cash used in financing activities was partially offset by cash received from the exercise of employee stock options and stock purchases under our employee stock purchase plan of $22.9 million.
+Obligations and Commitments
+As of March 31, 2026, our principal commitments consisted of obligations outstanding under operating leases and purchase obligations with one of our component suppliers.
+We lease our facilities under operating leases that expire at various dates through 2041. There have been no material changes in our principal lease commitments compared to those discussed in Management’s Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended September 30, 2025.
+In October 2022, we entered into an unconditional purchase commitment with one of our suppliers for the delivery of systems components. Under the terms of the agreement, we are obligated to purchase $10.0 million of component inventory annually, with a total committed amount of $40.0 million over a four-year term. As of March 31, 2026, we had no remaining purchase commitments under the fourth year of the agreement. We did not have any non-cancelable long-term purchase commitments outstanding as of March 31, 2026.
+We have a contractual obligation to purchase inventory components procured by our primary contract manufacturer in accordance with our annual build forecast. The contractual terms of the obligation contain cancellation provisions, which reduce our liability to purchase inventory components for periods greater than one year. In order to support our build forecast, we will, from time-to-time prepay our primary contract manufacturer for inventory purchases.
