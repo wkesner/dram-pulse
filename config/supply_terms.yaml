@@ -89,6 +89,13 @@ direction:
     - exceeds supply
     - extended lead times
     - extended lead time
+    # Seagate-style: "production lead-times ... have extended" / "lead-times extended"
+    - lead times have extended
+    - lead time has extended
+    - lead times extended
+    - lead time extended
+    - production lead times extended
+    - production lead time extended
     - elevated memory and systems prices
     - price increase
     - price increases

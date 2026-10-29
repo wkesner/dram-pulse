@@ -314,7 +314,7 @@ companies:
     role: supplier
     source: EDGAR
     ticker: ADI
-    tier: 2
+    tier: 1
 
   - name: NXP
     role: supplier
@@ -326,7 +326,7 @@ companies:
     role: supplier
     source: EDGAR
     ticker: TXN
-    tier: 2
+    tier: 1
 
   - name: Microchip
     role: supplier

@@ -221,14 +221,19 @@
     NAND_general: "NAND general",
     "Data center SSD": "Data center SSD",
     "Mobile/embedded": "Mobile/embedded",
+    MLCC: "MLCC",
+    HDD: "HDD",
+    SSD: "SSD",
   };
   const CATEGORY_ORDER = {
     DRAM: 0,
     NAND: 1,
     Other: 2,
-    Compute: 3,
-    Analog: 4,
-    Passives: 5,
+    Storage: 3,
+    Compute: 4,
+    Analog: 5,
+    Interconnect: 6,
+    Passives: 7,
   };
 
   function optionLabel(field, value) {
