@@ -1,0 +1,34 @@
+{
+  "company": "Analog Devices",
+  "ticker": "ADI",
+  "cik": "0000006281",
+  "form": "8-K",
+  "filing_date": "2026-05-19",
+  "accession_number": "0000006281-26-000048",
+  "primary_document": "adi-20260519.htm",
+  "primary_doc_description": "8-K",
+  "items": "7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000048/adi-20260519.htm",
+  "fiscal_year_end": "1031",
+  "report_date": "2026-05-19",
+  "period_end": "2026-05-19",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:56.834683+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "pressrelease.htm",
+      "path": "data/raw/ADI/000000628126000048/exhibit_99_pressrelease.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000048/pressrelease.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ADI/000000628126000048/primary.html",
+    "other": "data/raw/ADI/000000628126000048/other_full.txt"
+  }
+}

@@ -1,0 +1,584 @@
+Item 7.      Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis of our financial condition and operating results should be read in conjunction with our Consolidated Financial Statements and related Notes included in Item 8 of this Annual Report on Form 10-K. See also "Special Note Regarding Forward Looking and Cautionary Statements" at the beginning of this Annual Report on Form 10-K.
+Overview
+We are a leading provider of high-performance semiconductors powering data center networking, IoT connectivity and cellular infrastructure solutions and were incorporated in Delaware in 1960. We design, develop, manufacture and market a diverse portfolio of products for commercial applications, addressing the global infrastructure, high-end consumer and industrial end markets. The infrastructure end market includes data centers, PON, base stations, optical networks, servers, carrier networks, switches and routers, cable modems, wireless LAN and other communication infrastructure equipment and has expanded to support AI-driven applications and general compute data center applications. The high-end consumer end market
+
+includes smartphones, tablets, smart glasses, wearables, desktops, notebooks and other consumer equipment. The industrial end market includes IoT applications such as connected spaces (smart cities, buildings, factories, facilities and commercial buildings), smart utilities (electricity, water, gas and smart grid), wireless charging, medical, security systems, automotive, industrial and home automation, supply chain management, asset tracking and logistics, analog and digital video broadcast equipment, video-over-IP solutions and other industrial equipment. Our end customers for our silicon solutions are primarily OEMs that produce and sell technology solutions. Our IoT module, router, gateway and managed connectivity solutions ship to IoT device makers and enterprises to provide IoT connectivity to end devices.
+We report results on the basis of 52 and 53 week periods and our fiscal year ends on the last Sunday in January. Fiscal years 2026, 2025 and 2024 each consisted of 52 weeks. Our fiscal year 2027 will consist of 53 weeks.
+We remain committed to advancing our role as a leading provider of disruptive platforms that enable our customers to deliver solutions to create a smarter planet. We continue to focus on three secular trends that drive our growth strategy:
+1.
+Enabling a smarter, more sustainable planet through IoT solutions;
+2.
+Addressing the demand for higher bandwidth and performance with lower power consumption; and
+3.
+Supporting greater mobility in an increasingly connected world.
+The increasing adoption of our LoRa technology for low power wide-area networks is providing connectivity solutions that enable IoT networks to make a smarter, more connected planet. The growing deployment of on-device AI in IoT applications further strengthens this opportunity: edge AI architectures transmit processed insights rather than raw sensor data, dramatically reducing bandwidth requirements and making the long-range, low-power characteristics of LoRa an ideal complement to AI-enabled IoT devices across industrial, security, smart city applications and more. Our portfolio of optical and copper connectivity solutions continue to address the demand for greater bandwidth and higher performance, while using less power by our global hyper-scale data center customers. Additionally, the rapid expansion of AI workloads has driven infrastructure suppliers around the world to accelerate their investments in high-speed connectivity using 5G wireless and PON technology where we are an industry leader, and industry demand within hyperscale data centers has continued to expand to support both AI-driven and general compute applications.
+The trend toward adoption of finer silicon geometries has accelerated across all categories of end systems, making them increasingly vulnerable to electrical and electromagnetic threats. Our protection solutions, which enable the highest levels of system performance, have found increased adoption across the board, driven by the need to maintain product functionality despite the challenging threat environment (electrical and electromagnetic), and increased system sensitivity to threats due to adoption of finer silicon geometries for implementation of system functions. Finally, the increasing demand for smaller, lower-powered higher performance mobile platforms with more enjoyable organic light-emitting diode displays has benefited our protection and proximity sensing solutions that protect these mobile devices and help our customers comply with radio frequency absorption regulations.
+We supply cellular wireless devices and provide services in the wireless communications and information technology industries, enabling connectivity for IoT solutions through cellular and short-range wireless technologies. These technologies primarily include 3G standards such as UMTS (including HSPDA and HSUPA) and EV-DO; 4G standards such as HSPA+, LTE, LTE-A; 5G standards such as fifth generation new radio ("5G NR") standards (both millimeter wave and sub-6 Gigahertz frequencies); Low Power Wide Area ("LPWA") standards such as LTE-M and NB-IoT; and wireless local area network technologies such as Wi-Fi and Bluetooth; and Global Navigation Satellite System ("GNSS") positioning.
+We also offer IoT connectivity services that help customers simplify their IoT journey, whether their machines or other connected assets are regionally located or globally dispersed. Our connectivity services optimize and simplify North American and Asia Pacific deployments, with multi-carrier options for IoT deployments in the U.S., Canada, Mexico, Australia, and New Zealand and a single point of accountability for connectivity management. We also accelerate global IoT deployments by providing a solution for customers to maintain a secure connection to assets throughout the world.
+40
+
+Recent Developments
+Financing
+On October 10, 2025, the Company issued and sold $402.5 million in aggregate principal amount of 0% Convertible Senior Notes due 2030 (the "2030 Notes") in a private placement. The 2030 Notes were issued pursuant to an indenture, dated October 10, 2025, by and among the Company, the subsidiary guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee (the "2030 Indenture"). The 2030 Notes are jointly and severally and fully and unconditionally guaranteed by each of the Company's current and future direct and indirect wholly-owned domestic subsidiaries that guarantee its borrowings under its Credit Agreement (as defined below). The 2030 Notes do not bear any interest and will mature on October 15, 2030, unless earlier converted, redeemed or repurchased. As of January 25, 2026, $402.5 million of the 2030 Notes remain outstanding. For additional information, see Note 9, Long-Term Debt, to our Consolidated Financial Statements.
+On October 7, 2025, the Company entered into separate, privately-negotiated exchange agreements with certain holders of the 2027 Notes (the "2025 Exchange of 2027 Notes"). Pursuant to the 2025 Exchange of 2027 Notes, on October 14, 2025, the Company used approximately $220.6 million of the net proceeds from the 2030 Notes, together with the issuance of 3,036,192 shares of the Company's common stock as consideration for the exchange of approximately $219.0 million aggregate principal amount of the 2027 Notes and accrued interest. The Company accounted for these exchange transactions as an induced conversion. In fiscal year 2026, in connection with these exchange transactions, the Company recognized an induced conversion expense of $17.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $14.3 million on the Balance Sheets, which included $3.3 million from the write-off of deferred financing costs.
+In connection with the 2025 Exchange of 2027 Notes, the Company also terminated a portion of the Convertible Note Hedges (as defined below) and the Warrants corresponding to the number of 2027 Notes exchanged. The Company received approximately $24.5 million in connection with the termination, which was recorded as an increase to "Additional paid-in capital" on the Balance Sheets.
+On October 7, 2025, the Company entered into separate, privately-negotiated exchange agreements with holders of the 2028 Notes (as defined below) (the "2025 Exchange of 2028 Notes"). Pursuant to the 2025 Exchange of 2028 Notes, on October 14, 2025, the Company used approximately $63.1 million of the net proceeds from the 2030 Notes, together with the issuance of 2,217,394 shares of the Company's common stock as consideration for the exchange of the remaining $62.0 million aggregate principal amount of the 2028 Notes and accrued interest. The Company accounted for these exchange transactions as an induced conversion. In fiscal year 2026, in connection with these exchange transactions, the Company recognized an induced conversion expense of $3.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $2.2 million on the Balance Sheets, which included $1.3 million from the write-off of deferred financing costs.
+Impact of Macroeconomic Conditions
+In recent periods, macroeconomic factors such as market volatility, inflationary pressures, elevated interest rates, geopolitical tensions and recessionary concerns have caused uncertainty in end customer demand, which resulted in elevated channel inventories. We believe that we can continue to take appropriate actions to align our inventory levels with anticipated customer demand profiles.
+Our Segments
+We have three operating segments—Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity—that represent three separate reportable segments. See Note 15, Segment Information, to our Consolidated Financial Statements for segment information.
+Factors Affecting Our Performance
+Most of our sales to customers are made on the basis of individual customer purchase orders and many customers include cancellation provisions in their purchase orders. Net sales made through independent distributors in fiscal years 2026, 2025 and 2024 were 74%, 72% and 66%, respectively of net sales, and the remainder were made directly to customers.
+We are a global business with customers and suppliers around the world. A significant amount of our third-party subcontractors and suppliers, including third-party foundries that supply silicon wafers, are located outside the United States, including China, Israel, Japan, Taiwan and Vietnam. A significant amount of our assembly and test operations are conducted by third-party contractors located outside the United States, including China, Malaysia, Taiwan and Vietnam. Net sales outside the United States for fiscal years 2026, 2025 and 2024 constituted approximately 82%, 79% and 76%, respectively, of our net sales. Approximately 67%, 64% and 58% of net sales in fiscal years 2026, 2025 and 2024, respectively, were to customers located in the Asia-Pacific region. We are subject to export restrictions and trade regulations, which have limited our ability to sell to certain customers in certain regions. In addition, changes in tariffs or the imposition of retaliatory tariffs may impact our net sales and gross profit if we are unable to pass higher costs on to our customers.
+41
+
+We use several metrics as indicators of future potential growth. The indicators that we believe best correlate to potential future sales growth are design wins and new product releases. There are many factors that may cause a design win or new product release to not result in sales, including a customer decision not to go to system production, a change in a customer’s perspective regarding a product’s value or a customer’s product failing in the end market. As a result, although a design win or new product introduction is an important step towards generating future sales, it does not necessarily result in us being awarded business or receiving a purchase commitment.
+Inflationary factors could affect our future performance if we are unable to pass higher costs on to our customers.
+Revenue
+We derive our revenue primarily from the sale of our products into various end markets. Revenue is recognized when control of these products is transferred to our customers, in an amount that reflects the consideration we expect to be entitled to in exchange for these products. Control is generally transferred when products are shipped and, to a lesser extent, when the products are delivered.
+Cloud and connectivity services, reported in our IoT Systems and Connectivity segment, are provided on either a subscription or consumption basis. Revenue related to cloud and connectivity services provided on a subscription basis is recognized ratably over the contract period. Revenue related to cloud and connectivity services provided on a consumption basis is recognized based on the customer utilization of such resources. Revenues from SIM activation and initial application setup are deferred and recognized over the estimated customer life on a straight-line basis. Licenses for on-premise software provide the customer with a right to use the software as it exists when made available to the customer. Revenue from distinct on-premise licenses are recognized upfront at the point in time when the software is made available to the customer. Revenue from software maintenance, unspecified upgrades and technical support contracts are recognized over the period such items are delivered or services are provided. Revenue from technical support contracts extending beyond the current period is deferred and is recognized over the applicable earning period.
+Recovery of costs associated with product design and engineering services are recognized during the period in which services are performed and are reported as a reduction to product development and engineering expense. Historically, these recoveries have not exceeded the cost of the related development efforts. We include revenue related to granted technology licenses as part of "Net sales" in the Statements of Operations. Historically, revenue from these arrangements has not been significant though it is part of our recurring ordinary business.
+We determine revenue recognition through the following five steps:
+•
+Identification of the contract, or contracts, with a customer
+•
+Identification of the performance obligations in the contract
+•
+Determination of the transaction price
+•
+Allocation of the transaction price to the performance obligations in the contract
+•
+Recognition of revenue when, or as, performance obligations are satisfied
+We account for a contract when it has approval and commitment from both parties, the rights of the parties are identified, payment terms are identified, the contract has commercial substance and collectability of consideration is probable.
+Our customer contracts can include various combinations of products and services, which are generally capable of being distinct and accounted for as separate performance obligations. Net sales reflect the transaction prices for contracts, which include units shipped at selling prices reduced by variable consideration. Determination of variable consideration requires judgment by us. Variable consideration includes expected sales returns and other price adjustments. Variable consideration is estimated using the expected value method considering all reasonably available information, including our historical experience and our current expectations, and is reflected in the transaction price when sales are recorded. Sales returns are generally accepted at our discretion or from distributors with such rights. Our contracts with trade customers do not have significant financing components or non-cash consideration. We record net sales excluding taxes collected on our sales to our trade customers.
+We provide an assurance type warranty, which is typically not sold separately and does not represent a separate performance obligation. Our payment terms are generally aligned with shipping terms.
+Gross Profit
+Gross profit is equal to our net sales less our cost of sales. Our cost of sales includes materials, depreciation on fixed assets used in the manufacturing process, shipping costs, direct labor and overhead, cellular carrier charges, as well as amortization of acquired technology and acquired technology impairments. The majority of our manufacturing is outsourced, resulting in relatively low fixed manufacturing costs and variable costs that highly correlate with volume. We determine the cost of inventory by the first-in, first-out method.
+42
+
+Operating Costs and expenses, net
+Our operating costs and expenses generally consist of product development and engineering costs, selling, general and administrative, costs associated with acquisitions, restructuring charges, and other operating related charges.
+Results of Operations
+A discussion of our results of operations for the fiscal years ended
+January 25, 2026
+ and
+January 26, 2025
+ and year-over-year comparisons between these fiscal years
+appears below
+. With the exception of net sales and gross profit, which are discussed below to reflect the changes to our reportable segments, a discussion of our results of operations for the fiscal year ended January 28, 2024 and year-over-year comparisons between fiscal years
+2025
+ and
+2024
+ have been omitted from this Annual Report on Form 10-K, but may be found in "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations" of our
+Annual Report on Form 10-K for the fiscal year ended January 26, 2025
+, filed with the SEC on March 25, 2025.
+Fiscal Year
+2026
+ Compared with Fiscal Year 2025
+
+Net Sales
+The following table summarizes our net sales by major end market:
+Fiscal Years
+(in thousands, except percentages)
+2026
+2025
+Net Sales
+% Net Sales
+Net Sales
+% Net Sales
+Change
+Infrastructure
+$
+310,432 
+30 
+%
+$
+243,772 
+27 
+%
+27 
+%
+High-End Consumer
+155,067 
+15 
+%
+147,021 
+16 
+%
+5 
+%
+Industrial
+584,476 
+55 
+%
+518,494 
+57 
+%
+13 
+%
+Total
+$
+1,049,975 
+100 
+%
+$
+909,287 
+100 
+%
+15 
+%
+Net sales for fiscal year 2026 were $1,050.0 million, an increase of 15% compared to $909.3 million for fiscal year 2025 primarily driven by higher net sales across all major end markets, particularly from our infrastructure and industrial end markets due to stronger demand and increased sales volume. Net sales from our infrastructure end market increased $66.7 million versus the prior year driven by an approximately $81.4 million increase in data center sales and an approximately $4.7 million increase in infrastructure TVS product sales, partially offset by an approximately $20.0 million decrease in telecommunications sales. Net sales from our industrial end market increased $66.0 million primarily due to an approximately $39.7 million increase in LoRa-enabled sales in industrial applications and an approximately $34.3 million increase in IoT Hardware sales, partially offset by an approximately $9.0 million decrease in other industrial product sales. Net sales from our high-end consumer end market increased $8.0 million primarily driven by an increase in consumer TVS product sales.
+The following table summarizes our net sales by reportable segment:
+Fiscal Years
+(in thousands, except percentages)
+2026
+2025
+Net Sales
+% Net Sales
+Net Sales
+% Net Sales
+Change
+Signal Integrity
+$
+322,608 
+31 
+%
+$
+261,747 
+29 
+%
+23 
+%
+Analog Mixed Signal and Wireless
+373,444 
+36 
+%
+322,899 
+35 
+%
+16 
+%
+IoT Systems and Connectivity
+353,923 
+33 
+%
+324,641 
+36 
+%
+9 
+%
+Total
+$
+1,049,975 
+100 
+%
+$
+909,287 
+100 
+%
+15 
+%
+Net sales from Signal Integrity increased $60.9 million in fiscal year 2026 versus fiscal year 2025 primarily driven by an approximately $81.4 million increase in data center sales, partially offset by an approximately $20.0 million decrease in telecommunications sales. Net sales from Analog Mixed Signal and Wireless increased $50.5 million in fiscal year 2026 versus fiscal year 2025 primarily due to an approximately $39.8 million increase in LoRa-enabled sales and approximately $17.3 million increase in total TVS product sales, both driven by stronger demand. Net sales from IoT Systems and Connectivity increased $29.3 million in fiscal year 2026 versus fiscal year 2025 primarily due to an approximately $34.3 million increase in IoT Hardware sales, driven by stronger demand.
+43
+
+Gross Profit
+The following table summarizes our gross profit and gross margin by reportable segment:
+Fiscal Years
+(in thousands, except percentages)
+2026
+2025
+Gross Profit
+Gross Margin
+Gross Profit
+Gross Margin
+Signal Integrity
+$
+210,347 
+65.2 
+%
+$
+162,656 
+62.1 
+%
+Analog Mixed Signal and Wireless
+219,986 
+58.9 
+%
+179,372 
+55.6 
+%
+IoT Systems and Connectivity
+125,743 
+35.5 
+%
+127,561 
+39.3 
+%
+Unallocated costs, including share-based compensation, amortization of acquired technology and acquired technology impairments
+(13,932)
+(13,061)
+Total
+$
+542,144 
+51.6 
+%
+$
+456,528 
+50.2 
+%
+In fiscal year 2026, gross profit increased to
+$542.1 million
+ from
+$456.5 million
+ in fiscal year 2025. This increase was primarily due to $47.7 million increase from Signal Integrity primarily driven by higher data center sales due to stronger demand, partially offset by lower telecommunications sales, a $40.6 million increase from Analog Mixed Signal and Wireless primarily driven by higher LoRa-enabled product sales and TVS product sales due to stronger demand, partially offset by a $1.8 million decrease from IoT Systems and Connectivity.
+Our gross margin was 51.6% in fiscal year 2026, compared to
+ 50.2% in fiscal year 2025. Gross margin in
+Signal Integrity
+was 65.2% in fiscal year
+2026
+, compared to 62.1% in fiscal year
+2025 primarily due to improved overhead absorption and favorable product mix. G
+ross margin in
+Analog Mixed Signal and Wireless
+was 58.9% in fiscal year
+2026
+, compared to 55.6% in fiscal year
+2025 primarily due to favorable product mix. Gross margin in IoT Systems and Connectivity was 35.5% in fiscal year 2026, compared to 39.3% in fiscal year 2025 primarily due to unfavorable product mix.
+Operating Expenses, net
+Fiscal Years
+(in thousands, except percentages)
+2026
+2025
+Cost/Exp.
+% Net Sales
+Cost/Exp.
+% Net Sales
+Change
+Product development and engineering
+$
+196,348 
+19 
+%
+$
+170,908 
+19 
+%
+15 
+%
+Selling, general and administrative
+221,852 
+21 
+%
+222,368 
+24 
+%
+— 
+%
+Intangible amortization
+631 
+— 
+%
+884 
+— 
+%
+(29)
+%
+Restructuring
+4,186 
+1 
+%
+4,944 
+1 
+%
+(15)
+%
+Intangible impairments
+1,777 
+— 
+%
+— 
+— 
+%
+100 
+%
+Goodwill impairment
+84,785 
+8 
+%
+7,490 
+1 
+%
+1,032 
+%
+Total operating expenses, net
+$
+509,579 
+49 
+%
+$
+406,594 
+45 
+%
+25 
+%
+Product Development and Engineering Expenses
+Product development and engineering expenses increased
+$25.4 million
+ for fiscal year 2026 compared to fiscal year 2025 primarily as a result of a $16.0 million net increase in staffing-related costs, including higher supplemental compensation, a $7.8 million increase from new product introduction expenses, and a $2.1 million increase in facilities, partially offset by a $1.5 million increase in tax credit recoveries. The levels of product development and engineering expenses reported in a fiscal period can be significantly impacted, and therefore experience period-over-period volatility, by the number of new product tape-outs and by the timing of recoveries from non-recurring engineering services, which are typically recorded as a reduction to product development and engineering expense.
+Selling, General & Administrative ("SG&A") Expenses
+Selling, general and administrative expenses
+decrease
+d
+$0.5 million
+ for fiscal year 2026 compared to fiscal year 2025 primarily as a result of a $7.7 million net decrease in staffing-related costs driven by lower share-based compensation caused by remeasurement of the cash-settled awards liability, partially offset by a $3.4 million increase in consulting expenses, a $1.8 million increase in bad debt reserve expense, a $1.6 million increase in transaction and integration related expenses, and a $0.3 million increase in facilities.
+Intangible Amortization
+Intangible amortization was
+$0.6 million and $0.9 million
+ for fiscal years 2026 and 2025, respectively. The amortization of acquired technology intangible assets is reflected in cost of sales.
+44
+
+Restructuring Expenses
+Restructuring expenses were $4.2 million and $4.9 million for fiscal years 2026 and 2025, respectively, from structural reorganization actions to reduce our workforce as a result of cost-saving measures and internal resource alignment.
+Intangible Impairments
+There was $1.8 million of intangible impairment in fiscal year 2026. There was
+no
+ intangible impairment in fiscal year 2025.
+Goodwill Impairment
+There was $84.8 million of goodwill impairment for fiscal year 2026 primarily due to reduced earnings forecasts and a shift in strategic direction associated with the IoT Connected Services reporting unit. There was no goodwill impairment at any of the Company's other reporting units.
+Goodwill impairment was $7.5 million for fiscal year 2025 primarily due to reduced earnings forecasts associated with the IoT Systems–Modules reporting unit. There was no goodwill impairment at any of the Company's other reporting units.
+See Note 7, Goodwill and Intangible Assets, to our Consolidated Financial Statements for additional information.
+Interest Expense
+Interest expense, including amortization and a write-off of deferred financing costs, was
+$40.6 million
+ and
+$90.1 million
+ for fiscal years 2026 and 2025, respectively. The
+$49.4 million
+
+decrease
+was primarily due to interest savings as a result of approximately $188.1 million of 2028 Notes extinguished in exchange for common stock in the second quarter of fiscal year 2025, and the full repayment of the Revolving Credit Facility (as defined below) and Term Loans (as defined below) from the fourth quarter of fiscal year 2025 through the third quarter of fiscal year 2026, partially offset by the induced conversion expense of $21.2 million in connection with the 2025 Exchange of 2027 Notes and 2025 Exchange of 2028 Notes.
+See Note 9, Long-Term Debt, to our Consolidated Financial Statements for additional information.
+Investment Impairments and Credit Loss Reserves
+In fiscal year 2026, investment impairments and credit loss reserves totaled a loss of $10.4 million due to an other-than-temporary impairment on one of our non-marketable equity investments and AFS debt securities. In fiscal year 2025, investment impairments and credit loss reserves totaled a loss of $1.1 million due to an other-than-temporary impairment on one of our non-marketable equity investments.
+Provision for Income Taxes
+We recorded income tax expense of $19.8 million for fiscal year 2026 compared to income tax benefit of $22.0 million for fiscal year 2025. The effective tax rates for fiscal years 2026 and 2025 were (93.6%) and 12.0%, respectively. Our effective tax rate for fiscal year 2026 differs from the statutory federal income tax rate of 21% primarily due to our regional mix of income, changes in valuation allowance, nondeductible losses on debt extinguishment and goodwill impairments and the impact of rate changes on deferred tax assets. The Tax Act requires R&D costs incurred for tax years beginning after December 31, 2021 to be capitalized and amortized ratably over five or fifteen years for tax purposes, depending on where the research activities are conducted. We have elected to treat global intangible low-taxed income ("GILTI") as a period cost and the additional capitalization of R&D costs within GILTI increases our provision for income taxes.
+On July 4, 2025, the OB3 was enacted into law in the U.S. The OB3 modifies certain elements of the TCJA, including permanently changing the limitation on the deduction of business interest expense, as well as making permanent the immediate deduction for domestic R&D expenses. The remaining provisions of the OB3 have multiple effective dates, with certain provisions effective in 2025 and others implemented through 2027. As the Company maintains a full valuation allowance on its U.S. deferred tax assets, the enactment of the legislation did not have a material impact on the Company's effective tax rate as of January 25, 2026. This legislation may be subject to further clarification and the issuance of interpretive guidance; however, the remaining provisions of the OB3 are not expected to have a material effect on our consolidated financial statements. We will continue to monitor the potential future impacts of the OB3, including provisions that become effective in subsequent periods, and will reflect any material changes in its financial statements when appropriate.
+In December 2021, the Organization for Economic Cooperation and Development published a framework for a new global minimum tax of 15% ("Pillar Two") on income arising in low-tax jurisdictions, and certain governments in countries where the Company operates have enacted local Pillar Two legislation, with an effective date from January 1, 2024. Pillar Two did not have a material impact on our provision for income taxes for the fiscal year ending January 25, 2026.
+Valuation allowances are established when necessary to reduce deferred tax assets to the amounts that are more likely than not expected to be realized. In making such a determination of whether a valuation is necessary, we consider all available positive and negative evidence supporting the allowance (e.g., the results of recent operations and future forecasts). As a result of our recent performance, there is a reasonable possibility that a portion of our valuation allowance is no longer needed in future periods. A release of the valuation allowance will likely result in a material tax benefit recognized in the quarter of the release.
+45
+
+We historically benefited from a Swiss tax holiday that commenced on January 30, 2017. However, Switzerland implemented the OECD Pillar Two rules effective from January 1, 2024. Based on the administrative guidance issued by OECD in December 2023, we have determined that Pillar Two rules are applicable starting in fiscal year 2025; therefore, we do not benefit from the tax holiday from fiscal year 2025 onwards.
+As a global organization, we are subject to audit by taxing authorities in various jurisdictions. To the extent that an audit, or the closure of a statute of limitations results in adjusting our reserves for uncertain tax positions, our effective tax rate could experience extreme volatility since any adjustment would be recorded as a discrete item in the period of adjustment.
+For further information on the effective tax rate and the Tax Act’s impact, see Note 11, Income Taxes, to our Consolidated Financial Statements.
+Liquidity and Capital Resources
+Our capital requirements depend on a variety of factors including, but not limited to, the rate of increase or decrease in our existing business base; the success, timing and amount of investment required to bring new products to market; sales growth or decline; potential acquisitions or divestitures; the general economic environment in which we operate; and our ability to generate cash flows from operating activities.
+We believe that our cash on hand, expected cash generation from future operations and available borrowing capacity under the Revolving Credit Facility (as defined below) are sufficient to meet liquidity requirements for at least the next 12 months, including funds needed for our material cash requirements. As of January 25, 2026, we had
+$195.2 million
+ in cash and cash equivalents and
+$451.6 million
+of available undrawn borrowing capacity on our Revolving Credit Facility, subject to net leverage limitations and customary conditions precedent, including the accuracy of representations and warranties and the absence of defaults. Over the longer-term, we expect to fund our business using cash flows from operating activities.
+As of January 25, 2026 and January 26, 2025, there was
+$3.4 million
+ outstanding under letters of credit under the Revolving Credit Facility.
+A meaningful portion of our capital resources, and the liquidity they represent, are held by our subsidiaries outside of the U.S. As of January 25, 2026, our foreign subsidiaries held $182.7 million of cash and cash equivalents, compared to
+$139.1 million
+ at January 26, 2025. Our liquidity may be impacted by fluctuating exchange rates. For additional information on exchange rates, see "Item 7A - Quantitative and Qualitative Disclosures About Market Risk."
+In connection with the enactment of the Tax Act, all historic and current foreign earnings are taxed in the U.S. Depending on the jurisdiction, these foreign earnings are potentially subject to a withholding tax, if repatriated. As of January 25, 2026, our historical undistributed earnings prior to fiscal year 2023 of our foreign subsidiaries are intended to be permanently reinvested outside of the U.S. With the enactment of the Tax Act, all post-1986 previously unremitted earnings for which no U.S. deferred tax liability had been accrued were subject to U.S. tax. Notwithstanding the U.S. taxation of these amounts, we have determined that none of our foreign earnings for fiscal years 2026 and 2025 will be permanently reinvested. If we needed to remit all or a portion of our historical undistributed earnings to the U.S. for investment in our domestic operations, any such remittance could result in increased tax liabilities and a higher effective tax rate. Determination of the amount of the unrecognized deferred tax liability on these unremitted earnings is not practicable.
+We expect our future non-operating uses of cash will be for capital expenditures and debt repayment
+.
+We expect to fund these cash requirements through cash flows from operating activities.
+Expected Sources and Uses of Liquidity
+Operating Cash Flows
+Our operating cash flows are driven by our ability to value price for the differentiated technology that we provide, as well as our fab-lite business model, which is highly flexible to changes in customer demand.
+Credit Agreement
+On November 7, 2019, we, with certain of our domestic subsidiaries as guarantors, entered into a credit agreement with the lenders party thereto and HSBC Bank USA, National Association, as administrative agent, swing line lender and letter of credit issuer. On September 26, 2022, we entered into a third amendment and restatement credit agreement (as amended, restated, supplemented or otherwise modified from time to time, the "Credit Agreement") with the lenders party thereto and JPMorgan Chase Bank, N.A., as administrative agent, swing line lender and letter of credit issuer.
+On April 24, 2025, we entered into the fourth amendment (the "Fourth Amendment") to the Credit Agreement, in order to, among other things, increase the total available borrowing capacity under the revolving credit facility under the Credit Agreement (the "Revolving Credit Facility") by $117.5 million, increasing the total facility size to $455.0 million. The increase partially replaces borrowing capacity that matured on November 7, 2024. Other than the foregoing, the material terms of the Credit Agreement remain unchanged.
+46
+
+After effectiveness of the Fourth Amendment, the borrowing capacity on the Revolving Credit Facility is $455.0 million, which is scheduled to mature on January 12, 2028 (subject to, in certain circumstances, an earlier springing maturity), and the term loans thereunder (the "Term Loans") were scheduled to mature on January 12, 2028 (subject to, in certain circumstances, an earlier springing maturity).
+As of
+January 25, 2026
+, the Company had no amounts outstanding under the Term Loans and no revolving loans outstanding under the Revolving Credit Facility, which had available undrawn borrowing capacity of $451.6 million, subject to net leverage limitations and customary conditions precedent, including the accuracy of representations and warranties and the absence of defaults.
+Up to $40.0 million of the Revolving Credit Facility may be used to obtain letters of credit, up to $25.0 million of the Revolving Credit Facility may be used to obtain swing line loans, and up to $75.0 million of the Revolving Credit Facility may be used to obtain revolving loans and letters of credit in certain currencies other than U.S. Dollars. The proceeds of the Revolving Credit Facility may be used by us for capital expenditures, permitted acquisitions, permitted dividends, working capital and general corporate purposes.
+As of
+January 25, 2026
+, the Company was in compliance with the financial covenants in our Credit Agreement. The Credit Agreement also contains customary provisions pertaining to events of default. If any event of default occurs, the obligations under the Credit Agreement may be declared due and payable, terminated upon written notice to us and existing letters of credit may be required to be cash collateralized.
+For additional information on the Credit Agreement, see Note 9, Long-Term Debt to our Consolidated Financial Statements.
+We had entered into interest rate swap agreements to hedge the variability of interest payments on debt outstanding under the Term Loans.
+
+As of
+January 25, 2026
+, there were no interest rate swap agreements outstanding. See Note 18, Derivatives and Hedging Activities, to our Consolidated Financial Statements for additional information.
+Convertible Senior Notes Due 2027
+On October 12, 2022 and October 21, 2022, we issued and sold $300.0 million and $19.5 million, respectively, in aggregate principal amount of the 2027 Notes in a private placement. The 2027 Notes were issued pursuant to an indenture dated October 12, 2022, by and among us, the subsidiary guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee. The 2027 Notes bear interest at a rate of 1.625% per year, payable semi-annually in arrears on May 1 and November 1 of each year, beginning on May 1, 2023. The 2027 Notes will mature on November 1, 2027, unless earlier converted, redeemed or repurchased. The 2027 Notes are not currently redeemable and, as of
+January 25, 2026
+, one of the conditions allowing holders of the 2027 Notes to convert had been met. The trading price of our common stock remained above 130% of the applicable conversion price for at least 20 trading days during the 30 consecutive trading-day period ending on, and including, January 23, 2026 (the last trading day of the quarter ended January 25, 2026), resulting in the right of the holders of the 2027 Notes to convert their 2027 Notes beginning January 26, 2026 through April 24, 2026 (the last trading day of the fiscal quarter ending April 26, 2026). Should the holders of the 2027 Notes elect to convert some or all of the outstanding 2027 Notes, the Company intends to draw on its Revolving Credit Facility to settle the obligation. As of
+January 25, 2026,
+$100.5 million of the 2027 Notes remained outstanding. The 2027 Notes were initially issued pursuant to an exemption from the registration requirements of the Securities Act afforded by Section 4(a)(2) of the Securities Act.
+We used approximately $72.6 million of the net proceeds from the 2027 Notes to pay for the cost of the Convertible Note Hedge Transactions (as defined in Note 9, Long-Term Debt), after such cost was partially offset by approximately $42.9 million of proceeds to us from the sale of Warrants in connection with the issuance of the 2027 Notes, all as described in Note 9, Long-Term Debt to our Consolidated Financial Statements. The Convertible Note Hedge Transactions and Warrants transactions are indexed to, and potentially settled in, our common stock and the net cost of $29.7 million has been recorded as a reduction to "Additional paid-in capital" in the consolidated statement of stockholders’ equity (deficit). We used the remaining net proceeds to fund a portion of the consideration in the Sierra Wireless Acquisition and to pay related fees and expenses. For additional information on the Convertible Note Hedges and the Warrants, see Note 9, Long-Term Debt to our Consolidated Financial Statements.
+On October 7, 2025, the Company entered into the 2025 Exchange of 2027 Notes. Pursuant to the 2025 Exchange of 2027 Notes, on October 14, 2025, the Company used approximately $220.6 million of the net proceeds from the 2030 Notes, together with the issuance of 3,036,192 shares of the Company's common stock as consideration for the exchange of approximately $219.0 million aggregate principal amount of the 2027 Notes and accrued interest. The Company accounted for these exchange transactions as an induced conversion. In fiscal year 2026, in connection with these exchange transactions, the Company recognized an induced conversion expense of $17.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $14.3 million on the Balance Sheets, which included $3.3 million from the write-off of deferred financing costs.
+47
+
+In connection with the 2025 Exchange of 2027 Notes, the Company also terminated a portion of the Convertible Note Hedges and the Warrants corresponding to the number of 2027 Notes exchanged. The Company received approximately $24.5 million in connection with the termination, which was recorded as an increase to "Additional paid-in capital" on the Balance Sheets.
+Convertible Senior Notes Due 2028
+On October 26, 2023, we issued and sold $250.0 million in aggregate principal amount of the 2028 Notes in a private placement. The 2028 Notes were issued pursuant to an indenture, dated October 26, 2023, by and among the Company, the subsidiary guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee. The 2028 Notes bear interest at a rate of 4.00% per year, payable semi-annually in arrears on May 1 and November 1 of each year, beginning on May 1, 2024. The 2028 Notes were scheduled to mature on November 1, 2028, unless earlier converted, redeemed or repurchased. The 2028 Notes were offered and sold only to eligible purchasers who are both "qualified institutional buyers" within the meaning of Rule 144A under the Securities Act and "accredited investors" within the meaning of Rule 501(a) under the Securities Act, in reliance on Section 4(a)(2) under the Securities Act.
+On July 11, 2024 and July 15, 2024, we entered into the Exchange Agreements with certain holders of the 2028 Notes. Pursuant to the Exchange Agreements, certain holders of the 2028 Notes exchanged with us approximately $188.1 million in aggregate principal amount of 2028 Notes held by them for an aggregate of 10,378,431 shares of our common stock, which number of shares was determined over an averaging period that commenced on July 12, 2024. We accounted for these exchange transactions as a partial debt extinguishment and recognized a loss on extinguishment of debt equal to the difference between the fair value of our common stock delivered to certain holders of the 2028 Notes and the carrying value of the outstanding debt, accrued interest and third-party fees related to the Exchange Agreements. In
+fiscal year 2025
+, in connection with these exchange transactions, we recognized $144.7 million of loss included in "Loss on extinguishment of debt" in the Statements of Operations and $5.5 million of loss resulting from the write-off of deferred financing costs included in "Interest expense" in the Statements of Operations.
+On October 7, 2025, the Company entered into the 2025 Exchange of 2028 Notes. Pursuant to the 2025 Exchange of 2028 Notes, on October 14, 2025, the Company used approximately $63.1 million of the net proceeds from the 2030 Notes, together with the issuance of 2,217,394 shares of the Company's common stock as consideration for the exchange of the remaining $62.0 million aggregate principal amount of the 2028 Notes and accrued interest. The Company accounted for these exchange transactions as an induced conversion. In fiscal year 2026, in connection with these exchange transactions, the Company recognized an induced conversion expense of $3.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $2.2 million on the Balance Sheets, which included $1.3 million from the write-off of deferred financing costs.
+For additional information on the 2028 Notes, see Note 9, Long-Term Debt to our Consolidated Financial Statements.
+Convertible Senior Notes Due 2030
+On October 10, 2025, the Company issued and sold $402.5 million in aggregate principal amount of 2030 Notes in a private placement. The 2030 Notes were issued pursuant to the 2030 Indenture. The 2030 Notes are jointly and severally and fully and unconditionally guaranteed by each of the Company's current and future direct and indirect wholly-owned domestic subsidiaries that guarantee its borrowings under its Credit Agreement. The 2030 Notes do not bear any interest and will mature on October 15, 2030, unless earlier converted, redeemed or repurchased. The 2030 Notes are not currently redeemable and, as of January 25, 2026, none of the conditions allowing holders of the 2030 Notes to convert had been met. As of January 25, 2026, $402.5 million of the 2030 Notes remain outstanding.
+For additional information on the 2030 Notes, see Note 9, Long-Term Debt to our Consolidated Financial Statements.
+Capital Expenditures and Research and Development
+We incur significant expenditures in order to fund the development, design and manufacture of new products. We intend to continue to focus on those areas that have shown potential for viable and profitable market opportunities, which may require additional investment in equipment and the hiring of additional design and application engineers aimed at developing new products. Certain of these expenditures, particularly the addition of design engineers, do not generate significant payback in the short-term. We plan to finance these expenditures with cash generated by our operating activities, our existing cash balances and additional draws on our Revolving Credit Facility, as needed. Borrowings under our Revolving Credit Facility are subject to customary conditions precedent, including the accuracy of representations and warranties and the absence of any defaults under the facility.
+Portfolio Rationalization
+We are conducting a portfolio rationalization review, which has included identifying non-core assets in an effort to align our portfolio with our strategic vision and preferred margin profile. As part of the portfolio rationalization review, we are reviewing potential strategic alternatives for certain of our non-core assets. No decision has been made regarding any strategic alternative
+48
+
+or any particular asset and there is no assurance that the exploration of strategic alternatives will result in any transactions, nor any specified timeline.
+Purchases under our Stock Repurchase Program
+We currently have in effect a stock repurchase program that was initially approved by our Board of Directors in March 2008.
+On March 11, 2021, our Board of Directors approved the expansion of the stock repurchase program by an additional $350.0 million.
+This program represents one of our principal efforts to return value to our stockholders.
+Under the program, subject to the terms of the Credit Agreement, we may repurchase our common stock at any time or from time to time, without prior notice, subject to market conditions and other considerations. Our repurchases may be made through Rule 10b5-1 and/or Rule 10b-18 or other trading plans, open market purchases, privately negotiated transactions, block purchases or other transactions.
+We did not repurchase any shares of our common stock under the program during fiscal years 2026 and 2025.
+
+As of January 25, 2026, the remaining authorization under the program was
+$209.4 million
+. To
+ the extent we repurchase any shares of our common st
+ock under the program in the future, w
+e expect to fund such repurchases from cash on hand and borrowings on our Revolving Credit Facility. We have no obligation to repurchase any shares under the program and may suspend or discontinue it at any time.
+Operating Leases
+We have operating leases for real estate, vehicles, and office equipment with remaining lease terms of up to eight years, some of which include options to extend the leases for up to five years, and some of which include options to terminate the leases within one year. Our operating lease liabilities totaled $26.8 million and $24.5 million as of January 25, 2026 and January 26, 2025, respectively, and are included in "Accrued liabilities" and "Other long-term liabilities" in our Consolidated Balance Sheets.
+Purchase Commitments
+Capital purchase commitments and other open purchase commitments are for the purchase of plant, equipment, raw materials, supplies and services. They are not recorded liabilities in our Consolidated Balance Sheets as of January 25, 2026, as we have not yet received the related goods or taken title to the goods or received services. As of January 25, 2026, we had $6.1 million in open capital purchase commitments and $408.1 million in other open purchase commitments.
+Compensation and Defined Benefit Plans
+We maintain a deferred compensation plan for certain key employees that allow participants to defer a portion of their compensation for future distribution at various times permitted by the plan. Our liabilities for deferred compensation under this plan were
+$46.1 million
+ and
+$39.3 million
+ as of January 25, 2026 and January 26, 2025, respectively, and are included in "Accrued liabilities" and "Other long-term liabilities" in the Consolidated Balance Sheets. The plan provides for a discretionary Company match up to a defined portion of the employee’s deferral, with any match subject to defined conditions.
+We have purchased whole life insurance on the lives of certain of our current and former deferred compensation plan participants. This corporate-owned life insurance is held in a grantor trust and is intended to cover a majority of the costs of our deferred compensation plan. The cash surrender value of our corporate-owned life insurance was
+$46.2 million
+ as of January 25, 2026 and was included in "Other assets" in the Consolidated Balance Sheets, compared to
+$34.9 million
+ as of January 26, 2025 included in "Other assets" in the Consolidated Balance Sheets. The
+$11.2 million
+ increase in the cash surrender value of the corporate-owned life insurance as of January 25, 2026 compared to January 26, 2025 was primarily related to an overall
+$7.8 million
+ increase in market value reflected in earnings and
+$3.4 million
+ premium deposited to the corporate-owned life insurance.
+We maintain defined benefit pension plans for the employees of our Swiss and French subsidiaries. Expected future payments under these plans totaled
+$34.7 million
+ as of January 25, 2026.
+The
+ liability associated with vested, but unsettled
+restricted stock awards that are to be settled in cash totaled
+$11.3 million as of
+January 25, 2026, of which
+$7.5 million
+was included in "Other long-term liabilities" and
+$3.8 million
+ was included in "Accrued liabilities" in the Balance Sheets
+, compared to $14.5 million as of
+January 26, 2025
+, of which $6.2 million was
+included in "Other long-term liabilities" and
+$8.3 million w
+as included in "Accrued liabilities" in the Balance Sheets.
+Working Capital
+Working capital, defined as total current assets less total current liabilities including the current portion of long-term debt, fluctuates depending on end-market demand and our effective management of certain items such as receivables, inventory and payables. In times of escalating demand, our working capital requirements may increase as we purchase additional manufacturing materials and increase production. In addition, our working capital may be affected by potential acquisitions and transactions involving our debt instruments. Although investments made to fund working capital will reduce our cash balances, these investments are necessary to support business and operating initiatives.
+49
+
+Cash Flows
+In summary, our cash flows for each period were as follows:
+Fiscal Years
+(in thousands)
+2026
+2025
+Net cash provided by operating activities
+$
+181,168 
+$
+57,987 
+Net cash used in investing activities
+(38,761)
+(11,887)
+Net cash used in financing activities
+(101,068)
+(21,660)
+Effect of foreign exchange rate changes on cash and cash equivalents
+2,097 
+(1,282)
+Net increase in cash and cash equivalents
+$
+43,436 
+$
+23,158 
+Operating Activities
+Net cash provided by operating activities is driven by net income or loss adjusted for non-cash items and fluctuations in operating assets and liabilities.
+Operating cash flows for fiscal year
+2026
+ compared to fiscal year
+2025
+ were favorably impacted by a 15.5% increase in net sales, significantly lower interest payments on debt, and lower restructuring payments related to employee termination benefits, and were unfavorably impacted by an increase in annual bonus payments and a $12.0 million incremental increase in inventory spend.
+Investing Activities
+Net cash used in investing activities is primarily driven by acquisitions, net of any cash received, capital expenditures, purchases and sales of investments, proceeds from or premiums paid for corporate-owned life insurance, proceeds from sales of property, plant and equipment, and purchases of intangibles.
+In fiscal year 2026, we completed an immaterial acquisition for cash consideration of $21.5 million. No similar acquisitions were made in fiscal year 2025.
+Capital expenditures were $9.8 million and $7.9 million in fiscal years 2026 and 2025, respectively.
+Purchases of intangibles were
+$6.0 million
+ for fiscal year 2026, compared to
+$6.3 million
+ for fiscal year 2025, which included capitalized development costs and software licenses.
+Financing Activities
+Net cash used in financing activities is primarily attributable to proceeds from and payments on our Revolving Credit Facility, proceeds from and payments on our Term Loans, proceeds from and payments of convertible senior notes, repurchase of warrants, proceeds from unwind of bond hedge, purchase of capped calls, payments related to deferred financing costs, issuance of common stock, proceeds from interest rate swap termination and stock option exercises, payments related to employee share-based compensation payroll taxes and distributions to noncontrolling interest.
+In fiscal years 2026 and 2025, we made prepayments of $181.2 million and $441.4 million on our Term Loans, respectively.
+In fiscal year 2026, we collected proceeds of $402.5 million from and made prepayments of $281.0 million on our convertible senior notes, as discussed above. No such proceeds were collected or no such prepayments were made in fiscal year 2025.
+Critical Accounting Estimates
+We prepare our consolidated financial statements in accordance with GAAP. In doing so, we have to make estimates and assumptions that affect our reported amounts of assets, liabilities, revenues, and expenses, as well as related disclosure of contingent assets and liabilities. Accordingly, actual results could differ materially from our estimates. We consider an accounting policy to be a "critical accounting policy and estimate" if: (1) we must make assumptions that were uncertain when the judgment was made, and (2) changes in the estimate assumptions or selection of a different estimate methodology could have a significant impact on our financial position and the results that we report in our consolidated financial statements. While we believe that our estimates, assumptions, and judgments are reasonable, they are based on information available when the estimate was made. We believe the following represent our most significant accounting estimates:
+•
+Inventories
+ - We value our inventory at the lower of cost or net realizable value, which requires us to make estimates regarding potential obsolescence or lack of marketability. We reduce the basis of our inventory due to changes in demand or changes in product life cycles. The estimation of customer demand requires management to evaluate and make assumptions of the impact of changes in demand or changes in product life cycles on current sales levels. Our write-down to net realizable value at the end of fiscal year
+2026
+ and
+2025
+ represented 29.6% and 34.5% of gross inventory, respectively. Based on fiscal year
+2026
+ ending inventory, an increase in the write-down by one percent of gross inventory would decrease net inventory and increase cost of goods sold by $2.8 million.
+50
+
+•
+Revenue recognition -
+ Net sales reflect the transaction prices for contracts, which include units shipped at selling prices reduced by variable consideration. Determination of variable consideration requires judgment by us and includes expected sales returns and other price adjustments. Variable consideration is estimated using the expected value method considering all reasonably available information, including our historical experience and our current expectations, and is reflected in the transaction price when sales are recorded. In fiscal year
+2026
+, net sales were reduced by $61.6 million in estimated variable consideration, or 5.5% of gross revenue. In fiscal year
+2025
+, net sales were reduced by $54.2 million in estimated variable consideration, or 5.6% of gross revenue. If variable consideration were estimated to be one percent higher, fiscal year
+2026
+ revenue would have decreased by $11.1 million.
+•
+Income taxes
+ - We make certain estimates and judgements in determining income tax expense for financial statement purposes. These estimates and judgments occur in the calculation of income tax credits, benefits, and deductions, and in the calculation of certain tax assets and liabilities, which arise from differences in the timing of the recognition of certain expenses for tax and financial statement purposes. We assess the likelihood of the realization of deferred tax assets and record a corresponding valuation allowance as necessary if we determine those deferred tax assets may not be realized due to the uncertainty of the timing and amount to be realized. For example, we have valuation allowance against federal, state and certain foreign deferred tax assets in jurisdictions where we have cumulative losses or otherwise are not expected to utilize certain tax attributes. In reaching our conclusion, we evaluate certain relevant criteria including the existence of deferred tax liabilities that can be used to realize deferred tax assets, the taxable income in prior carryback years in the impacted state and international jurisdictions that can be used to absorb net operating losses and taxable income in future years. Our judgments regarding future profitability may change due to future market conditions, changes in U.S. or international tax laws and other factors. These changes, if any, may require material adjustments to these deferred tax assets, which may result in an increase or decrease to our income tax provision in future periods.
+We account for uncertain tax positions by first determining if it is "more likely than not" that a tax position will be sustained by the appropriate taxing authorities prior to recording any benefit in the financial statements. An uncertain income tax position is not recognized if it has less than a 50% likelihood of being sustained. For those tax positions where it is more likely than not that a tax position will be sustained, we have recorded the tax benefit with a greater than 50% likelihood of being realized upon ultimate settlement with a taxing authority that has full knowledge of all relevant information. For those income tax positions where it is not more likely than not that a tax benefit will be sustained, no tax benefit has been recognized in the financial statements. We classify interest and penalties related to uncertain tax positions within the provision for (benefit from) income taxes line of the Consolidated Statements of Income. We reevaluate these uncertain tax positions on a quarterly basis. This evaluation is based on factors including, but not limited to, changes in known facts or circumstances, changes in tax law, effectively settled issues under audit, and new guidance on legislative interpretations. A change in these factors could result in the recognition of an increase or decrease to our income tax provision, which could materially impact our consolidated financial position and results of operations.
+In the ordinary course of global business, there are many transactions and calculations where the ultimate tax outcome is uncertain. Some of these uncertainties arise as a consequence of cost reimbursement among related entities. Although we believe our estimates are reasonable, no assurance can be given that the final tax outcome of these matters will not be different than that which is reflected in our historical income tax provisions and income tax liabilities. In the event our assumptions are incorrect, the differences could have a material impact on our income tax provision and operating results in the period in which such determination is made. In addition to the factors described above, our current and expected effective tax rate is based on then-current tax law. Significant changes during the year in enacted tax law could affect these estimates.
+See Note 11, Income Taxes, of the Notes to Consolidated Financial Statements contained in Item 8 of this Annual Report on Form 10-K for further discussion.
+•
+Business Combinations, Goodwill and Intangible Assets
+ - We account for business combinations under the acquisition method by assigning the purchase price to tangible and intangible assets acquired and liabilities assumed. Assets acquired and liabilities assumed are recorded at their fair values and the excess of the purchase price over the amounts assigned is recorded as goodwill. We consult with third-party valuation advisors in determining the fair value of the acquired assets and liabilities. Acquired intangible assets with finite lives are amortized over their estimated useful lives. Adjustments to fair value assessments are recorded to goodwill over the purchase price allocation period. The determination of the estimated fair value of our acquired intangible assets requires significant judgements and estimates and is most sensitive to future revenue forecasts.
+Goodwill and acquired intangible assets with indefinite lives are not amortized. We review goodwill and acquired indefinite-lived intangible assets for impairment whenever events or changes in circumstances indicate that the carrying amount of these assets may not be recoverable. We also perform an annual impairment test in the fourth quarter of each year. We test goodwill and acquired indefinite-lived intangible assets for impairment between annual tests if events occur or circumstances change that would more likely than not reduce our enterprise fair value below its book value. These events or circumstances could include a significant change in the business climate, including a significant sustained decline
+51
+
+in an entity’s market value, legal factors, operating performance indicators, competition, sale or disposition of a significant portion of the business, or other factors.
+We may use either a qualitative or quantitative approach when testing a reporting unit’s goodwill for impairment. For selected reporting units where we use the qualitative approach, we perform a qualitative evaluation of events and circumstances impacting the reporting unit to determine the likelihood of goodwill impairment. Based on that qualitative evaluation, if we determine it is more likely than not that the fair value of a reporting unit exceeds its carrying amount, no further evaluation is necessary. Otherwise we perform a quantitative impairment test. We perform a quantitative test for each reporting unit at least once every three years.
+For goodwill impairment testing using the quantitative approach, we estimate the fair value of the selected reporting units through the use of a discounted cash flow model (an income approach), and earnings multiples (a market approach). The discounted cash flow model is based on our best estimate of amounts and timing of future revenues and cash flows and our most recent business and strategic plans, and requires judgmental assumptions about projected revenue growth, future operating margins, discount rates and terminal values over a multi-year period. There are inherent uncertainties related to these assumptions and management’s judgment in applying them to the analysis of goodwill impairment. While we believe we have made reasonable estimates and assumptions to calculate the fair value of our reporting units, it is possible a material change could occur. If actual results are not consistent with management’s estimates and assumptions, goodwill may be overstated and a charge would need to be taken against net earnings.
+When using a quantitative approach, changes in our projections used in the discounted cash flow model and public company guideline model could affect the estimated fair value of certain of our reporting units and could result in a goodwill impairment charge in a future period. Due to the many variables inherent in the estimation of a reporting unit’s fair value and the relative size of our recorded goodwill, differences in assumptions may have a material effect on the results of our impairment analysis.
+Intangible assets with finite lives and other long-lived assets are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. Recoverability of intangible assets with finite lives and other long-lived assets is measured by a comparison of the carrying amount of an asset or asset group to future undiscounted cash flows expected to be generated by the asset or asset group. Asset groups are determined at the lowest level for which identifiable cash flows are largely independent of the cash flows of other assets and liabilities. If these comparisons indicate that an asset is not recoverable, we will recognize an impairment loss for the amount by which the carrying value of the asset or asset group exceeds the related estimated fair value.
+During fiscal year 2026, we had five reporting units for goodwill impairment testing. Quantitative tests were performed for one reporting unit and a qualitative test was performed for the remaining four reporting units. Our analysis for fiscal year 2026 resulted in goodwill impairment charges of $84.8 million for the IoT Connectivity Services reporting unit. There was no goodwill impairment for any of the Company's other reporting units.
+During fiscal year 2025, we had six reporting units for goodwill impairment testing. A quantitative test was performed for one reporting unit and a qualitative test was performed for the remaining five reporting units. Our analysis for fiscal year 2025 resulted in goodwill impairment charges of $7.5 million for the IoT Systems–Modules reporting unit. There was no goodwill impairment for any of the Company's other reporting units.
+Recent Accounting Pronouncements
+Recent accounting pronouncements are discussed in Note 2, Significant Accounting Policies, to our Consolidated Financial Statements.

@@ -1,0 +1,811 @@
+Item 7:    
+Management's Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and the related notes included elsewhere in this Annual Report on Form 10-K. In addition to historical consolidated financial information, the following discussion and analysis contains forward-looking statements that involve risks, uncertainties and assumptions as described under the “Note Regarding Forward-Looking
+27
+Statements” that appears earlier in this Annual Report on Form 10-K. Our actual results could differ materially from those anticipated by these forward-looking statements as a result of many factors, including those discussed under “Item 1A: Risk Factors” and elsewhere in this Annual Report on Form 10-K.
+Overview
+FormFactor, Inc., headquartered in Livermore, California, is a leading provider of electrical and optical test and measurement technologies along the full semiconductor product lifecycle - from characterization, modeling, reliability, and design de-bug, to qualification and production test. We provide a broad range of high-performance probe cards, analytical probes, probe stations, thermal systems, and cryogenic systems to both semiconductor companies and scientific institutions. Our products provide electrical and optical information from a variety of semiconductor and electro-optical devices and integrated circuits from early research, through development, to high-volume production. Customers use our products and services to accelerate profitability by optimizing device performance, reducing scrap, and improving yields.
+We operate in two reportable segments consisting of the Probe Cards segment and the Systems segment. Sales of our probe cards and analytical probes are included in the Probe Cards segment, while sales of our probe stations, thermal systems and cryogenic systems are included in the Systems segment.
+Highlights during fiscal year 2025 include the following:
+•
+Achieved record annual revenue of $785.0 million.
+•
+Purchased a manufacturing site in Texas, which is expected to begin ramping production in late fiscal 2026.
+•
+Benefited from growth driven by exposure to end markets supporting artificial intelligence–related infrastructure, including HBM.
+•
+Made meaningful progress in establishing customer engagements to further diversify our customer base.
+We generated net income of $54.4 million in fiscal 2025 compared to net income of $69.6 million in fiscal 2024 and net income of $82.4 million in fiscal 2023.
+The decrease in net income in fiscal 2025 compared to fiscal 2024 was primarily due to the gain on sale of business recognized in fiscal 2024 from the sale of our China operations that did not repeat in fiscal 2025. Excluding the impact from the fiscal 2024 gain, our financial performance was driven by record revenue levels led by strong growth in our DRAM product segment, particularly with demand for HBM chips utilized in generative artificial intelligence applications. Despite this revenue growth, gross margins declined year over year, though third and fourth quarters have shown meaningful improvement in gross margins compared to the first half of  fiscal 2025 and second half of fiscal 2024.
+The decrease in net income in fiscal 2024 compared to fiscal 2023 was primarily due to a reduced gain on sale of business with the fiscal 2024 gain from the sale of our China operations being less than the fiscal 2023 gain from the sale of our FRT business further described below. Excluding the impact of gains in each period, our financial performance was driven by the strengthening of certain areas of the semiconductor industry, which increased demand in some markets within our Probe Cards segment, particularly with demand for HBM chips utilized in generative artificial intelligence applications and the ramp of new mobile application processor designs. While we experienced growth in total revenues year over year, the Systems segment was negatively impacted due to the absence of metrology system sales as a result of the sale of our FRT Metrology business in the fourth quarter of fiscal 2023.
+Recent Developments
+Restructure
+ — In January 2026, we adopted restructuring plans that are intended to better align cost structure and support gross margin improvement to our target financial model, while also aligning manufacturing capabilities with current and anticipated business needs and our strategic priorities. As part of this restructuring plan, we are consolidating the manufacturing facilities located in Carlsbad and Baldwin Park, California to other sites. The Baldwin Park site manufactured through January 2026 and the Carlsbad site is expected to manufacture through December 2026.
+Acquisition
+ — In December 2025, we acquired Keystone Photonics. This acquisition strengthened our position at the forefront of AI infrastructure demand, and strengthened our position at the forefront of the explosive market growth in silicon photonics (“SiPh”), extending our integrated test system leadership and leveraging our unique lab-to-fab position as SiPh and co-packaged optics manufacturers leap from concept to high-volume production.
+28
+Factory Expansion
+ — In June 2025, we purchased a manufacturing site in Farmers Branch, Texas, which comprises four structures and includes 50,000 square feet of existing clean room space. This manufacturing facility enabled us to acquire a scarce, fit-for-purpose asset that aligned with our strategic roadmap and provides significant operational flexibility. Located in a lower-operating cost region, it was one of a handful of existing available facilities in the U.S. that had a clean room and came equipped with the infrastructure to meet our future manufacturing needs.
+Investment Acquisition
+ — In February 2025, we acquired a 20% equity interest in FICT Limited (“FICT”). Headquartered in Nagano, Japan, FICT is a provider of semiconductor test and high-performance computing industries with complex multi-layer organic substrates, printed circuit boards, and related leading-edge technologies and services.
+Fiscal Year
+We operate on a 52/53 week fiscal year, whereby the fiscal year ends on the last Saturday of December. The fiscal years ended December 27, 2025, December 28, 2024 and December 30, 2023 each included 52 weeks.
+Use of Estimates
+Preparation of our financial statements requires management to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenues and expenses. Management bases its estimates on historical experience and on various other assumptions that it believes to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates under different assumptions or conditions.
+Critical Accounting Policies
+Our discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”). The preparation of these financial statements requires us to make estimates and assumptions that affect the reported amounts of assets and liabilities at the date of the financial statements and the reported amounts of net revenue and expenses in the reporting period. Our accounting policies are fundamental to understanding our financial condition and results of operations reported in our financial statements and related disclosures. We have identified the following accounting policies as being critical because they require our management to make particularly difficult, subjective and/or complex judgments about the effect of matters that are inherently uncertain. Our management has discussed the development, selection, application and disclosure of these critical accounting policies with the Audit Committee of our Board of Directors.
+Inventory Valuation
+We state our inventories at the lower of cost (principally standard cost which approximates actual cost on a first in, first out basis) or net realizable value. We regularly assess the value of our inventory and will periodically write down its value for estimated excess inventory and product obsolescence based upon an analysis of existing inventory quantities compared to estimated future consumption. Future consumption is estimated based upon assumptions about how past consumption, recent purchases, backlog and other factors may indicate future consumption. On a quarterly basis, we review existing inventory quantities in comparison to our past consumption, recent purchases, backlog and other factors to determine what inventory quantities, if any, may not be sellable. Based on this analysis, we record an adjustment to the cost basis of inventory when evidence exists that the net realizable value of inventory is lower than its cost, which occurs when we have excess and/or obsolete inventory.
+At the point of loss recognition, a new, lower cost basis for that inventory is established, and subsequent changes in facts and circumstances do not result in the restoration or increase in that newly established cost basis. Market conditions are subject to change, and demand for our products can fluctuate significantly. Actual consumption of inventories could differ from forecasted demand, and this difference could have a material impact on our gross profit and inventory balances based on additional provisions for excess or obsolete inventories, or a benefit from the sale of inventories previously written down.
+Revenue Recognition
+Revenue is recognized upon transferring control of products and services, and the amounts recognized reflect the consideration we expect to be entitled to receive in exchange for these products and services. An arrangement may include some or all of the following products and services: probe cards, systems, accessories, engineering services, installation services, service contracts and extended warranty contracts.
+29
+A performance obligation is a promise in a contract to transfer a distinct good or service to the customer. In contracts with multiple performance obligations, we identify each performance obligation and evaluate whether the performance obligation is distinct within the context of the contract at contract inception. Performance obligations that are not distinct at contract inception are combined and accounted for as one unit of account. Generally, the performance obligations in a contract are considered distinct within the context of the contract and are accounted for as separate units of account.
+Our products may be customized to our customers’ specifications; however, control of our product is typically transferred to the customer at the point in time the product is either shipped or delivered, depending on the terms of the arrangement, as the criteria for over time recognition is not met. In limited circumstances, substantive acceptance by the customer exists which results in the deferral of revenue until acceptance is formally received from the customer. Judgment may be required in determining if the acceptance clause is substantive. In certain instances control of products is transferred to the customer over time based on performance and in those instances we utilize an appropriate input or output measure to determine to what extent control has transferred to the customer. Judgment may be required in determining an appropriate measure of performance.
+Installation services are routinely provided to customers purchasing our systems. Installation services are a distinct performance obligation apart from the systems and are recognized in the period they are performed. Service contracts, which include repair and maintenance service contracts, and extended warranty contracts are also distinct performance obligations and are recognized over the contractual service period, which ranges from one to three years. For these service contracts recognized over time, we use the input measure of days elapsed to measure progress.
+A contract’s transaction price is allocated to each distinct performance obligation and recognized as revenue when, or as, the performance obligation is satisfied. In determining the transaction price, we evaluate whether the price is subject to refund or adjustment to determine the net consideration to which we expect to be entitled. We generally do not grant return privileges, except for defective products during the warranty period. Sales incentives and other programs that we may make available to our customers are considered to be a form of variable consideration, which is estimated in determining the contract’s transaction price to be allocated to the performance obligations.
+For contracts with multiple performance obligations, we allocate the contract’s transaction price to each performance obligation based on its relative stand-alone selling price. The stand-alone selling prices are determined based on observable prices, which are the prices at which we separately sell these products. For items which do not have observable prices, we use our best estimate of the stand-alone selling prices.
+We account for tax assessed by a governmental authority that is directly imposed on a revenue-producing transaction (i.e., sales, use, value added) on a net (excluded from revenue) basis.
+Results of Operations
+In this section, we discuss the results of our operations for the year ended December 27, 2025 compared to the year ended December 28, 2024. For a discussion of the year ended December 28, 2024 compared to the year ended December 30, 2023, please refer to Part II, Item 7, “Management's Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 28, 2024.
+30
+The following table sets forth our operating results as a percentage of revenues:
+ 
+Fiscal 2025
+Fiscal 2024
+Fiscal 2023
+Revenues
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Cost of revenues
+60.7 
+59.7 
+61.0 
+Gross profit
+39.3 
+40.3 
+39.0 
+Operating expenses:
+ 
+Research and development
+14.7 
+16.0 
+17.5 
+Selling, general and administrative
+17.0 
+18.5 
+20.1 
+Factory start-up costs
+0.4 
+— 
+— 
+Total operating expenses
+32.1 
+34.5 
+37.6 
+Gain on sale of business
+— 
+2.7 
+11.0 
+Operating income
+7.2 
+8.5 
+12.4 
+Interest income, net
+1.3 
+1.8 
+1.1 
+Other income (expense), net
+0.3 
+0.1 
+(0.1)
+Income before income taxes and equity investment
+8.8 
+10.4 
+13.4 
+Provision for income taxes
+1.6 
+1.3 
+1.0 
+Loss from equity investment
+0.3 
+— 
+— 
+Net income
+6.9 
+%
+9.1 
+%
+12.4 
+%
+Revenues by Segment
+ 
+Fiscal 2025
+Fiscal 2024
+Fiscal 2023
+ 
+(In thousands)
+Probe Cards
+$
+637,898 
+$
+625,960 
+$
+497,903 
+Systems
+(1)
+147,095 
+137,639 
+165,199 
+Total
+$
+784,993 
+$
+763,599 
+$
+663,102 
+(1)
+ During the fourth quarter of fiscal 2023, we completed the sale of our FRT business. As a result, we generated no metrology systems revenue during fiscal 2025 and fiscal 2024, compared to $21.2 million during fiscal 2023.
+Revenues by Market
+Fiscal
+% of
+Fiscal
+% of
+Change
+2025
+Revenues
+2024
+Revenues
+$
+%
+(In thousands, except percentages)
+Probe Cards Markets:
+Foundry & Logic
+$
+369,897 
+47.1 
+%
+$
+381,182 
+49.9 
+%
+$
+(11,285)
+(3.0)
+%
+DRAM
+247,397 
+31.6 
+227,422 
+29.8 
+19,975 
+8.8 
+Flash
+20,604 
+2.6 
+17,356 
+2.3 
+3,248 
+18.7 
+Systems Market:
+Systems
+147,095 
+18.7 
+137,639 
+18.0 
+9,456 
+6.9 
+Total revenues
+$
+784,993 
+100.0 
+%
+$
+763,599 
+100.0 
+%
+$
+21,394 
+2.8 
+%
+31
+Fiscal
+% of
+Fiscal
+% of
+Change
+2024
+Revenues
+2023
+Revenues
+$
+%
+(In thousands, except percentages)
+Probe Cards Markets:
+Foundry & Logic
+$
+381,182 
+49.9 
+%
+$
+363,539 
+54.8 
+%
+$
+17,643 
+4.9 
+%
+DRAM
+227,422 
+29.8 
+113,779 
+17.2 
+113,643 
+99.9 
+Flash
+17,356 
+2.3 
+20,585 
+3.1 
+(3,229)
+(15.7)
+Systems Market:
+Systems
+(1)
+137,639 
+18.0 
+165,199 
+24.9 
+(27,560)
+(16.7)
+Total revenues
+$
+763,599 
+100.0 
+%
+$
+663,102 
+100.0 
+%
+$
+100,497 
+15.2 
+%
+(1)
+ During the fourth quarter of fiscal 2023, we completed the sale of our FRT business. As a result, we generated no metrology systems revenue during fiscal 2025 and fiscal 2024, compared to $21.2 million during fiscal 2023.
+Foundry & Logic
+—
+The decrease in Foundry & Logic product revenue in fiscal 2025 compared to fiscal 2024 was primarily driven by weaker demand for probe cards associated with client PC and server microprocessor designs, reflecting reduced customer production levels during the year.
+DRAM
+—
+The increase in DRAM product revenues in fiscal 2025 compared to fiscal 2024 was primarily driven by increased demand for HBM designs utilized in generative artificial intelligence applications.
+Flash
+—
+The increase in Flash product revenue in fiscal 2025 compared to fiscal 2024 was primarily driven by increased customer production activity and demand for our products.
+Systems
+—
+The increase in Systems product revenue in fiscal 2025 compared to fiscal 2024 was driven by increased sales of thermal systems, probe stations, and cryogenic systems.
+Revenues by Geographic Region
+Fiscal 2025
+% of
+Revenues
+Fiscal 2024
+% of
+Revenues
+Fiscal 2023
+% of
+Revenues
+(In thousands, except percentages)
+South Korea
+$
+237,717 
+30.3 
+%
+$
+184,528 
+24.2 
+%
+$
+117,747 
+17.8 
+%
+Taiwan
+202,738 
+25.8 
+173,515 
+22.7 
+147,842 
+22.3 
+United States
+152,152 
+19.4 
+183,716 
+24.1 
+171,781 
+25.9 
+China
+57,965 
+7.4 
+102,982 
+13.5 
+91,736 
+13.8 
+Japan
+43,216 
+5.5 
+33,946 
+4.4 
+36,791 
+5.5 
+Singapore
+32,973 
+4.2 
+20,186 
+2.6 
+18,335 
+2.8 
+Europe
+28,779 
+3.7 
+34,803 
+4.6 
+38,858 
+5.9 
+Malaysia
+19,211 
+2.4 
+18,240 
+2.4 
+26,601 
+4.0 
+Rest of World
+10,242 
+1.3 
+11,683 
+1.5 
+13,411 
+2.0 
+Total revenues
+$
+784,993 
+100.0 
+%
+$
+763,599 
+100.0 
+%
+$
+663,102 
+100.0 
+%
+Geographic revenue information is based on the location to which we ship the product. For example, if a certain South Korean customer purchases through their U.S. subsidiary and requests the products to be shipped to an address in South Korea, this sale will be reflected in the revenue for South Korea rather than United States.
+Changes in revenue by geographic region in fiscal 2025 compared to fiscal 2024 were primarily attributable to changes in customer demand, impacts from trade restrictions, and product sales mix. Specifically, the changes in revenue by geographic region was attributable to the following:
+•
+Increased demand for our DRAM probe card products, including those for HBM, contributed to the increase in revenue for South Korea in fiscal 2025 compared to fiscal 2024.
+•
+Increased demand for our Foundry & Logic probe card products contributed to the increase in revenue for Taiwan in fiscal 2025 compared to fiscal 2024.
+•
+Trade restrictions for the export of advanced U.S. semiconductor technology to China has caused decreasing demand from Chinese customers.
+32
+Cost of Revenues and Gross Margins
+Cost of revenues consists primarily of manufacturing materials, compensation and benefits, shipping and handling costs, manufacturing-related overhead (including equipment costs, related occupancy, and computer services), warranty cost, inventory adjustments (including write-downs for inventory obsolescence), and amortization of certain intangible assets. Our manufacturing operations rely on a limited number of suppliers to provide key components and materials for our products, some of which are a sole source. We order materials and supplies based on backlog and forecasted customer orders. Tooling and setup costs related to changing manufacturing lots at our suppliers are also included in the cost of revenues. We expense all warranty costs, inventory provisions and amortization of certain intangible assets as cost of revenues.
+Gross profit and gross margin by segment were as follows (dollars in thousands):
+Fiscal 2025
+Probe Cards
+Systems
+Corporate and Other
+Total
+Gross profit
+$
+258,500 
+$
+61,553 
+$
+(11,202)
+$
+308,851 
+Gross margin
+40.5 
+%
+41.8 
+%
+39.3 
+%
+Fiscal 2024
+Probe Cards
+Systems
+Corporate and Other
+Total
+Gross profit
+$
+259,007 
+$
+59,511 
+$
+(10,595)
+$
+307,923 
+Gross margin
+41.4 
+%
+43.2 
+%
+40.3 
+%
+Fiscal 2023
+Probe Cards
+Systems
+Corporate and Other
+Total
+Gross profit
+$
+185,392 
+$
+84,735 
+$
+(11,547)
+$
+258,580 
+Gross margin
+37.2 
+%
+51.3 
+%
+39.0 
+%
+Probe Cards
+—
+Gross profit and gross margin in the Probe Cards segment decreased in fiscal 2025 compared to fiscal 2024, despite the record revenue levels primarily due to higher manufacturing costs, which included increased costs for tariffs, partially offset by a favorable product mix and favorable factory utilization with the increased volumes. For fiscal 2025 compared to fiscal 2024, DRAM revenue was up from 36.3% of Probe Card sales to 38.8% of Probe Card sales, and Foundry & Logic revenue was down from 60.9% of Probe Card sales to 58.0% of Probe Card sales. In general, our DRAM products have lower margins than our Foundry & Logic products, although there is a significant intra-market variance depending on customer and device.
+Systems
+—
+Gross profit in the Systems segment increased while gross margin decreased in fiscal 2025 compared to fiscal 2024, primarily as a result of greater revenues that was offset by an increase in manufacturing spending and an unfavorable product mix as a greater percentage of Systems segment revenues were from lower margin products.
+Corporate and Other
+—
+Corporate and Other includes unallocated expenses relating to stock-based compensation expense, amortization of intangible assets, inventory and fixed asset fair value adjustments due to acquisitions, and restructuring charges, net, which are not used in evaluating the results of, or in allocating resources to, our reportable segments. Corporate and Other expenses increased in fiscal 2025 compared to fiscal 2024 primarily due to higher restructuring charges, which were partially offset by lower stock-based compensation and lower amortization.
+Overall
+—
+Gross profit and gross margin fluctuate with revenue levels, product mix, selling prices, factory loading and material costs. For fiscal 2025 compared to fiscal 2024, gross profit increased and gross margins decreased as a result of greater revenues and a favorable product mix, that was offset by higher manufacturing costs, which included a 1.4% gross margin impact from increased costs for tariffs. Despite the impact of tariffs, third and fourth quarters of fiscal 2025 have shown meaningful improvement in gross margins compared to the first half of  fiscal 2025 and second half of fiscal 2024.
+Stock-based compensation expense included in cost of revenues for fiscal 2025 and 2024 was $7.4 million and $7.7 million, respectively.
+
+33
+Research and Development
+Fiscal Year Ended
+December 27, 2025
+December 28, 2024
+$ Change
+% Change
+(Dollars in thousands)
+Research and development
+$
+115,682 
+$
+121,938 
+$
+(6,256)
+(5.1)
+%
+% of revenues
+14.7 
+%
+16.0 
+%
+Fiscal Year Ended
+December 28, 2024
+December 30, 2023
+$ Change
+% Change
+(Dollars in thousands)
+Research and development
+$
+121,938 
+$
+115,765 
+$
+6,173 
+5.3 
+%
+% of revenues
+16.0 
+%
+17.5 
+%
+The decrease in research and development expense in fiscal 2025 compared to fiscal 2024 was primarily driven by a decrease in general operational costs, which includes the benefit of a German government grant earned in fiscal 2025 that partially offset expenses, lower project material costs, lower stock based compensation and decreased employee compensation costs from lower performance-based compensation.
+The components of this increase were as follows (in thousands):
+Fiscal 2025 compared to Fiscal 2024
+General operational costs
+$
+(3,388)
+Project material costs
+(2,091)
+Stock-based compensation expense
+(428)
+Employee compensation costs
+(349)
+$
+(6,256)
+Stock-based compensation expense included within research and development in fiscal 2025 and 2024 was relatively flat at $10.3 million and $10.7 million, respectively.
+
+Selling, General and Administrative
+Fiscal Year Ended
+December 27, 2025
+December 28, 2024
+$ Change
+% Change
+(Dollars in thousands)
+Selling, general and administrative
+$
+133,074 
+$
+141,786 
+$
+(8,712)
+(6.1)
+%
+% of revenues
+17.0 
+%
+18.5 
+%
+Fiscal Year Ended
+December 28, 2024
+December 30, 2023
+$ Change
+% Change
+(Dollars in thousands)
+Selling, general and administrative
+$
+141,786 
+$
+133,012 
+$
+8,774 
+6.6 
+%
+% of revenues
+18.5 
+%
+20.1 
+%
+The decrease in selling, general and administrative expense in fiscal 2025 compared to fiscal 2024 was primarily driven by initiatives to further control operating expenses, resulting in lower general operating costs. These reductions included decreased employee compensation due to lower performance‑based compensation, partially offset by higher employee‑related costs from annual pay increases, as well as lower consulting fees. In addition, we incurred lower stock‑based compensation expense, commission expense, and amortization of intangible assets, partially offset by higher restructuring charges related to operating efficiency initiatives.
+34
+The components of this overall increase were as follows (in thousands):
+Fiscal 2025 compared to Fiscal 2024
+General operating expenses
+$
+(4,183)
+Employee compensation costs
+(4,103)
+Restructuring charges
+3,395 
+Consulting fees
+(2,928)
+Stock-based compensation expense
+(412)
+Commission expenses
+(342)
+Amortization of intangibles
+(139)
+$
+(8,712)
+Stock-based compensation expense included within selling, general and administrative in fiscal 2025 and 2024 was $20.9 million and $21.3 million, respectively.
+Factory Start-Up Costs
+Fiscal Year Ended
+December 27, 2025
+December 28, 2024
+$ Change
+% Change
+(Dollars in thousands)
+Factory start-up costs
+$
+3,025 
+$
+— 
+$
+3,025 
+— 
+%
+% of revenues
+0.4 
+%
+— 
+%
+Factory start-up costs are current year costs associated with our newly purchased manufacturing site in Farmers Branch, Texas. The start-up costs consist of utilities, employee compensation costs, taxes and licenses, facility maintenance, and other expenses being incurred while the site is being brought to its intended use. These costs are expected to increase as we continue the build-out, with an expected production ramp beginning late in the fourth quarter of fiscal 2026, and are expected to be between $20.0 million to $25.0 million over fiscal 2026. We expect that when the site begins revenue-generating production, the operating costs of that site previously expensed as factory start-up costs will instead be primarily expensed as part of the cost of the production in the Consolidated Statements of Income as a Cost of revenues.
+Interest Income and Interest Expense
+Fiscal Year Ended
+December 27,
+2025
+December 28,
+2024
+(Dollars in thousands)
+Interest Income
+$
+10,640 
+$
+14,111 
+Weighted average balance of cash and investments
+$
+294,196 
+$
+353,191 
+Weighted average yield on cash and investments
+4.14 
+%
+4.56 
+%
+Interest Expense
+$
+521 
+$
+418 
+Average debt outstanding
+$
+12,690 
+$
+13,785 
+Weighted average interest rate on debt
+2.75 
+%
+2.75 
+%
+Interest income is earned on our cash, cash equivalents, restricted cash and marketable securities. The decrease in interest income in fiscal 2025 compared to fiscal 2024 was attributable to lower invested balances and lower weighted average yield on cash and investments.
+Interest expense primarily includes interest on our term loan, interest rate swap derivative contract, commitment fee on our revolving credit facility, term loan issuance costs amortization charges, and our revolving credit facility issuance costs
+35
+amortization charges. The increase in interest expense for fiscal 2025 compared to fiscal 2024 was due to fees for our undrawn revolving credit facility.
+Other income (expense), net
+Other income (expense), net, primarily includes the effects of foreign currency and various other gains and losses. We partially mitigate our risk from currency movements by hedging certain balance sheet exposures, which minimizes the impacts during periods of foreign exchange volatility. Foreign exchange gains for fiscal 2025 and fiscal 2024 were $1.8 million and $1.0 million, respectively.
+Provision for income taxes
+Fiscal Year Ended
+December 27, 2025
+December 28, 2024
+December 30, 2023
+(Dollars in thousands)
+Provision for income taxes
+$
+13,004 
+$
+9,798 
+$
+6,880 
+Effective tax rate
+18.7 
+%
+12.3 
+%
+7.7 
+%
+Provision for income taxes reflects the tax provision on our operations in foreign and U.S. jurisdictions, offset by tax benefits from tax credits and the foreign-derived intangible income deduction. Our effective tax rate may vary from period to period based on changes in estimated taxable income or loss by jurisdiction, changes to the valuation allowance, changes to U.S. federal, state or foreign tax laws, changes in stock-based compensation expense/benefit, future expansion into areas with varying country, state, and local income tax rates, and deductibility of certain costs and expenses by jurisdiction. The increase in our effective tax rate for fiscal 2025, when compared to the prior year, was primarily driven by the impact of implementing the One Big Beautiful Bill Act (“OBBBA”) tax law changes.
+One Big Beautiful Bill
+On July 4, 2025, the OBBBA, which included a broad range of tax reform provisions that affected our financial results, was signed into law in the United States. Among other provisions, the OBBBA repealed the capitalization of domestic Research and Development (“R&D”) expenditures and included a reduced deduction rate on Foreign-derived Deduction Eligible Income and income from non-U.S. subsidiaries. We evaluated the impact of these provisions and implemented our current strategy, which, after considering the interplay of the various tax calculations affected by the OBBBA, resulted in a modest net increase to our effective tax rate.
+Liquidity and Capital Resources
+Capital Resources
+Our working capital decreased to $433.2 million at December 27, 2025 compared to $473.8 million at December 28, 2024.
+Cash and cash equivalents primarily consist of deposits held at banks and money market funds. Marketable securities primarily consist of U.S. treasuries, corporate bonds, U.S. agency securities, and commercial paper. We typically invest in highly-rated securities with low probabilities of default. Our investment policy requires investments to be rated single A or better, and limits the types of acceptable investments, issuer concentration and duration of the investment.
+Our cash, cash equivalents and marketable securities totaled approximately $275.2 million at December 27, 2025 compared to $360.0 million at December 28, 2024. We deployed significant cash in connection with the purchase of our equity investment in FICT, the purchase of our new manufacturing site in Farmers Branch, and the recent acquisition of Keystone Photonics, together representing $142.7 million of the decrease in cash. We have the full amount available under our $150 million revolving credit facility as of December 27, 2025. Based on our historical results of operations, we expect that our cash, cash equivalents, and marketable securities on hand, the cash we expect to generate from operations, and the available capacity under our revolving credit facility will be sufficient to fund, through at least the next 12 months, our liquidity requirements including those arising from: research and development, capital expenditures, working capital, outstanding commitments, and other liquidity requirements associated with existing operations. This includes consideration of estimated capital expenditures of $140.0 million to $170.0 million for the ramp of the Farmers Branch manufacturing site. However, we cannot be certain that our cash, cash equivalents, and marketable securities on hand, and cash generated from operations, will be available in the future to fund all of our capital and operating requirements. In addition, any future strategic investments and significant acquisitions may require additional cash and capital resources. To the extent necessary, we may consider entering into short and long-term debt obligations, raising cash through a stock issuance, or obtaining new financing facilities, which may not be
+36
+available on terms favorable to us. If we are unable to obtain sufficient cash or capital to meet our needs on a timely basis and on favorable terms, our business and operations could be materially and adversely affected.
+If we are unsuccessful in maintaining or growing our revenues, maintaining or reducing our cost structure, or increasing our available cash through debt or equity financings, our cash, cash equivalents and marketable securities may decline.
+We utilize a variety of tax planning and financing strategies in an effort to manage our worldwide cash and deploy funds to locations where they are needed. As part of these strategies, we indefinitely reinvest a portion of our foreign earnings. Should we require additional capital in the United States, we may elect to repatriate indefinitely-reinvested foreign funds or raise capital in the United States.
+Cash Flows
+Fiscal Year Ended
+December 27, 2025
+December 28, 2024
+December 30, 2023
+(Dollars in thousands)
+Net cash provided by operating activities
+$
+115,398 
+$
+117,534 
+$
+64,602 
+Net cash provided by (used in) investing activities
+(191,468)
+(33,480)
+29,049 
+Net cash used in financing activities
+(13,633)
+(64,612)
+(22,711)
+Operating Activities 
+Net cash provided by operating activities consists of net income for the period, adjusted for certain non-cash items and changes in certain operating assets and liabilities. Net cash provided by operating activities in fiscal 2025 was primarily attributable to net income of $54.4 million and net non-cash items of $104.0 million, partially offset by the increase in net working capital of $43.0 million. The cash used in net working capital is related to higher inventory balances of $20.7 million and an increase in accounts receivable of $20.2 million, reflecting higher sales volumes. In addition, operating lease liabilities decreased by $8.1 million and accounts payable declined by $5.7 million. These uses of cash were partially offset by increases in accrued liabilities of $4.6 million, deferred revenue of $4.5 million, and other liabilities of $2.3 million. The non-cash adjustments primarily consisted of depreciation and amortization, stock-based compensation expense, provision for excess and obsolete inventories, and the reduction in the carrying amount of right-of-use-assets.
+Investing Activities
+Net cash used in investing activities in fiscal 2025 was primarily attributable to $103.7 million in capital expenditures for property, plant and equipment. Of this amount, $55.0 million related to our new Farmers Branch manufacturing facility in Farmers Branch, Texas. Investing cash outflows also included $20.6 million used to acquire shares of Keystone Photonics and $67.2 million related to the Company's equity investment in FICT.
+Financing Activities
+Net cash used in financing activities in fiscal 2025 was primarily attributable to $26.2 million of common stock repurchases under the Company's stock repurchase program and $12.4 million paid for tax withholdings associated with net share settlements of employee equity awards. These uses of cash were partially offset by $26.1 million of proceeds from issuances of common stock, which includes $15.0 million from a private placement and $11.1 million from purchases under our employee stock purchase plan.
+Debt
+Revolving Credit Agreement
+On July 29, 2025, we entered into a Revolving Credit Agreement (the “Revolver”) with Wells Fargo Bank, National Association, as Administrative Agent, and the lenders party thereto, providing us with a $150 million revolving credit facility (the “Facility”). The Facility matures on July 29, 2030 and may be used for working capital and other general corporate purposes, subject to the terms and conditions set forth in the Revolver. No amounts were outstanding under the Facility as of December 27, 2025.
+Borrowings under the Facility will bear interest at a fluctuating rate per annum equal to, at our option, (i) the forward-looking secured overnight financing rate (“term SOFR”), (ii) a base rate set forth in the Revolver, or (iii) a combination thereof, plus, in each case, an applicable margin calculated based on our leverage ratio. Voluntary prepayments may be made without penalty, subject to certain notice requirements and minimum prepayment and reduction thresholds.
+37
+The Facility is also subject to a quarterly commitment fee ranging from 0.15% to 0.25% per annum, applied to the daily amount by which the committed amount exceed the borrowings outstanding. The commitment fee as of December 27, 2025 was 0.15%.
+The Revolver contains customary representations and warranties, and affirmative and negative covenants, and events of default, including limitations on subsidiary indebtedness and liens, we well as requirements to maintain specified financial ratios. These financial covenants include a requirement to maintain a consolidated total net leverage ratio not exceeding 3.50 to 1.00 as of the last day of each fiscal quarter, which may increase to 4.00 to 1.00 for four fiscal quarters following a permitted acquisition. We were in compliance with the Facility's covenants as of December 27, 2025.
+Building Term Loan and Interest Rate Swap
+On June 22, 2020, we entered into an $18.0 million 15-year credit facility loan agreement (the “Building Term Loan”). Proceeds from the Building Term Loan were used to acquire a building adjacent to our leased facilities in Livermore, California. On May 19, 2023, we amended the Building Term Loan, to replace the benchmark reference rate London Interbank Offered Rate (“LIBOR”) with term SOFR, with no change to the contractual amount or timing of cash flows.
+The Building Term Loan bears interest at a rate equal to the applicable SOFR rate, plus 1.86% per annum, with interest payable in monthly installments over the fifteen-year term. The interest rate as of December 27, 2025 prior to the effect of the related interest rate swap was 5.74%. As of December 27, 2025, the outstanding principal balance under the Building Term Loan was $12.3 million, and we were in compliance with all covenants under the agreement.
+On March 17, 2020, we entered into an interest rate swap agreement to hedge the variable interest payments on the Building Term Loan. The swap was originally executed for a notional amount of $18.0 million, with an amortization period that matches the underlying debt. The interest rate swap was intended to mitigate our exposure to variability in interest rates associated with movements in LIBOR. On May 19, 2023, we amended the interest rate swap to replace LIBOR with SOFR, consistent with the amendment to the Building Term Loan. Following this amendment, the interest rate swap continues to convert our floating-rate interest into a fixed-rate at 2.75%. As of December 27, 2025, the notional amount of the loan that is subject to this interest rate swap is $12.3 million.
+Stock Repurchase Programs
+On May 20, 2022, our Board of Directors authorized a two-year program to repurchase up to $75 million of outstanding common stock to offset potential dilution from issuance of common stock under our stock-based compensation programs. During fiscal 2022 and 2023, we repurchased and retired 1,700,893 shares of common stock for $56.4 million and 504,352 shares of common stock for $18.6 million, respectively, utilizing all of the shares available for repurchase under the program.
+On October 30, 2023, our Board of Directors authorized a two-year program to repurchase up to $75 million of outstanding common stock, with the primary purpose of offsetting potential dilution from issuance of common stock under our stock-based compensation programs. During fiscal 2023 and 2024, we purchased and retired 32,020 shares of common stock for $1.2 million and 1,309,635 shares of common stock for $53.3 million, respectively. On March 29, 2025, our Board of Directors approved an increase to the repurchase program, authorizing the repurchase of an additional $1.6 million in shares of common stock. During fiscal 2025, we repurchased and retired 665,000 shares of common stock for $22.1 million, utilizing the remaining shares available for repurchase under the program.
+On April 24, 2025, our Board of Directors authorized a new two-year program to repurchase up to $75.0 million of outstanding common stock to offset potential dilution from issuance of common stock under our stock-based compensation programs. This share repurchase program will expire on April 24, 2027. During fiscal 2025, we repurchased and retired 135,000 shares of common stock for $4.1 million, and as of December 27, 2025, $70.9 million remained available for future repurchases.
+38
+Contractual Obligations and Commitments
+The following table summarizes our significant contractual obligations and commitments to make future payments in cash as of December 27, 2025 (in thousands):
+Payments Due In Fiscal Year
+2026
+2027
+2028
+2029
+2030
+2031 and thereafter
+Total
+Operating leases
+$
+8,926 
+$
+8,421 
+$
+4,736 
+$
+510 
+$
+461 
+$
+993 
+$
+24,047 
+Term loan - principal payments
+1,142 
+1,175 
+1,208 
+1,242 
+1,278 
+6,213 
+12,258 
+Term loan - interest payments
+(1)
+683 
+615 
+548 
+477 
+400 
+845 
+3,568 
+Revolver - commitment fee
+(2)
+228 
+228 
+232 
+228 
+131 
+— 
+1,047 
+Total
+$
+10,979 
+$
+10,439 
+$
+6,724 
+$
+2,457 
+$
+2,270 
+$
+8,051 
+$
+40,920 
+(1)
+ Represents our minimum interest payment commitments at 5.74% per annum, excluding the interest rate swap described in Debt, above.
+(2)
+ Represents our quarterly commitment fee of 0.15% on the daily amount by which the commitments under the Facility exceed the outstanding amount. This commitment assumes no borrowings.
+The table above excludes our gross liability for unrecognized tax benefits and our deferred grant. The gross liability for unrecognized tax benefits was $52.0 million as of December 27, 2025. The timing of any payments which could result from these unrecognized tax benefits will depend upon a number of factors and, accordingly, the timing of payment cannot be estimated. The deferred grant was $18.0 million as of December 27, 2025, and consists of cash received from a California Competes Grant awarded from the California Governor's Office of Business and Economic Development. The timing of any potential repayments is dependent upon a number of factors, including the number of employees and capital investments within California over the 5-year term. Accordingly, the extent and timing of any potential repayment cannot be estimated.
+Indemnification Arrangements
+We have entered, and may from time to time in the ordinary course of our business enter, into contractual arrangements with third parties that include indemnification obligations. Under these contractual arrangements, we have agreed to defend, indemnify and/or hold the third party harmless from and against certain liabilities. These arrangements include indemnities in favor of customers in the event that our products or services infringe a third party's intellectual property, or cause property damage or other indemnities in favor of our lessors in connection with facility leasehold liabilities that we may cause. In addition, we have entered into indemnification agreements with our directors and certain of our officers, and our bylaws contain indemnification obligations in favor of our directors, officers and agents. These indemnity arrangements may limit the type of the claim, the total amount that we can be required to pay in connection with the indemnification obligation and the time within which an indemnification claim can be made. The duration of the indemnification obligation may vary, and for most arrangements, survives the agreement term and is indefinite. We believe that substantially all of our indemnity arrangements provide either for limitations on the maximum potential future payments we could be obligated to make, or for limitations on the types of claims and damages we could be obligated to indemnify, or both. However, it is not possible to determine or reasonably estimate the maximum potential amount of future payments under these indemnification obligations due to the varying terms of such obligations, a lack of history of prior indemnification claims, the unique facts and circumstances involved in each particular contractual arrangement and in each potential future claim for indemnification, and the contingency of any potential liabilities upon the occurrence of events that are not reasonably determinable. We have not had any material requests for indemnification under these arrangements. We have not recorded any liabilities for these indemnification arrangements on our Consolidated Balance Sheets as of December 27, 2025 or December 28, 2024.
+New Accounting Pronouncements
+See Note 18,
+Recent Accounting Pronouncements
+, of Notes to Consolidated Financial Statements.

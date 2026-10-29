@@ -89,3 +89,211 @@ companies:
     role: buyer
     source: EDGAR
     ticker: JBL
+
+  # Curated pack (MORE-FILINGS option C) — memory-adjacent buyers / storage / packaging
+  - name: Broadcom
+    role: buyer
+    source: EDGAR
+    ticker: AVGO
+
+  - name: Intel
+    role: buyer
+    source: EDGAR
+    ticker: INTC
+
+  - name: Microsoft
+    role: buyer
+    source: EDGAR
+    ticker: MSFT
+
+  - name: Amazon
+    role: buyer
+    source: EDGAR
+    ticker: AMZN
+
+  - name: Alphabet
+    role: buyer
+    source: EDGAR
+    ticker: GOOGL
+
+  - name: Meta Platforms
+    role: buyer
+    source: EDGAR
+    ticker: META
+
+  - name: Western Digital
+    role: supplier
+    source: EDGAR
+    ticker: WDC
+
+  - name: Seagate
+    role: supplier
+    source: EDGAR
+    ticker: STX
+
+  - name: Sandisk
+    role: supplier
+    source: EDGAR
+    ticker: SNDK
+
+  - name: Amkor
+    role: supplier
+    source: EDGAR
+    ticker: AMKR
+
+  # SIC batch 1 (from config/sic_candidates.yaml dry-run; see config/sic_batch1.yaml)
+  - name: Rambus
+    role: supplier
+    source: EDGAR
+    ticker: RMBS
+  - name: Silicon Motion
+    role: supplier
+    source: EDGAR
+    ticker: SIMO
+    forms:
+      - 20-F
+      - 6-K
+  - name: MaxLinear
+    role: supplier
+    source: EDGAR
+    ticker: MXL
+  - name: TSMC
+    role: supplier
+    source: EDGAR
+    ticker: TSM
+    forms:
+      - 20-F
+      - 6-K
+  - name: GlobalFoundries
+    role: supplier
+    source: EDGAR
+    ticker: GFS
+    forms:
+      - 20-F
+      - 6-K
+  - name: Tower Semiconductor
+    role: supplier
+    source: EDGAR
+    ticker: TSEM
+    forms:
+      - 20-F
+      - 6-K
+  - name: UMC
+    role: supplier
+    source: EDGAR
+    ticker: UMC
+    forms:
+      - 20-F
+      - 6-K
+  - name: ASE Technology
+    role: supplier
+    source: EDGAR
+    ticker: ASX
+    forms:
+      - 20-F
+      - 6-K
+  - name: ChipMOS
+    role: supplier
+    source: EDGAR
+    ticker: IMOS
+    forms:
+      - 20-F
+      - 6-K
+  - name: Applied Materials
+    role: supplier
+    source: EDGAR
+    ticker: AMAT
+  - name: FormFactor
+    role: supplier
+    source: EDGAR
+    ticker: FORM
+  - name: Ultra Clean Holdings
+    role: supplier
+    source: EDGAR
+    ticker: UCTT
+  - name: Photronics
+    role: supplier
+    source: EDGAR
+    ticker: PLAB
+  - name: Arm Holdings
+    role: supplier
+    source: EDGAR
+    ticker: ARM
+    forms:
+      - 20-F
+      - 6-K
+  - name: Marvell
+    role: buyer
+    source: EDGAR
+    ticker: MRVL
+  - name: Astera Labs
+    role: supplier
+    source: EDGAR
+    ticker: ALAB
+  - name: Credo
+    role: supplier
+    source: EDGAR
+    ticker: CRDO
+  - name: Arista Networks
+    role: buyer
+    source: EDGAR
+    ticker: ANET
+  - name: Amphenol
+    role: supplier
+    source: EDGAR
+    ticker: APH
+  - name: Ambarella
+    role: supplier
+    source: EDGAR
+    ticker: AMBA
+  - name: Analog Devices
+    role: supplier
+    source: EDGAR
+    ticker: ADI
+  - name: NXP
+    role: supplier
+    source: EDGAR
+    ticker: NXPI
+  - name: Texas Instruments
+    role: supplier
+    source: EDGAR
+    ticker: TXN
+  - name: Microchip
+    role: supplier
+    source: EDGAR
+    ticker: MCHP
+  - name: onsemi
+    role: supplier
+    source: EDGAR
+    ticker: "ON"
+  - name: Monolithic Power
+    role: supplier
+    source: EDGAR
+    ticker: MPWR
+  - name: STMicroelectronics
+    role: supplier
+    source: EDGAR
+    ticker: STM
+    forms:
+      - 20-F
+      - 6-K
+  - name: Cirrus Logic
+    role: supplier
+    source: EDGAR
+    ticker: CRUS
+  - name: Lattice
+    role: supplier
+    source: EDGAR
+    ticker: LSCC
+  - name: Silicon Labs
+    role: supplier
+    source: EDGAR
+    ticker: SLAB
+  - name: Semtech
+    role: supplier
+    source: EDGAR
+    ticker: SMTC
+  - name: MACOM
+    role: supplier
+    source: EDGAR
+    ticker: MTSI

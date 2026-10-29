@@ -1,0 +1,247 @@
+Item 1.
+
+Business
+Overview
+Rambus is a global semiconductor company providing industry-leading chips and silicon IP for data-intensive computing systems, focusing on data center and artificial intelligence (“AI”) infrastructure.
+
+As a pioneer with over three decades of advanced semiconductor design experience, Rambus is at the forefront of enabling the next era of AI-driven computing, addressing the critical challenges of signal and power integrity at increasingly extreme data rates in the data center, edge and client markets. We are a leader in high-performance memory subsystems, offering a balanced and diverse portfolio of products, IP and patents that maximize performance and security in computationally intensive systems.
+The ongoing proliferation of AI is placing unprecedented demands on computing infrastructure, requiring massive amounts of processor performance and extremely high memory bandwidth. As workloads grow in size and diversity, system performance becomes memory bound, making the memory interface technology a critical determinant of overall throughput. This persistent gap between processor performance and memory subsystem capabilities remains one of the largest bottlenecks in high performance compute systems. In addition, power management is increasingly important to optimize system efficiency and thermal performance as the power-performance demands continue to rise.
+
+Rambus is well positioned to address these challenges. Leveraging our deep expertise in memory technology and innovative architectures, we provide industry-leading memory interface chips that enable the highest bandwidth, capacity and power efficient server memory modules, maximizing memory performance and reliability for the most demanding data-intensive workloads. Beyond the data center, server-class technologies are migrating into client devices to bring these same benefits to end-user systems, such as AI personal computers (“PCs”).
+Furthermore, the growing adoption of AI and heterogenous computing across diverse applications is creating significant opportunities for our silicon IP portfolio. Our high-performance digital controller cores are increasingly vital components in accelerated computing chips, including custom silicon, which are the workhorses of AI processing. The expanding attack surface in today’s accelerated computing environments also necessitates robust security solutions. Our industry-leading security IP plays a crucial role in safeguarding both data at rest and data in motion, protecting against evolving cyber threats.
+Rambus is committed to the sustained investment in our technology development and product roadmap to stay at the forefront of the innovation cycle and advance our product leadership. In 2025, Rambus delivered strong execution across our memory and interface portfolio. We strengthened our leadership in DDR5 Registering Clock Drivers (“RCD”) and expanded the adoption of our new products, contributing to revenue growth. We expanded into high-performance and AI PCs with the launch of our complete client chipset, giving Rambus a comprehensive portfolio that supports all JEDEC-standard DDR5 and LPDDR5 modules across server and client systems. We also achieved strong customer momentum across our HBM4, GDDR7 and PCIe 7.0 digital IP families, along with our security IP, reinforcing our position as a key enabler of next-generation data center and AI architectures. Finally, further fueling our continuous technology investment, we successfully secured and extended key patent licensing agreements, providing a strong foundation for sustained cash generation and consistent return of value to our stockholders.
+Memory Interface Chips
+Rambus provides complete chipset solutions for industry-standard DDR5 and LPDDR5 memory modules for server and client systems, including Registered Dual Inline Memory Modules (“RDIMM”) and next-generation Multiplexed Rank Dual Inline Memory Modules (“MRDIMM”), enabling high memory subsystem performance, capacity, reliability and power efficiency.
+
+ 
+4
+
+Table of Contents
+
+ 
+
+The Company’s leading-edge chipset offerings include:
+•
+Registering Clock Drivers (“RCD”)
+•
+Multiplexed Registering Clock Driver (“MRCD”)
+•
+Multiplexed Data Buffer (“MDB”)
+•
+Client Clock Driver (“CKD”)
+•
+Power Management Integrated Circuits (“PMIC”)
+•
+Serial Presence Detect Hubs (“SPD Hub”)
+•
+Temperature Sensors (“TS”)
+We sell memory interface chips directly and indirectly to memory module manufacturers, OEMs and hyperscalers worldwide through multiple channels, including our direct sales force and distributors, and we employ global sales personnel to support such operations.
+
+We operate a fabless business model and use third-party foundries and manufacturing contractors to fabricate, assemble and test our memory interface chips. We also inspect and test parts in our U.S.-based facilities. This outsourced manufacturing approach allows us to focus our investment and resources on the research, development, design, sale and marketing of our products. Outsourcing also allows us the flexibility needed to respond to new market opportunities, simplifies our operations and significantly reduces our capital requirements.
+Silicon IP
+Rambus Silicon IP includes high-performance interface and security IP solutions that move and protect data in advanced AI, data center, government and automotive applications.
+
+Our interface IP solutions feature both high-speed memory and chip-to-chip digital controller IP, including:
+•
+HBM Memory Controller IP
+•
+GDDR Memory Controller IP
+•
+PCIe Controllers, Retimer and Switch IP
+•
+CXL Controller IP
+Our security IP offerings comprise one of the industry’s most comprehensive portfolio of solutions, including:
+•
+Hardware Roots of Trust
+•
+High-speed Protocol Engines
+•
+Crypto Cores
+•
+Chip Provisioning Technologies
+We sell Silicon IP solutions to leading chip makers worldwide for integration into their custom silicon, Application Specific Standard Products (“ASSP”) and Field Programmable Gate Array (“FPGA”) designs. Rambus Silicon IP is sold primarily through our direct global sales force.
+Patent Licenses
+Our patented inventions are foundational to the semiconductor industry and are licensed to leading semiconductor and system companies around the world. Rambus continues to innovate and invent, thereby advancing semiconductor technology. With a broad worldwide portfolio of patents covering memory architecture, high-speed serial links and security, we enhance our value and relevance in our target markets and create a platform for investment in product development.
+Our patent licenses enable our customers to use specified portions of our portfolio of patented inventions in the customer’s own digital electronics products, systems or services. These licenses may also define the specific field of use where our
+
+ 
+5
+
+Table of Contents
+
+ 
+
+customers may use or employ our inventions in their products. License agreements are structured with fixed or variable, or a hybrid of fixed and variable royalty payments over certain periods typically ranging up to ten years. Leading semiconductor and electronic system companies, such as AMD, Amlogic, Broadcom, CXMT, IBM, Infineon, Kioxia, Marvell, MediaTek, Micron, Nanya, Nuvoton, NVIDIA, Phison, Qualcomm, Samsung, Silicon Motion, SK hynix, Socionext, STMicroelectronics, Toshiba, Western Digital and Winbond have licensed our patents. Additionally, from time to time, we enter into agreements to sell certain patent assets under agreements which may also include subsequent profit-sharing. The sale of these patents, as well as the subsequent profit-sharing, are included as part of our royalties revenue.
+Competition
+The semiconductor industry is intensely competitive and is characterized by rapid technological change, short product life cycles, cyclical market patterns, price erosion, increasing foreign and domestic competition, market consolidation and geopolitical developments that increasingly impact business. Rambus competes with product offerings from various companies depending upon the particular Rambus product line. In the memory interface chip market, we compete with international semiconductor companies, including but not limited to Monolithic Power Systems, Montage Technology, Renesas and Texas Instruments. In the Silicon IP market, Rambus competes with the in-house design teams at our potential customers, as well as with third-party IP suppliers, such as Cadence and Synopsys. Many of our competitors are larger and may have better access to financial, technical, sales and marketing resources than we possess.
+To the extent that alternative technologies, which might provide comparable system performance at lower or similar cost to our patented technologies, are perceived to require the payment of no or lower fees or royalties, or to the extent other factors influence the industry, our customers and prospective customers may adopt and promote such alternative technologies. Even to the extent we determine that such alternative technologies infringe our patents, there can be no assurance that we would be able to negotiate agreements that would result in royalties being paid to us without litigation, which could be costly and the results of which would be uncertain. As in the past, litigation may be required to enforce and protect our IP rights, on top of the substantial investments undertaken to research and develop our innovations and technologies.
+Research and Development
+Building upon our foundation of core semiconductor technologies, our research priorities focus on innovation and patent development that differentiate our product offerings in the market and enhance the value of our patent portfolio. Key to our efforts is continuing to hire and retain world-class inventors, scientists and engineers to lead the development and deployment of inventions and technology solutions for our intended markets.
+To foster our research and development efforts, we have assembled a team of highly skilled inventors, engineers and scientists whose activities are focused on continually developing new innovations within our chosen technology fields, and have thereby secured the IP rights and legal protections for these ground-breaking inventions. Using this foundation of innovation, our technical teams develop new semiconductor solutions that enable increased performance, greater power efficiency and increased levels of security, as well as other improvements and benefits. Our solution design and development process is a multi-disciplinary effort requiring expertise in multiple fields across all of our operational units.
+A significant number of our scientists and engineers spend all or a portion of their time on research and development. For the years ended December 31, 2025, 2024 and 2023, research and development expenses were $187.7 million, $162.9 million and $156.8 million, respectively. We expect to continue to invest substantial funds in research and development activities. In addition, because our customer agreements often call for us to provide engineering support, a portion of our total engineering costs are allocated to the cost of contract and other revenue.
+Human Capital Resources
+As of December 31, 2025, we had 791 employees, of which approximately 47% were in the United States and 53% in other global regions, including but not limited to Bulgaria, Canada, China, Finland, France, India, the Netherlands, South Korea and Taiwan. Additionally, approximately 71% of our employees were engineers with the remaining employees in sales, general and administrative positions. None of our employees are covered by collective bargaining agreements.
+
+ 
+6
+
+Table of Contents
+
+ 
+
+We believe that our future success largely depends upon our continued ability to identify, attract, motivate and retain qualified personnel. We provide our employees with competitive compensation, as well as opportunities for equity ownership and developmental programs that enable continued learning and growth. We also offer employees benefits such as life and health insurance, paid time off, paid parental leave and retirement savings plans. We utilize successful recruiting practices that yield qualified and dedicated employees who are driven to achieve our vision.
+The employment market in the United States can be competitive, especially for technology companies in the San Francisco Bay Area and elsewhere. Our human capital resources objectives, as described above, help us retain and motivate our existing employees, advisors and consultants, which is a key component of increasing stockholder value and the success of Rambus.
+We are an equal opportunity employer and are committed to maintaining an inclusive work environment. Our commitment to inclusion helps us attract and retain the best talent, enables employees to realize their full potential and drives high performance through innovation and collaboration. We strive to maintain a best-in-class work environment that fosters respect for all individuals, their ideas and contributions.
+Intellectual Property
+We maintain and support an active program to protect our IP, primarily through the filing of patent applications and the defense of issued patents against potential infringement. As of December 31, 2025, our semiconductor, security and other technologies are covered by 2,049 U.S. and foreign patents, with expiration dates ranging from 2026 to 2044. Additionally, we have 486 patent applications pending in various countries. Some of the patents and pending patent applications are derived from a common parent patent application or are foreign counterpart patent applications. We believe our patented innovations provide our customers with the ability to achieve improved performance, lower risk, greater cost-effectiveness and other benefits in their products and services. We intend to continue our innovation efforts and allocate significant investment in our IP development programs.
+We file applications for and obtain patents in the United States and in selected foreign countries where we believe filing for such protection is appropriate and would further our overall business strategy and objectives. In some instances, obtaining appropriate levels of protection may involve prosecuting continuation and counterpart patent applications based on a common parent application. In addition, we attempt to protect our trade secrets and other proprietary information through agreements with current and prospective customers, and confidentiality agreements with employees and consultants and other security measures. We also rely on copyright, trademarks and trade secret laws to protect our IP and other proprietary assets.
+Backlog
+Our sales of memory interface chips are generally made pursuant to short-term purchase orders. These purchase orders are made without deposits and may be, and often are, rescheduled, canceled or modified on relatively short notice, without substantial penalty. Therefore, we believe that purchase orders or backlog are not necessarily a reliable indicator of our future product sales.
+Corporate and Available Information
+Rambus Inc. was founded in 1990 and reincorporated in Delaware in March 1997. Our principal executive offices are located at 4453 North First Street, Suite 100, San Jose, California, 95134. Our website is
+www.rambus.com
+. We have used, and intend to continue to use, our investor relations website as a means of disclosing material non-public information and for complying with our disclosure obligations under Regulation FD. The inclusion of our website address in this report does not include or incorporate by reference into this report any information on our website. You can obtain copies of our Forms 10-K, 10-Q, 8-K and other filings with the SEC, and all amendments to these filings, free of charge, from our website as soon as reasonably practicable following our filing of any of these reports with the SEC. The SEC maintains a website that contains reports, proxy and information statements and other information regarding registrants that file electronically with the SEC at
+www.sec.gov
+. Further, the Company’s references to the URLs for these websites are intended to be inactive textual references only.
+
+ 
+7
+
+Table of Contents
+
+ 
+
+Information concerning our revenue, results of operations and revenue by geographic area is set forth in Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and in Note 7, “Segments and Major Customers,” of Notes to Consolidated Financial Statements of this Form 10-K, all of which are incorporated herein by reference. Information concerning identifiable assets and segment reporting is also set forth in Note 7, “Segments and Major Customers,” of Notes to Consolidated Financial Statements of this Form 10-K. Information on customers that comprise 10% or more of our consolidated revenue and risks attendant to our foreign operations is set forth below in Item 1A, “Risk Factors.”
+
+ 
+8
+
+Table of Contents
+
+ 
+
+Our Executive Officers
+Information regarding our current executive officers and their ages and positions is contained in the table below. Our executive officers are appointed by, and serve at the discretion of, our Board of Directors. There is no family relationship between any of our executive officers.
+
+Name
+
+ 
+
+Age
+
+ 
+
+Position and Business Experience
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Luc Seraphin
+
+ 
+
+62
+
+ 
+
+President & Chief Executive Officer. Mr. Seraphin has served as President & Chief Executive Officer since October 2018 and was interim Chief Executive Officer from June 2018 to October 2018. With over 30 years of experience managing global businesses, Mr. Seraphin brings the overall vision and leadership necessary to drive future growth for the company. Prior to this role, Mr. Seraphin was the Senior Vice President and General Manager of the Memory and Interface Division, leading the development of the company’s innovative memory architectures and high-speed serial link solutions. Mr. Seraphin also served as the Senior Vice President of Worldwide Sales and Operations where he oversaw sales, business development, customer support and operations across the various business units within Rambus.
+Mr. Seraphin started his career as a field application engineer at NEC and later joined AT&T Bell Labs, which became Lucent Technologies and Agere Systems (now Broadcom Inc.). During his 18 years at Agere, Mr. Seraphin held several senior positions in sales, marketing and general management, culminating in his last position as Executive Vice President and General Manager of the Wireless Business Unit. Following this, Mr. Seraphin held the position of General Manager of a GPS startup company in Switzerland and was Vice President of Worldwide Sales and Support at Sequans Communications. During his career, Mr. Seraphin has advised and supported companies in both the product and IP markets.
+Mr. Seraphin holds a bachelor’s degree in Mathematics and Physics and a master’s degree in Electrical Engineering from Ecole Superieure de Chimie, Physique, Electronique, based in Lyon, France where he majored in Computer Architecture. Mr. Seraphin also holds an MBA from the University of Hartford and has completed the senior executive program of Columbia University and the Stanford Directors’ Consortium.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Desmond Lynch
+
+ 
+
+46
+
+ 
+
+Chief Financial Officer. Mr. Lynch has served as Chief Financial Officer since August 2022, where he is responsible for the global finance organization, with responsibility for financial management, planning, tax, treasury, controls and reporting. Previously, he served as the Vice President of Finance for Rambus. On February 4, 2026, Mr. Lynch notified the Company that he is resigning, effective February 27, 2026.
+
+Prior to joining Rambus, Mr. Lynch served as Vice President of Finance at Renesas Electronics, a leading global semiconductor company, where he was the head of U.S. finance. Mr. Lynch has extensive semiconductor experience, including financial leadership roles at Integrated Device Technology, Atmel, Knowles Corporation and National Semiconductor.
+Mr. Lynch is a Chartered Accountant with the Institute of Chartered Accountants of Scotland and holds a bachelor’s degree in Accountancy and Finance from the University of Glasgow in Scotland.
+
+ 
+9
+
+Table of Contents
+
+ 
+
+Name
+
+ 
+
+Age
+
+ 
+
+Position and Business Experience
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Sean Fan
+
+ 
+
+60
+
+ 
+
+Executive Vice President, Chief Operating Officer. Mr. Fan has served as the Executive Vice President, Chief Operating Officer since November 2024 and as the Senior Vice President, Chief Operating Officer since August 2019.
+
+Prior to Rambus, from March 2019 to June 2019, he served as Corporate Vice President and General Manager at Renesas Electronics Corporation, a premier supplier of advanced semiconductor solutions, responsible for the data center business unit with full profit and loss responsibilities. Prior to his role at Renesas, Mr. Fan was Senior Vice President and Corporate General Manager of the Computing and Communications Group at Integrated Device Technology, Inc. (“IDT”), a leading supplier of analog mixed-signal products including sensors, connectivity and wireless power, from May 2017 until March 2019 when IDT was acquired by Renesas Electronics Corporation. Mr. Fan joined IDT in 1999 and held various management roles at IDT, including Vice President and General Manager of the Computing and Communications Division, Vice President and General Manager of the Interface Connectivity Division, Vice President of China Operations, Vice President and General Manager of the Memory Interface Division, General Manager of Standard Product Operations and Senior Director of Silicon Timing Solutions. Prior to joining IDT, Mr. Fan served in various engineering and management roles with Lucent Microelectronics, Mitel Semiconductor and the National Lab of Telecom Research in China.
+
+Mr. Fan holds a master’s degree in Computer Engineering from the University of Cincinnati where he also conducted a PhD program study in Computer and Electrical Engineering. He also holds a bachelor's degree in Computer Engineering and Telecommunications from the Beijing University of Posts & Telecom. He continued his executive management education at Stanford University and the Wharton School of Business.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+John Shinn
+
+ 
+
+57
+
+ 
+
+Senior Vice President, General Counsel, Corporate Secretary and Chief Compliance Officer. Mr. Shinn has served as the Senior Vice President, General Counsel, Corporate Secretary and Chief Compliance Officer since February 2021 and as our Vice President, Deputy General Counsel since October 2016.
+Prior to Rambus, Mr. Shinn was Vice President and General Counsel at Toptal, LLC, a global remote company that provides a freelancing platform, connecting businesses with software engineers, designers, finance experts, product managers and project managers, from February 2016 until October 2016, where he was responsible for all aspects of the corporate legal function, including corporate governance, regulatory compliance, commercial transactions, intellectual property matters and employment law. From February 2015 to January 2016, Mr. Shinn served as the Vice President of Legal at Tanium, Inc., an enterprise software company at the forefront of security and systems management, where he was responsible for all aspects of the company legal function, including commercial licensing, partnership and vendor contracts, new hire and employment matters, sales compensation plan design and corporate legal matters. Prior to February 2015, Mr. Shinn held the position of Sr. Director of Legal, Commercial Transactions at Brocade Communication Systems, Inc. Mr. Shinn has also worked in private practice with the law firm of Wilson Sonsini Goodrich & Rosati, advising high tech and emerging growth companies on technology transactions and mergers and acquisitions. Mr. Shinn began his legal career as a litigation attorney with a boutique intellectual property and securities litigation law firm in San Jose.
+Mr. Shinn is a member of the State Bar of California and received his J.D. from Santa Clara University and his bachelor’s degree in American and European History from Stanford University.
+
+ 
+10
+
+Table of Contents

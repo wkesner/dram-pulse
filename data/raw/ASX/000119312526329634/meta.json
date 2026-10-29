@@ -1,0 +1,28 @@
+{
+  "company": "ASE Technology",
+  "ticker": "ASX",
+  "cik": "0001122411",
+  "form": "6-K",
+  "filing_date": "2026-08-03",
+  "accession_number": "0001193125-26-329634",
+  "primary_document": "d174900d6k.htm",
+  "primary_doc_description": "FORM 6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526329634/d174900d6k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-03",
+  "period_end": "2026-08-03",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:05.232866+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ASX/000119312526329634/primary.html",
+    "other": "data/raw/ASX/000119312526329634/other_full.txt"
+  }
+}

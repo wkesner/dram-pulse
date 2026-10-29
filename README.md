@@ -2,6 +2,30 @@
 
 Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
 
+## Remotes (Origin + GitHub)
+
+- **`origin`** — Cursor Origin (`origin.cursor.com/git/william-kesner/dram-pulse`) — primary.
+- **`github`** — public mirror (`https://github.com/wkesner/dram-pulse.git`).
+
+Until GitHub credentials are available on the worker, push both explicitly:
+
+```bash
+git push -u origin HEAD
+git push -u github HEAD
+```
+
+After `gh auth login` (or a PAT in the credential helper), you can enable dual-push so one `git push origin` updates both:
+
+```bash
+ORIGIN_URL=$(git remote get-url --push origin)   # keep existing Origin URL
+git remote set-url --push --add origin "$ORIGIN_URL"
+git remote set-url --push --add origin https://github.com/wkesner/dram-pulse.git
+# Do not enable this until `git push github HEAD` succeeds — a failing GitHub
+# push URL makes the whole `git push origin` fail.
+```
+
+Never commit `.env` or API keys.
+
 ## Milestone 1 — Micron EDGAR 10-K
 
 Fetch Micron's latest 10-K from SEC EDGAR, cache it under `data/raw/`, and split Item 1 (Business), Item 1A (Risk Factors), and Item 7 (MD&A). Full plain text is kept as `other`.
@@ -78,6 +102,36 @@ python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
+## Multi-org demo (Clerk)
+
+Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
+
+For the multi-org demo, prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
+
+```bash
+npx -y clerk@latest auth login
+npx -y clerk@latest apps list --json          # if several apps, pick one id
+npx -y clerk@latest link --app <application_id>
+npx -y clerk@latest env pull --file .env      # publishable + secret only
+npx -y clerk@latest enable orgs
+# then ensure:
+#   AUTH_MODE=clerk
+#   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
+#   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
+#   OPERATOR_TOKEN=…   # optional
+```
+
+Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.
+
+```bash
+pip install -r requirements.txt
+python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+```
+
+Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
+
+Isolation tests: `pytest tests/test_clerk_isolation.py`.
+
 ## Milestone 5 — OpenDART + Samsung IR
 
 Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
@@ -95,6 +149,14 @@ python3 -m src.verify              # must be 100%
 ```
 
 `document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
+
+**English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
+
+```bash
+python3 -m src.translate_excerpts   # downloads ko→en package on first run
+```
+
+Feed cards with `language != en` (and a non-empty `excerpt_en`) show **Show English** / **Original**. English rows leave `excerpt_en` blank. Re-extract preserves existing translations by `signal_id`.
 
 ---
 

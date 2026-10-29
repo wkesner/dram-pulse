@@ -1,0 +1,34 @@
+{
+  "company": "Intel",
+  "ticker": "INTC",
+  "cik": "0000050863",
+  "form": "8-K",
+  "filing_date": "2025-11-12",
+  "accession_number": "0000050863-25-000194",
+  "primary_document": "intc-20251110.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000194/intc-20251110.htm",
+  "fiscal_year_end": "1227",
+  "report_date": "2025-11-10",
+  "period_end": "2025-11-10",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:52:51.248042+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "a11102025ex99-1pressrelease.htm",
+      "path": "data/raw/INTC/000005086325000194/exhibit_99_a11102025ex99-1pressrelease.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000194/a11102025ex99-1pressrelease.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/INTC/000005086325000194/primary.html",
+    "other": "data/raw/INTC/000005086325000194/other_full.txt"
+  }
+}

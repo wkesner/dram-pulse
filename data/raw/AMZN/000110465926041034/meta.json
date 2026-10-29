@@ -1,0 +1,39 @@
+{
+  "company": "Amazon",
+  "ticker": "AMZN",
+  "cik": "0001018724",
+  "form": "8-K",
+  "filing_date": "2026-04-09",
+  "accession_number": "0001104659-26-041034",
+  "primary_document": "tm263815d2_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d2_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-04-09",
+  "period_end": "2026-04-09",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:53:06.667913+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "tm263815d3_ex99-1.htm",
+      "path": "data/raw/AMZN/000110465926041034/exhibit_99_tm263815d3_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-1.htm"
+    },
+    {
+      "name": "tm263815d3_ex99-2.htm",
+      "path": "data/raw/AMZN/000110465926041034/exhibit_99_tm263815d3_ex99-2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AMZN/000110465926041034/primary.html",
+    "other": "data/raw/AMZN/000110465926041034/other_full.txt"
+  }
+}

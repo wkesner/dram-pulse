@@ -1,0 +1,34 @@
+{
+  "company": "Microchip",
+  "ticker": "MCHP",
+  "cik": "0000827054",
+  "form": "8-K",
+  "filing_date": "2026-01-05",
+  "accession_number": "0000827054-26-000002",
+  "primary_document": "mchp-20260105.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000002/mchp-20260105.htm",
+  "fiscal_year_end": "0331",
+  "report_date": "2026-01-05",
+  "period_end": "2026-01-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:25.217914+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex991.htm",
+      "path": "data/raw/MCHP/000082705426000002/exhibit_99_ex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000002/ex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/MCHP/000082705426000002/primary.html",
+    "other": "data/raw/MCHP/000082705426000002/other_full.txt"
+  }
+}

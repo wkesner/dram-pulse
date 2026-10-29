@@ -39,7 +39,7 @@ from src.fetch_edgar import (
     window_bounds,
 )
 
-EXTRACTOR_VERSION = "0.3.0"
+EXTRACTOR_VERSION = "0.3.1"
 SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 
 SECTION_FILES = {
@@ -991,6 +991,64 @@ def backfill_period_ends(
                 meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
 
 
+def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
+    """Keep prior English translations across extract rebuilds (stable signal_id)."""
+    if not signals_path.is_file() or signals_path.stat().st_size == 0:
+        return {}
+    out: dict[str, str] = {}
+    with signals_path.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh):
+            sid = (row.get("signal_id") or "").strip()
+            en = (row.get("excerpt_en") or "").strip()
+            if sid and en:
+                out[sid] = en
+    return out
+
+
+def _merge_excerpt_en(
+    signals: list[dict[str, Any]], prior: dict[str, str]
+) -> list[dict[str, Any]]:
+    for row in signals:
+        lang = (row.get("language") or "en").strip().lower()
+        if lang in {"", "en", "english"}:
+            row["excerpt_en"] = ""
+            continue
+        sid = row.get("signal_id") or ""
+        existing = (row.get("excerpt_en") or "").strip()
+        if not existing and sid in prior:
+            row["excerpt_en"] = prior[sid]
+        elif "excerpt_en" not in row:
+            row["excerpt_en"] = ""
+    return signals
+
+
+def _enrich_candidate_excerpt_en(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Attach excerpt_en on Korean candidates so cross-source dedupe can match."""
+    need = [
+        c
+        for c in candidates
+        if (c.get("language") or "en").lower() in {"ko", "korean"}
+        and not (c.get("excerpt_en") or "").strip()
+        and (c.get("excerpt") or "").strip()
+    ]
+    if not need:
+        return candidates
+    try:
+        from src.translate_excerpts import _ensure_argos_ko_en, translate_text
+    except Exception:
+        return candidates
+    try:
+        _ensure_argos_ko_en(install=True)
+    except SystemExit:
+        return candidates
+    for c in need:
+        try:
+            c["excerpt_en"] = translate_text(c.get("excerpt") or "", source="ko", target="en")
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: excerpt_en enrich failed: {exc}", file=sys.stderr)
+    return candidates
+
+
 def finalize_candidates(
     candidates: list[dict[str, Any]],
     *,
@@ -1000,6 +1058,9 @@ def finalize_candidates(
     rebuild_sightings: bool = True,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
+    prior_en = _prior_excerpt_en_by_id(signals_path)
+    # Cross-source DART↔EDGAR near-match compares excerpt_en to English excerpts.
+    candidates = _enrich_candidate_excerpt_en(list(candidates))
     signals, sightings = dedupe(candidates, prior_year_norms=prior_year_norms)
 
     if rebuild_sightings:
@@ -1023,6 +1084,7 @@ def finalize_candidates(
             all_sightings, prior_year_norms=prior_year_norms
         )
 
+    signals = _merge_excerpt_en(signals, prior_en)
     write_signals_csv(signals_path, signals)
     return signals, sightings
 

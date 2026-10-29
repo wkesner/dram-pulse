@@ -1,0 +1,28 @@
+{
+  "company": "UMC",
+  "ticker": "UMC",
+  "cik": "0001033767",
+  "form": "6-K",
+  "filing_date": "2026-10-06",
+  "accession_number": "0001193125-26-414888",
+  "primary_document": "6k_on_10062026.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1033767/000119312526414888/6k_on_10062026.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-10-06",
+  "period_end": "2026-10-06",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:52:47.047237+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/UMC/000119312526414888/primary.html",
+    "other": "data/raw/UMC/000119312526414888/other_full.txt"
+  }
+}

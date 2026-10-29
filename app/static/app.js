@@ -28,6 +28,16 @@
     return e;
   };
   const label = (f) => String(f || "").replace(/_/g, " ");
+  // Corpus stores easing; UI may say "loosening" — same value.
+  const DIRECTION_LABELS = {
+    tightening: "Tightening",
+    easing: "Easing (loosening)",
+    stable: "Stable",
+    unclear: "Unclear",
+  };
+  const DIRECTION_ORDER = ["tightening", "easing", "stable", "unclear"];
+  const directionLabel = (d) =>
+    DIRECTION_LABELS[String(d || "").toLowerCase()] || label(d);
 
   // Text-fragment link: first five words, last five words (Chrome #:~:text=).
   const fragment = (text) => {
@@ -184,6 +194,43 @@
     });
   }
 
+  function optionLabel(field, value) {
+    if (field === "supply_direction") return directionLabel(value);
+    if (field === "product_family") return label(value);
+    return String(value);
+  }
+
+  function filterValues(field) {
+    const present = [
+      ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
+    ];
+    if (field !== "supply_direction") {
+      return present.sort((a, b) => String(a).localeCompare(String(b)));
+    }
+    // Always expose Tightening + Easing (loosening) first, even if count is 0.
+    const rest = present
+      .filter((v) => !DIRECTION_ORDER.includes(v))
+      .sort((a, b) => String(a).localeCompare(String(b)));
+    const ordered = DIRECTION_ORDER.filter(
+      (v) => present.includes(v) || v === "tightening" || v === "easing"
+    );
+    return [...ordered, ...rest];
+  }
+
+  function activePanel() {
+    if (!$("#view-feed")?.hidden) return "feed";
+    if (!$("#view-map")?.hidden) return "map";
+    if (!$("#view-families")?.hidden) return "families";
+    return "feed";
+  }
+
+  function refreshActiveView() {
+    const view = activePanel();
+    if (view === "map") renderMap();
+    else if (view === "families") renderFamilies();
+    else renderFeed();
+  }
+
   function fillFilters() {
     for (const [id, field, all] of FILTERS) {
       const sel = $("#f-" + id);
@@ -191,18 +238,13 @@
       const prev = sel.value;
       sel.replaceChildren();
       sel.append(new Option(all, ""));
-      const values = [
-        ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
-      ].sort((a, b) => String(a).localeCompare(String(b)));
-      for (const v of values) {
-        sel.append(
-          new Option(field === "product_family" ? label(v) : v, v)
-        );
+      for (const v of filterValues(field)) {
+        sel.append(new Option(optionLabel(field, v), v));
       }
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
         skipped = new Set();
-        renderFeed();
+        refreshActiveView();
       };
     }
   }
@@ -215,7 +257,7 @@
         if (sel) sel.value = "";
       }
       skipped = new Set();
-      renderFeed();
+      refreshActiveView();
     });
   }
 
@@ -240,13 +282,16 @@
     return frag;
   }
 
-  function queue() {
-    const user = (userIn?.value || "").trim();
-    const pass = (s) =>
+  function railFilteredSignals() {
+    return SIGNALS.filter((s) =>
       FILTERS.every(
         ([id, field]) => !$("#f-" + id)?.value || s[field] === $("#f-" + id).value
-      );
-    return SIGNALS.filter(pass)
+      )
+    );
+  }
+
+  function queue() {
+    return railFilteredSignals()
       .filter((s) => !skipped.has(s.signal_id))
       .sort(
         (a, b) =>
@@ -256,15 +301,38 @@
       );
   }
 
+  function isClerkMode() {
+    return window.__msAuth?.mode === "clerk";
+  }
+
+  function currentUserLabel() {
+    if (isClerkMode()) {
+      return window.__msAuth?.displayName || window.__msAuth?.userId || "";
+    }
+    return (userIn?.value || "").trim();
+  }
+
+  function apiHeaders(extra) {
+    const h = { ...(extra || {}) };
+    if (window.msClerk?.authHeaders) {
+      Object.assign(h, window.msClerk.authHeaders());
+    }
+    return h;
+  }
+
   async function castVote(s, v) {
-    const user = (userIn?.value || "").trim();
-    if (!user) {
+    const user = currentUserLabel();
+    if (!isClerkMode() && !user) {
       userIn?.focus();
+      return;
+    }
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      console.warn("select an organization before voting");
       return;
     }
     const resp = await fetch("/api/votes", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: apiHeaders({ "Content-Type": "application/json" }),
       body: JSON.stringify({ signal_id: s.signal_id, user, vote: v }),
     });
     if (!resp.ok) {
@@ -279,7 +347,10 @@
   }
 
   function buildCard(s) {
-    const user = (userIn?.value || "").trim();
+    const user = currentUserLabel();
+    const canVote = isClerkMode()
+      ? Boolean(window.__msAuth?.orgId && window.__msAuth?.sessionToken)
+      : Boolean(user);
     const sightings = s.sightings || [];
     const firstLink = primarySighting(s);
     const mine = userVotes[s.signal_id];
@@ -303,7 +374,11 @@
 
     const chips = el("div", "chips");
     chips.append(
-      el("span", `chip ${s.supply_direction}`, s.supply_direction),
+      el(
+        "span",
+        `chip ${s.supply_direction}`,
+        directionLabel(s.supply_direction)
+      ),
       el("span", "chip", label(s.product_family)),
       el("span", "chip", `tone: ${s.sentiment}`)
     );
@@ -312,10 +387,36 @@
       .split(";")
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
+    const lang = String(s.language || "en").toLowerCase();
+    const excerptEn = String(s.excerpt_en || "").trim();
+    const canTranslate =
+      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    let showEnglish = false;
     const ex = el("p", "excerpt");
-    ex.append(highlight(s.excerpt || "", terms));
+    const paintExcerpt = () => {
+      ex.replaceChildren();
+      const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
+      // Highlight only on original language (matched_terms are source-language).
+      if (showEnglish && excerptEn) ex.append(text);
+      else ex.append(highlight(text, terms));
+    };
+    paintExcerpt();
 
     const find = el("div", "find");
+    if (canTranslate) {
+      const tog = el("button", "lang-toggle", "Show English");
+      tog.type = "button";
+      tog.setAttribute("aria-pressed", "false");
+      tog.title = "Machine translation (Argos); original excerpt is unchanged";
+      tog.addEventListener("click", () => {
+        showEnglish = !showEnglish;
+        tog.textContent = showEnglish ? "Original" : "Show English";
+        tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        paintExcerpt();
+      });
+      find.append(tog);
+      chips.append(el("span", "chip lang", lang));
+    }
     const open = el("a", null, "Open filing at this passage");
     open.href =
       (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
@@ -378,7 +479,7 @@
       if (count != null) b.append(el("span", "n", String(count)));
       if (v != null) {
         b.setAttribute("aria-pressed", String(mine === v));
-        b.disabled = !user;
+        b.disabled = !canVote;
         b.addEventListener("click", () => castVote(s, v));
       }
       return b;
@@ -393,8 +494,16 @@
       mk("down", "👎", "Not useful", t.down, -1),
       skip
     );
-    if (!user) {
-      actions.append(el("span", "hint", "Type your name above to vote."));
+    if (!canVote) {
+      actions.append(
+        el(
+          "span",
+          "hint",
+          isClerkMode()
+            ? "Sign in and select an organization to vote."
+            : "Type your name above to vote."
+        )
+      );
     }
 
     card.append(meta, chips, ex, find, det, actions);
@@ -436,8 +545,15 @@
   }
 
   async function loadUserVotes() {
-    const user = (userIn?.value || "").trim();
     userVotes = {};
+    if (isClerkMode()) {
+      if (!window.__msAuth?.orgId || !window.__msAuth?.sessionToken) return;
+      const resp = await fetch("/api/votes", { headers: apiHeaders() });
+      if (!resp.ok) return;
+      userVotes = await resp.json();
+      return;
+    }
+    const user = (userIn?.value || "").trim();
     if (!user) return;
     const resp = await fetch(`/api/votes?user=${encodeURIComponent(user)}`);
     if (!resp.ok) return;
@@ -445,7 +561,12 @@
   }
 
   async function loadSignals({ keepFilters = false } = {}) {
-    const resp = await fetch("/api/signals");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      SIGNALS = [];
+      fillFilters();
+      return;
+    }
+    const resp = await fetch("/api/signals", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`signals ${resp.status}`);
     SIGNALS = await resp.json();
     if (!keepFilters) fillFilters();
@@ -465,9 +586,16 @@
     if (win) win.textContent = lookbackWindow();
     if (!body) return;
     body.replaceChildren();
-    if (!SIGNALS.length) {
+    const scoped = railFilteredSignals();
+    if (!scoped.length) {
       const tr = el("tr");
-      const td = el("td", null, "No signals loaded.");
+      const td = el(
+        "td",
+        null,
+        SIGNALS.length
+          ? "No signals match these filters. Clear a filter to see more."
+          : "No signals loaded."
+      );
       td.colSpan = 7;
       tr.append(td);
       body.append(tr);
@@ -475,7 +603,7 @@
     }
 
     const fams = new Map();
-    for (const s of SIGNALS) {
+    for (const s of scoped) {
       const key = s.product_family || "(unknown)";
       const f =
         fams.get(key) || {
@@ -562,7 +690,11 @@
   let META_NOTES = null;
 
   async function loadMeta() {
-    const resp = await fetch("/api/meta");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      META_NOTES = null;
+      return null;
+    }
+    const resp = await fetch("/api/meta", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`meta ${resp.status}`);
     const data = await resp.json();
     META_NOTES = data.notes || null;
@@ -597,17 +729,17 @@
   });
 
   function signalsInMapView() {
-    return SIGNALS.filter((s) => {
+    return railFilteredSignals().filter((s) => {
       if (leaveOutRisk && (s.section || "") === "risk_factors") return false;
       if (mapFamily && s.product_family !== mapFamily) return false;
       return true;
     });
   }
 
-  /** Flatten sightings for month chart; apply risk + family filters. */
+  /** Flatten sightings for month chart; apply rail + risk + family filters. */
   function sightingsInMapView() {
     const out = [];
-    for (const s of SIGNALS) {
+    for (const s of railFilteredSignals()) {
       if (mapFamily && s.product_family !== mapFamily) continue;
       const list = s.sightings || [];
       if (!list.length) {
@@ -700,8 +832,8 @@
       );
     }
 
-    // Family chart — always show all families in current risk-filter (dim non-selected)
-    const famSource = SIGNALS.filter(
+    // Family chart — rail filters + optional risk leave-out (dim non-selected)
+    const famSource = railFilteredSignals().filter(
       (s) => !(leaveOutRisk && (s.section || "") === "risk_factors")
     );
     const fams = new Map();
@@ -830,6 +962,8 @@
     latest,
     highlight,
     label,
+    directionLabel,
+    railFilteredSignals,
     renderFeed,
     renderCard,
     renderFamilies,
@@ -849,16 +983,38 @@
     }),
   };
 
+  async function bootApp() {
+    await loadSignals();
+    await loadUserVotes();
+    await loadMeta();
+    renderFeed();
+    renderFamilies();
+    renderDataNotes();
+    if (location.hash === "#families") showTab("families");
+    else if (location.hash === "#map") showTab("map");
+  }
+
+  window.__msOnAuthChange = async () => {
+    skipped = new Set();
+    try {
+      if (isClerkMode() && window.__msAuth?.orgId) {
+        await fetch("/api/orgs/bootstrap", {
+          method: "POST",
+          headers: apiHeaders(),
+        });
+      }
+      await bootApp();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   (async () => {
     try {
-      await loadSignals();
-      await loadUserVotes();
-      await loadMeta();
-      renderFeed();
-      renderFamilies();
-      renderDataNotes();
-      if (location.hash === "#families") showTab("families");
-      else if (location.hash === "#map") showTab("map");
+      if (window.msClerk?.init) {
+        await window.msClerk.init();
+      }
+      await bootApp();
     } catch (err) {
       console.error(err);
       const stack = $("#feed-stack");

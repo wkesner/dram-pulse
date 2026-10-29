@@ -1,0 +1,28 @@
+{
+  "company": "STMicroelectronics",
+  "ticker": "STM",
+  "cik": "0000932787",
+  "form": "6-K",
+  "filing_date": "2026-06-16",
+  "accession_number": "0000947871-26-000630",
+  "primary_document": "ss6463904_6k.htm",
+  "primary_doc_description": "REPORT OF FOREIGN PRIVATE ISSUER",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/932787/000094787126000630/ss6463904_6k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-06-16",
+  "period_end": "2026-06-16",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:34.671305+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/STM/000094787126000630/primary.html",
+    "other": "data/raw/STM/000094787126000630/other_full.txt"
+  }
+}

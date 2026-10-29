@@ -1,0 +1,1027 @@
+Item 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations
+Management’s Discussion and Analysis (MD&A) should be read in conjunction with our Consolidated Financial Statements and Notes and the MD&A in our Annual Report on Form 10-K for the year ended 
+December 31, 2024
+, and the Financial Statements and the related Notes that appear elsewhere in this document.
+Overview
+Quarterly Financial Highlights
+•
+Revenue was $3,173 million, down 2.4% year-on-year;
+•
+GAAP gross margin was 56.3%, and GAAP operating margin was 28.1%;
+•
+Non-GAAP gross margin was 57.0%, and non-GAAP operating margin was 33.8%;
+•
+Cash flow from operations was $585 million, with net capital expenditures on property, plant and equipment of $76 million, resulting in non-GAAP free cash flow of $509 million;
+•
+During the third quarter of 2025, NXP returned capital to shareholders with the payment of $256 million in cash dividends and the repurchase of $54 million of its common shares, for a total capital return of $310 million.
+On October 24, 2025, NXP closed the previously announced acquisition of 100% of Aviva Links for $243 million in cash, before closing adjustments. Aviva Links is a provider of Automotive SerDes Alliance (ASA) compliant in-vehicle connectivity solutions. The Aviva Links acquisition complements and expands NXP’s automotive networking solutions in the Automotive and Industrial & IoT end markets. We are currently evaluating the purchase price allocation for this transaction and expect to have our preliminary allocation completed in the fourth quarter of 2025.
+On October 27, 2025, NXP closed the previously announced acquisition of 100% of Kinara, Inc. for $307 million in cash, before closing adjustments. Kinara is an industry leader in high performance, energy-efficient and programmable discrete neural processing units (NPUs). The Kinara acquisition complements and expands NXP’s solutions for AI-powered edge systems in the Industrial & IoT and Automotive end markets. We are currently evaluating the purchase price allocation for this transaction and expect to have our preliminary allocation completed in the fourth quarter of 2025.
+See Note 3 to the consolidated financial statements for further information regarding NXP’s acquisition of TTTech Auto (acquired in Q2), Aviva Links, and Kinara, Inc.
+Following the previous announcement on April 28, 2025, Kurt Sievers has voluntarily retired as CEO and executive director of the Company effective October 28, 2025. The Company’s Board of Directors has unanimously appointed Rafael Sotomayor to succeed Mr. Sievers as President and CEO and temporary executive director of the Company effective as of October 28, 2025.
+21
+Sequential Results
+Q3 2025 compared to Q2 2025
+Revenue for the three months ended September 28, 2025 was $3,173 million compared to $2,926 million for the three months ended June 29, 2025, an increase of $247 million or 8.4% quarter-on-quarter, in line with management's expectations. Within our end markets, the Automotive end market increased $108 million or 6.2%, the Mobile end market increased $99 million or 29.9%, the Industrial & IoT end market increased $33 million or 6.0%, and the Communication Infrastructure & Other end market increased $7 million or 2.2%.
+When aggregating all end markets together and reviewing sales channel performance, revenues through NXP's third party distribution partners was $1,866 million, an increase of $230 million or 14.1% compared to the previous period. Revenues through NXP's third party direct OEM and EMS customers was $1,269 million, an increase of $12 million or 1.0% versus the previous period.
+From a geographic perspective, revenue increased quarter-on-quarter in the China region by 13.0%, in the Americas region by 11.2%, in the Asia Pacific region by 7.7%, and in the EMEA region by 0.4%.
+Our gross profit percentage for the three months ended September 28, 2025 of 56.3% increased compared with 53.4% for the three months ended June 29, 2025, driven mainly by lower restructuring costs.
+Operating income for the three months ended September 28, 2025 was $893 million compared to $687 million for the three months ended June 29, 2025, an increase of $206 million or 30.0%. The sequential increase was mainly driven by higher revenue.
+22
+Results of operations
+The following table presents operating results for each of the three- and nine-month periods ended September 28, 2025 and September 29, 2024, respectively:
+($ in millions, unless otherwise stated)
+Q3 2025
+% of Revenue
+Q3 2024
+% of Revenue
+YTD 2025
+% of Revenue
+YTD 2024
+% of Revenue
+Revenue
+3,173 
+3,250 
+8,934 
+9,503 
+% nominal growth
+(2.4)
+(5.4)
+(6.0)
+(3.6)
+Gross profit
+1,787 
+1,866 
+4,909 
+5,441 
+Gross margin
+56.3 
+%
+57.4 
+%
+54.9 
+%
+57.3 
+%
+Research and development
+(575)
+18.1 
+%
+(577)
+17.8 
+%
+(1,695)
+19.0 
+%
+(1,735)
+18.3 
+%
+Selling, general and administrative
+(286)
+9.0 
+%
+(265)
+8.2 
+%
+(845)
+9.5 
+%
+(841)
+8.8 
+%
+Amortization of acquisition-related intangible assets
+(31)
+1.0 
+%
+(29)
+0.9 
+%
+(83)
+0.9 
+%
+(108)
+1.1 
+%
+Other income (expense)
+(2)
+0.1 
+%
+(5)
+0.2 
+%
+17 
+0.2 
+%
+(15)
+0.2 
+%
+Operating income (loss)
+893 
+28.1 
+%
+990 
+30.5 
+%
+2,303 
+25.8 
+%
+2,742 
+28.9 
+%
+Financial income (expense)
+(98)
+3.1 
+%
+(82)
+2.5 
+%
+(276)
+3.1 
+%
+(227)
+2.4 
+%
+Benefit (provision) for income taxes
+(148)
+4.7 
+%
+(173)
+5.3 
+%
+(394)
+4.4 
+%
+(468)
+4.9 
+%
+Results relating to equity-accounted investees
+(1)
+— 
+%
+(6)
+0.2 
+%
+(33)
+0.4 
+%
+(10)
+0.1 
+%
+Net income (loss)
+646 
+20.4 
+%
+729 
+22.4 
+%
+1,600 
+17.9 
+%
+2,037 
+21.4 
+%
+Less: Net income (loss) attributable to non-controlling interests
+15 
+0.5 
+%
+11 
+0.3 
+%
+34 
+0.4 
+%
+22 
+0.2 
+%
+Net income (loss) attributable to stockholders
+631 
+19.9 
+%
+718 
+22.1 
+%
+1,566 
+17.5 
+%
+2,015 
+21.2 
+%
+Diluted earnings per share
+2.48 
+2.79 
+6.16 
+7.80 
+23
+Revenue
+Q3 2025 Overview
+Q3 2025 compared to Q3 2024
+Revenue for the three months ended September 28, 2025 was $3,173 million compared to $3,250 million for the three months ended September 29, 2024,
+
+a decrease of $77 million or 2.4%, in line with management’s expectations.
+YTD 2025 Overview
+YTD 2025 compared to YTD 2024
+Revenue for the nine months ended September 28, 2025 was $8,934 million compared to $9,503 million for the nine months ended September 29, 2024, a decrease of $569 million or 6.0%.
+24
+Revenue by end market was as follows:
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+Automotive
+1,837 
+1,829 
+0.4 
+%
+5,240 
+5,361 
+(2.3)
+%
+Industrial & IoT
+579 
+563 
+2.8 
+%
+1,633 
+1,753 
+(6.8)
+%
+Mobile
+430 
+407 
+5.7 
+%
+1,099 
+1,101 
+(0.2)
+%
+Communication Infrastructure & Other
+327 
+451 
+(27.5)
+%
+962 
+1,288 
+(25.3)
+%
+Total Revenue
+3,173 
+3,250 
+(2.4)
+%
+8,934 
+9,503 
+(6.0)
+%
+Revenue by sales channel was as follows:
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+Distributors
+1,866 
+1,897 
+(1.6)
+%
+5,026 
+5,440 
+(7.6)
+%
+OEM/EMS
+1,269 
+1,321 
+(3.9)
+%
+3,810 
+3,970 
+(4.0)
+%
+Other
+38 
+32 
+18.8 
+%
+98 
+93 
+5.4 
+%
+Total Revenue
+3,173 
+3,250 
+(2.4)
+%
+8,934 
+9,503 
+(6.0)
+%
+Revenue by geographic region, which is based on the customer’s shipped-to location was as follows:
+
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+China
+1)
+1,229 
+1,203 
+2.2 
+%
+3,351 
+3,315 
+1.1 
+%
+APAC, excluding China
+851 
+845 
+0.7 
+%
+2,389 
+2,653 
+(10.0)
+%
+EMEA (Europe, the Middle East and Africa)
+677 
+719 
+(5.8)
+%
+1,994 
+2,138 
+(6.7)
+%
+Americas
+416 
+483 
+(13.9)
+%
+1,200 
+1,397 
+(14.1)
+%
+Total Revenue
+3,173 
+3,250 
+(2.4)
+%
+8,934 
+9,503 
+(6.0)
+%
+1)
+ China includes Mainland China and Hong Kong
+Q3 2025 compared to Q3 2024
+From an end market perspective, NXP experienced growth in its Mobile, Industrial & IoT, and Automotive end markets, which was offset by a decline in the Communication Infrastructure & Other end market versus the year ago period.
+Revenue in the Automotive end market was $1,837 million, an increase of $8 million or 0.4% versus the year-ago period. The increase in the Automotive end market revenue was attributable to growth in our advanced analog products, which were offset by declines in our ADAS – Safety products and automotive processors.
+Revenue in the Industrial & IoT end market was $579 million, an increase of $16 million or 2.8% versus the year-ago period. The increase in the Industrial & IoT end market revenue was attributable to growth in our advanced analog, connectivity, and security products, which were offset by declines in our processors portfolio.
+Revenue in the Mobile end market was $430 million, an increase of $23 million or 5.7% versus the year ago period. The increase in the Mobile end market revenue was attributable to growth in our advanced analog products, which were offset by declines in our mobile wallet processors.
+Revenue in the Communication Infrastructure & Other end market was $327 million, a decrease of $124 million or 27.5% versus the year ago period. The decrease in the Communication Infrastructure & Other end market revenue was attributable to declines in our processors, secure cards, and RF power products.
+When aggregating all end markets together and reviewing sales channel performance, revenues through NXP’s third party distribution partners was $1,866 million, a decrease of 1.6% versus the year-ago period. Revenues through direct OEM and EMS customers was $1,269 million, a decrease of 3.9% versus the year ago period.
+From a geographic perspective, revenue increased year-on-year in the China region by 2.2% and in the Asia Pacific region by 0.7%, while revenue decreased in the Americas region by 13.9% and in the EMEA region by 5.8%.
+YTD 2025 compared to YTD 2024
+From an end market perspective, NXP experienced consistent revenue in its Mobile end market, which was offset by declines in the Automotive, Industrial & IoT, and Communication Infrastructure & Other end markets versus the year ago period.
+25
+Revenue in the Automotive end market was $5,240 million, a decrease of $121 million or 2.3% versus the year ago period. The decrease in the Automotive end market revenue was attributable to declines in our automotive processors and advanced analog portfolio, which were offset by growth in our ADAS – Safety products.
+Revenue in the Industrial & IoT end market was $1,633 million, a decrease of $120 million or 6.8% versus the year ago period. Within the Industrial & IoT end market, the decrease was primarily attributable to our processors portfolio.
+Revenue in the Mobile end market was $1,099 million, consistent with the year ago period.
+Revenue in the Communication Infrastructure & Other end market was $962 million, a decrease of $326 million or 25.3% versus the year ago period. The decrease in the Communication Infrastructure & Other end market was attributable to declines in our processors, secure cards, and RF power products.
+When aggregating all end markets together, and reviewing sales channel performance, revenues through NXP’s third party distribution partners was $5,026 million, a decrease of 7.6% versus the year-ago period. Revenues through direct OEM and EMS customers was $3,810 million, a decrease of 4.0% versus the year ago period.
+From a geographic perspective, revenue increased year-on-year in the China region by 1.1%, while revenue decreased in the Americas region by 14.1%, in the Asia Pacific region by 10.0%, and in the EMEA region by 6.7%.
+Gross profit
+Q3 2025 compared to Q3 2024
+Gross profit for the three months ended September 28, 2025 was $1,787 million, or 56.3% of revenue, compared to $1,866 million, or 57.4% of revenue for the t
+hree months ended September 29, 2024.
+The decrease in gross margin is primarily due to price and unfavorable product mix.
+YTD 2025 compared to YTD 2024
+Gross profit for the
+nine
+ months ended
+September 28, 2025 was $4,909 million, or 54.9% of revenue, compared to $5,441 million, or 57.3% of revenue for the nine months ended
+September 29, 2024.
+The decrease in gross margin is primarily due to price and unfavorable product mix.
+Operating expenses
+Q3 2025 compared to Q3 2024
+Operating expenses for the three months ended September 28, 2025 totaled $892 million, or 28.1% of revenue, compared to $871 million, or 26.8% of revenue for the three months ended September 29, 2024.
+YTD 2025 compared to YTD 2024
+Operating expenses for the nine months ended September 28, 2025 totaled $2,623 million, or 29.4% of revenue, compared to $2,684 million, or 28.2% of revenue for the nine months ended September 29, 2024.
+•
+Research and development
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+Research and development
+575 
+577 
+(0.3)
+%
+1,695 
+1,735 
+(2.3)
+%
+As a percentage of revenue
+18.1 
+%
+17.8 
+%
+0.3 
+ ppt
+19.0 
+%
+18.3 
+%
+0.7 
+ ppt
+Q3 2025 compared to Q3 2024
+R&D costs for the three months ended September 28, 2025 decreased by $2 million, or 0.3%, when compared to the three months ended September 29, 2024, driven by higher subsidies from government agencies ($7 million), lower personnel related expenses ($4 million), offset by expenditures related to the integration of the TTTech Auto acquisition ($9 million).
+YTD 2025 compared to YTD 2024
+R&D costs for the nine months ended September 28, 2025 decreased by $40 million, or 2.3%, when compared to the nine months ended September 29, 2024. This reduction
+ was driven by
+lower personnel-related expenses ($69 million), inclusive of lower variable compensation costs, to create capacity for future strategic investments. This decrease was partially offset by expenditures related to the integration of the TTTech Auto acquisition ($9 million) and an increase in mask-related costs ($15 million).
+26
+Selling, general and administrative
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+Selling, general and administrative
+286 
+265 
+7.9 
+%
+845 
+841 
+0.5 
+%
+As a percentage of revenue
+9.0 
+%
+8.2 
+%
+0.8 
+ppt
+9.5 
+%
+8.8 
+%
+0.7 
+ppt
+Q3 2025 compared to Q3 2024
+SG&A costs for the three months ended September 28, 2025 increased by $21 million, or 7.9%, when compared to the three months ended September 29, 2024 mainly driven by personnel and integration related costs driven by the TTTech Auto acquisition ($10 million), legal fees ($4 million) and higher share-based compensation costs ($4 million).
+YTD 2025 compared to YTD 2024
+SG&A costs for the nine months ended September 28, 2025 increased by $4 million, or 0.5%, when compared to the nine months ended September 29, 2024 due to
+higher expenses related to our closed or pending acquisitions
+ ($23 million), offset by  a reduction
+ in variable compensation costs
+($21 million).
+•
+Amortization of acquisition-related intangible assets
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+% change
+YTD 2025
+YTD 2024
+% change
+Amortization of acquisition-related intangible assets
+31 
+29 
+6.9 
+%
+83 
+108 
+(23.1)
+%
+As a percentage of revenue
+1.0 
+%
+0.9 
+%
+0.1 
+ ppt
+0.9 
+%
+1.1 
+%
+(0.2)
+ ppt
+Q3 2025 compared to Q3 2024
+Amortization of acquisition-related intangible assets for the three months ended September 28, 2025 increased by $2 million, or 6.9%, when compared to the three months ended September 29, 2024
+.
+YTD 2025 compared to YTD 2024
+Amortization of acquisition-related intangible assets for the nine months ended September 28, 2025 decreased by $25 million, or 23.1%, when compared to the nine months ended September 29, 2024
+ primarily due to the effect of certain acquisition-related intangibles becoming fully amortized
+(with regard to the previous Marvell acquisition).
+Financial income (expense)
+The following table presents the details of financial income and expenses:
+($ in millions, unless otherwise stated)
+Q3 2025
+Q3 2024
+YTD 2025
+YTD 2024
+Interest income
+37 
+36 
+111 
+125 
+Interest expense
+(118)
+(96)
+(339)
+(298)
+Other financial income/ (expense)
+(17)
+(22)
+(48)
+(54)
+Total
+(98)
+(82)
+(276)
+(227)
+Q3 2025 compared to Q3 2024
+Financial income (expense) was an expense of $98 million for the three months ended September 28, 2025, compared to an expense of $82 million for the three months ended September 29, 2024. Interest income remained flat, whereas interest expense increased by $22 million due to the interest expenses on the issuance of new bonds, interest expenses on the EIB loans as well as the commercial paper. Within Other financial income/ (expense), fair value adjustments in equity securities resulted in no result for the three months ended September 28, 2025 versus a loss of $7 million for the three months ended September 29, 2024.
+YTD 2025 compared to YTD 2024
+Financial income (expense) was an expense of $276 million for the nine months ended September 28, 2025, compared to an expense of $227 million for the nine months ended September 29, 2024. Interest income decreased by $14 million due to lower cash levels, whereas interest expense increased by $41 million due to the interest expenses due to issuance of new bonds, interest expenses on the EIB loans and commercial paper. Within Other financial income/ (expense), fair value adjustments in equity securities resulted in a loss of $2 million for the nine months ended September 28, 2025, versus a loss of $12 million for the nine months ended September 29, 2024.
+27
+Benefit (provision) for income taxes
+Our provision for income taxes for 2025 is based on our EAETR of 18.7%, which is lower than the Netherlands statutory tax rate of 25.8%, primarily due to tax benefits from the Netherlands and foreign tax incentives.
+Q3 2025
+Q3 2024
+YTD 2025
+YTD 2024
+Tax benefit (provision) calculated at EAETR
+(149)
+(160)
+(380)
+(446)
+Discrete tax benefit (provision) items
+1 
+(13)
+(14)
+(22)
+Benefit (provision) for income taxes
+(148)
+(173)
+(394)
+(468)
+Effective tax rate
+18.6 
+%
+19.0 
+%
+19.4 
+%
+18.6 
+%
+
+Q3 2025 compared to Q3 2024
+The effective tax rate of 18.6% for the third quarter of 2025 was lower than the EAETR due to the income tax benefit for discrete items of $1 million. The discrete items are primarily related to the impact of foreign currency on income tax related items, changes in estimates for previous years, and changes in the litigation accrual and related insurance reimbursements relating to the Motorola Personal Injury Lawsuits regarding previous years.
+YTD 2025 compared to YTD 2024
+For the first nine months ended 2025, the effective tax rate of 19.4% was higher than 18.6% due to a net result of unfavorable discrete items of $14 million. These discrete items are primarily related to the impact of changes in estimates for previous years, and changes in the litigation accrual and related insurance reimbursements relating to the Motorola Personal Injury Lawsuits.
+The effective tax rate of 19.4% for the first nine months of 2025 was higher compared to the rate for the first nine months ended 2024 of 18.6% due to a different mix of the benefit (provision) for income taxes in our operating locations and lower foreign tax incentives in the current period as a result of a decrease in qualifying income.
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was enacted in the U.S. The OBBBA includes significant provisions, such as the permanent extension of certain expiring provisions of the Tax Cuts and Jobs Act, modifications to the international tax framework and the restoration of favorable tax treatment for certain business provisions. The legislation has multiple effective dates, with certain provisions effective in 2025 and others implemented as of 2026. We have assessed that there is effectively no material tax impact on our consolidated financial statements. We also note that there is still unclarity about what the G7 statement in relation to the US on global minimum taxes, as announced on June 28, 2025, could mean for the Company.
+Results Relating to Equity-accounted Investees
+Q3 2025 compared to Q3 2024
+Results relating to equity-accounted investees amounted to a loss of $1 million for the three months ended September 28, 2025, whereas the three months ended September 29, 2024 results relating to equity-accounted investees amounted to a loss of $6 million.
+YTD 2025 compared to YTD 2024
+Results relating to equity-accounted investees amounted to a loss of $33 million (which includes an impairment charge of $27 million related to our investment in SigmaSense) for the nine months ended September 28, 2025, whereas the nine months ended September 29, 2024 results relating to equity-accounted investees amounted to a loss of $10 million.
+Non-controlling Interests
+Q3 2025 compared to Q3 2024
+Non-controlling interests are related to the third-party share in the results of consolidated companies, predominantly SSMC. Their share of non-controlling interests amounted to a profit of $15 million for the three months ended September 28, 2025, compared to a profit of $11 million for the three months ended September 29, 2024.
+YTD 2025 compared to YTD 2024
+Non-controlling interests are related to the third-party share in the results of consolidated companies, predominantly SSMC. Their share of non-controlling interests amounted to a profit of $34 million for the nine months ended September 28, 2025, compared to a profit of $22 million for the nine months ended September 29, 2024.
+28
+Liquidity and Capital Resources
+We derive our liquidity and capital resources primarily from our cash flows from operations. We continue to generate strong positive operating cash flows. At the end of the third quarter of 2025, our cash balance was $3,454 million, an increase of $162 million compared to December 31, 2024. Taking into account the available amount of the unsecured revolving credit facility of $2,500 million ("RCF"), we had access to $5,954
+
+million of liquidity as of September 28, 2025. We currently use cash to fund operations, meet working capital requirements, for capital expenditures and for potential common stock repurchases, dividends and strategic investments. Based on past performance and current expectations, we believe that our current available sources of funds (including cash and cash equivalents, short-term deposits of $500 million, RCF of $2.5 billion, plus anticipated cash generated from operations) will be adequate to finance our operations, working capital requirements, capital expenditures and potential dividends for at least the next twelve months.
+($ in millions, unless otherwise stated)
+YTD 2025
+YTD 2024
+Cash from operations
+1,929 
+2,391 
+Capital expenditures
+299 
+597 
+Cash to shareholders
+1,332 
+1,698 
+Cash and short-term deposits
+At September 28, 2025, our cash and short-term deposits balance was $3,954 million of which $324 million was held by SSMC, our consolidated joint venture company with TSMC. Under the terms of our joint venture agreement with TSMC, a portion of this cash can be distributed by way of a dividend to us, but 38.8% of the dividend will be paid to our joint venture partner.
+Capital expenditures
+Our cash outflows for capital expenditures were $299 million in the first nine months of 2025, compared to $597 million in the first nine months of 2024.
+Capital return
+Under our Quarterly Dividend Program, interim dividends of $1.014 per ordinary share were paid on January 8, 2025 ($258 million), dividends of $1.014 per ordinary share were paid on April 9, 2025 ($257 million), dividends of $1.014 per ordinary share were paid on July 9, 2025 ($256 million) and dividends of $1.014 per ordinary share were paid on October 8, 2025 ($255 million).
+In the first nine months of 2025 we repurchased approximately $561 million of shares.
+Debt
+Our total debt, inclusive of aggregate principal, unamortized discounts, premiums, debt issuance costs and fair value adjustments, amounted to $12,235 million as of September 28, 2025, an increase of $1,381 million compared to December 31, 2024 ($10,854 million).
+
+On May 1, 2025, we repaid the $500 million aggregate principal amount of outstanding 2.7% senior unsecured notes due 2025 at maturity using available cash.
+On August 19, 2025, NXP issued $500 million of 4.30% senior unsecured notes due 2028, $300 million of 4.85% senior unsecured notes due 2032 and $700 million of 5.25% senior unsecured notes due 2035 (collectively, the "Notes"). The Company intends to use the net proceeds from the offering of the Notes to redeem the $500 million aggregate principal amount of outstanding dollar-denominated 5.35% senior unsecured notes due 2026 and the $750 million aggregate principal amount of outstanding dollar-denominated 3.875% senior unsecured notes due 2026, in accordance with the terms of the applicable indenture governing such notes, including all premiums, accrued interest and costs and expenses related to such redemptions. Pending such application, such proceeds and the excess net proceeds from the Notes will be temporarily held as cash and other short-term securities or used for general corporate purposes, which may include capital expenditures or short-term debt repayment.
+As of September 28, 2025, we had outstanding fixed-rate notes with varying maturities for an aggregate principal amount of $11,250 million (collectively the “Notes”), of which $1.25 billion is payable within 12 months. Future interest payments associated with the Notes total $2,997 million, with $424 million payable within 12 months.
+As of September 28, 2025, the Company had outstanding loans with the European Investment Bank (EIB) for an aggregated principal amount of $1,040 million. Future interest payments associated with the EIB loans total $252 million, with $47 million payable within 12 months.
+As of September 28, 2025, we had $15 million commercial paper notes outstanding with a duration less than 12 months.
+29
+Our net debt position (see section Use of Certain Non-GAAP Financial Measures) at September 28, 2025 amounted to $8,281 million, compared to $7,562 million as of December 31, 2024.
+Additional Capital Requirements
+Expected working and other capital requirements are described in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024 in Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations”. At September 28, 2025, other than for changes disclosed in the “Notes to Condensed Consolidated Financial Statements” and “Liquidity and Capital Resources” in this Quarterly Report, there have been no other material changes to our expected working and other capital requirements described in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024.
+30
+Cash flows
+Our cash and cash equivalents during the first nine months of 2025 increased by $156 million (excluding the effect of changes in exchange rates on our cash position of $6 million) as follows:
+($ in millions, unless otherwise stated)
+YTD 2025
+YTD 2024
+Net cash provided by (used for) operating activities
+1,929 
+2,391 
+Net cash (used for) provided by investing activities
+(1,891)
+(884)
+Net cash provided by (used for) financing activities
+118 
+(2,621)
+Increase (decrease) in cash and cash equivalents
+156 
+(1,114)
+Cash Flow from Operating Activities
+For the first nine months of 2025 our operating activities provided $1,929 million in cash. This was primarily the result of net income of $1,600 million, adjustments to reconcile the net income of $960 million and changes in operating assets and liabilities of $(655) million. Adjustments to net income (loss) include non-cash items, such as depreciation and amortization of $617 million, share-based compensation of $362 million and changes in deferred taxes (benefit) of $(32) million. Changes in operating assets and liabilities were primarily driven by a $81 million increase in receivables and other current assets due to the related timing of cash collection, $180 million increase in inventories in order to align inventory on hand with expected demand, and $296 million decrease in accounts payable and other liabilities as a result of lower purchase volumes and timing related to payments.
+For the first nine months of 2024 our operating activities provided $2,391 million in cash. This was primarily the result of net income of $2,037 million, adjustments to reconcile the net income of $910 million and changes in operating assets and liabilities of $(574) million. Adjustments to net income (loss) includes non-cash items, such as depreciation and amortization of $666 million, share-based compensation of $344 million and changes in deferred taxes of ($127) million. Changes in operating assets and liabilities were primarily driven by a $204 million decrease in accounts payable and other liabilities as a result of lower purchase volumes and timing related to payments, $182 million increase in receivables and other current assets due to the linearity of revenue between the two periods, customer mix, and the related timing of cash collection, and $100 million increase in inventories in order to align inventory on hand with expected demand, partially offset by a $88 million increase in other non-current assets from the application of prepayments used to secure long-term production supply.
+Cash Flow from Investing Activities
+Net cash used for investing activities amounted to $1,891 million for the first nine months of 2025 and principally consisted of the purchase of interests in business (net of cash acquired) of $690 million (mainly driven by the acquisition of TTTech Auto for $679 million), investments in short-term deposits of $500 million, capital expenditures of $299 million, $319 million for the purchase of investments (driven primarily by the capital contributions of $209 million into VSMC and approximately $47 million into ESMC) and $85 million for the purchase of identified intangible assets, including EDA (electronic design automation).
+Net cash used for investing activities amounted to $884 million for the first nine months of 2024 and principally consisted of the cash outflows for capital expenditures of $597 million, $193 million for the purchase of investments (driven primarily by the  capital contributions of approximately $31 million into ESMC and approximately $140 million into VSMC), and $113 million for the purchase of identified intangible assets, including EDA (electronic design automation).
+Cash Flow from Financing Activities
+Net cash provided from financing activities of $118 million for the first nine months of 2025 was primarily driven by the proceeds from the issuance of commercial paper notes of $2,426 million, proceeds from issuance of long-term debt of $1,868 million, and the proceeds from the issuance of common stock through stock plans of  $77 million, partially offset by the repayment of commercial paper notes of $2,411 million, dividend payments to common stockholders of $771 million, purchase of treasury shares and restricted stock unit holdings of $561 million, and repurchase of long-term debt of 500 million.
+Net cash used for financing activities of $2,621 million for the first nine months of 2024 was primarily driven by the payment of $1 billion to retire at maturity our outstanding 4.875% senior unsecured notes due March 2024, dividend payment to common stockholders of $780 million, and purchase of treasury shares and restricted stock unit holdings of $918 million; partially offset by the proceeds from the issuance of common stock through stock plans of $79 million.
+31
+Information Regarding Guarantors of NXP (unaudited)
+Summarized Combined Financial Information for Guarantee of Securities of Subsidiaries
+All debt instruments are guaranteed, fully and unconditionally, jointly and severally, by NXP Semiconductors N.V. and issued or guaranteed by NXP USA, Inc., NXP B.V. and NXP LLC, (together, the “Subsidiary Obligors” and together with NXP Semiconductors N.V., the “Obligor Group”). Other than the Subsidiary Obligors, none of the Company’s subsidiaries (together the “Non-Guarantor Subsidiaries”) guarantee the Notes. The Company consolidates the Subsidiary Obligors in its Consolidated Financial Statements and each of the Subsidiary Obligors are wholly owned subsidiaries of the Company.
+All of the existing guarantees by the Company rank equally in right of payment with all of the existing and future senior indebtedness of the Obligor Group. There are no significant restrictions on the ability of the Obligor Group to obtain funds from respective subsidiaries by dividend or loan.
+
+The following tables present summarized financial information of the Obligor Group on a combined basis, with intercompany balances and transactions between entities of the Obligor Group eliminated and investments and equity in the earnings of the Non-Guarantor Subsidiaries excluded. The Obligor Group’s amounts due from, amounts due to, and intercompany transactions with Non-Guarantor Subsidiaries have been disclosed below the table, when material.
+Summarized Statements of Income
+For the nine months ended
+($ in millions)
+September 28, 2025
+Revenue
+4,939 
+Gross Profit
+2,278 
+Operating income
+571 
+Net income
+(24)
+Summarized Balance Sheets
+As of
+($ in millions)
+September 28, 2025
+December 31, 2024
+Current assets
+3,902 
+3,273 
+Non-current assets
+12,064 
+12,191 
+Total assets
+15,966 
+15,464 
+Current liabilities
+2,011 
+1,244 
+Non-current liabilities
+11,426 
+10,967 
+Total liabilities
+13,437 
+12,211 
+Obligor's Group equity
+2,529 
+3,253 
+Total liabilities and Obligor's Group equity
+15,966 
+15,464 
+NXP Semiconductors N.V. is the head of a fiscal unity for the corporate income tax and VAT that contains the most significant Dutch wholly-owned group companies. The Company is therefore jointly and severally liable for the tax liabilities of the tax entity as a whole, and as such the income tax expense of the Dutch fiscal unity has been included in the Net income of the Obligor Group.
+The financial information of the Obligor Group includes sales executed through a Non-Guarantor Subsidiary single-billing entity as a sales agent on behalf of an entity in the Obligor Group. The Obligor Group has sales to non-guarantors (for the nine months ended September 28, 2025: $532 million). The Obligor Group has amounts due from equity financing (September 28, 2025: $5,534 million; December 31, 2024: $5,749 million) and due to debt financing (September 28, 2025: $2,060 million; December 31, 2024: $2,283 million) with non-guarantor subsidiaries.
+32
+Use of Certain Non-GAAP Financial Measures
+Non-GAAP Financial Measures
+In addition to providing financial information on a basis consistent with U.S. generally accepted accounting principles (“US GAAP” or “GAAP”), NXP also provides selected financial measures on a non-GAAP basis which are adjusted for specified items. The adjustments made to achieve these non-GAAP financial measures or the non-GAAP financial measures as specified are described below, including the usefulness to management and investors.
+In managing NXP’s business on a consolidated basis, management develops an annual operating plan, which is approved by our Board of Directors, using non-GAAP financial measures. In measuring performance against this plan, management considers the actual or potential impacts on these non-GAAP financial measures from actions taken to reduce costs with the goal of increasing our gross margin and operating margin and when assessing appropriate levels of research and development efforts. In addition, management relies upon these non-GAAP financial measures when making decisions about product spending, administrative budgets, and other operating expenses. We believe that these non-GAAP financial measures, when coupled with the GAAP results and the reconciliations to corresponding GAAP financial measures, provide a more complete understanding of the Company’s results of operations and the factors and trends affecting NXP’s business. We believe that they enable investors to perform additional comparisons of our operating results, to assess our liquidity and capital position and to analyze financial performance excluding the effect of expenses unrelated to core operating performance, certain non-cash expenses and share-based compensation expense, which may obscure trends in NXP’s underlying performance. This information also enables investors to compare financial results between periods where certain items may vary independent of business performance, and allow for greater transparency with respect to key metrics used by management.
+The presentation of these and other similar items in NXP’s non-GAAP financial results should not be interpreted as implying that these items are non-recurring, infrequent, or unusual. These non-GAAP financial measures are provided in addition to, and not as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP.
+Non-GAAP Adjustment or Measure
+Definition
+Usefulness to Management and Investors
+Purchase price accounting effects
+Purchase price accounting ("PPA") effects reflect the fair value adjustments impacting acquisition accounting and other acquisition adjustments charged to the Consolidated Statement of Operations. This typically relates to inventory, property, plant and equipment, as well as intangible assets, such as developed technology and marketing and customer relationships acquired. The PPA effects are recorded within both cost of revenue and operating expenses in our US GAAP financial statements. These charges are recorded over the estimated useful life of the related acquired asset, and thus are generally recorded over multiple years.
+We believe that excluding these charges related to fair value adjustments for purposes of calculating certain non-GAAP measures allows the users of our financial statements to better understand the historic and current cost of our products, our gross margin, our operating costs, our operating margin, and also facilitates comparisons to peer companies.
+Restructuring
+Restructuring charges are costs associated with a restructuring plan and are primarily related to employee severance and benefit arrangements. Charges related to restructuring are recorded within both cost of revenue and operating expenses in our US GAAP financial statements
+We exclude restructuring charges, including any adjustments to charges recorded in prior periods, for purposes of calculating certain non-GAAP measures because these costs do not reflect our core operating performance. These adjustments facilitate a useful evaluation of our core operating performance and comparisons to past operating results and provide investors with additional means to evaluate expense trends.
+Share-based compensation
+Share-based compensation consists of incentive expense granted to eligible employees in the form of equity based instruments. Charges related to share-based compensation are recorded within both cost of revenue and operating expenses in our US GAAP financial statements.
+We exclude charges related to share-based compensation for purposes of calculating certain non-GAAP measures because we believe these charges, which are non-cash, are not representative of our core operating performance as they can fluctuate from period to period based on factors that are not within our control, such as our stock price on the dates share-based grants are issued. We believe these adjustments provide investors with a useful view, through the eyes of management, of our core business model, how management currently evaluates core operational performance, and additional means to evaluate expense trends.
+Other incidentals
+Other incidentals consist of certain items which may be non-recurring, unusual, infrequent or directly related to an event that is distinct and non-reflective of the Company’s core operating performance. These may include such items as process and product transfer costs, certain charges related to acquisitions and divestitures, litigation and legal settlements, costs associated with the exit of a product line, factory or facility, environmental or governmental settlements, and other items of similar nature.
+We exclude these certain items which may be non-recurring, unusual, infrequent or directly related to an event that is distinct and non-reflective of the Company’s core operating performance for purposes of calculating certain non-GAAP measures. These adjustments facilitate a useful evaluation of our core operating performance and comparisons to past operating results and provide investors with additional means to evaluate expense trends.
+33
+Non-GAAP Adjustment or Measure
+Definition
+Usefulness to Management and Investors
+Non-GAAP Provision for income taxes
+Non-GAAP provision for income taxes is NXP's GAAP provision for income taxes adjusted for the income tax effects of the adjustments to our GAAP measure, including PPA effects, restructuring costs, share-based compensation, other incidental items and certain other adjustments to financial income (expense) items. Additionally, adjustments are made for the income tax effect of any discrete items that occur in the interim period. Discrete items primarily relate to unexpected tax events that may occur as these amounts cannot be forecasted (e.g., the impact of changes in tax law and/or rates, changes in estimates or resolved tax audits relating to prior year tax provisions, the excess or deficit tax effects on share-based compensation, etc.).
+The non-GAAP provision for income taxes is used to ascertain and present on a comparable basis NXP's provision for income tax after adjustments, the usefulness of which is described within this table. Additionally, the income tax effects of the adjustments to achieve the noted non-GAAP measures are used to determine NXP's non-GAAP net income (loss) attributable to stockholders and accordingly, our diluted non-GAAP earnings per share attributable to stockholders.
+Free Cash Flow
+Free Cash Flow represents operating cash flow adjusted for net additions to property, plant and equipment.
+We believe that free cash flow provides insight into our cash-generating capability and our financial performance, and is an efficient means by which users of our financial statements can evaluate our cash flow after meeting our capital expenditure.
+Net debt
+Net debt represents total debt (short-term and long-term) after deduction of cash and cash equivalents and short-term deposits.
+We believe this measure provides investors with useful supplemental information about the financial performance of our business, enables comparison of financial results between periods where certain items may vary independent of business performance, and allow for greater transparency with respect of calculating our net leverage.
+The following are reconciliations of our most comparable US GAAP measures to our non-GAAP measures presented:
+($ in millions)
+For the three months ended
+September 28, 2025
+June 29, 2025
+September 29, 2024
+GAAP gross profit
+$
+1,787
+ 
+$
+1,562
+ 
+$
+1,866
+ 
+PPA effects
+(6)
+(7)
+(12)
+Restructuring
+— 
+(61)
+— 
+Share-based compensation
+(15)
+(14)
+(14)
+Other incidentals
+(2)
+(8)
+— 
+Non-GAAP gross profit
+$
+1,810
+ 
+$
+1,652
+ 
+$
+1,892
+ 
+GAAP Gross Margin
+56.3
+ 
+%
+53.4
+ 
+%
+57.4
+ 
+%
+Non-GAAP Gross Margin
+57.0
+ 
+%
+56.5
+ 
+%
+58.2
+ 
+%
+GAAP research and development
+$
+(575)
+$
+(573)
+$
+(577)
+Restructuring
+(1)
+(3)
+— 
+Share-based compensation
+(57)
+(58)
+(58)
+Other incidentals
+(2)
+(7)
+— 
+Non-GAAP research and development
+$
+(515)
+$
+(505)
+$
+(519)
+GAAP selling, general and administrative
+$
+(286)
+$
+(278)
+$
+(265)
+PPA effects
+(1)
+— 
+(1)
+Restructuring
+(2)
+(3)
+— 
+Share-based compensation
+(46)
+(45)
+(43)
+Other incidentals
+(14)
+(15)
+(2)
+Non-GAAP selling, general and administrative
+$
+(223)
+$
+(215)
+$
+(219)
+GAAP operating income (loss)
+$
+893
+ 
+$
+687
+ 
+$
+990
+ 
+34
+($ in millions)
+For the three months ended
+September 28, 2025
+June 29, 2025
+September 29, 2024
+GAAP operating income (loss)
+$
+893
+ 
+$
+687
+ 
+$
+990
+ 
+PPA effects
+(38)
+(32)
+(42)
+Restructuring
+(3)
+(67)
+— 
+Share-based compensation
+(118)
+(117)
+(115)
+Other incidentals
+(19)
+(32)
+(6)
+Non-GAAP operating income (loss)
+$
+1,071
+ 
+$
+935
+ 
+$
+1,153
+ 
+GAAP Operating Margin
+28.1
+ 
+%
+23.5
+ 
+%
+30.5
+ 
+%
+Non-GAAP Operating Margin
+33.8
+ 
+%
+32.0
+ 
+%
+35.5
+ 
+%
+GAAP Income tax benefit (provision)
+$
+(148)
+$
+(116)
+$
+(173)
+Income tax effect
+25 
+32 
+9 
+Non-GAAP Income tax benefit (provision)
+$
+(173)
+$
+(148)
+$
+(182)
+($ in millions)
+For the three months ended
+September 28, 2025
+June 29, 2025
+September 29, 2024
+Net cash provided by (used for) operating activities
+$
+585
+ 
+$
+779
+ 
+$
+779
+ 
+Net capital expenditures on property, plant and equipment
+(76)
+(83)
+(186)
+Non-GAAP free cash flow
+$
+509
+ 
+$
+696
+ 
+$
+593
+ 
+($ in millions)
+For the three months ended
+September 28, 2025
+June 29, 2025
+September 29, 2024
+Long-term debt
+$
+10,971 
+$
+9,479 
+$
+9,683 
+Short-term debt
+1,264 
+1,999 
+499 
+Total debt
+12,235 
+11,478 
+10,182 
+Less: cash and cash equivalents
+(3,454)
+(3,170)
+(2,748)
+Less: short-term deposits
+(500)
+— 
+(400)
+Net debt
+$
+8,281
+ 
+$
+8,308
+ 
+$
+7,034
+ 
+35

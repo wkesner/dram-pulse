@@ -33,12 +33,15 @@ def data_dir(tmp_path: Path) -> Path:
 
 @pytest.fixture()
 def client(data_dir: Path) -> TestClient:
+    # Explicit single-tenant mode so AUTH_MODE=clerk in a local .env
+    # does not break the classic typed-name API tests.
     app = create_app(
         signals_path=data_dir / "signals.csv",
         sightings_path=data_dir / "sightings.csv",
         votes_path=data_dir / "votes.csv",
         companies_path=data_dir / "companies.yaml",
         mount_static=False,
+        mode="single",
     )
     return TestClient(app)
 
@@ -178,6 +181,7 @@ def test_meta_lists_stub_company_with_zero_signals(data_dir: Path):
         votes_path=data_dir / "votes.csv",
         companies_path=companies_path,
         mount_static=False,
+        mode="single",
     )
     client = TestClient(app)
     notes = client.get("/api/meta").json()["notes"]

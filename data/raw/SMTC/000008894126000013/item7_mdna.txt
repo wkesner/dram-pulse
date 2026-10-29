@@ -1,0 +1,331 @@
+ITEM 2.  Management's Discussion and Analysis of Financial Condition and Results of Operations
+The following "Management’s Discussion and Analysis of Financial Condition and Results of Operations" should be read in conjunction with our interim unaudited condensed consolidated financial statements and the accompanying notes included in Part I, Item 1 of this Quarterly Report on Form 10-Q (this "Quarterly Report") and "Special Note Regarding Forward-Looking and Cautionary Statements" in this Quarterly Report as well as "Risk Factors" included in our Annual Report on Form 10-K for the fiscal year ended
+January 25, 2026
+ filed with the Securities and Exchange Commission (the "SEC") on
+March 23, 2026
+.
+Our interim unaudited condensed consolidated balance sheets are referred to herein as the "Balance Sheets" and interim unaudited condensed consolidated statements of operations are referred to herein as the "Statements of Operations." Amounts and percentages may not add precisely due to rounding.
+Overview
+Semtech Corporation (together with its consolidated subsidiaries, the "Company," "we," "our" or "us") is a leading provider of high-performance semiconductors powering data center networking, IoT connectivity and cellular infrastructure solutions and was incorporated in Delaware in 1960. We have three operating segments—Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity—that represent three separate reportable segments. See Part I, Item 1, Note 14, Segment Information, to our interim unaudited condensed consolidated financial statements for additional information on our reportable segments.
+Signal Integrity.
+ We design, develop, manufacture and market a portfolio of optical and copper data communications and video transport products used in a wide variety of infrastructure and industrial applications. Our comprehensive portfolio includes integrated circuits ("ICs") and photonic products for data centers, enterprise networks, passive optical networks ("PON"), and wireless base station optical transceivers. Our high-speed interfaces range from 100Mbps to 1.6Tbps and support key industry standards such as Fibre Channel, InfiniBand, Ethernet, PON and synchronous optical networks. Our video products offer advanced solutions for next-generation high-definition broadcast applications. Our photonic products include gain chips, semiconductor optical amplifiers, distributed feedback lasers for optical transceivers used across data center interconnects and intra-data center interconnects.
+Analog Mixed Signal and Wireless.
+ We design, develop, manufacture and market high-performance protection devices, which are often referred to as transient voltage suppressors ("TVS") and specialized sensing products. TVS devices provide protection for electronic systems where voltage spikes (called transients), such as electrostatic discharge, electrical over-stress or secondary lightning surge energy, can permanently damage sensitive ICs. Our portfolio of protection solutions include filter and termination devices that are integrated with the TVS device. Our products provide robust protection while preserving signal integrity in high-speed communications, networking and video interfaces. These products also operate at very low voltage. Our protection products can be found in a broad range of applications including smart-phones, LCD and organic light-emitting diode TVs and displays, set-top boxes, monitors and displays, tablets, computers, notebooks, base stations, routers, automobile and industrial systems. Our unique sensing technology enables proximity sensing, force sensing, and advanced user interface solutions for mobile, consumer, computing and automotive products. We also design, develop, manufacture and market a portfolio of specialized radio frequency products used in a wide variety of industrial, medical and communications applications. Our wireless products, which include our LoRa® devices and wireless radio frequency technology, feature industry-leading and longest-range industrial, scientific and medical radio, enabling a lower total cost of ownership and increased reliability. These features make these products particularly suitable for machine-to-machine and IoT applications. We also design, develop, and market power product devices that control, alter, regulate, and condition the power within electronic systems focused on the LoRa and IoT infrastructure segment. The highest volume product types within this category are switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging. Our video products offer advanced solutions for highly differentiated audio video-over-IP technology for professional audio video applications.
+IoT Systems and Connectivity.
+
+We design, develop, operate and market a comprehensive product portfolio of IoT solutions that enable businesses to connect and manage their devices, collect and analyze data, and improve decision-making. The portfolio includes a wide range of modules, gateways, routers (together "IoT Hardware"), and connected services that are designed to meet the specific needs of different industries and applications. Our modules are available in a variety of form factors and connectivity options, including LTE-M, NB-IoT and 5G, and can be integrated into an array of devices and systems. Our gateways and routers are designed to provide reliable and secure connectivity for IoT devices, while our connected services enable businesses to manage devices and connectivity so businesses can navigate the complex IoT landscape and realize the full potential of connected devices. We also design, develop, operate and market a portfolio of connected services used in a wide variety of industrial, medical and communications applications. Our connected services include wireless connectivity and cloud-based services for customers to deploy, connect, and operate their end applications. Our services have been purpose-built for IoT applications and include features such as SIM and subscription management, device and data management, geolocation support, as well as reporting and alerting that can be configured or tailored to a variety of IoT use cases.
+36
+Our net sales by reportable segment were as follows:
+ 
+Three Months Ended
+(in thousands)
+April 26, 2026
+April 27, 2025
+Signal Integrity
+$
+102,003 
+$
+73,521 
+Analog Mixed Signal and Wireless
+100,755 
+90,623 
+IoT Systems and Connectivity
+88,260 
+86,916 
+Total
+$
+291,018 
+$
+251,060 
+We design, develop, manufacture and market a diverse portfolio of products for commercial applications, addressing the global infrastructure, high-end consumer and industrial end markets.
+Infrastructure:
+data centers, PON, base stations, optical networks, servers, carrier networks, switches and routers, cable modems, wireless local area network ("LAN") and other communication infrastructure equipment. This market has expanded to support artificial intelligence-driven applications and general compute data center applications.
+High-End Consumer:
+ smartphones, tablets, smart glasses, wearables, desktops, notebooks, wireless charging, set-top boxes, digital televisions, monitors and displays, digital video recorders and other consumer equipment.
+Industrial:
+ IoT applications such as connected spaces (smart cities, buildings, factories, facilities and commercial buildings), smart utilities (electricity, water, gas and smart grid), wireless charging, medical, security systems, automotive, industrial and home automation, supply chain management, asset tracking and logistics, analog and digital video broadcast equipment, video-over-IP solutions and other industrial equipment.
+Our end customers for our silicon solutions are primarily original equipment manufacturers ("OEMs") that produce and sell technology solutions. Our IoT module, router, gateway and managed connectivity solutions ship to IoT device makers, enterprises and solution providers to provide IoT connectivity to end devices.
+Impact of Macroeconomic Conditions
+As disclosed in Part I, Item 1A: Risk Factors, of our Annual Report on Form 10-K for the fiscal year ended January 25, 2026, the Company’s business is subject to risks related to, among other factors, tariffs and other trade barriers put in the place by government authorities. The imposition of tariffs and other trade barriers by government authorities on imported goods, including raw materials and components essential to our manufacturing processes, could have significant adverse effects on our business, financial condition, and results of operations. Beginning in the first quarter of fiscal year 2026, the U.S. government imposed additional tariffs on goods imported into the U.S. from numerous countries ("U.S. Tariffs") and multiple countries and groups of countries imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. In February 2026, the U.S. Supreme Court ruled that certain of those U.S. Tariffs imposed under the International Emergency Economic Powers Act were not authorized by statute, and the legal status, scope and implementation of certain U.S. Tariffs and related measures continue to evolve. Various modifications, suspensions and delays to the U.S. Tariffs have been announced and further changes are expected to be made in the future, which may include additional sector-based tariffs or other measures imposed under alternate legal authorities. The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, the extent to which existing tariffs remain in effect, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. The Company continues to monitor and analyze the impacts of these measures and actions that can be taken to moderate and/or minimize their effects.
+In recent periods, macroeconomic factors such as market volatility, inflationary pressures, elevated interest rates, geopolitical tensions, recessionary concerns and changes in trade policy have caused uncertainty in end customer demand, which resulted in elevated channel inventories. We believe that we can continue to take appropriate actions to align our inventory levels with anticipated customer demand profiles.
+Factors Affecting Our Performance
+Most of our sales to customers are made on the basis of individual customer purchase orders and many customers include cancellation provisions in their purchase orders. We rely on orders received and shipped within the same quarter for a meaningful portion of our sales. Net sales made through independent distributors during the first quarters of fiscal years 2027 and 2026 were 80% and 71%, respectively, of net sales and the remainder were made directly to customers.
+We are a global business with customers and suppliers around the world. A significant amount of our third-party subcontractors and suppliers, including third-party foundries that supply silicon wafers, are located outside the United States, including China, Israel, Japan, Taiwan and Vietnam. A significant amount of our assembly and test operations are conducted by third-party contractors located outside the United States, including China, Malaysia, Taiwan and Vietnam. Net sales outside the United States constituted 86% and 82% during the first quarters of fiscal years 2027 and 2026, respectively. Approximately 72% and 63% of our net sales during the first quarters of fiscal years 2027 and 2026, respectively, were to customers located in the Asia-Pacific region. We are subject to export restrictions and trade regulations, which have limited our ability to sell to certain
+37
+customers in certain regions. In addition, changes in tariffs or the imposition of retaliatory tariffs may impact our net sales, gross profit, and gross margin if we are unable to pass higher costs on to our customers.
+We use several metrics as indicators of future potential growth. The indicators that we believe best correlate to potential future sales growth are design wins and new product releases. There are many factors that may cause a design win or new product release to not result in sales, including a customer decision not to go to system production, a change in a customer’s perspective regarding a product’s value or a customer’s product failing in the end market. As a result, although a design win or new product release is an important step towards generating future sales, it does not necessarily result in us being awarded business or receiving a purchase commitment.
+Further, inflationary factors have in the past affected, and could continue to affect, our future performance if we are unable to pass higher costs on to our customers.
+Results of Operations
+Comparisons of the Three
+
+Months Ended April 26, 2026 and April 27, 2025
+Net Sales
+The following table summarizes our net sales by major end markets:
+Three Months Ended
+April 26, 2026
+April 27, 2025
+(in thousands, except percentages)
+Net Sales
+Net Sales
+Change
+Infrastructure
+$
+98,775 
+$
+72,833 
+36 
+%
+High-End Consumer
+38,353 
+35,414 
+8 
+%
+Industrial
+153,890 
+142,813 
+8 
+%
+Total
+$
+291,018 
+$
+251,060 
+16 
+%
+Net sales in the first quarter of fiscal year 2027 were $291.0 million, an increase of 15.9% compared to $251.1 million in the first quarter of fiscal year 2026, which was primarily driven by higher net sales from our infrastructure and industrial end markets due to stronger demand and increased sales volume. Net sales from our infrastructure end market increased $25.9 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by an approximately $20.0 million increase in data center sales and approximately $5.1 million increase in telecommunications sales. Net sales from our industrial end market increased $11.1 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by an approximately $5.6 million increase in LoRa-enabled sales in industrial applications, approximately $3.3 million increase in broadcast sales and approximately $2.6 million increase in IoT Hardware sales. Net sales from our high-end consumer end market increased $2.9 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by an approximately $5.9 million increase in consumer TVS product sales, partially offset by an approximately $2.9 million decrease in proximity sensing product sales.
+The following table summarizes our net sales by reportable segment:
+Three Months Ended
+April 26, 2026
+April 27, 2025
+(in thousands, except percentages)
+Net Sales
+Net Sales
+Change
+Signal Integrity
+$
+102,003 
+$
+73,521 
+39 
+%
+Analog Mixed Signal and Wireless
+100,755 
+90,623 
+11 
+%
+IoT Systems and Connectivity
+88,260 
+86,916 
+2 
+%
+Total
+$
+291,018 
+$
+251,060 
+16 
+%
+Net sales in the first quarter of fiscal year 2027, as compared to the first quarter of fiscal year 2026, benefited from stronger demand and increased sales volumes in all the reportable segments. Net sales from Signal Integrity increased $28.5 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by an approximately $20.0 million increase in data center sales, approximately $5.1 million increase in telecommunications sales and approximately $3.3 million increase in broadcast sales. Net sales from Analog Mixed Signal and Wireless increased $10.1 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by an approximately $6.6 million increase in total TVS product sales and approximately $5.7 million increase in LoRa-enabled product sales, partially offset by an approximately $2.9 million decrease in proximity sensing product sales. Net sales from IoT Systems and Connectivity increased $1.3 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven
+38
+by an approximately $2.6 million increase in IoT Hardware sales, partially offset by an approximately $1.5 million decrease in managed connectivity sales.
+Gross Profit
+The following table summarizes our gross profit and gross margin by reportable segment:
+Three Months Ended
+April 26, 2026
+April 27, 2025
+(in thousands, except percentages)
+Gross Profit
+Gross Margin
+Gross Profit
+Gross Margin
+Signal Integrity
+$
+63,993 
+62.7 
+%
+$
+48,164 
+65.5 
+%
+Analog Mixed Signal and Wireless
+59,155 
+58.7 
+%
+56,445 
+62.3 
+%
+IoT Systems and Connectivity
+31,566 
+35.8 
+%
+29,923 
+34.4 
+%
+Unallocated costs
+1
+(3,250)
+(3,243)
+Total
+$
+151,464 
+52.0 
+%
+$
+131,289 
+52.3 
+%
+1
+
+Unallocated costs includes share-based compensation and amortization of acquired technology
+In the first quarter of fiscal year 2027, gross profit increased $20.2 million to $151.5 million from $131.3 million in the first quarter of fiscal year 2026. This increase was primarily driven by an approximately $15.8 million increase from Signal Integrity, which experienced higher sales led by data center sales due to stronger demand, an approximately $2.7 million increase from Analog Mixed Signal and Wireless, which experienced higher sales led by TVS product sales and LoRa-enabled product sales due to stronger demand, and an approximately $1.6 million increase from IoT Systems and Connectivity, primarily driven by higher IoT Hardware sales.
+Our gross margin was 52.0% in the first quarter of fiscal year 2027, compared to 52.3% in the first quarter of fiscal year 2026. Gross margin for our Signal Integrity segment was 62.7% in the first quarter of fiscal year 2027, compared to 65.5% in the first quarter of fiscal year 2026, primarily due to unfavorable product mix and higher overhead. Gross margin for our Analog Mixed Signal and Wireless segment was 58.7% in the first quarter of fiscal year 2027, compared to 62.3% in the first quarter of fiscal year 2026, primarily due to inventory allowance. Gross margin for our IoT Systems and Connectivity segment was 35.8% in the first quarter of fiscal year 2027, compared to 34.4% in the first quarter of fiscal year 2026, primarily due to inventory allowance recoveries, partially offset by unfavorable product mix.
+Operating Expenses, net
+The following table summarizes our operating expenses, net:
+Three Months Ended
+Change
+(in thousands, except percentages)
+April 26, 2026
+April 27, 2025
+Product development and engineering
+$
+57,569 
+$
+47,529 
+21 
+%
+Selling, general and administrative
+66,599 
+46,447 
+43 
+%
+Intangible amortization
+328 
+147 
+123 
+%
+Restructuring
+1,177 
+1,199 
+(2)
+%
+Total operating expenses, net
+$
+125,673 
+$
+95,322 
+32 
+%
+Product Development and Engineering Expenses
+Product development and engineering expenses increased $10.0 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026 primarily as a result of an $8.8 million net increase in staffing-related costs from higher salaries and share-based compensation and a $1.4 million increase from new product introduction expenses, partially offset by a $1.3 million increase in tax credits.
+The levels of product development and engineering expenses reported in a fiscal period can be significantly impacted, and therefore experience period over period volatility, by the number of new product tape-outs and by the timing of recoveries from engineering services, which are typically recorded as a reduction to product development and engineering expense.
+Selling, General and Administrative Expenses
+Selling, general and administrative expenses increased $20.2 million in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026 primarily as a result of a $10.4 million increase from revaluation of the cash-settled awards caused by the impact of the higher closing stock price as of period-end, a $9.0 million net increase in staffing-related costs from higher
+39
+supplemental compensation and share-based compensation, and a $1.7 million increase in transaction and integration expenses, partially offset by a $0.9 million decrease in depreciation.
+Intangible Amortization
+Intangible amortization was $0.3 million and $0.1 million for the first quarters of fiscal years 2027 and 2026, respectively. The amortization of acquired technology intangible assets is reflected in cost of sales.
+Restructuring
+Restructuring expenses were $1.2 million in the first quarters of fiscal year 2027 and 2026 from structural reorganization actions to reduce our workforce as a result of cost-saving measures and internal resource alignment.
+Interest Expense
+Interest expense, including amortization and a write-off of deferred financing costs, decreased by $4.7 million to $1.9 million for the first quarter of fiscal year 2027, compared to $6.6 million for the first quarter of fiscal year 2026, primarily due to interest savings as a result of the full repayment of the Term Loans (as defined below) from the fourth quarter of fiscal year 2025 through the third quarter of fiscal year 2026.
+Provision for Income Taxes
+We recorded income tax expense of $0.1 million in the first quarter of fiscal year 2027, compared to income tax expense of $8.7 million in the first quarter of fiscal year 2026. The change in our tax provision for the three months ended April 26, 2026, compared to the three months ended April 27, 2025 was primarily due to a regional mix of income, tax benefit of investment impairment losses and changes in valuation allowance. As a result of our recent performance, there is a reasonable possibility that a portion of our valuation allowance will no longer be needed in future periods. A release of the valuation allowance would likely result in a material tax benefit recognized in the quarter of the release.
+The effective tax rates in the first quarters of fiscal years 2027 and 2026 differ from the statutory federal income tax rate of 21% primarily due to regional mix of income, changes in valuation allowance, impact of global intangible low-taxed income ("GILTI") and research and development ("R&D") credits. The Tax Cuts and Jobs Act ("TCJA") requires R&D costs incurred for tax years beginning after December 31, 2021 to be capitalized and amortized ratably over five or fifteen years for tax purposes, depending on where the research activities are conducted. We have elected to treat GILTI as a period cost and the additional capitalization of R&D costs within GILTI increases our provision for income taxes.
+On July 4, 2025, the One Big Beautiful Bill Act ("OB3") was enacted into law in the U.S. The OB3 modifies certain elements of the TCJA, including permanently changing the limitation on the deduction of business interest expense, as well as making permanent the immediate deduction for domestic R&D expenses. The remaining provisions of the OB3 have multiple effective dates, with certain provisions effective in 2025 and others implemented through 2027. As the Company maintains a full valuation allowance on its U.S. deferred tax assets, the enactment of the legislation did not have a material impact on the Company's effective tax rate as of April 26, 2026. This legislation may be subject to further clarification and the issuance of interpretive guidance; however, the remaining provisions of the OB3 are not expected to have a material effect on our consolidated financial statements. We will continue to monitor the potential future impacts of the OB3, including provisions that become effective in subsequent periods, and will reflect any material changes in its financial statements when appropriate.
+In December 2021, the Organization for Economic Cooperation and Development published a framework for a new global minimum tax of 15% ("Pillar Two") on income arising in low-tax jurisdictions, and certain governments in countries where the Company operates have enacted local Pillar Two legislation, with an effective date from January 1, 2024. Pillar Two did not have a material impact on our provision for income taxes for the fiscal quarter ending April 26, 2026.
+As a global organization, we are subject to audit by taxing authorities in various jurisdictions. To the extent that an audit, or the closure of a statute of limitations, results in adjusting our reserves for uncertain tax positions, our effective tax rate could experience extreme volatility since any adjustment would be recorded as a discrete item in the period of adjustment.
+For further information on the effective tax rate and the TCJA's and OB3's impacts, see Note 9, Income Taxes, to our interim unaudited condensed consolidated financial statements.
+Liquidity and Capital Resources
+Our capital requirements depend on a variety of factors including, but not limited to, the rate of increase or decrease in our existing business base; the success, timing and amount of investment required to bring new products to market; sales growth or decline; potential acquisitions or divestitures; the general economic environment in which we operate; and our ability to generate cash flows from operating activities.
+We believe that our cash on hand, expected cash generation from future operations and available borrowing capacity under the Revolving Credit Facility are sufficient to meet liquidity requirements for at least the next 12 months, including funds needed for our material cash requirements. As of April 26, 2026, we had $163.3 million in cash and cash equivalents and $451.6 million of available undrawn borrowing capacity on our Revolving Credit Facility, subject to net leverage limitations and
+40
+customary conditions precedent, including the accuracy of representations and warranties and the absence of defaults. Over the longer-term, we expect to fund our business using cash flows from operating activities.
+As of April 26, 2026 and January 25, 2026, there was $3.4 million outstanding under the letters of credit under the Revolving Credit Facility.
+A meaningful portion of our capital resources, and the liquidity they represent, are held by our subsidiaries outside of the U.S. As of April 26, 2026, our foreign subsidiaries held $152.5 million of cash and cash equivalents, compared to $182.7 million at January 25, 2026. Our liquidity may be impacted by fluctuating exchange rates. For additional information on exchange rates, see Item 3–Quantitative and Qualitative Disclosures About Market Risk.
+In connection with the enactment of the TCJA, all historic and current foreign earnings are taxed in the U.S. Depending on the jurisdiction, these foreign earnings are potentially subject to a withholding tax, if repatriated. As of April 26, 2026, our historical undistributed earnings prior to fiscal year 2023 of our foreign subsidiaries are intended to be permanently reinvested outside of the U.S. With the enactment of the TCJA, which amended the Internal Revenue Code of 1986, all post-1986 previously unremitted earnings for which no U.S. deferred tax liability had been accrued were subject to U.S. tax. As a result of the U.S. taxation of these amounts, we have determined that none of the foreign earnings from fiscal year 2023 onward will be permanently reinvested outside of the U.S. If we needed to remit all or a portion of our historical undistributed earnings to the U.S. for investment in our domestic operations, any such remittance could result in increased tax liabilities and a higher effective tax rate. Determination of the amount of the unrecognized potential deferred tax liability on these unremitted earnings is not practicable.
+We expect our future non-operating uses of cash will be for capital expenditures and debt repayment
+.
+We expect to fund these cash requirements through cash flows from operating activities.
+Credit Agreement
+On September 26, 2022, we entered into a third amendment and restatement credit agreement (as amended, restated, supplemented or otherwise modified from time to time, the "Credit Agreement") with the lenders party thereto and JPMorgan Chase Bank, N.A., as administrative agent, swing line lender and letter of credit issuer.
+On April 24, 2025, we entered into the fourth amendment (the "Fourth Amendment") to the Credit Agreement, in order to, among other things, increase the total available borrowing capacity under the revolving credit facility under the Credit Agreement (the "Revolving Credit Facility") by $117.5 million, increasing the total facility size to $455.0 million. The increase partially replaces borrowing capacity that matured on November 7, 2024. Other than the foregoing, the material terms of the Credit Agreement remain unchanged.
+After effectiveness of the Fourth Amendment, the borrowing capacity on the Revolving Credit Facility is $455.0 million, which is scheduled to mature on January 12, 2028 (subject to, in certain circumstances, an earlier springing maturity), and the term loans thereunder (the "Term Loans") were scheduled to mature on January 12, 2028 (subject to, in certain circumstances, an earlier springing maturity).
+As of April 26, 2026, we had no amounts outstanding under the Term Loans and no revolving loans outstanding under the Revolving Credit Facility, which had available undrawn borrowing capacity of $451.6 million, subject to net leverage limitations and customary conditions precedent, including the accuracy of representations and warranties and the absence of defaults.
+Up to $40.0 million of the Revolving Credit Facility may be used to obtain letters of credit, up to $25.0 million of the Revolving Credit Facility may be used to obtain swing line loans, and up to $75.0 million of the Revolving Credit Facility may be used to obtain revolving loans and letters of credit in certain currencies other than U.S. Dollars. The proceeds of the Revolving Credit Facility may be used by us for capital expenditures, permitted acquisitions, permitted dividends, working capital and general corporate purposes.
+As of April 26, 2026, we were in compliance with the financial covenants in our Credit Agreement. The Credit Agreement also contains customary provisions pertaining to events of default. If any event of default occurs, the obligations under the Credit Agreement may be declared due and payable, terminated upon written notice to us and existing letters of credit may be required to be cash collateralized.
+See Note 8, Long-Term Debt to our interim unaudited condensed consolidated financial statements for additional information regarding the terms of the Credit Agreement.
+We had entered into interest rate swap agreements to hedge the variability of interest payments on debt outstanding under the Term Loans.
+
+As of April 26, 2026, there were no interest rate swap agreements outstanding. See Note 16, Derivatives and Hedging Activities, to our interim unaudited condensed consolidated financial statements for additional information.
+41
+Convertible Senior Notes Due 2027
+On October 12, 2022 and October 21, 2022, we issued and sold $300.0 million and $19.5 million, respectively, in aggregate principal amount of the 2027 Notes in a private placement. The 2027 Notes were issued pursuant to an indenture dated October 12, 2022, by and among us, the subsidiary guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee. The 2027 Notes bear interest at a rate of 1.625% per year, payable semi-annually in arrears on May 1 and November 1 of each year, beginning on May 1, 2023. The 2027 Notes will mature on November 1, 2027, unless earlier converted, redeemed or repurchased. The 2027 Notes are not currently redeemable and, as of October 26, 2025, one of the conditions allowing holders of the 2027 Notes to convert had been met. The trading price of our common stock remained above 130% of the applicable conversion price for at least 20 trading days during the 30 consecutive trading-day period ending on, and including, April 24, 2026 (the last trading day of the quarter ended April 26, 2026), resulting in the right of the holders of the 2027 Notes to convert their 2027 Notes beginning April 27, 2026 through July 24, 2026 (the last trading day of the quarter ending July 26, 2026). Should the holders of the 2027 Notes elect to convert some or all of the outstanding 2027 Notes, the Company intends to draw on its Revolving Credit Facility to settle the obligation. The 2027 Notes were initially issued pursuant to an exemption from the registration requirements of the Securities Act afforded by Section 4(a)(2) of the Securities Act.
+We used approximately $72.6 million of the net proceeds from the 2027 Notes to pay for the cost of the Convertible Note Hedges, after such cost was partially offset by approximately $42.9 million of proceeds to us from the sale of Warrants in connection with the issuance of the 2027 Notes, all as defined and described in Note 8, Long-Term Debt to our interim unaudited condensed consolidated financial statements. The Convertible Note Hedges and Warrants transactions are indexed to, and potentially settled in, our common stock and the net cost of $29.7 million has been recorded as a reduction to "Additional paid-in capital" on the Balance Sheets. We used the remaining net proceeds to fund a portion of the consideration in the Sierra Wireless Acquisition and to pay related fees and expenses. For additional information on the 2027 Notes, Convertible Note Hedges and the Warrants, see Note 8, Long-Term Debt to our interim unaudited condensed consolidated financial statements.
+On October 7, 2025, we entered into the 2025 Exchange of 2027 Notes with certain holders of the 2027 Notes. Pursuant to the 2025 Exchange of 2027 Notes, on October 14, 2025, we used approximately $220.6 million of the net proceeds from the 2030 Notes (discussed below), together with the issuance of 3,036,192 shares of our common stock as consideration for the exchange of approximately $219.0 million aggregate principal amount of the 2027 Notes and accrued interest. We accounted for these exchange transactions as an induced conversion. In fiscal year 2026, in connection with the exchange transactions, we recognized an induced conversion expense of $17.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $14.3 million on the Balance Sheets, which included $3.3 million from the write-off of deferred financing costs.
+In connection with the 2025 Exchange of 2027 Notes, the Company also terminated the Convertible Note Hedges and the Warrants corresponding to the number of 2027 Notes exchanged. The Company received approximately $24.5 million in connection with the termination, which was recorded as an increase to additional paid-in capital on the Balance Sheets.
+Convertible Senior Notes Due 2028
+On October 26, 2023, we issued and sold $250.0 million in aggregate principal amount of 2028 Notes in a private placement. The 2028 Notes were issued pursuant to an indenture, dated October 26, 2023, by and among the Company, the subsidiary guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee. The 2028 Notes bore interest at a rate of 4.00% per year, payable semi-annually in arrears on May 1 and November 1 of each year, beginning on May 1, 2024. The 2028 Notes were scheduled to mature on November 1, 2028, unless earlier converted, redeemed or repurchased. The 2028 Notes were offered and sold only to eligible purchasers who are both "qualified institutional buyers" within the meaning of Rule 144A under the Securities Act and "accredited investors" within the meaning of Rule 501(a) under the Securities Act, in reliance on Section 4(a)(2) under the Securities Act. As of April 26, 2026, as a result of certain exchange transactions, no amounts remain outstanding under the 2028 Notes.
+In fiscal year 2025, in connection with the exchange transactions, the Company recognized $144.7 million of loss included in "Loss on extinguishment of debt" in the Statements of Operations and $5.5 million of loss resulting from the write-off of deferred financing costs included in "Interest expense" in the Statements of Operations.
+In fiscal year 2026, in connection with the exchange transactions, we recognized an induced conversion expense of $3.6 million recorded in "Interest expense" on the Statements of Operations and an increase to "Additional paid-in capital" of $2.2 million on the Balance Sheets, which included $1.3 million from the write-off of deferred financing costs.
+For additional information on the 2028 Notes, see Note 8, Long-Term Debt to our interim unaudited condensed consolidated financial statements.
+Convertible Senior Notes Due 2030
+On October 10, 2025, we issued and sold $402.5 million in aggregate principal amount of 2030 Notes in a private placement. The 2030 Notes were issued pursuant to an indenture, dated October 10, 2025, by and among the Company, the subsidiary
+42
+guarantors party thereto and U.S. Bank Trust Company, National Association, as trustee. The 2030 Notes are jointly and severally and fully and unconditionally guaranteed by each of the Company's current and future direct and indirect wholly-owned domestic subsidiaries that guarantee its borrowings under its Credit Agreement. The 2030 Notes do not bear any interest and will mature on October 15, 2030, unless earlier converted, redeemed or repurchased. As of April 26, 2026, $402.5 million of the 2030 Notes remained outstanding.
+For additional information on the 2030 Notes, see Note 8, Long-Term Debt to our interim unaudited condensed consolidated financial statements.
+Capital Expenditures and Research and Development
+We incur significant expenditures in order to fund the development, design and manufacture of new products. We intend to continue to focus on those areas that have shown potential for viable and profitable market opportunities, which may require additional investment in equipment and the hiring of additional design and application engineers aimed at developing new products. Certain of these expenditures, particularly the addition of design engineers, do not generate significant payback in the short-term. We plan to finance these expenditures with cash generated by our operating activities, our existing cash balances and additional draws on our Revolving Credit Facility, as needed. Borrowings under our Revolving Credit Facility are subject to customary conditions precedent, including the accuracy of representations and warranties and the absence of any defaults under the facility.
+Portfolio Rationalization
+We are continuing to conduct a portfolio rationalization review, which has included identifying non-core assets in an effort to align our portfolio with our strategic vision and preferred margin profile. As part of the portfolio rationalization review, we are reviewing potential strategic alternatives for certain of our non-core assets, including the potential divestiture of our cellular module business. No decision has been made regarding any strategic alternative or any particular asset and there is no assurance that the exploration of strategic alternatives will result in any transactions, nor any specified timeline.
+Purchases under our Stock Repurchase Program
+We currently have in effect a stock repurchase program that was initially approved by our Board of Directors in March 2008. On March 11, 2021, the Board of Directors approved the expansion of the stock repurchase program by an additional $350.0 million. This program represents one of our principal efforts to return value to our stockholders. Under the program, subject to the terms of the Credit Agreement, we may repurchase our common stock at any time or from time to time, without prior notice, subject to market conditions and other considerations. Our repurchases may be made through Rule 10b5-1 and/or Rule 10b-18 or other trading plans, open market purchases, privately negotiated transactions, block purchases or other transactions.
+We did not repurchase any shares of our common stock under the program in the first three months of fiscal year 2027 or in the first three months of fiscal year 2026. As of April 26, 2026, the remaining authorization under the program was $209.4 million. To the extent we repurchase any shares of our common stock under the program in the future, we expect to fund such repurchases from cash on hand and borrowings on our Revolving Credit Facility. We have no obligation to repurchase any shares under the program and may suspend or discontinue it at any time.
+Working Capital
+Working capital, defined as total current assets less total current liabilities including the current portion of long-term debt, fluctuates depending on end-market demand and our effective management of certain items such as receivables, inventory and payables. In times of escalating demand, our working capital requirements may increase as we purchase additional manufacturing materials and increase production. In addition, our working capital may be affected by potential acquisitions and transactions involving our debt instruments. Although investments made to fund working capital will reduce our cash balances, these investments are necessary to support business and operating initiatives.
+Material Cash Requirements
+Except as disclosed above, there have been no material changes to our cash requirements from those disclosed in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026.
+43
+Cash Flows
+In summary, our cash flows for each period were as follows:
+Three Months Ended
+(in thousands)
+April 26, 2026
+April 27, 2025
+Net cash provided by operating activities
+$
+36,183 
+$
+27,824 
+Net cash used in investing activities
+(42,492)
+(5,071)
+Net cash used in financing activities
+(25,798)
+(19,361)
+Effect of foreign exchange rate changes on cash and cash equivalents
+238 
+1,339 
+Net (decrease) increase in cash and cash equivalents
+$
+(31,869)
+$
+4,731 
+Operating Activities
+Net cash provided by or used in operating activities is driven by net income or loss adjusted for non-cash items and fluctuations in operating assets and liabilities.
+Operating cash flows for the first three months of fiscal year 2027 compared to the first three months of fiscal year 2026 were favorably impacted by a 15.9% increase in net sales, and lower interest payments on debt, and were unfavorably impacted by an increase in annual bonus payments and an incremental increase in inventory spend.
+Investing Activities
+Net cash provided by or used in investing activities is primarily driven by acquisitions, net of any cash received, capital expenditures, purchases and sales of investments, purchases of intangibles, and proceeds from or premiums paid for corporate-owned life insurance.
+In the first three months of fiscal year 2027, we completed an immaterial acquisition for cash consideration of $29.2 million, net of cash acquired. No similar acquisitions were made in the first three months of fiscal year 2026.
+Capital expenditures were $8.2 million for the first three months of fiscal year 2027 compared to $1.7 million for the first three months of fiscal year 2026.
+Purchases of intangibles were $5.3 million for the first three months of fiscal year 2027, compared to $0.5 million for the first three months of fiscal year 2026, which included capitalized development costs and software licenses.
+In the first three months of fiscal year 2026, we paid $3.4 million in premiums into our corporate-owned life insurance policy in order to provide substantive coverage for our deferred compensation liability. No such payments were made in the first three months of fiscal year 2027.
+Financing Activities
+Net cash provided by or used in financing activities is primarily attributable to proceeds from and payments of our Revolving Credit Facility, payments on our Term Loans, and payments related to employee share-based compensation payroll taxes.
+In the first three months of fiscal year 2027, we collected proceeds of $50.0 million from and made prepayments of $50.0 million on our Revolving Credit Facility, as discussed above. No such proceeds were collected and no such prepayments were made in the first three months of fiscal year 2026.
+In the first three months of fiscal year 2026, we made prepayments of $10.0 million on our Term Loans. No such prepayments were made in the first three months of fiscal year 2027 as the Term Loan balance was fully repaid in fiscal year 2026.
+In the first three months of fiscal year 2027, we paid $26.6 million for employee share-based compensation payroll taxes and received $0.8 million in proceeds from the exercise of stock options. In the first three months of fiscal year 2026, we paid $8.9 million for employee share-based compensation payroll taxes.
+Critical Accounting Estimates
+Our critical accounting policies and estimates are disclosed in "Management's Discussion and Analysis of Financial Condition and Results of Operations" included in Item 7 of our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. There have been no significant changes to our policies during the three months ended April 26, 2026.
+Recent Accounting Pronouncements
+For a discussion of recent accounting pronouncements, see Note 1, Organization and Basis of Presentation to our interim unaudited condensed consolidated financial statements.
+44

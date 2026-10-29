@@ -1,0 +1,28 @@
+{
+  "company": "Ultra Clean Holdings",
+  "ticker": "UCTT",
+  "cik": "0001275014",
+  "form": "10-Q/A",
+  "filing_date": "2026-05-01",
+  "accession_number": "0001628280-26-029413",
+  "primary_document": "uctt-20260327.htm",
+  "primary_doc_description": "10-Q/A",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026029413/uctt-20260327.htm",
+  "fiscal_year_end": "1230",
+  "report_date": "2026-03-27",
+  "period_end": "2026-03-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:36.478940+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/UCTT/000162828026029413/primary.html",
+    "other": "data/raw/UCTT/000162828026029413/other_full.txt"
+  }
+}

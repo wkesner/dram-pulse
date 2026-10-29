@@ -68,7 +68,7 @@ Write these as a pure function over candidate rows, `dedupe(rows) -> (signals, s
 
    The numbers rule is what stops "revenue increased 12%" being merged into "revenue decreased 5%". The Qualcomm pair in the tests below has a similarity of 0.90 and must stay apart.
 4. Anything else is a new signal (`match = first`).
-5. The existing SK hynix rule (EDGAR 6-K versus DART, matched on date plus normalized title) stays as is. It runs before these steps.
+5. **Cross-source (DART ↔ EDGAR/IR).** Same `company` + `product_family`. Compare `match_text` = `excerpt_en` when `language` is non-English and `excerpt_en` is present, else `excerpt`. Exact match uses normalized `match_text`. Near match across different `source` (or en vs ko) uses `max(full Jaccard, best sentence Jaccard)` ≥ **0.30**, **same `supply_direction` only** (sentiment is skipped — keyword/MT labels often disagree on the same claim), and filing dates within **7 days** (SK hynix English 6-K often lands a few days after the DART report). Numbers need not be identical across languages. When both exist, the rebuilt signal row **prefers English EDGAR** (then IR, then other) for displayed excerpt/`source`; both filings remain as sightings under one `signal_id`.
 
 ### 5. Feed changes
 

@@ -1,0 +1,28 @@
+{
+  "company": "ChipMOS",
+  "ticker": "IMOS",
+  "cik": "0001123134",
+  "form": "6-K",
+  "filing_date": "2026-01-09",
+  "accession_number": "0001193125-26-008206",
+  "primary_document": "imos-6-k-202512revenue.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1123134/000119312526008206/imos-6-k-202512revenue.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-01-09",
+  "period_end": "2026-01-09",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:23.455560+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/IMOS/000119312526008206/primary.html",
+    "other": "data/raw/IMOS/000119312526008206/other_full.txt"
+  }
+}

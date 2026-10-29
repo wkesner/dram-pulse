@@ -1,0 +1,2629 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The
+
+following
+
+discussion
+
+and
+
+analysis
+
+of
+
+our
+
+financial
+
+condition
+
+and results
+
+of operations
+
+should
+
+be read in conjunction
+
+with
+
+the
+ unaudited condensed
+consolidated
+
+financial
+
+statements
+
+and
+
+related
+
+notes
+
+included
+elsewhere in this Quarterly Report on Form 10-Q and the audited consolidated financial statements and notes thereto and management’s discussion and analysis of financial condition and results of operations for the year ended December 31, 2024 included in our Annual Report on Form 10-K filed with the SEC on February 14, 2025. As discussed in the section titled “Special Note about Forward-Looking Statements,” this discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed in these forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those identified below and those discussed in the section titled “Risk Factors” and included elsewhere in this Quarterly Report on Form 10-Q and Annual Report on Form 10-K filed with the SEC on February 14, 2025.
+Overview
+Our mission
+
+is
+
+to innovate,
+
+design,
+
+and deliver
+
+semiconductor-based
+
+connectivity
+
+solutions
+
+that are purpose-built
+
+to unleash
+
+the
+
+full
+
+potential
+
+of cloud
+
+and AI infrastructure.
+Building
+
+on
+
+years
+
+of
+
+experience
+
+with
+
+a
+
+singular
+
+focus
+
+on
+
+addressing
+
+connectivity
+
+challenges
+
+in data-centric systems,
+
+we
+
+have
+
+developed
+
+and
+
+deployed
+
+our
+
+Intelligent
+
+Connectivity
+
+Platform
+
+built
+
+from
+
+the
+
+ground up for
+
+cloud
+
+and AI infrastructure.
+
+Our Intelligent
+
+Connectivity
+
+Platform is
+
+comprised of semiconductor-based,
+
+high-speed,
+
+mixed-signal
+
+connectivity
+
+products
+
+that
+
+integrate
+
+a matrix
+
+of microcontrollers
+
+and sensors, and
+COSMOS, our software suite, which is embedded in our connectivity products and integrated into our customers’ systems.
+Our
+
+Intelligent Connectivity Platform provides
+
+our customers with the ability
+
+to deploy and operate high-performance
+
+cloud
+
+and
+
+AI
+
+infrastructure
+
+at
+
+scal
+e
+,
+
+addressing
+
+an
+
+increasingly
+
+diverse
+
+set
+
+of
+
+requirements. We provide
+
+our connectivity
+
+products
+
+in various
+
+form
+
+factors,
+
+including
+
+Integrated Circuits (“ICs”), boards,
+
+and modules.
+Our patented software-defined
+
+platform
+
+approach delivers
+
+critical
+
+connectivity
+
+performance,
+
+enables flexibility
+
+and
+
+customization,
+
+and supports
+
+observability
+
+and predictive
+
+analytics.
+
+This approach
+ is designed to
+efficiently address
+
+the
+
+data,
+
+network,
+
+and
+
+memory
+
+bottlenecks,
+
+scalability,
+
+and other
+
+unique
+
+infrastructure
+
+requirements
+
+of our hyperscaler
+
+and system
+
+OEM customers.
+Based
+
+on
+
+trusted
+
+relationships
+
+with
+
+the
+
+leading
+
+hyperscalers
+
+and
+
+collaboration
+
+with data
+
+center
+
+infrastructure suppliers,
+
+our
+
+platform
+
+is
+
+designed
+
+to
+
+meet our
+
+customers’
+
+unique
+
+cloud
+
+scale
+
+requirements.
+
+Our
+
+COSMOS software
+
+suite
+
+is
+
+foundational
+
+to
+
+our
+
+Intelligent Connectivity
+
+Platform
+
+and is
+
+designed
+
+to enable
+
+our customers
+
+to seamlessly
+
+configure,
+
+manage,
+
+monitor, optimize,
+
+troubleshoot,
+
+and customize
+
+functions
+
+in our IC, board,
+
+and module
+
+products.
+Today,
+
+our connectivity
+
+solutions
+
+are
+
+at
+
+the
+
+heart
+
+of major
+
+AI platforms
+
+deployed
+
+worldwide
+
+featuring
+
+both commercially
+
+available
+
+Graphic Processing Units (“GPUs”) and
+
+proprietary
+
+AI
+
+accelerators.
+ We offer our customers
+
+four
+product
+
+families
+
+across
+
+multiple
+
+form
+
+factors
+
+including
+
+ICs, boards,
+
+and module
+s
+.
+
+Our
+
+products,
+
+which include
+
+Aries PCIe
+®
+/CX
+L
+®
+Smart
+
+DSP Retimers,
+Aries PCIe®/CXL® Smart Cable Modules™,
+Taurus
+
+Ethernet
+
+Smart
+
+Cable
+
+Module
+s
+™
+, Leo
+
+CXL Memory Connectivity
+
+Controllers, and Scorpio Smart Fabric Switches,
+
+are
+
+built
+
+upon industry
+
+standard
+
+connectivity
+
+protocols
+
+such as Peripheral Component Interconnect Express (“PCIe”), Ethernet,
+
+and Compute Express Link (“CXL”), to address
+
+the
+
+growing demand
+
+for
+
+purpose-built
+
+connectivity
+
+solutions
+
+that solve critical
+
+data,
+
+network,
+
+and memory
+
+bottlenecks
+
+inherent
+
+in cloud
+
+and AI infrastructure.
+Since
+
+our
+
+inception,
+
+we
+
+have
+
+created
+
+and
+
+commercialized
+
+first-to-market
+
+PCIe,
+
+Ethernet,
+
+and
+
+CXL products. We have become
+
+a trusted
+
+partner
+
+and a proven
+
+supplier
+
+to our hyperscaler and
+
+system
+
+OEM
+
+customers.
+
+We have experienced
+
+strong
+
+growth since
+
+the
+
+commercial
+
+launch
+
+of
+
+Aries
+
+in
+
+2020.
+
+Our
+
+revenue
+
+grew
+
+from
+
+$34.8
+
+million
+
+in
+
+2021, $79.9
+
+million
+
+in
+
+2022,
+ and
+$115.8 million
+
+in
+
+2023 to $396.3 million in 2024. Our revenue was
+$581.9 million for the nine months ended
+September 30, 2025,
+
+driven
+
+by
+
+a
+
+sizable
+
+increase
+
+in
+
+demand
+
+for
+
+our
+
+products. We
+
+have made
+
+significant
+
+investments
+
+in the
+
+design
+
+and development
+
+of new products
+
+and platform enhancements. Although we have recently recorded quarterly net income, we
+
+have
+
+not
+
+yet
+
+achieved
+
+profitability
+
+on
+
+an
+
+annual
+
+basis.
+18
+Table of Contents
+Summary of Financial Highlights
+Our revenue for the three and nine months ended
+September 30, 2025 increased by 
+104% and 128%, respectively, compared to
+
+the same periods in 2024
+. The increase for both periods was primarily due to an increase in overall unit shipments driven by higher demand for our Aries, Scorpio, and Taurus products, as well as higher overall average selling prices resulting from an increased mix of hardware modules and Scorpio products.
+Gross
+
+margin
+
+decreased by 150 basis points (“bps”) and 200 bps
+to 
+76.2% and 75.7%
+for
+
+the
+ three and nine months ended
+September 30, 2025, respectively, compared to 77.7%
+ and
+77.7%, respectively,
+
+for
+
+the same periods in 2024.
+
+The decrease for both periods was primarily driven by product mix as we shipped more hardware modules
+.
+Operating expenses increased by $23.6 million, or 24%, for the three months ended
+September 30, 2025, compared to the same period in 2024
+. The increase was primarily driven by a $23.7
+ million increase in headcount related expenses resulting from a 79% increase in headcount, a $2.2 million increase in other operating costs to support our business expansion, and a $1.4 million increase in expenses related to our research and development (“R&D”) initiatives. These
+increases were partially offset by a $5.1 million decrease in non-cash stock-based compensation expense.
+Operating expenses increased by $19.9 million, or 6%, for the nine months ended
+September 30, 2025, compared to the same period in 2024. The increase was
+ primarily driven by
+a $59.7 million increase in headcount related expenses resulting from a 77% increase in headcount, a $13.1 million increase in expenses related to our R&D initiatives, an $8.0 million increase in other operating costs to support our business expansion primarily relating to our new headquarters relocation, a $3.3 million increase in professional services fees, and a $1.6 million increase in depreciation and amortization expenses.
+The increase was partially offset by a $67.7 million decrease in non-cash stock-based compensation expense,
+which resulted primarily from the recognition of time-based vesting of RSUs following the satisfaction of the liquidity event vesting condition in connection with our initial public offering (“IPO”) in the prior period.
+Results
+
+of Operations
+Comparison of the Three and Nine Months Ended September 30, 2025 and 2024
+Revenue
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+Revenue
+$
+230,575 
+$
+113,086 
+$
+117,489 
+104 
+%
+$
+581,942 
+$
+255,194 
+$
+326,748 
+128 
+%
+Total
+
+revenue
+
+increased
+
+$117.5 million
+,
+
+or 
+104%
+,
+ and
+$326.7 million
+,
+
+or 
+128%
+, for
+
+t
+he three
+ and nine months ended
+September 30, 2025, respectively,
+
+compared
+
+to
+
+the same periods in 2024.
+The increase was primarily
+
+due to an increase in overall unit shipments driven by higher demand for our
+Aries, Scorpio, and Taurus
+products, as well as higher overall average selling prices resulting from an increased mix of hardware modules
+and Scorpio products
+.
+Cost of Revenue, Gross Profit, and Gross Margin
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages and bps)
+Cost of revenue
+$
+54,763 
+$
+25,209 
+$
+29,554 
+117 
+%
+$
+141,156 
+$
+56,943 
+$
+84,213 
+148 
+%
+Gross profit
+175,812 
+87,877 
+87,935 
+100 
+%
+440,786 
+198,251 
+242,535 
+122 
+%
+Gross margin
+76.2 
+%
+77.7 
+%
+(150) bps
+75.7 
+%
+77.7 
+%
+(200) bps
+19
+Table of Contents
+Total
+
+cost
+
+of
+
+revenue
+
+increased
+
+$29.6 million
+,
+
+or 
+117%
+,
+ and
+$84.2 million
+,
+
+or 
+148%
+, for
+
+the
+ three and nine months ended
+September 30, 2025, respectively,
+
+compared
+
+to
+
+the same periods in 2024. The increase was primarily
+
+due to higher overall unit shipments and a shift in product mix, resulting from an increased mix of hardware modules
+and Scorpio products
+.
+Gross
+
+margin
+
+decreased 150 bps
+to 
+76.2%
+for
+
+the
+ three months ended
+September 30, 2025 compared to 77.7%
+
+for
+
+the same period in 2024.
+
+Gross
+
+margin
+
+decreased 200 bps
+to 
+75.7%
+for
+
+the
+ nine months ended
+September 30, 2025 compared to 77.7%
+
+for the same period in 2024. The decrease for both periods was primarily driven by product mix as we shipped more hardware modules
+.
+Research and Development
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+Research
+
+and development
+$
+78,928 
+$
+50,659 
+$
+28,269 
+56 
+%
+$
+210,206 
+$
+144,306 
+$
+65,900 
+46 
+%
+Percentage
+
+of revenue
+34 
+%
+45 
+%
+36 
+%
+57 
+%
+Research
+
+and
+
+development
+
+expense
+
+increased $28.3 million
+,
+
+or 
+56%
+, for
+
+the
+ three months ended
+September 30, 2025,
+
+compared
+
+to
+the same period in 2024
+.
+
+The
+
+increase
+ was primarily due to a $25.8 million
+
+increase in personnel-related costs
+
+including $7.1 million of non-cash stock-based compensation expenses resulting from
+a 104%
+increase in
+
+headcount.
+Research
+
+and
+
+development
+
+expense
+
+increased $65.9 million
+,
+
+or 
+46%
+, for
+
+the
+ nine months ended
+September 30, 2025,
+
+compared
+
+to the same period in 2024.
+
+The
+
+increase
+ was primarily due to a $46.1 million
+
+increase in personnel-related costs including $1.1 million of non-cash stock-based compensation
+
+expenses resulting from
+ a 99%
+increase in
+
+headcount, a $12.1 million increase in overall spending to support our R&D initiatives, and a $4.4 million increase in other operating costs to support our business expansion.
+Sales
+
+and Marketing
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+Sales
+
+and marketing
+$
+19,359 
+$
+23,248 
+$
+(3,889)
+(17)
+%
+$
+59,670 
+$
+100,834 
+$
+(41,164)
+(41)
+%
+Percentage
+
+of revenue
+8 
+%
+21 
+%
+10 
+%
+40 
+%
+Sales
+
+and
+
+marketing
+
+expense
+
+decreased
+
+$3.9 million
+,
+
+or
+17%
+,
+
+for
+
+the
+ three months ended
+September 30, 2025,
+compared
+
+to the
+ same period in 2024
+.
+
+The de
+crease
+
+was
+
+primarily
+
+due to a
+$6.8 million
+ decrease in non-cash stock-based compensation expense, which resulted primarily from the recognition of time-based vesting of RSUs granted prior to our IPO. The decrease was partially offset by a $2.6 million increase
+
+in personnel-related
+
+expenses
+ resulting from
+a 25%
+
+increase in
+
+headcount.
+Sales
+
+and
+
+marketing
+
+expense
+
+decreased
+
+$41.2 million, or
+
+41%
+,
+
+for
+
+the
+ nine months ended
+September 30, 2025,
+compared
+
+to the same period in 2024.
+
+The de
+crease
+
+was
+
+primarily
+
+due to a
+$50.3 million
+ decrease in non-cash stock-based compensation expense, which resulted primarily from the recognition of time-based vesting of RSUs following the satisfaction of the liquidity event vesting condition in connection with our IPO in the prior period. The decrease was partially offset by a $7.5 million increase in personnel-related
+
+expenses resulting from a 25%
+
+increase in
+
+headcount.
+20
+Table of Contents
+General and Administrative
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+General
+
+and administrative
+$
+22,119 
+$
+22,866 
+$
+(747)
+(3)
+%
+$
+64,445 
+$
+69,321 
+$
+(4,876)
+(7)
+%
+Percentage
+
+of revenue
+10 
+%
+20 
+%
+11 
+%
+27 
+%
+General
+
+and
+
+administrative
+
+expense
+
+decreased $0.7 million
+,
+
+or 
+3%
+,
+
+for the
+ three months ended
+September 30, 2025,
+compared
+
+to the same period in 2024.
+
+The
+ de
+crease
+
+was primarily due to
+ a
+$5.3 million de
+crease in non-cash stock-based compensation expense, which resulted primarily from the recognition of time-based vesting of RSUs granted prior to our IPO. The decrease was partially offset by a $2.4 million increase
+
+in personnel-related
+
+expenses
+ resulting from
+a 43%
+
+increase in
+
+headcount, a $1.2 million increase in professional services fees associated with the continued development of our public company infrastructure, and a $0.7 million increase in other operating costs to support our business expansion.
+General
+
+and
+
+administrative
+
+expense
+
+decreased $4.9 million
+,
+
+or 
+7%
+,
+
+for the
+ nine months ended
+September 30, 2025,
+compared
+
+to the same period in 2024.
+
+The
+ de
+crease
+
+was primarily due to
+ a
+$18.5 million de
+crease in non-cash stock-based compensation expense, which resulted primarily from the recognition of time-based vesting of RSUs following the satisfaction of the liquidity event vesting condition in connection with our IPO in the prior period. The decrease was partially offset by a $7.3 million increase
+
+in personnel-related
+
+expenses
+ resulting from
+a 55%
+
+increase in
+
+headcount, a $3.4 million increase in other operating costs to support our business expansion primarily related to our new headquarters relocation, and a $2.3 million increase in professional services fees associated with the continued development of our public company infrastructure.
+Interest
+
+Income
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+Interest
+
+income
+$
+11,456 
+$
+10,912 
+$
+544 
+5 
+%
+$
+32,773 
+$
+23,730 
+$
+9,043 
+38 
+%
+Fo
+r
+
+th
+e
+
+three months ended
+September 30, 2025, interest income
+
+increased $0.5 million
+,
+
+o
+r 
+5%, compared to
+the same period in 2024
+. The increase was
+
+primaril
+y
+
+du
+e
+
+t
+o
+ higher average balances of short-term investments and cash equivalents as a result of cash flow from operations.
+Fo
+r
+
+th
+e
+ nine months ended
+September 30, 2025, interest income
+
+increased $9.0 million,
+ or
+38%, compared to
+the same period in 2024
+. The increase was
+
+primaril
+y
+
+du
+e
+
+t
+o
+ higher average balances of short-term investments and cash equivalents as a result of our IPO in the prior period and cash flow from operations.
+Income
+
+Tax (Benefit) Provision
+Three Months Ended
+September 30,
+Change
+Nine Months Ended
+September 30,
+Change
+2025
+2024
+Amount
+%
+2025
+2024
+Amount
+%
+(in thousands, except percentages)
+Income
+
+tax (benefit)
+
+provision
+$
+(24,252)
+$
+9,609 
+$
+(33,861)
+(352)
+%
+$
+(34,914)
+$
+15,654 
+$
+(50,568)
+(323)
+%
+The benefit from income
+
+tax in
+creased $33.9 million
+,
+
+or 
+352%
+,
+
+for
+
+the
+ t
+hree months ended
+September 30, 2025,
+
+compared
+
+to the same period in 2024
+,
+ primarily due to excess tax benefits related to equity compensation. The increase was partially offset by the decreased foreign-derived intangible income deduction and U.S. research and development credits from indirect effects of the One Big Beautiful Bill Act ("OBBBA"), which was signed into law by the President on July 4, 2025.
+21
+Table of Contents
+The benefit from income
+
+tax increased
+$50.6 million
+,
+
+or 
+323%
+, for the nine months
+ ended
+September 30, 2025,
+
+compared
+
+to the same period in 2024
+,
+ primarily due to excess tax benefits related to equity compensation. The increase was partially offset by the decreased foreign-derived intangible income deduction and U.S. research and development credits from indirect effects of the OBBBA.
+Non-GAAP
+
+Financial
+
+Measures
+This Quarterly Report on Form 10-Q contains certain financial measures that are not presented in accordance with generally accepted accounting principles in the United States (“GAAP”), which we use to supplement the performance measures in our condensed consolidated financial statements, which are presented in accordance with GAAP. We refer to these measures as “non-GAAP financial measures.” These non-GAAP financial measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating income, and non-GAAP net income. We use these non-GAAP financial measures for financial and operational decision-making and as a means to assist us in evaluating period-to-period comparisons. By excluding certain items that may not be indicative of our recurring core operating results, we believe that non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating income, and non-GAAP net income provide meaningful supplemental information regarding our performance. Accordingly, we believe these non-GAAP financial measures are useful to investors and others because they allow for additional information with respect to financial measures used by management in its financial and operational decision-making and they may be used by our institutional investors and the analyst community to help them analyze the health of our business. However, there are a number of limitations related to the use of non-GAAP financial measures, and these non-GAAP measures should be considered in addition to, not as a substitute for or in isolation from, our financial results prepared in accordance with GAAP. Other companies, including companies in our industry, may calculate these non-GAAP financial measures differently or not at all, which reduces their usefulness as comparative measures.
+Non-GAAP
+ Gross Profit and Non-GAAP Gross Margin
+We
+
+define
+
+non-GAAP gross profit as gross profit presented
+
+in accordance
+
+with GAAP, adjusted
+
+to
+
+exclude
+
+stock-based
+
+compensation
+
+expenses.
+ The non-GAAP gross margin is non-GAAP gross profit divided by revenue.
+We
+
+have
+
+presented
+
+non-GAAP gross profit because
+
+we
+
+consider
+
+non-GAAP gross profit to
+
+be
+
+a
+
+useful
+
+metric
+
+for
+
+investors
+
+and other
+
+users
+
+of our financial
+
+information
+
+in evaluating
+
+our operating
+
+performance
+ as
+it
+
+excludes
+
+the
+
+impact
+
+of stock-based compensation,
+ a
+charge
+
+that
+
+can vary
+
+from
+
+period
+
+to period
+
+for
+
+reasons
+
+that
+
+are
+
+unrelated
+
+to our core operating
+
+performance.
+
+This
+
+metric
+
+also
+
+provides
+
+investors
+
+and
+
+other
+
+users
+
+of our financial
+
+information
+
+with an additional
+
+tool
+
+to
+
+eliminate
+
+the
+
+effects
+
+of items
+
+that
+
+may
+
+vary
+
+for
+
+different
+
+companies
+
+for
+
+reasons
+
+unrelated
+
+to core
+
+operating
+
+performanc
+e
+.
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP gross profit and gross margin,
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measure,
+
+to non-GAAP
+ gross profit
+ and non-GAAP gross margin
+is
+
+presented
+
+below:
+Three Months Ended
+September 30,
+Nine Months Ended
+September 30,
+2025
+2024
+2025
+2024
+(in thousands, except percentages)
+GAAP gross profit
+$
+175,812 
+$
+87,877 
+$
+440,786 
+$
+198,251 
+Stock-based
+
+compensation
+
+expense upon IPO
+(1)
+— 
+— 
+— 
+516 
+Stock-based compensation expense
+379 
+102 
+694 
+198 
+Non-GAAP gross profit
+$
+176,191 
+$
+87,979 
+$
+441,480 
+$
+198,965 
+GAAP gross margin
+76.2 
+%
+77.7 
+%
+75.7 
+%
+77.7 
+%
+Stock-based
+
+compensation
+
+expense upon IPO
+(1)
+— 
+— 
+— 
+0.2 
+Stock-based compensation expense
+0.2 
+0.1 
+0.1 
+0.1 
+Non-GAAP gross margin
+(2)
+76.4 
+%
+77.8 
+%
+75.9 
+%
+78.0 
+%
+(1) Stock-based compensation expense recognized in connection with the time-based vesting and settlement of RSUs that had previously met the time-based vesting condition and for which the liquidity event vesting condition was satisfied in connection with our IPO.
+22
+Table of Contents
+(2) Total may not sum due to rounding.
+Non-GAAP
+
+Operating
+
+Income
+and Non-GAAP Operating Margin
+We
+
+define
+
+non-GAAP operating
+
+income
+
+as operating
+ income (
+loss)
+
+presented
+
+in accordance
+
+with GAAP, adjusted
+
+to
+
+exclude
+
+stock-based
+
+compensation
+
+expenses, and employer payroll taxes related to the time-based vesting and net settlement of RSUs with a liquidity event-based vesting condition that was satisfied in connection with the IPO.
+ We define non-GAAP operating margin as non-GAAP operating income divided by revenue.
+We
+
+have
+
+presented
+
+non-GAAP operating
+ income and non-GAAP operating margin
+because
+
+we
+
+consider
+ them
+
+useful
+
+metrics
+
+for
+
+investors
+
+and other
+
+users
+
+of our financial
+
+information
+
+in evaluating
+
+our operating
+
+performance
+ as
+
+it
+
+excludes
+
+the
+
+impact
+
+of stock-based compensation expense, and employer payroll taxes related to the time-based vesting and net settlement of RSUs in connection with our IPO, a charge
+
+that
+
+can vary
+
+from
+
+period
+
+to period
+
+for
+
+reasons
+
+that
+
+are
+
+unrelated
+
+to our core operating
+
+performance.
+
+These
+
+metrics
+
+also
+
+provide
+
+investors
+
+and
+
+other
+
+users
+
+of our financial
+
+information
+
+with an additional
+
+tool
+to
+eliminate
+
+the
+
+effects
+
+of items
+
+that
+
+may
+
+vary
+
+for
+
+different
+
+companies
+
+for
+
+reasons
+
+unrelated
+
+to core
+
+operating
+
+performanc
+e
+.
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP
+
+operating income (loss) and operating margin,
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measure,
+
+to non-GAAP
+
+operating
+ income and non-GAAP operating margin is
+
+presented
+
+below:
+Three Months Ended
+September 30,
+Nine Months Ended
+September 30,
+2025
+2024
+2025
+2024
+(in
+
+thousands, except percentages)
+GAAP
+
+operating income
+ (
+loss)
+$
+55,406 
+$
+(8,896)
+$
+106,465 
+$
+(116,210)
+Stock-based
+
+compensation
+
+expense upon IPO
+(1)
+— 
+— 
+— 
+88,873 
+Stock-based
+
+compensation
+
+expense
+40,739 
+45,535 
+118,659 
+97,497 
+Employer payroll tax related to stock-based compensation from IPO
+(2)
+— 
+— 
+— 
+1,072 
+Non-GAAP operating income
+$
+96,145 
+$
+36,639 
+$
+225,124 
+$
+71,232 
+GAAP
+
+operating
+ margin
+24.0 
+%
+(7.9)
+%
+18.3 
+%
+(45.5)
+%
+Stock-based
+
+compensation
+
+expense upon IPO
+(1)
+— 
+— 
+— 
+34.8 
+Stock-based
+
+compensation
+
+expense
+17.7 
+40.3 
+20.4 
+38.2 
+Employer payroll tax related to stock-based compensation from IPO
+(2)
+— 
+— 
+— 
+0.4 
+Non-GAAP operating margin
+41.7 
+%
+32.4 
+%
+38.7 
+%
+27.9 
+%
+(1) Stock-based compensation expense recognized in connection with the time-based vesting and settlement of RSUs that had previously met the time-based vesting condition and for which the liquidity event vesting condition was satisfied in connection with our IPO.
+(2) Employer payroll taxes related to the time-based vesting and settlement of RSUs that had previously met the time-based vesting condition and for which the liquidity event vesting condition was satisfied in connection with our IPO.
+Non-GAAP
+
+Net Income
+We monitor non-GAAP net income for planning and performance measurement purposes. We define non-GAAP net income as net income (loss) presented
+
+in accordance
+
+with GAAP on our condensed consolidated statements of operations, excluding the impact of stock-based compensation expenses, employer payroll taxes related to the time-based vesting and net settlement of RSUs with a liquidity event-based vesting condition that was satisfied in connection with our IPO, and the related tax impact on the adjustments. We have presented non-GAAP net income because we believe that the exclusion of these charges allows for a more relevant comparison of our results of operations to other companies in our industry and facilitates period-to-period comparisons as it eliminates the effect of certain factors unrelated to our overall operating performance.
+23
+Table of Contents
+A
+
+reconciliation
+
+of
+
+our
+
+GAAP
+
+net income (loss),
+
+the
+
+most
+
+directly
+
+comparable
+
+GAAP
+
+financial
+
+measure,
+
+to
+
+our non-GAAP
+
+net
+ income
+is
+
+presented
+
+below:
+Three Months Ended
+September 30,
+Nine Months Ended
+September 30,
+2025
+2024
+2025
+2024
+(in
+
+thousands)
+GAAP
+
+net
+ income (
+loss)
+$
+91,114 
+$
+(7,593)
+$
+174,152 
+$
+(108,134)
+Stock-based compensation expense upon IPO
+(1)
+— 
+— 
+— 
+88,873 
+Stock-based compensation expense
+40,739 
+45,535 
+118,659 
+97,497 
+Employer payroll tax related to stock-based compensation from IPO
+(2)
+— 
+— 
+— 
+1,072 
+Income tax effect
+ (3)
+(43,627)
+2,340 
+(66,935)
+(2,471)
+Non-GAAP net income
+$
+88,226 
+$
+40,282 
+$
+225,876 
+$
+76,837 
+(1) Stock-based compensation expense recognized in connection with the time-based vesting and settlement of RSUs that had previously met the time-based vesting condition and for which the liquidity event vesting condition was satisfied in connection with our IPO.
+(2) Employer payroll taxes related to the time-based vesting and settlement of RSUs that had previously met the time-based vesting condition and for which the liquidity event vesting condition was satisfied in connection with our IPO.
+(3) Income
+tax effect is calculated based on the tax laws in the jurisdictions in which we operate and is calculated to exclude the impact of s
+tock-based compensation expense and one-off discrete tax adjustments that are unrelated to our core operating performance. We no longer maintain valuation allowance for non-GAAP purposes due to our profitability on a non-GAAP basis. For the three months ended September 30, 2025 and 2024, the non-GAAP tax rate was approximately 18% and 15%, respectively. For the nine months ended September 30, 2025 and 2024, the non-GAAP tax rate was approximately 12% and 19%, respectively.
+Liquidity
+
+and Capital
+
+Resources
+Since
+
+our
+
+inception,
+
+we
+
+have
+
+financed
+
+our operations
+
+primarily
+
+through
+
+proceeds
+
+from
+equity
+issuances including net proceeds from our IPO,
+
+and
+
+cash
+
+generated
+
+from
+
+the
+
+sale
+
+of
+
+our
+
+products.
+
+As
+
+of
+
+September 30, 2025
+,
+
+our
+
+principal
+
+sources
+
+of
+
+liquidity
+
+were
+
+cash,
+
+cash
+
+equivalents,
+
+and
+
+marketable
+
+securities
+
+of
+
+$1,134.4 million
+. Our
+
+principal
+
+use
+
+of cash is
+ t
+o fund our operations, invest
+
+in research
+
+and development, fund production equipment capital expenditures, and to support
+
+our overall growth.
+While we have generated
+$224.0 million
+ in cash flow from operating activities for the nine months ended
+September 30, 2025, in prior years we generated significant losses from
+operations
+
+and
+
+negative
+
+cash
+
+flows
+
+from
+
+operating
+
+activities
+ a
+s
+
+reflected
+
+in
+
+our
+
+accumulated
+
+deficit
+
+of
+
+$34.6 million
+as
+
+of
+
+September 30, 2025
+.
+
+We
+
+believe
+
+that
+
+our current
+
+cash,
+
+cash equivalents,
+
+and
+
+marketable
+
+securities
+
+will
+
+be
+
+sufficient
+
+to
+
+fund
+
+our
+
+operations
+
+for
+
+at
+
+least
+
+the
+
+next
+
+12
+
+months and beyond. Our
+
+future
+
+capital
+
+requirements,
+
+however,
+
+will
+
+depend
+
+on
+
+many
+
+factor
+s
+,
+
+including
+
+our
+
+growth rate,
+
+the
+
+timing
+
+and extent
+
+of our sales
+
+and marketing
+
+and research
+
+and development
+
+expenditures, capital expenditures for production equipment,
+
+the
+
+continuing
+
+market
+
+acceptance of
+
+our
+
+product
+s
+,
+
+and
+
+the
+
+use
+
+of
+
+cash
+
+to
+
+fund
+
+potential
+
+mergers
+
+or
+
+acquisitions.
+
+In
+
+the
+
+event
+
+that
+
+additional financing
+
+is
+
+required
+
+from
+
+outside
+
+sources,
+
+we
+
+may
+
+seek
+
+to raise
+
+additional
+
+funds
+
+through
+
+equity,
+
+equity-linked arrangements,
+
+and debt.
+
+If
+
+we are
+
+unable
+
+to raise
+
+additional
+
+capital
+
+when desired
+
+and at reasonable
+
+rates, our business,
+
+results
+
+of operations,
+
+and financial
+
+condition
+
+could
+
+be adversely
+
+affected.
+24
+Table of Contents
+Cash Flows
+The following
+
+table
+
+summarizes
+
+our cash
+
+flows
+
+for
+
+the
+
+periods
+
+presented:
+Nine Months Ended
+September 30,
+2025
+2024
+Change
+(in
+
+thousands)
+Net cash provided by operating activities
+$
+224,041 
+$
+96,973 
+$
+127,068 
+Net cash used in investing activities
+$
+(168,678)
+$
+(666,141)
+$
+497,463 
+Net cash provided by financing activities
+$
+6,075 
+$
+650,187 
+$
+(644,112)
+Change in Cash Flows from Operating
+
+Activities
+Net cash provided by operating activities for the nine
+ months ended September 30, 2025
+was $224.0 million,
+ compared to
+$97.0 million
+
+for the comparable period in 2024. The $127.1 million increase in operating cash inflows was a result of a $282.3 million increase in net income, partially offset by both unfavorable change of $90.9 million from changes in operating assets and liabilities and lower non-cash charges of $64.4 million, primarily due to a $67.7 million decrease in stock-based compensation expense, partially offset by increased warrants contra revenue of $3.1 million. The $90.9 million of unfavorable changes in operating assets and liabilities was predominantly attributable to (i) a $51.8 million increase in the changes of the prepaid expenses and other assets primarily due to a higher income tax receivable from excess of tax benefits related to equity compensation and prepayment for a research and development vendor, (ii) a $44.5 million in unfavorable changes in accounts payables and accrued other liabilities primarily due to the timing of payments, and (iii) a $5.8 million increase in inventory primarily due to build up for anticipated demand. These unfavorable changes were partially offset by favorable changes of $13.0 million
+
+in accounts receivable due to higher product sales and the timing of customer payments.
+Change in Cash Flows from Investing
+
+Activities
+Net cash used in investing activities for the nine
+ months ended September 30, 2025
+was $168.7 million,
+ compared to
+$666.1 million for the comparable period in 2024. The $497.5 million decrease in cash used in investing activities was primarily due to a $437.5 million increase
+
+in
+
+proceeds
+
+from
+
+sales and maturities of
+
+marketable
+
+securities, and a
+$60.5 million
+
+decrease in
+purchases of
+
+marketable
+
+securities.
+Change in Cash Flows from Financing Activities
+Net cash provided by financing activities for the nine
+ months ended September 30, 2025
+was $6.1 million,
+ compared to
+$650.2 million
+
+for the comparable period in 2024. The $644.1 million decrease in cash provided by financing activities was primarily due to a decrease of $667.4 million related to proceeds received from the IPO net of underwriting discounts and commissions and deferred offering costs, partially offset by a $20.1 million increase in tax withholding related to net share settlement of RSUs.
+Material Cash Requirements
+Operating
+
+lease
+
+commitments.
+
+Our
+
+operating
+
+lease
+
+commitments
+
+primarily
+
+include
+
+corporate
+
+offices.
+
+For additional discussion of our operating lease commitments,
+s
+ee Note 6 in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Purchase
+
+commitments.
+
+Our
+
+purchase
+
+commitments
+
+are
+
+primarily
+
+related
+
+to software
+
+licenses, cloud hosting services, or performance of certain services.
+For additional discussion of our purchase commitments,
+s
+ee Note 7 in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+For additional discussion of our Material Cash Requirements, s
+ee Note 7 in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+25
+Table of Contents
+Indemnification
+
+Agreements
+See Note 7 in the notes to the unaudited condensed consolidated financial statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+Critical
+
+Accounting Estimates
+Our unaudited condensed consolidated financial statements and the related notes thereto included elsewhere in this Quarterly Report on Form 10-Q are prepared in accordance with GAAP. The preparation of unaudited condensed consolidated financial statements in accordance with GAAP requires us to make certain estimates, judgments, and assumptions that affect the reported amounts of assets and liabilities and the related disclosures as of the date of the financial statements, as well as the reported amounts of revenue and expenses during the period presented. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances. Actual results could differ significantly from our estimates. To the extent that there are differences between our estimates and actual results, our future financial statement presentation, financial condition, results of operations, and cash flows could be affected.
+There have been no material changes to our critical accounting policies and estimates as described in our
+Annual Report on Form 10-K for the year ended December 31, 2024
+.
+Recent Accounting Pronouncements
+For
+
+more
+
+information,
+
+see
+
+Note
+
+1
+ in the notes
+to the
+ unaudited condensed c
+onsolidated
+ f
+inancial
+ s
+tatements
+set forth in Part I, Item 1 of
+ this Quarterly Report on Form 10-Q.

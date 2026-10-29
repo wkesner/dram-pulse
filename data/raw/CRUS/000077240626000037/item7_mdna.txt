@@ -1,0 +1,251 @@
+ITEM 2.  MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion should be read along with the unaudited consolidated condensed financial statements and notes thereto included in Item 1 of this Quarterly Report on Form 10-Q, as well as the audited consolidated financial statements and notes thereto and Management’s Discussion and Analysis of Financial Condition and Results of Operations for the fiscal year ended March 28, 2026, contained in our fiscal year 2026 Annual Report on Form 10-K filed with the Securities and Exchange Commission (the “Commission”) on May 21, 2026. 
+
+We maintain a website at 
+investor.cirrus.com
+, which makes available free of charge our
+
+most
+
+recent annual report and
+
+all
+
+other filings
+
+we have made
+
+with the
+
+Commission. 
+Special Note Regarding Forward-Looking Statements
+This Quarterly Report on Form 10-Q including Management’s Discussion and Analysis of Financial Condition and Results of Operations and certain information incorporated herein by reference contain forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”).  These forward-looking statements are based on expectations, estimates, forecasts and projections and the beliefs and assumptions of our management as of the filing of this Form 10-Q.  In some cases, forward-looking statements are identified by words such as “expect,” “anticipate,” “target,” “project,” “believe,” “goals,” “estimates,” “intend,” and variations of these types of words and similar expressions which are intended to identify these forward-looking statements.  In addition, any statements that refer to our plans, expectations, strategies or other characterizations of future events or circumstances are forward-looking statements.  Readers are cautioned that these forward-looking statements are subject to risks, uncertainties and assumptions that are difficult to predict.  Therefore, actual results may differ materially and adversely from those expressed in any forward-looking statements and readers should not place undue reliance on such statements.  We undertake no obligation, and expressly disclaim any duty, to revise or update publicly any forward-looking statement for any reason, except as required by law.
+For additional information regarding known material factors that could cause our actual results to differ from our projected results, please see
+
+“Item 1A - Risk Factors”
+
+in our 2026 Annual Report
+
+on Form 10-K filed with the Commission on
+
+May 21, 2026,
+
+and in “
+Part II, Item 1A
+ -
+Risk Factors
+” within this Quarterly Report on Form 10-Q.  Readers should carefully review these risk factors, as well as those identified in other documents filed by us with the Commission. 
+17
+Overview
+Cirrus Logic, Inc. (“Cirrus Logic,” “We,” “Us,” “Our,” or the “Company”) is a leader in low-power, high-precision mixed-signal processing solutions that create innovative user experiences for the world’s top mobile and consumer applications.
+During the first quarter of fiscal year 2027, we saw strong demand for our custom products shipping into smartphones. We also made good progress in the development of our next-generation camera controller and new smart power IC for 3D sensing applications.  The latter is part of a broader set of power and battery opportunities that we believe will diversify our product portfolio and support long-term growth.  Beyond smartphones, the PC market remains our largest near-term growth opportunity.  In the current quarter, we were encouraged by our design win activity and customer engagement, which included interest in our latest smart codec for AI-enabled PCs.  Additionally, in June multiple customers announced new PCs based on NVIDIA’s RTX Spark™ platform, which are expected to ship later this year with Cirrus Logic amplifiers and codecs.
+In our general market business, we also continued to expand across a broad base of customers in the professional audio, automotive, industrial, and imaging markets.  Our progress in the first quarter of fiscal year 2027 included taping out a new high-performance analog front-end (AFE) component for metrology applications, which we expect to begin sampling in the September quarter.  While this component will initially be used for smart meters, we believe over time the underlying technology can extend into adjacent applications such as data center DC metrology, energy storage, EV charging, and grid monitoring.  We remain optimistic about our opportunities to continue leveraging our mixed-signal design and signal processing expertise to drive growth across new applications and markets in future years.
+Finally, we recently signed a new Capacity Reservation and Wafer Supply Agreement with GlobalFoundries. This agreement builds on our existing partnership and secures dedicated wafer capacity and pricing for calendar 2027 and 2028, further supporting the broad range of opportunities we see ahead.  We are also continuing to collaborate with GlobalFoundries on next-generation process technologies and progressing towards manufacturing products in the United States at their facility in Malta, New York.
+Critical Accounting Policies and Estimates
+Our discussion and analysis of the Company’s financial condition and results of operations are based upon the unaudited consolidated condensed financial statements included in this report, which have been prepared in accordance with U.S. GAAP.  The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts.  We evaluate the estimates on an ongoing basis.  We base these estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources.  Actual results may differ from these estimates under different assumptions and conditions. 
+There have been no significant changes during the three months ended June 27, 2026, to the information provided under the headings “
+Critical Accounting Estimates
+” and “
+Summary of Significant Accounting Policies
+” included in our fiscal year 2026 Annual Report on Form 10-K for the fiscal year ended March 28, 2026.
+Recently Issued Accounting Pronouncements
+For a discussion of recently issued accounting pronouncements, refer to Note 2 of the Notes to the Consolidated Condensed Financial Statements.
+18
+Results of Operations
+ 
+Our fiscal year is the 52- or 53-week period ending on the last Saturday in March.  Fiscal years 2027 and 2026 are 52-week fiscal years.
+The following table summarizes the results of our operations for the
+three
+ months of fiscal years 2027
+
+and
+
+2026, respectively,
+
+as a
+
+percentage
+
+of net sales.  All
+
+percentage
+
+amounts were calculated using the underlying data in thousands, unaudited.  Percentages are rounded to the nearest whole percent and, as a result, may not sum to subtotals presented.
+Three Months Ended
+June 27,
+June 28,
+2026
+2025
+Net sales
+100 
+%
+100 
+%
+Gross margin
+53 
+%
+53 
+%
+Research and development
+25 
+%
+25 
+%
+Selling, general and administrative
+9 
+%
+10 
+%
+Income from operations
+18 
+%
+18 
+%
+Interest income
+2 
+%
+2 
+%
+Interest expense
+— 
+%
+— 
+%
+Other expense
+— 
+%
+— 
+%
+Income before income taxes
+20 
+%
+20 
+%
+Provision for income taxes
+4 
+%
+5 
+%
+Net income
+17 
+%
+15 
+%
+Net Sales 
+Net sales for the first quarter of fiscal year 2027 increased $52.5 million, or 13 percent, to $459.7 million from $407.3 million in the first quarter of fiscal year 2026.  Net sales from our audio products increased $9.0 million, primarily driven by higher sales of components shipping in smartphones, partially offset by declines in average sales prices ("ASPs") due to previously anticipated pricing reductions.  Net sales from HPMS products increased $43.5 million for the quarter versus the first quarter of fiscal year 2026, primarily due to higher sales of components shipping in smartphones, partially offset by declines in ASPs due to previously anticipated pricing reductions.
+
+International sales, including sales to U.S.-based end customers that manufacture products through contract manufacturers or plants located overseas, were approximately 99 percent of net sales for each of the first quarters of fiscal years 2027 and 2026.  Our sales are denominated primarily in U.S. dollars. 
+Since the components we produce are largely proprietary, we consider our end customer to be the entity specifying the use of our component in their design.  These end customers may purchase our products directly from us, through distributors, or third-party manufacturers contracted to produce their
+
+designs.  For the
+
+first
+
+quarters of fiscal years 2027
+
+and 2026, our ten largest end customers represented approximately
+
+96 percent and 95 percent of our net sales, respectively.
+We had one end customer, Apple Inc., that purchased through multiple contract manufacturers and represented approximately 90 percent and 86 percent of the Company’s total net sales for the first quarters of fiscal years 2027 and 2026, respectively.
+  
+No other end customer or distributor represented more than 10 percent of net sales for the three months ended June 27, 2026
+
+or
+
+June 28, 2025.
+For more information, please see “
+Part II, Item 1A - Risk Factors
+”
+
+—
+
+“We depend on a limited number of customers and distributors for a substantial portion of our sales, and the loss of, or a significant reduction in orders from,
+
+or pricing on products sold to,
+
+any key customer or distributor could significantly reduce our sales
+
+and our profitability.”
+19
+Gross Margin
+Gross margin was 52.6 percent in the first quarter of fiscal years 2027 and 2026, remaining flat for the period, as a favorable product mix was partially offset by higher freight and supply chain costs.
+Research and Development Expense
+Research and development expense for the first quarter of fiscal year 2027 was $115.0 million, an increase of $12.1 million, from $102.9 million in the first quarter of fiscal year 2026.  Significant drivers included increased employee-related, product development, variable compensation, and IT and facilities-related costs during the quarter.
+Selling, General and Administrative Expense
+Selling, general and administrative expense for the first quarter of fiscal year 2027 was $42.4 million, an increase of $3.7 million, from $38.7 million in the first quarter of fiscal year 2026, due primarily to increased employee-related costs and professional fees for the quarter.
+Interest Income
+The Company reported interest income of $10.4 million and $8.8 million for the three months ended June 27, 2026, and June 28, 2025, respectively.  Interest income increased in the current period due to
+
+higher average cash, cash equivalents and marketable securities balances, partially offset by marginally lower interest rates compared to the
+
+prior
+
+period.
+Interest Expense
+The Company reported interest expense of $0.3 million and $0.2 million for the three months ended June 27, 2026, and June 28, 2025, respectively.  Interest expense consists primarily of commitment fees and debt issuance cost amortization associated with the Company's Revolving Credit Facility (see Note 8 - Revolving Credit Facility of the Notes to the Consolidated Condensed Financial Statements).
+Other Expense
+For the three months ended June 27, 2026 and June 28, 2025, the Company reported other expense of $0.4 million and $0.4 million, respectively.  This activity primarily
+
+related to non-investment related expense and remeasurement on
+
+foreign currency
+
+denominated monetary assets and liabilities.
+  
+ 
+Income Taxes
+Our provision for income taxes is based on estimated effective tax rates derived from an estimate of annual consolidated earnings before taxes, adjusted for nondeductible expenses, other permanent items and any applicable credits. 
+The following table presents the provision for income taxes (in thousands) and the effective tax rates:
+Three Months Ended
+June 27,
+June 28,
+2026
+2025
+Income before income taxes
+$
+94,155 
+$
+80,628 
+Provision for income taxes
+$
+17,304 
+$
+19,931 
+Effective tax rate
+18.4 
+%
+24.7 
+%
+Our income tax expense for the first quarter of fiscal year 2027 was $17.3 million compared to $19.9 million for the first quarter of fiscal year 2026, resulting in effective tax rates of 18.4 percent and 24.7 percent, respectively.
+The effective tax rate for the first quarter of fiscal year 2027 was lower than the prior period presented, primarily due to the July 4, 2025 enactment of the One Big Beautiful Bill Act that reinstated immediate expensing of U.S. R&D expenditures. The effective tax rate for the first quarter of fiscal year 2026 was unfavorably impacted by the Tax Cuts and Jobs Act of 2017 provision that required worldwide R&D expenditures to be capitalized and amortized, which resulted in increased GILTI
+20
+inclusions in the period, and by U.S. tax rules related to refundable tax credits, including R&D expenditure credits available to us in the United Kingdom, that reduced the amount of foreign tax credits available to offset GILTI.
+Liquidity and Capital Resources 
+We require cash to fund our operating expenses and working capital requirements, including outlays for inventory, capital expenditures, share repurchases, and strategic acquisitions.  Our principal sources of liquidity are cash on hand, cash generated from operations, cash generated from the sale and maturity of marketable securities, and available borrowings under our $350 million Revolving Credit Facility. 
+Cash generated from our operating activities is net income adjusted for certain non-cash items and changes in working capital.  Cash generated from operations was
+
+$64.1 million for the first
+
+three months
+
+of fiscal year 2027
+
+versus $116.1 million generated for the
+
+corresponding period of fiscal year 2026.  The cash
+
+flow from
+
+operations during the
+
+first three months of fiscal year 2027 was related to the cash components of our net income and a $42.0 million unfavorable change in working capital, primarily as a result of increases in accounts receivables and inventory, and decreases in accounts payable and other accrued liabilities, partially offset by increases in prepaid wafer usage (related to the Capacity Reservation Agreement).  The cash flow from operations during the corresponding period of fiscal year 2026 was related to the cash components of our net income and a $27.4 million favorable change in working capital, primarily as a result of decreases in inventory, increases in prepaid wafer usage (related to the Capacity Reservation Agreement) and income taxes payable, partially offset by decreases in accounts payable and other accrued liabilities.       
+Net cash
+
+used in investing activities was $19.4 million during the first three months of fiscal year 2027 versus $6.2 million during the first three months of fiscal year 2026.  The cash used in investing activities in the first three months of fiscal year 2027 was related to net purchases of marketable securities of $3.9 million and capital expenditures and technology investments of $15.5 million.  The cash used in investing activities in the corresponding period in fiscal year 2026 was related to net purchases of marketable securities of $3.4 million and capital expenditures and technology investments of $2.8 million.
+Net cash used in financing activities was $35.0 million during the first three months of fiscal year 2027 and was primarily associated with stock repurchases for the period of $31.5 million.  The cash used in financing activities during the first three months of fiscal year 2026 of $100.7 million was primarily associated with stock repurchases during the period of $100.0 million.
+Our future capital requirements will depend on many factors, including the rate of sales growth, market acceptance of our products, the timing and extent of research and development projects, potential future acquisitions of companies or technologies, inventory build, and commitments under the Capacity Reservation and Commitment Agreements with GlobalFoundries (discussed further in Note 12 - Commitments and Contingencies of the Notes to the Consolidated Condensed Financial Statements).  We believe our expected future cash earnings, existing cash, cash equivalents, investment balances, and available borrowings under our Revolving Credit Facility will be sufficient to meet our capital requirements both domestically and internationally, in the short-term (i.e. the next 12 months) and in the long-term, although we could be required, or could elect, to seek additional funding prior to that time.
+Revolving Credit Facility
+On May 4, 2026, the Company entered into a third amended and restated credit agreement (the “Third Amended Credit Agreement”) with Wells Fargo Bank, National Association, as administrative agent, and the lenders party thereto.  The Third Amended Credit Agreement provides for a $350 million senior secured revolving credit facility (the “Revolving Credit Facility”).  The Revolving Credit Facility matures on May 4, 2031 (the “Maturity Date”).  The Revolving Credit Facility is required to be guaranteed by all of Cirrus Logic’s Subsidiary Guarantors.  The Revolving Credit Facility is secured by substantially all the assets of Cirrus Logic and any Subsidiary Guarantors, except for certain excluded assets.
+As of June 27, 2026, the Company had no amounts outstanding under the Revolving Credit Facility and was in compliance with all covenants under the Third Amended Credit Agreement.  
+See Note 8 — Revolving Credit Facility of the Notes to the Consolidated Condensed Financial Statements for additional information including material terms and related covenants.
+21

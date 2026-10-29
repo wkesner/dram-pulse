@@ -1,0 +1,28 @@
+{
+  "company": "STMicroelectronics",
+  "ticker": "STM",
+  "cik": "0000932787",
+  "form": "6-K",
+  "filing_date": "2026-08-19",
+  "accession_number": "0000932787-26-000069",
+  "primary_document": "stm_sarxmaster-semiannual2.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000069/stm_sarxmaster-semiannual2.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-07-27",
+  "period_end": "2026-07-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:32.583295+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/STM/000093278726000069/primary.html",
+    "other": "data/raw/STM/000093278726000069/other_full.txt"
+  }
+}

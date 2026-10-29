@@ -1,0 +1,317 @@
+Item 1.
+Business
+Overview
+ON Semiconductor Corporation, together with its wholly and majority-owned subsidiaries, which operate under the onsemi
+TM
+ brand ("onsemi," "we," "us," "our," or the "Company"), was incorporated under the laws of the State of Delaware in 1992.
+We offer intelligent power and intelligent sensing solutions that drive electrification, energy efficiency, safety, and automation in automotive, industrial, and other end-markets, including AI data center. Our intelligent power technologies enable the electrification of drivetrain in the automotive industry to allow for lighter and longer-range electric vehicles and empower efficient fast-charging systems. Our intelligent sensing technologies enable advanced safety applications in automotive through industry leading performance and reliability.
+We believe the evolution of the automotive industry, with advancements in autonomous driving, ADAS, vehicle electrification, and the increase in electronics content for vehicle platforms is reshaping the boundaries of transportation. Through sensing integration, we believe our intelligent power solutions achieve increased efficiencies compared to our peers. This integration allows lower temperature operation and reduced cooling requirements while saving costs and minimizing weight. In addition, our power solutions deliver power with less die per module, achieving higher range for a given battery capacity.
+In the industrial market, our intelligent power technologies propel sustainable energy for the highest efficiency solar strings and industrial power. In the medical field, our intelligent power technologies extend the life of personal diagnostic devices, such as continuous glucose monitors. Our intelligent sensing technologies support the next generation industry through automation, allowing for smarter factories and buildings. In addition, our intelligent sensing technologies are enabling robotics and humanoids.
+In our other market which includes AI data center products, our intelligent power technologies enable energy efficiency in a market in which energy needs are growing at an exponential rate, and AI data center operators are focused on reducing energy consumption. We believe we have one of the most comprehensive portfolios of products and technologies for this market to address the complete power tree, and we are well positioned to benefit as new generation of AI data center processors and racks enter the market.
+As of December 31, 2025, we were organized into three operating and reportable segments: the Power Solutions Group ("PSG"), the Analog and Mixed-Signal Group ("AMG") and the Intelligent Sensing Group ("ISG").
+Business Strategy Developments
+We are focused on increasing profitable revenue through differentiated technologies to address the high-growth megatrends in automotive, industrial and other markets which include AI data centers. We continue to optimize and right-size our manufacturing footprint to align our capacity with our long-term outlook, while focusing on generating efficiencies that result in meaningful gross margin expansion and operating cash flows. We intend to achieve efficiencies in our operating and capital expenditures and invest in research and development initiatives to accelerate growth in high-margin products.
+2025 Significant Activities
+Acquisitions
+On January 14, 2025, we completed the acquisition of the Silicon Carbide Junction Field-Effect Transistor ("SiC JFET") technology business from Qorvo US, Inc., and certain of its subsidiaries, for $118.8 million in cash. We believe the acquisition complements our EliteSiC power portfolio within the PSG reportable segment and enables us to help address the need for high energy efficiency and power density in the AC-DC stage in power supply units for AI data centers.
+On October 27, 2025, we completed the acquisition of rights to Vcore power technologies, including associated intellectual property licenses, from Aura Semiconductor enhancing our power management portfolio. The total purchase consideration is up to $144 million, subject to customary purchase price adjustments, with $7 million paid in cash at close. Of the total purchase price, $72 million is payable upon acceptance and delivery of specified products and the remaining $72 million is contingent upon the achievement of certain revenue milestones through 2030.
+ 6
+Table of Contents
+2025 Manufacturing Realignment Program
+During the first quarter of 2025, we announced restructuring and cost reduction initiatives based on an evaluation of our operating structure, business strategy, manufacturing technologies and internal capabilities to realign our internal manufacturing capacity and capabilities with anticipated long-term needs.
+We incurred total severance costs and related benefit expenses of $67.1 million related to the termination of approximately 2,400 employees. Additionally, we recorded non-cash impairment charges of $496.0 million during the year ended December 31, 2025 related to previous investments in manufacturing equipment at certain manufacturing facilities pursuant to held-for-sale accounting guidance. Other charges of $103.9 million for the year ended December 31, 2025, comprised of other exit costs, accelerated depreciation and contract termination costs, were incurred as part of the program. The total of the aforementioned costs was included within Restructuring, Asset Impairments and Other, Net in the Consolidated Statement of Operations.
+We also recorded $268.2 million relating to excess and obsolete inventory charges, of which $37.9 million and $230.3 million related to inventory primarily considered work in progress within the PSG and ISG reportable segments, respectively. Additionally, we recorded $45.4 million related to write-off of consumables, manufacturing supplies and obligations for certain unfulfilled purchase commitments due to the manufacturing capacity reduction actions associated with the program. These charges were recorded within Cost of revenue in the Consolidated Statement of Operations.
+For additional information, see Note 7: ''Restructuring, Asset Impairments and Other, net'' in the notes to our audited consolidated financial statements included elsewhere in this Form 10-K.
+We continue to evaluate our employee workforce composition (both employee positions and locations) and manufacturing capacity and footprint for potential operational improvements and efficiencies.
+Share Repurchases
+During the year ended December 31, 2025, we repurchased approximately 27.9 million shares of our common stock for an aggregate purchase price of approximately $1,375.0 million, excluding fees, commissions and excise taxes. See Note 10: ''Earnings Per Share and Equity'' in the notes to our audited consolidated financial statements included elsewhere in this Form 10-K for additional information.
+Repayment of Revolver
+On December 31, 2025, we repaid $375.0 million that was outstanding on the Revolving Credit Facility. As of December 31, 2025, we had approximately $1.5 billion available under the Revolving Credit Facility for future borrowings, except for amounts utilized for the letters of credit.
+See Note 9: ''Long-Term Debt'' in the notes to our audited consolidated financial statements included elsewhere in this Form 10-K for additional information.
+Revenue-Generating Activities
+onsemi generates revenue primarily from the sale of semiconductor products to distributors and direct customers. We also generate revenue, to a much lesser extent, from product development agreements. We believe that our ability to offer a broad range of products, combined with our global manufacturing and logistics network, provides our customers with single source purchasing.
+ 7
+Table of Contents
+The following table illustrates the product technologies under each of our segments based on our operating strategy:
+PSG
+AMG
+ISG
+2025 Revenue (%)
+47%
+38%
+15%
+SiC products
+Analog products
+Actuator Drivers
+SiC JFET products
+ASIC products
+CMOS image sensors
+Discrete products
+Logic and Isolation products
+Image Signal Processors
+MOSFET products
+Non-Volatile Memory products
+Single Photon Detectors
+Power Module products
+Ultrasonic
+Short-Wavelength Infrared
+Vertical GaN
+Inductive sensing
+Indirect Time of Flight sensors
+Gate Driver products
+See Note 3: ''Segments and Revenue'' in the notes to our audited consolidated financial statements included elsewhere in this Form 10-K for other information regarding our segments, their revenue and gross profit derived from each segment.
+Products and Technology
+The following provides certain information regarding the products and technologies for each of our operating segments.
+PSG
+PSG provides a broad portfolio of discrete, module, and integrated semiconductor devices designed to enable high‑efficiency and high‑power conversion across AI data centers, energy infrastructure, automotive and industrial. Our offerings include power switching devices, signal conditioning products, and circuit‑protection technologies that support increasing demands for performance, power density and system reliability.
+Market demand for PSG products continues to be driven by vehicle electrification, renewable energy expansion, modernization of global power infrastructure, and the rapid scaling of AI and high‑performance computing systems. PSG’s Silicon & WBG power technologies, spanning FETs and diodes, play a critical role in high‑power conversion for energy infrastructure, energy storage, AI data centers, fast-charging systems, electric vehicles and industrial drives. Our vertically integrated SiC manufacturing strategy enhances supply assurance, cost competitiveness, and device performance. PSG continues to advance its manufacturing footprint through network optimization initiatives that improve overall utilization and flexibility. These actions support long‑term gross margin expansion and enable efficient scaling of differentiated high‑value power products.
+AMG
+AMG designs and develops a comprehensive range of analog and mixed-signal solutions including power‑management, sensor‑interface, connectivity, and standard products that serve automotive, industrial automation, AI data center, computing, and mobile end markets. These products include multi‑phase controllers, gate drivers, DC‑DC and AC‑DC converters, power protection devices, ultrasonic sensors, AFEs, LDOs, single pair Ethernet connectivity, isolation, logic, and more.
+AMG enables solutions across the power‑tree architectures in its target markets, enabling high‑efficiency power management, along with high performance, precise sensing and robust communication interfaces for next‑generation system designs. AMG delivers advanced analog and mixed-signal technology through our Treo Platform. The Treo Platform is a single, scalable technology platform supporting a wide voltage range, high temperature and an ever-evolving SoC, like architecture accelerating time to market.  This technology platform supports intelligent power and sensing solutions used in electrified transportation, factory automation, and other high performance, next-generation applications.
+ISG
+ISG develops advanced imaging technologies that include high‑performance CMOS image sensors, ISPs, SWIR sensors, and more. These technologies support high‑dynamic‑range, low‑noise, and high‑reliability imaging essential to automotive ADAS, industrial automation, robotics, and AI‑enabled perception systems. ISG continues to shift its focus to the areas of advanced imaging performance and long product lifecycles. Photon‑counting technologies, including SPAD arrays and SiPM devices, continue to play a role in emerging applications such as depth sensing, factory automation, safety systems, and robotics.
+ 8
+Table of Contents
+Customers
+We sell our products to direct customers and distributors for ultimate use in a variety of end-products in different end-markets. In general, we have maintained long-term relationships with our key customers, and our sales agreements are renewable periodically and contain certain terms and conditions with respect to payment, delivery, warranty and supply.
+We generally warrant that products sold to our customers will, at the time of shipment, be free from defects in workmanship and materials and conform to our approved specifications. Our standard warranty extends for a period of two years from the date of delivery, except in the case of image sensor products, which are warranted for one year from the date of delivery. Unless otherwise agreed in writing, customers may cancel orders 45-120 days prior to shipment, depending on the product, for standard products without penalty and, for custom products, prior to shipment, provided they pay onsemi's actual costs incurred as of the date we receive the cancellation notice. The loss of one of our large customers would have a material adverse effect on the operations of the respective segment and may have a material adverse effect on our consolidated results of operations.
+Distributors
+Sales to distributors accounted for approximately 54%, 53% and 52% of our revenue in 2025, 2024 and 2023, respectively. We had one distributor whose revenue accounted for approximately 11% and 10% of the total revenue for the years ended December 31, 2025 and 2024, respectively. There were no distributors whose revenue accounted for more than 10% of total revenue for the year ended December 31, 2023. Our distributors provide fulfillment services and resell our products to OEMs, contract manufacturers, and other end-customers. Sales to distributors are typically made pursuant to agreements that provide return rights and stock rotation provisions permitting limited levels of product returns.
+Direct Customers
+Sales to direct customers accounted for approximately 46%, 47% and 48% of our revenue in 2025, 2024 and 2023, respectively. Large multi-national companies and selected regional OEMs, which are significant in specific markets, form our core direct customers. Generally, these customers do not have the right to return our products following a sale other than pursuant to our warranty.
+For additional information regarding agreements with our customers, see "Markets," "Resources," "Risk Factors - Trends, Risks and Uncertainties Related to Our Business" and Note 2: ''Significant Accounting Policies'' under the heading "Revenue Recognition" in the notes to our audited consolidated financial statements, included elsewhere in this Form 10-K.
+Markets
+Product Development
+onsemi is focused on innovation to create intelligent power and sensing technologies that solve the most challenging customer problems. Our product development efforts are directed towards the following:
+
+•
+addressing the need for solutions to manage and optimize the growing power demands and distribution within AI data centers;
+•
+powering the electrification of the automotive industry with our intelligent power technologies that allow for lighter and longer-range electric vehicles and enable efficient fast-charging systems;
+•
+propelling the sustainable energy evolution with our intelligent power technologies for the highest efficiency solar strings, industrial power and storage systems;
+•
+enhancing the automotive mobility experience with our intelligent sensing technologies with imaging and depth sensing that make AD, ADAS, and advanced vehicle safety possible; and
+•
+enabling robotics, humanoids, automation, and data exchange (Industry 4.0) with our intelligent sensing technologies for smarter factories and buildings.
+While our new product development efforts continue to be focused on building solutions in areas that appeal to customers in focused market segments and across multiple high-growth applications, it is our practice to regularly re-evaluate our research and development spending, to assess the deployment of resources and to review the funding of high-growth technologies. We deploy people and capital with the goal of maximizing the return for our research and development investments by targeting innovative products and solutions for high-growth applications that we believe position us to outperform the industry.
+ 9
+Table of Contents
+End-Markets
+We serve a broad base of end-user markets, with a primary focus towards automotive and industrial. The following table sets forth our principal end-markets, the estimated percentage of our revenue generated from each end-market during 2025, and sample applications for our products. Other includes the end-markets of AI data center, computing, consumer, networking, communication, etc.
+
+Automotive
+Industrial
+Other
+2025 Revenue (%)
+51%
+28%
+21%
+Sample applications
+EV
+Energy generation, storage, & EV charging infrastructure
+AI data center
+ADAS and advanced safety
+Industrial automation
+5G base stations
+Power management
+Aerospace, defense, & security
+Gaming, home entertainment systems, & set top boxes
+Powertrain
+Machine vision
+Routers
+In-Vehicle networking
+Smart cities & buildings
+Notebooks, laptops, desktop PCs & tablets
+Body & interior
+Hearing health, diagnostic, therapy, & monitoring
+White goods
+Lighting
+Power solutions
+Power supplies
+Sensors
+Motor control
+Smart phones
+Engine control
+Robotics and humanoids
+Competition
+ 
+We face significant competition from major international semiconductor companies, as well as smaller companies focused on specific market niches. Because some of our components include functionality that in some cases may be integrated into more complex ICs, we also face competition from manufacturers of ICs, ASICs and fully-customized ICs, as well as customers who develop their own IC products. See "Risk Factors — Trends, Risks and Uncertainties Related to Our Business" included elsewhere in this Form 10-K for additional information.
+Some of our competitors have greater financial and other resources to pursue development, engineering, manufacturing, marketing and distribution of their products and may generally be better situated to withstand adverse economic or market conditions. The semiconductor industry has experienced, and may continue to experience, significant consolidation among companies and vertical integration among customers. The following discusses the effects of competition on our three operating segments:
+PSG
+Our competitive strengths include core competencies such as leading-edge fabrication technologies, micro and module packaging expertise, breadth of product line and IP portfolio, high-quality, cost-effective manufacturing and supply chain management. Our commitment to continuous innovation allows us to provide a broad range of semiconductor solutions to our customers who differentiate in power density and power efficiency, the key performance characteristics driving our markets.
+New products and package innovation that enable enhanced performance over existing portfolios drive competition. A central focus of our portfolio is intelligent power technology based on silicon, silicon carbide, and GaN. These wide bandgap technologies are designed and manufactured by onsemi and supplied to customers in multiple forms, including bare die, packaged discrete products, and complete power modules. In addition to our power technologies, we believe our integrated circuit, signal, and protection technologies have significant performance advantages over our competition. PSG’s primary competitors include: Infineon Technologies AG ("Infineon"), STMicroelectronics N.V. ("STMicroelectronics"), Wolfspeed Inc., ROHM Semiconductor and Nexperia BV.
+AMG
+AMG principally competes on design experience, manufacturing capability, depth and quality of IP, ability to service customer needs from the design phase to the shipping of a completed product, length of design cycle, longevity of technology support and
+ 10
+Table of Contents
+experience of sales and technical support personnel. Our competitive position with respect to the above is enhanced by long-standing relationships with leading customers.
+Our ability to compete successfully depends on internal and external variables. These variables include, but are not limited to, the timeliness with which we can develop new products and technologies, product performance and quality, manufacturing yields and availability of supply, customer service, pricing, industry trends and general economic trends. Competitors for certain of AMG's products and solutions include: Texas Instruments Incorporated, Analog Devices, Inc., Infineon, STMicroelectronics, Renesas Electronics Corporation, Monolithic Power Systems Inc. and NXP Semiconductors N.V.
+ISG
+ISG differentiates itself from the competition through deep technical knowledge and close customer relationships to drive leading-edge sensing performance primarily in machine vision applications. ISG has significant imaging experience and was one of the earliest to commercialize CMOS active pixel sensors and introduce CMOS technology in many of our markets. ISG has leveraged this expertise into market-leading positions in automotive and industrial applications, which allow us to offer technical and end-user applications knowledge to help customers develop innovative sensing solutions across a broad range of end-user needs.
+Competitors for certain of ISG's products and solutions include: Sony Semiconductor Manufacturing Corporation, Samsung Electronics Co., Ltd., and Omnivision Technologies Inc.
+Sales, Marketing and Distribution
+We have global distribution centers in China, the Philippines and Singapore. Global and regional distribution channels further support our customers' needs for quick response and service. We offer efficient, cost-effective global applications support from our technical information centers and solution engineering centers, allowing for applications that are developed in one region of the world to be instantaneously available throughout all other regions.
+Backlog
+Our sales are made primarily pursuant to orders that are booked as far as 52 weeks in advance of delivery. Generally, prices and quantities are fixed at the time of booking. Backlog as of a given date consists of existing orders and forecasted demand from our customers, in each case scheduled to be shipped in the current or future period. Backlog is influenced by several factors, including market demand, pricing and customer order patterns in reaction to product lead times. In the semiconductor industry, backlog quantities and shipment schedules under outstanding purchase orders are frequently revised to reflect changes in customer needs.
+Resources
+Raw Materials
+Our manufacturing processes use many raw materials, including silicon wafers, SiC wafers, laminate substrates, gold, copper, lead frames, mold compound, ceramic packages and various chemicals and gases. We seek to obtain our raw materials and supplies in a timely, planned manner from our suppliers to allow for our manufacturing cycle to align with the timing of our customer demands. However, suppliers may extend lead times, limit supplies or increase prices due to capacity constraints or other factors beyond our control.
+Manufacturing and Design Operations
+We currently have domestic design operations in Arizona, California, Idaho, New York, Oregon, Pennsylvania, Rhode Island and Texas. We also have foreign design operations in Belgium, Canada, China, the Czech Republic, Germany, India, Ireland, Israel, Italy, Japan, South Korea, the Philippines, Romania, Singapore, the Slovak Republic, Slovenia, Switzerland, Taiwan and the United Kingdom. We operate front-end wafer fabrication facilities in the United States, the Czech Republic, Japan, South Korea, and Malaysia and back-end assembly and test site facilities in Canada, China, Malaysia, the Philippines, Vietnam and the United States. In addition to these front-end and back-end manufacturing operations, our facility in Hudson, New Hampshire manufactures SiC crystal boules and our facilities in Rožnov pod Radhoštěm, the Czech Republic and Bucheon, South Korea manufacture silicon and SiC wafers that are used by a number of our facilities.
+ 11
+Table of Contents
+The table below sets forth information with respect to the manufacturing facilities we operate either directly or pursuant to joint ventures, the reportable segments that use such facilities, and the approximate gross square footage of each site's building, which includes, among other things, manufacturing, laboratory, warehousing, office, utility, support and unused areas.
+Location
+Reportable Segment
+Size (sq. ft.)
+Front-end Facilities:
+East Fishkill, New York
+AMG, ISG and PSG
+2,724,137 
+Gresham, Oregon
+AMG and PSG
+558,457 
+Rožnov pod Radhoštěm, Czech Republic
+AMG and PSG
+450,755 
+Seremban, Malaysia (Site 2)
+(3)
+AMG, ISG and PSG
+133,061 
+Bucheon, South Korea
+AMG and PSG
+1,113,938 
+Mountaintop, Pennsylvania
+AMG and PSG
+437,000 
+Aizuwakamatsu, Japan
+AMG and PSG
+734,482 
+Nampa, Idaho
+ (1) (2)
+ISG
+166,268 
+Hudson, New Hampshire
+(1)
+PSG
+272,036 
+Back-end Facilities:
+Burlington, Canada
+(1)
+AMG
+95,440 
+Leshan, China
+(3)
+AMG and PSG
+416,339 
+Seremban, Malaysia (Site 1)
+(3)
+AMG, ISG and PSG
+328,275 
+Carmona, Philippines
+ (3)
+AMG and PSG
+926,367 
+Tarlac City, Philippines
+(3)
+AMG and PSG
+381,764 
+Shenzhen, China
+ (1)
+PSG
+275,463 
+Bien Hoa, Vietnam
+(3)
+AMG and PSG
+294,418 
+Cebu, Philippines
+(3)
+AMG and PSG
+228,460 
+Suzhou, China
+(3)
+AMG and PSG
+452,639 
+(1)
+These facilities are leased.
+(2)
+This facility is used for both front-end and back-end operations.
+(3)
+These facilities are located on leased land.
+All of our manufacturing facilities are fully owned and operated by us, except our assembly and test operations facility located in Leshan, China, which is owned by Leshan-Phoenix Semiconductor Company Limited, a joint venture company in which we own 80% of the outstanding equity interests ("Leshan"). The financial and operating results of Leshan have been consolidated in our financial statements. Our joint venture partner is Leshan Radio Company Ltd. ("Leshan Radio"). Pursuant to the joint venture agreement between us and Leshan Radio, requests for production capacity are made to the board of directors of Leshan by each shareholder of the joint venture. Each request represents a purchase commitment, provided that any shareholder may elect to pay the cost associated with the unused capacity (which is generally equal to the fixed cost of the capacity) in lieu of satisfying the commitment. We purchased 80% of Leshan's production capacity in each of 2025, 2024 and 2023, and are currently committed to purchase approximately 80% of Leshan's expected production capacity in 2026.
+We use third-party contractors for some of our manufacturing activities, primarily for wafer fabrication and the assembly and testing of finished goods. Our agreements with these manufacturers typically require us to forecast product needs and commit to purchase services consistent with these forecasts. In some cases, longer-term commitments are required in the early stages of the relationship. These manufacturers collectively accounted for approximately 34% of our total manufacturing input costs in 2025, 33% in 2024 and 36% in 2023.
+For information regarding risks associated with our foreign operations, see "Risk Factors — Trends, Risks and Uncertainties Related to Our Business" included elsewhere in this Form 10-K.
+Patents, Trademarks, Copyrights and Other Intellectual Property Rights
+ 
+We market our products under worldwide trademarks, including ON Semiconductor, ON, onsemi, and various product names and logos, and, in the United States and internationally, we rely primarily on a combination of patents, trademarks, copyrights,
+ 12
+Table of Contents
+trade secrets, employee and non-disclosure agreements and licensing agreements to protect our IP. We hold a substantial number of issued and pending patents worldwide and continue to prosecute applications in areas that are material to our business. We do not consider our business substantially dependent on any single onsemi patent. Our policy is to protect our products and processes by asserting our IP rights where appropriate and prudent and by obtaining patents, copyrights and other IP rights used in connection with our business when practicable and appropriate. Over the last five years, we have strategically rationalized our patent portfolio to focus on higher-value inventions aligned to our core technologies and products as our business strategy has evolved. We believe the scope and duration of our IP rights, including trade-secrets and technical know-how, are adequate to protect our products and processes.
+For information regarding risks associated with intellectual property, see "Risk Factors — Trends, Risks and Uncertainties Related to Intellectual Property" included elsewhere in this Form 10-K.
+Seasonality
+During recent years, we experienced fluctuations in our operating results due to macroeconomic conditions, as well as those within the semiconductor industry. However, we believe our business is driven more by content gains within applications and secular growth drivers and not solely by macroeconomic and industry cyclicality. For information regarding risks associated with the cyclicality and seasonality of our business, see "Risk Factors — Trends, Risks and Uncertainties Related to Our Business" included elsewhere in this Form 10-K.
+Government Regulation
+Our manufacturing operations are subject to various United States and foreign environmental and worker health and safety laws and regulations. These laws and regulations include those relating to emissions and discharges into the air and water, the management and disposal of hazardous substances, the release of hazardous substances into the environment at or from our facilities and at other sites and the investigation and remediation of contamination. As with other companies engaged in like businesses, the nature of our operations exposes us to the risk of liabilities and claims, regardless of fault, with respect to such matters, including personal injury claims and civil and criminal fines.
+We believe that our operations are in material compliance with applicable environmental and health and safety laws and regulations. The costs we incurred in complying with applicable environmental regulations for the year ended December 31, 2025 were not material, and we do not currently expect the cost of complying with existing environmental and health and safety laws and regulations, together with any liabilities for currently known environmental conditions, to have a material adverse effect on our capital expenditures or earnings or on our competitive position in any one year. It is possible, however, that future developments, including changes in laws and regulations, government policies, customer specification, personnel and physical property conditions, including currently undiscovered contamination, could lead to material costs, and such costs may have a material adverse effect on our future business or prospects. See Note 13: ''Commitments and Contingencies'' in the notes to our audited consolidated financial statements included elsewhere in this Form 10-K for information on certain environmental matters.
+We are also subject to numerous United States and foreign laws and regulations, including, without limitation, tariffs, trade sanctions, trade barriers, trade embargoes, regulations relating to import-export control, technology transfer restrictions, the International Traffic in Arms Regulation promulgated under the Arms Export Control Act ("ITAR"), the Foreign Corrupt Practices Act ("FCPA"), and the anti-boycott provisions of the U.S. Export Administration Act. Additionally, United States and foreign governmental authorities have taken, and may continue to take, administrative, legislative or regulatory action that could impact our operations.
+We believe that our operations are in material compliance with applicable trade regulations relating to import-export control, technology transfer restrictions, ITAR, FCPA, the anti-boycott provisions of the U.S. Export Administration Act, and similar applicable laws and regulations. The costs we incurred in complying with applicable trade regulations for the year ended December 31, 2025 were not material, and we do not currently expect the cost of complying with existing trade laws and regulations to have a material adverse effect on our capital expenditures or earnings or on our competitive position in any one year. It is possible, however, that future developments, including changes in laws and regulations or government policies, could lead to material costs, and such costs may have a material adverse effect on our future business or prospects. For information regarding risks associated with import-export control regulations and similar applicable laws and regulations, see "Risk Factors — Trends, Risks and Uncertainties Related to Our Business" included elsewhere in this Form 10-K.
+ 13
+Corporate Responsibilities
+onsemi aims to be a responsible corporate citizen. We uphold ethical standards in our business practices and policies, and we believe that sustainable corporate practices and consistent attention to environmental, social and governance priorities will help enhance long-term value for our stockholders.
+onsemi strives to protect and respect its environment and energy resources for future generations throughout its operations, including wafer fabrication, assembly, test, support operations, and through its value chain. We have a goal to achieve net zero emissions by 2040, supported by our climate change policy, which highlights the focus areas for climate change-related actions.
+We work together with our customers, peers, partners and suppliers to promote continual improvement in human rights, labor, environment, health and safety, anti-corruption, ethics and management system standards within our operations and our supply chain. We proactively comply with the Responsible Business Alliance (“RBA”) Code of Conduct, which is aimed at eliminating forced labor, slavery and human trafficking and conflict minerals, pursuant to our involvement with the Responsible Minerals Initiative.
+Our Board of Directors (the "Board of Directors" or the "Board") and management regularly evaluate our corporate responsibility policies, including our Code of Business Conduct and other corporate social responsibility policies and programs, to help ensure an effective outcome and adherence by our employees, suppliers, vendors and partners.
+Human Capital Resources
+Core Principles
+Our success depends on our ability to attract, train, retain, and motivate the employees who design, develop, manufacture, and support our products and services. We value the diversity of our global workforce and are intentional about creating opportunities for growth and development, welcoming a wide range of perspectives, and fostering an inclusive environment where everyone can thrive. As a member of the RBA, its principles are deeply embedded in our culture and core values, shaping our commitments to employees, customers, communities, and other stakeholders. These principles guide us in providing a safe, respectful, and positive workplace that emphasizes continuous learning, professional development, ethical conduct, and respect for every individual.
+Headcount
+As of December 31, 2025, we had approximately 22,600 regular full‑time employees and about 70 part‑time or temporary employees across 33 countries. Of our regular full‑time workforce, roughly 15% are based in the United States and Canada, 12% in Europe and the Middle East, and 73% in Asia Pacific and Japan. Around 72% of employees work in manufacturing, 2% in research and development, 4% in customer service or other sales and marketing functions, and 22% in other roles. Approximately 150 of our U.S. employees, about 4% of our U.S. workforce, are covered by a collective bargaining agreement, all of whom are located at our Mountain Top, Pennsylvania manufacturing facility. In addition, certain employees outside the United States are covered by collective bargaining agreements or similar arrangements (e.g., those in China, Vietnam, Japan, the Czech Republic, and Belgium) or are represented by works councils.
+Compensation, Benefits, Health, Safety and Wellness
+Our compensation philosophy centers on providing competitive total rewards that align with corporate affordability while supporting our ability to attract, retain, and recognize high‑performing talent. We offer employees and their families flexible and convenient health and wellness programs, along with benefits designed to support them during life events that require time away from work or affect their financial well‑being.
+We provide a comprehensive mix of total rewards and other programs—varying by region and salary grade—including annual performance bonuses; stock awards and an employee stock purchase plan; retirement support; healthcare and insurance coverage; business travel and disability insurance; health savings and flexible spending accounts; flexible work arrangements; vacation and paid time off; parental leave; counseling assistance; education support; and on‑site services, such as health centers and fitness facilities.
+ 14
+Career Growth and Development
+We invest in professional development and growth to strengthen employee motivation, performance, and retention. Our talent development programs equip employees with the tools and resources needed to advance their careers, build critical skills, and lead effectively within the organization. To support this, we introduced a career framework tool that helps employees define their career goals, develop the capabilities required to achieve them, and explore internal opportunities aligned with their aspirations.
+Turnover
+We monitor employee turnover rates both regionally and globally. Our workforce has an average tenure of approximately 12 years, and about 44% of employees have been with onsemi for more than a decade. We believe that our compensation philosophy, combined with the career growth and development opportunities we provide, supports longer employee tenure and helps reduce voluntary turnover.
+Information about Our Executive Officers
+Certain information concerning our executive officers as of February 9, 2026 is set forth below.
+Name
+Age
+Position
+Hassane El-Khoury
+46
+President, Chief Executive Officer and Director
+Thad Trent
+58
+Executive Vice President and Chief Financial Officer
+Simon Keeton
+53
+Group President, PSG
+Sudhir Gopalswamy
+56
+Group President, ISG and AMG
+All of our executive officers are also officers of SCI LLC. The present term of office for the officers named above will generally expire on the earliest of their retirement, resignation or removal. There are no family relationships among our executive officers.
+Hassane El-Khoury.
+    Mr. El-Khoury was appointed as President, Chief Executive Officer and Director of onsemi in December 2020. Prior to joining onsemi, he spent 13 years at Cypress Semiconductor Corporation, a semiconductor design and manufacturing company ("Cypress"), serving as Chief Executive Officer from August 2016 to April 2020. During his time at Cypress, he held various positions spanning business unit management, product development, applications engineering and business development. Additionally, Mr. El-Khoury currently serves as Chairman of the board of directors of Leia Inc. He holds a Bachelor of Science in electrical engineering from Lawrence Technological University and a Master's of Engineering Management from Oakland University.
+Thad Trent
+.    Mr. Trent was appointed Executive Vice President and Chief Financial Officer of onsemi in February 2021. Mr. Trent has held several leadership roles throughout his career, and he currently serves on the board of directors of Lumentum Holdings Inc. as well as the board of Leia Inc. He previously served as Chief Financial Officer at Cypress ("Cypress CFO") responsible for strategic planning, accounting, investor relations, tax, corporate development and information technology. He first joined Cypress in 2005 and served as Cypress CFO from June 2014 until its sale to Infineon in April 2020. Under his leadership, Cypress’ revenue increased from $723 million to $2.5 billion, and the enterprise value increased five times during his tenure as Cypress CFO. He is a seasoned finance professional with progressive leadership and management experience with both global publicly held technology companies and startups. Mr. Trent has a proven track record of driving sustainable financial performance, transformative mergers and acquisitions, operational excellence, process efficiency, financial leadership and robust compliance and regulatory control. He earned his Bachelor of Science in business administration and finance at San Diego State University.
+Simon Keeton
+.    Mr. Keeton joined onsemi in July 2007 and is currently the Group President, PSG of onsemi. During his career, Mr. Keeton has held various management positions within onsemi. Before Mr. Keeton’s promotion to his current role on February 26, 2024, he served as Executive Vice President and General Manager, PSG starting in January 2019. Prior to that role, he was a Senior Vice President and General Manager of the MOSFET Division. From 2012 to 2016, Mr. Keeton served as Vice President and General Manager of the Integrated Circuit Division under our former Standard Products Group. Prior to that time, he served as Vice President and General Manager of the Consumer Products Division from 2009 to 2012 and as Business Unit Director of our Signals and Interface Business Unit from 2007 to 2009. Before joining onsemi, Mr. Keeton served as Strategic Planning Manager of the Digital Enterprise Group of Intel Corporation ("Intel") and held various marketing and business management roles at Vitesse Semiconductor Corporation. He earned a Bachelor of Science degree in computer
+ 15
+engineering and a Master of Science Degree in electrical engineering from Michigan State University, and a Master of Business Adminis
+tration from Pepperdine University – in addition to completing an executive business program from Harvard Business School.
+Sudhir Gopalswamy
+.
+
+ Mr. Gopalswamy joined onsemi in March 2022 and is currently the Group President, ISG and AMG of onsemi. He served as Senior Vice President and General Manager, AMG from April 2023 to February 2024.
+Prior to April 2023 when he was appointed to lead AMG, Mr. Gopalswamy was the Chief Strategy Officer driving our corporate strategy development, annual strategic planning cycle and other key initiatives. Before joining onsemi, he served as Principal at Shamago Advisors from March 2021 to March 2022. Mr. Gopalswamy worked at Cypress from 2008 until its 2020 acquisition by Infineon. Following that acquisition, Mr. Gopalswamy was appointed Executive Vice President and Board Member of the Connected Secure Systems Division of Infineon and served in that role until March 2021. Before joining Cypress in 2008, he held leadership positions with ever-increasing scope at Intel and Conexant Systems, Inc. Mr. Gopalswamy holds a Bachelor of Science in electrical engineering from Purdue University, as well as a Master in Business Administration from Duke University, and he has also attended Stanford Directors’ College at Stanford University.
+ 
+Available Information
+Our website is
+www.onsemi.com
+. We make our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and other reports and all amendments to those reports available, free of charge, in the "Investor Relations" section of our website as soon as reasonably practicable after we electronically file these materials with, or furnish these materials to, the SEC. Information on or accessible through our website is neither part of, nor incorporated by reference into, this Form 10-K or any other report filed with or furnished to the SEC. You can also find these materials on the SEC website at
+www.sec.gov
+.
+ 16
