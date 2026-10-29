@@ -195,3 +195,143 @@ seed:
   - ticker: AKAM
     tier: 2
     why: F1000 edge / CDN infrastructure — datacenter adjacency
+
+# --- Medtech + dual-use/military ---
+  - ticker: MDT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ABT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SYK
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BSX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: EW
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ZBH
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ISRG
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DXCM
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: RMD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BAX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BDX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: GEHC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DHR
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TMO
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: A
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ILMN
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ALGN
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: PODD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TFX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: STE
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ITGR
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LMT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: NOC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: GD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: RTX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LHX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BA
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HII
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TDG
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HEI
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: CW
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TXT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HWM
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: KTOS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: MRCY
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: AVAV
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DRS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: VSAT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LDOS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SAIC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: CACI
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SMCI
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: AVGO
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: WDC
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: STX
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: SNDK
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map

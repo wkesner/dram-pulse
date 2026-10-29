@@ -553,6 +553,34 @@ td.mono {
   color: var(--muted);
   font-size: 13px;
 }
+.tier-roster-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  margin-top: 8px;
+}
+.tier-roster-list .tr-chip {
+  font-size: 12px;
+  line-height: 1.3;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--ink);
+}
+.tier-roster-list .tr-chip.has-signal {
+  border-color: var(--ink);
+}
+.tier-roster-list .tr-chip .tk {
+  font-family: var(--f-mono, "IBM Plex Mono", ui-monospace, monospace);
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: 4px;
+}
+.tier-roster-list .tr-empty {
+  color: var(--muted);
+  font-size: 13px;
+}
 .ms-tiles {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));

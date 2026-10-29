@@ -74,7 +74,7 @@ companies:
     role: buyer
     source: EDGAR
     ticker: SMCI
-    tier: 1
+    tier: 2
 
   - name: Cisco
     role: buyer
@@ -110,7 +110,7 @@ companies:
     role: buyer
     source: EDGAR
     ticker: AVGO
-    tier: 1
+    tier: 2
 
   - name: Intel
     role: buyer
@@ -146,19 +146,19 @@ companies:
     role: supplier
     source: EDGAR
     ticker: WDC
-    tier: 1
+    tier: 2
 
   - name: Seagate
     role: supplier
     source: EDGAR
     ticker: STX
-    tier: 1
+    tier: 2
 
   - name: Sandisk
     role: supplier
     source: EDGAR
     ticker: SNDK
-    tier: 1
+    tier: 2
 
   - name: Amkor
     role: supplier
@@ -729,5 +729,253 @@ companies:
     role: buyer
     source: EDGAR
     ticker: AKAM
+    tier: 2
+
+
+# Medtech + dual-use / military electronics (Tier 2)
+  - name: Medtronic
+    role: buyer
+    source: EDGAR
+    ticker: MDT
+    tier: 2
+
+  - name: Abbott
+    role: buyer
+    source: EDGAR
+    ticker: ABT
+    tier: 2
+
+  - name: Stryker
+    role: buyer
+    source: EDGAR
+    ticker: SYK
+    tier: 2
+
+  - name: Boston Scientific
+    role: buyer
+    source: EDGAR
+    ticker: BSX
+    tier: 2
+
+  - name: Edwards Lifesciences
+    role: buyer
+    source: EDGAR
+    ticker: EW
+    tier: 2
+
+  - name: Zimmer Biomet
+    role: buyer
+    source: EDGAR
+    ticker: ZBH
+    tier: 2
+
+  - name: Intuitive Surgical
+    role: buyer
+    source: EDGAR
+    ticker: ISRG
+    tier: 2
+
+  - name: DexCom
+    role: buyer
+    source: EDGAR
+    ticker: DXCM
+    tier: 2
+
+  - name: ResMed
+    role: buyer
+    source: EDGAR
+    ticker: RMD
+    tier: 2
+
+  - name: Baxter
+    role: buyer
+    source: EDGAR
+    ticker: BAX
+    tier: 2
+
+  - name: Becton Dickinson
+    role: buyer
+    source: EDGAR
+    ticker: BDX
+    tier: 2
+
+  - name: GE HealthCare
+    role: buyer
+    source: EDGAR
+    ticker: GEHC
+    tier: 2
+
+  - name: Danaher
+    role: buyer
+    source: EDGAR
+    ticker: DHR
+    tier: 2
+
+  - name: Thermo Fisher
+    role: buyer
+    source: EDGAR
+    ticker: TMO
+    tier: 2
+
+  - name: Agilent
+    role: buyer
+    source: EDGAR
+    ticker: A
+    tier: 2
+
+  - name: Illumina
+    role: buyer
+    source: EDGAR
+    ticker: ILMN
+    tier: 2
+
+  - name: Align Technology
+    role: buyer
+    source: EDGAR
+    ticker: ALGN
+    tier: 2
+
+  - name: Insulet
+    role: buyer
+    source: EDGAR
+    ticker: PODD
+    tier: 2
+
+  - name: Teleflex
+    role: buyer
+    source: EDGAR
+    ticker: TFX
+    tier: 2
+
+  - name: STERIS
+    role: buyer
+    source: EDGAR
+    ticker: STE
+    tier: 2
+
+  - name: Integer Holdings
+    role: buyer
+    source: EDGAR
+    ticker: ITGR
+    tier: 2
+
+  - name: Lockheed Martin
+    role: buyer
+    source: EDGAR
+    ticker: LMT
+    tier: 2
+
+  - name: Northrop Grumman
+    role: buyer
+    source: EDGAR
+    ticker: NOC
+    tier: 2
+
+  - name: General Dynamics
+    role: buyer
+    source: EDGAR
+    ticker: GD
+    tier: 2
+
+  - name: RTX
+    role: buyer
+    source: EDGAR
+    ticker: RTX
+    tier: 2
+
+  - name: L3Harris
+    role: buyer
+    source: EDGAR
+    ticker: LHX
+    tier: 2
+
+  - name: Boeing
+    role: buyer
+    source: EDGAR
+    ticker: BA
+    tier: 2
+
+  - name: Huntington Ingalls
+    role: buyer
+    source: EDGAR
+    ticker: HII
+    tier: 2
+
+  - name: TransDigm
+    role: buyer
+    source: EDGAR
+    ticker: TDG
+    tier: 2
+
+  - name: HEICO
+    role: buyer
+    source: EDGAR
+    ticker: HEI
+    tier: 2
+
+  - name: Curtiss-Wright
+    role: buyer
+    source: EDGAR
+    ticker: CW
+    tier: 2
+
+  - name: Textron
+    role: buyer
+    source: EDGAR
+    ticker: TXT
+    tier: 2
+
+  - name: Howmet Aerospace
+    role: buyer
+    source: EDGAR
+    ticker: HWM
+    tier: 2
+
+  - name: Kratos
+    role: buyer
+    source: EDGAR
+    ticker: KTOS
+    tier: 2
+
+  - name: Mercury Systems
+    role: buyer
+    source: EDGAR
+    ticker: MRCY
+    tier: 2
+
+  - name: AeroVironment
+    role: buyer
+    source: EDGAR
+    ticker: AVAV
+    tier: 2
+
+  - name: Leonardo DRS
+    role: buyer
+    source: EDGAR
+    ticker: DRS
+    tier: 2
+
+  - name: Viasat
+    role: buyer
+    source: EDGAR
+    ticker: VSAT
+    tier: 2
+
+  - name: Leidos
+    role: buyer
+    source: EDGAR
+    ticker: LDOS
+    tier: 2
+
+  - name: SAIC
+    role: buyer
+    source: EDGAR
+    ticker: SAIC
+    tier: 2
+
+  - name: CACI
+    role: buyer
+    source: EDGAR
+    ticker: CACI
     tier: 2
 

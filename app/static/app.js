@@ -189,6 +189,8 @@
     { id: 2, label: "Tier 2", summary: "F500–F1000 electronics / DC" },
     { id: 3, label: "Tier 3", summary: "Smaller listed" },
   ];
+  /** @type {Array<{name:string,ticker:string,role:string,tier:number}>} */
+  let COMPANY_ROSTER = [];
 
   const userIn = $("#user-name");
   if (userIn) {
@@ -223,8 +225,14 @@
 
   function filterValues(field) {
     if (field === "tier") {
-      return ["1", "2", "3"].filter((t) =>
-        SIGNALS.some((s) => String(s.tier || "1") === t)
+      const fromRoster = new Set(
+        COMPANY_ROSTER.map((c) => String(c.tier)).filter(Boolean)
+      );
+      const fromSignals = new Set(
+        SIGNALS.map((s) => String(s.tier || "1")).filter(Boolean)
+      );
+      return ["1", "2", "3"].filter(
+        (t) => fromRoster.has(t) || fromSignals.has(t) || t === "1"
       );
     }
     const present = [
@@ -729,6 +737,7 @@
     if (!resp.ok) throw new Error(`meta ${resp.status}`);
     const data = await resp.json();
     META_NOTES = data.notes || null;
+    COMPANY_ROSTER = Array.isArray(data.company_roster) ? data.company_roster : [];
     if (Array.isArray(data.tiers) && data.tiers.length) {
       TIER_META = data.tiers.map((t) => ({
         id: t.id,
@@ -744,6 +753,47 @@
     }
     syncMapTierSwitch();
     return META_NOTES;
+  }
+
+  function renderTierRoster() {
+    const list = $("#tier-roster-list");
+    const note = $("#tier-roster-note");
+    if (!list) return;
+    list.replaceChildren();
+    const scoped = COMPANY_ROSTER.filter((c) => {
+      if (!mapTier) return true;
+      return String(c.tier) === mapTier;
+    }).sort(
+      (a, b) =>
+        String(a.role).localeCompare(String(b.role)) ||
+        String(a.name).localeCompare(String(b.name))
+    );
+    const withSignals = new Set(
+      SIGNALS.filter(
+        (s) => !mapTier || String(s.tier || "1") === mapTier
+      ).map((s) => s.company)
+    );
+    if (note) {
+      const labeled =
+        mapTier === ""
+          ? "all tiers"
+          : TIER_META.find((t) => String(t.id) === mapTier)?.label ||
+            `Tier ${mapTier}`;
+      note.textContent = `${scoped.length} companies configured for ${labeled} · ${withSignals.size} already have signals in this view`;
+    }
+    if (!scoped.length) {
+      list.append(el("div", "tr-empty", "No companies configured for this tier."));
+      return;
+    }
+    for (const c of scoped) {
+      const chip = el("span", withSignals.has(c.name) ? "tr-chip has-signal" : "tr-chip");
+      chip.append(c.name);
+      if (c.ticker) chip.append(el("span", "tk", c.ticker));
+      chip.title = `${c.role || "?"} · tier ${c.tier}${
+        withSignals.has(c.name) ? " · has signals" : " · awaiting extract"
+      }`;
+      list.append(chip);
+    }
   }
 
   function syncMapTierSwitch() {
@@ -895,6 +945,7 @@
       "ms-scope",
       mapFamily ? ms.label(mapFamily) : "All families"
     );
+    renderTierRoster();
 
     const repBtn = $("#toggle-reported");
     if (repBtn) repBtn.setAttribute("aria-pressed", String(leaveOutRisk));
