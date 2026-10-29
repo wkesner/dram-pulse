@@ -387,10 +387,12 @@ dram_signals/
   collectors/icims.py           # iCIMS HTML + JSON-LD
   collectors/micron_obsolete.py # Micron obsolete part catalogs → catalog/PCN
   catalog/                      # families, variants, grades, PCN linkage
+  broker_sim/                   # three overlapping DRAM brokers (P&L sim)
   __main__.py                   # once | schedule | status | catalog
 data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
 data/seed_catalog.json          # example families with grade twins
 scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
+scripts/simulate_brokers.py     # CLI for broker market simulation
 docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
 data/partnum_rules.yaml         # Step 2 PN decode rules (sourced)
 data/part_seed.txt              # Optional customer MPN list for Step 3
