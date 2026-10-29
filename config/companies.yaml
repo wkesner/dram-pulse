@@ -543,3 +543,191 @@ companies:
     source: EDGAR
     ticker: FFIV
     tier: 3
+
+# Fortune 1000 electronics / datacenter remainder (Tier 2)
+  - name: Equinix
+    role: buyer
+    source: EDGAR
+    ticker: EQIX
+    tier: 2
+
+  - name: Digital Realty
+    role: buyer
+    source: EDGAR
+    ticker: DLR
+    tier: 2
+
+  - name: Eaton
+    role: supplier
+    source: EDGAR
+    ticker: ETN
+    tier: 2
+
+  - name: nVent
+    role: supplier
+    source: EDGAR
+    ticker: NVT
+    tier: 2
+
+  - name: EnerSys
+    role: supplier
+    source: EDGAR
+    ticker: ENS
+    tier: 2
+
+  - name: Emerson Electric
+    role: supplier
+    source: EDGAR
+    ticker: EMR
+    tier: 2
+
+  - name: Hubbell
+    role: supplier
+    source: EDGAR
+    ticker: HUBB
+    tier: 2
+
+  - name: Honeywell
+    role: buyer
+    source: EDGAR
+    ticker: HON
+    tier: 2
+
+  - name: Rockwell Automation
+    role: buyer
+    source: EDGAR
+    ticker: ROK
+    tier: 2
+
+  - name: CoreWeave
+    role: buyer
+    source: EDGAR
+    ticker: CRWV
+    tier: 2
+
+  - name: Ciena
+    role: buyer
+    source: EDGAR
+    ticker: CIEN
+    tier: 2
+
+  - name: Belden
+    role: supplier
+    source: EDGAR
+    ticker: BDC
+    tier: 2
+
+  - name: Vishay
+    role: supplier
+    source: EDGAR
+    ticker: VSH
+    tier: 2
+
+  - name: Skyworks
+    role: supplier
+    source: EDGAR
+    ticker: SWKS
+    tier: 2
+
+  - name: Motorola Solutions
+    role: buyer
+    source: EDGAR
+    ticker: MSI
+    tier: 2
+
+  - name: Zebra Technologies
+    role: buyer
+    source: EDGAR
+    ticker: ZBRA
+    tier: 2
+
+  - name: Teledyne
+    role: supplier
+    source: EDGAR
+    ticker: TDY
+    tier: 2
+
+  - name: Trimble
+    role: buyer
+    source: EDGAR
+    ticker: TRMB
+    tier: 2
+
+  - name: Cadence
+    role: supplier
+    source: EDGAR
+    ticker: CDNS
+    tier: 2
+
+  - name: Synopsys
+    role: supplier
+    source: EDGAR
+    ticker: SNPS
+    tier: 2
+
+  - name: Teradyne
+    role: supplier
+    source: EDGAR
+    ticker: TER
+    tier: 2
+
+  - name: Entegris
+    role: supplier
+    source: EDGAR
+    ticker: ENTG
+    tier: 2
+
+  - name: MKS Instruments
+    role: supplier
+    source: EDGAR
+    ticker: MKSI
+    tier: 2
+
+  - name: Onto Innovation
+    role: supplier
+    source: EDGAR
+    ticker: ONTO
+    tier: 2
+
+  - name: TTM Technologies
+    role: supplier
+    source: EDGAR
+    ticker: TTMI
+    tier: 2
+
+  - name: Fabrinet
+    role: supplier
+    source: EDGAR
+    ticker: FN
+    tier: 2
+
+  - name: IPG Photonics
+    role: supplier
+    source: EDGAR
+    ticker: IPGP
+    tier: 2
+
+  - name: ScanSource
+    role: buyer
+    source: EDGAR
+    ticker: SCSC
+    tier: 2
+
+  - name: PC Connection
+    role: buyer
+    source: EDGAR
+    ticker: CNXN
+    tier: 2
+
+  - name: ePlus
+    role: buyer
+    source: EDGAR
+    ticker: PLUS
+    tier: 2
+
+  - name: Akamai
+    role: buyer
+    source: EDGAR
+    ticker: AKAM
+    tier: 2
+

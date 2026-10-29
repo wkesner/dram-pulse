@@ -100,3 +100,98 @@ seed:
   - ticker: FFIV
     tier: 3
     why: Application delivery appliances
+
+# --- F1000 electronics/DC remainder ---
+  - ticker: EQIX
+    tier: 2
+    why: F1000 datacenter REIT / colo — capacity & interconnect demand
+  - ticker: DLR
+    tier: 2
+    why: F1000 datacenter REIT
+  - ticker: ETN
+    tier: 2
+    why: F1000 electrical power for datacenters & industry
+  - ticker: NVT
+    tier: 2
+    why: Electrical enclosures / cooling — DC adjacency
+  - ticker: ENS
+    tier: 2
+    why: Industrial & datacenter batteries
+  - ticker: EMR
+    tier: 2
+    why: F1000 industrial automation / electrical
+  - ticker: HUBB
+    tier: 2
+    why: F1000 electrical products
+  - ticker: HON
+    tier: 2
+    why: F1000 diversified electronics / automation
+  - ticker: ROK
+    tier: 2
+    why: F1000 industrial automation electronics
+  - ticker: CRWV
+    tier: 2
+    why: GPU cloud / AI datacenter operator — public filings
+  - ticker: CIEN
+    tier: 2
+    why: F1000 optical networking gear
+  - ticker: BDC
+    tier: 2
+    why: F1000 industrial & datacenter cabling
+  - ticker: VSH
+    tier: 2
+    why: F1000 discrete semiconductors & passives
+  - ticker: SWKS
+    tier: 2
+    why: F1000 RF semiconductors
+  - ticker: MSI
+    tier: 2
+    why: F1000 communications equipment
+  - ticker: ZBRA
+    tier: 2
+    why: F1000 enterprise electronics / scanning
+  - ticker: TDY
+    tier: 2
+    why: F1000 instrumentation & electronics
+  - ticker: TRMB
+    tier: 2
+    why: F1000 electronics / positioning systems
+  - ticker: CDNS
+    tier: 2
+    why: F1000 EDA — chip/memory design tooling
+  - ticker: SNPS
+    tier: 2
+    why: F1000 EDA — chip/memory design tooling
+  - ticker: TER
+    tier: 2
+    why: F1000 semiconductor test
+  - ticker: ENTG
+    tier: 2
+    why: F1000 electronic materials / semicap
+  - ticker: MKSI
+    tier: 2
+    why: F1000 semicap process equipment
+  - ticker: ONTO
+    tier: 2
+    why: F1000 process control / metrology
+  - ticker: TTMI
+    tier: 2
+    why: F1000 PCB / interconnect manufacturing
+  - ticker: FN
+    tier: 2
+    why: F1000 optical / electronics manufacturing services
+  - ticker: IPGP
+    tier: 2
+    why: F1000 industrial lasers / photonics
+  - ticker: SCSC
+    tier: 2
+    why: F1000 electronics / POS & communications distribution
+  - ticker: CNXN
+    tier: 2
+    why: F1000 IT / electronics reseller
+  - ticker: PLUS
+    tier: 2
+    why: F1000 IT solutions / hardware reseller
+  - ticker: AKAM
+    tier: 2
+    why: F1000 edge / CDN infrastructure — datacenter adjacency
