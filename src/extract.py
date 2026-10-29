@@ -59,7 +59,11 @@ _SENTENCE_SPLIT = re.compile(
 # Korean / CJK: split on .!?。 and blank lines (no Latin capital cue).
 _SENTENCE_SPLIT_KO = re.compile(r"(?<=[.!?。])\s+|(?:\n\s*)+")
 _HANGUL = re.compile(r"[\uac00-\ud7a3]")
+_CJK = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7a3]")
 _WS = re.compile(r"\s+")
+
+# Full-document sources (no Item 1/1A/7 split) — parallel to DART/IR.
+FULL_DOC_SOURCES = {"DART", "IR", "CNINFO", "EDINET", "CH", "COMPANIES_HOUSE"}
 
 
 @dataclass(frozen=True)
@@ -131,9 +135,17 @@ def _text_is_korean(text: str) -> bool:
     return len(_HANGUL.findall(sample)) >= max(20, len(sample) // 40)
 
 
+def _text_is_cjk(text: str) -> bool:
+    """True when Hangul / Han / Kana dominate — use CJK sentence splitter."""
+    sample = text[:8000]
+    if not sample:
+        return False
+    return len(_CJK.findall(sample)) >= max(20, len(sample) // 40)
+
+
 def split_sentences(text: str) -> list[tuple[int, int, str]]:
     """Return (start, end, sentence) spans into `text`."""
-    splitter = _SENTENCE_SPLIT_KO if _text_is_korean(text) else _SENTENCE_SPLIT
+    splitter = _SENTENCE_SPLIT_KO if _text_is_cjk(text) else _SENTENCE_SPLIT
     chunks: list[tuple[int, int, str]] = []
     for block in re.finditer(r"\S(?:.|\n)*?(?=\n\s*\n|\Z)", text):
         block_text = block.group(0)
@@ -564,7 +576,12 @@ def _build_row(
         matched.append(f"sent:{sent_hits[0].term}")
     language = str(meta.get("language") or "").strip().lower()
     if not language:
-        language = "ko" if str(meta.get("source", "")).upper() == "DART" else "en"
+        src_u = str(meta.get("source") or ctx.company.source).upper()
+        language = {
+            "DART": "ko",
+            "CNINFO": "zh",
+            "EDINET": "ja",
+        }.get(src_u, "en")
     source = str(meta.get("source") or ctx.company.source)
     filing_id = str(
         meta.get("filing_id") or meta.get("accession_number") or meta.get("rcept_no") or ""
@@ -737,16 +754,28 @@ def _load_term_banks(
     products = load_taxonomy(taxonomy_path)
     supply = load_supply_terms(supply_path)
     ko = supply.get("korean") or {}
+    zh = supply.get("chinese") or {}
+    ja = supply.get("japanese") or {}
     ko_topics = ko.get("topics") or {}
+    zh_topics = zh.get("topics") or {}
+    ja_topics = ja.get("topics") or {}
     ko_dir = ko.get("direction") or {}
+    zh_dir = zh.get("direction") or {}
+    ja_dir = ja.get("direction") or {}
     ko_sent = ko.get("sentiment") or {}
+    zh_sent = zh.get("sentiment") or {}
+    ja_sent = ja.get("sentiment") or {}
 
     topics: dict[str, list[str]] = {}
     for label, terms in (supply.get("topics") or {}).items():
-        topics[label] = _merge_term_lists(terms, ko_topics.get(label))
-    for label, terms in ko_topics.items():
-        if label not in topics:
-            topics[label] = list(terms or [])
+        merged = _merge_term_lists(terms, ko_topics.get(label))
+        merged = _merge_term_lists(merged, zh_topics.get(label))
+        merged = _merge_term_lists(merged, ja_topics.get(label))
+        topics[label] = merged
+    for extra_topics in (ko_topics, zh_topics, ja_topics):
+        for label, terms in extra_topics.items():
+            if label not in topics:
+                topics[label] = list(terms or [])
 
     direction = supply.get("direction") or {}
     sentiment = supply.get("sentiment") or {}
@@ -756,35 +785,65 @@ def _load_term_banks(
         "tightening": compile_term_map(
             {
                 "tightening": _merge_term_lists(
-                    direction.get("tightening"), ko_dir.get("tightening")
+                    _merge_term_lists(
+                        _merge_term_lists(
+                            direction.get("tightening"), ko_dir.get("tightening")
+                        ),
+                        zh_dir.get("tightening"),
+                    ),
+                    ja_dir.get("tightening"),
                 )
             }
         ),
         "easing": compile_term_map(
             {
                 "easing": _merge_term_lists(
-                    direction.get("easing"), ko_dir.get("easing")
+                    _merge_term_lists(
+                        _merge_term_lists(
+                            direction.get("easing"), ko_dir.get("easing")
+                        ),
+                        zh_dir.get("easing"),
+                    ),
+                    ja_dir.get("easing"),
                 )
             }
         ),
         "stable": compile_term_map(
             {
                 "stable": _merge_term_lists(
-                    direction.get("stable"), ko_dir.get("stable")
+                    _merge_term_lists(
+                        _merge_term_lists(
+                            direction.get("stable"), ko_dir.get("stable")
+                        ),
+                        zh_dir.get("stable"),
+                    ),
+                    ja_dir.get("stable"),
                 )
             }
         ),
         "positive": compile_term_map(
             {
                 "positive": _merge_term_lists(
-                    sentiment.get("positive"), ko_sent.get("positive")
+                    _merge_term_lists(
+                        _merge_term_lists(
+                            sentiment.get("positive"), ko_sent.get("positive")
+                        ),
+                        zh_sent.get("positive"),
+                    ),
+                    ja_sent.get("positive"),
                 )
             }
         ),
         "negative": compile_term_map(
             {
                 "negative": _merge_term_lists(
-                    sentiment.get("negative"), ko_sent.get("negative")
+                    _merge_term_lists(
+                        _merge_term_lists(
+                            sentiment.get("negative"), ko_sent.get("negative")
+                        ),
+                        zh_sent.get("negative"),
+                    ),
+                    ja_sent.get("negative"),
                 )
             }
         ),
@@ -857,8 +916,8 @@ def extract_filing(
     form = str(meta.get("form", "")).upper()
     source = str(meta.get("source") or ctx.company.source).upper()
 
-    # DART / IR: full-document text only (no Item 1/1A/7 split).
-    if source in {"DART", "IR"} or form in {"IR-PDF", "DART"}:
+    # DART / IR / CNINFO / EDINET / CH: full-document text only (no Item split).
+    if source in FULL_DOC_SOURCES or form in {"IR-PDF", "DART", "CNINFO", "EDINET"}:
         other = cache_dir_path / "other_full.txt"
         if other.is_file():
             rows.extend(
@@ -899,7 +958,7 @@ def _company_for_ticker(companies_path: Path, ticker: str) -> Company:
     matches = [c for c in load_companies(companies_path) if c.ticker == want]
     if not matches:
         raise SystemExit(f"Ticker {ticker} not in {companies_path}")
-    for preferred in ("EDGAR", "DART", "IR"):
+    for preferred in ("EDGAR", "DART", "IR", "CNINFO", "EDINET", "CH", "COMPANIES_HOUSE"):
         for c in matches:
             if c.source.upper() == preferred:
                 return c

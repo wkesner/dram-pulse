@@ -150,6 +150,48 @@ python3 -m src.verify              # must be 100%
 
 `document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
 
+## Asia / UK filings (JP · CN · LSE)
+
+Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
+
+| Market | Module | Auth | Status |
+|--------|--------|------|--------|
+| **China (CNINFO)** | `python -m src.fetch_cninfo` | none | **v1 live** — unofficial public JSON on the CSRC-designated site |
+| **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key |
+| **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; needs free key |
+| TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
+| LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
+| FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
+
+```bash
+# China (no key) — SMIC / GigaDevice / Hua Hong / JCET / Luxshare / NAURA
+python3 -m src.fetch_cninfo
+python3 -m src.fetch_cninfo --ticker 603986
+
+# Japan — after putting EDINET_API_KEY in .env
+python3 -m src.fetch_edinet
+python3 -m src.fetch_edinet --ticker 8035
+
+# UK Companies House — after COMPANIES_HOUSE_API_KEY in .env
+python3 -m src.fetch_companies_house
+python3 -m src.fetch_companies_house --ticker RSW
+
+# Extract + verify (same dedupe path as EDGAR/DART)
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
+python3 -m src.extract --all --no-fetch-prior
+python3 -m src.verify
+```
+
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+
+### Auth / rate limits / ToS (summary)
+
+- **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
+- **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
+- **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
+- **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.
+- **FCA NSM**: free human search/CSV export; no programmatic retrieval API yet.
+
 **English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
 ```bash

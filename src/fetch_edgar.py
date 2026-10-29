@@ -51,6 +51,10 @@ class Company:
     forms: tuple[str, ...] = DEFAULT_FORMS
     # 1 = primary map; 2 = F500–F1000 electronics/DC; 3 = smaller listed.
     tier: int = 1
+    # CNINFO: sse | szse. EDINET: optional E#####. CH: Companies House number.
+    exchange: str | None = None
+    edinet_code: str | None = None
+    company_number: str | None = None
 
 
 class RateLimitedSession:
@@ -134,9 +138,13 @@ def load_companies(path: Path) -> list[Company]:
         if tier not in {1, 2, 3}:
             tier = 1
         ticker = str(row["ticker"])
-        # Keep Korean stock codes zero-padded; uppercase Latin tickers.
+        source = str(row["source"]).upper()
+        # Keep KR/CN numeric codes zero-padded; JP TSE 4-digit as-is; Latin upper.
         if ticker.isdigit():
-            ticker = ticker.zfill(6)
+            if source == "EDINET" and len(ticker) <= 4:
+                ticker = ticker.zfill(4)
+            elif len(ticker) <= 6:
+                ticker = ticker.zfill(6)
         else:
             ticker = ticker.upper()
         out.append(
@@ -148,6 +156,9 @@ def load_companies(path: Path) -> list[Company]:
                 krx_code=str(row["krx_code"]) if row.get("krx_code") else None,
                 forms=form_tuple,
                 tier=tier,
+                exchange=str(row["exchange"]).lower() if row.get("exchange") else None,
+                edinet_code=str(row["edinet_code"]).upper() if row.get("edinet_code") else None,
+                company_number=str(row["company_number"]) if row.get("company_number") else None,
             )
         )
     return out

@@ -236,3 +236,113 @@ korean:
       - 둔화
       - 악화
       - 부담
+
+# Chinese terms (CNINFO A-share filings). Merged into banks at extract time.
+chinese:
+  topics:
+    availability:
+      - 供应短缺
+      - 供应紧张
+      - 供应不足
+      - 供不应求
+      - 供应过剩
+      - 供应
+      - 短缺
+    pricing:
+      - 价格上涨
+      - 价格上升
+      - 价格下跌
+      - 价格下降
+      - 价格
+    inventory:
+      - 库存
+    capacity:
+      - 产能扩张
+      - 产能扩充
+      - 产能
+      - 晶圆产能
+      - 扩产
+    yield_quality:
+      - 良率
+    demand:
+      - 需求强劲
+      - 需求旺盛
+      - 需求
+  direction:
+    tightening:
+      - 供应短缺
+      - 供应紧张
+      - 供应不足
+      - 供不应求
+      - 短缺
+      - 价格上涨
+      - 价格上升
+      - 产能紧张
+    easing:
+      - 供应过剩
+      - 价格下跌
+      - 价格下降
+      - 库存增加
+      - 库存上升
+      - 产能过剩
+    stable:
+      - 供需平衡
+      - 供应稳定
+  sentiment:
+    positive:
+      - 需求强劲
+      - 需求旺盛
+      - 增长
+      - 向好
+    negative:
+      - 下行
+      - 疲软
+      - 承压
+      - 不利
+
+# Japanese terms (EDINET). Light starter set; expand once key is live.
+japanese:
+  topics:
+    availability:
+      - 供給不足
+      - 供給逼迫
+      - 供給過多
+      - 供給
+      - 不足
+    pricing:
+      - 価格上昇
+      - 価格下落
+      - 価格
+    inventory:
+      - 在庫
+    capacity:
+      - 生産能力
+      - 増産
+      - 設備投資
+    yield_quality:
+      - 歩留まり
+      - 歩留
+    demand:
+      - 需要拡大
+      - 需要
+  direction:
+    tightening:
+      - 供給不足
+      - 供給逼迫
+      - 価格上昇
+      - 逼迫
+    easing:
+      - 供給過多
+      - 価格下落
+      - 在庫増加
+    stable:
+      - 需給均衡
+  sentiment:
+    positive:
+      - 好調
+      - 拡大
+      - 成長
+    negative:
+      - 低迷
+      - 悪化
+      - 減速

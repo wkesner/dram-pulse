@@ -20,6 +20,44 @@ dart:
     - A
     - B
 
+# CNINFO (巨潮) — no key; unofficial public JSON on the designated disclosure site.
+# Be polite: ≤1 rps; cache orgIds; drop bulky PDFs from git (other_full.txt kept).
+cninfo:
+  max_requests_per_second: 1
+  top_search_url: "https://www.cninfo.com.cn/new/information/topSearch/query"
+  query_url: "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+  static_base_url: "https://static.cninfo.com.cn"
+  default_column: sse
+  categories:
+    - category_ndbg_szsh
+    - category_bndbg_szsh
+    - category_yjygjxz
+    - category_yjkb_szsh
+
+# EDINET v2 — free key (EDINET_API_KEY). Prefer API over website scrape (ToS).
+edinet:
+  max_requests_per_second: 1
+  api_base: "https://api.edinet-fsa.go.jp/api/v2"
+  # Limit calendar scan when keys are present (list API is per-day).
+  max_scan_days: 120
+  doc_type_codes:
+    - "120"  # 有価証券報告書
+    - "130"  # 訂正有価証券報告書
+    - "140"  # 四半期報告書
+    - "150"  # 半期報告書
+    - "160"  # 臨時報告書
+    - "035"  # 大量保有報告書 (optional; often less useful for supply)
+
+# Companies House — free key (COMPANIES_HOUSE_API_KEY). 600 req / 5 min.
+# LSE RNS / FCA NSM: see README (RNS needs LSEG; NSM API ~2027).
+companies_house:
+  max_requests_per_second: 2
+  api_base: "https://api.company-information.service.gov.uk"
+  categories:
+    - accounts
+    - annual-return
+    - confirmation-statement
+
 paths:
   raw_dir: data/raw
   ir_documents: config/ir_documents.yaml

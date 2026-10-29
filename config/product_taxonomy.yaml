@@ -40,6 +40,7 @@ categories:
       - GDDR
     DRAM_general:
       - 디램
+      - 动态随机存取存储器
       - DRAM
   NAND:
     Data center SSD:
@@ -61,6 +62,7 @@ categories:
       - NAND flash memory
       - NAND flash
       - flash memory
+      - 闪存
       - NAND
   Other:
     CXL:
@@ -90,10 +92,17 @@ categories:
     Packaging:
       - advanced packaging
       - packaging capacity
+      - 先进封装
+      - 封装产能
+      - 晶圆代工
+      - 晶圆制造
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
       - 메모리
+      - 存储芯片
+      - 存储器
+      - 内存
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
       # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
@@ -198,6 +207,59 @@ categories:
       - power IC
       - PMICs
       - PMIC
+  Storage:
+    # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
+    HDD:
+      - high-capacity hard disk drives
+      - high-capacity enterprise HDDs
+      - high-capacity HDDs
+      - high capacity HDDs
+      - capacity enterprise HDDs
+      - hard disk drives
+      - hard disk drive
+      - nearline HDDs
+      - nearline HDD
+      - mass capacity HDDs
+      - mass-capacity HDDs
+      - HDD shortages
+      - HDD shortage
+      - HDD lead times
+      - HDD lead time
+      - disk drive shortages
+      - disk drive shortage
+      # Avoid bare HDD/HDDs — matches "Seagate HDD Cayman" note boilerplate.
+
+    # Generic SSD language (enterprise/client SSD terms stay under NAND).
+    SSD:
+      - solid-state drives
+      - solid state drives
+      - solid-state drive
+      - solid state drive
+      - SSD shortages
+      - SSD shortage
+      - SSD lead times
+      - SSDs
+      - SSD
+  Interconnect:
+    Connector:
+      - fiber optic connectors
+      - electrical connectors
+      - electronic connectors
+      - board-to-board connectors
+      - automotive connectors
+      - I/O connectors
+      - interconnect systems
+      - connector shortages
+      - connector shortage
+      - connector lead times
+      - connector lead time
+      - interconnect lead times
+      - interconnect lead time
+      - interconnect shortages
+      - interconnect shortage
+      - 连接器
+      # Avoid bare connector(s)/interconnect(s)/interconnect products —
+      # matched Ciena outlook slides and MaxLinear transceiver-size boilerplate.
   Passives:
     Capacitor:
       - multilayer ceramic capacitors
@@ -211,6 +273,7 @@ categories:
       - MLCC shortages
       - MLCC shortage
       - MLCCs
+      - 片式多层陶瓷电容
       - MLCC
       # Avoid bare capacitor(s) — matched M&A fair-value "Capacitors segment" text.
     # Small related passive — shortage-scoped / multi-word only.
