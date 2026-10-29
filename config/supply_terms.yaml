@@ -359,13 +359,17 @@ chinese:
       - 承壓
       - 不利
 
-# Japanese terms (EDINET). Light starter set; expand once key is live.
+# Japanese terms (EDINET). Expanded after live key fetch (2026-10).
 japanese:
   topics:
     availability:
+      - 需給が逼迫
+      - 需給逼迫
       - 供給不足
       - 供給逼迫
+      - 供給ひっ迫
       - 供給過多
+      - リードタイム
       - 供給
       - 不足
     pricing:
@@ -373,6 +377,8 @@ japanese:
       - 価格下落
       - 価格
     inventory:
+      - 在庫不足
+      - 在庫増加
       - 在庫
     capacity:
       - 生産能力
@@ -383,12 +389,19 @@ japanese:
       - 歩留
     demand:
       - 需要拡大
+      - 需要強含み
       - 需要
   direction:
     tightening:
+      - 需給が逼迫
+      - 需給逼迫
       - 供給不足
       - 供給逼迫
+      - 供給ひっ迫
+      - 在庫不足
       - 価格上昇
+      - 価格高騰
+      - リードタイム
       - 逼迫
     easing:
       - 供給過多
@@ -396,6 +409,7 @@ japanese:
       - 在庫増加
     stable:
       - 需給均衡
+      - 需給バランス
   sentiment:
     positive:
       - 好調

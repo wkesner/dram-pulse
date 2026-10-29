@@ -42,6 +42,7 @@ categories:
       - 디램
       - 动态随机存取存储器
       - 動態隨機存取記憶體
+      - ディーラム
       - DRAM
   NAND:
     Data center SSD:
@@ -65,6 +66,8 @@ categories:
       - flash memory
       - 闪存
       - 快閃記憶體
+      - フラッシュメモリ
+      - フラッシュメモリー
       - NAND
   Other:
     CXL:
@@ -105,6 +108,12 @@ categories:
       - 晶圓廠
       - 約當晶圓
       - 晶圓
+      - 半導体製造装置
+      - 後工程
+      - 前工程
+      - ウェーハ
+      - ウェハ
+      - ウエハ
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
@@ -114,6 +123,12 @@ categories:
       - 内存
       - 記憶體晶片
       - 記憶體
+      - 半導体メモリ
+      - メモリー半導体
+      - 積層メモリ
+      - 半導体デバイス
+      - メモリー
+      - メモリ
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
       # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
@@ -218,6 +233,8 @@ categories:
       - MCU lead time
       - MCU supply constraints
       - MCU supply
+      - マイクロコントローラ
+      - マイコン
       # Bare MCU(s) too often appears in product catalogs without supply context.
   Analog:
     Power_IC:
@@ -231,6 +248,8 @@ categories:
       - power IC
       - PMICs
       - PMIC
+      - パワーマネジメントIC
+      - パワー半導体
   Storage:
     # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
     HDD:
@@ -302,6 +321,11 @@ categories:
       - MLCC shortage
       - MLCCs
       - 片式多层陶瓷电容
+      - 積層セラミックコンデンサ
+      - 積層セラミックコンデンサー
+      - 積層セラミック
+      - セラミックコンデンサ
+      - コンデンサ
       - MLCC
       # Avoid bare capacitor(s) alone — matched M&A fair-value "Capacitors segment".
     # Small related passive — shortage-scoped / multi-word only.
