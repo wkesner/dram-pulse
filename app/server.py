@@ -74,7 +74,8 @@ SIGHTING_API_FIELDS = (
 class VoteIn(BaseModel):
     signal_id: str
     user: str = ""
-    vote: Literal[1, -1]
+    # 1 = useful, -1 = not useful, 0 = skip (hide from this profile's feed)
+    vote: Literal[1, -1, 0]
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:
@@ -431,7 +432,7 @@ def create_app(
         user: str = Query(default=""),
         authorization: str | None = Header(default=None),
     ) -> dict[str, int]:
-        """Latest vote per signal_id for this user. Values are 1 or -1."""
+        """Latest vote per signal_id for this user. Values are 1, -1, or 0 (skip)."""
         if mode == "clerk":
             session = resolve_session(authorization)
             paths = org_corpus(session)
@@ -493,12 +494,14 @@ def create_app(
                 user_id=session.user_id,
                 columns=ORG_VOTE_COLUMNS,
             )
-            append_aggregate_event(
-                aggregates_path,
-                signal_id=body.signal_id,
-                direction=direction,
-                vote=body.vote,
-            )
+            # Skips are per-profile UX only — omit from anonymized usefulness aggregates.
+            if body.vote in (1, -1):
+                append_aggregate_event(
+                    aggregates_path,
+                    signal_id=body.signal_id,
+                    direction=direction,
+                    vote=body.vote,
+                )
             return row
 
         user = body.user.strip()
