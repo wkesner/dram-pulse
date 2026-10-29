@@ -155,13 +155,19 @@ categories:
     CPU:
       - central processing units
       - central processing unit
+      - server processor technology
+      - server processors
+      - server processor
       - microprocessors
       - microprocessor
+      - memory related microprocessors
       - server CPUs
       - server CPU
       - CPU shortages
       - CPU shortage
       - CPU lead times
+      - CPU lead time
+      - CPU supply constraints
       - CPU supply
       - CPUs
       - CPU
@@ -173,17 +179,24 @@ categories:
       - FPGA shortages
       - FPGA shortage
       - FPGA lead times
+      - FPGA lead time
+      - FPGA supply constraints
       - FPGA supply
       # Avoid bare FPGA(s) — Lattice "allocating functions to FPGAs" is not supply.
       - programmable logic devices
+      - programmable logic device
     MCU:
       - microcontroller units
       - microcontroller unit
+      - general-purpose microcontrollers
+      - general purpose microcontrollers
       - microcontrollers
       - microcontroller
       - MCU shortages
       - MCU shortage
       - MCU lead times
+      - MCU lead time
+      - MCU supply constraints
       - MCU supply
       # Bare MCU(s) too often appears in product catalogs without supply context.
   Analog:
@@ -206,16 +219,21 @@ categories:
       - ceramic capacitor
       - electrolytic capacitors
       - electrolytic capacitor
+      - substrates and capacitors
+      - capacitors used in the manufacture
+      - capacitors used in
       - capacitor shortages
       - capacitor shortage
       - MLCC shortages
       - MLCC shortage
       - MLCCs
       - MLCC
-      # Avoid bare capacitor(s) — matched M&A fair-value "Capacitors segment" text.
+      # Avoid bare capacitor(s) alone — matched M&A fair-value "Capacitors segment".
     # Small related passive — shortage-scoped / multi-word only.
     Resistor:
       - chip resistors
       - chip resistor
       - resistor shortages
       - resistor shortage
+      - resistors used in the manufacture
+      - resistors used in
