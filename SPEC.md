@@ -46,7 +46,11 @@ The taxonomy lives in `config/product_taxonomy.yaml` and maps synonyms to a fami
 | Compute | FPGA | FPGA, FPGAs, field-programmable gate array(s) |
 | Compute | MCU | MCU, MCUs, microcontroller(s) |
 | Analog | Power_IC | PMIC(s), power management IC(s), power IC(s) |
-| Passives | Capacitor | MLCC(s), ceramic capacitor(s), capacitors |
+| Storage | HDD | HDD(s), hard disk drive(s), high-capacity HDDs |
+| Storage | SSD | SSD(s), solid-state drive(s) (enterprise/client SSD stay under NAND) |
+| Interconnect | Connector | electronic/electrical/fiber connectors; connector/interconnect shortage or lead-time phrases (avoid bare connector/interconnect) |
+| Passives | Capacitor | ceramic/electrolytic capacitor phrasing |
+| Passives | MLCC | MLCC(s), multilayer ceramic capacitor(s) |
 | Passives | Resistor | chip resistor(s), resistor shortage(s) |
 
 Korean synonyms go in the same file (for example 고대역폭메모리 for HBM, 낸드 for NAND, 디램 for DRAM). These are suggestions to review.

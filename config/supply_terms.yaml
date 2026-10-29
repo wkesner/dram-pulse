@@ -16,6 +16,13 @@ topics:
     - component lead time
     - component allocations
     - component allocation
+    - component availability
+    - limited number of suppliers
+    - limited supplies
+    - limited supply
+    - on allocation
+    - place products on allocation
+    - products on allocation
     - shortage
     - constrained
     # Prefer "supply allocation" / "industry allocations" — bare "allocation"
@@ -82,6 +89,13 @@ direction:
     - exceeds supply
     - extended lead times
     - extended lead time
+    # Seagate-style: "production lead-times ... have extended" / "lead-times extended"
+    - lead times have extended
+    - lead time has extended
+    - lead times extended
+    - lead time extended
+    - production lead times extended
+    - production lead time extended
     - elevated memory and systems prices
     - price increase
     - price increases
@@ -110,6 +124,14 @@ direction:
     - supply allocation
     # Prefer "supply allocation" noun form — "allocate supply" matched Nvidia
     # competition-regulator inquiries about allocating GPU supply.
+    - limited number of suppliers
+    - limited supplies
+    - limited supply
+    - on allocation
+    - place products on allocation
+    - products on allocation
+    - only a limited number of suppliers
+    - available from only a limited number
   easing:
     - inventory build
     - elevated inventory

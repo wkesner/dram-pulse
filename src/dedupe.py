@@ -52,8 +52,24 @@ _FAMILY_SPECIFICITY = {
     "MCU": 2,
     "Power_IC": 2,
     "Capacitor": 2,
+    "MLCC": 2,
     "Resistor": 2,
+    "HDD": 2,
+    "SSD": 2,
+    "Connector": 2,
 }
+
+# Cross-family exact/containment merges only within a merge group so a Memory
+# shortage card does not swallow a co-mentioned Capacitor / MCU / Power IC.
+_MEMORY_CATEGORIES = frozenset({"DRAM", "NAND", "Other"})
+
+
+def merge_group(category: str) -> str:
+    """Bucket for cross-family dedupe/collapse. Memory stays one group."""
+    cat = (category or "").strip()
+    if cat in _MEMORY_CATEGORIES:
+        return "Memory"
+    return cat or "Other"
 
 # Curly / typographic quotes → straight.
 _QUOTE_MAP = str.maketrans(
@@ -413,12 +429,18 @@ def dedupe(
         similarity = 1.0
         chosen_sid: str | None = None
 
-        # Exact: same normalized claim already seen for this company (any family).
-        # Cross-family nested windows (short Memory_general inside a longer NAND
-        # span) also exact-merge; same-family nesting stays on overlap collapse /
-        # near match so fixture restatements are not over-merged.
+        # Exact: same normalized claim for this company. Cross-family merges only
+        # within a merge group (all Memory categories together; Compute/Analog/
+        # Passives only with themselves) so a co-listed Capacitor/MCU is not
+        # swallowed by Memory_general.
+        row_group = merge_group(str(row.get("product_category") or ""))
         for sig in open_by_company[company]:
             if sig["direction"] != direction:
+                continue
+            sig_family = str((sig.get("first_row") or {}).get("product_family") or "")
+            sig_cat = str((sig.get("first_row") or {}).get("product_category") or "")
+            same_group = merge_group(sig_cat) == row_group
+            if not (sig_family == family or same_group):
                 continue
             if norm in sig["norms"] or any(
                 normalize(t) == norm for t in sig["match_texts"]
@@ -427,7 +449,6 @@ def dedupe(
                 similarity = 1.0
                 chosen_sid = sig["signal_id"]
                 break
-            sig_family = str((sig.get("first_row") or {}).get("product_family") or "")
             if sig_family != family and any(
                 is_match_text_contained(mtext, prev) for prev in sig["match_texts"]
             ):
