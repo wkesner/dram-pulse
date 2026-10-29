@@ -78,6 +78,18 @@ python3 -m src.verify
 
 `config/companies.yaml` lists MU, SKHY, and buyers AAPL DELL HPQ HPE SMCI CSCO NVDA AMD QCOM JBL. Forms: 10-K, 10-Q, 8-K (items 2.02 / 2.06 / 7.01 / 8.01); SKHY also 6-K. CIKs and `fiscalYearEnd` come from EDGAR at runtime.
 
+### Freshness (stale-only refresh)
+
+```bash
+python3 -m src.freshness status --stale-days 45
+python3 -m src.freshness status --tier 1 --out data/company_calendar.csv
+# Polite SEC refresh for tickers whose last cached filing is ≥45 days old (or missing)
+python3 -m src.freshness refresh --stale-days 45 --max-rps 1 --dry-run
+python3 -m src.freshness refresh --stale-days 45 --max-rps 1
+```
+
+Fetch still skips accessions that already have `meta.json` + `other_full.txt`; freshness only decides *which tickers* to poll.
+
 ## Milestone 4 — Feed + family view
 
 The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/design/`. Build sequence: `docs/FEED-BUILD.md`.
