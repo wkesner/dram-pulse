@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司環旭電子(股)公司公告調整第七屆審計委員會成員",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_225219_d0bddb12fe",
+  "filing_id": "1151028_225219_d0bddb12fe",
+  "title": "代子公司環旭電子(股)公司公告調整第七屆審計委員會成員",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.288030+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151028_225219_d0bddb12fe/other_full.txt"
+  },
+  "clause": "第6款",
+  "fact_date_roc": "1151027",
+  "announce_time": "225219",
+  "feed": "t187ap04_L"
+}

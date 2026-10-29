@@ -1,0 +1,24 @@
+{
+  "company": "Realtek",
+  "ticker": "2379",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "本公司115年第3季合併財務報告業經董事會決議通過",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_183355_995d8d1693",
+  "filing_id": "1151028_183355_995d8d1693",
+  "title": "本公司115年第3季合併財務報告業經董事會決議通過",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.286033+00:00",
+  "paths": {
+    "other_full": "data/raw/2379/1151028_183355_995d8d1693/other_full.txt"
+  },
+  "clause": "第31款",
+  "fact_date_roc": "1151028",
+  "announce_time": "183355",
+  "feed": "t187ap04_L"
+}

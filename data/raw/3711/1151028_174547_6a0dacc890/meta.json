@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司日月光半導體製造(股)公司公告\r\n向帆宣系統科技股份有限公司取得供營業用之廠務工程",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_174547_6a0dacc890",
+  "filing_id": "1151028_174547_6a0dacc890",
+  "title": "代子公司日月光半導體製造(股)公司公告\r\n向帆宣系統科技股份有限公司取得供營業用之廠務工程",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.285200+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151028_174547_6a0dacc890/other_full.txt"
+  },
+  "clause": "第20款",
+  "fact_date_roc": "1151028",
+  "announce_time": "174547",
+  "feed": "t187ap04_L"
+}

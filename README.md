@@ -198,6 +198,68 @@ python3 -m src.verify              # must be 100%
 
 `document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
 
+## Asia / UK filings (JP · CN · LSE)
+
+Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
+
+| Market | Module | Auth | Status |
+|--------|--------|------|--------|
+| **China (CNINFO)** | `python -m src.fetch_cninfo` | none | **v1 live** — unofficial public JSON on the CSRC-designated site |
+| **Taiwan (MOPS/TWSE)** | `python -m src.fetch_mops` | none | **v1 live** — official `openapi.twse.com.tw` |
+| **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
+| **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
+| TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
+| LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
+| FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
+
+```bash
+# China (no key) — SMIC / GigaDevice / Hua Hong / JCET / Luxshare / NAURA
+python3 -m src.fetch_cninfo
+python3 -m src.fetch_cninfo --ticker 603986
+
+# Taiwan (no key) — TSMC / MediaTek / ASE / UMC / Winbond / Nanya / …
+python3 -m src.fetch_mops
+python3 -m src.fetch_mops --ticker 2330
+
+# Japan — after EDINET_API_KEY is on this VM (.env or Cursor environment secret)
+python3 -m src.fetch_edinet
+python3 -m src.fetch_edinet --ticker 8035
+
+# UK Companies House — after COMPANIES_HOUSE_API_KEY is on this VM
+python3 -m src.fetch_companies_house
+python3 -m src.fetch_companies_house --ticker RSW
+
+# Extract + verify (same dedupe path as EDGAR/DART)
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
+python3 -m src.extract --all --no-fetch-prior
+python3 -m src.verify
+```
+
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+
+### Auth / rate limits / ToS (summary)
+
+- **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
+- **MOPS/TWSE**: no key. Official OpenAPI (`t187ap04_L` material info + `t187ap05_L` monthly revenue). Snapshots are latest-period (not a historical range) — re-runs accumulate cache. Prefer OpenAPI over MOPS HTML (TWSE ToS discourages automated scrape of non-API pages). Soft ≤1 r/s.
+- **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
+- **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
+- **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.
+- **FCA NSM**: free human search/CSV export; no programmatic retrieval API yet.
+
+### v2 exchange roadmap (secondary / regional)
+
+Ranked for electronic-commodity supply signals + information imbalance. Prefer official open data. **Do not start these until Taiwan/JP/UK keys are green.**
+
+| Rank | Market | Source | Key? | Why next | Caveats |
+|------|--------|--------|------|----------|---------|
+| 1 | **HKEX** | HKEXnews / `www1.hkexnews.hk` title search + PDF | No free official API; HTML/PDF portal is free | Dense electronics/ODM/foundry ADRs & H-shares; English+zh filings | Portal ToS / anti-bot; polite crawl + PDF text |
+| 2 | **SEDAR+ (Canada)** | Canadian Securities Administrators API / bulk | Free account for some feeds | Memory/packaging names via TSX; English | API access tiers vary; document auth |
+| 3 | **ASX (Australia)** | ASX online announcements / MarkitHub open bits | Mostly free portal | Thin electronics set but clean English | No rich open API; HTML/PDF |
+| 4 | **BaFin / Bundesanzeiger (Germany)** | Unternehmensregister / BaFin publications | Free portal; limited API | EU semis/equipment (Infineon, etc.) via DE filings | German text; register UX is clunky |
+| 5 | **India BSE/NSE** | BSE corporate announcements API-ish / NSE archives | Mixed free | Growing EMS/OSAT/design density | Endpoint stability uneven; rate carefully |
+
+Already covered: **SEC EDGAR**, **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027.
+
 **English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
 ```bash

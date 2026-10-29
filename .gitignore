@@ -15,8 +15,14 @@ data/export_signals.csv
 # Keep Memory Signals text caches in git for verify; skip regenerable binaries.
 data/raw/**/document.pdf
 data/raw/**/document.zip
+data/raw/**/document.xhtml
 data/raw/_dart/
+data/raw/_cninfo/
+data/raw/_edinet/
+data/raw/_mops/
 data/raw/_test_dart/
+data/raw/_test_cninfo/
+data/raw/_test_mops/
 # Per-org Clerk corpora + anonymized aggregates (regenerated / local demo)
 data/orgs/**
 !data/orgs/.gitkeep

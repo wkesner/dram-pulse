@@ -1,0 +1,24 @@
+{
+  "company": "GigaDevice",
+  "ticker": "603986",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "兆易创新2026年半年度报告",
+  "filing_date": "2026-08-18",
+  "accession_number": "1225480384",
+  "filing_id": "1225480384",
+  "title": "兆易创新2026年半年度报告",
+  "org_id": "9900026561",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-08-19/1225480384.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480384.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T19:24:24.226521+00:00",
+  "paths": {
+    "other_full": "data/raw/603986/1225480384/other_full.txt",
+    "document_pdf": "data/raw/603986/1225480384/document.pdf"
+  }
+}

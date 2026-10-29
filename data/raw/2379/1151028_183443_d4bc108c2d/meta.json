@@ -1,0 +1,24 @@
+{
+  "company": "Realtek",
+  "ticker": "2379",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "公告董事會決議本公司資金貸與相關事宜",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_183443_d4bc108c2d",
+  "filing_id": "1151028_183443_d4bc108c2d",
+  "title": "公告董事會決議本公司資金貸與相關事宜",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.286448+00:00",
+  "paths": {
+    "other_full": "data/raw/2379/1151028_183443_d4bc108c2d/other_full.txt"
+  },
+  "clause": "第23款",
+  "fact_date_roc": "1151028",
+  "announce_time": "183443",
+  "feed": "t187ap04_L"
+}

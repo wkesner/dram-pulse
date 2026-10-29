@@ -38,3 +38,9 @@ def require_dart_api_key() -> str:
             f"DART_API_KEY length looks wrong ({len(key)} chars; expected ~40)."
         )
     return key
+
+
+def optional_env(name: str) -> str:
+    """Return stripped env value (after .env load) or empty string."""
+    load_dotenv()
+    return (os.environ.get(name) or "").strip()
