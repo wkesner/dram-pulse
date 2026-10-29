@@ -49,6 +49,7 @@ DEFAULT_SIGNALS = REPO_ROOT / "data" / "signals.csv"
 DEFAULT_SIGHTINGS = REPO_ROOT / "data" / "sightings.csv"
 DEFAULT_VOTES = REPO_ROOT / "data" / "votes.csv"
 DEFAULT_COMPANIES = REPO_ROOT / "config" / "companies.yaml"
+DEFAULT_TIERS = REPO_ROOT / "config" / "tiers.yaml"
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 VOTE_COLUMNS = ["vote_id", "signal_id", "user", "vote", "voted_at"]
@@ -141,22 +142,92 @@ def _known_signal_ids(signals_path: Path) -> set[str]:
     return {r.get("signal_id", "") for r in _read_csv(signals_path) if r.get("signal_id")}
 
 
-def _load_company_names(companies_path: Path) -> list[str]:
-    """Return company names from config/companies.yaml (order preserved)."""
-    if not companies_path.is_file():
-        return []
+def _load_yaml_mapping(path: Path) -> dict[str, Any]:
+    if not path.is_file():
+        return {}
     try:
         import yaml
     except ImportError as exc:  # pragma: no cover
-        raise RuntimeError("PyYAML is required for /api/meta") from exc
-    data = yaml.safe_load(companies_path.read_text(encoding="utf-8")) or {}
-    companies = data.get("companies") or []
+        raise RuntimeError("PyYAML is required") from exc
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return data if isinstance(data, dict) else {}
+
+
+def _load_company_names(companies_path: Path) -> list[str]:
+    """Return company names from config/companies.yaml (order preserved)."""
+    companies = _load_yaml_mapping(companies_path).get("companies") or []
     names: list[str] = []
     for row in companies:
         name = (row or {}).get("name") or ""
         if name:
             names.append(str(name))
     return names
+
+
+def _load_tier_catalog(tiers_path: Path) -> list[dict[str, Any]]:
+    rows = _load_yaml_mapping(tiers_path).get("tiers") or []
+    out: list[dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        try:
+            tid = int(row.get("id"))
+        except (TypeError, ValueError):
+            continue
+        out.append(
+            {
+                "id": tid,
+                "label": row.get("label") or f"Tier {tid}",
+                "short": row.get("short") or f"T{tid}",
+                "map_default": bool(row.get("map_default")),
+                "summary": row.get("summary") or "",
+            }
+        )
+    return out
+
+
+def _company_tier_lookup(companies_path: Path) -> dict[str, int]:
+    """ticker / name → tier for enriching signal rows that predate the column."""
+    companies = _load_yaml_mapping(companies_path).get("companies") or []
+    lookup: dict[str, int] = {}
+    for row in companies:
+        if not isinstance(row, dict):
+            continue
+        try:
+            tier = int(row.get("tier", 1))
+        except (TypeError, ValueError):
+            tier = 1
+        if tier not in {1, 2, 3}:
+            tier = 1
+        keys = [
+            str(row.get("name") or "").strip(),
+            str(row.get("ticker") or "").strip(),
+            str(row.get("krx_code") or "").strip(),
+        ]
+        for key in keys:
+            if not key:
+                continue
+            for variant in {key, key.upper()}:
+                prev = lookup.get(variant)
+                if prev is None or tier < prev:
+                    lookup[variant] = tier
+    return lookup
+
+
+def _resolve_tier(row: dict[str, Any], lookup: dict[str, int]) -> str:
+    raw = str(row.get("tier") or "").strip()
+    if raw in {"1", "2", "3"}:
+        return raw
+    for key in (
+        row.get("ticker_or_code") or "",
+        row.get("company") or "",
+    ):
+        k = str(key).strip()
+        if k in lookup:
+            return str(lookup[k])
+        if k.upper() in lookup:
+            return str(lookup[k.upper()])
+    return "1"
 
 
 def _is_truthy(value: Any) -> bool:
@@ -262,6 +333,7 @@ def create_app(
     sightings_path: Path | None = None,
     votes_path: Path | None = None,
     companies_path: Path | None = None,
+    tiers_path: Path | None = None,
     static_dir: Path | None = None,
     mount_static: bool = True,
     mode: str | None = None,
@@ -275,9 +347,12 @@ def create_app(
     sightings_path = sightings_path or DEFAULT_SIGHTINGS
     votes_path = votes_path or DEFAULT_VOTES
     companies_path = companies_path or DEFAULT_COMPANIES
+    tiers_path = tiers_path or DEFAULT_TIERS
     static_dir = static_dir or STATIC_DIR
     orgs_root = orgs_root or DEFAULT_ORGS_ROOT
     aggregates_path = aggregates_path or DEFAULT_AGGREGATES
+    tier_lookup = _company_tier_lookup(companies_path)
+    tier_catalog = _load_tier_catalog(tiers_path)
     mode = (mode or auth_mode()).lower()
     if mode not in {"single", "clerk"}:
         mode = "single"
@@ -392,6 +467,7 @@ def create_app(
         for row in signals:
             sid = row.get("signal_id") or ""
             payload = dict(row)
+            payload["tier"] = _resolve_tier(row, tier_lookup)
             payload["sightings"] = sightings.get(sid, [])
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
             out.append(payload)
@@ -425,7 +501,41 @@ def create_app(
             signals = _read_csv(signals_path)
         names = _load_company_names(companies_path)
         notes = compute_notes(signals, names)
-        return {"notes": notes, "companies": names}
+        companies = _load_yaml_mapping(companies_path).get("companies") or []
+        roster: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for row in companies:
+            if not isinstance(row, dict):
+                continue
+            name = str(row.get("name") or "")
+            ticker = str(row.get("ticker") or "")
+            key = f"{name}|{ticker}"
+            if not name or key in seen:
+                continue
+            seen.add(key)
+            try:
+                tier = int(row.get("tier", 1))
+            except (TypeError, ValueError):
+                tier = 1
+            roster.append(
+                {
+                    "name": name,
+                    "ticker": ticker,
+                    "role": row.get("role") or "",
+                    "source": row.get("source") or "",
+                    "tier": tier if tier in {1, 2, 3} else 1,
+                }
+            )
+        default_map_tier = next(
+            (t["id"] for t in tier_catalog if t.get("map_default")), 1
+        )
+        return {
+            "notes": notes,
+            "companies": names,
+            "tiers": tier_catalog,
+            "company_roster": roster,
+            "default_map_tier": default_map_tier,
+        }
 
     @app.get("/api/votes")
     def get_votes(

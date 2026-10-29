@@ -69,6 +69,7 @@ Notes:
 - Nvidia, AMD and Qualcomm design chips but don't build them. They're included deliberately (William agreed on 2026-10-20) because they are among the largest buyers of HBM and LPDDR, so their filings name memory constraints directly.
 - Each buyer files 10-Ks on its own fiscal calendar. Store `fiscal_year_end` from the EDGAR submissions data, not by assumption.
 - SK hynix's 6-Ks appear to be English versions of its Korean disclosures (inferred, not confirmed), so expect duplicates. Deduplicate by date plus normalised title. Prefer the English EDGAR 6-K and keep the DART receipt number as a cross-reference.
+- **Company tiers** (`config/tiers.yaml`, field `tier` on each `companies.yaml` row): **Tier 1** = primary Signal map (household / core); **Tier 2** = Fortune 500–1000 electronics, datacenter, distribution, EMS peers; **Tier 3** = smaller listed / broker-dense. Maps are scoped by tier (default Tier 1); the feed can filter across tiers. Lower tiers are intentional — brokers often care more about Tier 2–3 than about Apple.
 
 ## Sources and how to fetch them
 

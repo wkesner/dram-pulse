@@ -1,299 +1,981 @@
 # Companies for Memory Signals. CIKs / DART corp codes are looked up at runtime —
 # never hardcode them here.
 #
+# tier: 1 = primary graph (household / core); 2 = F500–F1000 electronics/DC;
+#       3 = smaller listed / broker-dense. See config/tiers.yaml.
 # forms: optional override of which EDGAR forms to fetch for this company.
 # Default (when omitted) is 10-K, 10-Q, 8-K (filtered items). SK hynix also gets 6-K.
+
 companies:
   - name: Micron
     role: supplier
     source: EDGAR
     ticker: MU
+    tier: 1
 
   - name: SK hynix
     role: supplier
     source: EDGAR
     ticker: SKHY
     krx_code: "000660"
+    tier: 1
     forms:
       - 10-K
       - 10-Q
       - 8-K
       - 6-K
 
-  # Korean filings via OpenDART (Milestone 5). Cached under data/raw/000660/.
   - name: SK hynix
     role: supplier
     source: DART
     ticker: "000660"
     krx_code: "000660"
+    tier: 1
 
   - name: Samsung Electronics
     role: supplier
     source: DART
     ticker: "005930"
     krx_code: "005930"
+    tier: 1
 
-  # English IR PDFs (hand list in config/ir_documents.yaml); ticker matches DART cache root.
   - name: Samsung Electronics
     role: supplier
     source: IR
     ticker: "005930"
     krx_code: "005930"
+    tier: 1
 
   - name: Apple
     role: buyer
     source: EDGAR
     ticker: AAPL
+    tier: 1
 
   - name: Dell
     role: buyer
     source: EDGAR
     ticker: DELL
+    tier: 1
 
   - name: HP Inc.
     role: buyer
     source: EDGAR
     ticker: HPQ
+    tier: 1
 
   - name: HPE
     role: buyer
     source: EDGAR
     ticker: HPE
+    tier: 1
 
   - name: Super Micro
     role: buyer
     source: EDGAR
     ticker: SMCI
+    tier: 2
 
   - name: Cisco
     role: buyer
     source: EDGAR
     ticker: CSCO
+    tier: 1
 
   - name: Nvidia
     role: buyer
     source: EDGAR
     ticker: NVDA
+    tier: 1
 
   - name: AMD
     role: buyer
     source: EDGAR
     ticker: AMD
+    tier: 1
 
   - name: Qualcomm
     role: buyer
     source: EDGAR
     ticker: QCOM
+    tier: 1
 
   - name: Jabil
     role: buyer
     source: EDGAR
     ticker: JBL
+    tier: 1
 
-  # Curated pack (MORE-FILINGS option C) — memory-adjacent buyers / storage / packaging
   - name: Broadcom
     role: buyer
     source: EDGAR
     ticker: AVGO
+    tier: 2
 
   - name: Intel
     role: buyer
     source: EDGAR
     ticker: INTC
+    tier: 1
 
   - name: Microsoft
     role: buyer
     source: EDGAR
     ticker: MSFT
+    tier: 1
 
   - name: Amazon
     role: buyer
     source: EDGAR
     ticker: AMZN
+    tier: 1
 
   - name: Alphabet
     role: buyer
     source: EDGAR
     ticker: GOOGL
+    tier: 1
 
   - name: Meta Platforms
     role: buyer
     source: EDGAR
     ticker: META
+    tier: 1
 
   - name: Western Digital
     role: supplier
     source: EDGAR
     ticker: WDC
+    tier: 2
 
   - name: Seagate
     role: supplier
     source: EDGAR
     ticker: STX
+    tier: 2
 
   - name: Sandisk
     role: supplier
     source: EDGAR
     ticker: SNDK
+    tier: 2
 
   - name: Amkor
     role: supplier
     source: EDGAR
     ticker: AMKR
+    tier: 2
 
-  # SIC batch 1 (from config/sic_candidates.yaml dry-run; see config/sic_batch1.yaml)
   - name: Rambus
     role: supplier
     source: EDGAR
     ticker: RMBS
+    tier: 3
+
   - name: Silicon Motion
     role: supplier
     source: EDGAR
     ticker: SIMO
+    tier: 3
     forms:
       - 20-F
       - 6-K
+
   - name: MaxLinear
     role: supplier
     source: EDGAR
     ticker: MXL
+    tier: 3
+
   - name: TSMC
     role: supplier
     source: EDGAR
     ticker: TSM
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: GlobalFoundries
     role: supplier
     source: EDGAR
     ticker: GFS
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: Tower Semiconductor
     role: supplier
     source: EDGAR
     ticker: TSEM
+    tier: 3
     forms:
       - 20-F
       - 6-K
+
   - name: UMC
     role: supplier
     source: EDGAR
     ticker: UMC
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: ASE Technology
     role: supplier
     source: EDGAR
     ticker: ASX
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: ChipMOS
     role: supplier
     source: EDGAR
     ticker: IMOS
+    tier: 3
     forms:
       - 20-F
       - 6-K
+
   - name: Applied Materials
     role: supplier
     source: EDGAR
     ticker: AMAT
+    tier: 2
+
   - name: FormFactor
     role: supplier
     source: EDGAR
     ticker: FORM
+    tier: 3
+
   - name: Ultra Clean Holdings
     role: supplier
     source: EDGAR
     ticker: UCTT
+    tier: 3
+
   - name: Photronics
     role: supplier
     source: EDGAR
     ticker: PLAB
+    tier: 3
+
   - name: Arm Holdings
     role: supplier
     source: EDGAR
     ticker: ARM
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: Marvell
     role: buyer
     source: EDGAR
     ticker: MRVL
+    tier: 2
+
   - name: Astera Labs
     role: supplier
     source: EDGAR
     ticker: ALAB
+    tier: 3
+
   - name: Credo
     role: supplier
     source: EDGAR
     ticker: CRDO
+    tier: 3
+
   - name: Arista Networks
     role: buyer
     source: EDGAR
     ticker: ANET
+    tier: 2
+
   - name: Amphenol
     role: supplier
     source: EDGAR
     ticker: APH
+    tier: 2
+
   - name: Ambarella
     role: supplier
     source: EDGAR
     ticker: AMBA
+    tier: 3
+
   - name: Analog Devices
     role: supplier
     source: EDGAR
     ticker: ADI
+    tier: 2
+
   - name: NXP
     role: supplier
     source: EDGAR
     ticker: NXPI
+    tier: 2
+
   - name: Texas Instruments
     role: supplier
     source: EDGAR
     ticker: TXN
+    tier: 2
+
   - name: Microchip
     role: supplier
     source: EDGAR
     ticker: MCHP
+    tier: 2
+
   - name: onsemi
     role: supplier
     source: EDGAR
     ticker: "ON"
+    tier: 2
+
   - name: Monolithic Power
     role: supplier
     source: EDGAR
     ticker: MPWR
+    tier: 2
+
   - name: STMicroelectronics
     role: supplier
     source: EDGAR
     ticker: STM
+    tier: 2
     forms:
       - 20-F
       - 6-K
+
   - name: Cirrus Logic
     role: supplier
     source: EDGAR
     ticker: CRUS
+    tier: 3
+
   - name: Lattice
     role: supplier
     source: EDGAR
     ticker: LSCC
+    tier: 3
+
   - name: Silicon Labs
     role: supplier
     source: EDGAR
     ticker: SLAB
+    tier: 3
+
   - name: Semtech
     role: supplier
     source: EDGAR
     ticker: SMTC
+    tier: 3
+
   - name: MACOM
     role: supplier
     source: EDGAR
     ticker: MTSI
+    tier: 3
+
+  - name: IBM
+    role: buyer
+    source: EDGAR
+    ticker: IBM
+    tier: 2
+
+  - name: Oracle
+    role: buyer
+    source: EDGAR
+    ticker: ORCL
+    tier: 2
+
+  - name: TD Synnex
+    role: buyer
+    source: EDGAR
+    ticker: SNX
+    tier: 2
+
+  - name: Arrow Electronics
+    role: buyer
+    source: EDGAR
+    ticker: ARW
+    tier: 2
+
+  - name: Avnet
+    role: buyer
+    source: EDGAR
+    ticker: AVT
+    tier: 2
+
+  - name: CDW
+    role: buyer
+    source: EDGAR
+    ticker: CDW
+    tier: 2
+
+  - name: Flex
+    role: buyer
+    source: EDGAR
+    ticker: FLEX
+    tier: 2
+
+  - name: Best Buy
+    role: buyer
+    source: EDGAR
+    ticker: BBY
+    tier: 2
+
+  - name: Vertiv
+    role: buyer
+    source: EDGAR
+    ticker: VRT
+    tier: 2
+
+  - name: NetApp
+    role: buyer
+    source: EDGAR
+    ticker: NTAP
+    tier: 2
+
+  - name: Lam Research
+    role: supplier
+    source: EDGAR
+    ticker: LRCX
+    tier: 2
+
+  - name: KLA
+    role: supplier
+    source: EDGAR
+    ticker: KLAC
+    tier: 2
+
+  - name: ASML
+    role: supplier
+    source: EDGAR
+    ticker: ASML
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: TE Connectivity
+    role: supplier
+    source: EDGAR
+    ticker: TEL
+    tier: 2
+
+  - name: Corning
+    role: supplier
+    source: EDGAR
+    ticker: GLW
+    tier: 2
+
+  - name: WESCO
+    role: buyer
+    source: EDGAR
+    ticker: WCC
+    tier: 2
+
+  - name: Palo Alto Networks
+    role: buyer
+    source: EDGAR
+    ticker: PANW
+    tier: 2
+
+  - name: Keysight
+    role: supplier
+    source: EDGAR
+    ticker: KEYS
+    tier: 2
+
+  - name: Sanmina
+    role: buyer
+    source: EDGAR
+    ticker: SANM
+    tier: 3
+
+  - name: Celestica
+    role: buyer
+    source: EDGAR
+    ticker: CLS
+    tier: 3
+
+  - name: Plexus
+    role: buyer
+    source: EDGAR
+    ticker: PLXS
+    tier: 3
+
+  - name: Benchmark Electronics
+    role: buyer
+    source: EDGAR
+    ticker: BHE
+    tier: 3
+
+  - name: Insight Enterprises
+    role: buyer
+    source: EDGAR
+    ticker: NSIT
+    tier: 3
+
+  - name: Cohu
+    role: supplier
+    source: EDGAR
+    ticker: COHU
+    tier: 3
+
+  - name: Advanced Energy
+    role: supplier
+    source: EDGAR
+    ticker: AEIS
+    tier: 3
+
+  - name: F5
+    role: buyer
+    source: EDGAR
+    ticker: FFIV
+    tier: 3
+
+# Fortune 1000 electronics / datacenter remainder (Tier 2)
+  - name: Equinix
+    role: buyer
+    source: EDGAR
+    ticker: EQIX
+    tier: 2
+
+  - name: Digital Realty
+    role: buyer
+    source: EDGAR
+    ticker: DLR
+    tier: 2
+
+  - name: Eaton
+    role: supplier
+    source: EDGAR
+    ticker: ETN
+    tier: 2
+
+  - name: nVent
+    role: supplier
+    source: EDGAR
+    ticker: NVT
+    tier: 2
+
+  - name: EnerSys
+    role: supplier
+    source: EDGAR
+    ticker: ENS
+    tier: 2
+
+  - name: Emerson Electric
+    role: supplier
+    source: EDGAR
+    ticker: EMR
+    tier: 2
+
+  - name: Hubbell
+    role: supplier
+    source: EDGAR
+    ticker: HUBB
+    tier: 2
+
+  - name: Honeywell
+    role: buyer
+    source: EDGAR
+    ticker: HON
+    tier: 2
+
+  - name: Rockwell Automation
+    role: buyer
+    source: EDGAR
+    ticker: ROK
+    tier: 2
+
+  - name: CoreWeave
+    role: buyer
+    source: EDGAR
+    ticker: CRWV
+    tier: 2
+
+  - name: Ciena
+    role: buyer
+    source: EDGAR
+    ticker: CIEN
+    tier: 2
+
+  - name: Belden
+    role: supplier
+    source: EDGAR
+    ticker: BDC
+    tier: 2
+
+  - name: Vishay
+    role: supplier
+    source: EDGAR
+    ticker: VSH
+    tier: 2
+
+  - name: Skyworks
+    role: supplier
+    source: EDGAR
+    ticker: SWKS
+    tier: 2
+
+  - name: Motorola Solutions
+    role: buyer
+    source: EDGAR
+    ticker: MSI
+    tier: 2
+
+  - name: Zebra Technologies
+    role: buyer
+    source: EDGAR
+    ticker: ZBRA
+    tier: 2
+
+  - name: Teledyne
+    role: supplier
+    source: EDGAR
+    ticker: TDY
+    tier: 2
+
+  - name: Trimble
+    role: buyer
+    source: EDGAR
+    ticker: TRMB
+    tier: 2
+
+  - name: Cadence
+    role: supplier
+    source: EDGAR
+    ticker: CDNS
+    tier: 2
+
+  - name: Synopsys
+    role: supplier
+    source: EDGAR
+    ticker: SNPS
+    tier: 2
+
+  - name: Teradyne
+    role: supplier
+    source: EDGAR
+    ticker: TER
+    tier: 2
+
+  - name: Entegris
+    role: supplier
+    source: EDGAR
+    ticker: ENTG
+    tier: 2
+
+  - name: MKS Instruments
+    role: supplier
+    source: EDGAR
+    ticker: MKSI
+    tier: 2
+
+  - name: Onto Innovation
+    role: supplier
+    source: EDGAR
+    ticker: ONTO
+    tier: 2
+
+  - name: TTM Technologies
+    role: supplier
+    source: EDGAR
+    ticker: TTMI
+    tier: 2
+
+  - name: Fabrinet
+    role: supplier
+    source: EDGAR
+    ticker: FN
+    tier: 2
+
+  - name: IPG Photonics
+    role: supplier
+    source: EDGAR
+    ticker: IPGP
+    tier: 2
+
+  - name: ScanSource
+    role: buyer
+    source: EDGAR
+    ticker: SCSC
+    tier: 2
+
+  - name: PC Connection
+    role: buyer
+    source: EDGAR
+    ticker: CNXN
+    tier: 2
+
+  - name: ePlus
+    role: buyer
+    source: EDGAR
+    ticker: PLUS
+    tier: 2
+
+  - name: Akamai
+    role: buyer
+    source: EDGAR
+    ticker: AKAM
+    tier: 2
+
+
+# Medtech + dual-use / military electronics (Tier 2)
+  - name: Medtronic
+    role: buyer
+    source: EDGAR
+    ticker: MDT
+    tier: 2
+
+  - name: Abbott
+    role: buyer
+    source: EDGAR
+    ticker: ABT
+    tier: 2
+
+  - name: Stryker
+    role: buyer
+    source: EDGAR
+    ticker: SYK
+    tier: 2
+
+  - name: Boston Scientific
+    role: buyer
+    source: EDGAR
+    ticker: BSX
+    tier: 2
+
+  - name: Edwards Lifesciences
+    role: buyer
+    source: EDGAR
+    ticker: EW
+    tier: 2
+
+  - name: Zimmer Biomet
+    role: buyer
+    source: EDGAR
+    ticker: ZBH
+    tier: 2
+
+  - name: Intuitive Surgical
+    role: buyer
+    source: EDGAR
+    ticker: ISRG
+    tier: 2
+
+  - name: DexCom
+    role: buyer
+    source: EDGAR
+    ticker: DXCM
+    tier: 2
+
+  - name: ResMed
+    role: buyer
+    source: EDGAR
+    ticker: RMD
+    tier: 2
+
+  - name: Baxter
+    role: buyer
+    source: EDGAR
+    ticker: BAX
+    tier: 2
+
+  - name: Becton Dickinson
+    role: buyer
+    source: EDGAR
+    ticker: BDX
+    tier: 2
+
+  - name: GE HealthCare
+    role: buyer
+    source: EDGAR
+    ticker: GEHC
+    tier: 2
+
+  - name: Danaher
+    role: buyer
+    source: EDGAR
+    ticker: DHR
+    tier: 2
+
+  - name: Thermo Fisher
+    role: buyer
+    source: EDGAR
+    ticker: TMO
+    tier: 2
+
+  - name: Agilent
+    role: buyer
+    source: EDGAR
+    ticker: A
+    tier: 2
+
+  - name: Illumina
+    role: buyer
+    source: EDGAR
+    ticker: ILMN
+    tier: 2
+
+  - name: Align Technology
+    role: buyer
+    source: EDGAR
+    ticker: ALGN
+    tier: 2
+
+  - name: Insulet
+    role: buyer
+    source: EDGAR
+    ticker: PODD
+    tier: 2
+
+  - name: Teleflex
+    role: buyer
+    source: EDGAR
+    ticker: TFX
+    tier: 2
+
+  - name: STERIS
+    role: buyer
+    source: EDGAR
+    ticker: STE
+    tier: 2
+
+  - name: Integer Holdings
+    role: buyer
+    source: EDGAR
+    ticker: ITGR
+    tier: 2
+
+  - name: Lockheed Martin
+    role: buyer
+    source: EDGAR
+    ticker: LMT
+    tier: 2
+
+  - name: Northrop Grumman
+    role: buyer
+    source: EDGAR
+    ticker: NOC
+    tier: 2
+
+  - name: General Dynamics
+    role: buyer
+    source: EDGAR
+    ticker: GD
+    tier: 2
+
+  - name: RTX
+    role: buyer
+    source: EDGAR
+    ticker: RTX
+    tier: 2
+
+  - name: L3Harris
+    role: buyer
+    source: EDGAR
+    ticker: LHX
+    tier: 2
+
+  - name: Boeing
+    role: buyer
+    source: EDGAR
+    ticker: BA
+    tier: 2
+
+  - name: Huntington Ingalls
+    role: buyer
+    source: EDGAR
+    ticker: HII
+    tier: 2
+
+  - name: TransDigm
+    role: buyer
+    source: EDGAR
+    ticker: TDG
+    tier: 2
+
+  - name: HEICO
+    role: buyer
+    source: EDGAR
+    ticker: HEI
+    tier: 2
+
+  - name: Curtiss-Wright
+    role: buyer
+    source: EDGAR
+    ticker: CW
+    tier: 2
+
+  - name: Textron
+    role: buyer
+    source: EDGAR
+    ticker: TXT
+    tier: 2
+
+  - name: Howmet Aerospace
+    role: buyer
+    source: EDGAR
+    ticker: HWM
+    tier: 2
+
+  - name: Kratos
+    role: buyer
+    source: EDGAR
+    ticker: KTOS
+    tier: 2
+
+  - name: Mercury Systems
+    role: buyer
+    source: EDGAR
+    ticker: MRCY
+    tier: 2
+
+  - name: AeroVironment
+    role: buyer
+    source: EDGAR
+    ticker: AVAV
+    tier: 2
+
+  - name: Leonardo DRS
+    role: buyer
+    source: EDGAR
+    ticker: DRS
+    tier: 2
+
+  - name: Viasat
+    role: buyer
+    source: EDGAR
+    ticker: VSAT
+    tier: 2
+
+  - name: Leidos
+    role: buyer
+    source: EDGAR
+    ticker: LDOS
+    tier: 2
+
+  - name: SAIC
+    role: buyer
+    source: EDGAR
+    ticker: SAIC
+    tier: 2
+
+  - name: CACI
+    role: buyer
+    source: EDGAR
+    ticker: CACI
+    tier: 2
+

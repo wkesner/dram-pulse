@@ -527,6 +527,7 @@ def _build_row(
         "company": meta.get("company") or ctx.company.name,
         "ticker_or_code": meta.get("ticker") or ctx.company.ticker,
         "role": meta.get("role") or ctx.company.role,
+        "tier": str(meta.get("tier") or getattr(ctx.company, "tier", "") or ""),
         "source": source,
         "form": meta.get("form", "10-K"),
         "filing_date": meta.get("filing_date", ""),
