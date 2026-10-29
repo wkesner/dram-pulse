@@ -139,9 +139,9 @@ def load_companies(path: Path) -> list[Company]:
             tier = 1
         ticker = str(row["ticker"])
         source = str(row["source"]).upper()
-        # Keep KR/CN numeric codes zero-padded; JP TSE 4-digit as-is; Latin upper.
+        # Keep KR/CN numeric codes zero-padded; JP/TW 4-digit as-is; Latin upper.
         if ticker.isdigit():
-            if source == "EDINET" and len(ticker) <= 4:
+            if source in {"EDINET", "MOPS", "TWSE"} and len(ticker) <= 4:
                 ticker = ticker.zfill(4)
             elif len(ticker) <= 6:
                 ticker = ticker.zfill(6)

@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司環旭電子(股)公司公告董事會決議召開2026年第二\r\n次臨時股東會",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_221140_f722a25fbe",
+  "filing_id": "1151028_221140_f722a25fbe",
+  "title": "代子公司環旭電子(股)公司公告董事會決議召開2026年第二\r\n次臨時股東會",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.287347+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151028_221140_f722a25fbe/other_full.txt"
+  },
+  "clause": "第17款",
+  "fact_date_roc": "1151027",
+  "announce_time": "221140",
+  "feed": "t187ap04_L"
+}

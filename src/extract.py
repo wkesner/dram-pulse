@@ -63,7 +63,16 @@ _CJK = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7a3]")
 _WS = re.compile(r"\s+")
 
 # Full-document sources (no Item 1/1A/7 split) — parallel to DART/IR.
-FULL_DOC_SOURCES = {"DART", "IR", "CNINFO", "EDINET", "CH", "COMPANIES_HOUSE"}
+FULL_DOC_SOURCES = {
+    "DART",
+    "IR",
+    "CNINFO",
+    "EDINET",
+    "CH",
+    "COMPANIES_HOUSE",
+    "MOPS",
+    "TWSE",
+}
 
 
 @dataclass(frozen=True)
@@ -580,6 +589,8 @@ def _build_row(
         language = {
             "DART": "ko",
             "CNINFO": "zh",
+            "MOPS": "zh-TW",
+            "TWSE": "zh-TW",
             "EDINET": "ja",
         }.get(src_u, "en")
     source = str(meta.get("source") or ctx.company.source)
@@ -958,7 +969,17 @@ def _company_for_ticker(companies_path: Path, ticker: str) -> Company:
     matches = [c for c in load_companies(companies_path) if c.ticker == want]
     if not matches:
         raise SystemExit(f"Ticker {ticker} not in {companies_path}")
-    for preferred in ("EDGAR", "DART", "IR", "CNINFO", "EDINET", "CH", "COMPANIES_HOUSE"):
+    for preferred in (
+        "EDGAR",
+        "DART",
+        "IR",
+        "CNINFO",
+        "MOPS",
+        "TWSE",
+        "EDINET",
+        "CH",
+        "COMPANIES_HOUSE",
+    ):
         for c in matches:
             if c.source.upper() == preferred:
                 return c

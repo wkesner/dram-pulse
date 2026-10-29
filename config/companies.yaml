@@ -1379,3 +1379,59 @@ companies:
     company_number: "03902867"
     tier: 3
 
+  # --- MOPS / TWSE OpenAPI (Taiwan; no API key) ---
+  # Parallel to EDGAR ADR rows where those already exist (TSMC/UMC/ASE).
+  - name: TSMC
+    role: supplier
+    source: MOPS
+    ticker: "2330"
+    tier: 1
+
+  - name: MediaTek
+    role: supplier
+    source: MOPS
+    ticker: "2454"
+    tier: 2
+
+  - name: ASE Technology
+    role: supplier
+    source: MOPS
+    ticker: "3711"
+    tier: 2
+
+  - name: UMC
+    role: supplier
+    source: MOPS
+    ticker: "2303"
+    tier: 2
+
+  - name: Winbond
+    role: supplier
+    source: MOPS
+    ticker: "2344"
+    tier: 2
+
+  - name: Nanya Technology
+    role: supplier
+    source: MOPS
+    ticker: "2408"
+    tier: 2
+
+  - name: Realtek
+    role: supplier
+    source: MOPS
+    ticker: "2379"
+    tier: 3
+
+  - name: Hon Hai Precision
+    role: buyer
+    source: MOPS
+    ticker: "2317"
+    tier: 2
+
+  - name: Quanta Computer
+    role: buyer
+    source: MOPS
+    ticker: "2382"
+    tier: 2
+

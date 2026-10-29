@@ -237,7 +237,7 @@ korean:
       - 악화
       - 부담
 
-# Chinese terms (CNINFO A-share filings). Merged into banks at extract time.
+# Chinese terms (CNINFO simplified + MOPS/TWSE traditional). Merged at extract.
 chinese:
   topics:
     availability:
@@ -246,27 +246,50 @@ chinese:
       - 供应不足
       - 供不应求
       - 供应过剩
+      - 供應短缺
+      - 供應緊張
+      - 供應不足
+      - 供不應求
+      - 供應過剩
       - 供应
+      - 供應
       - 短缺
     pricing:
       - 价格上涨
       - 价格上升
       - 价格下跌
       - 价格下降
+      - 價格上漲
+      - 價格上升
+      - 價格下跌
+      - 價格下降
       - 价格
+      - 價格
     inventory:
       - 库存
+      - 庫存
     capacity:
       - 产能扩张
       - 产能扩充
       - 产能
       - 晶圆产能
       - 扩产
+      - 產能擴張
+      - 產能擴充
+      - 產能利用率
+      - 產能滿載
+      - 產能
+      - 晶圓產能
+      - 擴產
     yield_quality:
       - 良率
     demand:
       - 需求强劲
       - 需求旺盛
+      - 需求明顯增加
+      - 需求強勁
+      - 需求旺盛
+      - 需求成長
       - 需求
   direction:
     tightening:
@@ -274,30 +297,51 @@ chinese:
       - 供应紧张
       - 供应不足
       - 供不应求
+      - 供應短缺
+      - 供應緊張
+      - 供應不足
+      - 供不應求
       - 短缺
       - 价格上涨
       - 价格上升
+      - 價格上漲
+      - 價格上升
       - 产能紧张
+      - 產能緊張
+      - 產能滿載
+      - 滿載
     easing:
       - 供应过剩
+      - 供應過剩
       - 价格下跌
       - 价格下降
+      - 價格下跌
+      - 價格下降
       - 库存增加
       - 库存上升
+      - 庫存增加
+      - 庫存上升
       - 产能过剩
+      - 產能過剩
     stable:
       - 供需平衡
       - 供应稳定
+      - 供應穩定
   sentiment:
     positive:
       - 需求强劲
       - 需求旺盛
+      - 需求強勁
+      - 需求旺盛
       - 增长
+      - 成長
       - 向好
     negative:
       - 下行
       - 疲软
+      - 疲軟
       - 承压
+      - 承壓
       - 不利
 
 # Japanese terms (EDINET). Light starter set; expand once key is live.

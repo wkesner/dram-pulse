@@ -41,6 +41,7 @@ categories:
     DRAM_general:
       - 디램
       - 动态随机存取存储器
+      - 動態隨機存取記憶體
       - DRAM
   NAND:
     Data center SSD:
@@ -63,6 +64,7 @@ categories:
       - NAND flash
       - flash memory
       - 闪存
+      - 快閃記憶體
       - NAND
   Other:
     CXL:
@@ -96,6 +98,13 @@ categories:
       - 封装产能
       - 晶圆代工
       - 晶圆制造
+      - 先進封裝
+      - 封裝產能
+      - 晶圓代工
+      - 晶圓製造
+      - 晶圓廠
+      - 約當晶圓
+      - 晶圓
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
@@ -103,6 +112,8 @@ categories:
       - 存储芯片
       - 存储器
       - 内存
+      - 記憶體晶片
+      - 記憶體
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
       # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
@@ -258,6 +269,7 @@ categories:
       - interconnect shortages
       - interconnect shortage
       - 连接器
+      - 連接器
       # Avoid bare connector(s)/interconnect(s)/interconnect products —
       # matched Ciena outlook slides and MaxLinear transceiver-size boilerplate.
   Passives:

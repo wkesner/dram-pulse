@@ -48,6 +48,15 @@ edinet:
     - "150"  # 半期報告書
     - "160"  # 臨時報告書
 
+# Taiwan MOPS via TWSE OpenAPI — no key. Prefer openapi.twse.com.tw over HTML scrape.
+# Snapshots are "latest period" (not historical range); re-runs accumulate cache.
+mops:
+  max_requests_per_second: 1
+  api_base: "https://openapi.twse.com.tw/v1"
+  material_info_path: "/opendata/t187ap04_L"
+  monthly_revenue_path: "/opendata/t187ap05_L"
+  fetch_monthly_revenue: true
+
 # Companies House — free key (COMPANIES_HOUSE_API_KEY). 600 req / 5 min.
 # LSE RNS / FCA NSM: see README (RNS needs LSEG; NSM API ~2027).
 companies_house:

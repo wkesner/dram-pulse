@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "公告日月光投控115年第三季法人說明會",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_134726_ed5152a199",
+  "filing_id": "1151028_134726_ed5152a199",
+  "title": "公告日月光投控115年第三季法人說明會",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.282872+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151028_134726_ed5152a199/other_full.txt"
+  },
+  "clause": "第12款",
+  "fact_date_roc": "1151029",
+  "announce_time": "134726",
+  "feed": "t187ap04_L"
+}

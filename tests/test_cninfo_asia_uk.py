@@ -23,6 +23,7 @@ from src.fetch_cninfo import (
 from src.fetch_edgar import Company, load_companies
 from src.fetch_edinet import _sec_code, require_edinet_api_key
 from src.fetch_companies_house import require_companies_house_api_key
+from src.fetch_mops import roc_to_iso, _material_body, _norm_row
 
 
 def test_companies_yaml_has_asia_uk_sources() -> None:
@@ -34,6 +35,27 @@ def test_companies_yaml_has_asia_uk_sources() -> None:
     assert any(c.ticker == "8035" for c in by_source["EDINET"])
     assert any(c.company_number == "01106260" for c in by_source["CH"])
     assert any(c.exchange == "szse" for c in by_source["CNINFO"])
+    assert any(c.ticker == "2330" for c in by_source["MOPS"])
+    assert any(c.ticker == "2454" for c in by_source["MOPS"])
+
+
+def test_mops_roc_to_iso() -> None:
+    assert roc_to_iso("1151028") == "2026-10-28"
+    assert roc_to_iso("11509") == "2026-09-01"
+
+
+def test_mops_material_body_includes_detail() -> None:
+    row = _norm_row(
+        {
+            "主旨 ": "公告取得機器設備",
+            "符合條款": "第20款",
+            "事實發生日": "1151027",
+            "說明": "晶圓代工產能擴充，購置設備。",
+        }
+    )
+    body = _material_body(row)
+    assert "主旨：公告取得機器設備" in body
+    assert "晶圓代工產能擴充" in body
 
 
 def test_edinet_sec_code_padding() -> None:
