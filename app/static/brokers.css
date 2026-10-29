@@ -1,0 +1,269 @@
+/* Broker market review — reuses feed design tokens from styles.css */
+
+.broker-app .lede {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--muted);
+}
+
+.broker-nav {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 14px;
+}
+.broker-nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.broker-nav a:hover {
+  text-decoration: underline;
+}
+.broker-nav [aria-current="page"] {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.broker-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: end;
+  padding: 14px 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+}
+.broker-controls label {
+  display: grid;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.broker-controls input[type="number"] {
+  width: 7rem;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-mono);
+  font-size: 14px;
+}
+.broker-controls .check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+  color: var(--ink);
+  padding-bottom: 8px;
+}
+.run-btn {
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-ink);
+  padding: 10px 16px;
+  font-family: var(--f-body);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.run-btn:hover {
+  filter: brightness(1.05);
+}
+
+.price-meta,
+.status {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+  font-family: var(--f-mono);
+}
+.status[data-tone="error"] {
+  color: var(--tight);
+}
+
+.leaderboard {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.broker-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--series, var(--accent));
+  padding: 12px 14px;
+  display: grid;
+  gap: 6px;
+}
+.broker-card h3 {
+  margin: 0;
+  font-family: var(--f-display);
+  font-size: 18px;
+  font-weight: 500;
+}
+.broker-card .meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.broker-card .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 12px;
+  font-family: var(--f-mono);
+  font-size: 13px;
+}
+.broker-card .stats span {
+  color: var(--muted);
+}
+
+.metric-tabs,
+.cohort-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.metric-tab,
+.cohort-tab {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  padding: 8px 12px;
+  font-family: var(--f-body);
+  font-size: 13px;
+  cursor: pointer;
+}
+.metric-tab[aria-selected="true"],
+.cohort-tab[aria-selected="true"] {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+
+.broker-card.scored {
+  border-style: dashed;
+}
+.broker-card .badge {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-right: 6px;
+}
+
+.pair-compare h2 {
+  margin: 0 0 8px;
+  font-family: var(--f-display);
+  font-size: 20px;
+  font-weight: 500;
+}
+.pair-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.pair-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--series, var(--accent));
+  padding: 12px 14px;
+  display: grid;
+  gap: 6px;
+}
+.pair-card h3 {
+  margin: 0;
+  font-family: var(--f-mono);
+  font-size: 14px;
+  font-weight: 500;
+}
+.pair-card .meta {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.pair-card .stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 12px;
+  font-family: var(--f-mono);
+  font-size: 13px;
+}
+.pair-card .stats span {
+  color: var(--muted);
+}
+
+.chart-wrap {
+  margin: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 12px 8px 8px;
+  overflow-x: auto;
+}
+#broker-chart {
+  width: 100%;
+  height: 360px;
+  display: block;
+}
+.chart-wrap figcaption {
+  margin: 4px 8px 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.chart-legend {
+  font-family: var(--f-body);
+  font-size: 12px;
+  fill: var(--ink);
+}
+.chart-axis {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  fill: var(--muted);
+}
+.chart-grid line {
+  stroke: var(--chart-grid);
+  stroke-width: 1;
+}
+.chart-zero {
+  stroke: var(--chart-baseline);
+  stroke-dasharray: 4 4;
+}
+
+.quotes h2 {
+  margin: 0 0 8px;
+  font-family: var(--f-display);
+  font-size: 20px;
+  font-weight: 500;
+}
+.quote-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+#quote-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+#quote-table th,
+#quote-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+#quote-table th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  font-weight: 600;
+}
+#quote-table a {
+  color: var(--accent);
+}

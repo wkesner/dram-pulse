@@ -102,6 +102,53 @@ python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
+### Broker market simulation
+
+Three fictional DRAM component brokers compete for virtual P&L on the shared
+seed catalog (`data/seed_catalog.json`). They buy offers **under** market and
+sell customer demand **at or above** market, with partially overlapping
+customer books (buyers from `config/companies.yaml` plus invented EMS/ODM
+names — not three disjoint books). Starting cash is **$250k** per broker.
+
+| Broker | Personality |
+|--------|-------------|
+| Apex Component Brokers | Hungry buyer, patient seller, holds inventory |
+| Harbor Electronics Trading | Deep discounts only, quick flips at ≥ market |
+| Summit Memory Partners | Balanced volume, broadest customer affinity |
+
+Each baseline has a **scored twin** (same strategy + $250k) with fast access to
+a simple 0–100 **memory timing score** (shortage ≥60 / glut ≤40; inspired by
+rubric S*/D* sides). Twins observe the latent score with **lag=1 day** by
+default and nudge buy/sell thresholds; baselines are unscored. Market mid
+drift is weakly biased by the true score so earlier information can matter.
+See `dram_signals/broker_sim/memory_score.py`.
+
+**Prices:** prefer the free MemoryIndex public board
+(`GET https://memoryindex.io/api/public/v1/prices`, no key for a 10-contract
+slice; optional `MEMORYINDEX_KEY`). Rows often cite DRAMeXchange / TrendForce
+or Silicon Analysts. Free-tier license is **internal use only**. On network
+failure, last-good cache at `data/broker_sim/memoryindex_cache.json`, then the
+illustrative technology × density × grade model. Not used: DRAMeXchange HTML
+scrape (ToS), Ornn/DigiKey spot (paid keys).
+
+```bash
+python3 -m scripts.simulate_brokers --days 30 --seed 42          # baselines + scored twins
+python3 -m scripts.simulate_brokers --baseline-only --no-live
+python3 -m scripts.simulate_brokers --score-lag 1 --json
+pytest tests/test_broker_sim.py tests/test_broker_live_prices.py tests/test_broker_scored_twins.py
+```
+
+**GUI / graphs** (equity, P&L, cash, inventory; baseline vs scored). Port **8010**
+avoids colliding with the feed server on 8000:
+
+```bash
+uvicorn app.server:app --host 0.0.0.0 --port 8010
+# open http://127.0.0.1:8010/brokers.html
+# API: GET /api/broker-sim?days=30&seed=42&live=true&include_scored=true&score_lag=1
+```
+
+Details: `dram_signals/broker_sim/` (`live_prices.py`, `memory_score.py`).
+
 ## Multi-org demo (Clerk)
 
 Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
@@ -131,6 +178,7 @@ python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
 
 Isolation tests: `pytest tests/test_clerk_isolation.py`.
+
 
 ## Milestone 5 — OpenDART + Samsung IR
 
@@ -425,10 +473,12 @@ dram_signals/
   collectors/icims.py           # iCIMS HTML + JSON-LD
   collectors/micron_obsolete.py # Micron obsolete part catalogs → catalog/PCN
   catalog/                      # families, variants, grades, PCN linkage
+  broker_sim/                   # three overlapping DRAM brokers (P&L sim)
   __main__.py                   # once | schedule | status | catalog
 data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
 data/seed_catalog.json          # example families with grade twins
 scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
+scripts/simulate_brokers.py     # CLI for broker market simulation
 docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
 data/partnum_rules.yaml         # Step 2 PN decode rules (sourced)
 data/part_seed.txt              # Optional customer MPN list for Step 3
