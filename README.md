@@ -142,12 +142,15 @@ pytest tests/test_broker_sim.py tests/test_broker_live_prices.py tests/test_brok
 avoids colliding with the feed server on 8000:
 
 ```bash
-uvicorn app.server:app --host 0.0.0.0 --port 8010
+# Local GUI (single mode): explicitly enable the offline demo gate
+BROKER_SIM_OPEN=1 uvicorn app.server:app --host 0.0.0.0 --port 8010
 # open http://127.0.0.1:8010/brokers.html
-# API: GET /api/broker-sim?days=30&seed=42&live=true&include_scored=true&score_lag=1
+# API (token gate): X-Broker-Sim-Token + GET /api/broker-sim?days=30&seed=42&live=false
+# Clerk mode: Authorization: Bearer <session JWT> (BROKER_SIM_OPEN does not bypass)
 ```
 
-Details: `dram_signals/broker_sim/` (`live_prices.py`, `memory_score.py`).
+Details: `dram_signals/broker_sim/` (`live_prices.py`, `memory_score.py`). Max `days=90`;
+open single-tenant demo forces offline prices and caps at 30 days.
 
 ## Multi-org demo (Clerk)
 
