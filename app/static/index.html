@@ -196,33 +196,62 @@
                 </button>
                 <button class="ms-picked" type="button" id="picked-family" hidden></button>
                 <span class="ms-hint"
-                  >Click a product family to filter every card.</span
+                  >Click a count to review those signals in the Feed. Click a
+                  family bar to filter the map.</span
                 >
               </div>
 
               <section class="ms-tiles" id="headline">
-                <div class="ms-tile">
+                <button
+                  type="button"
+                  class="ms-tile ms-tile-link"
+                  id="tile-signals"
+                  data-feed-open="signals"
+                  title="Open these signals in the Feed"
+                >
                   <div class="ms-tile-label">Signals</div>
                   <div class="ms-tile-value" id="ms-v-signals">—</div>
                   <div class="ms-tile-sub" id="ms-scope">All families</div>
-                </div>
-                <div class="ms-tile">
+                  <div class="ms-tile-cta">Open in Feed →</div>
+                </button>
+                <button
+                  type="button"
+                  class="ms-tile ms-tile-link"
+                  id="tile-tightening"
+                  data-feed-open="tightening"
+                  title="Open tightening signals in the Feed"
+                >
                   <div class="ms-tile-label">Point to tightening supply</div>
                   <div class="ms-tile-value" id="ms-v-tightening">—</div>
                   <div class="ms-tile-sub">
                     <span id="ms-v-tight-pct">—</span>% of signals
                   </div>
-                </div>
-                <div class="ms-tile">
+                  <div class="ms-tile-cta">Open in Feed →</div>
+                </button>
+                <button
+                  type="button"
+                  class="ms-tile ms-tile-link"
+                  id="tile-easing"
+                  data-feed-open="easing"
+                  title="Open easing signals in the Feed"
+                >
                   <div class="ms-tile-label">Point to easing (loosening)</div>
                   <div class="ms-tile-value" id="ms-v-easing">—</div>
                   <div class="ms-tile-sub">Oversupply, falling prices</div>
-                </div>
-                <div class="ms-tile">
+                  <div class="ms-tile-cta">Open in Feed →</div>
+                </button>
+                <button
+                  type="button"
+                  class="ms-tile ms-tile-link"
+                  id="tile-companies"
+                  data-feed-open="signals"
+                  title="Open these signals in the Feed"
+                >
                   <div class="ms-tile-label">Companies saying it</div>
                   <div class="ms-tile-value" id="ms-v-companies">—</div>
                   <div class="ms-tile-sub">Suppliers and buyers</div>
-                </div>
+                  <div class="ms-tile-cta">Open in Feed →</div>
+                </button>
               </section>
 
               <div class="ms-grid">
