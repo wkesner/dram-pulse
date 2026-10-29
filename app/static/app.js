@@ -225,6 +225,15 @@
     HDD: "HDD",
     SSD: "SSD",
   };
+  // Raw taxonomy categories → UI filter groups (Memory folds DRAM/NAND/Other).
+  const CATEGORY_GROUPS = [
+    { id: "Memory", cats: ["DRAM", "NAND", "Other"] },
+    { id: "Storage", cats: ["Storage"] },
+    { id: "Compute", cats: ["Compute"] },
+    { id: "Analog", cats: ["Analog"] },
+    { id: "Interconnect", cats: ["Interconnect"] },
+    { id: "Passives", cats: ["Passives"] },
+  ];
   const CATEGORY_ORDER = {
     DRAM: 0,
     NAND: 1,
@@ -235,6 +244,9 @@
     Interconnect: 6,
     Passives: 7,
   };
+  const RAW_TO_GROUP = Object.fromEntries(
+    CATEGORY_GROUPS.flatMap((g) => g.cats.map((c) => [c, g.id]))
+  );
 
   function optionLabel(field, value) {
     if (field === "supply_direction") return directionLabel(value);
@@ -249,6 +261,10 @@
     return String(value);
   }
 
+  function categoryGroupFor(raw) {
+    return RAW_TO_GROUP[raw] || raw || "";
+  }
+
   function filterValues(field) {
     if (field === "tier") {
       const fromRoster = new Set(
@@ -260,6 +276,12 @@
       return ["1", "2", "3"].filter(
         (t) => fromRoster.has(t) || fromSignals.has(t) || t === "1"
       );
+    }
+    if (field === "product_category") {
+      const present = new Set(
+        SIGNALS.map((s) => categoryGroupFor(s.product_category)).filter(Boolean)
+      );
+      return CATEGORY_GROUPS.map((g) => g.id).filter((id) => present.has(id));
     }
     const present = [
       ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
@@ -298,8 +320,32 @@
       const prev = sel.value;
       sel.replaceChildren();
       sel.append(new Option(all, ""));
-      for (const v of filterValues(field)) {
-        sel.append(new Option(optionLabel(field, v), v));
+      if (field === "product_family") {
+        // Group families under Memory / Compute / Analog / … optgroups.
+        const byGroup = new Map();
+        for (const s of SIGNALS) {
+          const fam = s.product_family;
+          if (!fam) continue;
+          const g = categoryGroupFor(s.product_category) || "Other";
+          if (!byGroup.has(g)) byGroup.set(g, new Set());
+          byGroup.get(g).add(fam);
+        }
+        for (const group of CATEGORY_GROUPS) {
+          const fams = [...(byGroup.get(group.id) || [])].sort((a, b) =>
+            optionLabel(field, a).localeCompare(optionLabel(field, b))
+          );
+          if (!fams.length) continue;
+          const og = document.createElement("optgroup");
+          og.label = group.id;
+          for (const fam of fams) {
+            og.append(new Option(optionLabel(field, fam), fam));
+          }
+          sel.append(og);
+        }
+      } else {
+        for (const v of filterValues(field)) {
+          sel.append(new Option(optionLabel(field, v), v));
+        }
       }
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
@@ -347,6 +393,9 @@
         const sel = $("#f-" + id);
         if (!sel?.value) return true;
         if (field === "tier") return String(s.tier || "1") === sel.value;
+        if (field === "product_category") {
+          return categoryGroupFor(s.product_category) === sel.value;
+        }
         return s[field] === sel.value;
       })
     );
