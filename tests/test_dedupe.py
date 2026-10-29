@@ -19,12 +19,14 @@ from src.dedupe import (
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE = REPO_ROOT / "fixtures" / "signals_v010.csv"
 
-# Expected from DEDUPE.md / dedupe_reference.py on the 0.1.0 fixture.
+# Expected on the 0.1.0 fixture after cross-family exact + nested-window merge
+# (same claim tagged DRAM + NAND + Memory_general, or a short span contained in
+# a longer cross-family span → one signal, multiple sightings).
 EXPECT_INPUT = 188
 EXPECT_SIGHTINGS = 124
-EXPECT_SIGNALS = 69
-EXPECT_EXACT = 39
-EXPECT_NEAR = 16
+EXPECT_SIGNALS = 57
+EXPECT_EXACT = 55
+EXPECT_NEAR = 12
 
 MICRON_RESTATE = ["1f0beca2cc6f", "6ddf3af33877", "0e6411d58623", "db2a072beb62"]
 QUALCOMM_PAIR = ("8732382a3a08", "11282417d705")
@@ -246,3 +248,129 @@ def test_cross_source_keeps_direction_apart():
     signals, sightings = dedupe([dart, edgar])
     assert len(signals) == 2
     assert len(sightings) == 2
+
+
+def test_cross_family_exact_merges_same_span():
+    """Same Silicon Labs shortage paragraph tagged under three families → one card."""
+    excerpt = (
+        "Our business, financial condition, and results of operations could be "
+        "materially and adversely affected by global or industry-specific shortages "
+        "of memory components."
+    )
+    base = {
+        "company": "Silicon Labs",
+        "ticker_or_code": "SLAB",
+        "role": "buyer",
+        "source": "EDGAR",
+        "language": "en",
+        "form": "10-K",
+        "filing_date": "2026-02-10",
+        "filing_id": "slab-1",
+        "section": "risk_factors",
+        "supply_direction": "tightening",
+        "sentiment": "negative",
+        "direction_conflict": "false",
+        "excerpt": excerpt,
+        "excerpt_en": "",
+        "char_start": "22374",
+        "char_end": "22983",
+        "raw_path": "data/raw/SLAB/a/risk.txt",
+        "source_url": "https://example.com/slab",
+        "lookback_months": "12",
+        "window_start": "2025-01-01",
+        "window_end": "2026-01-01",
+        "extractor_version": "0.3.1",
+        "extracted_at": "2026-10-28T00:00:00+00:00",
+        "topic": "pricing",
+        "period_end": "2026-01-03",
+    }
+    rows = []
+    for fam, cat, term, oid in [
+        ("Memory_general", "Other", "memory components", "old-mem"),
+        ("DRAM_general", "DRAM", "DRAM", "old-dram"),
+        ("NAND_general", "NAND", "NAND", "old-nand"),
+    ]:
+        rows.append(
+            {
+                **base,
+                "product_family": fam,
+                "product_category": cat,
+                "matched_terms": f"product:{term}",
+                "signal_id": oid,
+            }
+        )
+    signals, sightings = dedupe(rows)
+    assert len(signals) == 1
+    assert len(sightings) == 3
+    assert {s["match"] for s in sightings} == {"first", "exact"}
+    assert sum(1 for s in sightings if s["match"] == "exact") == 2
+    # Prefer a specific family over Memory_general on the card.
+    assert signals[0]["product_family"] in {"DRAM_general", "NAND_general"}
+
+
+def test_nested_window_exact_merges_into_parent():
+    """Shorter Memory_general span contained in a longer NAND shortage claim → one card."""
+    long_excerpt = (
+        "Our business, financial condition, and results of operations could be "
+        "materially and adversely affected by global or industry-specific shortages "
+        "of memory components or other key components necessary for our customers’ "
+        "products. The memory market has in the past experienced supply imbalances, "
+        "capacity constraints, and pricing volatility, and the industry is currently "
+        "experiencing a global shortage of certain memory components as a result of "
+        "AI-driven demand."
+    )
+    nested = (
+        "The memory market has in the past experienced supply imbalances, capacity "
+        "constraints, and pricing volatility, and the industry is currently "
+        "experiencing a global shortage of certain memory components as a result of "
+        "AI-driven demand."
+    )
+    base = {
+        "company": "Silicon Labs",
+        "ticker_or_code": "SLAB",
+        "role": "buyer",
+        "source": "EDGAR",
+        "language": "en",
+        "form": "10-K",
+        "filing_date": "2026-02-10",
+        "filing_id": "slab-1",
+        "section": "risk_factors",
+        "supply_direction": "tightening",
+        "sentiment": "negative",
+        "direction_conflict": "false",
+        "excerpt_en": "",
+        "raw_path": "data/raw/SLAB/a/risk.txt",
+        "source_url": "https://example.com/slab",
+        "lookback_months": "12",
+        "window_start": "2025-01-01",
+        "window_end": "2026-01-01",
+        "extractor_version": "0.3.1",
+        "extracted_at": "2026-10-28T00:00:00+00:00",
+        "topic": "pricing",
+        "period_end": "2026-01-03",
+    }
+    parent = {
+        **base,
+        "product_family": "NAND_general",
+        "product_category": "NAND",
+        "matched_terms": "product:NAND",
+        "excerpt": long_excerpt,
+        "char_start": "22374",
+        "char_end": "22983",
+        "signal_id": "old-parent",
+    }
+    child = {
+        **base,
+        "product_family": "Memory_general",
+        "product_category": "Other",
+        "matched_terms": "product:memory components",
+        "excerpt": nested,
+        "char_start": "22750",
+        "char_end": "22983",
+        "signal_id": "old-nested",
+    }
+    signals, sightings = dedupe([parent, child])
+    assert len(signals) == 1
+    assert len(sightings) == 2
+    assert {s["match"] for s in sightings} == {"first", "exact"}
+    assert signals[0]["product_family"] == "NAND_general"

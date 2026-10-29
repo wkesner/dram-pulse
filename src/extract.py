@@ -24,6 +24,7 @@ from src.dedupe import (
     build_signals_from_sightings,
     dedupe,
     normalize as normalize_excerpt,
+    window_keep_score,
     write_csv as write_dedupe_csv,
 )
 from src.fetch_edgar import (
@@ -449,28 +450,36 @@ def extract_from_section(
                 best[key] = (width, row)
 
     candidates = [row for _width, row in best.values()]
-    # Collapse heavily overlapping same-family windows (sliding 1–3 sentence starts).
-    candidates.sort(key=lambda r: (r["product_family"], int(r["char_start"]), int(r["char_end"])))
+    # Collapse heavily overlapping windows across families too — the same span
+    # tagged DRAM + NAND + Memory_general must not become three Feed cards.
+    candidates.sort(
+        key=lambda r: (
+            int(r["char_start"]),
+            int(r["char_end"]),
+            r["product_family"],
+        )
+    )
     kept: list[dict[str, Any]] = []
     for row in candidates:
         start, end = int(row["char_start"]), int(row["char_end"])
-        family = row["product_family"]
+        direction = row.get("supply_direction") or ""
         overlap_idx = None
         for i, prev in enumerate(kept):
-            if prev["product_family"] != family:
+            if (prev.get("supply_direction") or "") != direction:
                 continue
             ps, pe = int(prev["char_start"]), int(prev["char_end"])
             overlap = max(0, min(end, pe) - max(start, ps))
             span = max(end - start, pe - ps, 1)
-            if overlap / span >= 0.55:
+            shorter = max(min(end - start, pe - ps), 1)
+            # Heavy overlap OR almost-contained nested window of the same claim.
+            if overlap / span >= 0.55 or overlap / shorter >= 0.85:
                 overlap_idx = i
                 break
         if overlap_idx is None:
             kept.append(row)
             continue
-        # Prefer the longer excerpt (more context) when windows overlap.
         prev = kept[overlap_idx]
-        if (end - start) > (int(prev["char_end"]) - int(prev["char_start"])):
+        if window_keep_score(row) > window_keep_score(prev):
             kept[overlap_idx] = row
 
     for row in kept:
@@ -1006,6 +1015,27 @@ def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
     return out
 
 
+def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
+    """Map normalized Korean excerpt → prior excerpt_en (Argos is non-deterministic)."""
+    out: dict[str, str] = {}
+    for path in csv_paths:
+        if not path or not path.is_file() or path.stat().st_size == 0:
+            continue
+        with path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                lang = (row.get("language") or "en").strip().lower()
+                if lang not in {"ko", "korean"}:
+                    continue
+                en = (row.get("excerpt_en") or "").strip()
+                ex = (row.get("excerpt") or "").strip()
+                if not en or not ex:
+                    continue
+                key = normalize_excerpt(ex)
+                if key and key not in out:
+                    out[key] = en
+    return out
+
+
 def _merge_excerpt_en(
     signals: list[dict[str, Any]], prior: dict[str, str]
 ) -> list[dict[str, Any]]:
@@ -1023,15 +1053,31 @@ def _merge_excerpt_en(
     return signals
 
 
-def _enrich_candidate_excerpt_en(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Attach excerpt_en on Korean candidates so cross-source dedupe can match."""
-    need = [
-        c
-        for c in candidates
-        if (c.get("language") or "en").lower() in {"ko", "korean"}
-        and not (c.get("excerpt_en") or "").strip()
-        and (c.get("excerpt") or "").strip()
-    ]
+def _enrich_candidate_excerpt_en(
+    candidates: list[dict[str, Any]],
+    *,
+    prior_by_excerpt: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    """Attach excerpt_en on Korean candidates so cross-source dedupe can match.
+
+    Prefer a prior translation for the same Korean excerpt so rebuilds stay
+    deterministic (Argos output drifts enough to change near-merge IDs).
+    """
+    prior_by_excerpt = prior_by_excerpt or {}
+    need: list[dict[str, Any]] = []
+    for c in candidates:
+        if (c.get("language") or "en").lower() not in {"ko", "korean"}:
+            continue
+        if (c.get("excerpt_en") or "").strip():
+            continue
+        ex = (c.get("excerpt") or "").strip()
+        if not ex:
+            continue
+        cached = prior_by_excerpt.get(normalize_excerpt(ex), "")
+        if cached:
+            c["excerpt_en"] = cached
+            continue
+        need.append(c)
     if not need:
         return candidates
     try:
@@ -1042,9 +1088,17 @@ def _enrich_candidate_excerpt_en(candidates: list[dict[str, Any]]) -> list[dict[
         _ensure_argos_ko_en(install=True)
     except SystemExit:
         return candidates
+    # Deduplicate Argos calls by normalized excerpt within this batch.
+    batch: dict[str, str] = {}
     for c in need:
+        key = normalize_excerpt(c.get("excerpt") or "")
+        if key in batch:
+            c["excerpt_en"] = batch[key]
+            continue
         try:
-            c["excerpt_en"] = translate_text(c.get("excerpt") or "", source="ko", target="en")
+            en = translate_text(c.get("excerpt") or "", source="ko", target="en")
+            batch[key] = en
+            c["excerpt_en"] = en
         except Exception as exc:  # noqa: BLE001
             print(f"WARN: excerpt_en enrich failed: {exc}", file=sys.stderr)
     return candidates
@@ -1060,8 +1114,11 @@ def finalize_candidates(
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
     prior_en = _prior_excerpt_en_by_id(signals_path)
+    prior_by_excerpt = _prior_excerpt_en_by_excerpt(signals_path, sightings_path)
     # Cross-source DART↔EDGAR near-match compares excerpt_en to English excerpts.
-    candidates = _enrich_candidate_excerpt_en(list(candidates))
+    candidates = _enrich_candidate_excerpt_en(
+        list(candidates), prior_by_excerpt=prior_by_excerpt
+    )
     signals, sightings = dedupe(candidates, prior_year_norms=prior_year_norms)
 
     if rebuild_sightings:
