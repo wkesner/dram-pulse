@@ -198,3 +198,18 @@ def test_compute_notes_join_missing_labels():
     )
     assert notes["missing"] == "B, C, and D"
     assert notes["missing_companies"] == ["B", "C", "D"]
+
+
+def test_broker_sim_api_offline(client: TestClient):
+    resp = client.get(
+        "/api/broker-sim",
+        params={"days": 3, "seed": 9, "live": "false", "starting_cash": 250000},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["days"] == 3
+    assert body["starting_cash"] == 250000
+    assert len(body["brokers"]) == 3
+    assert len(body["history"]) == 3
+    assert body["prices"]["source"] == "illustrative"
+    assert "equity" in body["history"][0]["brokers"]["apex"]

@@ -26,6 +26,11 @@ from typing import Optional
 
 from dram_signals.broker_sim.catalog import Product, load_products_from_seed, product_index
 from dram_signals.broker_sim.customers import CustomerBook, build_customer_universe
+from dram_signals.broker_sim.live_prices import (
+    DEFAULT_CACHE_PATH,
+    PriceBundle,
+    resolve_market_prices,
+)
 from dram_signals.broker_sim.strategies import BROKER_SPECS, BrokerSpec
 
 
@@ -98,6 +103,8 @@ class SimulationResult:
     brokers: dict[str, BrokerState]
     final_market: dict[str, float]
     day_equity: list[dict[str, float]] = field(default_factory=list)
+    history: list[dict[str, object]] = field(default_factory=list)
+    price_bundle: Optional[PriceBundle] = None
 
     def summary(self) -> dict[str, object]:
         overlap = self.book.overlap_stats()
@@ -107,6 +114,7 @@ class SimulationResult:
                 {
                     "broker_id": bid,
                     "name": state.spec.name,
+                    "personality": state.spec.personality,
                     "cash": round(state.cash, 2),
                     "inventory_units": state.units_on_hand(),
                     "inventory_cost": round(state.inventory_cost(), 2),
@@ -123,6 +131,7 @@ class SimulationResult:
                 }
             )
         broker_rows.sort(key=lambda r: r["equity"], reverse=True)
+        prices = self.price_bundle.as_dict() if self.price_bundle else None
         return {
             "seed": self.seed,
             "days": self.days,
@@ -131,6 +140,9 @@ class SimulationResult:
             "overlap": overlap,
             "brokers": broker_rows,
             "winner": broker_rows[0]["name"] if broker_rows else None,
+            "prices": prices,
+            "history": self.history,
+            "day_equity": self.day_equity,
         }
 
 
@@ -305,8 +317,16 @@ def run_simulation(
     offers_per_day: int = 6,
     bids_per_day: int = 8,
     broker_specs: tuple[BrokerSpec, ...] = BROKER_SPECS,
+    prefer_live_prices: bool = True,
+    price_bundle: Optional[PriceBundle] = None,
+    price_cache_path: Optional[Path] = None,
 ) -> SimulationResult:
-    """Run N simulation days for the configured brokers."""
+    """Run N simulation days for the configured brokers.
+
+    Starting cash defaults to **$250,000** per broker (confirmed).
+    Market mids prefer MemoryIndex live/public board when ``prefer_live_prices``
+    is true; pass an explicit ``price_bundle`` to skip the network (tests).
+    """
     if days < 1:
         raise ValueError("days must be >= 1")
     rng = random.Random(seed)
@@ -321,13 +341,24 @@ def run_simulation(
         affinities=affinities,
     )
 
-    market = {p.sku: p.base_market_price for p in products}
+    if price_bundle is None:
+        price_bundle = resolve_market_prices(
+            products,
+            prefer_live=prefer_live_prices,
+            cache_path=price_cache_path or DEFAULT_CACHE_PATH,
+        )
+
+    market = dict(price_bundle.prices)
+    # Ensure every SKU has a mid.
+    for p in products:
+        market.setdefault(p.sku, p.base_market_price)
     bases = dict(market)
     brokers = {
         s.broker_id: BrokerState(spec=s, cash=float(starting_cash))
         for s in broker_specs
     }
     day_equity: list[dict[str, float]] = []
+    history: list[dict[str, object]] = []
 
     for day in range(days):
         _drift_markets(market, bases, rng)
@@ -361,15 +392,22 @@ def run_simulation(
                 else:
                     state.sell_rejects += 1
 
-        day_equity.append(
-            {
-                "day": float(day + 1),
-                **{
-                    bid: round(st.equity(market), 2)
-                    for bid, st in brokers.items()
-                },
+        day_num = day + 1
+        equity_row: dict[str, float] = {"day": float(day_num)}
+        hist_brokers: dict[str, dict[str, float]] = {}
+        for bid, st in brokers.items():
+            eq = round(st.equity(market), 2)
+            equity_row[bid] = eq
+            hist_brokers[bid] = {
+                "equity": eq,
+                "cash": round(st.cash, 2),
+                "inventory_units": float(st.units_on_hand()),
+                "inventory_cost": round(st.inventory_cost(), 2),
+                "realized_pnl": round(st.realized_pnl, 2),
+                "pnl_vs_start": round(eq - starting_cash, 2),
             }
-        )
+        day_equity.append(equity_row)
+        history.append({"day": day_num, "brokers": hist_brokers})
 
     return SimulationResult(
         seed=seed,
@@ -380,6 +418,8 @@ def run_simulation(
         brokers=brokers,
         final_market=dict(market),
         day_equity=day_equity,
+        history=history,
+        price_bundle=price_bundle,
     )
 
 
@@ -387,15 +427,31 @@ def format_summary(result: SimulationResult) -> str:
     """Human-readable multi-line summary for CLI output."""
     s = result.summary()
     overlap = s["overlap"]
+    prices = s.get("prices") or {}
     lines = [
         f"Broker market simulation — {s['days']} days, seed={s['seed']}, "
         f"{s['skus']} SKUs, start cash=${s['starting_cash']:,.0f} each",
-        "",
-        "Customer overlap:",
-        f"  universe={overlap['customers']}  exclusive={overlap['exclusive']}  "
-        f"on_2={overlap['on_two_brokers']}  on_3={overlap['on_three_brokers']}  "
-        f"overlap_rate={overlap['overlap_rate']:.1%}",
+        f"Prices: {prices.get('source', 'unknown')}"
+        + (f" — {prices.get('detail')}" if prices.get("detail") else ""),
     ]
+    if prices.get("attribution"):
+        lines.append(f"  attribution: {prices['attribution']}")
+    if prices.get("license_note"):
+        lines.append(f"  license: {prices['license_note']}")
+    if prices.get("matched_skus") is not None:
+        lines.append(
+            f"  matched SKUs: {prices.get('matched_skus')}/"
+            f"{prices.get('matched_skus', 0) + prices.get('unmatched_skus', 0)}"
+        )
+    lines.extend(
+        [
+            "",
+            "Customer overlap:",
+            f"  universe={overlap['customers']}  exclusive={overlap['exclusive']}  "
+            f"on_2={overlap['on_two_brokers']}  on_3={overlap['on_three_brokers']}  "
+            f"overlap_rate={overlap['overlap_rate']:.1%}",
+        ]
+    )
     pairwise = overlap.get("pairwise_shared") or {}
     if pairwise:
         bits = ", ".join(f"{k}={v}" for k, v in sorted(pairwise.items()))
@@ -416,3 +472,4 @@ def format_summary(result: SimulationResult) -> str:
     lines.append("")
     lines.append(f"Leader (mark-to-market equity): {s['winner']}")
     return "\n".join(lines)
+

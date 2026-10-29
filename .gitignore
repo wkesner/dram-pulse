@@ -10,6 +10,7 @@ data/*.db
 data/*.db-*
 data/*.csv.lock
 data/part_master_cache/
+data/broker_sim/memoryindex_cache.json
 data/export_signals.csv
 # Keep Memory Signals text caches in git for verify; skip regenerable binaries.
 data/raw/**/document.pdf

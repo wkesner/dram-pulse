@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Broker market — Memory Signals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/brokers.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="/brokers.js" defer></script>
+  </head>
+  <body>
+    <div class="app broker-app">
+      <header class="top">
+        <h1>Broker market</h1>
+        <nav class="broker-nav" aria-label="App">
+          <a href="/">Signals feed</a>
+          <span aria-current="page">Brokers</span>
+        </nav>
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          title="Toggle light / dark theme"
+        >
+          Theme
+        </button>
+      </header>
+
+      <p class="lede">
+        Three fictional DRAM brokers buy under market and sell at or above
+        market on the shared seed catalog. Charts show equity, cash, inventory,
+        and realized P&amp;L over the run. Starting cash is $250k each.
+      </p>
+
+      <form class="broker-controls" id="sim-form">
+        <label
+          >Days
+          <input id="f-days" type="number" min="1" max="365" value="30" />
+        </label>
+        <label
+          >Seed
+          <input id="f-seed" type="number" value="42" />
+        </label>
+        <label class="check">
+          <input id="f-live" type="checkbox" checked />
+          Live MemoryIndex prices
+        </label>
+        <button type="submit" class="run-btn">Run simulation</button>
+      </form>
+
+      <p class="price-meta" id="price-meta" hidden></p>
+      <p class="status" id="status" role="status">Loading…</p>
+
+      <section class="leaderboard" id="leaderboard" aria-live="polite"></section>
+
+      <div class="metric-tabs" role="tablist" aria-label="Chart metric">
+        <button type="button" class="metric-tab" data-metric="equity" aria-selected="true">
+          Equity
+        </button>
+        <button type="button" class="metric-tab" data-metric="pnl_vs_start" aria-selected="false">
+          P&amp;L vs start
+        </button>
+        <button type="button" class="metric-tab" data-metric="cash" aria-selected="false">
+          Cash
+        </button>
+        <button type="button" class="metric-tab" data-metric="inventory_units" aria-selected="false">
+          Inventory
+        </button>
+        <button type="button" class="metric-tab" data-metric="realized_pnl" aria-selected="false">
+          Realized P&amp;L
+        </button>
+      </div>
+
+      <figure class="chart-wrap">
+        <svg id="broker-chart" role="img" aria-label="Broker performance over time"></svg>
+        <figcaption id="chart-caption">Mark-to-market equity by day</figcaption>
+      </figure>
+
+      <section class="quotes" id="quotes" hidden>
+        <h2>Spot context</h2>
+        <div class="quote-table-wrap">
+          <table id="quote-table">
+            <thead>
+              <tr>
+                <th>Contract</th>
+                <th>Spot</th>
+                <th>As of</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

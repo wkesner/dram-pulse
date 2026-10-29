@@ -8,9 +8,14 @@ market and sell at or above market.
 Usage::
 
     python3 -m scripts.simulate_brokers
-    python3 -m scripts.simulate_brokers --days 60 --seed 7
-    python3 -m scripts.simulate_brokers --json
+    python3 -m scripts.simulate_brokers --days 60 --seed 7 --live
+    python3 -m scripts.simulate_brokers --no-live --json
     python3 -m dram_signals.broker_sim --days 30 --seed 42
+
+GUI::
+
+    uvicorn app.server:app --reload --port 8000
+    # http://127.0.0.1:8000/brokers.html
 """
 
 from __future__ import annotations

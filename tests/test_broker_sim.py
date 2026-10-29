@@ -25,7 +25,7 @@ from dram_signals.broker_sim.simulation import (
     format_summary,
     run_simulation,
 )
-from dram_signals.broker_sim.strategies import BROKER_SPECS, BrokerSpec
+from dram_signals.broker_sim.strategies import BROKER_SPECS
 from dram_signals.broker_sim.simulation import BrokerState
 
 REPO = Path(__file__).resolve().parents[1]
@@ -184,9 +184,15 @@ def test_harbor_rejects_shallow_discount() -> None:
 
 
 def test_simulation_reproducible_and_cash_nonnegative() -> None:
-    a = run_simulation(days=15, seed=42, starting_cash=100_000)
-    b = run_simulation(days=15, seed=42, starting_cash=100_000)
+    a = run_simulation(
+        days=15, seed=42, starting_cash=100_000, prefer_live_prices=False
+    )
+    b = run_simulation(
+        days=15, seed=42, starting_cash=100_000, prefer_live_prices=False
+    )
     assert format_summary(a) == format_summary(b)
+    assert len(a.history) == 15
+    assert "equity" in a.history[0]["brokers"]["apex"]
     for state in a.brokers.values():
         assert state.cash >= 0
         assert state.units_on_hand() >= 0
@@ -197,7 +203,7 @@ def test_simulation_reproducible_and_cash_nonnegative() -> None:
 
 
 def test_simulation_has_three_named_brokers() -> None:
-    result = run_simulation(days=5, seed=1)
+    result = run_simulation(days=5, seed=1, prefer_live_prices=False)
     assert set(result.brokers) == {"apex", "harbor", "summit"}
     names = {s.spec.name for s in result.brokers.values()}
     assert "Apex Component Brokers" in names
@@ -206,6 +212,12 @@ def test_simulation_has_three_named_brokers() -> None:
     summary = result.summary()
     assert summary["winner"]
     assert summary["overlap"]["customers"] > 0
+    assert summary["prices"]["source"] == "illustrative"
+
+
+def test_default_starting_cash_is_250k() -> None:
+    result = run_simulation(days=2, seed=3, prefer_live_prices=False)
+    assert result.starting_cash == 250_000.0
 
 
 def test_products_from_minimal_seed() -> None:
@@ -235,7 +247,8 @@ def test_products_from_minimal_seed() -> None:
 def test_cli_main_runs(capsys) -> None:
     from dram_signals.broker_sim.cli import main
 
-    assert main(["--days", "3", "--seed", "0"]) == 0
+    assert main(["--days", "3", "--seed", "0", "--no-live"]) == 0
     out = capsys.readouterr().out
     assert "Apex Component Brokers" in out
     assert "Customer overlap" in out
+    assert "Prices:" in out

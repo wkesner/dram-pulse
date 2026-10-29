@@ -22,7 +22,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--starting-cash",
         type=float,
         default=250_000.0,
-        help="Cash per broker at day 0 (default 250000)",
+        help="Cash per broker at day 0 (default 250000; confirmed)",
     )
     p.add_argument(
         "--seed-catalog",
@@ -38,6 +38,20 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p.add_argument("--offers-per-day", type=int, default=6)
     p.add_argument("--bids-per-day", type=int, default=8)
+    prices = p.add_mutually_exclusive_group()
+    prices.add_argument(
+        "--live",
+        dest="prefer_live",
+        action="store_true",
+        default=True,
+        help="Prefer MemoryIndex live/public prices (default)",
+    )
+    prices.add_argument(
+        "--no-live",
+        dest="prefer_live",
+        action="store_false",
+        help="Force illustrative mid model (offline / reproducible baselines)",
+    )
     p.add_argument(
         "--json",
         action="store_true",
@@ -58,6 +72,7 @@ def main(argv: list[str] | None = None) -> int:
         companies_path=args.companies,
         offers_per_day=args.offers_per_day,
         bids_per_day=args.bids_per_day,
+        prefer_live_prices=args.prefer_live,
     )
     if args.json:
         print(json.dumps(result.summary(), indent=2, default=str))

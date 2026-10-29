@@ -267,6 +267,25 @@ def create_app(
         )
         return row
 
+    @app.get("/api/broker-sim")
+    def get_broker_sim(
+        days: int = Query(30, ge=1, le=365),
+        seed: int = Query(42),
+        live: bool = Query(True, description="Prefer MemoryIndex live/public prices"),
+        starting_cash: float = Query(250_000.0, gt=0),
+    ) -> dict[str, Any]:
+        """Run the three-broker DRAM market sim and return summary + history."""
+        from dram_signals.broker_sim.simulation import run_simulation
+
+        result = run_simulation(
+            days=days,
+            seed=seed,
+            starting_cash=starting_cash,
+            companies_path=companies_path,
+            prefer_live_prices=live,
+        )
+        return result.summary()
+
     if mount_static and static_dir.is_dir():
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 

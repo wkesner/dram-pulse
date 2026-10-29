@@ -8,15 +8,19 @@ profit objective: buy under market, sell at/above market.
 Run::
 
     python3 -m scripts.simulate_brokers --days 30 --seed 42
-    python3 -m dram_signals.broker_sim --days 30 --seed 42
+    python3 -m dram_signals.broker_sim --days 30 --seed 42 --live
+    # GUI (with API server):
+    uvicorn app.server:app --reload --port 8000
+    # open http://127.0.0.1:8000/brokers.html
 
-See module docstrings and README \"Broker market simulation\" for assumptions.
+Prices prefer MemoryIndex public board; see ``live_prices`` for sources/limits.
 """
 
 from __future__ import annotations
 
 from dram_signals.broker_sim.catalog import Product, load_products_from_seed
 from dram_signals.broker_sim.customers import CustomerBook, build_customer_universe
+from dram_signals.broker_sim.live_prices import PriceBundle, resolve_market_prices
 from dram_signals.broker_sim.simulation import (
     BrokerState,
     SimulationResult,
@@ -29,9 +33,11 @@ __all__ = [
     "BrokerSpec",
     "BrokerState",
     "CustomerBook",
+    "PriceBundle",
     "Product",
     "SimulationResult",
     "build_customer_universe",
     "load_products_from_seed",
+    "resolve_market_prices",
     "run_simulation",
 ]

@@ -1,15 +1,16 @@
 """Shared DRAM product catalog and illustrative market prices.
 
-Assumptions (confirm with William if these need to match a real quote feed):
-
 * SKUs come from ``data/seed_catalog.json`` (manufacturer family variants).
-* Market price is a simple USD/unit model — not a live spot index:
+* ``illustrative_market_price`` is the **offline fallback** when live/
+  cached MemoryIndex quotes are unavailable (see ``live_prices``):
   - Base by technology: DDR4 → $3.20, else $4.00 (illustrative).
   - Density scale: parse Gb from density string (8Gb → 1.0×, 16Gb → 1.8×).
   - Grade premium: consumer 1.0×, industrial 1.25×, automotive 1.55×,
     military 1.9×, unknown 1.1×.
   - NRND / obsolete lifecycle softens price by 15% / 35%.
-* Prices are shared across brokers; daily drift is applied in the simulator.
+* When live quotes resolve, the simulator uses those die mids × the same
+  grade/lifecycle multipliers. Prices are shared across brokers; daily
+  drift is applied in the simulator around the chosen bases.
 """
 
 from __future__ import annotations

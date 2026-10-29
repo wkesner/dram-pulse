@@ -84,7 +84,7 @@ Three fictional DRAM component brokers compete for virtual P&L on the shared
 seed catalog (`data/seed_catalog.json`). They buy offers **under** market and
 sell customer demand **at or above** market, with partially overlapping
 customer books (buyers from `config/companies.yaml` plus invented EMS/ODM
-names — not three disjoint books).
+names — not three disjoint books). Starting cash is **$250k** per broker.
 
 | Broker | Personality |
 |--------|-------------|
@@ -92,15 +92,30 @@ names — not three disjoint books).
 | Harbor Electronics Trading | Deep discounts only, quick flips at ≥ market |
 | Summit Memory Partners | Balanced volume, broadest customer affinity |
 
+**Prices:** prefer the free MemoryIndex public board
+(`GET https://memoryindex.io/api/public/v1/prices`, no key for a 10-contract
+slice; optional `MEMORYINDEX_KEY`). Rows often cite DRAMeXchange / TrendForce
+or Silicon Analysts. Free-tier license is **internal use only**. On network
+failure, last-good cache at `data/broker_sim/memoryindex_cache.json`, then the
+illustrative technology × density × grade model. Not used: DRAMeXchange HTML
+scrape (ToS), Ornn/DigiKey spot (paid keys).
+
 ```bash
-python3 -m scripts.simulate_brokers --days 30 --seed 42
+python3 -m scripts.simulate_brokers --days 30 --seed 42          # try live prices
+python3 -m scripts.simulate_brokers --days 30 --seed 42 --no-live
 python3 -m dram_signals.broker_sim --days 60 --seed 7 --json
-pytest tests/test_broker_sim.py
+pytest tests/test_broker_sim.py tests/test_broker_live_prices.py
 ```
 
-Market prices are an illustrative USD/unit model (technology × density × grade
-× lifecycle) with a small daily random walk — not a live spot feed. Details and
-assumptions live in `dram_signals/broker_sim/`.
+**GUI / graphs** (equity, P&L, cash, inventory over time):
+
+```bash
+uvicorn app.server:app --reload --port 8000
+# open http://127.0.0.1:8000/brokers.html
+# API: GET /api/broker-sim?days=30&seed=42&live=true
+```
+
+Details: `dram_signals/broker_sim/` (especially `live_prices.py`).
 
 ## Milestone 5 — OpenDART + Samsung IR
 
