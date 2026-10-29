@@ -1,0 +1,36 @@
+{
+  "company": "Wolfspeed",
+  "ticker": "WOLF",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000895419",
+  "form": "8-K",
+  "filing_date": "2026-03-19",
+  "accession_number": "0001193125-26-116036",
+  "primary_document": "d75349d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.03,3.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000119312526116036/d75349d8k.htm",
+  "fiscal_year_end": "0629",
+  "report_date": "2026-03-19",
+  "period_end": "2026-03-19",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:33:54.851153+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d75349dex991.htm",
+      "path": "data/raw/WOLF/000119312526116036/exhibit_99_d75349dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/895419/000119312526116036/d75349dex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/WOLF/000119312526116036/primary.html",
+    "other": "data/raw/WOLF/000119312526116036/other_full.txt"
+  }
+}

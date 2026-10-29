@@ -1,0 +1,30 @@
+{
+  "company": "AXT Inc",
+  "ticker": "AXTI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001051627",
+  "form": "8-K",
+  "filing_date": "2026-04-30",
+  "accession_number": "0001437749-26-014204",
+  "primary_document": "axti20260109_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926014204/axti20260109_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-04-30",
+  "period_end": "2026-04-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:38:11.332403+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/AXTI/000143774926014204/primary.html",
+    "other": "data/raw/AXTI/000143774926014204/other_full.txt"
+  }
+}

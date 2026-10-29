@@ -1,0 +1,3474 @@
+cgnx-20260405
+0000851205
+--12-31
+2026
+Q1
+false
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+iso4217:SGD
+iso4217:CNY
+iso4217:EUR
+iso4217:MXN
+iso4217:HUF
+iso4217:GBP
+iso4217:JPY
+iso4217:CHF
+iso4217:INR
+iso4217:KRW
+xbrli:pure
+cgnx:group
+cgnx:segment
+0000851205
+2026-01-01
+2026-04-05
+0000851205
+2026-05-03
+0000851205
+2025-01-01
+2025-03-30
+0000851205
+2026-04-05
+0000851205
+2025-12-31
+0000851205
+2024-12-31
+0000851205
+2025-03-30
+0000851205
+us-gaap:CommonStockMember
+2025-12-31
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2025-12-31
+0000851205
+us-gaap:RetainedEarningsMember
+2025-12-31
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-12-31
+0000851205
+us-gaap:CommonStockMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:RetainedEarningsMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:CommonStockMember
+2026-04-05
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2026-04-05
+0000851205
+us-gaap:RetainedEarningsMember
+2026-04-05
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-04-05
+0000851205
+us-gaap:CommonStockMember
+2024-12-31
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2024-12-31
+0000851205
+us-gaap:RetainedEarningsMember
+2024-12-31
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-12-31
+0000851205
+us-gaap:CommonStockMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:RetainedEarningsMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:CommonStockMember
+2025-03-30
+0000851205
+us-gaap:AdditionalPaidInCapitalMember
+2025-03-30
+0000851205
+us-gaap:RetainedEarningsMember
+2025-03-30
+0000851205
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-03-30
+0000851205
+us-gaap:CashMember
+2026-04-05
+0000851205
+us-gaap:MoneyMarketFundsMember
+2026-04-05
+0000851205
+us-gaap:CorporateBondSecuritiesMember
+2026-04-05
+0000851205
+us-gaap:USTreasurySecuritiesMember
+2026-04-05
+0000851205
+us-gaap:AssetBackedSecuritiesMember
+2026-04-05
+0000851205
+us-gaap:CashMember
+2025-12-31
+0000851205
+us-gaap:MoneyMarketFundsMember
+2025-12-31
+0000851205
+us-gaap:CorporateBondSecuritiesMember
+2025-12-31
+0000851205
+us-gaap:USTreasurySecuritiesMember
+2025-12-31
+0000851205
+us-gaap:AssetBackedSecuritiesMember
+2025-12-31
+0000851205
+us-gaap:PrepaidExpenseAndOtherAssetsCurrent
+2026-04-05
+0000851205
+us-gaap:PrepaidExpenseAndOtherAssetsCurrent
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:SGD
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:SGD
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:CNY
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:CNY
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:EUR
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:EUR
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:MXN
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:MXN
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:HUF
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:HUF
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:GBP
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:GBP
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:JPY
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:JPY
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:CHF
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:CHF
+2025-03-30
+0000851205
+us-gaap:NondesignatedMember
+currency:INR
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:INR
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+currency:KRW
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+currency:KRW
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+2026-04-05
+0000851205
+us-gaap:NondesignatedMember
+2025-12-31
+0000851205
+us-gaap:NondesignatedMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:CustomerContractsAndRelationshipsMember
+2026-04-05
+0000851205
+us-gaap:DevelopedTechnologyRightsMember
+2026-04-05
+0000851205
+us-gaap:TrademarksMember
+2026-04-05
+0000851205
+us-gaap:OtherIntangibleAssetsMember
+2026-04-05
+0000851205
+cgnx:CustomerContractsAndRelationshipsMember
+2025-12-31
+0000851205
+us-gaap:DevelopedTechnologyRightsMember
+2025-12-31
+0000851205
+us-gaap:TrademarksMember
+2025-12-31
+0000851205
+us-gaap:OtherIntangibleAssetsMember
+2025-12-31
+0000851205
+cgnx:DistributionRightsDevelopedTechnologyRightsCustomerContractsAndRelationshipsOtherIntangibleAssetsAndTrademarksMember
+2026-04-05
+0000851205
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+cgnx:JapanFocusedTradingBusinessMember
+2026-04-01
+0000851205
+cgnx:RepurchaseProgramMarch2022Member
+2022-03-03
+0000851205
+cgnx:RepurchaseProgramMarch2022Member
+2025-01-01
+2025-03-30
+0000851205
+cgnx:RepurchaseProgramMarch2022Member
+2026-01-01
+2026-04-05
+0000851205
+cgnx:RepurchaseProgramMarch2022Member
+2026-04-05
+0000851205
+cgnx:RepurchaseProgramFebruary2026Member
+2026-02-11
+0000851205
+us-gaap:RestrictedStockMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:RestrictedStockMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:PerformanceSharesMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:PerformanceSharesMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:PerformanceRestrictedStockUnitsMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:PerformanceRestrictedStockUnitsMember
+srt:MinimumMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:PerformanceRestrictedStockUnitsMember
+srt:MaximumMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:CostOfGoodsAndServicesSold
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:CostOfGoodsAndServicesSold
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:ResearchAndDevelopmentExpense
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:ResearchAndDevelopmentExpense
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:SellingGeneralAndAdministrativeExpense
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:SellingGeneralAndAdministrativeExpense
+2025-01-01
+2025-03-30
+0000851205
+srt:AmericasMember
+2026-01-01
+2026-04-05
+0000851205
+srt:AmericasMember
+2025-01-01
+2025-03-30
+0000851205
+srt:EuropeMember
+2026-01-01
+2026-04-05
+0000851205
+srt:EuropeMember
+2025-01-01
+2025-03-30
+0000851205
+country:CN
+2026-01-01
+2026-04-05
+0000851205
+country:CN
+2025-01-01
+2025-03-30
+0000851205
+cgnx:AsiaExcludingChinaMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:AsiaExcludingChinaMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:StandardProductsandServicesMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:StandardProductsandServicesMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:ApplicationSpecificCustomerSolutionsMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:ApplicationSpecificCustomerSolutionsMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:ForeignCountryMember
+us-gaap:RevenueCommissionersIrelandMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:ForeignCountryMember
+us-gaap:StateAdministrationOfTaxationChinaMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:ForeignCountryMember
+country:JP
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:ForeignCountryMember
+country:KP
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:DomesticCountryMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:EmployeeStockOptionMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:EmployeeStockOptionMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:RestrictedStockMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:RestrictedStockMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:PerformanceSharesMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:PerformanceSharesMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:ResearchDevelopmentAndEngineeringExpensesMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:ResearchDevelopmentAndEngineeringExpensesMember
+2025-01-01
+2025-03-30
+0000851205
+cgnx:SegmentGeneralAndEngineeringExpenseMember
+2026-01-01
+2026-04-05
+0000851205
+cgnx:SegmentGeneralAndEngineeringExpenseMember
+2025-01-01
+2025-03-30
+0000851205
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+cgnx:JapanFocusedTradingBusinessMember
+2026-04-01
+2026-04-01
+0000851205
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+cgnx:JapanFocusedTradingBusinessMember
+2026-01-01
+2026-04-05
+0000851205
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+cgnx:JapanFocusedTradingBusinessMember
+2025-12-31
+0000851205
+us-gaap:SubsequentEventMember
+2026-05-06
+2026-05-06
+0000851205
+cgnx:CognexCorporation2023StockOptionAndIncentivePlanMember
+us-gaap:SubsequentEventMember
+2026-04-29
+2026-04-29
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+ 
+FORM
+10-Q
+ 
+(Mark One)
+☒
+Quarterly Report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 for the quarterly period ended
+April 5, 2026
+ or
+☐
+Transition Report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934 for the transition period from __________ to __________
+Commission File Number
+001-34218
+
+COGNEX CORP
+ORATION
+(Exact name of registrant as specified in its charter)
+Massachusetts
+ 
+04-2713778
+(State or other jurisdiction of
+incorporation or organization)
+ 
+(I.R.S. Employer
+Identification No.)
+One Vision Drive
+
+Natick
+,
+Massachusetts
+
+01760
+(
+508
+)
+650-3000
+
+(Address, including zip code, and telephone number, including area code, of principal executive offices)
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, par value $.002 per share
+CGNX
+The NASDAQ Stock Market LLC
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.  
+ 
+Yes
+☒
+  
+ 
+No
+☐
+  
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+ 
+Yes
+☒
+  
+ 
+No
+☐
+  
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and "emerging growth company" in Rule 12b-2 of the Exchange Act (Check one):
+Large accelerated filer
+☒
+  
+Accelerated filer
+☐
+Non-accelerated filer
+☐
+  
+Smaller reporting company
+☐
+Emerging growth company
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+
+☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).    
+ 
+Yes
+☐
+  
+ 
+No
+☒
+  
+As of May 3, 2026, there were
+166,419,451
+ shares of Common Stock, $.002 par value per share, of the registrant outstanding.
+INDEX
+ 
+PART I
+FINANCIAL INFORMATION
+3
+Item 1.
+Financial Statements (interim periods unaudited)
+3
+Consolidated Statements of Operations for the
+three-month periods ended April 5, 2026 and March 30, 2025
+3
+Consolidated Statements of Comprehensive Income
+ (Loss)
+
+for the three-month periods ended
+
+April 5, 2026 and March 30, 2025
+4
+Consolidated Balance Sheets as of
+
+April 5, 2026
+and
+December 31, 2025
+5
+Consolidated Statements of Cash Flows for the
+three-month periods ended
+
+April 5, 2026 and March 30, 2025
+6
+Consolidated Statements of Shareholders’ Equity
+for the three-month periods ended
+
+April 5, 2026 and March 30, 2025
+7
+Notes to Consolidated Financial Statements
+8
+Item 2.
+Management's Discussion and Analysis of Financial Condition and Results of Operations
+22
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+27
+Item 4.
+Controls and Procedures
+27
+PART II
+OTHER INFORMATION
+28
+Item 1.
+Legal Proceedings
+28
+Item 1A.
+Risk Factors
+28
+Item 2.
+Unregistered Sales of Equity Securities and Use of Proceeds
+28
+Item 3.
+Defaults Upon Senior Securities
+28
+Item 4.
+Mine Safety Disclosures
+28
+Item 5.
+Other Information
+28
+Item 6.
+Exhibits
+29
+Signatures
+30
+2
+PART I: FINANCIAL INFORMATION
+ITEM 1: FINANCIAL STATEMENTS
+COGNEX CORPORATION
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(In thousands, except per share amounts)
+ 
+ 
+Three-months Ended
+April 5, 2026
+March 30, 2025
+ 
+(unaudited)
+Revenue
+$
+268,437
+ 
+$
+216,036
+ 
+Cost of revenue
+77,498
+ 
+71,713
+ 
+Gross profit
+190,939
+ 
+144,323
+ 
+Research, development, and engineering expenses
+37,025
+ 
+34,727
+ 
+Selling, general, and administrative expenses
+94,041
+ 
+83,504
+ 
+Operating income
+59,873
+ 
+26,092
+ 
+Foreign currency gain (loss)
+(
+1,345
+)
+(
+2,453
+)
+Investment income
+4,836
+ 
+3,990
+ 
+Other income (expense)
+(
+1,607
+)
+169
+ 
+Income before income tax expense
+61,757
+ 
+27,798
+ 
+Income tax expense
+10,053
+ 
+4,195
+ 
+Net income
+$
+51,704
+ 
+$
+23,603
+ 
+Net income per weighted-average common and common-equivalent share:
+Basic
+$
+0.31
+ 
+$
+0.14
+ 
+Diluted
+$
+0.31
+ 
+$
+0.14
+ 
+Weighted-average common and common-equivalent shares outstanding:
+Basic
+166,514
+ 
+169,265
+ 
+Diluted
+168,386
+ 
+170,391
+ 
+Cash dividends per common share
+$
+0.085
+ 
+$
+0.080
+ 
+ 
+The accompanying notes are an integral part of these consolidated financial statements.
+3
+COGNEX CORPORATION
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(In thousands)
+ 
+ 
+Three-months Ended
+April 5, 2026
+March 30, 2025
+ 
+(unaudited)
+Net income
+$
+51,704
+ 
+$
+23,603
+ 
+Other comprehensive income (loss), net of tax
+Available-for-sale investments:
+Net unrealized gain (loss), net of tax of $(
+726
+) and $
+875
+ in the three-month periods, respectively
+(
+2,227
+)
+2,711
+ 
+Reclassification of net realized (gain) loss on the sale of available-for-sale investments into current operations
+(
+28
+)
+(
+27
+)
+Net change related to available-for-sale investments
+(
+2,255
+)
+2,684
+ 
+Net change related to foreign currency translation adjustments
+(
+4,983
+)
+11,447
+ 
+Other comprehensive income (loss), net of tax
+(
+7,238
+)
+14,131
+ 
+Total comprehensive income (loss)
+$
+44,466
+ 
+$
+37,734
+ 
+The accompanying notes are an integral part of these consolidated financial statements.
+4
+COGNEX CORPORATION
+CONSOLIDATED BALANCE SHEETS
+(In thousands, except per share amounts)
+ 
+April 5, 2026
+December 31, 2025
+ 
+(unaudited)
+ 
+ASSETS
+Current assets:
+Cash and cash equivalents
+$
+237,343
+ 
+$
+262,925
+ 
+Current investments
+59,413
+ 
+74,037
+ 
+Accounts receivable, net of allowance for credit losses of $
+781
+ and $
+728
+ in 2026 and 2025, respectively
+170,721
+ 
+146,713
+ 
+Unbilled revenue
+16,401
+ 
+16,980
+ 
+Inventories
+135,549
+ 
+137,889
+ 
+Prepaid expenses and other current assets
+70,922
+ 
+58,702
+ 
+Total current assets
+690,349
+ 
+697,246
+ 
+Non-current investments
+325,186
+ 
+305,339
+ 
+Property, plant, and equipment, net
+84,291
+ 
+86,015
+ 
+Operating lease assets
+69,709
+ 
+72,310
+ 
+Goodwill
+382,818
+ 
+386,279
+ 
+Intangible assets, net
+67,140
+ 
+81,100
+ 
+Deferred income taxes
+381,100
+ 
+383,272
+ 
+Other assets
+5,025
+ 
+4,994
+ 
+Total assets
+2,005,618
+ 
+2,016,555
+ 
+LIABILITIES AND SHAREHOLDERS’ EQUITY
+Current liabilities:
+Accounts payable
+$
+59,551
+ 
+$
+50,203
+ 
+Accrued expenses
+77,399
+ 
+91,397
+ 
+Accrued income taxes
+6,172
+ 
+9,141
+ 
+Deferred revenue and customer deposits
+34,053
+ 
+21,094
+ 
+Operating lease liabilities
+12,310
+ 
+11,716
+ 
+Total current liabilities
+189,485
+ 
+183,551
+ 
+Non-current operating lease liabilities
+61,707
+ 
+64,870
+ 
+Deferred income taxes
+252,230
+ 
+250,512
+ 
+Reserve for income taxes
+21,336
+ 
+24,269
+ 
+Other liabilities
+1,891
+ 
+1,452
+ 
+Total liabilities
+526,649
+ 
+524,654
+ 
+Commitments and contingencies (Note 7)
+Shareholders’ equity:
+Preferred stock, $
+.01
+ par value – Authorized:
+400
+ shares in 2026 and 2025, respectively;
+no
+ shares issued and outstanding
+—
+ 
+—
+ 
+Common stock, $
+.002
+ par value – Authorized:
+300,000
+ shares in 2026 and 2025, respectively; issued and outstanding:
+166,527
+ and
+166,997
+ shares in 2026 and 2025, respectively
+333
+ 
+334
+ 
+Additional paid-in capital
+1,194,927
+ 
+1,138,708
+ 
+Retained earnings
+344,443
+ 
+406,355
+ 
+Accumulated other comprehensive loss, net of tax
+(
+60,734
+)
+(
+53,496
+)
+Total shareholders’ equity
+1,478,969
+ 
+1,491,901
+ 
+Total liabilities and shareholders' equity
+$
+2,005,618
+ 
+$
+2,016,555
+ 
+The accompanying notes are an integral part of these consolidated financial statements.
+5
+COGNEX CORPORATION
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+ 
+Three-months Ended
+April 5, 2026
+March 30, 2025
+ 
+(unaudited)
+Cash flows from operating activities:
+Net income
+$
+51,704
+ 
+$
+23,603
+ 
+Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+Stock-based compensation expense
+11,933
+ 
+9,939
+ 
+Depreciation of property, plant, and equipment
+4,703
+ 
+5,306
+ 
+Amortization of intangible assets
+2,532
+ 
+2,628
+ 
+Excess and obsolete inventory charges
+364
+ 
+197
+ 
+Loss on sale of business, net of transaction costs
+1,539
+ 
+—
+ 
+Deferred income taxes
+4,740
+ 
+(
+4,689
+)
+Other adjustments
+(
+380
+)
+(
+188
+)
+Change in operating assets and liabilities:
+Accounts receivable
+(
+23,711
+)
+(
+17,183
+)
+Unbilled revenue
+593
+ 
+307
+ 
+Inventories
+8
+ 
+5,474
+ 
+Prepaid expenses and other current assets
+(
+12,212
+)
+2,526
+ 
+Accounts payable
+9,390
+ 
+4,996
+ 
+Accrued expenses
+(
+13,554
+)
+(
+6,055
+)
+Accrued income taxes
+(
+2,905
+)
+(
+3,153
+)
+Deferred revenue and customer deposits
+12,889
+ 
+14,761
+ 
+Other
+(
+2,540
+)
+2,033
+ 
+Net cash provided by (used in) operating activities
+45,093
+ 
+40,502
+ 
+Cash flows from investing activities:
+Purchases of investments
+(
+47,013
+)
+(
+113,297
+)
+Maturities and sales of investments
+39,042
+ 
+148,885
+ 
+Net proceeds from sale of business
+11,519
+ 
+—
+ 
+Purchases of property, plant, and equipment, net of proceeds
+(
+2,757
+)
+(
+2,501
+)
+Net cash provided by (used in) investing activities
+791
+ 
+33,087
+ 
+Cash flows from financing activities:
+Net payments from issuance of common stock under stock plans
+44,290
+ 
+(
+2,587
+)
+Repurchase of common stock
+(
+98,995
+)
+(
+102,233
+)
+Payment of dividends
+(
+14,196
+)
+(
+13,550
+)
+Net cash provided by (used in) financing activities
+(
+68,901
+)
+(
+118,370
+)
+Effect of foreign exchange rate changes on cash and cash equivalents
+(
+2,565
+)
+2,431
+ 
+Net change in cash and cash equivalents
+(
+25,582
+)
+(
+42,350
+)
+Cash and cash equivalents at beginning of period
+262,925
+ 
+186,094
+ 
+Cash and cash equivalents at end of period
+$
+237,343
+ 
+$
+143,744
+ 
+The accompanying notes are an integral part of these consolidated financial statements.
+6
+COGNEX CORPORATION
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
+(In thousands of dollars, except per share amounts)
+Common Stock
+Additional
+Paid-in Capital
+Retained Earnings
+Accumulated
+Other
+Comprehensive
+Loss
+Total
+Shareholders’
+Equity
+Shares
+Par Value
+Balance as of December 31, 2025
+166,997
+ 
+$
+334
+ 
+$
+1,138,708
+ 
+$
+406,355
+ 
+$
+(
+53,496
+)
+$
+1,491,901
+ 
+Net issuance of common stock under stock plans
+1,905
+ 
+4
+ 
+44,286
+ 
+— 
+— 
+44,290
+ 
+Repurchase of common stock
+(
+2,375
+)
+(
+5
+)
+— 
+(
+98,990
+)
+— 
+(
+98,995
+)
+Excise tax on repurchase of common stock
+— 
+— 
+— 
+(
+430
+)
+— 
+(
+430
+)
+Stock-based compensation expense
+— 
+— 
+11,933
+ 
+— 
+— 
+11,933
+ 
+Payment of dividends ($
+0.085
+ per common share)
+— 
+— 
+— 
+(
+14,196
+)
+— 
+(
+14,196
+)
+Net income
+— 
+— 
+— 
+51,704
+ 
+— 
+51,704
+ 
+Net unrealized gain (loss) on available-for-sale investments, net of tax of $(
+726
+)
+— 
+— 
+— 
+— 
+(
+2,227
+)
+(
+2,227
+)
+Reclassification of net realized (gain) loss on the sale of available-for-sale investments
+— 
+— 
+— 
+— 
+(
+28
+)
+(
+28
+)
+Foreign currency translation adjustment
+— 
+— 
+— 
+— 
+(
+4,983
+)
+(
+4,983
+)
+Balance as of April 5, 2026 (unaudited)
+166,527
+ 
+$
+333
+ 
+$
+1,194,927
+ 
+$
+344,443
+ 
+$
+(
+60,734
+)
+$
+1,478,969
+ 
+ 
+Common Stock
+Additional
+Paid-in Capital
+Retained Earnings
+Accumulated
+Other
+Comprehensive
+Loss
+Total
+Shareholders’
+Equity
+ 
+Shares
+Par Value
+Balance as of December 31, 2024
+170,434
+ 
+$
+341
+ 
+$
+1,090,638
+ 
+$
+499,303
+ 
+$
+(
+72,777
+)
+$
+1,517,505
+ 
+Net issuance of common stock under stock plans
+478
+ 
+1
+ 
+(
+2,588
+)
+— 
+— 
+(
+2,587
+)
+Repurchase of common stock
+(
+3,047
+)
+(
+6
+)
+— 
+(
+103,407
+)
+— 
+(
+103,413
+)
+Stock-based compensation expense
+— 
+— 
+9,939
+ 
+— 
+— 
+9,939
+ 
+Payment of dividends ($
+0.080
+ per common share)
+— 
+— 
+— 
+(
+13,550
+)
+— 
+(
+13,550
+)
+Net income
+— 
+— 
+— 
+23,603
+ 
+— 
+23,603
+ 
+Net unrealized gain (loss) on available-for-sale investments, net of tax of $
+875
+— 
+— 
+— 
+— 
+2,711
+ 
+2,711
+ 
+Reclassification of net realized (gain) loss on the sale of available-for-sale investments
+— 
+— 
+— 
+— 
+(
+27
+)
+(
+27
+)
+Foreign currency translation adjustment
+— 
+— 
+— 
+— 
+11,447
+ 
+11,447
+ 
+Balance as of March 30, 2025 (unaudited)
+167,865
+ 
+$
+336
+ 
+$
+1,097,989
+ 
+$
+405,949
+ 
+$
+(
+58,646
+)
+$
+1,445,628
+ 
+The accompanying notes are an integral part of these consolidated financial statements.
+7
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+NOTE 1:
+Summary of Significant Accounting Policies
+As permitted by the rules of the Securities and Exchange Commission applicable to Quarterly Reports on Form 10-Q, these notes are condensed and do not contain all disclosures required by accounting principles generally accepted in the United States ("GAAP"). Reference should be made to the consolidated financial statements and related notes included in Cognex Corporation's ("Cognex" or the "Company") Annual Report on Form 10-K for the year ended December 31, 2025 for a full description of other significant accounting policies.
+In the opinion of the management of the Company, the accompanying consolidated unaudited financial statements contain all adjustments, consisting of normal, recurring adjustments and financial statement reclassifications necessary to present fairly the Company’s financial position as of April 5, 2026, and the results of its operations for the three-month periods ended April 5, 2026 and March 30, 2025, and changes in shareholders’ equity, comprehensive income, and cash flows for the periods presented.
+The results disclosed in the Consolidated Statements of Operations for the three-month period ended April 5, 2026 are not necessarily indicative of the results to be expected for the full year.
+NOTE 2:
+New Pronouncements
+Accounting Standards Update (ASU) 2024-03, Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40)
+This ASU aims to enhance transparency for users of financial statements by requiring public business entities to disaggregate specific expense categories. ASU 2024-03 mandates disclosures in the notes to financial statements detailing the composition and trends of key expense categories within major income statement captions. These enhanced disclosures are intended to help investors more effectively assess the entity’s performance, understand its cost structure, and make more accurate forecasts of future cash flows. For public business entities, ASU 2024-03 is effective for annual periods beginning after December 15, 2026, and interim periods within annual reporting periods beginning after December 15, 2027. The adoption will result in disclosure changes only. Management is currently evaluating the impact that adopting ASU 2024-03 would have on the Company's financial statement disclosures.
+Accounting Standards Update (ASU) 2025-06 - Intangibles - Goodwill and Other - Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software
+The amendments in this ASU update the accounting and disclosure guidance for internal-use software to better reflect modern, iterative development practices. The amendments replace the former “development stage” model with a judgment-based framework and require entities to evaluate whether significant development uncertainty exists before capitalizing costs. The ASU also incorporates website development guidance into Subtopic 350-40 and aligns disclosures for capitalized software with those for property, plant, and equipment. For public business entities, the amendments in this ASU are effective for annual reporting periods beginning after December 15, 2027, and for interim periods within those annual reporting periods, with early adoption permitted. Management is currently evaluating the impact that adopting ASU 2025-06 would have on the Company's financial statements and disclosures.
+Accounting Standards Update (ASU) 2025-11 - Interim Reporting (Topic 270): Narrow-Scope Improvements
+The amendments in this ASU improve the navigability and clarity of interim reporting requirements without changing the fundamental nature or scope of existing disclosures. The ASU also clarifies when Topic 270 applies, specifies the form and content of interim financial statements and notes, and introduces a comprehensive list of required interim disclosures compiled from across the Codification. The ASU also adds a disclosure principle requiring entities to disclose events occurring after the most recent annual reporting period that have a material impact on the entity. For public business entities, the amendments in this ASU are effective for annual reporting periods beginning after December 15, 2027, and for interim periods within annual reporting periods beginning after December 15, 2028, with early adoption permitted. Management is currently evaluating the impact that adopting ASU 2025-11 would have on the Company's disclosures.
+Accounting Standards Update (ASU) 2025-12 - Codification Improvements
+The amendments in this ASU make incremental improvements to clarify, correct, and enhance the usability of the Accounting Standards Codification. The amendments address technical corrections, unintended application issues,
+8
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+and minor improvements across numerous topics, and are not expected to significantly affect current accounting practice. Key areas of clarification include diluted earnings per share calculations, disclosure requirements for lease receivables, guidance on beneficial interests, methods for accounting for treasury stock retirements, and the treatment of receivables transferred from contracts with customers. For public business entities, the amendments in this ASU are effective for annual reporting periods beginning after December 15, 2026, and for interim periods within those annual reporting periods, with early adoption permitted. Management is currently evaluating the impact that adopting ASU 2025-10 would have on the Company's financial statements and disclosures.
+NOTE 3:
+Financial Instruments
+Cash, Cash Equivalents, and Investments
+The following table summarizes the Company’s cash, cash equivalents, and investments as of April 5, 2026 (in thousands):
+Fair Value Level
+Amortized
+Cost
+Gross
+Unrealized
+Gains
+Gross
+Unrealized
+Losses
+Fair Value
+Cash and Cash Equivalents
+Current Investments
+Non-current Investments
+Cash
+$
+178,191
+ 
+$
+— 
+$
+— 
+$
+178,191
+ 
+$
+178,191
+ 
+$
+— 
+$
+— 
+Money market instruments
+Level 1
+59,152
+ 
+— 
+— 
+59,152
+ 
+59,152
+ 
+— 
+— 
+Corporate bonds
+Level 2
+360,314
+ 
+1,399
+ 
+(
+1,304
+)
+360,409
+ 
+— 
+58,428
+ 
+301,981
+ 
+Treasury notes
+Level 2
+20,365
+ 
+26
+ 
+(
+26
+)
+20,365
+ 
+— 
+985
+ 
+19,380
+ 
+Asset-backed securities
+Level 2
+4,116
+ 
+—
+ 
+(
+291
+)
+3,825
+ 
+— 
+—
+ 
+3,825
+ 
+Total
+$
+622,138
+ 
+$
+1,425
+ 
+$
+(
+1,621
+)
+$
+621,942
+ 
+$
+237,343
+ 
+$
+59,413
+ 
+$
+325,186
+ 
+The following table summarizes the Company’s cash, cash equivalents, and investments as of December 31, 2025 (in thousands):
+Fair Value Level
+Amortized
+Cost
+Gross
+Unrealized
+Gains
+Gross
+Unrealized
+Losses
+Fair Value
+Cash and Cash Equivalents
+Current Investments
+Non-current Investments
+Cash
+$
+199,755
+ 
+$
+— 
+$
+— 
+$
+199,755
+ 
+$
+199,755
+ 
+$
+— 
+$
+— 
+Money market instruments
+Level 1
+63,170
+ 
+— 
+— 
+63,170
+ 
+63,170
+ 
+— 
+— 
+Corporate bonds
+Level 2
+342,442
+ 
+3,149
+ 
+(
+240
+)
+345,351
+ 
+— 
+66,625
+ 
+278,726
+ 
+Treasury notes
+Level 2
+29,676
+ 
+167
+ 
+—
+ 
+29,843
+ 
+— 
+7,412
+ 
+22,431
+ 
+Asset-backed securities
+Level 2
+4,471
+ 
+—
+ 
+(
+289
+)
+4,182
+ 
+— 
+—
+ 
+4,182
+ 
+Total
+$
+639,514
+ 
+$
+3,316
+ 
+$
+(
+529
+)
+$
+642,301
+ 
+$
+262,925
+ 
+$
+74,037
+ 
+$
+305,339
+ 
+The Company’s money market instruments are reported at fair value based upon the daily market price for identical assets in active markets and are therefore classified as Level 1. Money market instruments consist of treasury bills, corporate commercial paper, and certificates of deposit that are highly liquid and mature in three months or less. Corporate bonds consist of debt securities issued by both domestic and foreign companies; treasury notes consist of debt securities issued by the U.S. government; and asset-backed securities consist of debt securities collateralized by pools of receivables or loans with credit enhancement. All of the Company's securities as of April 5, 2026 and December 31, 2025 were denominated in U.S. Dollars, with the exception of certain certificates of deposit.
+The Company’s debt securities are reported at fair value based on model-driven valuations in which all significant inputs are observable or can be derived from or corroborated by observable market data for substantially the full term of the asset or liability and are therefore classified as Level 2. Management is responsible for estimating the fair value of these financial instruments, and in doing so, considers valuations provided by a large, third-party pricing service. This service maintains regular contact with market makers, brokers, dealers, and analysts to gather information on market movement, direction, trends, and other specific data. They use this information to structure yield curves for various types of debt securities and arrive at the daily valuations.
+Accrued interest receivable is recorded in "Prepaid expenses and other current assets" on the Consolidated Balance Sheets and amounted to $
+3,793,000
+ and $
+3,852,000
+ as of April 5, 2026 and December 31, 2025,
+9
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+respectively.
+Realized Gains (Losses) on Debt Securities
+The following table summarizes the Company's gross realized gains and losses on the sale of debt securities for the three-month periods ended April 5, 2026 and March 30, 2025 (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Gross realized gains
+$
+28
+ 
+$
+27
+ 
+Gross realized losses
+—
+ 
+—
+ 
+Net realized gains (losses)
+$
+28
+ 
+$
+27
+ 
+Realized gains and losses are included in "Investment income" on the Consolidated Statements of Operations. Prior to the sale of these securities, unrealized gains and losses for these debt securities, net of tax, were recorded in shareholders’ equity as accumulated other comprehensive income (loss).
+Unrealized Losses on Debt Securities
+The following table summarizes the Company’s gross unrealized losses and fair values for available-for-sale investments in an unrealized loss position as of April 5, 2026 (in thousands):
+Unrealized Loss Position For:
+Less than 12 Months
+12 Months or Greater
+Total
+Fair Value
+Unrealized
+Losses
+Fair Value
+Unrealized
+Losses
+Fair Value
+Unrealized
+Losses
+Corporate bonds
+$
+138,944
+ 
+$
+(
+1,242
+)
+$
+11,537
+ 
+$
+(
+62
+)
+$
+150,481
+ 
+$
+(
+1,304
+)
+Treasury notes
+7,167
+ 
+(
+26
+)
+—
+ 
+—
+ 
+7,167
+ 
+(
+26
+)
+Asset-backed securities
+—
+ 
+—
+ 
+3,825
+ 
+(
+291
+)
+3,825
+ 
+(
+291
+)
+$
+146,111
+ 
+$
+(
+1,268
+)
+$
+15,362
+ 
+$
+(
+353
+)
+$
+161,473
+ 
+$
+(
+1,621
+)
+The following table summarizes the Company’s gross unrealized losses and fair values for available-for-sale investments in an unrealized loss position as of December 31, 2025 (in thousands):
+Unrealized Loss Position For:
+Less than 12 Months
+12 Months or Greater
+Total
+Fair Value
+Unrealized
+Losses
+Fair Value
+Unrealized
+Losses
+Fair Value
+Unrealized
+Losses
+Corporate bonds
+$
+30,602
+ 
+$
+(
+73
+)
+$
+22,412
+ 
+$
+(
+167
+)
+$
+53,014
+ 
+$
+(
+240
+)
+Asset-backed securities
+—
+ 
+—
+ 
+4,182
+ 
+(
+289
+)
+4,182
+ 
+(
+289
+)
+$
+30,602
+ 
+$
+(
+73
+)
+$
+26,594
+ 
+$
+(
+456
+)
+$
+57,196
+ 
+$
+(
+529
+)
+Management monitors debt securities that are in an unrealized loss position to determine whether a loss exists related to the credit quality of the issuer. When developing an estimate of expected credit losses, management considers all relevant information including historical experience, current conditions, and reasonable forecasts of expected future cash flows. Based on this evaluation,
+no
+ allowance for credit losses on debt securities was recorded as of April 5, 2026 or December 31, 2025. Management currently intends to hold these securities to full value recovery at maturity.
+10
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+Debt Securities Maturities
+The following table presents the effective maturity dates of the Company’s available-for-sale investments as of April 5, 2026 (in thousands):
+<1 year
+1-2 Years
+2-3 Years
+3-4 Years
+4-5 Years
+Total
+Corporate bonds
+$
+58,428
+ 
+$
+82,557
+ 
+$
+115,212
+ 
+$
+53,935
+ 
+$
+50,277
+ 
+$
+360,409
+ 
+Treasury notes
+985
+ 
+17,389
+ 
+1,991
+ 
+—
+ 
+—
+ 
+20,365
+ 
+Asset-backed securities
+—
+ 
+—
+ 
+—
+ 
+3,728
+ 
+97
+ 
+3,825
+ 
+$
+59,413
+ 
+$
+99,946
+ 
+$
+117,203
+ 
+$
+57,663
+ 
+$
+50,374
+ 
+$
+384,599
+ 
+Derivative Instruments
+The Company’s foreign currency risk management strategy is designed to mitigate the potential financial impact of changes in the value of transactions and balances denominated in foreign currencies resulting from changes in foreign currency exchange rates. The Company enters into economic hedges utilizing foreign currency forward contracts with maturities of generally up to
+three months
+ but not greater than
+one year
+ to manage the exposure to fluctuations in foreign currency exchange rates arising primarily from foreign-denominated receivables and payables. The gains and losses on these derivatives are intended to be offset by the changes in the fair value of the assets and liabilities being hedged. These economic hedges are not designated as hedging instruments for hedge accounting treatment.
+The Company had the following outstanding forward contracts (in thousands):
+April 5, 2026
+December 31, 2025
+Currency
+Notional
+Value
+USD
+Equivalent
+Notional
+Value
+USD
+Equivalent
+Derivatives Not Designated as Hedging Instruments:
+Singapore Dollar
+34,000
+ 
+$
+27,335
+ 
+—
+ 
+$
+—
+ 
+Chinese Renminbi
+170,000
+ 
+24,734
+ 
+20,000
+ 
+2,865
+ 
+Euro
+15,000
+ 
+17,343
+ 
+—
+ 
+—
+ 
+Mexican Peso
+150,000
+ 
+8,380
+ 
+160,000
+ 
+8,881
+ 
+Hungarian Forint
+2,500,000
+ 
+7,517
+ 
+2,500,000
+ 
+7,600
+ 
+British Pound
+4,000
+ 
+5,297
+ 
+4,000
+ 
+5,383
+ 
+Japanese Yen
+800,000
+ 
+5,034
+ 
+400,000
+ 
+2,563
+ 
+Swiss Franc
+2,000
+ 
+2,515
+ 
+—
+ 
+—
+ 
+Indian Rupee
+225,000
+ 
+2,399
+ 
+400,000
+ 
+4,436
+ 
+Korean Won
+3,000,000
+ 
+1,988
+ 
+9,000,000
+ 
+6,239
+ 
+11
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+Information regarding the fair value of the outstanding forward contracts was as follows (in thousands):
+Asset Derivatives
+Liability Derivatives
+Fair Value
+Fair Value
+Balance Sheet Location
+Fair Value Level
+April 5, 2026
+December 31, 2025
+Balance Sheet Location
+Fair Value Level
+April 5, 2026
+December 31, 2025
+Derivatives Not Designated as Hedging Instruments:
+Economic hedge forward contracts
+Prepaid expenses and other current assets
+Level 2
+$
+985
+ 
+$
+791
+ 
+Accrued expenses
+Level 2
+$
+1,856
+ 
+$
+367
+ 
+Activity:
+Gross amounts recognized
+$
+985
+ 
+$
+791
+ 
+$
+1,856
+ 
+$
+367
+ 
+Gross amounts offset
+—
+ 
+—
+ 
+—
+ 
+—
+ 
+Net amounts presented on the Consolidated Balance Sheets
+$
+985
+ 
+$
+791
+ 
+$
+1,856
+ 
+$
+367
+ 
+The Company’s forward contracts are reported at fair value based on model-driven valuations in which all significant inputs are observable or can be derived from or corroborated by observable market data for substantially the full term of the asset or liability and are therefore classified as Level 2. The Company's forward contracts are typically traded or executed in over-the-counter markets with a high degree of pricing transparency. The market participants are generally large commercial banks.
+Information regarding the effect of derivative instruments on the Consolidated Statements of Operations was as follows (in thousands):
+Statement of Operations Location
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Derivatives Not Designated as Hedging Instruments:
+Gains (losses) recognized in current operations
+Foreign currency gain (loss)
+$
+(
+761
+)
+$
+(
+547
+)
+Activities related to derivative instruments are reflected within "Net cash provided by (used in) operating activities" on the Consolidated Statements of Cash Flows.
+NOTE 4:
+Inventories
+Inventories consisted of the following (in thousands):
+April 5, 2026
+December 31, 2025
+Raw materials
+$
+69,896
+ 
+$
+75,417
+ 
+Work-in-process
+6,446
+ 
+4,877
+ 
+Finished goods
+59,207
+ 
+57,595
+ 
+$
+135,549
+ 
+$
+137,889
+ 
+12
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+NOTE 5: 
+Goodwill and Intangible Assets
+The changes in the carrying value of goodwill were as follows (in thousands):
+Balance as of December 31, 2025
+$
+386,279
+ 
+Business disposal (refer to Note 13)
+(
+541
+)
+Foreign exchange rate changes
+(
+2,920
+)
+Balance as of April 5, 2026
+$
+382,818
+ 
+Amortized intangible assets as of April 5, 2026 consisted of the following (in thousands):
+Gross
+Carrying
+Value
+Accumulated
+Amortization
+Net
+Carrying
+Value
+Customer relationships
+$
+54,907
+ 
+$
+(
+13,760
+)
+$
+41,147
+ 
+Completed technologies
+58,175
+ 
+(
+32,320
+)
+25,855
+ 
+Trademarks
+799
+ 
+(
+666
+)
+133
+ 
+Non-compete agreements
+60
+ 
+(
+55
+)
+5
+ 
+Balance as of April 5, 2026
+$
+113,941
+ 
+$
+(
+46,801
+)
+$
+67,140
+ 
+Amortized intangible assets as of December 31, 2025 consisted of the following (in thousands):
+Gross
+Carrying
+Value
+Accumulated
+Amortization
+Net
+Carrying
+Value
+Customer relationships
+$
+68,241
+ 
+$
+(
+14,843
+)
+$
+53,398
+ 
+Completed technologies
+58,603
+ 
+(
+31,110
+)
+27,493
+ 
+Trademarks
+812
+ 
+(
+610
+)
+202
+ 
+Non-compete agreements
+60
+ 
+(
+53
+)
+7
+ 
+Balance as of December 31, 2025
+$
+127,716
+ 
+$
+(
+46,616
+)
+$
+81,100
+ 
+Future amortization expense related to intangible assets as of April 5, 2026 is as follows (in thousands):
+Amount
+Remainder of fiscal 2026
+$
+6,611
+ 
+2027
+7,968
+ 
+2028
+7,238
+ 
+2029
+7,238
+ 
+2030
+6,695
+ 
+2031
+6,695
+ 
+Thereafter
+24,695
+ 
+$
+67,140
+ 
+On April 1, 2026, the Company completed the divestiture of its Japan-focused trading business, which was originally acquired as part of the acquisition of Moritex Corporation in 2023. In connection with the divestiture, the Company derecognized $
+541,000
+ of goodwill and $
+10,636,000
+ of customer relationship intangible assets, representing the net carrying amounts attributable to the disposed business.
+13
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+NOTE 6:
+Warranty Obligations
+The Company records the estimated cost of fulfilling product warranties at the time of sale based upon historical costs to fulfill claims. Obligations may also be recorded subsequent to the time of sale whenever specific events or changes in circumstances impacting product quality become known that would not have been taken into account using historical data. While we engage in extensive product quality programs and processes, including actively monitoring and evaluating the quality of our component suppliers and third-party contract manufacturers, the Company’s warranty obligation is affected by product failure rates, material usage, and service delivery costs incurred in correcting a product failure. An adverse change in any of these factors may result in the need for additional warranty provisions. Warranty obligations are included in “Accrued expenses” on the Consolidated Balance Sheets.
+The changes in the warranty obligation for the three-month periods ended April 5, 2026 and March 30, 2025 were as follows (in thousands):
+Balance as of December 31, 2025
+$
+5,474
+ 
+Provisions for warranties issued during the period
+1,301
+ 
+Fulfillment of warranty obligations
+(
+1,127
+)
+Balance as of April 5, 2026
+$
+5,648
+ 
+Balance as of December 31, 2024
+$
+5,140
+ 
+Provisions for warranties issued during the period
+1,453
+ 
+Fulfillment of warranty obligations
+(
+873
+)
+Foreign exchange rate changes
+8
+ 
+Balance as of March 30, 2025
+$
+5,728
+ 
+NOTE 7:
+Commitments and Contingencies
+As of April 5, 2026, the Company had outstanding purchase orders totaling $
+50,616,000
+ to procure inventory from various vendors. Certain of these purchase orders may be canceled by the Company, subject to cancellation penalties. These purchase commitments relate primarily to expected sales in the next twelve months.
+A significant portion of the Company's outstanding inventory purchase orders as of April 5, 2026, as well as additional preauthorized commitments to procure strategic components based on the Company's expected customer demand, are placed with the Company's primary contract manufacturer for the Company's assembled products. The Company has the obligation to purchase any non-cancelable and non-returnable components that have been purchased by the contract manufacturer with the Company's preauthorization, when these components have not been consumed within the period defined in the terms of the Company's agreement with this contract manufacturer. While the Company typically expects such purchased components to be used in future production of Cognex finished goods, these components are considered in the Company's reserve estimate for excess and obsolete inventory. Furthermore, the Company accrues for losses on commitments for the future purchase of non-cancelable and non-returnable components from this contract manufacturer at the time that circumstances, such as changes in demand, indicate that the value of the components may not be recoverable, the loss is probable, and management has the ability to reasonably estimate the amount of the loss. The Company's accrual for such losses was not material as of April 5, 2026 and March 30, 2025.
+Various claims and legal proceedings generally incidental to the normal course of business are pending or threatened on behalf of or against the Company. While we cannot predict the outcome of these matters, we believe that any liability arising from them will not have a material adverse effect on our financial position, liquidity, or results of operations.
+14
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+ NOTE 8:
+Stockholders' Equity
+Stock Repurchase Program
+In March 2022, the Company's Board of Directors (the "Board") authorized a program providing for the repurchase of $
+500,000,000
+ of the Company's common stock (the "Program"). Under the Program, in addition to repurchases made in prior periods, the Company repurchased
+3,047,000
+ shares at a total cost of $
+103,413,000
+ during the three-month period ended March 30, 2025 and
+2,375,000
+ shares at a total cost of $
+98,995,000
+ during the three-month period ended April 5, 2026, leaving a remaining balance of $
+16,025,000
+ as of April 5, 2026. On February 11, 2026, the Board authorized the repurchase of an additional $
+500,000,000
+ of the Company's common stock upon completion of the Program. The Company may repurchase shares under these programs in future periods depending on a variety of factors, including, among other things, the impact of dilution from employee stock awards, stock price, share availability, and cash requirements. The Company is authorized to make repurchases of its common stock through open market purchases, pursuant to Rule 10b5-1 trading plans, or in privately negotiated transactions.
+Stock-Based Compensation Expense
+The Company’s stock-based awards that result in compensation expense consist of stock options, restricted stock units ("RSUs"), and performance restricted stock units ("PRSUs").
+The following table summarizes the number of stock-based awards granted by the Company and the weighted-average grant-date fair value per unit for the three-month periods ended April 5, 2026 and March 30, 2025:
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Stock-Based Awards Granted
+(in 
+thousands)
+Weighted-
+Average
+Grant-Date Fair Value
+Stock-Based Awards Granted
+(in 
+thousands)
+Weighted-
+Average
+Grant-Date Fair Value
+Stock options
+326
+ 
+$
+22.13
+ 
+1,360
+ 
+$
+12.32
+ 
+Restricted stock units
+745
+ 
+$
+56.36
+ 
+1,248
+ 
+$
+32.35
+ 
+Performance restricted stock units
+71
+ 
+$
+56.13
+ 
+184
+ 
+$
+32.14
+ 
+1,142
+ 
+2,792
+ 
+During the three-month periods ended April 5, 2026 and March 30, 2025, the Company granted PRSUs that vest upon the achievement of (1) a service condition of
+three years
+ of continuous employment and (2) a performance condition established by the Compensation Committee of the Board as of the grant date. The number of shares earned could range between
+0
+% and
+120
+% based on achievement of the performance condition, which includes certain financial targets. The fair value of these PRSUs is calculated based on the observable market price of the Company's stock on the grant date less the present value of expected future dividends. Compensation expense for these PRSUs is recognized based on the probable outcome of the performance condition with a cumulative catch-up adjustment for prior periods in the period that the probable outcome changes.
+The Company stratifies its employee population into
+two
+ groups: one consisting of senior management and members of the Board and another consisting of all other employees. The Company currently applies an estimated annual forfeiture rate of
+12
+% to all stock-based awards for senior management and a rate of
+13
+% for all other employees. Each year during the first quarter, the Company revises its forfeiture rate based on updated estimates of employee turnover. Credits of $
+1,576,000
+ and $
+4,789,000
+ were recorded in 2026 and 2025, respectively, to true up previously recorded compensation expense for this forfeiture rate revision. Additionally in the first quarter of 2026, the Company revised its forfeiture rate applied specifically to stock-based awards for its former chief executive officer to 100% due to his retirement from the Board effective March 2, 2026, resulting in credits of $
+5,031,000
+.
+As of April 5, 2026, total unrecognized compensation expense, net of estimated forfeitures, related to non-vested equity awards, including stock options, RSUs, and PRSUs, was $
+68,857,000
+, which is expected to be recognized over a weighted-average period of
+1.8
+ years.
+15
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+The following table presents the stock-based compensation expense by caption for each period presented on the Consolidated Statements of Operations (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Cost of revenue
+$
+925
+ 
+$
+668
+ 
+Research, development, and engineering
+5,094
+ 
+$
+4,696
+ 
+Selling, general, and administrative
+5,914
+ 
+$
+4,575
+ 
+Total stock-based compensation expense
+$
+11,933
+ 
+$
+9,939
+ 
+No
+ compensation expense was capitalized as of April 5, 2026 or December 31, 2025.
+NOTE 9:
+Revenue Recognition
+The following table summarizes disaggregated revenue information by geographic area based upon the customer's country of domicile (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Americas
+$
+121,301
+ 
+$
+99,374
+ 
+Europe
+63,815
+ 
+46,790
+ 
+Greater China
+37,759
+ 
+26,946
+ 
+Other Asia
+45,562
+ 
+42,926
+ 
+268,437
+ 
+216,036
+ 
+The following table summarizes disaggregated revenue information by revenue type (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Standard products and services
+254,439
+ 
+204,510
+ 
+Application-specific customer solutions
+13,998
+ 
+11,526
+ 
+268,437
+ 
+216,036
+ 
+Costs to Fulfill a Contract
+Costs to fulfill a contract are included in "Prepaid expenses and other current assets" on the Consolidated Balance Sheets and amounted to $
+17,224,000
+ and $
+10,592,000
+ as of April 5, 2026 and December 31, 2025, respectively.
+Accounts Receivable, Contract Assets, and Contract Liabilities
+Accounts receivable represent amounts billed and currently due from customers which are reported at their net estimated realizable value. The Company maintains an allowance against its accounts receivable for credit losses. Contract assets consist of unbilled revenue which arises when revenue is recognized in advance of billing for certain application-specific customer solutions contracts. Contract liabilities consist of deferred revenue and customer deposits which arise when amounts are billed to or collected from customers in advance of revenue recognition.
+16
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+The following table summarizes the deferred revenue and customer deposits activity for the three-month periods ended April 5, 2026 and March 30, 2025 (in thousands):
+Balance as of December 31, 2025
+$
+21,094
+ 
+Deferral of revenue billed in the current period, net of recognition
+21,134
+ 
+Recognition of revenue deferred in prior period
+(
+8,042
+)
+Reclassified to accounts receivable
+(
+203
+)
+Foreign exchange rate changes
+70
+ 
+Balance as of April 5, 2026
+$
+34,053
+ 
+Balance at December 31, 2024
+$
+25,035
+ 
+Deferral of revenue billed in the current period, net of recognition
+22,175
+ 
+Recognition of revenue deferred in prior period
+(
+7,414
+)
+Foreign exchange rate changes
+62
+ 
+Balance as of March 30, 2025
+$
+39,858
+ 
+As a practical expedient, the Company has elected not to disclose the aggregate amount of the transaction price allocated to unsatisfied performance obligations for our contracts that have an original expected duration of less than one year. The remaining unsatisfied performance obligations for our contracts that have an original expected duration of more than one year, primarily related to extended warranties, are not material.
+NOTE 10:
+Income Taxes
+The Company's effective tax rate was
+16
+% and
+15
+% for the three-month periods ended April 5, 2026 and March 30, 2025, respectively.
+The Company has defined its major tax jurisdictions as the United States, Ireland, China, Japan, and Korea, and within the United States, Massachusetts. The statutory tax rate is
+12.5
+% in Ireland,
+25
+% in China,
+34.7
+% in Japan, and
+22
+% in Korea, compared to the U.S. federal statutory corporate tax rate of
+21
+%. These foreign tax rate differences resulted in a favorable impact to the effective tax rate for both the three-month periods ended April 5, 2026 and March 30, 2025.
+For the three-month period ended April 5, 2026, the Company recorded a net discrete tax benefit of $
+1,179,000
+, primarily driven by excess tax benefits related to stock‑based compensation. For the three-month period ended March 30, 2025, the Company recorded a net discrete tax benefit of $
+307,000
+, primarily driven by deferred tax adjustments partially offset by excess tax liabilities related to stock‑based compensation.
+The Company’s reserve for income taxes, including gross interest and penalties, was $
+24,195,000
+ as of April 5, 2026, of which $
+21,336,000
+ was classified as a non-current liability and $
+2,859,000
+ was classified as an offset to deferred tax assets. If the Company’s tax positions were sustained or the statutes of limitations related to certain positions expired, these reserves would be released and income tax expense would be reduced in a future period.
+Within the United States, the tax years
+2022 through 2025
+ remain open to examination by the Internal Revenue Service, and 2021 through 2025 remain open to examination by various state tax authorities. The tax years
+2017 through 2025
+ remain open to examination by various international taxing authorities in other jurisdictions in which the Company operates.
+17
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+The Organization for Economic Cooperation and Development ("OECD") provided model rules for a 15% global minimum tax, known as Pillar Two. Pillar Two has now been enacted by most key non-United States jurisdictions where the Company operates. From 2024 to 2025, the Company met at least one of the tests under the transitional safe harbor exception for all jurisdictions except for the United States. During 2024 and 2025, the Company had favorable treatment under a safe harbor that exempted U.S. multinational entity exposure to top-up tax under Pillar Two, which expired at the end of 2025. In 2026, OECD released the framework for a side-by-side system, providing a permanent solution for multinational entities headquartered in jurisdictions that had not fully adopted the Pillar Two Model Rules into domestic law but have current domestic tax regimes meeting certain requirements, including a high statutory tax rates (at least 20%) that had not fully adopted the Pillar Two Model Rules into domestic law. However, uncertainty remains related to the implementation of this arrangement across the various jurisdictions in which the Company operates, and the Company is now subject to top-up tax effective January 1, 2026. This minimum tax is treated as a period cost but did not have a material impact on the Company's financial results of operations for the three-month period ended April 5, 2026. The Company continues to monitor legislative developments.
+NOTE 11:
+Earnings per Share
+The following table shows the computation of basic and diluted earnings per share for the three-month periods ended April 5, 2026 and March 30, 2025 (in thousands, except per share amounts):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Net income
+51,704
+ 
+23,603
+ 
+Basic weighted-average common and common-equivalent shares outstanding
+166,514
+ 
+169,265
+ 
+Effect of dilutive stock-based awards
+1,872
+ 
+1,126
+ 
+Diluted weighted-average common and common-equivalent shares outstanding
+168,386
+ 
+170,391
+ 
+Earnings per share
+Basic
+0.31
+ 
+0.14
+ 
+Diluted
+0.31
+ 
+0.14
+ 
+The computation of diluted weighted-average common shares outstanding excludes the following weighted average anti-dilutive stock-based awards outstanding for the three-month periods ended April 5, 2026 and March 30, 2025 (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Stock options
+5,945
+ 
+9,765
+ 
+Restricted stock units
+376
+ 
+—
+ 
+Performance restricted stock units
+41
+ 
+—
+ 
+Total weighted average anti-dilutive stock-based awards outstanding
+6,362
+ 
+9,765
+ 
+NOTE 12:
+Segment Information
+The Company operates in
+one
+ segment, machine vision technology. The Company has a single, company-wide management team that administers operations as a whole rather than as discrete operating segments. The Company’s chief operating decision maker is the chief executive officer, who assesses performance and allocates resources at the corporate level, as compared to the geography, product line, or end market levels. The Company offers a variety of machine vision products that have similar economic characteristics and are distributed by the same sales channels to the same types of customers.
+18
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+The measure of segment profit or loss for the Company's single segment is net income. Segment expenses were disaggregated based on the information the chief operating decision maker uses to assess performance and allocate resources considering both quantitative and qualitative factors.
+The following table summarizes significant segment expenses, which represents the difference between segment revenue and segment net income (in thousands):
+Three-months Ended
+April 5, 2026
+March 30, 2025
+Revenue
+$
+268,437
+ 
+$
+216,036
+ 
+Less:
+Cost of revenue
+(1)
+77,498
+ 
+71,713
+ 
+Gross profit
+190,939
+ 
+144,323
+ 
+Less:
+Research, development, and engineering expenses
+Salaries and fringe benefits
+19,074
+ 
+18,274
+ 
+Incentive compensation
+(2)
+2,024
+ 
+1,071
+ 
+Stock-based compensation
+5,094
+ 
+4,696
+ 
+Depreciation and amortization
+502
+ 
+755
+ 
+Other segment expenses
+(3)
+10,331
+ 
+9,931
+ 
+Total research, development, and engineering expenses
+37,025
+ 
+34,727
+ 
+Selling, general, and administrative expenses
+Salaries and fringe benefits
+45,026
+ 
+42,195
+ 
+Incentive compensation
+(2)
+14,326
+ 
+10,882
+ 
+Stock-based compensation
+5,914
+ 
+4,575
+ 
+Depreciation and amortization
+3,666
+ 
+4,161
+ 
+Other segment expenses
+(3)
+25,109
+ 
+21,691
+ 
+Total selling, general, and administrative expenses
+94,041
+ 
+83,504
+ 
+Operating income
+59,873
+ 
+26,092
+ 
+Foreign currency gain (loss)
+(
+1,345
+)
+(
+2,453
+)
+Investment income
+4,836
+ 
+3,990
+ 
+Other income (expense)
+(
+1,607
+)
+169
+ 
+Income before income tax expense
+61,757
+ 
+27,798
+ 
+Income tax expense
+10,053
+ 
+4,195
+ 
+Net income
+$
+51,704
+ 
+$
+23,603
+ 
+(1)
+ Cost of revenue includes depreciation and amortization expense (including amortization of acquired technologies) of $
+3,067,000
+ and $
+3,018,000
+ for the three-month periods ended April 5, 2026 and March 30, 2025, respectively.
+(2)
+ Incentive compensation includes company bonus and sales commissions.
+(3)
+ Other segment expenses
+
+include outside services, prototyping materials, sales demonstration equipment, travel and entertainment, marketing programs, rent, and reorganization charges, among other less significant expenses.
+Segment assets amounted to $
+2,005,618,000
+ and $
+2,016,555,000
+ as of April 5, 2026 and December 31, 2025, respectively.
+19
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+NOTE 13:
+Business Disposal
+On April 1, 2026, the Company completed the divestiture of its Japan-focused trading business, which was originally acquired as part of the acquisition of Moritex Corporation ("Moritex") in 2023. The disposal group met the definition of a business under ASC 805 as it included inputs and substantive processes that together significantly contributed to the ability to create outputs. The transaction resulted in gross proceeds received from the buyer of ¥
+1,882,688,000
+ Japanese Yen ($
+12,049,000
+ U.S. Dollars based on the closing-date foreign exchange rate).
+Carrying amounts of major assets and liabilities included as part of the disposal group were as follows (in thousands):
+Amount
+Inventories
+$
+2,195
+ 
+Goodwill
+541
+ 
+Intangible assets, net (customer relationships)
+10,636
+ 
+Total assets
+$
+13,372
+ 
+Accrued expenses (retirement benefit obligation)
+$
+314
+ 
+Total liabilities
+$
+314
+ 
+The Company recognized a pre-tax loss of ¥
+240,445,000
+ Japanese Yen ($
+1,539,000
+ U.S. Dollars based on the closing-date foreign exchange rate), which includes direct costs associated with the divestiture incurred during the three-month period ended April 5, 2026 of ¥
+82,895,000
+ Japanese Yen ($
+530,000
+ U.S. Dollars based on the closing-date foreign exchange rate) and is presented within “Other income (expense)” in the Consolidated Statements of Operations for the three-month period ended April 5, 2026. The transaction did not have a material impact on the Company’s income tax expense or tax position.
+The divested business was not considered core to the Company’s operations and its sale does not represent a strategic shift that would have a major effect on the Company’s operations or financial results. For the year ended December 31, 2025, the divested business accounted for approximately
+2
+% of the Company’s overall revenue. Accordingly, the transaction does not meet the criteria for discontinued operations presentation and as a result, the results of operations of the disposal group are presented within continued operations for the three-month period ended April 5, 2026. The business was not a reportable segment and was included within the Company’s single operating segment as described in Note 13, Segment Information.
+The Company allocated ¥
+1,661,888,000
+ Japanese Yen ($
+10,636,000
+ U.S. Dollars based on the closing-date foreign exchange rate) of net customer relationships to the disposal group based on the relative fair value attributable to the disposal group using an income approach, which the Company determined to be the most appropriate basis for allocation as it best reflects the economic benefits and expected future cash flows associated with these relationships. The income approach is consistent with the valuation methodology used in the original acquisition‑date valuation and incorporates management’s best estimates and assumptions that a market participant would consider.
+The Company allocated ¥
+84,563,000
+ Japanese Yen ($
+541,000
+ U.S. Dollars based on the closing-date foreign exchange rate) of goodwill to the disposal group based on its relative fair value compared to the Company’s total fair value. Following the divestiture, the remaining goodwill associated with the continuing reporting unit was supported by a substantial excess of fair value of the reporting unit over its carrying value, and therefore no impairment charge was recognized.
+20
+COGNEX CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+NOTE 14:
+Subsequent Events
+On May 6, 2026, the Board declared a cash dividend of $
+0.085
+ per share. The dividend is payable on June 4, 2026 to all shareholders of record as of the close of business on May 21, 2026.
+Additionally, on April 29, 2026, the shareholders of the Company approved an amendment to the Cognex Corporation 2023 Stock Option and Incentive Plan (the “2023 Plan”) to increase the maximum amount of shares of common stock available to be issued under the plan by
+4,600,000
+ shares.
+
+21
+ITEM 2: MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Forward-Looking Statements
+Certain statements made in this report, as well as oral statements made by the Company from time to time, constitute forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the "Exchange Act"). We intend such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in the Private Securities Litigation Reform Act of 1995.  Readers can identify these forward-looking statements by our use of the words "expects," "anticipates," "estimates," "potential," "believes," "projects," "intends," "plans," "aims," "will," "may," "shall," "could," "should," "opportunity," "goal," "objective," "target," "milestone" and similar words and other statements of a similar sense. These statements are based on our current estimates and expectations as to prospective events and circumstances, which may or may not be in our control and as to which there can be no firm assurances given. These forward-looking statements, which include statements regarding business and market trends, future financial performance, financial targets, milestones and related timing expectations, the impacts of our strategic portfolio review, the impact of tariffs, customer demand and order rates and timing of related revenue, future product or revenue mix, research and development activities, sales and marketing activities including our salesforce transformation, new product offerings, innovation and product development activities, customer acceptance of our products, commercial partnerships, capital expenditures, cost management activities including expected annualized operating expense reductions, investments, liquidity, dividends and stock repurchases, strategic and growth plans and opportunities, acquisitions, and estimated tax benefits and expenses, changes in tax legislation, and other tax matters, involve known and unknown risks and uncertainties that could cause actual results to differ materially from those projected. Such risks and uncertainties include: (1) the technological obsolescence of current products and the inability to develop new products; (2) the impact of competitive pressures; (3) the inability to attract and retain skilled employees and effectively plan for succession, while maintaining our unique corporate culture; (4) the failure to properly manage the distribution of products and services; (5) economic, political, and other risks associated with international sales and operations, including the impact of trade disputes, the imposition of tariffs, the economic climate in China, and the wars and conflicts involving Iran, Ukraine, and Israel and those that may arise in the future in the geographies where we conduct business; (6) the challenges in integrating and achieving expected results from acquired businesses; (7) uncertainty surrounding our future capital needs; (8) the inability to effectively scale our operations and salesforce to support a significantly expanded customer base; (9) information security breaches and other cybersecurity threats; (10) the failure to comply with laws or regulations relating to data privacy, data protection, AI, or other automated technologies; (11) the inability to protect our proprietary technology and intellectual property; (12) the inability to manage direct and indirect disruptions to our supply chain, which could cause delays in obtaining components for our products at reasonable prices; (13) the failure to manufacture and deliver products in a timely manner; (14) the inability to obtain, or the delay in obtaining, components for our products at reasonable prices, including memory chips; (15) the inability to design and manufacture high-quality products; (16) the loss of, or curtailment of purchases by, large customers in the logistics, consumer electronics, or automotive end markets; (17) challenges in accurately forecasting our financial results due to seasonal and cyclical variations in customer purchasing patterns and economic and market volatility; (18) potential impairment charges with respect to our investments or acquired intangible assets; (19) exposure to additional tax liabilities, increases and fluctuations in our effective tax rate, and other tax matters; (20) fluctuations in foreign currency exchange rates and the use of derivative instruments; (21) unfavorable global economic conditions, including, without limitation, increases in interest rates, elevated inflation rates, and recession risks; (22) business disruptions from natural or man-made disasters, public health crises, or other events outside our control; (23) stock price volatility; (24) our involvement in time-consuming and costly litigation or activist shareholder activities; and (25) the failure to effectively transform our operating model, manage our expenses, and achieve expected cost reductions. The foregoing list should not be construed as exhaustive and we encourage readers to refer to the detailed discussion of risk factors included in Part I - Item 1A of the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the "Annual Report"), as updated by Part II - Item 1A of this Quarterly Report on Form 10-Q (this "Quarterly Report"). The Company cautions readers not to place undue reliance upon any such forward-looking statements, which speak only as of the date made. The Company disclaims any obligation to subsequently revise forward-looking statements to reflect the occurrence of anticipated or unanticipated events or circumstances after the date such statements are made.
+Executive Overview
+Cognex makes advanced machine vision easy, paving the way for manufacturing and distribution companies to become faster, smarter, and more efficient through automation. We are a global technology leader in industrial machine vision systems that seek to improve efficiency and help solve critical manufacturing and distribution challenges, providing support across a diverse set of industrial end markets. In addition to revenue derived from the sale of machine vision products, the Company also generates revenue by providing maintenance and support, consulting, and training services to its customers; however, service revenue accounted for less than 10% of total
+22
+revenue for all periods presented.
+Machine vision is used in a variety of end markets where technology is widely recognized as an important component of automated production, distribution, and quality assurance. Virtually every manufacturer or distributor can achieve better quality and efficiency by using machine vision. This results in a broad base of potential customers across a variety of end markets, including logistics, consumer electronics, automotive, packaging, and semiconductor.
+Revenue for the first quarter of 2026 totaled $268,437,000, representing an increase of 24% over the first quarter of 2025 due to broad-based strength across our major end markets, as well as the favorable impact of foreign currency exchange rate changes on revenue. Gross margin as a percentage of revenue was 71% for the first quarter of 2026 as compared to 67% for the first quarter of 2025 due to a more favorable end-market mix and increased cost efficiencies from higher sales volume. Operating expenses for the first quarter of 2026 increased 11% from the first quarter of 2025. The impact of higher incentive compensation accruals due to stronger business performance, the unfavorable impact of foreign exchange rates on expenses, and higher reorganization charges incurred to further drive efficiencies across the organization were partially offset by savings from continued cost management activities.
+Operating income increased to 22% of revenue for the first quarter of 2026 as compared to 12% of revenue for the first quarter of 2025 due to operating leverage achieved from revenue growth. Net income increased to 19% of revenue, or $0.31 per diluted share, for the first quarter of 2026, as compared to 11% of revenue, or $0.14 per diluted share, for the first quarter of 2025.
+Results of Operations
+As foreign currency exchange rates are a factor in understanding period-to-period comparisons, we believe the presentation of our results on a constant-currency basis in addition to reported results improves investors’ ability to understand our operating results and evaluate our performance in comparison to prior periods. We also use results on a constant-currency basis as one measure to evaluate our performance. Constant-currency information compares results between periods as if exchange rates had remained constant period-over-period. We generally refer to such amounts calculated on a constant-currency basis as excluding the impact of foreign currency exchange rate changes. Results on a constant-currency basis are not in accordance with accounting principles generally accepted in the United States ("U.S. GAAP") and should be considered in addition to, and not a substitute for, results prepared in accordance with U.S. GAAP.
+Revenue
+Revenue increased by $52,401,000, or 24%, for the three-month period in 2026 as compared to the same period in 2025. Changes in foreign currency exchange rates resulted in a higher level of reported revenue in 2026 as compared to 2025. Excluding the impact of foreign currency exchange rate changes, revenue increased by 21% over the prior year. The increase was due to broad-based demand across our major end markets, including revenue growth across our consumer electronics customer base, higher revenue from semiconductor and packaging customers, and continued growth with large logistics customers.
+The following table sets forth our disaggregated revenue information by geographic area based upon the customer's country of domicile (in thousands) for the three-month periods ended April 5, 2026 and March 30, 2025.
+Three-months Ended
+April 5, 2026
+March 30, 2025
+$ Change
+% Change
+(unaudited)
+Americas
+$
+121,301 
+$
+99,374 
+$
+21,927 
+22 
+%
+Percentage of total revenue
+45 
+%
+46 
+%
+Europe
+$
+63,815 
+$
+46,790 
+$
+17,025 
+36 
+%
+Percentage of total revenue
+24 
+%
+22 
+%
+Greater China
+$
+37,759 
+$
+26,946 
+$
+10,813 
+40 
+%
+Percentage of total revenue
+14 
+%
+12 
+%
+Other Asia
+$
+45,562 
+$
+42,926 
+$
+2,636 
+6 
+%
+Percentage of total revenue
+17 
+%
+20 
+%
+Total revenue
+$
+268,437 
+$
+216,036 
+$
+52,401 
+24 
+%
+Changes in revenue from a geographic perspective were as follows:
+23
+•
+Revenue from customers based in the Americas increased by 22% for the three-month period in 2026 as compared to the same period in 2025 due to stronger performance across our major end markets.
+•
+Revenue from customers based in Europe increased by 36% for the three-month period in 2026 as compared to the same period in 2025. Changes in foreign currency exchange rates resulted in a higher level of reported revenue in the first quarter of 2026 as compared to the same period in 2025, as the U.S. Dollar was weaker on average versus the Euro and sales denominated in Euros were translated into U.S. Dollars at a higher rate. Excluding the impact of foreign currency exchange rate changes, revenue from customers based in Europe increased by 23% for the three-month period in 2026 due to stronger performance across our major end markets, with the exception of ongoing softness in the automotive end market.
+•
+Revenue from customers based in Greater China increased by 40% for the three-month period in 2026 as compared to the same period in 2025. Changes in foreign currency exchange rates resulted in a higher level of reported revenue in 2026, driven by a weaker U.S. Dollar versus the Chinese Renminbi as compared to the prior year. Excluding the impact of foreign currency exchange rate changes, revenue from customers based in Greater China increased by 36% for the three-month period in 2026 primarily due to higher revenue from customers in the consumer electronics and semiconductor end markets.
+•
+Revenue from customers based in other countries in Asia increased by 6% for the three-month period in 2026 as compared to the same period in 2025. Changes in foreign currency exchange rates did not have a material impact on revenue for the three-month period in 2026. The increase was primarily due to higher revenue from customers in the consumer electronics and semiconductor end markets.
+Gross Profit
+The following table sets forth our gross profit (in thousands) for the three-month periods ended April 5, 2026 and March 30, 2025.
+Three-months Ended
+April 5, 2026
+March 30, 2025
+$ Change
+% Change
+(unaudited)
+Gross profit
+$
+190,939 
+$
+144,323 
+$
+46,616 
+32 
+%
+Percentage of total revenue
+71 
+%
+67 
+%
+Gross margin was 71% for the three-month period in 2026 as compared to 67% for the same period in 2025. The increase was primarily due to more favorable end-market mix and increased cost efficiencies from higher sales volume, slightly offset by the impact of tariffs.
+Operating Expenses
+The following table sets forth our operating expenses (in thousands) for the three-month periods ended April 5, 2026 and March 30, 2025.
+Three-months Ended
+April 5, 2026
+March 30, 2025
+$ Change
+% Change
+(unaudited)
+Research, development, and engineering expenses
+$
+37,025 
+$
+34,727 
+$
+2,298 
+7 
+%
+Percentage of total revenue
+14 
+%
+16 
+%
+Selling, general, and administrative expenses
+$
+94,041 
+$
+83,504 
+$
+10,537 
+13 
+%
+Percentage of total revenue
+35 
+%
+39 
+%
+Total operating expenses
+$
+131,066 
+$
+118,231 
+$
+12,835 
+11 
+%
+Percentage of total revenue
+49 
+%
+55 
+%
+Research, Development, and Engineering Expenses
+Research, development, and engineering (RD&E) expenses increased by $2,298,000, or 7%, for the three-month period in 2026 as compared to the same period in 2025. The impact of higher incentive compensation accruals due to stronger business performance and the unfavorable impact of foreign exchange rates were partially offset by savings from continued cost management activities.
+24
+RD&E expenses as a percentage of revenue was 14% for the three-month period in 2026 as compared to 16% for the same period in 2025. We believe that a continued commitment to RD&E activities is essential to maintain or achieve product leadership with our existing products and to provide innovative new product offerings, as well as to provide engineering support for large customers. These percentages are impacted by revenue levels and investment cycles.
+Selling, General, and Administrative Expenses
+Selling, general, and administrative (SG&A) expenses increased by $10,537,000, or 13%, for the three-month period in 2026 as compared to the same period in 2025. The impact of higher incentive compensation accruals due to stronger business performance, the unfavorable impact of foreign exchange rates, higher stock-based compensation, and higher reorganization charges incurred to further drive efficiencies across the organization were partially offset by savings from continued cost management activities.
+Non-operating Income (Expense)
+The following table sets forth our non-operating income (expense) (in thousands) for the three-month periods ended April 5, 2026 and March 30, 2025.
+Three-months Ended
+April 5, 2026
+March 30, 2025
+$ Change
+% Change
+(unaudited)
+Foreign currency gain (loss)
+$
+(1,345)
+$
+(2,453)
+$
+1,108 
+(45)
+%
+Investment income
+$
+4,836 
+$
+3,990 
+$
+846 
+21 
+%
+Other income (expense)
+$
+(1,607)
+$
+169 
+$
+(1,776)
+(1051)
+%
+Total non-operating income (expense)
+$
+1,884 
+$
+1,706 
+$
+178 
+10 
+%
+The Company recorded foreign currency losses of $1,345,000 and $2,453,000 for the three-month periods in 2026 and 2025, respectively. Foreign currency gains and losses in each period resulted primarily from the revaluation and settlement of assets and liabilities that are denominated in currencies other than the functional currency of the Company, which is the U.S. Dollar, or its subsidiaries.
+Investment income increased by $846,000, or 21%, for the three-month period in 2026 as compared to the same period in 2025 primarily due to a higher invested balance.
+The Company recorded other expense of $1,607,000 for the three-month period in 2026 and other income of $169,000 for the three-month period in 2025. Other expense for the three-month period in 2026 included a pre-tax loss of $1,539,000 related to the divestiture of the Company's Japan-focused trading business (refer to Note 13 of the Consolidated Financial Statements).
+Income Tax Expense
+The following table sets forth income tax information (in thousands) for the three-month periods ended April 5, 2026 and March 30, 2025.
+Three-months Ended
+April 5, 2026
+March 30, 2025
+$ Change
+% Change
+(unaudited)
+Income before income tax expense
+$
+61,757 
+$
+27,798 
+$
+33,959 
+122 
+%
+Income tax expense
+$
+10,053 
+$
+4,195 
+$
+5,858 
+140 
+%
+Effective income tax rate
+16 
+%
+15 
+%
+The Company’s effective tax rate was 16% for the three-month period in 2026 and 15% for the same period in 2025. The Company recorded net discrete tax benefits of $1,179,000 and $307,000 for the three-month periods in 2026 and 2025, respectively.
+Excluding the impact of discrete tax items, the Company's effective tax rate was 18% for the three-month period in 2026 and 16% for the same period in 2025. The increase was primarily due to a greater portion of Company's pre-tax income being earned in higher tax rate jurisdictions.
+25
+Liquidity and Capital Resources
+The Company has historically been able to generate positive cash flow from operations, which has funded its operating activities and other cash requirements and resulted in an accumulated cash and investment balance of $621,942,000 as of April 5, 2026. The Company has established guidelines relative to credit ratings, diversification, and maturities of its investments to maintain liquidity and safety of its investment portfolio.
+Operating Activities
+Net cash provided by operating activities totaled $45,093,000 for the three-month period in 2026 as compared to $40,502,000 for the same period in 2025. The increase in operating cash inflow from the prior year was primarily driven by stronger business performance, partially offset by higher Company bonus payments that are made in the first quarter of each year.
+Investing Activities
+Net cash provided by investing activities totaled $791,000 for the three-month period in 2026 as compared to $33,087,000 for the same period in 2025. The decrease in investing cash inflow from the prior year was due to a higher level of investment maturities during the three-month period in 2025 to provide liquidity for our stock repurchase program.
+Investing activities for the three-month period in 2026 included net proceeds of $11,519,000 from the divestiture of the Company's Japan-focused trading business (refer to Note 13 of the Consolidated Financial Statements).
+Investing activities also included capital expenditures that totaled $2,757,000 for the three-month period in 2026 as compared to $2,501,000 for the same period in 2025. Capital expenditures in each period consisted primarily of investments in business systems, manufacturing test equipment related to new product introductions, and building and leasehold improvements.
+Financing Activities
+Net cash used in financing activities totaled $68,901,000 for the three-month period in 2026 and $118,370,000 for the same period in 2025. The decrease in financing cash outflow from the prior year was due to higher proceeds from stock option exercises during the three-month period in 2026 that partially offset the impact of the Company's stock repurchase and dividend programs.
+In March 2022, the Company's Board of Directors (the "Board") authorized a program providing for the repurchase of $500,000,000 of the Company's common stock (the "Program"). Under the Program, in addition to repurchases made in other periods, the Company repurchased 2,375,000 shares at a total cost of $98,995,000 during the three-month period in 2026, leaving a remaining balance of $16,025,000 as of April 5, 2026. On February 11, 2026, the Board authorized the repurchase of an additional $500,000,000 of the Company's common stock upon completion of the Program. The Company may repurchase shares under these programs in future periods depending on a variety of factors, including, among other things, the impact of dilution from employee stock awards, stock price, share availability, and cash requirements. The Company is authorized to make repurchases of its common stock through open market purchases, pursuant to Rule 10b5-1 trading plans, or in privately negotiated transactions.
+The Board declared and paid cash dividends of $0.085 per share in the three-month period ended April 5, 2026, totaling $14,196,000. Future dividends will be declared at the discretion of the Board and will depend on such factors as the Board deems relevant, including, among other things, the Company's ability to generate positive cash flow from operations.
+Future Cash Requirements
+As of April 5, 2026, the Company had inventory purchase commitments of $50,616,000, with the majority payable within twelve months, and lease payment obligations of $90,537,000, with $16,482,000 payable within twelve months.
+We believe that the Company's existing cash and investment balances, together with cash flow from operations, will be sufficient to meet its operating, investing, and financing activities for the next twelve months. In addition, the Company has no long-term debt. We believe that our strong cash position has put us in a relatively good position with respect to anticipated longer-term liquidity needs.
+New Pronouncements
+Refer to Part I - Note 2 within this Quarterly Report, for a full description of recently issued accounting pronouncements including the expected dates of adoption and the expected impact on the financial position and results of operations of the Company.
+26
+ITEM 3: QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+There have been no material changes to the Company’s exposures to market risk since December 31, 2025 as disclosed in Part II, Item 7A. "Quantitative and Qualitative Disclosures About Market Risk" in the Annual Report.
+ITEM 4: CONTROLS AND PROCEDURES
+As required by Rules 13a-15 and 15d-15 of the Exchange Act, the Company has evaluated, with the participation of management, including the Chief Executive Officer and the Chief Financial Officer, the effectiveness of its disclosure controls and procedures (as defined in such rules) as of the end of the period covered by this report. Based on such evaluation, the Chief Executive Officer and the Chief Financial Officer concluded that such disclosure controls and procedures were effective as of that date.
+There were no changes in the Company's internal control over financial reporting that occurred during the quarter ended April 5, 2026 that materially affected, or are reasonably likely to materially affect, the Company's internal control over financial reporting. The Company continues to review its disclosure controls and procedures, including its internal control over financial reporting, and may from time to time make changes aimed at enhancing their effectiveness and to ensure that the Company’s systems evolve with its business.
+27
+PART II: OTHER INFORMATION
+ITEM 1. LEGAL PROCEEDINGS
+Various claims and legal proceedings generally incidental to the normal course of business are pending or threatened on behalf of or against the Company. While we cannot predict the outcome of these matters, we believe that any liability arising from them will not have a material adverse effect on our financial position, liquidity, or results of operations.
+ITEM 1A. RISK FACTORS
+For a list of factors that could affect the Company’s business, results of operations, and financial condition, see the risk factors discussion provided in Part I—Item 1A of the Annual Report. There have been no material changes to the risk factors included in the Annual Report.
+ITEM 2. UNREGISTERED SALES OF EQUITY SECURITIES AND USE OF PROCEEDS
+The following table sets forth information with respect to purchases by the Company of shares of its common stock during the three-month period ended April 5, 2026:
+Total
+Number
+of Shares
+Purchased
+Average
+Price Paid
+per Share
+Total Number of
+Shares
+Purchased as
+Part of Publicly
+Announced
+Plans or
+Programs
+ (1)
+Approximate
+Dollar Value
+of Shares that
+May Yet Be
+Purchased
+Under the
+Plans or
+Programs
+(1)
+January 01, 2026 - February 01, 2026
+1,375,000 
+$
+39.04 
+1,375,000 
+$
+61,346,000 
+February 02, 2026 - March 01, 2026
+450,000 
+$
+40.72 
+450,000 
+$
+43,023,000 
+March 02, 2026 - April 05, 2026
+550,000 
+49.09 
+550,000 
+16,025,000 
+Total
+2,375,000 
+$
+41.68 
+2,375,000 
+$
+16,025,000 
+(1)
+ In March 2022, the Company's Board of Directors authorized a program providing for the repurchase of $500,000,000 of the Company's common stock (the "Program"). Purchases under the Program commenced in March 2022. On February 11, 2026, the Board authorized the repurchase of an additional $
+500,000,000
+ of the Company's common stock upon completion of the Program. The Company may repurchase shares under these programs in future periods depending on a variety of factors, including, among other things, the impact of dilution from employee stock awards, stock price, share availability, and cash requirements. The Company is authorized to make repurchases of its common stock through open market purchases, pursuant to Rule 10b5-1 trading plans, or in privately negotiated transactions.
+ITEM 3. DEFAULTS UPON SENIOR SECURITIES
+None.
+ITEM 4. MINE SAFETY DISCLOSURES
+Not applicable.
+ITEM 5. OTHER INFORMATION
+During the quarter ended April 5, 2026, none of the Company's directors or officers (as defined in Exchange Act Rule 16a-1(f)) adopted, terminated or modified a Rule 10b5-1 trading arrangement or non-Rule 10b5-1 trading arrangement (as such terms are defined in Item 408 of Regulation S-K).
+28
+ 
+ITEM 6. EXHIBITS
+Exhibit Number
+31.1
+Certification of Principal Executive Officer pursuant to Rule 13a-14(a)/15d-14(a) under the Securities Exchange Act of 1934*
+31.2
+Certification of Principal Financial Officer pursuant to Rule 13a-14(a)/15d-14(a) under the Securities Exchange Act of 1934*
+32.1
+Certification of Principal Executive Officer pursuant to 18 U.S.C. 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002**
+32.2
+Certification of Principal Financial Officer pursuant to 18 U.S.C. 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002**
+101.SCH
+Inline XBRL Taxonomy Extension Schema Document*
+101.CAL
+Inline XBRL Taxonomy Extension Calculation Linkbase Document*
+101.LAB
+Inline XBRL Taxonomy Extension Label Linkbase Document*
+101.PRE
+Inline XBRL Taxonomy Extension Presentation Linkbase Document*
+101.DEF
+Inline XBRL Taxonomy Extension Definition Linkbase Document*
+104
+Cover Page Interactive Data File (formatted as Inline XBRL with applicable taxonomy extension information contained in Exhibits 101.*)
+*
+Filed herewith
+**
+Furnished herewith
+29
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+ 
+Date:
+May 7, 2026
+ 
+COGNEX CORPORATION
+ 
+By:
+/s/ Matthew Moschner
+ 
+Matthew Moschner
+ 
+President and Chief Executive Officer
+ 
+(Principal Executive Officer)
+ 
+By:
+/s/ Dennis Fehr
+ 
+Dennis Fehr
+ 
+Senior Vice President of Finance and Chief Financial Officer
+ 
+(Principal Financial Officer)
+By:
+/s/ Laura MacDonald
+Laura MacDonald
+Vice President of Finance and Principal Accounting Officer
+(Principal Accounting Officer)
+30

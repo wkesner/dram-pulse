@@ -1,0 +1,36 @@
+{
+  "company": "Lumentum",
+  "ticker": "LITE",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001633978",
+  "form": "8-K",
+  "filing_date": "2026-02-03",
+  "accession_number": "0001628280-26-005005",
+  "primary_document": "lite-20260203.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite-20260203.htm",
+  "fiscal_year_end": "0627",
+  "report_date": "2026-02-03",
+  "period_end": "2026-02-03",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:36:36.040008+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "lite_ex991xq2fy26.htm",
+      "path": "data/raw/LITE/000162828026005005/exhibit_99_lite_ex991xq2fy26.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite_ex991xq2fy26.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/LITE/000162828026005005/primary.html",
+    "other": "data/raw/LITE/000162828026005005/other_full.txt"
+  }
+}

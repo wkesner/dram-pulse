@@ -1,0 +1,6044 @@
+AXCELIS TECHNOLOGIES INC_March 31, 2026
+http://fasb.org/us-gaap/2025#OperatingLeaseRightOfUseAsset
+http://fasb.org/us-gaap/2025#FinanceLeaseRightOfUseAsset
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#FinanceLeaseLiabilityCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#FinanceLeaseLiabilityNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+0001113232
+--12-31
+2026
+Q1
+false
+AXCELIS TECHNOLOGIES INC
+true
+P1Y
+http://fasb.org/us-gaap/2025#OperatingLeaseRightOfUseAsset
+http://fasb.org/us-gaap/2025#FinanceLeaseRightOfUseAsset
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#FinanceLeaseLiabilityCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#FinanceLeaseLiabilityNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+P1Y
+http://fasb.org/us-gaap/2025#PrepaidExpenseAndOtherAssetsCurrent
+http://fasb.org/us-gaap/2025#PrepaidExpenseAndOtherAssetsCurrent
+0001113232
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:FairValueInputsLevel2Member
+us-gaap:FairValueMeasurementsRecurringMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:CommonStockMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:CommonStockMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:RetainedEarningsMember
+2026-03-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2026-03-31
+0001113232
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-03-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-03-31
+0001113232
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2026-03-31
+0001113232
+us-gaap:RetainedEarningsMember
+2025-12-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2025-12-31
+0001113232
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-12-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-12-31
+0001113232
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2025-12-31
+0001113232
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-12-31
+0001113232
+us-gaap:RetainedEarningsMember
+2025-03-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2025-03-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-03-31
+0001113232
+us-gaap:RetainedEarningsMember
+2024-12-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2024-12-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-12-31
+0001113232
+us-gaap:USTreasuryAndGovernmentMember
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:USTreasuryAndGovernmentMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:CommonStockMember
+2026-03-31
+0001113232
+us-gaap:CommonStockMember
+2025-12-31
+0001113232
+us-gaap:CommonStockMember
+2025-03-31
+0001113232
+us-gaap:CommonStockMember
+2024-12-31
+0001113232
+srt:NorthAmericaMember
+2026-01-01
+2026-03-31
+0001113232
+srt:EuropeMember
+2026-01-01
+2026-03-31
+0001113232
+srt:AsiaPacificMember
+2026-01-01
+2026-03-31
+0001113232
+acls:AfterMarketMember
+2026-01-01
+2026-03-31
+0001113232
+srt:NorthAmericaMember
+2025-01-01
+2025-03-31
+0001113232
+srt:EuropeMember
+2025-01-01
+2025-03-31
+0001113232
+srt:AsiaPacificMember
+2025-01-01
+2025-03-31
+0001113232
+acls:NewSystemsRevenueMember
+2025-01-01
+2025-03-31
+0001113232
+acls:AfterMarketMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:EmployeeStockMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:EmployeeStockMember
+2025-01-01
+2025-03-31
+0001113232
+acls:SaleAndLeaseBackMember
+2015-01-30
+2015-01-30
+0001113232
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AccumulatedNetUnrealizedInvestmentGainLossMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:SellingAndMarketingExpenseMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:ResearchAndDevelopmentExpenseMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:GeneralAndAdministrativeExpenseMember
+2026-01-01
+2026-03-31
+0001113232
+acls:ProductOrServiceMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:SellingAndMarketingExpenseMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:ResearchAndDevelopmentExpenseMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:GeneralAndAdministrativeExpenseMember
+2025-01-01
+2025-03-31
+0001113232
+acls:ProductOrServiceMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:RetainedEarningsMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:RetainedEarningsMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:USTreasuryAndGovernmentMember
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+us-gaap:USTreasuryAndGovernmentMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+acls:SaleAndLeaseBackMember
+2015-01-30
+0001113232
+srt:MinimumMember
+2026-03-31
+0001113232
+srt:MaximumMember
+2026-03-31
+0001113232
+acls:SaleAndLeaseBackMember
+2026-03-31
+0001113232
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+us-gaap:FairValueInputsLevel2Member
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:ForeignExchangeContractMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+us-gaap:ForeignExchangeContractMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueInputsLevel2Member
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:OperatingSegmentsMember
+acls:SingleReportableSegmentMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:ProductMember
+2026-01-01
+2026-03-31
+0001113232
+acls:ServicesMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:OperatingSegmentsMember
+acls:SingleReportableSegmentMember
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:ProductMember
+2025-01-01
+2025-03-31
+0001113232
+acls:ServicesMember
+2025-01-01
+2025-03-31
+0001113232
+acls:ThirdLargestCustomerMember
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:ThirdLargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:SecondLargestCustomerMember
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:SecondLargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:LargestCustomerMember
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:LargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:FourthLargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+acls:ThirdLargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2025-01-01
+2025-12-31
+0001113232
+acls:SecondLargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2025-01-01
+2025-12-31
+0001113232
+acls:LargestCustomerMember
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2025-01-01
+2025-12-31
+0001113232
+acls:SecondLargestCustomerMember
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2025-01-01
+2025-03-31
+0001113232
+acls:LargestCustomerMember
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2025-01-01
+2025-03-31
+0001113232
+acls:VeecoInstrumentsIncMember
+2025-09-30
+0001113232
+2024-12-31
+0001113232
+acls:MoneyMarketFundsUsGovernmentSecuritiesAndAgencyInvestmentsMember
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+acls:MoneyMarketFundsUsGovernmentSecuritiesAndAgencyInvestmentsMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2026-03-31
+0001113232
+acls:MoneyMarketFundsUsGovernmentSecuritiesAndAgencyInvestmentsMember
+us-gaap:FairValueInputsLevel1Member
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+acls:MoneyMarketFundsUsGovernmentSecuritiesAndAgencyInvestmentsMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-12-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-01
+2025-03-31
+0001113232
+2025-03-31
+0001113232
+2026-05-05
+0001113232
+acls:AfterMarketMember
+srt:MinimumMember
+2026-01-01
+2026-03-31
+0001113232
+acls:AfterMarketMember
+srt:MaximumMember
+2026-01-01
+2026-03-31
+0001113232
+acls:NewSystemsRevenueMember
+srt:MinimumMember
+2026-01-01
+2026-03-31
+0001113232
+acls:NewSystemsRevenueMember
+srt:MaximumMember
+2026-01-01
+2026-03-31
+0001113232
+acls:NewSystemsRevenueMember
+2026-01-01
+2026-03-31
+0001113232
+2025-12-31
+0001113232
+2026-03-31
+0001113232
+2025-01-01
+2025-03-31
+0001113232
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2026-01-01
+2026-03-31
+0001113232
+us-gaap:AccountsReceivableMember
+us-gaap:CreditConcentrationRiskMember
+2025-01-01
+2025-12-31
+0001113232
+us-gaap:SalesRevenueNetMember
+us-gaap:CustomerConcentrationRiskMember
+2025-01-01
+2025-03-31
+0001113232
+acls:VeecoInstrumentsIncMember
+2025-09-30
+0001113232
+2026-01-01
+2026-03-31
+iso4217:USD
+xbrli:pure
+acls:customer
+xbrli:shares
+iso4217:USD
+xbrli:shares
+acls:segment
+Table of Contents
+​
+​
+​
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+​
+FORM 
+10-Q
+​
+(Mark One)
+​
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+​
+For the quarterly period ended
+March 31, 2026
+​
+or
+​
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+​
+For the transition period from               to               
+​
+Commission file number
+000-30941
+​
+AXCELIS TECHNOLOGIES, INC.
+(Exact name of registrant as specified in its charter)
+​
+​
+Delaware
+​
+34-1818596
+(State or other jurisdiction of
+incorporation or organization)
+​
+(IRS Employer
+Identification No.)
+​
+108 Cherry Hill Drive
+Beverly
+,
+Massachusetts
+
+01915
+(Address of principal executive offices, including zip code)
+​
+(
+978
+) 
+787-4000
+(Registrant’s telephone number, including area code)
+​
+Securities registered pursuant to Section 12(b) of the Act:
+​
+​
+​
+​
+Title of each class
+Trading symbol
+Name of each exchange on which registered
+Common Stock, $0.001 par value
+ACLS
+Nasdaq Global Select Market
+​
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.  
+Yes
+ 
+☒
+  No 
+☐
+.
+​
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 
+405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes
+ 
+☒
+  No 
+☐
+.
+​
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+​
+​
+​
+Large accelerated filer
+ 
+☒
+​
+Accelerated filer 
+☐
+Non-accelerated filer 
+☐
+​
+Smaller reporting company 
+☐
+​
+​
+Emerging growth company
+☐
+​
+If an emerging growth company, indicate by check mark if registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+☐
+​
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act) Yes 
+☐
+ No 
+☒
+​
+As of May 5, 2026, there were
+30,733,897
+ shares of the registrant’s common stock outstanding.
+​
+​
+
+Table of Contents
+Table of Contents
+​
+​
+PART I - FINANCIAL INFORMATION
+​
+Item 1.
+Financial Statements (Unaudited)
+​
+​
+Consolidated Statements of Operations for the three months ended March 31, 2026 and 2025
+3
+​
+Consolidated Statements of Comprehensive Income for the three months ended March 31, 2026 and 2025
+4
+​
+Consolidated Balance Sheets as of March 31, 2026 and December 31, 2025
+5
+​
+Consolidated Statements of Stockholders’ Equity for the three months ended March 31, 2026 and 2025
+6
+​
+Consolidated Statements of Cash Flows for the three months ended March 31, 2026 and 2025
+7
+​
+Notes to Consolidated Financial Statements (Unaudited)
+8
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+21
+​
+Overview
+21
+​
+Critical Accounting Estimates
+21
+​
+Results of Operations
+22
+​
+Liquidity and Capital Resources
+26
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+27
+Item 4.
+Controls and Procedures
+27
+PART II - OTHER INFORMATION
+28
+Item 1.
+Legal Proceedings
+28
+Item 1A.
+Risk Factors
+28
+Item 2.
+Unregistered Sales of Equity Securities, Use of Proceeds, and Issuer Purchases of Equity Securities
+29
+Item 3.
+Defaults Upon Senior Securities
+29
+Item 4.
+Mine Safety Disclosures
+29
+Item 5.
+Other Information
+29
+Item 6.
+Exhibits
+30
+​
+​
+​
+2
+
+Table of Contents
+​
+
+PART 1—FINANCIAL INFORMATION
+​
+Item 1.    Financial Statements.
+​
+Axcelis Technologies, Inc.
+Consolidated Statements of Operations
+(In thousands, except per share amounts)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+Revenue:
+​
+​
+​
+​
+​
+​
+​
+Product
+​
+$
+
+188,008
+​
+$
+
+182,824
+​
+Services
+​
+ 
+
+10,948
+​
+ 
+
+9,739
+​
+Total revenue
+​
+ 
+
+198,956
+​
+ 
+
+192,563
+​
+Cost of revenue:
+​
+​
+​
+​
+​
+​
+​
+Product
+​
+ 
+
+105,735
+​
+ 
+
+94,500
+​
+Services
+​
+ 
+
+12,640
+​
+ 
+
+9,295
+​
+Total cost of revenue
+​
+ 
+
+118,375
+​
+ 
+
+103,795
+​
+Gross profit
+​
+ 
+
+80,581
+​
+ 
+
+88,768
+​
+Operating expenses:
+​
+​
+​
+​
+​
+​
+​
+Research and development
+​
+ 
+
+28,516
+​
+ 
+
+27,128
+​
+Sales and marketing
+​
+ 
+
+17,354
+​
+ 
+
+15,124
+​
+General and administrative
+​
+ 
+
+26,761
+​
+ 
+
+17,357
+​
+Total operating expenses
+​
+ 
+
+72,631
+​
+ 
+
+59,609
+​
+Income from operations
+​
+ 
+
+7,950
+​
+ 
+
+29,159
+​
+Other income (expense):
+​
+​
+​
+​
+​
+​
+​
+Interest income
+​
+ 
+
+4,462
+​
+ 
+
+5,601
+​
+Interest expense
+​
+ 
+ (
+1,292
+)
+​
+ 
+ (
+1,367
+)
+​
+Other, net
+​
+ 
+ (
+495
+)
+​
+ 
+ (
+309
+)
+​
+Total other income
+​
+ 
+
+2,675
+​
+ 
+
+3,925
+​
+Income before income taxes
+​
+ 
+
+10,625
+​
+ 
+
+33,084
+​
+Income tax provision
+​
+ 
+
+1,411
+​
+ 
+
+4,505
+​
+Net income
+​
+$
+
+9,214
+​
+$
+
+28,579
+​
+Net income per share:
+​
+​
+​
+​
+​
+​
+​
+Basic
+​
+$
+0.30
+​
+$
+
+0.89
+​
+Diluted
+​
+$
+0.30
+​
+$
+
+0.88
+​
+Shares used in computing net income per share:
+​
+​
+​
+​
+​
+​
+​
+Basic weighted average shares of common stock
+​
+ 
+
+30,723
+​
+ 
+
+32,258
+​
+Diluted weighted average shares of common stock
+​
+ 
+
+30,980
+​
+ 
+
+32,335
+​
+​
+See accompanying Notes to these Consolidated Financial Statements (Unaudited)
+​
+​
+3
+
+Table of Contents
+​
+Axcelis Technologies, Inc.
+Consolidated Statements of Comprehensive Income
+(In thousands)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+Net income
+​
+$
+
+9,214
+​
+$
+
+28,579
+​
+Other comprehensive (loss) income:
+​
+​
+​
+​
+​
+​
+​
+Foreign currency translation adjustments
+​
+ 
+ (
+2,256
+)
+​
+ 
+
+646
+​
+Amortization of actuarial net gain and other adjustments from pension plan
+​
+ 
+ (
+19
+)
+​
+ 
+ —
+​
+Unrealized (losses) gains on available-for-sale investments
+​
+​
+ (
+849
+)
+​
+​
+
+81
+​
+Total other comprehensive (loss) income
+​
+​
+ (
+3,124
+)
+​
+​
+
+727
+​
+Comprehensive income
+​
+$
+
+6,090
+​
+$
+
+29,306
+​
+​
+See accompanying Notes to these Consolidated Financial Statements (Unaudited)
+​
+​
+4
+
+Table of Contents
+​
+Axcelis Technologies, Inc.
+Consolidated Balance Sheets
+(In thousands, except per share amounts)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+March 31,
+  ​ ​ ​
+December 31,
+ 
+​
+​
+2026
+​
+2025
+ 
+ASSETS
+​
+Current assets:
+​
+​
+​
+​
+​
+​
+​
+Cash and cash equivalents
+​
+$
+
+150,829
+​
+$
+
+145,451
+​
+Short-term investments
+​
+ 
+
+215,771
+​
+ 
+
+228,802
+​
+Accounts receivable, net
+​
+ 
+
+161,814
+​
+ 
+
+168,479
+​
+Inventories, net
+​
+ 
+
+326,052
+​
+ 
+
+329,010
+​
+Prepaid income taxes
+​
+​
+
+4,609
+​
+​
+
+4,658
+​
+Prepaid expenses and other current assets
+​
+ 
+
+76,607
+​
+ 
+
+66,802
+​
+Total current assets
+​
+ 
+
+935,682
+​
+ 
+
+943,202
+​
+Property, plant and equipment, net
+​
+ 
+
+57,729
+​
+ 
+
+56,146
+​
+Operating lease assets
+​
+​
+
+27,943
+​
+​
+
+28,927
+​
+Finance lease assets, net
+​
+​
+
+13,835
+​
+​
+
+14,154
+​
+Long-term restricted cash
+​
+ 
+
+10,628
+​
+ 
+
+10,627
+​
+Deferred income taxes
+​
+​
+
+80,514
+​
+​
+
+79,895
+​
+Long-term investments
+​
+​
+
+203,339
+​
+​
+
+182,396
+​
+Other assets
+​
+ 
+
+44,874
+​
+ 
+
+46,004
+​
+Total assets
+​
+$
+
+1,374,544
+​
+$
+
+1,361,351
+​
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+​
+Current liabilities:
+​
+​
+​
+​
+​
+​
+​
+Accounts payable
+​
+$
+
+51,558
+​
+$
+
+42,309
+​
+Accrued compensation
+​
+ 
+
+16,663
+​
+ 
+
+34,233
+​
+Warranty
+​
+ 
+
+9,314
+​
+ 
+
+9,516
+​
+Income taxes
+​
+ 
+
+14,026
+​
+ 
+
+11,383
+​
+Deferred revenue
+​
+ 
+
+68,352
+​
+ 
+
+65,494
+​
+Current portion of finance lease obligation
+​
+ 
+
+1,648
+​
+ 
+
+1,575
+​
+Other current liabilities
+​
+ 
+
+42,353
+​
+ 
+
+33,150
+​
+Total current liabilities
+​
+ 
+
+203,914
+​
+ 
+
+197,660
+​
+Long-term finance lease obligation
+​
+ 
+
+40,310
+​
+ 
+
+40,754
+​
+Long-term deferred revenue
+​
+ 
+
+41,214
+​
+ 
+
+43,445
+​
+Other long-term liabilities
+​
+ 
+
+44,463
+​
+ 
+
+44,815
+​
+Total liabilities
+​
+ 
+
+329,901
+​
+ 
+
+326,674
+​
+Commitments and contingencies (Note 16)
+​
+​
+​
+​
+​
+​
+​
+Stockholders’ equity:
+​
+​
+​
+​
+​
+​
+​
+Common stock, $
+0.001
+ par value,
+75,000
+ shares authorized;
+30,733
+ shares issued and outstanding at March 31, 2026;
+30,717
+ shares issued and outstanding at December 31, 2025
+​
+ 
+
+31
+​
+ 
+
+31
+​
+Additional paid-in capital
+​
+ 
+
+537,185
+​
+ 
+
+533,309
+​
+Retained earnings
+​
+ 
+
+512,753
+​
+ 
+
+503,539
+​
+Accumulated other comprehensive loss
+​
+ 
+ (
+5,326
+)
+​
+ 
+ (
+2,202
+)
+​
+Total stockholders’ equity
+​
+ 
+
+1,044,643
+​
+ 
+
+1,034,677
+​
+Total liabilities and stockholders’ equity
+​
+$
+
+1,374,544
+​
+$
+
+1,361,351
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+See accompanying Notes to these Consolidated Financial Statements (Unaudited)
+​
+5
+
+Table of Contents
+Axcelis Technologies, Inc.
+Consolidated Statements of Stockholders’ Equity
+(In thousands)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Accumulated
+​
+​
+​
+ 
+​
+​
+​
+​
+​
+​
+​
+​
+Additional
+​
+​
+​
+Other
+​
+Total
+ 
+​
+​
+​
+Common Stock
+​
+Paid-in
+​
+Retained
+​
+Comprehensive
+​
+Stockholders’
+ 
+​
+  ​ ​ ​
+​
+Shares
+  ​ ​ ​
+Amount
+  ​ ​ ​
+Capital
+  ​ ​ ​
+Earnings
+  ​ ​ ​
+(Loss)
+  ​ ​ ​
+Equity
+ 
+Balance at December 31, 2024
+​
+​
+
+32,365
+​
+$
+
+32
+​
+$
+
+548,654
+​
+$
+
+470,318
+​
+$
+ (
+6,214
+)
+​
+$
+
+1,012,790
+​
+Net income
+ 
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+28,579
+​
+ 
+ —
+​
+ 
+
+28,579
+​
+Foreign currency translation adjustments
+ 
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+646
+​
+ 
+
+646
+​
+Unrealized gains on available-for-sale investments
+​
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+81
+​
+​
+
+81
+​
+Issuance of common stock on restricted stock units, net of shares withheld
+ 
+​
+
+38
+​
+ 
+ —
+​
+ 
+ (
+1,583
+)
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ (
+1,583
+)
+​
+Stock-based compensation expense
+​
+​
+ —
+​
+ 
+ —
+​
+ 
+
+4,903
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+4,903
+​
+Repurchase of common stock
+ 
+​
+ (
+274
+)
+​
+ 
+ —
+​
+ 
+ (
+4,954
+)
+​
+ 
+ (
+13,224
+)
+​
+ 
+ —
+​
+ 
+ (
+18,178
+)
+​
+Balance at March 31, 2025
+ 
+​
+
+32,129
+​
+$
+
+32
+​
+$
+
+547,020
+​
+$
+
+485,673
+​
+$
+ (
+5,487
+)
+​
+$
+
+1,027,238
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Accumulated
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Additional
+​
+​
+​
+Other
+​
+Total
+​
+​
+​
+Common Stock
+​
+Paid-in
+​
+Retained
+​
+Comprehensive
+​
+Stockholders’
+​
+  ​ ​ ​
+​
+Shares
+  ​ ​ ​
+Amount
+  ​ ​ ​
+Capital
+  ​ ​ ​
+Earnings
+  ​ ​ ​
+(Loss)
+  ​ ​ ​
+Equity
+Balance at December 31, 2025
+​
+​
+
+30,717
+​
+$
+
+31
+​
+$
+
+533,309
+​
+$
+
+503,539
+​
+$
+ (
+2,202
+)
+​
+$
+
+1,034,677
+Net income
+ 
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+9,214
+​
+ 
+ —
+​
+ 
+
+9,214
+Foreign currency translation adjustments
+ 
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ (
+2,256
+)
+​
+ 
+ (
+2,256
+)
+Change in pension obligation
+ 
+​
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ (
+19
+)
+​
+ 
+ (
+19
+)
+Unrealized losses on available-for-sale investments
+​
+​
+ —
+​
+​
+ —
+​
+​
+ —
+​
+​
+ —
+​
+​
+ (
+849
+)
+​
+​
+ (
+849
+)
+Issuance of common stock on restricted stock units, net of shares withheld
+ 
+​
+
+16
+​
+ 
+ —
+​
+ 
+ (
+1,023
+)
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+ (
+1,023
+)
+Stock-based compensation expense
+​
+​
+ —
+​
+ 
+ —
+​
+ 
+
+4,899
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+4,899
+Balance at March 31, 2026
+ 
+​
+
+30,733
+​
+$
+
+31
+​
+$
+
+537,185
+​
+$
+
+512,753
+​
+$
+ (
+5,326
+)
+​
+$
+
+1,044,643
+​
+​
+See accompanying Notes to these Consolidated Financial Statements (Unaudited)
+6
+
+Table of Contents
+ Axcelis Technologies, Inc.
+Consolidated Statements of Cash Flows
+(In thousands)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+Cash flows from operating activities
+​
+​
+​
+​
+​
+​
+​
+Net income
+​
+$
+
+9,214
+​
+$
+
+28,579
+​
+Adjustments to reconcile net income to net cash provided by operating activities:
+​
+​
+​
+​
+​
+​
+​
+Depreciation and amortization
+​
+ 
+
+4,436
+​
+ 
+
+4,309
+​
+Deferred income taxes
+​
+ 
+ (
+658
+)
+​
+ 
+ (
+1,057
+)
+​
+Stock-based compensation expense
+​
+ 
+
+4,899
+​
+ 
+
+4,903
+​
+Provision for doubtful accounts
+​
+​
+
+65
+​
+​
+ —
+​
+Provision for excess and obsolete inventory
+​
+ 
+
+950
+​
+ 
+
+875
+​
+Accretion of discounts and premiums on short-term and long-term investments
+​
+​
+
+39
+​
+​
+ (
+618
+)
+​
+Unrealized currency loss (gain) on foreign denominated transactions
+​
+​
+
+2,930
+​
+​
+ (
+752
+)
+​
+Mark-to-market adjustment on forward exchange contracts
+​
+​
+
+479
+​
+​
+ (
+130
+)
+​
+Changes in operating assets and liabilities:
+​
+​
+​
+​
+​
+​
+​
+Accounts receivable
+​
+ 
+
+5,996
+​
+ 
+
+38,586
+​
+Inventories
+​
+ 
+ (
+3,132
+)
+​
+ 
+ (
+12,386
+)
+​
+Prepaid expenses and other current assets
+​
+ 
+ (
+10,087
+)
+​
+ 
+
+1,311
+​
+Accounts payable and other current liabilities
+​
+ 
+ (
+1,138
+)
+​
+ 
+ (
+25,844
+)
+​
+Deferred revenue
+​
+ 
+
+1,627
+​
+ 
+
+1,106
+​
+Income taxes
+​
+ 
+
+2,878
+​
+ 
+
+2,194
+​
+Other assets and liabilities
+​
+ 
+ (
+359
+)
+​
+ 
+ (
+1,281
+)
+​
+Net cash provided by operating activities
+​
+ 
+
+18,139
+​
+ 
+
+39,795
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash flows from investing activities
+​
+​
+​
+​
+​
+​
+​
+Expenditures for property, plant and equipment and capitalized software
+​
+ 
+ (
+1,839
+)
+​
+ 
+ (
+4,960
+)
+​
+Purchases of short-term and long-term investments
+​
+ 
+ (
+160,696
+)
+​
+ 
+ (
+252,495
+)
+​
+Maturities and sales of short-term investments
+​
+ 
+
+151,896
+​
+ 
+
+297,924
+​
+Net cash (used in) provided by investing activities
+​
+ 
+ (
+10,639
+)
+​
+ 
+
+40,469
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash flows from financing activities
+​
+​
+​
+​
+​
+​
+​
+Net settlement on restricted stock grants
+​
+ 
+ (
+1,023
+)
+​
+ 
+ (
+1,583
+)
+​
+Repurchase of common stock
+​
+ 
+ —
+​
+ 
+ (
+18,178
+)
+​
+Principal payments on finance lease obligation
+​
+​
+ (
+374
+)
+​
+​
+ (
+349
+)
+​
+Net cash used in financing activities
+​
+ 
+ (
+1,397
+)
+​
+ 
+ (
+20,110
+)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Effect of exchange rate changes on cash and cash equivalents
+​
+ 
+ (
+724
+)
+​
+ 
+
+292
+​
+Net increase in cash, cash equivalents and restricted cash
+​
+ 
+
+5,379
+​
+ 
+
+60,446
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash, cash equivalents and restricted cash at beginning of period
+​
+ 
+
+156,078
+​
+ 
+
+131,064
+​
+Cash, cash equivalents and restricted cash at end of period
+​
+$
+
+161,457
+​
+$
+
+191,510
+​
+​
+See accompanying Notes to these Consolidated Financial Statements (Unaudited)
+​
+7
+
+Table of Contents
+Axcelis Technologies, Inc.
+Notes to Consolidated Financial Statements (Unaudited)
+​
+Note 1.  Nature of Business
+​
+Axcelis Technologies, Inc. (“Axcelis” or the “Company”) was incorporated in Delaware in 1995 and is a producer of ion implantation equipment used in the fabrication of semiconductor chips in the United States, Europe and Asia. In addition, we provide extensive worldwide aftermarket service and support, including spare parts, equipment upgrades, used equipment, and maintenance services to the semiconductor industry.
+​
+The accompanying unaudited consolidated financial statements have been prepared in accordance with U.S. generally accepted accounting principles for interim financial information and with the instructions to Form 10-Q and Article 10 of Regulation S-X. Accordingly, they do not include all of the information and footnotes required by generally accepted accounting principles for complete financial statements. In the opinion of management, all adjustments which are of a normal recurring nature and considered necessary for a fair presentation of these financial statements have been included. Operating results for the interim periods presented are not necessarily indicative of the results that may be expected for other interim periods or for the year as a whole.
+​
+The balance sheet at December 31, 2025 has been derived from the audited consolidated financial statements at that date but does not include all the information and footnotes required by generally accepted accounting principles for complete financial statements. As of March 31, 2026, there have been no material changes in the Company’s significant accounting policies. For further information, refer to the consolidated financial statements and footnotes thereto included in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025 (the “2025 Form 10-K”).
+​
+Note 2.  Stock-Based Compensation
+​
+We maintain the Axcelis Technologies, Inc. 2012 Equity Incentive Plan, as amended (the “2012 Equity Plan”), which permits the issuance of options, restricted stock, restricted stock units (“RSUs”) and performance awards to selected employees, directors, and consultants of the Company.
+​
+The 2012 Equity Plan is more fully described in Note 13 to the consolidated financial statements in our 2025 Form 10-K.
+​
+We recognized stock-based compensation expense of $
+4.9
+ million for both the three-month periods ended March 31, 2026 and 2025. These amounts include compensation expense related to RSUs.
+​
+In the three-month periods ended March 31, 2026 and 2025, we issued
+16,000
+ and
+38,459
+ shares of common stock, respectively, upon vesting of RSUs granted under the 2012 Equity Plan. In both the three-month periods ended March 31, 2026 and 2025, we received
+no
+ proceeds in connection with purchases under the 2020 Employee Stock Purchase Plan.
+​
+Note 3.  Leases
+​
+We have operating leases for manufacturing, office space, warehouse space, computer and office equipment and vehicles used in our business operations. We have a finance lease in relation to the 2015 sale-leaseback of our corporate headquarters in Beverly, Massachusetts. We review all agreements to determine if the agreement contains a lease component. An agreement contains a lease component if it provides for the use of a specific physical space or a specific physical item.
+​
+8
+
+Table of Contents
+We recognize operating lease obligations under Accounting Standards Codification Topic 842,
+Leases
+ (“Topic 842”). The guidance in Topic 842 requires recognition of lease assets and related liabilities on a discounted basis using the explicit or implicit discount rate stated within the agreement. We recognize a corresponding right-of-use asset, which is initially determined based upon the net present value of the associated liability and is adjusted for deferred costs and possible impairment, if any. For those lease agreements that do not indicate the applicable discount rate, we use our incremental borrowing rate. We have made the following policy elections: (i) operating leases with an initial term of 12 months or less are not recorded on the consolidated balance sheets; (ii) we recognize lease expense for operating leases on a straight-line basis over the lease term; and (iii) we account for lease components and non-lease components that are fixed payments as one component. Some of our operating leases include one or more
+options to renew
+, with renewal terms that can extend the respective lease term by
+one
+ to
+three years
+. The exercise of lease renewal options is at our sole discretion. For lease extensions that are reasonably certain to occur, we have included the renewal periods in our calculation of the net present value of the lease obligation and related right-of-use asset. Certain leases also include options to purchase the leased property. The depreciable life of certain assets and leasehold improvements is limited by the expected lease term, unless there is a transfer of title or purchase option reasonably certain of exercise. Our lease agreements do not contain any material residual value guarantees or material restrictive covenants. The amounts of operating and finance lease right-of-use assets and related lease obligations recorded within our consolidated balance sheets are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+December 31,
+​
+​
+​
+Leases
+Classification
+​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+ 
+​
+Assets
+​
+​
+(in thousands)
+​
+ 
+​
+Operating leases
+Operating lease assets
+​
+$
+
+27,943
+​
+$
+
+28,927
+​
+​
+​
+Finance lease
+Finance lease assets*
+​
+ 
+
+13,835
+​
+ 
+
+14,154
+​
+​
+​
+Total leased assets
+​
+​
+$
+
+41,778
+​
+$
+
+43,081
+​
+​
+​
+Liabilities
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Current
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Operating
+Other current liabilities
+​
+$
+
+4,649
+​
+$
+
+4,859
+​
+​
+​
+Finance
+Current portion of finance lease obligation
+​
+​
+
+1,648
+​
+​
+
+1,575
+​
+​
+​
+Non-current
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Operating
+Other long-term liabilities
+​
+​
+
+23,897
+​
+​
+
+24,613
+​
+​
+​
+Finance
+Finance lease obligation
+​
+ 
+
+40,310
+​
+ 
+
+40,754
+​
+​
+​
+Total lease liabilities
+​
+​
+$
+
+70,504
+​
+$
+
+71,801
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+*As of March 31, 2026, finance lease assets are recorded net of accumulated depreciation of $
+47.8
+ million and include $
+0.5
+ million of prepaid financing costs. As of December 31, 2025, finance lease assets are recorded net of accumulated depreciation of $
+47.7
+ million and include $
+0.5
+ million of prepaid financing costs.
+​
+​
+​
+​
+Our operating lease office locations support local selling and servicing functions. Our Axcelis Asia Operations Center facility in South Korea is used to manufacture our products for Asia-based customers. We lease a logistics and flex manufacturing center in Beverly, Massachusetts to support our principal product manufacturing operations at our corporate headquarters. Operating lease expense and depreciation and interest expense relating to our finance lease obligation are recognized within our Consolidated Statements of Operations for the three months ended March 31, 2026 and 2025 as follows:
+9
+
+Table of Contents
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+ 
+​
+​
+​
+​
+March 31,
+​
+​
+Lease cost
+Classification
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+ 
+​
+Operating lease cost
+​
+​
+(in thousands)
+ 
+​
+Product / services*
+Cost of revenue
+​
+$
+
+1,684
+​
+$
+
+1,674
+​
+​
+Research and development
+Operating expenses
+​
+ 
+
+280
+​
+ 
+
+219
+​
+​
+Sales and marketing*
+Operating expenses
+​
+ 
+
+535
+​
+ 
+
+444
+​
+​
+General and administrative*
+Operating expenses
+​
+ 
+
+278
+​
+ 
+
+326
+​
+​
+Total operating lease cost
+​
+​
+$
+
+2,777
+​
+$
+
+2,663
+​
+​
+Finance lease cost
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Depreciation of leased assets
+Cost of revenue, Research and development, Sales and marketing and General and administrative
+​
+$
+
+319
+​
+$
+
+321
+​
+​
+Interest on lease liabilities
+Interest expense
+​
+ 
+
+1,121
+​
+ 
+
+1,156
+​
+​
+Total finance lease cost
+​
+​
+$
+
+1,440
+​
+$
+
+1,477
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Total lease cost
+​
+​
+$
+
+4,217
+​
+$
+
+4,140
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+* Product / services, sales and marketing and general and administrative expense also includes short-term lease and variable lease costs of approximately $
+0.7
+ million and $
+0.6
+ million for the three months ended March 31, 2026 and 2025, respectively.
+​
+​
+​
+
+​
+The lease of our corporate headquarters, shown below under finance leases, had an original lease term of
+22 years
+, beginning in January 2015 and expiring in January 2037, with renewal options. All other locations are treated as operating leases, with lease terms ranging from
+one
+ to
+16 years
+. The tables below reflect the minimum cash outflow regarding our current lease obligations as well as the weighted-average remaining lease term and weighted-average discount rates used in our calculation of our lease obligations and right-of-use assets as of March 31, 2026:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Finance
+​
+Operating
+  ​ ​ ​
+Total
+ 
+Maturity of Lease Liabilities
+​
+Leases
+​
+Leases
+​
+Leases
+​
+​
+​
+(in thousands)
+​
+2026
+​
+$
+
+4,514
+​
+$
+
+4,775
+​
+$
+
+9,289
+​
+2027
+​
+ 
+
+6,128
+​
+ 
+
+4,564
+​
+ 
+
+10,692
+​
+2028
+​
+ 
+
+6,251
+​
+ 
+
+3,213
+​
+ 
+
+9,464
+​
+2029
+​
+ 
+
+6,376
+​
+ 
+
+2,650
+​
+ 
+
+9,026
+​
+2030
+​
+​
+
+6,503
+​
+​
+
+2,654
+​
+​
+
+9,157
+​
+Thereafter
+​
+​
+
+42,456
+​
+​
+
+20,217
+​
+​
+
+62,673
+​
+Total lease payments
+​
+$
+
+72,228
+​
+$
+
+38,073
+​
+$
+
+110,301
+​
+Less interest portion*
+​
+​
+ (
+30,270
+)
+​
+​
+ (
+9,527
+)
+​
+​
+ (
+39,797
+)
+​
+Finance lease and operating lease obligations
+​
+$
+
+41,958
+​
+$
+
+28,546
+​
+$
+
+70,504
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+* Finance lease interest calculated using the implied interest rate; operating lease interest calculated using estimated corporate borrowing rate.
+​
+​
+The table above does not include options to renew lease terms that are not reasonably certain of being exercised.
+​
+10
+
+Table of Contents
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+Lease term and discount rate
+  ​ ​ ​
+2026
+​
+Weighted-average remaining lease term (years):
+​
+​
+​
+​
+Operating leases
+​
+​
+10.3
+​
+Finance leases
+​
+ 
+10.8
+​
+Weighted-average discount rate:
+​
+​
+​
+​
+Operating leases
+​
+ 
+5.3
+%
+​
+Finance leases
+​
+ 
+10.5
+%
+​
+​
+​
+​
+​
+​
+​
+Our cash outflows from our operating leases include rent expense and other charges associated with these leases. These cash flows are included within the operating activities section of our statement of cash flows. Our cash flows from our finance lease include both an interest component and a principal component. The table below shows our cash outflows by lease type and related section of our statement of cash flows, as well as the non-cash amount capitalized on our balance sheet in relation to our operating lease right-of-use assets for the three months ended March 31, 2026 and 2025, respectively:
+
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended March 31,
+Cash paid for amounts included in the measurement of lease liabilities
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+​
+​
+(in thousands)
+Operating cash outflows from operating leases
+​
+$
+
+2,777
+​
+$
+
+2,663
+Operating cash outflows from finance leases
+​
+ 
+
+1,121
+​
+ 
+
+1,156
+Financing cash outflows from finance leases
+​
+ 
+
+374
+​
+ 
+
+349
+Operating lease assets obtained in exchange for operating lease liabilities
+​
+ 
+
+489
+​
+ 
+
+500
+Finance lease assets obtained in exchange for new finance lease liabilities
+​
+ 
+ —
+​
+ 
+ —
+​
+​
+​
+​
+​
+​
+​
+​
+
+​
+Note 4.  Revenue
+​
+
+To reflect the organization of our business operations, we divide revenue into two categories: revenue from sales of new systems and revenue arising from the sale of used systems, parts, and labor to customers who own systems, which we refer to as “Aftermarket.”
+​
+Revenue by categories used by management are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+​
+2026
+​
+2025
+​
+​
+​
+(in thousands)
+Systems
+​
+$
+126,326
+
+​
+$
+137,609
+
+​
+Aftermarket
+​
+​
+
+72,630
+​
+​
+
+54,954
+​
+Total Revenue
+​
+$
+198,956
+
+​
+$
+192,563
+
+​
+​
+11
+
+Table of Contents
+We also consider revenue by geography. Revenue is allocated to geographic markets based upon the location to which our products are shipped and in which our services are performed. Revenue in our principal geographic markets is as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+​
+2026
+​
+2025
+​
+​
+​
+(in thousands)
+North America
+​
+$
+22,767
+​
+$
+40,525
+​
+Asia Pacific
+​
+​
+144,418
+​
+​
+134,426
+​
+Europe
+​
+​
+31,771
+​
+​
+17,612
+​
+Total Revenue
+​
+$
+198,956
+​
+$
+192,563
+​
+​
+Our system sales revenue transactions give rise to contract liabilities (in the case of pre-payments and the fair value of goods and services to be delivered after the system delivery, such as installation and certain warranty obligations).
+​
+Contract liabilities are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+December 31,
+​
+​
+2026
+​
+2025
+​
+​
+(in thousands)
+Contract liabilities
+​
+$
+
+109,566
+​
+$
+
+108,939
+​
+​
+​
+​
+​
+​
+​
+​
+Contract liabilities are reflected as deferred revenue on the consolidated balance sheets and include payments received in advance of system sales as well as deferral of revenue from systems sales for installation and other future performance obligations. Contract liabilities are recognized as revenue upon the fulfillment of performance obligations.
+
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+  ​ ​
+​
+​
+2026
+​
+2025
+​
+​
+​
+(in thousands)
+Balance, beginning of the period
+​
+$
+
+108,939
+​
+$
+
+138,174
+​
+    Deferral of revenue
+​
+​
+
+20,663
+​
+​
+
+26,359
+​
+    Other adjustments *
+​
+​
+ (
+450
+)
+​
+​
+ —
+​
+    Recognition of deferred revenue
+​
+​
+ (
+19,586
+)
+​
+​
+ (
+25,209
+)
+​
+Balance, end of the period
+​
+$
+
+109,566
+​
+$
+
+139,324
+​
+​
+*   Adjustment to contracts with customers are assessed to determine if amounts paid by customers represent deferred revenue or liabilities payable to customers and such amounts are accordingly reclassified pursuant to our revenue recognition policy and ASC 606.
+​
+The majority of our system transactions have either (1) payment terms of
+90
+% due upon shipment of the system and
+10
+% due upon acceptance or (2) a pre-shipment deposit ranging from
+20
+% to
+60
+%, with the remainder due upon shipment, less
+10
+% due at acceptance. Aftermarket transaction payment terms typically provide that payment is due either within
+30
+ or
+60 days
+ after the service is provided or parts delivered.
+​
+Note 5.  
+Receivables and Allowances for Credit Losses
+​
+All trade receivables are reported on the consolidated balance sheets at their amortized cost adjusted for any write-offs and net of allowances for credit losses.
+​
+We maintain an allowance for credit losses, which represents an estimate of expected losses over the remaining contractual life of our receivables, considering current market conditions and estimates for supportable forecasts when appropriate. The estimate is a result of our ongoing assessments and evaluations of collectability, historical loss experience, and future expectations in estimating credit losses in our receivable portfolio. We use historical loss experience rates and apply them to a related aging analysis while also considering customer and/or economic risk where appropriate.
+12
+
+Table of Contents
+Determination of the proper amount of allowances requires management to exercise judgment about the timing, frequency and severity of credit losses that could materially affect the provision for credit losses and, as a result, net earnings. The allowance takes into consideration numerous quantitative and qualitative factors that include receivable type, historical loss experience, loss migration, delinquency trends, collection experience, current economic conditions, trade restrictions, estimates for supportable forecasts, when appropriate, and credit risk characteristics.
+​
+We evaluate the credit risk of the customer when extending credit based on a combination of financial and qualitative factors that may affect our customers’ ability to pay. These factors may include the customer’s financial condition, past payment experience, and credit bureau report, as well as the value of the underlying collateral.
+​
+Management performs detailed reviews of our receivables on a quarterly basis to assess the adequacy of the allowances and to determine if any impairment has occurred. Amounts determined to be uncollectable are charged directly against the allowances, while amounts recovered on previously written-off accounts increase the allowances. Changes to the allowances for credit losses are maintained through adjustments to the provision for credit losses, which are charged to current period earnings. We recorded $
+0.1
+ million of bad debt expense for the three-month period ended March 31, 2026. We did
+no
+t incur any credit losses or recoveries for the three-month period ended March 31, 2025. As of both March 31, 2026 and March 31, 2025, we had
+no
+ allowance for credit losses.
+​
+​
+Note 6.  Computation of Net Earnings per Share
+​
+Basic earnings per share is computed by dividing income available to common stockholders (the numerator) by the weighted-average number of shares of common stock outstanding (the denominator) for the period. The computation of diluted earnings per share is similar to basic earnings per share, except that the denominator is increased by the number of additional shares of common stock that would have been outstanding if the potentially dilutive shares of common stock issuable on vesting of RSUs had been issued, calculated using the treasury stock method.
+​
+The components of net earnings per share are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands, except per share amounts)
+​
+Net income available to common stockholders
+​
+$
+
+9,214
+​
+$
+
+28,579
+​
+Weighted average shares of common stock outstanding used in computing basic income per share
+​
+ 
+
+30,723
+​
+ 
+
+32,258
+​
+Incremental RSUs
+​
+ 
+
+257
+​
+ 
+
+77
+​
+Weighted average shares of common stock used in computing diluted net income per share
+​
+ 
+
+30,980
+​
+ 
+
+32,335
+​
+Net income per share
+​
+​
+​
+​
+​
+​
+​
+Basic
+​
+$
+
+0.30
+​
+$
+
+0.89
+​
+Diluted
+​
+$
+
+0.30
+​
+$
+
+0.88
+​
+​
+​
+Diluted weighted average shares of common stock outstanding does not include
+15,643
+ and
+325,364
+ common equivalent shares issuable with respect to outstanding equity awards for the three-month periods ended March 31, 2026 and 2025, respectively, as their effect would have been anti-dilutive.
+​
+​
+13
+
+Table of Contents
+Note 7.  Accumulated Other Comprehensive Loss
+​
+The following table presents the changes in accumulated other comprehensive loss, by component, for the three months ended March 31, 2026:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Unrealized gains (losses) on
+  ​ ​ ​
+​
+​
+ 
+​
+​
+Foreign
+  ​ ​ ​
+Defined benefit
+​
+available-for-sale
+​
+​
+​
+​
+​
+​
+currency
+​
+pension plan
+​
+ investments
+​
+Total
+ 
+​
+​
+(in thousands)
+ 
+Balance at December 31, 2025
+​
+$
+ (
+2,657
+)
+​
+$
+
+19
+​
+$
+
+436
+​
+$
+ (
+2,202
+)
+​
+Other comprehensive income and reclassifications
+​
+ 
+ (
+2,256
+)
+​
+ 
+ (
+19
+)
+​
+ 
+ (
+849
+)
+​
+ 
+ (
+3,124
+)
+​
+Balance at March 31, 2026
+​
+$
+ (
+4,913
+)
+​
+$
+ —
+​
+$
+ (
+413
+)
+​
+$
+ (
+5,326
+)
+​
+​
+​
+​
+Note 8.  Cash, cash equivalents and restricted cash
+​
+The following table provides a reconciliation of cash balances on hand, cash equivalents, which include short-term investments having a maturity of 90 days or less at time of purchase, and restricted cash reported within the consolidated balance sheets to the total of the amounts shown in the statement of cash flows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+December 31,
+​
+​
+2026
+​
+​
+2025
+​
+​
+(in thousands)
+​
+Cash and cash equivalents
+$
+150,829
+
+​
+$
+145,451
+
+​
+Long-term restricted cash
+​
+10,628
+
+​
+​
+10,627
+
+​
+Total cash, cash equivalents and restricted cash
+$
+161,457
+
+​
+$
+156,078
+
+​
+​
+As of March 31, 2026, we had $
+10.6
+ million in restricted cash representing the total of (i) a $
+5.9
+ million cash collateralized letter of credit serving as a security deposit for our headquarters lease in Beverly, Massachusetts, (ii) a $
+3.9
+ million letter of credit for customs purposes, (iii) a $
+0.7
+ million cash collateralized letter of credit relating to workers’ compensation insurance and (iv) a $
+0.1
+ million deposit relating to customs activity. See Note 12 for further discussion on the $
+5.9
+ million cash collateralized letter of credit.
+​
+Note 9.  Inventories, net
+​
+The components of inventories are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31,
+​
+December 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands)
+​
+Raw materials
+​
+$
+
+265,737
+​
+$
+
+259,039
+​
+Work in process
+​
+ 
+
+47,130
+​
+ 
+
+51,761
+​
+Finished goods (completed systems)
+​
+ 
+
+13,185
+​
+ 
+
+18,210
+​
+Inventories, net
+​
+$
+
+326,052
+​
+$
+
+329,010
+​
+​
+When recorded, inventory reserves reduce the carrying value of inventories to their net realizable value. We establish inventory reserves when conditions exist that indicate inventory may be in excess of anticipated demand or is obsolete based upon assumptions about future demand for our products or market conditions. We regularly evaluate the ability to realize the value of inventories based on a combination of factors including the following: forecasted sales or usage, estimated product end of life dates, estimated current and future market value and new product introductions. Purchasing and usage alternatives are also explored to mitigate inventory exposure.
+​
+Note 10.  Product Warranty
+​
+We generally offer a
+one-year
+ warranty for all of our systems, the terms and conditions of which vary depending upon the product sold. For all systems sold, we accrue a liability for the estimated cost of standard warranty at the time of
+14
+
+Table of Contents
+system shipment and, if applicable, defer the portion of systems revenue attributable to non-standard warranty. Costs for non-standard warranty are expensed as incurred. Factors that affect our warranty liability include the number of installed units, historical and anticipated product failure rates, material usage and service labor costs. We periodically assess the adequacy of our recorded liability and adjust the amount as necessary.
+​
+The changes in our standard product warranty liability are as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+March 31,
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+​
+​
+(in thousands)
+​
+Balance at January 1 (beginning of year)
+​
+$
+
+11,587
+​
+$
+
+15,183
+​
+Warranties issued during the period
+​
+ 
+
+3,208
+​
+ 
+
+2,165
+​
+Settlements made during the period
+​
+ 
+ (
+1,680
+)
+​
+ 
+ (
+3,298
+)
+​
+Changes in estimate of liability for pre-existing warranties during the period
+​
+ 
+ (
+1,710
+)
+​
+ 
+ (
+396
+)
+​
+Balance at March 31 (end of period)
+​
+$
+
+11,405
+​
+$
+
+13,654
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Amount classified as current
+​
+$
+
+9,314
+​
+$
+
+11,882
+​
+Amount classified as long-term (within other long-term liabilities)
+​
+ 
+
+2,091
+​
+ 
+
+1,772
+​
+Total warranty liability
+​
+$
+
+11,405
+​
+$
+
+13,654
+​
+​
+​
+Note 11.  Fair Value Measurements
+​
+Fair value is defined as the price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants on the measurement date.
+​
+(a)  Fair Value Hierarchy
+​
+The accounting guidance for fair value measurement requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. The standard establishes a fair value hierarchy based on the level of independent, objective evidence surrounding the inputs used to measure fair value. A financial instrument’s categorization within the fair value hierarchy is based upon the lowest level of input that is significant to the fair value measurement. The fair value hierarchy is as follows:
+​
+Level 1
+ - applies to assets or liabilities for which there are quoted prices in active markets for identical assets or liabilities.
+​
+Level 2
+ - applies to assets or liabilities for which there are inputs other than quoted prices that are observable for the asset or liability, such as quoted prices for similar assets or liabilities in active markets; quoted prices for identical assets or liabilities in markets with insufficient volume or infrequent transactions (less active markets); or model-derived valuations in which significant inputs are observable or can be derived principally from, or corroborated by, observable market data.
+​
+Level 3
+ - applies to assets or liabilities for which there are unobservable inputs to the valuation methodology that are significant to the measurement of the fair value of the assets or liabilities.
+​
+(b)  Fair Value Measurements
+
+​
+Our money market funds and short-term investments with initial maturities of three months or less are included in cash and cash equivalents in the consolidated balance sheets. Other investments that have a maturity of greater than three months but less than one year are included within short-term investments in the consolidated balance sheets. Investments that have a maturity of greater than one year are included within long-term investments in the consolidated balance sheets.
+​
+15
+
+Table of Contents
+The following tables set forth our assets which are measured at fair value by level within the fair value hierarchy:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+March 31, 2026
+ 
+​
+​
+Fair Value Measurements
+ 
+​
+  ​ ​ ​
+Level 1
+  ​ ​ ​
+Level 2
+  ​ ​ ​
+Level 3
+  ​ ​ ​
+Total
+ 
+​
+​
+(in thousands)
+ 
+Assets
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash equivalents and other short-term investments:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash equivalents (money market funds, U.S. Government Securities and Agency Investments)
+​
+$
+
+115,195
+​
+$
+ —
+​
+$
+ —
+​
+$
+
+115,195
+​
+Short-term investments (U.S. Government Securities and Agency Investments)
+​
+​
+
+215,771
+​
+​
+ —
+​
+​
+ —
+​
+​
+
+215,771
+​
+Mark-to-market adjustment on forward exchange contracts
+​
+​
+ —
+​
+​
+ (
+479
+)
+​
+​
+ —
+​
+​
+ (
+479
+)
+​
+Long-term investments (U.S. Government Securities and Agency Investments)
+​
+​
+
+203,339
+​
+​
+ —
+​
+​
+ —
+​
+​
+
+203,339
+​
+Total
+​
+$
+
+534,305
+​
+$
+ (
+479
+)
+​
+$
+ —
+​
+$
+
+533,826
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+December 31, 2025
+ 
+​
+​
+Fair Value Measurements
+ 
+​
+  ​ ​ ​
+Level 1
+  ​ ​ ​
+Level 2
+  ​ ​ ​
+Level 3
+  ​ ​ ​
+Total
+ 
+​
+​
+(in thousands)
+ 
+Assets
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash equivalents and other short-term investments:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Cash equivalents (money market funds, U.S. Government Securities and Agency Investments)
+​
+$
+
+93,348
+​
+$
+ —
+​
+$
+ —
+​
+$
+
+93,348
+​
+Short-term investments (U.S. Government Securities and Agency Investments)
+​
+​
+
+228,802
+​
+​
+ —
+​
+​
+ —
+​
+​
+
+228,802
+​
+Mark-to-market adjustment on forward exchange contracts
+​
+​
+ —
+​
+​
+
+435
+​
+​
+ —
+​
+​
+
+435
+​
+Long-term investments (U.S. Government Securities and Agency Investments)
+​
+​
+
+182,396
+​
+​
+ —
+​
+​
+ —
+​
+​
+
+182,396
+​
+Total
+​
+$
+
+504,546
+​
+$
+
+435
+​
+$
+ —
+​
+$
+
+504,981
+​
+​
+The following table summarizes the contractual maturities of our cash equivalents and investments as of March 31, 2026:
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Amortized Cost
+  ​ ​ ​
+Fair Value
+​
+​
+(in thousands)
+Due within one year
+​
+$
+
+330,946
+​
+$
+
+330,966
+Due after one year through two years
+​
+ 
+
+203,773
+​
+ 
+
+203,339
+Total
+​
+$
+
+534,719
+​
+$
+
+534,305
+​
+(c)  Other Financial Instruments
+​
+The carrying amounts reflected in the consolidated balance sheets for accounts receivable, prepaid expenses, forward currency exchange contracts and other current assets and non-current assets, restricted cash, accounts payable and accrued expenses approximate fair value due to their short-term maturities.
+​
+(d)  Forward Currency Exchange Contracts
+​
+We enter into forward currency exchange contracts to minimize the impact of foreign currency fluctuations on our earnings and cash flows. These contracts have month-to-month settlement dates. Any gains or losses on these contracts are reported within Other, net in our Consolidated Statement of Operations. Any open contracts at period end that have settlement dates within one month after the reported period end are marked-to-market and the valuation adjustments related to these open contracts are recorded in the current asset or current liability account. Any unrealized gain or loss on the open contracts is recognized and recorded within Other, net in our Consolidated Statement of Operations. These contracts are measured at fair value using observable market inputs such as forward currency exchange rates and our counterparties’
+16
+
+Table of Contents
+credit risks. Based on these inputs, the derivative instruments are classified within Level 2 of the valuation hierarchy. At March 31, 2026, the recognized unrealized loss on these forward exchange contracts was approximately $
+0.5
+ million. Based on our continued ability to trade and enter into forward contracts, we consider the markets for our fair value instruments to be active. We evaluated the credit risk associated with the counterparties to these derivative instruments and determined that as of March 31, 2026, such credit risks have not had an adverse impact on the fair value of these instruments.
+​
+Note 12.  Financing Arrangements
+​
+On January 30, 2015, we sold our corporate headquarters facility in Beverly, Massachusetts for $
+48.9
+ million. As part of the sale, we also entered into a
+22-year
+ lease agreement of our headquarters facility. This sale-leaseback is accounted for as a finance lease under generally accepted accounting principles and, as such, we have recorded a finance lease obligation of $
+42.0
+ million as of March 31, 2026. The associated lease payments include both an interest component and payment of principal, with the remaining liability being extinguished at the end of the original lease term. As of March 31, 2026, we had a security deposit of $
+5.9
+ 
+million related to this lease in the form of a cash collateralized letter of credit, which is classified as long-term restricted cash on our balance sheet.
+​
+Note 13.  Income Taxes
+​
+Income tax expense was $
+1.4
+ million for the three months ended March 31, 2026, compared to $
+4.5
+ million for the three months ended March 31, 2025. The $
+3.1
+ million decrease was primarily due to the decrease in pre-tax book income. The reported effective tax rate (“ETR”) for the three months ended March 31, 2026 was
+13.3
+% compared to
+13.6
+% for the three months ended March 31, 2025. The ETR for the three months ended March 31, 2026 was less than the U.S. statutory rate of
+21
+% primarily attributable to the Foreign Derived Intangible Income deduction and Federal research and development tax credits.
+​
+On July 4, 2025, legislation known as the One Big Beautiful Bill Act (OBBBA) was signed into law.  The OBBBA includes significant provisions, such as the permanent extension of certain expiring provisions of the Tax Cuts and Jobs Act. The legislation has multiple effective dates, with certain provisions effective in 2025 and others being implemented through 2027. The impacts of the portions of the OBBBA that have come into effect are reflected in our results for the quarter ended March 31, 2026. We will continue to evaluate the full impact of these legislative changes as additional guidance becomes available.
+​
+Note 14.  Concentration of Risk
+​
+For the three months ended March 31, 2026,
+three
+ customers accounted for
+19.8
+%,
+13.7
+%, and
+10.7
+% of total revenue, respectively. For the three months ended March 31, 2025,
+two
+ customers accounted for
+15.3
+% and
+15.2
+% of total revenue, respectively.
+​
+At March 31, 2026,
+four
+ customers accounted for
+14.6
+%,
+11.1
+%,
+10.7
+%, and
+10.5
+% of accounts receivable, respectively. At December 31, 2025,
+three
+ customers accounted for
+14.7
+%,
+13.5
+%, and
+10.3
+% of accounts receivable, respectively.
+​
+Note 15.  Share Repurchase
+​
+In March 2025, our Board of Directors approved an additional funding of $
+100
+ million for our stock repurchase program.  This approval brings the current outstanding repurchase authorization to
+$
+215
+ million, with $
+110
+ million available for future stock repurchases as of March 31, 2026.  During the three months ended March 31, 2026,
+no
+ shares of common stock were repurchased. The timing and actual number of any additional shares to be repurchased under this program will depend on various factors including price, corporate and regulatory requirements, alternative investment opportunities and other market conditions.
+​
+Repurchased shares are accounted for when the transaction is settled and returned to the status of authorized but unissued shares. Accordingly, on our balance sheet, the repurchase price is deducted from common stock par value and from additional paid-in capital for the excess over par value. If additional paid-in capital has been exhausted, the excess
+17
+
+Table of Contents
+over par value is deducted from retained earnings. Direct costs incurred to acquire the shares are included in the total cost of the shares.
+​
+​
+Note 16.  Contingencies
+​
+(a)  Litigation
+​
+We are from time to time a party to litigation that arises in the normal course of our business operations. We are not presently a party to any litigation that we believe might have a material adverse effect on our business operations.
+​
+(b)  Indemnifications
+​
+Our system sales agreements typically include provisions under which we agree to take certain actions, provide certain remedies and defend our customers against third-party claims of intellectual property infringement under specified conditions and indemnify customers against any damage and costs awarded in connection with such claims. We have not incurred any material costs as a result of such indemnifications and have not accrued any liabilities related to such obligations in the accompanying consolidated financial statements.
+​
+Note 17.  Business Segment
+​
+The Company operates as
+one
+ operating segment. The Company’s chief operating decision maker (“CODM”) is our chief executive officer, who assesses financial performance for the Company and decides how to allocate resources based on consolidated net income. Segment asset information is provided to the CODM but it is not used to allocate resources.
+​
+The following table presents selected financial information with respect to the Company’s single operating segment for the three months ended March 31, 2026 and 2025:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended  March 31,
+​
+​
+​
+2026
+  ​ ​ ​
+2025
+​
+​
+​
+(in thousands)
+​
+Revenue:
+​
+$
+198,956
+
+​
+$
+192,563
+
+​
+Less:
+​
+​
+​
+​
+​
+​
+​
+Cost of revenue
+​
+​
+118,375
+
+​
+​
+103,795
+
+​
+Research and development
+​
+​
+28,516
+
+​
+​
+27,128
+
+​
+Sales and marketing
+​
+​
+17,354
+
+​
+​
+15,124
+
+​
+General and administrative
+​
+​
+26,761
+
+​
+​
+17,357
+
+​
+Total other income
+​
+​
+2,675
+
+​
+​
+3,925
+
+​
+Income tax provision
+​
+​
+1,411
+
+​
+​
+4,505
+
+​
+Segment Net Income
+​
+​
+9,214
+
+​
+​
+28,579
+
+​
+Reconciliation of profit or loss Adjustments and reconciling items
+​
+​
+ -
+​
+​
+ -
+​
+Net income
+​
+$
+
+9,214
+​
+$
+
+28,579
+​
+​
+The above table includes depreciation expense and amortization expense of $
+4.4
+ million and $
+4.3
+ million for the three month periods ended March 31, 2026 and 2025, respectively.
+​
+Note 18.  Recent Accounting Guidance
+​
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update 2024-03, Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses (“ASU 2024-03”). ASU 2024-03 is intended to enhance the disclosures for expenses for all public entities in accordance with ASC Topic 220, Income Statement-Reporting Comprehensive Income. ASU 2024-03 addresses investor requests for more detailed information about expenses, specifically cost of sales and selling, general, and administrative expenses. ASU 2024-03 requires a public entity to disclose the amounts of (a) purchases of inventory, (b) employee compensation, (c) depreciation, (d) intangible asset amortization, and (e) depreciation,
+18
+
+Table of Contents
+depletion, and amortization recognized as part of oil- and gas-producing activities (or other amounts of depletion expense) included in each relevant expense caption presented on the face of the income statement as well as a qualitative description of the amounts remaining in the relevant expense captions that are not separately disaggregated quantitatively. ASU 2024-03 also requires a public entity to disclose the total amount of selling expenses and the entity’s definition of selling expenses. ASU 2024-03 is effective for fiscal years beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027. Early adoption is permitted. A public entity should apply ASU 2024-03 either prospectively to financial statements issued for reporting periods after the effective date of this ASU or retrospectively to all prior periods presented in the financial statements. The Company is currently evaluating the impact of ASU 2024-03 on its future consolidated financial statements and related disclosures.
+​
+In September 2025, the FASB issued Accounting Standards Update 2025-06,
+ Intangibles – Goodwill and Other – Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software
+ (“ASU 2025-06”). ASU 2025-06 requires companies to start capitalizing eligible software costs when management has authorized and committed to funding the software project, and it is probable that the project will be completed and the software will be used to perform the function intended. The guidance is effective for annual reporting periods beginning after December 15, 2027, and interim reporting periods within those annual reporting periods. Early adoption is permitted and may be applied using a prospective, retrospective or modified transition approach. The Company is currently evaluating the impact of ASU 2025-06 on its future consolidated financial statements and related disclosures.
+​
+In September 2025, the FASB issued Accounting Standards Update 2025-07
+, Derivatives and Hedging (Topic 815) and Revenue from Contracts with Customers (Topic 606) – Derivatives Scope Refinements and Scope Clarification for Share-Based Noncash Consideration from a Customer in a Revenue Contract
+(“ASU 2025-07”). ASU 2025-07 applies to all entities that enter into non-exchange-traded contracts with underlyings based on operations or activities specific to one of the parties to the contract. The new guidance excludes from derivative accounting non-exchange-traded contracts with underlyings that are based on operations or activities specific to one of the parties to the contract. ASU 2025-07 is effective for annual reporting periods beginning after December 15, 2026, and interim periods within those annual reporting periods. Early adoption is permitted. The Company is currently evaluating the impact of ASU 2025-07 on its future consolidated financial statements and related disclosures.
+​
+In December 2025, the FASB issued Accounting Standards Update 2025-11
+, Interim Reporting (Topic 270) – Narrow-Scope Improvements
+(“ASU 2025-11”). ASU 2025-11 applies to all entities that provide interim financial statements and notes in accordance with generally accepted accounting principles. The new guidance improves the navigability of the required interim disclosures, clarifies when that guidance is applicable and provides additional guidance on what disclosures should be provided in interim reporting periods. ASU 2025-11 also adds a principle that requires entities to disclose events since the end of the last annual reporting period that have a material impact on the entity. ASU 2025-11 is effective for interim and annual reporting periods beginning after December 15, 2027. Early adoption is permitted. The Company is currently evaluating the impact of ASU 2025-11 on its future consolidated financial statements and related disclosures.
+​
+​
+Note 19.  Merger
+​
+On September 30, 2025, the Company, Victory Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of the Company (“Merger Sub”), and Veeco Instruments Inc., a Delaware corporation (“Veeco”), entered into an Agreement and Plan of Merger (the “Merger Agreement”). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, Merger Sub shall be merged with and into Veeco (the “Merger”), with Veeco surviving as a wholly-owned subsidiary of the Company.
+​
+At the effective time of the Merger (the “Effective Time”), each share of common stock, par value $
+0.01
+ per share, of Veeco, issued and outstanding immediately prior to the Effective Time (other than shares that are owned by the Company, Veeco or Merger Sub or any wholly owned subsidiary of the Company, Veeco or Merger Sub) will be converted into the right to receive
+0.3575
+ newly issued shares of Company common stock (the “Company Common Stock”) (the “Common Stock Merger Consideration”). No fractional shares of the Company will be issued in the Merger, and Veeco
+19
+
+Table of Contents
+stockholders will receive cash in lieu of fractional shares as part of the merger consideration, as specified in the Merger Agreement.
+The Merger Agreement may be terminated upon the mutual written consent of Axcelis and Veeco. In addition, either Axcelis or Veeco may terminate the Merger Agreement in certain circumstances, including if (a) certain governmental entities have issued a final and non-appealable governmental order or enacted a law prohibiting the Merger or making the closing of the Merger illegal, (b) the Merger is not consummated by September 30, 2026, subject to successive automatic extensions until as late as June 30, 2027 if the only remaining conditions to be satisfied are regulatory approvals, (c)  the other party is in breach of the Merger Agreement in a manner that would result in a failure of an applicable closing condition (subject to the applicable cure period set forth in the Merger Agreement) or (d) the other party’s board of directors has changed its recommendation with respect to the Merger.
+ 
+If the Merger Agreement is terminated by a party following a recommendation change of the board of directors of the other party, the non-terminating party will be required to pay the other party the following termination fee: (i) if the non-terminating party is Axcelis, a termination fee of
+$
+108.7
+ million; and (ii) if the non-terminating party is Veeco, a termination fee of
+$
+77.5
+ million. Each party may also be required to pay such termination fee if such party enters into a competing proposal within twelve months of termination of the Merger Agreement under certain circumstances. In addition, if the Merger Agreement is terminated by a party due to the other party’s breach of the Merger Agreement that would result in a failure of an applicable closing condition (subject to the applicable cure period set forth in the Merger Agreement), then the non-terminating party will be required to pay a fixed expense reimbursement amount of
+$
+15.0
+ million.
+At a special meeting of stockholders held on February 6, 2026, Axcelis stockholders approved the issuance of shares of Company Common Stock in connection with the Merger.
+The completion of the Merger remains subject to other customary closing conditions, including the final pending regulatory approval from the State Administration for Market Regulation of the People’s Republic of China. Axcelis and Veeco continue to expect that the Merger will be completed in the second half of 2026.
+20
+
+Table of Contents
+Item 2.  Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+​
+Certain statements in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” are forward-looking statements that involve risks and uncertainties. Words such as may, will, should, would, anticipates, expects, intends, plans, believes, seeks, estimates and similar expressions identify such forward-looking statements. The forward-looking statements contained herein are based on current expectations and entail various risks and uncertainties that could cause actual results to differ materially from those expressed in such forward-looking statements. Factors that might cause such a difference include, among other things, those set forth under “Liquidity and Capital Resources” and “Risk Factors” and others discussed elsewhere in this Quarterly Report on Form 10-Q. Readers are cautioned not to place undue reliance on these forward-looking statements, which reflect management’s analysis only as of the date hereof. We assume no obligation to update these forward-looking statements to reflect actual results or changes in factors or assumptions affecting forward-looking statements, except as may be required by law.
+​
+Overview
+​
+We are primarily a producer of ion implantation equipment used in the fabrication of semiconductor chips in the United States, Europe, and Asia. In addition, we provide extensive worldwide aftermarket service and support, including spare parts, equipment upgrades and maintenance services to the semiconductor industry. Our product development and manufacturing activities currently occur primarily in the United States and South Korea. Our equipment and service products are highly technical and are sold through a direct sales force in the United States, Europe, and Asia. Consolidation and partnering within the semiconductor manufacturing industry has resulted in a small number of customers representing a substantial portion of our business. Our ten largest customers accounted for 72.9% of total revenue for the three months ended March 31, 2026.
+​
+Sales of our systems in the first three months of 2026 were down compared to the same period in the prior year, as customers have moderated the pace of investments into mature process node technologies. During the three months ended March 31, 202
+6, the overall mature process segment represented 68% of our shipped systems revenue, with the remainder represented by 32% of shipments to dynamic random-access memory (“DRAM”) applications. Of the mature process segment, power device shipments comprised 35% of total systems revenue with the general mature segment representing 33%, which includes image sensor applications.
+​
+On September 30, 2025, the Company, Victory Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of the Company (“Merger Sub”), and Veeco Instruments Inc., a Delaware corporation (“Veeco”), entered into an Agreement and Plan of Merger (the “Merger Agreement”). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, Merger Sub shall be merged with and into Veeco (the “Merger”), with Veeco surviving as a wholly-owned subsidiary of the Company. For further information regarding the Merger, see Note 19 to the consolidated financial statements included in this report. On February 6, 2026, Axcelis held a special meeting of stockholders at which the Company Stock Issuance was approved. The completion of the Merger remains subject to other customary closing conditions, including the final pending regulatory approval from the State Administration for Market Regulation of the People’s Republic of China. Axcelis and Veeco continue to expect that the Merger will be completed in the second half of 2026.
+​
+Critical Accounting Estimates
+​
+Management’s discussion and analysis of our financial condition and results of operations included herein and in our 2025 Form 10-K are based upon our consolidated financial statements, which have been prepared in accordance with accounting principles generally accepted in the United States. The preparation of these financial statements requires management to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses and related disclosure of contingent assets and liabilities. On an ongoing basis, we evaluate our estimates and assumptions. Management’s estimates are based on historical experience and on various other assumptions that are believed to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may differ from these estimates under different assumptions or conditions.
+​
+21
+
+Table of Contents
+Management has not identified any need to make any material change in, and has not changed, any of our critical accounting estimates and judgments as described in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” included in our 2025 Form 10-K.
+​
+Results of Operations
+​
+The following table sets forth our results of operations as a percentage of total revenue:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+​
+March 31,
+​
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+  ​ ​ ​
+Revenue:
+​
+​
+​
+​
+​
+​
+Product
+​
+ 94.5
+%
+ 94.9
+%
+​
+Services
+ 
+ 5.5
+ 
+ 5.1
+ 
+ 
+Total revenue
+ 
+ 100.0
+ 
+ 100.0
+ 
+ 
+Cost of revenue:
+​
+​
+​
+​
+​
+​
+Product
+ 
+ 53.1
+ 
+ 49.1
+ 
+ 
+Services
+ 
+ 6.4
+ 
+ 4.8
+ 
+ 
+Total cost of revenue
+ 
+ 59.5
+ 
+ 53.9
+ 
+ 
+Gross profit
+ 
+ 40.5
+ 
+ 46.1
+ 
+ 
+Operating expenses:
+​
+​
+​
+​
+​
+​
+Research and development
+ 
+ 14.3
+ 
+ 14.1
+ 
+ 
+Sales and marketing
+ 
+ 8.7
+ 
+ 7.9
+ 
+ 
+General and administrative
+ 
+ 13.5
+ 
+ 9.0
+ 
+ 
+Total operating expenses
+ 
+ 36.5
+ 
+ 31.0
+ 
+ 
+Income from operations
+ 
+ 4.0
+ 
+ 15.1
+ 
+ 
+Other income (expense):
+​
+​
+​
+​
+​
+​
+Interest income
+ 
+ 2.2
+ 
+ 2.9
+ 
+ 
+Interest expense
+ 
+ (0.6)
+ 
+ (0.7)
+ 
+ 
+Other, net
+ 
+ (0.2)
+ 
+ (0.2)
+ 
+ 
+Total other income
+ 
+ 1.4
+ 
+ 2.0
+ 
+ 
+Income before income taxes
+ 
+ 5.4
+ 
+ 17.1
+ 
+ 
+Income tax provision
+ 
+ 0.7
+ 
+ 2.3
+ 
+ 
+      Net income
+​
+ 4.7
+%
+ 14.8
+%
+​
+​
+Revenue
+​
+The following table sets forth our product and services revenue:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+Change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%  
+ 
+​
+​
+(dollars in thousands)
+​
+Revenue:
+  ​ ​ ​
+​
+  ​ ​ ​
+  ​ ​ ​
+​
+  ​ ​ ​
+  ​ ​ ​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+Product
+​
+$
+ 188,008
+​
+$
+ 182,824
+​
+$
+ 5,184
+​
+ 2.8
+%
+​
+Percentage of revenue
+​
+​
+ 94.5
+%
+  
+​
+ 94.9
+%
+  
+​
+​
+​
+​
+​
+​
+Services
+​
+ 
+ 10,948
+​
+ 
+ 9,739
+​
+​
+ 1,209
+​
+ 12.4
+%
+​
+Percentage of revenue
+​
+​
+ 5.5
+%
+  
+​
+ 5.1
+%
+  
+​
+​
+​
+​
+​
+​
+Total revenue
+​
+$
+ 198,956
+​
+$
+ 192,563
+​
+$
+ 6,393
+​
+ 3.3
+%
+​
+​
+Product
+​
+Product revenue, which includes systems sales, sales of spare parts, product upgrades and used systems, was $188.0 million, or 94.5% of revenue, during the three months ended March 31, 2026, compared with $182.8 million, or
+22
+
+Table of Contents
+94.9% of revenue, for the three months ended March 31, 2025. The $5.2 million increase in product revenue for the three-month period ended March 31, 2026, in comparison to the same period in 2025, was primarily driven by an increase in Aftermarket sales, offset partially by a customer settlement of $4.9 million.
+​
+Deferred revenue includes payments received in advance of system sales as well as deferral of revenue from systems sales for installation and other future performance obligations. The total amount of deferred revenue at March 31, 2026 and December 31, 2025 was $109.6 million and $109.0 million, respectively.
+​
+Services
+​
+Services revenue, which includes the labor component of maintenance and service contracts and fees for service hours provided by on-site service personnel, was $10.9 million, or 5.5% of revenue, for the three months ended March 31, 2026, compared with $9.7 million, or 5.1% of revenue, for the three months ended March 31, 2025. Although services revenue typically increases with the expansion of the installed base of systems, it can fluctuate from period to period based on capacity utilization at customers’ manufacturing facilities, which affects the need for equipment service.
+​
+Revenue Categories used by Management
+​
+In addition to the line item revenue categories discussed above, management also regularly disaggregates revenue in the following categories, which it finds relevant and useful:
+​
+●
+Systems and Aftermarket revenues, in which “Aftermarket” is:
+A.
+The portion of Product revenue relating to spare parts, product upgrades and used equipment, combined with
+B.
+Services revenue, which is the labor component of Aftermarket revenues;
+​
+(Aftermarket purchases reflect current fab utilization as opposed to Systems purchases which reflect capital investment decisions by our customers, which have differing economic drivers);
+​
+●
+Revenue by geographic regions, since economic factors impacting customer purchasing decisions may vary by geographic region; and
+​
+●
+Revenue by our customer market segments, since they can be subject to different economic drivers at different periods of time, impacting a customer’s likelihood of purchasing capital equipment during any particular period. Currently, management references three customer market segments: memory, mature process technology and advanced logic.
+​
+Aftermarket and Systems Revenue
+​
+Included in total revenue of $199.0 million during the three months ended March 31, 2026 is revenue from our Aftermarket business of $72.6 million, compared with $55.0 million of Aftermarket revenue for the three months ended March 31, 2025. Aftermarket revenue fluctuates from period to period primarily based on capacity utilization at customers’ manufacturing facilities, which affects the sale of spare parts and demand for equipment service. Aftermarket revenue can also fluctuate from period to period based on the demand for system upgrades or used equipment. The remaining $126.4 million of revenue for the three months ended March 31, 2026 was systems revenue, compared with $137.6 million of systems revenue for the three months ended March 31, 2025. Systems revenue fluctuates from period to period based on our customers’ capital spending.
+​
+​
+23
+
+Table of Contents
+Gross Profit / Gross Margin
+​
+The following table sets forth our gross profit / gross margin:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+Change
+ 
+​
+​
+  ​ ​ ​
+​
+2026
+  ​ ​ ​
+​
+2025
+  ​ ​ ​
+$
+​
+%  
+ 
+  ​ ​ ​
+​
+(dollars in thousands)
+​
+Gross Profit:
+  ​ ​ ​
+​
+  ​ ​ ​
+  ​ ​ ​
+​
+  ​ ​ ​
+  ​ ​ ​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+Product
+​
+$
+ 82,273
+​
+$
+ 88,324
+​
+$
+ (6,051)
+​
+ (6.9)
+%
+​
+Product gross margin
+​
+​
+ 43.8
+% 
+ 
+​
+ 48.3
+% 
+ 
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Services
+​
+ 
+ (1,692)
+​
+​
+ 444
+​
+​
+ (2,136)
+​
+ (481.1)
+%
+​
+Services gross margin
+​
+​
+ (15.5)
+% 
+ 
+​
+ 4.6
+% 
+ 
+​
+​
+​
+​
+​
+​
+Total gross profit
+​
+$
+ 80,581
+​
+$
+ 88,768
+​
+$
+ (8,187)
+​
+ (9.2)
+%
+​
+Gross margin
+​
+​
+ 40.5
+% 
+ 
+​
+ 46.1
+% 
+ 
+​
+​
+​
+​
+​
+​
+​
+Product
+​
+Gross margin from product revenue was 43.8% for the three months ended March 31, 2026, compared to 48.3% for the three months ended March 31, 2025.
+The decrease in gross margin resulted from a less favorable mix of system shipments.
+​
+Services
+​
+Gross margin from services revenue was (15.5)% for the three months ended March 31, 2026, compared to 4.6% for the three months ended March 31, 2025.
+The decrease in gross margin is attributable to changes in the mix of service contracts
+. Occasionally, we experience negative gross margin on service revenue as contract costs can vary significantly from one period to another based on customer demand.
+​
+Operating Expenses
+​
+The following table sets forth our operating expenses:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+Change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%  
+ 
+​
+​
+(dollars in thousands)
+​
+Research and development
+  ​ ​ ​
+$
+ 28,516
+  ​ ​ ​
+$
+ 27,128
+  ​ ​ ​
+$
+ 1,388
+  ​ ​ ​
+ 5.1
+%
+  ​ ​ ​
+Percentage of revenue
+​
+​
+ 14.3
+%
+​
+ 14.1
+%
+​
+​
+​
+​
+​
+​
+Sales and marketing
+​
+ 
+ 17,354
+​
+ 
+ 15,124
+​
+​
+ 2,230
+​
+ 14.7
+%
+​
+Percentage of revenue
+​
+​
+ 8.7
+%
+​
+ 7.9
+%
+​
+​
+​
+​
+​
+​
+General and administrative
+​
+ 
+ 26,761
+​
+ 
+ 17,357
+​
+​
+ 9,404
+​
+ 54.2
+%
+​
+Percentage of revenue
+​
+​
+ 13.5
+%
+​
+ 9.0
+%
+​
+​
+​
+​
+​
+​
+Total operating expenses
+​
+$
+ 72,631
+​
+$
+ 59,609
+​
+$
+ 13,022
+​
+ 21.8
+%
+​
+Percentage of revenue
+​
+​
+ 36.5
+%
+​
+ 31.0
+%
+​
+​
+​
+​
+​
+​
+​
+Our operating expenses consist primarily of personnel costs, including wages, commissions, incentive-based compensation, stock-based compensation and related benefits and taxes; project material costs related to the design and development of new products and enhancement of existing products; and professional fees, travel and depreciation expenses.
+​
+Personnel costs are our largest expense, representing $35.7 million, or 49.2%, of our total operating expenses for the three months ended March 31, 2026, compared to $35.4 million, or 59.4%, of our total operating expenses for the three months ended March 31, 2025. The slightly higher personnel costs for the three months ended March 31, 2026 are primarily due to increases in salary and benefits expenses, partially offset by a decrease in separation program expenses.
+​
+24
+
+Table of Contents
+Research and Development
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+​
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+​
+​
+Change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+​
+​
+$
+​
+%  
+ 
+​
+​
+​
+(dollars in thousands)
+​
+​
+Research and development
+​
+$
+ 28,516
+  ​ ​ ​
+$
+ 27,128
+  ​ ​ ​
+​
+$
+ 1,388
+  ​ ​ ​
+ 5.1
+%
+  ​ ​ ​
+Percentage of revenue
+​
+​
+ 14.3
+%
+​
+ 14.1
+%
+​
+​
+​
+​
+​
+​
+​
+​
+Our ability to remain competitive depends largely on continuously developing innovative technology, with new and enhanced features and systems and introducing them at competitive prices on a timely basis. Accordingly, based on our strategic plan, we establish annual research and development budgets to fund programs that we expect will solve customers’ high value, high impact, ion implantation challenges.
+​
+Research and development expense was $28.5 million during the three months ended March 31, 2026, an increase of $1.4 million, or 5.1%, compared with $27.1 million during the three months ended March 31, 2025. The increase is primarily due to higher personnel costs and an increase in consulting expenses.
+​
+Sales and Marketing
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+Change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%  
+ 
+​
+​
+(dollars in thousands)
+​
+Sales and marketing
+  ​ ​ ​
+$
+ 17,354
+  ​ ​ ​
+$
+ 15,124
+  ​ ​ ​
+ $
+ 2,230
+  ​ ​ ​
+ 14.7
+%
+  ​ ​ ​
+Percentage of revenue
+​
+​
+ 8.7
+%
+​
+ 7.9
+%
+​
+​
+​
+​
+​
+​
+​
+Our sales and marketing expenses result primarily from the sale of our equipment and services through our direct sales force.
+​
+Sales and marketing expense was $17.4 million during the three months ended March 31, 2026, an increase of $2.2 million, or 14.7%, compared with $15.1 million during the three months ended March 31, 2025. The increase is primarily due to higher personnel expenses and an increase in freight expenses.
+​
+General and Administrative
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-Period
+ 
+​
+​
+​
+March 31,
+​
+Change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%  
+ 
+​
+​
+(dollars in thousands)
+​
+General and administrative
+  ​ ​ ​
+$
+ 26,761
+  ​ ​ ​
+$
+ 17,357
+  ​ ​ ​
+$
+ 9,404
+  ​ ​ ​
+ 54.2
+%
+  ​ ​ ​
+Percentage of revenue
+​
+​
+ 13.5
+%
+​
+ 9.0
+%
+​
+​
+​
+​
+​
+​
+​
+Our general and administrative expenses result primarily from the costs associated with our executive, finance, information technology, legal and human resource functions.
+​
+General and administrative expense was $26.8 million during the three months ended March 31, 2026, an increase of $9.4 million, or 54.2%, compared with $17.4 million during the three months ended March 31, 2025. The increase is primarily due to an increase in Merger related professional fees.
+​
+25
+
+Table of Contents
+Other Income (Expense)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-period
+ 
+​
+​
+​
+March 31,
+​
+change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%
+ 
+​
+​
+​
+(dollars in thousands)
+​
+​
+Other income (expense):
+ 
+$
+ 2,675
+ 
+$
+ 3,925
+ 
+$
+ (1,250)
+ 
+ (31.8)
+%
+​
+Percentage of revenue
+​
+ 
+ 1.4
+%
+ 
+ 2.0
+%
+​
+​
+​
+​
+​
+​
+​
+Other income (expense) consists of interest earned and accretion on our invested cash balances, interest expense relating to the finance lease obligation we incurred in connection with the 2015 sale of our headquarters facility and other financing obligations as well as foreign exchange gains and losses attributable to both fluctuations of the U.S. dollar against local currencies of the countries in which we operate and forward currency exchange contracts.
+​
+Other income was $2.7 million for the three months ended March 31, 2026, compared with other income of $3.9 million for the three months ended March 31, 2025. The $1.3 million decrease in other income (expense) compared to the same prior year period was primarily due to a decrease in interest income of $1.1 million and an increase in net foreign exchange losses of $0.1 million. Net foreign exchange losses for the three months ended March 31, 2026 includes $1.7 million of gains related to forward currency exchange contracts, offset by foreign exchange losses of $2.2 million. Net foreign exchange losses for the three months ended March 31, 2025 includes foreign exchange losses of $1.2 million from forward currency exchange contracts, partially offset by foreign exchange gains of $0.8 million.
+​
+Income Tax Provision
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended
+​
+Period-to-period
+ 
+​
+​
+​
+March 31,
+​
+change
+ 
+​
+​
+​
+2026
+​
+2025
+​
+$
+​
+%
+ 
+​
+​
+​
+(dollars in thousands)
+​
+​
+Income tax provision
+ 
+$
+ 1,411
+​
+ 
+$
+ 4,505
+ 
+$
+ (3,094)
+ 
+ (68.7)
+%
+​
+Percentage of revenue
+​
+ 
+ 0.7
+%
+​
+ 
+ 2.3
+%
+​
+​
+​
+​
+​
+​
+​
+Income tax expense was $1.4 million for the three months ended March 31, 2026, compared to $4.5 million for the three months ended March 31, 2025. The $3.1 million decrease was primarily due to the decrease in pre-tax book income. The reported effective tax rate for the three months ended March 31, 2026 was 13.3% compared to 13.6% for the three months ended March 31, 2025. The effective tax rate for the three months ended March 31, 2026 was less than the U.S. statutory rate of 21% primarily attributable to the Foreign Derived Intangible Income deduction and Federal research and development tax credits.
+​
+Liquidity and Capital Resources
+​
+At March 31, 2026, we had $150.8 million in unrestricted cash and cash equivalents, $215.8 million in short-term investments and $203.3 million in long-term investments, in addition to $10.6 million in restricted cash. Management believes that maintaining a strong cash balance is necessary to fund a continuing ramp in our business which can require significant cash investment to meet sudden demand. Additionally, we are using cash to repurchase shares as part of our stock repurchase program and are considering both organic and inorganic opportunities to drive future growth, for which cash resources will be necessary.
+​
+Our liquidity is affected by many factors. Some of these relate specifically to the operations of our business, for example, the rate of sales of our products, and others relate to the uncertainties of global economic conditions, including tariff programs implemented in countries in which we operate as well as the availability of credit and the condition of the overall semiconductor equipment industry. Our industry requires ongoing investments in operations and research and development that are not easily adjusted to reflect changes in revenue. As a result, profitability and cash flows can fluctuate more widely than revenue. Stock repurchases, as discussed below, also reduce our cash balances.
+​
+During the three months ended March 31, 2026 and 2025, we generated $18.1 million and $39.8 million, respectively, of cash related to operating activities.
+​
+26
+
+Table of Contents
+Investing activities for the three months ended March 31, 2026 resulted in a cash usage of $10.6 million, $1.8 million of which was used for capital expenditures and $160.7 million of which was used to purchase short-term and long-term investments, partially offset by $151.9 million related to maturities and sales of short-term investments. Investing activities for the three months ended March 31, 2025 resulted in cash generated of $40.5 million, $5.0 million of which was used for capital expenditures and $252.5 million of which was used to purchase short-term investments, offset by $297.9 million related to maturities and sales of short-term investments.
+​
+Financing activities for the three months ended March 31, 2026 resulted in a cash usage of $1.4 million. During the first three months of 2026, (i) $1.0 million was used for payments to government tax authorities for income tax withholding on employee compensation arising from the vesting of RSUs, where units are withheld by us to cover taxes, and (ii) $0.4 million was used to reduce the liability under the finance lease of our corporate headquarters. In comparison, financing activities for the three months ended March 31, 2025 resulted in cash usage of $20.1 million, of which (i) $18.2 million related to the repurchase of our common stock (ii) $1.6 million related to payments made to government tax authorities for income tax withholding on employee compensation arising from the vesting of RSUs, and (iii) $0.3 million relating to the reduction of our finance lease liability.
+​
+As of March 31, 2026, we had a security deposit of $5.9 
+million related to the lease of our corporate headquarters in the form of a cash collateralized letter of credit, which is classified as long-term restricted cash on our balance sheet.
+​
+We believe that based on our current market, revenue, expense and cash flow forecasts, our existing cash and cash equivalents will be sufficient to satisfy our anticipated cash requirements for the short- and long-term.
+​
+Commitments and Contingencies
+​
+Significant commitments and contingencies at March 31, 2026 are consistent with those discussed in Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and Note 16 to the consolidated financial statements included in our 2025 Form 10-K.
+​
+Item 3.  Quantitative and Qualitative Disclosures about Market Risk.
+​
+As of March 31, 2026, there have been no material changes to the quantitative information about market risk disclosed in Item 7A, “Quantitative and Qualitative Disclosures about Market Risk” included in our 2025 Form 10-K.
+​
+Item 4.  Controls and Procedures.
+​
+Evaluation of Disclosure Controls and Procedures
+​
+Our management, with the participation of our principal executive officer and principal financial officer, has evaluated the effectiveness of our disclosure controls and procedures (as defined in Rule 13a-15(e) under the Securities Exchange Act of 1934, as amended (the “Exchange Act”)) as of the end of the period covered by this report (the “Evaluation Date”). Based on this evaluation, our principal executive officer and principal financial officer concluded that, as of the Evaluation Date, these disclosure controls and procedures are effective.
+​
+Changes in Internal Control over Financial Reporting
+​
+There was no change in our internal control over financial reporting (as defined in Rule 13a-15(f) under the Exchange Act) identified in connection with the evaluation of our internal control that occurred during the three months ended March 31, 2026 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+​
+27
+
+Table of Contents
+PART II—OTHER INFORMATION
+​
+Item 1.  Legal Proceedings.
+​
+We are, from time to time, a party to litigation that arises in the normal course of our business operations. We are not presently a party to any litigation that we believe might have a material adverse effect on our business operations.
+​
+Item 1A.  Risk Factors.
+​
+As of March 31, 2026, there have been no material changes to the risk factors described in Item 1A, “Risk Factors” included in our 2025 Form 10-K.
+
+​
+​
+28
+
+Table of Contents
+​
+Item 2.  Unregistered Sales of Equity Securities, Use of Proceeds, and Issuer Purchases of Equity Securities.
+​
+In February 2022, our Board of Directors authorized a share repurchase program for up to $100 million 
+of the Company’s common stock. This program was announced on March 1, 2022.
+In August 2023, our Board of Directors approved additional funding of $200 million for our stock repurchase program, to be available upon the full utilization of the $100 million repurchase funding approved in February 2022. In March 2025, we announced that the Board of Directors approved an additional funding of $100 million for share repurchases. The Company’s share repurchase program does not have an expiration date. For the three months ended March 31, 2026, we did not have any repurchase activity. The aaproximate value of shares that may yet be repurchased as of March 31, 2026 is $110 million.
+​
+​
+​
+Item 3.  Defaults Upon Senior Securities.
+​
+None.
+​
+Item 4.  Mine Safety Disclosures.
+​
+Not Applicable.
+​
+Item 5.  Other Information.
+​
+During the quarter ended
+March 31, 2026
+,
+no
+ director or officer adopted, modified or terminated any contract, instrument or written plan for the purchase or sale of Axcelis securities intended to satisfy the affirmative defense conditions of Rule
+10
+b5-1(c) under the Exchange Act or any non-Rule
+10
+b5-1 trading arrangement as defined in Item 408(c) of Regulation S-K.
+​
+29
+
+Table of Contents
+​
+Item 6.  Exhibits.
+​
+The following exhibits are filed herewith:
+​
+Exhibit
+No
+  ​ ​ ​
+Description
+​
+​
+​
+3.1
+​
+Restated Certificate of Incorporation of the Company filed November 2, 2017. Incorporated by reference to Exhibit 3.1 of the Company’s Form 10-Q filed with the Commission on November 3, 2017.
+​
+​
+​
+3.2
+​
+Certificate of Amendment to the Restated Certificate of Incorporation of the Company filed May 9, 2024. Incorporated by reference to Exhibit 3.1 of the Company’s Form 8-K filed with the Commission on May 9, 2024
+.
+​
+​
+​
+3.3
+​
+Bylaws of the Company, as amended as of May 11, 2022. Incorporated by reference to Exhibit 3.2 of the Company’s Form 8-K filed with the Commision on May 11, 2022.
+​
+​
+​
+31.1*
+​
+Certification of the Principal Executive Officer under Exchange Act Rule 13a-14(a)/15d-14(a) (Section 302 of the Sarbanes-Oxley Act), dated May 8, 2026.
+​
+​
+​
+31.2*
+​
+Certification of the Principal Financial Officer under Exchange Act Rule 13a-14(a)/15d-14(a) (Section 302 of the Sarbanes-Oxley Act), dated May 8, 2026.
+​
+​
+​
+32.1**
+​
+Certification of the Principal Executive Officer pursuant to Section 1350 of Chapter 63 of title 18 of the United States Code (Section 906 of the Sarbanes-Oxley Act), dated May 8, 2026.
+​
+​
+​
+32.2**
+​
+Certification of the Principal Financial Officer pursuant to Section 1350 of Chapter 63 of title 18 of the United States Code (Section 906 of the Sarbanes-Oxley Act), dated May 8, 2026.
+​
+​
+​
+101*
+​
+The following materials from the Company’s Form 10-Q for the quarter ended March 31, 2026, formatted in inline eXtensible Business Reporting Language (iXBRL): (i) Consolidated Statements of Operations, (ii) Consolidated Statements of Comprehensive Income, (iii) Consolidated Balance Sheets, (iv) Consolidated Statements of Cash Flows and (v) Notes to Consolidated Financial Statements (Unaudited). Filed herewith.
+​
+​
+​
+104*
+​
+Cover Page Interactive Data File (formatted as iXBRL and contained in Exhibit 101).
+​
+​
+​
+* Filed herewith
+** This exhibit is being furnished rather than filed, and shall not be deemed incorporated by reference into any filing, in accordance with Item 601 of Regulation S-K.
+​
+​
+​
+30
+
+Table of Contents
+​
+SIGNATURES
+​
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+​
+​
+AXCELIS TECHNOLOGIES, INC.
+DATED: May 8, 2026
+By:
+/s/ DAVID RYZHIK
+​
+​
+​
+​
+​
+David Ryzhik
+​
+​
+Senior Vice President and Interim Chief Financial Officer
+​
+​
+Duly Authorized Officer and Principal Financial Officer
+​
+​
+​
+31

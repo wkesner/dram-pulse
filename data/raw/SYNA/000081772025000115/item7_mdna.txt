@@ -1,0 +1,197 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Forward-Looking Statements and Factors That May Affect Results
+This Quarterly Report on Form 10-Q for the quarter ended September 27, 2025 (this “Report”) contains forward-looking statements that are subject to the safe harbors created under the Securities Act of 1933, as amended, or the Securities Act, and the Securities Exchange Act of 1934, as amended, or the Exchange Act. Forward-looking statements give our current expectations and projections relating to our financial condition, results of operations, plans, objectives, future performance and business, can be identified by the fact that they do not relate strictly to historical or current facts. Such forward-looking statements may include words such as “expect,” “anticipate,” “intend,” “believe,” “estimate,” “plan,” “target,” “strategy,” “continue,” “may,” "commit," “will,” “should,” variations of such words, or other words and terms of similar meaning. All forward-looking statements reflect our best judgment and are based on several factors relating to our operations and business environment, all of which are difficult to predict and many of which are beyond our control. Such factors include, but are not limited to the following: macroeconomic uncertainties in the U.S. and globally, including those caused by trade tensions and tariffs, resulting in supply chain disruptions, inflation, and market volatility, which may adversely affect our products and those of our customers and suppliers and result in reduced customer demand, component availability constraints, cost increases (both to us and our customers), supply chain disruption, and stock price volatility; risks related to our continued dependence on our solutions for the Core IoT and Enterprise and Automotive product applications market for a substantial portion of our revenue; risks related to the volatility of our net revenue from our solutions for Core IoT and Enterprise and Automotive product applications, including competition from new or established IoT and wireless service companies or from those with greater resources; our dependence on and/or loss of one or more large customers for a substantial portion of our revenue, and the loss of commitments from, contracts with, or a significant reduction in orders from, one or more of our major customers could have a material adverse effect on our revenue and operating results; our exposure to industry downturns and cyclicality in our target markets; the risk that our new product solutions for existing or new markets will not be successful; our ability to successfully execute on our strategy to develop integrated solutions including audio, touch and vision interfaces with embedded processing and wireless connectively for customer adoption; risks related to our expectations regarding technology and strategic investments and the anticipated timing or benefits thereof; historical and continued decreases in our average selling prices due to our product sales mix and decreased revenue from our mobile product applications; our ability to attract and retain key talent necessary to drive our strategic initiatives, including our Edge AI strategies, in a highly competitive industry; our ability to execute on our cost reduction initiatives and to achieve expected synergies and expense reductions; our ability to maintain and build relationships with our customers; our dependence on and/or interruption or loss of, a limited number of suppliers and subcontractors, including suppliers’ manufacturing capacity constraints, the ability of these third parties to maintain satisfactory manufacturing yields and deliverable schedule; the risk that our indemnification obligations for third-party claims could result in substantial costs; risks and uncertainty related to regional instabilities and hostilities, economic volatility, and regulatory changes, any of which could disrupt our supply chain, elevate our costs and undermine the competitiveness of our offerings, requiring operational adjustments, such as reductions in force, or otherwise adversely affecting our financial condition and operating results; changes in export restrictions and laws affecting the Company’s trade and investments; and the other risks as identified in the “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and “Business” sections of our Annual Report on Form 10-K for the fiscal year ended June 28, 2025, and other risks as identified from time to time in our SEC reports. Forward-looking statements are based on information available to us on the date hereof, and we do not have, and expressly disclaim, any obligation to publicly release any updates or any changes in our expectations, or any change in events, conditions, or circumstances on which any forward-looking statement is based, except as required by law. Our actual results and the timing of certain events could differ materially from the forward-looking statements. These forward-looking statements do not reflect the potential impact of any mergers, acquisitions, or other business combinations that have not been completed as of the date of this filing.
+Statements made in this Report, unless the context otherwise requires, include the use of the terms “us,” “we,” “our,” the “Company” and “Synaptics” to refer to Synaptics Incorporated and its consolidated subsidiaries.
+Overview
+We are a leading worldwide developer and fabless supplier of premium mixed signal semiconductor solutions. We develop solutions that integrate the audio, touch and vision interfaces with embedded processing capabilities that are paired with wireless connectivity. We believe our results to date reflect the combination of
+26
+Table of Contents
+
+our customer focus and the strength of our intellectual property and our engineering know-how, which allow us to develop or engineer products and solutions that meet the demanding design specifications of our OEMs.
+Net revenue in the first quarter of fiscal 2026 was $292.5 million and was 13.5% higher than net revenue in the first quarter of fiscal 2025. This was primarily due to an increase in net revenue in our Core IoT product line, which increased 73.8% compared to the same period a year ago, primarily driven by an increase in units sold and an increase in average selling prices due to our product sales mix, inclusive of the contribution from the Broadcom transaction. Net revenue from our Enterprise and Automotive product line for the first quarter of fiscal 2026 compared to the same period a year ago remained flat and net revenue from our Mobile product category decreased by 18.4% primarily driven by a decrease in revenue from the licensing of certain of our IP.
+Gross margin for the three months ended September 2025 and September 2024 was 42.6% and 46.9%, respectively. The decrease in gross margin was primarily due to a decrease in revenue from the licensing of certain of our IP and an increase in amortization of acquired intangible assets primarily from the developed technologies we acquired from Broadcom during fiscal 2025.
+As of September 2025, our cash and cash equivalents of $459.9 million increased by $7.4 million compared to cash, cash equivalents and short-term investments of $452.5 million as of June 2025. During the three months ended September 2025, we generated $30.2 million of cash from operating activities, and we returned $7.2 million to stockholders through the repurchase of common stock under our stock repurchase program.
+Trends and Uncertainties
+Macroeconomic Conditions and Regulations
+As a majority of our sales and manufacturing occurs outside of the U.S., we are exposed to and impacted by global macroeconomic factors, U.S. and foreign government policies and foreign exchange fluctuations. We continue to monitor changes in international trade policies, particularly increased tariffs and other barriers or restrictions between the United States and other countries, including China. Our current operations suggest limited tariff exposure given our current import and export practices. However, some of our customers and suppliers may be impacted by evolving tariff regimes depending on their own supply chain strategies and sourcing locations. We continue to monitor for any potential customer and supplier impacts, ranging from supply chain realignments to changes in end demand. While the broader implications of these activities remain uncertain, based on our current lead times and order activity, we are not seeing unusual activity that would suggest material pull-in or push-out of orders due to tariffs that would be likely to impact our near-term financial performance. We will continue to assess the short- and long-term effects of these international trade policies and restrictions on our financial and operational performance.
+27
+Table of Contents
+
+Results of Operations
+Certain of the data used in our condensed consolidated statements of operations for the periods indicated, together with comparative absolute and percentage changes in these amounts, were as follows:
+Three Months Ended
+September 2025
+September 2024
+(in millions)
+% of net revenue
+(in millions)
+% of net revenue
+Enterprise and Automotive product applications
+$
+147.7 
+50.5 
+%
+$
+147.6 
+57.3 
+%
+Core IoT product applications
+103.6 
+35.4 
+%
+59.6 
+23.1 
+%
+Mobile product applications
+41.2 
+14.1 
+%
+50.5 
+19.6 
+%
+Net revenue
+292.5 
+100.0 
+%
+257.7 
+100.0 
+%
+Gross margin
+124.6 
+42.6 
+%
+120.9 
+46.9
+%
+Operating expenses:
+Research and development
+94.4 
+32.3 
+%
+81.3 
+31.5 
+%
+Selling, general and administrative
+46.2 
+15.8 
+%
+50.0 
+19.4 
+%
+Acquired intangibles amortization
+4.7 
+1.6 
+%
+3.8 
+1.5 
+%
+Restructuring costs
+2.5 
+0.9 
+%
+14.2 
+5.5 
+%
+Total operating expenses
+147.8 
+50.6 
+%
+149.3 
+57.9 
+%
+Operating loss
+(23.2)
+(8.0)
+%
+(28.4)
+(11.0 
+%)
+Interest income (expense) and other, net
+0.5 
+0.2 
+%
+(5.9)
+(2.3 
+%)
+Loss before benefit from income taxes
+(22.7)
+(7.8)
+%
+(34.3)
+(13.3 
+%)
+Benefit from income taxes
+(2.1)
+(0.7)
+%
+(11.2)
+(4.3)
+%
+Net loss
+$
+(20.6)
+(7.1 
+%)
+$
+(23.1)
+(9.0 
+%)
+Net Revenue
+Net revenue was $292.5 million for the three months ended September 2025, compared with $257.7 million for the three months ended September 2024, an increase of $34.8 million, or 13.5%. Of this net revenue, $147.7 million, or 50.5%, was from Enterprise and Automotive product applications, $41.2 million, or 14.1%, was from Mobile product applications, and $103.6 million, or 35.4%, was from Core IoT product applications. Revenue increased in most of our product applications for the three months ended September 2025 compared with the three months ended September 2024. Net revenue from Core IoT product applications increased due to an increase in units sold (which increased 64.1%) and an increase in average selling prices (which increased 5.9%) due to our product sales mix compared to the same period a year ago, inclusive of the contribution from the Broadcom transaction. Net revenue from Enterprise and Automotive product applications slightly increased as a result of an increase in units sold (which increased 9.0%), partially offset by a decrease in average selling prices (which decreased 8.2%) due to our product sales mix compared to the same period a year ago. Net revenue from Mobile product applications decreased due to a decrease in average selling prices (which decreased 15.2%) and a decrease of $10.5 million in revenue from license of certain of our IP, partially offset by an increase in units sold (which increased 21.4%).
+Gross Margin
+
+Gross margin as a percentage of net revenue was 42.6%, with gross margin of $124.6 million, for the three months ended September 2025, compared with 46.9%, with gross margin of $120.9 million, for the three months ended September 2024. The net 430 basis point decrease in gross margin as a percentage of net revenue for the three months ended September 2025 was primarily due to the increase in amortization of acquisition-related intangibles on the intangible assets we acquired from Broadcom during fiscal 2025 and a decrease in revenue from license of certain of our IP.
+Because we sell our technology solutions in designs that are generally unique or specific to an OEM customer’s application, gross margin varies on a product-by-product basis, making our cumulative gross margin a blend of our product specific designs. As a fabless manufacturer, our gross margin percentage is generally not materially
+28
+Table of Contents
+
+impacted by our shipment volume. Under most circumstances, revenue from license-based arrangements is accretive to our gross margin.
+Operating Expenses
+Research and Development Expenses
+. Research and development expenses increased $13.1 million to $94.4 million for the three months ended September 2025, compared with $81.3 million for the three months ended September 2024. The increase in research and development expenses was driven by a $6.3 million increase in stock-based compensation charges primarily related to awards issued to the workforce we acquired from Broadcom during fiscal 2025, a $2.8 million increase in project specific costs, and $1.8 million increase in wages and related costs related to an increase in headcount primarily driven by the employees we acquired from Broadcom during fiscal 2025.
+Selling, General, and Administrative Expenses
+. Selling, general, and administrative expenses decreased $3.8 million to $46.2 million for the three months ended September 2025, compared with $50.0 million for the three months ended September 2024. The decrease in selling, general, and administrative expenses was primarily driven by a decrease of $4.5 million in professional service fees related to certain corporate projects that we incurred during the first quarter of fiscal 2025 with no corresponding corporate projects during the three months ended September 2025.
+Acquired Intangibles Amortization
+. Amortization of acquisition-related intangibles increased $0.9 million, or 23.7% for the three months ended September 2025 compared to the same period a year ago, which is primarily related to the amortization on customer relationship and favorable supply contract intangible assets we acquired from Broadcom during fiscal 2025.
+Restructuring Costs
+. Restructuring costs primarily reflect employee severance costs related to the restructuring of operations and to improve efficiencies in our operational activities. These headcount-related costs included personnel in research and development, and selling, general and administrative functions. See "Item 1. Condensed Consolidated Financial Statements (Unaudited) - Notes to Condensed Consolidated Financial Statements - Note 16. Restructuring Activities for additional information.
+Interest income (expense) and other, net
+. Interest income/(expense) and other, net, include interest income and expense, amortization of debt issuance costs and other miscellaneous income or charges.
+Interest and other income.
+Interest and other income includes interest income earned on our invested cash balances and other miscellaneous income. Interest and other income of $6.3 million decreased by $4.0 million for the three months ended September 2025, compared to the same period a year ago. The decrease was primarily driven by a decrease in interest income of $6.3 million due to the overall reduction in invested cash balances following the early repayment of the Term Loan Facility in November 2024 and the cash paid for the Broadcom acquisition in January 2025, partially offset by a $2.3 million increase in miscellaneous other income relating to a refund of amounts we paid previously to a third party.
+Interest expense
+. Interest expense primarily includes interest expense on our debt, unused commitment fees on our revolving credit facility and amortization of debt issuance costs. Interest expense of $5.8 million for the three months ended September 2025, decreased by $10.4 million compared to the same period a year ago, which was primarily driven by the early repayment of the Term Loan Facility in November 2024. During the three months ended September 2024, the interest expense and amortization of debt issuance costs on the Term Loan facility was $11.7 million. The Term Loan Facility was repaid with the net proceeds received from the issuance of the 2031 Notes, which bear a significantly lower interest at a rate of 0.75%. See "Note 9. Debt" for additional information.
+(Benefit) Provision for Income Taxes
+. We account for income taxes under the asset and liability method. The (benefit) provision for income taxes recorded in interim periods is based on our estimate of the annual effective tax rate applied to year-to-date (loss) income before (benefit) provision for income taxes, adjusted for discrete items required to be recognized in the period in which they are incurred. In each quarter, we update our estimate of the annual effective tax rate, and if the estimated annual tax rate changes, we make a cumulative adjustment in that quarter. Our quarterly tax (benefit) provision for income taxes and our quarterly estimate of the annual effective tax rate can be subject to volatility due to several factors, including our ability to accurately forecast annual (loss) income before (benefit) provision for income taxes in each of the tax jurisdictions in which we operate.
+29
+Table of Contents
+
+The Organization for Economic Co-operation and Development, or OECD, introduced Pillar Two Model Rules for a global minimum tax of 15% applicable to large multinational corporations. Many countries in which we have business operations, including the United Kingdom, Hong Kong, Switzerland, and Japan, have implemented certain aspects of Pillar Two. The OECD and the implementing countries are expected to keep issuing more guidance and refining their laws. Based on the latest legislation and our current estimate, Pillar Two had no impact on our effective tax rate or cash flows for the first three months of fiscal 2026. We will continue to evaluate the potential impact of these tax law changes in future reporting periods as further guidance becomes available.
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was signed into law. The legislation includes a permanent extension and modification of certain provisions under the 2017 Tax Cuts and Jobs Act (“TCJA”). Key provisions effective beginning in the first quarter of fiscal 2026 include immediate expensing of domestic research and experimentation (R&E) expenditures, 100% bonus depreciation for qualified property, and a modification to the business interest expense limitation, among others. These provisions were evaluated and reflected in our income tax provision for the three months ended September 2025 and did not have a material impact on our effective tax rate or cash flows. We will continue to monitor forthcoming Treasury and IRS guidance and assess potential implications for future reporting periods.
+See "Item 1. Condensed Consolidated Financial Statements (Unaudited) - Notes to Condensed Consolidated Financial Statements - Note 13. Income Taxes for additional information.
+Liquidity and Capital Resources
+Our cash and cash equivalents were $459.9 million and $391.5 million as of September 2025 and June 2025, respectively.
+We consider almost all of the earnings of our foreign subsidiaries as not indefinitely invested overseas and have made appropriate provisions for income or withholding taxes that may result from a future repatriation of those earnings. As of September 2025, $363.4 million of cash and cash equivalents was held by our foreign subsidiaries. If these funds are needed for our operations in the United States, we would be able to repatriate substantially all of these funds without a material impact on our provision for income taxes.
+Cash Flows from Operating Activities
+. Cash provided by operating activities during the three months ended September 2025 was $30.2 million compared with cash used by operating activities of $11.4 million during same period a year ago. For the three months ended September 2025, the primary operating activities were adjustments for non-cash charges of $77.6 million and net cash outflows of $26.8 million from changes in our operating assets and liabilities. The primary drivers of the change in operating assets and liabilities relate to a decrease of $31.6 million in accrued liabilities primarily related to the payment of our annual bonus, a decrease of $7.0 million in accounts payable due to the timing of payments made to our vendors, partially offset by a decrease in accounts receivable of $10.8 million primarily related to the timing of collections and billings.
+During the three months ended September 2025 and September 2024, our days sales outstanding was 37 days and 47 days, respectively. Our annual inventory turns stayed consistent at four during the three months ended September 2025 and
+September 2024
+.
+Cash Flows from Investing Activities
+. Cash provided by investing activities during the three months ended September 2025 was $48.8 million compared to cash used by investing activities of $9.1 million during the same period a year ago. The increase primarily relates to $61.0 million in proceeds from maturities of short-term investments, which we invested in investment classified as cash equivalents.
+Cash Flows from Financing Activities
+. Cash used by financing activities for the three months ended September 2025 and September 2024 was $10.4 million and $3.5 million, respectively. The increase was primarily driven by $7.2 million in repurchases of our common stock with no share repurchase activity during the same period a year ago.
+Liquidity
+We have $350.0 million available under our revolving credit facility with a maturity date to be the earlier of November 2029 or three months prior to any maturity of our 2029 Notes. As of September 2025, there was no balance outstanding under this facility.
+As of September 2025, our principal long-term debt obligations were $850.0 million.
+30
+Table of Contents
+
+As of September 2025, we had unconditional purchase commitments of $41.1 million, of which $27.2 million are for the remainder of fiscal 2026. We work continually with our suppliers and partners on the timing of payments and deliveries of purchase commitments, taking into account business conditions.
+Working Capital Needs
+. We believe our existing cash and cash equivalents, anticipated cash flows from operating activities and available credit under our revolving credit facility, will be sufficient to meet our working capital and other cash requirements, and our debt service obligations for at least the next 12 months. Our future capital requirements will depend on many factors, including our revenue, the timing and extent of spending to support product development efforts, costs associated with restructuring activities net of projected savings from those activities, costs related to protecting our intellectual property, the expansion of sales and marketing activities, timing of introduction of new products and enhancements to existing products, costs to ensure access to adequate manufacturing, costs of maintaining sufficient space for our workforce, the continuing market acceptance of our product solutions, our common stock repurchase program, and the amount and timing of our investments in, or acquisitions of, other technologies or companies. Further equity or debt financing may not be available to us on acceptable terms. If sufficient funds are not available or are not available on acceptable terms, our ability to fund our future long-term working capital needs, take advantage of business opportunities or to respond to competitive pressures could be limited or severely constrained.
+The undistributed earnings of our foreign subsidiaries are not currently required to meet our United States working capital and other cash requirements, but should we repatriate a portion of these earnings, we may be required to pay certain previously accrued state and foreign taxes, which would impact our cash flows.
+Critical Accounting Estimates
+There have been no significant changes in our critical accounting estimates during the three months ended September 2025, compared with our critical accounting estimates disclosed in Management’s Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended June 28, 2025.
+31
+Table of Contents

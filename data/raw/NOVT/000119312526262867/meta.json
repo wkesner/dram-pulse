@@ -1,0 +1,41 @@
+{
+  "company": "Novanta",
+  "ticker": "NOVT",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001076930",
+  "form": "8-K",
+  "filing_date": "2026-06-09",
+  "accession_number": "0001193125-26-262867",
+  "primary_document": "novt-20260608.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-20260608.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-06-08",
+  "period_end": "2026-06-08",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:49:30.352735+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "novt-ex99_1.htm",
+      "path": "data/raw/NOVT/000119312526262867/exhibit_99_novt-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex99_1.htm"
+    },
+    {
+      "name": "novt-ex99_2.htm",
+      "path": "data/raw/NOVT/000119312526262867/exhibit_99_novt-ex99_2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex99_2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/NOVT/000119312526262867/primary.html",
+    "other": "data/raw/NOVT/000119312526262867/other_full.txt"
+  }
+}

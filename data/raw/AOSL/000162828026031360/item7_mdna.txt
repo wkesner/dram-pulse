@@ -1,0 +1,986 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Except for the historical information contained herein, the matters addressed in this Item 2 constitute “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These forward looking statements include information set forth under the heading “Other Factors affecting our Performance.” Such forward-looking statements are subject to a variety of risks and uncertainties, including those discussed below under the heading “Risk Factors” and elsewhere in this Quarterly Report on Form 10-Q, that could cause actual results to differ materially from those anticipated by the Company’s management. The Private Securities Litigation Reform Act of 1995 (the “Act”) provides certain “safe harbor” provisions for forward-looking statements. All forward-looking statements made in this Quarterly Report on Form 10-Q are made pursuant to the Act. The Company undertakes no obligation to publicly release the results of any revisions to its forward-looking statements that may be made to reflect events or circumstances after the date hereof or to reflect the occurrence of unexpected events. Unless the context otherwise requires, the words “AOS,” the “Company,” “we,” “us” and “our” refer to Alpha and Omega Semiconductor Limited and its subsidiaries.
+Management’s discussion should be read in conjunction with management’s discussion included in the Company’s 2025 Form 10-K, filed with the Securities and Exchange Commission (the “SEC”) on August 28, 2025.
+Overview
+We are a designer, developer, and global supplier of a broad range of discrete power devices, wide band gap power devices, power management ICs and modules, including a wide portfolio of Power MOSFET, SiC, IGBT, IPM, TVS, HV Gate Drivers, Power IC, and Digital Power products. Our portfolio of power semiconductors includes approximately 2,800 products, and has grown with the introduction of over 100 new products in the fiscal year ended June 30, 2025, and over 100 and 60 new products in the fiscal years ended June 30, 2024 and 2023, respectively. During the nine months ended March 31, 2026, we introduced 48 new products. Our teams of scientists and engineers have developed extensive intellectual properties and technical knowledge that encompass major aspects of power semiconductors, which we believe enables us to introduce and develop innovative products to address the increasingly complex power requirements of advanced electronics. We have an extensive patent portfolio that consists of 956 patents and 74 patent applications in the United States as of March 31, 2026. We also have a total of 1,087 foreign patents, which primarily were based on our research and development efforts through March 31, 2026. We differentiate ourselves by integrating our expertise in technology, design and advanced manufacturing and packaging to optimize product performance and cost. Our portfolio of products targets high-volume applications, including personal computers, graphic cards, game consoles, home appliances, power tools, smart phones, battery packs, consumer and industrial motor controls and power supplies for computers, servers and telecommunications equipment.
+Our business model leverages global resources, including research and development and manufacturing in the United States and Asia. Our sales and technical support teams are localized in several growing markets. We operate an 8-inch wafer fabrication facility located in Hillsboro, Oregon, or the Oregon Fab, which is critical for us to accelerate proprietary technology development, new product introduction and improve our financial performance. To meet the market demand for the more mature high volume products, we also utilize the wafer manufacturing capacity of selected third party foundries. For assembly and test, we primarily rely upon our in-house facilities in China. In addition, we utilize subcontracting partners for industry standard packages. We believe our in-house packaging and testing capability provides us with a competitive advantage in proprietary packaging technology, product quality, cost and sales cycle time.
+During the fiscal quarter ended March 31, 2026, we continued our product diversification program by developing new silicon and packaging platforms to expand our serviceable available market, or SAM, and offer higher performance products. Our metal-oxide-semiconductor field-effect transistors, or MOSFET, and power IC product portfolio also expanded.
+On March 29, 2016, we formed a joint venture (the “JV Company”) with two investment funds owned by the Municipality of Chongqing (the “Chongqing Funds”), for the purpose of constructing and operating a power semiconductor packaging, testing and 12-inch wafer fabrication facility (“Fab”) in the LiangJiang New Area of Chongqing, China in which
+
+we initially owned 50.9%, and the Chongqing Funds owned 49.1% of the equity interest in the JV Company.
+
+From December 2021 to June 2025, we completed several transactions to sell additional equity interests of the JV Company to third-party investors, while the JV Company also issued additional equity interests to new investors that diluted our ownership interest. Accordingly, as of June 30, 2025, the percentage of outstanding JV equity interest beneficially owned by us was further reduced to 39.2%.
+On July 14, 2025, we entered into an equity transfer agreement with a strategic investor to sell approximately 20.3% of outstanding equity interest in the JV Company held by us for an aggregate cash consideration of $150 million to be paid in four installments, subject to satisfaction of certain conditions. On August 29, 2025, the amended Shareholders’ agreement for the JV Company was signed, which reduced our equity interest in the JV Company by 20.3% to an ownership percentage of 18.9%. As
+27
+
+of August 29, 2025, all of the conditions for the first installment were satisfied, and we received our first installment payment of RMB 676 million (or $94.5 million based on the currency exchange rate between RMB and U.S. Dollar on August 29, 2025). In addition, we received $11.1 million for the second installment payment during the three months ended December 31, 2025, and $30.3 million for the third installment payment during the three months ended March 31, 2026. We expect to receive the remaining installment payment of approximately $15.6 million and close the transaction in the near future. We believe this sale provides additional and significant capital for us to continue investment in technology, R&D projects and acquisition of assets complementary to our business operations, which will facilitate and accelerate our efforts to develop and distribute innovative and diverse power semiconductor products to customers worldwide.
+In addition, the JV Company will continue to provide us with significant level of foundry capacity to enable us to develop and manufacture our products. Pursuant to an agreement with the JV Company and other shareholders of the JV Company, the JV Company is committed to provide us with a specified level of monthly wafer production capacity.
+Other Factors affecting our Performance
+The global, regional economic and PC market conditions:
+ Because our products primarily serve consumer electronic applications, any significant changes in global and regional economic conditions could materially affect our revenue and results of operations. A significant amount of our revenue is derived from sales of products in the PC markets, such as notebooks, motherboards and notebook battery packs. Therefore, a substantial decline in the PC market could have a material
+adverse effect on our revenue and results of operations. The PC markets have experienced a modest global decline in recent years due to continued growth of demand in tablets and smart phones, worldwide economic conditions and the industry inventory correction which had and may continue to have a material impact on the demand for our products. In addition, the PC market may be affected by evolving laws and regulations governing international trade, such as export control regulations.
+A decline of the PC market may have a negative impact on our revenue, factory utilization, gross margin, our ability to resell excess inventory, and other performance measures. We have executed and continue to execute strategies to diversify our product portfolio, penetrate other market segments, including the consumer, communications and industrial markets, and improve gross margins and profit by implementing cost control measures. While making efforts to reduce our reliance on the computing market, we continue to support our computing business and capitalize on the opportunities in this market with a more focused and competitive PC product strategy to gain market share.
+Manufacturing costs and capacity availability:
+ Our gross margin is affected by a number of factors including our manufacturing costs, utilization of our manufacturing facilities, the product mixes of our sales, pricing of wafers from third party foundries and pricing of semiconductor raw materials. Capacity utilization affects our gross margin because we have certain fixed costs at our Shanghai facilities and our Oregon Fab. If we are unable to utilize our manufacturing facilities at a desired level, our gross margin may be adversely affected. In addition, from time to time, we may experience wafer capacity constraints, particularly at third party foundries, that may prevent us from meeting fully the demand of our customers. While we can mitigate these constraints by increasing and re-allocating capacity at our own fab, we may not be able to do so quickly or at sufficient level, which could adversely affect our financial conditions and results of operations. We also rely on third parties to provide foundry capacity to manufacture our products, including the JV Company, therefore it is important that we maintain continuous access to such capacity, which may not be available at sufficient level or at pricing terms favorable. If these third-party foundries, take actions or make decisions that prevent us from accessing required capacity, our operations may be adversely affected.
+Erosion and fluctuation of average selling price
+: Erosion of average selling prices of established products is typical in our industry. Consistent with this historical trend, we expect our average selling prices of our existing products to decline in the future. However, in the normal course of business, we seek to offset the effect of declining average selling price by introducing new and higher value products, expanding existing products for new applications and new customers and reducing the manufacturing cost of existing products. These strategies may cause the average selling price of our products to fluctuate significantly from time to time, thereby affecting our financial performance and profitability.
+Product introductions and customers’ product requirements
+: Our success depends on our ability to introduce products on a timely basis that meet or are compatible with our customers' specifications and performance requirements, including our Tier 1 customers who often have stringent requirements. Both factors, timeliness of product introductions and conformance to customers' requirements, are equally important in securing design wins with our customers. As we accelerate the development of new technology platforms, we expect to increase the pace at which we introduce new products and seek and acquire design wins. If we were to fail to introduce new products on a timely basis that meet customers’ specifications and performance requirements, particularly those products with major OEM customers, and continue to expand our serviceable markets, then we would lose market share and our financial performance would be adversely affected.
+Distributor ordering patterns, customer demand and seasonality
+: Our distributors place purchase orders with us based on their forecasts of end customer demand, and this demand may vary significantly depending on the sales outlook and market and
+28
+
+economic conditions of end customers. Because these forecasts may not be accurate, channel inventory held at our distributors may fluctuate significantly, which in turn may prompt distributors to make significant adjustments to their purchase orders placed with us. As a result, our revenue and operating results may fluctuate significantly from quarter to quarter. In addition, because our products are used in consumer electronics products, our revenue is subject to seasonality. Our sales seasonality is affected by numerous factors, including global and regional economic conditions as well as the PC market conditions, revenue generated from new products, changes in distributor ordering patterns in response to channel inventory adjustments and end customer demand for our products and fluctuations in consumer purchase patterns prior to major holiday seasons. Typically, we generate lower revenue during the first quarter of the calendar year as compared to other quarters. However, broad fluctuations in the semiconductor markets and the global and regional economic conditions, in particular the changing PC market conditions, have had a more significant impact on our results of operations than seasonality. Furthermore, our revenue may be impacted by the level of demand from our major customers due to factors outside of our control. If these major customers
+experience significant decline in the demand of their products, encounter difficulties or defects in their products, or otherwise fail to execute their sales and marketing strategies successfully, it may adversely affect our revenue and results of operations.
+Principal line items of Condensed Consolidated Statements of Income (Loss)
+The following describes the principal line items set forth in our Condensed Consolidated Statements of Income (Loss).
+Revenue
+We generate revenue primarily from the sale of power semiconductors, consisting of power discretes and power ICs. Historically, a majority of our revenue has been derived from power discrete products. Because our products typically have three-year to five-year life cycles, the rate of new product introduction is an important driver of revenue growth over time. We believe that expanding the breadth of our product portfolio is important to our business prospects, because it provides us with an opportunity to increase our total bill-of-materials within an electronic system and to address the power requirements of additional electronic systems. In addition, a small percentage of our total revenue is generated by providing packaging and testing services to third parties through one of our in-house facilities.
+Our product revenue is reported net of the effect of the estimated stock rotation returns and price adjustments that we expect to provide to our distributors. Stock rotation returns are governed by contract and are limited to a specified percentage of the monetary value of products purchased by the distributor during a specified period. At our discretion or upon our direct negotiations with the original design manufacturers or original equipment manufacturers, we may elect to grant special pricing that is below the prices at which we sold our products to the distributors. In certain situations, we will grant price adjustments to the distributors reflecting such special pricing. We estimate the price adjustments for inventory at the distributors based on factors such as distributor inventory levels, forecasted distributor selling prices, distributor margins and demand for our products.
+In February 2023, we entered into a license agreement with a customer to license our proprietary SiC technology and provided 24-months of engineering and development services for a total fee of $45.0 million. The license and development fee required significant integration to create a combined output to the customer and was determined to be one performance obligation and was recognized over the 24 months during which we performed the engineering and development services. We use the input method to measure progress and recognize revenue, based on the effort expended relative to the estimated total effort to satisfy the performance obligation. As of June 30, 2025, all revenue has been recognized and all consideration has been received associated with the license agreement, therefore we no longer have any obligations under the license agreement. During the three and nine months ended March 31, 2026, we recorded nil of license and development revenue, respectively. During the three and nine months ended March 31, 2025 we recorded $2.8 million and $13.8 million of license and development revenue, respectively. We also entered into an accompanying supply agreement to provide limited wafer supply to the customer.
+Cost of goods sold
+Our cost of goods sold primarily consists of costs associated with semiconductor wafers, packaging and testing, personnel, including share-based compensation expense, overhead attributable to manufacturing, operations and procurement, and costs associated with yield improvements, capacity utilization, warranty and valuation of inventories. As the volume of sales increases, we expect cost of goods sold to increase. While our utilization rates cannot be immune to the market conditions, our goal is to make them less vulnerable to market fluctuations. We believe our market diversification strategy and product growth will drive higher volume of manufacturing which will improve our factory utilization rates and gross margin in the long run.
+Operating expenses
+29
+
+Our operating expenses consist of research and development, and selling, general and administrative expenses. We expect our operating expenses as a percentage of revenue to fluctuate from period to period as we continue to exercise cost control measures in response to the declining PC market as well as align our operating expenses to the revenue level.
+Research and development expenses
+.
+Our research and development expenses consist primarily of salaries, bonuses, benefits, share-based compensation expense, expenses associated with new product prototypes, travel expenses, fees for engineering services provided by outside contractors and consultants, amortization of software and design tools, depreciation of equipment and overhead costs. We continue to invest in developing new technologies and products utilizing our own fabrication and packaging facilities as it is critical to our long-term success. We also evaluate appropriate investment levels and stay focused on new product introductions to improve our competitiveness. We expect that our research and development expenses will fluctuate from time to time.
+Selling, general and administrative expenses.
+Our selling, general and administrative expenses consist primarily of salaries, bonuses, benefits, share-based compensation expense, product promotion costs, occupancy costs, travel expenses, expenses related to sales and marketing activities, amortization of software, depreciation of equipment, maintenance costs, other expenses for general and administrative functions, and costs for outside professional services, including legal, audit and accounting services, as well as impairment of long-lived assets. We review all long-lived assets whenever events or changes in circumstance indicate that these assets may not be recoverable. When evaluating long-lived assets, if we conclude that the estimated undiscounted cash flows attributable to the assets are less than their carrying value, we recognize an impairment loss based on the excess of the carrying amount of the assets over their respective fair values. We expect our selling, general and administrative expenses to fluctuate in the near future as we continue to exercise cost control measures.
+Income tax expense
+We are subject to income taxes in various jurisdictions.
+
+Our interim period tax provision for (or benefit from) income taxes is determined using an estimate of its annual effective tax rate, adjusted for discrete items, if any, that arise during the period.
+
+Each quarter, we update our estimate of the annual effective tax rate, and if the estimated annual effective tax rate changes, we make a cumulative adjustment in such period.
+
+Our quarterly tax provision and estimate of its annual effective tax rate are subject to variation due to several factors, including variability in forecasting its pre-tax income or loss and the mix of jurisdictions to which they relate, and changes in how we do business.
+
+Significant judgment and estimates are required in determining our worldwide income tax expense.
+
+The calculation of tax liabilities involves dealing with uncertainties in the application of complex tax regulations of different jurisdictions globally. We establish accruals for potential liabilities and contingencies based on a more likely than not threshold to the recognition and de-recognition of uncertain tax positions.
+
+If the recognition threshold is met, the applicable accounting guidance permits us to recognize a tax benefit measured at the largest amount of tax benefit that is more likely than not to be realized upon settlement with a taxing authority.
+
+If the actual tax outcome of such exposures is different from the amounts that were initially recorded, the differences will impact the income tax and deferred tax provisions in the period in which such determination is made. Changes in the location of taxable income (loss) could result in significant changes in our income tax expense.
+We record a valuation allowance against deferred tax assets if it is more likely than not that a portion of the deferred tax assets will not be realized, based on historical profitability and our estimate of future taxable income in a particular jurisdiction. Our judgments regarding future taxable income may change due to changes in market conditions, changes in tax laws, tax planning strategies or other factors.
+
+If our assumptions and consequently our estimates change in the future, the deferred tax assets may increase or decrease, resulting in corresponding changes in income tax expense.
+
+Our effective tax rate is highly dependent upon the geographic distribution of our worldwide profits or losses, the tax laws and regulations in each geographical region where we have operations, the availability of tax credits and carry-forwards and the effectiveness of our tax planning strategies.
+Bermuda Corporate Income Tax for Tax Years Beginning in 2025
+We are subject to income tax expense or benefit based upon pre-tax income or loss reported in the consolidated statements of income (loss) and the provisions of currently enacted tax laws. The parent company is incorporated under the laws of Bermuda and is subject to Bermuda law with respect to taxation.
+
+Under current Bermuda law, we are not subject to any income or capital gains taxes in Bermuda. As we have previously disclosed, the Government of Bermuda announced in December 2023 that it enacted the Corporate Income Tax Act 2023, potentially imposing a 15% corporate income tax (CIT) on Bermuda companies that are within the scope of the CIT, that will be effective for tax years beginning on or after January 1, 2025. In particular, the CIT applies to multinational companies with annual revenue of 750 million euros or more in the consolidated
+30
+
+financial statements of the ultimate parent entity for at least two of the four fiscal years immediately preceding the fiscal year when the CIT may apply.
+We did not generate more than 750 million euro revenue in any of the four fiscal years before the tax year starting July 1, 2025. We continue to monitor and assess if and when it may be within the scope of the CIT.
+
+If we become subject to the Bermuda CIT, we may be subject to additional income taxes, which may adversely affect our financial position, results of operations and our overall business.
+One Big Beautiful Bill Act, Enacted July 4, 2025
+On July 4, 2025, H.R. 1, commonly known as the One Big Beautiful Bill Act (the “OBBB”), was signed into law. This includes significant changes to the federal corporate tax provisions and extends certain otherwise expiring provisions of the 2017 Tax Cuts and Jobs Act.
+
+The key provisions include allowing immediate expensing of domestic research and experimental expenditures, new limitations on interest expense deductibility, reinstatement of 100% bonus depreciation for qualified assets placed in service in the United States after January 19, 2025 as well as changes to the calculation of taxable income resulting from the foreign derived intangible income deduction. ASC 740 Income Taxes requires the effects of changes in tax rates and laws to be recognized in the period in which the relevant legislation is enacted.
+
+We have concluded that the impact of OBBB for the current quarter is immaterial.
+Equity method investment gain (loss)
+We use the equity method of accounting when we have the ability to exercise significant influence, but we do not have control, as determined in accordance with generally accepted accounting principles, over the operating and financial policies of the company. Effective December 2, 2021, we reduced our equity interest in the JV Company below 50% of outstanding equity ownership and experienced a loss of control of the JV Company. As a result, we record our investment under equity method of accounting. Since we are unable to obtain accurate financial information from the JV Company in a timely manner, we record our share of earnings or losses of such affiliate on a one quarter lag.
+We record our interest in the net earnings of the equity method investee, along with adjustments for unrealized profits or losses on intra-entity transactions and amortization of basis differences, within earnings or loss from equity interests in the Consolidated Statements of Operations. Profits or losses related to intra-entity sales with the equity method investee are eliminated until realized by the investor or investee. Basis differences represent differences between the cost of the investment and the underlying equity in net assets of the investment and are generally amortized over the lives of the related assets that gave rise to them. Equity method goodwill is not amortized. Instead the total equity method investment balance, including equity method goodwill, is tested for impairment. In the fourth quarter of fiscal year 2025, the impairment loss of $76.8 million was recorded within equity method investment loss in the consolidated statement of operations.
+31
+
+Results of Operations
+
+The following tables set forth statements of loss, also expressed as a percentage of revenue, for the three and nine months ended March 31, 2026 and 2025. Our historical results of operations are not necessarily indicative of the results for any future period.
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+2026
+2025
+2026
+2025
+(in thousands)
+(% of revenue)
+(in thousands)
+(% of revenue)
+Revenue
+$
+163,792 
+$
+164,635 
+100.0 
+%
+100.0 
+%
+$
+508,556 
+$
+519,678 
+100.0 
+%
+100.0 
+%
+Cost of goods sold
+129,262 
+129,458 
+78.9 
+%
+78.6 
+%
+396,357 
+399,964 
+77.9 
+%
+77.0 
+%
+Gross profit
+34,530 
+35,177 
+21.1 
+%
+21.4 
+%
+112,199 
+119,714 
+22.1 
+%
+23.0 
+%
+Operating expenses
+Research and development
+26,052 
+23,398 
+15.9 
+%
+14.2 
+%
+75,402 
+69,844 
+14.8 
+%
+13.4 
+%
+Selling, general and administrative
+22,536 
+22,437 
+13.8 
+%
+13.6 
+%
+69,004 
+66,688 
+13.6 
+%
+12.8 
+%
+Total operating expenses
+48,588 
+45,835 
+29.7 
+%
+27.8 
+%
+144,406 
+136,532 
+28.4 
+%
+26.2 
+%
+Operating loss
+(14,058)
+(10,658)
+(8.6)
+%
+(6.4)
+%
+(32,207)
+(16,818)
+(6.3)
+%
+(3.2)
+%
+Other income (loss), net
+587 
+(65)
+0.4 
+%
+0.0 
+%
+3,949 
+(52)
+0.8 
+%
+0.0 
+%
+Interest income
+990 
+927 
+0.6 
+%
+0.5 
+%
+3,006 
+3,327 
+0.6 
+%
+0.6 
+%
+Interest expenses
+(139)
+(596)
+(0.1)
+%
+(0.4)
+%
+(653)
+(2,109)
+(0.1)
+%
+(0.4)
+%
+Net loss before income taxes and equity method investment (loss) income
+(12,620)
+(10,392)
+(7.7)
+%
+(6.3)
+%
+(25,905)
+(15,652)
+(5.0)
+%
+(3.0)
+%
+Income tax expense
+1,015 
+660 
+0.6 
+%
+0.4 
+%
+4,432 
+2,942 
+0.9 
+%
+0.6 
+%
+Net loss before equity method investment (loss) income
+(13,635)
+(11,052)
+(8.3)
+%
+(6.7)
+%
+(30,337)
+(18,594)
+(5.9)
+%
+(3.6)
+%
+Equity method investment (loss) income
+(152)
+245 
+(0.1)
+%
+0.1 
+%
+1,135 
+(1,323)
+0.2 
+%
+(0.2)
+%
+Net loss
+$
+(13,787)
+$
+(10,807)
+(8.4)
+%
+(6.6)
+%
+$
+(29,202)
+$
+(19,917)
+(5.7)
+%
+(3.8)
+%
+Share-based compensation expense was recorded as follows:
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+2026
+2025
+2026
+2025
+(in thousands)
+(% of revenue)
+(in thousands)
+(% of revenue)
+Cost of goods sold
+$
+1,071 
+$
+1,047 
+0.6 
+%
+0.6 
+%
+$
+3,368 
+$
+3,185 
+0.6 
+%
+0.6 
+%
+Research and development
+1,231 
+1,890 
+0.8 
+%
+1.1 
+%
+5,378 
+6,018 
+1.1 
+%
+1.2 
+%
+Selling, general and administrative
+2,799 
+4,199 
+1.7 
+%
+2.6 
+%
+11,760 
+12,785 
+2.3 
+%
+2.5 
+%
+Total
+$
+5,101 
+$
+7,136 
+3.1 
+%
+4.3 
+%
+$
+20,506 
+$
+21,988 
+4.0 
+%
+4.3 
+%
+32
+
+Three and Nine Months Ended March 31, 2026
+
+and 2025
+Revenue
+The following is a summary of revenue by product type:
+Three Months Ended March 31,
+Nine Months Ended March 31,
+2026
+2025
+Change
+2026
+2025
+Change
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Power discrete
+$
+115,051 
+$
+106,822 
+$
+8,229 
+7.7 
+%
+$
+324,542 
+$
+342,232 
+$
+(17,690)
+(5.2)
+%
+Power IC
+46,890 
+54,576 
+(7,686)
+(14.1)
+%
+178,425 
+161,251 
+17,174 
+10.7 
+%
+Packaging and testing services and other
+1,851 
+438 
+1,413 
+322.6 
+%
+5,589 
+2,354 
+3,235 
+137.4 
+%
+License and development services
+— 
+2,799 
+(2,799)
+(100.0)
+%
+— 
+13,841 
+(13,841)
+(100.0)
+%
+$
+163,792 
+$
+164,635 
+$
+(843)
+(0.5)
+%
+$
+508,556 
+$
+519,678 
+$
+(11,122)
+(2.1)
+%
+The following is a summary of revenue by end market:
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+2026
+2025
+2026
+2025
+2026
+2025
+ 
+(in thousands)
+(% of revenue)
+(in thousands)
+(% of revenue)
+Computing
+$
+80,411 
+$
+78,784 
+49.1 
+%
+47.9 
+%
+$
+258,058 
+$
+231,229 
+50.7 
+%
+44.5 
+%
+Consumer
+19,365 
+21,459 
+11.8 
+%
+13.0 
+%
+62,087 
+75,724 
+12.2 
+%
+14.6 
+%
+Communication
+33,677 
+28,383 
+20.6 
+%
+17.2 
+%
+99,377 
+96,969 
+19.5 
+%
+18.7 
+%
+Power Supply and Industrial
+28,488 
+32,772 
+17.4 
+%
+19.9 
+%
+83,445 
+99,561 
+16.5 
+%
+19.2 
+%
+Packaging and testing services and other
+1,851 
+438 
+1.1 
+%
+0.3 
+%
+5,589 
+2,354 
+1.1 
+%
+0.4 
+%
+License and development services
+— 
+2,799 
+— 
+%
+1.7 
+%
+— 
+13,841 
+— 
+%
+2.6 
+%
+$
+163,792 
+$
+164,635 
+100.0 
+%
+100.0 
+%
+$
+508,556 
+$
+519,678 
+100.0 
+%
+100.0 
+%
+Total revenue was $163.8 million for the three months ended March 31, 2026, a decrease of $0.8 million, or 0.5% as compared to $164.6 million for the same quarter last year. The decrease was primarily due to a decrease of $7.7 million in sales of power IC products and a decrease of $2.8 million in license and development services, partially offset by an increase of $8.2 million in sales of power discrete products and an increase of $1.4 million in packaging and testing services and other. The net increase in power discrete products and power IC products sales was primarily due to a 4.1% increase in average selling price, partially offset by a 3.6% decrease in unit shipment as compared to same quarter last year due to a shift in product mix. Such net increase in revenues was primarily driven by an increase in communication markets, particularly in battery products, offset by a decrease in power supply and industrial markets, particularly in power tools products. The increase in revenue of packaging and testing services and other for the three months ended March 31, 2026, as compared to same quarter last year, was primarily due to increased demand. The decrease in license and development services for the three months ended March 31, 2026 was related to the license agreement with a customer to license our proprietary SiC technology and provided 24-month engineering and development services, which was completed during the three months ended March 31, 2025.
+33
+
+Total revenue was $508.6 million for the nine months ended March 31, 2026, a decrease of $11.1 million, or 2.1% as compared to $519.7 million for the same period last year. The decrease was primarily due to a decrease of $17.7 million in sales of power discrete products, as well as a decrease of $13.8 million in license and development services, partially offset by an increase of $17.2 million in sales of power IC products and an increase of $3.2 million in packaging and testing services and other. The net decrease in power discrete products and power IC products sales was primarily due to a 2.9% decrease in unit shipment, partially offset by a 2.9% increase in average selling price as compared to same period last year due to a shift in product mix. Such net decrease in revenues was primarily driven by a decrease in consumer markets, particularly in home appliances and gaming products, and a decrease in power supply and industrial markets, particularly in power tools products and quick chargers products, partially offset by an increase in the computing markets, particularly in notebook. The increase in revenue from packaging and testing services and other for the nine months ended March 31, 2026, as compared to same period last year, was primarily due to increased demand. The decrease in license and development services for the nine months ended March 31, 2026 was related to the license agreement with a customer to license our proprietary SiC technology and provided 24-month engineering and development services, which was completed during the three months ended March 31, 2025.
+Cost of goods sold and gross profit
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Cost of goods sold
+$
+129,262 
+$
+129,458 
+$
+(196)
+(0.2)
+%
+$
+396,357 
+$
+399,964 
+$
+(3,607)
+(0.9)
+%
+Percentage of revenue
+78.9 
+%
+78.6 
+%
+77.9 
+%
+77.0 
+%
+Gross profit
+$
+34,530 
+$
+35,177 
+$
+(647)
+(1.8)
+%
+$
+112,199 
+$
+119,714 
+$
+(7,515)
+(6.3)
+%
+Percentage of revenue
+21.1 
+%
+21.4 
+%
+22.1 
+%
+23.0 
+%
+Cost of goods sold was $129.3 million for the three months ended March 31, 2026, a decrease of $0.2 million or 0.2%, as compared to $129.5 million for the same quarter last year. The decrease was primarily due to 0.5% decrease in sales. Gross margin decreased by 0.3 percentage points to 21.1% for the three months ended March 31, 2026, as compared to 21.4% for the same quarter last year. The decrease in gross margin was primarily due to higher material costs and lower unit shipments during the three months ended March 31, 2026.
+Cost of goods sold was $396.4 million for the nine months ended March 31, 2026, a decrease of $3.6 million, or
+0.9%, as compared to $400.0 million for the same period last year. The decrease was primarily due to 2.1% decrease in sales. Gross margin decreased by 0.9 percentage points to 22.1% for the nine months ended March 31, 2026, as compared to 23.0% for the same period last year. The decrease in gross margin was primarily due to higher material costs and lower unit shipments during the current periods.
+Research and development expenses
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Research and development expenses
+$
+26,052 
+$
+23,398 
+$
+2,654 
+11.3 
+%
+$
+75,402 
+$
+69,844 
+$
+5,558 
+8.0 
+%
+Research and development expenses were $26.1 million for the three months ended March 31, 2026, an increase of $2.7 million, or 11.3%, as compared to $23.4 million for the same quarter last year. The increase was primarily attributable to a $1.7 million increase in employee compensation and benefit expense mainly due to higher bonus expense, increased headcount and merit salary increases, a $1.3 million increase in product prototyping engineering expense as a result of increased engineering activities, a $0.5 million increase in consulting and recruiting fees and $0.8 million increase in allocation, partially offset by a $1.1 million decrease in depreciation expenses and a $0.7 million decrease in share-based compensation expense as a result of the change in estimated achievement of the performance conditions associated with the MSUs granted in December 2021.
+Research and development expenses were $75.4 million for the nine months ended March 31, 2026, an increase of $5.6 million, or 8.0%, as compared to $69.8 million for the same period last year. The increase was primarily attributable to a
+34
+
+$4.6 million increase in employee compensation and benefit expense mainly due to higher bonus expense, increased headcount and merit salary increases, a $2.6 million increase in product prototyping engineering expense as a result of increased engineering activities, a $0.7 million increase in consulting and recruiting fees and $1.4 million increase in allocation, partially offset by a $3.3 million decrease in depreciation expenses and a $0.6 million decrease in share-based compensation expense as a result of the change in estimated achievement of the performance conditions associated with the MSUs granted in December 2021.
+Selling, general and administrative expenses
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Selling, general and administrative
+$
+22,536 
+$
+22,437 
+$
+99 
+0.4 
+%
+$
+69,004 
+$
+66,688 
+$
+2,316 
+3.5 
+%
+Selling, general and administrative expenses were $22.5 million for the three months ended March 31, 2026, an increase of $0.1 million, or 0.4%, as compared to $22.4 million for the same quarter last year. The increase was primarily due to a $0.5 million increase in employee compensation and benefit expenses primarily due to merit salary increases and higher bonus expense, a $0.4 million increase in legal expenses, $0.3 million increase in design-win commission and a $0.1 million increase in audit and tax professional service fees, offset by $1.4 million decrease in share-based compensation expense as a result of the change in estimated achievement of the performance conditions associated with the MSUs granted in December 2021. In addition, during the three months ended March 31, 2026, we identified one purchased manufacturing equipment, for which we were unable to meet our production process requirements. Because the equipment had no alternative uses, we recorded an impairment of $0.3 million related to such equipment.
+Selling, general and administrative expenses were $69.0 million for the nine months ended March 31, 2026, an increase of $2.3 million, or 3.5%, as compared to $66.7 million for the same period last year. The increase was primarily due to a $1.7 million increase in employee compensation and benefits expenses primarily due to merit salary increases and higher bonus expense, a $0.9 million increase in legal expenses, and a $0.6 million increase in audit and tax professional service fees, offset by a $1.0 million decrease in share-based compensation expense as a result of the change in estimated achievement of the performance conditions associated with the MSUs granted in December 2021. and $0.1 million decrease in design-win commission expense. In addition, during the nine months ended March 31, 2026, we recorded an impairment of $0.3 million related to an equipment.
+Other income (loss), net
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Other income (loss), net
+$
+587 
+$
+(65)
+$
+652 
+(1,003.1)
+%
+$
+3,949 
+$
+(52)
+$
+4,001 
+(7,694.2)
+%
+Other income (loss), net increased in the three months ended March 31, 2026, as compared to the same quarter last year primarily due to an increase in foreign currency exchange gain as a result of the appreciation of RMB against USD.
+Other income (loss), net increased in the nine months ended March 31, 2026, as compared to the same periods last year primarily due to an increase in foreign currency exchange gain as a result of the appreciation of RMB against USD, as well as $1.9 million of certain services were provided by the Company to the JV Company.
+Interest income
+Three Months Ended March 31,
+Nine Months Ended March 31,
+2026
+2025
+Change
+2026
+2025
+Change
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Interest income
+$
+990 
+$
+927 
+$
+63 
+6.8 
+%
+$
+3,006 
+$
+3,327 
+$
+(321)
+(9.6)
+%
+35
+
+Interest income increased in the three months ended March 31, 2026, as compared to the same quarter last year primarily due to higher cash balances in the current quarter.
+Interest income decreased in the nine months ended March 31, 2026, as compared to the same period last year primarily due to lower interest rates in the current periods.
+Interest expense
+Three Months Ended March 31,
+Nine Months Ended March 31,
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Interest expenses
+$
+(139)
+$
+(596)
+$
+457 
+(76.7)
+%
+$
+(653)
+(2,109)
+$
+1,456 
+(69.0)
+%
+Interest expense decreased in the three and nine months ended March 31, 2026 as compared to the same period last year primarily due to lower outstanding loan balance in the current periods.
+Equity method investment income (loss)
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Equity method investment (loss) income
+$
+(152)
+$
+245 
+$
+(397)
+(162.0)
+%
+$
+1,135 
+$
+(1,323)
+$
+2,458 
+(185.8)
+%
+Equity method investment loss increased in the three months ended March 31, 2026, as compared to the same quarter last year as a result of a $0.5 million gain on the change of equity interest in the JV Company recorded in the three months ended March 31, 2025.  On December 30, 2024, the JV Company signed an investment agreement with an investor, pursuant to which the investor agreed to invest RMB 500 million (or $68.5 million based on currency exchange rate between RMB and U.S. Dollar on December 31, 2024) in the JV Company. This transaction closed on January 15, 2025, at which time, the percentage of outstanding JV Company’s equity interest owned by us was reduced to approximately 39.2%.
+Equity method investment income increased in the nine months ended March 31, 2026, as compared to the same period last year as a result of the gain from the sales of 20.3% outstanding equity interest in the JV Company in August 2025, as well as an income recorded from the equity method investment during the nine months ended March 31, 2026, compared to the equity method investment loss in the same period last year.
+Income tax expense
+Three Months Ended March 31,
+Nine Months Ended March 31,
+ 
+2026
+2025
+Change
+2026
+2025
+Change
+ 
+(in thousands)
+(in thousands)
+(in percentage)
+(in thousands)
+(in thousands)
+(in percentage)
+Income tax expense
+$
+1,015 
+$
+660 
+$
+355 
+53.8 
+%
+$
+4,432 
+$
+2,942 
+$
+1,490 
+50.6 
+%
+We recognized income tax expense of approximately $1.0 million and $0.7 million for the three months ended March 31, 2026 and 2025, respectively. The income tax expense of $1.0 million for the three months ended March 31, 2026 included a $0.1 million discrete tax expense. The income tax expense of $0.7 million for the three months ended March 31, 2025 included a $0.1 million discrete tax expense. Excluding the discrete income tax items, the income tax expense for the three months ended March 31, 2026 and 2025 was $0.9 million and $0.6 million, respectively, and the effective tax rate for the three months ended March 31, 2026 and 2025 was (7.4)% and (5.8%), respectively. The changes in the tax expense and effective tax rate between the periods resulted primarily from changes in the mix of earnings in various geographic jurisdictions between the current period and the same period of last year.
+We recognized income tax expense of approximately $4.4 million and $2.9 million for the nine months ended March 31, 2026 and 2025, respectively. The income tax expense of $4.4 million for the nine months ended March 31, 2026 included a
+36
+
+$0.2 million discrete tax expense. The income tax expense of $2.9 million for the nine months ended March 31, 2025 included a $0.2 million discrete tax expense. Excluding the discrete income tax items, the income tax expense for the nine months ended March 31, 2026 and 2025 was $4.2 million and $2.7 million, respectively, and the effective tax rate for the nine months ended March 31, 2026 and 2025 was (17.0)% and (16.1%), respectively. The changes in the tax expense and effective tax rate between the periods resulted primarily from changes in the mix of earnings in various geographic jurisdictions between the current year and the same period of last year, including reporting $0.7 million of income tax expense related to the Company’s income from its investment in CQJV for the nine months ended March 31, 2026 versus a $0.2 million tax benefit for the nine months ended March 31, 2025. In addition, income tax payable increased by $10.4 million and deferred tax liability decreased by $10.5 million as a result of the sale of approximately 20.3% of the Company’s equity interest in the JV company for $150 million during the nine months ended March 31, 2026 . We made income tax payments of approximately $0.7 million and $9.3 million during the three and nine months ended March 31, 2026, respectively, as a result of the sale transaction.
+The Company files its income tax returns in the United States and in various foreign jurisdictions. The tax years 2004 to 2025 remain open to examination by U.S. federal and state tax authorities. The tax years 2019 to 2025 remain open to examination by foreign tax authorities.
+In accordance with the guidance on the accounting for uncertainty in income taxes, the Company regularly assesses the likelihood of adverse outcomes resulting from these examinations to determine the adequacy of its provision for income taxes. These assessments can require considerable estimates and judgments. As of March 31, 2026, the gross amount of unrecognized tax benefits was approximately $10.9 million, of which $7.5 million, if recognized, would reduce the effective income tax rate in future periods. If the Company's estimate of income tax liabilities proves to be less than the ultimate assessment, then a further charge to expense would be required. If events occur and the payment of these amounts ultimately proves to be unnecessary, the reversal of the liabilities would result in tax benefits being recognized in the period when the Company determine the liabilities are no longer necessary.
+Liquidity and Capital Resources
+Our principal need for liquidity and capital resources is to maintain sufficient working capital to support our operations and to invest adequate capital expenditures to grow our business. To date, we finance our operations and capital expenditures primarily through funds generated from operations and borrowings under our term loans, financing lease and other debt agreements.
+In September 2021, Jireh Semiconductor Incorporated (“Jireh”), one of the wholly-owned subsidiaries, entered into a financing arrangement agreement with a company (“Lender”) for the lease and purchase of a machinery equipment manufactured by a supplier. This agreement includes a payment term of five (5) years, pursuant to which Jireh commenced payments of interest and principal to the Lender in September 2022 when the final installation and acceptance of the equipment were completed. After the end of such payment term, Jireh has the option to purchase the equipment for $1. The implied interest rate was 4.75% per annum which was adjustable based on every five basis point increase in 60-month U.S. Treasury Notes. The total purchase price of this equipment was euro 12.0 million. In April 2021, Jireh made a down payment of euro 6.0 million, representing 50% of the total purchase price of the equipment, to the supplier. In June 2022, the equipment was delivered to Jireh after Lender paid 40% of the total purchase price, for euro 4.8 million, to the supplier on behalf of Jireh. In September 2022, Lender paid the remaining 10% payment for the total purchase price and reimbursed Jireh for the 50% down payment, after the installation and configuration of the equipment. The title of the equipment was transferred to Lender following such payment. The agreement was amended with fixed implied interest rate of 7.51% and monthly payment of principal and interest effective in October 2022. Other terms remain the same. In addition, Jireh purchased hardware for the machine under this financing arrangement. The purchase price of this hardware was $0.2 million. The financing arrangement is secured by this equipment and other equipment at Jireh, which had a net book value of $10.9 million as of March 31, 2026. As of March 31, 2026, the outstanding balance of this debt financing was $4.4 million.
+On August 18, 2021, Jireh entered into a term loan agreement with a financial institution (the “Bank”) in an amount up to $45.0 million for the purpose of expanding and upgrading our fabrication facility located in Oregon. The obligation under the loan agreement is secured by substantially all assets of Jireh and guaranteed by us. The agreement has a 5.5-year term and matures on February 16, 2027. Jireh is required to make consecutive quarterly payments of principal and interest. The loan accrues interest based on adjusted SOFR plus the applicable margin based on the outstanding balance of the loan. This agreement contains customary restrictive covenants and includes certain financial covenants that we are required to maintain. Jireh drew down $45.0 million on February 16, 2022 with the first payment of principal beginning in October 2022. As of June 30, 2025, Jireh was in compliance with these covenants and the outstanding balance of this loan was $20.3 million. In August 2025, we paid the outstanding balance in full and this agreement was terminated. As of March 31, 2026, there was no outstanding balance.
+37
+
+On August 9, 2019, one of our wholly-owned subsidiaries (the “Borrower”) entered into a factoring agreement with the Hongkong and Shanghai Banking Corporation Limited (“HSBC”), whereby the Borrower assigns certain of its accounts receivable with recourse. This factoring agreement allows the Borrower to borrow up to 70% of the net amount of its eligible accounts receivable of the Borrower with a maximum amount of $30.0 million. The interest rate is based on the Secured Overnight Financing Rate (“SOFR”), plus 2.01% per annum. We are the guarantor for this agreement. We are accounting for this transaction as a secured borrowing under the Transfers and Servicing of Financial Assets guidance. In addition, any cash held in the restricted bank account controlled by HSBC has a legal right of offset against the borrowing. This agreement, with certain financial covenants required, has no expiration date. On August 11, 2021, the Borrower signed an agreement with HSBC to decrease the borrowing maximum amount to $8.0 million with certain financial covenants required. Other terms remain the same. In August 2025, this factoring agreement was terminated. As of March 31, 2026, there was no outstanding balance.
+We believe that our current cash and cash equivalents and cash flows from operations will be sufficient to meet our anticipated cash needs, including working capital and capital expenditures, for at least the next twelve months. In the long-term, we may require additional capital due to changing business conditions or other future developments, including any investments or acquisitions we may decide to pursue. If our cash is insufficient to meet our needs, we may seek to raise capital through debt financing. The incurrence of indebtedness would result in increased debt service obligations and may include operating and financial covenants that would restrict our operations. If we decide to raise capital through equity financing, the issuance of additional equity may result in dilution to our shareholders. We cannot be certain that any financing will be available in the amounts we need or on terms acceptable to us, if at all.
+Cash, cash equivalents and restricted cash
+As of March 31, 2026 and June 30, 2025, we h
+a
+d $190.7 million and $153.5 million of cash, cash equivalents and restricted cash, respectively. Our cash, cash equivalents and restricted cash primarily consist of cash on hand, restricted cash, and short-term bank deposits with original maturities of three months or less. Of the $190.7 million and $153.5 million cash, cash equivalents and restricted cash, $81.2 million and $40.7 million, respectively, are deposited with financial institutions outside the United States.
+The following table shows our cash flows from operating, investing and financing activities for the periods indicated:
+ 
+Nine Months Ended March 31,
+ 
+2026
+2025
+ 
+(in thousands)
+Net cash (used in) provided by operating activities
+$
+(6,280)
+$
+32,494 
+Net cash provided by (used in) investing activities
+88,187 
+(22,167)
+Net cash used in financing activities
+(44,591)
+(16,266)
+Effect of exchange rate changes on cash, cash equivalents and restricted cash
+(132)
+(35)
+Net increase (decrease) in cash, cash equivalents and restricted cash
+$
+37,184 
+$
+(5,974)
+ 
+ 
+Cash flows from operating activities
+For the nine months ended March 31, 2026, the $38.8 million decrease in cash provided by operating activities compared to the same period last year was primarily due to an increase of net loss of $9.3 million, a decrease of non-cash expenses of $15.9 million, which includes an increase of $8.1 million in deferred income tax, net, a decrease of $4.2 million in depreciation and amortization, and an increase of $2.5 million in equity method investment gain due to the 20.3% equity method investment sale and income recorded from the equity method investment in current period, compared to a loss recorded from the equity method investment in the same period last year, an increase of $17.0 million in inventory purchase, a decrease of accounts payable of $20.9 million primarily due to timing of payment, and a decrease of $5.1 million in net payable, equity investee.  These sources of cash were offset by a decrease of $12.3 million in accounts receivable, $4.0 million increase in deferred revenue, an increase of $11.5 million in accrued and other liabilities, and an increase of $2.6 million in income tax payable primarily due to the sale of the 20.3% interest in the equity method investment.
+Cash flows from investing activities
+    
+For the nine months ended March 31, 2026, the $110.4 million increase in cash provided by investing activities compared to the same period last year was primarily due to $133.5 million of proceeds from sale of equity interest in the JV Company, net with transaction costs, partially offset by $14.0 million of more purchases of property and equipment, $8.0 million of a loan
+38
+
+issued to a supplier, and $0.6 million of more purchase of intangible assets, as well a $0.5 million less government grant related to equipment in the nine months ended March 31, 2026 compared to the same period last year.
+Cash flows from financing activities
+For the nine months ended March 31, 2026, the $28.3 million increase in cash used in financing activities compared to the same period last year was primarily due to $13.7 million of repayment of loan borrowings and $18.2 million of payment for repurchases of common shares, partially offset by $3.5 million of withholding tax on restricted stock units.
+Commitments
+See Note 12 of the Notes to the Condensed Consolidated Financial Statements contained in this Quarterly Report on Form 10-Q for a description of commitments.
+Contractual Obligations
+There were no material changes outside of our ordinary course of business in our contractual obligations from those disclosed in our 2025 Form 10-K.
+Recent Accounting Pronouncements
+See
+Note 1
+ of the Notes to the Condensed Consolidated Financial Statements contained in this Quarterly Report on Form 10-Q for a description of recent accounting pronouncements, including the expected dates of adoption and estimated effects on results of operations and financial condition, which is incorporated herein by reference.
+39

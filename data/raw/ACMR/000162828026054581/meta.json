@@ -1,0 +1,36 @@
+{
+  "company": "ACM Research",
+  "ticker": "ACMR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001680062",
+  "form": "8-K",
+  "filing_date": "2026-08-07",
+  "accession_number": "0001628280-26-054581",
+  "primary_document": "acmr-20260807.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026054581/acmr-20260807.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-07",
+  "period_end": "2026-08-07",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:43:45.464370+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "acmr-q22026xearningsreleas.htm",
+      "path": "data/raw/ACMR/000162828026054581/exhibit_99_acmr-q22026xearningsreleas.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1680062/000162828026054581/acmr-q22026xearningsreleas.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ACMR/000162828026054581/primary.html",
+    "other": "data/raw/ACMR/000162828026054581/other_full.txt"
+  }
+}

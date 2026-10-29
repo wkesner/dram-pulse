@@ -1,0 +1,30 @@
+{
+  "company": "Celestica",
+  "ticker": "CLS",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001030894",
+  "form": "8-K",
+  "filing_date": "2026-04-27",
+  "accession_number": "0001030894-26-000030",
+  "primary_document": "cls-20260427.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000030/cls-20260427.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-04-27",
+  "period_end": "2026-04-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:27:04.145610+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/CLS/000103089426000030/primary.html",
+    "other": "data/raw/CLS/000103089426000030/other_full.txt"
+  }
+}

@@ -1,0 +1,816 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+You should read the following discussion in conjunction with the unaudited condensed consolidated financial statements and the corresponding notes included elsewhere in this Quarterly Report on Form 10-Q (this “Quarterly Report”). This Management’s Discussion and Analysis of Financial Condition and Results of Operations contains forward-looking statements. The matters discussed in these forward-looking statements are subject to risk, uncertainties and other factors that could cause actual results to differ materially from those made, projected or implied in the forward-looking statements. Please see “Risk Factors” and “Forward-Looking Statements” for a discussion of the uncertainties, risks and assumptions associated with these statements.
+45
+Forward-Looking Statements
+This Quarterly Report contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). These statements relate to, among other things, our markets and industry, products and strategy, the impact of export regulation changes, the expected benefits of our acquisitions, macroeconomic conditions, including supply chain conditions and inventory management by our customers, instability and uncertainty in the banking and financial services markets, and tightening credit markets on our business and results of operations, sales, gross margins, operating expenses, capital expenditures and requirements, liquidity, product development and research and development efforts, manufacturing plans, litigation, effective tax rates and tax reserves, our corporate and financial reporting structure, our plans for growth and innovation, our expectations regarding U.S.-China relations, market and regulatory conditions, trends and uncertainties in our business and financial results, and are often identified by the use of words such as, but not limited to, “anticipate,” “believe,” “can,” “continue,” “could,” “estimate,” “expect,” “intend,” “may,” “might,” “plan,” “project,” “seek,” “should,” “target,” “will,” “would,” “contemplate,” “predict,” “potential” and similar expressions or variations intended to identify forward-looking statements. These statements are based on the beliefs and assumptions of our management, which are in turn based on information currently available to management. Such forward-looking statements are subject to risks, uncertainties and other important factors that could cause actual results and the timing of certain events to differ materially from future results expressed or implied by such forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those discussed in the section entitled “Risk Factors” included under Part II, Item 1A of this Quarterly Report. Furthermore, such forward-looking statements speak only as of the date of this report. Except as required by law, we undertake no obligation to update any forward-looking statements to reflect events or circumstances after the date of such statements.
+46
+Overview
+We are an industry-leading provider of optical and photonic products defined by revenue and market share. Our products are essential to a range of cloud, artificial intelligence and machine learning (“AI/ML”), telecommunications, consumer, and industrial end-market applications.
+We believe the global markets in which Lumentum participates have fundamentally robust, long-term trends that will increase the need for our photonics products and technologies. We believe the world is becoming more reliant on ever-increasing amounts of data flowing through optical networks and data centers. Lumentum’s products and technology enable the scaling of these optical networks and data centers to higher capacities. AI/ML has caused a dramatic surge in the growing demands on data networking in cloud data centers and accelerated the usage of optical components and modules. We expect that the accelerating shift to digital and virtual approaches to many aspects of work and life will continue into the future. Virtual meetings, video calls, and hybrid in-person and virtual environments for work and other aspects of life will continue to drive strong needs for bandwidth growth and present dynamic new challenges that our technologies address. As manufacturers demand higher levels of precision, new materials, and factory and energy efficiency, suppliers of manufacturing tools globally are turning to laser-based approaches, including the types of lasers Lumentum supplies. Laser-based 3D sensing and LiDAR for security, industrial and automotive applications are rapidly developing markets. The technology enables computer vision applications that enhance security, safety, and new functionality in the electronic devices that people rely on every day. The use of LiDAR and in-cabin 3D sensing in automobile and delivery vehicles will over time significantly add to our long-term market opportunity.
+To maintain and grow our market and technology leadership positions, we are continually investing in new and differentiated products and technologie
+s and customer programs that address both nearer-term and longer-term growth opportunities, both organically and through acquisitions, as well as continually improving and optimizing our operations. Over many years, we have developed close relationships with market leading customers. We seek to use our core optical and photonic technology and our volume manufacturing capability to expand into attractive emerging markets that benefit from advantages that optical or photonics-based solutions provide.
+We disaggregate revenue by type of product, which are Components and Systems, and by geography. A Components product is defined as one of the individual building blocks that goes into creating a larger solution. It is typically not a complete product on its own but rather a specialized element that enables system functionality. This includes semiconductor laser chips, laser sub-assemblies, line subsystems and wavelength management systems. These are supplied to customers who then integrate them into their own full system solutions. Components represent foundational parts that support or enable that system’s operation and include a comprehensive portfolio of optical and photonic chips, components, laser light sources that are integrated into smartphones, subsystems supplied to cloud data center operators, AI/ML infrastructure providers, and network equipment manufacturer customers who are building cloud data center and network infrastructures.
+A Systems product is defined as a complete, stand-alone product that delivers full functionality to the end customer. It is typically self-contained and ready to operate within a customer’s network or application environment. This includes optical modules, optical circuit switches, and industrial lasers such as short-pulse solid-state lasers and kilowatt-class fiber lasers. These products integrate multiple technologies and subsystems into a finished solution that directly addresses a customer’s needs. A system represents the end-product that can be deployed and used independently.
+Our products enable high-capacity optical links for cloud computing, AI/ML workloads, and data center interconnect (“DCI”) applications, as well as for communications service provider networks. Our offerings support access (local), metro (intracity), long-haul (intercity and global), and submarine (undersea) network infrastructure. Our products serve enterprise network infrastructure needs, including storage area networks (“SANs”), local area networks (“LANs”), and wide area networks (“WANs”). Demand for our products is fueled by the ongoing expansion of network capacity required to support cloud services, AI/ML processing, streaming video, video conferencing, wireless and mobile connectivity, and the internet of things (“IoT”). In addition, our industrial laser products are used for precision material processing across diverse industries, including semiconductor and microelectronics fabrication, electric vehicle and battery production, metal cutting and welding, and advanced manufacturing that emphasize greater manufacturing precision, flexibility, and sustainability.
+47
+Operating Segment Information
+Prior to fiscal year 2026, we operated in two reportable segments consisting of Cloud & Networking and Industrial Tech. During the first quarter of fiscal year 2026, we implemented a re-organization, and we are now managed as a single, integrated enterprise, with a unified management team overseeing operations across the entire company, rather than through discrete operating segments. The chief operating decision maker (“CODM”) is the Company’s Chief Executive Officer, who reviews financial information presented as a single enterprise for purposes of allocating resources and evaluating financial performance.
+The CODM assesses the performance of the single segment and allocates resources based on consolidated net income (loss) included in the Company’s condensed consolidated statements of operations. The CODM uses consolidated net income (loss) to set budgets, evaluate performance, review actual results and in deciding whether to reinvest profits into our business, pursue acquisitions, or make any other capital management decisions. The significant segment expenses are reflected in the Company’s condensed consolidated statements of operations and the condensed consolidated statements of cash flows. The measure of the single segment assets is the consolidated assets included in the condensed consolidated balance sheets. Accordingly, following the reorganization, we determined we operate in a single reporting segment. Comparative prior period segment information has been updated to reflect the new segment structure and measures. The changes in our operating segments had no impact on our previously reported consolidated results of operations, financial position or cash flows.
+Industry Conditions
+Through fiscal year 2024, we experienced significant fluctuations in demand as customers delayed projected shipments or built up inventory in response to supply shortages and then brought down inventories as supply chain constraints eased. Our revenue fluctuated in response to these changes in demand and our margins were adversely impacted as we were not able to fully recover costs, such as underutilized manufacturing capacity. However, beginning in the first quarter of fiscal year 2025, network equipment manufacturers normalized inventory levels and we have seen increasing demand from AI and cloud customers as they continue to expand their data centers. In fiscal year 2026, we have continued to experience increasing demand, driven in part by the continued advances in cloud and AI infrastructure. This demand is outpacing our current supply which has led to decisions on supply allocation. We are investing in manufacturing capacity, both internally and with contract manufacturers, to meet demand.
+Our supply chain is complex, and we need to manage supply of certain components required to build our products while confronted with fluctuating demand from our customers. From time
+ to time, we experience logistics and supply chain issues and shortages of the types of components we and our customers require in our products, and we have had to incur incremental supply and procurement costs in order to increase our ability to fulfill demands from our customers.
+
+Due to worldwide operations, we and our customers are also subject to risks relating to the global trade environment. The Company is actively monitoring and assessing the global trade environment, particularly with respect to recent changes and proposed changes in tariff regulations and trade restrictions. The ongoing uncertainty surrounding trading policies, including the potential for additional tariffs, restrictions related to our customers and retaliatory measures by non-U.S. governments, continues to create a volatile environment that could disrupt our operations. The imposition of tariffs on certain imported goods and materials and export controls on critical components may increase our costs and place upward pressure on the cost of goods sold, which, in turn, may reduce our gross margins if we are unable to pass these costs on to customers through price increases or have them pay for the tariffs directly.
+If these tariff-related and restriction-related cost increases persist or escalate, our financial results could be adversely affected, including lower profitability. Additionally, changes in the global trade landscape could result in reduced market competitiveness and a slowdown in consumer demand as well as disruptions to our supply chain, including longer lead times, higher shipping costs, or limited availability of key inputs. This may constrain our ability to meet customer demand in a timely manner, potentially affecting our revenue growth and operational efficiency. The impact of tariffs on our business is hard to predict, as it is dependent on negotiations with customers and suppliers and other mitigation efforts and potential further changes in global trade policies, including higher tariffs or trade restrictions in the U.S. or other countries.
+For more information on risks associated with supply chain constraints and customer inventory management, see the section titled “Risk Factors” in Item 1A of Part II of this report.
+48
+Critical Accounting Policies and Estimates
+Our condensed consolidated financial statements are prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) as set forth in the Financial Accounting Standards Board’s Accounting Standards Codification (“ASC”). We also consider the various staff accounting bulletins and other applicable guidance issued by the United States Securities and Exchange Commission (“SEC”). GAAP, as set forth within the ASC, requires us to make certain estimates, judgments and assumptions. We believe that the estimates, judgments and assumptions upon which we rely are reasonable based upon information available to us at the time that these estimates, judgments and assumptions are made. These estimates, judgments and assumptions can affect the reported amounts of assets and liabilities as of the date of the financial statements as well as the reported amounts of revenues and expenses during the periods presented. To the extent there are differences between these estimates, judgments or assumptions and actual results, our financial statements will be affected. The accounting policies that reflect our more significant estimates, judgments and assumptions and which we believe are the most critical to aid in fully understanding and evaluating our reported financial results include the following:
+•
+Inventory Valuation
+•
+Revenue Recognition
+•
+Income Taxes
+•
+Business Combinations
+•
+Goodwill and Intangible Assets - Impairment Assessment
+Management’s Discussion and Analysis of Financial Condition and Results of Operations contained in Part II, Item 7 of our Annual Report on Form 10-K for our fiscal year ended
+June 28, 2025 provides a complete discussion of our critical accounting policies and estimates. There have been no changes to these policies during the three and six months ended December 27, 2025, except as noted below:
+Income Taxes
+In accordance with the authoritative guidance on accounting for income taxes, we recognize income taxes using an asset and liability approach. This approach requires the recognition of taxes payable or refundable for the current year and deferred tax liabilities and assets for the future tax consequences of events that have been recognized in our consolidated financial statements or tax returns. The measurement of current and deferred taxes is based on provisions of the enacted tax law, and the effects of future changes in tax laws or rates are not anticipated.
+The authoritative guidance provides for recognition of deferred tax assets if the realization of such deferred tax assets is more likely than not to occur based on an evaluation of both positive and negative evidence and the relative weight of the evidence. We consider future growth, forecasted earnings, future taxable income, the mix of earnings in the jurisdictions in which we operate, historical earnings, taxable income in prior years, if carry-back is permitted under the law, and prudent and feasible tax planning strategies in determining the need for a valuation allowance.
+In the event we determine that we would not be able to realize all or part of our net deferred tax assets in the future, an adjustment to the deferred tax assets valuation allowance would be charged to earnings in the period in which we make such a determination, or goodwill would be adjusted at our final determination of the valuation allowance related to an acquisition within the measurement period. Conversely, if we later determine that it is more likely than not that all or a portion of the net deferred tax assets will be realized, we would reverse the applicable portion of the previously established valuation allowance. A release of valuation allowance decreases income tax expense in the period of release, increases net income, and reduces our effective tax rate. Such releases may be material to our financial statements depending on the size of the deferred tax assets involved.
+In the fourth quarter of fiscal year 2025, we released $153.1 million of valuation allowances on our UK deferred tax assets after we considered all available positive and negative evidence related to our UK subsidiary. We analyzed the UK subsidiary’s historical operating results, projected future taxable income, tax planning strategies, and reversals of deferred tax liabilities, and determined that the weight of available objectively verifiable positive evidence supported the realizability of the UK deferred tax assets. In weighing the available evidence, more weight was placed upon our forecasts of future taxable income than on the history of pre-tax losses as such losses were generated under our prior UK business operating model which will no longer be in effect beginning with fiscal year 2026, and the guarantee of a positive operating margin as we effectuated an internal restructuring at the end of fiscal year 2025. Further, the most significant deferred tax asset in the UK is the net operating loss carryforward. Under UK tax law, net operating losses may be carried forward indefinitely, and we have considered the indefinite carryforward period to be positive evidence.
+49
+We are subject to income tax audits by the respective tax authorities of the jurisdictions in which we operate. The determination of our income tax liabilities in each of these jurisdictions requires the interpretation and application of complex, and sometimes uncertain, tax laws and regulations. The authoritative guidance on accounting for income taxes prescribes both recognition and measurement criteria that must be met for the benefit of a tax position to be recognized in the financial statements. If a tax position taken, or expected to be taken, in a tax return does not meet such recognition or measurement criteria, an unrecognized tax benefit liability is recorded. If we ultimately determine that an unrecognized tax benefit liability is no longer necessary, we reverse the liability and recognize a tax benefit in the period in which it is determined that the unrecognized tax benefit liability is no longer necessary.
+Our income tax provision is highly dependent on the geographic distribution of our worldwide earnings or losses, tax laws and regulations in various jurisdictions, tax incentives, the availability of tax credits and loss carryforwards, and the effectiveness of our tax planning strategies. The application of tax laws and regulations is subject to legal and factual interpretation, judgment and uncertainty. Tax laws themselves are subject to change as a result of changes in fiscal policy, changes in legislation, and the evolution of regulations and court rulings and tax audits.
+The recognition and measurement of current taxes payable or refundable and deferred tax assets and liabilities requires that we make certain estimates and judgments. Changes to these estimates, including changes in judgment regarding the realizability of deferred tax assets and the need for or release of valuation allowances, may have a material impact on our tax provision, net income, and effective tax rate in a future period.
+Recently Issued Accounting Pronouncements
+Refer to “Note 2. Recently Issued Accounting Pronouncements” in the notes to condensed consolidated financial statements.
+Results of Operations
+The results of operations for the periods presented are not necessarily indicative of results to be expected for future periods. The following table summarizes selected unaudited condensed consolidated statements of operations items as a percentage of net revenue:
+Three Months Ended
+Six Months Ended
+December 27, 2025
+December 28, 2024
+December 27, 2025
+December 28, 2024
+Net revenue by type of products:
+Components
+66.7 
+%
+65.6 
+%
+68.6 
+%
+67.0 
+%
+Systems
+33.3 
+34.4 
+31.4 
+33.0 
+Net revenue
+100.0 
+100.0 
+100.0 
+100.0 
+Cost of sales
+61.0 
+69.9 
+61.5 
+70.0 
+Amortization of acquired developed intangibles
+2.9 
+5.3 
+3.3 
+6.0 
+Gross profit
+36.1 
+24.8 
+35.2 
+24.0 
+Operating expenses:
+Research and development
+12.0 
+18.4 
+13.5 
+20.1 
+Selling, general and administrative
+14.4 
+19.0 
+15.1 
+20.6 
+Restructuring and related charges
+— 
+0.2 
+0.7 
+1.4 
+Total operating expenses
+26.4 
+37.6 
+29.3 
+42.1 
+Income (loss) from operations
+9.7 
+(12.8)
+5.9 
+(18.1)
+Escrow settlement
+4.1 
+— 
+2.3 
+— 
+Interest expense
+(0.9)
+(1.4)
+(1.0)
+(1.5)
+Other income, net
+1.6 
+3.7 
+1.3 
+3.2 
+Income (loss) before income taxes
+14.5 
+(10.5)
+8.5 
+(16.4)
+Income tax provision
+2.7 
+4.6 
+1.6 
+3.0 
+Net income (loss)
+11.8 
+%
+(15.1)
+%
+6.9 
+%
+(19.4)
+%
+50
+Financial data for the three months ended December 27, 2025
+The following table summarizes selected unaudited condensed consolidated statements of operations items for the periods presented (
+in millions, except for percentages
+):
+Three Months Ended
+Six Months Ended
+December 27, 2025
+December 28, 2024
+Change
+Percentage Change
+December 27, 2025
+December 28, 2024
+Change
+Percentage Change
+Net revenue by type of products:
+Components
+$
+443.7 
+$
+263.7 
+$
+180.0 
+68.3 
+%
+$
+822.9 
+$
+495.1 
+$
+327.8 
+66.2 
+%
+System
+221.8 
+138.5 
+83.3 
+60.1 
+%
+376.4 
+244.0 
+132.4 
+54.3 
+%
+Net revenue
+$
+665.5 
+$
+402.2 
+$
+263.3 
+65.5 
+%
+$
+1,199.3 
+$
+739.1 
+$
+460.2 
+62.3 
+%
+Gross profit
+$
+240.1 
+$
+99.6 
+$
+140.5 
+141.1 
+%
+$
+421.6 
+$
+177.5 
+$
+244.1 
+137.5 
+%
+Gross margin
+36.1 
+%
+24.8 
+%
+35.2 
+%
+24.0 
+%
+Research and development
+$
+80.1 
+$
+74.2 
+$
+5.9 
+8.0 
+%
+$
+161.5 
+$
+148.5 
+$
+13.0 
+8.8 
+%
+Percentage of net revenue
+12.0 
+%
+18.4 
+%
+13.5 
+%
+20.1 
+%
+Selling, general and administrative
+$
+96.1 
+$
+76.3 
+$
+19.8 
+26.0 
+%
+$
+181.2 
+$
+152.6 
+$
+28.6 
+18.7 
+%
+Percentage of net revenue
+14.4 
+%
+19.0 
+%
+15.1 
+%
+20.6 
+%
+Restructuring and related charges (reversals)
+$
+(0.4)
+$
+0.7 
+$
+(1.1)
+(157.1)
+%
+$
+7.9 
+$
+10.4 
+$
+(2.5)
+(24.0)
+%
+Percentage of net revenue
+— 
+%
+0.2 
+%
+0.7 
+%
+1.4 
+%
+51
+Net Revenue
+Net revenue increased by $263.3 million, or 65.5%, during the three months ended December 27, 2025 compared to the three months ended December 28, 2024, driven by a $180.0 million increase in Components products and an $83.3 million increase in Systems products. Approximately three-quarters of the increase in Components products relates to our ramp of laser chip and laser assembly product shipments to support strong, broad-based demand across intra-data center, data center interconnect, and long-haul applications. Additionally, a slight increase in average selling prices of laser chip products contributed to the increase in Components revenue driven primarily by a shift to 200G lane speeds. The remaining approximately one-quarter of Components revenue growth was due to an increase in shipment volume of data transport products, encompassing line subsystems solutions for long-haul terrestrial networks and charge pump products used in sub-sea network installations.
+Nearly all of the increase in our Systems products was driven by our cloud transceiver product lines due to an increase in shipment volume, which was partially offset by lower pricing across multiple transceiver lines. We also continued the initial phase of optical circuit switch shipments, which contributed more than $10.0 million in revenue during the three months ended December 27, 2025, and we remain on track for manufacturing expansion over the coming quarters to support future growth.
+Net revenue increased by $460.2 million, or 62.3%, during the six months ended December 27, 2025 compared to the six months ended December 28, 2024, driven by a $327.8 million increase in Components products and a $132.4 million increase in Systems products. Approximately three-quarters of the increase in Components products relates to our ramp of laser chip and laser assembly product shipments to support strong, broad-based demand across intra-data center, data center interconnect, and long-haul applications. Additionally, a slight increase in average selling prices of laser chip products contributed to the increase in Components revenue driven primarily by a shift to 200G lane speeds. The remaining approximately one-quarter of Components revenue growth was due to an increase in shipment volume of data transport products, encompassing line subsystems solutions for long-haul terrestrial networks and charge pump products used in sub-sea network installations.
+Nearly all of the increase in our System products was driven by our cloud transceiver product lines due to an increase in shipment volume, which was partially offset by lower pricing across multiple transceiver lines. We also continued the initial phase of optical circuit switch shipments, which contributed more than $10.0 million of revenue during the six months ended December 27, 2025, and we remain on track for manufacturing expansion over the coming quarters to support future growth.
+During the three months ended December 27, 2025, two customers individually accounted for 24% and 17% of our total revenue, respectively. During the six months ended December 27, 2025, two customers individually accounted for 23% and 19% of our total net revenue, respectively. We had no other customers that represented 10% or greater of our total net revenue.
+52
+Revenue by Region
+We operate in three geographic regions: Americas, Asia-Pacific, and EMEA (Europe, Middle East, and Africa). Net revenue is assigned to the geographic region and country where our product is initially shipped. For example, certain customers may request shipment of our product to a contract manufacturer in one country, which may differ from the location of their end customers.
+The following table presents net revenue by the three geographic regions we operate in and net revenue from countries that generally represented 10% or more of our total net revenue based on customer shipping locations
+(in millions, except percentage data):
+ 
+Three Months Ended
+Six Months Ended
+ 
+December 27, 2025
+December 28, 2024
+December 27, 2025
+December 28, 2024
+Amount
+% of Total
+Amount
+% of Total
+Amount
+% of Total
+Amount
+% of Total
+Net revenue:
+Americas:
+United States
+$
+144.7 
+21.7 
+%
+$
+77.6 
+19.3 
+%
+$
+238.4 
+19.9 
+%
+$
+143.0 
+19.3 
+%
+Mexico
+102.6 
+15.4 
+37.4 
+9.3 
+176.2 
+14.7 
+71.3 
+9.6 
+Other Americas
+2.0 
+0.3 
+4.2 
+1.0 
+10.6 
+0.9 
+7.1 
+1.0 
+Total Americas
+$
+249.3 
+37.4 
+%
+$
+119.2 
+29.6 
+%
+$
+425.2 
+35.5 
+%
+$
+221.4 
+29.9 
+%
+Asia-Pacific:
+Hong Kong
+$
+118.9 
+17.9 
+%
+$
+100.5 
+25.0 
+%
+$
+211.8 
+17.7 
+%
+$
+189.2 
+25.6 
+%
+Thailand
+123.0 
+18.5 
+74.7 
+18.6 
+232.1 
+19.3 
+127.2 
+17.2 
+China
+54.6 
+8.2 
+18.1 
+4.5 
+103.9 
+8.7 
+32.7 
+4.4 
+Japan
+23.8 
+3.6 
+18.4 
+4.5 
+44.8 
+3.7 
+35.3 
+4.8 
+Other Asia-Pacific
+55.8 
+8.4 
+30.5 
+7.6 
+105.2 
+8.7 
+61.9 
+8.4 
+Total Asia-Pacific
+$
+376.1 
+56.6 
+%
+$
+242.2 
+60.2 
+%
+$
+697.8 
+58.1 
+%
+$
+446.3 
+60.4 
+%
+EMEA
+$
+40.1 
+6.0 
+%
+$
+40.8 
+10.2 
+%
+$
+76.3 
+6.4 
+%
+$
+71.4 
+9.7 
+%
+Total net revenue
+$
+665.5 
+100.0 
+%
+$
+402.2 
+100.0 
+%
+$
+1,199.3 
+100.0 
+%
+$
+739.1 
+100.0 
+%
+For the three and six months ended December 27, 2025, net revenue from customers outside the United States, based on customer shipping locations, represented 78.3% and 80.1% of net revenue, respectively.
+Our net revenue is primarily denominated in U.S. dollars, including our net revenue from customers outside the United States as presented above. We expect revenue from customers outside of the United States to continue to be an important part of our overall net revenue and an increasing focus for net revenue growth opportunities. However, regulatory and enforcement actions by the United States and other governmental agencies, as well as changes in tax and trade policies and tariffs, have impacted and may continue to negatively impact net revenue from customers outside the United States.
+Gross Margin
+Gross margin for the three months ended December 27, 2025 increased to 36.1% from 24.8% for the three months ended December 28, 2024, primarily driven by the positive impact of higher revenue from our laser chip, laser assembly, and data transport products. Approximately 60% of the gross margin increase was driven by lower manufacturing costs as a percentage of revenue, primarily due to higher internal factory utilization, partially offset by an increase in warranty expense associated with Cloud Light legacy products. Additionally, 20% of the gross margin increase was driven by higher average selling prices of our higher-margin laser chip products. The remaining 20% increase in gross margin relates to the decrease in amortization of acquired intangibles as certain assets were fully amortized.
+53
+Gross margin for the six months ended December 27, 2025 increased to 35.2% from 24.0% for the six months ended December 28, 2024, primarily driven by the positive impact of higher revenue from our laser chip, laser assembly, and data transport products. Approximately 70% of the gross margin increase was driven by lower manufacturing costs as a percentage of revenue, primarily due to higher internal factory utilization, partially offset by an increase in warranty expense associated with Cloud Light legacy products. Additionally, 10% of the gross margin increase was driven by higher average selling prices of our higher-margin laser chip products. The remaining 20% increase in gross margin relates to the decrease in amortization of acquired intangibles as certain assets were fully amortized.
+The markets in which we sell products are undergoing product, architectural and business model transitions driven in part by the deployment of AI, have high customer concentrations, are highly competitive, are price sensitive and/or are affected by customer seasonal and variants in buying patterns. We expect these factors to result in variability of our gross margin and our gross margin may be subject to increasing downward pressure due to these factors.
+Research and Development (“R&D”)
+R&D expense increased by $5.9 million, or 8.0% for the three months ended December 27, 2025 compared to the three months ended December 28, 2024, primarily due to a $6.3 million increase in our cash incentive compensation due to higher revenue and profit levels and $2.6 million increase in charges related to new R&D programs partially offset by a $2.1 million decrease in stock-based compensation.
+R&D expense increased by $13.0 million, or 8.8% for the six months ended December 27, 2025 compared to the six months ended December 28, 2024, primarily due to a $11.6 million increase in our cash incentive compensation due to higher revenue and profit levels. In addition, incremental investments related to new R&D programs were almost completely offset by a decrease in stock-based compensation.
+We believe that continuing our investments in R&D is critical to attaining our strategic objectives. We plan to continue to invest in R&D and new products that we believe will further differentiate us in the marketplace.
+Selling, General and Administrative (“SG&A”)
+SG&A expense increased by $19.8 million, or 26.0%, during the three months ended December 27, 2025 compared to the three months ended December 28, 2024, primarily due to a $7.5 million impairment charge to write-down assets held for sale to its fair value less cost to sell, a $6.1 million increase in our cash incentive compensation due to higher revenue and profit levels, a $5.0 million increase in stock-based compensation as well as a $2.9 million increase in  employee benefits mainly due to payroll taxes on share-based compensation. These increases were partially offset by a $3.2 million decrease in amortization of acquired intangibles as certain assets were fully amortized.
+SG&A expense increased by $28.6 million, or 18.7%, during the six months ended December 27, 2025 compared to the six months ended December 28, 2024, primarily due to a $12.0 million increase in our cash incentive compensation due to higher revenue and profit levels, as well as a $11.9 million increase in stock-based compensation, a $7.5 million impairment charge to write-down assets held for sale to its fair value less cost to sell and a $4.6 million increase in legal fees. These increases were offset by a $7.5 million decrease in amortization of acquired intangibles as certain assets were fully amortized.
+From time-to-time, we incur expenses that are not part of our ordinary operations, such as mergers and acquisition-related and litigation expenses, which generally increase our SG&A expenses and potentially impact our profitability expectations in any particular period.
+Restructuring and Related Charges (Reversals)
+We have initiated various strategic restructuring events primarily intended to reduce costs, consolidate our operations, rationalize the manufacturing of our products, and align our business in response to market conditions and as a result of recent acquisitions.
+During the three months ended December 27, 2025, we recorded a net reversal to our restructuring and related charges of  $0.4 million attributable to lower than previously recorded employee severance and wind-down charges. During the six months ended December 27, 2025, we recorded $7.9 million of restructuring and related charges related to a reduction in force during the period in order to enhance operational efficiency and realign our investments toward the most critical initiatives.
+54
+Escrow Settlement
+On November 7, 2023, we completed the acquisition of Cloud Light Technology Limited (“Cloud Light”). In accordance with a definitive merger agreement, dated as of October 29, 2023, between the Company and Cloud Light, cash consideration included $75.8 million of cash held in an escrow fund to support Cloud Light’s indemnification obligations and customary adjustment for working capital. In November 2025, the Company and the former shareholders of Cloud Light mutually agreed to settle outstanding indemnification claims for $27.5 million and signed a settlement agreement releasing the balance of the escrow fund to the former Cloud Light shareholders and releasing them of their indemnification obligations. Since the measurement period expired, we recorded the settlement amount of $27.5 million as other income, net in our condensed consolidated statements of operations during the three and six months ended December 27, 2025.
+Interest Expense
+For the three months ended December 27, 2025 and December 28, 2024, we recorded interest expense of $6.3 million and $5.6 million, respectively. The increase in interest expense for the three months ended December 27, 2025 is mainly due to the issuance of the 2032 Notes in September 2025.
+For the six months ended December 27, 2025 and December 28, 2024, we recorded interest expense of $12.0 million and $11.1 million, respectively. The increase in interest expense for the six months ended December 27, 2025 is mainly due to the issuance of the 2032 Notes in September 2025. Interest expense is primarily driven by the amortization of the debt issuance costs of our convertible notes.
+Other Income, Net
+The components of other income, net are as follows (
+in millions
+):
+Three Months Ended
+Six Months Ended
+December 27, 2025
+December 28, 2024
+December 27, 2025
+December 28, 2024
+Foreign exchange and other gains (losses), net
+$
+(0.6)
+$
+5.9 
+$
+0.9 
+$
+5.2 
+Interest and investment income, net
+11.6 
+9.0 
+20.2 
+18.4 
+Inducement expense
+— 
+— 
+(5.9)
+— 
+Total other income, net
+$
+11.0 
+$
+14.9 
+$
+15.2 
+$
+23.6 
+Other income, net for the three months ended December 27, 2025 decreased by $3.9 million compared to the three months ended December 28, 2024 primarily driven by a decrease in net foreign exchange gains of $6.5 million as the U.S. dollar strengthened against the Japanese Yen, which is the underlying currency for our term loans. This was offset by an increase of $2.6 million in interest and investment income mainly due to the $2.0 million interest income from the Cloud Light escrow settlement.
+Other income, net for the six months ended December 27, 2025 decreased by $8.4 million from the six months ended December 28, 2024 primarily due to a $5.9 million inducement expense related to the partial repurchase of 2026 Notes and a decrease in net foreign exchange gains of $4.3 million mainly driven by the Japan term loans denominated in Japanese Yen offset by an increase of $2.0 million in interest and investment income related to the Cloud Light escrow settlement.
+55
+Provision for Income Taxes
+The following table summarizes provision for income taxes for the periods presented (
+in millions
+):
+Three Months Ended
+Six Months Ended
+December 27, 2025
+December 28, 2024
+December 27, 2025
+December 28, 2024
+Income tax provision
+$
+18.3 
+$
+18.6 
+$
+19.3 
+$
+21.8 
+We recorded a tax provision of $18.3 million and $19.3 million for the three and six months ended December 27, 2025. Our tax provision for the three months ended December 27, 2025 includes a discrete tax expense of 1.1 million primarily related to the tax expense associated with income from a claim settlement, partially offset by the tax benefit from the revaluation of deferred tax balances, a windfall in connection with stock-based compensation vested during the quarter, and currency re-measurement of certain tax-related accounts. Our tax provision for the six months ended December 27, 2025 includes a discrete tax expense of $0.5 million, primarily related to the tax expense associated with income from a claim settlement, currency re-measurement of certain tax-related accounts, and interest accrual on uncertain tax positions, partially offset by the tax benefit from a windfall in connection with stock-based compensation vested during the periods, revaluation of deferred tax balances, and foreign return to provision differences.
+Our estimated effective tax rate for the six months ended December 27, 2025 differs from the 21% U.S. statutory rate primarily due to the income tax expense from foreign income inclusions in the U.S., current year valuation allowance change, and changes in unrecognized tax benefits, partially offset by the income tax benefit from foreign rate differential and various income tax credits.
+We regularly assess our ability to realize our deferred tax assets on a quarterly basis and will establish a valuation allowance if it is more-likely-than-not that some portion of the deferred tax assets will not be realized. As of December 27, 2025, we maintain a full valuation allowance on U.S. federal and state and certain foreign deferred tax assets. Due to cumulative losses over recent years and based on all available evidence, we determined that it is more likely than not that our U.S. deferred tax assets will not be realized. However, given our current and anticipated future earnings, we believe there is a reasonable possibility that within the next several quarters, sufficient positive evidence may become available to support a release of all or a significant portion of the U.S. valuation allowance. The release of the valuation allowance would result in the recognition of certain deferred tax assets and a decrease to income tax expense for the period in which the release is recorded. The exact timing and amount of the valuation allowance released are subject to change and are based on the level of profitability that we are able to achieve and can reasonably forecast, as well as other positive and negative evidence.
+Our provision for incomes taxes may be impacted by changes in the geographic mix of earnings, acquisitions, changes in the realizability of deferred tax assets, changes in our uncertain tax positions, the results of income tax audits, settlements with tax authorities, the expiration of statutes of limitations, the implementation of tax planning strategies, tax rulings, court decisions, and changes in tax laws and regulations. It is also possible that significant negative or positive evidence may become available that causes us to change our conclusion regarding whether a valuation allowance is needed on certain of our deferred tax assets, which would affect our income tax provision in the period of such change.
+We also evaluate changes to regulations and requirements in the international jurisdictions where we conduct our business. For additional information, refer to Part II Item 1A “Risk Factors”.
+56
+Financial Condition
+Liquidity and Capital Resources
+As of December 27, 2025 and June 28, 2025, our cash and cash equivalents were $657.7 million and $520.7 million, respectively. As of December 27, 2025 and June 28, 2025, our short-term investments of $497.6 million and $356.4 million, respectively,
+ were all held in the United States. Cash equivalents and short-term investments are primarily comprised of money market funds, treasuries, agencies, high quality investment grade fixed income securities, certificates of deposit, and commercial paper. Our investment policy and strategy provide for diversification of investments and is focused on the preservation of capital and supporting our liquidity requirements.
+The total amount of cash held by the non-United States entities as of December 27, 2025 and June 28, 2025 was $397.7 million and $398.3 million, respectively, which was primarily held by entities incorporated in the United Kingdom, Japan, Hong Kong, China, Switzerland, China, and Thailand.
+Although cash currentl
+y held in the United States, as well as cash generated in the United States from future operations, is expected to cover our normal operating requirements, a substantial amount of additional cash could be required for other purposes, such as capital expenditures to support our business and growth, including costs associated with increasing internal manufacturing capabilities, strategic transactions and partnerships, and future acquisitions.
+Our intent is to indefinitely reinvest funds held outside the United States. Except for the funds held in the Cayman Islands, the British Virgin Islands, Hong Kong and Japan, our current plans do not demonstrate a need to repatriate them to fund our domestic operations. However, if in the future, we encounter a significant need for liquidity domestically or at a particular location that we cannot fulfill through borrowings, equity offerings, or other internal or external sources, or the cost to bring back the money is not significant from a tax perspective, we may determine that cash repatriations are necessary or desirable. Repatriation could result in additional material taxes. These factors may cause us to have an overall tax rate higher than other companies or higher than our tax rates in the past. Additionally, if conditions warrant, we may seek to obtain additional financing through debt or equity sources. To the extent we issue additional shares, it may create dilution to our existing stockholders. However, any such financing may not be available on terms favorable to us or may not be available at all.
+Beginning in fiscal year 2023, the Tax Cuts and Jobs Act of 2017 requires taxpayers to capitalize research and development expenditures and amortize domestic expenditures over five years and foreign expenditures over fifteen years. The One Big Beautiful Bill Act (“OBBBA”) enacted in July 2025 eliminates capitalization of domestic research and development expenditures for taxable years beginning on or after January 1, 2025, but retains the requirement to amortize foreign research and development expenditures over 15 years. In addition, the OBBBA permits all taxpayers who paid or incurred domestic research and development expenses in tax years beginning on or after January 1, 2022 and before January 1, 2025 to elect to deduct any remaining unamortized amount over a one-year period or ratably over a two-year period (at the taxpayer’s election), accelerating the benefit of such expenses. We have evaluated these changes during the three and six months ended December 27, 2025, and the impact to our tax provision during these periods is not material.
+Liquidity and Capital Resources Requirements
+We believe that our cash and cash equivalents as of December 27, 2025, available borrowing capacity under our Credit Agreement, and cash flows from our operating activities will be sufficient to meet our liquidity and capital spending requirements for at least the next 12 months.
+There are a number of factors that could positively or negatively impact our liquidity position, including:
+•
+the settlement of any conversion or redemption of our convertible notes in cash;
+•
+global economic conditions which affect demand for our products and services and impact the financial stability of our suppliers and customers, including the impact of uncertainty in the banking and financial services industries;
+•
+fluctuations in demand for our products as a result of changes in regulations, tariffs or other trade barriers, and trade relations in general;
+•
+changes in accounts receivable, inventory or other operating assets and liabilities, which affect our working capital;
+•
+increase in capital expenditures to support our business and growth, including increases in manufacturing capacity;
+•
+the tendency of customers to delay payments or to negotiate favorable payment terms to manage their own liquidity
+57
+positions;
+•
+timing of payments to our suppliers;
+•
+volatility in fixed income and credit, which impact the liquidity and valuation of our investment portfolios;
+•
+cost and availability of credit, which may impact available financing for us, our customers or others with whom we do business;
+•
+volatility in foreign exchange markets, which impacts our financial results;
+•
+possible investments or acquisitions of complementary businesses, products or technologies, or other strategic transactions or partnerships;
+•
+issuance of debt or equity securities, or other financing transactions, including bank debt;
+•
+potential funding of pension liabilities either voluntarily or as required by law or regulation; and
+•
+acquisitions or strategic transactions.
+Contractual Obligations
+The following table summarizes our contractual obligations as of December 27, 2025, and the effect such obligations are expected to have on our liquidity and cash flow (
+in millions
+):
+Payments Due
+Total
+Less Than 1 Year
+More Than 1 Year
+Contractual Obligations
+Asset retirement obligations
+$
+7.1 
+$
+— 
+$
+7.1 
+Operating lease liabilities, including imputed interest
+(1)
+37.8 
+14.0 
+23.8 
+Pension plan contributions
+(2)
+2.0 
+2.0 
+— 
+Purchase obligations
+(3)
+1,086.0 
+1,022.8 
+63.2 
+Term loans - principal
+(5)
+104.8 
+57.7 
+47.1 
+Term loans - interest
+(5)
+1.8 
+1.0 
+0.8 
+Convertible notes - principal
+(4)
+3,198.5 
+468.8 
+2,729.7 
+Convertible notes - interest
+(4)
+80.1 
+20.5 
+59.6 
+Others
+15.0 
+1.4 
+13.6 
+Total
+$
+4,533.1 
+$
+1,588.2 
+$
+2,944.9 
+(1)
+ The amounts of operating lease liabilities
+do not include any sublease income nor do they include payments for short-term leases or variable lease payments. As of December 27, 2025, we expect to receive sublease income of approximatel
+y $1.9 million over the remaining sublease peri
+ods.
+(2)
+The amount of pension plan contributions represents planned contributions to our defined benefit plans. Although additional future contributions will be required, the amount and timing of these contributions will be affected by actuarial assumptions, the actual rate of returns on plan assets, the level of market interest rates, legislative changes, and the amounts of voluntary contributions to the plan. Any contributions for the following fiscal year and later will depend on the value of the plan assets in the future and thus are uncertain. As such, we have not included any amounts beyond one year in the table above.
+(3)
+ Purchase obligations represent legally binding commitments to purchase inventory and other commitments made in the normal course of business to meet operational requirements. Refer to “
+Note 14. Commitments and Contingencies
+” in the notes to condensed consolidated financial statements.
+58
+(4)
+ The amounts related to convertible notes include principal and interest on our 0.50% Convertible Senior Notes due 2026 (the “2026 Notes”), principal and interest on our 0.50% Convertible Senior Notes due 2028 (the “2028 Notes”), principal and interest on our 1.50% Convertible Senior Notes due 2029 (the “2029 Notes”), and principal and interest on our 0.375% Convertible Senior Notes due 2032 (the “2032 Notes”). The 2026 Notes have a maturity date of December 15, 2026, the 2028 Notes have a maturity date of June 15, 2028, the 2029 Notes have a maturity date of December 15, 2029, and the 2032 Notes have a maturity date of March 15, 2032. The principal balances of our convertible notes are reflected in the payment periods in the table above based on their respective contractual maturities, which may be accelerated if the holders elect to convert the notes prior to maturity. The principal amounts of all of our outstanding convertible notes must be settled in cash. The actual cash settlement may be higher if we decide to settle the conversion value in excess of the principal amounts in cash, rather than issuing shares of common stock.
+(5)
+ The amounts related to term loans include principal and interest on our Sumitomo Mitsui Banking Corporation (“SMBC”) 2029 and 2026 Term Loans with a fixed annual interest rate of 0.88% and 1.44%, respectively, and Mizuho Bank, Ltd. (“Mizuho”) term loan with a fixed annual interest rate of 0.90%. The SMBC Term Loans require monthly principal payments with the remaining principal due on the loan maturity dates of July 31, 2029 and December 19, 2026 while the Mizuho term loan requires quarterly principal payments with the final payment due on September 20, 2029.
+We do not have any off-balance sheet arrangements, as such term is defined in rules promulgated by the SEC, which have or are reasonably likely to have a current or future effect on our liquidity or capital resources that are material to investors.
+Indebtedness
+During the three months ended December 27, 2025, the last reported sale price of the Company’s common stock was at least 130% of the applicable conversion price of each series of our convertible notes, which includes 2032 Notes, 2029 Notes, 2028 Notes, and 2026 Notes (collectively referred to as the “Notes”) for at least 20 trading days during the 30 consecutive trading-day period ended on December 27, 2025. Therefore, the Notes are convertible at the option of the holders, and we are required to satisfy the conversion obligation with respect to any such converted series of Notes by paying cash equal to the principal amount of such converted series of Notes, and paying or delivering, as the case maybe, cash, shares of common stock or a combination of cash and shares of common stock, at our election, with respect to any conversion value in excess thereof. Accordingly, pursuant to ASC 470-20 under U.S. GAAP, although the applicable contractual maturity dates of these Notes extend beyond 12 months from the balance sheet date, we are required to classify our 2028 Notes, 2029 Notes and 2032 Notes, that have an aggregate carrying value of $2,714.2 million, as current portion of long-term debt as of December 27, 2025.  Only the 2026 Notes with carrying value of $468.3 million mature within the next 12 months
+.
+The carrying amounts and estimated fair values of the convertible notes are as follows for the periods presented (
+in millions
+):
+December 27, 2025
+June 28, 2025
+Carrying Amount
+Estimated Fair Value
+Carrying Amount
+Estimated Fair Value
+2032 Notes
+$
+1,255.3 
+$
+2,840.8 
+$
+— 
+$
+— 
+2029 Notes
+600.6 
+3,400.1 
+600.2 
+925.5 
+2028 Notes
+858.3 
+2,584.6 
+857.7 
+890.2 
+2026 Notes
+468.3 
+1,844.6 
+1,048.3 
+1,233.3 
+$
+3,182.5 
+$
+10,670.1 
+$
+2,506.2 
+$
+3,049.0 
+The 2028 Notes, 2029 Notes and 2032 Notes are held by more than 60 unique holders and no holders had individual aggregate principal values greater than $505.0 million at December 27, 2025. To the extent Note holders elect to convert all or a significant portion of the Notes within a short period of time, our liquidity would be adversely impacted, and the Note holders’ ability to exercise their conversion right raises a substantial doubt that we could continue as a going concern. If we receive a significant number of requests for early conversion of Notes, we would utilize existing cash, cash equivalents and short-term investments, together with available borrowings under our existing revolving credit facility, cash flows from operations, and proceeds from one or more potential new financings to settle the principal amount of such converted Notes in cash, with any excess conversion value thereof to be settled in cash, shares of common stock, or a combination of cash and shares of common stock, at our election.
+59
+However, the fair value of the Notes, which would be the estimated value the holders would receive if they sell their Notes in the bond market, is generally higher than the value the holders would receive upon early conversion. The fair value is generally higher than the conversion value due to the embedded call option in the Notes which has time left until the Notes mature.  Conversion also requires a holder to be subject to a holding period in which they are subject to further volatility. Therefore, historically, the holders’ requests for early conversion of our Notes have not been significant prior to the three-month period immediately preceding maturity. For additional information, refer to Part II Item 1A “Risk Factors”.
+The table below summarizes the applicable conversion price and the equivalent 130% of the conversion price of each series of Notes  (
+per share amount
+):
+Conversion Price
+(1)
+130% of Conversion Price
+(1)
+2032 Notes
+$
+187.77 
+$
+244.10 
+2029 Notes
+69.54 
+90.40 
+2028 Notes
+131.03 
+170.34 
+2026 Notes
+99.29 
+129.08 
+(1)
+
+Since the closing price of our stock was at least 130% of
+the applicable conversion price for each series of Notes
+for 20 of the last 30 trading days of our second quarter of fiscal year 2026, all of our Notes became convertible at the option of the holders during the third quarter of fiscal year 2026. The
+ outstanding Notes are recorded as short-term debt, which is presented as current liabilities in our condensed consolidated balance sheets as of December 27, 2025, net of unamortized debt issuance costs. If the Notes are converted by holders, we are required to satisfy our conversion obligations with respect to each series of converted Notes by paying cash equal to the principal amount of such series of converted Notes and paying or delivering, as the case may be, cash, shares of common stock, or a combination of cash and shares of common stock, at our election, with respect to any conversion value in excess thereof. The outstanding Notes are recorded as convertible notes, non-current in our consolidated balance sheets as of June 28, 2025, net of unamortized debt issuance costs.
+As of December 27, 2025, the Company had $83.3 million in principal amount outstanding on our SMBC Term Loans, of which the short-term portion of $52.0 million is recorded as current liabilities while the long-term portion of $31.3 million is recorded as long-term debt in the Company’s condensed consolidated balance sheets.
+As of December 27, 2025, the Company had $21.5 million in principal amount outstanding on our Mizuho term loan, of which the short-term portion of $5.7 million is recorded as current liabilities while the long-term portion of $15.8 million is recorded as long-term debt in the Company’s condensed consolidated balance sheets.
+On December 19, 2025, the Company entered into a Credit Agreement providing for a senior secured revolving credit facility in an aggregate principal amount of $400.0 million, including a $23.0 million sublimit for the issuance of letters of credit. As of December 27, 2025, there were no borrowings outstanding under the revolving credit facility. For additional information regarding the Credit Agreement, refer to “Note 9. Debt”, in the condensed consolidated financial statements included in Part 1, Item 1 of this Quarterly Report on Form 10-Q. For additional information, refer to Part II Item 1A “Risk Factors”.
+Unrecognized Tax Benefits
+As of December 27, 2025 and June 28, 2025, our other non-current liabilities includ
+e unrecognized tax benefit for uncertain tax positions o
+f $60.4 million a
+nd
+$55.6 million, respectively.
+We are unable to reliably estimate the timing of future payments related to un
+certain tax positions.
+60
+Cash Flows
+Our balance of cash and cash equivalents increased by $137.0 million from $520.7 million as of June 28, 2025 to $657.7 million as of December 27, 2025. The increase in cash and cash equivalents during the six months ended December 27, 2025 was due to cash from operating activities of $184.6 million and cash from financing activities of $251.6 million, offset by cash used in investing activities of $299.2 million.
+Operating Cash Flow
+Cash from operating activities was $184.6 million during the six months ended December 27, 2025, which reflects a net income of $82.4 million and non-cash items of $229.5 million, offset by changes in operating assets and liabilities of $127.3 million. Changes in operating assets and liabilities were primarily driven by an increase in accounts payable of $79.9 million primarily due to higher inventory purchases and capital expenditures, an increase of $27.4 million in accrued payroll and related expenses mainly driven by our accrual on employee cash bonuses and outstanding payroll taxes mainly related to stock-based compensation, and an increase of $21.8 million in accrued expenses and other current and non-current liabilities driven by contractual liabilities and increase in provision for warranty reserves, offset by an increase in accounts receivable of $126.7 million mainly driven by higher revenue, an increase of $102.5 million in inventories driven by inventory builds to support market demand and an increase of $27.4 million in prepayments and other current and non-current assets primarily driven by increase in value-added-tax receivables due to higher capital expenditures and inventory purchases and deferred financing costs related to our revolving credit facility.
+Cash from operating activities was $63.9 million during the six months ended December 28, 2024, which reflects a net loss of $143.3 million, offset by non-cash items of $209.1 million and changes in operating assets and liabilities of $1.9 million. Changes in operating assets and liabilities were primarily driven by an increase in accounts payable of $38.7 million primarily due to higher inventory purchases and capital expenditures and an increase in income tax liabilities of $28.5 million primarily due to income tax provision for the six months ended December 28, 2024, offset by an increase of $15.0 million in prepayments and other current and non-current assets related mainly to value-added-tax receivables driven by higher recent capital expenditures and inventory purchases, and a decrease of $19.9 million in accrued expenses and other current and non-current liabilities primarily due to payment of the net settlement amount of the Oclaro merger litigation.
+Investing Cash Flow
+Cash used in investing activities of $299.2 million during the six months ended December 27, 2025 was attributable to capital expenditures of $159.8 million and net payments from sales or maturities of short-term investments of $139.5 million, offset by $0.1 million proceeds from sale of assets.
+Cash used in investing activities of $77.8 million during the six months ended December 28, 2024 was attributable to capital expenditures of $114.3 million, offset by net proceeds from sales or maturities of short-term investments of $36.3 million and proceeds from sales of property and equipment of $0.2 million.
+Financing Cash Flow
+Cash from financing activities of $251.6 million during the six months ended December 27, 2025 was attributable to $1,254.7 million of net proceeds from the issuance of 2032 Notes, $47.9 million of proceeds from SMBC term loans and $8.7 million of proceeds from employee stock plans, offset by payments for the partial repurchase of the 2026 Notes of approximately $843.1 million, payments for the 2032 Capped Call Options of $102.0 million, tax payments related to net share settlement of restricted stock of $107.4 million, $5.1 million of principal payments on term loans, $2.0 million payments for financing costs related to our revolving credit facility, and $0.1 million of payments for Notes conversions.
+Cash used in financing activities of $56.9 million during the six months ended December 28, 2024 was attributable to $76.5 million of proceeds from SMBC and Mizuho term loans and $8.1 million of proceeds from employee stock plans, offset by tax payments related to net share settlement of restricted stock of $23.8 million, payment for an intangible asset acquisition holdback of $1.0 million and $2.9 million of principal payments on term loans.
+61

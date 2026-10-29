@@ -1,0 +1,902 @@
+Item 
+7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+This section of this Form 10-K generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included in this Form 10-K, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended December
+ 
+31, 2024. The following discussion and analysis has been prepared as an aid to understanding our financial condition and results of our operations. It should be read in conjunction with the consolidated financial statements and the notes to those statements included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties. See “Cautionary Note Regarding Forward-Looking Statements” at the beginning of this Form 10-K. Our actual results could differ materially from those contained in these forward-looking statements due to a number of factors, including those discussed in Part I, Item 1A “Risk Factors” and elsewhere in this Annual Report on Form 10-K.
+Business Overview
+We design, develop and market analog and mixed-signal integrated circuits (“ICs”) and other electronic components and circuitry used in high-voltage power conversion. Our products are used in power converters that convert electricity from a high-voltage source to the type of power required for a specified downstream use. In most cases, this conversion entails, among other functions, converting alternating current (“AC”) to direct current (“DC”) or vice versa, reducing or increasing the voltage, and regulating the output voltage and/or current according to the customer’s specifications.
+A large percentage of our products are ICs used in AC-DC power supplies, which convert the high-voltage AC from a wall outlet to the low-voltage DC required by most electronic devices. Power supplies incorporating our products are used with all manner of electronic products including industrial controls, “smart” utility meters, appliances, air conditioners, battery-powered tools, building-automation, or “internet-of-things” applications such as networked thermostats and security devices, and mobile devices such as smartphones, tablets and notebook computers. Variations of our power-supply ICs are used for high-voltage power conversion in electric vehicles (“EVs”). We also supply high-voltage LED drivers, which are AC-DC ICs specifically designed for lighting applications that utilize light-emitting diodes, and motor-driver ICs for brushless DC (“BLDC”) motors used in consumer appliances, HVAC systems, ceiling fans and a variety of industrial applications.
+We also offer high-voltage gate drivers—either standalone ICs or circuit boards containing ICs, electrical isolation components and other circuitry—used to operate high-voltage switches such as insulated-gate bipolar transistors (“IGBTs”) and silicon-carbide (“SiC”) MOSFETs. These combinations of switches and drivers are used for power conversion in high-power applications (i.e., power levels ranging from approximately 100 kilowatts up to gigawatts) such as industrial motors, solar- and wind-power systems, EVs and high-voltage DC transmission systems.
+Our business and financial performance depends significantly on worldwide economic conditions. We face global macroeconomic challenges and risks including the effects of the conflicts in Ukraine and the Middle East, potential risks stemming from tensions between China and Taiwan and between China and Western countries, volatility in exchange rates, cyclical demand patterns common for our industry, inflation, tariffs and other risks associated with the global trade environment.
+Our net revenue was $443.5 million and $419.0 million in 2025 and 2024, respectively. The increase in revenue in 2025 was primarily driven by higher sales in the industrial end-market, including growth in sales of our gate-driver products, as well as increased sales of our ICs for a broad range of applications including electronic utility meters, electric vehicles and battery-powered tools.  
+Our top ten customers, including distributors that resell to OEMs and merchant power supply manufacturers, accounted for approximately 81% and 79% of net revenue in 2025 and 2024, respectively.
+
+International sales represented approximately 98% of net revenue in each of 2025 and 2024.
+Because our industry is intensely price-sensitive, our gross margin (gross profit divided by net revenue) is subject to change based on the relative pricing of solutions that compete with ours. Variations in product mix, end-market mix and customer mix can also cause our gross margin to fluctuate. Also, because we purchase a large percentage of our silicon wafers from foundries located in Japan, our gross margin is influenced by fluctuations in the exchange rate between the U.S. dollar and the Japanese yen. All else being equal, a 10% change in the value of the U.S. dollar compared to the Japanese yen would eventually result in a corresponding change in our gross margin of approximately 1.5%; this sensitivity may increase depending on the percentage of our wafer supply that we purchase from Japanese suppliers. Also, although
+29
+
+Table of Contents
+our wafer fabrication and assembly operations are outsourced, as are most of our test operations, a portion of our production costs are fixed in nature. As a result, our unit costs and gross profit margin are impacted by the volume of units we produce.
+Our gross profit, defined as net revenue less cost of revenue, was $241.6 million or 55% of net revenue in 2025, compared to $224.8 million or 54% of net revenue in 2024. Our gross margin increased in 2025 due to
+manufacturing efficiencies including the benefit of higher unit volumes on our manufacturing costs per unit,
+ and favorable end-market mix
+ with a greater percentage of sales coming from higher-margin market categories.
+Total operating expenses in 2025 were $231.5 million, an increase of $24.6 million as compared to 2024, primarily due
+to higher stock-based compensation expense as a result of an award modification associated with the retirement of our former chief executive officer (refer to Note 7, 
+Stock-Based Compensation
+, in our Notes to Consolidated Financial Statements for details) and expenses incurred related to an employee litigation matter (refer to Note 14, 
+Legal Proceedings and Contingencies
+, in our Notes to Consolidated Financial Statements for details) as well as higher expenses for outside engineering services and legal services.
+Critical Accounting Policies and Estimates
+The preparation of financial statements and related disclosures in conformity with accounting principles generally accepted in the United States of America, or U.S. GAAP, requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period. On an ongoing basis, we evaluate our estimates, including those listed below. We base our estimates on historical facts and various other assumptions that we believe to be reasonable at the time the estimates are made. Actual results could differ from those estimates.
+Our critical accounting policies which reflect our more significant estimates are as follows:
+*
+revenue recognition;
+*
+inventory valuation.
+Our critical accounting policies are important to the portrayal of our financial condition and results of operations, and require us to make judgments and estimates about matters that are inherently uncertain. A brief description of our critical accounting policies and material estimates is set forth below. For more information regarding our accounting policies, see Note 2,
+Summary of Significant Accounting Policies and Recent Accounting Pronouncements
+, in our Notes to Consolidated Financial Statements in this Annual Report on Form 10-K.
+Revenue recognition
+Product revenue consists of sales to original equipment manufacturers, or OEMs, merchant power supply manufacturers and distributors. We apply the provisions of Accounting Standards Codification (“ASC”) 606-10,
+Revenue from Contracts with Customers
+, and all related appropriate guidance. We recognize revenue under the core principle to depict the transfer of control to our customers in an amount reflecting the consideration we expect to be entitled. In order to achieve that core principle, we apply the following five-step approach: (1) identify the contract with a customer, (2) identify the performance obligations in the contract, (3) determine the transaction price, (4) allocate the transaction price to the performance obligations in the contract, and (5) recognize revenue when a performance obligation is satisfied.
+Sales to most distributors are made under terms allowing certain price adjustments and limited rights of return (known as “stock rotation”) of our products held in their inventory or upon sale to their end customers. We recognize revenue from sales to distributors upon the transfer of control to the distributor. Frequently, distributors need to sell at a price lower than the standard distribution price in order to win business. At the time the distributor invoices its customer or soon thereafter, the distributor submits a “ship-and-debit” price adjustment claim to us to adjust the distributor’s cost from the standard price to the pre-approved lower price. After we verify that the claim is pre-approved, we issue a credit memo to the distributor for the ship-and-debit claim. In determining the transaction price, we consider ship-and-debit price adjustments to be variable consideration. At the time revenue is recognized on sales to distributors, future ship-and-debit price adjustments are unknown and therefore subject to uncertainty. Such price adjustments are estimated using the expected-value method based on an analysis of actual ship-and-debit claims, at the distributor and product level, over a period of time considered adequate to account for current pricing and business trends. The reserve for ship-and-debit claims increased by $7.2 million between December 31, 2025 and December 31, 2024, primarily due to higher inventory levels held by distributors in our industrial end-market. Historically, actual price adjustments for ship-and-debit claims have not materially differed from those estimated when determining the transaction price. To the extent future ship-and-
+30
+
+Table of Contents
+debit claims significantly exceed amounts estimated, there could be a material impact on our revenue and results of operations.
+Stock rotation rights grant the distributor the ability to return certain specified amounts of inventory. Stock rotation returns are an additional form of variable consideration and are also estimated using the expected value method based on historical return rates. Historically, these distributor stock rotation returns have not been material.
+Inventory valuation
+The bulk of our inventory is held in wafers, which combined with the fungibility of our products across customers and applications results in a lower risk of obsolescence. We routinely monitor the quality of our on-hand wafers to ensure that performance remains unchanged over time.
+When evaluating the adequacy of our provision for excess and obsolete inventory, we identify excess and obsolete products and also analyze historical usage, forecasted demand, current economic trends and historical write-offs
+. 
+This write-down is reflected as a reduction to inventory in the consolidated balance sheets and an increase in cost of revenue in our consolidated statements of income. If actual market conditions are less favorable than our assumptions, we may be required to take additional write-downs, which could adversely impact our cost of revenue and operating results. Historically these write-downs have not been material.
+
+Results of Operations
+The following table sets forth statement of income data as a percentage of net revenue for the periods indicated:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended December 31, 
+​
+  ​ ​ ​
+2025
+​
+2024
+​
+2023
+Net revenue
+​
+ 100.0
+%  
+​
+ 100.0
+%  
+​
+ 100.0
+%
+Cost of revenue
+ 
+ 45.5
+ 
+​
+ 46.4
+ 
+​
+ 48.5
+​
+Gross profit
+ 
+ 54.5
+ 
+​
+ 53.6
+ 
+​
+ 51.5
+​
+Operating expenses:
+ 
+​
+ 
+​
+​
+ 
+​
+​
+​
+Research and development
+ 
+ 22.8
+ 
+​
+ 24.1
+ 
+​
+ 21.6
+​
+Sales and marketing
+ 
+ 15.3
+ 
+​
+ 16.2
+ 
+​
+ 14.5
+​
+General and administrative
+ 
+ 9.6
+ 
+​
+ 9.1
+ 
+​
+ 7.5
+​
+Other operating expenses
+ 
+ 4.4
+ 
+​
+ —
+ 
+​
+ —
+​
+Total operating expenses
+ 
+ 52.2
+ 
+​
+ 49.4
+ 
+​
+ 43.6
+​
+Income from operations
+ 
+ 2.3
+ 
+​
+ 4.2
+ 
+​
+ 7.9
+​
+Other income
+ 
+ 2.4
+ 
+​
+ 3.1
+ 
+​
+ 2.4
+​
+Income before income taxes
+ 
+ 4.7
+ 
+​
+ 7.3
+ 
+​
+ 10.3
+​
+Provision (benefit) for income taxes
+ 
+ (0.3)
+ 
+​
+ (0.4)
+ 
+​
+ (2.2)
+​
+Net income
+ 
+ 5.0
+%  
+​
+ 7.7
+%  
+​
+ 12.5
+%
+​
+Comparison of Years Ended December 31, 2025 and 2024
+Net revenue.
+Net revenue consists of revenue from product sales, which are calculated net of returns and allowances.
+ 
+Revenue increased in 2025 compared to the prior year
+due primarily to higher sales in the industrial end-market
+.
+Our approximate net revenue mix by end-markets served in 2025, 2024 and 2023 is as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+End Market
+  ​ ​ ​
+2025
+​
+2024
+​
+2023
+Communications
+​
+ 12
+%  
+​
+ 12
+%  
+​
+ 29
+%
+Computer
+ 
+ 13
+%
+​
+ 14
+%
+​
+ 12
+%
+Consumer
+ 
+ 37
+%
+​
+ 39
+%
+​
+ 27
+%
+Industrial
+ 
+ 38
+%
+​
+ 35
+%
+​
+ 32
+%
+​
+International sales, consisting of sales to customers outside of the United States of America based on “bill to” customer locations, were $436.6 million and $412.5 million in 2025 and 2024, respectively, representing 98% of net revenue in both 2025 and 2024. Although power converters using our products are distributed to end markets worldwide, most are manufactured in Asia. As a result, sales to this region represented approximately 84% of our net revenue in both 2025 and 2024. We expect international sales, and sales to the Asia region in particular, to continue to account for a large portion of our net revenue in the future.
+Sales to distributors accounted for 69% and 70% of our net revenue in 2025 and 2024, respectively. Direct sales to OEMs and merchant power supply manufacturers accounted for the remainder in each of the corresponding years.
+31
+
+Table of Contents
+The following customers represented 10% or more of our net revenue for the respective years:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Customer
+  ​ ​ ​
+2025
+​
+2024
+​
+2023
+Avnet
+ 
+32
+%  
+​
+30
+%  
+​
+27
+%
+Salcomp Group
+ 
+11
+%  
+​
+*
+​
+​
+10
+%
+Honestar Technologies Co., Ltd.
+​
+*
+​
+​
+11
+%  
+​
+18
+%
+*
+Total customer revenue was less than 10% of net revenue.
+No other customers accounted for 10% or more of our net revenue in these years.
+Gross profit.
+Gross profit is net revenue less cost of revenue. Our cost of revenue consists primarily of the purchase of wafers from our contracted foundries, the assembly, packaging and testing of our products by sub-contractors, product testing performed in our own facility, overhead associated with the management of our supply chain and the amortization of acquired intangible assets. Gross margin is gross profit divided by net revenue. The following table compares gross profit and gross margin for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+Gross profit
+ 
+$
+ 241.6
+ 
+​
+ 7.5
+%  
+​
+$
+ 224.8
+ 
+​
+ (1.8)
+%  
+​
+$
+ 229.0
+​
+Gross margin
+​
+ 
+ 54.5
+%
+​
+​
+ 
+​
+ 
+ 53.6
+%  
+​
+​
+ 
+​
+ 
+ 51.5
+%
+Our gross margin increased in 2025 as compared to 2024 due to
+manufacturing efficiencies including the benefit of higher unit volumes on our manufacturing costs per unit,
+ and favorable end-market mix
+ with a greater percentage of sales coming from higher-margin market categories.
+Research and development expenses.
+Research and development (“R&D”) expenses consist primarily of employee-related expenses including salaries and stock-based compensation, as well as expensed material and facility costs associated with the development of new processes and products. We also record R&D expenses for prototype wafers related to new products until the products are released to production. The following table compares R&D expenses for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+R&D expenses
+ 
+$
+ 101.1
+  ​
+​
+ 0.3
+%  
+​
+$
+ 100.8
+ 
+​
+ 4.9
+%  
+​
+$
+ 96.1
+​
+Headcount (at period end)
+​
+​
+ 301
+​
+​
+​
+​
+​
+​
+ 311
+​
+​
+​
+​
+​
+​
+ 282
+​
+​
+R&D expenses increased in 2025 compared to 2024
+ primarily due to higher salaries and expenses for outside engineering services, partially offset by decreased stock-based compensation expense.
+Sales and marketing expenses.
+Sales and marketing (“S&M”) expenses consist primarily of employee-related expenses, including salaries and stock-based compensation, and commissions to sales representatives, as well as facilities expenses, including expenses associated with our regional sales and support offices. The following table compares sales and marketing expenses for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+Sales and marketing expenses
+​
+$
+ 68.0
+ 
+​
+ 0.2
+%  
+​
+$
+ 67.8
+ 
+​
+ 5.0
+%  
+​
+$
+ 64.6
+​
+Headcount (at period end)
+​
+​
+ 335
+​
+​
+​
+​
+​
+​
+ 330
+​
+​
+​
+​
+​
+​
+ 317
+​
+S&M expenses in 2025 were flat compared to 2024.
+General and administrative expenses.
+General and administrative (“G&A”) expenses consist primarily of employee-related expenses, including salaries and stock-based compensation expenses for administration, finance, human resources and general management, as well as consulting, professional services, legal and auditing expenses. The table below compares G&A expenses for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+G&A expenses
+ 
+$
+ 42.7
+  ​
+​
+ 11.8
+%  
+​
+$
+ 38.2
+ 
+​
+ 15.0
+%  
+​
+$
+ 33.2
+​
+Headcount (at period end)
+​
+​
+ 84
+​
+​
+​
+​
+​
+​
+ 84
+​
+​
+​
+​
+​
+​
+ 79
+​
+G&A expenses
+increased i
+n 2025 compared to 2024 primarily due to increased professional and legal services and higher salary- and benefit-related expenses.
+32
+
+Table of Contents
+Other operating expenses.
+ Other operating expenses were $19.7 million in 2025. We recognized expenses of $11.3 million stemming from an employee litigation matter (refer to Note 14, 
+Legal Proceedings and Contingencies
+, in our Notes to Consolidated Financial Statements for details). In addition, we recognized stock-based compensation expense of $8.4 million as a result of an award modification associated with the retirement of our former chief executive officer (refer to Note 7, 
+Stock-Based Compensation
+, in our Notes to Consolidated Financial Statements for details).
+Other income
+. Other income consists primarily of interest income earned on cash and cash equivalents, marketable securities and other investments, and the impact of foreign exchange gains or losses. The following table compares other income for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+Other income
+ 
+$
+ 10.8
+​
+​
+ (15.9)
+%  
+​
+$
+ 12.8
+ 
+​
+ 18.2
+%  
+​
+$
+ 10.8
+​
+Other income decreased in 2025 primarily due to lower interest income.
+Provision (Benefit) for income taxes.
+Benefit for income taxes represents federal, state and foreign taxes. The following table compares the provision (benefit) for income taxes for the years ended December 31, 2025, 2024 and 2023:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(dollars in millions)
+  ​ ​ ​
+2025
+​
+Change
+​
+2024
+​
+Change
+​
+2023
+Provision (benefit) for income taxes
+ 
+$
+ (1.1)
+​
+​
+ (24.7)
+%  
+​
+$
+ (1.5)
+​
+​
+ (84.9)
+%  
+​
+$
+ (9.8)
+​
+Effective tax rate
+​
+ 
+ (5.3)
+%
+​
+​
+​
+​
+ 
+ (4.8)
+%  
+​
+​
+​
+​
+ 
+ (21.4)
+%
+In 2025 and 2024, our effective tax rate was lower than the statutory U.S. federal income-tax rates of 21% due to the geographic distribution of our world-wide earnings in lower tax jurisdictions, the impact of federal research tax credits and the recognition of excess tax benefits related to share-based compensation. Additionally, in 2025 and 2024, our effective tax rate was favorably impacted by discrete items associated with the release of unrecognized tax benefits caused by an expiration in the statute of limitations on these positions. These benefits were offset by U.S. tax on foreign income, known as Net Controlled Foreign Corporation Tested Income (“NCTI”). The primary jurisdiction from which our foreign earnings are derived is the Cayman Islands, which is a non-taxing jurisdiction. Income earned in other foreign jurisdictions was not material. We have not been granted any incentivized tax rates and do not operate under tax holidays in any jurisdiction.
+The rate was further reduced by the release of federal uncertain tax position caused by a expiration in the statute of limitations on these positions. These benefits were partially offset by foreign income subject to U.S. tax, known as Net Controlled Foreign Corporation Tested Income ("NCTI"). The Company’s primary jurisdiction where foreign earnings are derived is the Cayman Islands, which is a non-taxing jurisdiction. Income earned in other foreign jurisdictions was not material. The Company has not been granted any incentivized tax rates and does not operate under any tax holidays in any jurisdiction.
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was enacted in the U.S. The OBBBA includes provisions modifying the corporate income tax code, including the immediate expensing of domestic research and development expenditures for tax purposes, 100% bonus depreciation for qualified assets, and an increase in the statutory tax rate on certain foreign earnings from 10.5% to 12.6% (effective in the fiscal year 2026). We have elected to account for NCTI, under the deferred method. The deferred tax amounts recorded are based on the evaluation of temporary differences that are expected to reverse as NCTI is incurred in future periods. As a result, we remeasured our estimated deferred tax balances related to NCTI for the changes in the tax rate and recorded an expense of $0.5 million during the third quarter of 2025. For additional details, refer to Note 11,
+Provision
+ (
+Benefit) for Income Taxes
+, in our Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K.
+Liquidity and Capital Resources
+We had $249.5 million in cash, cash equivalents and short-term marketable securities at December 31, 2025 compared to $300.0 million at December 31, 2024. As of December 31, 2025 and 2024, we had working capital, defined as current assets less current liabilities, of approximately $388.0 million and $458.7 million, respectively.
+We have a Credit Agreement with Wells Fargo Bank, National Association (the "Credit Agreement") that provides us with a $75.0 million revolving line of credit to use for general corporate purposes with a $20.0 million sub-limit for the issuance of standby and trade letters of credit. The Credit Agreement was amended on June 7, 2021, to provide an alternate borrowing rate as a replacement for LIBOR and extend the termination date from April 30, 2022 to June 7, 2026, with all other terms remaining the same. The Credit Agreement was amended with an effective date of
+33
+
+Table of Contents
+June 28, 2023 to include the Secured Overnight Financing Rates as interest rate benchmark rates, with all other terms remaining the same. Our ability to borrow under the revolving line of credit is conditioned upon our compliance with specified covenants, including reporting and financial covenants, primarily a minimum liquidity measure and a debt to earnings ratio, with which we are currently in compliance. The Credit Agreement terminates on June 7, 2026; all advances under the revolving line of credit will become due on such date, or earlier in the event of a default. As of December 31, 2025 and 2024, we had no advances outstanding under the Credit Agreement.
+Cash from Operating Activities
+Our operating activities generated cash of $111.5 million and $81.2 million in the years ended December 31, 2025 and 2024, respectively. We generate cash primarily from operating activities in the ordinary course of business.
+In 2025, our net income was $22.1 million, which included non-cash expenses of $27.2 million of depreciation, $39.7 million of stock-based compensation, $0.9 million decrease in deferred income taxes and $0.8 million of intangibles amortization partially offset by a
+$1.1 million of accretion of discount on marketable securities
+. Sources of cash included a $9.3 million decrease in accounts receivable, a $10.5 million increase in taxes payable and accrued liabilities, a $3.3 million increase in accounts payable (excluding payables related to property and equipment) due to timing of payments. These sources of cash were partially offset by a $1.3 million increase in inventories.
+In 2024, our net income was $32.2 million, which included non-cash expenses of
+$33.3 million of depreciation, $35.1 million of stock-based compensation and $1.3 million of intangibles amortization partially offset by a $8.4 million increase in deferred income taxes. Sources of cash included a $3.5 million increase in accounts payable (excluding payables related to property and equipment) due to timing of payments and a $4.0 million decrease in prepaid expenses and other assets. These sources of cash were partially offset by a $12.3 million increase in accounts receivable, a $2.4 million increase in inventories, and a $3.5 million decrease in taxes payable and accrued liabilities.
+Cash from Investing Activities
+Our investing activities in the year ended December 31, 2025, generated $36.2 million of cash, consisting primarily of $60.5 million of proceeds from sales and maturities of marketable securities, net of purchases. This amount was partially offset by the use of $24.4 million for purchases of property and equipment,
+primarily production-related machinery and equipment.
+Our investing activities in the year ended December 31, 2024, resulted in a $25.9 million net use of cash, consisting primarily of $17.3 million for purchases of property and equipment and $9.5 million for the Odyssey acquisition, partially offset by $0.9 million of proceeds from sales and maturities of marketable securities, net of purchases.
+Cash from Financing Activities
+Our financing activities in the year ended December 31, 2025, resulted in a $139.9 million net use of cash. Financing activities consisted primarily of $98.1 million for the repurchase of our common stock and $47.2 million for the payment of dividends to stockholders, partially offset by proceeds of $5.3 million from the issuance of common stock through our employee stock purchase plan.
+Our financing activities in the year ended December 31, 2024, resulted in a $68.2 million net use of cash. Financing activities consisted primarily of $46.0 million for the payment of dividends to stockholders and $27.9 million for the repurchase of our common stock, partially offset by proceeds of $5.7 million from the issuance of common stock through our employee stock purchase plan.
+Dividends
+In October 2023, our board of directors declared dividends of $0.20 per share to be paid to stockholders of record at the end of each quarter in 2024.
+In October 2024, our board of directors raised the cash dividend again with the declaration of five cash dividends of $0.21 per share to be paid to stockholders of record at the end of the fourth quarter in 2024 (in lieu of the $0.20 per share announced in October 2023) and at the end of each quarter in 2025.
+In October 2025, our board of directors raised the quarterly cash dividend with the declaration of four cash dividends of $0.215 per share to be paid to stockholders of record at the end of each quarter in 2026.
+34
+
+Table of Contents
+The declaration of any future cash dividend is at the discretion of our board of directors and will depend on our financial condition, results of operations, capital requirements, business conditions and other factors, as well as a determination that cash dividends are in the best interest of our stockholders.
+Stock Repurchases
+Over the years our board of directors has authorized the use of funds to repurchase shares of our common stock, including $50.0 million in each of October 2024 and April 2025, with repurchases to be executed according to pre-defined price/volume guidelines.
+In 2025, we repurchased a total of 2.0 million shares of the Company’s common stock for $98.1 million, exhausting our repurchase authorization.
+Authorization of future repurchase programs is at the discretion of our board of directors and will depend on our financial condition, results of operations, capital requirements, business conditions and other factors.
+Capital Expenditures
+Cash paid for property and equipment in the year ended December 31, 2025 was $24.4 million. We expect capital expenditures in fiscal 2026 to be primarily for machinery and equipment for use in the manufacture of our products to support future growth. We expect to fund these capital expenditures with cash on hand as well as cash provided by future operations.
+Off-Balance-Sheet Arrangements
+As of December 31, 2025 and 2024, we did not have any off-balance-sheet arrangements or relationships with unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or special purpose entities, which are typically established for the purpose of facilitating off-balance-sheet arrangements or other contractually narrow or limited purposes.
+Other Information
+Our cash, cash equivalents and investment balances may change in future periods due to changes in our planned cash outlays, including changes in incremental costs such as direct and integration costs related to future acquisitions. Current U.S. tax laws generally allow companies to repatriate accumulated foreign earnings without incurring additional U.S. federal taxes. Accordingly, as of December 31, 2025, our worldwide cash and marketable securities are available to fund capital allocation needs, including capital and internal investments, acquisitions, stock repurchases and/or dividends without incurring significant U.S. federal income taxes.
+If our operating results deteriorate in future periods, either as a result of a decrease in customer demand or pricing pressures from our customers or our competitors, or for other reasons, our ability to generate positive cash flow from operations may be jeopardized. In that case, we may be forced to use our cash, cash equivalents and short-term investments, use our current financing or seek additional financing from third parties to fund our operations. We believe that cash generated from operations, together with existing sources of liquidity, will satisfy our projected working capital and other cash requirements for at least the next 12 months. Our uses of cash beyond the next 12 months will depend on many factors, including the general economic environment in which we operate and our ability to generate cash flow from operations, which are uncertain but include funding our operations and additional capital expenditures.
+Contractual Obligations
+As of December 31, 2025, we had the following non-cancelable contractual obligations:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Payments Due by Period
+​
+​
+​
+​
+​
+Less than 1
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(In thousands)
+  ​ ​ ​
+Total
+  ​ ​ ​
+Year
+  ​ ​ ​
+1 - 3 Years
+  ​ ​ ​
+4 - 5 Years
+  ​ ​ ​
+Over 5 Years
+Operating lease obligations
+(1)
+​
+$
+ 23,712
+​
+$
+ 4,161
+​
+$
+ 7,774
+​
+$
+ 6,182
+​
+$
+ 5,595
+Purchase obligations
+(2)
+​
+$
+ 45,121
+​
+$
+ 45,121
+​
+$
+ —
+​
+$
+ —
+​
+$
+ —
+(1)
+Operating lease obligations represent undiscounted non-cancelable remaining lease payments.
+(2)
+Purchase obligations represent commitments to our suppliers and other parties for the purchases of goods and services, which primarily consist of wafer and other inventory purchases, assembly and other manufacturing services, and purchases of property and equipment.
+35
+
+Table of Contents
+In addition to operating lease and purchase obligations, we have a contractual obligation related to income tax as of December 31, 2025, which primarily comprises unrecognized tax benefits of approximately $15.3 million, and was classified as contra deferred tax assets or long-term income taxes payable in our consolidated balance sheet. We believe that cash generated from operations, together with existing sources of liquidity, will satisfy the cash requirements for these contractual obligations.
+Recently Issued Accounting Pronouncements
+For recently issued accounting announcements, see “Recently Issued Accounting Pronouncements” in Note 2,
+Significant Accounting Policies and Recent Accounting Pronouncements
+, in our Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K.

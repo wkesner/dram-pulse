@@ -1,0 +1,946 @@
+Item 2. Management’s Discussion and Analysis o
+f Financial Condition and Results of Operations
+This Quarterly Report on Form 10-Q for the first quarter ended September 30, 2025 (this “Report”) contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, including in particular, our expectations regarding market demands, customer requirements and the general economic environment, future results of operations, and other statements that include words such as “may,” “will,” “should,” “expect,” “plan,” “intend,” “anticipate,” “believe,” “estimate,” “predict,” “potential,” “continue” and similar expressions. These forward-looking statements involve risks and uncertainties. We caution investors that actual results may differ materially from those projected in the forward-looking statements as a result of certain risk factors identified in the section entitled “Risk Factors” in this Report, our Annual Report on Form 10-K for the fiscal year ended June 30, 2025, and other filings we have made with the Securities and Exchange Commission. These risk factors include, but are not limited to: adverse general economic conditions; fluctuations in demand for our products and services; a highly competitive business environment for network switching equipment; our effectiveness in controlling expenses; the possibility that we might experience delays in the development or introduction of new technology and products; customer response to our new technology and products; fluctuations in the global economy, including as a result of political, social, economic, and regulatory factors, currency fluctuations, and tariff and trade policies; geopolitical tensions and conflicts; risks related to pending or future litigation and a dependency on third parties for certain components and for the manufacturing of our products.
+Business Overview
+The following discussion is based upon our unaudited condensed consolidated financial statements included elsewhere in this Report. In the course of operating our business, we routinely make decisions as to the timing of the payment of invoices, the collection of receivables, the manufacturing and shipment of products, the fulfillment of orders, the purchase of supplies, and the building of inventory and service parts, among other matters. Each of these decisions has some impact on the financial results for any given period. In making these decisions, we consider various factors, including contractual obligations, customer satisfaction, competition, internal and external financial targets and expectations, and financial planning objectives. For further information about our critical accounting policies and estimates, see the “Critical Accounting Policies and Estimates” section included in this “Management's Discussion and Analysis of Financial Condition and Results of Operations.”
+
+Extreme Networks, Inc. (“Extreme,” “Company,” “we,” “us” and “our”) is a leader in AI-powered cloud networking, focused on delivering simple and secure solutions that help businesses address challenges and enable connections among devices, applications, and users. We push the boundaries of technology, leveraging the powers of artificial intelligence (“AI”), analytics, and automation and have industry leading support services. Tens of thousands of customers globally trust Extreme to drive value, foster innovation, and overcome extreme challenges. Extreme also designs, develops, and manufactures wired, wireless, and software-defined wide area-network (“SD-WAN”) infrastructure equipment. Our Extreme Platform ONE
+TM
+ solution, announced in December 2024 and made generally available in July 2025, is a technology platform that is designed to reduce the complexity for enterprises by seamlessly integrating networking, security and AI solutions into a single platform. AI-powered automation includes conversational, interactive and autonomous AI agents—to assist, advise and accelerate the productivity of networking, security and business teams—reducing the time to complete complex tasks.
+
+Our global footprint provides service to some of the world’s leading names in business across verticals such as large sports and entertainment venues, hospitality, retail, transportation and logistics, education, government, healthcare, manufacturing and service providers. We derive all our revenues from the sale of our networking equipment, software subscriptions, and related maintenance contracts.
+
+Industry Background
+Enterprises across every industry are going through unprecedented changes, such as digital transformation initiatives, migrating their workloads to cloud-based environments, modernizing applications, finding new ways to leverage generative, multimodal and agentic AI technology, and adapting to a distributed workforce. To accomplish this, they are adopting new Information Technology (“IT”) delivery models and applications that require fundamental network alterations and enhancements spanning from the access edge to the data center. As networks become more complex and more distributed in nature, we believe IT teams in every industry will need more control and better insights than ever before to deliver secure, distributed connectivity and comprehensive centralized visibility. Networking is mission critical and touches all elements of how services are delivered to customers, employees, students, and patients. Managing networks from a single platform that integrates AI networking and security is critical to help reduce complexity and minimize the time it takes to complete tasks. A new category has emerged in the industry to address challenges related to managing the breadth and depth of complexities related to network administration, deployment and on-going management termed
+AI for networking
+.  This new category is defined by innovation in generative, multimodal and agentic AI technology.
+
+As the edge of the network continues to expand, our customers are managing more endpoints which comes with a host of challenges. This continued expansion creates issues such as a higher risk of cyberattacks and a need for more bandwidth due to an increase in applications running across the network.
+
+24
+
+ 
+
+Network complexity manifests itself in the form of more endpoints to manage, more applications to monitor, and more services that rely on the network for service delivery and enablement. When performance suffers, and the tug on internal systems and IT staff becomes more intense, technology is often being overworked. Resolving network problems expeditiously and identifying their root cause can improve organizational productivity and result in higher performance of operations.
+AI for networking
+ is needed to improve an IT team’s agility and responsiveness to address these challenges.
+
+We believe that the network has never been more vital than it is today.
+
+As administrators grapple with more data, coming from more places, more connected devices, and more Software-as-a-Service (“SaaS”) based applications, the cloud is fundamental to managing and maintaining a modern network. Traditional network offerings are not well-suited to fulfill enterprise expectations for rapid delivery of new services, more flexible business models, real-time response, and massive scalability. We expect Extreme Platform ONE to deliver significant productivity gains for IT teams by streamlining network design, deployment, management, and commercial operations through its generative, multimodal, and agentic AI capabilities..
+As enterprises continue to migrate increasing numbers of applications and services to either private clouds or public clouds offered by third parties and to adopt new IT delivery models and applications, they are required to make fundamental network alterations and enhancements spanning from wireless access points (“APs”) to the network core. In either case, the network infrastructure must adapt to this new dynamic environment. AI and automation are key if enterprises are to derive maximum benefit from their cloud deployments. With automation applications becoming increasingly critical in manufacturing, warehousing, logistics, healthcare and other key industries, we believe this will continue to create demand for networking technology to serve as a foundation to run these services.
+Service providers are investing in network enhancements with platforms and applications that deliver data insights, provide flexibility, and can quickly respond to new user demands and 5G use cases. The scale of issues and challenges seen within service provider networks is even greater than the enterprise network -- thus they too can greatly benefit from operational gains from Extreme Platform ONE.
+We believe Extreme will continue to benefit from the use of its technology to manage distributed campus network architecture centrally from the cloud. Extreme has blended a dynamic network fabric architecture that delivers simplicity for moves and changes at the edge of the network together with corporate-wide role-based policy. This enables customers to migrate to new cloud-managed switching, Wi-Fi, and SD-WAN, agnostic of the existing switching or wireless equipment they already have installed. In the end, we expect these customers to see lower operating and capital expenditures, lower subscription costs, lower overall cost of ownership and more flexibility along with a more resilient network, powered by Extreme Platform ONE.
+We estimate the total addressable market (“TAM”) for our networking solutions, consisting of cloud networking, wireless local area networks (“WLAN”), campus local area networks (“LAN”), Ethernet switching, data center networking, SD-WAN solutions, and elements of the Secure Access Service Edge (“SASE”), exceeded $42 billion in calendar year 2024. Based on data from 650 Group, Gartner, IDC, and Dell'Oro Group, demand is projected to grow at a five-year compound annual growth rate (“CAGR”) of approximately 7%, reaching $59 billion by 2029. Within this market, cloud-managed networking solutions are expected to grow at a CAGR of approximately 15% through 2029. And with Extreme Platform ONE, we are addressing AI Networking for the Campus, a high-growth segment forecasted to grow at a 72% CAGR over the next five years.
+The Extreme Strategy
+Extreme is committed to empowering organizations with new ways to simply and securely connect with Extreme's intelligent technology platform that help move their organizations forward.
+Extreme Platform ONE is designed to reduce c
+omplexity for enterprises by seamlessly integrating networking, security and AI solutions. The platform’s AI-powered automation includes conversational, interactive and autonomous AI agents, to assist, advise and accelerate the productivity of networking, security and business teams—reducing the time to complete complex tasks. Extreme Platform ONE is also designed to offer the industry's simplest licensing
+.
+Key elements of Extreme’s strategy and differentiation include:
+•
+Deliver AI that is fully integrated into the networking experience.
+ As IT environments grow in complexity, enterprises need simpler, smarter ways to manage their networks. Extreme Platform ONE delivers significant benefits including:
+o
+AI-Driven Insight and Automation: Customers gain instant insights while the network adapts in real time to bandwidth spikes and security threats. Network administrators can set guardrails for policy, risk, and approvals, while AI agents act autonomously to optimize performance and reliability in real time.
+o
+End-to-End Network Visibility: With real-time network topology and lifecycle data, customers can improve compliance, simplify onboarding, and enable proactive planning for refreshes, expansions, or support alignment. Extreme Platform ONE eliminates fragmented screenshots of the network and delivers a complete view in one place.
+
+25
+
+ 
+
+o
+Unified Operations Dashboard: Extreme Platform ONE consolidates license, contract, and asset management into a single, intuitive platform, delivering real-time visibility into usage, renewals, support coverage, and device inventory across all sites and product lines.
+o
+Integrated Experience: One integrated experience for everyone in an organization, including Network Operations (“NetOps”), Security Operations (“SecOps”), and business teams, to access just what they need to do high quality work from a fully customizable workspace.
+o
+Simplified licensing: Extreme Platform ONE is backwards compatible to ExtremeCloud IQ and is now bundled with support services to facilitate license to asset tracking.
+•
+Provide a differentiated end-to-end cloud networking architecture.
+Cloud networking is estimated to be a $15 billion segment of the networking market comprising cloud-managed services and cloud-managed products, which are largely WLAN access points and ethernet switches, growing at 15% annually over the next five years, according to data from the 650 Group, Gartner, IDC and Dell'Oro. Cloud management technology has evolved significantly over the past decade. Extreme offers:
+o
+Cloud Platform: A robust cloud management platform that delivers visibility, intelligence, and assurance from the network edge to the core.
+o
+Cloud Choice for Customers: Our cloud networking solution is available on all major cloud providers (Amazon Web Services (“AWS”), Google Cloud Platform (“GCP”) and Microsoft Azure).
+o
+ExtremeCloud IQ: Our ExtremeCloud IQ offering conforms to ISO/IEC 27001, ISO/IEC 27017 and ISO/IEC 27701 standards for data privacy and protection as set forth by the International Standards Organization (“ISO”), and is CSA STAR certified.
+o
+Cloud Continuum: We provide hosting flexibility across a range of options including public, private, and on-premises edge cloud options.
+o
+Consumption Flexibility: We offer a range of financing and network purchase options. Our value-based subscription tiers provide customers with flexibility to grow, as well as offer pool-able and portable licenses that can be transferred between products (
+e
+.
+g
+., access points and switches) at one fixed price.
+•
+Offer customers choice: public or private cloud, or on-premises.
+We leverage the cloud where it makes sense for our customers and provide on-premises solutions where customers need it and also have a solution for those who want to harness the power of both. Our hybrid approach gives our customers options to adapt the technology to their business. At the same time, all of our solutions have visibility, control and strategic information built in, all tightly integrated with a single view across all of the installed products. Our customers can understand what is going on across their network and applications in real time – who, when, and what is connected to the network, which is critical for bring your own device (“BYOD”) and Internet of Things (“IoT”) usage.
+•
+Offers universal platforms for enterprise class switching and wireless infrastructure.
+ We offer universal platforms which support multiple deployment use cases, providing flexibility and investment protection.
+o
+Universal switches (7720/5720/5520/5420/5320/4220/4120)
+ support fabric or traditional networking with a choice of cloud or on-premises (air-gapped or cloud connected) management.
+o
+Universal Wi-Fi 6/6E APs (300/400, 4000 and 5000 series)
+support campus or distributed deployments with a choice of cloud or on-premises (air-gapped or cloud connected) management.
+o
+Universal licensing
+with one portable management license for any device and for any type of management. For switches, operating system feature licenses are portable, and bulk activated through ExtremeCloud IQ.
+•
+Enable a common fabric to simplify and automate the network.
+ Fabric technologies virtualize the network infrastructure (decoupling network services from physical connectivity) which enables network services to be provisioned faster, with lower likelihood of error. They make the underlying network much easier to design, implement, manage, and troubleshoot.
+•
+Offer a frictionless experience for secure hybrid work.
+ Our layered security approach is managed from one cloud and secure by design. We offer tightly integrated security with network
+
+fabric and infrastructure.
+o
+ExtremeCloud Universal ZTNA
+is
+
+the first network security offering to integrate network, application, and device security within a single solution. By combining Cloud Network Access Control (“NAC”) and Zero Trust Network Authentication (“ZTNA”) into a single, easy-to-use SaaS
+
+offering, we help customers ensure unified observability, frictionless user experiences and a consistent security policy for applications and devices as well as support secure hybrid work use cases for customers. As the virtual private network (“VPN”) market transitions to ZTNA, the
+
+26
+
+ 
+
+proliferation of individual applications, each with their own policy and dashboard, is adding complexity and expense for enterprise customers. We expect the broadening of our security offering to drive significant traction for our business with growth opportunities.
+o
+Extreme’s unique and highly differentiated network fabric
+ makes it simple to orchestrate applications and policy across the entire campus, from the core to the wireless edge, and across the wide area network. We bring enhanced security, the ability to segment networks and zero touch provisioning, thus reducing confusion, complexity and the need for additional IT staff. This is in stark contrast to our competitors’ fabric solutions, which were designed for service providers and data center networks and not meant for the campus.
+•
+End-to-End Portfolio.
+Our cloud-driven solutions provide visibility, control and strategic intelligence from the edge to the data center, across networks and applications. Our solutions include wired switching, wireless switching, wireless access points, WLAN controllers, routers, and an extensive portfolio of software applications that deliver AI-enhanced access control, network and application analytics, as well as network management. All can be managed, assessed, and controlled from a single pane of glass on premises or from the cloud.
+•
+Provide high-quality insourced customer service and support.
+ We seek to enhance customer satisfaction and build customer loyalty through high-quality service and support. This includes a wide range of standard support programs to the level of service our customers require, from standard business hours to global 24-hour-a-day, 365-days-a-year real-time responsive support.
+•
+Extend switching and routing technology leadership.
+ Our technological leadership is achieved by the development of innovative switching, routing and wireless products, the depth and focus of our market experience and our operating systems - the software that runs on all of our networking products. Our products reduce operating expenses for our customers and enable a more flexible and dynamic network environment that will help them meet the upcoming demands of IoT, mobile, and cloud.
+•
+Expand Wi-Fi technology leadership.
+ Wireless is today’s network access method of choice and every business must deal with scale, density and BYOD challenges. The network edge landscape is changing as the explosion of mobile and IoT devices increases the demand for high-performance, transparent, and always-on wired to wireless edge services. The unified access layer requires distributed intelligent components to ensure that access control and resiliency of business services are available across the entire infrastructure and manageable from a single console. We are at a technology inflection point with the pending migration from Wi-Fi 6 solutions to 6 GHz Wi-Fi (Wi-Fi 6E and Wi-Fi 7), focused on providing more efficient access to the broad array of connected devices. We believe we have the industry’s broadest 6 GHz indoor and outdoor wireless portfolio.
+•
+Offer actionable insights.
+Our network-powered application analytics provide actionable business insights by capturing and analyzing context-based data about the network and applications to deliver meaningful intelligence about applications, users, locations and devices. With an easy to comprehend dashboard, our applications help businesses turn their network into a strategic business asset that helps executives make faster and more effective decisions.
+•
+Expand market penetration by targeting high-growth market segments.
+ Within the campus, we focus on the mobile user, leveraging our automation capabilities and tracking WLAN growth. Our data center approach leverages our product portfolio to address the needs of public and private cloud data center providers. We believe that the cloud networking compound annual growth rate will continue to outpace the compound annual growth rate for on-premises managed networking. Our focus is on expanding our technology foothold in the critical cloud networking segment to accelerate not only cloud management adoption, but also subscription-based licensing consumption.
+•
+Leverage and expand multiple distribution channels.
+ We distribute our products through select distributors, a large number of resellers and system-integrators worldwide, as well as several large strategic partners. We maintain a field sales force to support our channel partners and to sell directly to certain strategic accounts. As an independent networking vendor, we seek to provide products that, when combined with the offerings of our channel partners, create compelling solutions for end-user customers.
+•
+Maintain and extend our strategic relationships.
+ We have established strategic relationships with a number of industry-leading vendors to provide both increased and enhanced routes to market, to collaboratively develop unique solutions.
+
+27
+
+ 
+
+Results of Operations
+During the first quarter of fiscal 2026, we achieved the following results:
+
+•
+Net revenues of $310.2 million compared to $269.2 million in the first quarter of fiscal 2025.
+•
+Product revenues of $194.0 million compared to $162.3 million in the first quarter of fiscal 2025.
+•
+Subscription and support revenues of $116.2 million compared to $106.9 million in the first quarter of fiscal 2025.
+•
+Total gross margin of 60.6% of net revenues compared to 63.0% of net revenues in the first quarter of fiscal 2025.
+•
+Operating income of $11.3 million compared to operating loss of $4.7 million in the first quarter of fiscal 2025.
+•
+Net income of $5.6 million compared to net loss of $10.5 million in the first quarter of fiscal 2025.
+During the first three months of fiscal 2026, we reflected the following results:
+•
+Cash flows used in operating activities of $14.0 million compared to cash flows provided by operating activities of $18.6 million in the three months ended September 30, 2024.
+•
+Cash and cash equivalents of $209.0 million as of September 30, 2025 compared to $231.7 million as of June 30, 2025.
+Net Revenues
+The following table presents net product and subscription and support revenues for the periods presented (in thousands, except percentages):
+ 
+
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+September 30,
+2025
+
+ 
+
+September 30,
+2024
+
+$
+Change
+
+%
+Change
+
+ 
+
+Net revenues:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Product
+
+ 
+
+ 
+
+$194,041
+
+ 
+
+$162,284
+
+ 
+
+$31,757
+
+ 
+
+19.6 %
+
+ 
+
+Percentage of net revenues
+
+ 
+
+ 
+
+62.5%
+
+ 
+
+60.3%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Subscription and support
+
+ 
+
+ 
+
+116,204
+
+ 
+
+106,920
+
+ 
+
+9,284
+
+ 
+
+8.7 %
+
+ 
+
+Percentage of net revenues
+
+ 
+
+ 
+
+37.5%
+
+ 
+
+39.7%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Total net revenues
+
+ 
+
+ 
+
+$310,245
+
+ 
+
+$269,204
+
+ 
+
+$41,041
+
+ 
+
+15.2 %
+
+ 
+
+We generate product revenues primarily from sales of our networking equipment. We derive subscription and support revenues primarily from sales of our subscription and support offerings which include SaaS subscription offerings, maintenance contracts, professional services and training for our products.
+Product revenues increased $31.8 million or 19.6% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in product revenues was primarily due to strong demand for our products, which contributed to higher bookings and higher shipments than the corresponding period in fiscal 2025.
+Subscription and support revenues increased $9.3 million or 8.7% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in subscription and support revenues was driven by increased adoption of our cloud network management solutions and continued growth in our subscription business.
+The following table presents the product and subscription and support gross profit, and the respective gross profit percentages for the periods presented (in thousands, except percentages):
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+September 30,
+2025
+
+ 
+
+September 30,
+2024
+
+$
+Change
+
+%
+Change
+
+ 
+
+Gross profit:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Product
+
+ 
+
+$107,913
+
+ 
+
+$92,882
+
+ 
+
+$15,031
+
+ 
+
+16.2 %
+
+ 
+
+Percentage of product revenues
+
+ 
+
+55.6%
+
+ 
+
+57.2%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Subscription and support
+
+ 
+
+80,116
+
+ 
+
+76,625
+
+ 
+
+3,491
+
+ 
+
+4.6 %
+
+ 
+
+Percentage of subscription and support revenues
+
+ 
+
+68.9%
+
+ 
+
+71.7%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Total gross profit
+
+ 
+
+$188,029
+
+ 
+
+$169,507
+
+ 
+
+$18,522
+
+ 
+
+10.9 %
+
+ 
+
+Percentage of net revenues
+
+ 
+
+60.6%
+
+ 
+
+63.0%
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+28
+
+ 
+
+Product gross profit increased $15.0 million or 16.2% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in product gross profit was primarily due to higher product revenues, partially offset by higher standard costs for products and increased distribution costs.
+Subscription and support gross profit increased $3.5 million or 4.6% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in subscription and support gross profit was primarily due to higher subscription revenues, partially offset by higher professional services costs and higher subscription hosting costs.
+Operating Expenses
+The following table presents operating expenses for the periods presented (in thousands, except percentages):
+ 
+
+ 
+
+ 
+
+Three Months Ended
+
+ 
+
+ 
+
+ 
+
+ 
+
+September 30,
+2025
+
+ 
+
+September 30,
+2024
+
+ 
+
+$
+Change
+
+ 
+
+%
+Change
+
+ 
+
+ 
+
+Research and development
+
+ 
+
+$57,753
+
+ 
+
+$54,451
+
+ 
+
+$3,302
+
+ 
+
+6.1 %
+
+ 
+
+ 
+
+Sales and marketing
+
+ 
+
+88,923
+
+ 
+
+81,383
+
+ 
+
+7,540
+
+ 
+
+9.3 %
+
+ 
+
+ 
+
+General and administrative
+
+ 
+
+29,187
+
+ 
+
+36,601
+
+ 
+
+(7,414)
+
+ 
+
+(20.3)%
+
+ 
+
+ 
+
+Restructuring and related charges
+
+ 
+
+371
+
+ 
+
+1,277
+
+ 
+
+(906)
+
+ 
+
+(70.9)%
+
+ 
+
+ 
+
+Amortization of intangible assets
+
+ 
+
+500
+
+ 
+
+512
+
+ 
+
+(12)
+
+ 
+
+(2.3)%
+
+ 
+
+ 
+
+Total operating expenses
+
+ 
+
+$176,734
+
+ 
+
+$174,224
+
+ 
+
+$2,510
+
+ 
+
+1.4 %
+
+ 
+
+ 
+
+Research and Development Expenses
+Research and development expenses consist primarily of personnel costs (which consist of compensation, benefits and share-based compensation), consultant fees and prototype expenses related to the design, development, and testing of our products.
+Research and development expenses increased by $3.3 million or 6.1% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in research and development expenses was primarily due to a $2.1 million increase in personnel costs due to higher headcount and higher compensation and benefits costs, a $1.0 million increase in engineering project costs, and $0.8 million increase in information technology, equipment and depreciation costs, offset by a $0.6 million decrease in facilities and occupancy related costs.
+
+Sales and Marketing Expenses
+Sales and marketing expenses consist primarily of personnel costs (which consist of compensation, benefits and share-based compensation), as well as trade shows and promotional expenses.
+Sales and marketing expenses increased by $7.5 million or 9.3% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The increase in sales and marketing expenses was primarily due to a $4.6 million increase in personnel costs due to higher salaries and benefits costs, a $2.0 million increase in sales and marketing costs primarily related to higher sales commissions and higher travel costs, and a $1.0 million increase in other expenses primarily related to information technology and equipment costs and professional fees.
+
+General and Administrative Expenses
+General and administrative expenses consist primarily of personnel costs (which consist of compensation, benefits and share-based compensation), legal and professional service costs, and facilities and information technology costs.
+General and administrative expenses decreased by $7.4 million or 20.3% for the three months ended September 30, 2025 as compared to the corresponding period in fiscal 2025. The decrease in general and administrative expenses was primarily driven by a $8.8 million decrease in legal costs related to litigation matters, and a $0.6 million decrease in professional services, partially offset by a $2.0 million increase in personnel costs due to higher salaries, benefits and share-based compensation costs.
+Restructuring and Related Charges
+For the three months ended September 30, 2025, we recorded restructuring charges of $0.4 million which primarily consisted of additions to severance and benefits costs and professional services fees as well as reversals of previously established accruals related to unused severance benefits associated with the reduction-in-force actions related to the “Q2 2024 Plan”, and “Q3 2024 Plan”, each as described in Note 13,
+Restructuring and Related Charges
+, in the Notes to Condensed Consolidated Financial Statements included elsewhere in this Report.
+
+29
+
+ 
+
+For the three months ended September 30, 2024, we recorded restructuring and related charges of $1.3 million, which primarily consisted of additional severance and benefits costs and professional services fees associated with the reduction-in-force actions related to the “Q2 2024 Plan”, and “Q3 2024 Plan”, each as described in Note 13,
+Restructuring and Related Charges
+, in the Notes to Condensed Consolidated Financial Statements included elsewhere in this Report.
+
+Amortization of Intangible Assets
+During the three months ended September 30, 2025 and 2024, we recorded $0.5 million of operating expenses for each period related to the amortization of intangible assets.
+
+Interest Income
+During the three months ended September 30, 2025 and 2024, we recorded $1.2 million and $0.8 million, respectively, in interest income. The increase in interest income was primarily related to the higher interest earned on our cash accounts due to higher cash and cash equivalents balances held during the first quarter in fiscal 2026.
+Interest Expense
+During the three months ended September 30, 2025 and 2024, we recorded $3.7 million and $4.4 million, respectively, in interest expense related to the debt obligations held under our Amended Credit Agreement. The decrease in interest expense was primarily due to lower average rates under the Amended Credit Agreement.
+Other Expense, Net
+
+During the three months ended September 30, 2025 and 2024, we recorded other expense, net of $0.5 million and $0.7 million, respectively. The other expense, net for each period primarily related to the foreign exchange impact from the revaluation of certain assets and liabilities denominated in foreign currencies into U.S. Dollars.
+Provision for Income Taxes
+
+For the three months ended September 30, 2025 and 2024, we recorded income tax provision of $2.7 million and $1.5 million, respectively.
+The income tax provisions for the three months ended September 30, 2025 and 2024 consisted of (1) taxes on the income of our foreign subsidiaries, (2) state taxes in jurisdictions where we have no remaining state net operating losses, (3) foreign withholding taxes, and (4) tax expense associated with the establishment of a U.S. deferred tax liability for amortizable goodwill resulting from the acquisition of Enterasys Networks, Inc., the WLAN business from Zebra Technologies Corporation, the Campus Fabric Business from Avaya LLC and the Data Center Business from Brocade Communications System.
+Critical Accounting Policies and Estimates
+Our unaudited condensed consolidated financial statements and the related notes included elsewhere in this Report are prepared in accordance with accounting principles generally accepted in the United States. Certain information and footnote disclosures normally included in financial statements prepared in accordance with U.S. generally accepted accounting principles have been condensed or omitted under SEC rules and regulations. The preparation of these unaudited condensed consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, costs and expenses, and related disclosures. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances. In many instances, we could have reasonably used different accounting estimates, and in other instances changes in the accounting estimates are reasonably likely to occur from period to period. Accordingly, actual results could differ significantly from the estimates made by our management. On an ongoing basis, we evaluate our estimates and assumptions. To the extent that there are material differences between these estimates and actual results, our future financial statement presentation, financial condition, results of operations, and cash flows will be affected.
+As discussed in Part II, Item 7,
+“Management’s Discussion and Analysis of Financial Condition and Results of Operations”
+ of our Annual Report on Form 10-K for the year ended June 30, 2025, we consider the following accounting policies to be the most critical in understanding the judgments that are involved in preparing our consolidated financial statements:
+•
+Revenue Recognition
+•
+Inventory Valuation and Purchase Commitments
+There have been no changes to our critical accounting policies since the filing of our last Annual Report on Form 10-K.
+ 
+
+30
+
+ 
+
+Liquidity and Capital Resources
+
+The following table summarizes information regarding our cash and cash equivalents (in thousands):
+
+ 
+
+ 
+
+September 30,
+2025
+
+ 
+
+ 
+
+June 30,
+2025
+
+ 
+
+Cash and cash equivalents
+
+ 
+
+$
+
+209,003
+
+ 
+
+ 
+
+$
+
+231,745
+
+ 
+
+As of September 30, 2025, our principal sources of liquidity consisted of cash and cash equivalents of $209.0 million, accounts receivable, net of $145.8 million, and available borrowings under our 2023 Revolving Facility of $110.8 million. Our principal uses of cash include the purchase of finished goods inventory from our contract manufacturers, payroll and other operating expenses related to the development and marketing of our products, purchases of property and equipment, repayments of debt and related interest and share repurchases. We believe that our $209.0 million of cash and cash equivalents at September 30, 2025, our cash flow from operations and the availability of borrowings from the 2023 Revolving Facility will be sufficient to fund our planned operations for at least the next 12 months and into the foreseeable future.
+On February 18, 2025, we announced that our Board had authorized management to repurchase up to $200 million of shares of the Company's common stock over a three-year period, commencing July 1, 2025 (the “2025 Repurchase Program”). Under these repurchase programs, purchases may be made from time to time in the open market or pursuant to a 10b5-1 plan. The manner, timing and amount of any future purchases will be determined by our management based on their evaluation of market conditions, stock price, Extreme’s ongoing determination that it is the best use of available cash and other factors. The 2025 Repurchase Program does not obligate us to acquire any shares of our common stock, and it may be suspended or terminated at any time without prior notice and will be subject to regulatory considerations. During the three months ended September 30, 2025, we repurchased a total of 577,281 shares of our common stock on the open market at a total cost of $12.0 million with an average price of $20.79 per share. As of September 30, 2025, the Company had $188.0 million available under the 2025 Repurchase Program.
+On June 22, 2023, we entered into the Second Amended and Restated Credit Agreement (the “2023 Credit Agreement”) by and among Extreme, as borrower, BMO Harris Bank, N.A., as an issuing lender and swingline lender, Bank of America, N.A., JPMorgan Chase Bank, N.A., PNC Bank, National Association and Wells Fargo Bank, National Association, as issuing lenders, the financial institutions or entities party thereto as lenders, and Bank of Montreal, as an administrative agent and collateral agent, which amended and restated the 2019 Credit Agreement. The 2023 Credit Agreement provides for i) a $200.0 million first lien term loan facility in an aggregate principal amount (the “Term Facility”), ii) a $150.0 million five-year revolving credit facility (the “2023 Revolving Facility”) and iii) an uncommitted additional incremental loan facility in the principal amount of up to $100.0 million plus an unlimited amount that is subject to pro forma compliance with a specified Consolidated Leverage Ratio tests. We may use the proceeds of the loans for working capital and general corporate purposes.
+At our election, the initial term loan (the “Initial Term Loan”) under the 2023 Credit Agreement may be made as either a base rate loan or a Secured Overnight Financing Data Rate loan (“SOFR loan
+”
+). The applicable margin for base rate loans ranges from 1.00% to 1.75% per annum, and the applicable margin for SOFR loans ranges from 2.00% to 2.75%, in each case based on the Company’s Consolidated Leverage Ratio. All SOFR loans are subject to a floor of 0.00% per annum and spread adjustment of 0.10% per annum. We also agreed to pay other closing fees, arrangement fees, and administration fees.
+The 2023 Credit Agreement requires us to maintain certain minimum financial ratios at the end of each fiscal quarter. The 2023 Credit Agreement also includes covenants and restrictions that limit, among other things, our ability to incur additional indebtedness, create liens upon any of its property, merge, consolidate or sell all or substantially all of its assets. The 2023 Credit Agreement also includes customary events of default which may result in acceleration of the outstanding balance
+.
+On August 14, 2024, we entered into an Amendment Number One to the 2023 Credit Agreement the (the 2023 Credit Agreement as amended by that certain Amendment Number One, “Amended Credit Agreement”). Under the Amended Credit Agreement, we modified the definition of the consolidated EBITDA for the purposes of evaluating compliance with financial covenants under the Amended Credit Agreement. The amended definition of consolidated EBITDA modifies the amount and type of add-backs that are allowable to better align with our operations and activities.
+
+As of September 30, 2025, the Company was in compliance with the modified terms and financial covenants under the Amended Credit Agreement.
+
+31
+
+ 
+
+Key Components of Cash Flows and Liquidity
+A summary of the sources and uses of cash and cash equivalents is as follows (in thousands):
+
+ 
+
+Three Months Ended
+
+ 
+
+September 30,
+2025
+
+ 
+
+ 
+
+September 30,
+2024
+
+ 
+
+ 
+
+Net cash provided by (used in) operating activities
+
+$
+
+(13,998
+
+)
+
+ 
+
+$
+
+18,585
+
+ 
+
+ 
+
+Net cash used in investing activities
+
+ 
+
+(6,855
+
+)
+
+ 
+
+ 
+
+(6,916
+
+)
+
+ 
+
+Net cash used in financing activities
+
+ 
+
+(1,716
+
+)
+
+ 
+
+ 
+
+(9,121
+
+)
+
+ 
+
+Foreign currency effect on cash and cash equivalents
+
+ 
+
+(173
+
+)
+
+ 
+
+ 
+
+299
+
+ 
+
+ 
+
+Net increase (decrease) in cash and cash equivalents
+
+$
+
+(22,742
+
+)
+
+ 
+
+$
+
+2,847
+
+ 
+
+ 
+
+ 
+Net Cash Provided by (Used in) Operating Activities
+Cash flows used in operations in the three months ended September 30, 2025 were $14.0 million, including our net income of $5.6 million and non-cash expenses of $29.8 million for items such as amortization of intangible assets, share-based compensation, depreciation, reduction in carrying amount of right-of-use assets, deferred income taxes, provision for excess and obsolete inventory, provision for doubtful accounts and interest. Other uses of cash for the period included decreases in other accrued liabilities, accrued compensation and benefits, and operating lease liabilities, and increases in accounts receivable and other assets. This was partially offset by increases in deferred revenue and accounts payable and a decrease in inventory.
+
+Cash flows provided by operations in the three months ended September 30, 2024 were $18.6 million, including our net loss of $10.5 million and non-cash expenses of $27.8 million for items such as amortization of intangible assets, share-based compensation, depreciation, reduction in carrying amount of right-of-use assets, deferred income taxes, provision for excess and obsolete inventory and interest. Other sources of cash for the period included a decrease in prepaid expenses and other assets and increases in accounts payable, deferred revenue and accrued compensation and benefits. This was partially offset by increases in accounts receivable, inventories as well as decreases in operating lease liabilities and other liabilities.
+Net Cash Used in Investing Activities
+Cash flows used in investing activities in the three months ended September 30, 2025 were $6.9 million for the purchases of property and equipment and the capitalized software development costs.
+Cash flows used in investing activities in the three months ended September 30, 2024 were $6.9 million for the purchases of property and equipment.
+Net Cash Used in Financing Activities
+Cash flows used in financing activities in the three months ended September 30, 2025 were $1.7 million primarily due to share repurchases of $12.0 million under the 2025 Repurchase Program, payments of $11.0 million for taxes paid on vested and released stock awards net of proceeds from the issuance of shares of our common stock under our Employee Stock Purchase Plan (“ESPP”) and exercise of stock options, and debt repayments of $3.8 million, partially offset by a $25.0 million borrowing against the 2023 Revolving Facility.
+Cash flows used in financing activities in the three months ended September 30, 2024 were $9.1 million primarily due to payment of $5.9 million for taxes paid on vested and released stock awards net of proceeds from the issuance of shares of our common stock under our ESPP and exercise of stock options, a payment of $0.7 million for debt financing costs related to the Amended Credit Agreement, and a debt repayment of $2.5 million.
+Foreign Currency Effect on Cash and cash equivalents
+Foreign currency effect on cash and cash equivalents increased in the three months ended September 30, 2025, primarily due to changes in foreign currency exchange rates between the U.S. Dollar and particularly the Indian Rupee, the UK Pound and the Euro.
+
+Contractual Obligations
+As of September 30, 2025, we had contractual obligations resulting from our debt arrangement, agreements to purchase goods and services in the ordinary course of business and obligations under our operating lease arrangements.
+
+Our debt obligations relate to amounts owed under our Amended Credit Agreement. As of September 30, 2025, we had $199.4 million of debt outstanding, which is payable on quarterly installments through our fiscal year 2028. We are subject to interest on our debt obligations and unused commitment fee. See Note 7,
+ Debt
+,
+
+in the
+
+Notes to Condensed Consolidated Financial Statements in this Report for additional information regarding our debt obligations.
+
+32
+
+ 
+
+Our unconditional purchase obligations represent the purchase of long lead-time component inventory that our contract manufacturers procure in accordance with our forecast. We expect to honor the inventory purchase commitments within the next 12 months. As of September 30, 2025, we had non-cancelable commitments to purchase $48.8 million of inventory. See Note 8,
+ Commitments and Contingencies
+, in the Notes to Condensed Consolidated Financial Statements
+
+for additional information regarding our purchase obligations.
+
+We have contractual commitments to our suppliers which represent commitments for future services. As of September 30, 2025, we had contractual commitments of $15.1 million that are due through our fiscal year 2027.
+We lease facilities under operating lease arrangements at various locations that expire at various dates through our fiscal year 2033. As of September 30, 2025, the value of our obligations under operating leases was $50.1 million.
+We have immaterial income tax liabilities related to uncertain tax positions and we are unable to reasonably estimate the timing of the settlement of those liabilities.
+We did not have any material commitments for capital expenditures as of September 30, 2025.
+Off-Balance Sheet Arrangements
+We did not have any off-balance sheet arrangements as of September 30, 2025.

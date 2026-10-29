@@ -1,0 +1,36 @@
+{
+  "company": "Richardson Electronics",
+  "ticker": "RELL",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000355948",
+  "form": "8-K",
+  "filing_date": "2026-04-08",
+  "accession_number": "0001193125-26-147753",
+  "primary_document": "rell-20260408.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/355948/000119312526147753/rell-20260408.htm",
+  "fiscal_year_end": "0529",
+  "report_date": "2026-04-08",
+  "period_end": "2026-04-08",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:48:45.670830+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "rell-ex99_1.htm",
+      "path": "data/raw/RELL/000119312526147753/exhibit_99_rell-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/355948/000119312526147753/rell-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/RELL/000119312526147753/primary.html",
+    "other": "data/raw/RELL/000119312526147753/other_full.txt"
+  }
+}

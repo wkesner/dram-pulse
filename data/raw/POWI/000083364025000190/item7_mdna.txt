@@ -1,0 +1,933 @@
+ITEM 2. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion and analysis has been prepared as an aid to understanding our financial condition and results of operations. It should be read in conjunction with the condensed consolidated financial statements and the notes to those statements included elsewhere in this Quarterly Report on Form 10-Q, and with the consolidated financial statements and management’s discussion and analysis of our financial condition and results of operations in our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 7, 2025. This discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those contained in these forward-looking statements due to a number of factors, including those discussed under the caption “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2024, and in Part II, Item 1A - “Risk Factors” and elsewhere in this report. See also “Cautionary Note Regarding Forward-Looking Statements” at the beginning of this report.
+Overview
+We design, develop and market analog and mixed-signal integrated circuits (“ICs”) and other electronic components and circuitry used in high-voltage power conversion. Our products are used in power converters that convert electricity from a high-voltage source to the type of power required for a specified downstream use. In most cases, this conversion entails, among other functions, converting alternating current (“AC”) to direct current (“DC”) or vice versa, reducing or increasing the voltage, and regulating the output voltage and/or current according to the customer’s specifications.
+A large percentage of our products are ICs used in AC-DC power supplies, which convert the high-voltage AC from a wall outlet to the low-voltage DC required by most electronic devices. Power supplies incorporating our products are used with all manner of electronic products including appliances, industrial controls, mobile devices such as smartphones, tablets and notebook computers, electronic utility meters, battery-powered tools, and “home-automation,” or “internet of things” applications such as networked thermostats, power strips and security devices. Variations of our power-supply ICs are used for high-voltage power conversion in electric vehicles (“EVs”). We also supply high-voltage LED drivers, which are AC-DC ICs specifically designed for lighting applications that utilize light-emitting diodes, and motor-driver ICs for brushless DC (“BLDC”) motors used in consumer appliances, HVAC systems, ceiling fans and a variety of industrial applications.
+We also offer high-voltage gate drivers—either standalone ICs or circuit boards containing ICs, electrical isolation components and other circuitry—used to operate high-voltage switches such as insulated-gate bipolar transistors (“IGBTs”) and silicon-carbide (“SiC”) MOSFETs. These combinations of switches and drivers are used for power conversion in high-power applications (i.e., power levels ranging from approximately 100 kilowatts up to gigawatts) such as industrial motors, solar- and wind-power systems, electric locomotives, EVs and high-voltage DC transmission systems.
+Our power-conversion products are distinguished by their “system-level” nature; that is, they incorporate into a single product numerous elements of a power-conversion system including a high-voltage transistor, drivers, advanced control circuitry and, in some cases, a communication link connecting the primary (i.e., input) and secondary (i.e., output) sides of the power converter while maintaining safety isolation to protect the end user from exposure to high voltage. Alternatively, a power converter can be designed and assembled using discrete components purchased from a variety of suppliers.
+Our system-level products offer a number of important benefits compared with discrete designs, including: reduced design complexity; smaller size; lower component count, which in turn results in higher reliability and easier sourcing of components; reduced time-to-market; and more efficient use of engineering resources. Our products also reduce the energy consumption of power converters during normal use and in “standby” operation, when the end product is not in use. In addition to the environmental and economic benefits of reduced energy usage, our energy-saving technologies provide a number of benefits to our customers; these include helping them meet the increasingly stringent efficiency standards now in effect for many electronic products, and enabling the elimination of bulky, costly heatsinks used to dissipate the heat produced by wasted electricity. By reducing component count, circuit-board size and the need for heatsinks, our products also contribute to a reduction in materials usage and electronic waste.
+24
+
+Table of Contents
+​
+While the size of our addressable market fluctuates with changes in macroeconomic and industry conditions, the market has generally exhibited a modest growth rate over time as growth in the unit volume of power converters has been offset to a large degree by reductions in the average selling price of components in this market. Therefore, the growth of our business depends largely on increasing our penetration of the markets that we serve and on further expanding our addressable market. Our growth strategy includes the following elements:
+●
+Increase the size of our addressable market.
+Prior to 2010 our addressable market consisted of AC-DC applications with up to about 50 watts of output, a served available market (“SAM”) opportunity of approximately $1.5 billion. Since then, we have expanded our SAM to approximately $4 billion through a variety of means. These include the introduction of products that enable us to address higher-power AC-DC applications (such as our Hiper™ product families), the introduction of LED-driver products, and our entry into the gate-driver market. In 2018 we introduced our BridgeSwitch™ motor-driver ICs for BLDC motors, and in 2024 we introduced BridgeSwitch-2, extending the addressable power range of our motor-driver products up to about one horsepower. We have recently introduced a range of products targeting the EV market; we plan to introduce additional products for EVs in the future and expect automotive applications to become a significant portion of our SAM over time.
+Also contributing to our SAM expansion has been the emergence of new applications within the power ranges that our products can address. For example, applications such as “smart” utility meters, battery-powered lawn equipment and bicycles, and USB power receptacles (often installed alongside traditional AC wall outlets) can incorporate our products. The increased use of connectivity, LED lighting and other power-consuming electronic features in consumer appliances has also enhanced our SAM.
+We have also expanded our SAM through the development of technologies and architectures that increase the value (and therefore the average selling prices) of our products. For example, our InnoSwitch™ ICs integrate circuitry from the secondary, or low-voltage, side of AC-DC power supplies, whereas earlier product families integrated circuitry only on the primary, or high-voltage side. Our InnoMux™ IC families provide up to three DC outputs, eliminating the need for additional power-management circuitry in certain end products requiring multiple voltages while significantly increasing efficiency.
+●
+Increase our penetration of the markets we serve.
+ We currently address AC-DC applications with power outputs up to approximately 500 watts, gate-driver applications ranging from 100 kilowatts up to gigawatts, and motor-drive applications up to approximately one horsepower. Through our research and development efforts, we seek to introduce more advanced products for these markets offering higher levels of integration and performance compared to earlier products. We also continue to expand our sales and application-engineering staff and our network of distributors, as well as our offerings of technical documentation and design-support tools and services to help customers use our products. These tools and services include our PI Expert™ design software, which we offer free of charge, our transformer-sample service and our PowerPros
+℠
+ live online video support service that enables power-supply designers to talk directly with members of our applications engineering team 24 hours a day, six days a week from anywhere in the world.
+●
+Leverage the performance benefits of our proprietary gallium-nitride (“GaN”) technology.
+ In 2019 we began incorporating our proprietary PowiGaN™ gallium-nitride transistors in some of our products, enabling a higher level of energy efficiency than ICs with silicon transistors. Since then, we have introduced a variety of new products utilizing GaN technology and developed new generations of our GaN technology capable of supporting voltages as high as 1700 volts. While high-voltage GaN transistors have historically been more costly to produce than comparable silicon transistors, we have achieved cost reductions such that our GaN devices are approaching cost parity with silicon MOSFETs.
+We are developing additional products incorporating GaN transistors, which we believe will enable us to address higher-power applications than we address with our current range of products, and further expand our SAM as discussed above. We expect such applications to include power supplies used in data centers delivering artificial intelligence (AI) services, in communications network infrastructure equipment and in onboard-charging circuitry for EVs, among others.
+25
+
+Table of Contents
+​
+Additionally, we are developing GaN technologies capable of supporting higher power output than today’s GaN devices, with an aim of developing products to address power-switching modules in EV drivetrains, which currently incorporate SiC and IGBT modules. In July 2024 we acquired the assets of Odyssey Semiconductor, a developer of so-called vertical GaN technology, in an effort to accelerate our development of higher-power GaN devices. We believe the development of such technologies will take several years to complete.
+●
+Capitalize on efforts to reduce carbon emissions by providing products that contribute to improved energy efficiency and increased use of renewable energy.
+In its 2019
+World Energy Outlook
+, the International Energy Agency estimated that more than two-thirds of the reduction in carbon-dioxide (“CO2”) emissions needed to achieve the “Sustainable Development Scenario” of the United Nations Sustainable Development Agenda is to come from improved energy efficiency and increased use of renewable energy. Energy savings enabled by our products help our customers comply with regulations that seek to curb energy consumption in support of reducing CO2 emissions. For example: our EcoSmart™ technology drastically reduces the amount of energy consumed by electronic products when they are plugged in but not in use; our PowiGaN™ GaN transistors reduce energy consumption compared to silicon transistors; and our BridgeSwitch™ motor-driver ICs provide highly efficient power conversion for BLDC motors in appliances and industrial applications. Also, our gate-driver products are critical components in energy-efficient DC motor drives, solar- and wind-power systems, efficient high-voltage DC transmission systems (including transmission of energy from renewable energy installations to the power grid), and low-emissions transportation applications such as electric locomotives.
+We intend to continue expanding our SAM in the years ahead through all of the means described above.
+Our quarterly operating results are difficult to predict and subject to significant fluctuations. We plan our production and inventory levels based on internal forecasts of projected customer demand, which are highly unpredictable and can fluctuate substantially. Customers typically may cancel or reschedule orders on short notice without significant penalty and, conversely, often place orders with very short lead times to delivery. Changes in trade policies among the United States and other countries, in particular the escalation of trade tensions and higher tariffs as well as the imposition of other barriers to international trade could reduce demand for end products that incorporate our integrated circuits which could adversely affect our business and operating results. See also our risk factor under Part II, Item 1A captioned, “
+Changes in trade policies among the United States and other countries, in particular the escalation and imposition of new and higher tariffs and additional export controls, could reduce demand for end products that incorporate our integrated circuits, which could have a material adverse effect on our revenues and operating results. Further, increased tariffs or the imposition of other barriers to international trade could place pressure on our prices as our customers seek to offset the impact of increased tariffs on their own products. Compliance with import and export controls could impair our ability to compete in international markets or subject us to liability if we violate these controls.
+” Also, external factors such as supply-chain dynamics, widespread health emergencies, and macroeconomic conditions including inflation, fluctuations in interest and exchange rates and bank failures, have caused and can continue to cause our operating results to be volatile. Furthermore, because our industry is intensely price-sensitive, our gross margin (gross profit divided by net revenues) is subject to change based on the relative pricing of solutions that compete with ours. Variations in product mix, end-market mix and customer mix can also cause our gross margin to fluctuate. Because we purchase a large percentage of our silicon wafers from foundries located in Japan, our gross margin is influenced by fluctuations in the exchange rate between the U.S. dollar and the Japanese yen. Changes in the prices of raw materials used in our products, such as copper and gold, can also affect our gross margin. Although our wafer fabrication and assembly operations are outsourced, as are most of our test operations, a portion of our production costs are fixed in nature. As a result, our unit costs and gross margin are impacted by the volume of units we produce.
+26
+
+Table of Contents
+​
+Recent Results
+Our net revenues were $118.9 million and $115.8 million in the three months ended September 30, 2025 and 2024, respectively, and $340.3 million and $313.7 million in the nine months ended September 30, 2025 and 2024, respectively.
+The increases in net revenues for the three- and nine-month periods were primarily due to higher sales in the industrial end-market.
+Our top ten customers, including distributors that resell to OEMs and merchant power supply manufacturers, accounted for approximately 81% of our net revenues for each of the three and nine months ended September 30, 2025 and approximately 78% for both of the corresponding periods of 2024.
+
+International sales accounted for approximately 98% and 99% of our net revenues for the three and nine months ended September 30, 2025, respectively, and 98% for both of the corresponding periods of 2024.
+Our gross margin was 55% for both the three months ended September 30, 2025 and the corresponding period in 2024. Our gross margin was 55% and 53% for the nine months ended September 30, 2025 and 2024, respectively.
+The increase in gross margin for the nine-month period was primarily due to favorable end-market mix—reflecting a greater amount of revenues coming from higher-margin end-markets.
+Total operating expenses were $68.8 million and $51.6 million for the three months ended September 30, 2025 and 2024, respectively, and $185.6 million and $153.5 million for the nine months ended September 30, 2025 and 2024, respectively. The increases in operating expenses for the three- and nine-month periods were primarily due to higher stock-based compensation expense as a result of an award modification associated with the retirement of our former chief executive officer (refer to Note 6,
+Stock-Based Compensation
+, in our Notes to Unaudited Condensed Consolidated Financial Statements for details) as well as higher expenses for outside engineering services and legal services.
+Additionally, for the three- and nine-month period, we incurred expenses related to an employee litigation matter (refer to Note 13,
+Legal Proceedings and Contingencies
+, in our Notes to Unaudited Condensed Consolidated Financial Statements for details).
+Critical Accounting Policies and Estimates
+The preparation of financial statements and related disclosures in conformity with accounting principles generally accepted in the United States of America (“U.S. GAAP”) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. On an ongoing basis, we evaluate our estimates, including those listed below. We base our estimates on historical facts and various other assumptions that we believe to be reasonable at the time the estimates are made. Actual results could differ from those estimates.
+Critical accounting policies are important to the portrayal of our financial condition and results of operations and require us to make judgments and estimates about matters that are inherently uncertain. There have been no material changes to our critical accounting policies and estimates disclosed in “Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations – Critical Accounting Policies and Estimates” and Note 2,
+Significant Accounting Policies and Recent Accounting Pronouncements
+, in each case in our Annual Report on Form 10-K for the year ended December 31, 2024, filed with the SEC on February 7, 2025. Currently, our only critical accounting policies relate to revenue recognition and estimating write-downs for excess and obsolete inventory.
+27
+
+Table of Contents
+​
+Results of Operations
+The following table sets forth certain operating data as a percentage of net revenues for the periods indicated:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+​
+    
+2025
+​
+2024
+​
+2025
+​
+2024
+Net revenues
+​
+ 100.0
+%  
+​
+ 100.0
+%  
+​
+ 100.0
+%  
+​
+ 100.0
+%  
+Cost of revenues
+ 
+ 45.5
+ 
+​
+ 45.5
+ 
+​
+ 45.0
+ 
+​
+ 46.6
+ 
+Gross profit
+ 
+ 54.5
+ 
+​
+ 54.5
+ 
+​
+ 55.0
+ 
+​
+ 53.4
+ 
+Operating expenses:
+ 
+  
+ 
+​
+  
+ 
+​
+​
+ 
+​
+​
+ 
+Research and development
+ 
+ 22.4
+ 
+​
+ 22.3
+ 
+​
+ 22.6
+ 
+​
+ 23.9
+ 
+Sales and marketing
+ 
+ 14.7
+ 
+​
+ 14.8
+ 
+​
+ 15.3
+ 
+​
+ 16.2
+ 
+General and administrative
+ 
+ 8.7
+ 
+​
+ 7.5
+ 
+​
+ 9.8
+ 
+​
+ 8.8
+ 
+Other operating expenses
+​
+ 12.0
+​
+​
+ —
+​
+​
+ 6.9
+​
+​
+ —
+​
+Total operating expenses
+ 
+ 57.8
+ 
+​
+ 44.6
+ 
+​
+ 54.6
+ 
+​
+ 48.9
+ 
+Income (loss) from operations
+ 
+ (3.3)
+ 
+​
+ 9.9
+ 
+​
+ 0.4
+ 
+​
+ 4.5
+ 
+Other income
+ 
+ 2.1
+ 
+​
+ 2.4
+ 
+​
+ 2.5
+ 
+​
+ 3.0
+ 
+Income (loss) before income taxes
+ 
+ (1.2)
+ 
+​
+ 12.3
+ 
+​
+ 2.9
+ 
+​
+ 7.5
+ 
+Provision (benefit) for income taxes
+ 
+ —
+ 
+​
+ —
+ 
+​
+ 0.3
+ 
+​
+ 0.1
+ 
+Net income (loss)
+ 
+ (1.2)
+%  
+​
+ 12.3
+%  
+​
+ 2.6
+%  
+​
+ 7.4
+%  
+​
+Comparison of the three and nine months ended September 30, 2025 and 2024
+Net revenues.
+Net revenues consist of revenues from product sales, which are calculated net of returns and allowances. Net revenues for the three and nine months ended September 30, 2025 were $118.9 million and $340.3 million, respectively, and $115.8 million and $313.7 million, respectively, in the corresponding periods of 2024.
+The increases in net revenues for the three- and nine-month periods were due primarily to higher sales in the industrial end-market.
+Our revenue mix by end market for the three and nine months ended September 30, 2025 and 2024 was as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+    
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+End Market
+    
+2025
+​
+2024
+​
+2025
+​
+2024
+Communications
+​
+ 11
+%
+​
+ 12
+%
+​
+ 11
+%
+​
+ 11
+%
+Computer
+ 
+ 13
+%
+​
+ 14
+%
+ 
+ 13
+%
+​
+ 14
+%
+Consumer
+ 
+ 34
+%
+​
+ 38
+%
+ 
+ 37
+%
+​
+ 40
+%
+Industrial
+ 
+ 42
+%
+​
+ 36
+%
+ 
+ 39
+%
+​
+ 35
+%
+International sales, consisting of sales outside of the United States of America based on “bill to” customer locations, were $117.1 million and $335.3 million in the three and nine months ended September 30, 2025, respectively, and $114.1 million and $308.7 million, respectively, in the corresponding periods of 2024. Although power converters using our products are distributed to end markets worldwide, most are manufactured in Asia. As a result, sales to this region represented approximately 83% and 84% of our net revenues in the three and nine months ended September 30, 2025, respectively, and approximately 85% and 84%, respectively, in the corresponding periods of 2024. We expect international sales, and sales to the Asia region in particular, to continue to account for a large portion of our net revenues in the future.
+Sales to distributors accounted for approximately 69% and 70% of our net revenues in the three and nine months ended September 30, 2025, respectively, and approximately 70% in both of the corresponding periods of 2024. Direct sales to OEMs and merchant power supply manufacturers accounted for the remainder.
+The following customers represented 10% or more of our net revenues for the respective periods:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+Customer
+    
+2025
+​
+2024
+​
+2025
+​
+2024
+Avnet
+ 
+ 34
+%  
+​
+ 31
+%  
+ 
+ 33
+%  
+​
+ 30
+%  
+Salcomp Group
+​
+ 11
+%  
+​
+*
+​
+​
+ 10
+%  
+​
+*
+​
+Honestar Technologies Co., Ltd.
+​
+*
+​
+​
+ 10
+%
+​
+*
+​
+​
+ 11
+%  
+*
+Total customer revenue was less than 10% of net revenues.
+28
+
+Table of Contents
+​
+No other customers accounted for 10% or more of our net revenues in these periods.
+Gross profit.
+Gross profit is net revenues less cost of revenues. Our cost of revenues consists primarily of the purchase of wafers from our contracted foundries, the assembly, packaging and testing of our products by sub-contractors, product testing performed in our own facility, overhead associated with the management of our supply chain and the amortization of acquired intangible assets. Gross margin is gross profit divided by net revenues. The following table compares gross profit and gross margin for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+    
+2025
+  
+2024
+  
+2025
+  
+2024
+Net revenues
+​
+$
+ 118.9
+​
+​
+$
+ 115.8
+​
+​
+$
+ 340.3
+​
+​
+$
+ 313.7
+​
+Gross profit
+ 
+$
+ 64.9
+ 
+​
+$
+ 63.2
+ 
+ 
+$
+ 187.0
+ 
+​
+$
+ 167.5
+ 
+Gross margin
+​
+ 
+ 54.5
+%
+​
+ 
+ 54.5
+%  
+​
+ 
+ 55.0
+%
+  
+​
+ 
+ 53.4
+%  
+​
+The increase in gross margin in the nine-month period was primarily due to favorable end-market mix—reflecting a greater amount of revenues coming from higher-margin end-markets.
+Research and development expenses.
+Research and development (“R&D”) expenses consist primarily of employee-related expenses including salaries and stock-based compensation, as well as expensed material and facility costs associated with the development of new processes and products. We also record R&D expenses for prototype wafers related to new products until the products are released to production. The following table compares R&D expenses for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+​
+2025
+  
+2024
+​
+2025
+​
+2024
+R&D expenses
+​
+$
+ 26.7
+​
+$
+ 25.8
+​
+$
+ 76.8
+​
+$
+ 75.1
+Headcount (at period end)
+​
+​
+ 307
+​
+​
+ 319
+​
+​
+ 307
+​
+​
+ 319
+R&D expenses increased for the three and nine months ended September 30, 2025 as compared to the corresponding periods of 2024. The increases for the three- and nine-month periods were primarily d
+ue to higher salaries and related expenses as well as increased outside engineering services.
+The increase for the nine-month period was partially offset
+by lower
+stock-based compensation expense
+.
+29
+
+Table of Contents
+​
+Sales and marketing expenses.
+Sales and marketing (“S&M”) expenses consist primarily of employee-related expenses, including salaries and stock-based compensation, and commissions to sales representatives, as well as facilities expenses, including expenses associated with our regional sales and support offices. The following table below compares S&M expenses for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+    
+2025
+  
+2024
+​
+2025
+​
+2024
+Sales and marketing expenses
+​
+$
+ 17.5
+​
+$
+ 17.1
+​
+$
+ 52.2
+​
+$
+ 50.9
+Headcount (at period end)
+​
+ 
+ 339
+​
+​
+ 325
+​
+ 
+ 339
+​
+​
+ 325
+​
+S&M expenses increased for
+the three and nine months ended September 30, 2025
+as compared to the corresponding periods of 2024. The increases for the three- and nine-month periods were primarily due to increased employee-related expenses. The increase for the nine-month period was partially offset by lower stock-based compensation expense.
+General and administrative expenses.
+General and administrative (“G&A”) expenses consist primarily of employee-related expenses, including salaries and stock-based compensation expenses for administration, finance, human resources and general management, as well as consulting, professional services, legal and auditing expenses. The following table below compares G&A expenses for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+    
+2025
+  
+2024
+​
+2025
+​
+2024
+G&A expenses
+ 
+$
+ 10.4
+ 
+$
+ 8.6
+​
+$
+ 33.2
+​
+$
+ 27.5
+Headcount (at period end)
+​
+ 
+ 84
+​
+​
+ 78
+​
+ 
+ 84
+​
+​
+ 78
+G&A expenses increased for the three and nine months ended September 30, 2025 as compared to the corresponding periods of 2024. The increase for the three-month period was primarily due to increased professional and legal services partially offset by lower stock-based compensation expense. In addition, we recognized a credit in the three months ended September 30, 2024 related to the recovery of bad debt. The increase for the nine-month period was primarily due to increased professional and legal services and higher stock-based compensation expense related to performance-based awards.
+Other operating expenses.
+ Other operating expenses were $14.3 million and $23.4 million in the three and nine months ended September 30, 2025, respectively. For the three- and nine-month periods we recognized expenses of $0.7 million and $9.9 million, respectively, stemming from an employee litigation matter (refer to Note 13,
+Legal Proceedings and Contingencies
+, in our Notes to Unaudited Condensed Consolidated Financial Statements for details). In addition, for the three-month period, we recognized stock-based compensation expense of $13.6 million as a result of an award modification associated with the retirement of our former chief executive officer (refer to Note 6,
+Stock-Based Compensation
+, in our Notes to Unaudited Condensed Consolidated Financial Statements for details).
+Other income
+. Other income consists primarily of interest income earned on cash and cash equivalents, marketable securities and other investments, and the impact of foreign exchange gains or losses. The table below compares other income for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+    
+2025
+  
+2024
+​
+2025
+​
+2024
+Other income
+ 
+$
+ 2.6
+ 
+$
+ 2.8
+​
+$
+ 8.4
+​
+$
+ 9.4
+​
+Other income decreased for the three and nine months ended September 30, 2025 as compared to the corresponding periods of 2024 primarily due to lower interest income.
+30
+
+Table of Contents
+​
+Provision (benefit) for income taxes
+. Provision for income taxes represents federal, state and foreign taxes. The table below compares income-tax expense for the three and nine months ended September 30, 2025 and 2024:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three Months Ended
+​
+Nine Months Ended
+​
+​
+September 30, 
+​
+September 30, 
+(dollars in millions)
+    
+2025
+  
+2024
+  
+2025
+  
+2024
+Provision (benefit) for income taxes
+ 
+$
+ —
+  
+ 
+$
+ —
+  
+ 
+$
+ 1.0
+  
+ 
+$
+ 0.4
+  
+Effective tax rate
+​
+ 
+(3.0)
+%
+​
+ 
+ 0.3
+%
+​
+ 
+10.5
+%
+​
+ 
+1.5
+%
+Income-tax expense includes a provision for federal, state and foreign taxes based on the annual estimated effective tax rate applicable to us and our subsidiaries, adjusted for certain discrete items which are fully recognized in the period in which they occur. Accordingly, the interim effective tax rate may not be reflective of the annual estimated effective tax rate.
+Our effective tax rates for the three and nine months ended September 30, 2025, was (3.0%) and 10.5%, respectively, and in the corresponding periods of 2024 was 0.3% and 1.5%, respectively. The effective tax rate in these periods was lower than the statutory federal income-tax rate of 21% due to the geographic distribution of our world-wide earnings in lower-tax jurisdictions and the impact of federal tax credits. In the three and nine months ended September 30, 2025, our effective tax rate was negatively impacted by the recognition of a tax deficiency or “shortfall” related to share-based payments. Additionally, i
+n the three and nine months ended September 30, 2024, our effective tax rate was favorably 
+impacted by the recognition of excess tax benefits related to share-based payments and 
+by discrete items associated with the release of unrecognized tax benefits. 
+These benefits were partially offset by U.S. tax on foreign income, known as Net Controlled Foreign Corporation Tested Income (“NCTI”). The primary jurisdiction from which our foreign earnings are derived is the Cayman Islands, which is a non-taxing jurisdiction. Income earned in other foreign jurisdictions was not material. We have not been granted any incentivized tax rates and do not operate under any tax holidays in any jurisdiction.
+On July 4, 2025, the One Big Beautiful Bill Act (“OBBBA”) was enacted in the U.S. The OBBBA includes provisions modifying the corporate income tax code, including the immediate expensing of domestic research and development expenditures for tax purposes, 100% bonus depreciation for qualified assets, and an increase in the statutory tax rate on foreign earnings from 10.5% to 12.6% (effective in the fiscal year 2026). We have elected to account NCTI, formerly known as Global Intangible Low-Taxed Income, under the deferred method. The deferred tax amounts recorded are based on the evaluation of temporary differences that are expected to reverse as NCTI is incurred in future periods. As a result, we remeasured our estimated deferred tax balances related to NCTI for the changes in the tax rate and recorded an expense of $0.5 million during the third quarter of 2025.
+Liquidity and Capital Resources
+As of September 30, 2025, we had $241.9 million in cash, cash equivalents and short-term marketable securities, a decrease of $58.1 million from $300.0 million as of December 31, 2024. As of September 30, 2025, we had working capital, defined as current assets less current liabilities, of $385.0 million, a decrease of approximately $73.7 million from $458.7 million as of December 31, 2024.
+We have a Credit Agreement with Wells Fargo Bank, National Association (the “Credit Agreement”) that provides us with a $75.0 million revolving line of credit to use for general corporate purposes with a $20.0 million sub-limit for the issuance of standby and trade letters of credit. The Credit Agreement was amended on June 7, 2021, to provide an alternate borrowing rate as a replacement for LIBOR and extend the termination date from April 30, 2022, to June 7, 2026, with all other terms remaining the same. The Credit Agreement was amended with an effective date of June 28, 2023 to include the Secured Overnight Financing Rates as interest rate benchmark rates, with all other terms remaining the same. Our ability to borrow under the revolving line of credit is conditioned upon our compliance with specified covenants, including reporting and financial covenants, primarily a minimum liquidity measure and a debt to earnings ratio, with which we are currently in compliance. The Credit Agreement terminates on June 7, 2026; all advances under the revolving line of credit will become due on such date, or earlier in the event of a default. As of September 30, 2025, we had no advances outstanding under the Credit Agreement.
+31
+
+Table of Contents
+​
+Cash from Operating Activities
+Our operating activities generated $85.3 million of cash in the nine months ended September 30, 2025. Net income for this period was $8.8 million; we also incurred non-cash stock-based compensation expense, depreciation, accretion of discount on marketable securities and an increase in deferred tax assets of $40.0 million, $20.8 million, $0.8 million and $0.9 million, respectively. Sources of cash included a $9.2 million increase in taxes payable and accrued liabilities, a $6.0 million increase in accounts payable, a $5.2 million decrease in prepaid expenses and other assets and a $1.0 million decrease in inventories. These sources of cash were partially offset by $4.0 million increase in accounts receivable.
+Operating activities generated $66.5 million of cash in the nine months ended September 30, 2024.
+Net income for this period was $23.1 million;
+we also incurred non-cash stock-based compensation expense, depreciation, increase in deferred tax assets, accretion of discount on marketable securities, and amortization of intangibles of $25.8 million, $25.6 million, $8.7 million, $1.3 million and $1.1 million, respectively. Sources of cash included a $5.6 million decrease in prepaid expenses and other assets and an increase of $1.9 million in accounts payable. These sources of cash were partially offset by a $4.5 million increase in inventories and a $1.5 million increase in accounts receivable due to timing of customer payments.
+Cash from Investing Activities
+Our investing activities in the nine months ended September 30, 2025, generated $40.7 million of cash, primarily consisting of $57.9 million from sales and maturities of marketable securities, net of purchases, offset by $17.3 million for purchases of property and equipment—primarily production-related machinery and equipment.
+Our investing activities in the nine months ended September 30, 2024
+resulted in
+$17.5 million net use of cash,
+primarily consisting of $14.2 million used for purchases of property and equipment (primarily production-related machinery and equipment) and $9.5 million for the Odyssey acquisition, partially offset by $6.2 million of proceeds from sales and maturities of marketable securities, net of purchases.
+Cash from Financing Activities
+Our financing activities in the nine months ended September 30, 2025 resulted in a $128.3 million net use of cash, consisting of $98.1 million for the repurchase of our common stock and $35.6 million for the payment of dividends to stockholders, partially offset by proceeds of $5.3 million from the issuance of shares through our employee stock purchase plan.
+Our financing activities in the nine months ended September 30, 2024
+resulted in a $54.4 million net use of cash,
+consisting of $34.1 million for the payment of dividends to stockholders and $26.0 million for the repurchase of our common stock, partially offset by proceeds of $5.7 million from the issuance of shares through our employee stock purchase plan.
+Dividends
+In October 2023, our board of directors declared dividends of $0.20 per share to be paid to stockholders of record at the end of each quarter in 2024.
+In
+ October 2024, our board of directors raised the cash dividend with the declaration of five cash dividends of $0.21 per share to be paid at the end of the fourth quarter in 2024 (in lieu of the previously declared dividend of $0.20 per share announced in October 2023) and at the end of each quarter in 2025.
+In October 2025, our board of directors raised the quarterly cash dividend with the declaration of four cash dividends of $0.215 per share to be paid at the end of each quarter in 2026.
+D
+ividend payouts of $12.0 million, $11.8 million, and $11.8 million occurred on March 31, 2025, June 30, 2025 and September 30, 2025, respectively. The declaration of any future cash dividend is at the discretion of our board of directors and will depend on our financial condition, results of operations, capital requirements, business conditions and other factors, as well as a determination that cash dividends are in the best interest of our stockholders.
+32
+
+Table of Contents
+​
+Stock Repurchases
+Over the years, our board of directors has authorized the use of funds to repurchase shares of our common stock. As of December
+ 
+31,
+ 
+2024, we had $48.1
+ 
+million available under a stock-repurchase program announced in November 2024. After this authorization was exhausted in
+April 2025, our board of directors authorized the use of an additional $50.0 million for the repurchase of our common stock, with repurchases to be executed according to pre-defined price/volume guidelines in compliance with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended.
+In the three months ended September 30, 2025, we repurchased 0.9 million of our shares for $42.4 million. In the nine months ended September 30, 2025, we repurchased 2.0 million of our shares for $98.1 million, exhausting our repurchase authorization. Authorization of future repurchase programs is at the discretion of our board of directors and will depend on our financial condition, results of operations, capital requirements, business conditions and other factors.
+Contractual Commitments
+As of September 30, 2025, there were no material changes in our contractual commitments from those reported in our Annual Report on Form 10-K for the year ended December 31, 2024.
+Other Information
+Our cash, cash equivalents and investment balances may change in future periods due to changes in our planned cash outlays, including changes in incremental costs such as direct and integration costs related to future acquisitions. Current U.S. tax laws generally allow companies to repatriate accumulated foreign earnings without incurring additional U.S. federal taxes. Accordingly, as of September 30, 2025, our worldwide cash and marketable securities are available to fund capital allocation needs, including capital and internal investments, acquisitions, stock repurchases and/or dividends without incurring significant U.S. federal income taxes.
+If our operating results deteriorate in future periods, either as a result of a decrease in customer demand or pricing pressures from our customers or our competitors, or for other reasons, our ability to generate positive cash flow from operations may be jeopardized. In that case, we may be forced to use our cash, cash equivalents and short-term investments, use our current financing or seek additional financing from third parties to fund our operations. We believe that cash generated from operations, together with existing sources of liquidity, will satisfy our projected working capital and other cash requirements for at least the next 12 months. Our uses of cash beyond the next 12 months will depend on many factors, including the general economic environment in which we operate and our ability to generate cash flow from operations, which are uncertain but include funding our operations and additional capital expenditures.
+Recent Accounting Pronouncements
+Information with respect to this item may be found in Note 2,
+Significant Accounting Policies and Recent Accounting Pronouncements,
+ in our Notes to Unaudited Condensed Consolidated Financial Statements included in Part I, Item 1, of this Quarterly Report on Form 10-Q, which information is incorporated herein by reference.

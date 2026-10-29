@@ -1,0 +1,34 @@
+{
+  "company": "Modine",
+  "ticker": "MOD",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000067347",
+  "form": "10-Q",
+  "filing_date": "2026-02-05",
+  "accession_number": "0001104659-26-010790",
+  "primary_document": "mod-20251231x10q.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010790/mod-20251231x10q.htm",
+  "fiscal_year_end": "0331",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:47:46.663662+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MOD/000110465926010790/primary.html",
+    "risk_factors": "data/raw/MOD/000110465926010790/item1a_risk_factors.txt",
+    "mdna": "data/raw/MOD/000110465926010790/item7_mdna.txt",
+    "other": "data/raw/MOD/000110465926010790/other_full.txt"
+  }
+}

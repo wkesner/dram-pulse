@@ -1,0 +1,41 @@
+{
+  "company": "Insight Enterprises",
+  "ticker": "NSIT",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0000932696",
+  "form": "8-K",
+  "filing_date": "2026-08-06",
+  "accession_number": "0000932696-26-000067",
+  "primary_document": "nsit-20260806.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-06",
+  "period_end": "2026-08-06",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:28:29.553063+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "nsit-20260806xerx8kex991.htm",
+      "path": "data/raw/NSIT/000093269626000067/exhibit_99_nsit-20260806xerx8kex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/nsit-20260806xerx8kex991.htm"
+    },
+    {
+      "name": "q22026-insightearningspr.htm",
+      "path": "data/raw/NSIT/000093269626000067/exhibit_99_q22026-insightearningspr.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/932696/000093269626000067/q22026-insightearningspr.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/NSIT/000093269626000067/primary.html",
+    "other": "data/raw/NSIT/000093269626000067/other_full.txt"
+  }
+}

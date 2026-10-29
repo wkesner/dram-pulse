@@ -1,0 +1,36 @@
+{
+  "company": "Cohu",
+  "ticker": "COHU",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000021535",
+  "form": "8-K",
+  "filing_date": "2026-07-30",
+  "accession_number": "0001437749-26-025053",
+  "primary_document": "cohu20260728_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926025053/cohu20260728_8k.htm",
+  "fiscal_year_end": "1226",
+  "report_date": "2026-07-30",
+  "period_end": "2026-07-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:28:59.546876+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex_994647.htm",
+      "path": "data/raw/COHU/000143774926025053/exhibit_99_ex_994647.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/21535/000143774926025053/ex_994647.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/COHU/000143774926025053/primary.html",
+    "other": "data/raw/COHU/000143774926025053/other_full.txt"
+  }
+}

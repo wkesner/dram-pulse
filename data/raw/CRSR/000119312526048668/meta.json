@@ -1,0 +1,41 @@
+{
+  "company": "Corsair Gaming",
+  "ticker": "CRSR",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001743759",
+  "form": "8-K",
+  "filing_date": "2026-02-12",
+  "accession_number": "0001193125-26-048668",
+  "primary_document": "crsr-20260212.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1743759/000119312526048668/crsr-20260212.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-12",
+  "period_end": "2026-02-12",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:50:06.525272+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "crsr-ex99_1.htm",
+      "path": "data/raw/CRSR/000119312526048668/exhibit_99_crsr-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1743759/000119312526048668/crsr-ex99_1.htm"
+    },
+    {
+      "name": "crsr-ex99_2.htm",
+      "path": "data/raw/CRSR/000119312526048668/exhibit_99_crsr-ex99_2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1743759/000119312526048668/crsr-ex99_2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CRSR/000119312526048668/primary.html",
+    "other": "data/raw/CRSR/000119312526048668/other_full.txt"
+  }
+}

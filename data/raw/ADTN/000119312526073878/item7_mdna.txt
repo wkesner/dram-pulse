@@ -1,0 +1,1341 @@
+ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS O
+F FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+ 
+The following discussion should be read in conjunction with our audited consolidated financial statements and the related notes included in Part II, Item 8 of this report. We have omitted discussion of the earliest of the three years of financial condition and results of operations and this information can be found in Part I, Item 7, “Management's Discussion and Analysis of Financial Condition and Results of Operations”, Part I, Item 1A, “Risk Factors”, and Part I, Item 1, “Business”, included in Amendment No. 1 to our Annual Report on Form 10-K for the fiscal year ended December 31, 2024, filed with the SEC on May 20, 2025 (the "2024 Form 10-K/A"), which is available free of charge on the SEC's website at
+http://www.sec.gov
+ and on our website at
+www.adtran.com
+.
+This discussion is designed to provide the reader with information that will assist in understanding our consolidated financial statements, the changes in certain key items in those financial statements from period to period, and the primary factors that accounted for those changes, as well as how certain accounting principles affect our consolidated financial statements. See “Cautionary Note Regarding Forward-Looking Statements” on page 2 of this report for a description of important factors that could cause actual results to differ from expected results. See also Part I, Item 1A, Risk Factors, of this Form 10-K.
+Overview
+The Company is a leading global provider of networking and communications platforms, software, systems and services focused on carrier networks, data center interconnect for private enterprise networks and mission critical infrastructure. It is serving a diverse domestic and international customer base in multiple countries that includes Large, Medium and Small Service Providers, alternative Service Providers, such as utilities, municipalities and fiber overbuilders; cable/MSOs; SMBs; distributed enterprises, including Fortune 500 companies with sophisticated business continuity applications; hyper-scalers, neocloud and content providers and data center companies; and federal, state and local government agencies.
+
+Our innovative solutions and services enable voice, data, video and internet-communications across a variety of network infrastructures and are currently in use by millions worldwide. We support our customers through our direct global sales organization and our distribution networks. Our success depends upon our ability to have customers adopt our technology, increase unit volume and market share through the introduction of new products and succeeding generations of products having optimal selling prices and increased functionality as compared to both the prior generation of a product and the products of competitors in order to gain market share. To service our customers and grow revenue, we are continually conducting research and developing new products addressing customer needs and testing those products for the specific requirements of the particular customers. We offer a broad portfolio of flexible software and hardware network solutions and services that enable Service Providers to meet today’s service demands while enabling them to transition to the fully converged, scalable, highly-automated, cloud-controlled voice, data, internet and video network of the future. In addition to our global headquarters in Huntsville, Alabama, and our European headquarters in Munich, Germany, we have sales and research and development facilities in strategic global locations.
+The Company solely owns ADTRAN, Inc. and is the majority shareholder of Adtran Networks. Adtran is a leading global provider of open, disaggregated networking and communications solutions. Adtran Networks is a global provider of network solutions for data, storage, voice and video services. We believe that the combined technology portfolio can best address current and future customer needs
+
+for high-speed connectivity from the network core to the end consumer, especially upon the convergence of solutions at the network edge.
+The chief operating decision maker regularly reviews the Company’s financial performance based on two reportable segments: (1) Network Solutions and (2) Services & Support. In addition to operating under two reportable segments, the Company also reports revenue across three categories – Subscriber Solutions, Access & Aggregation Solutions and Optical Networking Solutions.
+Our Subscriber Solutions portfolio is used by Service Providers to terminate their access services infrastructure at customers' premises while providing an immersive and interactive experience for residential, business and wholesale subscribers. This revenue category includes hardware and software based products and services. These solutions include our Mosaic One SaaS applications featuring AI driven operations, fiber termination solutions for residential, business and wholesale subscribers, Wi-Fi access solutions for residential and business subscribers, Ethernet switching and network edge virtualization solutions for business subscribers and cloud software solutions covering a mix of subscriber types.
+Our Access & Aggregation Solutions are solutions that are used by communications Service Providers to connect residential subscribers, business subscribers and mobile radio networks to the Service Providers’ metro network, primarily through fiber-based connectivity. This revenue category includes hardware- and software-based products and services. Our solutions within this category are a mix of fiber access and aggregation platforms, precision network synchronization and timing solutions and access orchestration solutions that ensure highly reliable and efficient network performance.
+
+ 
+50
+
+Our Optical Networking Solutions are used by communications Service Providers, internet content providers and large-scale enterprises to securely interconnect metro and regional networks over fiber. This revenue category includes hardware and software based products and services. Our solutions within this category include open optical terminals, open line systems, optical subsystems and modules, network infrastructure assurance systems and automation platforms that are used to build high-scale, secure and assured optical networks.
+
+Adtran Networks Domination and Profit and Loss Transfer Agreement
+The DPLTA between the Company, as the controlling company, and Adtran Networks, as the controlled company, which was executed on December 1, 2022, became effective on January 16, 2023, as a result of its registration with the commercial register (
+Handelsregister
+) of the local court (
+Amtsgericht
+) at the registered seat of Adtran Networks (Jena).
+Under the DPLTA, subject to certain limitations pursuant to applicable law and the specific terms of the DPLTA, (i) the Company is
+entitled to issue binding instructions to the management board of Adtran Networks, (ii) Adtran Networks will transfer its annual profit to the Company, subject to, among other things, the creation or dissolution of certain reserves, and (iii) the Company will generally absorb the annual net loss incurred by Adtran Networks. The Company’s payment obligation in satisfaction of the requirement that it absorb Adtran Networks’ annual net loss applies to the net loss generated by Adtran Networks in 2025 and it will apply to any net loss generated by Adtran Networks in 2026.
+Additionally, and subject to certain limitations pursuant to applicable law and the specific terms of the DPLTA, the DPLTA provides that Adtran Networks shareholders (other than us) be offered, at their election, (i) to put their Adtran Networks shares to the Company in exchange for compensation in cash of €17.21 per share plus guaranteed interest (the "Exit Compensation"), or (ii) to remain Adtran Networks shareholders and receive a recurring compensation in cash of €0.52 per share for each full fiscal year of Adtran Networks (the “Annual Recurring Compensation”). The guaranteed interest component under the Exit Compensation is calculated from the effective date of the DPLTA to the date the shares are tendered, less any Annual Recurring Compensation paid. The guaranteed interest rate is 5.0% plus a variable component that was 1.27% as of December 31, 2025. The Annual Recurring Compensation is due on the third banking day following the ordinary general shareholders’ meeting of Adtran Networks for the respective preceding fiscal year (but in any event within eight months following expiration of the fiscal year). With respect to the 2024 fiscal year, Adtran Networks’ ordinary general shareholder meeting occurred on June 28, 2025, and therefore, the Annual Recurring Compensation was paid on July 1, 2025. With respect to the 2025 fiscal year, Adtran Networks’ ordinary general shareholder meeting is scheduled for the second quarter of 2026, and the Annual Recurring Compensation will be due on the third banking day following the meeting. The adequacy of both forms of compensation has been challenged by minority shareholders of Adtran Networks via court-led appraisal proceedings under German law,
+
+and it is possible that the courts in such appraisal proceedings may adjudicate a higher Exit Compensation (including interest thereon) or Annual Recurring Compensation than agreed upon in the DPLTA.
+The opportunity for outside Adtran Networks shareholders to tender Adtran Networks shares in exchange for Exit Compensation had been scheduled to expire on March 16, 2023. However, due to the appraisal proceedings that were initiated in 2023 in accordance with applicable German law, this time period for tendering shares has been extended pursuant to the German Stock Corporation Act (
+Aktiengesetz
+) and will end two months after the date on which a final decision in such appraisal proceedings has been published in the Federal Gazette (
+Bundesanzeiger
+). Following the court's decision on a procedural matter in the DPLTA appraisal proceedings on July 14, 2025, the trial on the merits of the DPLTA has recommenced. It is expected to take a minimum of 12 months for a ruling of the court on the merits and such ruling will most likely be appealed, which would be expected to take an additional 12-24 months to be resolved. Accordingly, the Company does not expect a final decision on the DPLTA appraisal proceedings to be rendered and published prior to 2027, and most likely not until 2028 or beyond.
+
+For the year ended December 31, 2025, 2.0 million shares of Adtran Networks stock were tendered to the Company. This resulted in total Exit Compensation payments of approximately €40.2 million, or approximately $46.6 million, based on exchange rates at the time of the transactions, being paid to Adtran Networks shareholders. For the year ended December 31, 2024, approximately 0.8 million shares of Adtran Networks stock were tendered to the Company. This resulted in total Exit Compensation payments of €15.7 million, or approximately $17.4 million, based on exchange rates at the time of the transactions, being paid to Adtran Networks shareholders.
+In summary, the Company believes that its cash and cash equivalents, working capital management initiatives and availability to access cash under the Wells Fargo credit facility or other future sources of capital will be adequate to meet our business operating requirements, our capital expenditures and our expected obligations under both the Notes and the DPLTA, including anticipated levels of Exit Compensation, as well as to support our ability to continue to comply with our debt covenants under the Credit Facility for at least the next twelve months, from the issuance of these financial statements.
+See Note 10, Credit Agreement, for additional information regarding the terms of the Amendments of the Credit Agreement.
+We currently hold 36,871,784 no-par value bearer shares of Adtran Networks, representing 70.8% of Adtran Networks outstanding shares as of December 31, 2025.
+
+ 
+51
+
+The foregoing description of the DPLTA does not purport to be complete and is qualified in its entirety by reference to the DPLTA, a non-binding English translation of which is incorporated by reference to
+Exhibit 10.14
+ of this Annual Report on Form 10-K.
+Financial Performance and Trends
+We ended 2025 with a year-over-year revenue increase of 17.5%, driven by increased volume of sales activity due to a return of normalized customer spending, increased growth due to fiber expansion brought about by higher service provider spending, vendor consolidation, a continuing shift away from high-risk vendors, increased demand for modernizing and upgrading critical infrastructure within governments, utilities, large enterprises, and bandwidth hungry applications including, AI. During 2025, we had one customer with revenues greater than 10.0% which was an international Service Provider, and our next five largest customers comprised 20.4% of our revenue. Our year-over-year U.S. revenue increased by 20.7% due to a return to normalized customer spending and fiber expansion. Internationally, our year-over-year revenue increased by 15.0%, primarily driven by fiber expansion. For 2025 our Access & Aggregation, Subscriber Solutions and Optical Networking revenue categories all experienced increased volume of sales activity year-over-year due to growth across geographies, most product lines, and the continued expansion of our customer base.
+
+Our revenues have fluctuated in recent years and they may continue to fluctuate going forward. However, during the year ended December 31, 2025, our operating results improved due to recovery in end markets, including a decrease in inventories held by customers, improving margins and tight operational cost controls. Additionally, public funding through the Broadband Equity, Access and Deployment Program ("BEAD") is expected to commence in 2026, which provides a positive outlook for the future. We have also taken steps to transform our business into a leaner, more efficient and more profitable company, including the completion of our business efficiency program (the "Business Efficiency Program"). Nevertheless, our operating expenses are relatively fixed in the short term.
+Our operating results improved due to slowly stabilizing revenues, improving margins and tight operational cost controls. In addition, we continue to support our customer demand for our products by working with our suppliers, contract manufacturers, distributors, and customers to address and to limit potential disruptions to our operations and order fulfillment. Moreover, maintaining sufficient inventory levels to assure prompt delivery of our products increases the amount of inventory that may become obsolete and increases the risk that the obsolescence of this inventory may have an additional adverse effect on our business and operating results beyond the effects of the most recent inventory write-downs. On the other hand, not maintaining sufficient inventory levels to ensure prompt delivery of our products may cause us to incur expediting costs to meet customer delivery requirements, which may negatively impact our operating results.
+Trade Policy/Tariffs
+
+During the year ended December 31, 2025 and continuing to the date of this filing, the U.S. introduced trade policy actions that have increased import tariffs across a wide range of countries at various rates, with certain exemptions. On February 20, 2026, the United States Supreme Court issued a ruling striking down certain tariffs previously imposed under the IEEPA. The ultimate availability, timing, and amount of any potential refunds of such tariffs remain highly uncertain and are subject to further legal, regulatory, and administrative developments. Following the Supreme Court’s decision, the U.S. presidential administration announced its intention to invoke other laws to collect tariffs and announced new tariffs on imports from all countries, in addition to any existing non-IEEPA tariffs (including tariffs on semiconductors, which are expected to increase in June 2027). Furthermore, recent U.S. trade actions have triggered retaliatory actions by certain affected countries, and other foreign governments may impose further trade measures, including reciprocal tariffs, on certain U.S. goods in the future. There remains substantial uncertainty regarding the duration of existing and newly announced tariffs, potential changes or pauses to such tariffs, tariff levels, and whether further additional tariffs or other retaliatory actions may be imposed, modified, or suspended, and the impacts of such actions on our business.
+
+These changes in U.S. trade policy and subsequent retaliatory actions have the potential to materially alter various input costs for the Company. Moreover, related costs and the uncertainty arising from such changes in trade policy may result in shifts in customer behavior, such as decreased demand. These impacts could have a negative effect on our financial results, including our revenue and profitability. To help mitigate this, we have taken steps to diversify our supply chain, manufacturing locations and relationships with suppliers to give us added flexibility. For example, beginning in the first quarter of 2026 our suppliers will be able to ship products directly to a free trade zone which is set to open at our Huntsville, Alabama facility, which we expect to further mitigate the impact of tariffs.
+See “Changes in trade policy in the U.S. and other countries, including the imposition of additional tariffs and the resulting consequences, may adversely impact our gross profits, gross margins, results of operations and financial condition,” in Part I, Item 1A “Risk Factors” of this report for further discussion of the risks associated with the changes to U.S. and foreign trade policies.
+Enactment of the “One Big Beautiful Bill Act”
+On July 4, 2025, the “One Big Beautiful Bill Act” (OBBBA) was signed into law in the U.S. Key corporate tax provisions include the restoration of 100% bonus depreciation under Section 168(k) for qualified property acquired after January 19, 2025; immediate expensing of domestic research and experimental (R&E) expenditures under new Section 174A (with foreign R&E continuing to be capitalized and amortized over 15 years), effective for tax years beginning after December 31, 2024; restoration of the EBITDA-based limitation on business interest expense under Section 163(j) for taxable years beginning after December 31, 2024; updates to certain international provisions, including Net CFC Tested Income (NCTI, formerly GILTI) and Foreign-Derived Deduction Eligible Income
+
+ 
+52
+
+(FDDEI, formerly FDII), with permanent Section 250 deductions effective for tax years beginning after December 31, 2025; amendments to energy credits, including accelerated phase outs or modifications for certain clean energy incentives; and expanded Section 162(m) aggregation requirements that apply the $1 million deduction limitation on an aggregate basis across controlled group members.
+In accordance with ASC 740, the effects of the new tax law are recognized in the period of enactment. The Company is currently evaluating the impact of the OBBBA; however, it does not currently expect the law to have a material impact on its effective tax rate or cash flows in the current fiscal year.
+Issuance of Convertible Senior Notes
+On September 19, 2025, the Company issued $201.3 million principal amount of its 3.75% convertible senior notes due 2030 (the “2030 Notes” or “Notes”). The 2030 Notes were issued pursuant to, and are governed by, an indenture (the “Indenture”), dated as of September 19, 2025, between the Company and U.S. Bank Trust Company, National Association, as trustee (the “Trustee”). Pursuant to the purchase agreement between the Company and Evercore Group, L.L.C., as representative of the several initial purchasers of the Notes, the Company granted the initial purchasers an option to purchase, for settlement within a period of 13 days from, and including, the date the Notes are first issued, up to an additional approximately $26.3 million principal amount of Notes. The Notes issued on September 19, 2025 include approximately $26.3 million principal amount of Notes issued pursuant to the full exercise by the initial purchasers of such option.
+See Note 11 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for more details.
+Capped Call Transactions
+In connection with the 2030 Notes, the Company has entered into privately negotiated capped call transactions with one of the initial purchasers of the Notes or its affiliate and certain other financial institutions pursuant to capped call confirmations (collectively, the “Capped Calls”). The Capped Calls are generally expected to reduce potential dilution to the Company’s common stock and/or offset any cash payments that the Company is required to make in excess of the principal amount of any converted 2030 Notes, with such reduction and/or offset subject to a cap.
+See Note 11 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for more details.
+Foreign Currency
+We are exposed to changes in foreign currencies relative to the U.S. dollar, which are references to the differences between the foreign-exchanges rates we use to convert the financial results of our international operations from local currencies into U.S. dollars for financial reporting purposes. This impact of foreign-exchange rate changes is calculated based on the difference between the current period’s currency exchange rates and that of the comparable prior period. Our primary exposures to foreign currency exchange rate movements are with the euro and the British pound. As a result of our global operations, our revenue, gross margin, operating expense and operating loss in some international markets has been and may continue to be affected by foreign currency fluctuations.
+Goodwill Impairment
+The Company’s policy is to assess the realizability of assets (long-lived assets, intangibles and goodwill) held within our reporting units and to evaluate such assets for impairment whenever events or changes in circumstances indicate that the carrying amount of such assets may not be recoverable.
+
+No impairment of goodwill was recognized during the year ended December 31, 2025. During the first quarter of 2024, qualitative factors such as a decrease in the Company’s market capitalization, lower service provider spending and delayed holding patterns of inventory with respect to customers caused us to reduce our forecasts, triggering a quantitative impairment assessment for our reporting units. The Company determined the fair value of the Network Solutions reporting unit using a combination of an income approach and a market-based peer group analysis. The Company determined upon its quantitative impairment assessment to recognize a $297.4 million non-cash goodwill impairment charge for the Network Solutions reporting unit during the year ended December 31, 2024. The quantitative impairment analysis indicated there was no impairment of the Services & Support goodwill during the year ended December 31, 2024.
+Business Efficiency Program
+During the fourth quarter of 2023, the Company initiated a Business Efficiency Program designed to optimize the assets, business processes, and information technology systems of the Company in relation to the business combination with Adtran Networks. The Business Efficiency Program included expenses specifically associated with achieving run-rate synergies as well as Business Efficiency Program expenses described below.
+See Note 19 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report for additional information.
+
+ 
+53
+
+We did not incur any Business Efficiency Program costs during the year ended December 31, 2025. The Company reduced previously accrued costs related to the Business Efficiency Program by $0.3 million during the year ended December 31, 2025. During the years ended December 31, 2024 and 2023, respectively, we recognized $44.7 million and $25.1 million, respectively, of costs relating to the Business Efficiency Program, respectively. As of December 31, 2025, all expenses related to the Business Efficiency Program have been paid.
+
+Our historical financial performance is not necessarily a meaningful indicator of future results, and in general, management expects that our financial results may vary from period to period.
+For a discussion of risks associated with our operating results, see Part I, Item 1A, Risk Factors of this report.
+Results of Operations
+
+The following table presents selected financial information derived from our Consolidated Statements of Loss expressed as a percentage of revenue for the years indicated. Amounts may not foot due to rounding.
+
+ 
+
+ 
+
+Year Ended December 31,
+
+ 
+
+ 
+
+ 
+
+2025
+
+ 
+
+ 
+
+2024
+
+ 
+
+ 
+
+2023
+
+ 
+
+Revenue
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Network Solutions
+
+ 
+
+ 
+
+82.8
+
+%
+
+ 
+
+ 
+
+80.1
+
+%
+
+ 
+
+ 
+
+84.8
+
+%
+
+Services & Support
+
+ 
+
+ 
+
+17.2
+
+ 
+
+ 
+
+ 
+
+19.9
+
+ 
+
+ 
+
+ 
+
+15.2
+
+ 
+
+Total Revenue
+
+ 
+
+ 
+
+100.0
+
+ 
+
+ 
+
+ 
+
+100.0
+
+ 
+
+ 
+
+ 
+
+100.0
+
+ 
+
+Cost of Revenue
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Network Solutions
+
+ 
+
+ 
+
+54.6
+
+ 
+
+ 
+
+ 
+
+56.1
+
+ 
+
+ 
+
+ 
+
+63.1
+
+ 
+
+      Network Solutions - other (credits), charges and inventory write-down
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+0.9
+
+ 
+
+ 
+
+ 
+
+2.1
+
+ 
+
+Services & Support
+
+ 
+
+ 
+
+7.1
+
+ 
+
+ 
+
+ 
+
+7.9
+
+ 
+
+ 
+
+ 
+
+6.0
+
+ 
+
+Total Cost of Revenue
+
+ 
+
+ 
+
+61.7
+
+ 
+
+ 
+
+ 
+
+64.9
+
+ 
+
+ 
+
+ 
+
+71.2
+
+ 
+
+Gross Profit
+
+ 
+
+ 
+
+38.3
+
+ 
+
+ 
+
+ 
+
+35.1
+
+ 
+
+ 
+
+ 
+
+28.8
+
+ 
+
+Selling, general and administrative expenses
+
+ 
+
+ 
+
+20.9
+
+ 
+
+ 
+
+ 
+
+25.2
+
+ 
+
+ 
+
+ 
+
+22.5
+
+ 
+
+Research and development expenses
+
+ 
+
+ 
+
+18.8
+
+ 
+
+ 
+
+ 
+
+24.0
+
+ 
+
+ 
+
+ 
+
+22.5
+
+ 
+
+Goodwill impairments
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+32.2
+
+ 
+
+ 
+
+ 
+
+3.3
+
+ 
+
+Operating Loss
+
+ 
+
+ 
+
+(1.4
+
+)
+
+ 
+
+ 
+
+(46.3
+
+)
+
+ 
+
+ 
+
+(19.5
+
+)
+
+Interest and dividend income
+
+ 
+
+ 
+
+0.2
+
+ 
+
+ 
+
+ 
+
+0.3
+
+ 
+
+ 
+
+ 
+
+0.2
+
+ 
+
+Interest expense
+
+ 
+
+ 
+
+(1.8
+
+)
+
+ 
+
+ 
+
+(2.4
+
+)
+
+ 
+
+ 
+
+(1.4
+
+)
+
+Net investment gain
+
+ 
+
+ 
+
+0.3
+
+ 
+
+ 
+
+ 
+
+0.4
+
+ 
+
+ 
+
+ 
+
+0.2
+
+ 
+
+Other (expense) income, net
+
+ 
+
+ 
+
+(0.2
+
+)
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+0.1
+
+ 
+
+Loss Before Income Taxes
+
+ 
+
+ 
+
+(2.9
+
+)
+
+ 
+
+ 
+
+(48.0
+
+)
+
+ 
+
+ 
+
+(20.3
+
+)
+
+Income tax expense
+
+ 
+
+ 
+
+(0.5
+
+)
+
+ 
+
+ 
+
+(0.8
+
+)
+
+ 
+
+ 
+
+(2.5
+
+)
+
+Net Loss
+
+ 
+
+ 
+
+(3.3
+
+)%
+
+ 
+
+ 
+
+(48.8
+
+)%
+
+ 
+
+ 
+
+(22.8
+
+)%
+
+Net Income attributable to non-controlling interest
+
+ 
+
+ 
+
+0.9
+
+ 
+
+ 
+
+ 
+
+1.1
+
+ 
+
+ 
+
+ 
+
+0.6
+
+ 
+
+Net Loss attributable to ADTRAN Holdings, Inc.
+
+ 
+
+ 
+
+(4.2
+
+)%
+
+ 
+
+ 
+
+(49.8
+
+)%
+
+ 
+
+ 
+
+(23.4
+
+)%
+
+ 
+The following discussion and financial information are presented to aid in an understanding of our current consolidated financial position, changes in financial position, results of operations and cash flows and should be read in conjunction with the audited consolidated financial statements and notes thereto included herein. The emphasis of the discussion is a comparison of the years ended December 31, 2025 and December 31, 2024. For a discussion of a comparison of the years ended December 31, 2024 and December 31, 2023, please refer to Management’s Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K/A for the year ended December 31, 2024, filed with the SEC on May 20, 2025.
+Comparison of Years Ended December 31, 2025 and December 31, 2024
+ 
+Revenue
+Our revenue increased 17.5% from $922.7 million for the year ended December 31, 2024 to $1,083.8 million for the year ended December 31, 2025. The increase in revenue for the year ended December 31, 2025 was driven by increased volume of sales activity due to a return of normalized customer spending, increased growth due to fiber expansion brought about by higher service provider spending, vendor consolidation, a continuing shift away from high-risk vendors, increased demand for modernizing and upgrading critical infrastructure within governments, utilities, large enterprises, and bandwidth-hungry applications, including AI, partially offset by a decrease in revenue related to installation/system integration services. The increase in revenue by category for the year ended
+
+ 
+54
+
+December 31, 2025, was primarily attributable to a $79.4 million increase in Optical Networking Solutions products and services, a $38.3 million increase in Subscriber Solutions products and services and a $43.4 million increase in Access & Aggregation products and services. All revenue categories for the year ended December 31, 2025 experienced increased volume of sales activity due to growth across geographies, most product lines, and the continued expansion of our customer base.
+Network Solutions segment revenue increased 21.4% from $739.0 million in 2024 to $896.9 million in 2025, primarily attributable to $71.3 million increase in Optical Networking Solutions products, a $45.9 million increase in Access & Aggregation Solutions and a $40.8 million increase in Subscriber Solutions category.
+
+Services & Support revenue increased 1.7% from $183.8 million in 2024 to $186.9 million in 2025. The increase in revenue for 2025 was primarily attributable to $8.1 million increase in revenue for Optical Networking Solutions products partially offset by a $2.5 million decrease in revenue for Access & Aggregation Solutions revenue and a $2.5 million decrease in revenue for Subscriber Solutions services.
+Domestic revenue increased 20.7% from $398.2 million in 2024 to $480.8 million in 2025, was primarily due to an increase in volume of sales activity due to a return of normalized customer spending and increased growth due to fiber expansion.
+
+International revenue, which is defined as revenue generated from the Network Solutions and Services & Support segments provided to a customer outside of the U.S., increased 15.0% from $524.6 million for the year ended December 31, 2024 to $603.1 million for the year ended December 31, 2025. The increase in international revenue in 2025 was primarily due to increased volume of sales activity due to a return of normalized customer spending and, increased growth due to fiber expansion. International revenue, as a percentage of total revenue, decreased from 56.8% for the year ended December 31, 2024 to 55.6% for the year ended December 31, 2025. For the year ended December 31, 2025 as compared to the year ended December 31, 2024, changes in foreign currencies relative to the U.S dollar increased our net revenue by approximately $17.8 million.
+Our ADTRAN, Inc. international revenue is largely focused on broadband infrastructure and is consequently affected by the decisions of our customers as to timing for installation of new technologies, expansion of their networks and/or network upgrades. Our international customers must make these decisions in the regulatory and political environment in which they operate – both nationally and in some instances, regionally – whether of a multi-country region or a more local region within a country. Consequently, while we expect the global trend towards deployment of more robust broadband speeds and access to continue creating additional market opportunities for us, the factors described above may result in pressure on revenue and operating income. Our Adtran Networks international revenue is largely focused on the manufacture and selling of networking solutions that are based on three core areas of expertise: fiber-optic transmission technology (cloud interconnect), cloud access technology for rapid creation of innovative services around the network edge and solutions for precise timing and synchronization of networks. In addition, Adtran Networks' international operations offers a comprehensive portfolio of network design, implementation and maintenance services to assist operators in the deployment of market-leading networks while reducing their cost to maintain these networks.
+Cost of Revenue
+
+As a percentage of revenue, cost of revenue decreased from 64.9% for the year ended December 31, 2024 to 61.7% for the year ended December 31, 2025. The decrease in cost of revenue as a percentage of revenue for the twelve months ended December 31, 2025, was attributable to a 2.6% decrease in restructuring expense and labor cost expense as a percentage of revenue as a result of our previous Business Efficiency Program, which was completed as of December 31, 2024 and a 1.3% decrease in expense as a percentage of revenue attributable to changes in customer and product mix, partially offset by a 0.7% increase in expense as a percentage of revenue attributable to changes in foreign currencies relative to the U.S. dollar. For the year ended December 31, 2025, changes in foreign currencies relative to the U.S. dollar increased our cost of revenue by approximately $8.9 million.
+Network Solutions cost of revenue, as a percentage of that segment’s revenue, decreased from 71.2% of revenue in 2024 to 66.0% of revenue in 2025. The decrease in Network Solutions cost of revenue as a percentage of revenue for the twelve months ended December 31, 2025, was attributable to a 3.2% decrease in expense as a percentage of revenue attributable to changes in customer and product mix, and a 2.7% decrease in restructuring expense and labor cost expense as a percentage of revenue as a result of our previous Business Efficiency Program, partially offset by a 0.8% increase in expense as a percentage of revenue attributable to changes in foreign currencies relative to the U.S. dollar.
+
+Services & Support cost of revenue, as a percentage of that segment’s revenue, increased from 39.6% of revenue in 2024 to 41.0% of revenue in 2025.
+
+Services & Support revenue is comprised of network planning and implementation, maintenance, support and cloud-based management services, with network planning and implementation being the largest and fastest growing component in the long-term. Compared to our other services, such as maintenance, support and cloud-based management services, our network planning and implementation services typically utilize a higher percentage of internal and subcontracted engineers, professionals and contractors to perform the work for customers. The additional costs incurred to perform these infrastructure and labor-intensive services inherently result in lower
+
+ 
+55
+
+average gross margins as compared to maintenance and support services. Within the Services & Support segment, we do expect variability in gross margins from quarter-to-quarter based on the mix of the services recognized.
+Gross Profit
+
+As a percentage of revenue, gross profit increased from 35.1% for the year ended December 31, 2024 to 38.3% for the year ended December 31, 2025. The increase in gross profit for the twelve months ended December 31, 2025, was attributable to 2.6% increase in gross profit as a percentage of revenue due to a decrease in restructuring expense and labor cost as a result of our previous Business Efficiency Program, and a 0.5% increase in gross profit as a percentage of revenue due to changes in customer and product mix.
+
+As a percentage of that segment's revenue, Network Solutions gross profit increased from 28.8% for the year ended December 31, 2024 to 34.0% for the year ended December 31, 2025. The increase in gross profit for the twelve months ended December 31, 2025, was attributable to a 2.3% increase in gross profit as a percentage of revenue due to changes in customer and product mix and a 2.7% increase in gross profit as a percentage of revenue due to a decrease in restructuring expense and labor cost as a result of our previous Business Efficiency Program.
+
+As a percentage of that segment's revenue, Services & Support gross profit decreased from 60.4% for the year ended December 31, 2024 to 59.0% for the year ended December 31, 2025.
+Selling, General and Administrative Expenses
+As a percentage of revenue, selling, general and administrative expenses decreased from 25.2% for the year ended December 31, 2024, to 20.9% for the year ended December 31, 2025. Selling, general and administrative expenses as a percentage of revenue will generally fluctuate whenever there is a significant fluctuation in revenue for the periods being compared. We have completed implementation of our Business Efficiency Program as of December 31, 2024. We expect to continue to see lower selling, general and administrative expenses as a percentage of revenue over time.
+Selling, general and administrative expenses decreased 2.9% from $232.9 million for the year ended December 31, 2024, to $226.3 million for the year ended December 31, 2025. Selling, general and administrative expenses include personnel costs for management, accounting, information technology, human resources, sales and marketing, as well as independent auditor, tax and other professional fees, contract services and legal and litigation related costs. The decrease in selling, general and administrative expenses for the twelve months ended December 31, 2025, compared to the twelve months ended December 31, 2024, was primarily attributable to decreases of $14.7 million for acquisition/integration related expenses, $1.9 million for restructuring expense, and $1.4 million for employee-related costs partially offset by increases of $8.4 million for professional fees and other costs, $2.2 million for travel related costs and $1.4 million for depreciation expense. For the year ended December 31, 2025, as compared to the year ended December 31, 2024, changes in foreign currencies relative to the U.S dollar increased our selling, general and administrative expenses by approximately $3.8 million.
+Research and Development Expenses
+As a percentage of revenue, research and development expense decreased from 24.0% for the year ended December 31, 2024, to 18.8% for the year ended December 31, 2025. Research and development expenses as a percentage of revenue will generally fluctuate whenever there are incremental product development activities or significant fluctuations in revenue for the periods being compared. We have completed implementation of our Business Efficiency Program as of December 31, 2024. We expect to continue to see lower research and development expense as a percentage of revenue over time.
+Research and development expenses decreased 7.8% from $221.5 million for the year ended December 31, 2024, to $204.3 million for the year ended December 31, 2025. The decrease in research and development expenses for the twelve months ended December 31, 2025, was primarily attributable to decreases of $6.2 million for employee-related costs, $6.1 million for restructuring expense, $0.8 million for professional services, $0.6 million for contract services and $2.1 million of additional research and development subsidies. For the year ended December 31, 2025 as compared to the year ended December 31, 2024, changes in foreign currencies relative to the U.S. dollar increased our research and development expenses by approximately $4.2 million.
+Adtran Networks has arrangements with governmental entities for the purposes of obtaining funding for research and development activities. The Company classifies government grants received under these arrangements as a reduction to research and development expense incurred. For the years ended December 31, 2025 and 2024, the Company recognized $11.8 million and $9.7 million, respectively, as a reduction of research and development expense.
+We expect to continue to incur research and development expenses in connection with our new and existing products. We continually evaluate new product opportunities and engage in significant research and product development efforts, which provides for new product development, enhancement of existing products and product cost reductions. We may incur significant research and development expenses prior to the receipt of revenue from a major new product group.
+
+ 
+56
+
+Goodwill Impairment
+There was no goodwill impairment recognized during the year ended December 31, 2025.
+
+During the first quarter of 2024, qualitative factors such as a decrease in the Company’s market capitalization, cautious service provider spending due to economic uncertainty and continued customer focus on inventory adjustments, triggered a quantitative impairment assessment for our reporting units for goodwill and long-lived assets. The Company determined upon its quantitative impairment assessment to recognize a $297.4 million non-cash goodwill impairment charge for the Network Solutions reporting unit.
+Interest and Dividend Income
+Interest and dividend income decreased from $3.1 million for the year ended December 31, 2024 to $2.3 million for the year ended December 31, 2025. The decrease in interest and dividend income is primarily attributable to fluctuations in investment balances and a decrease in the rate of return on those investments due to interest rate movements.
+Interest Expense
+Interest expense decreased from $22.1 million for the year ended December 31, 2024 to $19.3 million for the year ended December 31, 2025. The decrease in interest expense was primarily driven by the issuance of the 2030 Notes which accrues interest at 4.7% and the repayment of the majority of the Credit Agreement which accrued interest at 9.0% in 2025 versus the twelve months ending December 31, 2024.
+ See Notes 10 and 11 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report and “Financing Activities” in “Liquidity and Capital Resources” below.
+Net Investment Gain
+
+We recognized a net investment gain of $3.6 million and $3.0 million for the years ended December 31, 2024 and 2025, respectively. The fluctuations in our net investments were primarily attributable to market driven changes in the fair value of our securities recognized during the period. We expect that any future market volatility could result in continued fluctuations in our investment portfolio.
+See “Investing Activities” in “Liquidity and Capital Resources” of this report and Note 1 and Note 4 of Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+Other (Expense) Income, net
+Other (expense) income, net, which primarily consisted of gains and losses on foreign currency transactions and income from excess material sales, decreased from income of $0.2 million for the year ended December 31, 2024 to expense of $1.6 million for the year ended December 31, 2025.
+
+Income Tax Expense
+Our effective tax rate changed from an expense of 1.7%, for the year ended December 31, 2024 to an expense of 16.0% for the year ended December 31, 2025. The change in the effective tax rate for the year ended December 31, 2025, was driven primarily
+by
+changes in the mix of earnings between jurisdictions with different statutory tax rates and changes in our valuation allowance.
+See Note 12 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+Net Loss Attributable to ADTRAN Holdings, Inc.
+As a result of the above factors, our net loss attributable to ADTRAN Holdings, Inc. decreased from a net loss of $459.9 million for the year ended December 31, 2024 to a net loss of $45.7 million for the year ended December 31, 2025. As a percentage of revenue, net loss was 49.8% for the year ended December 31, 2024 and net loss was 4.2% for the year ended December 31, 2025.
+Liquidity and Capital Resources
+Liquidity
+We generally finance our ongoing business with existing cash, investments, credit arrangements and cash flow from operations to manage our working capital needs. We had a positive cash flow from operating activities of $129.8 million in the twelve months ended December 31, 2025. We have used, and expect to continue to use, existing cash, credit arrangements and cash generated from operations for working capital and other general corporate purposes, including product development activities to enhance our existing products and develop new products, expand our sales and marketing activities and fund capital expenditures.
+As of December 31, 2025, our cash on hand was $95.7 million of which $87.5 million was held by our foreign subsidiaries. The Company had access to $319.2 million on its Credit Facility for future borrowings, based on debt covenant compliance metrics. Generally, we intend to permanently reinvest funds held outside the U.S., except to the extent that any of these funds can be repatriated without withholding tax. As of December 31, 2024, our cash on hand was $76.0 million, of which $52.6 million was held by our foreign subsidiaries.
+
+ 
+57
+
+Under the DPLTA, subject to certain limitations pursuant to applicable law and the specific terms of the DPLTA, (i) the Company is entitled to issue binding instructions to the management board of Adtran Networks, (ii) Adtran Networks will transfer its annual profit to the Company, subject to, among other things, the creation or dissolution of certain reserves, and (iii) the Company will absorb the annual net loss incurred by Adtran Networks. The Company’s payment obligation in satisfaction of the requirement that it absorb Adtran Networks’ annual net loss applies to the net loss generated by Adtran Networks in 2025, and it will apply to any net loss generated by Adtran Networks in 2026.
+Pursuant to the terms of the DPLTA, each Adtran Networks shareholder (other than the Company) has received an offer to elect either (1) to remain an Adtran Networks shareholder and receive from us an Annual Recurring Compensation payment, or (2) to receive Exit Compensation plus guaranteed interest. The guaranteed interest under the Exit Compensation is calculated from the effective date of the DPLTA to the date the shares are tendered, less any Annual Recurring Compensation paid. The guaranteed interest rate is 5.0% plus a variable component (according to the German Civil Code) that was 1.27% as of December 31, 2025. Assuming all the minority holders of currently outstanding Adtran Networks shares were to elect the second option, we would be obligated to make aggregate Exit Compensation payments, including guaranteed interest, of approximately €303.9 million or approximately $357.0 million, based on an exchange rate as of December 31, 2025 and reflecting interest accrued through December 31, 2025 during the pendency of the appraisal proceedings discussed below. Shareholders electing the first option of Annual Recurring Compensation may later elect the second option. The opportunity for outside Adtran Networks shareholders to tender Adtran Networks shares in exchange for Exit Compensation had been scheduled to expire on March 16, 2023. However, due to the appraisal proceedings that were initiated in 2023 in accordance with applicable German law, this time period for tendering shares has been extended pursuant to the German Stock Corporation Act (
+Aktiengesetz
+) and will end two months after the date on which a final decision in such appraisal proceedings has been published in the Federal Gazette (
+Bundesanzeiger
+). Following the court's decision on a procedural matter in the DPLTA appraisal proceedings on July 14, 2025, the proceeding for the trial on the merits of the DPLTA has recommenced. It is expected to take a minimum of 12 months for a ruling of the court on the merits and such ruling will most likely be appealed, which would be expected to take an additional 12-24 months to be resolved. Accordingly, the Company does not expect a final decision on the DPLTA appraisal proceedings to be rendered and published prior to 2027, and most likely not until 2028 or beyond.
+
+Additionally, our obligation to pay Annual Recurring Compensation under the DPLTA is a continuing payment obligation, which will amount to approximately €7.9 million or $9.3 million (based on the current exchange rate) per year assuming none of the minority Adtran Networks shareholders were to elect Exit Compensation. The foregoing amounts do not reflect any potential increase in payment obligations that we may have depending on the outcome of ongoing appraisal proceedings in Germany. The Annual Recurring Compensation is due on the third banking day following the ordinary general shareholders’ meeting of Adtran Networks for the respective preceding fiscal year (but in any event within eight months following expiration of the fiscal year). With respect to the 2023 fiscal year, Adtran Networks’ ordinary general shareholders’ meeting occurred on June 28, 2024; therefore, the Annual Recurring Compensation was paid on July 3, 2024. With respect to the 2024 fiscal year, Adtran Networks’ ordinary general shareholder meeting occurred on June 28, 2025, and therefore, the Annual Recurring Compensation was paid on July 1, 2025. With respect to the 2025 fiscal year, Adtran Networks’ ordinary general shareholder meeting is scheduled for the second quarter of 2026, and the Annual Recurring Compensation will be due on the third banking day following the meeting. During the years ended December 31, 2025 and 2024, we accrued $9.3 million and $9.8 million, respectively, in Annual Recurring Compensation which is reflected as an increase to retained deficit.
+As of December 31, 2025, and as of the date of issuance of these financial statements, the Company has sufficient liquidity through its operating cash flow and the borrowings available under the Credit Facility to meet a majority of its payment obligations under the DPLTA pertaining to Exit Compensation. For the year ended December 31, 2025, approximately 2.0 million shares of Adtran Networks stock were tendered to the Company. This resulted in total Exit Compensation payments of approximately €40.2 million, or approximately $46.6 million, based on exchange rates at the time of the transactions, being paid to Adtran Networks shareholders. For the year ended December 31, 2024, a total of 0.8 million shares of Adtran Networks stock was tendered to the Company and Exit Compensation payments of approximately €15.7 million or approximately $17.4 million based on an exchange rate as of December 31, 2024, were paid to Adtran Networks shareholders. We believe the probability that more than a small minority of Adtran Networks shareholders elect to receive Exit Compensation in the next twelve months is remote based on the following factors: (i) the shareholders can exercise their right to receive the Exit Compensation until two months after publication of the final decision in the appraisal proceedings and we do not expect the final decision to be published within the next 12 months; (ii) the diverse base of shareholders that must make this election on an individual shareholder basis; (iii) the fact that the date of a decision by the court on the merits of the case is uncertain, it will likely take a minimum of 12 months for a ruling on the merits and thereafter, an expected appeal process will take a further 12-24 months to resolve; (iv) the current guaranteed Annual Recurring Compensation payment; and (v) the current trading value of Adtran Networks shares.
+
+ 
+58
+
+In summary, the Company believes that its cash and cash equivalents, working capital management initiatives and availability to access cash under the Wells Fargo Credit Facility or other future sources of capital, will be adequate to meet our business operating requirements, our capital expenditures and our expected obligations under both the Notes and the DPLTA, including anticipated levels of Exit Compensation, as well as to support our ability to continue to comply with our debt covenants under the Credit Facility for at least the next twelve months, from the issuance of these Consolidated Financial Statements included in Part II, Item 8 of this Form 10-K
+See Note 10 of Notes to Consolidated Financial Statements included in Part I, Item 8 of this report for additional information regarding the terms of the Wells Fargo Credit Agreement as amended.
+Debt Obligations
+Wells Fargo Credit Facility
+On July 18, 2022, ADTRAN, Inc., as the borrower ("U.S. Borrower"), and the Company entered into a credit agreement with a syndicate of banks, including Wells Fargo Bank, National Association, as administrative agent (“Administrative Agent”), and the other lenders named therein (the “Original Credit Agreement”), as amended by the First Amendment to Credit Agreement, dated August 9, 2023 (“Amendment No. 1”), the Second Amendment to Credit Agreement, dated January 16, 2024 (“Amendment No. 2”), the Third Amendment to Credit Agreement, dated March 12, 2024 (“Amendment No. 3”), the Fourth Amendment to Credit Amendment, dated June 4, 2024, among Adtran Networks (the "German Borrower") and the parties set forth above ("Amendment No. 4") and the Fifth Amendment to Credit Agreement and Waiver, dated May 6, 2025, among the German Borrower and the parties set forth above (“Amendment No. 5”; the Original Credit Agreement as amended by Amendment No. 1, Amendment No. 2. Amendment No. 3, Amendment No. 4 and Amendment No. 5, the “Existing Credit Agreement”).
+
+On September 16, 2025, the U.S. Borrower, the Company, the German Borrower, and the lenders party thereto, including the Administrative Agent, entered into the Sixth Amendment and Consent to Credit Agreement, dated September 16, 2025 (“Amendment No. 6”; the Existing Credit Agreement as amended by Amendment No. 6, the “Amended Credit Agreement”). Amendment No. 6, among other things, (i) provides for a consent from the lenders to the issuance by the Company of new unsecured convertible indebtedness in an amount not to exceed $230.0 million, notwithstanding the cap on the amount of Permitted Convertible Indebtedness (as defined in the Amended Credit Agreement) the Company is permitted to incur, (ii) requires that the net cash proceeds of the new unsecured convertible indebtedness be used to (a) repay outstanding revolving credit loans under the Amended Credit Agreement, (b) pay fees, costs, and expenses related to Amendment No. 6 and the issuance of the new unsecured convertible indebtedness and (c) cash collateralize the obligations of the Company and its subsidiaries under the Amended Credit Agreement (with such cash only being permitted to be withdrawn for the purpose of financing the purchase of additional outstanding shares of Equity Interests (as defined in the Amended Credit Agreement) of the German Borrower that were not owned by the Company and its subsidiaries as of August 9, 2023 pursuant to Section 5, paragraph 1 of the DPLTA), and (iii) after the prepayment contemplated in the foregoing clause (ii)(a) and the provision of cash collateral contemplated in the foregoing clause (ii)(c), amends provisions governing the Subline (as defined below) to provide that future prepayments in respect of borrowings under the Subline will no longer permanently reduce the commitments in respect of the Subline.
+
+As of December 31, 2025, the Amended Credit Agreement provided for a secured revolving credit facility of up to $350.0 million of borrowings, $50.0 million of which is solely available to the German Borrower.
+As of December 31, 2025, the Company’s borrowings under the revolving line of credit were $25.0 million. The credit facilities provided under the Amended Credit Agreement mature in July 2027, but the U.S. Borrower may request extensions subject to customary conditions. In addition, the U.S. Borrower may utilize up to $50.0 million of the $350.0 million total revolving facility for the issuance of letters of credit. As of December 31, 2025, the U.S. Borrower had a total of $5.8 million in letters of credit under the Amended Credit Agreement, leaving a net amount (after giving effect to the $25.0 million of outstanding borrowings described above) of $319.2 million available for future borrowings based on debt covenant compliance metrics. Any future credit extensions under the Amended Credit Agreement are subject to customary conditions precedent. The proceeds of any loans may be used as described above, as well as for working capital and other general corporate purposes.
+
+Moreover, the Amended Credit Agreement provides for a sublimit under the existing $350.0 million revolving commitments in an aggregate amount of $50.0 million (“Subline”), which Subline is available for borrowings by the German Borrower. The Company had no borrowings under the Subline as of December 31, 2025. The existing swing line sublimit and letter of credit sublimit under the Amended Credit Agreement remain available to the U.S. Borrower (and not to the German Borrower). Otherwise, the loans under the Subline are subject to substantially the same terms and conditions under the Amended Credit Agreement (including with respect to the interest rate and maturity date) as the other existing revolving commitments.
+All U.S. borrowings under the Amended Credit Agreement bear interest at a rate tied to the Base Rate (as defined in the Amended Credit Agreement) or SOFR, at the Company’s option, and all E.U. borrowings bear interest at a rate tied to the Euro Interbank Offered Rate as administered by the European Money Markets Institute (or a comparable or successor administrator approved by the Administrative Agent), in each case plus applicable margins which vary based on the consolidated net leverage ratio of the Company and its subsidiaries
+
+ 
+59
+
+as determined pursuant to the terms of the Amended Credit Agreement.
+Default interest is 2.00% per annum in excess of the rate otherwise applicable.
+ As of December 31, 2025, the weighted average interest rate on our revolving credit agreement was 8.98%.
+The Company made certain representations and warranties to the lenders in the Amended Credit Agreement that are customary for credit arrangements of this type. The Company also agreed to maintain a Consolidated Total Net Leverage Ratio of 5.00x, a Consolidated Senior Secured Net Leverage Ratio of 3.25x (4.0x to 3.5x during a “Springing Covenant Period,” as defined below) and a Consolidated Fixed Charge Coverage Ratio of 1.25x (as such ratios are defined in the Amended Credit Agreement). A “Springing Covenant Event” occurs when at least sixty percent (60.0%) of the outstanding shares of Adtran Networks that were not owned by the Company and its subsidiaries as of August 9, 2023 have been tendered and purchased by the Company. Upon the occurrence of a Springing Covenant Event, the Company will enter a “Springing Covenant Period”, defined as the fiscal quarter in which a Springing Covenant Event occurs and the three (3) consecutive fiscal quarters thereafter. During a Springing Covenant Period, the Company’s leverage ratios are increased. In addition, the cash and cash equivalents of the credit parties must be at least $50.0 million and the cash and cash equivalents of the Company and its subsidiaries must be at least $70.0 million. As of December 31, 2025, the Company was in compliance with all covenants.
+The Amended Credit Agreement also contains customary events of default, such as misrepresentation and a default in the performance or observance of any covenant (subject to customary cure periods and materiality thresholds). Upon the occurrence and during the continuance of an event of default, the Administrative Agent is entitled to take various actions, including the acceleration of all amounts due under the Amended Credit Agreement.
+All obligations under the Amended Credit Agreement (including under the Subline) are guaranteed by the U.S. Borrower and certain subsidiaries of the U.S. Borrower (“Full Facility Guarantors”). To secure such guarantees, the U.S. Borrower and the Full Facility Guarantors have granted security interests in favor of the Administrative Agent over substantially all of their tangible and intangible assets, and the U.S. Borrower has granted mortgages in favor of the Administrative Agent over certain owned real estate assets. Certain of the German Borrower' subsidiaries (the “Subline Guarantors”) have also provided a guarantee solely of the obligations in respect of the Subline. Furthermore, to secure such guarantees, the German Borrower and the Subline Guarantors have granted security interests in favor of the Administrative Agent over substantially all of their tangible and intangible assets. Upon repayment in full and termination of the Subline, the guarantees by the Subline Guarantors and the liens granted by the German Borrower and the Subline Guarantors to secure obligations under the Subline will be released.
+
+Convertible Senior Notes
+On September 19, 2025, the Company issued $201.3 million principal amount of 2030 Notes. The 2030 Notes were issued pursuant to, and are governed by, an indenture, dated as of September 19, 2025, between the Company and U.S. Bank Trust Company, National Association, as trustee. The proceeds were primarily used to, among other items, pay down certain outstanding indebtedness under the Credit Facility. In connection with the 2030 Notes, the Company has entered into privately negotiated Capped Calls.
+Interest expense related to the 2030 Notes was $2.6 million for the year ended December 31, 2025. In conjunction with the issuance of the 2030 Notes, the Company recognized $201.3 million of principal and debt issuance costs of $8.7 million, which were capitalized as components of the carrying amount and included in convertible senior notes, net within the Consolidated Balance Sheets.
+See Note 11 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for more information.
+Unamortized Discounts and Debt Issuance Costs
+Unamortized discounts and debt issuance costs totaled $8.2 million as of December 31, 2025. Amortization expense related to unamortized discounts and debt issuance costs (included in interest expense within the consolidated statements of operations) totaled  $0.4 million for the year ended December 31, 2025.
+Operating Activities
+Net cash provided by operating activities of $129.8 million during the year ended December 31, 2025 increased by $26.2 million compared to $103.6 million of net cash provided by the year ended December 31, 2024. The increase was primarily due to the declining net loss for the years ended December 31, 2025 and 2024, excluding the goodwill impairment charge of $297.4 million, as adjusted primarily for decreased depreciation and amortization, decreased deferred taxes and increased net cash inflows from working capital. Additional details related to our working capital and its drivers are discussed below.
+Net accounts receivable increased 18.3% from $178.0 million as of December 31, 2024 to $210.7 million as of December 31, 2025. There was an allowance for credit losses of $1.3 million as of December 31, 2025 and December 31, 2024. The increase in net accounts receivable was primarily due to increased revenues. Quarterly accounts receivable DSO decreased from 67 days as of December 31, 2024 to 66 days as of December 31, 2025.
+Other receivables decreased from $9.8 million as of December 31, 2024 to $7.0 million as of December 31, 2025. The decrease in other receivables was primarily attributable to a decrease in sales of raw materials.
+
+ 
+60
+
+Annual inventory turnover increased from 1.92 turns as of December 31, 2024 to 2.80 turns as of December 31, 2025. Inventory decreased 17.5% from $261.6 million as of December 31, 2024 to $215.7 million as of December 31, 2025. The decrease in inventory was primarily due to steps taken in connection with our Business Efficiency Program to improve working capital, a reduction in component purchases due to improved lead time and utilization of buffer stock. We expect inventory levels to fluctuate as we attempt to maintain sufficient inventory for customer demand and improve working capital.
+Accounts payable increased from $171.8 million as of December 31, 2024 to $167.3 million as of December 31, 2025. The increase in accounts payable was primarily due to the timing of the receipt of inventory, supplies and services. Accounts payable will fluctuate due to variations in the timing of the receipt of inventory, supplies and services and our subsequent payments for these purchases.
+
+Investing Activities
+Capital expenditures, including intangibles totaled approximately $69.3 million and $65.2 million for the years ended December 31, 2025 and 2024, respectively. These expenditures were primarily used to purchase software, computer hardware, manufacturing and test equipment, building improvements and developed technologies. The increase in capital expenditures is primarily attributable to an increase in expenditures related to developed technology.
+Our deferred compensation plan assets increased 13.5% from $31.0 million as of December 31, 2024 to $35.2 million as of December 31, 2025.
+See Notes 4 and 13 of Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+ Our investments include various marketable equity securities with a fair market value of $1.0 million and $1.1 million, as of December 31, 2025 and 2024, respectively.
+See Note 4 of Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+
+ 
+61
+
+Financing Activities
+Stock Option Exercises
+To accommodate employee stock option exercises, the Company issued 0.3 million and 0.1 million shares of common stock which resulted in proceeds of $1.8 million and $0.8 million during the years ended December 31, 2025 and 2024, respectively.
+
+Employee Pension Plan
+We maintain defined benefit pension plans covering employees in certain foreign countries. Pension benefit plan obligations are based on various assumptions used by our actuaries in calculating these amounts. These assumptions include discount rates, compensation rate increases, expected return on plan assets, retirement rates and mortality rates. Actual results that differ from the assumptions and changes in assumptions could affect future expenses and obligations. Details regarding the pension plans are set forth below.
+
+•
+In Germany, there are two defined benefit pension plans and two defined contribution plans. These plans provide benefits in the event of retirement, death or disability. The plan's benefits are based on age, years of service and salary. The defined benefit plans are financed by contributions paid by the Company and the defined contribution plans are financed by contributions paid by the participants.
+•
+In Switzerland, there are two defined benefit pension plans. Both plans provide benefits in the event of retirement, death or disability. The plan's benefits are based on age, years of service, salary and on a participant's old age account. The plans are financed by contributions paid by the participants and by the Company.
+•
+In Italy, the post-employment benefit plan is required due to statutory provisions. The plan is financed directly by the Company on a pay-as-you-go basis. Employees receive their pension payments as a function of salary, inflation and a notional account.
+•
+In Israel, there is a defined benefit plan that provides benefits in the event of a participant being dismissed involuntarily, retirement or death. The plan's benefits are based on the higher of the severance benefit required by law or the cash surrender value of the severance benefit component of any qualifying insurance policy or long-term employee benefit fund that is registered in the participant's name. The plan is financed by contributions paid by the Company.
+•
+In India, the post-employment benefit plan is required due to statutory provisions. The plan is financed directly by the Company on a pay-as-you-go basis.
+•
+In Poland, the post-employment benefit plan is required due to statutory provisions. The plan is financed directly by the Company on a pay as you go basis.
+Our defined benefit plan assets consist of a balanced portfolio of equity funds, bond funds, emerging market funds, real estate funds and balanced funds. Our investment policy includes various guidelines and procedures designed to ensure assets are invested in a manner necessary to meet expected future benefits earned by participants and consider a broad range of economic conditions. The objectives of our investment policy are to maintain investment portfolios that diversify risk through prudent asset allocation parameters, achieve asset returns that meet or exceed the plans’ actuarial assumptions and achieve asset returns that are competitive with like institutions employing similar investment strategies. The investment policy is periodically reviewed by us and a designated third-party fiduciary for investment matters. At December 31, 2025, the estimated fair market value of our defined benefit pension plans' assets increased to $64.3 million from $54.5 million at December 31, 2024.
+
+The defined benefit pension plan is accounted for on an actuarial basis, which requires the use of various assumptions, including an expected rate of return on plan assets and a discount rate. The expected return on our German plan assets that is utilized in determining the benefit obligation and net periodic benefit cost is derived from periodic studies, which include a review of asset allocation strategies, anticipated future long-term performance of individual asset classes, risks using standard deviations and correlations of returns among the asset classes that comprise the plans' asset mix. While the studies give appropriate consideration to recent plan performance and historical returns, the assumptions are primarily long-term, prospective rates of return. The discount rate has been derived from the returns of high-quality, corporate bonds denominated in euro currency with durations close to the duration of our pension obligations. The projected benefit obligation for our defined benefit pension plans was $68.7 million and $63.3 million as of December 31, 2025 and 2024, respectively.
+
+The components of net periodic pension cost, other than the service cost component, are included in other income, net in the Consolidated Statements of Loss. The components of net periodic pension cost and amounts recognized in other comprehensive income (loss) for the years ended December 31, 2025 and 2024 were $3.3 million and $0.3 million, respectively.
+Actuarial gains and losses are recorded in accumulated other comprehensive loss. To the extent unamortized gains and losses exceed 10% of the higher of the market-related value of assets or the projected benefit obligation, the excess is amortized as a component of net periodic pension cost over the remaining service period of active participants. We estimate that approximately $0.1 million of net
+
+ 
+62
+
+actuarial gains and approximately $0.1 million of net actuarial losses will be amortized from accumulated other comprehensive income into net periodic pension cost in 2026. The net actuarial gain and (loss) recognized in accumulated other comprehensive income as of December 31, 2025 and 2024 was $3.1 million and ($1.0) million, respectively.
+See Notes 13 and 14 of Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+Off-Balance Sheet Arrangements
+We have exposure to credit losses from off-balance sheet exposures used to provide various guarantees of performance such as bid bonds, performance bonds and customs bonds, where we believe the risk of loss is immaterial to our financial statements as of December 31, 2025. Otherwise, we do not have off-balance sheet financing arrangements and have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of or requirements for capital resources.
+See Note 17 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report for additional information.
+Cash Requirements
+The following table summarizes the Company’s short- and long-term cash requirements from known obligations pursuant to certain contracts and commitments as of December 31, 2025, as well as an estimate of the timing in which such obligations and payments are expected to be satisfied (but excluding payments that may be made pursuant to the DPLTA and currency hedging arrangements, which are discussed below). Other than operating lease obligations, the cash requirements table excludes interest payments.
+
+ 
+
+(In thousands)
+
+ 
+
+Total
+
+ 
+
+ 
+
+2026
+
+ 
+
+ 
+
+2027
+
+ 
+
+ 
+
+2028
+
+ 
+
+ 
+
+2029
+
+ 
+
+ 
+
+2030
+
+ 
+
+ 
+
+Thereafter
+
+ 
+
+Wells Fargo credit agreement
+(1)
+
+ 
+
+$
+
+25,000
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+25,000
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+ 
+
+$
+
+—
+
+ 
+
+Convertible Senior Notes
+(1)
+
+ 
+
+ 
+
+201,250
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+201,250
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+Purchase obligations
+(2)
+
+ 
+
+ 
+
+205,851
+
+ 
+
+ 
+
+ 
+
+200,733
+
+ 
+
+ 
+
+ 
+
+4,583
+
+ 
+
+ 
+
+ 
+
+535
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+ 
+
+ 
+
+—
+
+ 
+
+Operating lease obligations
+(3)
+
+ 
+
+ 
+
+43,424
+
+ 
+
+ 
+
+ 
+
+9,395
+
+ 
+
+ 
+
+ 
+
+8,376
+
+ 
+
+ 
+
+ 
+
+7,885
+
+ 
+
+ 
+
+ 
+
+3,884
+
+ 
+
+ 
+
+ 
+
+3,236
+
+ 
+
+ 
+
+ 
+
+10,648
+
+ 
+
+Totals
+
+ 
+
+$
+
+475,525
+
+ 
+
+ 
+
+$
+
+210,128
+
+ 
+
+ 
+
+$
+
+37,959
+
+ 
+
+ 
+
+$
+
+8,420
+
+ 
+
+ 
+
+$
+
+3,884
+
+ 
+
+ 
+
+$
+
+204,486
+
+ 
+
+ 
+
+$
+
+10,648
+
+ 
+
+(1) See description below.
+(2) We have purchase obligations related to open purchase orders to our contract manufacturers, ODMs, component suppliers, service partners and other vendors. The settlement of our purchase obligations will occur at various dates beginning in 2026 and going through 2028. See Note 17 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report for more information.
+(3) We have operating leases for office space, automobiles and various other equipment in the U.S. and in certain international locations. Our operating leases had remaining lease terms ranging from 1 month to 155 months as of December 31, 2025.
+Wells Fargo Credit Agreement
+On July 18, 2022, ADTRAN Holdings, Inc. and ADTRAN, Inc., as the borrower, entered into the Credit Agreement with the Administrative Agent and the other lenders named therein. The Credit Agreement was subsequently amended six times. As of December 31, 2025, the Company's borrowings under the revolving line of credit were $25.0 million. As of December 31 2025, the Company had access to $319.2 million on its Credit Facility for future borrowings based on debt covenant compliance metrics. The Credit Facility matures in July 2027; however, the Company may request extensions subject to customary conditions.
+See Note 10 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report and “Liquidity and Capital Resources” in Part II, Item 7 of this report for additional information.
+Convertible Senior Notes
+On September 19, 2025, the Company issued $201.3 million aggregate principal amount of the Notes. The Notes accrue interest at a rate of 3.75% per annum, payable semi-annually in arrears on March 15 and September 15 of each year, beginning March 15, 2026. Unless earlier repurchased, redeemed, or converted, the Notes will mature on September 15, 2030.
+See Note 11 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report and “Liquidity and Capital Resources - Convertible Senior Notes” in Part II, Item 7 of this report for additional information.
+
+ 
+63
+
+Currency Hedging Arrangements
+
+On November 3, 2022, the Company entered into a euro/U.S. dollar forward contract arrangement (the "Initial Forward") with Wells Fargo Bank, N.A. (the “Hedge Counterparty”). The Initial Forward, which was governed by the provisions of an ISDA Master Agreement (including schedules thereto and transaction confirmations that supplement such agreement) entered into between the Company and the Hedge Counterparty, enabling the Company to convert a portion of its euro denominated payment obligations under the proposed DPLTA into U.S. Dollars. Under the Initial Forward, the Company agreed to exchange an aggregate notional amount of €160.0 million for U.S. dollars at a daily fixed forward rate ranging from EUR/USD 0.98286 to 1.03290. The aggregate amount of €160.0 million was divided into eight quarterly tranches of €20.0 million, which commenced in the fourth quarter of 2022. During the year ended December 31, 2024, the Company settled four €20.0 million forward contract tranches.
+On March 21, 2023, the Company entered into a euro/U.S. dollar forward contract arrangement (the “Forward”) with the Hedge Counterparty. Under the Forward, which was governed by the provisions of an ISDA Master Agreement (including schedules thereto and transaction confirmations that supplement such agreement) entered into between the Company and the Hedge Counterparty, the Company exchanged an aggregate notional amount of €160.0 million for U.S. dollars at an average rate of EUR/USD 1.085. During the year ended December 31, 2024, the Company settled four $20.0 million forward contract tranches. As of December 31, 2024, both the Initial Forward and Forward have fully matured and are no longer outstanding.
+
+The Company has no outstanding hedges as of December 31, 2025.
+Receivables Purchase Arrangements
+
+On July 1, 2024, the Company entered into a receivables purchase agreement (the “Factoring Agreement”) with a third-party financial institution, which accelerates receivable collection and helps to better manage cash flow. Total accounts receivables factored as of the end of December 31, 2025, totaled $25.3 million net of $3.8 million retained pursuant to the Factoring Agreement in the reserve account. Total accounts receivables factored as of the end of December 31, 2024, totaled $18.3 million net of $3.7 million retained pursuant to the Factoring Agreement in the reserve account. The Factoring Agreement provides for up to $40.0 million in factoring capacity, subject to eligible receivables and reserve requirements, secured by the receivables. The balance in the reserve account is included in other assets. The Company at its own expense does have collection and administrative responsibilities for the sold receivables and that is its only continuing involvement with the Factor. The Company is not compensated for the servicing of the factoring program and deems the costs of servicing the receivables sold to be immaterial.
+During the years ended, December 31, 2025 and 2024, the Company received $169.1 million and $78.4 million, in cash proceeds from the Factoring Agreement, respectively, which are recorded as a component of accounts receivable in operating cash flows on the Consolidated Statement of Cash Flows. The cost of the Factoring Agreement is included in interest expense in the Consolidated Statements of Loss and totaled $1.4 million and $0.6 million for the years ended December 31, 2025 and 2024, respectively.
+On December 19, 2023, the Company entered into a receivables purchase agreement (the "Prior Factoring Agreement") with a third-party financial institution which qualified for treatment as a secured borrowing with a pledge of collateral under Accounting Standards Codification Topic 810, Consolidation. The Prior Factoring Agreement was terminated on July 1, 2024.
+See Note 2 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report for additional information.
+Domination and Profit and Loss Transfer Agreement
+The DPLTA between the Company, as the controlling company, and Adtran Networks, as the controlled company, as executed on December 1, 2022, became effective on January 16, 2023, as a result of its registration with the commercial register (
+Handelsregister
+) of the local court (
+Amtsgericht
+) at the registered seat of Adtran Networks (Jena).
+Under the DPLTA, subject to certain limitations pursuant to applicable law and the specific terms of the DPLTA, (i) the Company is entitled to issue binding instructions to the management board of Adtran Networks, (ii) Adtran Networks will transfer its annual profit to the Company, subject to, among other things, the creation or dissolution of certain reserves, and (iii) the Company will absorb the annual net loss incurred by Adtran Networks. The Company’s payment obligation in satisfaction of the requirement that it absorb Adtran Networks’ annual net loss applies to the net loss generated by Adtran Networks in 2025, and it will apply to any net loss generated by Adtran Networks in 2026.
+Pursuant to the terms of the DPLTA, each Adtran Networks shareholder (other than the Company) has received an offer to elect either (1) to remain an Adtran Networks shareholder and receive from us an Annual Recurring Compensation payment, or (2) to receive Exit Compensation plus guaranteed interest. The guaranteed interest under the Exit Compensation is calculated from the effective date of the DPLTA to the date the shares are tendered, less any Annual Recurring Compensation paid. The guaranteed interest rate is 5.0% plus a variable component (according to the German Civil Code) that was 1.27% as of December 31, 2025. Assuming all the minority holders of currently outstanding Adtran Networks shares were to elect the second option, we would be obligated to make aggregate Exit Compensation payments, including guaranteed interest, of €303.9 million or approximately $357.0 million, based on an exchange rate as of December 31, 2025 and reflecting interest accrued through December 31, 2025 during the pendency of the appraisal proceedings
+
+ 
+64
+
+discussed below. Shareholders electing the first option of Annual Recurring Compensation may later elect the second option. The opportunity for outside Adtran Networks shareholders to tender Adtran Networks shares in exchange for Exit Compensation had been scheduled to expire on March 16, 2023. However, due to the appraisal proceedings that were initiated in 2023 in accordance with applicable German law, this time period for tendering shares has been extended pursuant to the German Stock Corporation Act (
+Aktiengesetz
+) and will end two months after the date on which a final decision in such appraisal proceedings has been published in the Federal Gazette (
+Bundesanzeiger
+). Following the court's decision on a procedural matter in the DPLTA appraisal proceedings on July 14, 2025, the proceeding for the trial on the merits of the DPLTA has recommenced. It is expected to take a minimum of 12 months for a ruling of the court on the merits and such ruling will most likely be appealed, which would be expected to take an additional 12-24 months to be resolved. Accordingly, the Company does not expect a final decision on the DPLTA appraisal proceedings to be rendered and published prior to 2027, and most likely not until 2028 or beyond.
+
+Additionally, our obligation to pay Annual Recurring Compensation under the DPLTA is a continuing payment obligation, which will amount to approximately €7.9 million (or $9.3 million based on the exchange rate as of December 31, 2025) per year assuming none of the minority Adtran Networks shareholders as of December 31, 2025 were to elect Exit Compensation. The foregoing amounts do not reflect any potential increase in payment obligations that we may have depending on the outcome of ongoing appraisal proceedings in the German court. The Annual Recurring Compensation is due on the third banking day following the ordinary general shareholders’ meeting of Adtran Networks for the respective preceding fiscal year (but in any event within eight months following expiration of the fiscal year). With respect to the 2025 fiscal year, Adtran Networks’ ordinary general shareholder meeting is scheduled for the second quarter of 2026, and the Annual Recurring Compensation will be due on the third banking day following the meeting. With respect to the 2024 fiscal year, Adtran Networks’ ordinary general shareholder meeting occurred on June 27, 2025 and, therefore, the Annual Recurring Compensation was paid on July 1, 2025. During the years ended December 31, 2025 and 2024, we accrued $9.3 million and $9.8 million, respectively, in Annual Recurring Compensation. The Annual Recurring Compensation is reflected as an increase to retained deficit in the Consolidated Balance Sheets.
+
+On October 18, 2022, the Company's Board of Directors authorized the Company to purchase additional shares of Adtran Networks through open market purchases not to exceed 15,346,544 shares. For the year ended December 31, 2025, 2.0 million shares of Adtran Networks stock were tendered to the Company. This resulted in total Exit Compensation payments of €40.2 million, or approximately $46.6 million, based on exchange rates at the time of the transactions, being paid to Adtran Networks shareholders. For the year ended December 31, 2024, approximately 0.8 million shares of Adtran Networks stock was tendered to the Company and Exit Compensation payments of €15.7 million or approximately $17.4 million based on an exchange rate as of December 31, 2024, were paid to Adtran Networks shareholders.
+We currently hold 36,871,784 no-par value bearer shares of Adtran Networks, representing 70.8% of Adtran Networks outstanding shares as of December 31, 2025.
+The foregoing description of the DPLTA does not purport to be complete and is qualified in its entirety by reference to the DPLTA, a non-binding English translation of which is incorporated by reference to
+Exhibit 10.14
+ of this Annual Report on Form 10-K.
+Business Efficiency Program
+During the fourth quarter of 2023, the Company initiated a Business Efficiency Program designed to optimize the assets, business processes, and information technology systems of the Company in relation to the business combination with Adtran Networks. The Business Efficiency Program included expenses specifically associated with achieving run-rate synergies as well as Business Efficiency Program expenses described below.
+See Note 19 of the Notes to Consolidated Financial Statements, included in Part II, Item 8 of this report for additional information.
+We did not incur any Business Efficiency Program costs during the year ended December 31, 2025. The Company reduced previously accrued costs by $0.3 million during the year ended December 31, 2025. During the years ended December 31, 2024 and 2023, we recognized
+
+$44.7 million and $25.1 million, respectively, of costs relating to the Business Efficiency Program, respectively.
+
+As of December 31, 2025, all expenses related to the Business Efficiency Program have been paid.
+Other Cash Requirements
+During the year ended December 31, 2025, other than the Exit Compensation payments, Annual Recurring Compensation under the DPLTA, and receivables purchase arrangements there have been no other material changes in cash requirements from those discussed in the 2024 Form 10-K/A and our cash requirements table shown in Liquidity and Capital Resources above.
+Performance Bonds
+Certain contracts, customers and jurisdictions in which we do business require us to provide various guarantees of performance such as bid bonds, performance bonds and customs bonds. As of December 31, 2025 and 2024, we had commitments related to these bonds totaling $22.4 million and $15.7 million, respectively, which expire at various dates through April 2029. In general, we would only be liable for the amount of these guarantees in the event of default under each contract; the probability of which we believe is remote.
+
+ 
+65
+
+Critical Accounting Policies and Estimates
+Accounting Policies
+An accounting policy is deemed to be critical if it requires significant judgment, relies on key assumptions, and materially affects our reported financial condition and results of operations. These areas involve complex and subjective assessments, and changes in the underlying estimates or assumptions may have a material impact on our financial statements. Management reviews these policies regularly in light of evolving business conditions, market trends, and regulatory developments.
+ 
+The policies described below represent the accounting areas that we believe require the most significant use of judgment and estimation.
+Revenue
+Revenue is recognized upon transfer of control to the customer. For transactions where there are multiple performance obligations, individual products and services are accounted for separately if they are distinct (if a product or service is separately identifiable from other items and if a customer can benefit from it on its own or with other resources that are readily available to the customer).  The consideration, including any discounts, is allocated between separate products and services based on their stand-alone selling prices. Stand-alone selling prices are determined based on the prices at which the separate products and services are sold and are allocated based on each item’s relative value to the total value of the products and services in the arrangement.  For items not sold separately, we apply an “expected cost plus margin” approach.
+Judgments include:
+•
+identifying distinct performance obligations;
+•
+estimating stand‑alone selling prices;
+•
+assessing material rights and contract modifications; and
+•
+determining the pattern and timing of revenue recognition for service‑based deliverables.
+We closely monitor customer buying behavior, discounting patterns, and regional economic conditions that may change pricing or delivery cycles. As our product mix changes and begins to shift toward next‑generation virtualized platforms and cloud‑based services, we expect the complexity of revenue arrangements to increase, which may require refinements to our estimation methodologies.
+Inventory Valuation
+We carry our inventory at the lower of cost and net realizable value, with cost being determined using the first-in, first-out method. Standard costs for material, labor, and manufacturing overhead are used to value inventory and are updated at least quarterly. Most variances are expensed in the current period; therefore, our inventory costs approximate actual costs at the end of each reporting period. We establish reserves for estimated excess and obsolete inventory equal to the difference between the cost of the inventory and the estimated net realizable value of the inventory based on estimated reserve percentages, which consider historical usage, known trends, inventory age and market conditions. If actual trends and market conditions are less favorable than those projected by management, we may be required to make additional inventory write-downs.
+
+Goodwill
+
+Goodwill represents the excess purchase price over the fair value of net assets acquired. The Company’s annual impairment assessment is done at the reporting unit level, which we determined are generally the same as our operating segments. We review goodwill for impairment annually during the fourth quarter and also test for impairment between annual tests if an event occurs or circumstances change that would more likely than not reduce the fair value of our reporting units below their carrying amount. Such events and circumstances may include among others: a significant adverse change in legal factors or in the general business climate; significant decline in our stock price and market capitalization; unanticipated competition; the testing for recoverability of a significant asset within the reporting unit; and an adverse action or assessment by a regulator. Any adverse change in these factors could have a significant impact on the recoverability of goodwill and could have a material impact on our consolidated financial statements. Management updates these estimates based on the most recent market data, customer demand expectations, and strategic initiatives.
+Impairment of Long-Lived Assets and Intangibles
+Long-lived assets, such as property, plant and equipment, right of use lease assets and purchased intangibles subject to amortization, are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. Recoverability of assets to be held and used is measured by a comparison of the carrying amount of an asset to estimated undiscounted future cash flows expected to be generated by the asset or asset group. Forecasting future cash flows for asset groups involves uncertainties related to technology adoption rates, product roadmaps, and cost‑efficiency initiatives.  If the carrying amount of an asset exceeds its estimated future cash flows, an impairment charge is recognized by the amount by which the carrying amount of the asset exceeds the fair value of the asset or asset group.
+
+ 
+66
+
+An asset is considered to be held for sale when all the following criteria are met: (i) management commits to a plan to sell the asset; (ii) the asset is available for immediate sale in its present condition; (iii) actions required to complete the sale of the asset have been initiated; (iv) sale of the asset is probable and the completed sale is expected to occur within one year; (v) it is unlikely that the disposal plan will be significantly modified; and (vi) the asset is actively being marketed for sale at a price that is reasonable given its current market value. Making this determination is subject to management judgment regarding the facts and circumstances of the assets.  Management reviews these factors on at least an annual basis to determine if an asset remains or now should be classified as held for sale.
+Income Taxes
+We estimate our income tax provision or benefit in each of the jurisdictions in which we operate, including estimating exposures related to examinations by taxing authorities. We also make judgments regarding the realization of deferred tax assets and establish valuation allowances where we believe it is more likely than not that future taxable income in certain jurisdictions will be insufficient to realize these deferred tax assets. Our estimates regarding future taxable income and income tax provision or benefit may vary due to changes in market conditions, changes in tax laws, or other factors. If our assumptions, and consequently our estimates, change in the future, the valuation allowances we have established may be increased or decreased, impacting future income tax expense. We continually review the adequacy of our valuation allowance and recognize the benefits of deferred tax assets only as the reassessment indicates that it is more likely than not that the deferred tax assets will be realized in accordance with ASC 740, Income Taxes.
+
+In determining whether an uncertain tax position exists, the Company determines, based solely on its technical merits, whether the tax position is more likely than not to be sustained upon examination, and if so, a tax benefit is measured on a cumulative probability basis that is more likely than not to be realized upon the ultimate settlement. The Company recognizes interest and penalties related to unrecognized tax benefits through interest expense and income tax expense, respectively.
+Recently Issued Accounting Pronouncements
+For a discussion of recently issued accounting pronouncements,
+see Note 1 of Notes to Consolidated Financial Statements included in Part II, Item 8 of this report for additional information.
+
+ 
+67

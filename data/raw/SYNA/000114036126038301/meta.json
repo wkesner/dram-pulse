@@ -1,0 +1,41 @@
+{
+  "company": "Synaptics",
+  "ticker": "SYNA",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000817720",
+  "form": "8-K",
+  "filing_date": "2026-10-01",
+  "accession_number": "0001140361-26-038301",
+  "primary_document": "ef20083029_8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_8k.htm",
+  "fiscal_year_end": "0626",
+  "report_date": "2026-10-01",
+  "period_end": "2026-10-01",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:32:25.395614+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ef20083029_ex99-1.htm",
+      "path": "data/raw/SYNA/000114036126038301/exhibit_99_ef20083029_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_ex99-1.htm"
+    },
+    {
+      "name": "ef20083029_ex99-2.htm",
+      "path": "data/raw/SYNA/000114036126038301/exhibit_99_ef20083029_ex99-2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/817720/000114036126038301/ef20083029_ex99-2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/SYNA/000114036126038301/primary.html",
+    "other": "data/raw/SYNA/000114036126038301/other_full.txt"
+  }
+}

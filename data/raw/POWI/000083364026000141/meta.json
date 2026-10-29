@@ -1,0 +1,36 @@
+{
+  "company": "Power Integrations",
+  "ticker": "POWI",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000833640",
+  "form": "8-K",
+  "filing_date": "2026-08-05",
+  "accession_number": "0000833640-26-000141",
+  "primary_document": "powi-20260805.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000141/powi-20260805.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-05",
+  "period_end": "2026-08-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:32:07.360962+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "powi-20260805xexx991.htm",
+      "path": "data/raw/POWI/000083364026000141/exhibit_99_powi-20260805xexx991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/833640/000083364026000141/powi-20260805xexx991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/POWI/000083364026000141/primary.html",
+    "other": "data/raw/POWI/000083364026000141/other_full.txt"
+  }
+}

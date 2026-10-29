@@ -1,0 +1,36 @@
+{
+  "company": "Axcelis",
+  "ticker": "ACLS",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001113232",
+  "form": "10-Q",
+  "filing_date": "2025-11-06",
+  "accession_number": "0001104659-25-107689",
+  "primary_document": "acls-20250930x10q.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1113232/000110465925107689/acls-20250930x10q.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-09-30",
+  "period_end": "2025-09-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:42:15.794744+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ACLS/000110465925107689/primary.html",
+    "business": "data/raw/ACLS/000110465925107689/item1_business.txt",
+    "risk_factors": "data/raw/ACLS/000110465925107689/item1a_risk_factors.txt",
+    "mdna": "data/raw/ACLS/000110465925107689/item7_mdna.txt",
+    "other": "data/raw/ACLS/000110465925107689/other_full.txt"
+  }
+}

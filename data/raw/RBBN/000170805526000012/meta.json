@@ -1,0 +1,36 @@
+{
+  "company": "Ribbon Communications",
+  "ticker": "RBBN",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001708055",
+  "form": "10-K",
+  "filing_date": "2026-02-26",
+  "accession_number": "0001708055-26-000012",
+  "primary_document": "rbbn-20251231x10k.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1708055/000170805526000012/rbbn-20251231x10k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:41:44.926015+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/RBBN/000170805526000012/primary.html",
+    "business": "data/raw/RBBN/000170805526000012/item1_business.txt",
+    "risk_factors": "data/raw/RBBN/000170805526000012/item1a_risk_factors.txt",
+    "mdna": "data/raw/RBBN/000170805526000012/item7_mdna.txt",
+    "other": "data/raw/RBBN/000170805526000012/other_full.txt"
+  }
+}

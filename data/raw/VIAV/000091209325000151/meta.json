@@ -1,0 +1,36 @@
+{
+  "company": "Viavi Solutions",
+  "ticker": "VIAV",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000912093",
+  "form": "8-K",
+  "filing_date": "2025-10-29",
+  "accession_number": "0000912093-25-000151",
+  "primary_document": "viav-20251029.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/912093/000091209325000151/viav-20251029.htm",
+  "fiscal_year_end": "0627",
+  "report_date": "2025-10-29",
+  "period_end": "2025-10-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:37:30.161954+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "viavq1fy268-kex991.htm",
+      "path": "data/raw/VIAV/000091209325000151/exhibit_99_viavq1fy268-kex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/912093/000091209325000151/viavq1fy268-kex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/VIAV/000091209325000151/primary.html",
+    "other": "data/raw/VIAV/000091209325000151/other_full.txt"
+  }
+}

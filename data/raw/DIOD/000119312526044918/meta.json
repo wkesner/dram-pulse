@@ -1,0 +1,36 @@
+{
+  "company": "Diodes Incorporated",
+  "ticker": "DIOD",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000029002",
+  "form": "10-K",
+  "filing_date": "2026-02-10",
+  "accession_number": "0001193125-26-044918",
+  "primary_document": "diod-20251231.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/29002/000119312526044918/diod-20251231.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:31:43.192990+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/DIOD/000119312526044918/primary.html",
+    "business": "data/raw/DIOD/000119312526044918/item1_business.txt",
+    "risk_factors": "data/raw/DIOD/000119312526044918/item1a_risk_factors.txt",
+    "mdna": "data/raw/DIOD/000119312526044918/item7_mdna.txt",
+    "other": "data/raw/DIOD/000119312526044918/other_full.txt"
+  }
+}

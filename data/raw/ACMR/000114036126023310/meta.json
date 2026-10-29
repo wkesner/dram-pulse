@@ -1,0 +1,36 @@
+{
+  "company": "ACM Research",
+  "ticker": "ACMR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001680062",
+  "form": "8-K",
+  "filing_date": "2026-05-29",
+  "accession_number": "0001140361-26-023310",
+  "primary_document": "ef20075131_8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1680062/000114036126023310/ef20075131_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-26",
+  "period_end": "2026-05-26",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:43:50.619047+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ef20075131_ex99-1.htm",
+      "path": "data/raw/ACMR/000114036126023310/exhibit_99_ef20075131_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1680062/000114036126023310/ef20075131_ex99-1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ACMR/000114036126023310/primary.html",
+    "other": "data/raw/ACMR/000114036126023310/other_full.txt"
+  }
+}

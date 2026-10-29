@@ -1,0 +1,7402 @@
+MODINE MANUFACTURING CO_June 30, 2026
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#PropertyPlantAndEquipmentNet
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligationsCurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligations
+0000067347
+--03-31
+2027
+Q1
+MODINE MANUFACTURING CO
+http://fasb.org/us-gaap/2025#AccountsPayableCurrent
+P3Y
+P3Y
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#PropertyPlantAndEquipmentNet
+http://fasb.org/us-gaap/2025#OtherLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligationsCurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligations
+3.50
+false
+0000067347
+srt:MinimumMember
+2026-06-30
+0000067347
+srt:MaximumMember
+2026-06-30
+0000067347
+us-gaap:TreasuryStockCommonMember
+2026-06-30
+0000067347
+us-gaap:RetainedEarningsMember
+2026-06-30
+0000067347
+us-gaap:NoncontrollingInterestMember
+2026-06-30
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2026-06-30
+0000067347
+us-gaap:TreasuryStockCommonMember
+2026-03-31
+0000067347
+us-gaap:RetainedEarningsMember
+2026-03-31
+0000067347
+us-gaap:NoncontrollingInterestMember
+2026-03-31
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2026-03-31
+0000067347
+us-gaap:TreasuryStockCommonMember
+2025-06-30
+0000067347
+us-gaap:RetainedEarningsMember
+2025-06-30
+0000067347
+us-gaap:NoncontrollingInterestMember
+2025-06-30
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-30
+0000067347
+us-gaap:TreasuryStockCommonMember
+2025-03-31
+0000067347
+us-gaap:RetainedEarningsMember
+2025-03-31
+0000067347
+us-gaap:NoncontrollingInterestMember
+2025-03-31
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2025-03-31
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-06-30
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-06-30
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-06-30
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-03-31
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-03-31
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-03-31
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-03-31
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-06-30
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-30
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-06-30
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-03-31
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-03-31
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-03-31
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-03-31
+0000067347
+mod:SwinglineLoansMember
+2026-06-30
+0000067347
+mod:ForeignCreditAgreementsMember
+2026-06-30
+0000067347
+mod:SwinglineLoansMember
+2026-03-31
+0000067347
+mod:OverdraftBorrowingsMember
+2026-03-31
+0000067347
+mod:ForeignCreditAgreementsMember
+2026-03-31
+0000067347
+us-gaap:RestrictedStockMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:PerformanceSharesMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+srt:EuropeMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+srt:EuropeMember
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+srt:EuropeMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AsiaMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AsiaMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AmericasMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AmericasMember
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AmericasMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+mod:LiquidCooledMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+mod:HvacTechnologiesMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+mod:HeatTransferSolutionsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+mod:DataCenterCoolingSolutionsMember
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+mod:AirCooledMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+2026-04-01
+2026-06-30
+0000067347
+srt:EuropeMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AsiaMember
+2026-04-01
+2026-06-30
+0000067347
+srt:AmericasMember
+2026-04-01
+2026-06-30
+0000067347
+mod:LiquidCooledMember
+2026-04-01
+2026-06-30
+0000067347
+mod:HvacTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+mod:HeatTransferSolutionsMember
+2026-04-01
+2026-06-30
+0000067347
+mod:DataCenterCoolingSolutionsMember
+2026-04-01
+2026-06-30
+0000067347
+mod:AirCooledMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+srt:EuropeMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+srt:EuropeMember
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+srt:EuropeMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AsiaMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AsiaMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AmericasMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AmericasMember
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AmericasMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+mod:LiquidCooledMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+mod:HvacTechnologiesMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+mod:HeatTransferSolutionsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+mod:DataCenterCoolingSolutionsMember
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+mod:AirCooledMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:IntersegmentEliminationMember
+2025-04-01
+2025-06-30
+0000067347
+srt:EuropeMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AsiaMember
+2025-04-01
+2025-06-30
+0000067347
+srt:AmericasMember
+2025-04-01
+2025-06-30
+0000067347
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+mod:LiquidCooledMember
+2025-04-01
+2025-06-30
+0000067347
+mod:HvacTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+mod:HeatTransferSolutionsMember
+2025-04-01
+2025-06-30
+0000067347
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+mod:DataCenterCoolingSolutionsMember
+2025-04-01
+2025-06-30
+0000067347
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+mod:AirCooledMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentNetUnamortizedGainLossMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentNetUnamortizedGainLossMember
+2025-04-01
+2025-06-30
+0000067347
+srt:MinimumMember
+us-gaap:OfficeEquipmentMember
+2026-06-30
+0000067347
+srt:MinimumMember
+us-gaap:MachineryAndEquipmentMember
+2026-06-30
+0000067347
+srt:MinimumMember
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-06-30
+0000067347
+srt:MaximumMember
+us-gaap:OfficeEquipmentMember
+2026-06-30
+0000067347
+srt:MaximumMember
+us-gaap:MachineryAndEquipmentMember
+2026-06-30
+0000067347
+srt:MaximumMember
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-06-30
+0000067347
+us-gaap:OfficeEquipmentMember
+2026-06-30
+0000067347
+us-gaap:MachineryAndEquipmentMember
+2026-06-30
+0000067347
+us-gaap:LandMember
+2026-06-30
+0000067347
+us-gaap:ConstructionInProgressMember
+2026-06-30
+0000067347
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-06-30
+0000067347
+us-gaap:OfficeEquipmentMember
+2026-03-31
+0000067347
+us-gaap:MachineryAndEquipmentMember
+2026-03-31
+0000067347
+us-gaap:LandMember
+2026-03-31
+0000067347
+us-gaap:ConstructionInProgressMember
+2026-03-31
+0000067347
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-03-31
+0000067347
+us-gaap:DisposalGroupDisposedOfByMeansOtherThanSaleNotDiscontinuedOperationsSpinoffMember
+mod:PerformanceTechnologiesMember
+2026-01-01
+2026-01-31
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:FairValueInputsLevel2Member
+2026-06-30
+0000067347
+us-gaap:FairValueInputsLevel2Member
+2026-03-31
+0000067347
+mod:FinanceLeaseObligationsMember
+2026-06-30
+0000067347
+mod:TermLoansMember
+2026-03-31
+0000067347
+mod:SeniorNotesDue2029Member
+2026-03-31
+0000067347
+mod:SeniorNotesDue2027Member
+2026-03-31
+0000067347
+mod:MultiCurrencyRevolvingCreditFacilityMember
+2026-03-31
+0000067347
+mod:FinanceLeaseObligationsMember
+2026-03-31
+0000067347
+mod:CreditAgreementMember
+2026-06-30
+0000067347
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+mod:DataCenterMember
+2026-06-30
+0000067347
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-06-30
+0000067347
+mod:DataCenterMember
+2026-03-31
+0000067347
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-03-31
+0000067347
+us-gaap:TradeNamesMember
+2026-06-30
+0000067347
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2026-06-30
+0000067347
+us-gaap:CustomerRelationshipsMember
+2026-06-30
+0000067347
+us-gaap:TradeNamesMember
+2026-03-31
+0000067347
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2026-03-31
+0000067347
+us-gaap:CustomerRelationshipsMember
+2026-03-31
+0000067347
+us-gaap:RestrictedStockMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:RestrictedStockMember
+2026-06-30
+0000067347
+us-gaap:PerformanceSharesMember
+2026-06-30
+0000067347
+us-gaap:DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+mod:PendingDispositionOfFacilitiesInGermanyMember
+2026-06-30
+0000067347
+us-gaap:DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+mod:PendingDispositionOfFacilitiesInGermanyMember
+2026-03-31
+0000067347
+us-gaap:PensionPlansDefinedBenefitMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:PensionPlansDefinedBenefitMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:ForeignCountryMember
+2026-06-30
+0000067347
+us-gaap:DomesticCountryMember
+2026-06-30
+0000067347
+mod:TermLoansMember
+2026-06-30
+0000067347
+mod:MultiCurrencyRevolvingCreditFacilityMember
+2026-06-30
+0000067347
+mod:SeniorNotesDue2029Member
+2026-06-30
+0000067347
+mod:SeniorNotesDue2027Member
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:DataCenterMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+mod:CorporateAndEliminationsMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:PerformanceTechnologiesMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:DataCenterMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2025-04-01
+2025-06-30
+0000067347
+mod:CorporateAndEliminationsMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:CommonStockMember
+2026-06-30
+0000067347
+us-gaap:CommonStockMember
+2026-03-31
+0000067347
+us-gaap:CommonStockMember
+2025-06-30
+0000067347
+us-gaap:CommonStockMember
+2025-03-31
+0000067347
+2025-06-30
+0000067347
+2025-03-31
+0000067347
+mod:ClimateByDesignMember
+2025-07-01
+0000067347
+mod:LbWhiteMember
+2025-05-31
+0000067347
+mod:AbsolutaireMember
+2025-04-01
+0000067347
+mod:ClimateByDesignMember
+2025-07-01
+2025-07-01
+0000067347
+mod:LbWhiteMember
+2025-05-31
+2025-05-31
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:PerformanceTechnologiesMember
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:DataCenterMember
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-06-30
+0000067347
+mod:SegmentReconcilingItemsAndCorporateMember
+2026-06-30
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:PerformanceTechnologiesMember
+2026-03-31
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:DataCenterMember
+2026-03-31
+0000067347
+us-gaap:OperatingSegmentsMember
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-03-31
+0000067347
+mod:SegmentReconcilingItemsAndCorporateMember
+2026-03-31
+0000067347
+us-gaap:TreasuryStockCommonMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:RetainedEarningsMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:NoncontrollingInterestMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:CommonStockMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-04-01
+2026-06-30
+0000067347
+us-gaap:TreasuryStockCommonMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:RetainedEarningsMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:NoncontrollingInterestMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:CommonStockMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:AdditionalPaidInCapitalMember
+2025-04-01
+2025-06-30
+0000067347
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-04-01
+2025-06-30
+0000067347
+2025-04-01
+2025-06-30
+0000067347
+2026-03-31
+0000067347
+us-gaap:PerformanceSharesMember
+2026-04-01
+2026-06-30
+0000067347
+mod:PerformanceTechnologiesMember
+2026-04-01
+2026-06-30
+0000067347
+mod:CommercialHeatingVentilationAndAirConditioningMember
+2026-04-01
+2026-06-30
+0000067347
+2026-04-01
+2026-04-01
+0000067347
+2026-06-30
+0000067347
+us-gaap:DisposalGroupDisposedOfByMeansOtherThanSaleNotDiscontinuedOperationsSpinoffMember
+mod:PerformanceTechnologiesMember
+2026-01-31
+0000067347
+2026-03-01
+2026-03-31
+0000067347
+mod:TermLoansMember
+2026-04-01
+2026-06-30
+0000067347
+mod:SeniorNotesDue2029Member
+2026-04-01
+2026-06-30
+0000067347
+mod:SeniorNotesDue2027Member
+2026-04-01
+2026-06-30
+0000067347
+mod:MultiCurrencyRevolvingCreditFacilityMember
+2026-04-01
+2026-06-30
+0000067347
+srt:MaximumMember
+2026-04-01
+2026-06-30
+0000067347
+srt:MinimumMember
+2026-04-01
+2026-06-30
+0000067347
+mod:MichaelB.LucareliMember
+2026-06-30
+0000067347
+mod:AuthurLaszloJrMember
+2026-06-30
+0000067347
+mod:MichaelB.LucareliMember
+2026-04-01
+2026-06-30
+0000067347
+mod:AuthurLaszloJrMember
+2026-04-01
+2026-06-30
+0000067347
+2026-07-24
+0000067347
+2026-04-01
+2026-06-30
+xbrli:shares
+xbrli:pure
+iso4217:USD
+mod:segment
+mod:item
+iso4217:USD
+xbrli:shares
+Table of Contents
+​
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D. C. 20549
+FORM 
+10-Q
+þ
+  QUARTERLY REPORT PURSUANT TO SECTION 13 or 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+June 30, 2026
+or
+☐
+  TRANSITION REPORT PURSUANT TO SECTION 13 or 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from ____________ to ____________
+​
+Commission file number
+1-1373
+MODINE MANUFACTURING COMPANY
+(Exact name of registrant as specified in its charter)
+​
+Wisconsin
+  ​ ​ ​
+39-0482000
+(State or other jurisdiction of incorporation or organization)
+​
+(I.R.S. Employer Identification No.)
+​
+​
+​
+1500 DeKoven Avenue
+,
+Racine
+,
+Wisconsin
+​
+53403
+(Address of principal executive offices)
+​
+(Zip Code)
+​
+Registrant’s telephone number, including area code
+(
+262
+)
+636-1200
+Securities registered pursuant to Section 12(b) of the Act:
+​
+​
+​
+​
+​
+​
+Title of each class
+  ​ ​ ​
+Trading Symbol(s)
+  ​ ​ ​
+Name of each exchange on which registered
+​
+​
+​
+​
+​
+Common Stock, $0.625 par value
+​
+MOD
+​
+New York Stock Exchange
+​
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+Yes
+
+þ
+  No
+☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes
+
+þ
+  No
+☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+​
+​
+​
+​
+​
+Large Accelerated Filer
+
+þ
+  ​ ​ ​
+Accelerated Filer
+☐
+​
+​
+​
+​
+​
+Non-accelerated Filer
+☐
+​
+Smaller reporting company
+☐
+​
+​
+​
+​
+​
+​
+​
+Emerging growth company
+☐
+​
+​
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).
+Yes
+☐
+  No
+þ
+The number of shares outstanding of the registrant’s common stock, $0.625 par value, was
+53,112,708
+ at July 24, 2026.
+​
+​
+​
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+TABLE OF CONTENTS
+PART I. FINANCIAL INFORMATION
+​
+​
+​
+​
+​
+Item 1. Financial Statements.
+
+1
+​
+​
+​
+​
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+
+22
+​
+​
+​
+​
+Item 3. Quantitative and Qualitative Disclosures About Market Risk.
+
+31
+​
+​
+​
+​
+Item 4. Controls and Procedures.
+
+31
+​
+​
+​
+PART II. OTHER INFORMATION
+​
+​
+​
+​
+​
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds.
+32
+​
+​
+​
+​
+Item 5. Other Information.
+
+32
+​
+​
+​
+​
+Item 6. Exhibits.
+
+33
+​
+​
+​
+SIGNATURE
+34
+​
+​
+​
+​
+​
+
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements.
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF OPERATIONS
+For the three months ended June 30, 2026 and 2025
+(In millions, except per share amounts)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Net sales
+​
+$
+
+874.1
+​
+$
+
+682.8
+Cost of sales
+​
+ 
+
+692.1
+​
+ 
+
+517.4
+Gross profit
+​
+ 
+
+182.0
+​
+ 
+
+165.4
+Selling, general and administrative expenses
+​
+ 
+
+103.3
+​
+ 
+
+84.9
+Restructuring expenses
+​
+ 
+
+3.9
+​
+ 
+
+4.8
+Operating income
+​
+ 
+
+74.8
+​
+ 
+
+75.7
+Interest expense
+​
+ 
+ (
+6.4
+)
+​
+ 
+ (
+5.8
+)
+Other income (expense) – net
+​
+ 
+
+0.2
+​
+ 
+ (
+4.2
+)
+Earnings before income taxes
+​
+ 
+
+68.6
+​
+ 
+
+65.7
+Benefit (provision) for income taxes
+​
+ 
+
+5.7
+​
+ 
+ (
+14.0
+)
+Net earnings
+​
+ 
+
+74.3
+​
+ 
+
+51.7
+Net earnings attributable to noncontrolling interest
+​
+ 
+ (
+0.4
+)
+​
+ 
+ (
+0.5
+)
+Net earnings attributable to Modine
+​
+$
+
+73.9
+​
+$
+
+51.2
+​
+​
+​
+​
+​
+​
+​
+Net earnings per share attributable to Modine shareholders:
+​
+ 
+  ​
+​
+ 
+  ​
+Basic
+​
+$
+
+1.39
+​
+$
+
+0.97
+Diluted
+​
+$
+
+1.37
+​
+$
+
+0.95
+​
+​
+​
+​
+​
+​
+​
+Weighted-average shares outstanding:
+​
+ 
+  ​
+​
+ 
+  ​
+Basic
+​
+ 
+
+53.3
+​
+ 
+
+52.6
+Diluted
+​
+ 
+
+54.0
+​
+ 
+
+53.7
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+1
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+For the three months ended June 30, 2026 and 2025
+(In millions)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Net earnings
+​
+$
+
+74.3
+​
+$
+
+51.7
+Other comprehensive income (loss), net of income taxes:
+​
+ 
+  ​
+​
+ 
+  ​
+Foreign currency translation
+​
+ 
+ (
+10.1
+)
+​
+ 
+
+47.7
+Defined benefit plans
+​
+ 
+ (
+0.1
+)
+​
+ 
+
+0.8
+Cash flow hedges
+​
+ 
+ (
+0.2
+)
+​
+ 
+
+1.4
+Total other comprehensive (loss) income
+​
+ 
+ (
+10.4
+)
+​
+ 
+
+49.9
+​
+​
+​
+​
+​
+​
+​
+Comprehensive income
+​
+ 
+
+63.9
+​
+ 
+
+101.6
+Comprehensive income attributable to noncontrolling interest
+​
+ 
+ (
+0.3
+)
+​
+ 
+ (
+1.0
+)
+Comprehensive income attributable to Modine
+​
+$
+
+63.6
+​
+$
+
+100.6
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+2
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED BALANCE SHEETS
+June 30, 2026 and March 31, 2026
+(In millions, except per share amounts)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+ASSETS
+  ​ ​ ​
+​
+  ​
+ 
+​
+  ​
+Cash and cash equivalents
+​
+$
+
+95.3
+​
+$
+
+73.5
+Trade accounts receivable – net
+​
+ 
+
+659.9
+​
+ 
+
+731.0
+Inventories
+​
+ 
+
+609.0
+​
+ 
+
+506.1
+Other current assets
+​
+ 
+
+162.7
+​
+ 
+
+105.5
+Total current assets
+​
+ 
+
+1,526.9
+​
+ 
+
+1,416.1
+Property, plant and equipment – net
+​
+ 
+
+536.1
+​
+ 
+
+520.9
+Intangible assets – net
+​
+ 
+
+190.2
+​
+ 
+
+197.0
+Goodwill
+​
+ 
+
+290.2
+​
+ 
+
+292.1
+Deferred income taxes
+​
+ 
+
+88.7
+​
+ 
+
+85.3
+Other noncurrent assets
+​
+ 
+
+163.3
+​
+ 
+
+163.2
+Total assets
+​
+$
+
+2,795.4
+​
+$
+
+2,674.6
+​
+​
+​
+​
+​
+​
+​
+LIABILITIES AND SHAREHOLDERS’ EQUITY
+​
+ 
+  ​
+​
+ 
+  ​
+Short-term debt
+​
+$
+
+8.1
+​
+$
+
+7.5
+Long-term debt – current portion
+​
+ 
+
+43.9
+​
+ 
+
+43.9
+Accounts payable
+​
+ 
+
+508.9
+​
+ 
+
+464.8
+Accrued compensation and employee benefits
+​
+ 
+
+84.1
+​
+ 
+
+95.1
+Other current liabilities
+​
+ 
+
+104.8
+​
+ 
+
+117.6
+Total current liabilities
+​
+ 
+
+749.8
+​
+ 
+
+728.9
+Long-term debt
+​
+ 
+
+476.2
+​
+ 
+
+384.9
+Deferred income taxes
+​
+ 
+
+24.8
+​
+ 
+
+25.6
+Other noncurrent liabilities
+​
+ 
+
+334.8
+​
+ 
+
+332.4
+Total liabilities
+​
+ 
+
+1,585.6
+​
+ 
+
+1,471.8
+Commitments and contingencies (see Note 18)
+​
+ 
+  ​
+​
+ 
+  ​
+Shareholders’ equity:
+​
+ 
+  ​
+​
+ 
+  ​
+Preferred stock,
+$
+0.025
+ par value, authorized
+16.0
+ million shares, issued –
+none
+​
+ 
+ —
+​
+ 
+ —
+Common stock,
+$
+0.625
+ par value, authorized
+80.0
+ million shares, issued
+57.5
+ million and
+57.0
+ million shares
+​
+ 
+
+35.9
+​
+ 
+
+35.6
+Additional paid-in capital
+​
+ 
+
+343.8
+​
+ 
+
+336.1
+Retained earnings
+​
+ 
+
+1,038.4
+​
+ 
+
+964.5
+Accumulated other comprehensive loss
+​
+ 
+ (
+47.4
+)
+​
+ 
+ (
+37.1
+)
+Treasury stock, at cost,
+4.4
+ million and
+4.2
+ million shares
+​
+ 
+ (
+169.2
+)
+​
+ 
+ (
+104.6
+)
+Total Modine shareholders’ equity
+​
+ 
+
+1,201.5
+​
+ 
+
+1,194.5
+Noncontrolling interest
+​
+ 
+
+8.3
+​
+ 
+
+8.3
+Total equity
+​
+ 
+
+1,209.8
+​
+ 
+
+1,202.8
+Total liabilities and equity
+​
+$
+
+2,795.4
+​
+$
+
+2,674.6
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+3
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+For the three months ended June 30, 2026 and 2025
+(In millions)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Cash flows from operating activities:
+ 
+​
+  ​
+ 
+​
+  ​
+Net earnings
+​
+$
+
+74.3
+​
+$
+
+51.7
+Adjustments to reconcile net earnings to net cash provided by operating activities:
+​
+ 
+  ​
+​
+ 
+  ​
+Depreciation and amortization
+​
+ 
+
+20.7
+​
+ 
+
+19.0
+Stock-based compensation expense
+​
+ 
+
+8.0
+​
+ 
+
+5.3
+Deferred income taxes
+​
+ 
+ (
+3.8
+)
+​
+ 
+
+0.7
+Other – net
+​
+ 
+
+1.1
+​
+ 
+
+2.6
+Changes in operating assets and liabilities:
+​
+ 
+  ​
+​
+ 
+  ​
+Trade accounts receivable
+​
+ 
+
+68.3
+​
+ 
+ (
+10.6
+)
+Inventories
+​
+ 
+ (
+105.4
+)
+​
+ 
+ (
+61.6
+)
+Accounts payable
+​
+ 
+
+58.0
+​
+ 
+
+46.7
+Other assets and liabilities
+​
+​
+ (
+79.8
+)
+​
+​
+ (
+26.1
+)
+Net cash provided by operating activities
+​
+ 
+
+41.4
+​
+ 
+
+27.7
+​
+​
+​
+​
+​
+​
+​
+Cash flows from investing activities:
+​
+ 
+  ​
+​
+ 
+  ​
+Expenditures for property, plant and equipment
+​
+ 
+ (
+46.4
+)
+​
+ 
+ (
+27.5
+)
+Payments for business acquisitions
+​
+ 
+ —
+​
+ 
+ (
+119.0
+)
+Other – net
+​
+ 
+ —
+​
+ 
+
+2.5
+Net cash used for investing activities
+​
+ 
+ (
+46.4
+)
+​
+ 
+ (
+144.0
+)
+​
+​
+​
+​
+​
+​
+​
+Cash flows from financing activities:
+​
+ 
+  ​
+​
+ 
+  ​
+Borrowings of debt
+​
+ 
+
+372.0
+​
+ 
+
+265.0
+Repayments of debt
+​
+ 
+ (
+283.4
+)
+​
+ 
+ (
+83.2
+)
+Borrowings (repayments) on bank overdraft facilities – net
+​
+ 
+
+3.3
+​
+ 
+ (
+9.8
+)
+Purchases of treasury stock
+​
+ 
+ (
+64.6
+)
+​
+ 
+ (
+5.1
+)
+Dividend paid to noncontrolling interest
+​
+ 
+ —
+​
+ 
+ (
+0.7
+)
+Other – net
+​
+ 
+ (
+0.2
+)
+​
+ 
+
+0.7
+Net cash provided by financing activities
+​
+ 
+
+27.1
+​
+ 
+
+166.9
+​
+​
+​
+​
+​
+​
+​
+Effect of exchange rate changes on cash
+​
+ 
+ (
+0.3
+)
+​
+ 
+
+2.2
+Net increase in cash, cash equivalents and restricted cash
+​
+ 
+
+21.8
+​
+ 
+
+52.8
+​
+​
+​
+​
+​
+​
+​
+Cash, cash equivalents and restricted cash – beginning of period
+​
+ 
+
+73.7
+​
+ 
+
+71.9
+Cash, cash equivalents and restricted cash – end of period
+​
+$
+
+95.5
+​
+$
+
+124.7
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+4
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY
+For the three months ended June 30, 2026
+(In millions)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Accumulated
+​
+​
+​
+​
+​
+​
+​
+​
+ 
+​
+​
+​
+​
+​
+​
+​
+Additional
+​
+​
+​
+​
+other
+​
+Treasury
+​
+Non-
+​
+​
+ 
+​
+  ​ ​ ​
+Common stock
+​
+paid-in
+​
+Retained
+​
+comprehensive
+​
+stock, at
+​
+controlling
+​
+​
+ 
+​
+ 
+Shares
+  ​ ​ ​
+Amount
+  ​ ​ ​
+capital
+  ​ ​ ​
+earnings
+  ​ ​ ​
+loss
+  ​ ​ ​
+cost
+  ​ ​ ​
+interest
+  ​ ​ ​
+Total
+Balance, March 31, 2026
+ 
+
+57.0
+​
+$
+
+35.6
+​
+$
+
+336.1
+​
+$
+
+964.5
+​
+$
+ (
+37.1
+)
+​
+$
+ (
+104.6
+)
+​
+$
+
+8.3
+​
+$
+
+1,202.8
+Net earnings
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+73.9
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+0.4
+​
+ 
+
+74.3
+Other comprehensive loss
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+ (
+10.3
+)
+​
+ 
+
+—
+​
+ 
+ (
+0.1
+)
+​
+ 
+ (
+10.4
+)
+Stock options and awards
+ 
+
+0.5
+​
+ 
+
+0.3
+​
+ 
+ (
+0.3
+)
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+Purchases of treasury stock
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+ (
+64.6
+)
+​
+ 
+
+—
+​
+ 
+ (
+64.6
+)
+Stock-based compensation expense
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+8.0
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+8.0
+Dividend declared to noncontrolling interest
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+ (
+0.3
+)
+​
+ 
+ (
+0.3
+)
+Balance, June 30, 2026
+ 
+
+57.5
+​
+$
+
+35.9
+​
+$
+
+343.8
+​
+$
+
+1,038.4
+​
+$
+ (
+47.4
+)
+​
+$
+ (
+169.2
+)
+​
+$
+
+8.3
+​
+$
+
+1,209.8
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+5
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY
+For the three months ended June 30, 2025
+(In millions)
+(Unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Accumulated 
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Additional 
+​
+​
+​
+​
+other 
+​
+Treasury 
+​
+Non-
+​
+​
+​
+​
+​
+Common  stock
+​
+paid-in 
+​
+Retained 
+​
+comprehensive 
+​
+stock, at 
+​
+controlling 
+​
+​
+​
+​
+  ​ ​ ​
+Shares
+  ​ ​ ​
+Amount
+  ​ ​ ​
+capital
+  ​ ​ ​
+earnings
+  ​ ​ ​
+loss
+  ​ ​ ​
+cost
+  ​ ​ ​
+interest
+  ​ ​ ​
+Total
+Balance, March 31, 2025
+ 
+
+56.5
+​
+$
+
+35.3
+​
+$
+
+310.8
+​
+$
+
+843.0
+​
+$
+ (
+181.3
+)
+​
+$
+ (
+97.6
+)
+​
+$
+
+8.0
+​
+$
+
+918.2
+Net earnings
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+51.2
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+0.5
+​
+ 
+
+51.7
+Other comprehensive income
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+49.4
+​
+ 
+
+—
+​
+ 
+
+0.5
+​
+ 
+
+49.9
+Stock options and awards
+ 
+
+0.1
+​
+ 
+
+0.1
+​
+ 
+
+0.4
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+0.5
+Purchases of treasury stock
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+ (
+5.1
+)
+​
+ 
+
+—
+​
+ 
+ (
+5.1
+)
+Stock-based compensation expense
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+5.3
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+5.3
+Dividends declared or paid to noncontrolling interest
+ 
+ —
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+
+—
+​
+ 
+ (
+1.8
+)
+​
+ 
+ (
+1.8
+)
+Balance, June 30, 2025
+ 
+
+56.6
+​
+$
+
+35.4
+​
+$
+
+316.5
+​
+$
+
+894.2
+​
+$
+ (
+131.9
+)
+​
+$
+ (
+102.7
+)
+​
+$
+
+7.2
+​
+$
+
+1,018.7
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+​
+6
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 1: General
+The accompanying unaudited condensed consolidated financial statements of Modine Manufacturing Company (“Modine” or the “Company”) were prepared in conformity with accounting principles generally accepted in the United States (“GAAP”) for interim financial information and with the instructions to Form 10-Q and Rule 10-
+01 of Regulation S-X.  Accordingly, they do not include all of the information and footnotes necessary for a comprehensive presentation of financial position, results of operations and cash flows required by GAAP for complete financial statements.  The financial statements include all normal recurring adjustments that are, in the opinion of management, necessary for a fair statement of results for the interim periods.  Results for the first three months of fiscal 2027 are not necessarily indicative of the results to be expected for the full 
+year.  These financial statements should be read in conjunction with the consolidated financial statements and related notes in Modine’s Annual Report on Form 10-K for the year ended March 31, 2026.
+Supplier finance program
+The Company facilitates a voluntary supplier finance program through a financial institution that allows certain suppliers in the U.S. and Europe to request early payment for invoices, at a discount, from a financial institution.  The Company or the financial institution may terminate the supplier finance program upon
+90
+ 
+days notice.  The Company’s obligations to its suppliers, including amounts due and payment terms, are consistent, irrespective of whether a supplier participates in the program.  The Company is not party to the arrangements between the participating suppliers and the financial institution.  Under this program, the Company confirms the validity of supplier invoices to the financial institution and remits payments to it based on the original payment terms, which typically range from
+60
+ to
+120
+ 
+days.  The outstanding obligations under this program, included within
+accounts payable
+ on the consolidated balance sheets, totaled $
+23.7
+ million and $
+21.6
+ million at June 30, 2026 and March 31, 2026, respectively.
+New accounting guidance: Disaggregation of income statement expenses
+In November 
+2024, the Financial Accounting Standards Board issued new guidance that will require additional disclosure regarding the nature of expenses presented within expense captions on the consolidated statements of operations and selling expenses.  The new disclosure requirements will become effective for the Company’s fiscal 2028 annual financial statements.  The Company is currently evaluating the new disclosures, but does not expect the guidance will have a material impact on its consolidated financial statements.
+​
+Note 2: Acquisitions and Dispositions
+Fiscal 2026 Acquisitions
+On April 1, 2025, the Company acquired substantially all of the net operating assets of AbsolutAire, Inc. (“AbsolutAire”) for consideration totaling $
+11.3
+ million.  AbsolutAire is a Michigan-based manufacturer of direct-fired heating, ventilation, and make-up air systems.
+On May 31, 2025, the Company acquired all of the issued and outstanding shares of LBW Holding Corp. (“L.B. White”) for consideration totaling $
+110.5
+ million ($
+107.7
+ million net of cash acquired).  Headquartered in Wisconsin, with additional manufacturing and distribution operations in Georgia, L.B. White is a leading provider of specialty heating solutions, including direct-fired forced air, radiant, indirect-fired, and electric heating solutions, for the agriculture, construction, and special event industries.  L.B. White holds a leading position in the swine and poultry agricultural heating markets in North America and is a market leader in portable heating.
+On July 1, 2025, the Company acquired Climate by Design International (“Climate by Design”) for $
+64.4
+ million ($
+63.4
+ million net of cash acquired).  Based in Minnesota, Climate by Design specializes in desiccant dehumidification technology and critical process air handlers.
+7
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+The Company has not presented supplemental pro forma financial information for these acquisitions since they are not material, individually or in the aggregate, to the Company’s consolidated financial statements.  The Company reports the financial results of these businesses within its Commercial HVAC segment.
+Pending Reverse Morris Trust Transaction
+In January 2026, the Company and Gentherm Incorporated (“Gentherm”) announced that they had entered into definitive agreements whereby the Company will spin-off and simultaneously combine its Performance Technologies segment businesses with Gentherm in a Reverse Morris Trust transaction.  Gentherm, a Michigan-based corporation, is a global leader of innovative thermal management and pneumatic comfort technologies.  The transaction is intended to establish Gentherm as a scaled leader in thermal management.  The Company will retain its Data Centers and Commercial HVAC segment businesses, creating a pure-play climate solutions company.
+​
+Under the terms of the agreements, at the time of the spin-off of its Performance Technologies segment businesses, the Company’s shareholders will receive newly-issued Gentherm stock, representing ownership of approximately
+40
+ percent of the combined company.  In addition, immediately prior to transaction closing, the Company is to receive cash proceeds of
+$
+210.0
+ million, subject to adjustment.  Based upon the Gentherm stock price, the transaction was valued at approximately
+$
+1.0
+ billion when the Company entered into the agreements.  The Company anticipates this transaction will close by the end of calendar 2026, subject to approval by Gentherm’s shareholders and other customary closing conditions.  The Reverse Morris Trust transaction is structured to be generally tax-free for U.S. federal income tax purposes for the Company and its shareholders.
+​
+Since the pending spin-off does not constitute a sale under U.S. GAAP, the Company has not classified the assets and liabilities of its Performance Technologies segment as held for sale on its consolidated balance sheets.  However, the Company expects to classify the Performance Technologies segment as a discontinued operation starting in the period the transaction is completed.
+​
+Pending disposition of facilities in Germany
+The Company has a signed definitive agreement to sell its technical service center and administrative support facility in Germany to a real estate investment firm.  As of June 30, 2026 and March 31, 2026, the Company classified $
+4.4
+ million and $
+4.6
+ million, respectively, of building and related assets as held for sale and presented them within other current assets on its consolidated balance sheets.  The Company expects the sale transaction will close by the end of calendar 2026.
+​
+Note 3: Revenue Recognition
+Disaggregation of revenue
+The tables below present revenue for each of the Company’s operating segments.  Each segment’s revenue is disaggregated by product group and by geographic location.
+​
+Effective April 1, 2026, the Company reorganized its Climate Solutions segment and split it into
+two
+ separate operating segments: 1) Data Centers and 2) Commercial HVAC.  The segment realignment did not impact the Performance Technologies segment.  See Note 20 for additional segment financial information. The fiscal 2026 disaggregated revenue information presented below has been recast to be comparable with the fiscal 2027 presentation.
+​
+Data Centers
+The Data Centers segment is managed regionally and sells data center cooling solutions, including chillers, dry coolers, precision air handling units, computer room air conditioning and air handler units, fan walls, rear-door heat exchangers, coolant distribution units and immersion solutions.  In addition, the Data Centers segment sells modular data center solutions, replacement parts, maintenance service and control solutions for building management controls and systems.
+​
+8
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Commercial HVAC
+The Commercial HVAC segment revenue is comprised of
+two
+ product groups: i) Heat Transfer Solutions and ii) HVAC Technologies.  The Heat Transfer Solutions business provides heat exchanger coils, anti-corrosion coating products, commercial and industrial coolers and power generation and transmission cooling solutions.  In addition, the Heat Transfer Solutions business sells indoor air quality products for schools, including single-packaged unit ventilators and ceiling cassettes.  The HVAC Technologies business provides a wide array of commercial and residential heating products, including unit heaters, roof-mounted make-up air units, duct furnaces, infrared units, and perimeter heating products.  In addition, the HVAC Technologies business sells commercial chiller and ventilation products, including modular chillers, air handling units, condensing units, and desiccant dehumidifiers.
+​
+Performance Technologies
+The Performance Technologies segment revenue is comprised of
+two
+ product groups: i) Heavy-Duty Equipment and ii) On-Highway Applications.  Heavy-Duty Equipment products include heat exchangers and cooling modules for off-highway markets, including agricultural and construction.  In addition, the Heavy-Duty Equipment products include cooling module generator sets that provide mission critical stationary power.  On-Highway Applications products include heat exchangers and cooling systems for commercial vehicle, automotive, bus and specialty vehicle customers.  In addition to products for traditional powertrains, the On-Highway Applications products include solutions for zero-emission and hybrid vehicles.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 2026
+​
+Three months ended June 30, 2025
+​
+  ​ ​ ​
+Data
+​
+Commercial
+  ​ ​ ​
+Performance
+  ​ ​ ​
+Segment
+  ​ ​ ​
+Data
+​
+Commercial
+  ​ ​ ​
+Performance
+  ​ ​ ​
+Segment
+​
+​
+Centers
+​
+HVAC
+​
+Technologies
+​
+Total
+​
+Centers
+​
+HVAC
+​
+Technologies
+​
+Total
+Product groups:
+ 
+​
+  ​
+​
+​
+​
+ 
+​
+  ​
+ 
+​
+  ​
+ 
+​
+  ​
+​
+​
+​
+ 
+​
+  ​
+ 
+​
+  ​
+Data Center Cooling Solutions
+​
+$
+
+348.4
+​
+$
+ —
+​
+$
+ —
+​
+$
+
+348.4
+​
+$
+
+183.6
+​
+$
+ —
+​
+$
+ —
+​
+$
+
+183.6
+Heat Transfer Solutions
+​
+ 
+ —
+​
+​
+
+172.5
+​
+ 
+ —
+​
+ 
+
+172.5
+​
+ 
+ —
+​
+​
+
+161.8
+​
+ 
+ —
+​
+ 
+
+161.8
+HVAC Technologies
+​
+ 
+ —
+​
+​
+
+75.4
+​
+ 
+ —
+​
+ 
+
+75.4
+​
+ 
+ —
+​
+​
+
+51.9
+​
+ 
+ —
+​
+ 
+
+51.9
+Heavy-Duty Equipment
+​
+ 
+ —
+​
+​
+ —
+​
+ 
+
+107.6
+​
+ 
+
+107.6
+​
+ 
+ —
+​
+​
+ —
+​
+ 
+
+106.3
+​
+ 
+
+106.3
+On-Highway Applications
+​
+ 
+ —
+​
+​
+ —
+​
+ 
+
+170.2
+​
+ 
+
+170.2
+​
+ 
+ —
+​
+​
+ —
+​
+ 
+
+179.2
+​
+ 
+
+179.2
+Inter-segment sales
+​
+ 
+
+0.2
+​
+​
+
+13.7
+​
+ 
+ —
+​
+ 
+
+13.9
+​
+ 
+
+0.1
+​
+​
+
+0.5
+​
+ 
+ —
+​
+ 
+
+0.6
+Net sales
+​
+$
+
+348.6
+​
+$
+
+261.6
+​
+$
+
+277.8
+​
+$
+
+888.0
+​
+$
+
+183.7
+​
+$
+
+214.2
+​
+$
+
+285.5
+​
+$
+
+683.4
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Geographic location:
+​
+ 
+  ​
+​
+​
+​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+​
+​
+​
+ 
+  ​
+​
+ 
+  ​
+Americas
+​
+$
+
+297.8
+​
+$
+
+178.0
+​
+$
+
+138.3
+​
+$
+
+614.1
+​
+$
+
+140.8
+​
+$
+
+135.9
+​
+$
+
+153.0
+​
+$
+
+429.7
+Europe
+​
+ 
+
+50.8
+​
+​
+
+77.3
+​
+ 
+
+85.6
+​
+ 
+
+213.7
+​
+ 
+
+42.9
+​
+​
+
+71.8
+​
+ 
+
+84.0
+​
+ 
+
+198.7
+Asia
+​
+ 
+ —
+​
+​
+
+6.3
+​
+ 
+
+53.9
+​
+ 
+
+60.2
+​
+ 
+ —
+​
+​
+
+6.5
+​
+ 
+
+48.5
+​
+ 
+
+55.0
+Net sales
+​
+$
+
+348.6
+​
+$
+
+261.6
+​
+$
+
+277.8
+​
+$
+
+888.0
+​
+$
+
+183.7
+​
+$
+
+214.2
+​
+$
+
+285.5
+​
+$
+
+683.4
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Contract balances
+Contract assets and contract liabilities from contracts with customers were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Contract assets
+​
+$
+
+78.3
+​
+$
+
+43.6
+Contract liabilities
+​
+ 
+
+199.2
+​
+ 
+
+194.5
+​
+Contract assets primarily consist of assets recorded for revenue recognized over time, which represent the Company’s rights to consideration for work completed but not yet billed, and capitalized costs related to customer-owned tooling contracts, wherein the customer has guaranteed reimbursement.  Contract assets are included within other current assets on the Company’s consolidated balance sheets.  The
+$
+34.7
+ million increase in contract assets during the first three months of fiscal 2027 primarily resulted from an increase in contract assets for revenue recognized over time.
+9
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+​
+Contract liabilities primarily consist of customer deposits.  During March 2026, the Company entered into a long-term capacity agreement with one of its strategic data center customers.  In connection with this agreement, the Company received a $
+165.0
+ million up-front deposit from the customer to support the Company’s investments necessary to meet the planned sales volume.  In addition, the contract liabilities include payments received in advance of satisfying performance obligations under customer contracts, including contracts for data center products and customer-owned tooling.  The
+$
+4.7
+ million increase in contract liabilities during the first three months of fiscal 2027 primarily resulted from payments received in advance of the Company’s satisfaction of performance obligations.  Contract liabilities are included within other current and noncurrent liabilities on the Company’s consolidated balance sheets.  As of June 30, 2026, contract liabilities included within other current and noncurrent liabilities totaled $
+25.7
+ million and $
+173.5
+ million, respectively.  As of March 31, 2026, contract liabilities included within other current and noncurrent liabilities totaled $
+23.9
+ million and $
+170.6
+ million, respectively.
+Note 4: Fair Value Measurements
+Fair value is defined as the price that would be received for an asset or paid to transfer a liability in the principal or most advantageous market for the asset or liability in an orderly transaction between market participants.  Fair value measurements are classified under the following hierarchy:
+●
+Level 1 – Quoted prices for identical instruments in active markets.
+●
+Level 2 – Quoted prices for similar instruments in active markets; quoted prices for identical or similar instruments in markets that are not active; and model-derived valuations in which all significant inputs are observable in active markets.
+●
+Level 3 – Model-derived valuations in which one or more significant inputs are not observable.
+When available, the Company uses quoted market prices to determine fair value and classifies such measurements as Level 1.  In some cases, where market prices are not available, the Company uses observable market-based inputs to calculate fair value, in which case the measurements are classified as Level 2.  If quoted or observable market prices are not available, the Company determines fair value based upon valuation models that use, where possible, market-based data such as interest rates, yield curves or currency rates.  These measurements are classified as Level 3.
+The carrying values of cash, cash equivalents, restricted cash, trade accounts receivable, accounts payable, and short-term debt approximate fair value due to the short-term nature of these instruments.  In addition, the Company assesses the fair value of a disposal group for each reporting period it is held for sale.  The fair value of the Company’s long-term debt is disclosed in Note 17.
+Note 5: Pensions
+During the third quarter of fiscal 2026, the Company completed the termination of its primary U.S. pension plan.  The Company fully funded the plan and settled all future obligations under it through a combination of lump-sum payments to participants and the purchase of irrevocable annuity contracts.  Certain non-U.S. subsidiaries of the Company have legacy defined benefit plans which cover a small number of active employees and are substantially unfunded.  The primary non-U.S. plans are maintained in Germany and Italy and are closed to new participants.
+10
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+​
+Pension cost included the following components:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Service cost
+​
+$
+
+—
+​
+$
+
+—
+Interest cost
+​
+ 
+
+0.1
+​
+​
+
+2.4
+Expected return on plan assets
+​
+ 
+
+—
+​
+​
+ (
+2.2
+)
+Amortization of unrecognized net loss
+​
+ 
+
+—
+​
+​
+
+1.2
+Net periodic benefit cost
+​
+$
+
+0.1
+​
+$
+
+1.4
+____
+​
+​
+​
+​
+​
+​
+​
+​
+Note 6: Stock-Based Compensation
+The Company’s stock-based incentive programs consist of the following: (i) a long-term incentive plan for officers and other executives that authorizes grants of stock awards, stock options, and performance-based awards for retention and to incentivize performance, (ii) a discretionary equity program for other management and key employees, and (iii) stock awards for non-employee directors.
+The Company calculates stock-based compensation expense based upon the fair value of the awards at the time of grant and subsequently recognizes expense ratably over the respective vesting periods of the stock-based awards.  The Company recognized stock-based compensation expense of
+$
+8.0
+ million and $
+5.3
+ million for the three months ended June 30, 2026 and 2025, respectively.
+During the first three months of fiscal 2027, the Company granted performance-based stock awards and restricted stock awards.  The performance metrics for the performance-based stock awards are based upon a target
+three
+-year average cash flow return on invested capital and a target
+three
+-year average growth in consolidated net earnings before interest, taxes, depreciation, amortization, and certain other adjustments (“Adjusted EBITDA”) at the end of the performance period ending March 31, 2029.
+The weighted-average fair value of stock-based compensation awards granted during the three months ended June 30, 2026 and 2025 were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+​
+2026
+​
+2025
+​
+​
+​
+​
+Fair Value
+​
+​
+​
+Fair Value
+​
+​
+Shares
+  ​ ​ ​
+Per Award
+  ​ ​ ​
+Shares
+  ​ ​ ​
+Per Award
+Performance stock awards
+ 
+
+0.1
+​
+$
+
+257.67
+ 
+
+0.1
+​
+$
+
+104.26
+Restricted stock awards
+ 
+
+—
+​
+$
+
+262.38
+ 
+
+—
+​
+$
+
+103.41
+​
+11
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+As of June 30, 2026, unrecognized compensation expense related to non-vested stock-based compensation awards, which will be recognized as expense over the remaining service periods, was as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Unrecognized
+​
+Weighted-Average
+​
+​
+Compensation
+​
+Remaining Service
+​
+  ​ ​ ​
+Expense
+  ​ ​ ​
+Period in Years
+Performance stock awards
+​
+$
+
+39.2
+ 
+ 2.2
+Restricted stock awards
+​
+ 
+
+10.9
+ 
+ 2.0
+Total
+​
+$
+
+50.1
+ 
+ 2.2
+​
+​
+Note 7: Restructuring Activities
+Restructuring and repositioning expenses were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Employee severance and related benefits
+​
+$
+
+1.6
+​
+$
+
+4.5
+Other restructuring and repositioning expenses
+​
+ 
+
+2.3
+​
+ 
+
+0.3
+Total
+​
+$
+
+3.9
+​
+$
+
+4.8
+​
+
+​
+During the first three months of fiscal 2027, restructuring and repositioning expenses primarily consisted of costs associated with transferring product lines among its facilities and severance expenses in the Commercial HVAC and Performance Technologies segments.  As part of its transformational initiatives supported by 80/20 principles, the Company is taking steps to optimize its supply chain and manufacturing footprint in order to support its expansion of manufacturing capacity in the U.S. for data center products and to improve profit margins.  The severance expenses were primarily recorded in North America and Europe and include severance related to targeted headcount reductions intended to reduce selling, general and administrative (“SG&A”) and operational expenses.
+During the first three months of fiscal 2026, restructuring and repositioning expenses primarily consisted of severance expenses, the majority of which were recorded in the Performance Technologies segment.  The Performance Technologies severance charges were primarily recorded in Europe and North America and included severance related to targeted headcount reductions.  In addition, the Company incurred equipment transfer costs within the Commercial HVAC and Performance Technologies segments.
+The Company accrues severance in accordance with its written plans, procedures, and relevant statutory requirements. Changes in accrued severance were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Beginning balance
+​
+$
+
+3.6
+​
+$
+
+6.6
+Additions (a)
+​
+ 
+
+0.8
+​
+ 
+
+4.5
+Payments
+​
+ 
+ (
+2.3
+)
+​
+ 
+ (
+3.3
+)
+Effect of exchange rate changes
+​
+ 
+ —
+​
+ 
+
+0.3
+Ending balance
+​
+$
+
+2.1
+​
+$
+
+8.1
+____
+​
+​
+​
+​
+​
+​
+​
+(a)
+The fiscal 2027 amount excludes $
+0.8
+ million of non-cash severance expense resulting from the accelerated vesting of certain stock-based compensation awards in connection with restructuring actions
+.
+12
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+​
+Note 8: Other Income and Expense
+Other income and expense consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Interest income
+​
+$
+
+0.4
+​
+$
+
+0.5
+Foreign currency transactions (a)
+​
+ 
+ (
+0.2
+)
+​
+ 
+ (
+3.4
+)
+Net periodic benefit cost (b)
+​
+ 
+ —
+​
+ 
+ (
+1.3
+)
+Total other income (expense) – net
+​
+$
+
+0.2
+​
+$
+ (
+4.2
+)
+____
+​
+​
+​
+​
+​
+​
+​
+(a)
+Foreign currency transactions primarily consist of foreign currency transaction gains and losses on the re-measurement or settlement of foreign currency-denominated assets and liabilities, including intercompany loans and transactions denominated in a foreign currency, along with gains and losses on certain foreign currency exchange contracts.
+(b)
+Net periodic benefit cost for the Company’s pension and postretirement plans is exclusive of service cost
+.
+Note 9: Income Taxes
+The Company’s effective tax rate for the three months ended June 30, 2026 and 2025 was 
+(
+8.3
+)
+ percent and 
+21.3
+ percent, respectively.  The effective tax rate for the first quarter of fiscal 2027 was positively impacted by
+$
+26.5
+ million of tax benefits related to stock-based compensation awards.  The tax benefits were primarily driven by performance-based stock awards granted in fiscal 2024, for which shares were issued to participants during the first quarter of fiscal 2027.  Modine’s share price appreciated significantly from the grant date of the stock awards to the share issuance date, which increased the value of the awards and the Company’s corresponding tax benefit.  The tax benefits related to stock-based compensation awards were partially offset by a
+$
+3.8
+ million income tax detriment related to nondeductible compensation in the first quarter of fiscal 2027 and changes in the mix and amount of foreign and U.S. earnings.  As of June 30, 2026 and March 31, 2026, income tax liabilities included within other current liabilities on the Company’s consolidated balance sheets totaled $
+20.0
+ million and $
+37.0
+ million, respectively.
+​
+The Company records valuation allowances against its net deferred tax assets to the extent it determines it is more likely than not that such assets will not be realized in the future.  Each quarter, the Company evaluates the probability that its deferred tax assets will be realized and determines whether valuation allowances or adjustments thereto are needed.  This determination involves judgment and the use of significant estimates and assumptions, including expectations of future taxable income and tax planning strategies.  In addition, the Company considers the duration of statutory carryforward periods and historical financial results.
+​
+At June 30, 2026, valuation allowances against deferred tax assets in the U.S. and in certain foreign jurisdictions totaled 
+$
+41.8
+ million and 
+$
+27.1
+ million, respectively. 
+ The Company will maintain the valuation allowances in each applicable tax jurisdiction until it determines it is more likely than not the deferred tax assets will be realized, thereby eliminating the need for a valuation allowance.  Future events or circumstances, such as lower taxable income or unfavorable changes in the financial outlook of the Company’s operations in the U.S. and certain foreign jurisdictions, could necessitate the establishment of further valuation allowances.
+​
+​
+​
+​
+13
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Accounting policies for interim reporting require the Company to adjust its effective tax rate each quarter to be consistent with its estimated annual effective tax rate.  Under this methodology, the Company applies its estimated annual income tax rate to its year-to-date ordinary earnings to derive its income tax provision each quarter.  The Company records the tax impacts of certain significant, unusual or infrequently occurring items in the period in which they occur.  In addition, the Company excludes the impact of operations anticipated to generate net operating losses for the full fiscal year from the overall effective tax rate calculation and instead records them discretely based upon year-to-date results.
+​
+Note 10: Earnings Per Share
+The components of basic and diluted earnings per share were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Net earnings attributable to Modine
+​
+$
+
+73.9
+​
+$
+
+51.2
+​
+​
+​
+​
+​
+​
+​
+Weighted-average shares outstanding – basic
+​
+ 
+
+53.3
+​
+ 
+
+52.6
+Effect of dilutive securities
+​
+ 
+
+0.7
+​
+ 
+
+1.1
+Weighted-average shares outstanding – diluted
+​
+ 
+
+54.0
+​
+ 
+
+53.7
+​
+​
+​
+​
+​
+​
+​
+Earnings per share:
+​
+​
+​
+​
+​
+​
+Net earnings per share – basic
+​
+$
+
+1.39
+​
+$
+
+0.97
+Net earnings per share – diluted
+​
+$
+
+1.37
+​
+$
+
+0.95
+​
+There were
+no
+ securities that were anti-dilutive for the three months ended June 30, 2026 and 2025.
+Note 11: Cash, Cash Equivalents and Restricted Cash
+Cash, cash equivalents and restricted cash consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Cash and cash equivalents
+​
+$
+
+95.3
+​
+$
+
+73.5
+Restricted cash
+​
+ 
+
+0.2
+​
+ 
+
+0.2
+Total cash, cash equivalents and restricted cash
+​
+$
+
+95.5
+​
+$
+
+73.7
+​
+Restricted cash, which is reported within other current assets on the consolidated balance sheets, consists primarily of deposits for contractual guarantees or commitments required for rents, import and export duties, and commercial agreements.
+​
+Note 12: Inventories
+Inventories consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Raw materials
+​
+$
+
+438.4
+​
+$
+
+358.9
+Work in process
+​
+ 
+
+106.9
+​
+ 
+
+95.3
+Finished goods
+​
+ 
+
+63.7
+​
+ 
+
+51.9
+Total inventories
+​
+$
+
+609.0
+​
+$
+
+506.1
+​
+​
+14
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 13: Property, Plant and Equipment
+Property, plant and equipment, including depreciable lives, consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Land
+​
+$
+
+18.9
+​
+$
+
+19.1
+Buildings and improvements (
+10
+-
+40
+ years)
+​
+ 
+
+298.8
+​
+ 
+
+291.1
+Machinery and equipment (
+3
+-
+15
+ years)
+​
+ 
+
+914.6
+​
+ 
+
+904.1
+Office equipment (
+3
+-
+10
+ years)
+​
+ 
+
+95.0
+​
+ 
+
+92.2
+Construction in progress
+​
+ 
+
+119.5
+​
+ 
+
+116.1
+​
+​
+ 
+
+1,446.8
+​
+ 
+
+1,422.6
+Less: accumulated depreciation
+​
+ 
+ (
+910.7
+)
+​
+ 
+ (
+901.7
+)
+Net property, plant and equipment
+​
+$
+
+536.1
+​
+$
+
+520.9
+​
+The June 30, 2026 and March 31, 
+2026 property, plant and equipment in the table above exclude amounts classified as held for sale.  See Note 2 for additional information.
+​
+Note 14: Goodwill and Intangible Assets
+Effective April 1, 2026, the Company reorganized its Climate Solutions segment and split it into
+two
+ separate operating segments: 1) Data Centers and 2) Commercial HVAC.  The following table presents a roll forward of the carrying value of goodwill from March 31, 2026 to June 30, 
+2026.  The Company has recast the March 31, 
+2026 goodwill balances to be comparable with the current segment structure.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Data Centers
+​
+Commercial HVAC
+​
+Total
+Goodwill, March 31, 2026
+​
+$
+
+87.0
+​
+$
+
+205.1
+​
+$
+
+292.1
+Effect of exchange rate changes
+​
+​
+ (
+1.3
+)
+​
+ 
+ (
+0.6
+)
+​
+​
+ (
+1.9
+)
+Goodwill, June 30, 2026
+​
+$
+
+85.7
+​
+$
+
+204.5
+​
+$
+
+290.2
+​
+Intangible assets consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+June 30, 2026
+​
+March 31, 2026
+​
+  ​ ​ ​
+Gross
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+Net
+  ​ ​ ​
+Gross
+  ​ ​ ​
+  ​
+​
+  ​ ​ ​
+Net
+​
+​
+Carrying
+​
+Accumulated
+​
+Intangible
+​
+Carrying
+​
+Accumulated
+​
+Intangible
+​
+​
+Value
+​
+Amortization
+​
+Assets
+​
+Value
+​
+Amortization
+​
+Assets
+Customer relationships
+​
+$
+
+196.0
+​
+$
+ (
+65.6
+)
+​
+$
+
+130.4
+​
+$
+
+198.2
+​
+$
+ (
+63.1
+)
+​
+$
+
+135.1
+Trade names
+​
+ 
+
+69.4
+​
+​
+ (
+26.1
+)
+​
+​
+
+43.3
+​
+ 
+
+69.7
+​
+ 
+ (
+25.2
+)
+​
+ 
+
+44.5
+Acquired technology
+​
+ 
+
+36.6
+​
+​
+ (
+20.1
+)
+​
+​
+
+16.5
+​
+ 
+
+36.8
+​
+ 
+ (
+19.4
+)
+​
+ 
+
+17.4
+Total intangible assets
+​
+$
+
+302.0
+​
+$
+ (
+111.8
+)
+​
+$
+
+190.2
+​
+$
+
+304.7
+​
+$
+ (
+107.7
+)
+​
+$
+
+197.0
+​
+The Company recorded amortization expense of $
+5.2
+ million and $
+5.7
+ million for the three months ended June 30, 
+2026 and 2025, respectively.  The Company estimates that it will record approximately
+$
+15.0
+ million of amortization expense during the remainder of fiscal 2027.  The Company estimates that it will record approximately
+$
+21.0
+ million, $
+20.0
+ million, $
+19.0
+ million, $
+19.0
+ million, and $
+19.0
+ million of annual amortization expense in fiscal 2028 through 2032, respectively.
+​
+​
+15
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 15: Product Warranties
+Changes in accrued warranty costs were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Beginning balance
+​
+$
+
+11.8
+​
+$
+
+9.2
+Warranties recorded at time of sale
+​
+ 
+
+2.5
+​
+ 
+
+1.9
+Adjustments to pre-existing warranties
+​
+ 
+
+2.2
+​
+ 
+ (
+2.8
+)
+Settlements
+​
+ 
+ (
+4.4
+)
+​
+ 
+ (
+2.1
+)
+Effect of exchange rate changes
+​
+ 
+ (
+0.2
+)
+​
+ 
+
+0.3
+Ending balance
+​
+$
+
+11.9
+​
+$
+
+6.5
+​
+Note 16: Leases
+Lease assets and liabilities
+The following table provides a summary of leases recorded on the consolidated balance sheets.
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Balance Sheet Location
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Lease Assets
+ 
+  ​
+ 
+​
+  ​
+ 
+​
+  ​
+Operating lease ROU assets
+ 
+Other noncurrent assets
+​
+$
+
+137.8
+​
+$
+
+138.9
+Finance lease ROU assets (a)
+ 
+Property, plant and equipment - net
+​
+ 
+
+6.4
+​
+ 
+
+6.6
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Lease Liabilities
+ 
+  ​
+​
+ 
+​
+​
+ 
+  ​
+Operating lease liabilities
+ 
+Other current liabilities
+​
+$
+
+27.8
+​
+$
+
+26.3
+Operating lease liabilities
+ 
+Other noncurrent liabilities
+​
+ 
+
+115.4
+​
+ 
+
+117.5
+Finance lease liabilities
+ 
+Long-term debt - current portion
+​
+ 
+
+0.5
+​
+ 
+
+0.5
+Finance lease liabilities
+ 
+Long-term debt
+​
+ 
+
+1.6
+​
+ 
+
+1.8
+____
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(a)
+Finance lease right of use (
+“
+ROU
+”
+) assets were recorded net of accumulated amortization of
+$
+4.9
+ million and
+$
+4.8
+ million as of June
+ 
+30,
+ 
+2026 and March
+ 
+31,
+ 
+2026, respectively.
+Components of lease expense
+The components of lease expense were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Operating lease expense (a)
+​
+$
+
+13.6
+​
+$
+
+9.7
+Finance lease expense:
+​
+ 
+​
+​
+ 
+  ​
+Depreciation of ROU assets
+​
+ 
+
+0.1
+​
+ 
+
+0.1
+Interest on lease liabilities
+​
+ 
+
+—
+​
+ 
+
+—
+Total lease expense
+​
+$
+
+13.7
+​
+$
+
+9.8
+____
+​
+​
+​
+​
+​
+​
+​
+(a)
+For the three months ended June
+ 
+30,
+ 
+2026 and 2025, operating lease expense included short-term lease expense of
+$
+3.1
+ million and
+$
+2.4
+ million, respectively.  Variable lease expense was not significant.
+16
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 17: Indebtedness
+Long-term debt consisted of the following:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Fiscal year
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+​
+​
+​
+​
+of maturity
+​
+June 30, 2026
+​
+March 31, 2026
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Revolving credit facility
+ 
+​
+2031
+​
+$
+
+250.0
+​
+$
+
+150.0
+Term loan
+ 
+​
+2031
+​
+​
+
+192.5
+​
+​
+
+195.0
+5.9
+%
+ Senior Notes
+ 
+​
+2029
+​
+ 
+
+68.8
+​
+ 
+
+75.0
+5.8
+%
+ Senior Notes
+ 
+​
+2027
+​
+ 
+
+8.3
+​
+ 
+
+8.3
+Finance lease obligations
+ 
+​
+​
+​
+​
+
+2.1
+​
+ 
+
+2.3
+​
+ 
+​
+​
+​
+​
+
+521.7
+​
+ 
+
+430.6
+Less: current portion
+ 
+​
+​
+​
+​
+ (
+43.9
+)
+​
+ 
+ (
+43.9
+)
+Less: unamortized debt issuance costs
+ 
+​
+​
+​
+​
+ (
+1.6
+)
+​
+ 
+ (
+1.8
+)
+Total long-term debt
+​
+​
+​
+​
+$
+
+476.2
+​
+$
+
+384.9
+​
+Long-term debt, including the current portion of long-term debt, matures as follows:
+​
+​
+​
+​
+​
+Fiscal Year
+  ​ ​ ​
+  ​
+​
+Remainder of 2027
+​
+$
+
+35.0
+2028
+​
+ 
+
+35.6
+2029
+​
+ 
+
+35.5
+2030
+​
+ 
+
+10.1
+2031
+​
+ 
+
+405.1
+2032 & beyond
+​
+​
+
+0.4
+Total
+​
+$
+
+521.7
+​
+​
+​
+​
+​
+Borrowings under the Company’s revolving credit, swingline and term loan facility bear interest at variable rates, based upon the applicable reference rate and including a margin 
+percentage dependent upon the Company’s leverage ratio, as described below.  At June 30, 2026, the interest rate for revolving credit facility borrowings and the term loan was
+4.9
+ percent and
+5.0
+ percent, respectively.
+​
+Based upon the terms of the credit agreement, the Company classifies borrowings under its revolving credit and swingline facilities as long-term and short-term debt, respectively, on its consolidated balance sheets.  At June 30, 2026, the Company’s borrowings under its revolving credit facilities totaled
+$
+250.0
+ million and domestic letters of credit totaled $
+5.8
+ million.  As a result, available borrowing capacity under the Company’s revolving credit facility was
+$
+294.2
+ million as of June 30, 
+2026.  At June 30, 2026 the Company had
+no
+ borrowings under the swingline facility.  At March 31, 2026, the Company’s borrowings under its revolving credit facility and swingline facilities totaled
+$
+150.0
+ million and $
+2.5
+ million, respectively.  In addition, short-term debt as of March 31, 2026 included $
+5.0
+ million of overdraft borrowings in the U.S.
+The Company also maintains credit agreements for its foreign subsidiaries.  The outstanding short-term borrowings related to these foreign credit agreements totaled
+$
+8.1
+ million at June 30, 
+2026.  There were
+no
+ short-term borrowings related to these agreements at March 31, 2026.
+17
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Indebtedness under the Company’s credit agreement and Senior Notes is secured by substantially all domestic assets, excluding real estate.  These agreements further require compliance with various covenants that may limit the Company’s ability to incur additional indebtedness; grant liens; make investments, loans, or guarantees; engage in certain transactions with affiliates; and make restricted payments, including dividends.  In addition, the agreements may require prepayment in the event of certain asset sales.
+Financial covenants within the credit agreements include a leverage ratio covenant, which requires the Company to limit its consolidated indebtedness, less a portion of its cash balances, both as defined by the credit agreements, to no more than
+three and one-half
+ times consolidated net earnings before interest, taxes, depreciation, amortization, and certain other adjustments (“Adjusted EBITDA”).  The Company must also maintain a ratio of Adjusted EBITDA of at least
+three
+ times consolidated interest expense.  As of June 30, 2026, the Company was in compliance with its debt covenants.
+The Company estimates the fair value of long-term debt using discounted future cash flows at rates offered to the Company for similar debt instruments of comparable maturities.  As of June 30, 2026 and March 31, 2026, the carrying value of the Company’s long-term debt approximated fair value, with the exception of the Senior Notes, which had an aggregate fair value of
+$
+77.3
+ million and $
+83.7
+ million, respectively.  The fair value of the Company’s long-term debt is categorized as Level 2 within the fair value hierarchy.  Refer to Note 4 for the definition of a Level 2 fair value measurement.
+​
+Note 18: Risks, Uncertainties, Contingencies and Litigation
+Environmental
+The Company has recorded environmental monitoring and remediation accruals related to manufacturing facilities in the U.S., one of which the Company currently owns and operates, and a former manufacturing facility in the Netherlands.  These accruals primarily relate to soil and groundwater contamination at facilities where past operations followed practices and procedures that were considered acceptable under then-existing regulations, or where the Company is a successor to the obligations of prior owners, and current laws and regulations require investigative and/or remedial work to ensure sufficient environmental compliance.  In instances where a range of loss can be reasonably estimated for a probable environmental liability, but no amount within the range is a better estimate than any other amount, the Company accrues the minimum of the range.  The Company’s accruals for environmental matters totaled
+$
+12.2
+ million and $
+12.7
+ million as of June 30, 2026 and March 31, 
+2026, respectively.  As additional information becomes available regarding environmental matters, the Company will re-assess the liabilities and revise the estimated accruals, if necessary.  While it is possible that the ultimate environmental remediation costs may be in excess of amounts accrued, the Company believes, based upon currently available information, that the ultimate outcome of these matters, individually and in the aggregate, will not have a material adverse effect on its financial position.  However, these matters are subject to inherent uncertainties, and unfavorable outcomes could occur, including significant monetary damages.
+Information technology purchase commitments
+The Company has entered into purchase commitments for information technology services, primarily related to implementation and support for cloud infrastructure, data analytics, and AI-enablement services.  In total, the Company expects to spend approximately $
+27.0
+ million in connection with these purchase commitments for the remainder of fiscal 2027 through fiscal 2030.
+Other litigation
+In the normal course of business, the Company and its subsidiaries are named as defendants in various lawsuits and enforcement proceedings by private parties, governmental agencies and/or others in which claims are asserted against Modine.  The Company believes that any additional loss in excess of amounts already accrued would not have a material effect on the Company’s consolidated balance sheet, results of operations, and cash flows.  In addition, management expects that the liabilities which may ultimately result from such lawsuits or proceedings, if any, would not have a material adverse effect on the Company’s financial position.
+18
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 19: Accumulated Other Comprehensive Loss
+Changes in accumulated other comprehensive loss were as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 2026
+​
+  ​ ​ ​
+Foreign
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+​
+​
+​
+​
+Currency
+​
+Defined
+​
+Cash Flow
+​
+ 
+​
+​
+​
+Translation
+​
+ Benefit Plans
+​
+Hedges
+​
+Total
+Beginning balance
+  ​ ​ ​
+$
+ (
+41.0
+)
+  ​ ​ ​
+$
+
+3.8
+  ​ ​ ​
+$
+
+0.1
+  ​ ​ ​
+$
+ (
+37.1
+)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Other comprehensive income (loss) before reclassifications
+​
+ 
+ (
+10.0
+)
+​
+ 
+
+—
+​
+ 
+ (
+0.5
+)
+​
+ 
+ (
+10.5
+)
+Reclassifications:
+​
+ 
+​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+Amortization of unrecognized net gain (a)
+​
+ 
+ —
+​
+ 
+ (
+0.1
+)
+​
+ 
+ —
+​
+ 
+ (
+0.1
+)
+Realized losses - net (b)
+​
+ 
+ —
+​
+ 
+ —
+​
+ 
+
+0.3
+​
+ 
+
+0.3
+Income taxes
+​
+ 
+
+—
+​
+ 
+
+—
+​
+​
+
+—
+​
+ 
+
+—
+Total other comprehensive loss
+​
+ 
+ (
+10.0
+)
+​
+ 
+ (
+0.1
+)
+​
+ 
+ (
+0.2
+)
+​
+ 
+ (
+10.3
+)
+Ending balance
+​
+$
+ (
+51.0
+)
+​
+$
+
+3.7
+​
+$
+ (
+0.1
+)
+​
+$
+ (
+47.4
+)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 2025
+​
+​
+Foreign
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Currency
+​
+Defined
+​
+Cash Flow
+​
+ 
+​
+​
+  ​ ​ ​
+Translation
+  ​ ​ ​
+ Benefit Plans
+  ​ ​ ​
+Hedges
+  ​ ​ ​
+Total
+Beginning balance
+​
+$
+ (
+76.8
+)
+​
+$
+ (
+103.8
+)
+​
+$
+ (
+0.7
+)
+​
+$
+ (
+181.3
+)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Other comprehensive income before reclassifications
+​
+ 
+
+47.2
+​
+ 
+
+—
+​
+ 
+
+1.4
+​
+ 
+
+48.6
+Reclassifications:
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+​
+ 
+  ​
+Amortization of unrecognized net loss (a)
+​
+ 
+ —
+​
+ 
+
+1.1
+​
+ 
+ —
+​
+ 
+
+1.1
+Realized losses - net (b)
+​
+​
+ —
+​
+​
+ —
+​
+​
+
+0.5
+​
+​
+
+0.5
+Income taxes
+​
+ 
+
+—
+​
+ 
+ (
+0.3
+)
+​
+ 
+ (
+0.5
+)
+​
+ 
+ (
+0.8
+)
+Total other comprehensive income
+​
+ 
+
+47.2
+​
+ 
+
+0.8
+​
+ 
+
+1.4
+​
+ 
+
+49.4
+Ending balance
+​
+$
+ (
+29.6
+)
+​
+$
+ (
+103.0
+)
+​
+$
+
+0.7
+​
+$
+ (
+131.9
+)
+____
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(a)
+Amounts are included in the calculation of net periodic benefit cost for the Company’s defined benefit plans, which include pension and other postretirement plans.  See Note 5 for additional information about the Company’s pension plans.
+(b)
+Amounts represent net gains and losses associated with cash flow hedges that were reclassified to net earnings.
+
+​
+Note 20: Segment Information
+The Company’s chief operating decision maker (“CODM”), its President and Chief Executive Officer, reviews the separate financial results for
+each
+ of its operating segments.  The CODM uses segment operating income as a measure of profit and loss to evaluate the financial performance of each segment and as a basis for allocating company resources. The tables below present net sales and significant expense categories for each of the Company’s segments that are regularly provided to the CODM.  Net sales for Corporate and eliminations primarily represent the elimination of inter-segment sales.  Inter-segment sales are accounted for based upon an established markup over production costs.
+​
+Effective April 1, 2026, the Company reorganized its Climate Solutions segment and split it into
+two
+ separate operating segments: 1) Data Centers and 2) Commercial HVAC.  The Company believes managing these businesses independently allows it to better deploy its 80/20 strategy focused on capitalizing on growth opportunities, particularly in the Data Centers business, and optimizing profit margins and cash flow.  The segment realignment had no impact on the financial results of the Performance Technologies segment or the Company’s consolidated financial position, results of operations, and cash flows.  Segment financial information for the prior periods has been recast to conform to the current presentation.
+19
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 2026
+  ​ ​ ​
+Three months ended June 30, 2025
+​
+​
+​
+​
+​
+​
+​
+​
+Corporate
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Corporate
+​
+​
+​
+​
+​
+Data
+​
+Commercial
+​
+Performance
+​
+and
+​
+​
+​
+​
+Data
+​
+Commercial
+​
+Performance
+​
+and
+​
+​
+​
+​
+​
+Centers
+  ​ ​ ​
+HVAC
+​
+Technologies
+  ​ ​ ​
+eliminations
+  ​ ​ ​
+Total
+​
+Centers
+​
+HVAC
+  ​ ​ ​
+Technologies
+  ​ ​ ​
+eliminations
+  ​ ​ ​
+Total
+External sales
+ 
+$
+
+348.4
+​
+$
+
+247.9
+​
+$
+
+277.8
+​
+$
+ —
+​
+$
+
+874.1
+ 
+$
+
+183.6
+​
+$
+
+213.7
+​
+$
+
+285.5
+​
+$
+ —
+​
+$
+
+682.8
+Inter-segment sales
+​
+ 
+
+0.2
+​
+​
+
+13.7
+​
+ 
+ —
+​
+ 
+ (
+13.9
+)
+​
+ 
+ —
+​
+ 
+
+0.1
+​
+​
+
+0.5
+​
+ 
+ —
+​
+ 
+ (
+0.6
+)
+​
+ 
+ —
+Net sales
+​
+ 
+
+348.6
+​
+​
+
+261.6
+​
+ 
+
+277.8
+​
+ 
+ (
+13.9
+)
+​
+ 
+
+874.1
+​
+ 
+
+183.7
+​
+​
+
+214.2
+​
+ 
+
+285.5
+​
+ 
+ (
+0.6
+)
+​
+ 
+
+682.8
+Cost of sales
+​
+ 
+
+278.3
+​
+​
+
+197.7
+​
+​
+
+229.0
+​
+​
+ (
+12.9
+)
+​
+ 
+
+692.1
+​
+ 
+
+129.0
+​
+​
+
+156.0
+​
+​
+
+233.6
+​
+​
+ (
+1.2
+)
+​
+ 
+
+517.4
+Gross profit
+​
+​
+
+70.3
+​
+​
+
+63.9
+​
+​
+
+48.8
+​
+​
+ (
+1.0
+)
+​
+​
+
+182.0
+​
+​
+
+54.7
+​
+​
+
+58.2
+​
+​
+
+51.9
+​
+​
+
+0.6
+​
+​
+
+165.4
+Selling, general and administrative expenses
+​
+​
+
+24.0
+​
+​
+
+30.3
+​
+​
+
+19.5
+​
+​
+
+29.5
+​
+​
+
+103.3
+​
+​
+
+19.8
+​
+​
+
+24.9
+​
+​
+
+21.9
+​
+​
+
+18.3
+​
+​
+
+84.9
+Restructuring expenses
+​
+​
+ —
+​
+​
+
+2.2
+​
+​
+
+1.7
+​
+​
+ —
+​
+​
+
+3.9
+​
+​
+
+0.2
+​
+​
+
+1.1
+​
+​
+
+3.5
+​
+​
+ —
+​
+​
+
+4.8
+Operating income
+​
+$
+
+46.3
+​
+$
+
+31.4
+​
+$
+
+27.6
+​
+$
+ (
+30.5
+)
+​
+$
+
+74.8
+​
+$
+
+34.7
+​
+$
+
+32.2
+​
+$
+
+26.5
+​
+$
+ (
+17.7
+)
+​
+$
+
+75.7
+​
+SG&A expenses at Corporate include legal, finance, general corporate and central services expenses and other costs that are either not directly attributable to an operating segment or not considered when the CODM evaluates segment performance.
+The following is a summary of capital expenditures and depreciation and amortization expense by segment:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Capital expenditures:
+​
+​
+​
+​
+​
+​
+Data Centers
+​
+$
+
+30.9
+​
+$
+
+7.1
+Commercial HVAC
+​
+​
+
+6.4
+​
+​
+
+12.8
+Performance Technologies
+​
+ 
+
+8.2
+​
+ 
+
+7.3
+Corporate
+​
+ 
+
+0.9
+​
+ 
+
+0.3
+Total capital expenditures
+​
+$
+
+46.4
+​
+$
+
+27.5
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Three months ended June 30, 
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+Depreciation and amortization expense:
+​
+​
+​
+​
+​
+​
+Data Centers
+​
+$
+
+5.4
+​
+$
+
+5.7
+Commercial HVAC
+​
+​
+
+8.0
+​
+​
+
+5.5
+Performance Technologies
+​
+ 
+
+6.9
+​
+ 
+
+7.5
+Corporate
+​
+ 
+
+0.4
+​
+ 
+
+0.3
+Total depreciation and amortization expense
+​
+$
+
+20.7
+​
+$
+
+19.0
+​
+20
+
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+The following is a summary of segment assets, comprised entirely of trade accounts receivable and inventories, and other assets:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+June 30, 2026
+  ​ ​ ​
+March 31, 2026
+Assets:
+​
+​
+  ​
+​
+​
+  ​
+Data Centers
+​
+$
+
+513.0
+​
+$
+
+496.2
+Commercial HVAC
+​
+​
+
+358.6
+​
+​
+
+338.3
+Performance Technologies
+​
+ 
+
+397.3
+​
+ 
+
+402.6
+Other (a)
+​
+ 
+
+1,526.5
+​
+ 
+
+1,437.5
+Total assets
+​
+$
+
+2,795.4
+​
+$
+
+2,674.6
+____
+​
+​
+​
+​
+​
+​
+​
+(a)
+Represents cash and cash equivalents, other current assets, property plant and equipment, intangible assets, goodwill, deferred income taxes, and other noncurrent assets for the Data Centers, Commercial HVAC and Performance Technologies segments and Corporate.
+​
+​
+​
+21
+
+Table of Contents
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations.
+When we use the terms “Modine,” “we,” “us,” the “Company,” or “our” in this report, we are referring to Modine Manufacturing Company.  Our fiscal year ends on March 
+31 and, accordingly, all references to quarters refer to our fiscal quarters.  The quarter ended June 30, 2026 was the first quarter of fiscal 2027.
+Pending Reverse Morris Trust Transaction
+We have entered into definitive agreements with Gentherm Incorporated (“Gentherm”), whereby we will spin-off and simultaneously combine our Performance Technologies segment businesses with Gentherm in a Reverse Morris Trust transaction.  We anticipate this transaction will close by the end of calendar 2026, subject to approval by Gentherm’s shareholders and other customary closing conditions.  The transaction is intended to establish Gentherm as a scaled leader in thermal management.  We will retain our Data Centers and Commercial HVAC segment businesses, creating a pure-play climate solutions company.
+​
+Under the terms of the agreements, at the time of the spin-off of our Performance Technologies segment businesses, our shareholders will receive newly-issued Gentherm stock, representing ownership of approximately 40 percent of the combined company.  In addition, immediately prior to transaction closing, we will receive cash proceeds of $210.0 million, subject to adjustment, which we will use to pay down our long-term debt obligations.  Based upon the Gentherm stock price, the transaction was valued at approximately $1.0 billion when we entered into the agreements in January 2026.  The Reverse Morris Trust transaction is structured to be generally tax-free for U.S. federal income tax purposes for the Company and our shareholders.  To facilitate this transaction, we have incurred expenses to separate the Performance Technologies business, including fees for transaction advisory, legal, accounting, tax, and other professional services.  Through June 30, 2026, we have incurred disposition-related costs totaling $22.1 million.  We estimate that we will incur $25.0 million to $35.0 million of additional costs directly related to the transaction during the remainder of fiscal 2027.
+​
+Fiscal 2026 acquisitions
+During fiscal 2026, we acquired three businesses, each supporting our growth strategy by expanding our product portfolio and broadening our customer base.  On April 1, 2025 we acquired substantially all of the net operating assets of AbsolutAire, Inc. (“AbsolutAire”) for $11.3 million.  On May 31, 2025, we acquired LBW Holding Corp. (“L.B. White”) for $110.5 million.  On July 1, 2025, we acquired Climate by Design International (“Climate by Design”) for $64.4 million.  We report the financial results of these businesses within the Commercial HVAC segment.
+First quarter highlights
+Net sales in the first quarter of fiscal 2027 increased $191.3 million, or 28 
+percent, from the first quarter of fiscal 2026, primarily due to higher sales in our Data Centers segment.  Cost of sales increased $174.7 million, or 34 
+percent.  Gross profit increased $16.6 million.  Gross margin declined 340 basis points to 20.8 
+percent, primarily due to lower gross margin in the Data Centers segment, largely driven by higher material costs and operating inefficiencies associated with our rapid expansion of manufacturing capacity for data center cooling solutions and supplier capacity constraints.  Selling, general and administrative (“SG&A”) expenses increased $18.4 million, primarily due to higher compensation-related expenses and disposition-related costs.  Operating income of $74.8 million during the first quarter of fiscal 2027 decreased $0.9 million from the prior year, primarily due to higher SG&A expenses, partially offset by higher gross profit.
+22
+
+Table of Contents
+CONSOLIDATED RESULTS OF OPERATIONS
+The following table presents our consolidated financial results on a comparative basis for the three months ended June 30, 2026 and 2025:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+(in millions)
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+Net sales
+​
+$
+ 874.1
+ 
+ 100.0
+%  
+$
+ 682.8
+ 
+ 100.0
+%  
+Cost of sales
+​
+ 
+ 692.1
+ 
+ 79.2
+%  
+ 
+ 517.4
+ 
+ 75.8
+%  
+Gross profit
+​
+ 
+ 182.0
+ 
+ 20.8
+%  
+ 
+ 165.4
+ 
+ 24.2
+%  
+Selling, general and administrative expenses
+​
+ 
+ 103.3
+ 
+ 11.8
+%  
+ 
+ 84.9
+ 
+ 12.4
+%  
+Restructuring expenses
+​
+ 
+ 3.9
+ 
+ 0.4
+%  
+ 
+ 4.8
+ 
+ 0.7
+%  
+Operating income
+​
+ 
+ 74.8
+ 
+ 8.6
+%  
+ 
+ 75.7
+ 
+ 11.1
+%  
+Interest expense
+​
+ 
+ (6.4)
+ 
+ (0.7)
+%  
+ 
+ (5.8)
+ 
+ (0.8)
+%  
+Other income (expense) – net
+​
+ 
+ 0.2
+ 
+ —
+​
+ 
+ (4.2)
+ 
+ (0.6)
+%  
+Earnings before income taxes
+​
+ 
+ 68.6
+ 
+ 7.9
+%  
+ 
+ 65.7
+ 
+ 9.6
+%  
+Benefit (provision) for income taxes
+​
+ 
+ 5.7
+ 
+ 0.6
+%  
+ 
+ (14.0)
+ 
+ (2.1)
+%  
+Net earnings
+​
+$
+ 74.3
+ 
+ 8.5
+%  
+$
+ 51.7
+ 
+ 7.6
+%  
+​
+Comparison of the three months ended June 30, 2026 and 2025
+​
+First quarter net sales of $874.1 million were $191.3 million, or 28 percent, higher than the first quarter of the prior year, primarily due to $164.9 million of higher sales in our Data Centers segment, primarily driven by sales growth to hyperscale data center customers in North America.  In addition, sales in our Commercial HVAC segment increased $47.4 million, driven by higher sales volume, including $19.7 million of incremental sales from the acquired L.B. White and Climate by Design businesses.  The higher sales in the Data Centers and Commercial HVAC segments were partially offset by lower sales in our Performance Technologies segment, which decreased $7.7 million.  Foreign currency exchange rates favorably impacted sales by $6.1 million.
+First quarter cost of sales increased $174.7 million, or 34 percent, primarily due to higher sales volume, approximately $21.0 million of higher material costs, including higher component and raw material costs and tariffs.  In addition, cost of sales was negatively impacted by operating inefficiencies and a $4.8 million unfavorable impact of foreign currency exchange rates.  The operating inefficiencies were primarily in our Data Centers segment, where we incurred higher costs related to the rapid expansion of manufacturing capacity for data center cooling solutions and supplier capacity constraints that temporarily disrupted our production schedules.  As a percentage of sales, cost of sales increased 340 basis points to 79.2 percent, primarily due to the higher material costs and the operating inefficiencies.
+As a result of higher sales and higher cost of sales as a percentage of sales, first quarter gross profit increased $16.6 million, or 10 percent, and gross margin declined 340 basis points to 20.8 percent.
+First quarter SG&A expenses increased $18.4 million, or 22 percent.  As a percentage of sales, SG&A expenses decreased 60 basis points.  The increase in SG&A expenses was driven by higher compensation-related expenses, which increased approximately $10.0 million, and $7.1 million of costs incurred related to the pending Reverse Morris Trust transaction with Gentherm.  The higher compensation-related expenses include increases in the Data Centers segment, supporting the segment’s growth, incremental expenses from acquired businesses in the Commercial HVAC segment, and higher incentive compensation expenses.  These increases were partially offset by lower compensation-related expenses in the Performance Technologies segment, which included the benefits of previous restructuring actions.  In addition, costs associated with acquisition activities decreased $1.7 million.
+Restructuring expenses decreased $0.9 million compared with the first quarter of fiscal 2026, primarily due to lower severance expenses in the Performance Technologies segment.  This decrease was partially offset by higher costs related to transferring production for certain product lines.
+23
+
+Table of Contents
+Operating income of $74.8 million in the first quarter of fiscal 2027 decreased $0.9 million, or 1 percent, compared with the first quarter of fiscal 2026, primarily due to higher SG&A expenses, partially offset by higher gross profit.
+Interest expense during the first quarter of fiscal 2027 increased $0.6 million compared with the first quarter of fiscal 2026, primarily due to higher average outstanding borrowings on our revolving credit facility, partially offset by favorable changes in interest rates.
+Other income of $0.2 million during the first quarter of fiscal 2027 represents a $4.4 million change compared with other expense of $4.2 million during the first quarter of fiscal 2026.  Compared with the prior-year period, foreign currency transaction losses decreased $3.2 million and pension benefit costs decreased $1.3 million, as we completed the termination of our primary U.S. pension plan during the third quarter of fiscal 2026.
+The benefit for income taxes was $5.7 million in the first quarter of fiscal 2027, compared with a provision for income taxes of $14.0 million in the same period in the prior year.  The $19.7 million change was primarily due to $26.5 million of tax benefits related to stock-based compensation awards, partially offset by a $3.8 million income tax detriment related to nondeductible compensation in the first quarter of fiscal 2027 and changes in the mix and amount of foreign and U.S. earnings, as compared with the same period in the prior year.  The tax benefits related to stock-based compensation awards were primarily driven by performance-based stock awards granted in fiscal 2024, for which shares were issued during the first quarter of fiscal 2027.
+We expect the benefit from the $26.5 million of tax benefits recorded in the first quarter will be largely offset by tax detriments related to nondeductible compensation during the remainder of fiscal 2027.  As a result, we do not expect that our full-year fiscal 2027 effective tax rate will be impacted significantly.
+SEGMENT RESULTS OF OPERATIONS
+Effective April 1, 2026, we reorganized our Climate Solutions segment and split it into two separate operating segments: 1) Data Centers and 2) Commercial HVAC.  We believe managing these businesses independently allows us to better deploy our 80/20 strategy focused on capitalizing on growth opportunities, particularly in the Data Centers business, and optimizing profit margins and cash flow.  Segment financial information for fiscal 2026 has been recast to conform to the current presentation. The segment realignment had no impact on the financial results of the Performance Technologies segment.
+​
+The following is a discussion of our segment results of operations for the three months ended June 30, 2026 and 2025:
+​
+Data Centers
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+(in millions)
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+Net sales
+​
+$
+ 348.6
+ 
+ 100.0
+%  
+$
+ 183.7
+ 
+ 100.0
+%  
+Cost of sales
+​
+ 
+ 278.3
+ 
+ 79.8
+%  
+ 
+ 129.0
+ 
+ 70.2
+%  
+Gross profit
+​
+ 
+ 70.3
+ 
+ 20.2
+%  
+ 
+ 54.7
+ 
+ 29.8
+%  
+Selling, general and administrative expenses
+​
+ 
+ 24.0
+ 
+ 6.9
+%  
+ 
+ 19.8
+ 
+ 10.8
+%  
+Restructuring expenses
+​
+ 
+ —
+ 
+ —
+​
+ 
+ 0.2
+ 
+ 0.1
+%  
+Operating income
+​
+$
+ 46.3
+ 
+ 13.3
+%  
+$
+ 34.7
+ 
+ 18.9
+%  
+​
+Comparison of the three months ended June 30, 2026 and 2025
+Data Centers net sales increased $164.9 million, or 90 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher sales volume in North America, driven by sales growth to hyperscale customers.
+​
+​
+24
+
+Table of Contents
+Data Centers cost of sales increased $149.3 million, or 116 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher sales volume and higher material costs, which increased approximately $16.0 million.  We also incurred higher expenses related to the rapid expansion of manufacturing capacity in the U.S. and our production schedules were temporarily disrupted during the first quarter of fiscal 2027 due to supplier capacity constraints for certain key components, which resulted in unfavorable absorption of manufacturing overhead, facility, and labor costs.  We have been and will continue to take actions to secure supply, including working with current partners and qualifying additional suppliers.  These actions began yielding positive results over the course of the first quarter.  In addition, warranty expense increased approximately $4.0 million compared to the prior year, primarily due to the absence of a favorable warranty settlement in the prior year.  As a percentage of sales, cost of sales increased 960 basis points to 79.8 percent, primarily due to higher material costs and the operating inefficiencies associated with the business’s rapid growth and the supplier capacity constraints.
+As a result of the higher sales and higher cost of sales as a percentage of sales, gross profit increased $15.6 million, or 29 percent, and gross margin declined 960 basis points to 20.2 percent.
+Data Centers SG&A expenses increased $4.2 million, or 21 percent, compared with the first quarter of the prior 
+year.  As a 
+percentage of sales, SG&A expenses decreased 390 basis points.  The increase in SG&A expenses was primarily driven by costs to support the segment’s strategic growth initiatives, including higher compensation-related expenses, which increased approximately $5.0 million, and increases across other general and administrative expenses.  These increases were partially offset by lower amortization expense, which decreased $1.8 million.  The lower amortization expense was primarily driven by an order backlog intangible asset related to our acquisition of Scott Springfield Mfg. Inc., which we finished amortizing during the first quarter of fiscal 2026.
+Operating income of $46.3 million increased $11.6 million, or 33 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher gross profit, partially offset by higher SG&A expenses.
+​
+Commercial HVAC
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+​
+  ​ ​ ​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+(in millions)
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+Net sales
+​
+$
+ 261.6
+ 
+ 100.0
+%  
+$
+ 214.2
+ 
+ 100.0
+%  
+Cost of sales
+​
+ 
+ 197.7
+ 
+ 75.6
+%  
+ 
+ 156.0
+ 
+ 72.8
+%  
+Gross profit
+​
+ 
+ 63.9
+ 
+ 24.4
+%  
+ 
+ 58.2
+ 
+ 27.2
+%  
+Selling, general and administrative expenses
+​
+ 
+ 30.3
+ 
+ 11.6
+%  
+ 
+ 24.9
+ 
+ 11.7
+%  
+Restructuring expenses
+​
+ 
+ 2.2
+ 
+ 0.8
+%  
+ 
+ 1.1
+ 
+ 0.5
+%  
+Operating income
+​
+$
+ 31.4
+ 
+ 12.0
+%  
+$
+ 32.2
+ 
+ 15.0
+%  
+​
+Comparison of the three months ended June 30, 2026 and 2025
+Commercial HVAC net sales increased $47.4 million, or 22 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher sales volume, including $19.7 million of incremental sales from the L.B. White and Climate by Design businesses acquired during fiscal 2026,
+ and higher average selling prices.  In addition, foreign currency exchange rates favorably impacted sales by $2.0 million.  Compared with the first quarter of the prior 
+year, sales of HVAC technologies and heat transfer solution products increased $23.5 million and $10.7 million, respectively.  The higher HVAC technologies product sales were primarily driven by
+the incremental sales from the acquired businesses.  The higher heat transfer solutions product sales were primarily driven by higher sales of heat exchanger coils to customers in the data center market.
+​
+​
+25
+
+Table of Contents
+Commercial HVAC cost of sales increased $41.7 million, or 27 
+percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher sales volume and higher raw material costs, which increased approximately $6.0 million.  In addition, cost of sales was negatively impacted by temporary operating inefficiencies, largely associated with product line transfers, and $1.6 million from foreign currency exchange rates.  As a percentage of sales, cost of sales increased 280 basis points to 75.6 percent, primarily due to higher material costs, temporary operating inefficiencies and unfavorable sales mix, partially offset by higher average selling prices.
+As a result of the higher sales and higher cost of sales as a percentage of sales, gross profit increased $5.7 million, or 10 percent, and gross margin declined 280 basis points to 24.4 percent.
+Commercial HVAC SG&A expenses increased $5.4 million, or 22 percent, compared with the first quarter of the prior 
+year.  As a 
+percentage of sales, SG&A expenses decreased 10 basis points.  The increase in SG&A expenses was driven by higher compensation-related expenses, which increased approximately $2.0 million from incremental expenses from the acquired businesses, and increases across other general and administrative expenses.  The higher SG&A expenses included incremental expenses from the businesses acquired during fiscal 2026.
+Restructuring expenses increased $1.1 million compared with the first quarter of fiscal 2026, primarily due to higher costs related to transferring production for certain product lines.
+Operating income of $31.4 million decreased $0.8 million, or 2 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to higher SG&A and restructuring expenses, partially offset by higher gross profit.
+​
+Performance Technologies
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Three months ended June 30, 
+​
+​
+​
+2026
+  ​ ​ ​
+2025
+  ​ ​ ​
+(in millions)
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+$’s
+  ​ ​ ​
+% of sales
+​
+Net sales
+​
+$
+ 277.8
+ 
+ 100.0
+%  
+$
+ 285.5
+ 
+ 100.0
+%  
+Cost of sales
+​
+ 
+ 229.0
+ 
+ 82.4
+%  
+ 
+ 233.6
+ 
+ 81.8
+%  
+Gross profit
+​
+ 
+ 48.8
+ 
+ 17.6
+%  
+ 
+ 51.9
+ 
+ 18.2
+%  
+Selling, general and administrative expenses
+​
+ 
+ 19.5
+ 
+ 7.0
+%  
+ 
+ 21.9
+ 
+ 7.7
+%  
+Restructuring expenses
+​
+ 
+ 1.7
+ 
+ 0.6
+%  
+ 
+ 3.5
+ 
+ 1.2
+%  
+Operating income
+​
+$
+ 27.6
+ 
+ 9.9
+%  
+$
+ 26.5
+ 
+ 9.3
+%  
+Comparison of the three months ended June 30, 2026 and 2025
+Performance Technologies net sales decreased $7.7 million, or 3 
+percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to lower sales volume in North America.  The lower sales were largely due to market weakness and our strategic exit from lower-margin business in connection with 80/20 product rationalization initiatives.  These decreases were partially offset by a $4.1 million favorable impact of foreign currency exchange rates. Compared with the first quarter of the prior year, sales of on-highway application products decreased $9.0 million, while sales of heavy-duty equipment products increased $1.3 million.
+Performance Technologies cost of sales decreased $4.6 million, or 2 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to lower sales volume and improved operating efficiencies, partially offset by a $3.2 million unfavorable impact of foreign currency exchange rates.  As a percentage of sales, cost of sales increased 60 basis points to 82.4 percent, primarily due to the unfavorable impact of lower sales, partially offset by improved operating efficiencies.
+As a result of the lower sales and higher cost of sales as a percentage of sales, gross profit decreased $3.1 million, or 6 percent, and gross margin declined 60 basis points to 17.6 percent.
+​
+26
+
+Table of Contents
+Performance Technologies SG&A expenses decreased $2.4 million, or 11 percent, compared with the first quarter of the prior 
+year.  As a 
+percentage of sales, SG&A expenses decreased 70 basis points.  The decrease in SG&A expenses was primarily due to lower compensation-related expenses, which decreased approximately $3.0 million and included the benefits of previous restructuring actions.
+Restructuring expenses decreased $1.8 million compared with the first quarter of the prior year, primarily due to lower severance expenses, partially offset by higher costs related to transferring production for certain product lines.
+Operating income of $27.6 million increased $1.1 million, or 4 percent, from the first quarter of fiscal 2026 to the first quarter of fiscal 2027, primarily due to lower SG&A and restructuring expenses, partially offset by lower gross profit.
+Liquidity and Capital Resources
+Our primary sources of liquidity are cash flow from operating activities, our cash and cash equivalents as of June 30, 
+2026 of $95.3 million, and available borrowing capacity of $294.2 million under our revolving credit facility.  Given our extensive international operations, approximately $69.0 million of our cash and cash equivalents are held by our non-U.S. subsidiaries.  Amounts held by non-U.S. subsidiaries are available for general corporate use; however, these funds may be subject to foreign withholding taxes if repatriated.  We believe our sources of liquidity will provide sufficient cash flow to adequately cover our funding needs on both a short-term and long-term basis.
+Net cash provided by operating activities
+Net cash provided by operating activities for the three months ended June 30, 2026 was $41.4 million, which represents a $13.7 million increase compared with the same period in the prior 
+year.  This increase was primarily due to favorable net changes in working capital.  Decreases in accounts receivable, primarily driven by a sequential decrease in net sales from the fourth quarter of fiscal 2026, and higher accounts payable levels favorably impacted operating cash flow during the first quarter of fiscal 2027.  Our Data Centers segment production schedules were negatively impacted by supplier capacity constraints during the first quarter of fiscal 2027 and contributed to the sequential sales decrease.  We have been and will continue to take actions to secure supply, including working with current partners and qualifying additional suppliers.  These actions began yielding positive results over the course of the first quarter.  The favorable working capital drivers were partially offset by increases in inventory to support expected sales growth in our Data Centers segment, and higher contract assets related to revenue recognized over time.
+Capital expenditures
+Capital expenditures of $46.4 million during the first three months of fiscal 2027 increased $18.9 million compared with the same period in the prior year, primarily driven by investments in the Data Centers segment to increase production capacity in support of expected growth in that business.
+Business acquisitions
+During the first quarter of fiscal 2026, we made cash payments totaling $119.0 million to acquire L.B. White and AbsolutAire.  See Note 2 of the Notes to Condensed Consolidated Financial Statements for additional information regarding these acquisitions.
+Debt
+During the first three months of fiscal 2027, borrowings on our credit facilities, net of repayments, totaled $91.9 million.
+Our credit agreements require us to maintain compliance with various covenants, including a leverage ratio covenant and an interest expense coverage ratio covenant, which are discussed further below.  Indebtedness under our credit agreements is secured by liens on substantially all domestic assets, excluding real estate.  These agreements further require compliance with various covenants that may limit our ability to incur additional indebtedness; grant liens; make investments, loans, or guarantees; engage in certain transactions with affiliates; or make restricted payments, including dividends.  Also, the credit agreements may require prepayments in the event of certain asset sales.  In connection with the pending transaction with Gentherm, we expect to receive $210.0 million, subject to adjustment, immediately prior to transaction closing and plan to use such proceeds to repay principal balances outstanding under our credit agreements.
+27
+
+Table of Contents
+The leverage ratio covenant within our primary credit agreements requires us to limit our consolidated indebtedness, less a portion of our cash balance, both as defined by the credit agreements, to no more than three and one-half times consolidated net earnings before interest, taxes, depreciation, amortization, and certain other adjustments (“Adjusted EBITDA”).  We are also subject to an interest expense coverage ratio covenant, which requires us to maintain Adjusted EBITDA of at least three times consolidated interest expense.
+As of June 30, 
+2026, we were in compliance with our debt covenants.  We expect to remain in compliance with our debt covenants during the remainder of fiscal 2027 and beyond.
+Purchases of treasury stock
+Under our equity compensation plans, participants have the option to sell back shares from their vested awards to satisfy their individual tax withholding obligations.  We hold these purchased shares as treasury shares, which reduces the number of shares outstanding used to calculate earnings per share.  During the first quarter of fiscal 2027 and in connection with the vesting of stock awards, we purchased 219,667 shares for $64.6 million, an increase of $59.5 million compared with the same period last year.  The increase was primarily related to performance-based stock awards granted in fiscal 2024, for which shares were issued during the first quarter of fiscal 2027 after the requisite three-year performance period.  In fiscal 2023, performance-based cash awards were granted in lieu of performance-based stock awards; therefore, there were no share purchases related to performance-based awards in fiscal 2026 since the awards were settled in cash.  Modine’s share price appreciated significantly from the grant date of the fiscal 2024 performance-based stock awards ($27.29 per share) to the date of issuance in the first quarter of fiscal 2027 ($295.88 per share).  The share price appreciation increased the value of the shares delivered to participants and the shares delivered back to Modine by participants to satisfy their associated tax withholding obligations.  
+We did not purchase shares under our share repurchase program during the first three months of fiscal 2027.  As of June 30, 
+2026, we had $81.6 million of share repurchase authorization remaining under the repurchase program, which does not expire.  Our decision whether and to what extent to repurchase additional shares under the program will depend on a number of factors, including business conditions, other cash priorities, and stock price.
+Forward-looking statements
+This report, including, but not limited to, the discussion under Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations, contains statements, including information about future financial performance, accompanied by phrases such as “believes,” “estimates,” “expects,” “plans,” “anticipates,” “intends,” and other similar “forward-looking” statements, as defined in the Private Securities Litigation Reform Act of 1995. Modine’s actual results, performance or achievements may differ materially from those expressed or implied in these statements, because of certain risks and uncertainties, including, but not limited to, those described under “Risk Factors” in Item 1A. in Part I. of the Company’s Annual Report on Form 10-K for the year ended March 31, 2026. Other risks and uncertainties include, but are not limited to, the following:
+Market risks
+●
+The impact of potential adverse developments or disruptions in the global economy and financial markets, including impacts related to geopolitical tensions and military conflicts, including the conflict between the U.S. and Iran, inflation, energy costs, government incentive or funding programs, supply chain challenges, logistical disruptions, including those related to sea, land or air freight, tariffs, sanctions and other trade issues or cross-border trade restrictions;
+●
+The impact of other economic, social and political conditions, changes, challenges and unrest, particularly in the geographic, product and financial markets where we and our customers operate and compete, including foreign currency exchange rate fluctuations; changes in interest rates; recession and recovery therefrom; and the general uncertainties about the impact of statutory, regulatory and/or policy changes, including those related to tax and trade that have been or may be implemented in the U.S. or abroad;
+28
+
+Table of Contents
+●
+The impact of potential price increases associated with raw materials, including aluminum, copper, steel and stainless steel (nickel), and other purchased component inventory including, but not limited to, increases in the underlying material cost based upon the London Metal Exchange and related premiums or fabrication costs. These prices may be impacted by a variety of factors, including changes in trade laws and tariffs, the behavior of our suppliers and significant fluctuations in demand.  This risk includes our ability to successfully manage our exposure and our ability to adjust product pricing in response to price increases, including through our quotation process or through contract provisions for prospective price adjustments, as well as the inherent lag in timing of such contract provisions;
+●
+Our ability to be at the forefront of technological advances to differentiate ourselves from our competitors and provide innovative products and services to our customers, the impacts of any changes in or the adoption rate of technologies that we expect to drive sales growth, including those related to data center cooling, and the impacts of threats or changes to the market growth prospects for our customers;
+●
+Our ability to mitigate increases in labor costs and labor shortages;
+●
+The impact of public health threats on the national and global economy, our business, suppliers (and the supply chain), customers, and employees; and
+●
+The impact of legislation, regulations, and government incentive programs, including those addressing climate change, on demand for our products and the markets we serve, including our ability to take advantage of opportunities to supply alternative new technologies to meet environmental and/or energy standards and objectives.
+Operational risks
+●
+The impact of problems, including logistic and transportation challenges, associated with suppliers meeting our quantity, quality, price and timing demands, and the overall health of our suppliers, including their ability and willingness to supply our volume demands if their production capacity becomes constrained;
+●
+The overall health of and pricing pressure from our customers in light of economic and market-specific factors and the potential impact on us from any deterioration in the stability or performance of any of our major customers;
+●
+Our ability to maintain current customer relationships and compete effectively for new business, including our ability to achieve profit margins acceptable to us by offsetting or otherwise addressing any cost increases associated with supply chain challenges and inflationary market conditions;
+●
+The impact of product or manufacturing difficulties or operating inefficiencies, including any product or program launches, product transfer challenges and product warranty and liability claims;
+●
+The impact of delays or modifications initiated by major customers with respect to product or program launches, product applications or requirements, or timing of construction or development projects that incorporate our products and services;
+●
+Our ability to consistently structure our operations in order to develop and maintain a competitive cost base with appropriately skilled and stable labor, while also positioning ourselves geographically, so that we can continue to support our customers with the technical expertise and market-leading products they demand and expect from Modine;
+●
+Our ability to effectively and efficiently manage our operations in response to sales volume changes, including maintaining adequate production capacity to meet demand in our growing businesses, particularly in our Data Centers businesses, while also completing restructuring activities and realizing the anticipated benefits thereof;
+29
+
+Table of Contents
+●
+Costs and other effects of the investigation and remediation of environmental contamination; including when related to the actions or inactions of others and/or facilities over which we have no control;
+●
+Our ability to recruit and maintain talent, including personnel in managerial, leadership, operational and administrative functions;
+●
+Our ability to protect our proprietary information and intellectual property from theft or attack by internal or external sources;
+●
+The impact of a substantial disruption, including any prolonged service outage, or material breach of our information technology systems, and any related delays, problems or costs;
+●
+Increasingly complex and restrictive laws and regulations and the costs associated with compliance therewith, including state and federal labor regulations, laws and regulations associated with being a U.S. public company, and other laws and regulations present in various jurisdictions in which we operate;
+●
+Increasing emphasis by global regulatory bodies, customers, investors, and employees on environmental, social and corporate governance matters may impose additional costs on us, adversely affect our reputation, or expose us to new risks;
+●
+Work stoppages or interference at our facilities or those of our major customers and/or suppliers; and
+●
+The constant and increasing pressures associated with healthcare and associated insurance costs.
+Strategic risks related to the pending Reverse Morris Trust transaction with Gentherm
+●
+Our ability to complete the pending transaction on the terms or in the time frame expected by the parties, or at all;
+●
+The occurrence of any event that could give rise to the termination of the pending transaction;
+●
+Potential shareholder litigation in connection with the pending transaction or other litigation, settlements or investigations may affect the timing or occurrence of the pending transaction or result in significant costs of defense, indemnification and liability;
+●
+Our ability to obtain the anticipated tax treatment of the pending transaction;
+●
+Greater than expected difficulty in separating the businesses subject to the pending disposition from our other businesses; and
+●
+Disruption of management time from ongoing business operations due to the pending transaction, or other effects of the pending transaction on our relationship with our employees, customers, suppliers, or other counterparties.
+Strategic risks related to business growth and optimization
+●
+Our ability to realize the sales growth and return on investments anticipated in our Data Centers segment;
+●
+Our ability to identify and execute on other organic growth opportunities and acquisitions, and to efficiently and successfully integrate acquired businesses;
+30
+
+Table of Contents
+●
+Our ability to successfully realize anticipated benefits, including improved profit margins and cash flow, from strategic initiatives and our continued application of 80/20 principles across our businesses; and
+●
+Our ability to successfully exit portions of our business that do not align with our strategic plans.  Business dispositions involve risks, including transaction-related and other costs, damage to or the loss of customer relationships, the diversion of management’s attention from our other business concerns, and other effects of litigation, claims, or other obligations, including those that may be asserted against us in connection with disposed businesses.
+Financial risks
+●
+Our ability to fund our global liquidity requirements efficiently for our current operations and meet our long-term commitments in the event of disruption in or tightening of the credit markets or extended recessionary conditions in the global economy;
+●
+The impact of increases in interest rates in relation to our variable-rate debt obligations;
+●
+The impact of changes in federal, state or local tax regulations that could have the effect of increasing our income tax expense;
+●
+Our ability to comply with the financial covenants in our credit agreements, including our leverage ratio (net debt divided by Adjusted EBITDA, as defined in our credit agreements) and our interest coverage ratio (Adjusted EBITDA divided by interest expense, as defined in our credit agreements);
+●
+The potential unfavorable impact of foreign currency exchange rate fluctuations on our financial results; and
+●
+Our ability to effectively realize the benefits of deferred tax assets in various jurisdictions in which we operate.
+Forward-looking statements are as of the date of this report; we do not assume any obligation to update any forward-looking statements.
+Item 3. Quantitative and Qualitative Disclosures About Market Risk.
+The Company’s quantitative and qualitative disclosures about market risk are incorporated by reference from Part II, Item 7A. of the Company’s Annual Report on Form 10-K for the year ended March 31, 
+2026.  The Company’s market risks have not materially changed since the fiscal 2026 Form 10-K was filed.
+Item 4. Controls and Procedures.
+Evaluation of disclosure controls and procedures
+As of the end of the period covered by this Quarterly Report on Form 10-Q, management of the Company, with the participation of the Company’s President and Chief Executive Officer and Executive Vice President, Chief Financial Officer, and under the oversight of the Audit Committee of the Board of Directors, evaluated the effectiveness of the Company’s disclosure controls and procedures, at a reasonable assurance level, as defined in Rules 13a-15(e) and 15d-15(e) of the Securities Exchange Act of 1934, as amended. Based upon that evaluation, the President and Chief Executive Officer and Executive Vice President, Chief Financial Officer have concluded that the Company’s disclosure controls and procedures were effective as of June 30, 2026.
+​
+Changes in internal control over financial reporting
+There have been no changes in internal control over financial reporting during the first quarter of fiscal 2027 that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting.
+​
+31
+
+Table of Contents
+PART II. OTHER INFORMATION
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds.
+ISSUER PURCHASES OF EQUITY SECURITIES
+The following describes the Company’s purchases of common stock during the first quarter of fiscal 2027:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+Maximum
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Number (or
+​
+​
+​
+​
+​
+​
+​
+Total Number of
+​
+Approximate Dollar
+​
+​
+​
+​
+​
+​
+​
+Shares Purchased
+​
+Value) of Shares
+​
+​
+​
+​
+Average
+​
+as Part of Publicly
+​
+that May Yet Be
+​
+​
+Total Number of
+​
+Price Paid
+​
+Announced Plans
+​
+Purchased Under the
+Period
+​
+Shares Purchased
+​
+Per Share
+​
+or Programs
+​
+Plans or Programs (a)
+April 1 - April 30, 2026
+ 
+2,551 (b)
+​
+$
+ 253.66
+ 
+ —
+​
+$
+ 81,600,955
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+May 1 - May 31, 2026
+ 
+216,511 (b)
+​
+$
+ 294.56
+ 
+ —
+​
+$
+ 81,600,955
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+June 1 - June 30, 2026
+ 
+605 (b)
+​
+$
+ 278.82
+ 
+ —
+​
+$
+ 81,600,955
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Total
+ 
+ 219,667
+​
+$
+ 294.05
+ 
+ —
+​
+ 
+  ​
+____
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+(a)
+Effective March 7, 2025, the Company’s Board of Directors authorized the Company to repurchase up to $100.0 million of Modine common stock at such times and prices that it deems to be appropriate. This share repurchase authorization does not expire.
+(b)
+Includes shares delivered back to the Company by employees and/or directors to satisfy tax withholding obligations that arise upon the vesting of stock awards.  The Company, pursuant to its equity compensation plans, gives participants the opportunity to turn back to the Company the number of shares from the award sufficient to satisfy tax withholding obligations that arise upon the termination of restrictions.  These shares are held as treasury shares.
+Item 5. Other Information.
+During the three months ended June 30, 2026, Michael B. Lucareli,
+Executive Vice President, Chief Financial Officer
+ of the Company and Arthur Laszlo Jr.,
+President
+, Data Centers,
+adopted
+
+stock
+ sale arrangements (each a “Plan”) intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Securities Exchange Act of 1934, as amended. Each Plan provides for the sale of shares of Modine common stock subject to a specified formula and other terms and conditions. The date of adoption, duration of sales period, and maximum number of shares to be sold under each Plan are as follows:
+Date of
+​
+​
+​
+​
+Date of Adoption
+Duration of Sales Period
+Maximum No. of Shares to be Sold
+Michael B. Lucareli
+June 18, 2026
+November 15, 2026 to December 31, 2027
+60,000
+Arthur Laszlo Jr.
+June 16, 2026
+September 15, 2026 to  December 31, 2026
+5,185
+​
+During the three months ended June 30, 2026,
+no
+
+other director
+ or “officer” of the Company
+adopted
+
+or
+ terminated a “Rule 10b5-1 trading arrangement” or “non-Rule 10b5-1 trading arrangement,” as each term is defined in Item 408(a) of Regulation S-K.
+​
+32
+
+Table of Contents
+Item 6. Exhibits.
+(a)
+Exhibits
+:
+​
+​
+​
+​
+​
+​
+​
+​
+Exhibit No.
+  ​ ​ ​
+Description
+  ​ ​ ​
+Incorporated
+Herein By
+Reference
+To
+  ​ ​ ​
+Filed
+Herewith
+ 
+​
+​
+​
+​
+​
+​
+​
+​
+4.1
+​
+Amendment No. 2 to Credit Agreement among the Company, the initial subsidiary borrower, the institutions party thereto as lenders, and JPMorgan Chase Bank, N.A., as administrative agent, dated as of April 30, 2026.
+​
+Exhibit 4.1 to Registrant’s Current Report on Form 8-K dated April 30, 2026
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+4.2
+​
+Sixth Amendment to the Second Amended and Restated Note Purchase Agreement, dated as of July 10, 2026.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+10.1
+​
+​
+Form of Fiscal 2027 Restrictive Covenant Agreement.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+10.2
+​
+Offer Letter dated as of June 1, 2026, by and between the Company and Michael Mahan.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+31.1
+​
+Rule 13a-14(a)/15d-14(a) Certification of Neil D. Brinker, President and Chief Executive Officer.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+31.2
+​
+Rule 13a-14(a)/15d-14(a) Certification of Michael B. Lucareli, Executive Vice President, Chief Financial Officer.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+32.1
+​
+Section 1350 Certification of Neil D. Brinker, President and Chief Executive Officer.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+32.2
+​
+Section 1350 Certification of Michael B. Lucareli, Executive Vice President, Chief Financial Officer.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.INS
+​
+Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document).
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.SCH
+​
+Inline XBRL Taxonomy Extension Schema.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.CAL
+​
+Inline XBRL Taxonomy Extension Calculation Linkbase Document.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.DEF
+​
+Inline XBRL Taxonomy Extension Definition Linkbase Document.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.LAB
+​
+Inline XBRL Taxonomy Extension Label Linkbase Document.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+101.PRE
+​
+Inline XBRL Taxonomy Extension Presentation Linkbase Document.
+​
+​
+​
+X
+​
+​
+​
+​
+​
+​
+​
+​
+​
+104
+​
+Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101).
+​
+​
+​
+X
+​
+​
+​
+33
+
+Table of Contents
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+​
+​
+​
+​
+MODINE MANUFACTURING COMPANY
+​
+(Registrant)
+​
+​
+​
+By:
+/s/ Michael B. Lucareli
+​
+Michael B. Lucareli, Executive Vice President, Chief Financial Officer*
+​
+Date: July 30, 2026
+* Executing as both the principal financial officer and a duly authorized officer of the Company
+​
+34

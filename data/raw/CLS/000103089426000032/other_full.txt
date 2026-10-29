@@ -1,0 +1,5144 @@
+cls-20260331
+false
+December 31
+2026
+Q1
+0001030894
+http://fasb.org/us-gaap/2025#PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
+http://fasb.org/us-gaap/2025#PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization
+http://www.celestica.com/20260331#AccruedLiabilitiesAndOtherLiabilitiesAndProvisionsCurrent
+http://www.celestica.com/20260331#AccruedLiabilitiesAndOtherLiabilitiesAndProvisionsCurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligationsCurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligationsCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligations
+http://fasb.org/us-gaap/2025#LongTermDebtAndCapitalLeaseObligations
+33.3
+33.3
+33.3
+358
+362
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+iso4217:RON
+cls:segment
+xbrli:pure
+iso4217:THB
+0001030894
+2026-01-01
+2026-03-31
+0001030894
+2026-04-22
+0001030894
+2026-03-31
+0001030894
+2025-12-31
+0001030894
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeForwardMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeForwardMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:CommonStockMember
+2024-12-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2024-12-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2024-12-31
+0001030894
+us-gaap:RetainedEarningsMember
+2024-12-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-12-31
+0001030894
+2024-12-31
+0001030894
+us-gaap:CommonStockMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:RetainedEarningsMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:CommonStockMember
+2025-03-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2025-03-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2025-03-31
+0001030894
+us-gaap:RetainedEarningsMember
+2025-03-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-03-31
+0001030894
+2025-03-31
+0001030894
+us-gaap:CommonStockMember
+2025-12-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2025-12-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2025-12-31
+0001030894
+us-gaap:RetainedEarningsMember
+2025-12-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-12-31
+0001030894
+us-gaap:CommonStockMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RetainedEarningsMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:CommonStockMember
+2026-03-31
+0001030894
+us-gaap:TreasuryStockCommonMember
+2026-03-31
+0001030894
+us-gaap:AdditionalPaidInCapitalMember
+2026-03-31
+0001030894
+us-gaap:RetainedEarningsMember
+2026-03-31
+0001030894
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-03-31
+0001030894
+cls:A2025NCIBMember
+2025-01-01
+2025-03-31
+0001030894
+cls:ATSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:ATSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:ATSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:ATSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+cls:CCSSegmentMember
+cls:CCSCommunicationsMember
+2026-01-01
+2026-03-31
+0001030894
+cls:CCSCommunicationsMember
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:CCSSegmentMember
+cls:CCSCommunicationsMember
+2025-01-01
+2025-03-31
+0001030894
+cls:CCSCommunicationsMember
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+cls:CCSSegmentMember
+cls:CCSEnterpriseMember
+2026-01-01
+2026-03-31
+0001030894
+cls:CCSEnterpriseMember
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:CCSSegmentMember
+cls:CCSEnterpriseMember
+2025-01-01
+2025-03-31
+0001030894
+cls:CCSEnterpriseMember
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+cls:SegmentConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerSegmentBenchmarkMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:ATSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:ATSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:MaterialReconcilingItemsMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:MaterialReconcilingItemsMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerThreeMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerOneMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerTwoMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OperatingSegmentsMember
+cls:CustomerThreeMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+cls:CCSSegmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:NewTermLoanAMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:NewTermLoanAMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:SecuredOvernightFinancingRateSofrMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentOneMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentOneMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentTwoMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentTwoMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:AdjustedTermSOFRMember
+cls:TermLoanAMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:AdjustedTermSOFRMember
+cls:TermLoanAMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:BaseRateMember
+cls:TermLoanAMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:BaseRateMember
+cls:TermLoanAMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:AdjustedTermSOFRMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:AdjustedTermSOFRMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentOneMember
+us-gaap:SubsequentEventMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentOneMember
+us-gaap:SubsequentEventMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentTwoMember
+us-gaap:SubsequentEventMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+cls:VariableRateComponentTwoMember
+us-gaap:SubsequentEventMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:VariableRateComponentOneMember
+cls:NewTermLoanAMember
+us-gaap:SubsequentEventMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:VariableRateComponentOneMember
+cls:NewTermLoanAMember
+us-gaap:SubsequentEventMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:VariableRateComponentTwoMember
+cls:NewTermLoanAMember
+us-gaap:SubsequentEventMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+cls:VariableRateComponentTwoMember
+cls:NewTermLoanAMember
+us-gaap:SubsequentEventMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:SecuredOvernightFinancingRateSofrMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:BaseRateMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+2026-04-27
+0001030894
+us-gaap:BridgeLoanMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:BridgeLoanMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+0001030894
+us-gaap:LetterOfCreditMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:LetterOfCreditMember
+us-gaap:LineOfCreditMember
+us-gaap:SubsequentEventMember
+2026-04-27
+0001030894
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:InterestRateSwapMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:InterestRateSwapMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+cls:TermLoanAMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+cls:TermLoanBMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+us-gaap:InterestRateSwapMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+us-gaap:LetterOfCreditMember
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:LetterOfCreditMember
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+cls:BankGuaranteesAndSuretyBondsMember
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+cls:BankGuaranteesAndSuretyBondsMember
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+cls:LetterOfCreditGuaranteesSuretyBondsAndOverdraftFacilitiesMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+cls:BankOverdraftFacilityMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+cls:BankOverdraftFacilityMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0001030894
+cls:A2024NCIBMember
+2024-10-30
+0001030894
+cls:A2025NCIBMember
+2025-10-29
+0001030894
+cls:A2025NCIBMember
+2026-03-31
+0001030894
+us-gaap:RestrictedStockUnitsRSUMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:EmployeeStockOptionMember
+us-gaap:ShareBasedCompensationAwardTrancheTwoMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:EmployeeStockOptionMember
+us-gaap:ShareBasedCompensationAwardTrancheOneMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:EmployeeStockOptionMember
+cls:ShareBasedPaymentArrangementTrancheFourMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:EmployeeStockOptionMember
+us-gaap:ShareBasedCompensationAwardTrancheThreeMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:EmployeeStockOptionMember
+2026-01-01
+2026-03-31
+0001030894
+srt:MinimumMember
+us-gaap:PerformanceSharesMember
+2026-01-01
+2026-03-31
+0001030894
+srt:MaximumMember
+us-gaap:PerformanceSharesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:PerformanceSharesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RestrictedStockUnitsRSUMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:PerformanceSharesMember
+2025-01-01
+2025-03-31
+0001030894
+cls:DeferredStockUnitDSUsMember
+2026-01-01
+2026-03-31
+0001030894
+cls:DeferredStockUnitDSUsMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:StockCompensationPlanMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:StockCompensationPlanMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:CostOfSalesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:CostOfSalesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+srt:DirectorMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+srt:DirectorMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:RestrictedStockUnitsRSUMember
+us-gaap:ShareBasedCompensationAwardTrancheOneMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RestrictedStockUnitsRSUMember
+us-gaap:ShareBasedCompensationAwardTrancheTwoMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:RestrictedStockUnitsRSUMember
+us-gaap:ShareBasedCompensationAwardTrancheThreeMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-12-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2024-12-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-03-31
+0001030894
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2024-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-12-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2024-12-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-03-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-12-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2024-12-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2026-03-31
+0001030894
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-03-31
+0001030894
+cls:NCSGlobalServicesLLCMember
+2024-04-30
+0001030894
+cls:NCSGlobalServicesLLCMember
+2026-03-31
+0001030894
+us-gaap:PensionPlansDefinedBenefitMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:PensionPlansDefinedBenefitMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+2025-12-31
+0001030894
+us-gaap:TotalReturnSwapMember
+2025-12-01
+2025-12-31
+0001030894
+us-gaap:TotalReturnSwapMember
+2025-03-01
+2025-03-31
+0001030894
+2025-12-01
+2025-12-31
+0001030894
+2025-03-01
+2025-03-31
+0001030894
+cls:InterestRateSwapJune2027Member
+us-gaap:DesignatedAsHedgingInstrumentMember
+cls:TermALoanMember
+2026-03-31
+0001030894
+cls:InterestRateSwapJune2029Member
+us-gaap:DesignatedAsHedgingInstrumentMember
+cls:TermALoanMember
+2026-03-31
+0001030894
+cls:InterestRateSwapJune2027ToJune2029Member
+us-gaap:DesignatedAsHedgingInstrumentMember
+cls:TermALoanMember
+2026-03-31
+0001030894
+cls:InterestRateSwapJune2027Member
+us-gaap:DesignatedAsHedgingInstrumentMember
+cls:TermBLoanMember
+2026-03-31
+0001030894
+cls:InterestRateSwapJune2027ToJune2029Member
+us-gaap:DesignatedAsHedgingInstrumentMember
+cls:TermBLoanMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermALoanMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:SecuredDebtMember
+cls:TermBLoanMember
+us-gaap:LineOfCreditMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2025-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2025-12-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2025-12-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+2025-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:CostOfSalesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:CostOfSalesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:CostOfSalesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:CostOfSalesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:TotalReturnSwapMember
+us-gaap:NotDesignatedAsHedgingInstrumentEconomicHedgeMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentAssetsMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2025-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:OtherCurrentLiabilitiesMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2025-12-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNoncurrentAssetsMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNoncurrentAssetsMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2025-12-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNoncurrentLiabilitiesMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNoncurrentLiabilitiesMember
+us-gaap:DesignatedAsHedgingInstrumentMember
+2025-12-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:CostOfSalesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:CostOfSalesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:ForeignExchangeContractMember
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+cls:FinanceCostMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+cls:FinanceCostMember
+2025-01-01
+2025-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNonoperatingIncomeExpenseMember
+2026-01-01
+2026-03-31
+0001030894
+us-gaap:InterestRateSwapMember
+us-gaap:OtherNonoperatingIncomeExpenseMember
+2025-01-01
+2025-03-31
+0001030894
+cls:RomanianTaxAuthorityMember
+2021-01-01
+2021-12-31
+0001030894
+cls:RomanianTaxAuthorityMember
+2026-01-01
+2026-03-31
+0001030894
+cls:ThailandTaxAuthorityMember
+2024-01-01
+2024-12-31
+0001030894
+cls:ThailandTaxAuthorityMember
+2026-01-01
+2026-03-31
+0001030894
+cls:RobertMionisMember
+2026-01-01
+2026-03-31
+0001030894
+cls:RobertMionisMember
+2026-03-31
+0001030894
+cls:MandeepChawlaMember
+2026-01-01
+2026-03-31
+0001030894
+cls:MandeepChawlaMember
+2026-03-31
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM
+10-Q
+(Mark One)
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+March 31, 2026
+or
+□
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from _________ to _________
+Commission file number:
+001-14832
+_____________________
+CELESTICA INC.
+(Exact Name of Registrant as Specified in Its Charter)
+Ontario, Canada
+98-0185558
+(State or other jurisdiction of
+incorporation or organization)
+(I.R.S. Employer
+Identification No.)
+
+         
+5140 Yonge Street
+,
+Suite 1900
+                  
+Toronto
+,
+Ontario
+,
+Canada
+                    
+M2N 6L7
+                         (Address of principal executive offices)                (Zip Code)    
+(
+416
+)
+448-2211
+(Registrant’s telephone number, including area code)
+_____________________
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading
+Symbol(s)
+Name of each exchange
+on which registered
+Common Shares
+CLS
+ 
+New York Stock Exchange
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+Yes
+ ☒ No ☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes
+ ☒ No ☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer
+☒
+Accelerated filer
+☐
+Non-accelerated filer
+☐
+Smaller reporting company
+☐
+Emerging growth company
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.☐
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No
+☒
+As of April 22, 2026, the registrant had
+114,973,107
+ Common Shares outstanding.
+CELESTICA INC.
+TABLE OF CONTENTS
+Page
+Part I. Financial Information
+1
+Item 1. Financial Statements
+1
+Condensed Consolidated Balance Sheets as of
+March 31, 2026
+ and
+December 31, 2025
+1
+Condensed Consolidated Statements of Operations for the Three
+
+Months Ended
+March 31, 2026
+ and
+2025
+2
+Consolidated Statements of Comprehensive Income for the Three
+
+Months Ended
+March 31, 2026
+ and
+2025
+3
+Condensed Consolidated Statements of Changes in Equity for the Three
+
+Months Ended
+March 31, 2026
+ and
+2025
+4
+Condensed Consolidated Statements of Cash Flows for the Three
+
+Months Ended
+March 31, 2026
+ and
+2025
+5
+Notes to Condensed Consolidated Financial Statemen
+ts
+6
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+21
+Item 3. Quantitative and Qualitative Disclosures Regarding Market Risk
+43
+Item 4. Controls and Procedures
+44
+Part II. Other Information
+45
+Item 1. Legal Proceedings
+45
+Item 1A. Risk Factors
+45
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+45
+Item 3. Defaults Upon Senior Securities
+45
+Item 5. Other Information
+45
+Item 6. Exhibits
+46
+Signatures
+47
+i
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements
+CELESTICA INC.
+ 
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions of U.S. dollars)
+(unaudited)
+Note
+March 31
+2026
+December 31
+2025
+Assets
+ 
+ 
+Current assets:
+ 
+ 
+Cash and cash equivalents
+$
+378.0
+ 
+$
+595.6
+ 
+Accounts receivable, net
+4
+3,167.4
+ 
+2,638.1
+ 
+Inventories
+5
+2,672.9
+ 
+2,188.0
+ 
+Other current assets
+14
+178.6
+ 
+251.5
+ 
+Total current assets
+6,396.9
+ 
+5,673.2
+ 
+Property, plant and equipment, net
+711.3
+ 
+586.0
+ 
+Operating lease right-of-use assets
+6
+149.8
+ 
+124.1
+ 
+Goodwill
+333.0
+ 
+333.1
+ 
+Intangible assets, net
+255.6
+ 
+266.2
+ 
+Deferred income taxes
+182.3
+ 
+156.4
+ 
+Other non-current assets
+231.1
+ 
+74.1
+ 
+Total assets
+$
+8,260.0
+ 
+$
+7,213.1
+ 
+Liabilities and Equity
+ 
+ 
+Current liabilities:
+ 
+ 
+Current portion of borrowings under credit facility and finance lease obligations
+7
+$
+25.9
+ 
+$
+26.0
+ 
+Accounts payable
+3,087.9
+ 
+1,866.1
+ 
+Accrued and other current liabilities and provisions
+6 &14
+1,792.4
+ 
+1,896.8
+ 
+Income taxes payable
+174.4
+ 
+150.7
+ 
+Total current liabilities
+5,080.6
+ 
+3,939.6
+ 
+Long-term portion of borrowings under credit facility and finance lease obligations
+7
+746.5
+ 
+750.5
+ 
+Pension and non-pension post-employment benefit obligations
+89.3
+ 
+89.5
+ 
+Other non-current liabilities and provisions
+14
+205.3
+ 
+176.0
+ 
+Deferred income taxes
+40.1
+ 
+41.2
+ 
+Total liabilities
+6,161.8
+ 
+4,996.8
+ 
+Equity:
+ 
+ 
+Total equity
+2,098.2
+ 
+2,216.3
+ 
+Total liabilities and equity
+$
+8,260.0
+ 
+$
+7,213.1
+ 
+Contingencies (note 16); subsequent event (note 7)
+    
+ The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+1
+CELESTICA INC.
+ 
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions of U.S. dollars, except per share amounts)
+(unaudited)
+ 
+Three months ended
+March 31
+ 
+Note
+2026
+2025
+Revenue
+3
+$
+4,047.0
+ 
+$
+2,648.6
+ 
+Cost of sales
+5
+3,609.8
+ 
+2,374.7
+ 
+Gross profit
+437.2
+ 
+273.9
+ 
+Selling, general and administrative expenses
+117.4
+ 
+112.5
+ 
+Research and development
+41.2
+ 
+17.6
+ 
+Amortization of intangible assets
+10.9
+ 
+11.1
+ 
+Restructuring and other charges (recoveries)
+10
+(
+4.4
+)
+3.9
+ 
+Earnings from operations
+272.1
+ 
+128.8
+ 
+Finance costs
+16.0
+ 
+13.7
+ 
+Miscellaneous expense (income)
+11
+(
+0.2
+)
+1.4
+ 
+Earnings before income taxes
+256.3
+ 
+113.7
+ 
+Income tax expense (recovery)
+13
+ 
+ 
+Current
+70.6
+ 
+27.6
+ 
+Deferred
+(
+26.6
+)
+(
+0.1
+)
+ 
+44.0
+ 
+27.5
+ 
+Net earnings
+$
+212.3
+ 
+$
+86.2
+ 
+Earnings per share:
+Basic
+$
+1.85
+ 
+$
+0.74
+ 
+Diluted
+$
+1.83
+ 
+$
+0.74
+ 
+Weighted-average shares used in computing per share amounts (in millions):
+ 
+ 
+Basic
+15
+114.9
+ 
+115.9
+ 
+Diluted
+15
+115.7
+ 
+116.9
+ 
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+2
+ CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions of U.S. dollars)
+(unaudited)
+ 
+Three months ended
+March 31
+ 
+Note
+2026
+2025
+Net earnings
+$
+212.3
+ 
+$
+86.2
+ 
+Other comprehensive income (loss), net of tax
+9
+ 
+ 
+Loss related to defined benefit pension and non-pension post-employment benefit plans
+(
+1.1
+)
+(
+3.0
+)
+Currency translation differences for foreign operations
+(
+2.2
+)
+0.7
+ 
+Unrealized gain (loss) on currency forward derivative hedges
+(
+15.2
+)
+6.3
+ 
+Unrealized gain (loss) on interest rate swap derivative hedges
+2.4
+ 
+(
+2.1
+)
+Total other comprehensive income (loss), net of tax
+(
+16.1
+)
+1.9
+ 
+Total comprehensive income
+$
+196.2
+ 
+$
+88.1
+ 
+ 
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+3
+CELESTICA INC.
+ 
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+(in millions of U.S. dollars)
+(
+unaudited)
+Note
+Capital stock
+Treasury stock
+Additional paid-in capital
+Retained earnings (accumulated deficit)
+Accumulated other comprehensive
+income (loss)
+(a)
+Total 
+equity
+Balance -- January 1, 2025
+$
+1,632.8
+ 
+$
+(
+92.9
+)
+$
+797.5
+ 
+$
+(
+423.8
+)
+$
+(
+17.6
+)
+$
+1,896.0
+ 
+Capital transactions:
+8
+Issuance of capital stock
+5.1
+ 
+— 
+(
+5.1
+)
+— 
+— 
+—
+ 
+Repurchase of capital stock for cancellation
+(b)
+(
+9.2
+)
+— 
+(
+67.0
+)
+— 
+— 
+(
+76.2
+)
+Purchase of treasury stock for stock-based compensation (SBC) plans
+— 
+(
+221.6
+)
+— 
+— 
+— 
+(
+221.6
+)
+SBC
+— 
+108.9
+ 
+(
+238.4
+)
+— 
+— 
+(
+129.5
+)
+Total comprehensive income:
+Net earnings for the period
+— 
+— 
+— 
+86.2
+ 
+— 
+86.2
+ 
+Other comprehensive income
+— 
+— 
+— 
+— 
+1.9
+ 
+1.9
+ 
+Balance -- March 31, 2025
+$
+1,628.7
+ 
+$
+(
+205.6
+)
+$
+487.0
+ 
+$
+(
+337.6
+)
+$
+(
+15.7
+)
+$
+1,556.8
+ 
+Balance -- January 1, 2026
+$
+1,619.8
+ 
+$
+(
+153.8
+)
+$
+343.3
+ 
+$
+408.7
+ 
+$
+(
+1.7
+)
+$
+2,216.3
+ 
+Capital transactions:
+8
+Issuance of capital stock
+4.9
+ 
+— 
+(
+4.9
+)
+— 
+— 
+—
+ 
+Repurchase of capital stock for cancellation
+(
+1.0
+)
+— 
+(
+19.0
+)
+— 
+— 
+(
+20.0
+)
+SBC
+— 
+132.9
+ 
+(
+319.4
+)
+(
+107.8
+)
+— 
+(
+294.3
+)
+Total comprehensive income:
+Net earnings for the period
+— 
+— 
+— 
+212.3
+ 
+— 
+212.3
+ 
+Other comprehensive loss
+— 
+— 
+— 
+— 
+(
+16.1
+)
+(
+16.1
+)
+Balance -- March 31, 2026
+$
+1,623.7
+ 
+$
+(
+20.9
+)
+$
+—
+ 
+$
+513.2
+ 
+$
+(
+17.8
+)
+$
+2,098.2
+ 
+(a)    Accumulated other comprehensive income (loss) is net of tax (see note 9).
+(b)    Consists of $
+75.0
+ paid to repurchase common shares for cancellation during the first quarter of 2025 and accrued share buyback taxes (see note 8).
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+4
+CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions of U.S. dollars)
+(unaudited)
+Three months ended
+March 31
+Cash provided by (used in):
+Note
+2026
+2025
+Operating activities:
+ 
+ 
+Net earnings
+$
+212.3
+ 
+$
+86.2
+ 
+Adjustments to reconcile net earnings to net cash flows provided by operating activities:
+Depreciation and amortization
+39.6
+ 
+37.4
+ 
+SBC
+8
+30.5
+ 
+26.0
+ 
+Total return swap (TRS) fair value adjustments
+8
+17.0
+ 
+19.1
+ 
+Restructuring and other recoveries
+10
+(
+10.0
+)
+—
+ 
+Unrealized losses on hedge derivatives
+—
+ 
+1.3
+ 
+Deferred income taxes
+(
+26.6
+)
+(
+0.1
+)
+Other
+6.5
+ 
+6.2
+ 
+Changes in non-cash working capital items:
+Accounts receivable
+(
+529.3
+)
+(
+66.9
+)
+Inventories
+(
+484.9
+)
+(
+27.7
+)
+Other current assets
+29.8
+ 
+3.0
+ 
+Accounts payable, accrued and other current liabilities, provisions and income taxes payable
+1,071.4
+ 
+45.8
+ 
+Net cash provided by operating activities
+356.3
+ 
+130.3
+ 
+Investing activities:
+Purchase of property, plant and equipment
+(
+229.5
+)
+(
+36.7
+)
+Proceeds from sale of assets
+11.1
+ 
+—
+ 
+Net cash used in investing activities
+(
+218.4
+)
+(
+36.7
+)
+Financing activities:
+Borrowings under revolving loans
+7
+170.0
+ 
+310.0
+ 
+Repayments under revolving loans
+7
+(
+170.0
+)
+(
+160.0
+)
+Repayments under term loans
+7
+(
+4.4
+)
+(
+4.4
+)
+Principal payments of finance leases
+(
+3.0
+)
+(
+2.6
+)
+Repurchase of capital stock for cancellation
+8
+(
+22.6
+)
+(
+77.7
+)
+Purchase of treasury stock for SBC plans
+8
+—
+ 
+(
+221.6
+)
+Proceeds from TRS settlement
+14
+—
+ 
+98.6
+ 
+SBC cash settlement
+8
+(
+325.5
+)
+(
+156.0
+)
+Debt issuance costs paid
+—
+ 
+(
+0.2
+)
+Net cash used in financing activities
+(
+355.5
+)
+(
+213.9
+)
+Net decrease in cash and cash equivalents
+(
+217.6
+)
+(
+120.3
+)
+Cash and cash equivalents, beginning of period
+595.6
+ 
+423.3
+ 
+Cash and cash equivalents, end of period
+$
+378.0
+ 
+$
+303.0
+ 
+Supplemental disclosure information:
+Interest paid
+$
+18.5
+ 
+$
+14.8
+ 
+Net income taxes paid
+$
+70.8
+ 
+$
+5.6
+ 
+Non-cash investing activity:
+Unpaid purchases of property, plant and equipment at end of period
+$
+108.1
+ 
+$
+17.1
+ 
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+5
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+1.            
+REPORTING ENTITY
+ 
+Celestica Inc. (referred to herein as Celestica, the Company, we, us, or our) is incorporated in Ontario with its corporate headquarters located in Toronto, Ontario, Canada. Celestica’s common shares (Common Shares) are listed on the New York Stock Exchange (NYSE) and Toronto Stock Exchange (TSX). Our operating and reportable segments consist of the Connectivity & Cloud Solutions (CCS) segment and the Advanced Technology Solutions (ATS) segment. See note 3 for further detail regarding segment information.
+2.            
+BASIS OF PREPARATION AND SIGNIFICANT ACCOUNTING POLICIES
+ 
+Basis of preparation:
+These unaudited interim condensed consolidated financial statements for the period ended March 31, 2026 (Q1 2026 Interim Financial Statements) have been prepared in accordance with generally accepted accounting principles in the United States (GAAP) for interim financial reporting, and the instructions to Form 10-Q and Article 10 of Regulation S-X.
+Certain information or footnote disclosures, normally included in annual financial statements prepared in accordance with GAAP, have been condensed or omitted
+ pursuant to the rules and regulations of the U.S. Securities and Exchange Commission for interim financial reporting. Accordingly, they do not include all of the information and footnotes required by GAAP for complete financial statements. The Q1 2026 Interim Financial Statements, in the opinion of management, reflect all normal and recurring adjustments necessary to present fairly our financial position, operating results and cash flows for the periods presented. Results for interim periods are not necessarily an indication of results to be expected for the year. The three months ended March 31, 2026 are referred to herein as Q1 2026. The
+Q1 2026 Interim Financial Statements should be read in conjunction with our 2025 annual consolidated financial statements and related notes (
+2025
+ AFS) which are included in our Annual Report on Form 10-K for the year ended December 31, 2025.
+The Q1 2026 Interim Financial Statements are presented in United States (U.S.) dollars, which is also Celestica's functional currency. Unless otherwise noted, all financial information is presented in millions of U.S. dollars (except percentages and per share/per unit amounts).
+
+ 
+Basis of consolidation:
+These consolidated financial statements include our subsidiaries, all of which are wholly owned. Any subsidiaries that are formed or acquired during the year are consolidated from their respective dates of formation or acquisition. Inter-company transactions and balances are eliminated on consolidation.
+
+Use of estimates and judgments:
+ 
+The preparation of financial statements requires management to make judgments, estimates and assumptions that affect the application of accounting policies, the reported amounts of assets, liabilities, revenue and expenses, and related disclosures with respect to contingent assets and liabilities. We base our judgments, estimates and assumptions on current facts, historical experience and various other factors that we believe are reasonable under the circumstances. The economic environment also impacts certain estimates and discount rates necessary to prepare our consolidated financial statements, including significant estimates and discount rates applicable to the determination of the fair values used in the impairment testing of our non-financial assets. Our assessment of these factors forms the basis for our judgments on the carrying values of our assets and liabilities, and the accrual of our costs and expenses. Actual results could differ materially from our estimates and assumptions. We review our estimates and underlying assumptions on an ongoing basis and make revisions as determined necessary by management. Revisions are recognized in the period in which the estimates are revised and may also impact future periods.
+Our review of the estimates, judgments and assumptions used in the preparation of the Q1 2026 Interim Financial Statements included those relating to, among others: our determination of the timing of revenue recognition, the determination of whether indicators of impairment existed for our assets and reporting units, our measurement of deferred tax assets and liabilities, our estimated inventory write-downs and expected credit losses, and customer creditworthiness. Any revisions to estimates, judgments or assumptions may result in, among other things, write-downs, accelerated depreciation or amortization, or impairments of our assets or our reporting units, any of which could have a material impact on our financial performance and financial condition.
+6
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Due to global economic conditions, including the impact of ongoing trade conflicts, tariffs, and geopolitical conflicts, there has been and we expect there will continue to be uncertainty in the global economy. Management has made estimates and assumptions based on information available as of the date of issuance of the Q1
+2026
+ Interim Financial Statements taking into consideration certain possible impacts due to the foregoing factors. These estimates may change, as new events occur, and additional information is obtained.
+Significant accounting policies:
+The Q1
+2026
+ Interim Financial Statements have been prepared on a basis consistent with the accounting policies as described in note 2 to our 2025 AFS.
+Recently issued accounting pronouncements not yet adopted:
+In November 2024, the FASB issued ASU 2024-03 Income Statement — Reporting Comprehensive Income — Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses, which requires public business entities to provide more detailed disclosures of certain costs and expenses in the notes to the financial statements. Specifically, the guidance mandates a tabular disaggregation of relevant expense captions into categories including inventory purchases, employee compensation, depreciation, and intangible asset amortization. The accounting standard update is effective for annual periods beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted.
+In November 2025, the FASB issued ASU 2025-09 Derivatives and Hedging (Topic 815): Hedge Accounting Improvements, which expands the hedged risks permitted to be aggregated in a group of individual forecasted transactions in a cash flow hedge, provides a model to facilitate the application of cash flow hedge accounting to forecasted interest payments on variable-rate debt instruments and expands hedge accounting for forecasted purchases and sales of non-financial assets. ASU 2025-09 is effective for annual reporting periods beginning after December 15, 2026, with early adoption permitted.
+In December 2025, the FASB issued ASU 2025-12 Codification Improvements, which provides narrow-scope amendments to clarify, correct errors, and improve the consistency of various topics within the Accounting Standards Codification. The update addresses several technical issues, including refining diluted earnings per share calculations during loss periods, clarifying lease receivable disclosures, and removing obsolete Master Glossary terms to enhance the overall usability of the guidance. ASU 2025-12 is effective for annual periods beginning after December 15, 2026, with early adoption permitted.
+In December 2025, the FASB issued ASU 2025-11 Interim Reporting (Topic 270): Narrow-Scope Improvements, which clarifies interim disclosure requirements. ASU 2025-11 is effective for interim reporting periods within annual reporting periods beginning after December 15, 2027, with early adoption permitted.
+We are currently evaluating the impact that the updated standards will have on our consolidated financial statements and related disclosures. We believe that other recently issued accounting standards will either not have a material impact on the consolidated financial statements or will not apply to our operations.
+3
+.  
+       
+  
+SEGMENT AND CUSTOMER REPORTING
+ 
+Segments:
+Celestica serves customers in
+two
+ operating and reportable segments. Our CCS segment consists of our Communications and Enterprise (servers and storage) end markets. Our ATS segment consists of our ATS end market, and is comprised of our Aerospace and Defense, Industrial, HealthTech, and Capital Equipment businesses. Segment performance is evaluated based on segment revenue, segment income and segment margin (segment income as a percentage of segment revenue). Segment income is defined as a segment's revenue less its cost of sales and its allocatable portion of selling, general and administrative expenses (SG&A) and research and development expenses (collectively, Segment Costs). See note
+21
+ to our 2025 AFS for a description of the businesses that comprise our segments, how segment revenue is attributed, how costs are allocated to our segments, and how segment income and segment margin are determined.
+7
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Information regarding each reportable segment for the periods indicated is set forth below:
+Revenue by segment:
+Three months ended March 31
+2026
+2025
+% of total
+% of total
+ATS
+$
+806.0
+ 
+20
+ 
+%
+$
+807.2
+ 
+30
+ 
+%
+CCS
+Communications
+$
+2,410.6
+ 
+60
+ 
+%
+$
+1,427.7
+ 
+54
+ 
+%
+Enterprise
+830.4
+ 
+20
+ 
+%
+413.7
+ 
+16
+ 
+%
+$
+3,241.0
+ 
+80
+ 
+%
+$
+1,841.4
+ 
+70
+ 
+%
+Total revenue
+$
+4,047.0
+ 
+$
+2,648.6
+ 
+Segment Costs by segment:
+Three months ended March 31
+2026
+2025
+ATS cost of sales
+$
+710.3
+ 
+$
+726.5
+ 
+ATS other Segment Costs
+47.7
+ 
+40.0
+ 
+CCS cost of sales
+2,878.4
+ 
+1,630.6
+ 
+CCS other Segment Costs
+85.4
+ 
+63.7
+ 
+Total Segment Costs
+$
+3,721.8
+ 
+$
+2,460.8
+ 
+Segment income, segment margin, and reconciliation of segment income to earnings before income taxes:
+Three months ended March 31
+Note
+2026
+2025
+Segment Margin
+Segment Margin
+ATS segment income and margin
+$
+48.0
+ 
+6.0
+%
+$
+40.7
+ 
+5.0
+%
+CCS segment income and margin
+277.2
+ 
+8.6
+%
+147.1
+ 
+8.0
+%
+Total segment income
+325.2
+ 
+187.8
+ 
+Reconciling items:
+Finance costs
+16.0
+ 
+13.7
+ 
+Miscellaneous expense (income)
+11
+(
+0.2
+)
+1.4
+ 
+Employee SBC expense
+30.5
+ 
+26.0
+ 
+TRS fair value adjustment (TRS FVA): losses
+17.0
+ 
+19.1
+ 
+Amortization of intangible assets (excluding computer software)
+10.0
+ 
+10.0
+ 
+Restructuring and other charges (recoveries)
+10
+(
+4.4
+)
+3.9
+ 
+Earnings before income taxes
+$
+256.3
+ 
+$
+113.7
+ 
+Customers:
+Three customers (all in our CCS segment) individually represented 10% or more of total revenue in Q1 2026 (
+35
+%,
+15
+% and
+15
+%). Three customers (all in our CCS segment) individually represented 10% or more of total revenue in Q1 2025 (
+28
+%,
+13
+% and
+10
+%).
+4
+. 
+           
+ACCOUNTS RECEIVABLE (A/R), NET
+Allowance for credit losses:
+A/R is recorded net of allowance of $
+34.5
+ at March 31, 2026 (December 31, 2025 — $
+30.5
+).
+8
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Contract assets:
+At March 31, 2026, our A/R balance included
+ $
+382.5
+ (December 31, 2025 — $
+296.3
+) of contract assets recogniz
+ed as revenue in accordance with our revenue recognition accounting policy.
+
+5
+.   
+         
+INVENTORIES
+The components of inventories, net of applicable net realizable value write-downs, were as follows:
+March 31
+2026
+December 31
+2025
+Raw materials
+$
+2,247.8
+ 
+$
+1,783.1
+ 
+Work in progress
+139.9
+ 
+144.6
+ 
+Finished goods
+285.2
+ 
+260.3
+ 
+ 
+$
+2,672.9
+ 
+$
+2,188.0
+ 
+We recorded inventory write-downs of $
+23.4
+ for Q1 2026 (Q1 2025 — $
+16.5
+) in cost of sales.
+We receive deposits from certain of our customers primarily to reduce risks related to excess and/or obsolete inventory. At
+March 31, 2026, our accrued and other current liabilities and provisions included $
+388.7
+ (
+December 31, 2025 —
+$
+407.1
+)
+of customer deposits.
+6.          
+LEASES
+The components of lease expense for the periods indicated are as follows:
+Three months ended March 31
+2026
+2025
+Finance lease expense:
+Amortization of ROU assets
+(i)
+$
+2.1
+ 
+$
+2.1
+ 
+Interest on lease obligations
+(ii)
+0.7
+ 
+0.8
+ 
+Operating lease expense
+(i)
+12.3
+ 
+10.3
+ 
+Short-term lease expense and variable lease expense
+(i)
+0.8
+ 
+0.4
+ 
+Total
+$
+15.9
+ 
+$
+13.6
+ 
+(i)
+Recorded within either cost of sales or SG&A on the consolidated statements of operations based on the nature of the leased assets.
+(ii)
+Recorded within finance costs on the consolidated statements of operations.
+9
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Other information related to leases:
+March 31
+2026
+December 31
+2025
+ROU assets:
+Operating lease ROU assets
+$
+149.8
+ 
+$
+124.1
+ 
+Finance lease ROU assets (included in property, plant & equipment, net)
+50.1
+ 
+49.0
+ 
+Total ROU assets
+$
+199.9
+ 
+$
+173.1
+ 
+Current portion of lease obligations:
+Operating lease liability (included in accrued and other current liabilities and provisions)
+$
+33.0
+ 
+$
+31.6
+ 
+Finance lease liability (included in current portion of borrowings under credit facility and finance lease obligations)
+9.4
+ 
+9.5
+ 
+Long-term portion of lease obligations:
+Operating lease liability (included in other non-current liabilities and provisions)
+134.8
+ 
+107.6
+ 
+Finance lease liability (included in long-term portion of borrowings under credit facility and finance lease obligations)
+48.6
+ 
+48.5
+ 
+Total lease obligations
+$
+225.8
+ 
+$
+197.2
+ 
+7
+.        
+  
+CREDIT FACILITIES
+We are party to a credit agreement (Credit Facility) with Bank of America, N.A., as Administrative Agent, and the lenders party thereto, which, prior to the April 2026 Amendment referred to below, included a term loan in the original principal amount of $
+250.0
+ (Term A Loan), a term loan in the original principal amount of $
+500.0
+ (Term B Loan), and a $
+750.0
+ revolving credit facility (Revolver).
+On April 27, 2026, we amended our Credit Facility (April 2026 Amendment) to increase the commitments available under the Revolver to $
+1,750.0
+ and refinance our existing Term A Loan ($
+228.1
+
+outstanding borrowings at
+March 31, 2026)
+ into a new $
+250.0
+ term A loan facility (New Term A Loan). The New Term A Loan was fully drawn at closing
+of the April 2026 Amendment, with the proceeds primarily
+ used to repay the refinanced Term A Loan. Term A Loan (or its successor term loan, the New Term A Loan) and the Term B Loan are referred to as the "Term Loans."
+Prior to the April 2026 Amendment, the Term A Loan and the Revolver each were scheduled to mature in June 2029. Subsequent to the April 2026 Amendment, the New Term A Loan and the Revolver each mature in April 2031. The Term B Loan matures in June 2031.
+The Term A Loan, as refinanced by the New Term A Loan, requires quarterly principal repayments of $
+3.125
+ (commencing in September 2026 under the New Term A Loan). The Term B Loan requires quarterly principal repayments of $
+1.250
+. Both Term Loans require a lump sum repayment of the remainder outstanding at maturity.
+Prior to the April 2026 Amendment, (a) borrowings under the Revolver bear interest, depending on the currency of the borrowing and our election for such currency, at: (i) term Secured Overnight Financing Rate (Term SOFR) plus
+0.1
+% (Adjusted Term SOFR), (ii) Base Rate, (iii) Canadian Prime, (iv) an Alternative Currency Daily Rate, or (v) an Alternative Currency Term Rate plus a specified margin (each as defined in the Credit Facility); (b) the margin for borrowings under the Revolver ranges from
+1.50
+% to
+2.25
+%, or from
+0.50
+% to
+1.25
+%, in each case depending on the rate we select and a defined net leverage ratio; (c) commitment fees range from
+0.30
+% to
+0.45
+%, depending on our defined net leverage ratio; and (d) outstanding amounts under the Term A Loan bear interest at Adjusted Term SOFR or Base Rate, plus a margin ranging from
+1.50
+% —
+2.25
+% for Adjusted Term SOFR borrowings and from
+0.50
+% —
+1.25
+% for Base Rate borrowings, in each case depending on the rate we select and our defined net leverage ratio.
+At March 31, 2026, outstanding amounts under the Term A Loan and Revolver bore interest at Adjusted Term SOFR plus
+1.50
+%.
+Subsequent to the April 2026 Amendment, (a)
+borrowings under the Revolver bear interest at varying rates (as specified therein), plus a margin ranging from
+1.00
+% to
+1.75
+%, or from
+0.05
+% to
+0.75
+%, in each case depending on the currencies of the borrowings we select and the corporate rating of the Company (as defined in the amended Credit Facility); (b) commitment fees
+10
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+range from
+0.100
+% to
+0.275
+%, depending on the corporate rating of the Company (as defined in the amended Credit Facility); (c) outstanding amounts under the New Term A Loan bear interest at varying rates (as specified therein), plus a margin ranging from
+1.00
+% —
+1.75
+%, or from
+0.05
+% —
+0.75
+%, in each case depending on the rate we select and the corporate rating of the Company (as defined in the amended Credit Facility).
+Outstanding amounts under the Term B Loan bear interest at Term SOFR plus
+1.75
+% or the Base Rate plus
+0.75
+%, depending on the rate we select. At
+March 31, 2026
+, outstanding amounts under the Term B Loan bore interest at Term SOFR plus
+1.75
+%.
+Prior to the April 2026 Amendment, the Credit Facility had an accordion feature that allows us to increase the Term Loans and/or commitments under the Revolver by $
+200.0
+, plus an unlimited amount to the extent that a defined leverage ratio on a pro forma basis does not exceed specified limits, in each case on an uncommitted basis and subject to the satisfaction of certain terms and conditions. Subsequent to the April 2026 Amendment, the Credit Facility has an accordion feature that allows us to increase the Term Loans and/or commitments under the Revolver by an amount equal to the sum of (i) the greater of $
+700.0
+ and
+10
+% of our consolidated total assets as of the date of the incurrence of such incremental borrowings, (ii) voluntary repayments and certain other retirements of the New Term A Loan, and (iii) an unlimited amount to the extent that certain defined leverage ratios do not exceed specified limits, in each case subject to the satisfaction of certain terms and conditions.
+The Revolver also includes a sub-limit for swing line loans for short-term borrowings ($
+50.0
+ prior to the April 2026 Amendment and $
+100.0
+ subsequent to the April 2026 Amendment), as well as a sub-limit for letters of credit (L/Cs) ($
+150.0
+ prior to the April 2026 Amendment and $
+300.0
+ subsequent to the April 2026 Amendment), in each case subject to the overall Revolver credit limit.
+We are also required to make annual prepayments of outstanding obligations under the Credit Facility (applied first to the Term Loans, then to the Revolver, in the manner set forth in the Credit Facility) ranging from
+0
+% to
+50
+% (based on a defined leverage ratio) of specified excess cash flow for the prior fiscal yea
+r. No prepayments based on excess cash flow were required in 2025, or will be required in 2026. In addition, prepayments of outstanding obligations under the Credit Facility (applied as described above) may also be required in the amount of specified net cash proceeds received above a specified annual threshold (including proceeds from the disposal of certain assets). No prepayments based on net cash proceeds were required in 2025, or will be required in 2026. Any outstanding amounts under the Revolver are due at maturity.
+Our obligations under the Credit Facility and the obligations of the guarantees provided by our subsidiaries are secured by substantially all of our assets of the Company and of the subsidiary guarantors. The April 2026 Amendment adds a collateral fallaway provision under which the liens securing (x) our obligations under the Credit Facility and (y) the guarantees provided by certain subsidiaries will be automatically released upon the satisfaction of specified conditions. These conditions include (a) the Company obtaining and maintaining investment grade credit ratings from at least two nationally recognized statistical rating organizations, (b) the repayment in full of all outstanding principal of, accrued interest on, and prepayment premiums and all other amounts in respect of the Term B Loan and any incremental Term B Loan and (c) the absence of any default or event of default under the Credit Facility as of the date of such collateral fallaway.
+We are required to comply with certain restrictive covenants under the Credit Facility, including those relating to the incurrence of certain indebtedness, the existence of certain liens, the sale of certain assets, specified investments and payments, sale and leaseback transactions, and certain financial covenants relating to a defined interest coverage ratio and leverage ratio that are tested on a quarterly basis. Our Credit Facility also limits share re
+purchases for cancellation if our consolidated secured leverage ratio (as defined in such facility) exceeds a specified amount (Repurchase Restriction). At March 31, 2026 and December 31, 2025, we were in compliance with all restrictive and financial covenants under the Credit Facility, and the Repurchase Restriction was not exceeded.
+We have entered into interest rate swap agreements to hedge against our exposures to the interest rate variability on a portion of the Term Loans. See note
+14
+ for further detail.
+11
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+The following table sets forth, at the dates shown, outstanding borrowings under the Credit Facility, excluding ordinary course L/Cs; notional amounts under our interest rate swap agreements; and outstanding finance lease obligations:
+Outstanding borrowings
+Notional amounts under interest rate swaps (note 14)
+March 31
+2026
+December 31
+2025
+March 31
+2026
+December 31
+2025
+Borrowings under the Revolver
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+Borrowings under the Term Loans:
+
+Term A Loan
+$
+228.1
+ 
+$
+231.2
+ 
+$
+120.0
+ 
+$
+120.0
+ 
+Term B Loan
+491.2
+ 
+492.5
+ 
+230.0
+ 
+230.0
+ 
+    Total
+$
+719.3
+ 
+$
+723.7
+ 
+$
+350.0
+ 
+$
+350.0
+ 
+Total borrowings under Credit Facility
+$
+719.3
+ 
+$
+723.7
+ 
+Unamortized debt issuance costs related to the Term Loans
+(
+4.9
+)
+(
+5.2
+)
+Finance lease obligations (see note 6)
+58.0
+ 
+58.0
+ 
+$
+772.4
+ 
+$
+776.5
+ 
+Total Credit Facility and finance lease obligations:
+Current portion
+$
+25.9
+ 
+$
+26.0
+ 
+Long-term portion
+746.5
+ 
+750.5
+ 
+$
+772.4
+ 
+$
+776.5
+ 
+The following table sets forth, at the dates shown, information regarding outstanding L/Cs, guarantees, surety bonds and overdraft facilities:
+March 31
+2026
+December 31
+2025
+Outstanding L/Cs under the Revolver
+$
+10.4
+ 
+$
+10.8
+ 
+Outstanding bank guarantees and surety bonds outside the Revolver
+41.0
+ 
+38.1
+ 
+Total
+$
+51.4
+ 
+$
+48.9
+ 
+Available uncommitted bank overdraft facilities
+$
+198.5
+ 
+$
+198.5
+ 
+Amounts outstanding under available uncommitted bank overdraft facilities
+$
+—
+ 
+$
+—
+ 
+8
+.           
+CAPITAL STOCK
+Capital transactions:
+Activities with respect to our capital stock for the periods indicated are set forth below:
+Number of shares (in millions)
+Common Shares
+Issued and outstanding at December 31, 2024
+116.1
+ 
+Issued from treasury to settle vested SBC
+0.1
+ 
+Cancelled under
+normal course issuer bids (
+NCIB)
+(
+0.6
+)
+Issued and outstanding at March 31, 2025
+115.6
+ 
+Issued and outstanding at December 31, 2025
+114.9
+ 
+Issued from treasury to settle vested SBC
+0.2
+ 
+Cancelled under NCIB
+(
+0.1
+)
+Issued and outstanding at March 31, 2026
+115.0
+ 
+12
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Common Share Repurchase Plans:
+We have repurchased Common Shares in the open market, or as otherwise permitted, for cancellation through NCIBs, which allow us to repurchase a limited number of Common Shares during a specified period. The maximum number of Common Shares we are permitted to repurchase for cancellation under each NCIB is reduced by the number of Common Shares we arrange to be purchased by any non-independent broker in the open market during the term of such NCIB to satisfy delivery obligations under our SBC plans
+. We
+ from time-to-time enter into automatic share purchase plans (ASPPs) with a broker, instructing the broker to purchase our Common Shares in the open market on our behalf, either for cancellation under an NCIB
+or for delivery obligations under our SBC plans (SBC ASPPs)
+, including during any applicable trading blackout periods, up to specified maximums (and subject to certain pricing and other conditions) through the term of each ASPP.
+On October 30, 2024, the TSX accepted our notice to launch an NCIB (2024 NCIB), which allowed us to repurchase, at our discretion, from November 1, 2024 until the earlier of October 31, 2025 or the completion of purchases thereunder, up to approximately
+8.6
+ million of our Common Shares in the open market, or as otherwise permitted, subject to the normal terms and limitations of such bids
+. One SBC ASPP was in effect during Q1 2025.
+On October 29, 2025, the TSX accepted our notice to launch another NCIB (2025 NCIB), which allows us to repurchase, at our discretion, from November 3, 2025 until the earlier of November 2, 2026 or the completion of purchases thereunder, up to approximately
+5.7
+ million
+ of our Common Shares in the open market, or as otherwise permitted, subject to the normal terms and limitations of such bids. At March 31, 2026, approximately
+5.5
+ million
+ Common Shares remained available for repurchase under the 2025 NCIB either for cancellation or SBC delivery purposes.
+Information regarding Common Shares purchases in Q1 2026 and Q1 2025, for cancellation and for SBC plan delivery obligations (including under ASPPs) is set forth below:
+Three months ended March 31
+2026
+2025
+Aggregate cost (including transaction fees and excluding share buyback taxes) of Common Shares repurchased for cancellation
+$
+20.0
+ 
+$
+75.0
+ 
+Number of Common Shares repurchased for cancellation (in millions)
+0.1
+ 
+0.6
+ 
+Weighted average price per share for repurchases
+$
+273.60
+ 
+$
+114.46
+ 
+Aggregate cost (including transaction fees) of Common Shares repurchased for delivery under SBC plans
+$
+—
+ 
+$
+221.6
+ 
+Number of Common Shares repurchased for delivery under SBC plans (in millions)
+(1)
+—
+ 
+1.7
+ 
+(1)    
+Consists entirely of SBC ASPP purchases through an independent broker.
+
+SBC:
+From time to time, we pay cash to a broker to purchase Common Shares in the
+ open market to satisfy delivery requirements under our SBC plans (see table above). In Q1 2026, we used
+1.6
+ million Common Shares (Q1 2025 —
+2.0
+ million Common Shares) to settle SBC awards. At March 31, 2026, the broker held
+0.2
+ million Common Shares with a value of $
+20.9
+ (December 31, 2025 —
+1.8
+ million Common Shares with a value of $
+153.8
+) for this purpose, which we report as treasury stock on our consolidated statements of changes in equity.
+We grant restricted share units (RSUs) and performance share units (PSUs), and occasionally, stock options, to employees under our SBC plans. The majority of RSUs vest one-third per year over a
+three-year
+ period. Stock options generally vest
+25
+% per year over a
+four-year
+ period. The number of outstanding PSUs that will actually vest varies from
+0
+% to
+200
+% of a target amount granted
+. The number of PSUs that will vest are based on the level of achievement of a pre-determined non-market performance measurement, subject to modification by our relative total shareholder return (TSR) compared to a pre-defined group of companies, in each case over the relevant
+three-year
+ performance period.
+We
+also granted deferred share units and director share units (collectively, DSUs) and RSUs (under specified circumstances) to directors. See note 2(
+l
+) to the 2025 AFS for further detail.
+13
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Information regarding RSU, PSU and DSU grants to employees and directors, as applicable, for the periods indicated is set forth below (no stock options were granted in the periods below):
+Three months ended March 31
+ 
+2026
+2025
+RSUs Granted:
+Number of awards (in millions)
+0.2
+ 
+0.2
+ 
+Weighted average grant date fair value per unit
+$
+283.07
+ 
+$
+120.67
+ 
+PSUs Granted:
+Number of awards (in millions, representing
+100
+% of target)
+0.1
+ 
+0.2
+ 
+Weighted average grant date fair value per unit
+$
+325.13
+ 
+$
+147.23
+ 
+DSUs Granted:
+Number of awards (in millions)
+0.001
+ 
+0.004
+ 
+Weighted average grant date fair value per unit
+$
+257.27
+ 
+$
+79.28
+ 
+In Q1 2026, we made a cash payment of $
+325.5
+ for withholding taxes in connection with the SBC awards that vested during such period (Q1 2025 — $
+156.0
+).
+We use the TRS agreement (TRS Agreement) to manage cash flow requirements and our exposure to fluctuations in the share price of our Common Shares in connection with the settlement of certain outstanding equity awards under our SBC plans. See note 14 for further detail.
+Information regarding employee and director SBC expense and TRS FVAs (which represent changes in fair value of the TRS) for the periods indicated is set forth below:
+Three months ended March 31
+ 
+2026
+2025
+Employee SBC expense in cost of sales
+$
+13.6
+ 
+$
+10.1
+ 
+Employee SBC expense in SG&A
+16.9
+ 
+15.9
+ 
+Total employee SBC expense
+$
+30.5
+ 
+$
+26.0
+ 
+TRS FVAs: losses in cost of sales
+$
+7.5
+ 
+$
+7.5
+ 
+TRS FVAs: losses in SG&A
+9.5
+ 
+11.6
+ 
+Total TRS FVAs: losses
+$
+17.0
+ 
+$
+19.1
+ 
+Combined effect of employee SBC expense and TRS FVAs
+$
+47.5
+ 
+$
+45.1
+ 
+Director SBC expense in SG&A
+(1)
+$
+0.6
+ 
+$
+0.6
+ 
+(1)
+Expense consists of director compensation to be settled with Common Shares, or Common Shares and cash.
+
+14
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+9
+.   
+      
+ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS), NET OF TAX
+Three months ended March 31
+2026
+2025
+Translation adjustments:
+Opening balance of foreign currency translation account
+$
+(
+36.0
+)
+$
+(
+35.5
+)
+Foreign currency translation adjustments
+(
+2.2
+)
+0.7
+ 
+Closing balance of foreign currency translation account
+$
+(
+38.2
+)
+$
+(
+34.8
+)
+Foreign exchange derivatives
+(i)
+:
+Opening balance of unrealized net gain (loss) on currency forward cash flow hedges
+$
+9.0
+ 
+$
+(
+9.4
+)
+Net gain (loss) on currency forward cash flow hedges
+(
+9.1
+)
+2.6
+ 
+Reclassification of net loss (gain) on currency forward cash flow hedges to operations
+(
+6.1
+)
+3.7
+ 
+Closing balance of unrealized net loss on currency forward cash flow hedges
+$
+(
+6.2
+)
+$
+(
+3.1
+)
+Interest rate swap derivatives
+(i)
+:
+Opening balance of unrealized net gain (loss) on interest rate swap cash flow hedges
+$
+(
+2.9
+)
+$
+1.4
+ 
+Net gain (loss) on interest rate swap cash flow hedges
+2.6
+ 
+(
+1.6
+)
+Reclassification of net gain on interest rate swap cash flow hedges to operations
+(
+0.2
+)
+(
+0.5
+)
+Closing balance of unrealized net loss on interest rate swap cash flow hedges
+$
+(
+0.5
+)
+$
+(
+0.7
+)
+Employment benefit
+(i)
+:
+Opening balance of pension and non-pension post-employment benefit account
+$
+28.2
+ 
+$
+25.9
+ 
+Net loss on pension and non-pension post-employment benefit plans
+(
+0.1
+)
+(
+2.4
+)
+Amortization of net gain on pension and non-pension post-employment benefit plans
+(
+1.0
+)
+(
+0.6
+)
+Closing balance of pension and non-pension post-employment benefit account
+$
+27.1
+ 
+$
+22.9
+ 
+Accumulated other comprehensive loss (AOCI), net of tax
+$
+(
+17.8
+)
+$
+(
+15.7
+)
+(i)    
+Amounts were net of immaterial tax.
+
+10.            
+RESTRUCTURING AND OTHER CHARGES (RECOVERIES)
+Three months ended March 31
+2026
+2025
+Restructuring charges (a)
+$
+2.2
+ 
+$
+2.2
+ 
+Transition Recoveries (b)
+(
+3.4
+)
+—
+ 
+Acquisition costs (c)
+3.4
+ 
+0.6
+ 
+Other charges (recoveries) (d)
+(
+6.6
+)
+1.1
+ 
+ 
+$
+(
+4.4
+)
+$
+3.9
+ 
+(a)    Restructuring charges:
+Our restructuring activities consisted primarily of actions to adjust our cost base to address reduced levels of demand in certain of our businesses and geographies. In Q1 2026 and Q1 2025
+, our restructuring charges consisted primarily of cash charges related to employee terminations.
+At March 31, 2026, our restructuring provision was $
+3.6
+ (December 31, 2025 — $
+4.4
+), which we recorded in accrued and other
+current liabilities and provisions on our consolidated balance sheets.
+(b)     Transition Recoveries:
+See note 14 to the 2025 AFS for a description of Transition Costs and Transition Recoveries. In
+Q1 2026, we recorded Transition Recoveries of $
+3.4
+, reflecting the gain on the disposal of certain real properties.
+15
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+(c)     Acquisition costs:
+Acquisition costs consisted of consulting, transaction and integration costs related to potential and completed acquisitions. In Q1 2026, we recorded acquisition costs of $
+3.4
+ (Q1 2025 — $
+0.6
+).
+(d)    Other charges (recoveries):
+In April 2024, we completed the acquisition of
+100
+% of the interests of NCS Global Services LLC (NCS). The NCS acquisition agreement includes a potential earn-out of up to $
+20
+ if certain adjusted earnings before interest, taxes, depreciation and amortization targets are achieved during the period from May 2024 to April 2025. The fair value of such potential earn-out was estimated to be $
+6.6
+ at the acquisition date. During Q1 2026, the liability was re-measured to
+nil
+ as the required targets were not met, resulting in a $
+6.6
+ gain.
+In Q1
+2025
+, we recorded other charges of $
+1.1
+
+related to our transition to a U.S. domestic filer.
+11
+.    
+MISCELLANEOUS EXPENSE (INCOME)
+The components of miscellaneous expense (income) for the periods indicated are as follows:
+Three months ended March 31
+Note
+2026
+2025
+Components of net periodic benefit cost other than the service cost under pension and other post-employment benefit plans
+12
+$
+(
+0.2
+)
+$
+0.1
+ 
+Loss recognized on interest rate swaps
+14
+—
+ 
+1.3
+ 
+$
+(
+0.2
+)
+$
+1.4
+ 
+12
+.    
+PENSION AND NON-PENSION POST-EMPLOYMENT BENEFIT PLANS
+The components of net periodic benefit cost for the periods indicated are as follows:
+Pension Plans
+Other Benefits Plans
+Three months ended March 31
+Three months ended March 31
+2026
+2025
+2026
+2025
+Service cost
+$
+0.6
+ 
+$
+0.5
+ 
+$
+1.1
+ 
+$
+0.8
+ 
+Interest cost
+2.7
+ 
+2.5
+ 
+0.7
+ 
+0.7
+ 
+Expected return on plan assets
+(
+2.6
+)
+(
+2.5
+)
+—
+ 
+—
+ 
+Amortization of net gain
+(
+0.1
+)
+(
+0.1
+)
+(
+0.9
+)
+(
+0.5
+)
+Net periodic benefit cost
+$
+0.6
+ 
+$
+0.4
+ 
+$
+0.9
+ 
+$
+1.0
+ 
+The components of net periodic benefit cost, other than the service cost component, are included in miscellaneous expense in our consolidated statements of operations. See note 11. We generally record the service cost component in cost of sales and SG&A, depending on the nature of the expenses.
+13
+.     
+   
+INCOME TAXES
+Interim period income tax expense or recovery is determined by multiplying the year-to-date earnings or losses before tax by management’s best estimate of the overall annual effective income tax rate, taking into account the tax effect of certain items recognized in the interim period. As a result, the effective income tax rates used in our interim financial statements may differ from management’s estimate of the annual effective tax rate for the annual financial statements. Our estimated annual effective income tax rate varies as the quarters progress, for various reasons, including as a result of the mix and volume of business in various tax jurisdictions within the Americas, Europe and Asia, in jurisdictions with tax holidays and tax incentives, and in jurisdictions for which a valuation allowance has been recognized to reduce net deferred tax assets to nil because management
+16
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+believes that it is more likely than not that the benefit will not be realized (i.e., based on our review of financial projections, no estimated future taxable profit will be available against which tax losses and deductible temporary differences could be utilized). Our annual effective income tax rate can also vary due to the impact of restructuring charges, foreign exchange fluctuations, operating losses, cash repatriations, and changes in our provisions related to tax uncertainties.
+Our Q1 2026 net income tax expense of $
+44.0
+ included $
+7.2
+ tax expense related to Pillar Two global minimum tax legislation (GMT).
+Our Q1 2025 net income tax expense of
+$
+27.5
+ included
+$
+6.8
+ withholding tax expense incurred to minimize the impact of GMT
+ and
+
+$
+3.0
+ tax expense for tax uncertainties relating to one of our subsidiaries, offset in part by
+$
+1.9
+ of reversals of tax uncertainties relating to another of our subsidiaries.
+
+14.         
+FINANCIAL INSTRUMENTS AND RISK MANAGEMENT
+Our financial assets are comprised primarily of cash and cash equivalents, A/R, and derivatives used for hedging purposes. Our financial liabilities are comprised primarily of accounts payable, certain accrued and other liabilities, the Term Loans, borrowings under the Revolver, lease obligations, and derivatives used for hedging purposes. 
+Currency risk:
+The majority of our currency risk is driven by operational costs, including income tax expense, incurred in local currencies by our subsidiaries. We cannot predict changes in currency exchange rates, the impact of exchange rate changes on our operating results, nor the degree to which we will be able to manage the impact of currency exchange rate changes. Such changes could have a material effect on our business, financial performance and financial condition. We enter into foreign currency forward contracts and swaps to hedge our foreign currency risk related to anticipated future cash flows, monetary assets and monetary liabilities denominated in foreign currencies.
+Equity price risk:
+We are party to the TRS Agreement with a third-party bank to manage our cash flow requirements and exposure to fluctuations in the price of our Common Shares in connection with the settlement of certain outstanding equity awards under our SBC plans. The TRS Agreement provides for automatic annual
+one-year
+ extensions (subject to specified conditions), and may be terminated (in whole or in part) by either party at any time. The value of the TRS Agreement is determined by comparing the market price of our Common Shares to the fixed price paid by the counterparty for such shares (Strike Price). The counterparty under the TRS Agreement is obligated to make a payment to us upon its termination (in whole or in part) or expiration (Settlement) based on the increase (if any) in the value of the TRS Agreement over its term, in exchange for periodic payments made by us based on SOFR plus a specified margin applied to the Equity Notional Amount (defined in the TRS Agreement, as an amount equal to the product of (i) the number of Common Shares then subject to the TRS Agreement (notional quantity) multiplied by (ii) the Strike Price in effect). Similarly, if the value of the TRS Agreement decreases over its term, we are obligated to pay the counterparty the amount of such decrease upon Settlement. The TRS Agreement does not qualify for hedge accounting.
+At March 31, 2026, our TRS Agreement had a notional quantity of
+1.25
+ million Common Shares (December 31, 2025 —
+1.25
+ million Common Shares).
+In each of December 2025 and March 2025, we re-struck our TRS Agreement at a Strike Price of $
+288.87
+ per share and $
+91.58
+ per share, respectively, and received $
+246.6
+ and $
+98.6
+ from the counterparty, respectively, each of which was recorded in cash provided by financing activities in our consolidated statements of cash flows.
+Interest rate risk:
+Borrowings under the Credit Facility expose us to interest rate risk due to the potential variability of market interest rates (see note 7). In order to partially hedge against our exposure to interest rate variability on our Term Loans, we are party to various agreements with third-party banks to swap the variable interest rate
+
+with a fixed rate of interest for a portion of the borrowings
+17
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+thereunder. At March 31, 2026, associated with the Term A Loan, we had: (i) interest rate swaps with $
+80.0
+ notional amount expiring in June 2027; (ii) interest rate swaps with $
+40.0
+ notional amount expiring in June 2029; and (iii) interest rate swaps with $
+80.0
+ notional amount commencing June 2027 and expiring in June 2029. At March 31, 2026, associated with the Term B Loan, we had: (i) interest rate swaps with $
+230.0
+ notional amount expiring in June 2027; and (ii) interest rate swaps with $
+230.0
+ notional amount commencing in June 2027 and expiring in June 2029.
+At March 31, 2026, the interest rate risk related to $
+369.3
+ of borrowings under the Credit Facility was unhedged, consisting of unhedged amounts outstanding under the Term Loans ($
+108.1
+ under the Term A Loan and $
+261.2
+ under the Term B Loan). See note 7.
+Interest rate swaps are designated as cash flow hedges when the hedge relationship is effective and meets the hedge accounting criteria.
+Our TRS Agreement exposes us to interest rate risk as interest payments on our TRS Agreement are based on a variable interest rate (see above).
+Credit risk:
+Credit risk refers to the risk that a counterparty may default on its contractual obligations resulting in a financial loss to us. We believe our credit risk of counterparty non-performance continues to be relatively low. We are in regular contact with our customers, suppliers and logistics providers to assess counterparty credit-related non-performance. If a key supplier (or any company within such supplier's supply chain) or customer fails to comply with their contractual obligations, this could result in a significant financial loss to us. We would also suffer a significant financial loss if an institution from which we purchased foreign currency exchange contracts and swaps, interest rate swaps, or annuities for our pension plans, or the counterparty to our TRS Agreement, defaults on their contractual obligations. With respect to our financial market activities, we have adopted a policy of dealing only with counterparties we deem to be creditworthy to help mitigate the risk of financial loss from defaults. Adjustments are made to our allowance for credit losses each period in connection with our ongoing credit risk assessments. See note 4.
+Liquidity risk:
+Liquidity risk is the risk that we may not have cash available to satisfy our financial obligations as they come due. We manage liquidity risk through maintenance of cash on hand and access to the various financing arrangements described in note 4 to our 2025 AFS and note 7 herein.
+Hedging activities:
+The tables below present information regarding the fair values of derivative instruments and the effects of derivative instruments on our consolidated financial statements:
+Derivatives not designated as hedging instruments (economic hedges):
+Asset Derivatives
+Liability Derivatives
+Fair Value
+Fair Value
+Balance sheet classification
+March 31
+2026
+December 31
+2025
+Balance sheet classification
+March 31
+2026
+December 31
+2025
+Foreign currency contracts
+Other current assets
+$
+2.5
+ 
+$
+5.5
+ 
+Other current liabilities
+$
+11.3
+ 
+$
+2.9
+ 
+TRS
+Other current assets
+—
+ 
+7.2
+ 
+Other current liabilities
+9.8
+ 
+—
+ 
+18
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Loss (Gain) Recognized in Income
+Three months ended March 31
+2026
+2025
+Foreign currency contracts
+Cost of sales
+$
+2.2
+ 
+$
+(
+0.3
+)
+SG&A
+5.6
+ 
+2.6
+ 
+TRS (see note 8)
+Cost of sales
+7.5
+ 
+7.5
+ 
+SG&A
+9.5
+ 
+11.6
+ 
+Derivatives designated as cash flow hedges:
+Asset Derivatives
+Liability Derivatives
+Fair Value
+Fair Value
+Balance sheet classification
+March 31
+2026
+December 31
+2025
+Balance sheet classification
+March 31
+2026
+December 31
+2025
+Foreign currency contracts
+(i)
+Other current assets
+$
+4.2
+ 
+$
+12.1
+ 
+Other current liabilities
+$
+12.1
+ 
+$
+1.5
+ 
+Interest rate swaps
+(ii)
+Other non-current assets
+1.5
+ 
+0.4
+ 
+Other non-current liabilities
+1.5
+ 
+2.8
+ 
+(i)    In the next twelve months, we est
+imate that $
+6.2
+ of existing losses, net of tax, will be reclassified from AOCI into our consolidated statements of operations. The maximum length of time we hedge our exposure to the variability in future cash flows for forecasted foreign currency transactions is
+12
+ months.
+(ii) In the next twelve months, we estimate that $
+0.5
+ of existing gains, net of tax, will be reclassified from AOCI into our consolidated statements of operations. The maximum length of time that we hedge our exposure to the variability in future cash flows for forecasted interest payments is
+3.2
+ years.
+Loss (Gain) Reclassified from AOCI into Income
+Three months ended March 31
+(see note 9 for activities recorded in AOCI for the periods indicated)
+2026
+2025
+Foreign currency contracts
+Cost of sales
+$
+(
+6.7
+)
+$
+3.7
+ 
+SG&A
+0.9
+ 
+0.9
+ 
+Interest rate swaps
+Finance costs
+$
+(
+0.2
+)
+$
+(
+1.8
+)
+Miscellaneous expense
+—
+ 
+1.3
+ 
+15.    
+EARNINGS PER SHARE
+Basic and diluted earnings per share are calculated by dividing net earnings by the following weighted average number of share
+s:
+Three months ended March 31
+(in millions)
+2026
+2025
+Basic weighted average number of shares outstanding
+114.9
+ 
+115.9
+ 
+Diluted effect of outstanding awards under SBC plans
+0.8
+ 
+1.0
+ 
+Diluted weighted average number of shares outstanding
+115.7
+ 
+116.9
+ 
+19
+CELESTICA INC.
+ 
+NOTES TO
+
+CONDENSED
+
+CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+16.         
+CONTINGENCIES
+Litigation:
+In the normal course of our operations, we may be subject to litigation, investigations and other claims, including legal, regulatory and tax proceedings. Management believes that adequate provisions have been recorded where required. Although it is not always possible to estimate the extent of potential costs, if any, management believes that the ultimate resolution of all such pending matters will not have a material adverse impact on our financial performance, financial position or liquidity.
+Taxes Matters:
+In 2021, the Romanian tax authorities issued a final assessment in the aggregate amount of approximately
+31
+ million Romanian leu (approximately $
+7
+ at Q1 2026 period-end exchange rates), for additional income and value-added taxes for our Romanian subsidiary for the 2014 to 2018 tax years. In order to advance our case to the appeals phase and reduce or eliminate potential interest and penalties, we paid the Romanian tax authorities the full amount assessed in 2021 (without agreement to all or any portion of such assessment). We believe that our originally-filed tax return positions are in compliance with applicable Romanian tax laws and regulations, and continue to vigorously defend our position through all necessary appeals or other judicial processes.
+We are under examination by the Thailand tax authorities for the tax year 2019. The examination may lead to adjustments to our taxes with respect to the year under examination as well as other subsequent periods.
+In 2024, the Thailand tax authorities issued an assessment letter seeking to impose additional value-added taxes and surcharges in the aggregate amount of approximately
+403
+ million Thai baht (approximately $
+12
+ at Q1 2026 period-end exchange rates) for our Thailand subsidiary for the 2019 tax year. We believe that our original positions with respect to the value-added taxes are in compliance with applicable Thailand tax laws and regulations, and continue to vigorously defend our position through all necessary appeals or other judicial processes. A bank guarantee has been issued for the maximum potential liability.
+In our major tax jurisdictions, we may be subject to income tax examinations for tax years from 2018 to present.
+20
+Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations
+In this Quarterly Report on Form 10-Q (Q1 2026 10-Q), including this Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A), "Celestica," the "Company," "we," "us," and "our" refer to Celestica Inc. and its subsidiaries. This MD&A should be read in conjunction with our March 31, 2026 unaudited interim financial statements (Q1 2026 Interim Financial Statements) and our Annual Report on Form 10-K for the year ended December 31, 2025 (2025 10-K), including our 2025 audited consolidated annual financial statements (2025 AFS) and related notes, which we prepared in accordance with U.S. generally accepted accounting principles (GAAP). Unless otherwise noted, all dollar amounts are expressed in United States (U.S.) dollars. The information in this MD&A is provided as of April 27, 2026 unless we indicate otherwise. As used herein, "Q1," "Q2," "Q3," and "Q4" followed by a year refers to the first quarter, second quarter, third quarter and fourth quarter of such year, respectively.
+Certain statements contained in this Q1 2026 10-Q, including this MD&A constitute "forward-looking statements" within the meaning of Section 27A of the U.S. Securities Act of 1933, as amended (U.S. Securities Act), and Section 21E of the U.S. Securities Exchange Act of 1934, as amended (U.S. Exchange Act), and "forward-looking information" within the meaning of applicable Canadian securities laws (collectively, forward-looking statements), including, without limitation, statements related to: our priorities, intended areas of focus, targets, objectives and goals; our capital investment plans and the funding therefor; developments related to new customer or program wins; timing of production ramps, anticipated economic conditions, industry and market trends and projections, underlying market growth rates, customer demand, prospects and opportunities; strategic initiatives; trends in our segments and/or their constituent businesses; the anticipated impact of current market conditions and customer-specific factors on each of our segments (and/or their constituent businesses) and near term expectations; potential restructuring and divestiture actions; our anticipated financial and/or operating results and outlook, including expected revenue increases and decreases (or remaining flat), as well as growth in certain segments, businesses and end markets; our strategies; our credit risk; the potential impact of acquisitions, or program wins, transfers, losses or disengagements; materials, component and supply chain constraints; anticipated expenses and other working capital requirements and contractual obligations (and intended methods of funding such items); the potential impact of trade policies between countries in which we conduct business (including the tariffs proposed and implemented by the U.S. government, and any reciprocal or retaliatory tariffs); the adoption, integration and use of artificial intelligence (AI) in manufacturing and service offerings and in certain of our internal processes; the impact of our price reductions and longer payment terms; our intended repatriation of certain undistributed earnings from non-Canadian subsidiaries; the potential impact of tax and litigation outcomes; investor dissatisfaction with inclusion, employee engagement, and other sustainability matters; our ability to use certain tax losses; planned investments in our business; the potential impact of the pace of technological changes (including with respect to AI technologies), customer outsourcing, program transfers, and the global economic environment; the intended method of funding common share (Common Share) repurchases; the impact of our outstanding indebtedness; liquidity and the sufficiency of our capital resources; our intention to settle outstanding share unit awards with Common Shares; our financial statement estimates and assumptions; recently issued accounting pronouncements and amendments; the potential adverse impacts of events outside of our control (including those described under "External factors that may impact our business" below); mandatory prepayments under our credit facility; pension plan funding requirements and obligations, and the impact of annuity purchases; our compliance with covenants under our credit facility; refinancing debt at maturity; interest rates and expense; income tax incentives; expectations with respect to reporting units with goodwill; our future warranty obligations; cybersecurity threats and incidents; our intentions with respect to environmental assessments for newly-leased or acquired properties; our expectations with respect to expiring leases; our intention to retain earnings for general corporate purposes; costs in connection with our pursuit of acquisitions and strategic transactions; and expectations regarding the acceptance of offers to sell accounts receivable (A/R) under our A/R sales programs and supplier financing programs. Such forward-looking statements may, without limitation, be preceded by, followed by, or include words such as "believes," "expects," "anticipates," "estimates," "intends," "plans," "continues," "project," "target," "objective," "goal," "potential," "possible," "contemplate," "seek," or similar expressions, or may employ such future or conditional verbs as "may," "might," "will," "could," "should," or "would," or may otherwise be indicated as forward-looking statements by grammatical construction, phrasing or context. For those statements, we claim the protection of the safe harbor for forward-looking statements contained in the U.S. Private Securities Litigation Reform Act of 1995, where applicable, and applicable Canadian securities laws.
+Forward-looking statements contained in this Q1 2026 10-Q are based on various assumptions, many of which involve factors that are beyond our control. Our material assumptions include: growth in manufacturing outsourcing from customers in diversified markets; technology upgrade cycles; our ability to retain programs and customers, including no unexpected customer or program transfers, losses or disengagements; no unforeseen adverse changes in our mix of businesses; no undue negative impact on our customers' ability to compete and succeed using products we manufacture and services we provide; continued strengthening of customer demand; accelerating growth from our customer base, including our CCS
+21
+customer base;
+
+continued growth in our segments and end markets; our ability to successfully diversify our customer base and develop new capabilities; anticipated demand levels across our businesses, including continued growth in the demand from data center customers; continued advancement and commercialization of AI technologies and cloud computing; supporting sustained high levels of capital expenditure investments by leading hyperscaler, AI and data center customers; scaling of our operations to meet the anticipated growth in customer demand; capital investments proceeding as anticipated, including timely completion of construction and operationalization of assets, securing required materials, utilities, and equipment for our expansion plans; alignment of our capacity with our business demands; the successful recruitment and retention of skilled talent; no significant unforeseen negative impacts to our operations; no unforeseen materials price increases, margin pressures, or other competitive factors affecting the contract design and manufacturing industry in general or our segments in particular; compliance by third parties with their contractual obligations; no material changes to tariffs or trade restrictions compared to what are in effect as of April 27, 2026; that our customers will retain liability for and we will continue to be able to recover substantially all costs from customers relating to product/component tariffs and countermeasures; no material changes in business activities resulting from current macroeconomic trends and uncertainties, including evolving global tariff,  trade negotiations, and geopolitical conflicts; our ability to achieve our strategic goals; our ability to keep pace with rapidly changing technological developments; the successful resolution of quality issues that arise from time to time; fluctuation of production schedules from our customers in terms of volume and mix of products or services; the timing and execution of, and investments associated with, ramping new programs; supplier performance and quality, pricing and terms; the costs and availability of components, materials, services, equipment, labor, energy and transportation; our ability to secure adequate component and material supply; no significant decline in the global economy or in economic activity in our end markets due to a major recession, global trade tensions or otherwise; no unforeseen disruptions due to geopolitical factors (including war, tariffs and trade restrictions) causing significant negative impacts to economic activity, global or regional supply chains or normal business operations; that global inflation will not have a material impact on our revenues or expenses; the impact of anticipated market conditions on our businesses; the stability of currency exchange rates; the availability of cash generated from operations to fund planned capital investments; the availability of capital resources for, and the permissibility under our credit facility of, repurchases of outstanding Common Shares under our current normal course issuer bid (NCIB), and compliance with applicable laws and regulations pertaining to NCIBs; compliance with applicable credit facility covenants and the components of our leverage ratios (as defined in our credit facility); our maintenance of sufficient financial resources to fund currently anticipated financial actions and obligations and to pursue desirable business opportunities; global tax legislation changes; the timing, execution and effect of restructuring actions; and no unforeseen adverse changes in the regulatory environment.
+Forward-looking statements are not guarantees of future performance and the Company's actual results may differ significantly from the results discussed in the forward-looking statements. Achievement of anticipated results is subject to substantial risks, uncertainties and inaccurate assumptions. Should known or unknown risks or uncertainties materialize, or should underlying assumptions prove inaccurate, actual results could vary materially from past results and those anticipated, estimated or projected. You should bear this in mind as you consider forward-looking statements, and you are cautioned not to put undue reliance on forward-looking statements. Forward-looking statements speak only as of the date on which they are made, and we undertake no obligation to publicly update forward-looking statements, whether as a result of new information, future events or otherwise, except as required by law or by the rules and regulations of the U.S. Securities and Exchange Commission (SEC). You are advised, however, to consult any further disclosures we make on related subjects. Factors that might cause such differences include, but are not limited to, those discussed in the Risk Factor Summary and in Part I, Item 1A of our 2025 10-K under the heading "Risk Factors," which are incorporated herein by reference, and subsequent Quarterly Reports on Form 10-Q and other documents filed with the SEC, and as applicable, the Canadian Securities Administrators.
+Overview
+ 
+Celestica's business:
+ 
+Celestica is a technology leader with deep expertise in design, engineering, manufacturing, supply chain and platform solutions. Celestica enables critical data center infrastructure for AI, cloud and hybrid cloud, and advances technologies in high-growth markets. Our global headquarters is located in Toronto, Ontario, Canada. We operate a network of sites and design centers strategically located in North America, Asia, and Europe.
+We serve across two operating and reportable segments: Connectivity & Cloud Solutions (CCS) and Advanced Technology Solutions (ATS). Our CCS segment consists of our Communications and Enterprise end markets. Our ATS segment consists of our ATS end market, and is comprised of our Aerospace and Defense (A&D), Industrial, HealthTech, and Capital Equipment businesses. Additional information regarding our segments is included in note
+
+3
+
+to the Q1 2026 Interim Financial Statements and in note 21 to the 2025 AFS. Customers in our CCS segment include cloud based service providers,
+22
+hyperscalers and other data center customers (including digital native companies), as well as hardware original equipment manufacturer (OEMs) and enterprise customers. Customers in our ATS segment include OEMs in a range of diversified markets that we serve.
+We offer a comprehensive range of products and services that cover the entire technology product lifecycle, including
+hardware design and development, new product introduction, engineering services, supply chain management and logistics, electronics manufacturing and assembly, complex mechanical assembly, precision machining, systems integration, testing, product licensing, software enablement solutions, and services, including asset management and disposition services.
+In recent periods, we have experienced an increasing shift in the mix of our programs towards cloud-based and other service providers, primarily hyperscalers, which are cyclically different from our traditional OEM customers, and currently experiencing a period of significant increases in product deployments to support their build-out of data center infrastructure, including to support AI applications. This demand growth has required our business to place a greater focus on various operational factors, including the management of our manufacturing capacity, human capital dedicated to these programs, supply chain, capital investments, and working capital requirements.
+Industry Overview:
+Celestica operates in the contract design and manufacturing industry and competes with a variety of providers from electronics manufacturing services (EMS) companies to original design manufacturers (ODMs). The EMS companies that Celestica competes with, typically manage global manufacturing and logistics networks that are capable of delivering customized solutions, and may offer, depending on the extent of their capabilities, end-to-end services covering the full product lifecycle, which can include assembly, supply chain management, testing, system integration, fulfillment and other services. ODMs offer a similar range of services, and also typically support the design and development of products they manufacture for their customers.
+See "Overview" in Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) of our 2025 10-K for additional detail of our business and business environment.
+External factors that may impact our business:
+External factors that could have a material and adverse impact on our industry and/or business include the long-term sustainability and growth of data center-related investments; technology changes (including AI-related technologies); energy, power, and water constraints in the data center infrastructure; supplier or customer financial difficulties; global economic and political tension (including increased tensions between the U.S. and other countries and between mainland China and Taiwan); geopolitical uncertainty and conflicts (including the Russia/Ukraine conflict and the conflicts in the Middle East area); government legislation, regulations, or policies (including with respect to tariffs and AI technology); fires and related disruptions; labor or social unrest, criminal activity, cybersecurity incidents, natural disasters and unusually adverse weather conditions (including those caused by climate- and weather-related risks). See Item 1A, Risk Factors of our 2025 10-K. These events could disrupt operations or the economics of one or more of our sites or those of our customers, component suppliers and/or our logistics partners and may materially negatively impact our operating results.
+Recent investments in AI infrastructure by hyperscalers and other data center customers have increased demand for certain products in our CCS segment, including our Hardware Platform Solutions (HPS) business. However, the long‑term trajectory of AI adoption and related data center deployment is uncertain and may be affected by a variety of factors outside our control, including rapid changes in technology and customer AI roadmaps; evolving regulatory developments (including export controls and other AI-related measures) that increase our customers’ costs or restrict their AI activities; constraints on specialized components and data center capacity; and the availability, timing, reliability and price of critical utilities. Adverse developments in any of these areas could cause our cloud-based and other service provider customers, including hyperscalers and OEM customers, to delay, reduce or cancel programs, which could adversely impact demand for our products and services, as well as our revenue growth and operating results. See Item 1A, Risk Factors of our 2025 10-K "
+The future development and adoption of AI and the deployment of data center infrastructure are uncertain and depend on the availability and cost of critical inputs (including power and water), which could materially affect demand for our products and services and our operating results.
+"
+The pace of technological changes (including AI-related technologies) and the frequency of customer outsourcing or transferring business among EMS and/or ODM competitors, may impact our business, results of operations and/or financial
+23
+condition. Data center deployments, which have numerous, specific infrastructure requirements, have influenced our revenue variability and may continue to impact our future demand.
+We anticipate our 2026 capital expenditures to increase compared to 2025. However, our capital investments may not proceed as anticipated, or we may encounter delays in the timely completion of construction and operationalization of new or expanded assets due to various reasons such as issues with securing required materials, equipment, utilities and labor in a timely manner. We may also experience delays or challenges related to utility, power availability, grid interconnection, supply chain constraints, and other infrastructure or regulatory requirements. Any of these factors could delay the realization of anticipated capacity, increase project costs, or result in assets that are not fully operational when expected. If demand, mix, yield or utilization differ from our expectations, or if customer roadmaps change, ramp milestones are delayed, or expected volumes do not materialize, added capacity may be underutilized and returns on these investments may be lower than expected, and our financial results could be adversely affected. See Item 1A, Risk Factors of our 2025 10-K "
+Increased capital expenditures to expand capacity to support anticipated growth in customer demand may not proceed as anticipated and may increase our fixed‑cost base, constrain liquidity and adversely affect returns"
+ and Item 7, MD&A — "Liquidity and Capital Resources” of our 2025 10-K and “Liquidity and Capital Resources” below.
+Governmental actions related to international trade agreements have increased (and could further increase) the cost to our U.S. customers who use our non-U.S. manufacturing sites and components, and vice versa, which may materially and adversely impact demand for our services, our results of operations or our financial condition. Changes in policies by the U.S. or other governments could negatively affect our operating results due to changes in duties, tariffs, or taxes, or limitations on currency or fund transfers, as well as government-imposed restrictions on producing certain products in, or shipping them to, specific countries, or as the result of other similar actions by other countries or citizens affected by such changes in policies. We will continue to monitor the scope and duration of trade actions by the U.S. and other governments with respect to our business. See Item 1A, Risk Factors of our 2025 10-K "
+Our ability to successfully manage unexpected changes or risks inherent in our global operations and supply chain may adversely impact our financial performance
+" and "
+U.S. policies or legislation could have a material adverse effect on our business, results of operations and financial condition.
+"
+Materials shortages or other issues affecting timely access to these materials (which often occur in our industry) may impact our ability to successfully complete a program. Factors that may cause or contribute to such materials shortages or supply issues include: supplier or manufacturer delays or failures to provide components, supplies or equipment as required; quality or reliability issues at component providers; financial difficulties affecting suppliers' production and ability to supply components; and industry-wide shortages for certain electronic components. Such materials shortages or supply issues could have a significant impact on our operations and on our customers, including: inability to deliver finished products in a timely manner; losses on fixed price contracts due to increased costs for equipment and supplies; having to source items from third parties on less favorable terms; halted or delayed production of a customer's product; claims against us for failure to meet required customer specifications; and carrying higher levels of inventory and extended lead-times. Shortages may also result in increased component prices, which may require price increases in the products and services that we provide. Any increase in our costs that we are unable to recover would negatively impact our margins and operating results. See Item 1A, Risk Factors of our 2025 10-K "
+We are dependent on third parties to supply certain materials, and our results were negatively affected by the availability of such materials in the past and may be negatively affected by the quality, availability and cost of such materials in the future
+."
+Increases in prices for energy and other commodities may result in further increased raw material, component and transportation costs. Any increase in our costs that we are unable to recover through our pricing to our customers would negatively impact our margins and operating results.  See Item 1A, Risk Factors of our 2025 10-K "
+Volatility in energy and commodity prices may negatively impact our operating results
+."
+See "External Factors that May Impact our Business" in Item 7, MD&A of our 2025 10-K for a discussion of additional factors beyond our control that may have an adverse impact on our business.
+Recent Developments
+Celestica Amends and Upsizes Credit Facility:
+On April 27, 2026, we amended our existing senior credit agreement (April 2026 Amendment) to: (1) increase the commitments under the revolving credit facility (Revolver) from $750.0 million to $1,750.0 million; (2) refinance our existing term A loan facility (Term A Loan, $228.1 million
+
+outstanding borrowings at
+March 31, 2026)
+ into a new $250.0 million term A loan facility (New Term A Loan); and (3) extend the maturity of the Revolver and the New Term A Loan from June 2029 to
+24
+April 2031. The New Term A Loan was fully drawn at closing of the April 2026 Amendment.
+ The proceeds of the New Term A Loan were used to repay all amounts outstanding under the refinanced Term A Loan and certain fees and expenses related to the April 2026 Amendment, with any remaining proceeds to be used for general corporate purposes. Amounts drawn under the Revolver are permitted to be used for general corporate purposes.
+
+See "Liquidity —
+Cash used in and provided by financing activities
+ — Financing and Finance Costs" below.
+Common Share Repurchases
+:
+
+As of March 31, 2026,
+
+approximately
+
+5.5 million
+
+of our Common Shares remain available for repurchase under our current NCIB, which expires upon the earlier of November 2, 2026 or the completion of purchases thereunder. The maximum number of Common Shares we are permitted to repurchase for cancellation under the NCIB is reduced by the number of Common Shares we arrange to be purchased by any non-independent broker in the open market during the term of the NCIB to satisfy delivery obligations under our stock-based compensation (SBC) plans. In Q1 2026, we paid $20.0 million (including transaction fees and excluding share buyback taxes) to repurchase
+0.1 million
+ Common Shares for cancellation under the NCIB. See "Summary of Q1 2026" and Part II, Item 2, "Unregistered Sales of Equity Securities and Use of Proceeds" below. See note 8 to our Q1 2026 Interim Financial Statements for further details.
+Summary of Q1 2026
+The Q1 2026 Interim Financial Statements reflect all normal and recurring adjustments that are, in the opinion of management, necessary to present fairly our financial position as at March 31, 2026 and the operating results and cash flows for three months ended March 31, 2026. A discussion of our Q1 2026 financial results is set forth under "Operating Results" below.
+The following tables set forth certain key operating results and financial information for the periods indicated (in millions, except per share amounts and percentages): 
+ 
+Three months ended March 31
+ 
+2026
+2025
+% Increase (Decrease)
+Revenue
+$
+4,047.0 
+$
+2,648.6 
+53 
+%
+Gross profit
+437.2 
+273.9 
+60 
+%
+Selling, general and administrative expenses (SG&A)
+117.4 
+112.5 
+4 
+%
+Restructuring and other charges (recoveries)
+(4.4)
+3.9 
+(213)
+%
+Net earnings
+212.3 
+86.2 
+146 
+%
+Diluted earnings per share (EPS)
+$
+1.83 
+$
+0.74 
+147 
+%
+Three months ended March 31
+Segment revenue* as a percentage of total revenue:
+2026
+2025
+ATS revenue (% of total revenue)
+20%
+30%
+CCS revenue (% of total revenue)
+80%
+70%
+Three months ended March 31
+2026
+2025
+Segment income and segment margin*:
+Segment Margin
+Segment Margin
+ATS segment
+$
+48.0 
+6.0
+%
+$
+40.7 
+5.0
+%
+CCS segment
+277.2 
+8.6
+%
+147.1 
+8.0
+%
+*    Segment performance is evaluated based on segment revenue, segment income and segment margin. See note 3 to the Q1 2026 Interim Financial Statements and note 21 to the 2025 AFS for definitions of each item.
+25
+March 31
+2026
+December 31
+2025
+Cash and cash equivalents
+$
+378.0 
+$
+595.6 
+Total assets
+8,260.0 
+7,213.1 
+Borrowings under term loans
+(1)
+719.3 
+723.7 
+Borrowings under revolving credit facility
+(2)
+— 
+— 
+(1)
+ Excludes unamortized debt issuance costs.
+(2)
+Excludes ordinary course letters of credit (L/Cs).
+Three months ended March 31
+2026
+2025
+Net cash provided by operating activities
+$
+356.3 
+$
+130.3 
+Common Share repurchase activities:
+Aggregate cost (including transaction fees and excluding share buyback taxes) of Common Shares repurchased for cancellation
+$
+20.0 
+$
+75.0 
+Number of Common Shares repurchased for cancellation (in millions)
+0.1 
+0.6 
+Weighted average price per share for repurchases
+$
+273.60 
+$
+114.46 
+Aggregate cost (including transaction fees) of Common Shares repurchased for delivery under SBC plans
+$
+— 
+$
+221.6 
+Number of Common Shares repurchased for delivery under SBC plans (in millions)
+(1)
+— 
+1.7 
+(1)    
+Consists entirely of Common Share repurchases for SBC delivery obligations under automatic share purchase plans for such purpose through an independent broker.
+Other performance indicators:
+    In addition to the key operating results and financial information described above, management reviews the following measures:
+ 
+Q1 2026
+Q4 2025
+Q3 2025
+Q2 2025
+Q1 2025
+Days in A/R
+65 
+63 
+68 
+70 
+72 
+Days in inventory
+61 
+60 
+65 
+67 
+68 
+Days in accounts payable (A/P)
+(60)
+(50)
+(54)
+(54)
+(51)
+Days in cash deposits*
+(11)
+(12)
+(14)
+(17)
+(20)
+Cash cycle days
+55 
+61 
+65 
+66 
+69 
+Inventory turns
+5.9x
+6.1x
+5.6x
+5.4x
+5.4x
+* We receive cash deposits from certain of our customers primarily to help reduce risks related to excess and/or obsolete inventory. See "Customer cash deposits for inventory" in the table below.
+(in millions)
+2026
+2025
+ 
+March        31
+December   31
+September  30
+ June       30
+March    31
+Customer cash deposits for inventory
+$
+388.7 
+$
+407.1 
+$
+381.6 
+$
+396.6 
+$
+471.8 
+Days in A/R is defined as the average A/R for the quarter divided by the average daily revenue. Days in inventory, days in A/P and days in cash deposits are calculated by dividing the average balance for each item for the quarter by the average daily cost of sales. Cash cycle days is defined as the sum of days in A/R and days in inventory minus the days in A/P and days in cash deposits. Inventory turns are determined by dividing 365 by the number of days in inventory. A lower number of days in A/R, days in inventory, and cash cycle days, and a higher number of days in A/P, days in cash deposits, and inventory turns generally reflect improved cash management performance.
+    We believe that cash cycle days (and the components thereof) and inventory turns are useful measures in providing investors with information regarding our cash management performance and are accepted measures of working capital management efficiency in our industry.
+26
+    
+Critical Accounting Estimates
+The preparation of financial statements in conformity with GAAP requires management to make judgments, estimates and assumptions that affect the application of accounting policies, the reported amounts of assets, liabilities, revenue and expenses, and related disclosures with respect to contingent assets and liabilities. We base our judgments, estimates and assumptions on current facts, historical experience and various other factors that we believe are reasonable under the circumstances. The economic environment also impacts certain estimates and discount rates necessary to prepare our consolidated financial statements, including significant estimates and discount rates applicable to the determination of the fair value used in the impairment testing of our non-financial assets. Our assessment of these factors forms the basis for our judgments on the carrying values of our assets and liabilities, and the accrual of our costs and expenses. Actual results could differ materially from our estimates and assumptions. We review our estimates and underlying assumptions on an ongoing basis and make revisions as determined necessary by management. Revisions are recognized in the period in which the estimates are revised and may also impact future periods.
+Our review of the estimates, judgments and assumptions used in the preparation of the Q1 2026 Interim Financial Statements included those relating to, among others: our determination of the timing of revenue recognition, the determination of whether indicators of impairment existed for our assets and reporting units, our measurement of deferred tax assets and liabilities, our estimated inventory write-downs and expected credit losses and customer creditworthiness. Any revisions to estimates, judgments or assumptions may result in, among other things, write-downs, accelerated depreciation or amortization, or impairments of our assets or reporting units, any of which could have a material impact on our financial performance and financial condition. No significant revisions to our critical accounting estimates and/or assumptions were made in Q1 2026. In addition, we determined that no triggering event occurred in Q1 2026 that would require an interim impairment assessment of our reporting units.
+Due to global economic conditions, including the impact of ongoing trade conflicts, tariffs and geopolitical conflicts, there has been and we expect there will continue to be uncertainty in the global economy. Management has made estimates and assumptions based on information available as of the date of issuance of the Q1
+2026
+ Interim Financial Statements taking into consideration certain possible impacts due to the foregoing factors. These estimates may change, as new events occur, and additional information is obtained.
+Significant accounting policies and methods used in the preparation of our consolidated financial statements and recently issued accounting pronouncements
+
+are described in note 2 to our 2025 AFS and note 2 to our Q1 2026 Interim Financial Statements.
+Operating Results
+
+    See "Overview" above for a discussion of the impact of recent market conditions on our segments and businesses. See the initial paragraph of "Operating Results" in Item 7, MD&A of our 2025 10-K for a general discussion of factors that can cause our financial results to fluctuate from period to period.
+Revenue:
+    Revenue of $4.05 billion for Q1 2026 increased 53% compared to Q1 2025.
+    The following table sets forth segment revenue information (in millions, except percentages) for the periods indicated:
+Three months ended March 31
+2026
+2025
+% of total
+% of total
+ATS segment revenue
+$
+806.0 
+20 
+%
+$
+807.2 
+30 
+%
+CCS segment revenue
+Communications
+$
+2,410.6 
+60 
+%
+$
+1,427.7 
+54 
+%
+Enterprise
+830.4 
+20 
+%
+413.7 
+16 
+%
+$
+3,241.0 
+80 
+%
+$
+1,841.4 
+70 
+%
+Total revenue
+$
+4,047.0 
+$
+2,648.6 
+    
+27
+ATS segment revenue for Q1 2026 of $806.0 million remained relatively flat compared to Q1 2025, as the increased revenue in our HealthTech business was substantially offset by lower revenue in our A&D business (due to the discontinuation of a margin dilutive program) and Capital Equipment business.
+    CCS segment revenue increased $1,399.6 million (76%) in Q1 2026 compared to Q1 2025. Communications end market revenue increased $982.9 million (69%) in Q1 2026 compared to Q1 2025, driven by data center networking demand, including the ongoing ramps of our switch programs. HPS revenue for Q1 2026 increased 63% to approximately $1.7 billion compared to Q1 2025, and accounted for 42% of our total Q1 2026 revenue (Q1 2025 — 39% of our total Q1 2025 revenue). Increases in HPS revenue in Q1 2026 compared to Q1 2025 was driven by strong demand of our networking switch programs with hyperscaler customers. Enterprise end market revenue increased $416.7 million (101%) in Q1 2026 compared to Q1 2025, driven by the ramp-up of an AI/ML compute program with one of our hyperscaler customers.
+We depend on a small number of customers for a substantial portion of our revenue. In the aggregate, our top 10 customers represented 84% of total revenue for Q1 2026 (Q1 2025 — 78%). Three customers (all in our CCS segment) individually represented 10% or more of total revenue in Q1 2026 (35%, 15% and 15%). Three customers (all in our CCS segment) individually represented 10% or more of total revenue in Q1 2025 (28%, 13% and 10%).
+Gross profit:
+ 
+The following table shows gross profit and gross margin (gross profit as a percentage of total revenue) for the periods indicated: 
+ 
+Three months ended March 31
+ 
+2026
+2025
+Gross profit (in millions)
+$
+437.2 
+$
+273.9 
+Gross margin
+10.8
+%
+10.3
+%
+Gross profit increased by 60% or $163.3 million to $437.2 million in Q1 2026 compared to Q1 2025, primarily driven by our strong revenue growth. Gross margin increased to 10.8% in Q1 2026 from 10.3% in Q1 2025, primarily driven by improved mix and strong productivity.
+SG&A:
+SG&A for Q1 2026 of $117.4 million (2.9% of total revenue) increased $4.9 million compared to $112.5 million (4.2% of total revenue) for Q1 2025.
+Segment income and margin:
+    Segment performance is evaluated based on segment revenue (set forth above), segment income, and segment margin (segment income as a percentage of segment revenue). See "Summary of Q1 2026" above for a table showing segment income and segment margin for Q1 2026 and Q1 2025. See the reconciliation of segment income to our earnings before income taxes for Q1 2026 and Q1 2025 in note 3 to the Q1 2026 Interim Financial Statements.
+ATS segment income increased $7.3 million (18%) in Q1 2026 compared to Q1 2025. ATS segment margin increased to 6.0% in Q1 2026 from 5.0% in Q1 2025. Our ATS segment income and ATS segment margin increased in Q1 2026 compared to Q1 2025, primarily due to improved mix and higher profitability as a result of our portfolio optimization activities.
+CCS segment income increased $130.1 million (88%) in Q1 2026 compared to Q1 2025, as a result of the CCS segment revenue increase in Q1 2026 compared to Q1 2025. CCS segment margin increased to 8.6% in Q1 2026 from 8.0% in Q1 2025, driven by more favorable mix and operating leverage.
+SBC expense and fair value adjustments of the total return swaps (TRS):
+ 
+Our SBC expense may fluctuate from period to period to account for, among other things, new grants, forfeitures resulting from employee terminations or resignations, and the recognition of accelerated SBC expense for employees eligible for retirement (generally in the first quarter of the year associated with our annual grants). The portion of our employee SBC expense that relates to performance-based compensation is subject to adjustment in any period to reflect changes in the estimated level of achievement of pre-determined performance goals and financial targets.
+28
+We entered into the TRS agreement (TRS Agreement) to manage cash flow requirements and exposure to fluctuations in the share price of our Common Shares in connection with the settlement of certain outstanding equity awards under our SBC plans. See "Liquidity —
+Cash requirements
+ — TRS" below for further detail.
+We grant restricted share units (RSUs) and performance share units (PSUs), and from time to time grant stock options, to employees. Directors may receive compensation in director share units or deferred share units (collectively, "DSUs"), cash or RSUs. The following table shows employee SBC expense, TRS fair value adjustments (TRS FVAs), and director SBC expense for the periods indicated:
+(in millions)
+Three months ended March 31
+2026
+2025
+Employee SBC expense in cost of sales
+$
+13.6 
+$
+10.1 
+Employee SBC expense in SG&A
+16.9 
+15.9 
+Total employee SBC expense
+$
+30.5 
+$
+26.0 
+TRS FVAs: losses in cost of sales
+$
+7.5 
+$
+7.5 
+TRS FVAs: losses in SG&A
+9.5 
+11.6 
+Total TRS FVAs: losses
+$
+17.0 
+$
+19.1 
+Combined effect of employee SBC expense and TRS FVAs
+$
+47.5 
+$
+45.1 
+Director SBC expense in SG&A
+(1)
+$
+0.6 
+$
+0.6 
+(1)    
+Expense consists of director compensation to be settled with Common Shares, or Common Shares and cash.
+Restructuring and other charges (recoveries):
+ 
+We perform ongoing evaluations of our business, operational efficiency and cost structure, and implement restructuring actions as we deem necessary. Our restructuring activities consisted primarily of actions to adjust our cost base to address reduced levels of demand in certain of our businesses and geographies.
+We recorded restructuring charges of $2.2 million in Q1 2026 (Q1 2025 —
+$2.2 million
+), consisting
+ primarily of cash charges related to employee terminations. At
+March 31, 2026
+, our restructuring provision of $3.6 million (December 31, 2025 — $4.4 million) was recorded in accrued and other current liabilities and provisions on our consolidated balance sheets, which we intend to fund with cash on hand.
+See note 10 to the Q1 2026 Interim Financial Statements for details of other costs and recoveries included in the restructuring and other charges (recoveries) recorded in our consolidated statements of operations.
+Finance Costs:
+    Finance Costs consist of interest expense and fees related to our credit facility (including debt issuance and related amortization costs), our interest rate swap agreements, our TRS Agreement, our A/R sales program, customer supplier financing programs (SFPs), and interest expense on our finance lease obligations, net of interest income earned. During Q1 2026, we incurred Finance Costs of $16.0 million (Q1 2025 — $13.7 million). See "Capital Resources" below for descriptions of our interest rate swap agreements, A/R sales program and customer SFPs.
+ Interest expense under our credit facility recorded in Finance Costs, including the impact of our interest rate swap agreements, was $10.7 million in Q1 2026 (Q1 2025 — $13.1 million). See "Liquidity
+—
+Cash provided by and used in financing activities
+— Financing and Finance Costs" below. Interest costs incurred on our TRS Agreement in
+Q1 2026
+were $5.0 million (Q1 2025 —
+$0.5 million). See "Liquidity
+—
+Cash requirements
+— TRS" below.
+29
+Miscellaneous Expense (Income):
+Miscellaneous Expense (Income) consists primarily of: (i) certain net periodic benefit costs (gains) related to our pension and post-employment benefit plans consisting of interest costs, expected returns on plan balances, and amortization of actuarial gains or losses; (ii) where applicable, gains on insurance claims settlement; and (iii) where applicable, gains or losses related to interest rate swaps that we entered into prior to 2024. Those interest rate swap contracts were accounted for as cash flow hedges (qualifying for hedge accounting) under International Financial Reporting Standards (IFRS). However, those contracts were not accounted for as such under GAAP until January 1, 2024. Certain gains and losses related to those contracts were recorded in Miscellaneous Expense (Income).
+We recorded Miscellaneous Income of $0.2 million for Q1 2026 (Q1 2025 — Miscellaneous Expense of $1.4 million). See note 11 to the Q1 2026 Interim Financial Statements for details.
+Income taxes and tax contingencies:
+For Q1 2026, we had a net income tax expense of $44.0 million on earnings before tax of $256.3 million, compared to a net income tax expense of $27.5 million on earnings before tax of $113.7 million for Q1 2025.
+In Q1 2026, our net income tax expense included $7.2 million tax expense related to Pillar Two global minimum tax legislation (GMT).
+In Q1 2025, our net income tax expense included
+$6.8 million withholding tax expense incurred to minimize the impact of GMT and
+
+$3.0 million
+ tax expense for tax uncertainties relating to one of our subsidiaries, offset in part by
+$1.9 million
+ of reversals of tax uncertainties relating to another of our subsidiaries.
+Certain countries in which we do business grant tax incentives to attract and retain our business. Our tax expense could increase if certain tax incentives from which we benefit are retracted or exhausted. A retraction could occur if we fail to satisfy the conditions on which these tax incentives are based, or if they are not renewed or replaced upon expiration. Our tax expense could also increase if tax rates applicable to us in such jurisdictions are otherwise increased, or due to changes in legislation or administrative practices. Changes in our outlook in any particular country could impact our ability to meet the required conditions.
+We have been granted certain income tax incentives in Thailand, including tax holidays, that will expire in whole or in part at various dates during 2027 through 2029, unless extended or otherwise renegotiated. These tax exemptions are subject to certain conditions with which we intend to comply.
+We develop our tax filing positions based upon the anticipated nature and structure of our business and the tax laws, administrative practices and judicial decisions currently in effect in the jurisdictions in which we have assets or conduct business, all of which are subject to change or differing interpretations. We are subject to tax audits in various jurisdictions which could result in additional tax expense in future periods relating to prior results. Reviews by tax authorities generally focus on, but are not limited to, the validity of our inter-company transactions, including financing and transfer pricing policies which generally involve subjective areas of taxation and significant judgment, as well as withholding and indirect taxes. Any such increase in our income tax expense and related interest and/or penalties could have a significant adverse impact on our future earnings and future cash flows.
+    In 2021, the Romanian tax authorities issued a final assessment in the aggregate amount of approximately 31 million Romanian leu (approximately $7 million at Q1 2026 period-end exchange rates), for additional income and value-added taxes for our Romanian subsidiary for the 2014 to 2018 tax years. In order to advance our case to the appeals phase and reduce or eliminate potential interest and penalties, we paid the Romanian tax authorities the full amount assessed in 2021 (without agreement to all or any portion of such assessment). We believe that our originally-filed tax return positions are in compliance with applicable Romanian tax laws and regulations, and continue to vigorously defend our position through all necessary appeals or other judicial processes.
+We are under examination by the Thailand tax authorities for the tax year 2019. The examination may lead to adjustments to our taxes with respect to the year under examination as well as other subsequent periods.
+In 2024, the Thailand tax authorities issued an assessment letter seeking to impose additional value-added taxes and surcharges in the aggregate amount of approximately 403 million Thai baht (approximately $12 million at Q1 2026 period-end
+30
+exchange rates) for our Thailand subsidiary for the 2019 tax year. We believe that our original positions with respect to the value-added taxes are in compliance with applicable Thailand tax laws and regulations, and continue to vigorously defend our position through all necessary appeals or other judicial processes. A bank guarantee has been issued for the maximum potential liability.
+In our major tax jurisdictions, we may be subject to income tax examinations for tax years from 2018 to present.
+The successful pursuit of assertions made by any government authority, including tax authorities, could result in our owing significant amounts of tax or other reimbursements, interest and possibly penalties. We believe that adequate amounts have been accrued in accordance with GAAP (ASC 740
+Income Taxes
+) for any adjustments to the income tax expense or other tax items that may ultimately result from these examinations. However, there can be no assurance as to the final resolution of any claims and any resulting proceedings. If any claims and any ensuing proceedings are determined adversely to us, the amounts we may be required to pay could be material, and in excess of amounts accrued.
+Net earnings:
+    Net earnings for Q1 2026 of $212.3 million increased $126.1 million compared to Q1 2025. The increase was primarily due to $163.3 million in higher gross profit (see "
+Gross profit
+" above), partially offset by $23.6 million in higher research and development (R&D) expense (to support the growth of our HPS business) and $16.5 million in higher income tax expense (primarily driven by higher earnings before income taxes in Q1 2026 compared to Q1 2025).
+Liquidity and Capital Resources
+Liquidity
+    
+The following tables set forth key liquidity metrics for the periods indicated (in millions):
+March 31
+December 31
+2026
+2025
+Cash and cash equivalents
+$
+378.0 
+$
+595.6 
+Borrowings under credit facility*
+719.3 
+723.7 
+* Excludes ordinary course L/Cs.
+Three months ended March 31
+ 
+2026
+2025
+Net cash provided by operating activities
+$
+356.3 
+$
+130.3 
+Net cash used in investing activities
+(218.4)
+(36.7)
+Net cash used in financing activities
+(355.5)
+(213.9)
+Changes in non-cash working capital items (included in operating activities above):
+A/R
+$
+(529.3)
+$
+(66.9)
+Inventories
+(484.9)
+(27.7)
+Other current assets
+29.8 
+3.0 
+A/P, accrued and other current liabilities, provisions and income taxes payable
+1,071.4 
+45.8 
+Working capital changes
+$
+87.0 
+$
+(45.8)
+Cash provided by operating activities:
+In Q1 2026, we generated $356.3 million of net cash from operating activities, primarily due to net earnings of $212.3 million, favorable changes in working capital of $87.0 million, and non-cash expenses added back to net earnings, partially offset by non-cash recoveries. Our favorable working capital changes in Q1 2026 were primarily driven by an increase in A/P balances in Q1 2026, the effects of which were partially offset by the increases in A/R and inventory balances in Q1 2026. A/P balances increased in Q1 2026 primarily due to our business growth, as well as timing of payments and purchases. A/R balances increased in Q1 2026 primarily due to timing and volume of revenue and collections. Increase in inventory balances in Q1 2026, primarily reflected our business growth (mostly in our CCS segment). Net cash provided by operating activities for
+31
+Q1 2026 increased $226.0 million compared to Q1
+
+2025, primarily driven by an increase in cash earnings and the favorable changes in working capital requirements.
+Non-GAAP free cash flow:
+    Non-GAAP free cash flow is a non-GAAP financial measure without a standardized meaning and may not be comparable to similar measures presented by other companies. We define non-GAAP free cash flow as cash provided by or used in operations less the purchase of property, plant and equipment (net of proceeds from the sale of certain surplus assets, when applicable). Non-GAAP free cash flow does not represent residual cash flow available to Celestica for discretionary expenditures. Management uses non-GAAP free cash flow as a measure, in addition to GAAP cash provided by or used in operations (described above), to assess our operational cash flow performance. We believe non-GAAP free cash flow provides another level of transparency to our ability to generate cash from normal business operations.
+    A reconciliation of non-GAAP free cash flow to cash provided by operating activities measured under GAAP is set forth below (in millions):
+Three months ended March 31
+2026
+2025
+GAAP cash provided by operations
+$
+356.3 
+$
+130.3 
+Purchase of property, plant and equipment, net of sales proceeds
+(218.4)
+(36.7)
+Non-GAAP free cash flow
+$
+137.9 
+$
+93.6 
+Our non-GAAP free cash flow of $137.9 million for Q1 2026 increased $44.3 million compared to Q1
+
+2025, primarily due to $226.0 million in higher cash generated from operations (as described above), partially offset by $181.7 million in higher purchases of property, plant and equipment (see "
+cash used in investing activities
+" below), net of sales proceeds.
+Cash used in investing activities:
+ 
+Our capital expenditures for Q1 2026 were $229.5 million (Q1
+
+2025 — $36.7 million), primarily to enhance our manufacturing capabilities in various geographies (including expansions and enhancements at our Thailand, U.S., Mexico and Japan manufacturing facilities and our design centers), in support of our growth in AI/ML and HPS programs. Most of our capital expenditures in Q1 2026 and Q1 2025 pertained to our CCS segment. We fund our capital expenditures from cash generated from operations.
+Cash provided by and used in financing activities:
+Common Share repurchases:
+See "Summary of Q1 2026" above for a table detailing Common Share repurchases for the periods indicated.
+Financing and Finance Costs:
+Credit Agreement
+We are party to a credit agreement (Credit Facility) with Bank of America, N.A., as Administrative Agent, and the lenders party thereto, which,
+prior to the April 2026 Amendment,
+ included the Term A Loan in the original principal amount of $250.0 million, a term loan in the original principal amount of $500.0 million (Term B Loan), and a $750.0 million Revolver.
+On April 27, 2026, we amended our Credit Facility to: (1) increase the commitments under the Revolver from $750.0 million to $1,750.0 million; (2) refinance the Term A Loan into the New Term A Loan; and (3) extend the maturity of the Revolver and the New Term A Loan from June 2029 to April 2031. See "Recent Developments
+—
+Celestica Amends and Upsizes Credit Facility
+"
+ above.
+The Te
+rm A Loan (or its successor term loan, the New Term A Loan) and the Term B Loan are referred to as the "Term Loans."
+See note 7 to the Q1 2026 Interim Financial Statements for a description of our Credit Facility terms prior to and subsequent to the April 2026 Amendment.
+32
+Activity under our Credit Facility during Q1 2026 is set forth below (in millions):
+Revolver
+(Excluding L/C)
+Term Loans
+Outstanding balances as of December 31, 2025
+$
+— 
+$
+723.7 
+Amount borrowed in Q1 2026
+170.0 
+— 
+Amount repaid in Q1 2026
+(170.0)
+(4.375)
+(1)
+Outstanding balances as of March 31, 2026
+$
+— 
+$
+719.3 
+(1)
+    Represents scheduled quarterly principal repayments under the Term Loans.
+Interest we paid under the Credit Facility (included in "net cash provided by operating activities"), including the impact of our interest rate swap agreements (described below), was $9.9 million in Q1 2026 (Q1
+
+2025 — $12.5 million). Interest rates for outstanding borrowings under the Credit Facility prior to and subsequent to the April 2026 Amendment are described in note 7 to the Q1 2026 Interim Financial Statements. Any increase in prevailing interest rates, margins, or amounts borrowed, would cause our interest expense to increase. Under the Credit Facility, we are required to pay a commitment fee on the unused portion of the Revolver. Commitment fees paid in Q1 2026 were $1.2 million (Q1
+
+2025 — $0.6 million).
+See "Operating Results —
+Finance Costs
+" above for a description of Finance Costs incurred in Q1 2026 and Q1
+
+2025.
+Principal payments of finance leases:
+During Q1 2026, we paid $3.0 million (Q1
+
+2025 — $2.6 million) in principal payment of finance leases.
+Proceeds from TRS re-strike transaction:
+The value of the TRS Agreement is determined by comparing the market price of our Common Shares to the fixed price paid by the counterparty for such shares (Strike Price). In each of December 2025 and March 2025, we re-struck our TRS Agreement at a Strike Price of $288.87 per share and $91.58 per share, respectively, and received $246.6 million and $98.6 million from the counterparty, respectively, each of which was recorded in cash provided by financing activities in our consolidated statements of cash flows.
+SBC cash settlements:
+In Q1 2026, we made a cash payment of $325.5 million for withholding taxes in connection with the SBC awards that vested during such period (Q1
+
+2025 — $156.0 million).
+Cash requirements:
+Our working capital requirements can vary significantly from month-to-month due to a range of business factors, including the ramping of new programs, expansion of our services and business operations, timing of purchases, higher levels of inventory for new programs and anticipated customer demand, timing of payments and A/R collections, and customer forecasting variations. The international scope of our operations may also create working capital requirements in certain countries while other countries generate cash in excess of working capital needs. Moving cash between countries on a short-term basis to fund working capital is not always expedient due to local currency regulations, tax considerations, and other factors. As a result, we make intra-quarter borrowings and repayments under the Revolver (Intra-Quarter B/Rs) (see "Financing and Finance Costs —
+Credit Agreement
+" above for Intra-Quarter B/Rs we made in Q1 2026), sell A/R through our A/R sales program, and/or participate in available customer SFPs when deemed necessary or desirable to effectively manage our short-term liquidity and working capital requirements. The timing and the amounts we borrow or repay under these facilities can vary significantly from month-to-month depending upon our cash requirements.
+Based on our current cash flow budgets and forecasts of our short-term and long-term liquidity needs, we continue to believe that our current and projected sources of liquidity will be sufficient to fund our anticipated liquidity needs for the next twelve months and beyond. Specifically, we believe that cash flow from operating activities, together with cash on hand, availability under the Revolver ($739.6 million at March 31, 2026) or the Revolver as amended by the April 2026 Amendment (see
+"Recent Developments
+—
+Celestica Amends and Upsizes Credit Facility
+"
+ above)
+, potential availability under uncommitted intraday and overnight bank overdraft facilities, and cash from accepted sales of A/R, will be sufficient to fund our anticipated working capital needs, planned capital spending, contractual obligations and other cash requirements (including any required SBC share repurchases and SBC cash settlements, debt repayments
+
+and Finance Costs). See "Capital Resources" below.
+33
+Notwithstanding the foregoing and the April 2026 Amendment, although we anticipate that we will be able to repay or refinance outstanding obligations under our Credit Facility when they mature (our primary current long-term cash liquidity requirement), there can be no assurance we will be able to do so, or that the terms of any refinancing will be favorable. In addition, we may require additional capital in the future to fund capital expenditures, acquisitions, strategic transactions or other investments. We will continue to assess our liquidity position and potential sources of supplemental liquidity in view of our objectives, operating performance, economic and capital market conditions and other relevant circumstances. Our operating performance may also be affected by matters discussed under Item 1A, Risk Factors of our 2025 10-K. These risks and uncertainties may adversely affect our long-term liquidity.
+There have been no material changes to the information set forth under "Contractual Obligations" and "Additional Commitments" of the "Liquidity" section of Item 7, MD&A of our 2025 10-K.
+Financing Arrangements:     
+    See "Liquidity —
+Cash provided by and used in financing activities
+— Financing and Finance Costs" above for interest and commitment fees paid under our Credit Facility in Q1 2026. Annual interest expense and fees under the Credit Facility, including the impact of our interest rate swap agreements and the April 2026 Amendment, based on amounts and swap agreements outstanding at March 31, 2026 are approximately
+$46 million.
+We expect to fund our Finance Costs with cash on hand.
+    We do not believe that the aggregate amounts outstanding under our Credit Facility at March 31, 2026 ($719.3 million under the Term Loans and $10.4 million in ordinary course L/Cs), had or will have a material adverse impact on our liquidity, our results of operations or financial condition. In addition, we do not believe that Intra-Quarter B/Rs have had (or future Intra-Quarter B/Rs will have) a material adverse impact on our liquidity, results of operations or financial condition. See "Capital Resources" below for a description of our available sources of liquidity. See the Credit Facility activity table under "Financing and Finance Costs —
+Credit Agreement
+" above for Intra-Quarter B/Rs during Q1 2026.
+However, our current outstanding indebtedness and the mandatory repayment provisions of the Credit Facility (described in note 7 to the Q1 2026 Interim Financial Statements) require us to use a portion of our cash flow to service such debt, and may reduce our ability to fund future capital expenditures and/or acquisitions; limit our ability to obtain additional financing for future investments, working capital, or other corporate purposes; limit our ability to refinance our indebtedness on terms acceptable to us or at all; limit our flexibility to plan for and adjust to changing business and market conditions; increase our vulnerability to general adverse economic and industry conditions; and/or reduce our debt agency ratings. Existing or increased third-party indebtedness could have a variety of other adverse effects, including: (i) default and foreclosure on our assets if refinancing is unavailable on acceptable terms and we have insufficient funds to repay the debt obligations when due; and (ii) acceleration of such indebtedness or cross-defaults if we breach applicable financial or other covenants and such breaches are not waived.
+    The Credit Facility contains restrictive covenants that limit our ability to engage in specified types of transactions, and limit share repurchases for cancellation if our consolidated secured leverage ratio (as defined in such facility) exceeds a specified amount, as well as specified financial covenants (described in "Capital Resources" below). Our A/R sales program requires us to comply with certain covenants, including those relating to the fulfillment of payment obligations and restrictions on the sale, assignment or creation of liens, with respect to A/R sold under this agreement. See "Capital Resources" below for a description of our A/R sales program and customer SFPs.
+We currently are and expect to remain in compliance with our Credit Facility covenants and A/R sales program covenants. However, our ability to maintain compliance with applicable financial covenants will depend on our ongoing financial and operating performance, which, in turn, may be impacted by economic conditions and financial, market, and competitive factors, many of which are beyond our control. A breach of any such covenants could result in a default under the instruments governing our indebtedness.
+TRS:
+We are party to a TRS Agreement with a third-party bank to manage our cash flow requirements and exposure to fluctuations in the price of our Common Shares in connection with the settlement of certain outstanding equity awards under our SBC plans. The value of the TRS Agreement is determined by comparing the market price of our Common Shares to the Strike Price. The counterparty under the TRS Agreement is obligated to make a payment to us upon Settlement based on the increase (if any) in the value of the TRS Agreement over the TRS Agreement’s term, in exchange for periodic payments made
+34
+by us based on
+Secured Overnight Financing Rate (
+SOFR) plus a specified margin applied to the Equity Notional Amount (defined in the TRS Agreement as an amount equal to the product of (i) the number of Common Shares then subject to the TRS Agreement (notional quantity) multiplied by (ii) the Strike Price in effect). Similarly, if the value of the TRS Agreement decreases over the term of the TRS Agreement, we are obligated to pay the counterparty the amount of such decrease upon Settlement. The TRS Agreement does not qualify for hedge accounting.
+At March 31, 2026, our TRS Agreement had a notional quantity of 1.25 million Common Shares (December 31, 2025 — 1.25 million Common Shares). The Strike Price of our TRS Agreement at March 31, 2026 was $288.87 per share.
+As the interest payments under the TRS Agreement will vary from period to period and the value of our Common Shares upon further Settlement cannot be ascertained in advance, we cannot determine future interest and/or other payments that may be payable by (or to) us with respect to our TRS Agreement. We expect to fund required payments under our TRS Agreement from cash on hand.
+Repatriations:
+At March 31, 2026, approximately 90% of our cash and cash equivalents were held by foreign subsidiaries outside of Canada. We have repatriated and expect to continue repatriating funds from our foreign subsidiaries. Repatriation of certain foreign funds could result in additional tax liabilities under current tax laws. We have recorded tax liabilities in our consolidated financial statements for the anticipated repatriations in the foreseeable future.
+Capital Expenditures:
+Our capital spending varies each period based on, among other things, the timing of new business wins and forecasted sales levels. We continue to anticipate capital spending for 2026 to be approximately $1 billion, and expect to fund these expenditures from cash generated from operations.
+Common Share Repurchases and SBC settlements:
+We have funded and intend to continue to fund our Common Share repurchases (for cancellation under our NCIBs and to satisfy delivery obligations under SBC plans) and SBC cash settlements from cash on hand, borrowings under the Revolver, or a combination thereof. The timing of, and the amounts paid for, such repurchases and settlements can vary from period to period. See "Summary of Q1 2026"
+
+above.
+Lease Obligations:
+At March 31, 2026, we recognized a total of $225.8 million of finance lease and operating lease obligations (December 31, 2025 — $197.2 million). All lease obligations are expected to be funded with cash on hand and through the financing arrangements described below under "Capital Resources."
+Litigation and contingencies:
+In the normal course of our operations, we may be subject to litigation, investigations and other claims, including legal, regulatory and tax proceedings. Management believes that adequate provisions have been recorded where required. Although it is not always possible to estimate the extent of potential costs, if any, management believes that the ultimate resolution of all such currently pending matters will not have a material adverse impact on our financial performance, financial position or liquidity. See "Operating Results —
+Income taxes and tax contingencies
+" above for a description of the ongoing Romanian income and value-added tax matter and Thailand tax matters.
+We provide routine indemnifications, the terms of which range in duration and scope, and often are not explicitly defined, including for third-party intellectual property infringement, certain negligence claims, and for our directors and officers. The maximum potential liability from these indemnifications cannot be reasonably estimated. In some cases, we have recourse against other parties or insurance to mitigate our risk of loss from these indemnifications. Historically, we have not made significant payments relating to these types of indemnifications.
+ 
+35
+Capital Resources
+ 
+Our capital resources consist of cash provided by operating activities, access to the Revolver, uncommitted intraday and overnight bank overdraft facilities, an uncommitted A/R sales program, uncommitted SFPs, and our ability to issue debt or equity securities. We regularly review our borrowing capacity and make adjustments, as permitted, for changes in economic conditions and changes in our requirements. We centrally manage our funding and treasury activities in accordance with corporate policies, and our main objectives are to ensure appropriate levels of liquidity, to have funds available for working capital or other investments we determine are required to grow our business, to comply with debt covenants, to maintain adequate levels of insurance, and to balance our exposures to market risks.
+At March 31, 2026, we had cash and cash equivalents of $378.0 million (December 31, 2025 — $595.6 million), the majority of which was denominated in U.S. dollars. Our cash and cash equivalents are subject to intra-quarter swings, generally related to the timing of A/R collections, inventory purchases and payments, and other capital uses.
+    As of March 31, 2026, an aggregate of $719.3 million was outstanding under the Term Loans, and other than ordinary course L/Cs, no amounts was outstanding under the Revolver (December 31, 2025 — $723.7 million outstanding under our Term Loans, and other than ordinary course L/Cs, no amounts outstanding under the Revolver). See "Liquidity
+
+—
+Cash provided by and used in financing activities
+ — Financing and Finance Costs" above for a discussion of amounts borrowed and repaid under our Credit Facility during Q1 2026. Except under specified circumstances, and subject to the payment of breakage costs (if any), we are generally permitted to make voluntary prepayments of outstanding amounts under the Revolver and Term Loans without any other premium or penalty. Repaid amounts on the Term Loans may not be re-borrowed. Repaid amounts on the Revolver may be re-borrowed. At March 31, 2026, we had $739.6 million available under the Revolver for future borrowings, reflecting outstanding L/Cs issued under the Revolver (December 31, 2025 — $739.2 million of availability).    
+    
+    See note 7 to the Q1 2026 Interim Financial Statements for a description of interest rates, margins and commitment fees applicable to borrowings under the Credit Facility, as well as the sub-limits for swing line loans and letters of credit under the Revolver and the accordion feature, prior to and subsequent to the April 2026 Amendment.
+At March 31, 2026, outstanding amounts under the Term A Loan and the Revolver bore interest at Adjusted Term SOFR (Term SOFR plus 0.1%) plus 1.50%, and outstanding amounts under the Term B Loan bore interest at Term SOFR plus 1.75%.
+    In order to partially hedge against our exposure to interest rate variability on our Term Loans, we are party to various agreements with third-party banks to swap the variable interest rate with a fixed rate of interest. At March 31, 2026, associated with the Term A Loan, we had: (i) interest rate swaps with $80.0 million notional amount expiring in June 2027; (ii) interest rate swaps with $40.0 million notional amount expiring in June 2029; and (iii) interest rate swaps with $80.0 million notional amount commencing June 2027 and expiring in June 2029. At March 31, 2026, associated with the Term B Loan, we had: (i) interest rate swaps with $230.0 million notional amount expiring in June 2027; and (ii) interest rate swaps with $230.0 million notional amount commencing in June 2027 and expiring in June 2029. These derivatives when in effective hedge relationships are designated as cash flow hedging instruments.
+At March 31, 2026, the interest rate risk related to $369.3 million of borrowings under the Credit Facility was unhedged (December 31, 2025 — $373.7 million), consisting entirely of unhedged amounts outstanding under the Term Loans.
+    We are required to comply with certain restrictive covenants under the Credit Facility, including those relating to the incurrence of certain indebtedness, the existence of certain liens, the sale of certain assets, specified investments and payments, sale and leaseback transactions, and certain financial covenants relating to a defined interest coverage ratio and leverage ratio that are tested on a quarterly basis. At March 31, 2026, we were in compliance with all restrictive and financial covenants under the Credit Facility. Our Credit Facility also limits share repurchases for cancellation if our consolidated secured leverage ratio (as defined in such facility) exceeds a specified amount (Repurchase Restriction). The Repurchase Restriction did not prohibit Common Share purchases during Q1 2026 or at March 31, 2026. The obligations under the Credit Facility are guaranteed by us and certain specified subsidiaries. Subject to specified exemptions and limitations, all assets of the guarantors are pledged as security for the obligations under the Credit Facility. The Credit Facility contains customary events of default. If an event of default occurs and is continuing (and is not waived), the Administrative Agent may declare all amounts outstanding under the Credit Facility to be immediately due and payable and may cancel the lenders' commitments to make further advances thereunder. In the event of a payment or other specified defaults, outstanding obligations accrue interest at a specified default rate.
+36
+    At March 31, 2026, we had $10.4 million outstanding in L/Cs under the Revolver (December 31, 2025 — $10.8 million). We also arrange bank guarantees and surety bonds outside of the Revolver. At March 31, 2026, we had $41.0 million of bank guarantees and surety bonds outstanding (December 31, 2025 — $38.1 million).
+    At March 31, 2026, we also had a total of $198.5 million in uncommitted bank overdraft facilities available for intraday and overnight operating requirements (December 31, 2025 — $198.5 million). There were no amounts outstanding under these overdraft facilities at March 31, 2026 or December 31, 2025.
+ 
+We are party to an agreement with a third-party bank to sell up to $450.0 million in A/R on an uncommitted, revolving basis, subject to pre-determined limits by customer. This agreement provides for automatic annual one-year extensions. This agreement may be terminated at any time by the bank or by us upon 3 months' prior notice, or by the bank upon specified defaults. We also participate in customer SFPs, pursuant to which we sell A/R from the relevant customer to third-party banks on an uncommitted basis to receive earlier payment. In February 2026, we terminated a SFP with one of our CCS segment customers. At March 31, 2026, we participated in two customer SFPs (both ATS customers). The SFPs have indefinite terms and may be terminated at any time by the customer or by us upon specified prior notice. A/R are sold under these arrangements net of discount charges. As our A/R sales program and the SFPs are on an uncommitted basis, there can be no assurance that any of the banks will purchase any of the A/R we intend to sell to them thereunder. However, as the A/R that we offer to sell under these programs are largely from customers we deem to be creditworthy, we believe that such offers will continue to be accepted. Both at March 31, 2026 and at
+December 31, 2025
+, there was no outstanding utilization
+under our A/R sales program and under our SFP
+s. During Q1 2026, we sold an aggregate of $314 million under our A/R sales program and customer SFPs (Q1 2025 — approximately $10 million).
+We vary the amounts we offer to sell under our A/R sales program and customer SFPs depending on our short-term ordinary course cash requirements.
+The timing and the amounts we borrow and repay under our Revolver (including Intra-Quarter B/Rs) and overdraft facilities, or sell under the SFPs or our A/R sales program, can vary significantly from month-to-month depending on our working capital and other cash requirements.
+
+See "Operating Results —
+Finance Costs
+", "Liquidity —
+Cash provided by and used in financing activities —
+Financing and Finance Costs" and "Liquidity —
+Cash requirements
+ — Financing Arrangements" above.
+    Our strategy on capital risk management has not changed significantly since the end of 2025.
+ 
+Outstanding Share Data
+ 
+As of April 22, 2026, we had 114,973,107 outstanding Common Shares. As of such date, we also had 38,629 outstanding stock options, 615,036 outstanding RSUs, 783,454 outstanding PSUs assuming vesting of 100% of the target amount granted (PSUs that will vest range from 0% to 200% of the target amount granted), and 401,296 outstanding DSUs; each vested option or unit entitling the holder thereof to receive one Common Share (or in certain cases, cash) pursuant to the terms thereof, subject to certain time or performance-based vesting conditions.
+Unaudited Quarterly Financial Highlights
+Q1 2026 compared to Q4
+2025
+:
+
+    Total revenue for Q1 2026 increased $392.1 million or 11% compared to Q4 2025. ATS segment revenue in Q1 2026 increased by $10.9 million (1%) compared to Q4 2025. CCS segment revenue increased $381.2 million (13%) in Q1 2026 compared to Q4 2025. Communications end market revenue increased $296.0 million (14%) sequentially, primarily due to increased demand for networking products from our hyperscaler customers and ongoing program ramps. Enterprise end market revenue increased $85.2 million (11%) sequentially, primarily due to the ramp-up of an AI/ML compute program with one of our hyperscaler customers. Gross profit for Q1 2026 increased sequentially by $4.1 million (1%), primarily driven by the higher revenue in Q1 2026, largely offset by the unfavorable changes in TRS FVAs recorded in cost of sales ($7.5 million loss in Q1 2026 compared to $27.7 million gain in Q4 2025) driven by the fluctuation in our Common Share price. Gross margin decreased from 11.8% in Q4 2025 to 10.8% in Q1 2026, primarily due to the unfavorable changes in TRS FVAs recorded in cost of sales as described above. CCS segment income for Q1 2026 of $277.2 million increased $37.0 million from Q4 2025, due to the sequential increase in CCS segment revenue. CCS segment margin increased from 8.4% in Q4 2025 to 8.6% in Q1 2026. ATS segment income for Q1 2026 of $48.0 million increased by $5.9 million from Q4 2025 and ATS segment margin increased from 5.3% in Q4 2025 to 6.0% in Q1 2026, primarily driven by more favorable mix. SG&A in Q1 2026 increased $47.3 million from Q4 2025 primarily due to the unfavorable changes in TRS FVAs recorded in SG&A ($9.5 million loss in Q1 2026 compared to $33.7 million gain in Q4 2025). Net earnings for Q1 2026 of $212.3 million decreased $55.2 million
+37
+compared to net earnings of $267.5 million for Q4 2025, primarily due to unfavorable changes in TRS FVAs (as described above) and higher SBC expense in Q1 2026 compared to Q4 2025 (driven by expense acceleration for retirement-eligible employees in Q1 2026).
+Summary of Selected Q1 2026 Results:
+ 
+Q1 2026 Actual
+Q1 2026 Guidance
+Revenue (in billions)
+$4.047
+$3.850 to $4.150
+GAAP earnings from operations as a % of revenue
+6.7%
+N/A
+GAAP EPS
+(1)
+$1.83
+N/A
+Adjusted operating margin (non-GAAP)*
+8.0%
+7.8% at the mid-point of our
+revenue and adjusted
+EPS (non-GAAP) guidance ranges
+Adjusted EPS (non-GAAP)*
+$2.16
+$1.95 to $2.15
+*    See "Non-GAAP Financial Measures" below.
+(1)    
+GAAP EPS for Q1 2026 included an aggregate charge of $0.37 per share (pre-tax) for employee SBC expense, amortization of intangible assets (excluding computer software), and restructuring charges. See "Operating Results" above and "Non-GAAP Financial Measures" below for per-item charges. This aggregate charge was within our previously communicated Q1 2026 anticipated range of between $0.35 to $0.41 per share (pre-tax) for these items. GAAP EPS for Q1 2026 also included $0.15 per share (pre-tax) negative impact attributable to TRS FVAs.
+For Q1 2026, our revenue was within our guidance range. Our non-GAAP adjusted operating margin for Q1 2026 exceeded the mid-point of our revenue and non-GAAP adjusted EPS guidance ranges and our Q1 2026 adjusted EPS exceeded the high end of our guidance range, primarily driven by more favorable mix than anticipated. Our GAAP effective tax rate for Q1 2026 was 17%. Our adjusted effective tax rate (non-GAAP) for Q1 2026 was 19%, lower than our anticipated estimate of approximately 21%, primarily due to favorable profit mix.
+In the Company’s press release dated April 27, 2026, "Celestica Announces First Quarter 2026 Financial Results", under the heading "2026 Annual Outlook and Long-Term Demand Update", management updated its annual financial outlook for 2026. This press release can be accessed under the Company’s profile at www.sedarplus.ca and www.sec.gov. The information included in this press release does not constitute a part of this Q1 2026 10-Q and is not incorporated by reference herein.
+Non-GAAP Financial Measures
+     
+Management uses non-GAAP financial measures (including ratios based on GAAP financial measures) described herein to (i) assess operating performance, financial leverage and the effective use and allocation of resources, (ii) provide more normalized period-to-period comparisons of operating results, (iii) enhance investors' understanding of the core operating results of our business and (iv) set management incentive targets. We believe the non-GAAP financial measures enable investors to evaluate and compare our results from operations by excluding specific items that we do not consider to be reflective of our core operations, to evaluate cash resources that we generate from our business each period, to analyze operating results using the same measures our chief operating decision maker uses to measure performance, and to help compare our results with those of our competitors. In addition, management believes that the use of adjusted tax expense and adjusted effective tax rate provides additional transparency into the tax effects of our core operations, and are useful to management and investors for historical comparisons and forecasting. These non-GAAP financial measures reflect management’s belief that the excluded items are not indicative of our core operations.
+Non-GAAP financial measures do not have any standardized meaning prescribed by GAAP and therefore may not be directly comparable to similar measures presented by other companies.
+Non-GAAP financial measures are not measures of performance under GAAP and should not be considered in isolation or as a substitute for any GAAP financial measure. Reconciliations of the non-GAAP financial measures to the most directly comparable GAAP financial measures are below.
+    The following non-GAAP financial measures are included in this MD&A: adjusted gross profit, adjusted SG&A, adjusted operating earnings (or adjusted EBIAT), adjusted net earnings, and each of the foregoing measures as a percentage of
+38
+revenue, adjusted EPS, adjusted return on invested capital (ROIC), free cash flow, adjusted tax expense and adjusted effective tax rate.
+
+Our non-GAAP financial measures are calculated by making the following adjustments as applicable to our GAAP financial measures:
+ 
+Employee SBC expense,
+ which represents the estimated fair value of stock options, RSUs and PSUs granted to employees, is excluded because grant activities vary significantly from quarter-to-quarter in both quantity and fair value. We believe excluding this expense allows us to compare core operating results with those of our competitors, who also generally exclude employee SBC expense in assessing operating performance, and may have different granting patterns, equity awards, and valuation assumptions.
+ 
+Total return swap fair value adjustments (TRS FVAs)
+ represent mark-to-market adjustments to our TRS Agreement, as the TRS Agreement is re-measured at fair value at each quarter end. We exclude the impact of these non-cash fair value adjustments (which reflect fluctuations in the market price of our Common Shares recorded in cost of sales and SG&A) from period to period as such fluctuations do not represent our ongoing operating performance. In addition, we believe that excluding these non-cash adjustments permits a helpful comparison of our core operating results to our competitors.
+Amortization of intangible assets (excluding computer software)
+ consist of non-cash charges for intangible assets that are impacted by the timing and magnitude of acquired businesses. Amortization of intangible assets varies among our competitors, and we believe that excluding these charges permits a helpful comparison of core operating results to our competitors who also generally exclude amortization charges in assessing operating performance.
+Restructuring and Other Charges (Recoveries)
+ consist of, when applicable: Restructuring Charges (Recoveries) (defined below); Transition Costs (Recoveries) (defined below); consulting, transaction and integration costs related to potential and completed acquisitions; where applicable, certain fair value adjustments of contingent consideration in connection with acquisitions; legal settlements (recoveries); and where applicable, related costs pertaining to our transition to a U.S. domestic filer. We exclude these charges and recoveries because we believe that they are not directly related to ongoing operating results and do not reflect our expected future operating expenses after completion of the relevant actions. Our competitors may record similar items at different times, and we believe these exclusions permit a helpful comparison of our core operating results with those of our competitors who also generally exclude these items in assessing operating performance.
+Restructuring Charges (Recoveries)
+, consist of costs or recoveries relating to: employee severance, site closings and consolidations, accelerated depreciation of owned and leased property and equipment which are no longer used and are held for sale, and reductions in infrastructure.
+    
+Transition Costs (Recoveries)
+ consist of costs and recoveries in connection with: (i) the transfer of manufacturing lines from closed sites to other sites within our global network; (ii) the sale of real properties unrelated to restructuring actions; and (iii) where applicable, specified charges or recoveries related to the sublet of a 10-year building lease in Toronto that we previously anticipated to be our corporate headquarters. Transition Costs consist of direct relocation and duplicate costs (such as rent expense, utility costs, depreciation charges, and personnel costs) incurred during the transition periods, as well as cease-use and other costs incurred in connection with idle or vacated portions of the relevant premises that we would not have incurred but for these relocations, transfers and dispositions. We believe that excluding Transition Costs and Recoveries permits a helpful comparison of our core operating results from period-to-period, as they do not reflect our ongoing operations once these specified events are complete.
+    
+Miscellaneous Expense (Income)
+ consists primarily of: (i) certain net periodic benefit costs (gains) related to our pension and post-employment benefit plans consisting of interest costs, expected returns on plan balances, and amortization of actuarial gains or losses; (ii) where applicable, gains on insurance claims settlement; and (iii) where applicable, gains or losses related to interest rate swaps that we entered into prior to 2024. Those interest rate swap contracts were accounted for as cash flow hedges (qualifying for hedge accounting) under IFRS. However, those contracts were not accounted for as such under GAAP until January 1, 2024. Certain gains and losses related to those contracts were recorded in Miscellaneous Expense (Income). We exclude such items because we believe they are not directly related to our ongoing operating results.
+Tax effects of the non-core items, which include our non-GAAP adjustments above, are excluded from GAAP tax expense to calculate adjusted tax expense (non-GAAP), as we do not believe these costs or recoveries reflect our core operating performance and vary significantly among our competitors who also generally exclude such items in assessing operating performance.
+39
+Our non-GAAP financial measures include the following:
+Adjusted operating earnings (Adjusted EBIAT)
+ is defined as GAAP earnings from operations excluding the impact of Employee SBC expense, TRS FVAs, Amortization of intangible assets (excluding computer software), and Restructuring and Other Charges (Recoveries). Adjusted operating margin is adjusted operating earnings as a percentage of GAAP revenue. Management uses adjusted operating earnings (adjusted EBIAT) as a measure to assess performance related to our core operations.
+Adjusted net earnings
+ is defined as GAAP net earnings excluding the impact of Employee SBC expense, TRS FVAs, Amortization of intangible assets (excluding computer software), Restructuring and Other Charges (Recoveries), Miscellaneous Expense (Income) and adjustment for taxes. Adjusted EPS is calculated by dividing adjusted net earnings by the number of diluted weighted average shares outstanding. Management uses adjusted net earnings as a measure to assess performance related to our core operations.
+Non-GAAP free cash flow
+ is defined as cash provided by (used in) operations less the purchase of property, plant and equipment (net of proceeds from the sale of certain surplus assets, when applicable). Free cash flow does not represent residual cash flow available to Celestica for discretionary expenditures. Management uses free cash flow as a measure, in addition to GAAP cash provided by (used in) operations, to assess our operational cash flow performance. We believe free cash flow provides another level of transparency to our ability to generate cash from normal business operations.
+Adjusted ROIC
+ is calculated by dividing annualized adjusted EBIAT by average net invested capital for the period. Net invested capital (calculated in the tables below) is derived from GAAP financial measures, and is defined as total assets less: cash, ROU assets (operating and finance leases), accounts payable, accrued and other current liabilities and provisions (excluding finance and operating lease liabilities) and income taxes payable. Management uses adjusted ROIC as a measure to assess the effectiveness of the invested capital we employ to build products or provide services to our customers, by quantifying how well we generate earnings relative to the capital we have invested in our business.
+The determination of the GAAP effective tax rate and adjusted effective tax rate (non-GAAP) is described in footnote 1 to the table below.
+The following table sets forth, for the periods indicated, the various non-GAAP financial measures discussed above, and a reconciliation of such non-GAAP financial measures to the most directly comparable financial measures determined under GAAP (in millions, except percentages and per share amounts):
+40
+Three months ended March 31
+2026
+2025
+% of revenue
+% of revenue
+GAAP revenue
+$
+4,047.0 
+$
+2,648.6 
+GAAP gross profit
+$
+437.2 
+10.8 
+%
+$
+273.9 
+10.3 
+%
+Employee SBC expense
+13.6 
+10.1 
+TRS FVAs: losses
+7.5 
+7.5 
+Adjusted gross profit (non-GAAP)
+$
+458.3 
+11.3 
+%
+$
+291.5 
+11.0 
+%
+GAAP SG&A
+$
+117.4 
+2.9 
+%
+$
+112.5 
+4.2 
+%
+Employee SBC expense
+(16.9)
+(15.9)
+TRS FVAs: (losses)
+(9.5)
+(11.6)
+Adjusted SG&A (non-GAAP)
+$
+91.0 
+2.2 
+%
+$
+85.0 
+3.2 
+%
+GAAP earnings from operations
+$
+272.1 
+6.7 
+%
+$
+128.8 
+4.9 
+%
+Employee SBC expense
+30.5 
+26.0 
+TRS FVAs: losses
+17.0 
+19.1 
+Amortization of intangible assets (excluding computer software)
+10.0 
+10.0 
+Restructuring and other charges (recoveries)
+(4.4)
+3.9 
+Adjusted operating earnings (adjusted EBIAT) (non-GAAP)
+$
+325.2 
+8.0 
+%
+$
+187.8 
+7.1 
+%
+GAAP net earnings
+$
+212.3 
+5.2 
+%
+$
+86.2 
+3.3 
+%
+Employee SBC expense
+30.5 
+26.0 
+TRS FVAs: losses
+17.0 
+19.1 
+Amortization of intangible assets (excluding computer software)
+10.0 
+10.0 
+Restructuring and other charges (recoveries)
+(4.4)
+3.9 
+Miscellaneous Expense (Income)
+(0.2)
+1.4 
+Adjustments for taxes
+(1)
+(15.7)
+(6.5)
+Adjusted net earnings (non-GAAP)
+$
+249.5 
+6.2 
+%
+$
+140.1 
+5.3 
+%
+Diluted EPS
+Weighted average # of shares (in millions)
+115.7 
+116.9 
+GAAP EPS
+$
+1.83 
+$
+0.74 
+Adjusted EPS (non-GAAP)
+$
+2.16 
+$
+1.20 
+# of shares outstanding at period end (in millions)
+115.0 
+115.6 
+GAAP cash provided by operations
+$
+356.3 
+$
+130.3 
+Purchase of property, plant and equipment, net of sales proceeds
+(218.4)
+(36.7)
+Free cash flow (non-GAAP)
+$
+137.9 
+$
+93.6 
+GAAP ROIC %
+41.7 
+%
+21.6 
+%
+Adjusted ROIC % (non-GAAP)
+49.8 
+%
+31.5 
+%
+(1)
+The adjustments for taxes represent the tax effects (reflecting applicable effective tax rates) of the non-core items, which include our non-GAAP adjustments above.
+Our GAAP effective tax rate is calculated as (i) GAAP tax expense divided by (ii) earnings from operations minus Finance Costs and Miscellaneous Expense (Income) recorded on our statements of operations. Our adjusted effective tax rate (non-GAAP) is calculated as (i) adjusted tax expense (non-GAAP) divided by (ii) adjusted operating earnings (non-GAAP) minus Finance Costs. The following table sets forth, for the periods indicated, our calculation of GAAP effective tax rate and adjusted effective tax rate (non-GAAP):
+41
+Three months ended
+March 31
+2026
+2025
+GAAP tax expense
+$
+44.0 
+$
+27.5 
+Earnings from operations
+$
+272.1 
+$
+128.8 
+Finance Costs
+(16.0)
+(13.7)
+Miscellaneous Income (Expense)
+0.2 
+(1.4)
+$
+256.3 
+$
+113.7 
+GAAP effective tax rate
+17 
+%
+24 
+%
+Adjusted tax expense (non-GAAP)
+$
+59.7 
+$
+34.0 
+Adjusted operating earnings (non-GAAP)
+$
+325.2 
+$
+187.8 
+Finance Costs
+(16.0)
+(13.7)
+$
+309.2 
+$
+174.1 
+Adjusted effective tax rate (non-GAAP)
+19 
+%
+20 
+%
+The following table sets forth, for the periods indicated, our calculation of GAAP ROIC % and non-GAAP adjusted ROIC % (in millions, except GAAP ROIC % and non-GAAP adjusted ROIC %):
+Three months ended
+March 31
+2026
+2025
+GAAP earnings from operations
+$
+272.1 
+$
+128.8 
+Multiplier to annualize earnings
+4 
+4 
+Annualized GAAP earnings from operations
+$
+1,088.4 
+$
+515.2 
+Average net invested capital for the period*
+$
+2,611.4 
+$
+2,384.0 
+GAAP ROIC %
+41.7
+%
+21.6
+%
+Three months ended
+March 31
+ 
+2026
+2025
+Adjusted operating earnings (adjusted EBIAT) (non-GAAP)
+$
+325.2 
+$
+187.8 
+Multiplier to annualize earnings
+4 
+4 
+Annualized adjusted EBIAT (non-GAAP)
+$
+1,300.8 
+$
+751.2 
+Average net invested capital for the period*
+$
+2,611.4 
+$
+2,384.0 
+Adjusted ROIC % (non-GAAP)
+49.8
+%
+31.5
+%
+42
+March 31
+2026
+December 31
+2025
+Net invested capital consists of:
+Total assets
+$
+8,260.0 
+$
+7,213.1 
+Less: cash
+378.0 
+595.6 
+Less: ROU assets (operating and finance leases)
+199.9 
+173.1 
+Less: A/P, accrued and other current liabilities and provisions (excluding finance and operating lease liabilities) and income taxes payable
+5,021.7 
+3,882.0 
+Net invested capital at period end*
+$
+2,660.4 
+$
+2,562.4 
+March 31
+2025
+December 31
+2024
+Net invested capital consists of:
+Total assets
+$
+5,834.9 
+$
+5,988.2 
+Less: cash
+303.0 
+423.3 
+Less: ROU assets (operating and finance leases)
+178.6 
+180.8 
+Less: A/P, accrued and other current liabilities and provisions (excluding finance and operating lease liabilities) and income taxes payable
+3,000.3 
+2,969.2 
+Net invested capital at period end*
+$
+2,353.0 
+$
+2,414.9 
+*    We use a two-point average to calculate average net invested capital for the quarter. Average net invested capital for Q1 2026 is the average of net invested capital at March 31, 2026 and December 31, 2025.
+Item 3. Quantitative and Qualitative Disclosures about Market Risk
+We are exposed to a variety of risks associated with financial instruments and otherwise. Except as set forth below, there have been no material changes to our primary market risk exposures or our management of such exposures during
+Q1
+ 2026 from the description set forth in note 18 to our 2025 AFS, under "Capital Resources" in Item 7, MD&A of the 2025 10-K and in Item 7A, Quantitative and Qualitative Disclosures About Market Risk of the 2025 10-K.
+Currency risk: We enter into foreign currency forward contracts to hedge our cash flow exposures and swaps to hedge our exposures of monetary assets and monetary liabilities (economic hedges), generally for periods of up to 12 months, to lock in the exchange rates for future foreign currency transactions, which is intended to reduce the foreign currency risk related to our operating costs and future cash flows denominated in local currencies. The fair value of the outstanding contracts at March 31, 2026 was a net unrealized loss of $16.7 million (
+December 31, 2025
+ — net unrealized gain of $13.2 million), resulting from fluctuations in foreign exchange rates between the contract execution and the period-end date.
+Equity price risk: See "Liquidity —
+Cash requirements
+ — TRS" above for a description of the TRS Agreement. If the value of the TRS Agreement decreases over its term, we are obligated to pay the counterparty the amount of such decrease upon Settlement. As a result, the TRS Agreement is subject to equity price risk. In December 2025, we re-struck our TRS Agreement with the Strike Price of $288.87 per share
+.
+At March 31, 2026, our TRS Agreement had a notional quantity of 1.25 million Common Shares (December 31, 2025 — 1.25 million Common Shares).
+A one dollar decrease in our Common Share price would decrease the value of the TRS Agreement at March 31, 2026 by
+$1.3 million.
+At March 31, 2026, the fair value of the TRS Agreement was an unrealized loss of $9.8 million (December 31, 2025 — an unrealized gain of $7.2 million).
+Interest rate risk: Borrowings under the Credit Facility bear interest at specified rates, plus specified margins (described in note 7 to the Q1 2026 Interim Financial Statements and note 11 to our 2025 AFS). In order to partially hedge against our exposure to interest rate variability on our Term Loans, we have entered into various agreements with third-party banks to swap the variable interest rate with a fixed rate of interest for a portion of the borrowings under our Term Loans. At March 31, 2026, the fair value of our interest rate swap agreements was a net unrealized gain of $0.02 million (
+December 31, 2025
+ — a net unrealized loss of $2.4 million).
+A downwa
+rd shift of the forward interest rate curve may result in a loss. A one-percentage point increase in relevant interest rates would increase interest expense, based on outstanding borrowings under the Credit Facility at March 31, 2026, by $3.7 million annually, including the impact of our interest rate swap agreements, and by $7.2 million annually, without accounting for such agreements.
+Our TRS Agreement exposes us to interest rate risk as interest payments on our TRS Agreement are based on a variable interest rate. See "Liquidity —
+Cash requirements
+ — TRS" and "Operating Results
+
+—
+Finance Costs
+" above.
+43
+Item 4. Controls and Procedures
+Evaluation of disclosure controls and procedures:
+ 
+Our management is responsible for establishing and maintaining a system of disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the U.S. Exchange Act) designed to ensure that information we are required to disclose in the reports that we file or submit under the U.S. Exchange Act is recorded, processed, summarized and reported within the time periods specified in the SEC's rules and forms. Disclosure controls and procedures include, without limitation, controls and procedures designed to ensure that information required to be disclosed by an issuer in the reports that it files or submits under the U.S. Exchange Act is accumulated and communicated to the issuer's management, including its principal executive officer or officers and principal financial officer or officers, or persons performing similar functions, as appropriate, to allow timely decisions regarding required disclosure.
+ 
+Management, under the supervision of and with the participation of our principal executive officer and principal financial officer, has evaluated the effectiveness of the design and operation of our disclosure controls and procedures as of March 31, 2026. Based on that evaluation, our principal executive officer and principal financial officer have concluded that, as of March 31, 2026, our disclosure controls and procedures are effective to meet the requirements of Rules 13a-15(e) and 15d-15(e) under the U.S. Exchange Act.
+A control system, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that its objectives are met. Due to inherent limitations in all such systems, no evaluation of controls can provide absolute assurance that all control issues within a company have been detected. Accordingly, our disclosure controls and procedures are designed to provide reasonable, not absolute, assurance that the objectives of our disclosure control system are met.
+ 
+Changes in internal control over financial reporting:
+We did not identify any change in our internal control over financial reporting in connection with our evaluation thereof that occurred during Q1 2026 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+44
+PART II — OTHER INFORMATION
+Item 1. Legal Proceedings
+For information regarding our legal proceedings, see note 16 to our Q1 2026 Interim Financial Statements, and "Operating Results —
+Income taxes and tax contingencies
+" in Part I, Item 2 above for a description of the ongoing Romanian income and value-added tax matter and Thailand value-added tax matter, which are incorporated herein by reference.
+Item 1A. Risk Factors
+There have been no material changes to the risk factors previously disclosed in Part I, Item 1A of our 2025 10-K.
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+Unregistered Sales of Equity Securities
+None.
+Issuer Purchases of Equity Securities
+The following table provides information about the Company’s repurchase activity during the quarter ended March 31, 2026 related to its equity securities registered pursuant to Section 12 of the U.S. Exchange Act: 
+Period
+(a) Total Number
+of Common Shares
+Purchased
+(in millions)
+(b) Average Price Paid
+per Common Share
+(c) Total Number of Common Shares Purchased as
+Part of Publicly
+Announced Plans or
+programs
+(in millions)
+(d) Maximum
+Number of Common Shares that May
+Yet Be Purchased
+Under the Plans
+or Programs
+
+(in millions)
+(1)
+January 1 — 31, 2026
+—
+$—
+—
+5.6
+February 1 — 28, 2026
+0.1
+$273.60
+0.1
+5.5
+March 1 — 31, 2026
+—
+$—
+—
+5.5
+Total
+0.1
+$273.60
+0.1
+(1)    On October 29, 2025, the TSX accepted our notice to launch an NCIB (2025 NCIB). The 2025 NCIB allows us to repurchase, at our discretion, from November 3, 2025 until the earlier of November 2, 2026 or the completion of purchases thereunder, up to 5,722,527 of our Common Shares in the open market, or as otherwise permitted, subject to the normal terms and limitations of such bids and compliance with applicable securities laws, TSX rules, and the volume and other limitations under Rule 10b-18 under the Exchange Act. The maximum number of Common Shares we are permitted to repurchase for cancellation under the 2025 NCIB will be reduced by the number of Common Shares we arrange to be purchased by any non-independent broker in the open market during its term to satisfy delivery obligations under our SBC plans, if any.
+Item 3. Defaults Upon Senior Securities
+None.
+Item 5. Other Information
+Rule 10b5-1 Trading Plans
+During the Company’s fiscal quarter ended March 31, 2026, the directors and officers listed below
+adopted
+, modified or
+terminated
+ trading plans intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Securities Exchange Act of 1934, as amended.
+On
+March 11, 2026
+,
+Robert Mionis
+,
+President and Chief Executive Officer
+,
+entered
+ into a trading plan that provides for the sale of up to an aggregate of
+556,394
+ common shares.  The plan will terminate on
+March 4, 2027
+, subject to early termination for certain specified events set forth in the plan.
+45
+On
+March 13, 2026
+,
+Mandeep Chawla
+,
+Chief Financial Officer
+,
+entered
+ into a trading plan that provides for the sale of up to an aggregate of
+68,266
+ common shares. The plan will terminate on
+March 10, 2027
+, subject to early termination for certain specified events set forth in the plan.
+Item 6. Exhibits
+The following exhibits are filed as part of, or incorporated by reference into, this Quarterly Report on Form 10-Q.
+Incorporated By Reference
+Exhibit No.
+Description
+Form
+File No.
+Exhibit
+Filing Date
+Filed/ Furnished
+Herewith
+3.1
+Certificate and Restated Articles of Incorporation, effective April 25, 2024
+6-K
+001-14832
+99.2
+April 25, 2024
+3.2
+Certificate and Articles of Amendment, effective April 25, 2024
+6-K
+001-14832
+99.1
+April 25, 2024
+3.3
+Amended and Restated By-Law No. 1
+6-K
+001-14832
+99.3
+February 28, 2024
+3.4
+By-Law No. 2
+8-K
+001-14832
+3.1
+January 31, 2025
+31.1
+Certification of the Principal Executive Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+X
+31.2
+Certification of Principal Financial Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002
+X
+32.1*
+Certification of the Principal Executive Officer and Principal Financial Officer Pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+X
+101. INS**
+Inline XBRL Instance Document
+X
+101. SCH
+Inline XBRL Taxonomy Extension Schema Document
+X
+101. CAL
+Inline XBRL Taxonomy Extension Calculation Linkbase Document
+X
+101. LAB
+Inline XBRL Taxonomy Extension Label Linkbase Document
+X
+101. PRE
+Inline XBRL Taxonomy Extension Presentation Linkbase Document
+X
+101. DEF
+Inline XBRL Taxonomy Extension Definition Linkbase Document
+X
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document in Exhibit 101)
+X
+*    This certification is deemed not filed for purposes of Section 18 of the U.S. Exchange Act, or otherwise subject to the liability of that section, nor shall it be deemed incorporated by reference into any filing under the U.S. Securities Act or the U.S. Exchange Act, except to the extent that the registrant specifically incorporates it by reference.
+**    The instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document.
+46
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
+CELESTICA INC.
+Date: April 27, 2026
+By:
+/s/ Robert A. Mionis
+Name:
+Robert A. Mionis
+Title:
+President and Chief Executive Officer
+(Principal Executive Officer)
+Date: April 27, 2026
+By:
+/s/ Mandeep Chawla
+Name:
+Mandeep Chawla
+Title:
+Chief Financial Officer
+(Principal Financial Officer and Principal Accounting Officer)
+47

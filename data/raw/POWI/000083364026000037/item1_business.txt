@@ -1,0 +1,335 @@
+Item 1. Business.
+Overview
+We design, develop and market analog and mixed-signal integrated circuits (“ICs”) and other electronic components and circuitry used in high-voltage power conversion. Our products are used in power converters that convert electricity from a high-voltage source to the type of power required for a specified downstream use. In most cases, this conversion entails, among other functions, converting alternating current (“AC”) to direct current (“DC”) or vice versa, reducing or increasing the voltage, and regulating the output voltage and/or current according to the customer’s specifications.
+A large percentage of our products are ICs used in AC-DC power supplies, which convert the high-voltage AC from a wall outlet to the low-voltage DC required by most electronic devices. Power supplies incorporating our products are used with all manner of electronic products including industrial controls, “smart” utility meters, appliances, air conditioners, battery-powered tools, building-automation, or “internet-of-things” applications such as networked thermostats and security devices, and mobile devices such as smartphones, tablets and notebook computers. Variations of our power-supply ICs are used for high-voltage power conversion in electric vehicles (“EVs”). We also supply high-voltage LED drivers, which are AC-DC ICs specifically designed for lighting applications that utilize light-emitting diodes, and motor-driver ICs for brushless DC (“BLDC”) motors used in consumer appliances, HVAC systems, ceiling fans and a variety of industrial applications.
+We also offer high-voltage gate drivers—either standalone ICs or circuit boards containing ICs, electrical isolation components and other circuitry—used to operate high-voltage switches such as insulated-gate bipolar transistors (“IGBTs”) and silicon-carbide (“SiC”) MOSFETs. These combinations of switches and drivers are used for power conversion in high-power applications (i.e., power levels ranging from approximately 100 kilowatts up to gigawatts) such as industrial motors, solar- and wind-power systems, electric locomotives, EVs and high-voltage DC transmission systems.
+Our power-conversion products are distinguished by their “system-level” nature; that is, they incorporate into a single product numerous elements of a power-conversion system including a high-voltage transistor, drivers, advanced control circuitry and, in some cases, a communication link connecting the primary (i.e., input) and secondary (i.e., output) sides of the power converter while maintaining safety isolation to protect the end user from exposure to high voltage. Alternatively, a power converter can be designed and assembled using discrete components purchased from a variety of suppliers.
+Our system-level products offer a number of important benefits compared with discrete designs, including: reduced design complexity; smaller size; lower component count, which in turn results in higher reliability and easier sourcing of components; reduced time-to-market; and more efficient use of engineering resources. Our products also reduce the energy consumption of power converters during normal use and in “standby” operation, when the end product is not in use. In addition to the environmental and economic benefits of reduced energy usage, our energy-saving technologies provide a number of benefits to our customers; these include helping them meet the increasingly stringent efficiency standards now in effect for many electronic products, and enabling the elimination of bulky, costly heatsinks used to dissipate the heat produced by wasted electricity. By reducing component count, circuit-board size and the need for heatsinks, our products also contribute to a reduction in materials usage and electronic waste.
+While the size of our addressable market fluctuates with changes in macroeconomic and industry conditions, the market has generally exhibited a modest growth rate over time as growth in the unit volume of power converters has been offset to a large degree by reductions in the average selling price of components in this market. Therefore, the growth of our business depends largely on increasing our penetration of the markets that we serve, creating value for our customers and on further expanding our addressable market. Our growth strategy includes the following elements:
+●
+Increase our penetration of the markets we serve.
+ We currently address AC-DC applications with power outputs up to approximately 500 watts, gate-driver applications
+ranging from 100 kilowatts up to gigawatts,
+ and motor-drive applications up to approximately one horsepower. Through our research and development efforts, we seek to introduce more advanced products for these markets offering higher levels of integration and performance compared to earlier products. We also continue to expand our offerings of technical documentation and design-support tools and services to help customers use our products. These tools and services include our PI Expert™ design software, our transformer-sample service and our
+PowerPros
+℠
+, a live online video support service that enables power-supply designers to talk directly with members of our applications engineering team from anywhere in the world.
+4
+
+Table of Contents
+●
+Increase the size of our addressable market.
+ Prior to 2010 our addressable market consisted of AC-DC applications with up to about 50 watts of output. Since then, we have expanded our served available market (“SAM”) to approximately $5 billion through a variety of means. These include the introduction of products that enable us to address higher-power AC-DC applications (such as our Hiper™ product families), the introduction of LED-driver products, our entry into the gate-driver market and the introduction of our BridgeSwitch™ motor-driver ICs for BLDC motors. We have also introduced products targeting the EV market and expect automotive applications to become a
+
+significant portion of our SAM over time.
+Also contributing to our SAM expansion has been the emergence of new applications within the power ranges that our products can address. For example, applications such as “smart” utility meters, battery-powered lawn equipment and bicycles, and USB power receptacles (often installed alongside traditional AC wall outlets) can incorporate our products. The increased use of connectivity, LED lighting and other power-consuming electronic features in consumer appliances has also enhanced our SAM.
+We have also expanded our SAM through the development of technologies and architectures that increase the value (and therefore the average selling prices) of our products. For example, our InnoSwitch™ ICs integrate circuitry from the secondary, or low-voltage, side of AC-DC power supplies, whereas earlier product families integrated circuitry only on the primary, or high-voltage side. Our InnoMux™ IC families provide up to three DC outputs, eliminating the need for additional power-management circuitry in certain end products requiring multiple voltages while significantly increasing efficiency. Our proprietary PowiGaN
+™
+ high-voltage transistor technology, introduced in 2019, increases the value of our ICs by replacing silicon transistors with higher-performance gallium-nitride (“GaN”) switches, and also enables us to address a wider range of applications.
+●
+Leverage the performance benefits of our proprietary GaN technology.
+In 2019 we began incorporating our proprietary
+PowiGaN
+™
+
+transistors in some of our products, enabling a higher level of energy efficiency than ICs with silicon transistors. Since then, we have introduced a variety of new products utilizing GaN technology and developed new generations of our GaN technology capable of supporting voltages as high as 1700 volts.
+We are developing additional products incorporating GaN transistors, which we believe will enable us to address higher-power applications than we address with our current range of products, and further expand our SAM as discussed above. We expect such applications to include power supplies used in  data centers delivering artificial intelligence (“AI”) services, in communications network infrastructure equipment and in onboard-charging circuitry for EVs, among others.
+Additionally, we are developing GaN technologies capable of supporting higher power output than today’s GaN devices, with an aim of developing products to address power-switching modules in EV drivetrains, which currently incorporate SiC and IGBT modules. In July 2024 we acquired the assets of Odyssey Semiconductor, a developer of vertical GaN technology, in an effort to accelerate our development of higher-power GaN devices. We believe the development of such technologies will take several years to complete.
+●
+Capitalize on efforts to reduce carbon emissions by providing products that contribute to improved energy efficiency and increased use of renewable energy.
+ In its 2019 World Energy Outlook, the International Energy Agency estimated that more than two-thirds of the reduction in carbon-dioxide (“CO2”) emissions needed to achieve the “Sustainable Development Scenario” of the United Nations Sustainable Development Agenda is to come from improved energy efficiency and increased use of renewable energy. Energy savings enabled by our products help our customers comply with regulations that seek to curb energy consumption in support of reducing CO2 emissions. For example: our EcoSmart™ technology drastically reduces the amount of energy consumed by electronic products when they are plugged in but not in use; our PowiGaN™ transistors reduce energy consumption compared to silicon transistors; and our BridgeSwitch™ motor-driver ICs provide highly efficient power conversion for BLDC motors in appliances and industrial applications. Also, our gate-driver products are critical components in energy-efficient DC motor drives, solar- and wind-power systems, efficient high-voltage DC transmission systems (including transmission of energy from renewable energy installations to the power grid), and low-emissions transportation applications such as electric locomotives.
+​
+5
+
+Table of Contents
+Background – Our Highly Integrated Approach to High-Voltage Power Conversion
+Virtually every electronic device that plugs into a wall socket requires a power supply to convert the high-voltage alternating current provided by electric utilities into the low-voltage direct current required by most electronic devices. Until approximately 1970, AC-DC power supplies were generally in the form of line-frequency, or linear, transformers. These devices, consisting primarily of copper wire wound around an iron core, tend to be bulky and heavy, and typically waste a substantial amount of electricity. In the 1970s, the availability of high-voltage discrete semiconductors enabled the development of a new generation of power supplies known as switched-mode power supplies (“SMPS”). While SMPS are generally smaller, lighter-weight and more energy-efficient than linear transformers, early versions designed with discrete components were highly complex, containing numerous components and requiring a high level of analog design expertise.
+In high-power systems such as industrial motor drives, electric locomotives and renewable-energy systems, power conversion is typically performed using arrays of high-power silicon or silicon-carbide transistors known as IGBT modules or SiC modules; these modules are operated by electronic circuitry known as gate drivers, whose function is to ensure accurate, safe and reliable operation of the IGBT modules. Like discrete power supplies, discrete gate drivers tend to be highly complex, requiring a large number of components and a great deal of design expertise.
+In 1994 we introduced TOPSwitch
+™
+, the industry’s first cost-effective high-voltage IC for switched-mode AC-DC power supplies. We have since introduced a range of other product families, expanding the range of power-supply applications we can serve and enhancing our competitiveness in applications we already addressed
+.
+We have further expanded our addressable market with the addition of high-voltage gate drivers and motor-driver ICs for BLDC motors.
+Our products drastically reduce the complexity and component count of power converters compared to typical discrete designs by integrating many of the functions otherwise performed by numerous discrete electronic components, and by eliminating (or reducing the size and cost of) additional components through innovative system design. As a result, our products enable power converters to have superior features and functionality at a total cost equal to or lower than that of many competing alternatives. Our products offer the following key benefits:
+●
+Fewer Components, Reduced Size and Higher Reliability
+Our highly integrated ICs and gate drivers enable designs with far fewer components than comparable discrete designs. This reduction in component count enhances reliability and efficiency, reduces size, and results in lower manufacturing costs for our customers.
+●
+Reduced Time-to-Market, Enhanced Manufacturability
+Because our products eliminate much of the complexity associated with the design of power converters, designs can typically be completed in less time, resulting in more efficient use of customers’ design resources and shorter time-to-market for new designs. The lower component count and reduced complexity enabled by our products also makes designs more suitable for high-volume manufacturing. We also provide extensive hands-on design support as well as online design tools, such as our PI Expert design software, that further reduce time-to-market and product development risks.
+●
+Energy Efficiency
+Our EcoSmart
+™
+ technology improves the energy efficiency of electronic devices during normal operation as well as standby and “no-load” conditions. This technology enables manufacturers to cost-effectively meet the growing demand for energy-efficient products, and to comply with increasingly stringent energy-efficiency requirements. Our proprietary GaN transistor technology offers substantially higher levels of active-mode efficiency compared to traditional silicon switches, while our BridgeSwitch
+™
+ motor-driver ICs not only minimize power waste but also eliminate the need for heatsinks in many applications, which in turn reduces cost and weight.
+●
+Wide Power Range and Scalability
+Products in our current IC families can address AC-DC power supplies with output power up to approximately 500 watts as well as some high-voltage DC-DC applications; our high-voltage gate drivers are used in applications with power levels ranging from approximately 100 kilowatts to gigawatts, while our motor-driver ICs address BLDC applications up to about one horsepower. Within each of our product families, designers can scale up or down in power to address a wide range of designs with minimal design effort.
+6
+
+Table of Contents
+Products
+Below is a brief description of our products:
+●
+AC-DC power conversion products
+TOPSwitch
+™
+, our first commercially successful product family, was introduced in 1994. Since then, we have introduced a wide range of products (such as our TinySwitch
+™
+, LinkSwitch
+™
+ and Hiper
+™
+ families) to increase the level of integration and improve upon the functionality of the original TOPSwitch
+™
+, and to broaden the range of power levels we can address.
+In 2014 we introduced our InnoSwitch
+™
+ product family, the first power-supply ICs to combine primary, secondary and feedback circuits into a single package. These ICs employ a proprietary technology known as FluxLink
+™
+ to enable precise control without the need for optical components, which tend to add cost and diminish the reliability of power supplies. In 2019 we began offering InnoSwitch
+™
+ ICs with more-efficient GaN transistors rather than silicon transistors. In 2023 we announced new versions of our InnoSwitch products incorporating GaN transistors with higher voltage ratings of 900 volts and 1250 volts; earlier GaN products feature transistors rated at 750 volts. In 2019 we introduced InnoMux
+™
+ ICs, which provide up to three DC outputs, eliminating the need for additional power-management circuitry in certain end products requiring multiple voltages while significantly increasing efficiency. In 2024 we introduced InnoMux-2 products, featuring GaN transistors rated at 1700 volts.
+This portfolio of power-conversion products generally addresses power supplies up to about 500 watts of output. This market consists of an extremely broad range of applications including consumer appliances, utility meters, LCD monitors, tablets, smartphones, computers, TVs, and numerous other consumer and industrial applications, as well as LED lighting. We also now offer automotive-qualified versions of certain products, such as InnoSwitch
+™
+ ICs, for use in EVs.
+●
+High-voltage gate drivers
+We offer a range of high-voltage gate-driver products sold primarily under the SCALE
+™
+ and SCALE
+™
+-
+2 product-family names. These products are fully assembled circuit boards incorporating multiple ICs, electrical isolation components and other circuitry. We offer both ready-to-operate “plug-and-play” drivers designed specifically for use with particular IGBT modules, as well as “driver cores,” which provide more basic driver functionality that customers can customize to their own specifications after purchase. In 2016 we introduced the SCALE-iDriver
+™
+ family of standalone ICs, which enables us to address applications ranging from a few kilowatts up to about 100 kilowatts, whereas previously our sales of high-power products were primarily for applications above 100 kilowatts. In 2020 we introduced an automotive-qualified version of SCALE-iDriver
+™
+ suitable for use in powertrain and charging applications for electric vehicles.
+●
+Motor-driver products
+The BridgeSwitch
+™
+ family of products, introduced in 2018, is a family of motor-driver ICs addressing BLDC motor applications up to approximately 400 watts. In 2024 we introduced BridgeSwitch
+™
+-2 ICs, extending the addressable power range to about one horsepower, or 746 watts. Applications for ICs in the BridgeSwitch
+™
+ families include refrigerator compressors, ceiling fans, air purifiers and circulation pumps, as well as pumps and fans used in appliances such as dishwashers, laundry machines and boilers. BridgeSwitch
+™
+ products are complemented by our Motor-Xpert
+™
+ software, which provides configuration and diagnostic tools for design engineers.
+​
+Energy Efficiency
+Power supplies often draw significantly more electricity than the amount needed by the devices they power. As a result, billions of dollars’ worth of electricity is wasted each year, and millions of tons of greenhouse gases are unnecessarily produced by power plants. Energy waste occurs during the normal operation of a device and in standby mode, when the device is plugged in but idle. For example: computers and printers waste energy while in “sleep” mode; TVs that are turned off by remote control consume energy while awaiting a remote-control signal to turn them back on; a mobile-phone charger left plugged into a wall outlet continues to draw electricity even when not connected to the phone (a condition known as “no-load”); and many common household appliances, such as microwave ovens, dishwashers and washing machines, also consume power when not in use. In fact, a 2015 study by the National Resources Defense Council found that devices that are “always-on” but inactive may be causing as much as $19 billion in annual energy waste in the United States alone.
+In response to concerns about the environmental impact of carbon emissions, policymakers have taken action to promote energy efficiency. For example, the ENERGY STAR® program and the European Union Code of Conduct
+7
+
+Table of Contents
+encourage manufacturers of electronic devices to comply with voluntary energy-efficiency specifications. In 2007 the California Energy Commission (“CEC”) implemented mandatory efficiency standards for external power supplies. The CEC standards were implemented nationwide in the United States in July 2008 as a result of the Energy Independence and Security Act of 2007 (“EISA”); these federal standards were tightened in 2016. Similar standards for external power supplies took effect in the European Union (“EU”) in 2010 as part of the EU’s EcoDesign Directive for Energy-Related Products.
+In 2010, the EU EcoDesign Directive implemented standards limiting standby power consumption on a wide range of electronic products. The limit was reduced by 50 percent beginning in 2013, with many products now limited to 500 milliwatts of standby usage; the EU standards are scheduled to tighten further beginning in 2025. The EISA legislation also required substantial improvements in the efficiency of lighting technologies, effectively resulting in the phase-out of most incandescent light sources and increased adoption of LED-lighting technology. In December 2019 the government of China published new efficiency standards for room air conditioners, which took effect in July 2020. In 2022 India’s Bureau of Energy Efficiency implemented new labeling standards for ceiling fans in an effort to drive adoption of BLDC motors in place of less efficient induction motors.
+We believe we offer products that enable manufacturers to meet or exceed these regulations, and all other such regulations of which we are aware. Since 1998, our AC-DC power-conversion ICs have featured our EcoSmart
+™
+ technology which drastically reduces standby power waste. We have sold more than 21 billion ICs featuring EcoSmart
+™
+ technology, resulting in estimated savings of hundreds of terawatt-hours (TWh) of standby power worldwide. In 2010 we expanded our portfolio of energy-saving products with the introduction of our CapZero
+™
+ and SenZero
+™
+ IC families, which eliminate additional sources of standby waste in some power supplies. We also offer a range of products designed specifically for LED-lighting applications. Our GaN technology, introduced in 2019, also dramatically improves the active-mode efficiency of power-supplies. Our InnoMux
+™
+ products, also introduced in 2019, enhance active-mode efficiency in systems with multiple DC outputs by eliminating the losses incurred in separate DC-DC conversion stages.
+​
+Other Product Information
+TOPSwitch, TinySwitch, LinkSwitch, InnoSwitch, BridgeSwitch, DPA-Switch, LYTSwitch, PeakSwitch, EcoSmart, Hiper, Qspeed, InnoMux, SCALE, SCALE-iDriver, SCALE-iFlex, CAPZero, SENZero, ClampZero, LinkZero, ChiPhy, MineE-CAP, FluxLink, eSIP, eeSIP, eSOP, inSOP, MinSOP, PowerPros, PI Databook, PI Expert and Motor-Xpert are trademarks of Power Integrations, Inc.
+End Markets and Applications
+Our net revenue consists primarily of sales of the products described above. When evaluating our net revenue, we categorize our sales into the following four major end-market groupings: communications, computer, consumer, and industrial.
+The table below provides the approximate mix of our net sales by end market:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended December 31, 
+End Market
+  ​ ​ ​
+2025
+​
+2024
+​
+2023
+Communications
+​
+ 12
+%  
+​
+ 12
+%  
+​
+ 29
+%
+Computer
+ 
+ 13
+%  
+​
+ 14
+%  
+​
+ 12
+%
+Consumer
+ 
+ 37
+%  
+​
+ 39
+%  
+​
+ 27
+%
+Industrial
+ 
+ 38
+%  
+​
+ 35
+%  
+​
+ 32
+%
+​
+8
+
+Table of Contents
+Our products are used in a vast range of power-conversion applications in the above-listed end-market categories. The following chart lists the most prominent applications for our products in each category.
+Market Category
+  ​ ​ ​
+Primary Applications
+Communications
+​
+Mobile-phone chargers, broadband modems, wi-fi routers, other network and telecom gear
+Computer
+​
+Desktop PCs and monitors, servers, adapters for tablets and notebook computers, other computer peripherals
+Consumer
+​
+Major and small appliances, air conditioners and other comfort appliances, TVs and set-top boxes, video-game consoles
+Industrial
+​
+Industrial motor drives, renewable energy systems, electric locomotives, electric passenger cars and commercial vehicles, high-voltage DC transmission systems, industrial controls, utility meters, motor controls, uninterruptible power supplies, LED lighting, battery-powered tools and lawn equipment, networked thermostats, power strips and other “smart home” devices
+​
+​
+Sales, Distribution and Marketing
+We sell our products to original equipment manufacturers, or OEMs, and merchant power-supply manufacturers through our direct sales staff and a worldwide network of independent sales representatives and distributors. We have sales offices in the United States, United Kingdom, Germany, Italy, India, China, Japan, South Korea, the Philippines, Canada, Singapore and Taiwan. Direct sales to OEMs and merchant power supply manufacturers represented approximately 31%, 30% and 31% of our net product revenue in 2025, 2024 and 2023, respectively, while sales to distributors accounted for the remainder in each of the corresponding years. Most of our distributors are entitled to return privileges based on revenue and are protected from price reductions affecting their inventories. Our distributors are not subject to minimum purchase requirements, and sales representatives and distributors can discontinue marketing our products at any time.
+Our sales are primarily made pursuant to standard purchase orders. The quantity of products purchased by our customers as well as shipment schedules are subject to revisions that reflect changes in both the customers’ requirements and in manufacturing availability. Historically, our business has been characterized by short-lead-time orders and quick delivery schedules.
+Our top ten customers, including distributors that resell to OEMs and merchant power supply manufacturers, accounted for approximately 81%, 79% and 80% of net revenue in 2025, 2024 and 2023, respectively. In 2025, two customers, both distributors, each accounted for more than 10% of revenue, in 2024, two customers, both distributors, each accounted for more than 10% of revenue, and in 2023, three customers, all distributors, each accounted for more than 10% of revenue
+.
+Research and Development
+Our research and development efforts are focused on improving our technologies, introducing new products to expand our addressable markets, reducing the costs of existing products, and improving the cost-effectiveness and functionality of our customers’ power converters. We have assembled teams of highly skilled engineers to meet our research and development goals. These engineers have expertise in high-voltage device structure and process technology, analog and digital IC design, system architecture and packaging.
+​
+Intellectual Property and Other Proprietary Rights
+We use a combination of patents, trademarks, copyrights, trade secrets and confidentiality procedures to protect our intellectual-property rights. In 2025, we received 20 U.S. and 39 foreign patents. As of December 31, 2025, we held 281 U.S. and 329 foreign patents. Both U.S. and foreign patents have expiration dates ranging from 2026 to 2046. While our patent portfolio as a whole is important to the success of our business, we are not materially dependent upon any single patent. We also hold trademarks in the U.S. and various other geographies including Bangladesh, Brazil, China, the EU, Hong Kong, India, Japan, Korea, Russia, Switzerland, Taiwan, Turkey, and the United Kingdom.
+We regard as proprietary some equipment, processes, information and knowledge that we have developed and used in the design and manufacture of our products. Our trade secrets include a high-volume production process used in the manufacture of our high-voltage ICs. We attempt to protect our trade secrets and other proprietary information through non-disclosure agreements, proprietary-information agreements with employees and consultants, and other security measures.
+​
+9
+
+Table of Contents
+Manufacturing
+We contract with three foundries for the manufacture of the vast majority of our silicon wafers: (1) Lapis Semiconductor Co., Ltd., or Lapis, (formerly OKI Electric Industry), (2) Seiko Epson Corporation, or Epson and (3) X-FAB Semiconductor Foundries AG, or X-FAB. These contractors manufacture wafers using our proprietary high-voltage process technologies at fabrication facilities located in Japan, Germany and the United States.
+Our ICs are assembled, packaged and tested by independent subcontractors in China, Malaysia, Thailand and the Philippines; a small percentage of our ICs are tested at our headquarters facility in California. Our gate-driver boards are assembled and tested by independent subcontractors in Sri Lanka and Thailand; some of the boards are tested at our facility in Switzerland.
+Our fabless manufacturing model enables us to focus on our engineering and design strengths, minimize capital expenditures and still have access to high-volume manufacturing capacity. We utilize both proprietary and standard IC packages for assembly. Some of the materials used in our packages and certain aspects of the assembly process are specific to our products. We require our assembly manufacturers to use high-voltage molding compounds which are more difficult to process than industry standard molding compounds. We work closely with our contractors on a continuous basis to maintain and improve our manufacturing processes.
+Our proprietary high-voltage processes do not require leading-edge geometries, which enables us to use our foundries’ older, lower-cost facilities for wafer manufacturing. However, because of our highly sensitive high-voltage process, we must interact closely with our foundries to achieve satisfactory yields. Our wafer supply agreements with Lapis, Epson and X-FAB expire in December 2028, December 2035 and December 2028, respectively. Under the terms of the Lapis and Epson agreements, each supplier has agreed to reserve a specified amount of production capacity and to sell wafers to us at fixed prices, which are subject to periodic review jointly by the supplier and us. In addition, Lapis and Epson require us to supply them with a rolling six-month forecast on a monthly basis. Our agreements with Lapis and Epson each provide for the purchase of wafers in U.S. dollars, with mutual sharing of the impact of the fluctuations in the exchange rate between the Japanese yen and the U.S. dollar. Under the terms of the X-FAB agreement, X-FAB has agreed to reserve a specified amount of production capacity and to sell wafers to us at fixed prices, which are subject to periodic review jointly by X-FAB and us. The agreement with X-FAB also requires us to supply them with rolling six-month forecasts on a monthly basis. Our purchases of wafers from X-FAB are denominated in U.S. dollars.
+We typically receive shipments from our foundries approximately four to six weeks after placing orders, and lead times for new products can be substantially longer. To provide sufficient time for assembly, testing and finishing, we typically need to receive wafers four weeks before the desired ship date to our customers. As a result of these factors and the fact that customers’ orders can be placed with little advance notice, we have only a limited ability to react to fluctuations in demand for our products. We try to carry a substantial amount of wafer and finished-goods inventory to help offset these risks and to better serve our markets and meet customer demand.
+​
+Competition
+Competing alternatives to our high-voltage ICs for the power-supply market include monolithic and hybrid ICs from companies such as STMicroelectronics, Infineon Technologies and Sanken Electric Company, as well as PWM-controller chips paired with discrete high-voltage silicon or GaN transistors. Such controller chips are produced by a large number of vendors, including those listed above as well as others including NXP Semiconductors, Texas Instruments, Diodes Inc., On-Bright Electronics, MediaTek Inc., Renesas Electronics, and, in recent years, an increasing number of Chinese suppliers such as Southchip Semiconductor, Chipown Microelectronics and Hangzhou Silan Microelectronics Co. Competing suppliers of high-voltage GaN products include InnoScience, Infineon, Renesas, Texas Instruments, Navitas Semiconductor and others. Our gate-driver products compete with alternatives from such companies as Infineon, Mitsubishi Electric, Fuji Electric, Semikron and Hangzhou Firstack Technology Co., as well as driver circuits made up of discrete devices. Our motor-driver ICs compete with power modules from such companies as ON Semiconductor, Infineon, STMicroelectronics, Mitsubishi and Sanken as well as discrete designs from a wide range of other suppliers. In general, we expect competition from Chinese semiconductor vendors to intensify over time reflecting China’s stated aim to develop its domestic semiconductor industry.
+Generally, our products enable customers to design power converters with total bill-of-materials costs similar to those of competing alternatives. As a result, the value of our products is influenced by the prices of discrete components, which fluctuate in relation to market demand, raw-material prices and other factors, but have generally decreased over time.
+10
+
+Table of Contents
+While we vary the pricing of our ICs in response to fluctuations in prices of alternative solutions, we also compete based on a variety of other factors. Most importantly, the highly integrated nature of our products enables designs that utilize fewer total components than comparable discrete designs or designs using other integrated or hybrid products. This enables power converters to be designed more quickly and manufactured more efficiently and reliably than competing designs. We also compete on the basis of product functionality such as safety features and energy-efficiency features and on the basis of the technical support we provide to our customers. This support includes hands-on design assistance as well as a range of design tools and documentation such as software and reference designs. We also believe that our record of product quality and history of delivering products to our customers on a timely basis serve as additional competitive advantages.
+Warranty
+We generally warrant that our products will substantially conform to the published specifications for 12 months from the date of shipment. Under the terms and conditions of sale, our liability is limited generally to either a credit equal to the purchase price or replacement of the defective part.
+Government Regulation
+We are subject to a variety of federal, state and local governmental laws and regulations worldwide, including, but not limited to, laws, rules and regulations related to anti-corruption, antitrust, data privacy requirements, employment, environmental, foreign exchange controls, health and safety requirements, immigration, import/export requirements, IP and tax. Any failure to comply with laws and regulations may subject us to a range of consequences including fines, suspension of certain of our business activities, limitations on our ability to sell our products, obligations to remediate in the case of environmental contamination, and criminal and civil liabilities or other sanctions. Changes in environmental laws and regulations could require us to alter our manufacturing processes or use substitute materials. Our failure to comply with laws, rules and regulations could subject us to future liabilities.
+See also our risk factors under Part I. Item 1A. Risk Factors in this Annual Report on Form 10-K under “Risks Related to Laws and Regulations.”
+​
+Human Capital
+As of December 31, 2025, we employed 877 full-time personnel across 15 countries with 339, or 39% of the total, residing in North America, while 61% resided offshore comprising 421 in the Asia-Pacific region and 117 across Europe. As of December 31, 2025, 6% of our worldwide employees were foreign nationals, defined as individuals requiring employment visas in the countries where they are employed.
+Innovation is the lifeblood of our company, and we depend on our people to sustain our competitive advantage. To attract and retain talented employees, we offer competitive compensation with generous comprehensive benefits for employees and dependents (including domestic partners). We offer health, dental and vision insurance, covering 85% of the cost of employee health insurance in 2025, flexible spending accounts for healthcare and child-care expenses, matching 401(k) contributions (at a rate of 50% of the employee contribution, up to a maximum of 4% of the employee’s eligible compensation), employee stock plans, paid vacation and family leave, life and disability insurance, flu vaccinations, tuition reimbursement, charitable gift matching, health-and-wellness programs designed to promote physical well-being and other mental health services. Approximately 96% of eligible U.S. employees participate in our 401(k) plan and 58% of eligible employees participated in the most recent offering period of our employee stock purchase plan. These benefits, combined with our culture of innovation and sustainable growth, contribute to below-average employee turnover relative to our industry and an average tenure of nearly 7.5 years. In 2023, 2024 and 2025 we were certified by Great Place to Work® based on the results of anonymous surveys of employees; in the 2025 survey, 78% of employees stated that Power Integrations is a great place to work, compared to an average of 57% for U.S. companies according to Great Place to Work.
+It is our policy to ensure equal employment opportunity for all applicants and employees without regard to prohibited considerations of race, color, religion, sex (including pregnancy, gender identity and sexual orientation), national origin, age, disability or genetic information, marital status or any other classification protected by applicable local, state or federal laws. Our employees are encouraged to engage with company leadership and raise concerns and questions in person, via e-mail (anonymously if desired), or at our quarterly employee communications meeting with the chief executive officer and senior management team. All employees receive training in the prevention of sexual harassment and abusive conduct in the workplace.
+11
+
+Table of Contents
+We value our employees, giving them the tools and training to grow as individuals, and the freedom to take risks in the service of innovation. We offer tuition reimbursement for job-related education and provide live and online classes covering topics such as communication, leadership and management, software, and time management. We also offer catered lunch-time workshops on a range of personal-development topics such as financial planning, nutrition and stress management.
+Additional information regarding our commitment to our people can be found on our website at https://www.power.com/company/careers/people-our-engine-innovation
+.
+Corporate Information
+Power Integrations, Inc. was incorporated in California on March 25, 1988, and reincorporated in Delaware in December 1997. Our principal executive offices are located at 5245 Hellyer Ave, San Jose, CA 95138. Our telephone number is (408) 414-9200.
+​
+Available Information
+We may use our website,
+www.power.com
+, press releases, public conference calls, public webcasts, X and LinkedIn as means of disclosing material non-public information and for complying with our disclosure obligations under Regulation FD. We make available, free of charge, copies of our annual report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities Exchange Act of 1934, as amended, or the Exchange Act as soon as reasonably practicable after filing this material electronically or otherwise furnishing it to the SEC. Investors may obtain free electronic copies or request paper copies of these reports via the “For Investors” section of our website. Our website address is provided solely for informational purposes. We do not intend, by this reference, that our website should be deemed to be part of this Annual Report. The reports we file with the SEC are also available at
+www.sec.gov
+. We will disclose any waiver we grant to an executive officer or director under our Code of Ethics, or certain amendments to the Code of Ethics, on our website https://investors.power.com/governance/.
+​
+Our corporate governance guidelines, the charters of our board committees, and our code of business conduct and ethics, including ethics provisions that apply to our principal executive officer, principal financial officer, controller and senior financial officers, are also available via the investor website listed above. These items are also available in print to any stockholder who requests them by calling (408) 414-9200. We intend to satisfy the disclosure requirements of Form 8-K regarding an amendment to, or a waiver from, a provision of our code of business conduct and ethics that applies to our principal executive officer, principal financial officer, principal accounting officer or controller, or persons performing similar functions by posting such information on our investor website listed above.
+​
+Information About Our Executive Officers
+As of January 30, 2026, our executive officers, who were appointed by and serve at the discretion of our board of directors, were as follows:
+​
+​
+​
+​
+​
+Name
+  ​ ​ ​
+Position With Power Integrations
+  ​ ​ ​
+Age
+Jennifer Lloyd
+ 
+President, Chief Executive Officer and Director
+ 
+58
+Nancy Erba
+​
+Chief Financial Officer
+​
+59
+Sunny Gupta
+ 
+Senior Vice President, Operations
+ 
+53
+Gagan Jain
+​
+Vice President, Worldwide Sales
+​
+48
+​
+Jennifer Lloyd, PhD
+, has served as president, chief executive officer and as a director of Power Integrations since July 2025; she also previously served as a member of the board of directors from April 2021 through October 2022. Previously, from 1997 until July 2025, Dr. Lloyd served in a succession of increasingly senior technical and management roles at Analog Devices, Inc. (“Analog”), a global semiconductor leader. Prior roles included corporate vice president leading Analog’s multi-market power business unit, leadership of Analog’s precision franchise and its healthcare and consumer unit. Dr. Lloyd holds doctoral, master’s, and bachelor’s degrees in electrical engineering and computer science from the Massachusetts Institute of Technology.
+Nancy Erba
+ has served as chief financial officer since January 2026. Ms. Erba brings more than 25 years of corporate finance experience, most recently as chief financial officer at Infinera Corporation from 2019 through the company’s acquisition in 2025. From 2016 to 2019 she was chief financial officer at Immersion Corporation. Ms. Erba
+12
+
+Table of Contents
+held a succession of increasingly senior leadership positions at Seagate Technology, including executive leadership roles in finance, business operations and corporate development. Ms. Erba has been a member of the board of directors and chair of the audit committee at PDF Solutions since June 2019. She holds an MBA from Baylor University and a bachelor’s degree in mathematics from Smith College.
+Sunny Gupta
+has served as our vice president of operations since August 2020. Prior to joining Power Integrations, Mr. Gupta was vice president of operations at Renesas Electronics Corporation, a provider of electronics solutions, from July 2017 until August 2020, in which position he was responsible for global operations for Intersil and IDT products as well as the integration into the operations of Renesas. Prior to joining Renesas he was Senior Vice President, Global Operations at Intersil Corporation, a developer of power management and precision analog integrated circuits, from June 2016 to July 2017, in which position he led the global operations and technology teams, and was Vice President, Quality and Technology Development at Intersil was from September 2013 to June 2016, in which position he led the quality, reliability, yield, process technology and package technology teams. Mr. Gupta joined Intersil in 2012 as its Vice President, Quality and Reliability.  Prior to joining Intersil, Mr. Gupta was the Director of Worldwide Customer Quality Engineering at Qualcomm, and prior to Qualcomm Mr. Gupta spent 16 years at National Semiconductor in wafer fab operations and quality.
+Gagan Jain
+ has served as our vice president, worldwide sales since September 2024. Mr. Jain joined Power Integrations in 2013, managing the company's industrial and high-power gate-driver business in Japan before being promoted to director of sales for Japan. In 2016, he relocated to the company's San Jose headquarters to assume the role of senior sales director for the Americas. He was promoted to the role of vice president, worldwide sales in 2024. Prior to joining Power Integrations, Mr. Jain held various managerial positions at Infineon Technologies Japan in the industrial module and bi-polar devices business; earlier roles included business development and technical sales in India and Japan focusing on the Asia-Pacific, Europe and South Africa markets.
+​

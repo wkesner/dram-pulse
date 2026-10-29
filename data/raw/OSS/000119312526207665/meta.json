@@ -1,0 +1,36 @@
+{
+  "company": "One Stop Systems",
+  "ticker": "OSS",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001394056",
+  "form": "10-Q",
+  "filing_date": "2026-05-06",
+  "accession_number": "0001193125-26-207665",
+  "primary_document": "oss-20260331.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1394056/000119312526207665/oss-20260331.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-03-31",
+  "period_end": "2026-03-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:50:22.578822+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/OSS/000119312526207665/primary.html",
+    "business": "data/raw/OSS/000119312526207665/item1_business.txt",
+    "risk_factors": "data/raw/OSS/000119312526207665/item1a_risk_factors.txt",
+    "mdna": "data/raw/OSS/000119312526207665/item7_mdna.txt",
+    "other": "data/raw/OSS/000119312526207665/other_full.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "company": "Valens Semiconductor",
+  "ticker": "VLN",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001863006",
+  "form": "6-K",
+  "filing_date": "2026-06-16",
+  "accession_number": "0001213900-26-069032",
+  "primary_document": "ea0294483-6k_valens.htm",
+  "primary_doc_description": "REPORT OF FOREIGN PRIVATE ISSUER",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1863006/000121390026069032/ea0294483-6k_valens.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-06-16",
+  "period_end": "2026-06-16",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:52:50.522080+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/VLN/000121390026069032/primary.html",
+    "other": "data/raw/VLN/000121390026069032/other_full.txt"
+  }
+}

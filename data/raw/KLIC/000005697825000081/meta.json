@@ -1,0 +1,36 @@
+{
+  "company": "Kulicke and Soffa",
+  "ticker": "KLIC",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000056978",
+  "form": "10-K",
+  "filing_date": "2025-11-20",
+  "accession_number": "0000056978-25-000081",
+  "primary_document": "klic-20251004.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/56978/000005697825000081/klic-20251004.htm",
+  "fiscal_year_end": "1003",
+  "report_date": "2025-10-04",
+  "period_end": "2025-10-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:43:06.902978+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/KLIC/000005697825000081/primary.html",
+    "business": "data/raw/KLIC/000005697825000081/item1_business.txt",
+    "risk_factors": "data/raw/KLIC/000005697825000081/item1a_risk_factors.txt",
+    "mdna": "data/raw/KLIC/000005697825000081/item7_mdna.txt",
+    "other": "data/raw/KLIC/000005697825000081/other_full.txt"
+  }
+}

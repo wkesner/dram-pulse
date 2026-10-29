@@ -1,0 +1,36 @@
+{
+  "company": "SiTime",
+  "ticker": "SITM",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001451809",
+  "form": "8-K",
+  "filing_date": "2026-05-06",
+  "accession_number": "0001451809-26-000040",
+  "primary_document": "sitm-20260506.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000040/sitm-20260506.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-06",
+  "period_end": "2026-05-06",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:30:21.002040+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "sitm-q126x8kxexx991.htm",
+      "path": "data/raw/SITM/000145180926000040/exhibit_99_sitm-q126x8kxexx991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1451809/000145180926000040/sitm-q126x8kxexx991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/SITM/000145180926000040/primary.html",
+    "other": "data/raw/SITM/000145180926000040/other_full.txt"
+  }
+}

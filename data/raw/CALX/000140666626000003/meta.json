@@ -1,0 +1,30 @@
+{
+  "company": "Calix",
+  "ticker": "CALX",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001406666",
+  "form": "8-K",
+  "filing_date": "2026-01-28",
+  "accession_number": "0001406666-26-000003",
+  "primary_document": "calx-20260127.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1406666/000140666626000003/calx-20260127.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-01-27",
+  "period_end": "2026-01-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:38:53.891980+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/CALX/000140666626000003/primary.html",
+    "other": "data/raw/CALX/000140666626000003/other_full.txt"
+  }
+}

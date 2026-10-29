@@ -1,0 +1,36 @@
+{
+  "company": "Extreme Networks",
+  "ticker": "EXTR",
+  "role": "buyer",
+  "tier": 3,
+  "cik": "0001078271",
+  "form": "8-K",
+  "filing_date": "2025-10-29",
+  "accession_number": "0001193125-25-254626",
+  "primary_document": "extr-20251029.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1078271/000119312525254626/extr-20251029.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2025-10-29",
+  "period_end": "2025-10-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T17:39:25.731843+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "extr-ex99_1.htm",
+      "path": "data/raw/EXTR/000119312525254626/exhibit_99_extr-ex99_1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1078271/000119312525254626/extr-ex99_1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/EXTR/000119312525254626/primary.html",
+    "other": "data/raw/EXTR/000119312525254626/other_full.txt"
+  }
+}
