@@ -1,0 +1,39 @@
+{
+  "company": "Intel",
+  "ticker": "INTC",
+  "cik": "0000050863",
+  "form": "8-K",
+  "filing_date": "2026-08-12",
+  "accession_number": "0001193125-26-346806",
+  "primary_document": "d117670d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "7.01,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
+  "fiscal_year_end": "1227",
+  "report_date": "2026-08-10",
+  "period_end": "2026-08-10",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:52:46.131634+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d117670dex991.htm",
+      "path": "data/raw/INTC/000119312526346806/exhibit_99_d117670dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670dex991.htm"
+    },
+    {
+      "name": "d117670dex992.htm",
+      "path": "data/raw/INTC/000119312526346806/exhibit_99_d117670dex992.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670dex992.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/INTC/000119312526346806/primary.html",
+    "other": "data/raw/INTC/000119312526346806/other_full.txt"
+  }
+}

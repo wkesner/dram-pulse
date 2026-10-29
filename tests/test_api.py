@@ -33,12 +33,15 @@ def data_dir(tmp_path: Path) -> Path:
 
 @pytest.fixture()
 def client(data_dir: Path) -> TestClient:
+    # Explicit single-tenant mode so AUTH_MODE=clerk in a local .env
+    # does not break the classic typed-name API tests.
     app = create_app(
         signals_path=data_dir / "signals.csv",
         sightings_path=data_dir / "sightings.csv",
         votes_path=data_dir / "votes.csv",
         companies_path=data_dir / "companies.yaml",
         mount_static=False,
+        mode="single",
     )
     return TestClient(app)
 
@@ -134,6 +137,45 @@ def test_post_vote_rejects_invalid_vote_value(client: TestClient):
     assert resp.status_code == 422
 
 
+def test_skip_persists_and_does_not_tally(client: TestClient, data_dir: Path):
+    """vote=0 is Skip: stored for the profile, ignored in 👍/👎 tallies."""
+    signals = client.get("/api/signals").json()
+    sid = signals[0]["signal_id"]
+
+    r = client.post("/api/votes", json={"signal_id": sid, "user": "Dana", "vote": 0})
+    assert r.status_code == 200
+    assert r.json()["vote"] == "0"
+
+    mine = client.get("/api/votes", params={"user": "Dana"}).json()
+    assert mine[sid] == 0
+
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 0, "down": 0}
+
+    # Another user can still rate; skip does not inflate tallies.
+    client.post("/api/votes", json={"signal_id": sid, "user": "Eli", "vote": 1})
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 1, "down": 0}
+
+    with (data_dir / "votes.csv").open(encoding="utf-8", newline="") as fh:
+        votes = list(csv.DictReader(fh))
+    assert any(v["user"] == "Dana" and v["vote"] == "0" for v in votes)
+
+
+def test_meta_exposes_tiers_and_signals_have_tier(client: TestClient, data_dir: Path):
+    meta = client.get("/api/meta").json()
+    assert "tiers" in meta and len(meta["tiers"]) == 3
+    assert meta["default_map_tier"] == 1
+    assert meta["company_roster"]
+    assert {c["tier"] for c in meta["company_roster"]} <= {1, 2, 3}
+
+    signals = client.get("/api/signals").json()
+    assert signals
+    assert all(str(s.get("tier")) in {"1", "2", "3"} for s in signals)
+
+
 def test_meta_notes_match_signals(client: TestClient, data_dir: Path):
     signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
     meta = client.get("/api/meta").json()
@@ -178,6 +220,7 @@ def test_meta_lists_stub_company_with_zero_signals(data_dir: Path):
         votes_path=data_dir / "votes.csv",
         companies_path=companies_path,
         mount_static=False,
+        mode="single",
     )
     client = TestClient(app)
     notes = client.get("/api/meta").json()["notes"]

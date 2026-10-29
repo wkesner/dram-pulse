@@ -1,0 +1,34 @@
+{
+  "company": "Texas Instruments",
+  "ticker": "TXN",
+  "cik": "0000097476",
+  "form": "8-K",
+  "filing_date": "2026-01-27",
+  "accession_number": "0000097476-26-000003",
+  "primary_document": "txn-20260127.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000003/txn-20260127.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-01-27",
+  "period_end": "2026-01-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:17.221494+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "q42025txnex99-eredgar.htm",
+      "path": "data/raw/TXN/000009747626000003/exhibit_99_q42025txnex99-eredgar.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000003/q42025txnex99-eredgar.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/TXN/000009747626000003/primary.html",
+    "other": "data/raw/TXN/000009747626000003/other_full.txt"
+  }
+}

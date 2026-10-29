@@ -1,0 +1,28 @@
+{
+  "company": "Alphabet",
+  "ticker": "GOOGL",
+  "cik": "0001652044",
+  "form": "8-K",
+  "filing_date": "2026-08-10",
+  "accession_number": "0001193125-26-342390",
+  "primary_document": "d171253d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-10",
+  "period_end": "2026-08-10",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:53:11.798514+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/GOOGL/000119312526342390/primary.html",
+    "other": "data/raw/GOOGL/000119312526342390/other_full.txt"
+  }
+}

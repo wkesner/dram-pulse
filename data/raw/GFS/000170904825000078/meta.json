@@ -1,0 +1,28 @@
+{
+  "company": "GlobalFoundries",
+  "ticker": "GFS",
+  "cik": "0001709048",
+  "form": "6-K",
+  "filing_date": "2025-12-11",
+  "accession_number": "0001709048-25-000078",
+  "primary_document": "form6-kxcfoxsignature.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904825000078/form6-kxcfoxsignature.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-10",
+  "period_end": "2025-12-10",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:52:34.454133+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/GFS/000170904825000078/primary.html",
+    "other": "data/raw/GFS/000170904825000078/other_full.txt"
+  }
+}

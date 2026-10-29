@@ -17,8 +17,20 @@ data/raw/**/document.pdf
 data/raw/**/document.zip
 data/raw/_dart/
 data/raw/_test_dart/
+# Per-org Clerk corpora + anonymized aggregates (regenerated / local demo)
+data/orgs/**
+!data/orgs/.gitkeep
+data/aggregates/**
+!data/aggregates/.gitkeep
 # Keep Memory Signals raw caches in git for M1 verification; ignore local DBs only.
 *.log
 .DS_Store
 .pytest_cache/
 .mypy_cache/
+
+.env.clerk.pulled
+
+.env.local
+
+.clerk/
+company_tickers.json

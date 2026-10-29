@@ -41,6 +41,13 @@ The taxonomy lives in `config/product_taxonomy.yaml` and maps synonyms to a fami
 | NAND | NAND_general | NAND, flash |
 | Other | CXL | CXL, memory expansion |
 | Other | Memory_general | memory, memory and storage (no family given) |
+| Compute | GPU | GPU, GPUs, graphics processing unit(s) |
+| Compute | CPU | CPU, CPUs, microprocessor(s) |
+| Compute | FPGA | FPGA, FPGAs, field-programmable gate array(s) |
+| Compute | MCU | MCU, MCUs, microcontroller(s) |
+| Analog | Power_IC | PMIC(s), power management IC(s), power IC(s) |
+| Passives | Capacitor | MLCC(s), ceramic capacitor(s), capacitors |
+| Passives | Resistor | chip resistor(s), resistor shortage(s) |
 
 Korean synonyms go in the same file (for example 고대역폭메모리 for HBM, 낸드 for NAND, 디램 for DRAM). These are suggestions to review.
 
@@ -69,6 +76,7 @@ Notes:
 - Nvidia, AMD and Qualcomm design chips but don't build them. They're included deliberately (William agreed on 2026-10-20) because they are among the largest buyers of HBM and LPDDR, so their filings name memory constraints directly.
 - Each buyer files 10-Ks on its own fiscal calendar. Store `fiscal_year_end` from the EDGAR submissions data, not by assumption.
 - SK hynix's 6-Ks appear to be English versions of its Korean disclosures (inferred, not confirmed), so expect duplicates. Deduplicate by date plus normalised title. Prefer the English EDGAR 6-K and keep the DART receipt number as a cross-reference.
+- **Company tiers** (`config/tiers.yaml`, field `tier` on each `companies.yaml` row): **Tier 1** = primary Signal map (household / core); **Tier 2** = Fortune 500–1000 electronics, datacenter, distribution, EMS peers; **Tier 3** = smaller listed / broker-dense. Maps are scoped by tier (default Tier 1); the feed can filter across tiers. Lower tiers are intentional — brokers often care more about Tier 2–3 than about Apple.
 
 ## Sources and how to fetch them
 
@@ -177,10 +185,10 @@ One appearance of a signal in one filing. Append-only; skip existing `sighting_i
 | vote_id | uuid4 |
 | signal_id | links to signals.csv |
 | user | name typed in the feed |
-| vote | +1 or -1 |
+| vote | +1 (useful), -1 (not useful), or 0 (skip) |
 | voted_at | ISO timestamp |
 
-Votes are a separate file so several users never overwrite the signals file, and so later weighting has one row per user per vote. A changed vote is a new row, and the latest row per (user, signal) wins.
+Votes are a separate file so several users never overwrite the signals file, and so later weighting has one row per user per vote. A changed vote is a new row, and the latest row per (user, signal) wins. `0` means the user skipped the card; skips do not count in 👍/👎 tallies. The feed hides any signal this profile has already rated or skipped.
 
 ## Feed UI
 
@@ -188,8 +196,8 @@ Votes are a separate file so several users never overwrite the signals file, and
 - API: `GET /api/signals` (each signal with its sightings list and vote tallies), `GET /api/votes?user=NAME`, `POST /api/votes` (append-only; file-locked). Votes: latest row per (user, signal) wins.
 - Sidebar / filter rail: user name (required before voting), plus filters for product category, product family, supply direction, company, role and source.
 - Main area: one card at a time showing company and role, form, date, product family, supply direction, sentiment, the excerpt with matched terms highlighted, and a link to the source. A line reading "Seen in N filings, latest YYYY-MM-DD" expands into the list of sightings, each linked to its filing. Buttons: 👍, 👎, Skip.
-- Order: signals this user hasn't voted on first, then newest `last_seen` first.
-- Each vote is appended to `votes.csv` immediately. The card shows the running 👍/👎 counts from all users.
+- Order: only signals this user hasn't rated or skipped, newest `last_seen` first. Skip persists as `vote=0` so a reload does not re-show those cards.
+- Each vote is appended to `votes.csv` immediately. The card shows the running 👍/👎 counts from all users (skips excluded).
 - **Family view** (second tab, the first step toward steering): a table with one row per product family showing counts of tightening, easing, stable and unclear **signals** (not sightings) in the window. It also shows how many come from suppliers versus buyers, and the date of the latest signal. Clicking a family filters the feed to it. These are plain counts, not a score. The column header shows the lookback window.
 
 ## Repo layout

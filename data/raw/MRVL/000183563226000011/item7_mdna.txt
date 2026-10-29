@@ -1,0 +1,374 @@
+Item 7.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion of our financial condition and results of operations should be read in conjunction with the financial statements and related notes included in this Annual Report on Form 10-K. This discussion contains forward-looking statements based upon current expectations that involve risks and uncertainties, including those discussed under Part I, Item 1A, “Risk Factors.” These risks and uncertainties may cause actual results to differ materially from those discussed in the forward-looking statements.
+Overview
+We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality. Leveraging leading intellectual property and deep system-level expertise, as well as highly innovative security firmware, our solutions are empowering the data economy and enabling the data center and communications and other end markets.
+Our fiscal year is the 52- or 53-week period ending on the Saturday closest to January 31. Accordingly, every fifth or sixth fiscal year will have a 53-week period. The additional week in a 53-week period is added to the fourth quarter, making such quarter consist of 14 weeks. Fiscal 2026 and fiscal 2025 each had a 52-week period. Fiscal 2024 had a 53-week period.
+Net revenue in fiscal 2026 was
+$8.2 billion,
+42% higher than net revenue of $5.8 billion in fiscal 2025. This was due to increases in sales from the data center end market by 46% and from the communications and other end market by 31%. The increase was partially offset by a decrease in sales from our automotive ethernet product portfolio due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.
+Strong revenue growth from our data center market was driven by AI-related demand for our custom products and electro-optics portfolio. Additionally, following a period of inventory correction, we have continued to see revenue recovery in our communication and other end market growing significantly compared to fiscal 2025.
+On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. During the third quarter of fiscal 2026, we recorded a pre-tax gain on sale of $1.8 billion, which is included in interest income and other, net in the Consolidated Statements of Operations.
+Subsequent to our fiscal 2026 year end, on February 2, 2026, we completed the previously announced acquisition of Celestial AI, Inc. (“Celestial”), a provider of a Photonic Fabric
+TM
+ technology platform purpose-built for next-generation scale-up interconnect. The acquisition of Celestial is expected to accelerate our connectivity strategy for next-generation AI and cloud data centers. At acquisition close, we paid approximately $1.3 billion in cash (or $1.0 billion, net of cash acquired of approximately $300.0 million) and issued approximately 24.5 million shares of our common stock. Contingent on the achievement of specified revenue milestones, we may be required to pay additional cash and issue additional shares of our common stock through fiscal 2029.
+Subsequent to our fiscal 2026 year end, on February 10, 2026, we completed the previously announced acquisition of XConn Technologies Holdings, Ltd. (“XConn”), a provider of advanced PCIe and CXL switching silicon, which expands our switching portfolio and augments our Ultra Accelerator Link (“UALink
+TM
+”) scale-up switch team. At acquisition close, we paid approximately $280.0 million in cash and issued approximately 2.1 million shares of our common stock.
+We continue to monitor the environment for potential long-term impact on supply and demand from tariffs.
+We expect that the U.S. government’s export restrictions on certain Chinese customers to continue to impact our revenue. Moreover, concerns that U.S. companies may not be reliable suppliers as a result of these and other actions has caused, and may in the future cause, some of our customers in China to amass large inventories of our products well in advance of need or cause some of our customers to replace our products in favor of products from other suppliers. Customers in China may also choose to develop indigenous solutions, as replacements for products that are subject to U.S. export controls. In addition, there may be indirect impacts to our business that we cannot easily quantify such as the fact that some of our other customers’ products which use our solutions may also be impacted by export restrictions. See also Part I, Item IA, “Risk Factors,” including, but not limited to, the risk detailed under the caption “
+Adverse changes in the political, regulatory and economic policies of governments in connection with trade with China and Chinese customers have reduced the demand for our products and damaged our business.
+”
+49
+Table of Contents
+Government Incentives and Grants.
+We continue to benefit from lower income tax rates in certain jurisdictions through statutory elections or agreements with governmental agencies, which may include a commitment to maintain, or increase, headcount and business investment levels in those jurisdictions. The tax benefits associated with these reduced income tax rates are recorded through our income tax provision for the periods in which such incentive tax rates are effective. However, changes in international taxation, notably the enactment by numerous countries of minimum tax legislation modeled after the Organization for Economic Cooperation and Development’s Pillar Two tax framework, could significantly reduce the income tax benefit associated with these tax incentives. In addition, certain jurisdictions in which we operate are pursuing alternative incentive programs, which operate within the Pillar Two tax framework.
+On May 1, 2025, we received notification that our application for government incentives in a foreign jurisdiction in which we operate had been approved by the necessary government agencies. For the duration of the incentive period from February 2, 2025, through February 1, 2030, qualifying expenditures and certain qualifying purchases will result in the generation of credits that will reduce qualifying cost of sales and operating expenses by the incentives earned, and the credits may be used to offset income taxes payable or be refunded in cash. We believe there is reasonable assurance that we will meet the conditions of the incentive agreement and that the credits will ultimately be received and thus have recognized benefits associated with qualifying expenditures incurred in the current fiscal year.
+Ultimate realization of the incentives is subject to satisfying certain minimum investment levels over the course of the incentive period and government agency reviews and audits of qualifying expenditures. We cannot guarantee that we will achieve the agreed upon investment levels over the incentive period and any failure to meet these investment levels or any change in the current law or government regulations may result in a clawback of some or all of the incentives and a corresponding reversal of any benefit recognized.
+Capital Return Program.
+We remain committed to delivering stockholder value through our stock repurchase and dividend programs. Under the program authorized by our Board of Directors, we may repurchase shares of our common stock in the open-market or through privately negotiated transactions. On September 24, 2025, we executed an accelerated share repurchase agreement (“ASR Agreement”) with a counterparty financial institution to repurchase shares of our common stock in exchange for an upfront payment of $1.0 billion. See “Note 10 – Stockholders’ Equity” in the Notes to Consolidated Financial Statements for additional information. The extent to which we repurchase our stock and the timing of such repurchases will depend upon market conditions, legal rules and regulations, and other corporate considerations, as determined by our management team. During fiscal 2026, we repurchased 26.6 million shares of our common stock for $2.0 billion. As of January 31, 2026, $5.5 billion remained available for future stock repurchases.
+We returned $2.2 billion to stockholders in fiscal 2026 through $2.0 billion in repurchases of our common stock and $205.1 million in cash dividends.
+Cash and Short-Term Investments.
+Our cash and cash equivalents were $2.6 billion at January 31, 2026, which were $1.7 billion higher than our balance at February 1, 2025 of $948.3 million.
+Sales and Customer Composition.
+We regularly monitor the creditworthiness of our distributor and direct customers, and believe these distributors’ sales to diverse end customers and geographies further serve to mitigate our exposure to credit risk.
+Most of our sales are made to customers with operations located outside of the United States, primarily in Asia, and a majority of our products are manufactured outside the United States. Sales shipped to customers with operations in Asia represented approximately 77% of our net revenue in fiscal 2026, 75% of our net revenue in fiscal 2025 and 70% of our net revenue in fiscal 2024. Because many manufacturers and manufacturing subcontractors of our customers are located in Asia, we expect that most of our net revenue will continue to be represented by sales to our customers in that region. For risks related to our global operations, see Part I, Item 1A, “Risk Factors,” including but not limited to the risk detailed under the caption “
+We face additional risks due to the extent of our global operations since a majority of our products, and those of many of our customers, are manufactured and sold outside of the United States. The occurrence of any or a combination of the additional risks described below would significantly and negatively impact our business and results of operations.
+”
+The development process for our products is long, which may cause us to experience a delay between the time we incur expenses and the time revenue is generated from these expenditures. We anticipate that the rate of new orders may vary significantly from quarter to quarter. For risks related to our sales cycle, see Part I, Item 1A, “Risk Factors,” including but not limited to the risk detailed under the caption “
+We are subject to order and shipment uncertainties. If we are unable to accurately predict customer demand, we may hold excess or obsolete inventory, which would reduce our gross margin. Conversely, we may have insufficient inventory or be unable to obtain the supplies or contract manufacturing capacity to meet demand, which would result in lost revenue opportunities and potential loss of market share as well as damaged customer relationships.
+”
+50
+Table of Contents
+To secure capacity over the long term, we have entered into capacity reservation arrangements with certain foundries and partners. See “Note 8 – Commitments and Contingencies” in the Notes to Consolidated Financial Statements for additional information.
+Critical Accounting Policies and Estimates
+The preparation of consolidated financial statements in conformity with accounting principles generally accepted in the United States of America (“GAAP”) requires management to make estimates, judgments and assumptions that affect the reported amounts of assets, liabilities, revenues and expenses, and related disclosure of contingent assets and liabilities. On an ongoing basis, we evaluate our estimates, including those related to revenue recognition, provisions for sales returns and allowances, inventory excess and obsolescence, goodwill and other intangible assets, business combinations, restructuring, government incentives, income taxes, litigation, and other contingencies. We base our estimates of the carrying value of certain assets and liabilities on historical experience and on various other assumptions that are believed to be reasonable under the circumstances when these carrying values are not readily available from other sources. Actual results could differ from these estimates, and such differences could affect the results of operations reported in future periods. In the current macroeconomic environment, these estimates could require increased judgment and carry a higher degree of variability and volatility. We continue to monitor and assess our estimates in light of developments, and as events continue to evolve and additional information becomes available, our estimates may change materially in future periods. We believe the following critical accounting policies affect our more significant judgments and estimates used in the preparation of our consolidated financial statements. For further information on our significant accounting policies, see “Note 2 – Significant Accounting Policies” in the Notes to Consolidated Financial Statements.
+Revenue Recognition.
+We recognize revenue upon transfer of control of promised products or services to customers in an amount that reflects the consideration we expect to receive in exchange for those products or services. Under the revenue recognition standard, we apply the following five step approach: (1) identify the contract with a customer, (2) identify the performance obligations in the contract, (3) determine the transaction price, (4) allocate the transaction price to the performance obligations in the contract, and (5) recognize revenue when a performance obligation is satisfied.
+We enter into contracts that may include various combinations of products and services that are capable of being distinct and accounted for as separate performance obligations. To date, the majority of the revenue has been generated by sales of products as revenue from services has been insignificant. Performance obligations associated with product sales transactions are generally satisfied when control passes to customers upon shipment. Accordingly, product revenue is recognized at a point in time when control of the asset is transferred to the customer. We recognize revenue when we satisfy a performance obligation by transferring control of a product to a customer in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services. For product revenue, the performance obligation is deemed to be the delivery of the product and therefore, the revenue is generally recognized upon shipment to customers, net of accruals for estimated sales returns and rebates. These estimates are based on historical returns, analysis of credit memo data and other known factors. Actual returns could differ from these estimates. We account for rebates by recording reductions to revenue for rebates in the same period that the related revenue is recorded. The amount of these reductions is based upon the terms agreed to with the customer. Some of our sales are made to distributors under agreements allowing for price protection, price discounts and limited rights of stock rotation on products unsold by the distributors. Control passes to the distributor upon shipment, and terms and payment by our distributors is not contingent on resale of the product. Product revenue on sales made to distributors is recognized upon shipment, net of estimated variable consideration. Variable consideration primarily consists of price discounts, price protection, rebates, and stock rotation programs and is estimated based on a portfolio approach using the expected value method derived from historical data, current economic conditions, and contractual terms. Actual variable consideration could differ from these estimates.
+A portion of our net revenue is derived from sales through third-party logistics providers who maintain warehouses in close proximity to our customers’ facilities. Revenue from sales through these third-party logistics providers is not recognized until the product is pulled from stock by the customer.
+Our products are generally subject to warranty, which provides for the estimated future costs of replacement upon shipment of the product. We generally warrant that our products sold to our customers will conform to our approved specifications and be free from defects in material and workmanship under normal use and conditions for one year. We may offer a longer warranty period in limited situations based on product type and negotiated warranty terms with certain customers. The warranty accrual is estimated primarily based on historical claims compared to historical revenues and assumes that we will have to replace products subject to a claim. From time to time, we become aware of specific warranty situations, and we record specific accruals to cover these exposures.
+51
+Table of Contents
+Inventories.
+We value our inventory at the lower of cost or net realizable value, cost being determined under the first-in, first-out method. We regularly review inventory quantities on hand and record a reduction to the total carrying value of our inventory for any difference between cost and estimated net realizable value of inventory that is determined to be excess, obsolete or unsellable inventory based primarily on our estimated forecast of product demand and production requirements. The estimate of future demand is compared to our inventory levels, including open purchase commitments, to determine the amount, if any, of obsolete or excess inventory. Demand for our products can fluctuate significantly from period to period. A significant decrease in demand could result in an increase in the amount of excess inventory on hand. In addition, our industry is characterized by rapid technological change, frequent new product development and rapid product obsolescence that could result in an increase in the amount of obsolete inventory quantities on hand. Additionally, our estimates of future product demand and judgment to determine excess inventory may prove to be inaccurate, in which case we may have understated or overstated the reduction to the total carrying value of our inventory for excess and obsolete inventory. In the future, if our inventory is determined to be overvalued, we would be required to recognize such costs in our cost of goods sold at the time of such determination. Likewise, if our inventory is determined to be undervalued, we may have over-reported our cost of goods sold in previous periods and would be required to recognize additional gross margin at the time the related inventory is sold. Therefore, although we make every effort to ensure the accuracy of our forecasts of future product demand, any significant unanticipated changes in demand or technological developments could have a significant impact on the value of our inventory and our results of operations.
+Accounting for Income Taxes.
+We estimate our income taxes in the jurisdictions in which we operate. This process involves estimating our actual tax expense together with assessing temporary differences resulting from the differing treatment of certain items for tax return and financial statement purposes. These differences result in deferred tax assets and liabilities, which are included in our consolidated balance sheets.
+We recognize income taxes using an asset and liability approach. This approach requires the recognition of taxes payable or refundable for the current year, and deferred tax liabilities and assets for the future tax consequences of events that have been recognized in our consolidated financial statements or tax returns. The measurement of current and deferred taxes is based on provisions of the enacted tax law and the effects of future changes in tax laws or rates are not anticipated.
+Evaluating the need for a valuation allowance for deferred tax assets requires judgment and analysis of all available positive and negative evidence, including recent earnings history and cumulative losses in recent years, reversals of deferred tax liabilities, projected future taxable income, and tax planning strategies to determine whether all or some portion of the deferred tax assets will not be realized. Forming a conclusion that a valuation allowance is not needed is difficult when there is negative evidence such as cumulative losses in recent years. Using available evidence and judgment, we establish a valuation allowance for deferred tax assets, when it is determined that it is more likely than not that they will not be realized. Valuation allowances have been provided primarily against U.S. federal and state research and development credits and certain acquired net operating losses and deferred tax assets of foreign subsidiaries. A change in the assessment of the realizability of deferred tax assets may significantly affect our tax provision in the period in which a change of assessment occurs. Taxes due on Global Intangible Low-Taxed Income (“GILTI”) inclusions in U.S. are recognized as a current period expense when incurred.
+As a multinational corporation, we conduct our business in many countries and are subject to taxation in many jurisdictions. The taxation of our business is subject to the application of various and sometimes conflicting tax laws and regulations as well as multinational tax conventions. Our effective tax rate is highly dependent upon the geographic distribution of our worldwide earnings or losses, the tax laws and regulations in various jurisdictions, the availability of tax incentives, tax credits and loss carryforwards, and the effectiveness of our tax planning strategies, which includes our estimates of the fair value of our intellectual property. The application of tax laws and regulations is subject to legal and factual interpretation, judgment and uncertainty. Tax laws themselves are subject to change as a result of changes in fiscal policy, changes in legislation, and the evolution of regulations and court rulings and tax audits. There can be no assurance that we will accurately predict the outcome of audits, and the amounts ultimately paid on resolution of audits could be significantly different than the amounts previously included in our income tax expense and, therefore, could have a significant effect on our tax provision, results of operations, and cash flows. Consequently, taxing authorities may impose tax assessments or judgments against us that could significantly affect our tax liability and/or our effective income tax rate.
+52
+Table of Contents
+We are subject to income tax audits by the respective tax authorities in the jurisdictions in which we operate. We recognize the effect of income tax positions only if these positions are more likely than not to be sustained. Recognized income tax positions are measured at the largest amount that is more than 50% likely to be realized. Changes in judgment regarding the recognition or measurement of uncertain tax positions are reflected in the period in which the change occurs. We record interest and penalties related to unrecognized tax benefits in income tax expense. The calculation of our tax liabilities involves the inherent uncertainty associated with complex tax laws. We believe we have adequately provided for, in our financial statements, additional taxes that we estimate to be required to be paid as a result of such examinations. While we believe that we have adequately provided for all tax positions, amounts asserted by tax authorities could be greater or less than our accrued position. Unpaid tax liabilities, including the interest and penalties, are released pursuant to a final settlement with tax authorities, completion of audit or expiration of various statutes of limitations. The significant jurisdictions in which we may be subject to examination by tax authorities throughout the world include Germany, India, Israel, Singapore, and the United States.
+The recognition and measurement of current taxes payable or refundable, and deferred tax assets and liabilities require that we make certain estimates and judgments. Changes to these estimates or judgments may have a significant effect on our income tax provision in a future period.
+Long-Lived Assets and Intangible Assets.
+We assess the impairment of long-lived assets and intangible assets whenever events or changes in circumstances indicate that the carrying amount of long-lived assets may not be recoverable. Circumstances which could trigger a review include, but are not limited to the following:
+•
+significant decreases in the market price of the asset;
+•
+significant adverse changes in the business climate or legal factors;
+•
+accumulation of costs significantly in excess of the amount originally expected for the acquisition or construction of the asset;
+•
+current period cash flow or operating losses combined with a history of losses or a forecast of continuing losses associated with the use of the asset; and
+•
+current expectation that the asset will more likely than not be sold or disposed of significantly before the end of its estimated useful life.
+Whenever events or changes in circumstances suggest that the carrying amount of long-lived assets and intangible assets may not be recoverable, we estimate the future cash flows, undiscounted and without interest charges, expected to be generated by the asset from its use or eventual disposition. If the sum of the expected undiscounted future cash flows is less than the carrying amount of those assets, we recognize an impairment loss based on the excess of the carrying amount over the fair value of the assets. Significant management judgment is required in the forecasts of future operating results that are used in the discounted cash flow method of valuation. These significant judgments may include future expected revenue, expenses, capital expenditures and other costs, discount rates and whether or not alternative uses are available for impacted long-lived assets.
+Goodwill.
+We record goodwill when the consideration paid for a business acquisition exceeds the fair value of net tangible and intangible assets acquired. Goodwill is measured and tested for impairment annually on the last business day of our fiscal fourth quarter, and more frequently, if an event occurs or circumstances change that indicate the fair value of the reporting unit may be below its carrying amount. We have identified that our business operates as a single operating segment and as a single reporting unit for the purpose of goodwill impairment testing.
+When testing goodwill for impairment, we first assess qualitative factors to determine whether it is more likely than not that the fair value of a reporting unit is less than its carrying amount or we may determine to proceed directly to the quantitative impairment test.
+Factors we consider important in the qualitative assessment which could trigger a goodwill impairment review include;
+•
+significant underperformance relative to historical or projected future operating results;
+•
+significant changes in the manner of our use of the acquired assets or the strategy for our overall business;
+•
+significant negative industry or economic trends;
+•
+a significant decline in our stock price for a sustained period; and
+•
+a significant change in our market capitalization relative to our net book value.
+53
+Table of Contents
+If we assess qualitative factors and conclude that it is more likely than not that the fair value of a reporting unit is less than its carrying amount, or if we determine not to use the qualitative assessment, then a quantitative impairment test is performed. The quantitative impairment test requires comparing the fair value of the reporting unit to its carrying value, including goodwill. An impairment exists if the fair value of the reporting unit is lower than its carrying value. We would record an impairment loss in the fiscal quarter in which an impairment determination is made. Determining the fair value of a reporting unit involves the use of significant estimates and assumptions.
+As of the last day of the fourth quarter of fiscal 2026, we performed our annual impairment assessment for testing goodwill. A quantitative assessment was performed. Based on our assessment, we determined there was no goodwill impairment.
+Business Combinations.
+We allocate the fair value of the purchase consideration, including any contingent consideration, of a business acquisition to the tangible assets, liabilities, and intangible assets acquired, including in-process research and development (“IPR&D”), based on their estimated fair values. The excess of the fair value of purchase consideration over the fair values of these identifiable assets and liabilities is recorded as goodwill. IPR&D is initially capitalized at fair value as an intangible asset with an indefinite life and assessed for impairment thereafter. When an IPR&D project is completed, the IPR&D is reclassified as an amortizable purchased intangible asset and amortized over the asset’s estimated useful life. The accounting for business combinations requires management to make significant estimates and assumptions, especially with respect to the fair value of intangible assets and contingent consideration, in which we typically use the income approach methodology. Critical estimates used for the valuation of acquired intangible assets can include, but are not limited to, forecasted revenue, expenses, capital expenditures and other costs, and discount rates. Critical estimates used for the valuation of contingent consideration can include, but are not limited to, probability of achievement, stock price, performance period, volatility and other relevant assumptions. We estimate the fair value based upon assumptions we believe to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. Estimates associated with the accounting for acquisitions may change as additional information becomes available regarding the assets acquired and liabilities assumed.
+Results of Operations
+Years Ended January 31, 2026 and February 1, 2025
+The following table sets forth information derived from our Consolidated Statements of Operations expressed as a percentage of net revenue:
+Year Ended
+January 31,
+2026
+February 1,
+2025
+Net revenue
+100.0 
+%
+100.0 
+%
+Cost of goods sold
+49.0 
+58.7 
+Gross profit
+51.0 
+41.3 
+Operating expenses:
+Research and development
+25.3 
+33.9 
+Selling, general and administrative
+9.4 
+13.8 
+Restructuring related charges, net
+0.2 
+6.1 
+Total operating expenses
+34.9 
+53.8 
+Operating income (loss)
+16.1 
+(12.5)
+Interest and other income (loss), net
+21.1 
+(3.0)
+Income (loss) before income taxes
+37.2 
+(15.5)
+Provision (benefit) for income taxes
+4.6 
+(0.2)
+Net income (loss)
+32.6 
+%
+(15.3)
+%
+54
+Table of Contents
+Net Revenue
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions, except percentage)
+Net revenue
+$
+8,194.6 
+$
+5,767.3 
+42.1%
+Our net revenue for fiscal 2026 increased by $2.4 billion compared to net revenue for fiscal 2025. This was primarily due to a 46% increase in sales from the data center end market which benefited from strong AI-related demand. Sales from the communications and other end market also increased by 31%, which has continued to recover due to normalizing customer inventory levels and strong adoption of our products, partially offset by a decrease in sales from our automotive ethernet product portfolio due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.
+Cost of Goods Sold and Gross Profit
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions, except percentages)
+Cost of goods sold
+$
+4,013.9 
+$
+3,385.1 
+18.6%
+% of net revenue
+49.0 
+%
+58.7 
+%
+Gross profit
+$
+4,180.7 
+$
+2,382.2 
+75.5%
+% of net revenue
+51.0 
+%
+41.3 
+%
+Cost of goods sold as a percentage of net revenue decreased for fiscal 2026 compared to fiscal 2025, which was primarily due to impairment charges of $357.9 million for acquired intangible assets, inventories, property and equipment, and other non-current assets associated with restructuring actions during fiscal 2025. See “Note 4 – Restructuring” in the Notes to Consolidated Financial Statements for further information. The decrease in cost of goods sold as a percentage of net revenue was also due to better cost absorption driven by higher revenues, partially offset by a shift in product mix. As a result, gross margin for fiscal 2026 increased by 9.7 percentage points compared to fiscal 2025.
+Research and Development
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions, except percentages)
+Research and development
+$
+2,075.2 
+$
+1,950.4 
+6.4%
+% of net revenue
+25.3 
+%
+33.9 
+%
+Research and development expense increased by $124.8 million in fiscal 2026 compared to fiscal 2025. The increase was primarily due to higher overall spending to support our R&D initiatives, including advanced IP development and customer design win activity.
+Selling, General and Administrative
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions, except percentages)
+Selling, general and administrative
+$
+767.1 
+$
+798.2 
+(3.9)%
+% of net revenue
+9.4 
+%
+13.8 
+%
+Selling, general and administrative expense decreased by $31.1 million in fiscal 2026 compared to fiscal 2025. The decrease was primarily due to lower amortization expense for acquired intangible assets.
+55
+Table of Contents
+Stock-Based Compensation Expense
+Year Ended
+January 31,
+2026
+February 1,
+2025
+(in millions)
+Cost of goods sold
+$
+49.2 
+$
+47.3 
+Research and development
+409.0 
+395.6 
+Selling, general and administrative
+132.6 
+154.5 
+Total stock-based compensation
+$
+590.8 
+$
+597.4 
+Stock-based compensation expense declined slightly in fiscal 2026 compared to fiscal 2025. Stock-based compensation under selling, general and administrative decreased by $21.9 million, and research and development and cost of goods sold increased by $13.4 million and $1.9 million, respectively.
+Restructuring Related Charges, Net
+Year Ended
+January 31,
+2026
+February 1,
+2025
+(in millions, except percentages)
+Restructuring related charges, net
+$
+15.5 
+$
+353.9 
+% of net revenue
+0.2 
+%
+6.1 
+%
+We recognized net restructuring related charges of $15.5 million in fiscal 2026 as we continued to evaluate our existing operations to increase operational efficiency, decrease costs and increase profitability. See “Note 4 – Restructuring” in the Notes to Consolidated Financial Statements for further information.
+Interest and Other Income (Loss), Net
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions, except percentages)
+Interest expense
+$
+(202.6)
+$
+(189.4)
+7.0%
+Interest income and other, net
+1,926.3 
+15.0 
+*
+Interest and other income (loss), net
+$
+1,723.7 
+$
+(174.4)
+*
+% of net revenue
+21.1 
+%
+(3.0)
+%
+*Not meaningful.
+We recognized interest and other income, net of $1.7 billion in fiscal 2026 as compared to interest and other loss, net of $174.4 million in fiscal 2025. The change was primarily due to the $1.8 billion gain on sale of our automotive ethernet business in the third quarter of fiscal 2026.
+Provision (Benefit) for Income Taxes
+Year Ended
+January 31,
+2026
+February 1,
+2025
+% Change
+in fiscal 2026
+(in millions)
+Provision (benefit) for income taxes
+$
+376.5 
+$
+(9.7)
+*
+*Not meaningful.
+The increase in our income tax expense for fiscal 2026 as compared to our income tax benefit for fiscal 2025 was driven by an increase in earnings, which includes the gain on the sale of our automotive ethernet business in fiscal 2026, against losses in fiscal 2025. The income tax expense for fiscal 2026 differs from the U.S. federal statutory tax rate of 21% as a result of foreign income inclusions in the U.S., a portion of our earnings or losses being taxed or benefited at rates lower than the U.S. statutory rate, research and development credit generation, and changes in valuation allowance.
+56
+Table of Contents
+The income tax benefit for fiscal 2025 differs from the U.S. federal statutory tax rate of 21% as a result of foreign income inclusions in the U.S., a portion of our earnings or losses being taxed or benefited at rates lower than the U.S. statutory rate, research and development credit generation, and deductions related to stock compensation.
+The One Big Beautiful Bill Act of 2025 (the “2025 Tax Act”) was signed into law on July 4, 2025. The 2025 Tax Act makes permanent key elements of the 2017 Tax Cuts and Jobs Act, including domestic research cost expensing, 100% bonus depreciation and makes modifications to the U.S. International tax framework. Our tax provision for the January 31, 2026 period includes the impact of the 2025 Tax Act. We will continue to evaluate the impact of the 2025 Tax Act on our income taxes.
+Our provision for incomes taxes may be affected by changes in the geographic mix of earnings with different applicable tax rates, acquisitions or divestitures, changes in the realizability of deferred tax assets, accruals related to contingent tax liabilities and period-to-period changes in such accruals, the results of income tax audits, the expiration of statutes of limitations, the implementation of tax planning strategies, tax rulings, court decisions, settlements with tax authorities and changes in tax laws and regulations. It is also possible that significant negative evidence may become available that causes us to conclude that a valuation allowance is needed on certain of our deferred tax assets, which would adversely affect our income tax provision in the period of such change in judgment.
+We are subject to legislation based on the Organization for Economic Cooperation and Development’s 15% global minimum tax regime which applies to the majority of countries in which we operate. As a result of this legislation, our foreign earnings are generally subject to a minimum tax rate of 15%. On January 5, 2026, the OECD released a comprehensive package of administrative guidance, including the “side-by-side system” that exempts U.S. parented multinational businesses from certain provisions of Pillar Two, specifically the Income Inclusion Rule and the Undertaxed Profits Rule. The OECD guidance provides that the side-by-side system will be effective for fiscal years beginning on or after January 1, 2026. The effects of any future legislation in this area are not yet reasonably estimable, but if such legislation is enacted in the future could have a significant effect on our provision for income taxes, our financial results, and our earnings and cash flows.
+The ultimate realization of deferred tax assets depends upon the generation of future taxable income during the periods in which those assets become deductible or creditable. We evaluate the recoverability of these assets, weighing all positive and negative evidence, and provide or maintain a valuation allowance for these assets if it is more likely than not that some, or all, of the deferred tax assets will not be realized. If negative evidence exists, sufficient positive evidence is necessary to support a conclusion that a valuation allowance is not needed. We consider all available evidence such as our earnings history including the existence of cumulative income or losses, reversals of taxable temporary differences, projected future taxable income, and tax planning strategies. In future periods, it is possible that significant positive or negative evidence could arise that results in a change in our judgment with respect to the need for a valuation allowance, which could result in a tax benefit, or adversely affect our income tax provision, in the period of such change in judgment.
+We also continue to evaluate potential changes to our legal structure in response to guidelines and requirements in various international tax jurisdictions where we conduct business. Additionally, see the information in Part I, Item 1A, “Risk Factors” under the caption “
+Changes in existing taxation benefits, tax rules or tax practices may adversely affect our financial results
+.”
+Our Annual Report on Form 10-K for the fiscal year ended February 1, 2025 includes a discussion and analysis of our financial condition and results of operations for the year ended February 3, 2024 and year-to-year comparisons between the years ended February 1, 2025 and February 3, 2024 in Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations.”
+Liquidity and Capital Resources
+Our principal source of liquidity as of January 31, 2026 consisted of approximately $2.6 billion of cash and cash equivalents, of which approximately $642.0 million was held by subsidiaries outside of the United States, a portion of which are deemed to be indefinitely reinvested. We manage our worldwide cash requirements by, among other things, reviewing available funds held by our foreign subsidiaries and the cost effectiveness by which those funds can be accessed in the United States. See “Note 12 – Income Taxes” in the Notes to Consolidated Financial Statements for further information.
+As of January 31, 2026, we had total borrowings outstanding of $4.5 billion, consisting of senior notes outstanding, of which $499.8 million are due within twelve months.
+During fiscal 2026, we repaid $590.6 million of the principal outstanding of the 5-Year Tranche Loan (“2026 Term Loan”).
+57
+Table of Contents
+On June 30, 2025, we entered into an agreement to amend and restate the credit facility to increase the borrowing capacity to $1.5 billion (as so amended and restated, the “2025 Revolving Credit Facility”). The 2025 Revolving Credit Facility has a 5-year term and a stated floating interest rate which equates to an adjusted term SOFR plus an applicable margin. During the second quarter of fiscal 2026, we repaid $200.0 million on the 2025 Revolving Credit Facility that was outstanding from the first quarter of fiscal 2026. As of January 31, 2026, the 2025 Revolving Credit Facility was undrawn and is available for draw down through June 30, 2030.
+On June 30, 2025, we completed a debt offering and issued (i) $500.0 million of Senior Notes with a 5-year term due in 2030 (“2030 Senior Notes”) and (ii) $500.0 million of Senior Notes with a 10-year term due in 2035 (“2035 Senior Notes”).
+For a description of our contractual obligations including debt, purchase commitments, and leases, see “Note 7 – Debt,” “Note 8 – Commitments and Contingencies” and “Note 9 – Leases” in the Notes to Consolidated Financial Statements. In addition, see “Note 12 – Income Taxes” regarding tax related contingencies and uncertain tax positions in the Notes to Consolidated Financial Statements. We generally expect to satisfy these commitments with cash on hand and cash provided by operating activities.
+On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. In the third quarter of fiscal 2026, we recorded a pre-tax gain on sale of $1.8 billion, which is included in interest income and other, net in the Consolidated Statements of Operations.
+Subsequent to our fiscal 2026 year end, in February 2026, we completed the previously announced acquisitions of Celestial and XConn in which we paid $1.3 billion (or $1.0 billion, net of cash acquired of approximately $300.0 million) and $280.0 million in cash, respectively. We also issued shares of our common stock of approximately 24.5 million shares for Celestial, and approximately 2.1 million shares for XConn. For the Celestial acquisition, contingent on the achievement of specified revenue milestones, we may be required to pay additional cash and issue additional shares of our common stock through fiscal 2029. See “Note 16 – Subsequent Events” in the Notes to Consolidated Financial Statements for discussions of the acquisitions.
+We may elect to factor trade accounts receivable from time to time as part of our overall liquidity and working capital management strategy. During the year ended January 31, 2026, we generated cash from operations from the sale of certain trade accounts receivable on a non-recourse basis to a third-party financial institution pursuant to a factoring arrangement. See “Note 15 – Supplemental Financial Information” in the Notes to Consolidated Financial Statements for additional information.
+We believe that our existing cash and cash equivalents, together with cash generated from operations, and funds from our 2025 Revolving Credit Facility will be sufficient to cover our working capital needs, capital expenditures, investment requirements, any declared dividends, repurchases of our common stock, commitments (including those discussed in “Note 8 – Commitments and Contingencies” in the Notes to Consolidated Financial Statements) for at least the next twelve months. Our capital requirements will depend on many factors, including our rate of sales growth, market acceptance of our products, costs of securing access to adequate manufacturing capacity, the timing and extent of research and development projects and increases in operating expenses, all of which are subject to uncertainty.
+To the extent that our existing cash and cash equivalents, together with cash generated from operations, and funds available under our 2025 Revolving Credit Facility are insufficient to fund our future activities, we may need to raise additional funds through public or private debt or equity financing. We may also acquire additional businesses, purchase assets or enter into other strategic arrangements in the future, which could also require us to seek debt or equity financing. Additional equity financing or convertible debt financing may be dilutive to our current stockholders. If we elect to raise additional funds, we may not be able to obtain such funds on a timely basis or on acceptable terms, if at all. In addition, the equity or debt securities that we issue may have rights, preferences or privileges senior to our common stock.
+Future payment of a regular quarterly cash dividend on our common stock and our planned repurchases of common stock will be subject to, among other things, the best interests of the Company and our stockholders, our results of operations, cash balances and future cash requirements, financial condition, developments in ongoing litigation, statutory requirements under Delaware law, U.S. securities laws and regulations, market conditions and other factors that our Board of Directors may deem relevant. Our dividend payments and repurchases of common stock may change from time to time, and we cannot provide assurance that we will continue to declare dividends or repurchase stock at all or in any particular amounts.
+58
+Table of Contents
+Cash Flows from Operating Activities
+Net cash provided by operating activities was $1.8 billion
+for fiscal 2026 compared to net cash provided by operating activities of $1.7 billion for fiscal 2025. We had a net income of $2.7 billion adjusted for the following non-cash items: gain on sale of our automotive ethernet business of $1.8 billion, amortization of acquired intangible assets of $942.0 million, stock-based compensation expense of $590.8 million, depreciation and amortization of $348.6 million, deferred income tax of $42.2 million, restructuring related gains of $14.0 million, and $109.5 million net loss from other non-cash items. Cash outflow from working capital of $1.1 billion for fiscal 2026 was primarily driven by increases in accounts receivable, inventories, and prepaid expenses and other assets, partially offset by increases in accrued liabilities and other non-current liabilities, and accounts payable. The increase in accounts receivable was primarily due to higher sales in the last two months of fiscal 2026. The increase in inventories is aligned with expected revenue growth. The increase in prepaid expenses and other assets was primarily driven by higher prepaid ship and debits due to higher inventory balances at distributors, and from receivables for government incentives earned. The increase in accrued liabilities and other non-current liabilities was primarily driven by an increase in income taxes payable mainly from taxes on gain from sale of business, and higher ship and debit claims accrual. The increase in accounts payable was primarily due to the timing of payments.
+Net cash provided by operating activities was $1.7 billion for fiscal 2025 compared to net cash provided by operating activities of $1.4 billion for fiscal 2024. We had a net loss of $885.0 million adjusted for the following non-cash items: amortization of acquired intangible assets of $1.1 billion, stock-based compensation expense of $597.4 million, restructuring related impairment charges of $528.8 million, depreciation and amortization of $304.3 million, deferred income tax benefit of $111.9 million and $65.9 million net loss from other non-cash items. Cash inflow from working capital of $129.1 million for fiscal 2025 was primarily driven by a decrease in accounts receivable, and increases in accounts payable, accrued employee compensation, and accrued liabilities and other non-current liabilities, partially offset by an increase in inventories. The decrease in accounts receivable was primarily due to better shipment linearity and increase in distribution reserves on stronger demand. The increase in accounts payable was primarily due to the timing of payments. The increase in accrued employee compensation was primarily due to bonus accrual. The increase in accrued liabilities and other non-current liabilities was primarily driven by higher restructuring accruals, partially offset by lower ship and debit claims accrual due to lower inventory balances at distributors as a result of increased sell through, and decreases in litigation and interest accrual. The increase in inventories was primarily to support improving demand environment.
+Cash Flows from Investing Activities
+Net cash provided by investing activities of $2.1 billion in fiscal 2026 was primarily driven by net proceeds from sale of our automotive ethernet business of $2.5 billion, and proceeds from sales of property and equipment of $27.4 million, partially offset by purchases of property and equipment of $354.1 million.
+Net cash used in investing activities of $300.7 million in fiscal 2025 was primarily driven by the purchases of property and equipment of $284.6 million.
+Cash Flows from Financing Activities
+Net cash used in financing activities of $2.2 billion in fiscal 2026 was primarily attributable to $2.0 billion repurchases of common stock, $790.6 million repayment of debt principal, $240.7 million for tax withholding payments on behalf of employees for net share settlements, $205.1 million for payment for our quarterly dividends, and $128.3 million payments on technology license obligations. These outflows were partially offset by $1.2 billion in proceeds from borrowings and $78.7 million in proceeds from the issuance of our common stock under our equity incentive plans.
+Net cash used in financing activities of $1.4 billion in fiscal 2025 was primarily attributable to $725.0 million repurchases of common stock, $274.9 million for tax withholding payments on behalf of employees for net share settlements, $207.5 million for payment for our quarterly dividends, $153.6 million payments on technology license obligations, and $109.4 million repayment of debt principal. These outflows were partially offset by $87.6 million in proceeds from the issuance of our common stock under our equity incentive plans.
+Recent Accounting Pronouncements
+See “Note 2 – Significant Accounting Policies - Recent Accounting Pronouncements” in our Notes to Consolidated Financial Statements.
+59
+Table of Contents
+Related Party Transactions
+None.

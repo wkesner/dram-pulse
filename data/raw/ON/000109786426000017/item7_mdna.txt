@@ -1,0 +1,735 @@
+Item 2.  Management’s Discussion and Analysis of Financial Condition and Results of Operations
+You should read the following discussion in conjunction with our audited historical consolidated financial statements, which are included in the 2025 Form 10-K, and our unaudited consolidated financial statements for the fiscal quarter ended July 3, 2026, which are included elsewhere in this Form 10-Q. This Management's Discussion and Analysis of Financial Condition and Results of Operations contains statements that are forward-looking. These statements are based on expectations and assumptions as of the date of this Form 10-Q and are subject to risks, uncertainties and other factors. Actual results could differ materially because of the factors discussed below or elsewhere in this Form 10-Q. See Part II, Item 1A. "Risk Factors" of this Form 10-Q and Part I, Item 1A. "Risk Factors" of the 2025 Form 10-K.
+Executive Overview
+onsemi Overview
+ON Semiconductor Corporation ("onsemi," "we," "us," "our," or the "Company"), with its wholly and majority-owned subsidiaries, operates under the onsemi
+TM
+ brand. The Company is organized into three operating and reportable segments: the Power Solutions Group ("PSG"), the Analog and Mixed-Signal Group ("AMG"), and the Intelligent Sensing Group ("ISG").
+We deliver intelligent power and intelligent sensing technologies that enable electrification, energy efficiency, safety, and automation across automotive, industrial, and AI data center end-markets. Our intelligent power technologies enable electrified drivetrain and power management applications in the automotive industry and support efficient fast‑charging systems. Our intelligent sensing technologies enable advanced safety applications in automotive through industry‑leading performance and reliability.
+We believe the evolution of the automotive industry, with advancements in autonomous driving, ADAS, vehicle electrification, and increased electronics content across vehicle platforms, is reshaping the boundaries of transportation. Through sensing integration, we believe our intelligent power solutions achieve increased efficiencies compared to our peers. This integration allows lower temperature operation and reduced cooling requirements while saving costs and minimizing weight. In addition, our power solutions deliver power with less die per module, improving performance efficiency for a given battery or power capacity.
+In the industrial market, our intelligent power technologies propel sustainable energy for the highest efficiency solar strings and industrial power. In the medical field, our intelligent power technologies extend the life of personal diagnostic devices, such as continuous glucose monitors. Our intelligent sensing technologies support the next generation industry through automation, allowing for smarter factories and buildings. Our intelligent power and sensing technologies are enabling robotics and humanoids.
+In our other end-market, which includes AI data center products, our intelligent power technologies enable energy efficiency in a market in which energy needs are growing at an exponential rate, and AI data center operators are focused on reducing energy consumption. We believe we have one of the most comprehensive portfolios of products and technologies for this market to address the complete power tree, and we are well-positioned to benefit as next-generation AI data center processors and racks enter the market.
+Business Strategy Developments
+We are focused on increasing profitable revenue through differentiated technologies to address the high-growth megatrends in automotive, industrial and other markets which include AI data centers. We continue to optimize and right-size our manufacturing footprint to align our capacity with our long-term outlook, while focusing on generating efficiencies that result in meaningful gross margin expansion and operating cash flows. We intend to achieve efficiencies in our operating and capital expenditures and invest in research and development initiatives to accelerate growth in high-margin products.
+Definitive Agreement to Acquire Synaptics Incorporated
+On June 25, 2026, we entered into an Agreement and Plan of Reorganization (the "Merger Agreement") with Sonic Acquisition Corp. and Synaptics Incorporated ("Synaptics"), pursuant to which Synaptics will become a wholly owned subsidiary of onsemi (the “Merger”). At the effective time of the Merger (the “Closing”), each outstanding share of Synaptics common stock, subject to limited exceptions set forth in the Merger Agreement, will be converted into the right to receive 1.350 shares of the Company's common stock. Based on the exchange ratio, we expect Synaptics stockholders will own approximately 12% of the combined company on a pro forma basis upon closing. The Merger Agreement also provides for our assumption of certain
+30
+Table of Contents
+Synaptics equity awards, subject to certain adjustments thereto in respect of, among other things, performance-based vesting conditions. Our Board of Directors unanimously approved the Merger Agreement and the issuance of our common stock in connection with the Merger.
+Pursuant to the Merger Agreement, at the Closing, onsemi will appoint one independent director, designated by onsemi from among those directors serving on the board of directors of Synaptics (“Synaptics Board”) as of immediately prior to the Closing that have been proposed to onsemi by the Synaptics Board for consideration, with such selection to be made after reasonable consultation with, and reasonable consideration of the recommendations of, Synaptics.
+The Merger, which is anticipated to close in mid-2027, is subject to the satisfaction or waiver of customary closing conditions, including, but not limited to, adoption of the Merger Agreement by Synaptics’ stockholders, the expiration or early termination of the waiting period under the HSR Act, and other regulatory approvals under certain antitrust and foreign investment regimes, and the absence of any order, injunction or law of such jurisdictions prohibiting the Merger.
+The parties’ HSR notifications were filed with the FTC and DOJ on July 17, 2026. The 30-day waiting period following the parties’ filings expires at 11:59 pm, Eastern Time, on August 17, 2026, unless extended by the issuance of a Second Request or earlier terminated by the FTC and DOJ.
+The Merger Agreement contains certain termination rights for each of us and Synaptics. In certain circumstances in which the Merger Agreement is terminated, Synaptics may be required to pay us a termination fee of $235.0 million, including if the Merger Agreement is terminated by us due to a change of recommendation by the Synaptics Board, or by Synaptics to enter into a more favorable third-party acquisition proposal, as more fully described in the Merger Agreement. In certain circumstances in which the Merger Agreement is terminated due to the failure to obtain required regulatory approvals, we may be required to pay Synaptics a termination fee of $320.0 million, as more fully described in the Merger Agreement.
+For more information on risks related to the Merger, see Part II, Item 1A. "Risk Factors" of this Form 10-Q.
+2026 Manufacturing Realignment Program
+During the first half of 2026, the Company continued to engage in additional restructuring and cost reduction initiatives under its previously disclosed multi‑year manufacturing realignment program to better align manufacturing capacity and capabilities with anticipated long-term needs.
+We expect to incur total severance costs and related benefit expenses of $25.0 million related to the termination of approximately 650 employees. Of this, approximately $2.5 million and $22.7 million was recognized during the quarter and six months ended July 3, 2026, respectively. We also recorded non-cash impairment charges of $16.3 million and $163.3 million during the quarter and six months ended July 3, 2026, respectively, related to previous investments in manufacturing equipment at certain manufacturing facilities pursuant to held-for-sale accounting guidance. Other charges of $22.4 million and $184.5 million for the quarter and six months ended July 3, 2026, related to contract termination costs and other facility exit activities during the quarter ended July 3, 2026 and accelerated depreciation of leasehold improvements and accelerated amortization of ROU assets that were abandoned in connection with the 2025 and 2026 Manufacturing Realignment Programs during the six months ended  July 3, 2026. The total of the aforementioned costs was included within Restructuring, Asset Impairments and Other, Net in the Consolidated Statement of Operations. We also recorded $13.4 million of restructuring-related charges for the quarter ended July 3, 2026 within Cost of revenue in the Consolidated Statement of Operations.
+For additional information, see Note 5: ''Restructuring, Asset Impairments and Other, Net'' in the notes to our unaudited consolidated financial statements included elsewhere in this Form 10-Q.
+Share Repurchases
+During the quarter ended July 3, 2026, we repurchased approximately 3.1 million shares of common stock for an aggregate purchase price of $334.7 million. During the six months ended July 3, 2026, we repurchased approximately 8.8 million shares of common stock for an aggregate purchase price of $683.3 million. For additional information, see Note 8: ''Earnings Per Share and Equity'' in the notes to our unaudited consolidated financial statements included elsewhere in this Form 10-Q.
+31
+Table of Contents
+Results of Operations
+Quarter Ended July 3, 2026 compared to the Quarter Ended July 4, 2025
+The following table summarizes certain information relating to our operating results that has been derived from our unaudited consolidated financial statements (in millions):
+Quarters Ended
+July 3, 2026
+July 4, 2025
+Dollar Change
+Revenue
+$
+1,603.5 
+$
+1,468.7 
+$
+134.8 
+Cost of revenue
+987.2 
+916.8 
+70.4 
+Gross profit
+616.3 
+551.9 
+64.4 
+Operating expenses:
+Research and development
+140.8 
+143.8 
+(3.0)
+Selling and marketing
+63.3 
+63.3 
+— 
+General and administrative
+101.9 
+91.2 
+10.7 
+Amortization of intangible assets
+10.5 
+11.0 
+(0.5)
+Restructuring, asset impairments and other, net
+41.2 
+49.2 
+(8.0)
+Total operating expenses
+357.7 
+358.5 
+(0.8)
+Operating income
+258.6 
+193.4 
+65.2 
+Other income (expense), net:
+Interest expense
+(13.7)
+(17.9)
+4.2 
+Interest income
+17.4 
+25.2 
+(7.8)
+Other income
+8.6 
+1.5 
+7.1 
+Other income (expense), net
+12.3 
+8.8 
+3.5 
+Income before income taxes
+270.9 
+202.2 
+68.7 
+Income tax provision
+(43.4)
+(30.5)
+(12.9)
+Net income
+227.5 
+171.7 
+55.8 
+Less: Net income attributable to non-controlling interest
+(0.7)
+(1.4)
+0.7 
+Net income attributable to ON Semiconductor Corporation
+$
+226.8 
+$
+170.3 
+$
+56.5 
+32
+Table of Contents
+The following table summarizes certain information relating to our segment results (in millions):
+Quarter Ended July 3, 2026
+As a % of Total
+Quarter Ended July 4, 2025
+As a % of Total
+Dollar Change
+Revenue:
+PSG
+$
+829.0 
+51.7 
+%
+$
+698.2 
+47.5 
+%
+$
+130.8 
+AMG
+545.7 
+34.0 
+%
+555.9 
+37.9 
+%
+(10.2)
+ISG
+228.8 
+14.3 
+%
+214.6 
+14.6 
+%
+14.2 
+Total
+$
+1,603.5 
+100.0 
+%
+$
+1,468.7 
+100.0 
+%
+$
+134.8 
+Cost of revenue:
+PSG
+$
+598.7 
+60.6 
+%
+$
+517.4 
+56.4 
+%
+$
+81.3 
+AMG
+254.5 
+25.8 
+%
+274.1 
+29.9 
+%
+(19.6)
+ISG
+134.0 
+13.6 
+%
+125.3 
+13.7 
+%
+8.7 
+Total
+$
+987.2 
+100.0 
+%
+$
+916.8 
+100.0 
+%
+$
+70.4 
+Gross profit:
+(1)
+PSG
+$
+230.3 
+27.8 
+%
+$
+180.8 
+25.9 
+%
+$
+49.5 
+AMG
+291.2 
+53.4 
+%
+281.8 
+50.7 
+%
+9.4 
+ISG
+94.8 
+41.4 
+%
+89.3 
+41.6 
+%
+5.5 
+Total
+$
+616.3 
+38.4 
+%
+$
+551.9 
+37.6 
+%
+$
+64.4 
+(1)
+ Gross profit margin as a percentage of respective segment revenue balances.
+Revenue
+Revenue was $1,603.5 million and $1,468.7 million for the quarters ended July 3, 2026 and July 4, 2025, respectively, representing an increase of $134.8 million, or approximately 9%, year over year due to increased demand across all end-markets. We had one customer, a distributor, whose revenue accounted for approximately 14% and 12% of our total revenue for each of the quarters ended July 3, 2026 and July 4, 2025, across all reportable segments.
+Revenue from PSG
+Revenue from PSG increased by $130.8 million, or approximately 19%, for the quarter ended July 3, 2026 compared to the quarter ended July 4, 2025 due to increased demand. This was driven by an increase in revenue of $44.5 million, $22.4 million and $63.9 million in the automotive, industrial and other end-markets, respectively.
+Revenue from AMG
+Revenue from AMG decreased by $10.2 million, or approximately 2%, for the quarter ended July 3, 2026 compared to the quarter ended July 4, 2025, primarily driven by a decrease of $11.5 million within the industrial end-market due to lower demand, while the sales within the automotive and other end-markets remained relatively consistent.
+Revenue from ISG
+Revenue from ISG increased by $14.2 million, or approximately 7%, for the quarter ended July 3, 2026 compared to the quarter ended July 4, 2025 due to increased demand. This was driven by an increase in revenue of $2.6 million, $5.6 million and $6.0 million in the automotive, industrial and other end-markets.
+33
+Table of Contents
+Revenue by Geographic Location
+Revenue by geographic location, based on sales billed from the respective country or region, was as follows (dollars in millions):
+ 
+Quarter Ended July 3, 2026
+As a % of
+Total Revenue
+(1)
+ 
+Quarter Ended July 4, 2025
+As a % of
+Total Revenue
+(1)
+Hong Kong
+$
+444.2 
+27.7 
+%
+$
+413.3 
+28.1 
+%
+United Kingdom
+353.9 
+22.1 
+%
+327.4 
+22.3 
+%
+Singapore
+386.4 
+24.1 
+%
+326.9 
+22.3 
+%
+United States
+300.6 
+18.7 
+%
+277.9 
+18.9 
+%
+Other
+118.4 
+7.4 
+%
+123.2 
+8.4 
+%
+Total revenue
+$
+1,603.5 
+$
+1,468.7 
+(1)
+  Certain amounts may not total due to rounding of individual amounts.
+Gross Profit and Gross Margin
+Gross profit increased by $64.4 million, or approximately 12%, to $616.3 million for the quarter ended July 3, 2026 compared to $551.9 million for the quarter ended July 4, 2025 primarily due to increased revenue across all end-markets, improved manufacturing utilization and favorable mix within certain business segments
+Our gross margin increased by 0.8 percentage points from 37.6% for the quarter ended July 4, 2025 to 38.4% for the quarter ended July 3, 2026. The increase was primarily driven by improved manufacturing utilization and favorable mix within certain business segments.
+PSG gross profit increased by $49.5 million, primarily driven by higher revenue across all end‑markets and improved absorption resulting from higher manufacturing utilization. PSG gross margin increased by 1.9 percentage points to 27.8% from 25.9%, primarily due to improved utilization and operating leverage on higher volumes during the quarter ended July 3, 2026.
+AMG gross profit increased by $9.4 million and gross margin increased by 2.7 percentage points to 53.4% from 50.7%, primarily due to a more favorable product mix, including a higher proportion of higher-margin products, which more than offset lower industrial end-market revenue.
+ISG gross profit increased by $5.5 million, primarily driven by higher revenue across all end-markets. ISG gross margin decreased to 41.4% from 41.6%.
+Operating Expenses
+Research and development expenses were $140.8 million for the quarter ended July 3, 2026, as compared to $143.8 million for the quarter ended July 4, 2025, representing a decrease of $3.0 million, or approximately 2%. The decrease was
+ primarily attributable to
+a decrease
+ in production material costs and other variable expenses.
+Selling and marketing expenses were $63.3 million for the quarter ended July 3, 2026, as compared to $63.3 million for the quarter ended July 4, 2025.
+General and administrative expenses were $101.9 million for the quarter ended July 3, 2026, as compared to $91.2 million for the quarter ended July 4, 2025, representing an increase of $10.7 million, or approximately 12%. The increase was
+ primarily attributable to third-party acquisition costs for the proposed Synaptics Merger and higher payroll‑related expenses.
+Other Operating Expenses
+Amortization of Intangible Assets
+Amortization of intangible assets was $10.5 million for the quarter ended July 3, 2026, as compared to $11.0 million for the quarter ended July 4, 2025, representing a decrease of $0.5 million, or approximately 5%.
+34
+Table of Contents
+Restructuring, Asset Impairments and Other, Net
+Restructuring, asset impairments and other, net was $41.2 million for the quarter ended July 3, 2026, as compared to $49.2 million for the quarter ended July 4, 2025. Charges incurred for the quarter ended July 3, 2026 related to restructuring actions during the period. See Note 5: ''Restructuring, Asset Impairments and Other, Net'' in the notes to our unaudited consolidated financial statements included elsewhere in this Form 10-Q for additional information.
+Interest Expense
+Interest expense decreased by $4.2 million to $13.7 million during the quarter ended July 3, 2026, as compared to $17.9 million during the quarter ended July 4, 2025, due to the repayment of the Revolving Credit Facility on December 31, 2025. Our average gross long-term debt for the quarter ended July 3, 2026 was $3,754.9 million at a weighted-average interest rate of 1.5%, as compared to $3,379.9 million at a weighted-average interest rate of 2.1% for the quarter ended July 4, 2025.
+Interest Income
+Interest income decreased by $7.8 million, or approximately 31%, to $17.4 million during the quarter ended July 3, 2026 compared to $25.2 million during the quarter ended July 4, 2025. The decrease was primarily attributable to lower interest rates earned on cash equivalents and short‑term investments.
+Other Income (Expense)
+During the quarter ended July 3, 2026, other income was $8.6 million compared to other income of $1.5 million during the quarter ended July 4, 2025, primarily attributable to increased dividend income.
+Income Tax Provision
+We recorded an income tax provision of $43.4 million and $30.5 million for the quarters ended July 3, 2026 and July 4, 2025, respectively, representing effective tax rates of 16.0% and 15.1%, respectively.
+For additional information, see Note 13: ''Income Taxes'' in the notes to the unaudited consolidated financial statements included elsewhere in this Form 10-Q.
+35
+Table of Contents
+Results of Operations
+Six Months Ended
+
+July 3, 2026 compared to the Six Months Ended July 4, 2025
+The following table summarizes certain information relating to our operating results that has been derived from our unaudited consolidated financial statements (in millions):
+ 
+Six Months Ended
+July 3, 2026
+July 4, 2025
+Dollar Change
+Revenue
+$
+3,116.8 
+$
+2,914.4 
+$
+202.4 
+Cost of revenue
+1,917.4 
+2,068.7 
+(151.3)
+Gross profit
+1,199.4 
+845.7 
+353.7 
+Operating expenses:
+Research and development
+285.1 
+307.9 
+(22.8)
+Selling and marketing
+126.3 
+131.6 
+(5.3)
+General and administrative
+191.3 
+175.6 
+15.7 
+Amortization of intangible assets
+21.0 
+22.4 
+(1.4)
+Restructuring, asset impairments and other, net
+370.5 
+588.5 
+(218.0)
+Total operating expenses
+994.2 
+1,226.0 
+(231.8)
+Operating income (loss)
+205.2 
+(380.3)
+585.5 
+Other income (expense), net:
+Interest expense
+(26.4)
+(35.9)
+9.5 
+Interest income
+35.1 
+51.8 
+(16.7)
+Other income
+12.4 
+5.6 
+6.8 
+Other income (expense), net
+21.1 
+21.5 
+(0.4)
+Income (loss) before income taxes
+226.3 
+(358.8)
+585.1 
+Income tax (provision) benefit
+(31.7)
+45.3 
+(77.0)
+Net income (loss)
+194.6 
+(313.5)
+508.1 
+Less: Net income attributable to non-controlling interest
+(1.2)
+(2.3)
+1.1 
+Net income (loss) attributable to ON Semiconductor Corporation
+$
+193.4 
+$
+(315.8)
+$
+509.2 
+36
+Table of Contents
+The following table summarizes certain information relating to our segment results (in millions):
+Six Months Ended July 3, 2026
+As a % of Total
+Six Months Ended July 4, 2025
+As a % of
+Total
+Dollar Change
+Revenue:
+PSG
+$
+1,565.6 
+50.3 
+%
+$
+1,343.3 
+46.1 
+%
+$
+222.3 
+AMG
+1,086.1 
+34.8 
+%
+1,122.3 
+38.5 
+%
+(36.2)
+ISG
+465.1 
+14.9 
+%
+448.8 
+15.4 
+%
+16.3 
+Total revenue
+$
+3,116.8 
+100.0 
+%
+$
+2,914.4 
+100.0 
+%
+$
+202.4 
+Cost of revenue:
+PSG
+$
+1,134.9 
+59.1 
+%
+$
+1,039.3 
+50.2 
+%
+$
+95.6 
+AMG
+505.3 
+26.4 
+%
+539.6 
+26.1 
+%
+(34.3)
+ISG
+277.2 
+14.5 
+%
+489.8 
+23.7 
+%
+(212.6)
+Total
+$
+1,917.4 
+100.0 
+%
+$
+2,068.7 
+100.0 
+%
+$
+(151.3)
+Gross profit:
+(1)
+PSG
+$
+430.7 
+27.5 
+%
+$
+304.0 
+22.6 
+%
+$
+126.7 
+AMG
+580.8 
+53.5 
+%
+582.7 
+51.9 
+%
+(1.9)
+ISG
+187.9 
+40.4 
+%
+(41.0)
+(9.1)
+%
+228.9 
+Total
+$
+1,199.4 
+38.5 
+%
+$
+845.7 
+29.0 
+%
+$
+353.7 
+(1)
+ Gross profit margin as a percentage of respective segment revenue balances.
+Revenue
+Revenue was $3,116.8 million and $2,914.4 million for the six months ended July 3, 2026 and July 4, 2025, respectively, representing an increase of $202.4 million, or approximately 7%, year over year due to increased demand across all end-markets. We had one customer, a distributor, whose revenue accounted for approximately 13% and 11% of our total revenue for the six months ended July 3, 2026 and July 4, 2025, respectively.
+Revenue from PSG
+Revenue from PSG increased by $222.3 million, or approximately 17%, for the six months ended July 3, 2026 compared to the six months ended July 4, 2025 due to increased demand. This was driven by an increase in revenue of $97.6 million, $29.8 million and $94.9 million in the automotive, industrial and other end-markets, respectively.
+Revenue from AMG
+Revenue from AMG decreased by $36.2 million, or approximately 3%, for the six months ended July 3, 2026 compared to the six months ended July 4, 2025 attributable to lower demand in all end-markets. This was driven by a decrease in revenue of $15.3 million, $6.5 million and $14.4 million in the automotive, industrial and other end-markets, respectively.
+Revenue from ISG
+Revenue from ISG increased by $16.3 million, or approximately 4%, for the six months ended July 3, 2026 compared to the six months ended July 4, 2025 due to increased demand. This was driven by an increase in revenue of $1.2 million, $10.2 million and $4.9 million in the automotive, industrial and other end-markets.
+37
+Table of Contents
+Revenue by Geographic Location
+Revenue by geographic location, based on sales billed from the respective country or region, was as follows (dollars in millions):
+Six Months Ended July 3, 2026
+As a % of
+Total Revenue
+(1)
+ 
+Six Months Ended July 4, 2025
+As a % of
+Total Revenue
+(1)
+Hong Kong
+$
+813.1 
+26.1 
+%
+$
+783.4 
+26.9 
+%
+United Kingdom
+746.1 
+23.9 
+%
+694.9 
+23.8 
+%
+Singapore
+708.6 
+22.7 
+%
+600.7 
+20.6 
+%
+United States
+597.1 
+19.2 
+%
+570.5 
+19.6 
+%
+Other
+251.9 
+8.1 
+%
+264.9 
+9.1 
+%
+Total revenue
+$
+3,116.8 
+$
+2,914.4 
+(1)
+  Certain amounts may not total due to rounding of individual amounts.
+Gross Profit and Gross Margin
+Gross profit increased by $353.7 million, or approximately 42%, to $1,199.4 million for the six months ended July 3, 2026 compared to $845.7 million for the six months ended July 4, 2025 primarily due to the absence of $235.8 million of excess and obsolete inventory charges and a decrease in write-offs of consumables and manufacturing supplies recognized during the six months ended July 4, 2025.
+Our gross margin increased by 9.5 percentage points from 29.0% for the six months ended July 4, 2025 to 38.5% for the six months ended July 3, 2026. The increase was primarily driven by the absence of prior-year excess and obsolete inventory charges and a decrease in consumables write-offs, slightly improved manufacturing utilization and favorable mix within certain business segments, partially offset by lower volumes in select end-markets.
+PSG gross profit increased by $126.7 million, primarily driven by higher revenue across all end-markets and improved absorption resulting from higher manufacturing utilization. PSG gross margin increased by 4.9 percentage points to 27.5% from 22.6%, primarily due to the decrease in write-offs of consumables and manufacturing supplies charge during the six months ended July 4, 2025, as well as improved utilization and operating leverage on higher volumes during the six months ended July 3, 2026.
+AMG gross profit decreased by $1.9 million, primarily driven by the decline in demand across all end-markets. AMG gross margin increased by 1.6 percentage points to 53.5% from 51.9% primarily due to product mix, including a higher proportion of higher-margin offerings, which partially offset the impact of lower overall volume.
+ISG gross profit increased by $228.9 million and gross margin increased to 40.4% from (9.1)%, primarily due to the absence of $230.3 million of excess and obsolete inventory charges recognized during the six months ended July 4, 2025, which did not reoccur during the six months ended July 3, 2026.
+Operating Expenses
+Research and development expenses were
+$285.1 million
+ for the six months ended July 3, 2026, as compared to
+$307.9 million
+ for the six months ended July 4, 2025, representing
+
+a decrease
+ of $22.8 million, or approximately
+7%
+. The decrease was primarily attributable to a decrease in production material costs and other variable expenses.
+Selling and marketing expenses were
+$126.3 million
+ for the six months ended July 3, 2026, as compared to
+$131.6 million
+ for the six months ended July 4, 2025, representing a decrease of $5.3 million, or approximately 4%.
+ The decrease was primarily attributable to lower payroll-related expenses and reduced commission costs.
+General
+and administrative expenses were $191.3 million for the six months ended July 3, 2026, as compared to $175.6 million for the six months ended July 4, 2025, representing
+an increase
+ of $15.7 million, or approximately 9%. The increase was primarily attributable to third-party acquisition costs for the proposed Synaptics Merger and higher payroll-related expenses.
+38
+Table of Contents
+Other Operating Expenses
+Amortization of Intangible Assets
+Amortization of intangible assets was
+$21.0 million
+ and
+$22.4 million
+ for the six months ended July 3, 2026 and July 4, 2025, respectively, representing a decrease of $1.4 million, or approximately 6%.
+Restructuring, Asset Impairments and Other, Net
+Restructuring, asset impairments and other, net was
+$370.5 million
+ for the six months ended July 3, 2026, as compared to
+$588.5 million
+ for the six months ended July 4, 2025, representing a decrease of $218.0 million. Charges incurred for the six months ended July 3, 2026 primarily relate to restructuring actions during the period. See Note 5: ''Restructuring, Asset Impairments and Other, Net'' in the notes to our unaudited consolidated financial statements included elsewhere in this Form 10-Q for additional information.
+Interest Expense
+Interest expense decreased by $9.5 million to
+$26.4 million
+ during the six months ended July 3, 2026, as compared to
+$35.9 million
+ during the six months ended July 4, 2025, due to the repayment of the Revolving Credit Facility on December 31, 2025. Our average gross long-term debt balance for the six months ended July 3, 2026 was $3,754.9 million at a weighted-average interest rate of 2.8%, as compared to $3,379.9 million at a weighted-average interest rate of 2.1% for the six months ended July 4, 2025.
+Interest Income
+Interest income decreased by $16.7 million, or approximately 32%, to
+$35.1 million
+ during the six months ended July 3, 2026 compared to
+$51.8 million
+ during the six months ended July 4, 2025. The decrease was primarily attributable to lower interest rates earned on cash equivalents and short-term investments.
+Other Income (Expense)
+Other income was
+$12.4 million
+ for the six months ended July 3, 2026 as compared to other income of
+$5.6 million
+ for the six months ended July 4, 2025, primarily attributable to increased dividend income.
+Income Tax (Provision) Benefit
+We recorded an income tax provision of
+$31.7 million
+ and income tax benefit of
+$45.3 million
+ during the six months ended July 3, 2026 and July 4, 2025, respectively, representing effective tax rates of 14.0% and 12.6%, respectively.
+For additional information, see Note 13: ''Income Taxes'' in the notes to the unaudited consolidated financial statements included elsewhere in this Form 10-Q.
+Liquidity and Capital Resources
+Overview
+Our principal sources of liquidity are cash on hand, short-term investments, cash generated from operations, available borrowings under our Revolving Credit Facility as well as new debt and/or equity issuances. In the near term, we expect to fund our cash requirements by utilizing any or a combination of these principal sources. Our cash and cash equivalents and short-term investments were approximately $3.9 billion as of July 3, 2026, and the Revolving Credit Facility has approximately $1.5 billion available for future borrowings.
+We require cash to: (i) fund our operating expenses, working capital requirements, outlays for strategic acquisitions and investments; (ii) service our debt, including principal and interest; (iii) incur capital expenditures; and (iv) repurchase our common stock. During the ordinary course of business, we evaluate our cash requirements and, if necessary, adjust our expenditures to reflect the current market conditions and our projected sales and demand. Future capital expenditures may be impacted by events and transactions that are not currently forecasted.
+39
+Table of Contents
+We believe that our cash on hand, cash generated from operations, amounts available under the Revolving Credit Facility are adequate to meet our working capital requirements and other business needs for at least the next 12 months and thereafter for the foreseeable future. Because the pending Synaptics acquisition is structured as an all-stock transaction, the merger consideration is not expected to require a significant use of the Company's cash or other liquidity resources. The ultimate treatment of Synaptics' existing indebtedness following the closing of the transaction is unknown at this time
+We continually evaluate our debt and capital structure and, when appropriate, we have completed and may in the future opportunistically undertake various measure to secure liquidity, repurchase shares of our common stock, reduce interest costs, amend, replace, renew, refinance, redeem or repurchase existing key financing arrangements and, in some cases, extend a portion of our debt maturities to continue to provide us additional operating flexibility.
+Operating Activities
+Our cash flows from operating activities were $698.8 million and $786.6 million for the six months ended July 3, 2026 and July 4, 2025, respectively. The decrease in operating cash flows by $87.8 million was primarily driven by unfavorable changes in working capital, including the timing of cash receipts and payments.
+Net income for the six months ended July 3, 2026 improved compared to the prior‑year period, primarily due to lower non‑cash asset impairment and restructuring‑related charges, partially offset by accelerated depreciation and amortization expense for ROU assets and related improvements that were abandoned in connection with the 2025 and 2026 Manufacturing Realignment Programs. However, these improvements in earnings did not directly translate to higher operating cash flows, as working capital requirements had a more significant impact on cash generation during the period.
+Our ability to generate positive operating cash flows depends on, among other factors, the achievement of revenue targets, management of manufacturing and operating costs and effective management of working capital. The timing of collections from customers, payments to suppliers and inventory management also significantly influences our operating cash flows.
+Investing Activities
+Our cash flows used in investing activities were $9.4 million and $336.6 million for the six months ended July 3, 2026 and July 4, 2025, respectively. The decrease of $327.2 million was primarily attributable to a decrease in capital expenditures and a decrease in the payments for acquisition of a business during the six months ended July 3, 2026. Our capital expenditures as a percentage of revenue were approximately 2%, and we expect capital expenditures of less than
+5
+% of revenue for the year ended December 31, 2026.
+Financing Activities
+Our cash flows provided by financing activities were $678.1 million for the six months ended July 3, 2026 and our cash flows used in financing activities were $617.7 million for the six months ended July 4, 2025. The change of $1,295.8 million was primarily attributable to the issuance of the $1.5 billion 2031 0% Notes during the six months ended July 3, 2026.
+Our 0% Notes will mature on May 1, 2027 unless earlier repurchased or redeemed by the Company or converted pursuant to their terms. We expect to continue our New Share Repurchase Program subject to market conditions, the price of our shares and other factors (including liquidity needs). However, the New Share Repurchase Program may be modified, suspended or terminated by the Board of Directors at any time without prior notice.
+Key Factors Potentially Affecting Liquidity
+We believe that the key factors that could adversely affect our internal and external sources of cash include, among other considerations:
+•
+changes in demand for our products, competitive pricing pressures, supply chain constraints, effective management of our manufacturing capacity, our ability to achieve further reductions in operating expenses, our ability to make progress on the achievement of our business strategy and sustainability goals, the impact of our restructuring programs on our production and cost efficiency, and our ability to make the research and development expenditures required to remain competitive in our business; and
+•
+the debt and equity capital markets could impact our ability to obtain needed financing on acceptable terms or to respond to business opportunities and developments as they arise, including interest rate fluctuations, macroeconomic conditions,
+40
+Table of Contents
+sudden reductions in the general availability of lending from banks or the related increase in cost to obtain bank financing and our ability to maintain compliance with covenants under our debt agreements in effect from time to time.
+Debt Guarantees and Related Covenants
+As of July 3, 2026, we were in compliance with the indentures relating to our 0% Notes, 2031 0% Notes, 0.50% Notes and 3.875% Notes and with covenants included in the Credit Agreement. The 0% Notes, 2031 0% Notes, 0.50% Notes and 3.875% Notes are senior to the existing and future subordinated indebtedness of onsemi and its guarantor subsidiaries, rank equally in right of payment to all of our existing and future senior debt and, as unsecured obligations, are subordinated to all of our existing and future secured debt to the extent of the assets securing such debt.
+Recent Accounting Pronouncements
+For a discussion of recent accounting pronouncements, see Note 3: ''Recent Accounting Pronouncements and Other Developments'' in the notes to the unaudited consolidated financial statements included elsewhere in this Form 10-Q and our 2025 Form 10-K.

@@ -1,0 +1,650 @@
+<DOCUMENT>
+<TYPE>EX-99.1
+<SEQUENCE>2
+<FILENAME>tm263815d3_ex99-1.htm
+<DESCRIPTION>EXHIBIT 99.1
+<TEXT>
+<html>
+  <head>
+    <title>tm263815-3_nonfiling - none - 2.3281418s</title>
+  </head>
+  <body style="margin-left:auto;margin-right:auto;width:595.31pt;">
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="text-align:right; width:456pt;font-weight:bold;">
+          <font style="letter-spacing:-0.2pt;">&#8202;Exhibit 99.1 </font>
+          <br >
+          <font style="letter-spacing:-0.2pt;">&#8202;&#8199;</font>&#8203;</div>
+        <div style="position:relative;margin-top:-0.3pt; text-align:center; width:456pt;">
+          <img src="lg_amazon-bw.jpg" alt="[MISSING IMAGE: lg_amazon-bw.jpg]" height="65" width="213" >
+        </div>
+        <div style="margin-top:22.41pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Dear Shareholders: </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">When I graduated from college, I wanted to be a sportscaster. After sending my resume reel to many small markets around the U.S., and only getting two nibbles, I settled on doing sports production at a major network. To make extra money, I also coached my former high school soccer team, and worked at a retail golf store. Six&#160;months later, a college classmate convinced me to interview at the consumer products company where he worked, and I spent three&#160;years as a Product Manager there. I left that job to try some of my own businesses. After deciding these businesses weren&#8217;t my calling, I tried short stints in sales and investment banking, before going back to graduate school and ending up at Amazon three days after my last final exam in May&#160;1997. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Not exactly a straight line. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">AWS followed lots of squiggly lines, too. The original vision included storage, compute, payments, and human intelligence. Some of those (e.g. storage and compute) became lynchpins in AWS. Others didn&#8217;t succeed. We didn&#8217;t initially plan a database service; and when we built one, our first attempt failed to get traction. We went back to the drawing board and built new relational and non-relational database services, which have resonated well and become core to millions of AWS applications. When we launched EC2 (our compute service), it was a single instance type in one availability zone, Linux-only, with no auto-scaling, load balancing, block storage, or private networking. Over time, we added those capabilities and hundreds more services. AWS was initially attractive to start-ups (companies like DoorDash, Dropbox, Pinterest, Slack, and Stripe were among many that built their businesses on AWS). Pundits said enterprises and governments would never use cloud or AWS for anything substantive. In 2008, Netflix decided to move all of its applications to AWS, then came big commitments from GE, Intuit, and others&#8212;and eventually the CIA chose AWS as their partner to build their classified cloud. Growth came fast and furious, and as it accelerated, so too did our capital expenditures (&#8220;capex&#8221;) with dilutive impact on free cash flow (&#8220;FCF&#8221;). At our 2014 AWS operating plan review, the discussion started with a senior leader at the company musing, &#8220;Tell me again why we&#8217;re doing this business?&#8221; </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">AWS has worked out well for Amazon, but a straight line? Not really. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">There&#8217;s a band I like from New Zealand called &#8220;The Beths,&#8221; who&#8217;ve written several excellent records, with thought-provoking lyrics. I eagerly await their new releases, and when their latest album dropped last summer titled &#8220;Straight Line Was a Lie,&#8221; it made me think about how prescient that expression is. Most long-term endeavors do not follow a linear straight line, up and to the right. Progress jumps around; it&#8217;ll zig up, then sometimes stall, or zag down, or force you back to the starting line. Sometimes, it feels like you&#8217;re running in circles. But, the path is rarely straight. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">That&#8217;s because the world is complex, and new technology, business model invention, competitors, global issues, or people and cultural shifts can come into play. We&#8217;re in the middle of some of the biggest inflections of our lifetime (e.g. AI, robotics, space industrialization, geopolitical and military conflict). And, just as proficient golfers need to be skilled across driving, approach shots, chipping, and putting, durable companies must be adept at managing different elements of inflections. I&#8217;ll share some of our lessons below and why we&#8217;re bullish on what&#8217;s ahead for Amazon. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">Wherever possible, invent the next inflections</font><font style="letter-spacing:0.2pt;">. We try to anticipate what will make customers&#8217; lives easier and better every day, and invent the next inflection. Historically, we&#8217;ve successfully done so in areas like Retail, Logistics, AWS, Ads, Kindle, Alexa, and Pharmacy. There are too many new efforts in flight to mention them all, but will mention a few. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">First, despite many improvements over the&#160;years, customers always want lower costs and faster delivery speed. While we continue to work on productivity and inventory levels, robotics provides a step-level change </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">for how we can deliver faster, reduce the cost of carrying more selection, and automate movements that cause strains and injuries to our teammates. Accelerated by acquiring Kiva in 2012, and investing in numerous robotics initiatives the last 14&#160;years, we now have over one million robots operating in fulfillment centers helping with stowing, picking, sorting, and intra-facility transport. And, we&#8217;ve done this while continuing to be one of the largest job creators in the country. While the above progress is substantial, we&#8217;re still in the early stages of how we&#8217;ll leverage robotics. Expect us to keep innovating on form factors, use case diversity, agility, grasping, and intelligence. And, wherever we can leverage our scale and real-time feedback loop from so many robots in our fulfillment network to build robotics solutions for other industrial and consumer customers, we&#8217;ll explore doing so. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Second, we understand that rural customers are often de-prioritized by logistics and telecom providers because remote communities are more expensive to serve. While other companies have been backing away from these customers, we&#8217;ve been running to them. We&#8217;ve committed over $4&#160;billion to expand our rural delivery network. Customer response has been overwhelmingly positive, with the average number of monthly Same-Day customers in rural areas nearly doubling in 2025 compared to the prior year. Once this expansion is complete, our network will be able to deliver over a billion more packages each year to customers living in over 13,000 zip codes spanning 1,200,000 square miles. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">We&#8217;re also trying to close the digital divide for rural communities. There are billions of people on the planet who lack high-speed internet access, and millions of businesses, governments, and other organizations operating in places without reliable connectivity. If you don&#8217;t have broadband connectivity, you can&#8217;t engage in many of the digital activities (e.g. education, business, information retrieval, shopping, entertainment, etc.) that people take for granted in metropolitan locations. Over the last seven&#160;years, we&#8217;ve built a low Earth orbit satellite network (Amazon Leo) and put more than 200 satellites into space (which is the third-largest low Earth orbit network operating today). With a few thousand more satellites launching in the coming&#160;years, the constellation is expanding rapidly. Apart from enabling this connectivity, Leo will offer three unique benefits. First, the performance will be stronger (about six to eight times better on uplink, and two times better on downlink) than what customers have access to now. Second, this performance will come at a lower cost than alternatives. And third, Leo will seamlessly integrate with AWS to enable enterprises and governments to move data back and forth for storage, analytics, and AI. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">While Amazon Leo is officially scheduled to launch in mid-2026, we already have meaningful revenue commitments from enterprises and governments. Most recently, Delta Airlines, the highest grossing airline in the world, has announced it&#8217;s chosen Amazon Leo for its future Wi-Fi, and will begin with 500 planes in 2028. They join other Leo customers like JetBlue, AT&amp;T, Vodafone, DIRECTV Latin America, Australia&#8217;s National Broadband Network, NASA, and others. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Amazon could be successful for a long time without investing this way in robotics, faster rural delivery, and broadband connectivity for underserved customers and geographies. But, we believe we can invent ways to change what&#8217;s possible for customers, are hungry to do so, and are confident these investments will yield meaningful growth and return on invested capital (&#8220;ROIC&#8221;) for the company. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">Be willing to pursue parallel paths when it&#8217;s unclear what&#8217;ll best drive the desired trajectory (2 &gt; 0)</font><font style="letter-spacing:0.2pt;">. When I was a kid, I used to go to New York Rangers games with my Dad. I loved hockey, and it was high quality time together. I looked up to my Dad (still do), and hung on his every word. One game, my Dad noticed that one of the Rangers&#8217; defensemen, Dallas Smith, had gone missing from the bench, and stood up and exclaimed &#8220;where&#8217;s Dallas?&#8221; to which a nearby fan said, &#8220;in Texas, moron.&#8221; </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">So yes, it&#8217;s fairly obvious 2 is greater than zero. But too often, companies focus on what looks most tidy instead of ensuring they have enough efforts in play to achieve an important outcome. Let&#8217;s go back to fast delivery in our retail business. We know how much customers crave it, and we see higher order completion rates when delivery promises are faster. Just three&#160;years ago, two-day delivery was the gold standard. We pushed that bar to one day, and have been working tirelessly to make it same day. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">We&#8217;ve invented a new, more streamlined fulfillment center format called Same Day Fulfillment Centers (&#8220;SSDs&#8221;). We&#8217;ve built over 85 SSDs across the U.S. that carry our top 90,000 SKUs, and have enabled us to deliver more than 500&#160;million same day&#160;units in 2026 thus far. At the same time, we&#8217;ve continued to </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">pursue Prime Air, our drone delivery service. Prime Air now has a design that&#8217;ll scale, plans to serve communities with 30&#160;million customers by year-end, and expects to deliver half a billion packages by the end of this decade (with an aim to deliver inside 30 minutes). And, over the last year, starting in India and the UAE, we&#8217;ve been working on Amazon Now, ultra-fast delivery on thousands of items within 20 minutes. Customers love this service. In India, where we have more than 360 micro-fulfillment centers (and growing rapidly), Amazon Now orders are increasing 25% month-over-month, with Prime members tripling their shopping frequency once they start using it. We&#8217;re starting to expand Amazon Now in the U.S. and Europe, too. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Some companies may have decided to pursue only one of these efforts, arguing for weeks or&#160;months which one, all the while pursuing none. A reasonable argument could have been made that just delivering same day would have been enough (&#8220;get that done and worry about the other ideas in the future&#8221;). But, building an autonomous delivery drone that can deliver millions of items in 30 minutes doesn&#8217;t take a year. It&#8217;s a multi-year invention cycle. And, ultra-fast delivery from micro-fulfillment centers is already possible and going to happen with or without us. So, we need to have multiple parallel paths to drive this next delivery speed shift. And, we&#8217;ve found that they&#8217;re complementary. The drones will use SSDs as a building block from which to gather selection and launch. And, while Amazon Now will deliver thousands of items within 20 minutes by leveraging micro-fulfillment centers, Prime Air will deliver a much larger selection of items inside a half hour. They will all serve different needs and drive the inflection better as a group than just having one. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Another example of our pursuing multiple paths is Grocery. We started 20&#160;years ago by adding non-perishables (items you&#8217;d find in the middle aisles of grocery stores like consumables, canned goods, beauty, etc.). Customers loved the convenience of buying these items online and having them delivered quickly. Unsurprisingly, they asked for broader grocery coverage, with perishables high on their list. We embarked on several bets to try to find the right economic solution for customers and Amazon. We bought Whole Foods Market (&#8220;WFM&#8221;) in 2017, the leader in organic grocery. We&#8217;ve since launched mainstream physical grocery stores (Amazon Fresh), grocery subscriptions for Prime members, and store-within-a-store concepts (with Amazon offering mainstream brands alongside WFM organic brands). Not all of these experiments have worked, but each one has taught us something important. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">What&#8217;s emerged is a clearer picture of what customers want. Our non-perishables grocery business continues to grow quickly. WFM continues to accelerate, with over 550 stores, 100 more coming in the next few&#160;years, and an additional smaller format (Daily Shop) serving quick, frequent grocery missions in city neighborhoods that&#8217;s off to a great start. And, a big breakthrough has been adding perishables into our Same-Day Delivery network. Bringing fresh groceries (e.g. produce, dairy, meat) together with millions of everyday items in a single, fast order is resonating with customers for the value and convenience it provides. Since introducing perishables into Same-Day Delivery in early 2025, perishables sales have grown by over 40 times, and now make up nine of the top ten most-ordered items for Same-Day Delivery where they&#8217;re available. We have Same-Day fresh food delivery in over 2,300 towns and cities across the country. Our grocery business has grown to over $150&#160;billion in gross sales in 2025, making Amazon the second-largest grocer in the U.S. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">If there&#8217;s an obvious path to changing your trajectory, take it and run. But, most new jumps forward aren&#8217;t like that. There&#8217;s invention and experimentation required, and pursuing multiple paths gives you the best chance to find it. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">When you identify disproportionate inflections, bet big</font><font style="letter-spacing:0.2pt;">. Choosing which inflections are truly seminal versus &#8220;just interesting&#8221; requires judgment. Reasonable people can disagree. But, if you believe you&#8217;ve found one of these disproportionate shifts, you want to invest as aggressively as you responsibly can. This will create investment spikes that will invite scrutiny, but the game-changers don&#8217;t typically accommodate smoother investment horizons. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">One of these seminal shifts is AI. Every customer experience will be reinvented by AI, and there will be a slew of new experiences only possible because of AI. I&#8217;ve followed the public debate on whether this technology is over-hyped, whether we&#8217;re in &#8220;a bubble,&#8221; and if the margins and ROIC will be appealing. My strong conviction, at least for Amazon, is that the answers are no, no, and yes. Here are some truths that are hard to debate. </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">1/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> We have never seen a technology more quickly adopted than AI</font><font style="letter-spacing:0.2pt;">. When ChatGPT launched in November&#160;2022, it reached 100&#160;million users in two&#160;months&#8212;four times faster than TikTok and 15 times faster than Instagram (ChatGPT already has over 900&#160;million weekly active users). Both OpenAI and Anthropic have revenue run rates reportedly approaching $30&#160;billion. These are breathtaking numbers for companies this soon after their commercial launches. When Edison opened his first commercial power station in 1882, most people understood it as a better way to light a room. What they couldn&#8217;t see was that electricity would eventually reorganize every factory, home, and industry on Earth. AI may have comparable impact. The difference is that electricity took 40&#160;years to get where it was going. AI appears to be moving ten times faster. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">2/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> Amazon is smack in the middle of this land rush, and companies are choosing AWS for AI. </font><font style="letter-spacing:0.2pt;">Three&#160;years after AWS launched commercially, it had a $58&#160;million revenue run rate. Three&#160;years into this AI wave, AWS&#8217;s AI revenue run rate is over $15&#160;billion in Q1 2026 (nearly 260 times larger than AWS at that same point)&#8212;</font>&#8203;<font style="letter-spacing:0.2pt;">and ascending rapidly. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Customers are choosing AWS for AI for a few reasons. First, we have broader capabilities than others, with compelling offerings for model-building (SageMaker), high-performance inference with leading selection of frontier models (Bedrock), lower-cost inference (on our custom silicon, Trainium), agent-building (Strands), scalable and secure agent environments (AgentCore), and turnkey agents for coding, software migrations, and most tasks knowledge workers use in their daily routines (Kiro, Transform, and Quick). Second, as customers expand their use of AI, they want their inference to reside near their other applications and data (for latency reasons), and much more of it resides in AWS than anywhere else. Third, as customers expand their AI usage, they consume a lot of additional non-AI services, where AWS also has the broadest and most capable offerings. And fourth, AWS has the strongest security and operational performance of any AI and infrastructure provider. We spend a lot of time listening to customers, and they continue to remark about AWS&#8217;s advantaged performance as they increasingly move their AI to AWS. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">3/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> AWS could be growing even faster</font><font style="letter-spacing:0.2pt;">. AWS added 3.9 gigawatts (&#8220;GW&#8221;) of new power capacity in 2025, expects to double total power capacity by the end of 2027, and is monetizing that capacity as fast as it&#8217;s installed. In Q4 2025, AWS reported 24% YoY growth with a $142&#160;billion dollar revenue run rate. That&#8217;s a lot of absolute growth. And yet, we still have capacity constraints that yield unserved demand. [As an aside, two large AWS customers have already asked if they could buy *all* of our Graviton instance capacity in 2026 (Graviton is our widely-adopted custom CPU chip)&#8212;we can&#8217;t agree to these requests given other customers&#8217; needs, but it gives you an idea of the demand.] </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">4/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> Our chips business is on fire, changes the economics for AWS, and will be much larger than most think. </font><font style="letter-spacing:0.2pt;">Virtually all AI thus far has been done on NVIDIA chips, but a new shift has started. We have a strong partnership with NVIDIA, will always have customers who choose to run NVIDIA, and we will continue to make AWS the best place to run NVIDIA. However, customers want better price-performance. We&#8217;ve seen this movie before. In the CPU space, virtually all of the workloads ran on Intel chips until we invented Graviton in 2018. Graviton, which has up to 40% better price-performance than other x86 processors, is now used expansively by 98% of the top 1,000 EC2 customers. The same story arc is unfolding in AI. Our second version of our custom AI silicon (Trainium2) had about 30% better price-performance than comparable GPUs, and has largely sold out. Trainium3, which just started shipping at the start of 2026 and is 30-40% more price-performant than Trainium2, is nearly fully-subscribed. A significant chunk of Trainium4, which is still about 18&#160;months from broad availability, has already been reserved. And, Amazon Bedrock, AWS&#8217;s primary (and very fast-growing) inference service, runs most of its inference on Trainium. Demand for Trainium is booming. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Having our own hotly demanded AI chip opens up many possibilities, but perhaps none larger than the ability to lower costs for customers and secure better economics for AWS. At scale, we expect Trainium will save us tens of billions of capex dollars per year, and provide several hundred basis points of operating margin advantage versus relying on others&#8217; chips for inference. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Our annual revenue run rate for our chips business (inclusive of Graviton, Trainium, and Nitro&#8212;our EC2 NIC) is now over $20&#160;billion, and growing triple digit&#160;percentages YoY. To dimensionalize this versus other chips companies, that run rate is somewhat understated by our currently only monetizing our chips through EC2. If our chips business was a stand-alone business, and sold chips produced this year to AWS </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">and other third parties (as other leading chips companies do), our annual run rate would be ~$50 billion. There&#8217;s so much demand for our chips that it&#8217;s quite possible we&#8217;ll sell racks of them to third parties in the future. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">5/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> The way AWS&#8217;s cash cycle works is that the faster AWS grows, the more short-term capex we&#8217;ll spend</font><font style="letter-spacing:0.2pt;">. AWS has to lay out cash for land, power, buildings, chips, servers, and networking gear in advance of when we can monetize it (typically 6-24&#160;months before we start billing customers, depending on the component). However, these capex investments fund assets with many-year useful lives (30+ years for datacenters; 5-6&#160;years for chips, servers, and networking gear). The FCF and ROIC for these investments are cumulatively quite attractive a couple&#160;years after being in service; however, in times of very high growth (like now), where the capex growth meaningfully outpaces the revenue growth, the early-years FCF is challenged until these initial tranches of capacity are being monetized and revenue growth out-paces capex growth. We&#8217;ve been through this cycle with the first big AWS growth wave, and liked the results. We expect to feel similarly about this next wave, with much larger potential downstream revenue and FCF. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-style:italic;letter-spacing:0.2pt;">6/</font>&#8203;<font style="font-style:italic;letter-spacing:0.2pt;"> We have customer commitments that make our capex investments predictable</font><font style="letter-spacing:0.2pt;">. We&#8217;re not investing approximately $200 billion in capex in 2026 on a hunch. The recent OpenAI commitment (over $100&#160;billion) is an example of this, but there are several other customer agreements completed (and unannounced), or deep in process. Of the AWS capex we expect to spend in 2026, much of which will be monetized in 2027-2028, we already have customer commitments for a substantial portion of it. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">We are willing to make large capex investments and endure short-term FCF headwinds for the substantial medium to long-term FCF surplus. AI is a once-in-a-lifetime opportunity where the current growth is unprecedented and the future growth even bigger. AWS has a significant leadership position with the broadest functionality, strongest security and operational performance, largest share of customers and revenue, strong desire from customers to run their AI in AWS, and an opportunity to build what could be a new pillar for Amazon in chips. We&#8217;re not going to be conservative in how we play this&#8212;we&#8217;re investing to be the meaningful leader, and our future business, operating income, and FCF will be much larger because of it. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">Accept going back to the starting line to redirect the trajectory</font><font style="letter-spacing:0.2pt;">. When you have a product that&#8217;s working at scale, one of the hardest decisions to make is to go back to the starting line. It feels like going backwards (because it kind of is). Teams understandably argue that they don&#8217;t have time to both run the existing service and reimagine everything anew. But, there are reasons to do so, and AI is making it easier and more imperative to go back to the starting line. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">For instance, in Amazon Bedrock, as often happens with services that get built rapidly and scale faster than expected, the team realized that it needed a different inference engine than had originally been built. This wasn&#8217;t a tweak; it required a completely different architecture. The team was operating a large and fast-growing service, so it wasn&#8217;t ideal. Normally, this sort of activity might take a team of 40 people about a year to carefully build. Instead, the Bedrock team spun up a separable group of six very skilled engineers who were excited about starting over and building on our agentic coding service (Kiro), and delivered this new engine (which we call &#8220;Mantle&#8221;) in 76&#160;days. Mantle has become the backbone of our very successful Bedrock service, which has nearly doubled month-over-month this past March, and processed more tokens in Q1 2026 than all of the tokens processed in the prior&#160;years combined. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Alexa is another interesting example. With 600&#160;million active endpoints across devices, cars, offices, Fire TV, and Prime Video, Alexa has scale and a very large customer base. But, when transformative technology like generative AI arrives, and you can build a much more intelligent product than you previously had, you have to pursue it&#8212;even if it&#8217;s disruptive to your team, roadmap, and architecture. The new Alexa+ is so much more capable, useful, and smart than her prior self. But, we had to completely rewire her brain, corresponding intelligence, breadth of knowledge, routing of services and APIs she accesses, and what routines and jobs she could do. The team had to make these changes while also serving the existing large customer base, and execute a roll out that didn&#8217;t break all the functionality on which so many customers have come to rely. It&#8217;s been worth it. Customers are talking to Alexa twice as much (and for longer durations across a wider breadth of topics), completing purchases on devices three times more, streaming music 25% more, and using smart home functionality 50% more. Alexa is still early in its journey to be the world&#8217;s best personal assistant. But, it wouldn&#8217;t be on its way again without going back to the start. </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">If you believe that every customer experience will be reinvented in the coming&#160;years by AI, it means even the customer experiences that feel most comfy, and are most broadly adopted, will be reimagined. Take our retail business. We believe that customers will always care deeply about massive selection, low prices, very fast delivery, ease of use, and how they&#8217;re treated. Amazon has built a lot of capabilities that position us well to meet these customer needs for&#160;years to come. However, it&#8217;s not hard to imagine with the emergence of AI, that the interface with which customers want to interact with a retailer could be substantially different over time. The temptation is to just add a little AI to the existing experience. That&#8217;s a start. But, the trick for leaders, ourselves included, is how to get organized and convicted about going back to the starting line and reimagining your experiences from a clean sheet of paper, assuming you were building with the new technology available. It&#8217;s easier to say than do. But, it&#8217;s what we&#8217;re doing in all of our consumer experiences. It may take us a while to find experiences better than what we have now, and it may take consumers time to adopt these new experiences. But, history shows the &#8220;straight line was a lie.&#8221; Everything gets reinvented. And, if you want to be finding that next zig, you need to be willing to go back to first principles. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">Cultivate a culture that can cope with squiggly lines</font><font style="letter-spacing:0.2pt;">. You may be operating successfully for several&#160;years, when an inflection shatters this placidity. Sometimes, teams live in denial that a big change is afoot, as it can be threatening to change course. The historical business landscape is littered with companies that wished away big new inflections to their own detriment (and we have been the beneficiary of a few). </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Here&#8217;s some of what I&#8217;ve learned over the past 28&#160;years at Amazon. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You need to have the right data, mechanisms, and truth-tellers to deeply question what&#8217;s changed and should therefore be done. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You have to have people and a culture that are comfortable operating with ambiguity as you sort through the new normal. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You need to invent and experiment like crazy. Many of these experiments will fail, and it might feel like you&#8217;re getting nowhere. But, your culture must possess the tenacity to keep at it. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You need to learn constantly. Each attempt you (and others) make provides insight on what customers really want. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You need to move fast, have teammates that act like true owners, and be scrappy. At Amazon, we talk a lot about operating like the world&#8217;s biggest startup. It&#8217;s the primary reason we&#8217;ve worked to flatten our organization the last year, and we&#8217;re pleased with the improved speed of decision-making and delivery. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You have to be comfortable potentially over-rotating when pursuing one of these big needle-movers. You may end up investing a little more than needed, but it&#8217;s better to capture most of the transformational upside than to miss much of it by cutting it too fine. And then, if you learn something new that requires course correcting, do it quickly. Inflections aren&#8217;t usually smooth or calm. They favor the bold and adaptable. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You have to be adept at both inventing the inflections and recognizing when others have started ones that you should pursue as well. We tend to be first-movers, but have had several big successes where we didn&#8217;t enter first. In each of these cases, we haven&#8217;t just duplicated what others have done (when we&#8217;ve done that, we haven&#8217;t succeeded). Rather, we&#8217;ve been inspired by new ideas, and invented unique experiences that appeal to our customers. It takes a different type of grit and resolve than when you&#8217;re first to an idea. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">You have to be willing to reimagine not only every customer experience, but also how you organize and get work done. Challenging conventions that have existed a long time (and worked) is difficult. People sometimes call these &#8220;change management&#8221; obstacles. That&#8217;s true, but in times of transformational tumult, they&#8217;re almost like reexamining your faith. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">And, you have to be able to withstand criticism as you&#8217;re making your way through an inflection. We have historically shared that we&#8217;re &#8220;comfortable being misunderstood for long periods of time.&#8221; This resolve is required when you&#8217;re inventing in general, but particularly when you&#8217;re in the middle of a meaningful change where there&#8217;s uncertainty and conflicting opinions. </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:68pt;width:456pt;">
+        <div style="width:456pt; line-height:12pt;">
+          <font style="font-weight:bold;letter-spacing:-0.2pt;">Parting thoughts</font><font style="letter-spacing:0.2pt;">. Amazon had another strong year in 2025. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Amazon&#8217;s revenue in 2025 grew 12% year-over-year (&#8220;YoY&#8221;) from $638&#160;billion to $717&#160;billion. By segment, North America revenue increased 10% YoY from $387&#160;billion to $426&#160;billion, International revenue grew 13% YoY from $143&#160;billion to $162&#160;billion, and AWS revenue increased 20% YoY, from $108&#160;billion to $129&#160;billion. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Amazon&#8217;s operating income in 2025 improved 17% YoY, from $69&#160;billion (an operating margin of 10.8%) to $80&#160;billion (an operating margin of 11.2%). </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Free Cash Flow decreased from $38&#160;billion to $11&#160;billion, driven primarily by a year-over-year increase of $50.7&#160;billion in purchases of property and equipment, net of proceeds from sales and incentives. This FCF change primarily reflects capex investments in artificial intelligence. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">It&#8217;s hard to overstate my optimism for what&#8217;s ahead. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Our retail business is now approaching $600&#160;billion in topline, yet roughly 80% of global retail sales still happens in physical stores. That will change. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">AWS is at a $142&#160;billion revenue run rate, and yet 85% of global IT spend remains on-premises. This will change. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Our Advertising offerings continue to grow and deliver strong returns for brands, while newer businesses like Prime Video, Pharmacy, and Grocery are providing unique customer experiences, growing robustly, and improving their economics. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">We&#8217;re on the verge of launching Amazon Leo, just beginning commercial service with Zoox (our autonomous-driving ride-hailing service), and still quite early in what we&#8217;ll build in robotics. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Across all of this, AI is not a standalone initiative&#8212;it&#8217;s a multiplier. It will reshape every customer experience we offer and unlock entirely new ones. We will build many of these ourselves, and continue making AWS the best place for others to do the same. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Progress will not be linear. There will be moments of acceleration and moments where we adjust course. We will experiment, invest disproportionately behind what matters, and pull back when something isn&#8217;t working. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">This is the environment where Amazon does its best work. We&#8217;ve built a culture that thrives in constantly changing circumstances by being inventive, comfortable operating along multiple paths, revisiting first principles, and committing fully to the ideas that can meaningfully improve customers&#8217; lives. As always, we&#8217;ll optimize for what matters most to customers and shareholders over the long term. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Thank you to our teammates for everything you&#8217;ve done this past year and for what&#8217;s ahead. I look forward to pursuing this amazing adventure together. </font>
+        </div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Sincerely,</font>
+        </div>
+        <div style="position:relative;margin-top:2pt; width:456pt;">
+          <img src="sg_andyjassy-bw.jpg" alt="[MISSING IMAGE: sg_andyjassy-bw.jpg]" height="79" width="196" >
+        </div>
+        <div style="margin-top:5pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Andy Jassy </font> <br ><font style="letter-spacing:0.2pt;">President and Chief Executive Officer </font> <br ><font style="letter-spacing:0.2pt;">Amazon.com, Inc. </font></div>
+        <div style="margin-top:8pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">P.S. As we have always done, our original 1997 Shareholder Letter follows. What&#8217;s written there is as true today as it was in 1997.</font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:13.15pt;height:648pt;margin-left:56pt;width:480pt;">
+        <div style="position:relative;text-align:center; width:480pt;">
+          <img src="lg_amazoncom-bw.jpg" alt="[MISSING IMAGE: lg_amazoncom-bw.jpg]" height="56" width="279" >
+        </div>
+        <div style="margin-top:19pt; text-align:center; width:480pt; line-height:14pt;font-weight:bold;font-size:12pt;">
+          <font style="letter-spacing:-0.24pt;">1997 LETTER TO SHAREHOLDERS</font><font style="font-size:10pt;">&#8203;<font style="letter-spacing:-0.2pt;"> </font></font>
+        </div>
+        <div style="margin-top:2pt; text-align:center; width:480pt; line-height:12pt;font-weight:bold;">
+          <font style="letter-spacing:-0.2pt;">(Reprinted from the 1997 Annual Report)</font><font style="font-weight:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">To our shareholders: </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Amazon.com passed many milestones in 1997: by year-end, we had served more than 1.5&#160;million customers, yielding 838% revenue growth to $147.8&#160;million, and extended our market leadership despite aggressive competitive&#160;entry. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">But this is Day 1 for the Internet and, if we execute well, for Amazon.com. Today, online commerce saves customers money and precious time. Tomorrow, through personalization, online commerce will accelerate the very process of discovery. Amazon.com uses the Internet to create real value for its customers and, by doing so, hopes to create an enduring franchise, even in established and large markets. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">We have a window of opportunity as larger players marshal the resources to pursue the online opportunity and as customers, new to purchasing online, are receptive to forming new relationships. The competitive landscape&#160;has continued to evolve at a fast pace. Many large players have moved online with credible offerings and have devoted substantial energy and resources to building awareness, traffic, and sales. Our goal is to move quickly to solidify and extend our current position while we begin to pursue the online commerce opportunities in&#160;other areas. We see substantial opportunity in the large markets we are targeting. This strategy is not without risk:&#160;it requires serious investment and crisp execution against established franchise leaders. </font>
+        </div>
+        <div style="margin-top:12pt; width:480pt; line-height:12pt;font-style:italic;">
+          <font style="letter-spacing:0.2pt;">&nbsp;&nbsp;&nbsp;It&#8217;s All About the Long Term</font><font style="font-style:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:6pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">We believe that a fundamental measure of our success will be the shareholder value we create over the </font><font style="font-style:italic;letter-spacing:0.2pt;">long term</font><font style="letter-spacing:0.2pt;">. This value will be a direct result of our ability to extend and solidify our current market leadership position. The stronger our market leadership, the more powerful our economic model. Market leadership can translate directly to higher revenue, higher profitability, greater capital velocity, and correspondingly stronger returns on invested capital. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Our decisions have consistently reflected this focus. We first measure ourselves in terms of the metrics most indicative of our market leadership: customer and revenue growth, the degree to which our customers continue to purchase from us on a repeat basis, and the strength of our brand. We have invested and will continue to invest aggressively to expand and leverage our customer base, brand, and infrastructure as we move to establish an enduring franchise. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">Because of our emphasis on the long term, we may make decisions and weigh tradeoffs differently than some&#160;companies. Accordingly, we want to share with you our fundamental management and decision-making approach so that you, our shareholders, may confirm that it is consistent with your investment philosophy: </font>
+        </div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will continue to focus relentlessly on our customers. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will continue to make investment decisions in light of long-term market leadership considerations rather than short-term profitability considerations or short-term Wall Street reactions. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will continue to measure our programs and the effectiveness of our investments analytically, to jettison&#160;those that do not provide acceptable returns, and to step up our investment in those that work best. We will continue to learn from both our successes and our failures. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:always; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;height:648pt;margin-left:56pt;width:480pt;">
+        <div style=" float:left; margin-left:20pt; line-height:12pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will make bold rather than timid investment decisions where we see a sufficient probability of gaining&#160;market leadership advantages. Some of these investments will pay off, others will not, and we will&#160;have learned another valuable lesson in either case. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">When forced to choose between optimizing the appearance of our GAAP accounting and maximizing the&#160;present value of future cash flows, we&#8217;ll take the cash flows. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will share our strategic thought processes with you when we make bold choices (to the extent competitive&#160;pressures allow), so that you may evaluate for yourselves whether we are making rational long-term leadership investments. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will work hard to spend wisely and maintain our lean culture. We understand the importance of continually reinforcing a cost-conscious culture, particularly in a business incurring net losses. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will balance our focus on growth with emphasis on long-term profitability and capital management. At&#160;this stage, we choose to prioritize growth because we believe that scale is central to achieving the potential&#160;of our business model. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We will continue to focus on hiring and retaining versatile and talented employees, and continue to weight&#160;their compensation to stock options rather than cash. We know our success will be largely affected&#160;by&#160;our ability to attract and retain a motivated employee base, each of whom must think like, and&#160;therefore must actually be, an owner. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">We aren&#8217;t so bold as to claim that the above is the &#8220;right&#8221; investment philosophy, but it&#8217;s ours, and we would&#160;be remiss if we weren&#8217;t clear in the approach we have taken and will continue to take. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">With this foundation, we would like to turn to a review of our business focus, our progress in 1997, and our outlook for the future. </font>
+        </div>
+        <div style="margin-top:12pt; width:480pt; line-height:12pt;font-style:italic;">
+          <font style="letter-spacing:0.2pt;">&nbsp;&nbsp;&nbsp;Obsess Over Customers</font><font style="font-style:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:6pt; width:480pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">From the beginning, our focus has been on offering our customers compelling value. We realized that the Web was, and still is, the World Wide Wait. Therefore, we set out to offer customers something they simply could&#160;not get any other way, and began serving them with books. We brought them much more selection than was possible in a physical store (our store would now occupy 6 football fields), and presented it in a useful, easy-</font>
+          <br >
+          <font style="letter-spacing:0.2pt;">to&#8209;search, and easy-to-browse format in a store open 365&#160;days a year, 24 hours a day. We maintained a dogged focus&#160;on improving the shopping experience, and in 1997 substantially enhanced our store. We now offer customers gift certificates, 1-Click</font><font style=" position:relative; bottom:4.25pt;font-size:7.5pt;letter-spacing:0.15pt;">SM</font><font style="letter-spacing:0.2pt;"> shopping, and vastly more reviews, content, browsing options, and recommendation features. We dramatically lowered prices, further increasing customer value. Word of mouth remains the most powerful customer acquisition tool we have, and we are grateful for the trust our customers have&#160;placed in us. Repeat purchases and word of mouth have combined to make Amazon.com the market leader in online bookselling. </font>
+        </div>
+        <div style="margin-left:20pt; margin-top:10pt; width:460pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">By many measures, Amazon.com came a long way in 1997: </font>
+        </div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Sales grew from $15.7&#160;million in 1996 to $147.8&#160;million&#8201;&#8211;&#8201;an 838% increase. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Cumulative customer accounts grew from 180,000 to 1,510,000&#8201;&#8211;&#8201;a 738% increase. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">The&#160;percentage of orders from repeat customers grew from over 46% in the fourth quarter of 1996 to over&#160;58% in the same period in 1997. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">In terms of audience reach, per Media Metrix, our Web site went from a rank of 90th to within the </font>
+          <br >
+          <font style="letter-spacing:0.2pt;">top 20. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:6pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:6pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">We established long-term relationships with many important strategic partners, including America Online,&#160;Yahoo!, Excite, Netscape, GeoCities, AltaVista, @Home, and Prodigy. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+    <div style="page-break-after:avoid; width:595.3pt;margin-left:auto;margin-right:auto;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif ;font-size:10pt;">
+      <div style="padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;">&#8203;</div>
+      <div style="margin-top:15.85pt;height:24pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:17pt; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <div style="margin-top:16.15pt;margin-left:56pt;width:480pt;">
+        <div style="width:480pt; line-height:12pt;font-style:italic;">
+          <font style="letter-spacing:0.2pt;">&nbsp;&nbsp;&nbsp;Infrastructure</font><font style="font-style:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:4pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">During 1997, we worked hard to expand our business infrastructure to support these greatly increased traffic, sales, and service levels: </font>
+        </div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:5.8pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:5.8pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Amazon.com&#8217;s employee base grew from 158 to 614, and we significantly strengthened our management&#160;team. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:5.81pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:5.81pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Distribution center capacity grew from 50,000 to 285,000 square feet, including a 70% expansion of our Seattle facilities and the launch of our second distribution center in Delaware in November. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:5.8pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:5.8pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Inventories rose to over 200,000 titles at year-end, enabling us to improve availability for our customers. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style=" float:left; margin-left:20pt; line-height:12pt; margin-top:5.8pt; margin-bottom:0pt; text-align:left; width:10pt;white-space:nowrap;">
+          <font style="letter-spacing:0.2pt;">&#8226;</font>
+          <br >
+        </div>
+        <div style=" margin-top:5.8pt; margin-bottom:0pt; line-height:12pt; text-align:left; margin-left:30pt;">
+          <!--blacklining:none;-->
+          <font style="letter-spacing:0.2pt;">Our cash and investment balances at year-end were $125&#160;million, thanks to our initial public offering in May&#160;1997 and our $75&#160;million loan, affording us substantial strategic flexibility. </font>
+        </div>
+        <div style="clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;">&#8203;</div>
+        <div style="margin-top:12pt; width:480pt; line-height:12pt;font-style:italic;">
+          <font style="letter-spacing:0.2pt;">&nbsp;&nbsp;&nbsp;Our Employees</font><font style="font-style:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:4pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">The past year&#8217;s success is the product of a talented, smart, hard-working group, and I take great pride in being a part of this team. Setting the bar high in our approach to hiring has been, and will continue to be, the single most important element of Amazon.com&#8217;s success. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">It&#8217;s not easy to work here (when I interview people I tell them, &#8220;You can work long, hard, or smart, but at Amazon.com you can&#8217;t choose two out of three&#8221;), but we are working to build something important, something that matters to our customers, something that we can all tell our grandchildren about. Such things aren&#8217;t meant to be easy. We are incredibly fortunate to have this group of dedicated employees whose sacrifices and passion build Amazon.com. </font>
+        </div>
+        <div style="margin-top:12pt; width:480pt; line-height:12pt;font-style:italic;">
+          <font style="letter-spacing:0.2pt;">&nbsp;&nbsp;&nbsp;Goals for 1998</font><font style="font-style:normal;letter-spacing:0.2pt;"> </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:4pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">We are still in the early stages of learning how to bring new value to our customers through Internet commerce and merchandising. Our goal remains to continue to solidify and extend our brand and customer base. This requires sustained investment in systems and infrastructure to support outstanding customer convenience, selection, and service while we grow. We are planning to add music to our product offering, and over time we believe&#160;that other products may be prudent investments. We also believe there are significant opportunities to better&#160;serve our customers overseas, such as reducing delivery times and better tailoring the customer experience. To be certain, a big part of the challenge for us will lie not in finding new ways to expand our business, but in prioritizing our investments. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">We now know vastly more about online commerce than when Amazon.com was founded, but we still have so&#160;much to learn. Though we are optimistic, we must remain vigilant and maintain a sense of urgency. The challenges and hurdles we will face to make our long-term vision for Amazon.com a reality are several: aggressive,&#160;capable, well-funded competition; considerable growth challenges and execution risk; the risks of product and geographic expansion; and the need for large continuing investments to meet an expanding market opportunity. However, as we&#8217;ve long said, online bookselling, and online commerce in general, should prove to be&#160;a&#160;very large market, and it&#8217;s likely that a number of companies will see significant benefit. We feel good about what we&#8217;ve done, and even more excited about what we want to do. </font>
+        </div>
+        <div style="text-indent:20pt; margin-top:10pt; width:480pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">1997 was indeed an incredible year. We at Amazon.com are grateful to our customers for their business and trust, to each other for our hard work, and to our shareholders for their support and encouragement. </font>
+        </div>
+        <div style="position:relative;margin-left:240pt; margin-top:17.9pt; width:240pt;">
+          <img src="sg_jeffreypbezos-bw.jpg" alt="[MISSING IMAGE: sg_jeffreypbezos-bw.jpg]" height="61" width="175" >
+        </div>
+        <div style="margin-left:240pt; margin-top:14.8pt; width:240pt; line-height:11.5pt;">
+          <font style="letter-spacing:0.2pt;">Jeffrey P. Bezos </font>
+          <br >
+          <font style="letter-spacing:0.2pt;">Founder and Chief Executive Officer </font>
+          <br >
+          <font style="letter-spacing:0.2pt;">Amazon.com, Inc. </font>
+        </div>
+      </div>
+      <div style="margin-top:3.85000000000002pt;margin-bottom:35.86pt;margin-left:68pt;width:456pt;">
+        <div style="margin-top:5pt; text-align:center; width:456pt; line-height:12pt;">
+          <font style="letter-spacing:0.2pt;">&#160;</font>
+          <br >
+        </div>
+      </div>
+      <hr >
+    </div>
+
+          <br >
+
+  <script type="text/javascript"  src="/A18y7y/wfl/p5a/prfhHA/uE7frNXrkQV6Qtz3/PW0JTHkTAQ/Ei/dlCwgZJ3E"></script></body>
+</html>
+</TEXT>
+</DOCUMENT>

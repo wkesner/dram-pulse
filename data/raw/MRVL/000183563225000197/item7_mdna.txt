@@ -1,0 +1,535 @@
+Item 2.
+
+Management’s Discussion and Analysis of Financial Condition and Results
+
+of Operations
+This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), which are subject to the “safe harbor” created by those sections. These statements involve known and unknown risks, uncertainties and other factors, which may cause our actual results to differ materially from those implied by the forward-looking statements. Words such as “anticipates,” “expects,” “intends,” “plans,” “projects,” “believes,” “seeks,” “estimates,” “forecasts,” “targets,” “may,” “can,” “will,” “would” and similar expressions identify such forward-looking statements.
+Forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially from those indicated in the forward-looking statements. Factors that could cause actual results to differ materially from those predicted include, but are not limited to:
+•
+risks related to our ability to design, develop and introduce new and enhanced products, in particular in the Artificial Intelligence (“AI”), Cloud and 5G markets, in a timely and effective manner, as well as our ability to anticipate and adapt to changes in technology;
+•
+risks related to our dependence on a few customers for a significant portion of our revenue, particularly as our major customers comprise an increasing percentage of our revenue, as well as risks related to a significant portion of our sales being concentrated in the data center end market, and risks related to the gain or loss of design wins with our key customers;
+•
+risks related to changes in general macroeconomic conditions such as economic slowdowns, inflation, stagflation, high or rising interest rates, financial institution instability, and recessions;
+•
+risks related to tariffs and trade restrictions with China, Russia and other foreign nations including risks related to the ability of our customers, particularly in jurisdictions such as China that may be subject to trade restrictions (including the need to obtain export licenses) to develop their own solutions, vertically integrate which may reduce the need for our products, or acquire fully developed solutions from third parties;
+•
+risks related to our ability to execute on changes in strategy and realize the expected benefits from restructuring activities;
+•
+risks related to cancellations, rescheduling or deferrals of significant customer orders or shipments, as well as the ability of our customers to manage inventory;
+•
+risks related to our ability to successfully integrate and to realize anticipated benefits or synergies, on a timely basis or at all, in connection with our past, current, or any future acquisitions, divestitures, significant investments or strategic transactions;
+•
+risks related to the highly competitive nature of the end markets we serve, particularly within the semiconductor and infrastructure industries;
+•
+risks related to our ability to maintain a competitive cost structure for our manufacturing, assembly, testing and packaging processes and our reliance on third parties to produce our products;
+•
+risks related to our ability to attract, retain and motivate a highly skilled workforce, especially engineering, managerial, sales and marketing employees;
+•
+risks related to any current and future litigation, regulatory investigations, or contractual disputes with customers that could result in substantial costs and a diversion of management’s attention and resources that are needed to successfully maintain and grow our business;
+•
+risks related to our ability to scale our business;
+•
+cybersecurity risks;
+•
+risks related to our debt obligations;
+•
+risks related to the extension of lead time due to supply chain disruptions, component shortages that impact the costs and production of our products and kitting process, and constrained availability from other electronic suppliers impacting our customers’ ability to ship their products, which in turn may adversely impact our sales to those customers;
+•
+risks related to the specific conditions in the end markets we address, including seasonality and volatility in the technology sector and semiconductor industry;
+•
+risks related to failures to qualify our products or our suppliers’ manufacturing lines;
+25
+Table of Contents
+•
+risks related to failures to protect our intellectual property, particularly outside the United States;
+•
+risks related to the potential impact of significant events or natural disasters or the effects of climate change (such as drought, flooding, wildfires, increased storm severity, sea level rise, and power outages), particularly in certain regions in which we operate or own buildings, such as Santa Clara, California, and where our third-party manufacturing partners or suppliers operate, such as Taiwan and elsewhere in the Pacific Rim;
+•
+risks related to our sustainability programs;
+•
+risks related to the impact of the COVID-19 pandemic or other future pandemics, on the global economy and on our customers, suppliers, employees and business; and
+•
+risks related to failures of our customers to agree to pay for NRE (non-recurring engineering) costs, failure to pay enough to cover the costs we incur in connection with NREs or non-payment of previously agreed NRE costs due to us.
+Additional factors which could cause actual results to differ materially include those set forth in the following discussion, as well as the risks discussed in Part II, Item 1A, “Risk Factors,” and other sections of this Quarterly Report on Form 10-Q. These forward-looking statements speak only as of the date hereof. We undertake no obligation to update any forward-looking statements.
+Overview
+We are a leading supplier of data infrastructure semiconductor solutions, spanning the data center core to network edge. We are a fabless supplier of high-performance semiconductor products with core strengths in developing and scaling complex System-on-a-Chip architectures, integrating analog, mixed-signal and digital signal processing functionality. Leveraging leading intellectual property and deep system-level expertise, as well as highly innovative security firmware, our solutions are empowering the data economy and enabling the data center, enterprise networking, carrier infrastructure, consumer, and automotive/industrial end markets.
+Net revenue in the third quarter of fiscal 2026 was $2.1 billion and was 37% higher than net revenue in the third quarter of fiscal 2025. This was due to increases in sales from the data center end market by 38%, from the enterprise networking end market by 57%, from the carrier infrastructure end market by 98%, and from the consumer end market by 21%. The increase was partially offset by a decrease in sales from the automotive/industrial end market by 58%, primarily due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.
+Strong revenue growth from our data center market driven by AI related demand for our custom products and electro-optics portfolio. Additionally, following a period of inventory correction, we have continued to see revenue recovery in our carrier infrastructure and enterprise networking end markets, with both end markets growing significantly compared to the third quarter of fiscal 2025.
+We continue to monitor the environment for potential long-term impact on supply and demand from tariffs.
+On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. During the three months ended November 1, 2025, we recorded a pre-tax gain on sale of $1.8 billion, which is included in interest income and other, net in the Unaudited Condensed Consolidated Statements of Operations. See “Note 1 – Basis of Presentation” in the Notes to Unaudited Condensed Consolidated Financial Statements for further information.
+Subsequent to quarter end, on December 2, 2025, we announced our intent to acquire Celestial AI Inc. (“Celestial”), a provider of a photonic fabric platform purpose-built for next-generation scale-up interconnect. We will issue Celestial shareholders a mix of cash and shares of our common stock to be determined. This represents approximately $3.25 billion in transaction value upon acquisition close and may increase up to a total of approximately $5.5 billion in transaction value depending on the achievement of earn-out milestones after acquisition close. The acquisition is expected to close in the first quarter of calendar 2026, subject to regulatory approval as well as other customary closing conditions.
+26
+Table of Contents
+Government Incentives and Grants.
+ We continue to benefit from lower income tax rates in certain jurisdictions through statutory elections or agreements with governmental agencies, which may include a commitment to maintain, or increase, headcount and business investment levels in those jurisdictions. The tax benefits associated with these reduced income tax rates are recorded through our income tax provision for the periods in which such incentive tax rates are effective. However, changes in international taxation, notably the enactment by numerous countries of minimum tax legislation modeled after the Organization for Economic Cooperation and Development’s Pillar Two tax framework, could significantly reduce the income tax benefit associated with these tax incentives. In addition, certain jurisdictions in which we operate are pursuing alternative incentive programs, which operate within the Pillar Two tax framework.
+On May 1, 2025, we received notification that our application for government incentives in a foreign jurisdiction in which we operate had been approved by the necessary government agencies. For the duration of the incentive period from February 2, 2025, through February 1, 2030, qualifying expenditures and certain qualifying purchases will result in the generation of credits that will reduce qualifying cost of sales and operating expenses by the incentives earned, and the credits may be used to offset income taxes payable or be refunded in cash. We believe there is reasonable assurance that we will meet the conditions of the incentive agreement and that the credits will ultimately be received and thus have recognized benefits associated with qualifying expenditures incurred in the current fiscal year.
+Ultimate realization of the incentives is subject to satisfying certain minimum investment levels over the course of the incentive period and government agency reviews and audits of qualifying expenditures. We cannot guarantee that we will achieve the agreed upon investment levels over the incentive period and any failure to meet these investment levels or any change in the current law or government regulations may result in a clawback of some or all of the incentives and a corresponding reversal of any benefit recognized.
+Capital Return Program.
+ We remain committed to delivering stockholder value through our stock repurchase and dividend programs. Under the program authorized by our Board of Directors, we may repurchase shares of our common stock in the open-market or through privately negotiated transactions. On September 24, 2025, we executed an accelerated share repurchase agreement (“ASR Agreement”) with a counterparty financial institution to repurchase shares of our common stock in exchange for an upfront payment of $1.0 billion. See “Note 12 – Supplemental Financial Information” in the Notes to Unaudited Condensed Consolidated Financial Statements for additional information. The extent to which we repurchase our stock and the timing of such repurchases will depend upon market conditions, legal rules and regulations, and other corporate considerations, as determined by our management team. During the nine months ended November 1, 2025, we repurchased 23.3 million shares of our common stock for $1.8 billion. As of November 1, 2025, $5.7 billion remained available for future stock repurchases.
+We returned $2.0 billion to stockholders in the nine months ended November 1, 2025 through $1.8 billion in repurchases of shares of our common stock and $154.3 million in cash dividends.
+Cash and Short-Term Investments.
+ Our cash and cash equivalents were $2.7 billion at November 1, 2025, which were $1.8 billion higher than our balance at February 1, 2025 of $948.3 million.
+Sales and Customer Composition.
+Our accounts receivable was concentrated with three customers at November 1, 2025, who represented a total of 70% of gross accounts receivable, compared with four customers at November 2, 2024, who represented a total of 67% of gross accounts receivable. Net revenue attributable to significant customers including both distributor and direct customers whose revenues represented 10% or more of total net revenue is presented in the following table:
+ 
+Three Months Ended
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+November 1,
+2025
+November 2,
+2024
+Direct Customer:
+Customer A
+11%
+13%
+14%
+*
+Distributor:
+Distributor A
+38%
+33%
+36%
+35%
+*Less than 10% of net revenue.
+We regularly monitor the creditworthiness of our distributor and direct customers, and believe these distributors’ sales to diverse end customers and geographies further serve to mitigate our exposure to credit risk.
+27
+Table of Contents
+Most of our sales are made to customers with operations located outside of the United States, primarily in Asia, and a majority of our products are manufactured outside the United States. Sales shipped to customers with operations in Asia represented approximately 77% and 76% of our net revenue in the three and nine months ended November 1, 2025, respectively, and approximately 74% and 75% of our net revenue in the three and nine months ended November 2, 2024, respectively. Because many manufacturers and manufacturing subcontractors of our customers are located in Asia, we expect that most of our net revenue will continue to be represented by sales to our customers in that region. For risks related to our global operations, see Part II, Item 1A, “Risk Factors,” including but not limited to the risk detailed under the caption
+“We face additional risks due to the extent of our global operations since a majority of our products, and those of many of our customers, are manufactured and sold outside of the United States. The occurrence of any or a combination of the additional risks described below would significantly and negatively impact our business and results of operations.”
+The development process for our products is long, which may cause us to experience a delay between the time we incur expenses and the time revenue is generated from these expenditures. We anticipate that the rate of new orders may vary significantly from quarter to quarter. For risks related to our sales cycle, see Part II, Item 1A, “Risk Factors,” including but not limited to the risk detailed under the caption
+“We are subject to order and shipment uncertainties. If we are unable to accurately predict customer demand, we may hold excess or obsolete inventory, which would reduce our gross margin. Conversely, we may have insufficient inventory or be unable to obtain the supplies or contract manufacturing capacity to meet demand, which would result in lost revenue opportunities and potential loss of market share as well as damaged customer relationships.”
+To secure capacity over the long term, we have entered into capacity reservation arrangements with certain foundries and partners. See “Note 8 – Commitments and Contingencies” in the Notes to Unaudited Condensed Consolidated Financial Statements for additional information.
+Critical Accounting Policies and Estimates
+There have been no material changes during the three months ended November 1, 2025 to our critical accounting policies and estimates from the information provided in the “Critical Accounting Policies and Estimates” section of Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” included in our Annual Report on Form 10-K for the fiscal year ended February 1, 2025.
+In the current macroeconomic environment, our estimates could require increased judgment and carry a higher degree of variability and volatility. We continue to monitor and assess our estimates in light of developments, and as events continue to evolve and additional information becomes available, our estimates may change materially in future periods.
+Results of Operations
+The following table sets forth information derived from our Unaudited Condensed Consolidated Statements of Operations expressed as a percentage of net revenue:
+ 
+Three Months Ended
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+November 1,
+2025
+November 2,
+2024
+Net revenue
+100.0 
+%
+100.0 
+%
+100.0 
+%
+100.0 
+%
+Cost of goods sold
+48.4 
+77.0 
+49.2 
+62.9 
+Gross profit
+51.6 
+23.0 
+50.8 
+37.1 
+Operating expenses:
+Research and development
+24.6 
+32.2 
+25.8 
+36.7 
+Selling, general and administrative
+9.2 
+13.6 
+9.5 
+15.3 
+Restructuring related charges, net
+0.5 
+23.6 
+0.1 
+9.3 
+Total operating expenses
+34.3 
+69.4 
+35.4 
+61.3 
+Operating income (loss)
+17.3 
+(46.4)
+15.4 
+(24.2)
+Interest and other income (loss), net
+89.5 
+(3.1)
+29.2 
+(3.5)
+Income (loss) before income taxes
+106.8 
+(49.5)
+44.6 
+(27.7)
+Provision (benefit) for income taxes
+15.1 
+(4.9)
+6.5 
+(0.2)
+Net income (loss)
+91.7 
+%
+(44.6)
+%
+38.1 
+%
+(27.5)
+%
+28
+Table of Contents
+Three and nine months ended November 1, 2025 and November 2, 2024
+Net Revenue
+ 
+Three Months Ended
+ 
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Net revenue
+$
+2,074.5 
+$
+1,516.1 
+36.8%
+$
+5,975.9 
+$
+3,949.9 
+51.3%
+Our net revenue for the three months ended November 1, 2025 increased by $558.4 million, or 37%, compared to net revenue for the three months ended November 2, 2024. This was primarily due to a 38% increase in sales from the data center end market which benefited from strong AI related demand. Sales from the enterprise networking end market and the carrier infrastructure end market also increased by 57% and 98%, respectively, which have both continued to recover due to normalizing customer inventory levels and strong adoption of our products. The increase was partially offset by a decrease in sales from the automotive/industrial end market by 58%, primarily due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.
+Our net revenue for the nine months ended November 1, 2025 increased by $2.0 billion, or 51%, compared to net revenue for the nine months ended November 2, 2024. This was primarily due to a 59% increase in sales from the data center end market which benefited from strong AI related demand. Sales from the carrier infrastructure end market and the enterprise networking end market also increased by 88% and 34%, respectively, which have both continued to recover due to normalizing customer inventory levels and strong adoption of our products. The increase was partially offset by a decrease in sales from the automotive/industrial end market by 21%, primarily due to the divestiture of our automotive ethernet business at the beginning of the third quarter of fiscal 2026.
+Cost of Goods Sold and Gross Profit
+ 
+Three Months Ended
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Cost of goods sold
+$
+1,004.7 
+$
+1,166.7 
+(13.9)%
+$
+2,943.1 
+$
+2,485.1 
+18.4%
+% of net revenue
+48.4 
+%
+77.0 
+%
+49.2 
+%
+62.9 
+%
+Gross profit
+$
+1,069.8 
+$
+349.4 
+206.2%
+$
+3,032.8 
+$
+1,464.8 
+107.0%
+% of net revenue
+51.6 
+%
+23.0 
+%
+50.8 
+%
+37.1 
+%
+Cost of goods sold as a percentage of net revenue decreased for the three and nine months ended November 1, 2025 compared to the three and nine months ended November 2, 2024, which was primarily due to impairment charges of $356.8 million for acquired intangible assets, inventories, property and equipment, and other non-current assets associated with restructuring actions during the quarter ended November 2, 2024. The decreases in cost of goods sold as a percentage of net revenue were also due to better cost absorption driven by higher revenues, partially offset by a shift in product mix. As a result, gross margin for the three and nine months ended November 1, 2025 increased by 28.6 and 13.7 percentage points, respectively, compared to the three and nine months ended November 2, 2024. See “Note 7 – Restructuring” in the Notes to Unaudited Condensed Consolidated Financial Statements for further information.
+Research and Development
+ 
+Three Months Ended
+ 
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Research and development
+$
+512.5 
+$
+488.6 
+4.9%
+$
+1,539.2 
+$
+1,451.4 
+6.0%
+% of net revenue
+24.6 
+%
+32.2 
+%
+25.8 
+%
+36.7 
+%
+Research and development expense increased by $23.9 million and $87.8 million, respectively, in the three and nine months ended November 1, 2025 compared to the three and nine months ended November 2, 2024. The increases were primarily due to higher overall spending to support our R&D initiatives, including $15.8 million and $26.8 million, respectively, of higher engineering design related costs driven by impairment charges for property and equipment.
+29
+Table of Contents
+Selling, General and Administrative
+ 
+Three Months Ended
+ 
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Selling, general and administrative
+$
+189.9 
+$
+205.3 
+(7.5)%
+$
+569.1 
+$
+602.5 
+(5.5)%
+% of net revenue
+9.2 
+%
+13.6 
+%
+9.5 
+%
+15.3 
+%
+Selling, general and administrative expense decreased by $15.4 million and $33.4 million, respectively, in the three and nine months ended November 1, 2025 compared to the three and nine months ended November 2, 2024. The decreases were primarily due to lower amortization expense for acquired intangible assets.
+Restructuring Related Charges, Net
+ 
+Three Months Ended
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Restructuring related charges, net
+$
+9.6 
+$
+358.3 
+(97.3)%
+$
+6.0 
+$
+366.4 
+(98.4)%
+% of net revenue
+0.5 
+%
+23.6 
+%
+0.1 
+%
+9.3 
+%
+We recognized net restructuring related charges of $9.6 million and $6.0 million in the three and nine months ended November 1, 2025 as we continued to evaluate our existing operations to increase operational efficiency, decrease costs and increase profitability. See “Note 7 – Restructuring” in the Notes to Unaudited Condensed Consolidated Financial Statements for further information.
+Interest and Other Income (Loss), Net
+ 
+Three Months Ended
+ 
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Interest expense
+$
+(51.2)
+$
+(47.2)
+8.5%
+$
+(151.8)
+$
+(144.4)
+5.1%
+Interest income and other, net
+1,908.8 
+(0.5)
+*
+1,898.3 
+5.4 
+*
+Interest and other income (loss), net
+$
+1,857.6 
+$
+(47.7)
+*
+$
+1,746.5 
+$
+(139.0)
+*
+% of net revenue
+89.5 
+%
+(3.1)
+%
+29.2 
+%
+(3.5)
+%
+*Not meaningful.
+Interest and other income (loss), net increased by $1.9 billion in the three and nine months ended November 1, 2025 compared to the three and nine months ended November 2, 2024. The increases were primarily due to the $1.8 billion gain on sale of our automotive ethernet business in the third quarter of fiscal 2026. The increases were also driven by higher net gains recognized from equity investments, as well as higher interest income.
+Provision (benefit) for income taxes
+ 
+Three Months Ended
+ 
+Nine Months Ended
+November 1,
+2025
+November 2,
+2024
+%
+Change
+November 1,
+2025
+November 2,
+2024
+%
+Change
+ 
+(in millions, except percentage)
+Provision (benefit) for income taxes
+$
+314.1 
+$
+(74.2)
+*
+$
+391.0 
+$
+(9.3)
+*
+*Not meaningful.
+30
+Table of Contents
+Our income tax expense for the three months ended November 1, 2025 was $314.1 million compared to a tax benefit of $74.2 million for the three months ended November 2, 2024. The increase in the provision for income taxes for three months ended November 1, 2025 as compared to the three months ended November 2, 2024, was driven by an increase in earnings, resulting primarily from the sale of our automotive ethernet business, in the current period against losses in the November 2, 2024 period. The recorded tax expense is based on year-to-date pretax results, forecasted pretax results, forecasted annual tax expense and discrete adjustments for the respective periods.
+Our income tax expense for the nine months ended November 1, 2025 was $391.0 million compared to a tax benefit of $9.3 million for the nine months ended November 2, 2024. The increase in the provision for income taxes for nine months ended November 1, 2025 as compared to the nine months ended November 2, 2024, was driven by an increase in earnings, resulting primarily from the sale of our automotive ethernet business, in the current period against losses in the November 2, 2024 period. The recorded tax expense is based on year-to-date pretax results, forecasted pretax results, forecasted annual tax expense and discrete adjustments for the respective periods.
+The One Big Beautiful Bill Act of 2025 (the “2025 Tax Act”) was signed into law on July 4, 2025. The 2025 Tax Act makes permanent key elements of the 2017 Tax Cuts and Jobs Act, including domestic research cost expensing, 100% bonus depreciation and makes modifications to the U.S. International tax framework. Our tax provision for the November 1, 2025 period includes the estimated impact of the 2025 Tax Act. We will continue to evaluate the impact of the 2025 Tax Act on our income taxes.
+Our provision for incomes taxes may be affected by changes in the geographic mix of earnings with different applicable tax rates, acquisitions or divestitures, changes in the realizability of deferred tax assets, accruals related to contingent tax liabilities and period-to-period changes in such accruals, the results of income tax audits, the expiration of statutes of limitations, the implementation of tax planning strategies, tax rulings, court decisions, settlements with tax authorities and changes in tax laws and regulations. It is also possible that significant negative evidence may become available that causes us to conclude that a valuation allowance is needed on certain of our deferred tax assets, which would adversely affect our income tax provision in the period of such change in judgment.
+We are subject to legislation based on the Organization for Economic Cooperation and Development’s 15% global minimum tax regime which applies to the majority of countries in which we operate. As a result of this legislation, our foreign earnings are generally subject to a minimum tax rate of 15%. On June 28, 2025, the G7 released a joint statement that it had reached an understanding with the U.S. on a side-by-side system that would exempt U.S. parented multinational businesses from certain provisions of Pillar Two; however, no agreement regarding implementation of the proposal has yet been reached. The effects of any future legislation in this area are not yet reasonably estimable, but if such legislation is enacted in the future, could have a significant effect on our provision for income taxes, our financial results, and our earnings and cash flows.
+The ultimate realization of deferred tax assets depends upon the generation of future taxable income during the periods in which those assets become deductible or creditable. We evaluate the recoverability of these assets, weighing all positive and negative evidence, and provide or maintain a valuation allowance for these assets if it is more likely than not that some, or all, of the deferred tax assets will not be realized. If negative evidence exists, sufficient positive evidence is necessary to support a conclusion that a valuation allowance is not needed. We consider all available evidence such as our earnings history including the existence of cumulative income or losses, reversals of taxable temporary differences, projected future taxable income, and tax planning strategies. In future periods, it is possible that significant positive or negative evidence could arise that results in a change in our judgment with respect to the need for a valuation allowance, which could result in a tax benefit, or adversely affect our income tax provision, in the period of such change in judgment.
+We also continue to evaluate potential changes to our legal structure in response to guidelines and requirements in various international tax jurisdictions where we conduct business. Additionally, please see the information in Part II, Item 1A, “Risk Factors” under the caption
+“Changes in existing taxation benefits, tax rules or tax practices may adversely affect our financial results.”
+Liquidity and Capital Resources
+Our principal source of liquidity as of November 1, 2025 consisted of approximately $2.7 billion of cash and cash equivalents, of which approximately $1.4 billion was held by subsidiaries outside of the United States, a portion of which are deemed to be indefinitely reinvested. We manage our worldwide cash requirements by, among other things, reviewing available funds held by our foreign subsidiaries and the cost effectiveness by which those funds can be accessed in the United States.
+As of November 1, 2025, we had total borrowings outstanding of $4.5 billion, consisting of senior notes outstanding, of which $499.5 million is due within twelve months.
+31
+Table of Contents
+During the first quarter of fiscal 2026, we repaid $32.8 million of the principal outstanding of the 5-Year Tranche Loan. During the second quarter of fiscal 2026, the 5-Year Tranche Loan, due on April 20, 2026, which had a remaining principal of $557.8 million, was repaid in full.
+On June 30, 2025, we entered into an agreement to amend and restate the credit facility to increase the borrowing capacity to $1.5 billion (as so amended and restated, the “2025 Revolving Credit Facility”). The 2025 Revolving Credit Facility has a 5-year term and a stated floating interest rate which equates to an adjusted term SOFR plus an applicable margin. During the second quarter of fiscal 2026, we repaid $200.0 million on the 2025 Revolving Credit Facility that was outstanding from the first quarter of fiscal 2026. As of November 1, 2025, the 2025 Revolving Credit Facility was undrawn and is available for draw down through June 30, 2030.
+On June 30, 2025, we completed a debt offering and issued (i) $500.0 million of Senior Notes with a 5-year term due in 2030 (“2030 Senior Notes”) and (ii) $500.0 million of Senior Notes with a 10-year term due in 2035 (“2035 Senior Notes”).
+For a description of our contractual obligations including debt and purchase commitments, see “Note 6 – Debt,” and “Note 8 – Commitments and Contingencies” in the Notes to Unaudited Condensed Consolidated Financial Statements. We generally expect to satisfy these commitments with cash on hand and cash provided by operating activities.
+We may elect to factor trade accounts receivable from time to time as part of our overall liquidity and working capital management strategy. During the three and nine months ended November 1, 2025, we generated cash from operations from the sale of certain trade accounts receivable on a non-recourse basis to a third-party financial institution pursuant to a factoring arrangement. See “Note 12 – Supplemental Financial Information” in the Notes to Unaudited Condensed Consolidated Financial Statements for additional information.
+On August 14, 2025, we completed the sale of our automotive ethernet business to Infineon Technologies AG for $2.5 billion in cash. During the three months ended November 1, 2025, we recorded a pre-tax gain on sale of $1.8 billion, which is included in interest income and other, net in the Unaudited Condensed Consolidated Statements of Operations. See “Note 1 – Basis of Presentation” in the Notes to Unaudited Condensed Consolidated Financial Statements for further information.
+We believe that our existing cash and cash equivalents, together with cash generated from operations, and funds from our 2025 Revolving Credit Facility will be sufficient to cover our working capital needs, capital expenditures, investment requirements, any declared dividends, repurchases of our common stock, commitments (including those discussed in “Note 8 – Commitments and Contingencies” in the Notes to Unaudited Condensed Consolidated Financial Statements), and the income tax related to the sale of our automotive ethernet business, for at least the next twelve months. Our capital requirements will depend on many factors, including our rate of sales growth, market acceptance of our products, costs of securing access to adequate manufacturing capacity, the timing and extent of research and development projects and increases in operating expenses, all of which are subject to uncertainty.
+To the extent that our existing cash and cash equivalents, together with cash generated from operations, and funds available under our 2025 Revolving Credit Facility are insufficient to fund our future activities, we may need to raise additional funds through public or private debt or equity financing. We may also acquire additional businesses, purchase assets or enter into other strategic arrangements in the future, which could also require us to seek debt or equity financing. Additional equity financing or convertible debt financing may be dilutive to our current stockholders. If we elect to raise additional funds, we may not be able to obtain such funds on a timely basis or on acceptable terms, if at all. In addition, the equity or debt securities that we issue may have rights, preferences or privileges senior to our common stock.
+Future payment of a regular quarterly cash dividend on our common stock and our planned repurchases of common stock will be subject to, among other things, the best interests of the Company and our stockholders, our results of operations, cash balances and future cash requirements, financial condition, developments in ongoing litigation, statutory requirements under Delaware law, U.S. securities laws and regulations, market conditions and other factors that our Board of Directors may deem relevant. Our dividend payments and repurchases of common stock may change from time to time, and we cannot provide assurance that we will continue to declare dividends or repurchase stock at all or in any particular amounts.
+32
+Table of Contents
+Cash Flows from Operating Activities
+Net cash provided by operating activities for the nine months ended November 1, 2025 was $1.4 billion. We had a net income of $2.3 billion adjusted for the following non-cash items: gain on sale of our automotive ethernet business of $1.8 billion, amortization of acquired intangible assets of $718.4 million, stock-based compensation expense of $447.8 million, depreciation and amortization of $255.2 million, restructuring related gains of $14.0 million, deferred income tax benefit of $2.2 million, and $85.1 million of net loss from other non-cash items. Cash outflow from working capital of $557.1 million for the nine months ended November 1, 2025 was primarily driven by increases in accounts receivable, and prepaid expenses and other assets, and decreases in accounts payable and accrued employee compensation, partially offset by an increase in accrued liabilities and other non-current liabilities. The increase in accounts receivable was primarily due to higher sales and the impact of decreased factoring of receivables. The increase in prepaid expenses and other assets was primarily driven by higher prepaid ship and debits due to higher inventory balances at distributors, and from receivables for government incentives earned. The decrease in accounts payable was due to the timing of payments. The decrease in accrued employee compensation was due to timing of bonus payout of our annual employee bonus plan. The increase in accrued liabilities and other non-current liabilities was primarily driven by an increase in income tax payable mainly from taxes on gain from sale of business, and higher ship and debit claims accrual.
+Net cash provided by operating activities for the nine months ended November 2, 2024 was $1.2 billion. We had a net loss of $1.1 billion adjusted for the following non-cash items: amortization of acquired intangible assets of $805.5 million, restructuring related impairment charges of $524.1 million, stock-based compensation expense of $449.8 million, depreciation and amortization of $225.5 million, deferred income tax benefit of $106.2 million, and $42.1 million of net loss from other non-cash items. Cash inflow from working capital of $311.6 million for the nine months ended November 2, 2024 was primarily driven by decreases in prepaid expenses and other assets, and accounts receivable, and increase in accounts payable, partially offset by a decrease in accrued liabilities and other non-current liabilities. The decrease in prepaid expenses and other assets was primarily driven by a decrease in prepaid ship and debits due to lower inventory balances at distributors as a result of increased sell through, and a decrease in prepaid corporate income tax, partially offset by payments on supply capacity reservation agreements, net of refunds. The decrease in accounts receivable was primarily due to higher factored receivables and higher distribution sales reserves. The increase in accounts payable was primarily due to payment timing management. The decrease in accrued liabilities and other non-current liabilities was primarily driven by lower ship and debit claims accrual due to lower inventory balances at distributors as a result of increased sell through, payments of accruals, partially offset by increases in restructuring accruals.
+Cash Flows from Investing Activities
+For the nine months ended November 1, 2025, net cash provided by investing activities of $2.2 billion was primarily driven by net proceeds from sale of our automotive ethernet business of $2.5 billion, and proceeds from sales of property and equipment of $27.4 million, partially offset by purchases of property and equipment of $239.8 million.
+For the nine months ended November 2, 2024, net cash used in investing activities of $230.4 million was primarily driven by purchases of property and equipment of $214.7 million.
+Cash Flows from Financing Activities
+For the nine months ended November 1, 2025, net cash used in financing activities of $1.8 billion was primarily attributable to $1.8 billion repurchases of common stock, $790.6 million repayment of debt principal, $163.4 million for tax withholding payments on behalf of employees for net share settlements, $154.3 million for payment of our quarterly dividends, and $102.0 million payments on technology license obligations, partially offset by $1.2 billion proceeds from borrowings and $51.5 million in proceeds from the issuance of common stock under our employee stock plans.
+For the nine months ended November 2, 2024, net cash used in financing activities of $1.0 billion was primarily attributable to $525.0 million repurchases of common stock, $190.3 million for tax withholding payments on behalf of employees for net share settlements, $155.6 million for payment of our quarterly dividends, $124.4 million payments on technology license obligations, and $76.6 million repayment of debt principal, partially offset by $52.4 million in proceeds from the issuance of common stock under our employee stock plans.
+Indemnification Obligations
+See “Note 8 – Commitments and Contingencies” in the Notes to Unaudited Condensed Consolidated Financial Statements set forth in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+33
+Table of Contents

@@ -1,0 +1,30 @@
+{
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "cik": "0000789019",
+  "form": "10-K",
+  "filing_date": "2025-07-30",
+  "accession_number": "0000950170-25-100235",
+  "primary_document": "msft-20250630.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:54:50.377234+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/MSFT/000095017025100235/primary.html",
+    "business": "data/raw/MSFT/000095017025100235/item1_business.txt",
+    "risk_factors": "data/raw/MSFT/000095017025100235/item1a_risk_factors.txt",
+    "mdna": "data/raw/MSFT/000095017025100235/item7_mdna.txt",
+    "other": "data/raw/MSFT/000095017025100235/other_full.txt"
+  },
+  "period_end": "2025-06-30",
+  "report_date": "2025-06-30"
+}

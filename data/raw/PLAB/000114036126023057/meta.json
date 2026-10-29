@@ -1,0 +1,39 @@
+{
+  "company": "Photronics",
+  "ticker": "PLAB",
+  "cik": "0000810136",
+  "form": "8-K",
+  "filing_date": "2026-05-28",
+  "accession_number": "0001140361-26-023057",
+  "primary_document": "ef20074970_8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126023057/ef20074970_8k.htm",
+  "fiscal_year_end": "1031",
+  "report_date": "2026-05-28",
+  "period_end": "2026-05-28",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:45.543339+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ef20074970_ex99-1.htm",
+      "path": "data/raw/PLAB/000114036126023057/exhibit_99_ef20074970_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126023057/ef20074970_ex99-1.htm"
+    },
+    {
+      "name": "ef20074970_ex99-2.htm",
+      "path": "data/raw/PLAB/000114036126023057/exhibit_99_ef20074970_ex99-2.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126023057/ef20074970_ex99-2.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/PLAB/000114036126023057/primary.html",
+    "other": "data/raw/PLAB/000114036126023057/other_full.txt"
+  }
+}

@@ -1,0 +1,4293 @@
+sndk-20251003
+0002023554
+2026
+Q1
+false
+--07-03
+0.33
+one
+one
+one
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2025#AccruedLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#AccruedLiabilitiesCurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2025#OtherLiabilitiesNoncurrent
+0
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+xbrli:pure
+sndk:reporting_unit
+sndk:segment
+iso4217:JPY
+sndk:installment
+0002023554
+2025-06-28
+2025-10-03
+0002023554
+2025-10-31
+0002023554
+2025-10-03
+0002023554
+2025-06-27
+0002023554
+us-gaap:NonrelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:NonrelatedPartyMember
+2025-06-27
+0002023554
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:RelatedPartyMember
+2025-06-27
+0002023554
+2024-06-29
+2024-09-27
+0002023554
+2024-06-28
+0002023554
+2024-09-27
+0002023554
+us-gaap:CommonStockMember
+2025-06-27
+0002023554
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-27
+0002023554
+us-gaap:RetainedEarningsMember
+2025-06-27
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-27
+0002023554
+sndk:ParentCompanyNetInvestmentMember
+2025-06-27
+0002023554
+us-gaap:RetainedEarningsMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:CommonStockMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:CommonStockMember
+2025-10-03
+0002023554
+us-gaap:AdditionalPaidInCapitalMember
+2025-10-03
+0002023554
+us-gaap:RetainedEarningsMember
+2025-10-03
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-10-03
+0002023554
+sndk:ParentCompanyNetInvestmentMember
+2025-10-03
+0002023554
+us-gaap:CommonStockMember
+2024-06-28
+0002023554
+us-gaap:AdditionalPaidInCapitalMember
+2024-06-28
+0002023554
+us-gaap:RetainedEarningsMember
+2024-06-28
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-06-28
+0002023554
+sndk:ParentCompanyNetInvestmentMember
+2024-06-28
+0002023554
+sndk:ParentCompanyNetInvestmentMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:CommonStockMember
+2024-09-27
+0002023554
+us-gaap:AdditionalPaidInCapitalMember
+2024-09-27
+0002023554
+us-gaap:RetainedEarningsMember
+2024-09-27
+0002023554
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-09-27
+0002023554
+sndk:ParentCompanyNetInvestmentMember
+2024-09-27
+0002023554
+sndk:WesternDigitalCorporationMember
+2025-02-21
+0002023554
+sndk:SandiskCorporationMember
+sndk:WesternDigitalCorporationMember
+2025-02-22
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2025-02-21
+0002023554
+sndk:TermBLoanMember
+us-gaap:LineOfCreditMember
+2025-02-21
+0002023554
+sndk:WesternDigitalCorporationMember
+2025-02-21
+2025-02-21
+0002023554
+sndk:WesternDigitalCorporationMember
+sndk:SandiskCorporationMember
+2025-06-09
+2025-06-09
+0002023554
+sndk:WesternDigitalCorporationMember
+sndk:SandiskCorporationMember
+2025-06-09
+0002023554
+sndk:SandiskCorporationMember
+sndk:WesternDigitalCorporationMember
+2025-10-03
+0002023554
+sndk:DatacenterMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:DatacenterMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:EdgeMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:EdgeMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:ConsumerMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:ConsumerMember
+2024-06-29
+2024-09-27
+0002023554
+srt:AsiaMember
+2025-06-28
+2025-10-03
+0002023554
+srt:AsiaMember
+2024-06-29
+2024-09-27
+0002023554
+srt:AmericasMember
+2025-06-28
+2025-10-03
+0002023554
+srt:AmericasMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:EMEAMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:EMEAMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:TopTenCustomersMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:TopTenCustomersMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:WesternDigitalCorporationMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:WesternDigitalCorporationMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:LandMember
+2025-10-03
+0002023554
+us-gaap:LandMember
+2025-06-27
+0002023554
+us-gaap:MachineryAndEquipmentMember
+2025-10-03
+0002023554
+us-gaap:MachineryAndEquipmentMember
+2025-06-27
+0002023554
+us-gaap:BuildingAndBuildingImprovementsMember
+2025-10-03
+0002023554
+us-gaap:BuildingAndBuildingImprovementsMember
+2025-06-27
+0002023554
+sndk:ComputerEquipmentandSoftwareMember
+2025-10-03
+0002023554
+sndk:ComputerEquipmentandSoftwareMember
+2025-06-27
+0002023554
+us-gaap:FurnitureAndFixturesMember
+2025-10-03
+0002023554
+us-gaap:FurnitureAndFixturesMember
+2025-06-27
+0002023554
+us-gaap:ConstructionInProgressMember
+2025-10-03
+0002023554
+us-gaap:ConstructionInProgressMember
+2025-06-27
+0002023554
+us-gaap:RelatedPartyMember
+2025-02-21
+0002023554
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-06-27
+0002023554
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-06-27
+0002023554
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-10-03
+0002023554
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-10-03
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-10-03
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-10-03
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-10-03
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-10-03
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-10-03
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-10-03
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-10-03
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-10-03
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-10-03
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-10-03
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-10-03
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+2025-10-03
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-06-27
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-27
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-06-27
+0002023554
+us-gaap:MoneyMarketFundsMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-06-27
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-06-27
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-27
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-06-27
+0002023554
+us-gaap:ForeignExchangeContractMember
+us-gaap:FairValueMeasurementsRecurringMember
+2025-06-27
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel1Member
+2025-06-27
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-27
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+us-gaap:FairValueInputsLevel3Member
+2025-06-27
+0002023554
+us-gaap:FairValueMeasurementsRecurringMember
+2025-06-27
+0002023554
+us-gaap:ForeignExchangeContractMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:ForeignExchangeContractMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:TermBLoanMember
+us-gaap:LineOfCreditMember
+2025-10-03
+0002023554
+sndk:TermBLoanMember
+us-gaap:LineOfCreditMember
+2025-06-27
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2025-10-03
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2025-06-27
+0002023554
+sndk:TermBLoanMember
+us-gaap:SecuredOvernightFinancingRateSofrMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+sndk:TermBLoanMember
+us-gaap:BaseRateMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+sndk:TermBLoanMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+sndk:TermBLoanMember
+us-gaap:LineOfCreditMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:SecuredOvernightFinancingRateSofrMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+us-gaap:RevolvingCreditFacilityMember
+us-gaap:BaseRateMember
+us-gaap:LineOfCreditMember
+2025-02-21
+2025-02-21
+0002023554
+sndk:ReportableSegmentMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:ReportableSegmentMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:FlashPartnersLtdMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashPartnersLtdMember
+us-gaap:RelatedPartyMember
+2025-06-27
+0002023554
+sndk:FlashAllianceLtdMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashAllianceLtdMember
+us-gaap:RelatedPartyMember
+2025-06-27
+0002023554
+sndk:FlashForwardLtdMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashForwardLtdMember
+us-gaap:RelatedPartyMember
+2025-06-27
+0002023554
+sndk:FlashPartnersLtdMember
+2025-10-03
+0002023554
+sndk:FlashPartnersLtdMember
+2025-06-27
+0002023554
+sndk:FlashAllianceLtdMember
+2025-10-03
+0002023554
+sndk:FlashAllianceLtdMember
+2025-06-27
+0002023554
+sndk:FlashForwardLtdMember
+2025-10-03
+0002023554
+sndk:FlashForwardLtdMember
+2025-06-27
+0002023554
+us-gaap:EquityMethodInvesteeMember
+2025-10-03
+0002023554
+us-gaap:EquityMethodInvesteeMember
+2025-06-27
+0002023554
+us-gaap:EquityMethodInvesteeMember
+us-gaap:RelatedPartyMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:EquityMethodInvesteeMember
+us-gaap:RelatedPartyMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:EquityMethodInvesteeMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:EquityMethodInvesteeMember
+us-gaap:RelatedPartyMember
+2025-06-27
+0002023554
+us-gaap:NotesReceivableMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:EquityMethodInvestmentsMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashVenturesMember
+2025-10-03
+0002023554
+srt:MaximumMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:RelatedPartyMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:RelatedPartyMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:K1K2AndY7FacilitiesMember
+sndk:FutureBuildingDepreciationPaymentsMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:K1K2AndY7FacilitiesMember
+us-gaap:OtherCurrentAssetsMember
+sndk:FutureBuildingDepreciationPaymentsMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:K1K2AndY7FacilitiesMember
+us-gaap:OtherNoncurrentAssetsMember
+sndk:FutureBuildingDepreciationPaymentsMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashVenturesMember
+sndk:FutureBuildingDepreciationPaymentsMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+sndk:FlashVenturesMember
+sndk:FutureBuildingDepreciationPaymentsMember
+us-gaap:RelatedPartyMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:ResearchAndDevelopmentCommitmentsMember
+us-gaap:RelatedPartyMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:PaymentOfPrincipalAmortizationMember
+us-gaap:EquityMethodInvesteeMember
+2025-10-03
+0002023554
+sndk:PurchaseOptionExercisePriceMember
+us-gaap:EquityMethodInvesteeMember
+2025-10-03
+0002023554
+us-gaap:EquityMethodInvesteeMember
+2025-10-03
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2024-09-28
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2024-09-28
+2024-09-28
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2024-09-28
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2024-10-01
+2024-10-01
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-01-06
+2025-01-06
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+srt:ScenarioForecastMember
+2025-06-28
+2026-03-27
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-10-03
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+us-gaap:OtherCurrentAssetsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-10-03
+0002023554
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+us-gaap:OtherNoncurrentAssetsMember
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-10-03
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-10-03
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2024-09-29
+2024-09-29
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+2025-06-28
+2025-10-03
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+sndk:CertainFlashBasedProductsMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:SanDiskSemiconductorShanghaiCo.Ltd.Member
+sndk:CertainFlashBasedProductsMember
+2025-10-03
+0002023554
+sndk:UnisVentureMember
+2025-10-03
+0002023554
+sndk:UnisVentureMember
+sndk:UnissoftWuxiGroupCoLtd.Member
+2025-10-03
+0002023554
+sndk:UnisVentureMember
+us-gaap:ProductConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:UnisVentureMember
+us-gaap:ProductConcentrationRiskMember
+us-gaap:RevenueFromContractWithCustomerMember
+2024-06-29
+2024-09-27
+0002023554
+sndk:UnisVentureMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:UnisVentureMember
+us-gaap:CustomerConcentrationRiskMember
+us-gaap:AccountsReceivableMember
+2024-06-29
+2025-06-27
+0002023554
+sndk:ReimbursementOfShortTermEmployeeIncentivesMember
+us-gaap:RelatedPartyMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:WDCSubsidiariesMember
+us-gaap:RelatedPartyMember
+2025-10-03
+0002023554
+us-gaap:RestrictedStockUnitsRSUMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:PerformanceSharesMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2025-06-27
+0002023554
+sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2025-10-03
+0002023554
+srt:MinimumMember
+us-gaap:PerformanceSharesMember
+2025-06-28
+2025-10-03
+0002023554
+srt:MaximumMember
+us-gaap:PerformanceSharesMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:PerformanceSharesMember
+2025-10-03
+0002023554
+us-gaap:EmployeeStockMember
+2025-10-03
+0002023554
+us-gaap:EmployeeStockMember
+2025-06-28
+2025-10-03
+0002023554
+sndk:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:EmployeeStockMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:CostOfSalesMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:CostOfSalesMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:ResearchAndDevelopmentExpenseMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:ResearchAndDevelopmentExpenseMember
+2024-06-29
+2024-09-27
+0002023554
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2025-06-28
+2025-10-03
+0002023554
+us-gaap:SellingGeneralAndAdministrativeExpensesMember
+2024-06-29
+2024-09-27
+0002023554
+2025-02-21
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM
+10-Q
+
+(Mark One)
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+October 3, 2025
+or
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from
+                   
+to
+                    
+Commission File Number:
+001-42420
+
+Sandisk Corporation
+(Exact name of registrant as specified in its charter)
+Delaware
+99-1508671
+(State or other jurisdiction of
+incorporation or organization)
+(I.R.S. Employer Identification No.)
+951 Sandisk Drive
+Milpitas
+California
+95035
+(Address of principal executive offices)
+(Zip Code)
+(
+408
+)
+801-1000
+(Registrant’s telephone number, including area code)
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, $0.01 Par Value Per Share
+SNDK
+The Nasdaq Stock Market LLC
+ 
+(Nasdaq Global Select Market)
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.  
+Yes
+  
+☒
+  No  
+¨
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).  
+Yes
+  
+☒
+  No  
+¨
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer
+Accelerated filer
+Non-accelerated filer
+Smaller reporting company
+Emerging growth company
+☐
+☐
+☒
+☐
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.  
+☐
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).  Yes  
+☐
+  No  
+ý
+As of
+ the close of business on October 31, 2025,
+146,553,179
+ shares of common stock, par value $0.01 per share, were outstanding.
+SANDISK CORPORATION
+INDEX
+PAGE NO.
+PART I. FINANCIAL INFORMATION
+Item 1.
+Financial Statements (unaudited)
+Condensed Consolidated Balance Sheets — As of October 3, 2025 and June 27, 2025
+4
+Condensed Consolidated Statements of Operations — Three Months Ended October 3, 2025 and September 27, 2024
+5
+Condensed Consolidated Statements of Comprehensive Income — Three Months Ended October 3, 2025 and September 27, 2024
+6
+Condensed Consolidated Statements of Cash Flows — Three Months Ended October 3, 2025 and September 27, 2024
+7
+Condensed Consolidated Statements of Changes in Shareholders’ Equity — Three Months Ended October 3, 2025 and September 27, 2024
+8
+Notes to Condensed Consolidated Financial Statements
+9
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+32
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+42
+Item 4.
+Controls and Procedures
+42
+PART II. OTHER INFORMATION
+Item 1.
+Legal Proceedings
+43
+Item 1A.
+Risk Factors
+43
+Item 5.
+Other Information
+43
+Item 6.
+Exhibits
+44
+Unless otherwise indicated, references herein to specific years and quarters are to our fiscal years and fiscal quarters, and references to financial information are on a condensed consolidated basis. As used herein, the terms “we,” “us,” “our,” the “Company,” and “Sandisk” refer to Sandisk Corporation and its subsidiaries, unless we state, or the context indicates, otherwise.
+Sandisk, a Delaware corporation, is the parent company of our NAND flash data storage business. Our principal executive offices are located at 951 Sandisk Drive, Milpitas, California, 95035. Our telephone number is (408) 801-1000.
+2
+Table of Contents
+FORWARD-LOOKING STATEMENTS
+This document contains forward-looking statements within the meaning of the federal securities laws. These forward-looking statements include but are not limited to, statements regarding Sandisk Corporation’s (the “Company’s”) expectations related to operating as an independent company, its product and technology developments and all statements regarding the Company’s expected future position, results of operations, cash flows, capital expenditures, and statements containing the use of forward-looking words, such as “may,” “will,” “could,” “would,” “should,” “project,” “believe,” “anticipate,” “expect,” “estimate,” “continue,” “potential,” “plan,” “forecast,” “approximate,” “intend,” “upside,” “target,” and the like, or the use of the future tense of these or other similar words. Statements contained herein concerning the Company’s expectations related to operating as an independent company, outlook or future economic performance, anticipated profitability, revenues, expenses, or other financial items, products or service line growth of the Company, and predicted market outcomes, together with other statements that are not historical facts, are forward-looking statements that are estimates reflecting the best judgment of the Company based upon currently available information. Statements concerning current conditions may also be forward-looking if they imply a continuation of current conditions.
+These forward-looking statements are based upon management’s current expectations and represent the most current information available to us as of the date of this Quarterly Report on Form 10-Q. The Company is subject to a number of known and unknown risks, uncertainties and other factors, many of which the Company is unable to predict or control, that may cause actual results, performance or plans to differ materially from those expressed or implied by these forward-looking statements. These risks and uncertainties include, but are not limited to:
+•
+adverse changes in global or regional conditions, including the impact of changes in tariff policies or other trade restrictions;
+•
+supply chain risks, including our dependence on a limited number of qualified suppliers, the availability and cost of materials and components for our products, and disruptions to our supply chain;
+•
+damage or disruption to our operations or to those of our suppliers;
+•
+product defects;
+•
+our reliance on strategic relationships with key partners, including Kioxia Corporation;
+•
+the development and introduction of new products or technologies and management of technology transitions;
+•
+future responses to and effects of public health crises;
+•
+loss of revenue from, or consolidation of, our key customers or increases in our customers’ credit risk;
+•
+volatile demand and pricing trends and fluctuations in average selling prices;
+•
+our ability to respond to market and other changes in our distribution and retail market;
+•
+sales cyclicality and our ability to accurately forecast demand;
+•
+our level of debt;
+•
+fluctuations in currency exchange rates;
+•
+our ability to attract, retain, and develop highly skilled management and technical talent;
+•
+risks associated with legal or regulatory compliance, changing legal and regulatory requirements, and the impact and outcome of legal proceedings;
+•
+compromise, damage or interruptions from cybersecurity incidents or other data or system security risks;
+•
+reliance on intellectual property and other proprietary information;
+•
+future material impairments in the value of our goodwill, intangible assets, and other long-lived assets;
+•
+risks and challenges associated with the use of artificial intelligence; and
+•
+our ability to achieve some or all of the expected benefits of the spin-off (as defined below) and uncertainties regarding the impacts of the spin-off, including indemnification responsibilities, tax-related considerations, and our ability to effectively make the changes necessary to operate as an independent company.
+You are urged to carefully review our disclosures concerning these risks and the additional disclosures we make concerning material risks and other factors that may affect the outcome of our forward-looking statements and our business and operating results, including those made in our Annual Report on Form 10-K for the year ended June 27, 2025, as filed with the United States Securities and Exchange Commission on August 21, 2025. You are cautioned not to place undue reliance on the forward-looking statements included in this Quarterly Report on Form 10-Q, which speak only as of the date of this document. We do not intend, and undertake no obligation, to update or revise these forward-looking statements to reflect new information or events after the date of this document or to reflect the occurrence of unanticipated events, except as required by law.
+3
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1.    
+Financial Statements (unaudited)
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions, except par value)
+(Unaudited)
+October 3,
+2025
+June 27,
+2025
+ASSETS
+Current assets:
+Cash and cash equivalents
+$
+1,442
+ 
+$
+1,481
+ 
+Accounts receivable, net
+1,193
+ 
+1,068
+ 
+Inventories
+1,907
+ 
+2,079
+ 
+Income tax receivable
+72
+ 
+66
+ 
+Other current assets
+370
+ 
+392
+ 
+Total current assets
+4,984
+ 
+5,086
+ 
+Property, plant and equipment, net
+630
+ 
+619
+ 
+Notes receivable and investments in Flash Ventures
+602
+ 
+654
+ 
+Goodwill
+4,998
+ 
+4,999
+ 
+Deferred tax assets
+57
+ 
+58
+ 
+Income tax receivable, non-current
+61
+ 
+80
+ 
+Other non-current assets
+1,417
+ 
+1,489
+ 
+Total assets
+$
+12,749
+ 
+$
+12,985
+ 
+LIABILITIES AND SHAREHOLDERS’ EQUITY
+Current liabilities:
+Accounts payable
+$
+398
+ 
+$
+366
+ 
+Accounts payable to related parties
+486
+ 
+400
+ 
+Accrued expenses
+382
+ 
+425
+ 
+Accrued compensation
+208
+ 
+173
+ 
+Income tax payables
+22
+ 
+43
+ 
+Current portion of long-term debt
+20
+ 
+20
+ 
+Total current liabilities
+1,516
+ 
+1,427
+ 
+Deferred tax liabilities
+28
+ 
+17
+ 
+Long-term debt
+1,331
+ 
+1,829
+ 
+Other liabilities
+493
+ 
+496
+ 
+Total liabilities
+3,368
+ 
+3,769
+ 
+Commitments and contingencies (Notes 10, 11, 14 and 15)
+Shareholders’ equity:
+Common stock, $
+0.01
+ par value; authorized —
+450
+ shares; issued and outstanding —
+147
+ shares and
+146
+ shares, respectively
+$
+1
+ 
+$
+1
+ 
+Additional paid-in capital
+11,286
+ 
+11,248
+ 
+Accumulated deficit
+(
+1,672
+)
+(
+1,784
+)
+Accumulated other comprehensive loss
+(
+234
+)
+(
+249
+)
+Total shareholders’ equity
+9,381
+ 
+9,216
+ 
+Total liabilities and shareholders’ equity
+$
+12,749
+ 
+$
+12,985
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+4
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share amounts)
+(Unaudited)
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+Revenue, net
+$
+2,308
+ 
+$
+1,883
+ 
+Cost of revenue
+1,621
+ 
+1,157
+ 
+Gross profit
+687
+ 
+726
+ 
+Operating expenses:
+Research and development
+316
+ 
+283
+ 
+Selling, general and administrative
+179
+ 
+130
+ 
+Business separation costs
+9
+ 
+20
+ 
+Employee termination and other
+(
+3
+)
+2
+ 
+Loss on business divestiture
+10
+ 
+—
+ 
+Total operating expenses
+511
+ 
+435
+ 
+Operating income
+176
+ 
+291
+ 
+Interest and other expense:
+Interest income
+16
+ 
+3
+ 
+Interest expense
+(
+40
+)
+(
+2
+)
+Other expense, net
+(
+28
+)
+(
+25
+)
+Total interest and other expense, net
+(
+52
+)
+(
+24
+)
+Income before taxes
+124
+ 
+267
+ 
+Income tax expense
+12
+ 
+56
+ 
+Net income
+$
+112
+ 
+$
+211
+ 
+Net income per common share:
+Basic
+$
+0.77
+ 
+$
+1.46
+ 
+Diluted
+$
+0.75
+ 
+$
+1.46
+ 
+Weighted average shares outstanding:
+Basic
+146
+ 
+145
+ 
+Diluted
+149
+ 
+145
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+5
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE
+ INCOME
+(in millions)
+(Unaudited)
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+Net income
+$
+112
+ 
+$
+211
+ 
+Other comprehensive income, before tax
+Foreign currency translation adjustment
+(
+14
+)
+43
+ 
+Net unrealized gain on derivative contracts
+39
+ 
+211
+ 
+Total other comprehensive income, before tax
+25
+ 
+254
+ 
+Income tax expense related to items of other comprehensive income, before tax
+(
+10
+)
+(
+45
+)
+Other comprehensive income, net of tax
+15
+ 
+209
+ 
+Total comprehensive income
+$
+127
+ 
+$
+420
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+6
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+Cash flows from operating activities
+Net income
+$
+112
+ 
+$
+211
+ 
+Adjustments to reconcile net income to net cash provided by (used in) operations:
+Depreciation and amortization
+36
+ 
+54
+ 
+Stock-based compensation
+53
+ 
+41
+ 
+Deferred income taxes
+3
+ 
+(
+5
+)
+Unrealized foreign exchange (gain) loss
+1
+ 
+(
+8
+)
+Loss on sale of business divestiture
+10
+ 
+—
+ 
+Amortization of debt issuance costs and discounts
+2
+ 
+—
+ 
+Equity loss in investees, net of dividends received
+27
+ 
+10
+ 
+Other non-cash operating activities, net
+(
+6
+)
+6
+ 
+Settlement of accrued interest on Notes due to Western Digital Corporation
+—
+ 
+(
+96
+)
+Changes in:
+Accounts receivable, net
+(
+125
+)
+(
+102
+)
+Inventories
+172
+ 
+(
+149
+)
+Accounts payable
+30
+ 
+33
+ 
+Accounts payable to related parties
+86
+ 
+39
+ 
+Accrued expenses
+(
+43
+)
+(
+172
+)
+Accrued compensation
+35
+ 
+(
+13
+)
+Other assets and liabilities, net
+95
+ 
+20
+ 
+Net cash provided by (used in) operating activities
+488
+ 
+(
+131
+)
+Cash flows from investing activities
+Purchases of property, plant and equipment
+(
+50
+)
+(
+67
+)
+Proceeds from dispositions of business
+25
+ 
+—
+ 
+Notes receivable issuances to Flash Ventures
+(
+87
+)
+(
+14
+)
+Notes receivable proceeds from Flash Ventures
+97
+ 
+62
+ 
+Net cash used in investing activities
+(
+15
+)
+(
+19
+)
+Cash flows from financing activities
+Taxes paid on vested stock awards under employee stock plans
+(
+15
+)
+—
+ 
+Repayment of debt
+(
+500
+)
+—
+ 
+Proceeds from principal repayments on Notes due from Western Digital Corporation
+—
+ 
+101
+ 
+Repayments of principal on Notes due to Western Digital Corporation
+—
+ 
+(
+76
+)
+Transfers from Western Digital Corporation
+—
+ 
+189
+ 
+Net cash provided by (used in) financing activities
+(
+515
+)
+214
+ 
+Effect of exchange rate changes on cash
+3
+ 
+1
+ 
+Changes in cash and cash equivalents classified as assets held for sale
+—
+ 
+(
+71
+)
+Net decrease in cash and cash equivalents
+(
+39
+)
+(
+6
+)
+Cash and cash equivalents, beginning of year
+1,481
+ 
+328
+ 
+Cash and cash equivalents, end of period
+$
+1,442
+ 
+$
+322
+ 
+Supplemental disclosure of cash flow information:
+Cash paid for interest
+$
+48
+ 
+$
+98
+ 
+Cash received for interest
+16
+ 
+1
+ 
+Cash paid for income taxes
+39
+ 
+—
+ 
+Non-cash transfers of:
+Notes due to Western Digital Corporation
+—
+ 
+378
+ 
+Changes in other assets and liabilities, net, from Western Digital Corporation
+—
+ 
+6
+ 
+Property, plant and equipment from Western Digital Corporation
+—
+ 
+3
+ 
+Tax balances to Western Digital Corporation
+—
+ 
+7
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+7
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
+(in millions)
+(Unaudited)
+Common Stock
+Shares
+Amount
+Additional Paid in Capital
+Accumulated Deficit
+Accumulated Other Comprehensive Loss
+ Net Investment from Western Digital Corporation
+Total
+Balance at June 27, 2025
+146
+ 
+$
+1
+ 
+$
+11,248
+ 
+$
+(
+1,784
+)
+$
+(
+249
+)
+$
+—
+ 
+$
+9,216
+ 
+Net income
+— 
+— 
+— 
+112
+ 
+— 
+112
+ 
+Employee stock plans
+1
+ 
+— 
+(
+15
+)
+— 
+— 
+— 
+(
+15
+)
+Foreign currency translation adjustment
+— 
+— 
+— 
+— 
+(
+14
+)
+— 
+(
+14
+)
+Net unrealized gain on derivative contracts
+— 
+— 
+— 
+— 
+29
+ 
+— 
+29
+ 
+Stock-based compensation
+— 
+— 
+53
+ 
+— 
+— 
+— 
+53
+ 
+Balance at October 3, 2025
+147
+ 
+$
+1
+ 
+$
+11,286
+ 
+$
+(
+1,672
+)
+$
+(
+234
+)
+$
+—
+ 
+$
+9,381
+ 
+Common Stock
+Shares
+Amount
+Additional Paid in Capital
+Accumulated Deficit
+Accumulated Other Comprehensive Loss
+Net Investment from Western Digital Corporation
+Total
+Balance at June 28, 2024
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+(
+452
+)
+$
+11,534
+ 
+$
+11,082
+ 
+Net income
+— 
+— 
+— 
+— 
+— 
+211
+ 
+211
+ 
+Foreign currency translation adjustment
+— 
+— 
+— 
+— 
+43
+ 
+— 
+43
+ 
+Net unrealized loss on derivative contracts
+— 
+— 
+— 
+— 
+166
+ 
+— 
+166
+ 
+Stock-based compensation
+— 
+— 
+— 
+— 
+— 
+41
+ 
+41
+ 
+Net transfer from Western Digital Corporation
+— 
+— 
+— 
+— 
+— 
+583
+ 
+583
+ 
+Balance at September 27, 2024
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+—
+ 
+$
+(
+243
+)
+$
+12,369
+ 
+$
+12,126
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+8
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1.    
+Organization and Basis of Presentation
+Description of the Company
+Sandisk Corporation (“Sandisk” or the “Company”) is a leading developer, manufacturer and provider of data storage devices and solutions based on NAND flash technology. With a differentiated innovation engine driving advancements in storage and semiconductor technologies, Sandisk’s broad and ever-expanding portfolio delivers powerful flash storage solutions for AI workloads in datacenters, edge devices, and consumer applications. Sandisk’s technologies enable everyone from students, gamers, and home offices to the largest enterprises and public clouds to produce, analyze, and store data. The Company’s solutions include a broad range of solid state drives, embedded products, removable cards, universal serial bus drives, and wafers and components. The Company’s broad portfolio of technology and products addresses multiple end markets of “Datacenter” (formerly referred to as “Cloud”), “Edge” (formerly referred to as “Client”), and “Consumer.” The Company operates primarily in the United States (“U.S.”) and also internationally, with a significant concentration in the Asia Pacific region.
+On October 30, 2023, Western Digital Corporation (“WDC”) announced that its board of directors (the “WDC Board of Directors”) authorized WDC management to pursue a plan to separate the Company into an independent public company (the “separation” or the “spin-off”). The separation received final approval by the WDC Board of Directors and was completed on February 21, 2025. Prior to February 21, 2025, the Company was wholly owned by WDC.
+On February 21, 2025, WDC executed the spin-off of the Company through WDC’s pro rata distribution of
+116,035,464
+, or
+80.1
+%, of the Company’s outstanding shares of common stock to holders of WDC’s common stock. Each WDC stockholder received one-third (1/3) of one share of the Company’s common stock for each share of WDC’s common stock held by such WDC stockholder as of February 12, 2025, the record date of the distribution. Upon completion of the separation, WDC owned
+28,827,787
+, or
+19.9
+%, of the outstanding shares of the Company’s common stock. Following the distribution, the Company became an independent publicly listed company, and on February 24, 2025, the Company began trading as an independent, publicly traded company under the stock symbol “SNDK” on Nasdaq.
+In connection with the separation, on February 21, 2025, the Company entered into definitive agreements with WDC that set forth the terms and conditions of the spin-off and provided a framework for the relationship between WDC and the Company following the separation. These agreements include the
+Separation and Distribution Agreement, which contains certain key provisions related to the spin-off, as well as a Transition Services Agreement (“TSA”), a Tax Matters Agreement, an Employee Matters Agreement, an Intellectual Property Cross-License Agreement, a Transitional Trademark License Agreement, and a Stockholder and Registration Rights Agreement
+, as described in and filed as Exhibits to the Company’s Current Report on Form 8-K on February 24, 2025 and incorporated by reference to this Quarterly Report on Form 10-Q. Additionally, the Company adopted certain compensation plans filed as Exhibits to the Company’s Registration Statement on Form 10, initially filed with the U.S. Securities and Exchange Commission (“SEC”) on November 25, 2024, and as further amended thereafter and declared effective on January 31, 2025. The Company also entered into various sublease agreements and established a stock compensation incentive plan in connection with the separation.
+Also on February 21, 2025, in connection with the separation, the Company entered into a $
+1.5
+ billion revolving credit facility, which was undrawn at the separation date, and a $
+2.0
+ billion term loan facility due in 2032. The Company used a portion of the proceeds received from the term loan facility and cash on hand to make a net distribution payment of
+
+$
+1.5
+ billion
+to
+WDC in exchange for assets, liabilities, and certain legal entities of WDC associated with the Company.
+After the separation, outstanding restricted stock units (“RSU”) and performance stock units (“PSU”) previously granted by WDC to employees of the Company were adjusted per the terms of the Employee Matters Agreement, in an attempt to maintain the economic value of those awards before and after the separation. Generally, continuing Sandisk employees with outstanding RSU awards held as of the spin-off date were converted solely to equivalent RSU awards of the Company, and any outstanding WDC RSU awards held as of the spin-off date were canceled. Outstanding RSU and PSU awards at the time of the spin-off, held by employees at levels equal to Vice President and above, were converted into RSU and PSU awards of both the Company and WDC.
+On June 9, 2025, WDC disposed of
+21,314,768
+, or
+14.6
+%, of the Company’s common stock through an exchange of Sandisk’s common stock for WDC debt held by WDC creditors, which shares were sold by affiliates of the WDC creditors in a registered public offering by the Company. All expenses for the offering were paid for by us. As of October 3, 2025, WDC continued to retain
+7,513,019
+, or
+5.1
+%, of the outstanding shares of the Company’s common stock.
+9
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Basis of Presentation
+On February 21, 2025, the Company became a standalone publicly traded company, and the Company’s financial statements are now presented on a consolidated basis. Prior to the separation, the Company’s historical consolidated financial information was derived from WDC’s consolidated financial statements and accounting records and prepared as if the Company existed on a standalone basis. The financial statements for all periods presented, including the historical results of the Company prior to February 21, 2025, are now referred to as “Consolidated Financial Statements” and have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and the policies and practices that are generally accepted in the industry in which it operates.
+Basis of Consolidation
+The Condensed Consolidated Financial Statements include the accounts of the Company and its wholly-owned subsidiaries. All intercompany accounts and transactions have been eliminated in the preparation of the Condensed Consolidated Financial Statements. The accounts of these foreign subsidiaries have been remeasured using the U.S. dollar as the functional currency. Gains or losses resulting from the remeasurement of these accounts from local currencies into U.S. dollars were immaterial to the Condensed Consolidated Financial Statements. Financial statements of the Company’s foreign subsidiaries for which the functional currency is the local currency are translated into U.S. dollars using the exchange rate at each balance sheet date for assets and liabilities and a weighted average exchange rate for each period for statement of operations items. Translation adjustments are recorded in Accumulated other comprehensive loss, a component of shareholders’ equity.
+Unless otherwise noted, all figures within the Condensed Consolidated Financial Statements are stated in U.S. dollars.
+Periods Prior to the Separation
+Prior to the separation on February 21, 2025, the Company was an operating segment of WDC. Consequently, standalone interim financial statements were not historically prepared for the Company.
+ The accompanying Condensed Consolidated Financial Statements were prepared based upon WDC’s historical consolidated interim financial statements and accounting records. They were presented on a standalone basis as if the Company’s operations had been conducted independently from WDC. The Company utilized allocations and carve-out methodologies to prepare these historic Condensed Consolidated Financial Statements. The Condensed Consolidated Financial Statements included the historical results of operations, financial position, and cash flows of the Company and were prepared in accordance with GAAP, and the Company has adopted accounting policies and practices generally accepted in the industry in which it operates.
+Intercompany transactions were eliminated, with the exception of balances associated with lending arrangements reflected within Notes due to (from)
+Western Digital Corporation
+ in the Condensed Consolidated Balance Sheets, transactions between the Company and WDC were generally considered to be effectively settled in the Condensed Consolidated Financial Statements at the time the transactions were recorded. The total net effect of the settlement of these transactions was reflected in the Condensed Consolidated Statements of Cash Flows as a financing activity and in the Condensed Consolidated Balance Sheets as Net investment from Western Digital Corporation. General financing activities included the net impact of any cash movements resulting from WDC’s centralized treasury cash management.
+The Condensed Consolidated Statements of Operations and Comprehensive Income included all revenues and costs directly attributable to the Company as well as an allocation of expenses related to facilities, functions, and services provided by WDC. Allocation of general corporate expenses from WDC included, but was not limited to, executive management, finance, tax, legal, information technology, employee benefits administration, treasury, risk management, procurement, and other shared services. These corporate expenses were allocated to the Company based on direct usage or benefit, where identifiable, with the remainder allocated based on headcount, revenue, or other relevant measures. The allocated costs were deemed to be settled between the Company and WDC in the period in which the expense was recorded in the Condensed Consolidated Statements of Operations. The Condensed Consolidated Statements of Cash Flows present these corporate expenses as cash flows from operating activities, as these costs were incurred by WDC on the Company’s behalf. The Company considers these allocations to be a reasonable reflection of the utilization of services by, or the benefits provided to, the Company. The allocations may not, however, reflect the expense the Company would have incurred as a standalone company for the periods presented. Additionally, these costs may not be indicative of the expenses that the Company will incur in the future or would have incurred if the Company had obtained these services from an unrelated third party. It is not practicable to estimate the actual costs that would have been incurred had the Company been a standalone company during the periods presented. The actual costs that may have been incurred would depend on a number of factors, including the chosen organizational structure, whether functions were outsourced or performed by employees, and decisions with respect to areas such as facilities, information technology, and operating infrastructure.
+10
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+WDC maintains various stock-based compensation plans at a corporate level. Employees of the Company participated in those programs, and a portion of the compensation cost associated with those plans was included in the Company’s Condensed Consolidated Statements of Operations for the periods presented in this Quarterly Report on Form 10-Q. Before the spin-off, stock-based compensation expense was included within Net investment from
+Western Digital Corporation
+. The amounts presented in the Condensed Consolidated Financial Statements are not necessarily indicative of future awards and may not reflect the results that the Company would have experienced as a standalone entity.
+Current and deferred income taxes and related tax expenses were determined based on the standalone results of the Company by applying Accounting Standards Codification (“ASC”) No. 740, Income Taxes, to the Company’s operations in each country as if it were a separate taxpayer (i.e., following the “Separate Return Methodology”).
+P
+eriods Post Separation
+After the separation on
+February 21, 2025
+, the Company’s financial statements for the period from February 22, 2025, through
+October 3, 2025
+ are Condensed Consolidated Financial Statements based on the Company’s reported results as a standalone company. All transactions and accounts between controlled entities within the Company have been eliminated.
+Following the separation, certain functions continue to be provided by or for WDC for up to fifteen months under the TSA or are being performed using the Company
+’
+s own resources or third-party service providers. As of
+October 3, 2025
+, charges under the TSA were not material.
+Unaudited Interim Financial Information
+The Company has prepared the accompanying Condensed Consolidated Financial Statements pursuant to the rules and regulations of the SEC for interim financial reporting. These Condensed Consolidated Financial Statements are unaudited and, in management’s opinion, include all adjustments, consisting of normal recurring adjustments and accruals necessary for a fair presentation of the Company’s operations, financial position, and cash flows for the periods presented. Operating results for the periods presented are not necessarily indicative of the results that may be expected for the full fiscal year due to seasonal and other factors. Certain information and footnote disclosures normally included in financial statements prepared in accordance with GAAP have been omitted in accordance with the rules and regulations of the SEC. These Condensed Consolidated Financial Statements should be read in conjunction with the Company’s audited Consolidated Financial Statements and accompanying notes for the year ended June 27, 2025, included in the Company’s Annual Report on Form 10-K
+.
+Fiscal Year
+The Company’s fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, the Company reports a 53-week fiscal year to align the fiscal year with the foregoing policy.
+Fiscal year 2025, which ended on June 27, 2025, was comprised of 52 weeks, with all quarters consisting of 13 weeks. Fiscal year 2026 will be comprised of 53 weeks and will end on July 3, 2026, with the first fiscal quarter consisting of 14 weeks.
+Unless otherwise indicated, references herein to specific years and quarters are to fiscal years and fiscal quarters, and references to financial information are on a condensed consolidated basis.
+Segment Reporting
+The Company develops, manufactures, markets, and sells data storage devices and solutions based on NAND flash technology in the U.S. and in foreign countries through its sales personnel, dealers, distributors, retailers, and subsidiaries. The Company manages and reports its business operations under a single reportable operating segment. Operating segments are components of an enterprise for which separate financial information is available and are evaluated regularly by the Company’s Chief Operating Decision Maker (“CODM”) in deciding how to allocate resources and in assessing performance.
+The Chief Executive Officer, who is the CODM, evaluates the performance of the Company and makes resource allocation decisions for its single reportable operating segment based upon the Company’s condensed consolidated net income. The CODM considers variances of actual performance to forecasted amounts when making decisions. Asset information is not used by the CODM to evaluate performance or allocate resources.
+Use of Estimates
+Management has made estimates and assumptions relating to the reporting of certain assets and liabilities in conformity with GAAP. These estimates and assumptions have been applied using methodologies that are consistent throughout the periods presented, with consideration given to the potential impacts of current macroeconomic conditions, including the evolving impacts from tariffs. However, actual results could differ materially from these estimates.
+11
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Business Separation Costs
+The Company has incurred separation and transition costs related to the completion of its separation from WDC. The separation and transition costs are recorded within Business separation costs in the Condensed Consolidated Statements of Operations.
+Note 2.    
+Recent Accounting Pronouncements
+Accounting Pronouncements Recently Adopted
+In November 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) No. 2023-07, “Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures,” which expands segment reporting requirements, primarily through enhanced disclosures surrounding significant segment expenses. This ASU expands on existing segment reporting requirements to require that a public entity disclose, on an annual and interim basis, significant segment expenses that are regularly provided to an entity’s CODM, a description of other segment items by reportable segment, and any additional measures of a segment’s profit or loss used by the CODM when deciding how to allocate resources.
+The Company adopted the guidance retrospectively in the fourth quarter of fiscal 2025.
+See Note 9,
+Segment Reporting,
+for additional disclosures.
+Recently Issued Accounting Pronouncements Not Yet Adopted
+In December 2023, the FASB issued ASU 2023-09, “Income Taxes (Topic 740): Improvements to Income Tax Disclosures.” This ASU calls for enhanced income tax disclosure requirements surrounding the tabular rate reconciliation and income taxes paid. The Company is currently compiling the information required for these disclosures. These incremental disclosures will be required beginning with the Company’s financial statements for the year ending July 3, 2026, with early adoption permitted. The Company expects to provide any required disclosures at that time.
+In November 2024, the FASB issued ASU 2024-03, “Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,” which is intended to improve disclosures about the expenses of public entities. This ASU requires more detailed information about the types of expenses in commonly presented expense captions (such as cost of sales and selling, general and administrative expenses) and requires public entities to disclose, on an annual and interim basis, the amounts of expenses included in each relevant expense caption presented on the face of the income statement within continuing operations, in a tabular format. Additionally, public entities will be required to disclose a qualitative description of the amounts remaining in relevant expense captions that are not separately disaggregated quantitatively, the total amount of selling expenses, and, in annual reporting periods, the definition of selling expenses. This ASU is effective on either a prospective or retrospective basis for fiscal years beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted. The Company is currently compiling the information required for these disclosures and assessing the basis of adoption. The Company expects to provide any required disclosures for annual reporting periods included in the Company’s financial statements for the year ending June 30, 2028.
+
+12
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 3.    
+Geographic Information and Concentrations of Risk
+Disaggregated Revenue
+The Company’s broad portfolio of technology and products addresses multiple end markets. Datacenter represents a large and growing end market comprised primarily of products for public or private cloud environments and enterprise customers. Through the Edge end market, the Company provides its original equipment manufacturer (“OEM”) and channel customers a broad array of high-performance flash solutions across personal computer, mobile, gaming, automotive, virtual reality headsets, at-home entertainment, and industrial spaces. The Consumer end market is highlighted by the Company’s broad range of retail and other end-user products, which capitalize on the strength of the Company’s product brand recognition and vast points of presence around the world.
+The Company’s disaggregated revenue information was as follows:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Revenue by end market:
+Datacenter
+$
+269
+ 
+$
+300
+ 
+Edge
+1,387
+ 
+1,069
+ 
+Consumer
+652
+ 
+514
+ 
+Total revenue
+$
+2,308
+ 
+$
+1,883
+ 
+Revenue by geography:
+Asia
+$
+1,515
+ 
+$
+1,150
+ 
+Americas
+406
+ 
+443
+ 
+Europe, Middle East and Africa
+387
+ 
+290
+ 
+Total revenue
+$
+2,308
+ 
+$
+1,883
+ 
+The Company’s top 10 customers accounted fo
+r
+40
+% and
+53
+%
+ of its net revenue for the
+three months ended
+ October 3, 2025 and September 27, 2024, respectively. For the
+three months ended
+ October 3, 2025 and September 27, 2024,
+no
+ c
+ustomer accounted for more than 10% of the Company’s net revenue.
+Note 4.    
+Revenue
+Contract assets represent the Company’s right to consideration where performance obligations are completed but the customer payments are not due until another performance obligation is satisfied. The Company had no contract assets as of October 3, 2025 or June 27, 2025.
+Contract liabilities relate to customers’ payments in advance of performance under the contract and primarily relate to remaining performance obligations under professional service, support, and maintenance contracts. Contract liabilities as of October 3, 2025, and June 27, 2025, and changes in contract liabilities for the
+three months ended
+October 3, 2025 and September 27, 2024, were not material.
+The Company incurs sales commissions as direct incremental costs to obtain sales contracts. The Company has applied the practical expedient to recognize sales commissions as an expense when incurred if the amortization period is expected to be one year or less or the amount is not material, with these costs charged to Selling, general and administrative expenses. The Company had no other direct incremental costs to obtain contracts with an expected benefit of more than one year.
+The Company applies the practical expedients and does not disclose the transaction price allocated to the remaining performance obligations for (i) arrangements with an original expected duration of one year or less, mainly consisting of professional service, support, and maintenance contracts, and (ii) variable consideration for sale-based or usage-based royalties for intellectual property license arrangements, which typically range longer than one year. The remaining performance obligations are mainly attributed to right-to-access patent license arrangements, professional service arrangements, and customer support and service contracts, which will be recognized over their contract period. For the three months ended
+October 3, 2025, t
+he transaction price allocated to the remaining performance obligations was not material.
+13
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 5.    
+Supplemental Financial Statement Data
+Goodwill
+The following table provides a summary of goodwill activity for the period presented:
+Goodwill
+(in millions)
+Balance at June 27, 2025
+$
+4,999
+ 
+Impairment charges
+—
+ 
+Foreign currency translation adjustment
+(
+1
+)
+Balance at October 3, 2025
+$
+4,998
+ 
+Goodwill attributed to the Company represents the historical goodwill balances in WDC’s business arising from acquisitions specific to the Company.
+The Company determined that its single operating segment was also its single reporting unit. Goodwill is not amortized. Instead, it is tested for impairment annually as of the beginning of the Company’s fourth quarter or more frequently if events or changes in circumstances indicate that goodwill may be impaired.
+For the three months ended October 3, 2025 and September 27, 2024, the Company recorded
+no
+ impairment charges.
+Accounts receivable, net
+From time to time, in connection with factoring agreements, WDC sold certain of the Company’s trade accounts receivable without recourse to third-party purchasers in exchange for cash.
+ During the three months ended
+October 3, 2025
+, there were
+
+no
+ trade accounts receivable sold by the Company. During the three months ended September 27, 2024,
+there were
+
+no
+ trade accounts receivable sold by WDC. There were
+no
+ factored receivables outstanding as of October 3, 2025 and June 27, 2025.
+Inventories
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Inventories:
+Raw materials and component parts
+$
+1,289
+ 
+$
+1,517
+ 
+Work-in-process
+255
+ 
+262
+ 
+Finished goods
+363
+ 
+300
+ 
+Total inventories
+$
+1,907
+ 
+$
+2,079
+ 
+14
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Property, plant and equipment, net
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Property, plant and equipment:
+Land
+$
+10
+ 
+$
+10
+ 
+Machinery and equipment
+1,499
+ 
+1,480
+ 
+Buildings and improvements
+393
+ 
+390
+ 
+Computer equipment and software
+182
+ 
+176
+ 
+Furniture and fixtures
+18
+ 
+18
+ 
+Construction-in-process
+58
+ 
+51
+ 
+Property, plant and equipment, gross
+2,160
+ 
+2,125
+ 
+Accumulated depreciation
+(
+1,530
+)
+(
+1,506
+)
+Property, plant and equipment, net
+$
+630
+ 
+$
+619
+ 
+Product warranty liability
+Changes in the warranty accrual were as follows:
+October 3,
+2025
+(in millions)
+Warranty accrual, beginning of period
+$
+44
+ 
+Charges to operations
+14
+ 
+Utilization
+(
+8
+)
+Changes in estimate related to pre-existing warranties
+4
+ 
+Warranty accrual, end of period
+$
+54
+ 
+The current portion of the warranty accrual was classified in Accrued expenses and the long-term portion was classified in Other liabilities as noted below:
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Warranty accrual:
+Current portion
+$
+26
+ 
+$
+22
+ 
+Long-term portion
+28
+ 
+22
+ 
+Total warranty accrual
+$
+54
+ 
+$
+44
+ 
+Other liabilities
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Other liabilities:
+Non-current lease liability
+$
+188
+ 
+$
+193
+ 
+Non-current net tax payable
+112
+ 
+131
+ 
+Tax indemnification liability
+125
+ 
+110
+ 
+Other non-current liabilities
+68
+ 
+62
+ 
+Total other liabilities
+$
+493
+ 
+$
+496
+ 
+15
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+In connection with the separation, the Company recorded a $
+112
+ million liability to indemnify WDC as a result of the Tax Matters Agreement entered into between the parties in connection with the separation. The indemnification pertains to certain WDC tax positions where the underlying issues are determined to be related to the Company’s business before the spin-off. As WDC receives tax assessments, settles with tax authorities, or when the statute of limitation lapses, the indemnification liabilities will be reassessed and adjusted accordingly. The outstanding balance of the liability as of October 3, 2025 was $
+125
+ million.
+Accumulated other comprehensive loss
+Accumulated other comprehensive loss (“AOCL”), net of tax, refers to expenses, gains, and losses that are recorded as an element of equity but are excluded from net income. The components of AOCL were as follows:
+Foreign Currency Translation Adjustment
+Unrealized Income (Losses) on Derivative Contracts
+Total Accumulated Comprehensive Loss
+(in millions)
+Balance at June 27, 2025
+$
+(
+202
+)
+$
+(
+47
+)
+$
+(
+249
+)
+Other comprehensive income (loss)
+(
+14
+)
+39
+ 
+25
+ 
+Income tax expense related to items of other comprehensive income
+—
+ 
+(
+10
+)
+(
+10
+)
+Net current-period other comprehensive income (loss)
+(
+14
+)
+29
+ 
+15
+ 
+Balance at October 3, 2025
+$
+(
+216
+)
+$
+(
+18
+)
+$
+(
+234
+)
+As of October 3, 2025, substantially all existing net losses related to cash flow hedges recorded in AOCL are expected to be reclassified to earnings within the next twelve months.
+Note 6.    
+Fair Value Measurements and Investments
+Financial Instruments Carried at Fair Value
+Financial assets and liabilities that are remeasured and reported at fair value at each reporting period are classified and disclosed in one of the following three levels:
+Level 1.    
+Quoted prices in active markets for identical assets or liabilities.
+Level 2.    
+Inputs other than Level 1 that are observable, either directly or indirectly, such as quoted prices for similar assets or liabilities; quoted prices in markets that are not active; or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the assets or liabilities.
+Level 3.    
+Inputs that are unobservable for the asset or liability and that are significant to the fair value of the assets or liabilities.
+The following tables present information about the Company’s financial instruments that were measured at fair value on a recurring basis for the periods presented and indicate the fair value hierarchy of the valuation techniques utilized to determine such values:
+16
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+October 3, 2025
+Level 1
+Level 2
+Level 3
+Total
+(in millions)
+Assets:
+Cash equivalents - Money market funds
+$
+533
+ 
+$
+—
+ 
+$
+—
+ 
+$
+533
+ 
+Foreign exchange contracts (included in Other current assets)
+—
+ 
+4
+ 
+—
+ 
+4
+ 
+Total assets at fair value
+$
+533
+ 
+$
+4
+ 
+$
+—
+ 
+$
+537
+ 
+Liabilities:
+Foreign exchange contracts (included in Accrued expenses)
+$
+—
+ 
+$
+9
+ 
+$
+—
+ 
+$
+9
+ 
+Total liabilities at fair value
+$
+—
+ 
+$
+9
+ 
+$
+—
+ 
+$
+9
+ 
+June 27, 2025
+Level 1
+Level 2
+Level 3
+Total
+(in millions)
+Assets:
+Cash equivalents - Money market funds
+$
+751
+ 
+$
+—
+ 
+$
+—
+ 
+$
+751
+ 
+Foreign exchange contracts (included in Other current assets)
+—
+ 
+17
+ 
+—
+ 
+17
+ 
+Total assets at fair value
+$
+751
+ 
+$
+17
+ 
+$
+—
+ 
+$
+768
+ 
+Liabilities:
+Foreign exchange contracts (included in Accrued expenses)
+$
+—
+ 
+$
+22
+ 
+$
+—
+ 
+$
+22
+ 
+Total liabilities at fair value
+$
+—
+ 
+$
+22
+ 
+$
+—
+ 
+$
+22
+ 
+During the periods presented, the Company had no transfers of financial instruments between levels, and there were no changes in valuation techniques or the inputs used in the fair value measurement.
+Financial Instruments Not Carried at Fair value
+Financial instruments not recorded at fair value on a recurring basis (debt) had an estimated fair value of $
+1.4
+ billion as of October 3, 2025. The fair value of the debt was determined based on observable market prices in less active markets. The fair values do not indicate the amount the Company would have to pay to extinguish the debt. For more information regarding debt, see Note 8,
+Debt
+f
+or additional disclosures.
+Note 7.    
+Derivative Instruments and Hedging Activities
+As of October 3, 2025, the Company had outstanding foreign exchange forward contracts that were designated as either cash flow hedges or non-designated hedges. Substantially all of the contract maturity dates of these foreign exchange forward contracts do not exceed twelve months.
+Changes in the fair values of the non-designated foreign exchange contracts are recognized in Other expense, net, and are largely offset by corresponding changes in the fair values of the foreign currency-denominated monetary assets and liabilities. For the three months ended October 3, 2025 and September 27, 2024, total net realized and unrealized transactions and foreign exchange contract currency were losses of
+$
+3
+ million
+ and $
+15
+ million, respectively.
+Unrealized gains or losses on designated cash flow hedges are recognized in AOCL. For more information regarding cash flow hedges, see Note 5,
+Supplemental Financial Statement Data—Accumulated other comprehensive loss
+for additional disclosures.
+
+17
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 8.    
+Debt
+Loan Agreement
+Debt consisted of the following:
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Variable interest rate Term Loan Facility maturing 2032
+$
+1,400
+ 
+$
+1,900
+ 
+$1.5B Revolving Credit Facility maturing 2030
+—
+ 
+$
+—
+ 
+Total debt
+1,400
+ 
+$
+1,900
+ 
+Unamortized issuance costs
+49
+ 
+$
+51
+ 
+Subtotal
+1,351
+ 
+$
+1,849
+ 
+Less: Current portion of long-term debt
+20
+ 
+$
+20
+ 
+Long term debt
+$
+1,331
+ 
+$
+1,829
+ 
+On
+February 21, 2025
+, the Company entered into a Loan Agreement (the “Loan Agreement”) by and among the Company, the lenders party thereto, JPMorgan Chase Bank, N.A., as administrative agent and collateral agent and the other parties party thereto. The Loan Agreement comprises a term loan B facility in the principal amount of
+$
+2.0
+ billion
+ (the “Term Loan Facility”) and a revolving credit facility in the principal amount of
+$
+1.5
+ billion
+ (the “Revolving Credit Facility” and together with the Term Loan Facility, the “Facilities”).
+The obligations under the Loan Agreement are guaranteed by the Company’s wholly-owned subsidiary, Sandisk Technologies, Inc. (“SDT”), and are required to be guaranteed by any of the Company’s future material U.S. wholly-owned subsidiaries, subject to certain exceptions outlined in the Loan Agreement. The obligations under the Loan Agreement are secured by the Company’s assets and SDT’s assets and are required to be secured by the assets of any of the Company’s future material U.S. wholly-owned subsidiaries, subject, in each case, to certain exceptions outlined in the Loan Agreement.
+The Loan Agreement includes certain restrictions (subject to certain exceptions outlined in the Loan Agreement) on the ability of the Company and its subsidiaries to undertake certain activities, including to incur indebtedness and liens, merge or consolidate with other entities, dispose or transfer their assets, pay dividends or make distributions, make investments, make payments on junior or subordinated debt, enter into burdensome agreements or transact with affiliates. The Loan Agreement also includes a financial covenant, which is solely for the benefit of the lenders under the Revolving Credit Facility, that prohibits the Company from exceeding a maximum Leverage Ratio (as defined in the Loan Agreement).
+On February 21, 2025, the Company borrowed
+$
+2.0
+ billion
+ under its Term Loan Facility. The Company used a portion of the proceeds of the borrowing
+to make a net distribution payment of
+
+$
+1.5
+ billion
+ to WDC, with the remainder to be used for general corporate purposes of the Company. The Revolving Credit Facility may be borrowed by the Company from time to time for general corporate purposes.
+In connection with the Loan Agreement, the Company and SDT entered into a security agreement to secure the obligations under the Facilities on a first-priority basis (subject to permitted liens) by a lien on substantially all the assets and properties of the Company and SDT, subject to certain exceptions.
+In connection with the Loan Agreement, the Company (solely with respect to obligations of any additional Borrower under the Loan Agreement) and SDT entered into a guaranty agreement to secure and unconditionally guarantee the obligations under the Loan Agreement, respectively, in each case, subject to certain exceptions.
+Term Loan Facility
+The Term Loan Facility bears interest, at the Company’s option, at (x) the Adjusted Term SOFR Rate (as defined in the Loan Agreement) plus an interest rate margin of
+3.00
+%
+ per annum or (y) a base rate plus an interest rate margin of
+2.00
+%
+ per annum.
+The outstanding principal balance of the Term Loan Facility is required to be repaid in quarterly installments that began on June 27, 2025, in an aggregate amount equal to
+0.25
+%
+ of the aggregate principal amount of the Term Loan Facility. A final payment comprised of all principal and interest is due and payable at maturity on
+February 20, 2032
+.
+18
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+For the
+three months ended October 3, 2025, interest expense was $
+37
+ million a
+nd amortization of issuance costs was
+$
+2
+ million.
+Revolving Credit Facility
+Borrowings under the Revolving Credit Facility, for U.S. dollar borrowings, will bear interest, at the Company’s option, at (x) the Adjusted Term SOFR Rate (as defined in the Loan Agreement), which rate includes a credit spread adjustment of
+0.10
+%
+, plus an interest rate margin of
+2.00
+%
+ per annum (subject to step-ups based on the Company’s Leverage Ratio (as defined in the Loan Agreement)), or (y) a base rate plus an interest rate margin of
+1.00
+%
+ per annum (subject to step-ups based on the Company’s Leverage Ratio (as defined in the Loan Agreement)). The Company will pay a commitment fee of
+0.30
+%
+ per annum (subject to step-ups based on the Company’s Leverage Ratio (as defined in the Loan Agreement)) in respect of undrawn revolving commitments under the Revolving Credit Facility. The Revolving Credit Facility will also provide for borrowings in Euros, Yen, and additional currencies agreed to by the lenders under the Revolving Credit Facility. The Revolving Credit Facility will mature on
+February 21, 2030
+, at which time the commitments thereunder shall be terminated and will not have any amortization.
+In connection with the issuance of the Revolving Credit Facility, the Company recognized deferred costs, classified as Other non-current assets of
+$
+8
+ million
+, which are amortized to Interest expense over the life of the facility.
+The Loan Agreement also includes a financial covenant, which is solely for the benefit of the lenders under the Revolving Credit Facility, that prohibits the Company from exceeding a maximum Leverage Ratio (as defined in the Loan Agreement).
+As of October 3, 2025, the Company was in compliance with the financial covenant.
+As of October 3, 2025, the Company had
+no
+ outstanding standby letters of credit, and the available capacity under the Revolving Credit Facility was $
+1.5
+ billion.
+Note 9.    
+Segment Reporting
+The following table presents the revenue, costs of revenue, operating expenses, and operating income of the Company’s reportable operating segment under its internal management reporting system, along with a reconciliation to consolidated net income. This presentation aligns with how the CODM evaluates performance and allocates resources.
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Revenue
+2,308
+1,883
+Costs of revenue
+ (1)
+1,617
+ 
+1,152
+ 
+Operating expenses
+ (1)
+446
+ 
+377
+ 
+Stock-based compensation expenses
+53
+ 
+41
+ 
+Employee termination and other
+(
+3
+)
+2
+ 
+Business separation costs
+9
+ 
+20
+ 
+Loss on business divestiture
+10
+ 
+—
+ 
+Total interest and other expense, net
+52
+ 
+24
+ 
+Income tax expense
+12
+ 
+56
+ 
+Net income
+$
+112
+ 
+$
+211
+ 
+(1)
+ For purposes of the management view presented to the CODM, Costs of revenue excludes stock-based compensation and business separation costs, and Operating expenses excludes stock-based compensation, employee termination, and business separation, each of which are presented separately in the table above.
+Note 10.    
+Related Parties and Related Commitments and Contingencies
+Flash Ventures
+The Company procures substantially all of its flash-based memory wafers from its business ventures with Kioxia Corporation (“Kioxia”), which consists of three separate legal entities: Flash Partners Ltd. (“Flash Partners”), Flash Alliance Ltd. (“Flash Alliance”) and Flash Forward Ltd. (“Flash Forward”), collectively referred to as “Flash Ventures.”
+19
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The following table presents the notes receivable from, and equity investments in, Flash Ventures for the periods presented:
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Notes receivable, Flash Partners
+$
+6
+ 
+$
+7
+ 
+Notes receivable, Flash Alliance
+39
+ 
+36
+ 
+Notes receivable, Flash Forward
+296
+ 
+316
+ 
+Investment in Flash Partners
+39
+ 
+55
+ 
+Investment in Flash Alliance
+112
+ 
+115
+ 
+Investment in Flash Forward
+110
+ 
+125
+ 
+Total notes receivable and investments in Flash Ventures
+$
+602
+ 
+$
+654
+ 
+During the
+three months ended
+ October 3, 2025 and September 27, 2024, the Company made net payments to Flash Ventures of $
+0.9
+ billion and $
+0.9
+ billion, respectively, for purchases of flash-based memory wafers and net loans.
+ In addition, during the three months ended October 3, 2025, the Company received a $
+15
+ million dividend distribution from Flash Ventures.
+The Company makes, or will make, loans to Flash Ventures to fund equipment investments for new process technologies and additional wafer capacity. The Company aggregates its Flash Ventures’ notes receivable into one class of financing receivables due to the similar ownership interest and common structure in each Flash Ventures entity. For all reporting periods presented, no loans were past due, and no loan impairments were recorded. The Company’s notes receivable from each Flash Ventures entity, denominated in Japanese yen, are secured by equipment owned by that Flash Ventures entity.
+As of October 3, 2025 and June 27, 2025, the Company had accounts payable balances due to Flash Ventures of
+$
+338
+ million
+ and $
+279
+ million, respectively.
+The Company’s maximum reasonably estimable loss exposure (excluding lost profits) as a result of its involvement with Flash Ventures, based upon the Japanese yen to U.S. dollar exchange rate at October 3, 2025, is presented below. Investments in Flash Ventures are denominated in Japanese yen, and the maximum estimable loss exposure excludes any cumulative translation adjustment due to revaluation from the Japanese yen to the U.S. dollar.
+October 3,
+2025
+(in millions)
+Notes receivable
+$
+341
+ 
+Equity investments
+261
+ 
+Operating lease guarantees
+1,219
+ 
+Inventory and prepayments
+1,273
+ 
+Maximum estimable loss exposure
+$
+3,094
+ 
+The Company is obligated to pay for variable costs incurred by Flash Ventures in producing the Company’s share of Flash Ventures’ flash-based memory wafer supply, based on its rolling three-month forecast. The Company’s share generally equals
+50
+% of Flash Ventures’ output. In addition, the Company is obligated to pay for half of Flash Ventures’ fixed costs regardless of the output the Company chooses to purchase. The Company cannot estimate its total wafer purchase commitment obligation beyond its rolling three-month purchase commitment because the price is determined by reference to the future cost of producing the semiconductor wafers. In addition, the Company is committed to fund
+49.9
+% to
+50.0
+% of each Flash Ventures entity’s capital investments to the extent that the Flash Ventures entity’s operating cash flow is insufficient to fund these investments.
+Flash Ventures has historically operated at nearly
+100
+% of its manufacturing capacity. During the three months ended October 3, 2025, as a result of flash market conditions, the Company temporarily reduced its utilization of its share of Flash Ventures’ manufacturing capacity to a level that more closely aligned the Company’s flash-based wafer supply with projected demand. During the three months ended October 3, 2025, the Company incurred costs of $
+11
+ million associated with the reduction in utilization related to Flash Ventures, which was recorded as a charge to Cost of revenue.
+No
+ such charges were incurred during the three months ended September 27, 2024.
+20
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The Company has facility agreements with Kioxia related to the construction and operation of Kioxia’s 300-millimeter wafer fabrication facility in Kitakami, Japan, referred to as “K1”, a wafer fabrication facility in Yokkaichi, Japan, referred to as “Y7”, and a wafer fabrication facility in Kitakami, Japan, referred to as “K2”. In connection with the construction of these facilities, the Company makes prepayments toward Kioxia’s future building depreciation. In connection with the start-up of the K1, Y7 and K2 facilities, the Company has made prepayments over time, and as of October 3, 2025
+, $
+914
+ million, with $
+131
+ million recorded within Other current assets and $
+783
+ million recorded within Other non-current assets in the Condensed Consolidated Balance Sheets, remain to be credited against future building depreciation charges and ultimately released within Costs of revenue when the Company’s inventory is sold. As of October 3, 2025, the Company is also committed to making additional building depreciation prepayments of $
+259
+ million, based on the Japanese yen to U.S. dollars exchange rate of ¥
+147.34
+ as of such date, payable as follows: $
+32
+ million for the remaining of fiscal year 2026, $
+119
+ million in fiscal year 2027, $
+95
+ million in fiscal year
+2028 and
+ $
+14
+ million in fiscal year 2029. As of October 3, 2025, in addition to the requirements to make building depreciation prepayments, the Company will also make payments for building depreciation of approximately $
+186
+ million at varying dates through fiscal year 2035.
+Inventory Purchase Commitments with Flash Ventures.
+ Purchase orders placed with Flash Ventures for up to three months are binding and cannot be canceled.
+Research and Development Activities.
+
+The Company participates in common research and development (“R&D”) activities with Kioxia and is contractually committed to a minimum funding level. R&D commitments due for the remaining nine months of 2026 are $
+87
+ million.
+Off-Balance Sheet Liabilities.
+
+Flash Ventures sells to, and leases back from, a consortium of financial institutions a portion of its tools and has entered into equipment lease agreements of which the Company guarantees half of all of the outstanding obligations under each lease agreement. The lease agreements are subject to customary covenants and cancellation events related to Flash Ventures and each of the guarantors. The occurrence of a cancellation event could result in an acceleration of Flash Ventures’ obligations and a call on the Company’s guarantees.
+The following table presents the Company’s portion of the remaining guarantee obligations under the Flash Ventures’ lease facilities in both Japanese yen and U.S. dollar-equivalent, based upon the Japanese yen to U.S. dollar exchange rate as of October 3, 2025:
+Lease Amounts
+(Japanese yen, in billions)
+(U.S. dollar, in millions)
+Total guarantee obligations
+¥
+180
+ 
+$
+1,219
+ 
+The following table details the breakdown of the Company’s remaining guarantee obligations between the principal amortization and the purchase option exercise price at the end of the term of the Flash Ventures lease agreements, in annual installments, in U.S. dollars, based upon the Japanese yen to U.S. dollar exchange rate as of October 3, 2025:
+Annual Installments
+Payment of Principal Amortization
+Purchase Option Exercise Price at Final Lease Terms
+Guarantee Amount
+(in millions)
+2026
+297
+ 
+70
+ 
+367
+ 
+2027
+274
+ 
+104
+ 
+378
+ 
+2028
+138
+ 
+100
+ 
+238
+ 
+2029
+58
+ 
+54
+ 
+112
+ 
+2030
+25
+ 
+62
+ 
+87
+ 
+2031
+2
+ 
+35
+ 
+37
+ 
+Total guarantee obligations
+$
+794
+ 
+$
+425
+ 
+$
+1,219
+ 
+21
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The Company and Kioxia have agreed to mutually contribute to and indemnify each other and Flash Ventures for environmental remediation costs or liabilities resulting from Flash Ventures’ manufacturing operations in certain circumstances. The Company has not made any indemnification payments nor recorded any indemnification receivables under any such agreements. As of October 3, 2025, no amounts have been accrued in the Condensed Consolidated Financial Statements with respect to these indemnification agreements.
+Sale of a Majority Interest in a Subsidiary
+In March 2024, SanDisk China Limited (“SanDisk China”), an indirect wholly-owned subsidiary of WDC, entered into an equity purchase agreement to sell
+80
+%
+ of its equity interest in SanDisk Semiconductor (Shanghai) Co. Ltd. (“SDSS”) an indirect wholly-owned subsidiary of WDC which holds one of the Company’s manufacturing facilities, to JCET Management Co., Ltd. (“JCET”), a wholly-owned subsidiary of JCET Group Co., Ltd., a Chinese publicly-listed company, thereby forming a venture between SanDisk China and JCET (the “Transaction”). The venture aims to provide independent semico
+nductor assembly, testing, and other related services in the People’s Republic of China for customers including, but not limited to, the Company and its affiliates.
+The Transaction closed on September 28, 2024, and SanDisk China completed the sale of
+80
+% of its equity interest in SDSS to JCET. The Transaction resulted in a pre-tax gain of $
+34
+ million, calculated as the difference between the total consideration for the sale, including the outstanding consideration receivable and the fair value of the Company’s
+20
+% retained interest, less the carrying value of the net assets divested, which included, among other items, $
+71
+ million of cash and cash equivalents and
+$
+382
+ million of goodwill that was allocated to SDSS.
+Proceeds from the sale, including working capital adjustments, were $
+659
+ million (pre-tax). On October 1, 2024, the Company received an initial pre-tax installment of $
+262
+ million. On January 6, 2025, the Company received a second pre-tax installment of $
+210
+ million. The remaining $
+187
+ million pre-tax proceeds are payable in
+five
+ equal installments of approximately $
+37
+ million on September 28 of each year through September 28, 2029.
+On September 25, 2025, SanDisk China and JCET entered into an Amendment No. 1 to the Amended and Restated Equity Purchase Agreement that included a $
+10
+ million provision for working capital support, resulting in a reduction of the September 28, 2025 installment payment from JCET to $
+27
+ million. The Company recognized the adjustment as a Loss on business divestiture for the three months ended October 3, 2025.
+As of October 3, 2025, the outstanding consideration receivable was recognized at its present value of $
+133
+ million, with $
+36
+ million classified as Other current assets and $
+97
+ million classified as Other non-current assets in the Condensed Consolidated Balance Sheets. The remaining present value discount of $
+17
+ million as of October 3, 2025
+ will be recognized using the effective interest method over the next
+four years
+ a
+s Interest income in the Condensed Consolidated Statements of Operations.
+The Company’s
+20
+% retained interest in SDSS was determined to be valued at $
+158
+ million based on the fair value of the total pre-tax consideration received and receivable from JCET for its purchase of its
+80
+% interest in SDSS. The Company accounts for its
+20
+% interest in SDSS as an equity method investment within Other non-current assets in the Condensed Consolidated Balance Sheets. The Company’s
+20
+% interest in the earnings of SDSS is recognized one quarter in arrears and is reported in Other expense, net in the Condensed Consolidated Statements of Operations. As of October 3, 2025, the
+20
+% retained interest in SDSS was valued at $
+162
+ million.
+Subsequent to and in connection with the Transaction, Western Digital Technologies, Inc. (“WDT,” a WDC affiliate) entered into a
+five-year
+ supply agreement with SDSS (the “Supply Agreement”) to purchase certain flash-based products with a minimum annual commitment of $
+550
+ million (the “minimum annual commitment”). On January 10, 2025, the Company and WDT entered into an assignment agreement, pursuant to which, WDT assigned all of its rights and obligations under the Supply Agreement to the Company. The Supply Agreement contains specific penalties the Company must pay if it fails to meet its minimum annual commitment. The Supply Agreement also provides that if the Company’s purchases exceed the minimum annual commitment in any of the two years immediately succeeding any annual period where a shortfall penalty has been paid, SDSS shall reimburse the Company an amount not exceeding the previously paid penalty amount. The Supply Agreement expires on September 28, 2029, and automatically renews for additional
+one-year
+
+terms unless earlier terminated by either of the parties. The Company also entered into an agreement to grant SDSS certain intellectual property rights on a royalty-free basis for use in manufacturing products on the Company’s behalf for the term of and under the Supply Agreement. For the three months ended October 3, 2025, the
+ Company made purchases of
+$
+139
+ million
+ under the Supply Agreement and had a
+$
+147
+ million
+ accounts payable balance due to SDSS as of October 3, 2025.
+The Company also entered into an arrangement to provide certain transition services for a limited period following the closing of the Transaction.
+Charges under this arrangement were not material.
+22
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Unis Venture
+On January 24, 2025, the Company and WDC entered into an equity transfer agreement (the “Equity Transfer Agreement”) to transfer WDC’s entire equity interest in its venture with Unisplendour Corporation Limited and Unissoft (Wuxi) Group Co. Ltd. (“Unis”), referred to as the “Unis Venture”, to the Company. The Unis Venture is
+48
+% owned by the Company and
+52
+% owned by Unis. The Unis Venture markets and sells the Company’s products in China and develops data storage systems for the Chinese market.
+Prior to the execution of the Equity Transfer Agreement, the Unis Venture was not historically managed as a component of the Company and as such, the related equity method investment was not reflected within the Company’s Condensed Consolidated Financial Statements. After the execution of the Equity Transfer Agreement, the Company accounts for its investment in the Unis Venture under the equity method of accounting.
+The Company’s
+48
+%
+ interest in the earnings of the Unis Venture will be recognized one quarter in arrears from the date the Unis Venture was transferred to the Company and will be reported in Other expense, net in the Condensed Consolidated Statements of Operations.
+
+Revenue from products distributed by the Unis Venture is recognized upon sell-through to third-party customers. For the
+three months ended
+ October 3, 2025, and September 27, 2024, the Company recognized approximately
+1
+% and
+1
+%
+, respectively, of its condensed consolidated revenue on products distributed by the Unis Venture. The outstanding accounts receivable due from the Unis Venture were
+2
+%
+ and
+1
+% of Accounts receivable, net, as of October 3, 2025 and June 27, 2025, respectively.
+Related Party Transactions
+Separation and Distribution Agreement and Other Related Party Transactions with WDC
+As described in Note 1,
+Organization and Basis of Presentation
+, on February 21, 2025, in connection with the separation, the Company entered into several agreements that provide a framework for Sandisk’s relationship with WDC after the separation. These include, but are not limited to, the following:
+•
+Separation and Distribution Agreement
+ - The separation and distribution agreement contains key provisions related to the separation of the Company from WDC, including the transfer of assets and assumptions of liabilities. In connection with this agreement, certain assets and liabilities included in the Company’s Condensed Combined Balance Sheets were retained by WDC and certain assets and liabilities not included in the Company’s Condensed Combined Balance Sheets were transferred to the Company as of the date of the separation.
+As of quarter end
+October 3, 2025
+, the separation between the Company and WDC has been finalized, and no separation-related adjustments have been, or are expected to be, incurred going forward.
+•
+Employee Matters Agreement -
+The Employee Matters Agreement allocates liabilities and responsibilities relating to employment matters, employee compensation and benefit plans and programs and other related matters. Pursuant to this agreement, during the three months ended October 3, 2025, the Company received reimbursement of short-term employee incentives totaling $
+22
+ million from WDC.
+
+•
+Transition Services Agreement -
+The Transition Services Agreement governs the provision of transition services from WDC to Sandisk, and from Sandisk to WDC and its affiliates, on an interim, transitional basis following the separation.
+•
+Tax Matters Agreement -
+The Tax Matters Agreement governs, among other things, WDC’s and the Company’s respective rights, responsibilities and obligations after the spin-off with respect to tax liabilities and benefits, tax attributes, the preparation and filing of tax returns, the control of audits and other tax proceedings and other matters regarding taxes. In addition, the Tax Matters Agreement imposes certain restrictions on the Company and its subsidiaries (including restrictions on share issuances, business combinations, sales of assets, and similar transactions) that are designed to preserve the tax-free status of the spin-off and certain related transactions.
+As a result of this agreement, the Company recorded a tax indemnification liability of $
+112
+ million on February 21, 2025. This liability was subsequently increased to reflect changes in indemnification obligations under the Tax Matters Agreement, which is recorded in Other expense, net in the Condensed Consolidated Statements of Operations. The remaining tax indemnification liability of $
+125
+ million is classified as Other liabilities in the Condensed Consolidated Balance Sheets as of October 3, 2025.
+23
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Notes Due to (from) Western Digital Corporation
+Prior to the separation, the Company received financing from certain of WDC’s subsidiaries in the form of borrowings under revolving credit agreements and promissory notes to fund activities primarily related to Flash Ventures. Additionally, cash generated by the Company was lent from time to time via promissory notes to certain of WDC’s subsidiaries for use in general corporate purposes. Outstanding balances due under these financing arrangements were due on demand.
+Prior to the separation, the Company had outstanding borrowings due to WDC’s subsidiaries of $
+553
+ million, inclusive of interest payable. As part of the separation, WDC contributed $
+550
+ million to the Company, and the Company repaid $
+6
+ million in cash, which included interest accrued until the date of the separation.
+The following presents Interest expense and Interest income on notes due to (from) Western Digital Corporation, which were recorded within Interest expense and Interest income in the Condensed Consolidated Statements of Operations for the periods presented:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Interest income on notes due from Western Digital Corporation
+$
+—
+ 
+$
+(
+1
+)
+Interest expense on notes due to Western Digital Corporation
+$
+—
+ 
+$
+2
+ 
+Allocation of Corporate Expenses
+Prior to the separation, WDC provided various corporate services to the Company in the ordinary course of business, including executive management, finance, tax, legal, information technology, employee benefits administration, treasury, risk management, procurement and other shared services. These corporate expenses were allocated to the Company based on direct usage or benefit, where identifiable, with the remainder allocated based on headcount, revenue or other relevant measures. Management believes the basis on which the expenses were allocated to be a reasonable reflection of the utilization of services provided to the Company or the benefit received by the Company.
+Effective at the beginning of the second quarter of fiscal year 2025, the Company was operationally separated from the operations that were ultimately retained by WDC following completion of the spin-off. In connection with this operational separation, personnel serving the Company in shared service functions were transferred into legal entities dedicated to the Company, and substantially all assets, liabilities, and contracts pertaining to operations of the Company were transferred to legal entities dedicated to the Company as well. Accordingly, there was a substantial reduction in the pool of shared corporate overhead costs of WDC that were subject to allocation in the second and third quarters of fiscal year 2025 and those allocations ceased post-separation.
+The table below summarizes
+the impact of expense allocations from WDC within the Condensed Consolidated Statements of Operations for the periods presented:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Research and development
+$
+—
+ 
+$
+187
+ 
+Selling general, and administrative
+—
+ 
+113
+ 
+Business separation costs
+—
+ 
+2
+ 
+Employee termination and other charges
+—
+ 
+20
+ 
+Total allocation of Corporate Expenses
+$
+—
+ 
+$
+322
+ 
+The Company’s historical financial statements do not purport to reflect what results of operations, financial position, equity or cash flows would have been if the Company had operated as a standalone company during the periods presented.
+24
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Cash Management
+Prior to the separation, WDC provided funding for the Company’s operating and investing activities, including pooled cash managed by WDC’s treasury, to fund operating expenses and capital expenditures. WDC also directly collected certain of the Company’s receivables. These activities were reflected as a component of the Net investment from Western Digital Corporation, and this arrangement is not reflective of the manner in which the Company would operate on a standalone company separate from WDC during the periods presented.
+Western Digital Corporation Net Investment
+Prior to the separation, the Net investment from Western Digital Corporation on the Condensed Consolidated Balance Sheets represented WDC’s historical investment in the Company, the net effect of transactions with and allocations from WDC, the Company’s retained earnings and the allocation to the Company of cumulative effect adjustments from the adoption of new accounting standards.
+Net Transfers from (to) Western Digital Corporation
+A reconciliation of Net transfers from (to) Western Digital Corporation on the Condensed Consolidated Statements of Shareholders’ Equity to the corresponding amounts on the Condensed Consolidated Statements of Cash Flows is as follows:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Net transfers from Western Digital Corporation per Condensed Consolidated Statements of Shareholders’ Equity
+$
+—
+ 
+$
+583
+ 
+Notes due to Western Digital Corporation
+—
+ 
+(
+378
+)
+Other assets and liabilities, net transferred from Western Digital Corporation
+—
+ 
+(
+6
+)
+Property, plant and equipment, net transferred from Western Digital Corporation
+—
+ 
+(
+3
+)
+Tax balances transferred from Western Digital Corporation
+—
+ 
+(
+7
+)
+Net transfers to Western Digital Corporation per Condensed Consolidated Statements of Cash Flows
+$
+—
+ 
+$
+189
+ 
+Note 11.    
+Leases and Other Commitments
+Leases
+The Company leases certain domestic and international facilities and datacenter space under long-term, non-cancelable operating leases that expire at various dates through fiscal year 2039. In connection with and subsequent to the separation, the Company entered into various sublease agreements with WDC under
+ long-term, non-cancelable operating leases
+ that expire at various dates through fiscal year 2031.
+These leases include no material variable or contingent lease payments. Operating lease assets and liabilities are recognized based on the present value of the remaining lease payments discounted
+using the Company’s incremental borrowing rate. O
+perating lease assets also include prepaid lease payments minus any lease incentives. Extension or termination options present in the Company’s lease agreements are included in determining the right-of-use asset and lease liability when it is reasonably certain the Company will exercise those options. Lease expense is recognized on a straight-line basis over the lease term.
+25
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The following table presents right-of-use lease assets and lease liabilities included in the Company’s Condensed Consolidated Balance Sheets:
+October 3,
+2025
+June 27,
+2025
+(in millions)
+Operating lease right-of-use assets (included in other non-current assets)
+$
+207
+ 
+$
+214
+ 
+Operating lease liabilities:
+Current portion of long-term operating lease liabilities (included in accrued expenses)
+24
+ 
+26
+ 
+Long-term operating lease liabilities (included in other liabilities)
+
+188
+ 
+193
+ 
+Total operating lease liabilities
+$
+212
+ 
+$
+219
+ 
+The following table summarizes supplemental disclosures of operating cost and cash flow information related to operating leases:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Cost of operating leases
+$
+11
+ 
+$
+7
+ 
+Cash paid for operating leases
+10
+ 
+7
+ 
+Operating lease assets obtained in exchange for operating lease liabilities
+2
+ 
+—
+ 
+The weighted average remaining lease term and discount rate for the Company’s operating leases were as follows:
+October 3,
+2025
+September 27,
+2024
+Weighted average remaining lease term in years
+10.9
+13.6
+Weighted average discount rate
+7.3
+ 
+%
+7.5
+ 
+%
+26
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+As of October 3, 2025, minimum lease payments were as follows:
+Lease Amounts
+(in millions)
+Minimum lease payments by fiscal year:
+Remaining nine months of 2026
+$
+29
+ 
+2027
+36
+ 
+2028
+28
+ 
+2029
+24
+ 
+2030
+20
+ 
+Thereafter
+182
+ 
+Total future minimum lease payments
+319
+ 
+Less: Imputed interest
+107
+ 
+Present value of lease liabilities
+$
+212
+ 
+Purchase Agreements and Other Commitments
+In the normal course of business, the Company enters into purchase orders with suppliers for the purchase of components used to manufacture its products. These purchase orders generally cover forecasted component supplies needed for production during the coming months, are recorded as a liability upon receipt of the components, and generally may be changed or canceled at any time prior to shipment of the components. The Company also enters into long-term agreements with suppliers that contain fixed future commitments, which are contingent upon certain conditions such as performance, quality and technology of the vendor’s components.
+As of October 3, 2025, the Company had the following minimum long-term commitments:
+Long-term commitments
+(in millions)
+Fiscal year:
+Remaining nine months of 2026
+$
+98
+ 
+2027
+583
+ 
+2028
+570
+ 
+2029
+570
+ 
+2030
+570
+ 
+Thereafter
+90
+ 
+Total
+$
+2,481
+ 
+Note 12.     
+Shareholders’ Equity
+Prio
+r to the separation, certain employees participated in WDC’s stock incentive plans (the “WDC Plans”), whereby all awards granted under the plans consisted of WDC common stock. The Stock-based compensation expense recognized in the Company’s Condensed Consolidated Financial Statements was determined based upon employees who participated in the WDC Plans and exclusively supported the Company’s operations, as well as an allocation of WDC’s corporate and shared employee stock-based compensation expenses.
+27
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+In connection with the separation, all outstanding RSU and PSU awards held by former employees of WDC and its affiliates, who became Sandisk employees after the separation, were adjusted pursuant to conversion ratios determined in accordance with the terms of the Employee Matters Agreement. Outstanding RSU and PSU awards held by employees in the positions of Vice President and above as of the separation date were converted into RSU or PSU awards of Sandisk shares and RSU awards of WDC shares on a ratio of one-third (1/3) of one share of the Company’s common stock for each WDC award held by each such employee. For all other employees, the value of the converted RSU awards was designed to preserve the aggregate intrinsic value of the award immediately after the separation when compared to the aggregate intrinsic value of those awards immediately prior to separation. Pursuant to the Employee Matters Agreement, the converted awards shall generally continue to be subject to the same terms and conditions as were applicable to the original WDC awards, including with respect to vesting, except as described in the Employee Matters Agreement.
+As a result of the conversion, the Company will incur approximately $
+29
+ million of incremental stock-based compensation expense over the remaining service period for the awards. Of this amount, $
+5
+ million was recognized during the quarter ended October 3, 2025, and approximately $
+24
+ million is expected to be recognized over the awar
+ds’ remaining service periods.
+Additionally, the Company adopted the following incentive plans for Sandisk employees: (i) Sandisk Corporation 2025 Long-Term Incentive Plan (the “2025 Long-Term Incentive Plan”), and (ii) Sandisk Corporation 2025 Employee Stock Purchase Plan. Grants of equity awards made after the separation to the Company’s executive officers and other employees will be made under the 2025 Long-Term Incentive Plan, which became effective on January 25, 2025.
+After the separation, certain employees of the Company participate in stock incentive plans which allow for stock-based compensation in a number of forms, including RSU awards, PSU awards, and an employee stock purchase plan (“ESPP”).
+Restricted and Performance Stock Unit Awards
+The fair value of an RSU award equals the closing share price on the grant date of the award. The fair value of a PSU award containing a market condition is estimated using a Monte Carlo simulation on the grant date. The expense associated with these awards is recognized over their requisite service period, usually
+four years
+ for RSUs and
+three years
+ for PSUs.
+The following table summarizes RSU and PSU award activity under the Company’s incentive plans during the three months ended October 3, 2025:
+Number of Shares
+Weighted Average Grant Date Fair Value
+Aggregate Intrinsic Value at Vest Date
+(in millions)
+RSUs and PSUs outstanding at June 27, 2025
+6.6
+ 
+$
+38.98
+ 
+$
+—
+ 
+Granted
+3.2
+ 
+52.78
+ 
+—
+ 
+Issued
+(
+1.0
+)
+39.34
+ 
+48.45
+ 
+Canceled/forfeited
+(
+0.2
+)
+35.95
+ 
+—
+ 
+RSUs and PSUs outstanding at October 3, 2025
+8.6
+ 
+$
+44.12
+ 
+$
+48.45
+ 
+RSUs are generally settled in an equal number of shares of the Company’s common stock upon vesting. PSUs contain performance conditions under which the recipient may earn between
+0
+% to
+300
+% of the target number of shares awarded. The PSU awards consist of
+1.4
+ million granted awards that could result in a maximum of
+3.6
+ million shares available to vest if all PSU performance conditions are met. Forfeitures are recognized as they occur.
+Compensation cost related to unvested RSUs, PSUs, and rights to purchase shares of common stock under the ESPP is amortized on a straight-line basis over the remaining service period.
+The following table presents the unamortized compensation cost and weighted average service period of all unvested outstanding awards as of October 3, 2025:
+Unamortized Compensation Costs
+Weighted average service period
+(in millions)
+(years)
+RSUs and PSUs
+$
+424
+ 
+2.78
+ESPP
+—
+ 
+— 
+Total unamortized compensation cost
+$
+424
+ 
+28
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Employee Stock Purchase Plan
+The Company has an ESPP under which WDC, as its previously sole stockholder, approved an aggregate of approximately
+4.3
+ million shares of common stock for issuance to eligible employees. The fair value of the award at the grant date is based on the Black-Scholes valuation model. The plan permits eligible employees to purchase common stock, through payroll deductions, at
+95
+% of the fair market value of a share of common stock on the first day of the 24-month offering period in which the employees are participating or 95% of the fair market value of a share of common stock on the applicable exercise date, whichever is lower. Rights to purchase shares are granted during the second and fourth quarters of each fiscal year.
+Stock-based Compensation Expense
+The following tables present the Company’s stock-based compensation for equity-settled awards by type, financial statement line, and the related tax benefit included in the Company’s Condensed Consolidated Statements of Operations:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+RSUs and PSUs
+$
+51
+ 
+$
+36
+ 
+ESPP
+2
+ 
+5
+ 
+Total
+$
+53
+ 
+$
+41
+ 
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Cost of revenue
+$
+4
+ 
+$
+6
+ 
+Research and development
+23
+ 
+15
+ 
+Selling general, and administrative
+26
+ 
+20
+ 
+Subtotal
+$
+53
+ 
+$
+41
+ 
+Tax benefit
+(
+6
+)
+(
+5
+)
+Total
+$
+47
+ 
+$
+36
+ 
+Any shortfalls or excess windfall tax benefits and tax deficiencies for shortfalls related to the vesting and exercise of stock-based awards, which are recognized as a component of the Company’s Income tax expense, were not material for the periods presented.
+Note 13.     
+Net Income per Common Share
+The separation was executed through WDC’s pro rata distribution of
+80.1
+% of the outstanding shares of common stock of the Company to holders of WDC’s common stock as of February 21, 2025. On the separation date, the Company issued
+145
+ million shares of common stock, par value $
+0.01
+ per share. This share amount is utilized for the calculation of basic and diluted earnings per share for all periods presented prior to the separation, and these shares are treated as issued and outstanding for purposes of calculating historical earnings per share. For periods prior to the separation, it is assumed that there are no dilutive equity instruments as there were no equity awards of Sandisk outstanding prior to the separation.
+29
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The following table presents the computation of basic and diluted income per common share:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions, except per share amounts)
+Net income
+$
+112
+ 
+$
+211
+ 
+Weighted average shares outstanding:
+Basic
+146
+ 
+145
+ 
+Diluted
+(1)
+149
+ 
+145
+ 
+Net income per common share:
+Basic
+$
+0.77
+ 
+$
+1.46
+ 
+Diluted
+(1)
+$
+0.75
+ 
+$
+1.46
+ 
+(1)
+ For the three months ended October 3, 2025,
+0.7
+ million weighted average outstanding awards were excluded from the calculation of diluted earnings per share because their effect would have been anti-dilutive.
+
+Basic net income per share is computed using (i) net income divided by (ii) weighted average basic shares outstanding. Diluted net income per share is computed as (i) net income divided by (ii) weighted average diluted shares outstanding. The treasury stock method is used to determine the dilutive impact of unvested equity awards.
+Potentially dilutive shares include dilutive outstanding employee RSUs, PSUs, and rights to purchase shares of common stock under the ESPP.
+
+ Note 14.    
+Income Tax Expense
+H.R.1, more widely known as the One Big Beautiful Bill Act (“OBBBA”), was signed into law on July 4, 2025. It reversed the requirement for capitalization of U.S. research and development expenditures that came into law under the Tax Cuts and Jobs Act of 2017, but the mandatory requirement of capitalization of foreign research and development expenditures remains. The tax rates for income earned by the Company’s foreign subsidiaries are changed under H.R. 1, which applies to the Company’s fiscal years 2027 and onwards. Depending on the Company’s operating results, these changes can materially impact the Company’s effective tax rate and its operating cash flows. During the three months ended October 3, 2025, the Company recorded a $
+10
+ million tax benefit in relation to the OBBBA’s impact on its 2025 tax provision.
+On August 16, 2022, the Inflation Reduction Act of 2022 was signed into law, which contained significant changes to laws related to tax, climate, energy, and health care. The tax measures include, among other things, a corporate alternative minimum tax (“CAMT”) of 15% on corporations with three-year average annual adjusted financial statement income (“AFSI”) exceeding $1.0 billion. The Company does not expect to be subject to the CAMT of 15% for fiscal year 2026 as its average annual AFSI did not exceed $1.0 billion for the preceding three-year period.
+On December 20, 2021, the Organization for Economic Co-operation and Development G20 Inclusive Framework on Base Erosion and Profit Shifting released Model Global Anti-Base Erosion rules under Pillar Two (“Pillar Two”). Several non-U.S. jurisdictions have either enacted legislation or announced their intention to enact future legislation to adopt certain or all components of Pillar Two, some of which are effective for the Company in fiscal year 2025. For the first fiscal quarter of 2026, the Company expects to be able to meet certain transitional safe harbors and does not expect any material Pillar Two taxes. There may be material increases in the Company’s future tax obligations if the Company’s operating results change.
+The following table presents the Company’s Income tax expense and effective tax rate:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Income before taxes
+$
+124
+ 
+$
+267
+ 
+Income tax expense
+12
+ 
+56
+ 
+Effective tax rate
+10
+ 
+%
+21
+ 
+%
+30
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+The relative mix of earnings and losses by jurisdiction, credits and tax holidays in Malaysia that will expire at various dates during years 2028 through 2031 resulted in decreases to the effective tax rate below the U.S. statutory rate for the three months ended October 3, 2025.
+The relative mix of earnings and losses by jurisdiction, the deduction for foreign-derived intangible income, credits and tax holidays in Malaysia that will expire at various dates during years 2028 through 2031 resulted in decreases to the effective tax rate below the U.S. statutory rate for the three months ended September 27, 2024. However, the tax effects of the mandatory capitalization of R&D expenses offset these decreases, resulting in the effective tax rate being closer to the U.S. Federal statutory rate for the three months ended September 27, 2024.
+Uncertain Tax Positions
+With the exception of certain unrecognized tax benefits that are directly associated with the tax position taken, unrecognized tax benefits are presented gross in the Condensed Consolidated Balance Sheets.
+The following is a tabular reconciliation of the total amounts of unrecognized tax benefits, excluding accrued interest and penalties for the three months ended October 3, 2025:
+(in millions)
+Accrual balance at June 27, 2025
+$
+140
+ 
+Gross increases related to current year tax positions
+1
+ 
+Gross decrease related to prior year tax positions
+(
+4
+)
+Accrual balance at October 3, 2025
+$
+137
+ 
+As of October 3, 2025 and June 27, 2025, the liability for unrecognized tax benefits (excluding accrued interest and penalties) was $
+137
+ million
+ and $
+140
+ million, respectively. Interest and penalties related to unrecognized tax benefits are recognized in liabilities recorded for uncertain tax positions and are recorded in the provision for income taxes. Accrued interest and penalties included in the Company’s liability related to unrecognized tax benefits as of October 3, 2025 and June 27, 2025 was $
+13
+ million
+and $
+11
+ million, respectively.
+The Company believes that adequate provision has been made for any adjustments that may result from any other tax examinations. However, the outcome of such tax examinations cannot be predicted with certainty. If any issues addressed in the Company’s tax examinations are resolved in a manner not consistent with management’s expectations, the Company could be required to adjust its provision for income taxes in the period such resolution occurs. Any significant change in the amount of the Company’s liability for unrecognized tax benefits would most likely result from additional information relating to the examination of the Company’s tax returns.
+Note 15.    
+Legal Proceedings
+In the normal course of business, the Company is subject to legal proceedings, lawsuits and other claims. Although the ultimate aggregate amount of reasonably possible monetary liability or financial impact with respect to these other matters is subject to many uncertainties, management believes that any monetary liability or financial impact to the Company from these matters, individually and in the aggregate, would not be material to the Company’s financial condition, results of operations or cash flows. However, any monetary liability and financial impact to the Company from these matters could differ materially from the Company’s expectations
+.
+31
+Table of Contents
+Item 2.    Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis contains forward-looking statements within the meaning of the federal securities laws and should be read in conjunction with the disclosures we make concerning risks and other factors that may affect our business and operating results. You should read this information in conjunction with the unaudited Condensed Consolidated Financial Statements and the notes thereto included in this Quarterly Report on Form 10-Q and the audited Consolidated Financial Statements and notes thereto for the fiscal year ended June 27, 2025, included in our Annual Report on Form 10-K. See also “Forward-Looking Statements” immediately prior to Part I, Item 1 in this Quarterly Report on Form 10-Q.
+Unless otherwise indicated or the context requires, references herein to specific years and quarters are to our fiscal years and fiscal quarters. As used herein, the terms “we,” “us,” “our,” and the “Company” refer to Sandisk Corporation and its subsidiaries.
+Overview
+Sandisk is a leading developer, manufacturer and provider of data storage devices and solutions based on NAND flash technology. With a differentiated innovation engine driving advancements in storage and semiconductor technologies, our broad and ever-expanding portfolio delivers powerful flash storage solutions for artificial intelligence (“AI”) workloads in datacenters, edge devices, and consumer applications.
+Our technologies enable everyone from students, gamers and home offices to the largest enterprises and public clouds to
+produce, analyze, and store
+ data. O
+ur solutions include a broad range of solid-state drives (“SSD”), embedded products, removable cards, universal serial bus drives and wafers and components. Our broad portfolio of technology and products addresses multiple end markets of “Datacenter” (formerly referred to as “Cloud”), “Edge” (formerly referred to as “Client”), and “Consumer.”
+The Datacenter end market is comprised primarily of products for datacenters, cloud service providers, and private cloud customers. Through the Edge end market, we provide our original equipment manufacturer (“OEM”) and channel customers a broad array of high-performance flash solutions across personal computer, mobile, gaming, automotive, virtual reality headsets, at-home entertainment, and industrial spaces. The Consumer end market is highlighted by our broad range of retail and other end-user products, which capitalize on the strength of our product brand recognition and vast points of presence around the world.
+Our fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, we report a 53-week fiscal year to align the fiscal year with the foregoing policy. Fiscal year 2025, which ended on June 27, 2025, was comprised of 52 weeks, with each fiscal quarter consisting of 13 weeks. Fiscal year 2026 will be comprised of 53 weeks and will end on July 3, 2026, with the first fiscal quarter consisting of 14 weeks.
+The Separation
+On October 30, 2023, Western Digital Corporation (“WDC”) announced that its board of directors (the “WDC Board of Directors”) authorized management to pursue a plan to separate the Company into an independent public company. The separation received final approval by the WDC Board of Directors and was completed on February 21, 2025. Prior to February 21, 2025, the Company was wholly owned by WDC.
+On February 21, 2025, WDC executed the spin-off of the Company through WDC’s pro rata distribution of 116,035,464, or 80.1%, of the Company’s outstanding shares of common stock to holders of WDC’s common stock. Each WDC stockholder received one-third (1/3) of one share of the Company’s common stock for each share of WDC’s common stock held by such WDC stockholder as of February 12, 2025, the record date of the distribution. Upon completion of the separation, WDC owned 28,827,787, or 19.9%, of the outstanding shares of the Company’s common stock, which WDC is expected to retain for a period of up to twelve months following the distribution. Following the distribution, the Company became an independent publicly listed company, and on February 24, 2025, the Company began trading as an independent, publicly traded company under the stock symbol “SNDK” on Nasdaq.
+On June 9, 2025, WDC disposed of 21,314,768, or 14.6%, of our common stock through an exchange of our common stock for WDC debt held by WDC creditors which shares were sold by affiliates of the WDC creditors in a registered public offering by the Company. All expenses for the offering were paid for by us. As of October 3, 2025, WDC continued to retain 7,513,019, or 5.1%, of the outstanding shares of the Company’s common stock.
+32
+Table of Contents
+S
+anDisk Semiconductor (Shanghai) Co. Ltd. (“SDSS”
+)
+As discussed in Part I, Item 1, Note 10,
+Related Parties and Related Commitments and Contingencies
+ of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q, on September 28, 2024, prior to the separation, WDC’s wholly-owned subsidiary, SanDisk China Limited (“SanDisk China”) completed the sale of 80% of its equity interest in SDSS (the “Transaction”) to JCET Management Co., Ltd. (“JCET”), a wholly-owned subsidiary of JCET Group Co., Ltd., a Chinese publicly listed company, thereby forming a venture between SanDisk China and JCET (the “SDSS Venture”). The Transaction resulted in a pre-tax gain of $34 million.
+ On September 25, 2025, SanDisk China and JCET entered into an Amendment No. 1 to the Amended and Restated Equity Purchase Agreement that included a $10 million provision for working capital support, resulting in a reduction of the September 28, 2025 installment payment from JCET. The Company recognized the adjustment as a Loss on business divestiture for the three months ended October 3, 2025 and the amendment reduced the September 28, 2025 installment to $27 million, as discussed in Part I, Item 1, Note 10,
+Related Parties and Related Commitments and Contingencies—Flash Ventures
+ of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+
+Subsequent to, and in connection with, the sale of SDSS, the Company entered into a five-year supply agreement with SDSS to purchase certain flash-based products with a minimum annual commitment of $550 million. The Supply Agreement contains specific penalties the Company must pay if it fails to meet its minimum annual commitment. The Supply Agreement also provides that if the Company’s purchases exceed the minimum annual commitment in any of the two years immediately succeeding any annual period where a shortfall has been paid, SDSS shall reimburse the Company an amount not exceeding the previously paid penalty amount. The Supply Agreement expires on September 28, 2029, and automatically renews for additional one year terms unless earlier terminated by either of the parties. The Company also entered into an agreement to grant SDSS certain intellectual property rights on a royalty-free basis for use in manufacturing products on the Company’s behalf for the term of and under the Supply Agreement. As a result of this Transaction, we expect to incur a modest reduction in annual operating expenses and a reduction in annual capital expenditures related to the assembly and testing of flash-based products. We also anticipate that the transition to a contract manufacturing model through SDSS will result in a small increase in our annual cost of revenue for flash-based products.
+Financing Activities
+Prior to the separation, the Company received financing from certain of WDC’s subsidiaries in the form of borrowings under revolving credit agreements and promissory notes to fund activities primarily related to Flash Ventures. Additional information regarding our outstanding notes due to (from) Western Digital Corporation is included in Part I, Item 1, Note 10,
+Related Parties and Related Commitments and Contingencies
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+As discussed in Part I, Item 1, Note 8,
+Debt
+of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q,
+ on
+February 21, 2025
+, the Company entered into a loan agreement comprised of a seven-year Term Loan B facility in an aggregate principal amount of
+$2.0 billion
+ (the “Term Loan Facility”) and a five-year revolving credit facility (the “Revolving Credit Facility”) in an aggregate principal amount of
+$1.5 billion
+ with
+$150 million
+ for letters of credit.
+On
+February 21, 2025
+, the Company borrowed
+$2.0 billion
+ under its Term Loan Facility. The Company used a portion of the proceeds of the borrowing
+to make a net distribution payment
+ of
+$1.5 billion to WDC
+, with the remainder to be used for general corporate purposes of the Company.
+The proceeds of the Revolving Credit Facility may be used by the Company for working capital and general corpor
+ate purposes.
+As of
+October 3, 2025
+, the Company has drawn
+no
+ amounts under the Revolving Credit Facility.
+Operational Update
+In the first quarter, we generally saw demand for our NAND continue to outpace supply, leading to improved revenues when compared to prior periods. We expect this balance of supply and demand to persist through calendar year 2026 and beyond. The rapid growth of AI infrastructure is driving demand for high-performance storage products, and AI adoption is driving the need for NAND storage to support these workloads.
+We continue to manage our supply to match market demand. In doing so, we expect to invest in, and allocate resources to, high-value opportunities for both the short-term and long-term benefit of our customers and the Company.
+In 2025, the U.S. began enacting a number of changes in U.S. trade policy, including increased tariffs on imported goods. Currently, the majority of our products sold in the U.S. are exempt from tariffs, but additional tariff increases, or the loss of applicable exemptions would increase the cost of goods sold for our products sold in the U.S., which could negatively impact our margins and financial performance. Increases in the price of our products in response to increased costs may adversely impact demand for those products in the U.S., which could also negatively impact our performance and financial results.
+33
+Table of Contents
+Future trade policies and regulations in the U.S. and other countries, the terms of any trade arrangements that may be negotiated between the U.S. and other countries, the scope, amount, or duration of tariffs that may be imposed by any country, and the impact of these factors on our business are uncertain and may contribute to increased costs and reduced demand for our products, each of which could harm our financial performance.
+We will continue to actively monitor developments impacting our business and may take additional responsive actions that we determine to be in the best interest of our business and stakeholders.
+Basis of Presentation
+On February 21, 2025, the Company became a standalone publicly traded company, and its financial statements are now presented on a consolidated basis. Prior to the separation, the Company’s historical combined financial statements were derived from WDC’s consolidated financial statements and accounting records and prepared as if the Company existed on a standalone basis. The financial statements for all periods presented, including the historical results of the Company prior to February 21, 2025, are now referred to as “Consolidated Financial Statements” and have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and the policies and practices that are generally accepted in the industry in which it operates, in consistency with prior statements.
+The following discussion reflects the Company’s financial condition and results of operations as set forth in the unaudited Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+For additional information, including a discussion of the basis of presentation for periods prior to and post separation, see Part I, Item 1, Note 1,
+Organization and Basis of Presentation
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+34
+Table of Contents
+Results of Operations
+Overview
+The following table sets forth, for the periods presented, selected summary information from our Condensed Consolidated Statements of Operations by U.S. dollars and percentage of net revenue
+(1)
+:
+Three Months Ended
+October 3, 2025
+September 27, 2024
+$ Change
+% Change
+(in millions, except percentages)
+Revenue, net
+$
+2,308 
+100.0 
+%
+$
+1,883 
+100.0 
+%
+$
+425 
+23 
+%
+Cost of revenue
+1,621 
+70.2 
+1,157 
+61.4 
+464 
+40 
+Gross profit
+687 
+29.8 
+726 
+38.6 
+(39)
+(5)
+Operating expenses:
+Research and development
+316 
+13.7 
+283 
+15.0 
+33 
+12 
+Selling, general and administrative
+179 
+7.8 
+130 
+6.9 
+49 
+38 
+Business separation costs
+9 
+0.4 
+20 
+1.1 
+(11)
+(55)
+Employee termination and other
+(3)
+(0.1)
+2 
+0.1 
+(5)
+(250)
+Loss on business divestiture
+10 
+0.4 
+— 
+— 
+10 
+— 
+Total operating expenses
+511 
+22.2 
+435 
+23.1 
+76 
+17 
+Operating income
+176 
+7.6 
+291 
+15.5 
+(115)
+(40)
+Interest and other expense:
+Interest income
+16 
+0.7 
+3 
+0.2 
+13 
+433 
+Interest expense
+(40)
+(1.7)
+(2)
+(0.1)
+(38)
+(1900)
+Other expense, net
+(28)
+(1.2)
+(25)
+(1.3)
+(3)
+(12)
+Total interest and other expense, net
+(52)
+(2.2)
+(24)
+(1.2)
+(28)
+(117)
+Income before taxes
+124 
+5.4 
+267 
+14.3 
+(143)
+(54)
+Income tax expense
+12 
+0.5 
+56 
+3.0 
+(44)
+(79)
+Net income
+$
+112 
+4.9 
+$
+211 
+11.3 
+$
+(99)
+(47)
+(1)
+ Percentage may not total due to rounding.
+The following table sets forth, for the periods presented, summary information regarding our disaggregated revenue:
+Three Months Ended
+October 3,
+2025
+September 27,
+2024
+(in millions)
+Revenue by end market:
+Datacenter
+$
+269 
+$
+300 
+Edge
+1,387 
+1,069 
+Consumer
+652 
+514 
+Total revenue
+$
+2,308 
+$
+1,883 
+Revenue by geography:
+Asia
+$
+1,515 
+$
+1,150 
+Americas
+406 
+443 
+Europe, Middle East and Africa
+387 
+290 
+Total revenue
+$
+2,308 
+$
+1,883 
+35
+Table of Contents
+Net Revenue
+Net revenue increased 23% in the three months ended October 3, 2025 from the comparable period in the prior year, primarily due to a 31% increase in exabytes sold due to stronger demand in our data storage products, partially offset by a 9% decrease in average selling prices (“ASP”) per gigabyte.
+Datacenter revenue
+decreased 10%
+in the
+three months ended
+ October 3, 2025
+from the comparable period in the prior year
+, primarily due to an
+11% decrease
+ in ASP per gigabyte,
+ partially offset by a 1% increase in
+exabytes sold
+.
+Edge revenue
+increased 30%
+in the three months ended October 3, 2025
+from the comparable period in the prior year,
+ primarily due to a
+39%
+
+increase
+ in exabytes sold, partially offset by an
+11%
+ decrease in ASP per gigab
+yte.
+Consumer revenue increased
+27%
+in the three months ended October 3, 2025
+ compared to the comparable period in the prior year, primarily due to a 32% increase in exabytes sold, partially offset by a 4% decrease in ASP per gigabyte.
+The changes in net revenue by geography in the
+three months ended
+ October 3, 2025 from the comparable period in the prior year primarily reflected higher revenue in the
+Asia
+ region from Edge customers, partially offset by lower revenue in the Americas, Europe, Middle East and Africa.
+Consistent with standard industry practice, we offer sales incentive and marketing programs that provide customers with price protection and other incentives or reimbursements that are recorded as a reduction to gross revenue. For the three months ended October 3, 2025 and September 27, 2024, these programs represented 16% and
+16%, respectively,
+of gross revenues. The amounts attributed to our sales incentive and marketing programs generally vary according to several factors, including industry conditions, list pricing strategies, seasonal demand, competitor actions, channel mix and overall availability of products. Changes in future customer demand and market conditions may require us to adjust our incentive programs as a percentage of gross revenue.
+Gross Profit and Gross Margin
+Gross profit and gross margin decreased by $39 million and
+9%, respectively
+, for the three months ended October 3, 2025 from the comparable period in the prior year, as the increase in
+ exabytes sold was offset by a lower ASP and higher costs per gigabyte.
+The lower ASP was primarily driven by higher peak pricing in the comparative period. In addition, the cost per gigabyte has increased, resulting in a higher cost of revenue, coupled with $10.5 million in underutilization charges in the three months ended October 3, 2025, for which there were no comparable charges in the comparable period.
+Operating Expenses
+Research and development (“R&D”) expenses increased $33 million in the three months ended October 3, 2025 from the comparable period in the prior year,
+ primarily due to a
+$16 million increase in compensation and benefits due to variable compensation associated with company performance, and an additional week within the fiscal quarter, a
+$6 million increase in datacenter program material purchases and a $4 million increase in spending for R&D projects as we continue to invest in innovation.
+Selling, general and administrative expenses increased $49 million in the three months ended October 3, 2025 from the comparable period in the prior year, primarily due to a $12 million increase in compensation and benefits mainly
+ due to variable compensation
+ associated with company performance, and an additional week within the fiscal quarter, an $11 million increase in stock based compensation, an $11 million increase in materials, driven by higher samples for new programs, and a $9 million
+ increase in marketing costs.
+Employee termination and ot
+her charges decreased $5 million in the three months ended October 3, 2025 from the comparable period in the prior year, as there were no restructuring actions taken in the current period.
+Business separation costs
+Business separation costs decreased $11 million in the three months ended October 3, 2025 from the comparable period in the prior year, as we are now post-separation and related costs are decreasing.
+ Loss on business divestiture
+Loss on business divestiture increased $10 million in the three months ended October 3, 2025 from the comparable period in the prior year due to an amendment to the Amended and Restated Equity Purchase Agreement with JCET, related to our prior sale of SDSS, for which there was no comparable transaction in the prior period. On September 25, 2025, SanDisk China and JCET entered into an Amendment No. 1 to the Amended and Restated Equity Purchase Agreement that included a $10 million provision for working capital support, resulting in a reduction of the September 28, 2025 installment payment from JCET. The Company recognized the adjustment as a Loss on business divestiture for the three months ended October 3, 2025,
+36
+Table of Contents
+as discussed in Part I, Item 1,
+ Note 10, Related Parties and Related Commitments and Contingencies—Flash Ventures
+of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Interest and Other Expense, net
+Interest and other expense, net increased $28 million in the three months ended October 3, 2025 from the comparable period in the prior year
+, primarily due to a $37 million increase in interest expense from our Term Loan Facility, partially offset by a $13 million increase in interest income related to cash and investment accounts.
+Income Tax Expense
+H.R.1, more widely known as the One Big Beautiful Bill Act (“OBBBA”), was signed into law on July 4, 2025. It reversed the requirement for capitalization of U.S. research and development expenditures that came into law under the Tax Cuts and Jobs Act of 2017, but the mandatory requirement of capitalization of foreign research and development expenditures remains. The tax rates for income earned by our foreign subsidiaries will also be changed under H.R. 1, which applies to our fiscal years 2027 and onwards. Depending on our operating results, these changes can materially impact our effective tax rate and operating cash flows. During the
+three months ended October 3, 2025, w
+e recorded a $10 million tax benefit in relation to the OBBBA’s impact on the Company’s 2025 tax provision.
+On August 16, 2022, the Inflation Reduction Act of 2022 was signed into law, which contained significant changes to laws related to tax, climate, energy, and health care. The tax measures include, among other things, a corporate alternative minimum tax (“CAMT”) of 15% on corporations with three- year average annual adjusted financial statement income (“AFSI”) exceeding $1.0 billion. We do not expect to be subject to the CAMT of 15% for fiscal year 2026 as our average annual AFSI did not exceed $1.0 billion for the preceding three-year period.
+On December 20, 2021, the Organization for Economic Co-operation and Development G20 Inclusive Framework on Base Erosion and Profit Shifting released Model Global Anti-Base Erosion rules under Pillar Two (“Pillar Two”). Several non-U.S. jurisdictions have either enacted legislation or announced their intention to enact future legislation to adopt certain or all components of Pillar Two, some of which are effective for us in fiscal 2025. For the first fiscal quarter of 2026, we expect to be able to meet certain transitional safe harbors and do not expect any material Pillar Two taxes. There may be material increases in our future tax obligations if our operating results change.
+The following table presents the Company’s Income tax expense and the effective tax rate:
+Three Months Ended
+October 3, 2025
+September 27, 2024
+(in millions)
+Income before taxes
+$
+124 
+$
+267 
+Income tax expense
+12 
+56 
+Effective tax rate
+10 
+%
+21 
+%
+The relative mix of earnings and losses by jurisdiction, the deduction for foreign-derived intangible income, credits and tax holidays in Malaysia that will expire at various dates during years 2028 through 2031 resulted in decreases to the effective tax rate below the U.S. statutory rate for the three months ended October 3, 2025.
+For additional information regarding income tax expense, see Part I, Item 1, Note 14,
+Income Tax Expense
+of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+37
+Table of Contents
+Financial condition, liquidity and capital resources
+The following table summarizes our Condensed Consolidated Statements of Cash Flows of October 3, 2025 and September 27, 2024:
+Three Months Ended
+October 3, 2025
+September 27, 2024
+(in millions)
+Net cash provided by (used in):
+Operating activities
+$
+488 
+$
+(131)
+Investing activities
+(15)
+(19)
+Financing activities
+(515)
+214 
+Effect of exchange rate changes on cash
+3 
+1 
+Changes in cash and cash equivalents classified as assets held for sale
+$
+— 
+$
+(71)
+Net decrease in cash and cash equivalents
+$
+(39)
+$
+(6)
+In alignment with market conditions, we maintained what we believe to be a conservative capital expenditure strategy for fiscal year 2025. For fiscal year 2026, we anticipate increased
+ capital investments as we transition to newer nodes to meet the demand and technology needs of our product portfolio.
+We believe our cash and cash equivalents will be sufficient to meet our working capital, debt and capital expenditure needs for at least the next twelve months and for the foreseeable future thereafter. We believe we can also access the various capital markets to further supplement our liquidity position if necessary. Our ability to sustain our working capital position is subject to a number of risks that we discuss
+under the heading “Risk Factors” included in Part I, Item 1A.,
+Risk Factors
+ included in our Annual Report on Form 10-K.
+A total of $626 million and $692 million of our cash and cash equivalents were held outside of the U.S. as of October 3, 2025 and
+June 27, 2025,
+ respectively. There are no material tax consequences that were not previously accrued for the repatriation of this cash. Our cash equivalents are primarily invested in money market funds that invest in U.S. Treasury securities and U.S. Government agency securities.
+Operating Activities
+Net cash provided by (used in) operating activities primarily consists of net income or loss, adjusted for non-cash charges, plus or minus changes in operating assets and liabilities. Net cash provided as a result of changes in operating assets and liabilities was $250 million in the three months ended October 3, 2025, as compared to $344 million net cash used in the three months ended September 27, 2024, reflecting an increase in the volume of our business, as discussed above.
+Changes in our operating assets and liabilities are largely affected by our working capital requirements, which are dependent on the volume of our business and the effective management of our cash conversion cycle as well as timing of payments for taxes. Our cash conversion cycle measures how quickly we can convert our products into cash through sales. The cash conversion cycles were as follows (in days):
+Three Months Ended
+October 3, 2025
+September 27, 2024
+Days sales outstanding
+51 
+50 
+Days in inventory
+115 
+163 
+Days payable outstanding
+(53)
+(51)
+Cash conversion cycle
+113 
+162 
+Changes in days sales outstanding, or DSO, are generally due to the timing of shipments. Changes in days in inventory, or DIO, are generally related to the timing of inventory builds. Changes in days payables outstanding, or DPO, are generally related to production volume and the timing of purchases during the period. From time to time, we modify the timing of payments to our vendors. We make modifications primarily to manage our vendor relationships and to manage our cash flows, including our cash balances. Generally, we make payment term modifications through negotiations with our vendors or by granting to, or receiving from, our vendors’ payment term accommodations.
+38
+Table of Contents
+For the three months ended October 3, 2025 and September 27, 2024, DSO remained consistent primarily due to the timing of receivables collections during these periods. During the three months ended October 3, 2025, DIO decreased 48 days over the three months ended September 27, 2024, primarily due to an increase in petabytes shipped. DPO increased 2 days over the comparable period in the prior year, primarily due to routine variations in the timing of purchases and payments during the period.
+Investing Activities
+Net cash used in investing activities in the three months ended October 3, 2025 primarily consisted of $50 million in capital expenditures, partially offset by $25 million in net proceeds from our sale of a majority interest in one of our subsidiaries and $10 million in net proceeds from activity related to Flash Ventures. Net cash used in investing activities in the three months ended September 27, 2024 primarily consisted of $67 million in capital expenditures, partially offset by $48 million in net proceeds from activity related to Flash Ventures.
+Financing Activities
+Net cash used in financing activities in the three months ended October 3, 2025 primarily consisted of Term Loan Facility repayments totaling $500 million and $15 million of taxes paid on vested stock awards. Net cash provided by financing activities in the three months ended September 27, 2024 primarily consisted of $189 million net transfers from WDC and $101 million in origination of notes due from WDC, partially offset by $76 million in net repayments on notes due to WDC.
+Off-Balance Sheet Arrangements
+Other than the Flash Ventures and SDSS-related commitments incurred in the normal course of business
+
+and certain indemnification provisions (see “Short-and-Long-term Liquidity - Purchase Obligations and Other Commitments” below), we do not have any other material off-balance sheet financing arrangements or liabilities, guarantee contracts, retained or contingent interests in transferred assets, or any other obligations arising out of a material variable interest in an unconsolidated entity. We do not have any majority-owned subsidiaries that are not included in the Condensed Consolidated Financial Statements. Additionally, with the exception of Flash Ventures, the SDSS Venture, and the Unis Venture, we do not have an interest in, or relationships with, any variable interest entities. For additional information regarding our off-balance sheet arrangements, see Part I, Item I, Note 10,
+Related Parties and Related Commitments and Contingencies
+ of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Short-and-Long-term Liquidity
+Material Cash Requirements as of October 3, 2025
+The following is a summary of our known material cash requirements, including those for capital expenditures, as of October 3, 2025. In addition, see the discussions further below related to unrecognized tax benefits, foreign exchange contracts and indemnifications to address other material cash requirements discussed below that are not included in the table:
+Total
+Remaining nine months of 2026
+2-3 Years (2027-2028)
+4-5 Years (2029-2030)
+More than 5 Years (Beyond 2030)
+(in millions)
+Long-term debt, including current portion
+(1)
+$
+1,400 
+$
+20 
+$
+40 
+$
+40 
+$
+1,300 
+Flash Ventures related commitments
+(2)
+5,211 
+1,984 
+2,319 
+908 
+— 
+Interest on debt
+(3)
+618 
+100 
+197 
+189 
+132 
+Operating leases
+319 
+29 
+64 
+44 
+182 
+Purchase obligations and other commitments
+2,481 
+98 
+1,153 
+1,140 
+90 
+Total
+$
+10,029 
+$
+2,231 
+$
+3,773 
+$
+2,321 
+$
+1,704 
+(1)
+ Principal portion of debt, excluding issuance costs.
+(2)
+ Includes reimbursement for depreciation and lease payments on owned and committed equipment, funding commitments for loans and equity investments and payments for other committed expenses, including research and development and building depreciation. Funding commitments assume no additional operating lease guarantees. Additional operating lease guarantees can reduce funding commitments.
+(3)
+Interest varies based on (x) the Adjusted Term SOFR Rate (as defined in the Loan Agreement) plus an interest rate margin of
+3.00%
+ per annum or (y) a base rate plus an interest rate margin of
+2.00%
+ per annum, and additional principal prepayments.
+39
+Table of Contents
+Debt
+In connection with the separation, on February 21, 2025, the Company entered into a loan agreement comprised of a $1.5 billion revolving credit facility, which was undrawn at the separation date, and a $2 billion term loan facility due in 2032. The Company used a portion of the proceeds received from the term loan facility, as well as cash on hand, to make a net distribution payment of $1.5 billion
+ t
+o WDC in exchange for assets, liabilities and certain legal entities of WDC associated with the Company.
+As of
+October 3, 2025
+, the Company was
+in compliance
+ with the loan agreement financial covenant that requires the Company to
+maintain a maximum Leverage Ratio.
+ Additional information regarding our indebtedness, including information about availability under our revolving credit facility and the principal repayment terms, interest rates, covenants, collateral and other key terms of our outstanding indebtedness, is included in Part I, Item I
+Note 8,
+Debt
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Flash Ventures
+Flash Ventures sells to, and leases back from, a consortium of financial institutions a portion of its tools and has entered into equipment lease agreements, of which we guarantee half or all of the outstanding obligations under each lease agreement. The leases are subject to customary covenants and cancellation events that relate to Flash Ventures and each of the guarantors. The occurrence of a cancellation event could result in an acceleration of the lease obligations and a call on our guarantees. As of October 3, 2025, we were in compliance with all covenants under these Japanese lease facilities. See Part I, Item 1, Note 10,
+ Related Parties and Related Commitments and Contingencies
+ of the Notes to the Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q for information regarding Flash Ventures.
+Purchase Obligations and Other Commitments
+In the normal course of business, we enter into purchase orders with suppliers for the purchase of components used to manufacture our products. These purchase orders generally cover forecasted component supplies needed for production during the next quarter, are recorded as a liability upon receipt of the components, and generally may be changed or canceled at any time prior to shipment of the components. We also enter into long-term agreements with suppliers that contain fixed future commitments, which are contingent on certain conditions such as performance, quality and technology of the vendor’s components. These arrangements are included under “Purchase obligations and other commitments” in the table above.
+Unrecognized Tax Benefits
+As of October 3, 2025, our liability for unrecognized tax benefits (excluding accrued interest and penalties) was approximately $137 million. Accrued interest and penalties included in the Company’s liability related to unrecognized tax benefits as of October 3, 2025 and June 27, 2025 was $13 million and $11 million, respectively. Of these amounts, approximately $138 million could result in potential cash payments.
+Foreign Exchange Contracts
+We purchase foreign exchange contracts to hedge the impact of foreign currency fluctuations on certain underlying assets, liabilities and commitments for operating expenses and product costs denominated in foreign currencies. See Part I, Item 3,
+Quantitative and Qualitative Disclosures About Market Risk
+ included in this Quarterly Report on Form 10-Q for additional information.
+Indemnifications
+Concurrent with the separation, the Company and WDC entered into a Tax Matters Agreement under which the Company and WDC agreed to indemnify each other for certain tax positions. As a result of this agreement, the Company recorded a tax indemnification liability of $112 million on February 21, 2025, which was recognized as an adjustment to the Net investment from Western Digital Corporation.
+ The remaining tax indemnification liability of $125 million is classified as Other liabilities in the Condensed Consolidated Balance Sheets as of October 3, 2025
+.
+In the ordinary course of business, we may provide indemnifications of varying scope and terms to customers, vendors, lessors, business partners, and other parties with respect to certain matters, including, but not limited to, losses arising out of our breach of agreements, products or services to be provided by us, environmental compliance, or intellectual property infringement claims made by third parties. In addition, we have entered into indemnification agreements with our directors and certain of our officers that will require us, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. We maintain director and officer insurance, which may cover certain liabilities arising from our obligation to indemnify our directors and officers in certain circumstances.
+40
+Table of Contents
+It is not possible to determine the maximum potential amount under these indemnification agreements due to the limited history of prior indemnification claims and the unique facts and circumstances involved in each particular agreement. Such indemnification agreements may not be subject to maximum loss clauses. Historically, we have not incurred material costs as a result of obligations under these agreements.
+Recent Accounting Pronouncements
+For a description of recently issued and adopted accounting pronouncements, including the respective dates of adoption and expected effects on our results of operations and financial condition, see Part I, Item 1, Note 2,
+Recent Accounting Pronouncements
+of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Critical Accounting Estimates
+We have prepared the accompanying unaudited Condensed Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States and the policies and practices that are generally accepted in the industry in which we operate. The preparation of these Condensed Consolidated Financial Statements requires the use of judgments and estimates that affect the reported amounts of revenues, expenses, assets, and liabilities. We have adopted accounting policies and practices that are generally accepted in the industry in which we operate. If these estimates differ significantly from actual results, the impact to the Condensed Consolidated Financial Statements may be material.
+There have been no material changes in our critical accounting policies and estimates from those disclosed in our Annual Report on Form 10-K, filed with the Securities and Exchange Commission for the year ended June 27, 2025.
+41
+Table of Contents
+Item 3.    
+Quantitative and Qualitative Disclosures About Market Risk
+Foreign Currency Risk
+Although the majority of our transactions are in U.S. dollars, some transactions are based in various foreign currencies. We have historically purchased short-term foreign exchange contracts to hedge the impact of foreign currency exchange fluctuations on certain underlying assets, liabilities and commitments for product costs and Operating expenses denominated in foreign currencies. The purpose of entering into these hedge transactions is to reduce the impact of foreign currency fluctuations on our results of operations. Substantially all of the contract maturity dates do not exceed twelve months. We do not purchase foreign exchange contracts for speculative or trading purposes.
+We have performed sensitivity analyses as of October 3, 2025, using a modeling technique that measures the change in the fair values arising from a hypothetical 10% adverse movement in the levels of foreign currency exchange rates relative to the U.S. dollar, with all other variables held constant. The analyses cover all of our foreign currency derivative contracts used to offset the underlying exposures. The foreign currency exchange rates used in performing the sensitivity analyses were based on market rates in effect at October 3, 2025. The sensitivity analyses indicated that a hypothetical 10% adverse movement in
+foreign currency exchange rates relative to the U.S. dollar would result in a foreign exchange fair value
+loss
+ of
+$56 million at October 3, 2025.
+Notwithstanding our efforts to mitigate some foreign exchange risks, we do not hedge all of our foreign currency exposures, and there can be no assurance that our mitigating activities related to the exposures that we do hedge will adequately protect us against risks associated with foreign currency fluctuations. Additionally, the overall effectiveness of our historical hedging strategy is dependent on business, market and global economic conditions. We have revised, and may continue to alter, our hedging program and may choose to discontinue our hedging activities at any time.
+Interest Rate Risk
+We held variable rate debt. As of October 3, 2025, our variable rate debt outstanding consisted of our Term Loan Facility, which is based on various index rates as discussed further in Part I, Item 1, Note 8,
+Debt
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q. As of October 3, 2025, the outstanding balance on our variable rate debt was $1.4 billion and a one percent increase in the variable rate of interest would increase our annual interest expense by
+$14 million
+.
+Item 4.    
+Controls and Procedures
+Evaluation of Disclosure Controls and Procedure
+s
+As required by Rule 13a-15(b) promulgated by the U.S. Securities and Exchange Commission under the Securities Exchange Act of 1934, as amended (the “Exchange Act”), we carried out an evaluation, under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, of the effectiveness of the design and operation of our disclosure controls and procedures (as such term is defined in Rule 13a-15(e) under the Exchange Act) as of the end of the period covered by this Quarterly Report on Form 10-Q. Based on that evaluation, our Chief Executive Officer and Chief Financial Officer concluded that, as of the end of the period covered by this Quarterly Report on Form 10-Q, our disclosure controls and procedures were effective.
+Changes in Internal Control over Financial Reporting
+Due to a transition period established by U.S. Securities and Exchange Commission rules applicable to newly public companies, our management is not required to evaluate the effectiveness of our internal control over financial reporting until the filing of our Annual Report on Form 10-K for the year ending July 3, 2026. As a result, this Quarterly Report on Form 10-Q does not address whether there have been any changes in our internal control over financial reporting.
+Our disclosure controls and procedures are designed to provide reasonable assurance of achieving their objectives as specified above. Management does not expect, however, that our disclosure controls and procedures will prevent or detect all errors and fraud. Any control system, no matter how well designed and operated, is based upon certain assumptions and can provide only reasonable, not absolute, assurance that its objectives will be met. Further, no evaluation of controls can provide absolute assurance that misstatements due to error or fraud will not occur or that all control issues and instances of fraud, if any, within the Company have been detected.
+42
+Table of Contents
+PART II. OTHER INFORMATION
+Item 1.
+    
+Legal Proceedings
+There are no material legal proceedings, other than ordinary routine litigation incidental to the Company’s business, to which we or any of our subsidiaries is a party or of which any of our or our subsidiaries’ property is subject.
+Item 1A.
+    
+Risk Factors
+We have described under the heading “Risk Factors” included in our Annual Report on Form 10-K filed with the Securities and Exchange Commission on August 21, 2025 for the year ended June 27, 2025 a number of risks and uncertainties that could cause our actual results of operations and financial condition to vary materially from past, or from anticipated future, results of operations and financial condition. There have been no material changes from these risk factors previously described in our Annual Report on Form 10-K for the year ended June 27, 2025. These risks and uncertainties are not the only risks facing us. Additional risks and uncertainties not presently known to us or that we currently deem not material may also adversely affect our business, financial condition, results of operations or the market price of our common stock.
+Item 5.    
+Other Information
+
+Insider Trading Arrangements
+None
+.
+43
+Table of Contents
+Item 6.    
+Exhibits
+
+The exhibits listed in the Exhibit Index below are filed or furnished with, or incorporated by reference in, this Quarterly Report on Form 10-Q, as specified in the Exhibit List, including from exhibits previously filed with the Securities and Exchange Commission.
+EXHIBIT INDEX
+Exhibit
+Number
+Description
+2.1
+Separation and Distribution Agreement, dated as of February 21, 2025, by and between Western Digital Corporation and Sandisk Corporation (Filed as Exhibit 2.1 to the Company’s Current Report on Form 8-K with the Securities and Exchange Commission on February 24, 2025)#
+3.1
+Amended and Restated Certificate of Incorporation of the Sandisk Corporation dated as of January 28, 2025 (Filed as Exhibit 3.1 to the Company’s Current Report on Form 8-K with the Securities and Exchange Commission on February 24, 2025)
+3.2
+Amended and Restated Bylaws of the Company (Filed as Exhibit 3.1 to the Company’s Current Report on Form 8-K with the Securities and Exchange Commission on February 14, 2025)
+10.1
+Amendment No.1, dated as of September 27, 2025, to the Amended and Restated Equity Purchase Agreement, dated as of September 12, 2024, by and between SanDisk China Limited and JCET Management Co., Ltd.†
+31.1
+Certification of Principal Executive Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002†
+31.2
+Certification of Principal Financial Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002†
+32.1
+Certification of Chief Executive Officer Pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002†
+32.2
+Certification of Chief Financial Officer Pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002†
+101.INS
+XBRL Instance Document - the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document**
+101.SCH
+XBRL Taxonomy Extension Schema Document**
+101.CAL
+XBRL Taxonomy Extension Calculation Linkbase Document**
+101.LAB
+XBRL Taxonomy Extension Label Linkbase Document**
+101.PRE
+XBRL Taxonomy Extension Presentation Linkbase Document**
+101.DEF
+XBRL Taxonomy Extension Definition Linkbase Document**
+104
+Cover Page Interactive Data File - formatted in Inline XBRL and contained in Exhibit 101**
+†   Filed with this report.
+** Furnished with this report.
+#  Schedules and exhibits have been omitted pursuant to Item 601(a)(5) of Regulation S-K. The Registrant agrees to furnish supplementally a copy of any omitted schedule or exhibit to the U.S. Securities and Exchange Commission upon request.
+44
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+Sandisk Corporation
+By:
+/s/ Michael R. Pokorny
+Michael R. Pokorny
+Vice President, Chief Accounting Officer
+(Principal Accounting Officer and Duly Authorized Officer)
+Dated: November 7, 2025
+45

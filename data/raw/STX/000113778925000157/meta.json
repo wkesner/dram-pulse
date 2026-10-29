@@ -1,0 +1,30 @@
+{
+  "company": "Seagate",
+  "ticker": "STX",
+  "cik": "0001137789",
+  "form": "10-K",
+  "filing_date": "2025-08-01",
+  "accession_number": "0001137789-25-000157",
+  "primary_document": "stx-20250627.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000157/stx-20250627.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:54:53.737222+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/STX/000113778925000157/primary.html",
+    "business": "data/raw/STX/000113778925000157/item1_business.txt",
+    "risk_factors": "data/raw/STX/000113778925000157/item1a_risk_factors.txt",
+    "mdna": "data/raw/STX/000113778925000157/item7_mdna.txt",
+    "other": "data/raw/STX/000113778925000157/other_full.txt"
+  },
+  "period_end": "2025-06-27",
+  "report_date": "2025-06-27"
+}

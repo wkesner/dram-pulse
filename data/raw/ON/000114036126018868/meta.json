@@ -1,0 +1,34 @@
+{
+  "company": "onsemi",
+  "ticker": "ON",
+  "cik": "0001097864",
+  "form": "8-K",
+  "filing_date": "2026-05-04",
+  "accession_number": "0001140361-26-018868",
+  "primary_document": "ef20072220_8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126018868/ef20072220_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-05-04",
+  "period_end": "2026-05-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:46.410169+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ef20072220_ex99-1.htm",
+      "path": "data/raw/ON/000114036126018868/exhibit_99_ef20072220_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126018868/ef20072220_ex99-1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/ON/000114036126018868/primary.html",
+    "other": "data/raw/ON/000114036126018868/other_full.txt"
+  }
+}

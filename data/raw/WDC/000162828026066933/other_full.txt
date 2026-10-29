@@ -1,0 +1,3955 @@
+wdc-20261002
+0000106040
+2027
+Q1
+false
+--07-02
+http://fasb.org/us-gaap/2026#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2026#OtherAssetsNoncurrent
+http://fasb.org/us-gaap/2026#AccruedLiabilitiesCurrent
+http://fasb.org/us-gaap/2026#AccruedLiabilitiesCurrent
+http://fasb.org/us-gaap/2026#OtherLiabilitiesNoncurrent
+http://fasb.org/us-gaap/2026#OtherLiabilitiesNoncurrent
+480
+486
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+xbrli:pure
+wdc:segment
+iso4217:USD
+wdc:Unit
+wdc:claim
+0000106040
+2026-07-04
+2026-10-02
+0000106040
+2026-10-15
+0000106040
+2026-10-02
+0000106040
+2026-07-03
+0000106040
+2025-06-28
+2025-10-03
+0000106040
+2025-06-27
+0000106040
+2025-10-03
+0000106040
+us-gaap:CommonStockMember
+2026-07-03
+0000106040
+us-gaap:TreasuryStockCommonMember
+2026-07-03
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2026-07-03
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-07-03
+0000106040
+us-gaap:RetainedEarningsMember
+2026-07-03
+0000106040
+us-gaap:RetainedEarningsMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CommonStockMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:TreasuryStockCommonMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CommonStockMember
+2026-10-02
+0000106040
+us-gaap:TreasuryStockCommonMember
+2026-10-02
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2026-10-02
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2026-10-02
+0000106040
+us-gaap:RetainedEarningsMember
+2026-10-02
+0000106040
+us-gaap:CommonStockMember
+2025-06-27
+0000106040
+us-gaap:TreasuryStockCommonMember
+2025-06-27
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-27
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-27
+0000106040
+us-gaap:RetainedEarningsMember
+2025-06-27
+0000106040
+us-gaap:RetainedEarningsMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:TreasuryStockCommonMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CommonStockMember
+2025-10-03
+0000106040
+us-gaap:TreasuryStockCommonMember
+2025-10-03
+0000106040
+us-gaap:AdditionalPaidInCapitalMember
+2025-10-03
+0000106040
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-10-03
+0000106040
+us-gaap:RetainedEarningsMember
+2025-10-03
+0000106040
+wdc:CloudMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:CloudMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:ClientDevicesMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:ClientDevicesMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:ConsumerMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:ConsumerMember
+2025-06-28
+2025-10-03
+0000106040
+srt:AmericasMember
+2026-07-04
+2026-10-02
+0000106040
+srt:AmericasMember
+2025-06-28
+2025-10-03
+0000106040
+srt:AsiaMember
+2026-07-04
+2026-10-02
+0000106040
+srt:AsiaMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:EuropeMiddleEastAndAfricaMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:EuropeMiddleEastAndAfricaMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:TopTenCustomersMember
+us-gaap:RevenueFromContractWithCustomerMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:TopTenCustomersMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerOneMember
+us-gaap:RevenueFromContractWithCustomerMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerTwoMember
+us-gaap:RevenueFromContractWithCustomerMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerOneMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerTwoMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerThreeMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerFourMember
+us-gaap:RevenueFromContractWithCustomerMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerOneMember
+us-gaap:AccountsReceivableMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerTwoMember
+us-gaap:AccountsReceivableMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerThreeMember
+us-gaap:AccountsReceivableMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerOneMember
+us-gaap:AccountsReceivableMember
+2025-06-28
+2026-07-03
+0000106040
+us-gaap:CustomerConcentrationRiskMember
+wdc:CustomerTwoMember
+us-gaap:AccountsReceivableMember
+2025-06-28
+2026-07-03
+0000106040
+wdc:HDDMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:HDDMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:LandAndLandImprovementsMember
+2026-10-02
+0000106040
+us-gaap:LandAndLandImprovementsMember
+2026-07-03
+0000106040
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-10-02
+0000106040
+us-gaap:BuildingAndBuildingImprovementsMember
+2026-07-03
+0000106040
+us-gaap:MachineryAndEquipmentMember
+2026-10-02
+0000106040
+us-gaap:MachineryAndEquipmentMember
+2026-07-03
+0000106040
+wdc:ComputerEquipmentandSoftwareMember
+2026-10-02
+0000106040
+wdc:ComputerEquipmentandSoftwareMember
+2026-07-03
+0000106040
+us-gaap:FurnitureAndFixturesMember
+2026-10-02
+0000106040
+us-gaap:FurnitureAndFixturesMember
+2026-07-03
+0000106040
+us-gaap:ConstructionInProgressMember
+2026-10-02
+0000106040
+us-gaap:ConstructionInProgressMember
+2026-07-03
+0000106040
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentNetUnamortizedGainLossMember
+2026-07-03
+0000106040
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-07-03
+0000106040
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-07-03
+0000106040
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentNetUnamortizedGainLossMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentNetUnamortizedGainLossMember
+2026-10-02
+0000106040
+us-gaap:AccumulatedTranslationAdjustmentMember
+2026-10-02
+0000106040
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2026-10-02
+0000106040
+us-gaap:FairValueInputsLevel1Member
+2026-10-02
+0000106040
+us-gaap:FairValueInputsLevel2Member
+2026-10-02
+0000106040
+us-gaap:FairValueInputsLevel3Member
+2026-10-02
+0000106040
+us-gaap:FairValueInputsLevel1Member
+2026-07-03
+0000106040
+us-gaap:FairValueInputsLevel2Member
+2026-07-03
+0000106040
+us-gaap:FairValueInputsLevel3Member
+2026-07-03
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+2026-10-02
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+us-gaap:FairValueInputsLevel2Member
+2026-10-02
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+2026-07-03
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+us-gaap:FairValueInputsLevel2Member
+2026-07-03
+0000106040
+us-gaap:ConvertibleDebtMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesDueTwoThousandTwentyEightMember
+2026-07-03
+0000106040
+us-gaap:ConvertibleDebtMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesDueTwoThousandTwentyEightMember
+2026-10-02
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-10-02
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+us-gaap:FairValueInputsLevel2Member
+2026-10-02
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-07-03
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+us-gaap:FairValueInputsLevel2Member
+2026-07-03
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+2026-10-02
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2026-10-02
+0000106040
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+2026-07-03
+0000106040
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2026-07-03
+0000106040
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+2026-10-02
+0000106040
+wdc:RevolvingCreditFacilityMaturingJanuary2027Member
+2026-07-03
+0000106040
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-10-02
+0000106040
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-07-03
+0000106040
+us-gaap:RevolvingCreditFacilityMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:RevolvingCreditFacilityMember
+2026-10-02
+0000106040
+us-gaap:StandbyLettersOfCreditMember
+2026-10-02
+0000106040
+wdc:TermLoanA3Member
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:ConvertibleDebtMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-07-03
+0000106040
+us-gaap:ConvertibleDebtMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-10-02
+0000106040
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:ConvertibleDebtMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:ConvertibleDebtMember
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:SeniorNotesMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:CappedCallsMember
+wdc:ThreePointZeroZeroPercentConvertibleNotesMember
+2026-10-02
+0000106040
+wdc:TaxYears2008Through2015Member
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:OneTimeTerminationBenefitsMember
+2026-07-03
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:ContractTerminationMember
+2026-07-03
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+2026-07-03
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:OneTimeTerminationBenefitsMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:ContractTerminationMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:OneTimeTerminationBenefitsMember
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+us-gaap:ContractTerminationMember
+2026-10-02
+0000106040
+wdc:BusinessRealignmentActivitiesMember
+2026-10-02
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceStockUnitsMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceStockUnitsMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:EmployeeStockPurchasePlanMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:EmployeeStockPurchasePlanMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:CostOfGoodsAndServicesSold
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:CostOfGoodsAndServicesSold
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:SellingGeneralAndAdministrativeExpense
+2026-07-04
+2026-10-02
+0000106040
+us-gaap:SellingGeneralAndAdministrativeExpense
+2025-06-28
+2025-10-03
+0000106040
+wdc:BusinessRealignmentCharges
+2026-07-04
+2026-10-02
+0000106040
+wdc:BusinessRealignmentCharges
+2025-06-28
+2025-10-03
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceStockUnitsMember
+2026-10-02
+0000106040
+wdc:EmployeeStockPurchasePlanMember
+2026-10-02
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2026-07-03
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:RestrictedStockUnitsAndPerformanceShareUnitsMember
+2026-10-02
+0000106040
+us-gaap:ReclassificationOtherMember
+2026-10-02
+0000106040
+us-gaap:SubsequentEventMember
+2026-10-03
+2026-10-21
+0000106040
+us-gaap:SeriesAPreferredStockMember
+us-gaap:PrivatePlacementMember
+2026-02-16
+0000106040
+us-gaap:ConvertiblePreferredStockMember
+us-gaap:PrivatePlacementMember
+2026-02-16
+0000106040
+us-gaap:ConvertiblePreferredStockMember
+us-gaap:PrivatePlacementMember
+2026-02-16
+2026-02-16
+0000106040
+us-gaap:ConvertiblePreferredStockMember
+2025-06-28
+2025-10-03
+0000106040
+wdc:SeriesAConvertiblePreferredStockDueToParticipationRightsMember
+2025-06-28
+2025-10-03
+0000106040
+us-gaap:ConvertiblePreferredStockMember
+2026-02-17
+0000106040
+us-gaap:ConvertiblePreferredStockMember
+2026-02-17
+2026-03-17
+0000106040
+us-gaap:SettledLitigationMember
+wdc:SPEXTechnologiesInc.LawsuitMember
+2024-10-08
+0000106040
+us-gaap:SettledLitigationMember
+wdc:SPEXTechnologiesInc.LawsuitMember
+2024-10-18
+2024-10-18
+0000106040
+us-gaap:SettledLitigationMember
+wdc:SPEXTechnologiesInc.LawsuitMember
+2025-01-08
+2025-01-08
+0000106040
+us-gaap:SettledLitigationMember
+wdc:SPEXTechnologiesInc.LawsuitMember
+2025-06-16
+2025-06-16
+0000106040
+us-gaap:SettledLitigationMember
+wdc:SPEXTechnologiesInc.LawsuitMember
+2025-06-27
+2025-06-27
+0000106040
+wdc:BrianScottDavisMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:IrvingTanMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:IrvingTanMember
+2026-10-02
+0000106040
+wdc:Mr.TansTradingArrangementSoldPriorToThePlanAmendmentMember
+wdc:IrvingTanMember
+2026-10-02
+0000106040
+wdc:TuncDolucaMember
+2026-07-04
+2026-10-02
+0000106040
+wdc:TuncDolucaMember
+2026-10-02
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM
+10-Q
+
+(Mark One)
+☒
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+October 2, 2026
+Or
+☐
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from
+                    
+ to
+                    
+Commission file number:
+1-8703
+
+WESTERN DIGITAL CORPORATION
+
+(Exact Name of Registrant as Specified in Its Charter)
+Delaware
+33-0956711
+(State or other jurisdiction of
+incorporation or organization)
+(I.R.S. Employer Identification No.)
+5601 Great Oaks Parkway,
+San Jose,
+California
+95119
+(Address of principal executive offices)
+(Zip Code)
+Registrant’s telephone number, including area code: (
+408
+)
+717-6000
+
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading symbol(s)
+Name of each exchange on which registered
+Common Stock, $0.01 Par Value Per Share
+WDC
+The Nasdaq Stock Market LLC
+(Nasdaq Global Select Market)
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.    
+Yes
+  
+☒
+    No  
+¨
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).    
+Yes
+  
+☒
+    No  
+¨
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer
+Accelerated filer
+Non-accelerated filer
+Smaller reporting company
+Emerging growth company
+☒
+☐
+☐
+☐
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.    
+☐
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).    Yes  
+☐
+    No  
+☒
+As of the close of busine
+ss on
+October 15, 2026,
+374,323,269
+ shares of common stock, par value $0.01 per share, were outstanding.
+WESTERN DIGITAL CORPORATION
+TABLE OF CONTENTS
+PAGE NO.
+PART I. FINANCIAL INFORMATION
+Item 1.
+Financial Statements (unaudited)
+Condensed Consolidated Balance Sheets — As of October 2, 2026 and July 3, 2026
+5
+Condensed Consolidated Statements of Income — Three Months Ended October 2, 2026 and October 3, 2025
+6
+Condensed Consolidated Statements of Comprehensive Income — Three Months Ended October 2, 2026 and October 3, 2025
+7
+Condensed Consolidated Statements of Cash Flows — Three Months Ended October 2, 2026 and October 3, 2025
+8
+Condensed Consolidated Statements of Convertible Preferred Stock and Shareholders’ Equity — Three Months Ended October 2, 2026 and October 3, 2025
+9
+Notes to Condensed Consolidated Financial Statements
+11
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+32
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+45
+Item 4.
+Controls and Procedures
+45
+PART II. OTHER INFORMATION
+Item 1.
+Legal Proceedings
+46
+Item 1A.
+Risk Factors
+46
+Item 2.
+Unregistered Sales of Equity Securities and Use of Proceeds
+46
+Item 5.
+Other Information
+46
+Item 6.
+Exhibits
+47
+Unless otherwise indicated or the context requires, references herein to specific years and quarters are to our fiscal years and fiscal quarters, and references to financial information are on a consolidated basis. As used herein, the terms “we,” “us,” “our,” the “Company,” “WD,” and “Western Digital” refer to Western Digital Corporation and its subsidiaries, unless we state, or the context indicates, otherwise.
+WD, a Delaware corporation, is the parent company of our data storage business. Our principal executive offices are located at 5601 Great Oaks Parkway, San Jose, California 95119. Our telephone number is (408) 717-6000.
+Western Digital, WD and the WD design are registered trademarks or trademarks of Western Digital or its affiliates in the United States (“U.S.”) and/or other countries. All other trademarks, registered trademarks and/or service marks, indicated or otherwise, are the property of their respective owners.
+3
+Table of Contents
+FORWARD-LOOKING STATEMENTS
+This document contains forward-looking statements within the meaning of the federal securities laws. Any statements that do not relate to historical or current facts or matters are forward-looking statements. You can identify some of the forward-looking statements by the use of forward-looking words, such as “may,” “will,” “could,” “would,” “project,” “believe,” “anticipate,” “expect,” “estimate,” “continue,” “potential,” “plan,” “forecast,” and the like, or the use of future tense. Statements concerning current conditions may also be forward-looking if they imply a continuation of current conditions. Examples of forward-looking statements include, but are not limited to, statements concerning: the impact of the global macroeconomic environment, including tariffs; expectations regarding demand trends, market opportunities and our market position, including related to artificial intelligence (“AI”); our product development and technology plans and business strategies; consumer trends and market conditions; expectations regarding our future financial performance; expectations regarding capital expenditure plans and investments; expectations regarding our tax resolutions, effective tax rate and unrecognized tax benefits; expectations regarding the merits of our position and plans with respect to certain litigation matters; and our beliefs regarding capital allocation plans, including our quarterly dividend program and share repurchase program, and the sufficiency of available liquidity to meet our working capital, debt and capital expenditure needs.
+These forward-looking statements are based on management’s current expectations, represent the most current information available to us as of the date of this Quarterly Report on Form 10-Q and are subject to a number of risks, uncertainties and other factors that could cause actual results or performance to differ materially from those expressed or implied in the forward-looking statements. These risks and uncertainties include, but are not limited to:
+•
+concentration of revenue in our Cloud end market and among our top customers;
+•
+our development and introduction of products based on new technologies and expansion into new data storage markets;
+•
+our dependence on a limited number of qualified suppliers;
+•
+difficulties or delays in manufacturing or other supply chain disruptions;
+•
+the impact of long-term agreements;
+•
+product defects;
+•
+hiring and retention of key employees;
+•
+risks associated with strategic initiatives, restructurings, acquisitions, divestitures, mergers, joint ventures and our strategic relationships;
+•
+adverse global or regional conditions, including new or additional tariffs or trade restrictions, inflation, increases in interest rates and an economic recession;
+•
+volatility in demand for our products;
+•
+the competitive environment, including actions by our competitors and the impact of competitive products and pricing;
+•
+risks associated with our use of artificial intelligence;
+•
+compromise, damage or interruption from cybersecurity incidents or other data or system security risks;
+•
+our debt and other financial obligations;
+•
+changes in tax laws or unanticipated tax liabilities;
+•
+any decisions to reduce or discontinue paying cash dividends or repurchasing shares of our common stock;
+•
+fluctuations in currency exchange rates in connection with our international operations;
+•
+risks associated with compliance with changing legal and regulatory requirements and the outcome of legal proceedings;
+•
+risks associated with our goals relating to sustainability matters, including our ability to meet our greenhouse gas emissions reduction and other sustainability goals; and
+•
+our reliance on intellectual property and other proprietary information.
+You are urged to carefully review the disclosures we make concerning these risks and review the additional disclosures we make concerning material risks and other factors that may affect the outcome of our forward-looking statements and our business and operating results, including those made in Part I, Item 1A of our Annual Report on Form 10-K for the year ended July 3, 2026 (our “2026 Annual Report on Form 10-K”) and any of those made in our other reports filed with the Securities and Exchange Commission (“SEC”), including  under “Risk Factors” in Item 1A of subsequent Annual Reports on Form 10-K and Quarterly Reports on Form 10-Q that may from time to time amend, supplement or supersede the risks and uncertainties disclosed in our 2026 Annual Report on Form 10-K. You are cautioned not to place undue reliance on the forward-looking statements included in this Quarterly Report on Form 10-Q, which speak only as of the date of this document. We do not intend, and undertake no obligation, to update or revise these forward-looking statements to reflect new information or events after the date of this document or to reflect the occurrence of unanticipated events, except as required by law.
+4
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1.    
+Financial Statements (unaudited)
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions)
+ (Unaudited)
+October 2,
+2026
+July 3,
+2026
+ASSETS
+Current assets:
+Cash and cash equivalents
+$
+1,314
+ 
+$
+1,579
+ 
+Accounts receivable, net
+2,232
+ 
+2,026
+ 
+Inventories
+1,781
+ 
+1,511
+ 
+Other current assets
+541
+ 
+518
+ 
+Total current assets
+5,868
+ 
+5,634
+ 
+Property, plant and equipment, net
+2,586
+ 
+2,476
+ 
+Goodwill
+4,321
+ 
+4,321
+ 
+Other non-current assets
+1,464
+ 
+1,430
+ 
+Total assets
+$
+14,239
+ 
+$
+13,861
+ 
+LIABILITIES AND SHAREHOLDERS’ EQUITY
+Current liabilities:
+Accounts payable
+$
+1,855
+ 
+$
+1,774
+ 
+Accrued expenses
+675
+ 
+690
+ 
+Accrued compensation
+469
+ 
+551
+ 
+Income taxes payable
+304
+ 
+173
+ 
+Debt, current
+789
+ 
+1,052
+ 
+Total current liabilities
+4,092
+ 
+4,240
+ 
+Other liabilities
+799
+ 
+757
+ 
+Total liabilities
+4,891
+ 
+4,997
+ 
+Commitments and contingencies (Notes 6 and 12)
+Shareholders’ equity:
+Common stock
+4
+ 
+4
+ 
+Additional paid-in capital
+66
+ 
+961
+ 
+Accumulated other comprehensive income
+24
+ 
+23
+ 
+Retained earnings
+9,269
+ 
+9,998
+ 
+Treasury stock
+(
+15
+)
+(
+2,122
+)
+Total shareholders’ equity
+9,348
+ 
+8,864
+ 
+Total liabilities and shareholders’ equity
+$
+14,239
+ 
+$
+13,861
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+5
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF INCOME
+(in millions, except per share amounts)
+ (Unaudited)
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+Revenue, net
+$
+4,381
+ 
+$
+2,818
+ 
+Cost of revenue
+1,847
+ 
+1,591
+ 
+Gross profit
+2,534
+ 
+1,227
+ 
+Operating expenses:
+Research and development
+283
+ 
+294
+ 
+Selling, general and administrative
+162
+ 
+138
+ 
+Business realignment charges
+43
+ 
+3
+ 
+Total operating expenses
+488
+ 
+435
+ 
+Operating income
+2,046
+ 
+792
+ 
+Interest and other income (expense):
+Interest income
+7
+ 
+17
+ 
+Interest expense
+(
+11
+)
+(
+59
+)
+Gain on retained interest in Sandisk
+—
+ 
+611
+ 
+Other expense, net
+(
+4
+)
+(
+24
+)
+Total interest and other income (expense), net
+(
+8
+)
+545
+ 
+Income before taxes
+2,038
+ 
+1,337
+ 
+Income tax expense
+259
+ 
+155
+ 
+Net income
+1,779
+ 
+1,182
+ 
+Dividends allocated to preferred shareholders
+—
+ 
+(
+5
+)
+Income attributable to participating securities
+—
+ 
+(
+25
+)
+Basic net income attributable to common shareholders
+1,779
+ 
+1,152
+ 
+Re-allocation of participating securities considered potentially dilutive
+—
+ 
+2
+ 
+Diluted net income attributable to common shareholders
+$
+1,779
+ 
+$
+1,154
+ 
+Weighted average common shares outstanding:
+Basic
+366
+ 
+345
+ 
+Diluted
+384
+ 
+376
+ 
+Net income per common share:
+Basic
+$
+4.86
+ 
+$
+3.34
+ 
+Diluted
+$
+4.63
+ 
+$
+3.07
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+6
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions)
+ (Unaudited)
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+Net income
+$
+1,779
+ 
+$
+1,182
+ 
+Other comprehensive income (loss), before tax:
+Actuarial pension loss
+(
+1
+)
+—
+ 
+Net unrealized gain (loss) on derivative contracts
+3
+ 
+(
+7
+)
+Total other comprehensive income (loss), before tax
+2
+ 
+(
+7
+)
+Income tax benefit (expense) related to items of other comprehensive income (loss), before tax
+(
+1
+)
+1
+ 
+Other comprehensive income (loss), net of tax
+1
+ 
+(
+6
+)
+Total comprehensive income
+$
+1,780
+ 
+$
+1,176
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+7
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+ (Unaudited)
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+Cash flows from operating activities
+Net income
+$
+1,779
+ 
+$
+1,182
+ 
+Adjustments to reconcile net income to net cash provided by operations:
+Depreciation and amortization
+104
+ 
+88
+ 
+Stock-based compensation
+79
+ 
+53
+ 
+Deferred income taxes
+(
+30
+)
+55
+ 
+Gain on retained interest in Sandisk
+—
+ 
+(
+611
+)
+Other non-cash operating activities, net
+3
+ 
+4
+ 
+Changes in:
+Accounts receivable, net
+(
+206
+)
+131
+ 
+Inventories
+(
+269
+)
+(
+101
+)
+Accounts payable
+52
+ 
+248
+ 
+Accrued expenses
+(
+14
+)
+(
+21
+)
+Accrued compensation
+(
+83
+)
+6
+ 
+Income taxes payable
+131
+ 
+(
+503
+)
+Other assets and liabilities, net
+58
+ 
+141
+ 
+Net cash provided by operating activities
+1,604
+ 
+672
+ 
+Cash flows from investing activities
+Purchases of property, plant and equipment
+(
+227
+)
+(
+73
+)
+Strategic investments and other, net
+2
+ 
+16
+ 
+Net cash used in investing activities
+(
+225
+)
+(
+57
+)
+Cash flows from financing activities
+Taxes paid on vested stock awards under employee stock plans
+(
+317
+)
+(
+55
+)
+Repurchases of common stock
+(
+1,001
+)
+(
+553
+)
+Dividends paid to common shareholders
+(
+56
+)
+(
+34
+)
+Dividends paid to preferred shareholders
+—
+ 
+(
+5
+)
+Settlement of convertible notes transactions
+(
+570
+)
+—
+ 
+Repayments of debt
+(
+600
+)
+(
+31
+)
+Proceeds from debt
+900
+ 
+—
+ 
+Net cash used in financing activities
+(
+1,644
+)
+(
+678
+)
+Effect of exchange rate changes on cash
+—
+ 
+(
+3
+)
+Net decrease in cash and cash equivalents
+(
+265
+)
+(
+66
+)
+Cash and cash equivalents, beginning of period
+1,579
+ 
+2,114
+ 
+Cash and cash equivalents, end of period
+
+$
+1,314
+ 
+$
+2,048
+ 
+Supplemental disclosure of cash flow information:
+Cash paid for income taxes
+$
+36
+ 
+$
+446
+ 
+Cash paid for interest
+$
+6
+ 
+$
+50
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+8
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND SHAREHOLDERS’ EQUITY
+(in millions)
+ (Unaudited)
+Common Stock
+Treasury Stock
+Additional Paid-In Capital
+Accumulated Other Comprehensive Income
+Retained Earnings
+Total Shareholders’ Equity
+Shares
+Amount
+Shares
+Amount
+Balance at July 3, 2026
+364
+ 
+$
+4
+ 
+(
+3
+)
+$
+(
+2,122
+)
+$
+961
+ 
+$
+23
+ 
+$
+9,998
+ 
+$
+8,864
+ 
+Net income
+— 
+— 
+— 
+— 
+— 
+— 
+1,779
+ 
+1,779
+ 
+Employee stock plans
+1
+ 
+— 
+1
+ 
+313
+ 
+(
+630
+)
+— 
+— 
+(
+317
+)
+Stock-based compensation
+— 
+— 
+— 
+— 
+79
+ 
+— 
+— 
+79
+ 
+Repurchases of common stock
+— 
+— 
+(
+2
+)
+(
+1,001
+)
+— 
+— 
+— 
+(
+1,001
+)
+Convertible notes transactions
+9
+ 
+— 
+4
+ 
+2,795
+ 
+(
+2,796
+)
+— 
+— 
+(
+1
+)
+Common stock dividends
+— 
+— 
+— 
+— 
+1
+ 
+— 
+(
+57
+)
+(
+56
+)
+Actuarial pension loss
+— 
+— 
+— 
+— 
+— 
+(
+1
+)
+— 
+(
+1
+)
+Net unrealized gain on derivative contracts, net of taxes
+— 
+— 
+— 
+— 
+— 
+2
+ 
+— 
+2
+ 
+Reclassification of negative additional paid-in capital
+— 
+— 
+— 
+— 
+2,451
+ 
+— 
+(
+2,451
+)
+—
+ 
+Balance at October 2, 2026
+374
+ 
+$
+4
+ 
+—
+ 
+$
+(
+15
+)
+$
+66
+ 
+$
+24
+ 
+$
+9,269
+ 
+$
+9,348
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+9
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND SHAREHOLDERS’ EQUITY
+(in millions)
+ (Unaudited)
+Convertible Preferred Stock
+Common Stock
+Treasury Stock
+Additional Paid-In Capital
+Accumulated Other Comprehensive Income
+Retained Earnings
+Total Shareholders’ Equity
+Shares
+Amount
+Shares
+Amount
+Shares
+Amount
+Balance at June 27, 2025
+0.2
+ 
+$
+229
+ 
+349
+ 
+$
+3
+ 
+(
+2
+)
+$
+(
+95
+)
+$
+4,621
+ 
+$
+20
+ 
+$
+762
+ 
+$
+5,311
+ 
+Net income
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+1,182
+ 
+1,182
+ 
+Employee stock plans
+— 
+— 
+— 
+— 
+1
+ 
+69
+ 
+(
+125
+)
+— 
+— 
+(
+56
+)
+Stock-based compensation
+— 
+— 
+— 
+— 
+— 
+— 
+53
+ 
+— 
+— 
+53
+ 
+Repurchases of common stock
+— 
+— 
+— 
+— 
+(
+6
+)
+(
+557
+)
+— 
+— 
+— 
+(
+557
+)
+Preferred stock dividends
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+(
+5
+)
+(
+5
+)
+Common stock dividends
+— 
+— 
+— 
+— 
+— 
+— 
+1
+ 
+— 
+(
+35
+)
+(
+34
+)
+Net unrealized loss on derivative contracts, net of taxes
+— 
+— 
+— 
+— 
+— 
+— 
+— 
+(
+6
+)
+— 
+(
+6
+)
+Balance at October 3, 2025
+0.2
+ 
+$
+229
+ 
+349
+ 
+$
+3
+ 
+(
+7
+)
+$
+(
+583
+)
+$
+4,550
+ 
+$
+14
+ 
+$
+1,904
+ 
+$
+5,888
+ 
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+10
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 1.    
+Organization and Basis of Presentation
+Western Digital Corporation (“Western Digital,” “WD,” or the “Company”) is a leading developer, manufacturer, and provider of data storage devices and solutions based on hard disk drive (“HDD”) technologies.
+The Company manufactures, markets, and sells data storage devices and solutions globally through its sales personnel, dealers, distributors, retailers, and subsidiaries. Its extensive portfolio of technology and products addresses the following key end markets: “Cloud,” “Client,” and “Consumer.” Cloud is comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, the Company provides its original equipment manufacturer (“OEM”) and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market provides a wide range of retail and other end-user products, which capitalize on the strength of the Company’s product brand recognition and vast presence around the world.
+The accounting policies followed by the Company are set forth in Part II, Item 8, Note 1,
+Organization and Basis of Presentation,
+ of the Notes to Consolidated Financial Statements included in the 2026 Annual Report on Form 10-K. There were no changes to the Company’s significant accounting policies and no new accounting standards adopted during the three months ended October 2, 2026. In the opinion of management, all adjustments necessary to fairly state the Condensed Consolidated Financial Statements prepared in accordance with accounting principles generally accepted in the United States (“U.S. GAAP”) have been made. Such adjustments consist of items of a normal, recurring nature. Certain information and disclosures normally included in the Consolidated Financial Statements have been condensed or omitted pursuant to the rules and regulations of the Securities and Exchange Commission (“SEC”). These Condensed Consolidated Financial Statements should be read in conjunction with the Consolidated Financial Statements and the notes thereto included in the 2026 Annual Report on Form 10‑K. The results of operations for interim periods are not necessarily indicative of results to be expected for the full year.
+Fiscal Year
+The Company’s fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, the Company reports a 53-week fiscal year to align the fiscal year with the foregoing policy. Fiscal year 2027, which will end on July 2, 2027, will be comprised of 52 weeks, with all quarters presented consisting of 13 weeks each. Fiscal year 2026, which ended on July 3, 2026, was comprised of 53 weeks, with the first quarter consisting of 14 weeks and the remaining quarters consisting of 13 weeks each. Unless otherwise indicated, references herein to specific years and quarters are to fiscal years and fiscal quarters, and references to financial information are on a consolidated basis.
+Use of Estimates
+Company management has made estimates and assumptions relating to the reporting of certain assets and liabilities in conformity with U.S. GAAP. These estimates and assumptions have been applied using methodologies that are consistent throughout the periods presented; however, actual results could differ materially.
+11
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 2.    
+Disaggregated Revenue, Geographic Information, Concentrations of Risk, and Segment Reporting
+The Company’s disaggregated net revenue by end market is as follows:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Net revenue by end market
+Cloud
+$
+3,868
+ 
+$
+2,510
+ 
+Client
+320
+ 
+146
+ 
+Consumer
+193
+ 
+162
+ 
+Total net revenue
+$
+4,381
+ 
+$
+2,818
+ 
+Net revenue by geography
+(1)
+Americas
+$
+2,081
+ 
+$
+1,100
+ 
+Asia
+1,708
+ 
+1,175
+ 
+Europe, Middle East and Africa
+592
+ 
+543
+ 
+Total net revenue
+$
+4,381
+ 
+$
+2,818
+ 
+(1)    
+Net revenue is attributed to geographic regions based on the ship-to location of the customer.
+Beginning in the three months ended October 2, 2026, the Company updated its methodology for identifying customers for purposes of revenue concentration disclosure. Under the updated methodology, concentrations are attributed to the ultimate end customer when products are purchased on its behalf by distributors, contract manufacturers, or other resellers (collectively referred to as “intermediary purchasers”), rather than being attributed to such intermediary purchasers. The Company believes this presentation provides investors with a more meaningful reflection of the Company’s economic relationship with its customers. Prior year concentrations have been revised to conform to the current year presentation.
+The Company’s top 10 customers accounted for
+64
+% of its net revenue for the three months ended October 2, 2026, compared to
+73
+% of its net revenue for the three months ended October 3, 2025. For the three months ended October 2, 2026, two customers accounted for
+14
+% and
+13
+%, respectively, of the Company’s net revenue. For the three months ended October 3, 2025, four customers accounted for
+16
+%,
+13
+%,
+13
+% and
+12
+%, respectively, of the Company’s net revenue.
+As of October 2, 2026 and July 3, 2026, net accounts receivable were $
+2.23
+ billion and $
+2.03
+ billion, respectively, and reserves for potential credit losses were not material. As of October 2, 2026, three customers accounted for
+21
+%,
+14
+%, and
+12
+%, respectively, of the Company’s net accounts receivable, and as of July 3, 2026, two customers accounted for
+25
+% and
+17
+%, respectively, of the Company’s net accounts receivable.
+12
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Segment Reporting
+The Company’s Chief Executive Officer is the Company’s Chief Operating Decision Maker (“CODM”). The CODM manages the business as a provider of data storage devices and solutions based on HDD technology. The CODM evaluates the performance of the Company and makes decisions regarding the allocation of resources based on the Company’s Net income and Total assets. The Company has therefore determined that it has
+one
+ reportable segment: HDD.
+The following table is a reconciliation of the Company’s measure of segment profit or loss, significant segment expenses and other segment items:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Revenue, net
+$
+4,381
+ 
+$
+2,818
+ 
+Less: Significant expenses and other segment items
+Cost of revenue
+(1)
+1,837
+ 
+1,581
+ 
+Research and development
+(1)
+261
+ 
+270
+ 
+Selling, general and administrative
+(1)
+130
+ 
+111
+ 
+Stock-based compensation
+79
+ 
+53
+ 
+Business realignment charges
+27
+ 
+3
+ 
+Interest expense, net
+4
+ 
+42
+ 
+Gain on retained interest in Sandisk
+—
+ 
+(
+611
+)
+Other expense, net
+8
+ 
+2
+ 
+Other segment items
+(2)
+(
+3
+)
+30
+ 
+Income tax expense
+259
+ 
+155
+ 
+Net income
+$
+1,779
+ 
+$
+1,182
+ 
+(1)    
+Excludes amounts related to stock-based compensation, which are presented separately in the table above.
+(2)    
+Other segment items include activity from strategic investments and other small charges.
+13
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 3.    
+Supplemental Financial Statement Data
+Inventories
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Inventories:
+Raw materials and component parts
+$
+435
+ 
+$
+285
+ 
+Work-in-process
+935
+ 
+829
+ 
+Finished goods
+411
+ 
+397
+ 
+Total inventories
+$
+1,781
+ 
+$
+1,511
+ 
+Property, plant and equipment, net
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Property, plant and equipment:
+Land and improvements
+$
+225
+ 
+$
+225
+ 
+Buildings and improvements
+1,621
+ 
+1,611
+ 
+Machinery and equipment
+6,944
+ 
+6,830
+ 
+Computer equipment and software
+309
+ 
+292
+ 
+Furniture and fixtures
+43
+ 
+40
+ 
+Construction-in-process
+486
+ 
+457
+ 
+Property, plant and equipment, gross
+9,628
+ 
+9,455
+ 
+Accumulated depreciation
+(
+7,042
+)
+(
+6,979
+)
+Property, plant and equipment, net
+$
+2,586
+ 
+$
+2,476
+ 
+Non-current assets
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Non-current assets:
+Deferred tax assets
+$
+905
+ 
+$
+872
+ 
+Other non-current assets
+559
+ 
+558
+ 
+Total non-current assets
+$
+1,464
+ 
+$
+1,430
+ 
+14
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Product warranty accrual
+Changes in the warranty accrual were as follows:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Warranty accrual, beginning of period
+$
+207
+ 
+$
+152
+ 
+Charges to operations
+37
+ 
+27
+ 
+Utilization
+(
+26
+)
+(
+24
+)
+Changes in estimate related to pre-existing warranties
+23
+ 
+5
+ 
+Warranty accrual, end of period
+$
+241
+ 
+$
+160
+ 
+The current portion of the warranty accrual was classified in Accrued expenses and the non-current portion was classified in Other liabilities,
+
+as noted below:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Warranty accrual:
+Current portion
+$
+44
+ 
+$
+42
+ 
+Non-current portion
+197
+ 
+165
+ 
+Total warranty accrual
+$
+241
+ 
+$
+207
+ 
+Other liabilities
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Other liabilities:
+Non-current portion of unrecognized tax benefits
+$
+249
+ 
+$
+235
+ 
+Other non-current liabilities
+550
+ 
+522
+ 
+Total other liabilities
+$
+799
+ 
+$
+757
+ 
+Goodwill
+Goodwill is not amortized. Instead, it is tested for impairment annually as of the beginning of the Company’s fourth quarter, or more frequently if events or changes in circumstances indicate that goodwill may be impaired.
+
+Management concluded there were no impairment indicators for either of the three months ended October 2, 2026 and October 3, 2025. The carrying amount of goodwill was $
+4.32
+ billion as of both October 2, 2026 and July 3, 2026.
+15
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Accumulated other comprehensive income
+Accumulated other comprehensive income refers to expenses, gains, and losses that are recorded as an element of shareholders’ equity but are excluded from net income.
+The components of Accumulated other comprehensive income were as follows:
+Actuarial Pension Gains
+Foreign Currency Translation Adjustment
+Unrealized Gains (Losses) on Derivative Contracts
+Total Accumulated Other Comprehensive Income
+(in millions)
+Balance at July 3, 2026
+$
+39
+ 
+$
+(
+3
+)
+$
+(
+13
+)
+$
+23
+ 
+Other comprehensive loss before reclassifications
+(
+1
+)
+—
+ 
+(
+4
+)
+(
+5
+)
+Amounts reclassified from accumulated other comprehensive income (loss)
+—
+ 
+—
+ 
+7
+ 
+7
+ 
+Income tax expense related to items of other comprehensive income (loss)
+—
+ 
+—
+ 
+(
+1
+)
+(
+1
+)
+Net current-period other comprehensive income (loss)
+(
+1
+)
+—
+ 
+2
+ 
+1
+ 
+Balance at October 2, 2026
+$
+38
+ 
+$
+(
+3
+)
+$
+(
+11
+)
+$
+24
+ 
+During the three months ended October 2, 2026, the amounts reclassified from Accumulated other comprehensive income were losses related to foreign exchange contracts that were substantially charged to Cost of revenue in the Condensed Consolidated Statements of Income.
+As of October 2, 2026, all existing net losses related to cash flow hedges recorded in Accumulated other comprehensive income are expected to be reclassified to earnings within the next twelve months.
+16
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 4.    
+Fair Value Measurements and Investments
+Financial Instruments Carried at Fair Value
+Financial assets and liabilities that are remeasured and reported at fair value at each reporting period are classified and disclosed in one of the following three levels:
+Level 1.    
+Quoted prices in active markets for identical assets or liabilities.
+Level 2.    
+Inputs other than Level 1 that are observable, either directly or indirectly, such as quoted prices for similar assets or liabilities; quoted prices in markets that are not active; or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the assets or liabilities.
+Level 3.    
+Inputs that are unobservable for the asset or liability and that are significant to the fair value of the assets or liabilities.
+The following tables present information about the Company’s financial instruments that were measured at fair value on a recurring basis for the periods presented and indicate the fair value hierarchy of the valuation techniques utilized to determine such values:
+October 2, 2026
+Level 1
+Level 2
+Level 3
+Total
+(in millions)
+Assets:
+Cash equivalents - Money market funds
+23
+ 
+—
+ 
+—
+ 
+23
+ 
+Foreign exchange contracts
+—
+ 
+2
+ 
+—
+ 
+2
+ 
+Total assets at fair value
+$
+23
+ 
+$
+2
+ 
+$
+—
+ 
+$
+25
+ 
+Liabilities:
+Foreign exchange contracts
+$
+—
+ 
+$
+21
+ 
+$
+—
+ 
+$
+21
+ 
+Total liabilities at fair value
+$
+—
+ 
+$
+21
+ 
+$
+—
+ 
+$
+21
+ 
+July 3, 2026
+Level 1
+Level 2
+Level 3
+Total
+(in millions)
+Assets:
+Cash equivalents - Money market funds
+67
+ 
+—
+ 
+—
+ 
+67
+ 
+Foreign exchange contracts
+—
+ 
+2
+ 
+—
+ 
+2
+ 
+Total assets at fair value
+$
+67
+ 
+$
+2
+ 
+$
+—
+ 
+$
+69
+ 
+Liabilities:
+Foreign exchange contracts
+$
+—
+ 
+$
+22
+ 
+$
+—
+ 
+$
+22
+ 
+Total liabilities at fair value
+$
+—
+ 
+$
+22
+ 
+$
+—
+ 
+$
+22
+ 
+During the periods presented, the Company had no transfers of financial instruments between levels and there were no changes in valuation techniques or the inputs used in the fair value measurement.
+17
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Financial Instruments Not Carried at Fair Value
+For financial instruments where the carrying value (which includes principal adjusted for any unamortized issuance costs and discounts or premiums) differs from fair value (which is based on quoted market prices), the following table represents the related carrying value and fair value for each of the Company’s outstanding financial instruments. Each of the financial instruments presented below were categorized as Level 2 for all periods presented, based on the frequency of trading immediately prior to the end of the first quarter of 2027 and the fourth quarter of 2026, respectively.
+October 2, 2026
+July 3, 2026
+Carrying
+Value
+Fair
+Value
+Carrying
+Value
+Fair
+Value
+(in millions)
+Revolving Credit Facility maturing January 2027
+$
+650
+ 
+$
+650
+ 
+$
+350
+ 
+$
+350
+ 
+3.00
+% convertible notes
+139
+ 
+1,523
+ 
+702
+ 
+10,109
+ 
+Total
+$
+789
+ 
+$
+2,173
+ 
+$
+1,052
+ 
+$
+10,459
+ 
+18
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 5.    
+Debt
+Debt consisted of the following:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Revolving Credit Facility maturing January 2027
+$
+650
+ 
+$
+350
+ 
+3.00
+% convertible notes
+141
+ 
+710
+ 
+Total principal
+791
+ 
+1,060
+ 
+Issuance costs
+(
+2
+)
+(
+8
+)
+Debt, current
+$
+789
+ 
+$
+1,052
+ 
+Revolving Credit Facility and Term Loans
+As of July 3, 2026, the Company had $
+350
+ million outstanding under its revolving credit facility maturing in January 2027 (the “Revolving Credit Facility”). During the three months ended October 2, 2026, the Company drew an additional $
+900
+ million in principal amount and repaid $
+600
+ million under the Revolving Credit Facility, resulting in $
+650
+ million outstanding as of October 2, 2026. As of October 2, 2026, the Company had
+no
+ outstanding standby letters of credit and the remaining available capacity under the Revolving Credit Facility was $
+600
+ million.
+During the three months ended October 3, 2025, the Company made scheduled principal repayments of $
+31
+ million under its then outstanding term loan A-3, which was later settled in full in February 2026.
+The loan agreement governing the Revolving Credit Facility requires the Company to comply with a financial leverage ratio covenant. As of October 2, 2026, the Company was in compliance with the financial covenant.
+Convertible Notes
+As of July 3, 2026, the Company had outstanding $
+710
+ million aggregate principal amount of convertible senior notes pursuant to an indenture dated as of November 3, 2023 (the “Indenture”), which bear interest at an annual rate of
+3.00
+% and have an original maturity date of November 15, 2028, unless earlier repurchased, redeemed or converted (the “Convertible Notes”).
+During the three months ended October 2, 2026, the Company entered into privately negotiated exchange agreements with certain holders of the Convertible Notes, in an aggregate principal amount of $
+191
+ million, pursuant to which the Company fully settled the obligation for an aggregate $
+193
+ million in cash (which reflected the principal amount and a small inducement cost) and
+4.7
+ million shares of the Company’s common stock for the conversion premium of $
+2.16
+ billion. In connection with these exchange transactions, $
+2
+ million of remaining unamortized issuance costs associated with these notes was charged to Additional paid-in capital. The Company accounted for these exchange transactions as induced conversion transactions and recognized an immaterial induced conversion expense in Other expense, net in the Condensed Consolidated Statements of Income. There were no settlements or modifications made to the related capped call transactions in connection with the exchange agreements (see “Capped Calls” below).
+During the three months ended October 2, 2026, the Company also settled the conversion obligation on $
+378
+ million in aggregate principal amount of Convertible Notes that had been tendered by holders pursuant to the Indenture. The aggregate principal amount of these notes was settled in cash with substantially all of the conversion premium of $
+5.09
+ billion settled for
+9.3
+ million shares of the Company’s common stock. In connection with these conversions, $
+4
+ million of remaining unamortized issuance costs associated with these notes was charged to Additional paid-in capital.
+19
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+As of October 2, 2026, $
+141
+ million in aggregate principal amount of the Convertible Notes remained outstanding. The Convertible Notes are currently convertible at the option of any holder, at a conversion price of approximately $
+37.70
+ per share of common stock as of October 2, 2026. Upon any conversion of the Convertible Notes, the Company will pay cash for the aggregate principal amount of the notes to be converted and pay or deliver, as the case may be, cash, shares of the Company’s common stock or a combination thereof, at the Company’s election, in respect of the remainder, if any, of its conversion obligation in excess of the aggregate principal amount of the notes being converted. Through October 2, 2026, $
+31
+ million in aggregate principal amount of these notes had been tendered for conversion. The Company has elected to issue shares of its common stock to satisfy the conversion obligation in excess of the principal amount for substantially all of the notes tendered for conversion, which are expected to settle in the second quarter of 2027.
+On September 14, 2026, the Company issued a notice of redemption to redeem at par plus unpaid and accrued interest, on November 16, 2026 (the “Redemption Date”), all then-outstanding Convertible Notes that have not been converted prior to the Redemption Date. The Company currently expects that holders of substantially all Convertible Notes will convert such Convertible Notes before the Redemption Date.
+Capped Calls
+In connection with the issuance of the Convertible Notes, the Company entered into privately negotiated capped call transactions with certain counterparties (the “Capped Calls”). As of October 2, 2026, the outstanding Capped Calls had an aggregate notional value of $
+1.19
+ billion with each having a strike price of approximately $
+37.70
+ per share and a cap price of approximately $
+50.38
+ per share. The Capped Calls were generally intended to reduce or offset the potential dilution to the Company’s common stock upon any conversion of the Convertible Notes tendered by the holders, with such reduction or offset, as the case may be, subject to a cap based on the cap price. If the market price per share of the Company’s common stock, as measured under the terms of the Capped Calls, exceeds the cap prices of the Capped Calls, there would not be an offset for the excess. The Capped Calls are separate transactions and not part of the terms of the Convertible Notes. As these transactions meet certain accounting criteria, the Capped Calls are recorded in shareholders’ equity and are not accounted for as derivatives.
+20
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 6.    
+Leases and Other Commitments
+Leases
+The Company leases certain domestic and international facilities and data center space under long-term, non-cancelable operating leases that expire at various dates through 2034. These leases include no material variable or contingent lease payments. Operating lease assets and liabilities are recognized based on the present value of the remaining lease payments discounted using the Company’s incremental borrowing rate. Operating lease assets also include prepaid lease payments minus any lease incentives. Extension or termination options present in the Company’s lease agreements are included in determining the right-of-use asset and lease liability when it is reasonably certain the Company will exercise those options. Lease expense is recognized on a straight-line basis over the lease term.
+The following table presents right-of-use lease assets and lease liabilities included in the Company’s Condensed Consolidated Balance Sheets:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Operating lease right-of-use assets (included in
+Other non-current assets
+)
+$
+119
+ 
+$
+122
+ 
+Operating lease liabilities:
+Current portion of long-term operating lease liabilities (included in
+Accrued expenses
+)
+$
+31
+ 
+$
+32
+ 
+Long-term operating lease liabilities (included in
+Other liabilities
+)
+102
+ 
+107
+ 
+Total operating lease liabilities
+$
+133
+ 
+$
+139
+ 
+The following table summarizes supplemental disclosures of operating cost and cash flow information related to operating leases:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Cost of operating leases
+$
+10
+ 
+$
+9
+ 
+Cash paid for operating leases
+12
+ 
+10
+ 
+Operating lease assets obtained in exchange for operating lease liabilities
+2
+ 
+—
+ 
+The weighted average remaining lease term and discount rate for the Company’s operating leases were as follows:
+October 2,
+2026
+July 3,
+2026
+Weighted average remaining lease term in years
+5.5
+5.6
+Weighted average discount rate
+5.0
+ 
+%
+5.1
+ 
+%
+21
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+As of October 2, 2026, minimum lease payments were as follows:
+Lease Amounts
+(in millions)
+Remaining nine months of 2027
+$
+28
+ 
+2028
+31
+ 
+2029
+25
+ 
+2030
+19
+ 
+2031
+16
+ 
+Thereafter
+33
+ 
+Total future minimum lease payments
+152
+ 
+Less: imputed interest
+19
+ 
+Present value of lease liabilities
+$
+133
+ 
+Purchase Obligations and Other Commitments
+In the normal course of business, the Company enters into purchase orders with suppliers for the purchase of components used to manufacture its products. These purchase orders generally cover forecasted component supplies needed for production during the next quarter, are recorded as a liability upon transfer of the components, and generally may be changed or canceled at any time prior to shipment of the components. The Company also enters into long-term agreements with suppliers that contain fixed future commitments, which are contingent on certain conditions, such as performance, quality and technology of the vendor’s components.
+As of October 2, 2026, the Company had the following minimum long-term commitments:
+Long-Term Commitments
+(in millions)
+Remaining nine months of 2027
+$
+48
+ 
+2028
+31
+ 
+2029
+56
+ 
+2030
+98
+ 
+2031
+71
+ 
+Total
+304
+ 
+22
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 7.    
+Income Taxes
+The following table presents the Company’s Income tax expense and the effective tax rate:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+($ in millions)
+Income before taxes
+$
+2,038
+$
+1,337
+Income tax expense
+259
+155
+Effective tax rate
+13
+%
+12
+%
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 2, 2026 are the relative mix of earnings and losses by jurisdiction, the deduction for Foreign-Derived Deduction Eligible Income (“FDDEI”), excess tax over book deductions for stock-based compensation, and certain tax credits. These resulted in decreases to the Company’s effective tax rate below the U.S. Federal statutory rate for the three months ended October 2, 2026. The Company maintains tax holidays on a portion of its earnings in the Philippines and Thailand, which are set to expire at various dates from 2029 through 2033. The tax benefits from these holidays are minimized by the implementation of the global minimum tax (“GMT”) and are not material to the Company’s Condensed Consolidated Financial Statements for the three months ended October 2, 2026.
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 3, 2025 were the relative mix of earnings and losses by jurisdiction, the deduction for FDDEI, certain tax credits and tax-free gain on the retained interest in Sandisk. These resulted in decreases to the Company’s effective tax rate below the U.S. Federal statutory rate for the three months ended October 3, 2025.
+Previously, the Tax Cuts and Jobs Act of 2017 (“TCJA”) eliminated the ability to deduct research and development (“R&D”) expenditures in the year incurred, requiring capitalization and amortization. In July 2025, the One Big Beautiful Bill Act of 2025 (“OBBBA”) was signed into law, which includes broad tax reform provisions that extend and modify key elements of the TCJA. Notably, the new legislation now allows an option for the immediate expensing of domestic R&D expenditures, beginning with 2026. The legislation also includes favorable modifications to international tax provisions, including changes to the Global Intangible Low-Taxed Income regime, which is renamed as Net CFC Tested Income, and enhancements to the FDDEI deduction that became effective for the Company in 2027.
+Beginning in 2027, the Company became subject to the Corporate Alternative Minimum Tax (“CAMT”) of 15% on corporations as its average annual Adjusted Financial Statement Income (“AFSI”) exceeded $1.0 billion for the preceding three-year period. The Company anticipates that its CAMT liability will exceed its regular tax liability due to tax deductions in excess of book deductions attributable to stock-based compensation during the year. The Company anticipates that any CAMT paid in 2027 will generate credit carryforwards that can be carried forward indefinitely to offset future regular tax liabilities when they exceed CAMT liabilities. Because the Company expects regular tax liabilities to exceed CAMT liabilities in future periods, no valuation allowance is required against these credit carryforwards. As a result, the CAMT liability did not impact the effective tax rate for the three months ended October 2, 2026.
+In January 2026, the Organisation for Economic Co-operation and Development (“OECD”) released a side-by-side package that modifies key elements of the Pillar Two GMT by introducing new safe harbors and providing an exemption for U.S. based multinational companies from parts of the GMT. While these safe harbors and exemptions are generally favorable to the Company, they require local legislative action by each country before they can be considered enacted for financial accounting purposes. The Company evaluated the potential effects of these rules based on current local legislative developments in jurisdictions where the Company operates and expects the financial statement impact associated with their enactment to be immaterial. For 2027, the Company’s effective tax rate considers GMT in Malaysia and Thailand.
+23
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Liability for Uncertain Tax Positions
+With the exception of certain unrecognized tax benefits that are directly associated with the tax position taken, unrecognized tax benefits are presented gross in the Condensed Consolidated Balance Sheets.
+The following is a reconciliation of the total amounts of unrecognized tax benefits excluding accrued interest and penalties for the three months ended October 2, 2026 (in millions):
+Accrual balance as of July 3, 2026
+$
+610
+ 
+Gross increases related to current year tax positions
+18
+ 
+Gross decreases related to prior year tax positions
+(
+2
+)
+Accrual balance as of October 2, 2026
+$
+626
+ 
+In addition to the amounts noted above, interest and penalties related to unrecognized tax benefits are recognized in liabilities recorded for uncertain tax positions and are recorded in the provision for income taxes. Accrued interest and penalties included in the Company’s liability related to unrecognized tax benefits as of October 2, 2026 was $
+126
+ million. Of the aggregate unrecognized tax benefits, including interest and penalties, approximately $
+351
+ million could result in potential cash payments to be made within the next twelve months.
+The Company believes that an adequate provision has been made for any adjustments that may result from any other tax examinations; however, the outcome of such tax examinations cannot be predicted with certainty. If any issues addressed in the Company’s tax examinations are resolved in a manner not consistent with management’s expectations, the Company could be required to adjust its provision for income taxes in the period such resolution occurs.
+In connection with Internal Revenue Service (“IRS”) settlements for the years 2008 through 2015, the Company expects to realize reductions to its mandatory deemed repatriation tax obligations aggregating to approximately $
+101
+ million. These tax receivables are classified in Other current assets on the Condensed Consolidated Balance Sheets as of October 2, 2026.
+24
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 8.    
+Business Realignment Charges
+The Company periodically incurs charges to realign its operations with the current and expected future business environment, primarily consisting of organization rationalization designed to streamline its business, reduce its cost structure, and focus its resources. These actions may result in charges for employee termination benefits or charges from the impairment of intangible assets and other long-lived assets.
+The Company recorded the following net charges related to these actions for the periods presented:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Cash-based employee termination benefits
+$
+27
+ 
+$
+3
+ 
+Stock-based employee termination benefits
+16
+ 
+—
+ 
+Total business realignment charges
+$
+43
+ 
+$
+3
+ 
+As a result of the above actions, the Company expects to record incremental employee termination costs of approximately $
+74
+ million in the remainder of 2027.
+The following table presents an analysis of the components of these activities against the reserve (included in Accrued expenses) during the three months ended October 2, 2026:
+Employee Termination Benefits
+Contract Termination and Other
+Total
+(in millions)
+Accrual balance as of July 3, 2026
+$
+—
+ 
+$
+13
+ 
+$
+13
+ 
+Charges
+27
+ 
+—
+ 
+27
+ 
+Accrual balance as of October 2, 2026
+$
+27
+ 
+$
+13
+ 
+$
+40
+ 
+25
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 9.    
+Pension and Other Post-Retirement Benefit Plans
+The Company has pension and other post-retirement benefit plans in various countries. The Company’s principal pension plans are its defined benefit pension plans in Japan, Thailand, and the Philippines (the “Pension Plans”). All other pension and post-retirement benefit plans are immaterial to the Condensed Consolidated Financial Statements. The expected long-term rate of return on the Pension Plans’ assets is
+2.5
+%.
+Obligations and Funded Status
+The following table presents the unfunded status of the benefit obligations for the Pension Plans:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Projected benefit obligation at end of period
+$
+230
+ 
+$
+237
+ 
+Less: Fair value of plan assets at end of period
+183
+ 
+189
+ 
+Unfunded status
+$
+47
+ 
+$
+48
+ 
+The following table presents the unfunded amounts related to the Pension Plans as recognized on the Company’s Condensed Consolidated Balance Sheets:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Current liabilities (included in Accrued expenses)
+$
+1
+ 
+$
+1
+ 
+Non-current liabilities (included in Other liabilities)
+46
+ 
+47
+ 
+Net amount recognized
+$
+47
+ 
+$
+48
+ 
+Net periodic benefit costs were immaterial for the three months ended October 2, 2026 and October 3, 2025.
+26
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 10.     
+Shareholders’ Equity and Convertible Preferred Stock
+Stock-based Compensation Expense
+The following tables present the Company’s stock-based compensation for equity-settled awards by type (i.e., restricted stock units (“RSUs”), restricted stock unit awards with performance conditions or market conditions (“PSUs”), and rights to purchase shares of common stock under the Company’s Employee Stock Purchase Plan (“ESPP”)) and the financial statement line items where the costs and related tax benefit are included in the Company’s Condensed Consolidated Statements of Income:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+RSUs and PSUs
+$
+74
+ 
+$
+49
+ 
+ESPP
+5
+ 
+4
+ 
+Total
+$
+79
+ 
+$
+53
+ 
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Cost of revenue
+$
+9
+ 
+$
+9
+ 
+Research and development
+22
+ 
+23
+ 
+Selling, general and administrative
+32
+ 
+21
+ 
+Business realignment charges
+16
+ 
+—
+ 
+Subtotal
+79
+ 
+53
+ 
+Tax benefit
+(
+12
+)
+(
+7
+)
+Total
+$
+67
+ 
+$
+46
+ 
+Any excess windfall tax benefits and tax deficiencies for shortfalls related to the vesting and exercise of stock-based awards are recognized as a component of the Company’s Income tax expense. During the three months ended October 2, 2026, excess windfall tax benefits were $
+98
+ million. The excess windfall tax benefits were
+immaterial
+ for the three months ended October 3, 2025.
+Compensation cost related to unvested RSUs, PSUs, and rights to purchase shares of common stock under the ESPP are generally amortized on a straight-line basis over the remaining average service period.
+The following table presents the unamortized compensation cost and weighted average service period of all unvested outstanding awards as of October 2, 2026:
+Unamortized Compensation Cost
+Weighted Average Service Period
+(in millions)
+(years)
+RSUs and PSUs
+(1)
+$
+604
+ 
+1.8
+ESPP
+11
+ 
+0.3
+Total unamortized compensation cost
+$
+615
+ 
+(1)    
+Weighted average service period assumes the performance conditions are met for the PSUs.
+27
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Plan Activities
+RSUs and PSUs
+The following table summarizes RSU and PSU activity under the Company’s incentive plans:
+Number of Shares
+Weighted Average Grant Date Fair Value
+Aggregate Intrinsic Value at Vest Date
+(in millions)
+(in millions)
+RSUs and PSUs outstanding at July 3, 2026
+6.6
+ 
+$
+52.21
+ 
+Granted
+0.7
+ 
+368.46
+ 
+Vested
+(
+1.8
+)
+45.60
+ 
+$
+820
+ 
+RSUs and PSUs outstanding at October 2, 2026
+5.5
+ 
+$
+105.07
+ 
+RSUs and PSUs are generally settled in an equal number of shares of the Company’s common stock at the time of vesting of the units.
+Common Stock
+The Company is authorized to issue
+750
+ million shares of common stock, $
+0.01
+ par value per share. As of October 2, 2026, there were
+374
+ million shares issued and outstanding. As of July 3, 2026, there were
+364
+ million shares issued and
+361
+ million shares outstanding, which was net of
+3
+ million shares of treasury stock held at cost.
+Share Repurchase Program
+Under the Company’s share repurchase program, the Board of Directors has authorized the repurchase of up to $
+6.0
+ billion of the Company’s common stock (the “Share Repurchase Program”). There is no expiration date for the Share Repurchase Program. During the three months ended October 2, 2026, the Company repurchased
+2.0
+ million shares under the Share Repurchase Program for a total cash cost of $
+1.00
+ billion. During the three months ended October 3, 2025, the Company repurchased
+6.4
+ million shares under the Share Repurchase Program for a total cash cost of $
+553
+ million plus $
+4
+ million for accrued excise taxes. As of October 2, 2026, the Company had $
+2.26
+ billion available for repurchases pursuant to the Share Repurchase Program. Repurchases under the Share Repurchase Program may be made in the open market or in privately negotiated transactions and may be made under a Rule 10b5-1 plan. The Company expects shares repurchased under the Share Repurchase Program to be funded principally by operating cash flows. The amount and timing of share repurchases will depend on market conditions and other corporate considerations. The Company may suspend or discontinue the Share Repurchase Program at any time.
+Reclassification of Negative Additional Paid-in Capital
+During the three months ended October 2, 2026, the Company issued shares of common stock in connection with settlements of Convertible Notes and vestings under employee stock plans, utilizing all of its then available treasury stock balance. These transactions resulted in charges to Additional paid-in capital. To the extent such charges exceeded the available Additional paid-in capital balance, the excess of $
+2.45
+ billion was reflected as a reduction of Retained earnings. Subsequent to Additional paid-in capital being initially exhausted, activity related to stock-based compensation expense recognized and capped call settlements resulted in an Additional paid-in capital balance of $
+66
+ million as of October 2, 2026.
+Dividends to Common Shareholders
+On April 29, 2025, the Company’s Board of Directors authorized the adoption of a cash dividend program. Under the cash dividend program, holders of the Company’s common stock will receive dividends when and as declared by the Board of Directors. During the three months ended October 2, 2026, the Company paid cash dividends of $
+0.15
+ per share of its outstanding common stock, totaling $
+56
+ million. During the three months ended October 3, 2025, the Company paid aggregate cash dividends of $
+0.10
+ per share of its outstanding common stock, totaling $
+34
+ million.
+28
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Subsequent to quarter-end, on October 21, 2026, the Board of Directors declared a cash dividend of $
+0.175
+ per share of the Company’s common stock, which will be paid on December 17, 2026 to shareholders of record as of the close of business on December 4, 2026.
+The Company may modify, suspend, or cancel its cash dividend program in any matter and at any time. The amount of future dividends under the Company’s cash dividend program, and the declaration and payment thereof, will be based upon all relevant factors, including the Company’s financial position, results of operations, cash flows, capital requirements and restrictions under the Company’s loan agreement and other financing agreements, and shall be in compliance with applicable law.
+Convertible Preferred Stock
+Prior to February 17, 2026, the Company had outstanding shares of Series A Convertible Perpetual Preferred Stock, par value $
+0.01
+ per share (the “Preferred Shares”). The Preferred Shares had an initial stated value of $
+1,000
+ per share and accrued a cumulative preferred dividend at an annual rate of
+6.25
+% per annum, compounded on a quarterly basis. Through December 27, 2024, the Company paid quarterly dividends on the Preferred Shares in-kind through an increase to their stated value. Subsequently, quarterly dividends on the Preferred Shares were made in cash, including $
+4
+ million paid in the three months ended October 3, 2025. In the three months ended October 3, 2025, the Company also paid $
+1
+ million to holders of the Company’s Preferred Shares in accordance with their participation rights in the dividend paid to common shareholders.
+On February 17, 2026, the Company converted all remaining outstanding Preferred Shares into
+7
+ million shares of the Company’s common stock pursuant to a mandatory conversion in accordance with their terms. Immediately prior to conversion, the Preferred Shares outstanding had an aggregate liquidation preference of $
+267
+ million, which included previous dividends paid in-kind of $
+32
+ million. On February 24, 2026, the Company filed a Certificate of Elimination with the Secretary of State of the State of Delaware with respect to the Preferred Shares, pursuant to which the Preferred Shares were eliminated and returned to the status of authorized and unissued preferred shares of the Company.
+Additional information regarding the Company’s previously outstanding Preferred Shares is included in Part II, Item 8, Note 13,
+Shareholders’ Equity and Convertible Preferred Stock
+, of the Notes to Consolidated Financial Statements included in the 2026 Annual Report on Form 10-K.
+29
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 11.    
+Net Income Per Common Share
+The following table presents the computation of basic and diluted net income per common share:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions, except per share data)
+Net income
+$
+1,779
+ 
+$
+1,182
+ 
+Dividends allocated to preferred shareholders
+—
+ 
+(
+5
+)
+Income attributable to participating securities
+(1)
+—
+ 
+(
+25
+)
+Net income attributable to common shareholders - basic
+1,779
+ 
+1,152
+ 
+Re-allocation of participating securities considered potentially dilutive
+—
+ 
+2
+ 
+Net income attributable to common shareholders - diluted
+$
+1,779
+ 
+$
+1,154
+ 
+Weighted average shares:
+Basic
+366
+ 
+345
+ 
+RSUs, PSUs, ESPP, and Convertible Notes
+18
+ 
+31
+ 
+Diluted
+384
+ 
+376
+ 
+Net income per common share:
+Basic:
+$
+4.86
+ 
+$
+3.34
+ 
+Diluted:
+$
+4.63
+ 
+$
+3.07
+ 
+(1)
+     Participating securities in the prior year period consisted of Preferred Shares because, prior to their conversion, they participated on a pro rata basis in any dividends declared on shares of common stock.
+Basic net income per common share is computed using (i) net income less (ii) dividends allocated to preferred shareholders less (iii) net income attributable to participating securities divided by (iv) basic weighted average shares outstanding. Diluted net income per common share is computed as (i) basic net income attributable to common shareholders plus (ii) diluted adjustments to income allocable to participating securities divided by (iii) diluted weighted average shares outstanding. The “if-converted” method is used to determine the dilutive impact for the Convertible Notes and the Preferred Shares. The treasury stock method is used to determine the dilutive impact of unvested equity awards.
+Potentially dilutive common shares include dilutive outstanding RSUs and PSUs, rights to purchase shares of common stock under the Company’s ESPP, shares issuable in connection with the Company’s Convertible Notes and Preferred Shares. For the three months ended October 2, 2026 and October 3, 2025, based on the Company’s average stock price during the period, an insignificant number of common shares subject to outstanding equity awards were anti-dilutive.
+30
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+ (Unaudited)
+Note 12.    
+Legal Proceedings
+Intellectual Property Litigation
+On September 28, 2016, SPEX Technologies, Inc. (“SPEX”) filed a lawsuit in the Central District Court against the Company and two of the Company’s current or former wholly-owned subsidiaries, Western Digital Technologies, Inc. and HGST Inc., alleging infringement of U.S. Patent Nos. 6,088,802 and 6,003,135, both of which allegedly relate to moving a security mechanism (e.g., the encrypting/decrypting mechanism) from a host computer or a separate device to a peripheral device that provides data storage. As the case progressed, SPEX dismissed its allegations relating to U.S. Patent No. 6,003,135 and narrowed its case to
+one
+ claim related to U.S. Patent No. 6,088,802 and asserted this against certain HDD products that may include certain encryption capabilities. The trial commenced on October 8, 2024, and concluded on October 18, 2024, and the jury awarded SPEX damages of $
+316
+ million for the use of
+one
+ claim related to U.S. Patent No. 6,088,802 in the past, prior to its expiration in 2017. On January 8, 2025, the Court entered judgment for SPEX in accordance with the verdict and also awarded SPEX prejudgment interest of $
+237
+ million and legal costs. On June 16, 2025, the Court ruled on the Company’s post-trial motions, finding that SPEX did not present sufficient evidence on which a damages award could be determined and therefore awarded nominal damages of $
+1
+. On June 27, 2025, the Court entered an amended judgment awarding SPEX nominal damages of $
+1
+ with no prejudgment interest and no legal costs. The Company has appealed the infringement finding, and SPEX has appealed damages-related issues. Based on available appellate arguments, the Company believes a loss is not probable and has not accrued a liability as a result of the jury verdict or the entry of amended judgment in its financial statements as of October 2, 2026.
+Other Matters
+In the normal course of business, the Company is subject to legal proceedings, lawsuits and other claims. Although the ultimate aggregate amount of reasonably possible monetary liability or financial impact with respect to these other matters is subject to many uncertainties, management believes that any monetary liability or financial impact to the Company from these matters, individually and in the aggregate, would not be material to the Company’s financial condition, results of operations or cash flows. However, any monetary liability and financial impact to the Company from these matters could differ materially from management’s expectations.
+The ability to predict the ultimate outcome of any legal proceeding involves judgments, estimates and inherent uncertainties. The actual outcome of these matters could differ materially from management’s estimates.
+31
+Table of Contents
+Item 2.    
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis contains forward-looking statements within the meaning of the federal securities laws and should be read in conjunction with the disclosures we make concerning risks and other factors that may affect our business and operating results. You should read this information in conjunction with the unaudited Condensed Consolidated Financial Statements and the notes thereto included in this Quarterly Report on Form 10-Q, and the audited Consolidated Financial Statements and notes thereto included in Part II, Item 8 of our 2026 Annual Report on Form 10-K. See also “Forward-Looking Statements” immediately prior to Part I, Item 1 in this Quarterly Report on
+
+Form 10‑Q.
+Our Company
+We are a leading developer, manufacturer, and provider of data storage devices and solutions based on HDD technology. HDDs are critical components of the global data infrastructure market and play an essential role in enabling the AI-driven data economy. They provide reliable, cost-effective, high-capacity storage for a broad range of applications, including cloud data centers, enterprise storage systems, edge computing, smart video, client and consumer devices.
+Our broad portfolio of technology and products, sold under the Western Digital® and WD® brands, addresses our customers’ storage needs through multiple end markets: “Cloud,” “Client” and “Consumer”. Cloud is our largest and fastest growing end market comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, we provide our OEM and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market offers a comprehensive portfolio of HDD external storage products that we offer globally through our retail and channel partners.
+Our fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, we report a 53-week fiscal year to align the fiscal year with the foregoing policy. Fiscal year 2027, which will end on July 2, 2027, will be comprised of 52 weeks, with all quarters presented consisting of 13 weeks each. Fiscal year 2026, which ended on July 3, 2026, was comprised of 53 weeks, with the first quarter consisting of 14 weeks and the remaining quarters consisting of 13 weeks each.
+Key Developments
+Macroeconomic Conditions and Outlook
+The increasing long-term demand for data storage in the cloud is benefiting our HDD business. The adoption of AI is contributing to additional data storage requirements as the development and use of AI applications increase the volume of data that is generated, collected and retained, including data used to train and operate AI models. In addition, the continued growth of cloud and other data-intensive workloads is increasing the need for scalable, cost-effective storage infrastructure. These trends are accelerating demand for high-capacity drives and are resulting in greater manufacturing complexity and longer production lead times. In response, customers are partnering with us earlier to support their future growth requirements and are extending the duration of their commercial arrangements.
+Recent changes to U.S. trade policy, including with regard to tariffs, and related measures by trading partners, have not materially impacted our business and results of operations through the first quarter of 2027, but we are actively monitoring developments and assessing options to mitigate potential future actions. For additional information, please see Part I, Item 1A,
+Risk Factors
+, included in our 2026 Annual Report on Form 10-K.
+32
+Table of Contents
+Results of Operations
+First Quarter Overview
+The following table sets forth, for the periods presented, selected summary information from our Condensed Consolidated Statements of Income by dollars and percentage of net revenue
+(1)
+:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+$ Change
+% Change
+($ in millions)
+Revenue, net
+$
+4,381 
+100.0 
+%
+$
+2,818 
+100.0 
+%
+$
+1,563 
+55 
+%
+Cost of revenue
+1,847 
+42.2 
+1,591 
+56.5 
+256 
+16 
+Gross profit
+2,534 
+57.8 
+1,227 
+43.5 
+1,307 
+107 
+Operating expenses:
+Research and development
+283 
+6.5 
+294 
+10.4 
+(11)
+(4)
+Selling, general and administrative
+162 
+3.7 
+138 
+4.9 
+24 
+17 
+Business realignment charges
+43 
+1.0 
+3 
+0.1 
+40 
+1,333
+Total operating expenses
+488 
+11.1 
+435 
+15.4 
+53 
+12 
+Operating income
+2,046 
+46.7 
+792 
+28.1 
+1,254 
+158 
+Interest and other income (expense):
+Interest income
+7 
+0.2 
+17 
+0.6 
+(10)
+(59)
+Interest expense
+(11)
+(0.3)
+(59)
+(2.1)
+48 
+(81)
+Gain on retained interest in Sandisk
+— 
+— 
+611 
+21.7 
+(611)
+(100)
+Other expense, net
+(4)
+(0.1)
+(24)
+(0.9)
+20 
+83 
+Total interest and other income (expense), net
+(8)
+(0.2)
+545 
+19.3 
+(553)
+(101)
+Income before taxes
+2,038 
+46.5 
+1,337 
+47.4 
+701 
+52 
+Income tax expense
+259 
+5.9 
+155 
+5.5 
+104 
+67 
+Net income
+$
+1,779 
+40.6 
+%
+$
+1,182 
+41.9 
+%
+$
+597 
+51 
+%
+(1)    
+Percentages may not total due to rounding.
+33
+Table of Contents
+The following table sets forth for the periods presented, summary information regarding our disaggregated revenue:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Net revenue by end market
+Cloud
+$
+3,868 
+$
+2,510 
+Client
+320 
+146 
+Consumer
+193 
+162 
+Total net revenue
+$
+4,381 
+$
+2,818 
+Net revenue by geography
+(1)
+Americas
+$
+2,081 
+$
+1,100 
+Asia
+1,708 
+1,175 
+Europe, Middle East and Africa
+592 
+543 
+Total net revenue
+$
+4,381 
+$
+2,818 
+(1)    
+Net revenue is attributed to geographic regions based on the ship-to location of the customer.
+Net Revenue
+Comparison of Three Months Ended October 2, 2026 to Three Months Ended October 3, 2025
+Net revenue increased by 55% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by strong demand in our Cloud, Client and Consumer markets as further discussed below.
+Cloud revenue, representing 88% of total revenue, increased by 54% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by a more than 20% increase in exabytes shipped along with an approximately 25% increase in average selling price per exabyte. The increase in exabytes shipped was driven by strong demand for our high-capacity products due to continued data growth, fueled by the ongoing expansion of cloud environments and the increasing storage demands from AI. The increase in average selling price per exabyte was due to an improved pricing environment.
+Client revenue, representing 7% of total revenue, increased by 119% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by an approximately 15% increase in exabytes shipped and an approximately 90% increase in average selling price per exabyte. The increase in average selling price was driven by a shift in product mix to higher capacity drives and an improved pricing environment, while our exabytes shipped increase was driven by strong demand for our products.
+Consumer revenue, representing 5% of total revenue, increased by 19% for the three months ended October 2, 2026 from the comparable period in the prior year, which reflects an approximately 70% increase in average selling price per exabyte partially offset by an approximately 30% decrease in exabytes shipped. The increase in average selling price per exabyte was due to a shift in product mix to higher capacity drives and an improved pricing environment. The decrease in exabytes shipped was driven by general softness in demand in these end markets as a result of the increased pricing levels.
+The change in mix of net revenue by geography for the three months ended October 2, 2026 from the comparable periods in the prior year is largely driven by the deployment and build plans of our larger Cloud customers.
+34
+Table of Contents
+Beginning in the three months ended October 2, 2026, we updated our methodology for identifying customers for purposes of revenue concentration disclosure. Under the updated methodology, concentrations are attributed to the ultimate end customer when products are purchased on its behalf by distributors, contract manufacturers, or other resellers (collectively referred to as “intermediary purchasers”), rather than being attributed to such intermediary purchasers. We believe this presentation provides investors with a more meaningful reflection of the economic relationship with our customers. Prior year concentrations have been revised to conform to the current year presentation.
+Our top 10 customers accounted for 64% of our net revenue for the three months ended October 2, 2026, compared to 73% of our net revenue for the three months ended October 3, 2025. For the three months ended October 2, 2026, two customers accounted for 14% and 13%, respectively, of our net revenue, and for the three months ended October 3, 2025, four customers accounted for 16%, 13%, 13% and 12%, respectively, of our net revenue.
+35
+Table of Contents
+Gross Profit and Gross Margin
+Gross profit increased by $1.31 billion, or 14 percentage points, for the three months ended October 2, 2026 from the comparable period in the prior yea
+r, due to improved pricing, an increased volume of shipments, and a lower cost structure on our newer generation products.
+
+Operating Expenses
+Research and development expense decreased by $11 million for the three months ended October 2, 2026 from the comparable period in the prior year. The decrease was attributable to lower compensation-related costs.
+Selling, general and administrative expense increased by $24 million for the three months ended October 2, 2026 from the comparable period in the prior year. The increase was primarily attributable to higher compensation-related costs.
+For information regarding Business realignment charges, see Part I, Item 1, Note 8,
+Business Realignment Charges,
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Interest and Other Income (Expense)
+Total interest and other income (expense) changed by $553 million for the three months ended October 2, 2026 from the comparable period in the prior year. The change reflects a non-recurring gain of $611 million on our retained interest in Sandisk in the prior period based on the mark-to-market value as of October 3, 2025, partially offset by lower interest expense of $48 million, which reflects the reduction in our debt.
+Income Taxes
+The following table presents our Income tax expense and the effective tax rate:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+($ in millions)
+Income before taxes
+$
+2,038
+$
+1,337
+Income tax expense
+259
+155
+Effective tax rate
+13%
+12%
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 2, 2026 are the relative mix of earnings and losses by jurisdiction, the deduction for FDDEI, excess tax over book deductions for stock-based compensation, as well as certain tax credits. We maintain tax holidays on a portion of our earnings in the Philippines and Thailand, which are set to expire at various dates from 2029 through 2033. The tax benefits from these holidays are minimized by the implementation of the GMT and are not material to our Condensed Consolidated Financial Statements for the three months ended October 2, 2026.
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 3, 2025 were the relative mix of earnings and losses by jurisdiction, the deduction for FDDEI, certain tax credits, and the tax-free gain on the retained interest in Sandisk.
+Previously, TCJA eliminated the ability to deduct R&D expenditures in the year incurred, requiring capitalization and amortization. In July 2025, the OBBBA was signed into law, which includes broad tax reform provisions that extend and modify key elements of the TCJA. Notably, the new legislation now allows an option for the immediate expensing of domestic R&D expenditures, beginning in 2026. The legislation also includes favorable modifications to international tax provisions, including changes to the Global Intangible Low-Taxed Income regime, which is renamed as Net CFC Tested Income and enhancements to the FDDEI deduction that became effective for us in 2027.
+36
+Table of Contents
+Beginning in 2027, we became subject to CAMT of 15% on corporations as our average annual AFSI exceeded $1.0 billion for the preceding three-year period. We anticipate that our CAMT liability will exceed our regular tax liability due to tax deductions in excess tax of book deductions attributable to stock-based compensation during the year. We anticipate that any CAMT paid in 2027 will generate credit carryforwards that can be carried forward indefinitely to offset future regular tax liabilities in cases where they exceed CAMT liabilities. Because we expect regular tax liabilities to exceed CAMT liabilities in future periods, no valuation allowance is required against these credit carryforwards. As a result, the CAMT liability did not impact the effective tax rate for the three months ended October 2, 2026.
+In January 2026, the OECD released a side-by-side package that modifies key elements of the Pillar Two GMT by introducing new safe harbors and providing an exemption for U.S. based multinational companies from parts of the GMT. While these safe harbors and exemptions are generally favorable to us, they require local legislative action by each country before they can be considered enacted for financial accounting purposes. We evaluated the potential effects of these rules based on current local legislative developments in jurisdictions where we operate and expect the financial statement impact associated with their enactment to be immaterial. For 2027, our effective tax rate considers GMT in Malaysia and Thailand.
+37
+Table of Contents
+Liquidity and Capital Resources
+The following table summarizes our statements of cash flows.
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Net cash provided by (used in):
+Operating activities
+$
+1,604 
+$
+672 
+Investing activities
+(225)
+(57)
+Financing activities
+(1,644)
+(678)
+Effect of exchange rate changes on cash
+— 
+(3)
+Net decrease in cash and cash equivalents
+$
+(265)
+$
+(66)
+Operating Activities
+Net cash provided by operating activities primarily consists of net income, adjusted for non-cash charges, plus or minus changes in operating assets and liabilities. The significant improvement in cash from operating activities for the three months ended October 2, 2026 was primarily driven by the improved profitability in the business from the comparable period in the prior year, partially offset by the increased net cash used for changes in operating assets and liabilities.
+Net cash used for changes in operating assets and liabilities was $331 million for the three months ended October 2, 2026, compared to $99 million for the three months ended October 3, 2025. For the three months ended October 2, 2026, net cash used for changes in operating assets and liabilities primarily consisted of a $269 million increase in inventories as we ramped production in response to growing demand and a $206 million increase in accounts receivable driven by our growth in revenue. These uses were partially offset by a $131 million increase in income taxes payable resulting from the timing of tax payments.
+For the three months ended October 3, 2025, net cash used for changes in operating assets and liabilities primarily consisted of a $503 million decrease in income taxes payable resulting from the timing of tax payments and a $101 million increase in inventories as we ramped production in response to growing demand. These uses were partially offset by a $248 million increase in accounts payable as we ramped up purchases for production as well as more favorable payment terms with suppliers, a $141 million increase in other assets and liabilities primarily driven by timing of recognition and application of taxes receivable, and a $131 million decrease in accounts receivable driven by timing of collections.
+Investing Activities
+Net cash used in investing activities for the three months ended October 2, 2026 primarily consisted of $227 million in capital expenditures. Net cash used in investing activities for the three months ended October 3, 2025 primarily consisted of $73 million in capital expenditures.
+We expect capital expenditures to average 4% to 6% of revenue over the next five years; however, we anticipate capital expenditures as a percentage of revenue will be modestly above that range over the next two years as we invest in heads and media technology and factory automation.
+Financing Activities
+Net cash used in financing activities for the three months ended October 2, 2026 primarily consisted of $1.00 billion for share repurchases, $570 million to settle a portion of our Convertible Notes, $317 million for taxes paid on vested stock awards under employee stock plans, and $56 million of dividends paid on our common stock. These uses were partially offset by $300 million of net borrowings from our Revolving Credit Facility. Net cash used in financing activities for the three months ended October 3, 2025 primarily consisted of $553 million for share repurchases, $39 million of dividends paid on our common stock and Preferred Shares, $55 million for taxes paid on vested stock awards under employee stock plans and $31 million of scheduled repayments on our term loan.
+38
+Table of Contents
+We believe our cash and cash equivalents and cash flows from operations will be sufficient to meet our working capital, debt, dividend and capital expenditure needs and fund our share repurchases for at least the next twelve months and for the foreseeable future thereafter. We also believe we can access the various debt and equity capital markets to further supplement our liquidity position, if necessary. Our ability to sustain our working capital position is subject to a number of risks that we discuss in Part I, Item 1A,
+Risk Factors
+, in our 2026 Annual Report on Form 10-K.
+In August 2024, we filed a shelf registration statement (the “Shelf Registration Statement”) with the SEC that expires in August 2027. The Shelf Registration Statement allows us to offer and sell shares of common stock, preferred stock, warrants, and debt securities. We may use the Shelf Registration Statement or other capital sources, including other offerings of equity or debt securities or the credit markets, to satisfy future financing needs, including planned or unanticipated capital expenditures, investments, debt repayments or other expenses. Any such additional financing will be subject to market conditions and may not be available on terms acceptable to us or at all.
+A total of $1.00 billion and $1.08 billion of our cash and cash equivalents was held by our foreign subsidiaries as of October 2, 2026 and July 3, 2026, respectively. There are no material tax consequences that were not previously accrued for on the repatriation of this cash.
+Our cash equivalents are primarily invested in money market funds that invest in U.S. Treasury securities and U.S. Government agency securities. In addition, from time to time, we also invest directly in certificates of deposit, asset-backed securities and corporate and municipal notes and bonds.
+Off-Balance Sheet Arrangements
+Other than certain indemnification provisions (see “Short- and Long-term Liquidity –
+Purchase Obligations and Other Commitments
+” below), we do not have any other material off-balance sheet financing arrangements or liabilities, guarantee contracts, retained or contingent interests in transferred assets, or any other obligation arising out of a material variable interest in an unconsolidated entity. We do not have any majority-owned subsidiaries that are not included in the Condensed Consolidated Financial Statements. Additionally, we do not have an interest in, or relationships with, any variable interest entities.
+39
+Table of Contents
+Short- and Long-term Liquidity
+Material Cash Requirements
+The following is a summary of our known material cash requirements as of October 2, 2026. In addition, see the discussions further below for other potential uses of cash related to our cash dividend program, Share Repurchase Program, liability for unrecognized tax benefits, global minimum tax, foreign exchange contracts, litigation matters, and potential indemnifications.
+Total
+1 Year (Remaining Nine Months of 2027)
+2-3 Years (2028-2029)
+4-5 Years (2030-2031)
+More than 5 Years (Beyond 2031)
+(in millions)
+Debt
+$
+791 
+$
+791 
+$
+— 
+$
+— 
+$
+— 
+Operating leases
+152 
+28 
+56 
+35 
+33 
+Long-term purchase obligations and other commitments
+304 
+48 
+87 
+169 
+— 
+Total
+$
+1,247 
+$
+867 
+$
+143 
+$
+204 
+$
+33 
+Debt
+As described in Part I, Item 1, Note 5,
+Debt
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q, as of October 2, 2026, $141 million in aggregate principal amount of Convertible Notes remained outstanding. The Convertible Notes are currently convertible at the option of any holder, at a conversion price of approximately $37.70 per share of common stock as of October 2, 2026. Upon any conversion of the Convertible Notes, we will pay cash for the aggregate principal amount of the notes to be converted and pay or deliver, as the case may be, cash, shares of the Company’s common stock or a combination thereof, at our election, in respect of the remainder, if any, of our conversion obligation in excess of the aggregate principal amount of the notes being converted. Through October 2, 2026, $31 million in aggregate principal amount of these notes had been tendered for conversion. We have elected to issue shares of our common stock to satisfy the conversion obligation in excess of the principal amount for substantially all of the notes tendered for conversion, which are expected to settle in the second quarter of 2027.
+On September 14, 2026, we issued a notice of redemption to redeem at par plus unpaid and accrued interest, on November 16, 2026 (the “Redemption Date”), all then-outstanding Convertible Notes that have not been converted prior to the Redemption Date. We currently expect that holders of substantially all Convertible Notes will convert such Convertible Notes before the Redemption Date.
+In addition, as of October 2, 2026, we had $650 million outstanding on our Revolving Credit Facility maturing in January 2027 and had $600 million remaining available borrowing capacity under this facility, subject to customary conditions under the loan agreement. We believe our existing cash and cash expected to be generated from our business will be adequate to meet our debt repayment requirements.
+Additional information regarding our indebtedness, including information about availability under our 2027 Revolving Credit Facility and the principal repayment terms, interest rates, covenants, collateral and other key terms of our outstanding indebtedness, is included in Part II, Item 8, Note 7,
+Debt
+, of the Notes to Consolidated Financial Statements included in our 2026 Annual Report on Form 10-K and Note 5,
+Debt
+, of the Notes to Condensed Consolidated Financial Statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+We may issue additional debt securities in the future that may be guaranteed by our 100% owned domestic subsidiary, Western Digital Technologies, Inc. (“Guarantor” and, together with Western Digital Corporation, the “Obligor Group”). Such guarantees may be full and unconditional, joint and several, on a secured or unsecured, subordinated or unsubordinated basis, and may be subject to certain customary guarantor release conditions. We conduct operations almost entirely through our subsidiaries. Accordingly, the Obligor Group’s cash flow and ability to service any guaranteed registered debt securities will depend on the earnings of our subsidiaries and the distribution of those earnings to the Obligor Group, including the earnings of the non-guarantor subsidiaries, whether by dividends, loans or otherwise. Holders of such guaranteed registered debt securities would have a direct claim only against the Obligor Group.
+40
+Table of Contents
+The following tables include summarized financial information for the Obligor Group. The financial information for the Obligor Group is presented on a combined basis, excluding intercompany balances and transactions between the Company and the Guarantor, excluding net intercompany balances between the Obligor Group and non-guarantor subsidiaries, and excluding investments in and equity in the earnings of non-guarantor subsidiaries. The Obligor Group’s amounts due from, amounts due to, and transactions with non-guarantor subsidiaries have been presented in separate line items in the tables below.
+The assets and liabilities of the Obligor Group include the following:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Current assets
+$
+2,152 
+$
+2,360 
+Non-current assets
+4,399 
+4,415 
+Net intercompany payables to non-guarantor subsidiaries
+231 
+516 
+Current liabilities
+1,988 
+2,204 
+Non-current liabilities
+590 
+449 
+The operating results of the Obligor Group include the following:
+Three Months Ended
+Year Ended
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Net sales
+$
+2,077 
+$
+5,726 
+Gross profit
+976 
+2,543 
+Operating income
+601 
+1,092 
+Net income
+337 
+6,196 
+Results for the Obligor Group include the following transactions with non-guarantor subsidiaries:
+Three Months Ended
+Year Ended
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Intercompany revenue
+$
+2,374 
+$
+7,458 
+Net intercompany interest expense
+21 
+33 
+Intercompany dividend income
+44 
+94 
+Purchase Obligations and Other Commitments
+In the normal course of business, we enter into purchase orders with suppliers for the purchase of components used to manufacture our products. These purchase orders generally cover forecasted component supplies needed for production during the next quarter, are recorded as a liability upon transfer of the components, and generally may be changed or canceled at any time prior to shipment of the components. We also enter into long-term agreements with suppliers that contain fixed future commitments, which are contingent on certain conditions, such as performance, quality and technology of the vendor’s components. These arrangements are included under “Purchase obligations and other commitments” in the table above.
+Cash Dividend Program
+On April 29, 2025, our Board of Directors authorized the adoption of a cash dividend program. See Part I, Item 1, Note 10,
+ Shareholders’ Equity and Convertible Preferred Stock
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q under the caption “Dividends to Common Shareholders” for further details.
+41
+Table of Contents
+Share Repurchase Program
+Our Board of Directors has authorized a Share Repurchase Program and as of October 2, 2026, we had $2.26 billion available for repurchases under the program. See Part I, Item 1, Note 10,
+ Shareholders’ Equity and Convertible Preferred Stock
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q under the caption “Share Repurchase Program” for further details.
+Liability for Unrecognized Tax Benefits
+As of October 2, 2026, the liability for unrecognized tax benefits (excluding accrued interest and penalties) was $635 million. Accrued interest and penalties related to unrecognized tax benefits are recognized in liabilities for uncertain tax positions and are recorded in the provision for income taxes. Accrued interest and penalties included in our liability related to unrecognized tax benefits as of October 2, 2026 was $126 million. Of these amounts, approximately $351 million could result in potential cash payments to be made within the next twelve months.
+In connection with IRS settlements for the years 2008 through 2015, we expect to realize reductions to our mandatory deemed repatriation tax obligations aggregating to approximately $101 million. These tax receivables are classified in Other current assets on the Condensed Consolidated Balance Sheets as of October 2, 2026.
+Global Minimum Tax
+As of October 2, 2026, we have accrued GMT liabilities of $90 million, which encompass obligations originating from both 2026 and for the three months ended October 2, 2026. Due to transitional 18-month filing extensions permitted under the OECD Pillar Two framework, initial cash payments for these obligations are not expected to be fully settled until the second quarter of 2028.
+Foreign Exchange Contracts
+We purchase foreign exchange contracts to hedge the impact of foreign currency fluctuations on certain underlying assets, liabilities and commitments for Operating expenses and product costs denominated in foreign currencies. See Part I, Item 3,
+Quantitative and Qualitative Disclosures About Market Risk
+, included in this Quarterly Report on Form 10-Q for additional information.
+Litigation Matters
+For additional information on our litigation matters, see Part I, Item 1, Note 12,
+ Legal Proceedings
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Indemnifications
+In the ordinary course of business, we may provide indemnifications of varying scope and terms to customers, vendors, lessors, business partners and other parties with respect to certain matters, including, but not limited to, losses arising out of our breach of agreements, products or services to be provided by us, environmental compliance or from intellectual property infringement claims made by third parties. In addition, we have entered into indemnification agreements with our directors and certain of our officers that require us, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. We maintain director and officer insurance, which may cover certain liabilities arising from our obligation to indemnify our directors and officers in certain circumstances.
+It is not possible to determine the maximum potential amount under these indemnification agreements due to the limited history of prior indemnification claims and the unique facts and circumstances involved in each particular agreement. Such indemnification agreements may not be subject to maximum loss clauses. Historically, we have not incurred material costs as a result of obligations under these agreements.
+42
+Table of Contents
+Recent Accounting Pronouncements
+No new accounting standards were adopted in the quarter ended October 2, 2026.
+Accounting Pronouncements Not Yet Adopted
+In May 2026, the Financial Accounting Standards Board (“FASB”) issued accounting standards update (“ASU”) No. 2026-02, “Environmental Credits and Environmental Credit Obligations (Topic 818),” which introduces specific accounting models for entities that generate, purchase, or hold environmental credits, or have an enforceable regulatory compliance obligation that may be settled with such credits. Under the new guidance, environmental credits intended for compliance are recorded at cost, while certain non-compliance credits are tested for impairment or can be subject to a fair value accounting policy election. Additionally, the standard requires gross financial statement presentation, prohibiting the netting of environmental credit assets against related compliance obligations. This standard is effective for the year beginning July 1, 2028, and interim periods within that year, with early adoption permitted. Adoption will be applied on a retrospective basis through a cumulative-effect adjustment to the opening balance of retained earnings. We are currently assessing the impact of this standard on our consolidated financial statements and related disclosures.
+In December 2025, the FASB issued ASU No. 2025-10, “Government Grants (Topic 832): Accounting for Government Grants Received by Business Entities” (“ASU 2025-10”), which establishes guidance on the recognition, measurement, and presentation of government grants. The standard may be adopted using a full retrospective, modified retrospective, or modified prospective transition method. ASU 2025-10 is effective for the year beginning June 30, 2029, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this guidance on our consolidated financial statements and related disclosures.
+In November 2025, the FASB issued ASU No. 2025-09, “Derivatives and Hedging (Topic 815): Hedge Accounting Improvements” (“ASU 2025-09”), which introduces targeted improvements to better align hedge accounting with entities’ risk management activities. ASU 2025-09 is effective for the year beginning July 3, 2027, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this guidance on our consolidated financial statements and related disclosures.
+In September 2025, the FASB issued ASU No. 2025-07, “Derivatives and Hedging (Topic 815) and Revenue from Contracts with Customers (Topic 606): Derivatives Scope Refinements and Scope Clarification for Share-Based Noncash Consideration from a Customer in a Revenue Contract” (“ASU 2025-07”), which (i) expands the scope exception of Topic 815 to exclude certain contracts with a variable that is based on operations or activities specific to one of the parties to the contract and (ii) clarifies the scope of share-based payments from a customer in a revenue contract. ASU 2025-07 is effective for the year beginning July 3, 2027, and interim periods within that year. Early adoption is permitted and must be applied as of the beginning of the fiscal year that includes the interim period. We currently do not expect this standard to have a material impact on our consolidated financial statements and related disclosures.
+In September 2025, the FASB issued ASU No. 2025-06, “Intangibles – Goodwill and Other – Internal-Use Software (Topic 350): Targeted Improvements to the Accounting for Internal-Use Software” (“ASU 2025-06”). ASU 2025-06 amends existing references to prescriptive and sequential software development stages to better align with current software development methods, such as agile development. Under the new standard, entities will begin to capitalize eligible software costs when (i) management has authorized and committed to funding the software project, and (ii) it is probable that the project will be completed and the software will be used to perform the function intended. ASU 2025-06 is effective for the year beginning July 1, 2028, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this standard on our consolidated financial statements and related disclosures.
+43
+Table of Contents
+In November 2024, the FASB issued ASU No. 2024-03, “Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,” which is intended to improve disclosures about the expenses of public entities. The new guidance requires more detailed information about the types of expenses in commonly presented expense captions (such as cost of sales and selling, general and administrative expenses) and requires public entities to disclose, on an annual and interim basis, the amounts of expenses included in each relevant expense caption presented on the face of the income statement, within continuing operations, in a tabular format. Additionally, public entities will be required to disclose a qualitative description of the amounts remaining in relevant expense captions that are not separately disaggregated quantitatively, the total amount of selling expenses and, in annual reporting periods, the definition of selling expenses. This standard is effective on either a prospective or retrospective basis with early adoption permitted. We are currently compiling the information required for these disclosures and assessing the basis of adoption and expect to adopt the guidance for annual reporting periods in our annual report on Form 10-K for the year ending June 30, 2028.
+Critical Accounting Policies and Estimates
+We have prepared the accompanying unaudited Condensed Consolidated Financial Statements in accordance with U.S. GAAP. The preparation of the financial statements requires the use of judgments and estimates that affect the reported amounts of revenues, expenses, assets, liabilities and shareholders’ equity. We have adopted accounting policies and practices that are generally accepted in the industry in which we operate. If these estimates differ significantly from actual results, the impact to the Condensed Consolidated Financial Statements may be material.
+There have been no material changes in our critical accounting policies and estimates from those disclosed in our 2026 Annual Report on Form 10‑K. Please refer to Part II, Item 7 of our 2026 Annual Report on Form 10‑K for a discussion of our critical accounting policies and estimates.
+44
+Table of Contents
+Item 3.    
+Quantitative and Qualitative Disclosures About Market Risk
+Other than changes to our interest rate risk as a result of an increase in the amount of our variable-rate debt, there have been no material changes to our market risk exposure during the three months ended October 2, 2026 from those disclosed in Part II, Item 7A,
+Quantitative and Qualitative Disclosures About Market Risk
+ in our 2026 Annual Report on Form 10-K.
+Foreign Currency Risk
+We performed sensitivity analyses as of October 2, 2026, using a modeling technique that measures the change in the fair values arising from a hypothetical 10% adverse movement in the levels of foreign currency exchange rates relative to the U.S. dollar, with all other variables held constant. The analyses cover all of our foreign currency derivative contracts used to offset the underlying exposures. The foreign currency exchange rates used in performing the sensitivity analyses were based on market rates in effect at October 2, 2026. The sensitivity analyses indicated that a hypothetical 10% adverse movement in foreign currency exchange rates relative to the U.S. dollar would result in a foreign exchange fair value loss of $81 million at October 2, 2026.
+Interest Rate Risk
+We have historically held a balance of fixed and variable rate debt. As of October 2, 2026, our variable rate debt outstanding consisted of borrowings under our Revolving Credit Facility, which are based on index rates as discussed further in Note 5,
+Debt
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q. As of October 2, 2026, the outstanding balance on our Revolving Credit Facility was $650 million, and a 1% increase in the variable rate of interest would increase annual interest expense by $7 million.
+Item 4.    
+Controls and Procedures
+Evaluation of Disclosure Controls and Procedures
+As required by Rule 13a-15(b) promulgated by the Securities and Exchange Commission under the Securities Exchange Act of 1934, as amended (the “Exchange Act”), we carried out an evaluation, under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, of the effectiveness of the design and operation of our disclosure controls and procedures (as such term is defined in Rule 13a-15(e) under the Exchange Act) as of the end of the period covered by this Quarterly Report on Form 10-Q. Based on that evaluation, our Chief Executive Officer and Chief Financial Officer concluded that, as of the end of the period covered by this Quarterly Report on Form 10-Q, our disclosure controls and procedures were effective.
+Changes in Internal Controls over Financial Reporting
+There has been no change in our internal control over financial reporting during the quarter ended October 2, 2026, that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting.
+45
+Table of Contents
+PART II. OTHER INFORMATION
+Item 1.
+    
+Legal Proceedings
+See Note 12,
+Legal Proceedings
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q for disclosures regarding certain legal proceedings, which are incorporated by reference herein.
+Item 1A.
+    
+Risk Factors
+We have described under the heading “Risk Factors” in Part I, Item 1A of our 2026 Annual Report on Form 10-K a number of risks and uncertainties that could cause our actual results of operations and financial condition to vary materially from past, or from anticipated future, results of operations and financial condition. There have been no material changes from these risk factors previously described in Part I, Item 1A of our 2026 Annual Report on Form 10-K. These risks and uncertainties are not the only risks facing us. Additional risks and uncertainties not presently known to us or that we currently deem immaterial may also adversely affect our business, financial condition, results of operations or the market price of our common stock.
+Item 2.
+    
+Unregistered Sales of Equity Securities and Use of Proceeds
+Repurchases of Equity Securities
+The following table provides information about repurchases by us of shares of our common stock during the quarter ended
+October 2, 2026:
+(in millions, except average price paid per share)
+Total Number of Shares Purchased
+Average Price Paid per Share
+(1)
+Total Number of Shares Purchased As Part of Publicly Announced Program
+(2)
+Maximum Value of Shares that May Yet be Purchased Under the Program
+(2)
+Jul. 4, 2026 - Jul. 31, 2026
+0.7 
+$
+526.29 
+0.7 
+$
+2,860 
+Aug. 1, 2026 - Aug. 28, 2026
+0.5 
+488.15
+0.5 
+$
+2,630 
+Aug. 29, 2026 - Oct. 2, 2026
+1.0⁽³⁾
+461.59
+0.8 
+$
+2,259 
+Total for the quarter ended Oct. 2, 2026
+2.2 
+2.0 
+(1)
+    Includes commissions.
+(2)
+    On May 9, 2025, our Board of Directors authorized the Share Repurchase Program for the repurchase of up to $2.0 billion of our common stock, and on February 2, 2026, our Board of Directors authorized the repurchase of up to an additional $4.0 billion of the Company’s common stock. There is no expiration date for the Share Repurchase Program. Repurchases under the Share Repurchase Program may be made in the open market or in privately negotiated transactions and may be made under a Rule 10b5-1 plan. We expect share repurchases to be funded principally by operating cash flows. The amount and timing of share repurchases will depend on market conditions and other corporate considerations. We may suspend or discontinue the Share Repurchase Program at any time.
+(3)
+    Amount includes an aggregate of 176,008 shares of our common stock that we received during the month ended October 2, 2026 upon the settlement of $378 million notional amount of Capped Calls in connection with the settlement of the same principal amount of Convertible Notes that had been tendered by the holders. This transaction is not part of our publicly announced Share Repurchase Program and the shares received from the settlement of these Capped Calls are not reflected in the column captioned “Average Price Paid per Share.”
+Item 5.    
+Other Information
+
+Insider Trading Arrangements
+During the quarter ended October 2, 2026, the following director and officers (as defined in Rule 16a-1(f) of the Exchange Act) adopted, modified or terminated a trading arrangement for the purchase or sale of securities of Western Digital that is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) of the Exchange Act (“Rule 10b5-1 Plan”):
+•
+On
+August 7, 2026
+,
+Brian Scott Davis
+,
+Executive Vice President and Chief Sales and Marketing Officer
+ of the Company,
+terminated
+ his previously reported Rule 10b5-1 Plans adopted on November 3, 2025 and June 5, 2026. The November 3, 2025 plan was scheduled to expire on August 14, 2026, and the June 5, 2026 plan was scheduled to commence on November 9, 2026.
+46
+Table of Contents
+•
+On
+August 14, 2026
+,
+Irving Tan
+,
+Chief Executive Officer
+ of the Company, modified his previously reported Rule 10b5-1 Plan
+adopted
+ on February 5, 2026. Mr. Tan’s plan was modified to amend the equity awards subject to the plan, with no change to the expiration date of the plan (
+May 31, 2027
+) or the total number of shares subject to the plan (up to an aggregate of
+80,000
+ shares of the Company’s common stock, of which,
+20,000
+ shares had already been sold prior to the plan amendment). Trades under the modified plan are subject to a cooling off period consistent with SEC requirements.
+•
+On
+September 1, 2026
+,
+Tunç Doluca
+, a
+director
+ of the Company,
+adopted
+ a Rule 10b5-1 Plan. Under this plan, up to an aggregate of
+13,440
+ shares of the Company’s common stock may be sold before the plan expires on
+December 31, 2027
+.
+Item 6.    
+Exhibits
+
+The exhibits listed in the Exhibit Index below are filed or furnished with, or incorporated by reference in, this Quarterly Report on Form 10-Q, as specified in the Exhibit List. Certain agreements listed in the Exhibit Index that we have filed or incorporated by reference may contain representations and warranties by us or our subsidiaries. These representations and warranties have been made solely for the benefit of the other party or parties to such agreements and (i) may have been qualified by disclosures made to such other party or parties, (ii) were made only as of the date of such agreements or such other date(s) as may be specified in such agreements and are subject to more recent developments, which may not be fully reflected in our public disclosures, (iii) may reflect the allocation of risk among the parties to such agreements and (iv) may apply materiality standards different from what may be viewed as material to investors. Accordingly, these representations and warranties may not describe the actual state of affairs at the date hereof and should not be relied upon.
+47
+Table of Contents
+EXHIBIT INDEX
+Exhibit
+Number
+Description
+2.1
+Separation and Distribution Agreement, dated as of February 21, 2025, by and between Western Digital Corporation and Sandisk Corporation (incorporated by reference to Exhibit 2.1 of the Current Report on Form 8-K filed by the Company on February 24, 2025)#
+3.1
+Amended and Restated Certificate of Incorporation of Western Digital Corporation, as amended to date (incorporated by reference to Exhibit 3.1 to the Annual Report on Form 10-K filed by the Company on August 20, 2024)
+3.
+2
+Amended and Restated Bylaws of Western Digital Corporation, as amended effective as of March 13, 2025 (incorporated by reference to Exhibit 3.1 to the Current Report on Form 8-K filed by the Company on March 13, 2025)
+1
+0.1
+Form of Grant Notice for Performance Stock Unit Award under the Western Digital Corporation 2021 Long-Term Incentive Plan†**
+1
+0.2
+Form of Grant Notice for Restricted Stock Unit Award – Vice President and Above, under the Western Digital Corporation 2021 Long-Term Incentive Plan†**
+1
+0.3
+Western Digital Corporation Amended and Restated 2021 Long-Term Incentive Plan Non-Employee Director Restricted Stock Unit Grant Program, amended and restated as of August 26, 2026†**
+1
+0.4
+Western Digital Corporation Amended and Restated 2005 Employee Stock Purchase Plan, amended and restated as of August 26, 2026†**
+31.1
+Certification of Principal Executive Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002†
+31.2
+Certification of Principal Financial Officer Pursuant to Section 302 of the Sarbanes-Oxley Act of 2002†
+32.1
+Certification of Chief Executive Officer Pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002*
+32.2
+Certification of Chief Financial Officer Pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002*
+101.INS
+XBRL Instance Document - the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document.
+101.SCH
+XBRL Taxonomy Extension Schema Document†
+101.CAL
+XBRL Taxonomy Extension Calculation Linkbase Document†
+101.LAB
+XBRL Taxonomy Extension Label Linkbase Document†
+101.PRE
+XBRL Taxonomy Extension Presentation Linkbase Document†
+101.DEF
+XBRL Taxonomy Extension Definition Linkbase Document†
+104
+Cover Page Interactive Data File - formatted in Inline XBRL and contained in Exhibit 101
+†
+
+Filed with this report.
+*
+
+Furnished with this report.
+**
+
+Management contract or compensatory plan or arrangement required to be filed as an exhibit pursuant to applicable rules of the Securities and Exchange Commission.
+#
+
+Schedules and exhibits have been omitted pursuant to Item 601(a)(5) of Regulation S-K. The Registrant agrees to furnish supplementally a copy of any omitted schedule or exhibit to the U.S. Securities and Exchange Commission upon request.
+48
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the Registrant has duly caused this Quarterly Report on Form 10-Q to be signed on its behalf by the undersigned thereunto duly authorized.
+WESTERN DIGITAL CORPORATION
+By:
+/s/ Brad Feller
+Brad Feller
+Senior Vice President and Chief Accounting Officer
+(Principal Accounting Officer and Duly Authorized Officer)
+Dated: October 22, 2026
+49

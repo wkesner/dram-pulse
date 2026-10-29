@@ -1,0 +1,34 @@
+{
+  "company": "Cirrus Logic",
+  "ticker": "CRUS",
+  "cik": "0000772406",
+  "form": "8-K",
+  "filing_date": "2026-05-06",
+  "accession_number": "0000772406-26-000012",
+  "primary_document": "crus-20260504.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.02,2.03,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000012/crus-20260504.htm",
+  "fiscal_year_end": "0327",
+  "report_date": "2026-05-04",
+  "period_end": "2026-05-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:52.367570+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "pressrelease_fullyear.htm",
+      "path": "data/raw/CRUS/000077240626000012/exhibit_99_pressrelease_fullyear.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/772406/000077240626000012/pressrelease_fullyear.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/CRUS/000077240626000012/primary.html",
+    "other": "data/raw/CRUS/000077240626000012/other_full.txt"
+  }
+}

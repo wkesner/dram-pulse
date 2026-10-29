@@ -1,6 +1,9 @@
 # Product taxonomy for Memory Signals extraction.
 # Longer / more specific terms should appear first within each family
 # (the extractor also sorts by term length descending).
+#
+# Memory categories (DRAM / NAND / Other) stay first-class. Compute / Analog /
+# Passives cover other electronic commodities filterable in Feed + Map.
 
 categories:
   DRAM:
@@ -55,12 +58,38 @@ categories:
     NAND_general:
       - 낸드플래시
       - 낸드
+      - NAND flash memory
+      - NAND flash
       - flash memory
       - NAND
   Other:
     CXL:
       - memory expansion
       - CXL
+    # Hyperscaler / custom-silicon BOM language (memory demand drivers).
+    # Discrete GPUs live under Compute/GPU; keep TPU / custom AI here.
+    AI_accelerators:
+      - custom AI silicon
+      - custom AI chips
+      - custom AI chip
+      - custom-built TPUs
+      - custom-built TPU
+      - custom AI accelerators
+      - custom AI accelerator
+      - AI accelerators
+      - AI accelerator
+      - Trainium4
+      - Trainium3
+      - Trainium2
+      - Trainium
+      - TPU systems
+      - TPUs
+      # Prefer "custom XPUs" — bare XPU/XPUs matched too many Broadcom risk-factor windows.
+      - custom XPUs
+      - custom XPU
+    Packaging:
+      - advanced packaging
+      - packaging capacity
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
@@ -92,3 +121,101 @@ categories:
       - costs of memory
       - price of memory
       - prices in memory
+      # Curated-pack buyer / storage phrasing (2026-10 term-list pass)
+      - shortages of semiconductors
+      - shortage of semiconductors
+      - semiconductor shortages
+      - semiconductor shortage
+      - memory chips
+      - memory devices
+      - server memory
+      - DRAM chips
+      - NAND flash memory
+      - NAND flash
+      - critical hardware
+      - hardware components
+
+  # --- Other electronic commodities (filterable alongside memory) ---
+  Compute:
+    GPU:
+      - graphics processing units
+      - graphics processing unit
+      - discrete GPUs
+      - discrete GPU
+      - GPU shortages
+      - GPU shortage
+      - GPU lead times
+      - GPU lead time
+      - GPU supply constraints
+      - GPU supply
+      - GPU allocation
+      - allocate supply of GPUs
+      - GPUs
+      - GPU
+    CPU:
+      - central processing units
+      - central processing unit
+      - microprocessors
+      - microprocessor
+      - server CPUs
+      - server CPU
+      - CPU shortages
+      - CPU shortage
+      - CPU lead times
+      - CPU supply
+      - CPUs
+      - CPU
+    FPGA:
+      - field-programmable gate arrays
+      - field programmable gate arrays
+      - field-programmable gate array
+      - field programmable gate array
+      - FPGA shortages
+      - FPGA shortage
+      - FPGA lead times
+      - FPGA supply
+      # Avoid bare FPGA(s) — Lattice "allocating functions to FPGAs" is not supply.
+      - programmable logic devices
+    MCU:
+      - microcontroller units
+      - microcontroller unit
+      - microcontrollers
+      - microcontroller
+      - MCU shortages
+      - MCU shortage
+      - MCU lead times
+      - MCU supply
+      # Bare MCU(s) too often appears in product catalogs without supply context.
+  Analog:
+    Power_IC:
+      - power management integrated circuits
+      - power management ICs
+      - power management IC
+      - power management chips
+      - voltage regulator ICs
+      - voltage regulator IC
+      - power ICs
+      - power IC
+      - PMICs
+      - PMIC
+  Passives:
+    Capacitor:
+      - multilayer ceramic capacitors
+      - multilayer ceramic capacitor
+      - ceramic capacitors
+      - ceramic capacitor
+      - electrolytic capacitors
+      - electrolytic capacitor
+      - capacitor shortages
+      - capacitor shortage
+      - MLCC shortages
+      - MLCC shortage
+      - MLCCs
+      - MLCC
+      # Avoid bare capacitor(s) — matched M&A fair-value "Capacitors segment" text.
+    # Small related passive — shortage-scoped / multi-word only.
+    Resistor:
+      - chip resistors
+      - chip resistor
+      - resistor shortages
+      - resistor shortage

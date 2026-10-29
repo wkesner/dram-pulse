@@ -1,0 +1,1886 @@
+dry_run: true
+generated_at: '2026-10-28T21:59:49.176222+00:00'
+sic_range: 3570-3679
+method: SEC browse-edgar atom by SIC; tickers from company_tickers.json; no filings downloaded
+summary:
+  unique_ciks: 2628
+  ciks_with_ticker: 352
+  ciks_without_ticker_in_company_tickers: 2276
+  already_in_companies_yaml: 18
+  new_candidate_tickers: 334
+  sics_with_hits: 30
+  errors: 0
+sic_counts:
+  '3570': 38
+  '3571': 113
+  '3572': 77
+  '3575': 13
+  '3576': 126
+  '3577': 151
+  '3578': 24
+  '3579': 24
+  '3580': 55
+  '3585': 59
+  '3590': 71
+  '3600': 24
+  '3612': 12
+  '3613': 10
+  '3620': 99
+  '3621': 42
+  '3630': 25
+  '3634': 34
+  '3640': 95
+  '3651': 71
+  '3652': 44
+  '3661': 208
+  '3663': 259
+  '3669': 172
+  '3670': 73
+  '3672': 60
+  '3674': 505
+  '3677': 4
+  '3678': 28
+  '3679': 112
+already_in_config_tickers:
+- AAPL
+- AMD
+- AMKR
+- AVGO
+- CSCO
+- DELL
+- HPE
+- HPQ
+- INTC
+- JBL
+- MU
+- NVDA
+- QCOM
+- SKHY
+- SMCI
+- SNDK
+- STX
+- WDC
+candidate_tickers:
+- AAOI
+- AAON
+- ABLZF
+- ADI
+- ADTN
+- AEIS
+- AIMD
+- AIOT
+- AIP
+- AIRG
+- AIRJ
+- ALAB
+- ALGM
+- ALLT
+- ALMU
+- AMAT
+- AMBA
+- AMBQ
+- AMPG
+- AMSC
+- ANET
+- AOMFF
+- AOS
+- AOSL
+- APH
+- ARM
+- ARRY
+- ASNS
+- ASTI
+- ASX
+- ATEN
+- ATER
+- ATEYY
+- ATOM
+- ATTT
+- AUDC
+- AVNW
+- AXM
+- AXTI
+- AYI
+- BE
+- BHE
+- BKSY
+- BKTI
+- BLDP
+- BOSC
+- BZAI
+- CAPC
+- CARR
+- CBRS
+- CCTG
+- CIEN
+- CIIT
+- CLEV
+- CLFD
+- CLRO
+- CLS
+- CMBMF
+- CMTL
+- CONC
+- COOK
+- CRDO
+- CREAF
+- CRNT
+- CRSR
+- CRUS
+- CRVW
+- CSIQ
+- CTS
+- CW
+- DBD
+- DGII
+- DIOD
+- DQ
+- EAF
+- EFOI
+- ELTK
+- EMR
+- ENPH
+- EPAC
+- ERIC
+- EROC
+- ESE
+- ESP
+- ETN
+- EVLV
+- EVOH
+- EXTR
+- FCEL
+- FEBO
+- FELE
+- FFIV
+- FKWL
+- FLEX
+- FN
+- FORM
+- FOXX
+- FPS
+- FSLR
+- FTCI
+- FTNT
+- FXHO
+- GCDT
+- GCTS
+- GE
+- GEV
+- GFS
+- GILT
+- GNRC
+- GNSS
+- GOGR
+- GSIT
+- GTLL
+- GUER
+- HAYW
+- HBB
+- HELE
+- HIMX
+- HLIT
+- HTOO
+- HUBB
+- HUBC
+- HYSR
+- IBM
+- ICG
+- ICHR
+- IEHC
+- IFNNY
+- IMMR
+- IMOS
+- IMTE
+- INDI
+- INIO
+- INSG
+- INTZ
+- INVE
+- IPGP
+- IPWR
+- IWAL
+- JCI
+- JKS
+- KE
+- KLIC
+- KN
+- KOPN
+- KOSS
+- KSCP
+- KTCC
+- KULR
+- KUST
+- KYOCF
+- LAES
+- LASR
+- LBGJ
+- LEDS
+- LFUS
+- LGL
+- LII
+- LINK
+- LIQT
+- LITE
+- LNKS
+- LOGI
+- LPL
+- LPTH
+- LSCC
+- LTRX
+- LYTS
+- MAXNQ
+- MCHP
+- MEI
+- MFP
+- MIDD
+- MINBY
+- MITK
+- MKDW
+- MOBX
+- MOG-A
+- MPTI
+- MPWR
+- MRAM
+- MRCY
+- MRVL
+- MSI
+- MSN
+- MTEK
+- MTLK
+- MTSI
+- MVIS
+- MX
+- MXL
+- MYND
+- NA
+- NATL
+- NEON
+- NGTF
+- NLST
+- NNDM
+- NOK
+- NPWR
+- NSSC
+- NSYS
+- NTAP
+- NTGR
+- NTWO
+- NUR
+- NVEC
+- NVTS
+- NXPI
+- NXT
+- OESX
+- OLED
+- OMCL
+- 'ON'
+- ONDS
+- ORBT
+- OSIS
+- OSS
+- OST
+- OTIS
+- OURA
+- P
+- PALX
+- PANW
+- PAR
+- PBI
+- PCLA
+- PENG
+- PI
+- PL
+- PLAB
+- PLUG
+- PLXS
+- POET
+- POWI
+- POWL
+- PRKR
+- PRSO
+- Q
+- QIND
+- QMCO
+- QUIK
+- QWTR
+- RAIN
+- RAYA
+- RDCM
+- REKR
+- RFIL
+- RMBS
+- RSKIA
+- SANM
+- SATL
+- SCIA
+- SCKT
+- SEDG
+- SELXF
+- SHGI
+- SHLS
+- SHMD
+- SILC
+- SIMO
+- SITM
+- SKYX
+- SLAB
+- SMTC
+- SMTK
+- SMX
+- SN
+- SNSC
+- SNT
+- SODI
+- SONM
+- SONO
+- SONY
+- SPCB
+- SQNS
+- SRMX
+- SSYS
+- STM
+- SUCH
+- SUNE
+- SWKS
+- SXI
+- SYNA
+- SYNX
+- SYTN
+- TACT
+- TANAF
+- TBCH
+- TE
+- TGEN
+- TKLS
+- TNC
+- TOYO
+- TRCK
+- TRNR
+- TSEM
+- TSM
+- TTMI
+- TXN
+- TYGO
+- UCTT
+- UEIC
+- UI
+- UMAC
+- UMC
+- UTSI
+- VHUB
+- VIAV
+- VICR
+- VIOT
+- VISL
+- VISN
+- VLN
+- VPG
+- VPLM
+- VREX
+- VRT
+- VSH
+- VTIX
+- VUZI
+- VYX
+- WATT
+- WETH
+- WHR
+- WLDS
+- WOLF
+- WWD
+- XAKJ
+- XNDU
+- XRX
+- YIBO
+- ZEPP
+- ZOOZ
+candidates:
+- ticker: BKTI
+  cik: 0000002186
+  name: BK Technologies Corp
+  sic: 3663
+- ticker: SWKS
+  cik: '0000004127'
+  name: SKYWORKS SOLUTIONS, INC.
+  sic: 3674
+- ticker: ADI
+  cik: 0000006281
+  name: ANALOG DEVICES INC
+  sic: 3674
+- ticker: AMAT
+  cik: 0000006951
+  name: APPLIED MATERIALS INC /DE
+  sic: 3674
+- ticker: EPAC
+  cik: 0000006955
+  name: ENERPAC TOOL GROUP CORP
+  sic: 3590
+- ticker: SUNE
+  cik: '0000022701'
+  name: SUNation Energy, Inc.
+  sic: 3674
+- ticker: CMTL
+  cik: 0000023197
+  name: COMTECH TELECOMMUNICATIONS CORP /DE/
+  sic: 3663
+- ticker: CTS
+  cik: 0000026058
+  name: CTS CORP
+  sic: 3672
+- ticker: CW
+  cik: '0000026324'
+  name: CURTISS WRIGHT CORP
+  sic: 3590
+- ticker: DBD
+  cik: 0000028823
+  name: DIEBOLD NIXDORF, Inc
+  sic: 3578
+- ticker: DIOD
+  cik: 0000029002
+  name: DIODES INC /DEL/
+  sic: 3674
+- ticker: EMR
+  cik: '0000032604'
+  name: EMERSON ELECTRIC CO
+  sic: 3600
+- ticker: MSN
+  cik: '0000032621'
+  name: EMERSON RADIO CORP
+  sic: 3651
+- ticker: ESP
+  cik: '0000033533'
+  name: ESPEY MFG & ELECTRONICS CORP
+  sic: 3679
+- ticker: FELE
+  cik: 0000038725
+  name: FRANKLIN ELECTRIC CO INC
+  sic: 3621
+- ticker: GE
+  cik: '0000040545'
+  name: GENERAL ELECTRIC CO
+  sic: 3600
+- ticker: HUBB
+  cik: 0000048898
+  name: HUBBELL INC
+  sic: 3670
+- ticker: IEHC
+  cik: 0000050292
+  name: IEH Corp
+  sic: 3678
+- ticker: IBM
+  cik: '0000051143'
+  name: INTERNATIONAL BUSINESS MACHINES CORP
+  sic: 3570
+- ticker: KOSS
+  cik: '0000056701'
+  name: KOSS CORP
+  sic: 3651
+- ticker: KLIC
+  cik: 0000056978
+  name: KULICKE & SOFFA INDUSTRIES INC
+  sic: 3674
+- ticker: KYOCF
+  cik: 0000057083
+  name: KYOCERA CORP
+  sic: 3674
+- ticker: LGL
+  cik: '0000061004'
+  name: LGL GROUP INC
+  sic: 3679
+- ticker: MEI
+  cik: '0000065270'
+  name: METHODE ELECTRONICS INC
+  sic: 3678
+- ticker: MVIS
+  cik: '0000065770'
+  name: MICROVISION, INC.
+  sic: 3679
+- ticker: MOG-A
+  cik: 0000067887
+  name: MOOG INC.
+  sic: 3590
+- ticker: MSI
+  cik: 0000068505
+  name: Motorola Solutions, Inc.
+  sic: 3663
+- ticker: NSSC
+  cik: 0000069633
+  name: NAPCO SECURITY TECHNOLOGIES, INC
+  sic: 3669
+- ticker: VYX
+  cik: 0000070866
+  name: NCR Voyix Corp
+  sic: 3578
+- ticker: ORBT
+  cik: 0000074818
+  name: ORBIT INTERNATIONAL CORP
+  sic: 3679
+- ticker: PBI
+  cik: 0000078814
+  name: PITNEY BOWES INC /DE/
+  sic: 3579
+- ticker: POWL
+  cik: 0000080420
+  name: POWELL INDUSTRIES INC
+  sic: 3613
+- ticker: RSKIA
+  cik: 0000084112
+  name: GEORGE RISK INDUSTRIES, INC.
+  sic: 3669
+- ticker: NEON
+  cik: 0000087050
+  name: Neonode Inc.
+  sic: 3679
+- ticker: SMTC
+  cik: 0000088941
+  name: SEMTECH CORP
+  sic: 3674
+- ticker: AOS
+  cik: 0000091142
+  name: SMITH A O CORP
+  sic: 3630
+- ticker: SODI
+  cik: 0000091668
+  name: SOLITRON DEVICES INC
+  sic: 3674
+- ticker: TNC
+  cik: 0000097134
+  name: TENNANT CO
+  sic: 3580
+- ticker: TXN
+  cik: 0000097476
+  name: TEXAS INSTRUMENTS INC
+  sic: 3674
+- ticker: UEIC
+  cik: 0000101984
+  name: UNIVERSAL ELECTRONICS INC
+  sic: 3651
+- ticker: VSH
+  cik: '0000103730'
+  name: VISHAY INTERTECHNOLOGY INC
+  sic: 3670
+- ticker: WHR
+  cik: '0000106640'
+  name: WHIRLPOOL CORP /DE/
+  sic: 3630
+- ticker: WWD
+  cik: 0000108312
+  name: Woodward, Inc.
+  sic: 3620
+- ticker: SXI
+  cik: '0000310354'
+  name: STANDEX INTERNATIONAL CORP/DE/
+  sic: 3580
+- ticker: SONY
+  cik: 0000313838
+  name: Sony Group Corp
+  sic: 3651
+- ticker: PAR
+  cik: 0000708821
+  name: PAR TECHNOLOGY CORP
+  sic: 3578
+- ticker: QMCO
+  cik: 0000709283
+  name: QUANTUM CORP /DE/
+  sic: 3572
+- ticker: ERIC
+  cik: 0000717826
+  name: ERICSSON LM TELEPHONE CO
+  sic: 3663
+- ticker: KTCC
+  cik: 0000719733
+  name: KEY TRONIC CORP
+  sic: 3672
+- ticker: NSYS
+  cik: '0000722313'
+  name: NORTECH SYSTEMS INC
+  sic: 3679
+- ticker: FKWL
+  cik: '0000722572'
+  name: FRANKLIN WIRELESS CORP
+  sic: 3661
+- ticker: NVEC
+  cik: 0000724910
+  name: NVE CORP /NEW/
+  sic: 3674
+- ticker: INTZ
+  cik: '0000736012'
+  name: INTRUSION INC
+  sic: 3576
+- ticker: RFIL
+  cik: '0000740664'
+  name: R F INDUSTRIES LTD
+  sic: 3678
+- ticker: VICR
+  cik: 0000751978
+  name: VICOR CORP
+  sic: 3679
+- ticker: LYTS
+  cik: '0000763532'
+  name: LSI INDUSTRIES INC
+  sic: 3640
+- ticker: MIDD
+  cik: 0000769520
+  name: MIDDLEBY Corp
+  sic: 3580
+- ticker: KOPN
+  cik: '0000771266'
+  name: KOPIN CORP
+  sic: 3674
+- ticker: CRUS
+  cik: '0000772406'
+  name: CIRRUS LOGIC, INC.
+  sic: 3674
+- ticker: PLXS
+  cik: 0000785786
+  name: PLEXUS CORP
+  sic: 3672
+- ticker: CONC
+  cik: 0000790273
+  name: CONECTISYS CORP
+  sic: 3663
+- ticker: CLFD
+  cik: 0000796505
+  name: Clearfield, Inc.
+  sic: 3661
+- ticker: MITK
+  cik: 0000807863
+  name: MITEK SYSTEMS INC
+  sic: 3577
+- ticker: PLAB
+  cik: 0000810136
+  name: PHOTRONICS INC
+  sic: 3674
+- ticker: CAPC
+  cik: 0000814926
+  name: CAPSTONE COMPANIES, INC.
+  sic: 3640
+- ticker: SYNA
+  cik: 0000817720
+  name: SYNAPTICS Inc
+  sic: 3674
+- ticker: APH
+  cik: 0000820313
+  name: AMPHENOL CORP /DE/
+  sic: 3678
+- ticker: AAON
+  cik: 0000824142
+  name: AAON, INC.
+  sic: 3585
+- ticker: MCHP
+  cik: 0000827054
+  name: MICROCHIP TECHNOLOGY INC
+  sic: 3674
+- ticker: LINK
+  cik: 0000828146
+  name: INTERLINK ELECTRONICS INC
+  sic: 3577
+- ticker: SCIA
+  cik: 0000830616
+  name: SCI Engineered Materials, Inc.
+  sic: 3620
+- ticker: JCI
+  cik: 0000833444
+  name: Johnson Controls International plc
+  sic: 3585
+- ticker: POWI
+  cik: 0000833640
+  name: POWER INTEGRATIONS INC
+  sic: 3674
+- ticker: CLRO
+  cik: 0000840715
+  name: CLEARONE INC
+  sic: 3661
+- ticker: SRMX
+  cik: 0000841533
+  name: SADDLE RANCH MEDIA, INC.
+  sic: 3640
+- ticker: HLIT
+  cik: 0000851310
+  name: HARMONIC INC.
+  sic: 3663
+- ticker: DGII
+  cik: 0000854775
+  name: DIGI INTERNATIONAL INC
+  sic: 3576
+- ticker: LSCC
+  cik: 0000855658
+  name: LATTICE SEMICONDUCTOR CORP
+  sic: 3674
+- ticker: BHE
+  cik: 0000863436
+  name: BENCHMARK ELECTRONICS INC
+  sic: 3672
+- ticker: ALGM
+  cik: 0000866291
+  name: ALLEGRO MICROSYSTEMS, INC.
+  sic: 3674
+- ticker: FLEX
+  cik: 0000866374
+  name: FLEX LTD.
+  sic: 3672
+- ticker: ESE
+  cik: 0000866706
+  name: ESCO TECHNOLOGIES INC
+  sic: 3669
+- ticker: AMSC
+  cik: 0000880807
+  name: AMERICAN SUPERCONDUCTOR CORP /DE/
+  sic: 3621
+- ticker: QUIK
+  cik: 0000882508
+  name: QUICKLOGIC Corp
+  sic: 3674
+- ticker: FCEL
+  cik: 0000886128
+  name: FUELCELL ENERGY INC
+  sic: 3620
+- ticker: CREAF
+  cik: 0000888295
+  name: CREATIVE TECHNOLOGY LTD
+  sic: 3577
+- ticker: LFUS
+  cik: 0000889331
+  name: LITTELFUSE INC /DE
+  sic: 3613
+- ticker: LPTH
+  cik: 0000889971
+  name: LIGHTPATH TECHNOLOGIES INC
+  sic: 3674
+- ticker: PRSO
+  cik: 0000890394
+  name: Peraso Inc.
+  sic: 3674
+- ticker: WOLF
+  cik: 0000895419
+  name: WOLFSPEED, INC.
+  sic: 3674
+- ticker: GILT
+  cik: 0000897322
+  name: GILAT SATELLITE NETWORKS LTD
+  sic: 3663
+- ticker: SANM
+  cik: 0000897723
+  name: SANMINA CORP
+  sic: 3672
+- ticker: VIAV
+  cik: 0000912093
+  name: VIAVI SOLUTIONS INC.
+  sic: 3674
+- ticker: PRKR
+  cik: 0000914139
+  name: PARKERVISION INC
+  sic: 3663
+- ticker: HELE
+  cik: 0000916789
+  name: HELEN OF TROY LTD
+  sic: 3634
+- ticker: SILC
+  cik: 0000916793
+  name: SILICOM LTD.
+  sic: 3576
+- ticker: RMBS
+  cik: 0000917273
+  name: RAMBUS INC
+  sic: 3674
+- ticker: EFOI
+  cik: 0000924168
+  name: ENERGY FOCUS, INC/DE
+  sic: 3640
+- ticker: GNSS
+  cik: 0000924383
+  name: Genasys Inc.
+  sic: 3651
+- ticker: NOK
+  cik: 0000924613
+  name: NOKIA CORP
+  sic: 3663
+- ticker: ADTN
+  cik: 0000926282
+  name: ADTRAN Holdings, Inc.
+  sic: 3661
+- ticker: OMCL
+  cik: 0000926326
+  name: OMNICELL, INC.
+  sic: 3571
+- ticker: AEIS
+  cik: 0000927003
+  name: ADVANCED ENERGY INDUSTRIES INC
+  sic: 3679
+- ticker: TSEM
+  cik: 0000928876
+  name: TOWER SEMICONDUCTOR LTD
+  sic: 3674
+- ticker: EAF
+  cik: 0000931148
+  name: GRAFTECH INTERNATIONAL LTD
+  sic: 3620
+- ticker: GTLL
+  cik: 0000932021
+  name: GLOBAL TECHNOLOGIES LTD
+  sic: 3663
+- ticker: STM
+  cik: 0000932787
+  name: STMicroelectronics N.V.
+  sic: 3674
+- ticker: CIEN
+  cik: 0000936395
+  name: CIENA CORP
+  sic: 3661
+- ticker: SCKT
+  cik: 0000944075
+  name: SOCKET MOBILE, INC.
+  sic: 3571
+- ticker: NTAP
+  cik: '0001002047'
+  name: NetApp, Inc.
+  sic: 3572
+- ticker: OLED
+  cik: 0001005284
+  name: UNIVERSAL DISPLAY CORP \PA\
+  sic: 3670
+- ticker: BOSC
+  cik: '0001005516'
+  name: BOS BETTER ONLINE SOLUTIONS LTD
+  sic: 3576
+- ticker: AIMD
+  cik: '0001014763'
+  name: Ainos, Inc.
+  sic: 3577
+- ticker: RDCM
+  cik: 0001016838
+  name: RADCOM LTD
+  sic: 3577
+- ticker: TACT
+  cik: '0001017303'
+  name: TRANSACT TECHNOLOGIES INC
+  sic: 3577
+- ticker: INSG
+  cik: '0001022652'
+  name: INSEEGO CORP.
+  sic: 3669
+- ticker: ELTK
+  cik: '0001024672'
+  name: ELTEK LTD
+  sic: 3672
+- ticker: UTSI
+  cik: '0001030471'
+  name: UTSTARCOM HOLDINGS CORP.
+  sic: 3669
+- ticker: CLS
+  cik: 0001030894
+  name: CELESTICA INC
+  sic: 3672
+- ticker: LOGI
+  cik: 0001032975
+  name: LOGITECH INTERNATIONAL S.A.
+  sic: 3577
+- ticker: UMC
+  cik: '0001033767'
+  name: UNITED MICROELECTRONICS CORP
+  sic: 3674
+- ticker: MINBY
+  cik: 0001034983
+  name: MINEBEA MITSUMI Inc.
+  sic: 3670
+- ticker: INVE
+  cik: '0001036044'
+  name: INVE Technologies, Inc.
+  sic: 3577
+- ticker: SLAB
+  cik: 0001038074
+  name: SILICON LABORATORIES INC.
+  sic: 3674
+- ticker: OSIS
+  cik: 0001039065
+  name: OSI SYSTEMS INC
+  sic: 3674
+- ticker: FORM
+  cik: 0001039399
+  name: FORMFACTOR INC
+  sic: 3674
+- ticker: TRCK
+  cik: 0001045942
+  name: Track Group, Inc.
+  sic: 3669
+- ticker: TSM
+  cik: 0001046179
+  name: TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD
+  sic: 3674
+- ticker: FFIV
+  cik: 0001048695
+  name: F5, INC.
+  sic: 3576
+- ticker: MRCY
+  cik: 0001049521
+  name: MERCURY SYSTEMS INC
+  sic: 3670
+- ticker: AXTI
+  cik: '0001051627'
+  name: AXT INC
+  sic: 3674
+- ticker: IMMR
+  cik: 0001058811
+  name: IMMERSION CORP
+  sic: 3577
+- ticker: AOMFF
+  cik: '0001062066'
+  name: ALSTOM
+  sic: 3621
+- ticker: LII
+  cik: 0001069202
+  name: LENNOX INTERNATIONAL INC
+  sic: 3585
+- ticker: EXTR
+  cik: 0001078271
+  name: EXTREME NETWORKS INC
+  sic: 3576
+- ticker: AUDC
+  cik: 0001086434
+  name: AUDIOCODES LTD
+  sic: 3661
+- ticker: ABLZF
+  cik: 0001091587
+  name: ABB LTD
+  sic: 3613
+- ticker: PLUG
+  cik: 0001093691
+  name: PLUG POWER INC
+  sic: 3620
+- ticker: 'ON'
+  cik: 0001097864
+  name: ON SEMICONDUCTOR CORP
+  sic: 3674
+- ticker: MTLK
+  cik: 0001098462
+  name: METALINK LTD
+  sic: 3674
+- ticker: IFNNY
+  cik: '0001107457'
+  name: INFINEON TECHNOLOGIES AG
+  sic: 3674
+- ticker: IPGP
+  cik: 0001111928
+  name: IPG PHOTONICS CORP
+  sic: 3674
+- ticker: LTRX
+  cik: 0001114925
+  name: LANTRONIX INC
+  sic: 3576
+- ticker: PI
+  cik: 0001114995
+  name: IMPINJ INC
+  sic: 3679
+- ticker: TTMI
+  cik: 0001116942
+  name: TTM TECHNOLOGIES INC
+  sic: 3672
+- ticker: CRNT
+  cik: 0001119769
+  name: CERAGON NETWORKS LTD
+  sic: 3663
+- ticker: ASX
+  cik: '0001122411'
+  name: ASE Technology Holding Co., Ltd.
+  sic: 3674
+- ticker: NTGR
+  cik: 0001122904
+  name: NETGEAR, INC.
+  sic: 3576
+- ticker: IMOS
+  cik: '0001123134'
+  name: CHIPMOS TECHNOLOGIES INC
+  sic: 3674
+- ticker: LASR
+  cik: 0001124796
+  name: NLIGHT, INC.
+  sic: 3674
+- ticker: GSIT
+  cik: '0001126741'
+  name: GSI TECHNOLOGY INC
+  sic: 3674
+- ticker: XAKJ
+  cik: 0001128252
+  name: SIPP International Industries, Inc.
+  sic: 3663
+- ticker: ASNS
+  cik: 0001141284
+  name: ACTELIS NETWORKS INC
+  sic: 3669
+- ticker: AYI
+  cik: '0001144215'
+  name: ACUITY INC. (DE)
+  sic: 3640
+- ticker: AAOI
+  cik: 0001158114
+  name: APPLIED OPTOELECTRONICS, INC.
+  sic: 3674
+- ticker: ATEYY
+  cik: 0001158838
+  name: ADVANTEST CORP
+  sic: 3674
+- ticker: SONM
+  cik: 0001178697
+  name: DNA X, Inc.
+  sic: 3661
+- ticker: FTNT
+  cik: 0001262039
+  name: Fortinet, Inc.
+  sic: 3577
+- ticker: AIRG
+  cik: 0001272842
+  name: AIRGAIN INC
+  sic: 3663
+- ticker: FSLR
+  cik: 0001274494
+  name: FIRST SOLAR, INC.
+  sic: 3674
+- ticker: UCTT
+  cik: '0001275014'
+  name: Ultra Clean Holdings, Inc.
+  sic: 3674
+- ticker: AMBA
+  cik: 0001280263
+  name: AMBARELLA INC
+  sic: 3674
+- ticker: MPWR
+  cik: 0001280452
+  name: MONOLITHIC POWER SYSTEMS, INC.
+  sic: 3674
+- ticker: NLST
+  cik: 0001282631
+  name: NETLIST INC
+  sic: 3674
+- ticker: MXL
+  cik: 0001288469
+  name: MAXLINEAR, INC
+  sic: 3674
+- ticker: LPL
+  cik: 0001290109
+  name: LG Display Co., Ltd.
+  sic: 3679
+- ticker: SPCB
+  cik: 0001291855
+  name: SuperCom Ltd
+  sic: 3674
+- ticker: LIQT
+  cik: 0001307579
+  name: LIQTECH INTERNATIONAL INC
+  sic: 3590
+- ticker: SONO
+  cik: '0001314727'
+  name: Sonos Inc
+  sic: 3651
+- ticker: MX
+  cik: '0001325702'
+  name: MAGNACHIP SEMICONDUCTOR Corp
+  sic: 3674
+- ticker: PANW
+  cik: '0001327567'
+  name: Palo Alto Networks Inc
+  sic: 3577
+- ticker: SIMO
+  cik: 0001329394
+  name: Silicon Motion Technology CORP
+  sic: 3674
+- ticker: LEDS
+  cik: 0001333822
+  name: SemiLEDs Corp
+  sic: 3674
+- ticker: HIMX
+  cik: 0001342338
+  name: Himax Technologies, Inc.
+  sic: 3674
+- ticker: KUST
+  cik: 0001342958
+  name: KUSTOM ENTERTAINMENT, INC.
+  sic: 3663
+- ticker: ASTI
+  cik: '0001350102'
+  name: Ascent Solar Technologies, Inc.
+  sic: 3674
+- ticker: ALLT
+  cik: '0001365767'
+  name: Allot Ltd.
+  sic: 3576
+- ticker: CSIQ
+  cik: 0001375877
+  name: Canadian Solar Inc.
+  sic: 3674
+- ticker: CRVW
+  cik: 0001377149
+  name: CareView Communications Inc
+  sic: 3663
+- ticker: AVNW
+  cik: 0001377789
+  name: AVIAT NETWORKS, INC.
+  sic: 3663
+- ticker: GOGR
+  cik: 0001378866
+  name: Go Green Global Technologies Corp.
+  sic: 3677
+- ticker: SQNS
+  cik: 0001383395
+  name: SEQUANS COMMUNICATIONS
+  sic: 3674
+- ticker: AOSL
+  cik: 0001387467
+  name: ALPHA & OMEGA SEMICONDUCTOR Ltd
+  sic: 3674
+- ticker: QIND
+  cik: 0001393781
+  name: Quality Industrial Corp.
+  sic: 3590
+- ticker: OSS
+  cik: 0001394056
+  name: ONE STOP SYSTEMS, INC.
+  sic: 3571
+- ticker: FN
+  cik: 0001408710
+  name: Fabrinet
+  sic: 3661
+- ticker: OESX
+  cik: 0001409375
+  name: ORION ENERGY SYSTEMS, INC.
+  sic: 3640
+- ticker: VPLM
+  cik: 0001410738
+  name: Voip-pal.com Inc
+  sic: 3661
+- ticker: NXPI
+  cik: '0001413447'
+  name: NXP Semiconductors N.V.
+  sic: 3674
+- ticker: CLEV
+  cik: 0001414382
+  name: Concrete Leveling Systems Inc
+  sic: 3590
+- ticker: SEDG
+  cik: 0001419612
+  name: SOLAREDGE TECHNOLOGIES, INC.
+  sic: 3674
+- ticker: ATOM
+  cik: '0001420520'
+  name: Atomera Inc
+  sic: 3674
+- ticker: TKLS
+  cik: 0001429393
+  name: Trutankless, Inc.
+  sic: 3630
+- ticker: POET
+  cik: '0001437424'
+  name: POET TECHNOLOGIES INC.
+  sic: 3674
+- ticker: MRAM
+  cik: 0001438423
+  name: EVERSPIN TECHNOLOGIES INC.
+  sic: 3674
+- ticker: SITM
+  cik: 0001451809
+  name: SITIME Corp
+  sic: 3674
+- ticker: BLDP
+  cik: '0001453015'
+  name: Ballard Power Systems Inc.
+  sic: 3620
+- ticker: ENPH
+  cik: '0001463101'
+  name: Enphase Energy, Inc.
+  sic: 3674
+- ticker: VUZI
+  cik: 0001463972
+  name: Vuzix Corp
+  sic: 3663
+- ticker: P
+  cik: '0001474432'
+  name: Everpure, Inc.
+  sic: 3572
+- ticker: GNRC
+  cik: '0001474735'
+  name: GENERAC HOLDINGS INC.
+  sic: 3621
+- ticker: DQ
+  cik: '0001477641'
+  name: DAQO NEW ENERGY CORP.
+  sic: 3674
+- ticker: HYSR
+  cik: 0001481028
+  name: SUNHYDROGEN, INC.
+  sic: 3674
+- ticker: JKS
+  cik: 0001481513
+  name: JinkoSolar Holding Co., Ltd.
+  sic: 3674
+- ticker: QWTR
+  cik: 0001487091
+  name: Quest Water Global, Inc.
+  sic: 3585
+- ticker: VPG
+  cik: 0001487952
+  name: Vishay Precision Group, Inc.
+  sic: 3670
+- ticker: MTSI
+  cik: 0001493594
+  name: MACOM Technology Solutions Holdings, Inc.
+  sic: 3674
+- ticker: TBCH
+  cik: 0001493761
+  name: Turtle Beach Corp
+  sic: 3669
+- ticker: IWAL
+  cik: 0001498372
+  name: iWallet Corp
+  sic: 3669
+- ticker: AMBQ
+  cik: '0001500412'
+  name: Ambiq Micro, Inc.
+  sic: 3674
+- ticker: IPWR
+  cik: 0001507957
+  name: Ideal Power Inc.
+  sic: 3674
+- ticker: UI
+  cik: '0001511737'
+  name: Ubiquiti Inc.
+  sic: 3663
+- ticker: VISN
+  cik: 0001517228
+  name: Vistance Networks, Inc.
+  sic: 3663
+- ticker: SSYS
+  cik: 0001517396
+  name: STRATASYS LTD.
+  sic: 3577
+- ticker: AMPG
+  cik: 0001518461
+  name: AmpliTech Group, Inc.
+  sic: 3669
+- ticker: TGEN
+  cik: '0001537435'
+  name: TECOGEN INC.
+  sic: 3585
+- ticker: ETN
+  cik: 0001551182
+  name: Eaton Corp plc
+  sic: 3590
+- ticker: CIIT
+  cik: 0001557798
+  name: Tianci International, Inc.
+  sic: 3576
+- ticker: VISL
+  cik: 0001565228
+  name: Vislink Technologies, Inc.
+  sic: 3669
+- ticker: WATT
+  cik: 0001575793
+  name: Energous Corp
+  sic: 3663
+- ticker: ATEN
+  cik: 0001580808
+  name: A10 Networks, Inc.
+  sic: 3576
+- ticker: KN
+  cik: 0001587523
+  name: Knowles Corp
+  sic: 3651
+- ticker: NGTF
+  cik: 0001593001
+  name: NightFood Holdings, Inc.
+  sic: 3590
+- ticker: ANET
+  cik: 0001596532
+  name: Arista Networks, Inc.
+  sic: 3576
+- ticker: SKYX
+  cik: 0001598981
+  name: SKYX Platforms Corp.
+  sic: 3640
+- ticker: KSCP
+  cik: 0001600983
+  name: Knightscope, Inc.
+  sic: 3669
+- ticker: VTIX
+  cik: '0001606242'
+  name: Virtuix Holdings Inc.
+  sic: 3577
+- ticker: KE
+  cik: '0001606757'
+  name: Kimball Electronics, Inc.
+  sic: 3672
+- ticker: PENG
+  cik: '0001616533'
+  name: Penguin Solutions, Inc.
+  sic: 3674
+- ticker: LITE
+  cik: 0001633978
+  name: Lumentum Holdings Inc.
+  sic: 3669
+- ticker: NNDM
+  cik: '0001643303'
+  name: Nano Dimension Ltd.
+  sic: 3672
+- ticker: ONDS
+  cik: 0001646188
+  name: Ondas Inc.
+  sic: 3663
+- ticker: ICHR
+  cik: '0001652535'
+  name: ICHOR HOLDINGS, LTD.
+  sic: 3674
+- ticker: KULR
+  cik: 0001662684
+  name: KULR Technology Group, Inc.
+  sic: 3670
+- ticker: BE
+  cik: '0001664703'
+  name: Bloom Energy Corp
+  sic: 3620
+- ticker: AIP
+  cik: '0001667011'
+  name: Arteris, Inc.
+  sic: 3674
+- ticker: IMTE
+  cik: 0001668438
+  name: Integrated Media Technology Ltd
+  sic: 3651
+- ticker: VRT
+  cik: '0001674101'
+  name: Vertiv Holdings Co
+  sic: 3679
+- ticker: NUR
+  cik: 0001680637
+  name: Nuran Wireless Inc.
+  sic: 3576
+- ticker: VREX
+  cik: 0001681622
+  name: Varex Imaging Corp
+  sic: 3679
+- ticker: REKR
+  cik: 0001697851
+  name: Rekor Systems, Inc.
+  sic: 3669
+- ticker: EVOH
+  cik: 0001700844
+  name: EvoAir Holdings Inc.
+  sic: 3585
+- ticker: MYND
+  cik: 0001708441
+  name: Mynd.ai, Inc.
+  sic: 3577
+- ticker: GFS
+  cik: 0001709048
+  name: GLOBALFOUNDRIES Inc.
+  sic: 3674
+- ticker: HBB
+  cik: 0001709164
+  name: Hamilton Beach Brands Holding Co
+  sic: 3634
+- ticker: SYTN
+  cik: 0001718728
+  name: Syntiant Corp.
+  sic: 3674
+- ticker: ZEPP
+  cik: '0001720446'
+  name: Zepp Health Corp
+  sic: 3571
+- ticker: ALAB
+  cik: 0001736297
+  name: Astera Labs, Inc.
+  sic: 3674
+- ticker: CMBMF
+  cik: 0001738177
+  name: Cambium Networks Corp
+  sic: 3663
+- ticker: VIOT
+  cik: '0001742770'
+  name: Viomi Technology Co., Ltd
+  sic: 3630
+- ticker: CRSR
+  cik: 0001743759
+  name: Corsair Gaming, Inc.
+  sic: 3577
+- ticker: BKSY
+  cik: 0001753539
+  name: BlackSky Technology Inc.
+  sic: 3663
+- ticker: ATER
+  cik: '0001757715'
+  name: Aterian, Inc.
+  sic: 3634
+- ticker: XRX
+  cik: '0001770450'
+  name: Xerox Holdings Corp
+  sic: 3577
+- ticker: AIOT
+  cik: '0001774170'
+  name: Powerfleet, Inc.
+  sic: 3669
+- ticker: OTIS
+  cik: 0001781335
+  name: Otis Worldwide Corp
+  sic: 3600
+- ticker: CARR
+  cik: 0001783180
+  name: CARRIER GLOBAL Corp
+  sic: 3585
+- ticker: TRNR
+  cik: 0001785056
+  name: Interactive Strength, Inc.
+  sic: 3600
+- ticker: FXHO
+  cik: 0001789299
+  name: UTime Ltd
+  sic: 3600
+- ticker: MAXNQ
+  cik: 0001796898
+  name: Maxeon Solar Technologies, Ltd.
+  sic: 3674
+- ticker: OST
+  cik: 0001803407
+  name: Ostin Technology Group Co., Ltd.
+  sic: 3679
+- ticker: EVLV
+  cik: 0001805385
+  name: Evolv Technologies Holdings, Inc.
+  sic: 3577
+- ticker: CRDO
+  cik: 0001807794
+  name: Credo Technology Group Holding Ltd
+  sic: 3674
+- ticker: SMTK
+  cik: 0001817760
+  name: SmartKem, Inc.
+  sic: 3674
+- ticker: HTOO
+  cik: 0001819794
+  name: Fusion Fuel Green PLC
+  sic: 3590
+- ticker: ARRY
+  cik: 0001820721
+  name: Array Technologies, Inc.
+  sic: 3674
+- ticker: NVTS
+  cik: 0001821769
+  name: Navitas Semiconductor Corp
+  sic: 3674
+- ticker: RAYA
+  cik: 0001825875
+  name: Erayak Power Solution Group Inc.
+  sic: 3621
+- ticker: WETH
+  cik: 0001826660
+  name: Wetouch Technology Inc.
+  sic: 3577
+- ticker: FTCI
+  cik: 0001828161
+  name: FTC Solar, Inc.
+  sic: 3674
+- ticker: ALMU
+  cik: 0001828805
+  name: Aeluma, Inc.
+  sic: 3674
+- ticker: SHLS
+  cik: 0001831651
+  name: Shoals Technologies Group, Inc.
+  sic: 3674
+- ticker: GUER
+  cik: 0001832487
+  name: Guerrilla RF, Inc.
+  sic: 3674
+- ticker: HAYW
+  cik: 0001834622
+  name: Hayward Holdings, Inc.
+  sic: 3580
+- ticker: MRVL
+  cik: 0001835632
+  name: Marvell Technology, Inc.
+  sic: 3674
+- ticker: PL
+  cik: 0001836833
+  name: Planet Labs PBC
+  sic: 3663
+- ticker: INDI
+  cik: 0001841925
+  name: indie Semiconductor, Inc.
+  sic: 3674
+- ticker: NPWR
+  cik: 0001845437
+  name: Net Power Inc.
+  sic: 3620
+- ticker: GCTS
+  cik: 0001851961
+  name: GCT Semiconductor Holding, Inc.
+  sic: 3674
+- ticker: NXT
+  cik: 0001852131
+  name: Nextpower Inc.
+  sic: 3674
+- ticker: TYGO
+  cik: 0001855447
+  name: TIGO ENERGY, INC.
+  sic: 3674
+- ticker: MOBX
+  cik: 0001855467
+  name: MOBIX LABS, INC
+  sic: 3674
+- ticker: AIRJ
+  cik: 0001855474
+  name: AirJoule Technologies Corp.
+  sic: 3585
+- ticker: COOK
+  cik: 0001857853
+  name: Traeger, Inc.
+  sic: 3630
+- ticker: VLN
+  cik: 0001863006
+  name: Valens Semiconductor Ltd.
+  sic: 3674
+- ticker: YIBO
+  cik: 0001868395
+  name: Planet Image International Ltd
+  sic: 3577
+- ticker: BZAI
+  cik: 0001871638
+  name: Blaize Holdings, Inc.
+  sic: 3674
+- ticker: NA
+  cik: 0001872302
+  name: Nano Labs Ltd
+  sic: 3674
+- ticker: MTEK
+  cik: 0001872964
+  name: Maris Tech Ltd.
+  sic: 3669
+- ticker: SHGI
+  cik: 0001874138
+  name: Sparx Holdings Group, Inc.
+  sic: 3585
+- ticker: SATL
+  cik: 0001874315
+  name: Satellogic Inc.
+  sic: 3663
+- ticker: WLDS
+  cik: 0001887673
+  name: Wearable Devices Ltd.
+  sic: 3576
+- ticker: ICG
+  cik: 0001895597
+  name: Intchains Group Ltd
+  sic: 3674
+- ticker: LBGJ
+  cik: 0001896425
+  name: Li Bang International Corp Inc.
+  sic: 3580
+- ticker: MPTI
+  cik: 0001902314
+  name: M-tron Industries, Inc.
+  sic: 3679
+- ticker: HUBC
+  cik: 0001905660
+  name: Hub Cyber Security Ltd.
+  sic: 3576
+- ticker: GCDT
+  cik: 0001926293
+  name: Green Circle Decarbonize Technology Ltd
+  sic: 3585
+- ticker: CCTG
+  cik: 0001931717
+  name: CCSC Technology International Holdings Ltd
+  sic: 3640
+- ticker: PALX
+  cik: 0001938569
+  name: Palomino Laboratories Inc.
+  sic: 3674
+- ticker: SMX
+  cik: 0001940674
+  name: SMX (Security Matters) Public Ltd Co
+  sic: 3590
+- ticker: TANAF
+  cik: 0001941189
+  name: Tian'an Technology Group Ltd
+  sic: 3621
+- ticker: ATTT
+  cik: 0001948443
+  name: Atlas Trinity Tech Co., Ltd.
+  sic: 3630
+- ticker: LAES
+  cik: 0001951222
+  name: SEALSQ Corp
+  sic: 3674
+- ticker: UMAC
+  cik: 0001956955
+  name: Unusual Machines, Inc.
+  sic: 3663
+- ticker: FEBO
+  cik: 0001957001
+  name: Fenbo Holdings Ltd
+  sic: 3634
+- ticker: SN
+  cik: 0001957132
+  name: SharkNinja, Inc.
+  sic: 3630
+- ticker: LNKS
+  cik: 0001972074
+  name: Linkers Industries Ltd
+  sic: 3670
+- ticker: VHUB
+  cik: 0001972234
+  name: VenHub Global, Inc.
+  sic: 3590
+- ticker: ARM
+  cik: 0001973239
+  name: ARM HOLDINGS PLC /UK
+  sic: 3674
+- ticker: NATL
+  cik: 0001974138
+  name: NCR Atleos Corp
+  sic: 3578
+- ticker: SYNX
+  cik: 0001976443
+  name: Silynxcom Ltd.
+  sic: 3651
+- ticker: TOYO
+  cik: 0001985273
+  name: TOYO Co., Ltd
+  sic: 3674
+- ticker: SHMD
+  cik: 0001987240
+  name: SCHMID Group N.V.
+  sic: 3590
+- ticker: SELXF
+  cik: 0001990950
+  name: Semilux International Ltd.
+  sic: 3674
+- ticker: MKDW
+  cik: 0001991332
+  name: MKDWELL Tech Inc.
+  sic: 3600
+- ticker: TE
+  cik: 0001992243
+  name: T1 Energy Inc.
+  sic: 3674
+- ticker: ZOOZ
+  cik: 0001992818
+  name: ZOOZ Strategy Ltd.
+  sic: 3590
+- ticker: SNT
+  cik: 0001993727
+  name: Senstar Technologies Corp
+  sic: 3669
+- ticker: GEV
+  cik: 0001996810
+  name: GE Vernova Inc.
+  sic: 3600
+- ticker: FOXX
+  cik: 0002013807
+  name: Foxx Development Holdings Inc.
+  sic: 3576
+- ticker: PCLA
+  cik: 0002018462
+  name: PicoCELA Inc.
+  sic: 3640
+- ticker: CBRS
+  cik: 0002021728
+  name: Cerebras Systems Inc.
+  sic: 3674
+- ticker: NTWO
+  cik: 0002028027
+  name: Newbury Street II Acquisition Corp
+  sic: 3620
+- ticker: RAIN
+  cik: 0002028293
+  name: Rain Enhancement Technologies Holdco, Inc.
+  sic: 3590
+- ticker: Q
+  cik: 0002058873
+  name: Qnity Electronics, Inc.
+  sic: 3674
+- ticker: FPS
+  cik: 0002080126
+  name: Forgent Power Solutions, Inc.
+  sic: 3620
+- ticker: MFP
+  cik: 0002088281
+  name: Midera Food Processing, Inc.
+  sic: 3580
+- ticker: XNDU
+  cik: 0002097163
+  name: Xanadu Quantum Technologies Ltd
+  sic: 3571
+- ticker: SNSC
+  cik: '0002101240'
+  name: SunScout Holding Ltd
+  sic: 3674
+- ticker: SUCH
+  cik: '0002104032'
+  name: Suchness Tech Ltd
+  sic: 3674
+- ticker: INIO
+  cik: 0002109150
+  name: INNIO N.V.
+  sic: 3621
+- ticker: EROC
+  cik: 0002110029
+  name: ERock, Inc.
+  sic: 3620
+- ticker: AXM
+  cik: 0002130999
+  name: Archer SpinCo, Inc.
+  sic: 3672
+- ticker: OURA
+  cik: '0002133022'
+  name: Oura Inc.
+  sic: 3571
+no_ticker_cik_sample:
+- cik: 0000001988
+  sic:
+  - 3577
+- cik: '0000002070'
+  sic:
+  - 3620
+- cik: '0000002435'
+  sic:
+  - 3672
+- cik: '0000002601'
+  sic:
+  - 3674
+- cik: 0000003398
+  sic:
+  - 3661
+- cik: '0000003535'
+  sic:
+  - 3672
+- cik: '0000003721'
+  sic:
+  - 3663
+- cik: '0000004427'
+  sic:
+  - 3571
+- cik: 0000005850
+  sic:
+  - 3585
+- cik: 0000006082
+  sic:
+  - 3621
+- cik: '0000006164'
+  sic:
+  - 3678
+- cik: 0000006182
+  sic:
+  - 3663
+- cik: '0000006314'
+  sic:
+  - 3663
+- cik: 0000006494
+  sic:
+  - 3663
+- cik: 0000006948
+  sic:
+  - 3679
+- cik: 0000008146
+  sic:
+  - 3577
+- cik: 0000008919
+  sic:
+  - 3663
+- cik: 0000009342
+  sic:
+  - 3621
+- cik: 0000012953
+  sic:
+  - 3620
+- cik: '0000013606'
+  sic:
+  - 3674
+- cik: 0000014280
+  sic:
+  - 3670
+- cik: '0000015354'
+  sic:
+  - 3679
+- cik: 0000016218
+  sic:
+  - 3640
+- cik: '0000016357'
+  sic:
+  - 3663
+- cik: 0000016590
+  sic:
+  - 3572
+- cik: 0000019704
+  sic:
+  - 3640
+- cik: 0000020819
+  sic:
+  - 3620
+- cik: 0000021438
+  sic:
+  - 3661
+- cik: '0000021627'
+  sic:
+  - 3634
+- cik: '0000022252'
+  sic:
+  - 3663
+- cik: '0000022470'
+  sic:
+  - 3590
+- cik: 0000022962
+  sic:
+  - 3661
+- cik: '0000023023'
+  sic:
+  - 3577
+- cik: '0000023071'
+  sic:
+  - 3679
+- cik: '0000023236'
+  sic:
+  - 3620
+- cik: '0000023503'
+  sic:
+  - 3679
+- cik: '0000024454'
+  sic:
+  - 3640
+- cik: '0000025506'
+  sic:
+  - 3571
+- cik: 0000026974
+  sic:
+  - 3570
+- cik: 0000026987
+  sic:
+  - 3672
+- cik: 0000026999
+  sic:
+  - 3570
+- cik: '0000027075'
+  sic:
+  - 3663
+- cik: 0000027082
+  sic:
+  - 3577
+- cik: '0000027116'
+  sic:
+  - 3663
+- cik: 0000027748
+  sic:
+  - 3679
+- cik: 0000028365
+  sic:
+  - 3669
+- cik: 0000028367
+  sic:
+  - 3670
+- cik: 0000028613
+  sic:
+  - 3577
+- cik: 0000028887
+  sic:
+  - 3570
+- cik: 0000029233
+  sic:
+  - 3669
+errors: []

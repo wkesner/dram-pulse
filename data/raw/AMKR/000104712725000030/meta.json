@@ -1,0 +1,30 @@
+{
+  "company": "Amkor",
+  "ticker": "AMKR",
+  "cik": "0001047127",
+  "form": "10-K",
+  "filing_date": "2025-02-21",
+  "accession_number": "0001047127-25-000030",
+  "primary_document": "amkr-20241231.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712725000030/amkr-20241231.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:54:54.968755+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/AMKR/000104712725000030/primary.html",
+    "business": "data/raw/AMKR/000104712725000030/item1_business.txt",
+    "risk_factors": "data/raw/AMKR/000104712725000030/item1a_risk_factors.txt",
+    "mdna": "data/raw/AMKR/000104712725000030/item7_mdna.txt",
+    "other": "data/raw/AMKR/000104712725000030/other_full.txt"
+  },
+  "period_end": "2024-12-31",
+  "report_date": "2024-12-31"
+}

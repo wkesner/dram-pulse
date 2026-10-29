@@ -1,0 +1,31 @@
+# Company tiers for Memory Signals graphs and feed scope.
+# Tiers are product/UX labels — not a credit rating. Assign in companies.yaml.
+#
+# Default Signal map = Tier 1 only. Feed can filter by tier. Brokers typically
+# care most about Tier 2–3 (less competed, still public docs).
+
+tiers:
+  - id: 1
+    label: Tier 1
+    short: T1
+    map_default: true
+    summary: Household / core graph — memory makers, hyperscalers, and flagship OEM/EMS names.
+  - id: 2
+    label: Tier 2
+    short: T2
+    map_default: false
+    summary: Fortune 500–1000 electronics, datacenter, distribution, and EMS peers with public filings — secondary graph.
+  - id: 3
+    label: Tier 3
+    short: T3
+    map_default: false
+    summary: Smaller listed / below F1000 but memory- or datacenter-adjacent — highest broker density; tertiary graph.
+
+# Heuristic used when assigning tiers (document, do not auto-rank live):
+#   Tier 1 — SPEC core + widely known F500 tech on the primary map
+#   Tier 2 — other F500 / upper-F1000 electronics, DC infra, component distribution
+#   Tier 3 — remaining public names (SIC batch, mid/small cap) with filings we care about
+assignment_notes: >
+  Fortune rank is a guide, not a hard cut. A lower-ranked EMS or distributor can
+  be Tier 2 because brokers need them; a famous foreign foundry can sit in Tier 2
+  so the Tier 1 map stays readable.

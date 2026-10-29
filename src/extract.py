@@ -24,6 +24,7 @@ from src.dedupe import (
     build_signals_from_sightings,
     dedupe,
     normalize as normalize_excerpt,
+    window_keep_score,
     write_csv as write_dedupe_csv,
 )
 from src.fetch_edgar import (
@@ -39,7 +40,7 @@ from src.fetch_edgar import (
     window_bounds,
 )
 
-EXTRACTOR_VERSION = "0.3.0"
+EXTRACTOR_VERSION = "0.3.1"
 SIGHTINGS_PATH = REPO_ROOT / "data" / "sightings.csv"
 
 SECTION_FILES = {
@@ -401,10 +402,48 @@ def extract_from_section(
             if not any(_near(h) for h in dir_hits) and not _near(topic_hit):
                 continue
 
-            # Materials / input shortages are not memory-product supply signals.
+            # Materials / input shortages are not component-product supply signals.
             if re.search(r"\brare earth\b|\braw materials?\b|\bminerals?\b", passage, re.I):
-                if fam in {"Memory_general", "DRAM_general", "NAND_general"}:
+                if fam in {
+                    "Memory_general",
+                    "DRAM_general",
+                    "NAND_general",
+                    "GPU",
+                    "CPU",
+                    "FPGA",
+                    "MCU",
+                    "Power_IC",
+                    "Capacitor",
+                    "Resistor",
+                }:
                     continue
+            # Legal / IP boilerplate naming "FPGA" / "microcontroller" is not a supply signal.
+            if re.search(
+                r"\bpatent(s|ed)?\b|\btrademark(s)?\b|\blicens(e|es|ing)\b|\binfringe",
+                passage,
+                re.I,
+            ):
+                if fam in {"GPU", "CPU", "FPGA", "MCU", "Power_IC"}:
+                    continue
+            # Competition-regulator inquiries that mention allocating GPU supply are not
+            # commodity-tightness signals; same for debt/credit facility boilerplate.
+            if fam in {"GPU", "CPU", "FPGA", "MCU", "Power_IC", "Capacitor", "Resistor"}:
+                if re.search(
+                    r"competition regulators?|antitrust|requests for information from|"
+                    r"regulatory (?:inquir|investigat)",
+                    passage,
+                    re.I,
+                ):
+                    continue
+                if re.search(
+                    r"\b(?:credit facility|term loan|DDTL|indenture|revolving credit|"
+                    r"depreciable cost|loans? (?:available|may be drawn)|"
+                    r"loans?(?:\s+\w+){0,3}\s+are constrained)\b",
+                    passage,
+                    re.I,
+                ):
+                    continue
+
 
             # Accounting policy text mentioning write-downs is not a market signal.
             if re.search(
@@ -449,28 +488,36 @@ def extract_from_section(
                 best[key] = (width, row)
 
     candidates = [row for _width, row in best.values()]
-    # Collapse heavily overlapping same-family windows (sliding 1–3 sentence starts).
-    candidates.sort(key=lambda r: (r["product_family"], int(r["char_start"]), int(r["char_end"])))
+    # Collapse heavily overlapping windows across families too — the same span
+    # tagged DRAM + NAND + Memory_general must not become three Feed cards.
+    candidates.sort(
+        key=lambda r: (
+            int(r["char_start"]),
+            int(r["char_end"]),
+            r["product_family"],
+        )
+    )
     kept: list[dict[str, Any]] = []
     for row in candidates:
         start, end = int(row["char_start"]), int(row["char_end"])
-        family = row["product_family"]
+        direction = row.get("supply_direction") or ""
         overlap_idx = None
         for i, prev in enumerate(kept):
-            if prev["product_family"] != family:
+            if (prev.get("supply_direction") or "") != direction:
                 continue
             ps, pe = int(prev["char_start"]), int(prev["char_end"])
             overlap = max(0, min(end, pe) - max(start, ps))
             span = max(end - start, pe - ps, 1)
-            if overlap / span >= 0.55:
+            shorter = max(min(end - start, pe - ps), 1)
+            # Heavy overlap OR almost-contained nested window of the same claim.
+            if overlap / span >= 0.55 or overlap / shorter >= 0.85:
                 overlap_idx = i
                 break
         if overlap_idx is None:
             kept.append(row)
             continue
-        # Prefer the longer excerpt (more context) when windows overlap.
         prev = kept[overlap_idx]
-        if (end - start) > (int(prev["char_end"]) - int(prev["char_start"])):
+        if window_keep_score(row) > window_keep_score(prev):
             kept[overlap_idx] = row
 
     for row in kept:
@@ -527,6 +574,7 @@ def _build_row(
         "company": meta.get("company") or ctx.company.name,
         "ticker_or_code": meta.get("ticker") or ctx.company.ticker,
         "role": meta.get("role") or ctx.company.role,
+        "tier": str(meta.get("tier") or getattr(ctx.company, "tier", "") or ""),
         "source": source,
         "form": meta.get("form", "10-K"),
         "filing_date": meta.get("filing_date", ""),
@@ -991,6 +1039,109 @@ def backfill_period_ends(
                 meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
 
 
+def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
+    """Keep prior English translations across extract rebuilds (stable signal_id)."""
+    if not signals_path.is_file() or signals_path.stat().st_size == 0:
+        return {}
+    out: dict[str, str] = {}
+    with signals_path.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh):
+            sid = (row.get("signal_id") or "").strip()
+            en = (row.get("excerpt_en") or "").strip()
+            if sid and en:
+                out[sid] = en
+    return out
+
+
+def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
+    """Map normalized Korean excerpt → prior excerpt_en (Argos is non-deterministic)."""
+    out: dict[str, str] = {}
+    for path in csv_paths:
+        if not path or not path.is_file() or path.stat().st_size == 0:
+            continue
+        with path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                lang = (row.get("language") or "en").strip().lower()
+                if lang not in {"ko", "korean"}:
+                    continue
+                en = (row.get("excerpt_en") or "").strip()
+                ex = (row.get("excerpt") or "").strip()
+                if not en or not ex:
+                    continue
+                key = normalize_excerpt(ex)
+                if key and key not in out:
+                    out[key] = en
+    return out
+
+
+def _merge_excerpt_en(
+    signals: list[dict[str, Any]], prior: dict[str, str]
+) -> list[dict[str, Any]]:
+    for row in signals:
+        lang = (row.get("language") or "en").strip().lower()
+        if lang in {"", "en", "english"}:
+            row["excerpt_en"] = ""
+            continue
+        sid = row.get("signal_id") or ""
+        existing = (row.get("excerpt_en") or "").strip()
+        if not existing and sid in prior:
+            row["excerpt_en"] = prior[sid]
+        elif "excerpt_en" not in row:
+            row["excerpt_en"] = ""
+    return signals
+
+
+def _enrich_candidate_excerpt_en(
+    candidates: list[dict[str, Any]],
+    *,
+    prior_by_excerpt: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    """Attach excerpt_en on Korean candidates so cross-source dedupe can match.
+
+    Prefer a prior translation for the same Korean excerpt so rebuilds stay
+    deterministic (Argos output drifts enough to change near-merge IDs).
+    """
+    prior_by_excerpt = prior_by_excerpt or {}
+    need: list[dict[str, Any]] = []
+    for c in candidates:
+        if (c.get("language") or "en").lower() not in {"ko", "korean"}:
+            continue
+        if (c.get("excerpt_en") or "").strip():
+            continue
+        ex = (c.get("excerpt") or "").strip()
+        if not ex:
+            continue
+        cached = prior_by_excerpt.get(normalize_excerpt(ex), "")
+        if cached:
+            c["excerpt_en"] = cached
+            continue
+        need.append(c)
+    if not need:
+        return candidates
+    try:
+        from src.translate_excerpts import _ensure_argos_ko_en, translate_text
+    except Exception:
+        return candidates
+    try:
+        _ensure_argos_ko_en(install=True)
+    except SystemExit:
+        return candidates
+    # Deduplicate Argos calls by normalized excerpt within this batch.
+    batch: dict[str, str] = {}
+    for c in need:
+        key = normalize_excerpt(c.get("excerpt") or "")
+        if key in batch:
+            c["excerpt_en"] = batch[key]
+            continue
+        try:
+            en = translate_text(c.get("excerpt") or "", source="ko", target="en")
+            batch[key] = en
+            c["excerpt_en"] = en
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARN: excerpt_en enrich failed: {exc}", file=sys.stderr)
+    return candidates
+
+
 def finalize_candidates(
     candidates: list[dict[str, Any]],
     *,
@@ -1000,6 +1151,12 @@ def finalize_candidates(
     rebuild_sightings: bool = True,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
+    prior_en = _prior_excerpt_en_by_id(signals_path)
+    prior_by_excerpt = _prior_excerpt_en_by_excerpt(signals_path, sightings_path)
+    # Cross-source DART↔EDGAR near-match compares excerpt_en to English excerpts.
+    candidates = _enrich_candidate_excerpt_en(
+        list(candidates), prior_by_excerpt=prior_by_excerpt
+    )
     signals, sightings = dedupe(candidates, prior_year_norms=prior_year_norms)
 
     if rebuild_sightings:
@@ -1023,6 +1180,7 @@ def finalize_candidates(
             all_sightings, prior_year_norms=prior_year_norms
         )
 
+    signals = _merge_excerpt_en(signals, prior_en)
     write_signals_csv(signals_path, signals)
     return signals, sightings
 

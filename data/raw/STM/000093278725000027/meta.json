@@ -1,0 +1,28 @@
+{
+  "company": "STMicroelectronics",
+  "ticker": "STM",
+  "cik": "0000932787",
+  "form": "6-K",
+  "filing_date": "2025-11-05",
+  "accession_number": "0000932787-25-000027",
+  "primary_document": "stm-6k_q3x2025.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/932787/000093278725000027/stm-6k_q3x2025.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-09-27",
+  "period_end": "2025-09-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:53:41.047418+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/STM/000093278725000027/primary.html",
+    "other": "data/raw/STM/000093278725000027/other_full.txt"
+  }
+}

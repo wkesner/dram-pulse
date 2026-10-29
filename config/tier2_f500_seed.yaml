@@ -1,0 +1,337 @@
+# Curated Fortune-scale / electronics-distribution seed (Tier 2) and broker-dense
+# public names (Tier 3). Merged into companies.yaml — this file is the rationale log.
+#
+# fortune_hint: approximate 2025 Fortune 500 rank when known (guide only).
+
+seed:
+  - ticker: IBM
+    tier: 2
+    fortune_hint: 68
+    why: Hybrid cloud / servers — memory demand in filings
+  - ticker: ORCL
+    tier: 2
+    fortune_hint: 87
+    why: Cloud & datacenter capacity / AI infra
+  - ticker: SNX
+    tier: 2
+    fortune_hint: 73
+    why: Electronics wholesale distribution
+  - ticker: ARW
+    tier: 2
+    fortune_hint: 154
+    why: Electronics wholesale distribution
+  - ticker: AVT
+    tier: 2
+    fortune_hint: 181
+    why: Electronics wholesale distribution
+  - ticker: CDW
+    tier: 2
+    fortune_hint: null
+    why: IT reseller — enterprise hardware demand
+  - ticker: FLEX
+    tier: 2
+    fortune_hint: null
+    why: EMS peer to Jabil
+  - ticker: BBY
+    tier: 2
+    fortune_hint: 108
+    why: Electronics retail channel
+  - ticker: VRT
+    tier: 2
+    fortune_hint: 471
+    why: Datacenter thermal / power
+  - ticker: NTAP
+    tier: 2
+    fortune_hint: null
+    why: Enterprise storage — flash/DRAM attach
+  - ticker: LRCX
+    tier: 2
+    fortune_hint: null
+    why: WFE memory fab capex proxy
+  - ticker: KLAC
+    tier: 2
+    fortune_hint: null
+    why: Process control / WFE
+  - ticker: ASML
+    tier: 2
+    fortune_hint: null
+    why: Lithography (20-F/6-K)
+  - ticker: TEL
+    tier: 2
+    fortune_hint: null
+    why: Interconnect for servers / DC
+  - ticker: GLW
+    tier: 2
+    fortune_hint: null
+    why: Glass / optics materials
+  - ticker: WCC
+    tier: 2
+    fortune_hint: 199
+    why: Electrical / datacenter distribution
+  - ticker: PANW
+    tier: 2
+    fortune_hint: 470
+    why: Security appliances — hardware BOM
+  - ticker: KEYS
+    tier: 2
+    fortune_hint: null
+    why: Electronic test equipment
+  - ticker: SANM
+    tier: 3
+    why: EMS mid-market
+  - ticker: CLS
+    tier: 3
+    why: EMS / datacenter hardware
+  - ticker: PLXS
+    tier: 3
+    why: EMS mid-market
+  - ticker: BHE
+    tier: 3
+    why: EMS mid-market
+  - ticker: NSIT
+    tier: 3
+    why: IT reseller
+  - ticker: COHU
+    tier: 3
+    why: Semiconductor test / handlers — memory & advanced packaging adjacency
+  - ticker: AEIS
+    tier: 3
+    why: Fab power systems
+  - ticker: FFIV
+    tier: 3
+    why: Application delivery appliances
+
+# --- F1000 electronics/DC remainder ---
+  - ticker: EQIX
+    tier: 2
+    why: F1000 datacenter REIT / colo — capacity & interconnect demand
+  - ticker: DLR
+    tier: 2
+    why: F1000 datacenter REIT
+  - ticker: ETN
+    tier: 2
+    why: F1000 electrical power for datacenters & industry
+  - ticker: NVT
+    tier: 2
+    why: Electrical enclosures / cooling — DC adjacency
+  - ticker: ENS
+    tier: 2
+    why: Industrial & datacenter batteries
+  - ticker: EMR
+    tier: 2
+    why: F1000 industrial automation / electrical
+  - ticker: HUBB
+    tier: 2
+    why: F1000 electrical products
+  - ticker: HON
+    tier: 2
+    why: F1000 diversified electronics / automation
+  - ticker: ROK
+    tier: 2
+    why: F1000 industrial automation electronics
+  - ticker: CRWV
+    tier: 2
+    why: GPU cloud / AI datacenter operator — public filings
+  - ticker: CIEN
+    tier: 2
+    why: F1000 optical networking gear
+  - ticker: BDC
+    tier: 2
+    why: F1000 industrial & datacenter cabling
+  - ticker: VSH
+    tier: 2
+    why: F1000 discrete semiconductors & passives
+  - ticker: SWKS
+    tier: 2
+    why: F1000 RF semiconductors
+  - ticker: MSI
+    tier: 2
+    why: F1000 communications equipment
+  - ticker: ZBRA
+    tier: 2
+    why: F1000 enterprise electronics / scanning
+  - ticker: TDY
+    tier: 2
+    why: F1000 instrumentation & electronics
+  - ticker: TRMB
+    tier: 2
+    why: F1000 electronics / positioning systems
+  - ticker: CDNS
+    tier: 2
+    why: F1000 EDA — chip/memory design tooling
+  - ticker: SNPS
+    tier: 2
+    why: F1000 EDA — chip/memory design tooling
+  - ticker: TER
+    tier: 2
+    why: F1000 semiconductor test
+  - ticker: ENTG
+    tier: 2
+    why: F1000 electronic materials / semicap
+  - ticker: MKSI
+    tier: 2
+    why: F1000 semicap process equipment
+  - ticker: ONTO
+    tier: 2
+    why: F1000 process control / metrology
+  - ticker: TTMI
+    tier: 2
+    why: F1000 PCB / interconnect manufacturing
+  - ticker: FN
+    tier: 2
+    why: F1000 optical / electronics manufacturing services
+  - ticker: IPGP
+    tier: 2
+    why: F1000 industrial lasers / photonics
+  - ticker: SCSC
+    tier: 2
+    why: F1000 electronics / POS & communications distribution
+  - ticker: CNXN
+    tier: 2
+    why: F1000 IT / electronics reseller
+  - ticker: PLUS
+    tier: 2
+    why: F1000 IT solutions / hardware reseller
+  - ticker: AKAM
+    tier: 2
+    why: F1000 edge / CDN infrastructure — datacenter adjacency
+
+# --- Medtech + dual-use/military ---
+  - ticker: MDT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ABT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SYK
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BSX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: EW
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ZBH
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ISRG
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DXCM
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: RMD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BAX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BDX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: GEHC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DHR
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TMO
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: A
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ILMN
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ALGN
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: PODD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TFX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: STE
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: ITGR
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LMT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: NOC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: GD
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: RTX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LHX
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: BA
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HII
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TDG
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HEI
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: CW
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: TXT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: HWM
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: KTOS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: MRCY
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: AVAV
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: DRS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: VSAT
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: LDOS
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SAIC
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: CACI
+    tier: 2
+    why: medtech or dual-use/military electronics BOM
+  - ticker: SMCI
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: AVGO
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: WDC
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: STX
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map
+  - ticker: SNDK
+    tier: 2
+    why: reclass non-household F500 off primary Tier 1 map

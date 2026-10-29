@@ -1,0 +1,690 @@
+Item 7.  Management’s Discussion and Analysis of Financial Condition and Results of Operations
+You should read the following discussion and analysis of our financial condition and results of operations together with the consolidated financial statements and related notes that are included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements based upon current plans, expectations and beliefs that involve risks and uncertainties. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth under “Risk Factors” and elsewhere in this Annual Report on Form 10-K.
+Overview
+     In a world where data is increasingly a precious commodity and competitive differentiator, Arista was founded to enable our customers to access all their centers of data in the quickest, most reliable, and secure manner. Over the last two decades, we have emerged as an industry leader, delivering data-driven, client-to-cloud networking-as-a-service. Our “Centers of Data” strategy is a fundamental pivot from legacy networking approaches that create incongruent silos to a unified, data-driven approach in which the network is a service that interconnects four primary domains: AI Centers, Data Centers, Campus Centers, and WAN Centers. Anchored by Arista’s state-oriented Extensible Operating System (EOS) and Network Data Lake (NetDL), our network-as-a-service platform delivers a seamless, consolidated networking experience regardless of data location
+Our solutions are differentiated because they:
+•
+offer uncompromising reliability derived from the foundation of robust quality assurance capabilities, and a suite of automated diagnostics;
+•
+are based on advanced open and standards-based technology that avoids what is often expensive vendor lock-in, and
+•
+provide consistent real-time telemetry and intelligent automation to decrease the manual workload on the operator.
+This strategy and differentiation have also allowed us to deliver our comprehensive suite of products, services, and technologies to a global customer base segmented into three primary categories: Cloud and AI Titans, AI and Specialty Providers, and Enterprise. Market research confirms that we continue to be a leader in high-speed Ethernet switching. The percentage of revenue derived from these customers during the current fiscal year was approximately 48% from Cloud and AI Titans, 32% from Enterprise and 20% from AI and Specialty Providers.
+Arista established itself as a market leader with platforms, products, and people to enable some of these hyperscalers’ most consequential networks. Our network-as-a-service approach now empowers customers of all sizes to seamlessly leverage their data through offerings spanning three key categories: Core (AI, Cloud, and Data Center Networking), Cognitive Adjacencies (Campus and Routing), and Cognitive Networks (Software and Services). The percentage of revenue derived from these product categories during the current fiscal year was approximately 65% from Core, 18% from Cognitive Adjacencies, and 17% from Software and Services. With world-class engineering expertise and platform innovation, our customers gain the predictable performance and operational simplicity required to turn data into a sustainable competitive advantage in a modern, AI-driven world.
+ The market for cloud networking is characterized by rapid technological evolution, intensifying competition, and the expansion of generative and agentic AI. To sustain our success and adapt to the market, we must increase sales in cloud, AI and enterprise data center Ethernet switching/routing markets, and campus workspace markets by leveraging our ability to rapidly develop new features and software applications. Our growth strategy relies on maintaining our agility and increasing our investment in research and development to deliver market-leading features to enhance the functionality of our existing cloud networking platform, expand our product offerings and build upon our technology leadership. In addition, we must continue to expand our global sales force and deepen our channel partnerships to reach new customers more effectively and increase sales to existing customers.
+Historically, a limited number of customers have accounted for a significant portion of our revenue. Two of our customers accounted for more than 10% of our total revenue in each of the last three years. Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively. We have experienced unpredictability in the timing of orders from our high-volume customers, primarily due to the inherent complexity of large-scale orders and fluctuations in their specific demand. This includes reductions or shifts in their capital expenditure budgets, as well as the impact of their internal cost-reduction and efficiency initiatives. Furthermore, variability in customer concentration is driven by the timing of new product deployments, customer spending cycles, and the extensive periods required for evaluation, testing, and qualification. We expect this variability in concentration and sales timing to continue on both a quarterly and annual basis.
+52
+Additionally, the pricing discounts typically required for these large-scale orders often reduce gross margins in the periods when the sales occur.
+We believe an increased focus on the deployment of AI-enabled solutions by our large customers has accelerated the need for advanced technology offerings, including some offerings from potential new market entrants. This prioritization and acceleration of AI related infrastructure investment has, at times, come in conjunction with a reduction or changes in the mix of previously planned purchases and various cost reduction measures by these customers, including optimization and increased efficiency in non-AI related capital expenditures. In addition, although the focus on deployment of AI-enabled solutions has driven increased demand for networking, the long-term trajectory is unknown. As such, demand estimates for our new products are difficult to forecast and can create volatility in our revenue. We remain in a period of new product introductions and expanded use cases, particularly in the AI Ethernet market. This has resulted in increased customer trials and contracts with acceptance periods, and an increase in the volatility and magnitude of our product deferred revenue balances, which in turn may create variability in our revenue results on a quarterly and annual basis. In addition, if we are not able to satisfy the requirements under customer trials or contracts with acceptance periods, we may be required to accept product returns from our customers, which would prevent us from recognizing revenue on such transactions and may result in the write-down of inventory.
+Macroeconomic Update
+    
+Global economic and business activities continue to face widespread macroeconomic uncertainties, including the effects of, among other things, inflation, monetary policy shifts, recession risks, potential supply chain disruptions, changes in government administration policy positions, and geopolitical pressures, including escalating international trade measures and tariff uncertainty.
+Management is actively working with contract manufacturers and suppliers to optimize our supply chain in response to evolving international trade policies and tariff uncertainties. While we have not yet experienced significant disruptions, the potential for future trade measures remains a risk to our supply chain continuity and product costs. We are maintaining a disciplined fulfillment cadence to ensure reliable inventory deployment. As we build capacity to meet escalating demand, we are shipping products against previously committed demand/deployment plans and accelerating some deployments as needed. Simultaneously, we are balancing customers’ requirements and lead times against the availability and lead times of key components and products from our suppliers and contract manufacturers. Given the timing and prioritization of customer orders and shipment patterns, as well as the timing and outcome of customer trials and contracts with acceptance periods, near term revenue trends may not be reflective of current demand levels and may benefit from demand/deployment plans that have been previously committed.
+In addition, we anticipate continued volatility in our inventory and purchase commitments as a result of new product introductions, shifts in customer demand, and fluctuations in supplier lead times. This volatility creates a heightened risk of excess or obsolete inventory and supplier liability charges. Simultaneously, supply chain inflation and material scarcity, such as the recent tightening of supply conditions in the memory market, have continued to put pressure on our gross margin. If tariff or non-tariff measures escalate, and/or if supply conditions worsen and we are unable to pass on these costs to customers, our gross margins could be further impacted. Additionally, broader macroeconomic instability could negatively affect demand, particularly within the enterprise market. Given these unpredictable factors, current financial conditions discussed herein may not be indicative of future operating results and trends.
+Results of Operations
+Year Ended December 31, 2025 Compared to Year Ended December 31, 2024
+Revenue, Cost of Revenue and Gross Margin (in millions, except percentages)
+53
+Year Ended December 31,
+2025
+2024
+Change in
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Revenue
+Product
+$
+7,576.9 
+84.1 
+%
+$
+5,884.0 
+84.0 
+%
+$
+1,692.9 
+28.8 
+%
+Service
+1,428.8 
+15.9 
+1,119.1 
+16.0 
+309.7 
+27.7 
+Total revenue
+9,005.7 
+100.0 
+7,003.1 
+100.0 
+2,002.6 
+28.6 
+Cost of revenue
+Product
+2,978.7 
+33.1 
+2,299.0 
+32.8 
+679.7 
+29.6 
+Service
+258.3 
+2.8 
+212.8 
+3.1 
+45.5 
+21.4 
+Total cost of revenue
+3,237.0 
+35.9 
+2,511.8 
+35.9 
+725.2 
+28.9 
+Gross profit
+$
+5,768.7 
+64.1 
+%
+$
+4,491.3 
+64.1 
+%
+$
+1,277.4 
+28.4 
+%
+Gross margin
+64.1 
+%
+64.1 
+%
+Revenue by Geography (in millions, except percentages)
+Year Ended December 31,
+2025
+% of Total
+2024
+% of Total
+Americas
+$
+7,122.1 
+79.1 
+ %
+$
+5,729.0 
+81.8 
+ %
+Europe, Middle East and Africa
+1,070.3 
+11.9 
+713.2 
+10.2 
+Asia-Pacific
+813.3 
+9.0 
+560.9 
+8.0 
+Total revenue
+$
+9,005.7 
+100.0 
+%
+$
+7,003.1 
+100.0 
+%
+Revenue
+Product revenue primarily consists of sales of our switching and routing products, and related network applications. Service revenue is primarily derived from sales of PCS contracts, which are typically purchased in conjunction with our products, and subsequent renewals of those contracts. We expect our revenue may vary from period to period based on, among other things, industry and customer cyclicality, the timing, size, and complexity of orders, especially with respect to our large customers, and the
+time it takes for customers to evaluate, test, qualify and accept our products and services.
+
+Product revenue increased by $1.7 billion, or 28.8%, for the year ended December 31, 2025 compared to 2024.  This
+increase reflects healthy customer demand and higher shipments of our switching and routing platforms, with strong contributions across our customer base
+. In addition, service revenue increased by $309.7 million, or 27.7%, for the year ended December 31, 2025 compared to 2024, as a result of continued growth in initial and renewal support contracts as our customer installed base has continued to expand. Non - Americas revenu
+es as a percentage of our total revenues in
+creased fro
+m
+18.2%
+ in
+2024 to 20.9% in 2025, which was primarily driven by changes in the geographic mix of sales to our large global customers.
+Cost of Revenue and Gross Margin
+Cost of product revenue primarily consists of amounts paid for inventory to our third-party contract manufacturers and merchant silicon vendors, overhead costs of our manufacturing operations, including freight, and other costs associated with manufacturing our products and managing our inventory and supply chain. Cost of service revenue primarily consists of personnel and other costs associated with our global customer support and services organizations.
+Cost of revenue increased by $725.2 million, or 28.9% for the year ended December 31, 2025 compared to 2024. These increases were driven by a corresponding increase in product and service revenues.
+Gross margin, or gross profit as a percentage of revenue, has been and will continue to be affected by a variety of factors, including pricing pressure on our products and services due to competition, the mix of sales to large customers who generally receive lower pricing, the mix of products sold, manufacturing-related costs, including costs associated with our manufacturing operations personnel, inflationary pressure and scarcity of materials in our supply chain, merchant silicon costs,
+54
+and excess/obsolete inventory and supplier liability charges. We expect our gross margin to fluctuate over time, depending on the factors described above.
+Gross margin remained constant at 64.1% for the years ended December 31, 2025 and 2024.
+Operating Expenses (in millions, except percentages)
+Our operating expenses consist of research and development, sales and marketing, and general and administrative expenses. The largest component of our operating expenses is personnel costs and new product introduction costs. Personnel costs consist of wages, benefits, bonuses and, with respect to sales and marketing expenses, sales incentive compensation. Personnel costs also include stock-based compensation and travel-related expenses. New product introduction costs are primarily comprised of third-party engineering and prototype expenses.
+ 
+Year Ended December 31,
+ 
+ 
+2025
+2024
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Operating expenses:
+Research and development
+$
+1,237.3 
+13.8 
+%
+$
+996.7 
+14.2 
+%
+$
+240.6 
+24.1 
+%
+Sales and marketing
+533.4 
+5.9 
+427.3 
+6.1 
+106.1 
+24.8 
+General and administrative
+141.9 
+1.6 
+122.7 
+1.8 
+19.2 
+15.6 
+Total operating expenses
+$
+1,912.6 
+21.3 
+%
+$
+1,546.7 
+22.1 
+%
+$
+365.9 
+23.7 
+%
+Research and development.
+Research and development expenses consist primarily of personnel costs, new product introduction costs and an allocated portion of facility and IT costs. Our research and development efforts are focused on new product development and maintaining and developing additional functionality for our existing products, including new releases and upgrades to our EOS software and applications. We expect our research and development expenses to increase in absolute dollars as we continue to invest in research and development in order to expand the capabilities of our cloud networking platform, introduce new products and features, and continue to invest in our technology.
+Research and development expenses increased by $240.6 million, or 24.1%, for the year ended December 31, 2025 compared to 2024. The increase was primarily due to a $95.6 million increase in personnel costs driven by an increase in headcount, and a $78.6 million increase in new product introduction costs, including third-party engineering costs and prototype expenses as we expand our product portfolio.
+Sales and marketing.
+Sales and marketing expenses consist primarily of personnel costs, marketing, trade shows, and other promotional activities, and an allocated portion of facility and IT costs. We expect our sales and marketing expenses to increase in absolute dollars as we continue to expand our sales and marketing efforts worldwide.
+Sales and marketing expenses increased by $106.1 million, or 24.8%, for the year ended December 31, 2025 compared to 2024 primarily due to an increase in personnel costs driven by an increase in headcount.
+General and administrative.
+General and administrative expenses consist primarily of personnel costs and professional services costs for our finance, human resources, legal and certain executive functions. Our professional services costs are primarily related to external legal, accounting, and tax services.
+General and administrative expenses increased by $19.2 million, or 15.6%, for the year ended December 31, 2025 compared to 2024 primarily due to an increase in professional fees.
+Other Income, Net (in millions, except percentages)
+Other income (expense), net consists primarily of interest income from our cash, cash equivalents and marketable securities.  We expect other income (expense), net may fluctuate in the future as a result of changes in interest rates, changes in our cash, cash equivalents and marketable securities balances.
+55
+ 
+Year Ended December 31,
+ 
+ 
+2025
+2024
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Other income (expense), net:
+Interest income
+$
+383.4 
+4.3 
+%
+$
+311.0 
+4.4 
+%
+$
+72.4 
+23.3 
+%
+Other income (expense), net
+10.2 
+0.1 
+9.5 
+0.1 
+0.7 
+7.4 
+Total other income, net
+$
+393.6 
+4.4 
+%
+$
+320.5 
+4.6 
+%
+$
+73.1 
+22.8 
+%
+The favorable movement in other income (expense), net, during the year ended December 31, 2025 as compared to 2024 was driven by an increase in interest income of $72.4 million due to an increase in our cash and marketable securities balances.
+Provision for Income Taxes (in millions, except percentages)
+
+We operate in a number of tax jurisdictions and are subject to taxes in each country or jurisdiction in which we conduct business. Earnings from our non-U.S. activities are subject to local country income tax and may also be subject to U.S. income tax. Generally, our U.S. tax obligations are reduced by a credit for foreign income taxes paid on these foreign earnings, which avoids double taxation. Our tax expense to date consists of federal, state and foreign current and deferred income taxes.
+ 
+Year Ended December 31,
+ 
+ 
+2025
+2024
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Provision for income taxes
+$
+738.3 
+8.2 
+%
+$
+413.0 
+5.9 
+%
+$
+325.3 
+78.8 
+%
+Effective tax rate
+17.4 
+%
+12.6 
+%
+On July 4, 2025, the OBBB Act was signed into law in the U.S. This legislation contains a broad range of tax reform provisions affecting businesses, which are reflected in our twelve months ended December 31, 2025 period results.
+Our provision for income taxes and effective tax rate increased for the year ended December 31, 2025, as compared to 2024. The increase in our income taxes was primarily associated with a decrease in tax benefits attributable to equity-based compensation. For further information regarding income taxes and the impact on our results of operations and financial position, refer to Note 8. Income Taxes of the Notes to Consolidated Financial Statements included in Part II, Item 8, of this Annual Report on Form 10-K.
+Year Ended December 31, 2024 Compared to Year Ended December 31, 2023
+Revenue, Cost of Revenue and Gross Margin (in millions, except percentages)
+ 
+Year Ended December 31,
+ 
+ 
+2024
+2023
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Revenue
+Product
+$
+5,884.0 
+84.0 
+%
+$
+5,029.5 
+85.8 
+%
+$
+854.5 
+17.0 
+%
+Service
+1,119.1 
+16.0 
+830.7 
+14.2 
+288.4 
+34.7 
+Total revenue
+7,003.1 
+100.0 
+5,860.2 
+100.0 
+1,142.9 
+19.5 
+Cost of revenue
+Product
+2,299.0 
+32.8 
+2,061.2 
+35.2 
+237.8 
+11.5 
+Service
+212.8 
+3.1 
+168.7 
+2.9 
+44.1 
+26.1 
+Total cost of revenue
+2,511.8 
+35.9 
+2,229.9 
+38.1 
+281.9 
+12.6 
+Gross profit
+$
+4,491.3 
+64.1 
+%
+$
+3,630.3 
+61.9 
+%
+$
+861.0 
+23.7 
+%
+Gross margin
+64.1 
+%
+61.9 
+%
+56
+Revenue by Geography (in millions, except percentages)
+Year Ended December 31,
+2024
+% of Total
+2023
+% of Total
+Americas
+$
+5,729.0 
+81.8 
+ %
+$
+4,651.2 
+79.3 
+ %
+Europe, Middle East and Africa
+713.2 
+10.2 
+671.0 
+11.5 
+Asia-Pacific
+560.9 
+8.0 
+538.0 
+9.2 
+Total revenue
+$
+7,003.1 
+100.0 
+%
+$
+5,860.2 
+100.0 
+%
+Revenue
+Product revenue increased by $854.5 million, or 17.0%, for the year ended December 31, 2024 compared to 2023. This increase reflects healthy customer demand and higher shipments of our switching and routing platforms, with strong contributions across our customer base. In addition, service revenue increased by $288.5 million, or 34.7%, for the year ended December 31, 2024 compared to 2023, as a result of continued growth in initial and renewal support contracts as our customer installed base has continued to expand. Non - Americas revenues as a percentage of our total revenues decreased from 20.6% in 2023 to 18.2% in 2024, which was primarily driven by changes in the geographic mix of sales to our large global customers.
+Cost of Revenue and Gross Margin
+Cost of revenue increased by $282.0 million, or 12.6% for the year ended December 31, 2024 compared to 2023. These increases were driven by a corresponding increase in product and service revenues, partially offset by reductions of $180.4 million in net excess/obsolete inventory and supplier liability charges for the year ended December 31, 2024 compared to 2023.
+Gross margin increased from 61.9% for the year ended December 31, 2023 to 64.1% for the year ended December 31, 2024. These changes reflect an improvement in product margins of 60.9% in 2024 compared to 59.0% in 2023, driven by a reduction of $180.4 million in net excess/obsolete inventory-related charges.
+Operating Expenses (in millions, except percentages)
+ 
+Year Ended December 31,
+ 
+ 
+2024
+2023
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Operating expenses:
+Research and development
+$
+996.7 
+14.2 
+%
+$
+854.9 
+14.6 
+%
+$
+141.8 
+16.6 
+%
+Sales and marketing
+427.3 
+6.1 
+399.0 
+6.8 
+28.3 
+7.1 
+General and administrative
+122.7 
+1.8 
+119.1 
+2.0 
+3.6 
+3.0 
+Total operating expenses
+$
+1,546.7 
+22.1 
+%
+$
+1,373.0 
+23.4 
+%
+$
+173.7 
+12.7 
+%
+Research and development
+Research and development expenses increased by $141.8 million, or 16.6%, for the year ended December 31, 2024 compared to 2023. The increase was primarily due to a $64.9 million increase in personnel costs driven by an increase in headcount, and a $52.3 million increase in new product introduction costs, including third-party engineering costs and prototype expenses as we expand our product portfolio.
+Sales and marketing
+Sales and marketing expenses increased by $28.3 million, or 7.1%, for the year ended December 31, 2024 compared to 2023 primarily due to an increase in personnel costs.
+General and administrative
+General and administrative expenses increased by $3.6 million, or 3.0%, for the year ended December 31, 2024 compared to 2023.
+57
+Other Income, Net (in millions, except percentages)
+ 
+Year Ended December 31,
+ 
+ 
+2024
+2023
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Other income, net:
+Interest income
+$
+311.0 
+4.5 
+%
+$
+152.4 
+2.6 
+%
+$
+158.6 
+104.0 
+%
+   Other income (expense), net
+9.5 
+0.1 
+12.3 
+0.2 
+(2.8)
+(23.8)
+Total other income, net
+$
+320.5 
+4.6 
+%
+$
+164.7 
+2.8 
+%
+$
+155.8 
+94.5 
+%
+The favorable movement in other income (expense), net, during the year ended December 31, 2024 as compared to 2023 was driven by an increase in interest income of $158.6 million due to an increase in our cash and marketable securities balances, coupled with higher investment yields.
+Provision for Income Taxes (in millions, except percentages)
+ 
+Year Ended December 31,
+ 
+ 
+2024
+2023
+Change in
+ 
+$
+% of
+Revenue
+$
+% of
+Revenue
+$
+%
+Provision for income taxes
+$
+413.0 
+5.9 
+%
+$
+334.7 
+5.7 
+%
+$
+78.3 
+23.4 
+%
+Effective tax rate
+12.6 
+%
+13.8 
+%
+Our provision for income taxes increased for the year ended December 31, 2024, as compared to 2023, while our effective tax rate decreased for the year ended December 31, 2024, as compared to 2023. The increase in our income taxes was largely due to an increase in pre-tax income, partly offset by a decrease in our effective tax rate due to favorable changes in state taxes and tax benefits attributable to stock-based compensation. For further information regarding income taxes and the impact on our results of operations and financial position, refer to Note 8. Income Taxes of the Notes to Consolidated Financial Statements included in Part II, Item 8, of this Annual Report on Form 10-K.
+Liquidity and Capital Resources
+Our principal sources of liquidity are cash, cash equivalents, marketable securities, and cash generated from operations. As of December 31, 2025, our total balance of cash, cash equivalents and marketable securities was $10.7 billion, of which approximately $1.0 billion was held outside the U.S. in our foreign subsidiaries. 
+Our cash, cash equivalents and marketable securities are held for general business purposes, including the funding of working capital. Our marketable securities investment portfolio is primarily invested in highly-rated securities, with the primary objective of minimizing the potential risk of principal loss. We plan to continue to invest for long-term growth. We believe that our existing balances of cash, cash equivalents and marketable securities, together with cash generated from operations, will be sufficient to meet our working capital requirements and our growth strategies for at least the next 12 months. Our future capital requirements will depend on many factors, including our growth rate, the timing and extent of our spending to support research and development activities, the timing and cost of establishing additional sales and marketing capabilities, the introduction of new and enhanced product and service offerings, our costs associated with supply chain activities, including access to outsourced manufacturing, our costs related to investing in or acquiring complementary or strategic businesses and technologies, the continued market acceptance of our products, stock repurchases, and capital expenditures, including the construction of a new building in Santa Clara, California. In addition, although the global supply chain has shown improvement, we have had to invest in inventory and increase our purchase commitments to address forecast uncertainty and we anticipate continued volatility in our inventory and purchase commitments. This variability is driven by new product introductions, fluctuating customer demand and varying supplier lead times. In particular, we have increased our purchase commitments to respond to the rapid deployment of AI networks and reduce overall lead times which will increase our working capital requirements. If we require or elect to seek additional capital through debt or equity financing in the future, we may not be able to raise capital on terms acceptable to us or at all. If we are required and unable to raise additional capital when desired, our business, operating results and financial condition may be adversely affected.
+58
+Cash Flows
+Year Ended December 31,
+2025
+2024
+2023
+(in millions)
+Cash provided by operating activities
+$
+4,371.9 
+$
+3,708.2 
+$
+2,034.0 
+Cash (used in) investing activities
+
+(3,576.2)
+(2,457.3)
+(687.5)
+Cash (used in) financing activities
+(1,595.9)
+(421.8)
+(83.8)
+Effect of exchange rate changes
+1.7 
+(4.8)
+0.8 
+Net increase in cash, cash equivalents and restricted cash
+$
+(798.5)
+$
+824.3 
+$
+1,263.5 
+Cash Flows from Operating Activities
+Our operating activities consist of net income, adjusted for certain non-cash items, and changes in operating assets and liabilities.
+During the year ended December 31, 2025, cash provided by operating activities was $4.4 billion, primarily from net income of $3.5 billion, a net decrease in working capital requirements of $687.8 million, and net non-cash adjustments to net income of $172.7 million. Operating cash inflows consisted of an increase in deferred revenue of $2.5 billion resulting from  an increase in product deferred revenue related to customer contracts with acceptance terms and increased customer PCS contracts, and  a $379.9 million increase in accounts payable and other liabilities related to growing business volume and timing of payments to our large vendors. These cash inflows were partially offset by a $412.5 million increase in inventory in response to an increase in business volume, a $937.4 million increase in other assets driven by increased deferred cost of goods sold associated with higher product revenue deferrals, and an increase in accounts receivable of $746.4 million due to increased product and service billings. Net non-cash adjustments primarily consisted of $439.2 million of stock-based compensation expenses, which was largely offset by an increase in deferred income taxes of $312.0 million primarily resulting from increased deferred tax assets associated with the increase in deferred revenue.
+During the year ended December 31, 2024, cash provided by operating activities was $3.7 billion, primarily from net income of $2.9 billion along with a net decrease in working capital requirements of $985.2 million, offset by net non-cash adjustments to net income of $129.0 million. Cash inflows consisted of an increase in deferred revenue of $1.3 billion resulting from increased customer PCS contracts and an increase in product deferred revenue related to customer contracts with acceptance terms, and a $110.6 million decrease in inventory resulting from strong product shipments. These cash inflows were partially offset by a $234.2 million increase in other assets driven by increased deferred cost of goods sold associated with higher product revenue deferrals, an increase in accounts receivable of $106.1 million due to increased product and service billings and a $66.5 million increase in income tax payments due to timing. Net non-cash adjustments primarily consisted of an increase in deferred income taxes of $492.9 million primarily resulting from increased deferred tax assets associated with the increase in deferred revenue and capitalization of research and development costs under IRC Section 174, which were largely offset by $355.4 million of stock-based compensation expenses.
+Cash Flows from Investing Activities
+Our investing activities primarily consist of our marketable securities investments, business combinations, and capital expenditures.
+During the year ended December 31, 2025, cash used in investing activities was $3.6 billion, consisting of purchases of available-for-sale securities of $6.7 billion, $300.0 million for the business acquisition of VeloCloud. and purchases of property, equipment and intangible assets of $119.5 million, partially offset by proceeds of $3.6 billion from maturities and sales of marketable securities.
+During the year ended December 31, 2024, cash used in investing activities was $2.5 billion, consisting of purchases of available-for-sale securities of $4.5 billion, partially offset by proceeds of $2.1 billion from maturities and sales of marketable securities.
+Cash Flows from Financing Activities
+59
+Our financing activities consist of proceeds from the issuance of our common stock under employee equity incentive plans, offset by repurchases of our common stock.
+During the year ended December 31, 2025, cash used in financing activities was $1.6 billion, consisting of payments for repurchases of our common stock from the open market of $1.6 billion.
+During the year ended December 31, 2024, cash used in financing activities was $421.8 million, consisting of payments for repurchases of our common stock from the open market of $423.6 million and employee taxes withheld and  paid of $58.4 million upon vesting of restricted stock units, partially offset by proceeds from the issuance of common stock under employee equity incentive plans of $60.2 million.
+Stock Repurchase Programs
+From time to time, we repurchase shares of our common stock pursuant to repurchase programs that are funded from working capital. In May 2025, we completed repurchases under the $1.2 billion Prior Repurchase Program, and our board of directors authorized the $1.5 billion New Repurchase Program. The New Repurchase Program does not oblige us to acquire any of our common stock and may be suspended or discontinued by the Company at any time without prior notice. During the year ended December 31, 2025, we repurchased a total of $921.0 million of our common stock under our Prior Repurchase Program and $682.1 million of our common stock under our New Repurchase Program. As of December 31, 2025, the remaining authorized amount for stock repurchases under the New Repurchase Program was approximately $817.9 million. Refer to Note 6. Stockholders' Equity and Stock-Based Compensation of the Notes to Consolidated Financial Statements included in Part II, Item 8, of this Annual Report on Form 10-K for further discussion.
+Material Cash Requirements
+Our material cash requirements will have an impact on our future liquidity. Our material cash requirements represent material expected or contractually committed future payment obligations. We believe that we will be able to fund these obligations through cash generated from operations and from our existing balances of cash, cash equivalents and marketable securities.
+Our material cash requirements include the following contractual and other obligations:
+Purchase Obligations
+We outsource most of our manufacturing and supply chain management operations to third-party contract manufacturers, who procure components and assemble products on our behalf. A significant portion of our purchase orders for finished goods and strategic components, including integrated circuits consigned to contract manufacturers, consists of non-cancellable commitments. Our purchase obligations also encompass software and technology licenses, property and equipment, and other corporate goods and services. As of December 31, 2025, we had $6.8 billion of such purchase obligations, of which
+$6.3 billion are expected to be received within 12 months, and
+$0.5 billion
+are e
+xpected to be received after one year.  These open purchase orders are considered enforceable and legally binding, and while we may have some limited ability to reschedule and adjust our requirements based on our business needs prior to the delivery of goods or performance of services, this can only occur with the agreement of the related supplier.
+Leases
+We have operating lease arrangements for office space, data center, equipment and other corporate assets. As of December 31, 2025, we had lease payment obligations, net of immaterial sublease income of $90.5 million, with $22.1 million payable within 12 months.
+Property Project
+During the year ended December 31, 2021, we purchased land and the improvements thereon in Santa Clara, California to construct a building for office, lab and data center space. The estimated capital expenditures related to this project is expected to be approximately $170.0 million to $195.0 million through the end of fiscal 2026 when construction is expected to be completed.
+Off-balance Sheet Arrangements
+60
+As of December 31, 2025, we did not have any relationships with any unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or special purpose entities, that would have been established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes.
+Critical Accounting Estimates 
+We have prepared our consolidated financial statements in accordance with accounting principles generally accepted in the United States ("GAAP" or "U.S. GAAP") and include our accounts and the accounts of our wholly owned subsidiaries. The preparation of these consolidated financial statements requires our management to make estimates, assumptions and judgments that affect the reported amounts of assets and liabilities at the date of the financial statements, disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the applicable periods. Note 1, “Organization and Summary of Significant Accounting Policies,” of the Notes to Consolidated Financial Statements in Part II, Item 8 of this Form 10-K describes the significant accounting policies and methods used in the preparation of the Company’s consolidated financial statements. We base our estimates, assumptions and judgments on historical experience and on various other factors that we believe to be reasonable under the circumstances. Different assumptions and judgments would change the estimates used in the preparation of our consolidated financial statements, which, in turn, could change the results from those reported. We evaluate our estimates, assumptions and judgments on an ongoing basis. Actual results may differ from these estimates. To the extent that there are material differences between these estimates and our actual results, our future financial statements will be affected.
+Revenue Recognition
+We generate revenue from sales of our products, which incorporate our EOS software and accessories such as cables and optics, to direct customers and channel partners together with PCS. We typically sell products and PCS in a single contract. We recognize revenue upon transfer of control of promised products or services to customers in an amount that reflects the consideration we expect to be entitled to receive in exchange for those products or services. Most of our contracts with customers, other than renewals of PCS, contain multiple performance obligations with a combination of products and PCS. Products and PCS generally qualify as distinct performance obligations. Our hardware includes EOS software, which together deliver the essential functionality of our products. For contracts which contain multiple performance obligations, we allocate revenue to each distinct performance obligation based on the standalone selling price (“SSP”). Judgment is required to determine the SSP for each distinct performance obligation. We use a range of amounts to estimate SSP for products and PCS sold together in a contract to determine whether there is a discount to be allocated based on the relative SSP of the various products and PCS.
+If we do not have an observable SSP, such as when we do not sell a product or service separately, then SSP is estimated using judgment and considering all reasonably available information, such as gross margin objectives, market conditions and information about the size and/or purchase volume of the customer. We generally use a range of amounts to estimate SSP for individual products and services based on multiple factors including, but not limited to, product category, actual and expected volume, discounting policies, and customer vertical and size.
+Inventory Valuation and Supplier Liabilities
+Inventories primarily consist of finished goods, including evaluation inventory held at customers or partners, and strategic components, primarily integrated circuits. Inventories are stated at the lower of cost or net realizable value. Cost is computed using standard cost, which approximates actual cost, on a first-in, first-out basis. Evaluation inventory consists of new products and/or use cases at customer or partner sites for trial purposes. Title to the inventory remains with Arista during the trial period and invoicing occurs only upon completion of the trial period and when/if the products have been accepted by the customer. Manufacturing overhead costs and inbound shipping costs are included in the cost of inventory. We record a provision when inventory is determined to be in excess of anticipated demand, or obsolete, to adjust inventory to its estimated realizable value. 
+We record a liability and a corresponding charge for non-cancellable, non-returnable purchase commitments with our suppliers for quantities in excess of our demand forecasts or that are considered obsolete.
+We use significant judgment in establishing our forecasts of future demand and obsolete material exposures. These estimates depend on our assessment of current and expected orders from our customers, product development plans and current sales levels.  Despite general improvements in the supply environment, fluctuations in supplier lead times and the persistence of some long-lead components require us to maintain elevated inventory levels and purchase commitments. To manage this
+61
+continued volatility, we maintain extended demand-planning horizons and strategic inventory buffers to ensure continuity of supply and address forecast uncertainty. We expect inventory and purchase commitments to remain volatile due to new product introductions, fluctuating customer demand, and varying supplier lead times. There is, however, no guarantee that all suppliers will meet their commitments in the time frame committed or that actual customer demand will directly match our demand forecasts. If actual market demand conditions or supplier execution on commitments are less favorable than those projected by management, which may be caused by factors within and/or outside of our control, we may be required to increase our inventory write-downs and liabilities to our suppliers, which could have an adverse impact on our gross margins and profitability. We regularly evaluate our exposure for inventory write-downs and adequacy of our contract manufacturer and supplier liabilities.
+Income Taxes
+Significant management judgment is required in developing our provision for or benefit from income taxes, including the
+
+determination of deferred tax assets and liabilities and any valuation allowances that might be required against the deferred tax assets. In assessing the need for a valuation allowance, we consider all available evidence, including past operating results and estimates of our ability to generate sufficient future taxable income in certain foreign and state tax jurisdictions, future reversals of taxable temporary differences, and potential tax planning strategies. An adjustment to the valuation allowance will either increase or decrease our provision for or benefit from income taxes in the period such determination is made.
+We are subject to income taxes in the U.S. and numerous foreign jurisdictions, which involves significant judgment in the interpretation of complex domestic and international tax laws and may give rise to uncertain tax positions. We recognize potential liabilities for anticipated tax audit issues in the U.S. and other tax jurisdictions based on our estimate of whether it is more likely than not that additional taxes, interest, and penalties will be due. Although management believes our unrecognized tax benefits are reasonable, no assurance can be given that the final tax outcome of these matters will not be different from that which is reflected in our unrecognized tax benefits. Our unrecognized tax benefits are adjusted considering changing facts and circumstances, such as the closing of a tax examination or the refinement of an estimate. Resolution of these uncertainties in a manner inconsistent with management’s expectations could have a material impact on our financial condition and operating results.
+Recent Accounting Pronouncements
+Refer to the subheading titled “
+Recently Adopted Accounting Pronouncements”
+in Note 1. Organization and Summary of Significant Accounting Policies of the Notes to Consolidated Financial Statements included in Part II, Item 8, of this Annual Report on Form 10-K.
+62
