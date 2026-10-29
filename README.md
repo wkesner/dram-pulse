@@ -78,6 +78,30 @@ python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
+### Broker market simulation
+
+Three fictional DRAM component brokers compete for virtual P&L on the shared
+seed catalog (`data/seed_catalog.json`). They buy offers **under** market and
+sell customer demand **at or above** market, with partially overlapping
+customer books (buyers from `config/companies.yaml` plus invented EMS/ODM
+names — not three disjoint books).
+
+| Broker | Personality |
+|--------|-------------|
+| Apex Component Brokers | Hungry buyer, patient seller, holds inventory |
+| Harbor Electronics Trading | Deep discounts only, quick flips at ≥ market |
+| Summit Memory Partners | Balanced volume, broadest customer affinity |
+
+```bash
+python3 -m scripts.simulate_brokers --days 30 --seed 42
+python3 -m dram_signals.broker_sim --days 60 --seed 7 --json
+pytest tests/test_broker_sim.py
+```
+
+Market prices are an illustrative USD/unit model (technology × density × grade
+× lifecycle) with a small daily random walk — not a live spot feed. Details and
+assumptions live in `dram_signals/broker_sim/`.
+
 ## Milestone 5 — OpenDART + Samsung IR
 
 Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
