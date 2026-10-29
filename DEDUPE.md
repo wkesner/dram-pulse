@@ -59,8 +59,8 @@ Recency weighting (later, not v1) should use `last_seen`. A passage that is stil
 
 Write these as a pure function over candidate rows, `dedupe(rows) -> (signals, sightings)`, so it can be tested without network access. `dedupe_reference.py` is a working version to port.
 
-1. **Overlapping windows, one document.** Group candidate windows by `raw_path`, `product_family` and `supply_direction`. Where windows overlap, keep one: the window with the most matched terms, then the longest, then the earliest. Windows with **different** directions are kept even if they overlap. In Micron's 10-K, a window saying HBM demand may outrun supply overlaps one saying HBM demand may weaken. Both are real signals.
-2. **Exact repeat.** Process rows oldest filing first. If the normalized excerpt matches any text already seen for the same `company` and `product_family`, it's a sighting of that signal (`match = exact`). This includes the same text appearing in two sections of one filing.
+1. **Overlapping windows, one document.** Group candidate windows by `raw_path`, `product_family` and `supply_direction`. Where windows overlap, keep one: the window with the most matched terms, then the longest, then more specific family, then the earliest. Windows with **different** directions are kept even if they overlap. In Micron's 10-K, a window saying HBM demand may outrun supply overlaps one saying HBM demand may weaken. Both are real signals. (Extract also collapses heavily overlapping windows **across** families so a span is not emitted three times as DRAM + NAND + Memory_general.)
+2. **Exact repeat.** Process rows oldest filing first. If the normalized `match_text` matches any text already seen for the same `company` and `supply_direction` — **any** `product_family` — it's a sighting of that signal (`match = exact`). This includes the same text appearing in two sections of one filing, and the same Silicon Labs shortage paragraph tagged under DRAM, NAND, and Memory_general. A **nested window** also exact-merges when families differ and one normalized `match_text` is a substantial substring (≥80 chars) of the other (short Memory_general span inside a longer NAND claim). The rebuilt card prefers a more specific family over `Memory_general`.
 3. **Near repeat.** For the same `company` and `product_family`, it's a sighting (`match = near`) only if **all** of these hold:
    - the word-set Jaccard similarity to any text already seen for that signal is at least **0.85**
    - `supply_direction` and `sentiment` are the same
@@ -82,7 +82,7 @@ The fixture is `fixtures/signals_v010.csv`, a copy of the 0.1.0 run. Map each ol
 
 | Test | Expected |
 |---|---|
-| Totals | 188 rows → 124 sightings → 69 signals; 39 exact, 16 near |
+| Totals | 188 rows → 124 sightings → 57 signals; 55 exact, 12 near |
 | Micron's restated quarterly sentence merges | old IDs `1f0beca2cc6f`, `6ddf3af33877`, `0e6411d58623`, `db2a072beb62` share one new signal |
 | Qualcomm increase versus decrease stays apart | `8732382a3a08` and `11282417d705` are different signals |
 | Conflicting HBM windows both survive | `5270a139e733` (tightening) and `6726809579d0` (easing) are both kept |

@@ -28,6 +28,25 @@ _NON_ALNUM_RUN = re.compile(r"[^a-z0-9]+", re.IGNORECASE)
 _SENT_SPLIT = re.compile(r"[.!?]+")
 _SOURCE_RANK = {"EDGAR": 0, "IR": 1, "DART": 2}
 
+# When the same passage matches several families (e.g. DRAM + NAND + Memory_general),
+# keep one signal and prefer a more specific family for the displayed card.
+_FAMILY_SPECIFICITY = {
+    "Memory_general": 0,
+    "DRAM_general": 1,
+    "NAND_general": 1,
+    "DDR4": 2,
+    "DDR5": 2,
+    "LPDDR": 2,
+    "GDDR": 2,
+    "HBM": 3,
+    "Data center SSD": 2,
+    "Client SSD": 2,
+    "Mobile/embedded": 2,
+    "CXL": 2,
+    "AI_accelerators": 2,
+    "Packaging": 2,
+}
+
 # Curly / typographic quotes → straight.
 _QUOTE_MAP = str.maketrans(
     {
@@ -124,6 +143,19 @@ def normalize(text: str) -> str:
     s = s.lower()
     s = _NON_ALNUM_RUN.sub(" ", s)
     return s.strip()
+
+
+# Nested windows of the same English claim (short Memory_general inside a longer
+# DRAM/NAND span) should exact-merge even when char offsets differ across filings.
+_CONTAINMENT_MIN_CHARS = 80
+
+
+def is_match_text_contained(a: str, b: str, *, min_chars: int = _CONTAINMENT_MIN_CHARS) -> bool:
+    """True when one normalized match_text is a substantial substring of the other."""
+    na, nb = normalize(a), normalize(b)
+    if len(na) < min_chars or len(nb) < min_chars:
+        return False
+    return na in nb or nb in na
 
 
 def is_english_lang(lang: str) -> bool:
@@ -240,6 +272,23 @@ def _matched_term_count(row: dict[str, Any]) -> int:
     return len([p for p in mt.split(";") if p.strip()])
 
 
+def family_specificity(family: str) -> int:
+    """Higher = more specific product family (Memory_general is the catch-all)."""
+    return _FAMILY_SPECIFICITY.get(family or "", 2)
+
+
+def window_keep_score(row: dict[str, Any]) -> tuple:
+    """Prefer richer matches, longer spans, more specific families, earlier start."""
+    return (
+        _matched_term_count(row),
+        int(row["char_end"]) - int(row["char_start"]),
+        family_specificity(str(row.get("product_family") or "")),
+        -int(row["char_start"]),
+        # Stable tie-break so DRAM vs NAND at equal specificity is deterministic.
+        str(row.get("product_family") or ""),
+    )
+
+
 def _span(row: dict[str, Any]) -> tuple[int, int]:
     return int(row["char_start"]), int(row["char_end"])
 
@@ -253,11 +302,12 @@ def _overlaps(a: dict[str, Any], b: dict[str, Any]) -> bool:
 def collapse_overlapping_windows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """
     Group by raw_path + product_family + supply_direction. Where windows
-    overlap, keep the one with most matched terms, then longest, then earliest.
-    Different directions overlapping are both kept (different groups).
+    overlap, keep one: most matched terms, then longest, then more specific
+    family, then earliest. Different directions (or families) overlapping are
+    kept in separate groups — cross-family exact merge happens later so each
+    candidate remains a sighting under one signal_id.
     """
     groups: dict[tuple[str, str, str], list[dict[str, Any]]] = defaultdict(list)
-    passthrough: list[dict[str, Any]] = []
     for row in rows:
         key = (
             row.get("raw_path") or "",
@@ -280,18 +330,7 @@ def collapse_overlapping_windows(rows: list[dict[str, Any]]) -> list[dict[str, A
                 selected.append(row)
                 continue
             prev = selected[conflict_idx]
-            # Prefer more matched terms, then longer span, then earlier start.
-            cand_score = (
-                _matched_term_count(row),
-                int(row["char_end"]) - int(row["char_start"]),
-                -int(row["char_start"]),
-            )
-            prev_score = (
-                _matched_term_count(prev),
-                int(prev["char_end"]) - int(prev["char_start"]),
-                -int(prev["char_start"]),
-            )
-            if cand_score > prev_score:
+            if window_keep_score(row) > window_keep_score(prev):
                 selected[conflict_idx] = row
             # else keep prev
         kept.extend(selected)
@@ -308,17 +347,21 @@ def dedupe(
     """
     Pure function: candidate rows → (signals, sightings).
 
-    Exact/near match on (company, product_family) using `match_text` (excerpt_en
-    for non-English when present). Cross-source pairs (DART↔EDGAR/IR) use a
-    lower Jaccard threshold because translations paraphrase. Prefer English
-    EDGAR as the canonical signal row at rebuild time (see
-    `canonical_sighting`).
+    Exact match on company using `match_text` (excerpt_en for non-English when
+    present), including across product_family — the same Silicon Labs shortage
+    paragraph must not become three Feed cards (DRAM + NAND + Memory_general).
+    Near match stays scoped to (company, product_family) except cross-source
+    pairs (DART↔EDGAR/IR), which use a lower Jaccard threshold because
+    translations paraphrase. Prefer English EDGAR as the canonical signal row
+    at rebuild time (see `canonical_sighting`).
 
     `prior_year_norms` maps company → normalized prior-year 10-K bodies (or
     chunks) used for carried_from_prior_year. Optional.
     """
     candidates = collapse_overlapping_windows(list(rows))
     # Oldest filing first; within a day prefer EDGAR/IR English so DART attaches.
+    # More specific families first so the surviving signal_id / card label is
+    # DRAM/HBM rather than Memory_general when the same span was multi-tagged.
     candidates.sort(
         key=lambda r: (
             r.get("filing_date") or "",
@@ -326,15 +369,27 @@ def dedupe(
             _SOURCE_RANK.get(source_key(r), 9),
             r.get("filing_id") or "",
             int(r.get("char_start") or 0),
+            -family_specificity(str(r.get("product_family") or "")),
             r.get("product_family") or "",
         )
     )
 
-    # Per (company, family): open signals for exact/near compare
+    # Per (company, family): open signals for near compare
     open_signals: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
+    # Flat per-company index for cross-family exact matches
+    open_by_company: dict[str, list[dict[str, Any]]] = defaultdict(list)
     sightings: list[dict[str, Any]] = []
     # signal_id → accumulator of sightings / first row
     signal_acc: dict[str, dict[str, Any]] = {}
+
+    def _attach_to_open(chosen_sid: str, excerpt: str, mtext: str, norm: str, row: dict) -> None:
+        for sig in open_by_company[row.get("company") or ""]:
+            if sig["signal_id"] == chosen_sid:
+                sig["excerpts"].append(excerpt)
+                sig["match_texts"].append(mtext)
+                sig["norms"].add(norm)
+                sig["rows"].append(row)
+                break
 
     for row in candidates:
         company = row.get("company") or ""
@@ -350,8 +405,13 @@ def dedupe(
         similarity = 1.0
         chosen_sid: str | None = None
 
-        # Exact: normalized match_text already seen for company+family
-        for sig in open_signals[key]:
+        # Exact: same normalized claim already seen for this company (any family).
+        # Cross-family nested windows (short Memory_general inside a longer NAND
+        # span) also exact-merge; same-family nesting stays on overlap collapse /
+        # near match so fixture restatements are not over-merged.
+        for sig in open_by_company[company]:
+            if sig["direction"] != direction:
+                continue
             if norm in sig["norms"] or any(
                 normalize(t) == norm for t in sig["match_texts"]
             ):
@@ -359,8 +419,16 @@ def dedupe(
                 similarity = 1.0
                 chosen_sid = sig["signal_id"]
                 break
+            sig_family = str((sig.get("first_row") or {}).get("product_family") or "")
+            if sig_family != family and any(
+                is_match_text_contained(mtext, prev) for prev in sig["match_texts"]
+            ):
+                match = "exact"
+                similarity = 1.0
+                chosen_sid = sig["signal_id"]
+                break
 
-        # Near (same-source strict; cross-source paraphrased)
+        # Near (same-source strict within family; cross-source paraphrased)
         if chosen_sid is None:
             best_sim = 0.0
             best_sid = None
@@ -396,31 +464,24 @@ def dedupe(
             # New signal — ID from first-filing match text (English when present)
             id_excerpt = mtext or excerpt
             chosen_sid = stable_signal_id(company, family, id_excerpt)
-            open_signals[key].append(
-                {
-                    "signal_id": chosen_sid,
-                    "direction": direction,
-                    "sentiment": sentiment,
-                    "excerpts": [excerpt],
-                    "match_texts": [mtext],
-                    "norms": {norm},
-                    "rows": [row],
-                    "first_row": row,
-                }
-            )
+            entry = {
+                "signal_id": chosen_sid,
+                "direction": direction,
+                "sentiment": sentiment,
+                "excerpts": [excerpt],
+                "match_texts": [mtext],
+                "norms": {norm},
+                "rows": [row],
+                "first_row": row,
+            }
+            open_signals[key].append(entry)
+            open_by_company[company].append(entry)
             signal_acc[chosen_sid] = {
                 "first_row": dict(row),
                 "sightings": [],
             }
         else:
-            # Attach to existing
-            for sig in open_signals[key]:
-                if sig["signal_id"] == chosen_sid:
-                    sig["excerpts"].append(excerpt)
-                    sig["match_texts"].append(mtext)
-                    sig["norms"].add(norm)
-                    sig["rows"].append(row)
-                    break
+            _attach_to_open(chosen_sid, excerpt, mtext, norm, row)
             if chosen_sid not in signal_acc:
                 # Shouldn't happen, but be safe
                 signal_acc[chosen_sid] = {"first_row": dict(row), "sightings": []}
@@ -482,7 +543,7 @@ def dedupe(
 
 
 def canonical_sighting(group: list[dict[str, Any]]) -> dict[str, Any]:
-    """Prefer English EDGAR (then IR) as the displayed signal row (SPEC SK hynix)."""
+    """Prefer English EDGAR (then IR), then a more specific product family."""
 
     def rank(g: dict[str, Any]) -> tuple:
         src = source_key(g)
@@ -490,10 +551,14 @@ def canonical_sighting(group: list[dict[str, Any]]) -> dict[str, Any]:
         lang_i = 0 if is_english_lang(lang) else 1
         src_i = _SOURCE_RANK.get(src, 9)
         match_i = 0 if g.get("match") == "first" else 1
+        # Lower rank tuple wins: negate specificity so HBM/DRAM beat Memory_general.
+        fam_i = -family_specificity(str(g.get("product_family") or ""))
         return (
             lang_i,
             src_i,
             match_i,
+            fam_i,
+            g.get("product_family") or "",
             g.get("filing_date") or "",
             g.get("filing_id") or "",
             int(g.get("char_start") or 0),
