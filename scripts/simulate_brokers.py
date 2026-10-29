@@ -12,10 +12,10 @@ Usage::
     python3 -m scripts.simulate_brokers --no-live --json
     python3 -m dram_signals.broker_sim --days 30 --seed 42
 
-GUI::
+GUI (port 8010 — avoids clash with the feed on 8000)::
 
-    uvicorn app.server:app --reload --port 8000
-    # http://127.0.0.1:8000/brokers.html
+    uvicorn app.server:app --reload --port 8010
+    # http://127.0.0.1:8010/brokers.html
 """
 
 from __future__ import annotations

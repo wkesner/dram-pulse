@@ -107,11 +107,12 @@ python3 -m dram_signals.broker_sim --days 60 --seed 7 --json
 pytest tests/test_broker_sim.py tests/test_broker_live_prices.py
 ```
 
-**GUI / graphs** (equity, P&L, cash, inventory over time):
+**GUI / graphs** (equity, P&L, cash, inventory over time). Uses port **8010**
+so it does not collide with the feed server on 8000:
 
 ```bash
-uvicorn app.server:app --reload --port 8000
-# open http://127.0.0.1:8000/brokers.html
+uvicorn app.server:app --reload --port 8010
+# open http://127.0.0.1:8010/brokers.html
 # API: GET /api/broker-sim?days=30&seed=42&live=true
 ```
 
