@@ -599,6 +599,24 @@ td.mono {
   gap: 4px;
   align-content: start;
 }
+button.ms-tile-link {
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+button.ms-tile-link:hover,
+button.ms-tile-link:focus-visible {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink);
+  outline: none;
+}
+button.ms-tile-link:disabled {
+  cursor: default;
+  opacity: 0.65;
+  box-shadow: none;
+}
 .ms-tile-label {
   font-size: 12px;
   color: var(--muted);
@@ -614,6 +632,15 @@ td.mono {
   font-size: 12px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
+}
+.ms-tile-cta {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--ink);
+  font-weight: 600;
+}
+button.ms-tile-link:disabled .ms-tile-cta {
+  display: none;
 }
 .ms-grid {
   display: grid;

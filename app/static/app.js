@@ -819,7 +819,17 @@
     mapTierRoot.addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-tier]");
       if (!btn) return;
-      mapTier = btn.getAttribute("data-tier") ?? "";
+      const next = btn.getAttribute("data-tier") ?? "";
+      // Second click on the active tier opens that set in the Feed.
+      if (next === mapTier && next !== "") {
+        const n = SIGNALS.filter((s) => String(s.tier || "1") === next).length;
+        if (n > 0) {
+          mapFamily = null;
+          openFeedFromMap();
+          return;
+        }
+      }
+      mapTier = next;
       store.set(MAP_TIER_KEY, mapTier);
       syncMapTierSwitch();
       renderMap();
@@ -914,11 +924,79 @@
     renderMap();
   }
 
+  /** Open the Feed with filters matching the current map scope (tier / family / direction). */
+  function openFeedFromMap({ direction = "" } = {}) {
+    for (const [id] of FILTERS) {
+      const sel = $("#f-" + id);
+      if (!sel) continue;
+      if (id === "tier") sel.value = mapTier || "";
+      else if (id === "family") sel.value = mapFamily || "";
+      else if (id === "direction") sel.value = direction || "";
+      else sel.value = "";
+    }
+    // Ensure tier options exist even before signals for that tier were loaded into filters.
+    const tierSel = $("#f-tier");
+    if (tierSel && mapTier && ![...tierSel.options].some((o) => o.value === mapTier)) {
+      tierSel.append(new Option(optionLabel("tier", mapTier), mapTier));
+      tierSel.value = mapTier;
+    }
+    const famSel = $("#f-family");
+    if (famSel && mapFamily && ![...famSel.options].some((o) => o.value === mapFamily)) {
+      famSel.append(new Option(optionLabel("product_family", mapFamily), mapFamily));
+      famSel.value = mapFamily;
+    }
+    showTab("feed");
+    renderFeed();
+    const stack = $("#feed-stack");
+    if (stack) stack.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function wireMapFeedTiles() {
+    const root = $("#headline");
+    if (!root || root.dataset.feedWired === "1") return;
+    root.dataset.feedWired = "1";
+    root.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-feed-open]");
+      if (!btn || btn.disabled) return;
+      const kind = btn.getAttribute("data-feed-open") || "signals";
+      const direction =
+        kind === "tightening" || kind === "easing" ? kind : "";
+      openFeedFromMap({ direction });
+    });
+  }
+
+  function updateTierSwitchCounts() {
+    const root = $("#map-tier-switch");
+    if (!root) return;
+    const counts = { "1": 0, "2": 0, "3": 0 };
+    for (const s of SIGNALS) {
+      const t = String(s.tier || "1");
+      if (counts[t] != null) counts[t] += 1;
+    }
+    for (const btn of root.querySelectorAll("button[data-tier]")) {
+      const v = btn.getAttribute("data-tier") ?? "";
+      if (v === "1" || v === "2" || v === "3") {
+        const n = counts[v] || 0;
+        btn.textContent = `Tier ${v} · ${n}`;
+        btn.title =
+          n > 0
+            ? `${n} signals — click again (or the Signals tile) to open Feed`
+            : `Tier ${v} — no signals yet`;
+      } else {
+        btn.textContent = "All";
+        btn.title = "Show all tiers on the map";
+      }
+    }
+  }
+
   function renderMap() {
     const ms = window.ms;
     if (!ms || !window.d3) return;
     const root = $("#signal-map");
     if (!root || root.closest("[hidden]")) return;
+
+    wireMapFeedTiles();
+    updateTierSwitchCounts();
 
     const view = signalsInMapView();
     const tightening = view.filter((s) => s.supply_direction === "tightening").length;
@@ -945,6 +1023,36 @@
       "ms-scope",
       mapFamily ? ms.label(mapFamily) : "All families"
     );
+
+    const armTile = (id, enabled, label) => {
+      const btn = document.getElementById(id);
+      if (!btn) return;
+      btn.disabled = !enabled;
+      if (enabled) {
+        btn.setAttribute("aria-label", label);
+      }
+    };
+    armTile(
+      "tile-signals",
+      view.length > 0,
+      `Open ${view.length} signals in the Feed`
+    );
+    armTile(
+      "tile-tightening",
+      tightening > 0,
+      `Open ${tightening} tightening signals in the Feed`
+    );
+    armTile(
+      "tile-easing",
+      easing > 0,
+      `Open ${easing} easing signals in the Feed`
+    );
+    armTile(
+      "tile-companies",
+      view.length > 0,
+      `Open ${view.length} signals in the Feed`
+    );
+
     renderTierRoster();
 
     const repBtn = $("#toggle-reported");
