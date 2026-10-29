@@ -1,0 +1,22 @@
+{
+  "company": "Spectris",
+  "ticker": "SXS",
+  "role": "supplier",
+  "source": "CH",
+  "form": "confirmation-statement-with-updates",
+  "filing_date": "2025-12-19",
+  "accession_number": "MzQ5NTQ0NTI3M2FkaXF6a2N4",
+  "filing_id": "MzQ5NTQ0NTI3M2FkaXF6a2N4",
+  "company_number": "02025003",
+  "category": "confirmation-statement",
+  "title": "confirmation-statement-with-updates",
+  "source_url": "https://find-and-update.company-information.service.gov.uk/company/02025003/filing-history",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "en",
+  "fetched_at": "2026-10-29T22:21:16.610100+00:00",
+  "paths": {
+    "other_full": "data/raw/SXS/MzQ5NTQ0NTI3M2FkaXF6a2N4/other_full.txt"
+  }
+}
