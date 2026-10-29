@@ -52,7 +52,11 @@ _FAMILY_SPECIFICITY = {
     "MCU": 2,
     "Power_IC": 2,
     "Capacitor": 2,
+    "MLCC": 2,
     "Resistor": 2,
+    "HDD": 2,
+    "SSD": 2,
+    "Connector": 2,
 }
 
 # Cross-family exact/containment merges only within a merge group so a Memory
