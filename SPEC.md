@@ -41,6 +41,13 @@ The taxonomy lives in `config/product_taxonomy.yaml` and maps synonyms to a fami
 | NAND | NAND_general | NAND, flash |
 | Other | CXL | CXL, memory expansion |
 | Other | Memory_general | memory, memory and storage (no family given) |
+| Compute | GPU | GPU, GPUs, graphics processing unit(s) |
+| Compute | CPU | CPU, CPUs, microprocessor(s) |
+| Compute | FPGA | FPGA, FPGAs, field-programmable gate array(s) |
+| Compute | MCU | MCU, MCUs, microcontroller(s) |
+| Analog | Power_IC | PMIC(s), power management IC(s), power IC(s) |
+| Passives | Capacitor | MLCC(s), ceramic capacitor(s), capacitors |
+| Passives | Resistor | chip resistor(s), resistor shortage(s) |
 
 Korean synonyms go in the same file (for example 고대역폭메모리 for HBM, 낸드 for NAND, 디램 for DRAM). These are suggestions to review.
 

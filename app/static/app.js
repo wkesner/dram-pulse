@@ -213,9 +213,30 @@
     });
   }
 
+  const FAMILY_LABELS = {
+    Power_IC: "Power IC",
+    AI_accelerators: "AI accelerators",
+    Memory_general: "Memory general",
+    DRAM_general: "DRAM general",
+    NAND_general: "NAND general",
+    "Data center SSD": "Data center SSD",
+    "Mobile/embedded": "Mobile/embedded",
+  };
+  const CATEGORY_ORDER = {
+    DRAM: 0,
+    NAND: 1,
+    Other: 2,
+    Compute: 3,
+    Analog: 4,
+    Passives: 5,
+  };
+
   function optionLabel(field, value) {
     if (field === "supply_direction") return directionLabel(value);
-    if (field === "product_family") return label(value);
+    if (field === "product_family") {
+      return FAMILY_LABELS[value] || label(value);
+    }
+    if (field === "product_category") return String(value);
     if (field === "tier") {
       const meta = TIER_META.find((t) => String(t.id) === String(value));
       return meta ? `${meta.label}` : `Tier ${value}`;
@@ -415,7 +436,7 @@
         `chip ${s.supply_direction}`,
         directionLabel(s.supply_direction)
       ),
-      el("span", "chip", label(s.product_family)),
+      el("span", "chip", FAMILY_LABELS[s.product_family] || label(s.product_family)),
       el("span", "chip", `tone: ${s.sentiment}`)
     );
 
@@ -672,7 +693,7 @@
       1,
       ...values.map((f) => Math.max(f.tightening || 0, f.easing || 0))
     );
-    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const CAT = CATEGORY_ORDER;
     values
       .sort(
         (a, b) =>
@@ -1095,13 +1116,16 @@
       d.tightening.buyer +
       d.easing.supplier +
       d.easing.buyer;
-    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const CAT = CATEGORY_ORDER;
     const famRows = [...fams.values()]
       .map((d) => ({
         ...d,
-        label: ms.label(d.key),
-        sub: d.category === "Other" ? "No family named" : d.category,
-        tipHead: `${ms.label(d.key)} (${d.category})`,
+        label: FAMILY_LABELS[d.key] || ms.label(d.key),
+        sub:
+          d.category === "Other" && d.key === "Memory_general"
+            ? "No family named"
+            : d.category,
+        tipHead: `${FAMILY_LABELS[d.key] || ms.label(d.key)} (${d.category})`,
       }))
       .sort(
         (a, b) =>
