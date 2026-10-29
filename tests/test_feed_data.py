@@ -1,4 +1,4 @@
-"""Tests for Memory Signals feed helpers."""
+"""Tests for EC Signals feed helpers."""
 
 from __future__ import annotations
 

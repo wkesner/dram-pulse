@@ -1,4 +1,4 @@
-# Memory Signals runtime settings
+# EC Signals runtime settings
 lookback_months: 12
 
 edgar:

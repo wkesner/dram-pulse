@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Simulate several users voting on Memory Signals.
+"""Simulate several users voting on EC Signals.
 
 Appends to data/votes.csv using the same locked writer as POST /api/votes.
 Does not invent excerpts — only votes on existing signal_ids.

@@ -22,7 +22,7 @@ from pypdf import PdfReader
 
 from src.fetch_edgar import REPO_ROOT, load_yaml, window_bounds
 
-USER_AGENT = "MemorySignalsResearchBot/0.1 (local; contact: local-dev)"
+USER_AGENT = "ECSignalsResearchBot/0.1 (local; contact: local-dev)"
 
 
 def _session() -> requests.Session:

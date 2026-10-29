@@ -1,4 +1,4 @@
-"""API tests for Memory Signals FastAPI server (Prompt 1 / 6)."""
+"""API tests for EC Signals FastAPI server (Prompt 1 / 6)."""
 
 from __future__ import annotations
 

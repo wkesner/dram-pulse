@@ -1,7 +1,7 @@
-"""Rule-based signal extraction for Memory Signals (Milestone 2).
+"""Rule-based signal extraction for EC Signals (Milestone 2).
 
 Usage:
-  export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+  export SEC_USER_AGENT="ECSignals Your Name you@example.com"
   python -m src.extract --ticker MU
 """
 
@@ -1313,7 +1313,7 @@ def extract_all(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Extract Memory Signals from cached filings")
+    parser = argparse.ArgumentParser(description="Extract EC Signals from cached filings")
     parser.add_argument("--ticker", help="Single ticker (default: all EDGAR companies)")
     parser.add_argument("--all", action="store_true", help="Extract all EDGAR companies")
     parser.add_argument("--settings", type=Path, default=REPO_ROOT / "config" / "settings.yaml")

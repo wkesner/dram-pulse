@@ -1,4 +1,4 @@
-# Memory Signals
+# EC Signals
 
 Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
 
@@ -35,7 +35,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # Required by SEC fair-access. Copy .env.example → .env or export directly:
-export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 
 python -m src.fetch_edgar --ticker MU
 ```
@@ -58,7 +58,7 @@ Config: `config/settings.yaml` (`lookback_months: 12`), `config/companies.yaml` 
 Rule-based extraction from cached Item 1 / 1A / 7 text. Term lists live in `config/product_taxonomy.yaml` and `config/supply_terms.yaml`.
 
 ```bash
-export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 # Fetches prior-year 10-K once (for carried_from_prior_year only; no signals extracted from it)
 python3 -m src.extract --ticker MU
 python3 -m src.verify   # defaults to data/sightings.csv
@@ -70,7 +70,7 @@ Output: append-only `data/sightings.csv` and rebuilt `data/signals.csv` (one row
 ## Milestone 3 — all EDGAR companies
 
 ```bash
-export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 python3 -m src.fetch_edgar --all
 python3 -m src.extract --all
 python3 -m src.verify
@@ -155,7 +155,7 @@ cp .env.example .env   # then edit
 
 python3 -m src.fetch_dart          # Samsung 005930 + SK hynix 000660
 python3 -m src.fetch_ir            # URLs in config/ir_documents.yaml
-export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 python3 -m src.extract --all --no-fetch-prior
 python3 -m src.verify              # must be 100%
 ```

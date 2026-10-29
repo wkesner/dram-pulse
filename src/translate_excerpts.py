@@ -1,4 +1,4 @@
-"""Fill `excerpt_en` for non-English Memory Signals rows (SPEC later).
+"""Fill `excerpt_en` for non-English EC Signals rows (SPEC later).
 
 Original `excerpt` is never modified. English rows keep `excerpt_en` blank.
 

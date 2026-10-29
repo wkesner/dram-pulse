@@ -1,7 +1,7 @@
-"""Fetch EDGAR filings for Memory Signals.
+"""Fetch EDGAR filings for EC Signals.
 
 Usage:
-  export SEC_USER_AGENT="MemorySignals Your Name you@example.com"
+  export SEC_USER_AGENT="ECSignals Your Name you@example.com"
   python -m src.fetch_edgar --ticker MU
   python -m src.fetch_edgar --all
 """
@@ -193,11 +193,12 @@ def resolve_user_agent() -> str:
     if not ua:
         raise SystemExit(
             "SEC_USER_AGENT is required. Set it to "
-            '"MemorySignals your-name your-email" (see .env.example).'
+            '"ECSignals your-name your-email" (see .env.example).'
         )
-    if "MemorySignals" not in ua:
+    if "ECSignals" not in ua and "MemorySignals" not in ua:
         print(
-            "Warning: SEC_USER_AGENT should start with MemorySignals …",
+            "Warning: SEC_USER_AGENT should start with ECSignals … "
+            "(legacy MemorySignals … still accepted)",
             file=sys.stderr,
         )
     return ua
@@ -663,7 +664,7 @@ def fetch_company_filings(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Fetch EDGAR filings for Memory Signals")
+    parser = argparse.ArgumentParser(description="Fetch EDGAR filings for EC Signals")
     parser.add_argument("--ticker", help="Single ticker to fetch")
     parser.add_argument("--all", action="store_true", help="Fetch all EDGAR companies")
     parser.add_argument(
