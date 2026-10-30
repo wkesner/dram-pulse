@@ -11,7 +11,7 @@
 (() => {
   // Bump when shipping signup UX fixes — verify on Fly via:
   //   curl -s https://ec-signals.fly.dev/clerk-auth.js | grep __msClerkBuild
-  window.__msClerkBuild = "signup-hash-v4-20261030";
+  window.__msClerkBuild = "signup-gate-v5-20261030";
 
   /** Clerk path segments that must stay on-origin (never 404 → Account Portal). */
   const CLERK_AUTH_PATH_RE =
@@ -600,11 +600,21 @@
       ? { elements: { footerAction: { display: "none" } } }
       : undefined;
     if (state.clerk) {
-      state.clerk.mountSignIn(
-        host,
-        clerkComponentOpts({ appearance: hideSignupFooter })
-      );
-      state._signInMounted = true;
+      try {
+        state.clerk.mountSignIn(
+          host,
+          clerkComponentOpts({ appearance: hideSignupFooter })
+        );
+        state._signInMounted = true;
+      } catch (err) {
+        console.error("mountSignIn", err);
+        state._signInMounted = false;
+        const errEl = document.createElement("p");
+        errEl.className = "auth-gate-error";
+        errEl.textContent =
+          err?.message || "Sign-in widget failed to mount. Refresh.";
+        mount.append(errEl);
+      }
     }
   }
 
@@ -640,9 +650,19 @@
     mount.append(host);
 
     if (state.clerk) {
-      state.clerk.mountSignUp(host, clerkComponentOpts({}));
-      state._signUpMounted = true;
-      writeAuthView("signup");
+      try {
+        state.clerk.mountSignUp(host, clerkComponentOpts({}));
+        state._signUpMounted = true;
+        writeAuthView("signup");
+      } catch (err) {
+        console.error("mountSignUp", err);
+        state._signUpMounted = false;
+        const errEl = document.createElement("p");
+        errEl.className = "auth-gate-error";
+        errEl.textContent =
+          err?.message || "Create-account widget failed to mount. Refresh.";
+        mount.append(errEl);
+      }
     }
   }
 
@@ -888,6 +908,31 @@
     writeAuthView("signin");
   }
 
+  function showGateError(message) {
+    setShellVisible(false);
+    const gate = document.getElementById("auth-gate");
+    if (!gate) return;
+    gate.hidden = false;
+    const shell = ensureGateShell(
+      "Sign in to EC Signals",
+      message || "Authentication UI failed to load. Refresh and try again."
+    );
+    if (!shell) {
+      gate.innerHTML =
+        '<div class="auth-gate-panel"><h2>Sign in to EC Signals</h2><p class="auth-gate-lede auth-gate-error"></p></div>';
+      const p = gate.querySelector(".auth-gate-error");
+      if (p) p.textContent = message || "Authentication UI failed to load.";
+      return;
+    }
+    ensureTabs(shell.wrap);
+    const mount = ensureClerkMount(shell.wrap);
+    mount.replaceChildren();
+    const err = document.createElement("p");
+    err.className = "auth-gate-error";
+    err.textContent = message || "Authentication UI failed to load.";
+    mount.append(err);
+  }
+
   async function init() {
     const cfg = await loadConfig();
     state.mode = cfg.auth_mode || "single";
@@ -934,14 +979,37 @@
     }
     if (banner) banner.hidden = true;
 
-    const clerk = await ensureClerk(
-      cfg.clerk_publishable_key,
-      cfg.clerk_issuer || ""
-    );
+    // Lock shell + paint Sign-in/Create-account chrome BEFORE Clerk CDN load.
+    // virtual-v3 blanked the page when mount navigated to /CLERK-ROUTER/*;
+    // unauthenticated users must always see the gate, never the empty feed.
+    setShellVisible(false);
+    applyAuthGate({ force: true });
+
+    let clerk;
+    try {
+      clerk = await ensureClerk(
+        cfg.clerk_publishable_key,
+        cfg.clerk_issuer || ""
+      );
+    } catch (err) {
+      console.error("clerk load", err);
+      showGateError(
+        "Could not load Clerk. Check network / ad blockers, then refresh."
+      );
+      state.ready = true;
+      return { mode: "clerk", configured: false, authenticated: false };
+    }
     state.clerk = clerk;
     await refreshSession(clerk);
     mountChrome(clerk);
-    applyAuthGate({ force: true });
+    try {
+      applyAuthGate({ force: true });
+    } catch (err) {
+      console.error("auth gate", err);
+      showGateError(
+        err?.message || "Sign-in UI failed to mount. Refresh and try again."
+      );
+    }
     state.ready = true;
 
     let prevFinished = signupFlowFinished(clerk);
