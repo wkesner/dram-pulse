@@ -1,0 +1,28 @@
+{
+  "company": "Hyundai Mobis",
+  "ticker": "012330",
+  "role": "buyer",
+  "source": "DART",
+  "form": "사업보고서 (2025.12)",
+  "filing_date": "2026-03-09",
+  "accession_number": "20260309001878",
+  "filing_id": "20260309001878",
+  "corp_code": "00164788",
+  "title": "사업보고서 (2025.12)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001878",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "ko",
+  "files": [
+    "20260309001878_00760.xml",
+    "20260309001878.xml",
+    "20260309001878_00761.xml"
+  ],
+  "fetched_at": "2026-10-30T17:00:40.083565+00:00",
+  "paths": {
+    "other_full": "data/raw/012330/20260309001878/other_full.txt",
+    "document_zip": "data/raw/012330/20260309001878/document.zip"
+  }
+}

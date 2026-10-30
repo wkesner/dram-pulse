@@ -1,0 +1,26 @@
+{
+  "company": "Hyundai Mobis",
+  "ticker": "012330",
+  "role": "buyer",
+  "source": "DART",
+  "form": "[기재정정]주요사항보고서(회사분할결정)",
+  "filing_date": "2026-10-28",
+  "accession_number": "20261028000138",
+  "filing_id": "20261028000138",
+  "corp_code": "00164788",
+  "title": "[기재정정]주요사항보고서(회사분할결정)",
+  "pblntf_ty": "",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028000138",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "ko",
+  "files": [
+    "20261028000138.xml"
+  ],
+  "fetched_at": "2026-10-30T17:00:27.483194+00:00",
+  "paths": {
+    "other_full": "data/raw/012330/20261028000138/other_full.txt",
+    "document_zip": "data/raw/012330/20261028000138/document.zip"
+  }
+}
