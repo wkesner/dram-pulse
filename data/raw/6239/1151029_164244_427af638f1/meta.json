@@ -1,0 +1,24 @@
+{
+  "company": "Powertech Technology",
+  "ticker": "6239",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "本公司訂購機器設備公告",
+  "filing_date": "2026-10-29",
+  "accession_number": "1151029_164244_427af638f1",
+  "filing_id": "1151029_164244_427af638f1",
+  "title": "本公司訂購機器設備公告",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T22:44:08.323777+00:00",
+  "paths": {
+    "other_full": "data/raw/6239/1151029_164244_427af638f1/other_full.txt"
+  },
+  "clause": "第20款",
+  "fact_date_roc": "1151029",
+  "announce_time": "164244",
+  "feed": "t187ap04_L"
+}

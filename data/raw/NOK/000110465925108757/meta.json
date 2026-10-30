@@ -1,0 +1,30 @@
+{
+  "company": "Nokia",
+  "ticker": "NOK",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0000924613",
+  "form": "6-K",
+  "filing_date": "2025-11-10",
+  "accession_number": "0001104659-25-108757",
+  "primary_document": "tm2530736d1_6k.htm",
+  "primary_doc_description": "FORM 6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/924613/000110465925108757/tm2530736d1_6k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-11-10",
+  "period_end": "2025-11-10",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:15:01.142330+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/NOK/000110465925108757/primary.html",
+    "other": "data/raw/NOK/000110465925108757/other_full.txt"
+  }
+}

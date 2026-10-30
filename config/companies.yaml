@@ -321,6 +321,12 @@ companies:
     source: EDGAR
     ticker: NXPI
     tier: 2
+    forms:
+      - 20-F
+      - 6-K
+      - 10-K
+      - 10-Q
+      - 8-K
 
   - name: Texas Instruments
     role: supplier
@@ -461,6 +467,46 @@ companies:
     role: supplier
     source: EDGAR
     ticker: ASML
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  # EU electronics with English SEC dual-listings (20-F / 6-K). Prefer EDGAR
+  # over BaFin/AMF/AFM portals for v1 (those are follow-on free sources).
+  # Infineon ADR (IFNNY) has no recent 20-F/6-K in lookback — use BaFin later.
+
+  - name: Nokia
+    role: buyer
+    source: EDGAR
+    ticker: NOK
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Ericsson
+    role: buyer
+    source: EDGAR
+    ticker: ERIC
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: SAP
+    role: buyer
+    source: EDGAR
+    ticker: SAP
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Philips
+    role: buyer
+    source: EDGAR
+    ticker: PHG
     tier: 2
     forms:
       - 20-F
@@ -1254,8 +1300,48 @@ companies:
     ticker: OSS
     tier: 3
 
+  # Forbes Global 2000 (2026) electronics / tech / components / semis /
+  # EMS / storage / interconnect remainder — US EDGAR only (see
+  # config/forbes_g2000_2026_seed.yaml).
+  - name: Fortinet
+    role: buyer
+    source: EDGAR
+    ticker: FTNT
+    tier: 2
+
+  - name: Ametek
+    role: supplier
+    source: EDGAR
+    ticker: AME
+    tier: 2
+
+  - name: Ingram Micro
+    role: buyer
+    source: EDGAR
+    ticker: INGM
+    tier: 2
+
+  - name: Coherent
+    role: supplier
+    source: EDGAR
+    ticker: COHR
+    tier: 3
+
+  - name: First Solar
+    role: supplier
+    source: EDGAR
+    ticker: FSLR
+    tier: 3
+
+  - name: Qnity Electronics
+    role: supplier
+    source: EDGAR
+    ticker: Q
+    tier: 3
+
   # --- CNINFO (China A-share; no API key) ---
   # orgId resolved at runtime via cninfo topSearch; exchange = sse|szse.
+  # Focus: memory / semis / OSAT / passives / interconnect / EMS buyers.
   - name: SMIC
     role: supplier
     source: CNINFO
@@ -1298,8 +1384,134 @@ companies:
     exchange: szse
     tier: 2
 
-  # --- EDINET (Japan; requires EDINET_API_KEY) ---
-  # TSE codes are 4-digit; EDINET secCode appends a trailing 0 at fetch time.
+  - name: CXMT
+    role: supplier
+    source: CNINFO
+    ticker: "688825"
+    exchange: sse
+    tier: 2
+
+  - name: Montage Technology
+    role: supplier
+    source: CNINFO
+    ticker: "688008"
+    exchange: sse
+    tier: 2
+
+  - name: Will Semiconductor
+    role: supplier
+    source: CNINFO
+    ticker: "603501"
+    exchange: sse
+    tier: 2
+
+  - name: Tongfu Microelectronics
+    role: supplier
+    source: CNINFO
+    ticker: "002156"
+    exchange: szse
+    tier: 2
+
+  - name: Longsys Electronics
+    role: supplier
+    source: CNINFO
+    ticker: "301308"
+    exchange: szse
+    tier: 2
+
+  - name: Biwin Storage
+    role: supplier
+    source: CNINFO
+    ticker: "688525"
+    exchange: sse
+    tier: 3
+
+  - name: Chaozhou Three-Circle
+    role: supplier
+    source: CNINFO
+    ticker: "300408"
+    exchange: szse
+    tier: 2
+
+  - name: Fenghua Advanced Technology
+    role: supplier
+    source: CNINFO
+    ticker: "000636"
+    exchange: szse
+    tier: 3
+
+  - name: AVIC Jonhon Optronic
+    role: supplier
+    source: CNINFO
+    ticker: "002179"
+    exchange: szse
+    tier: 2
+
+  - name: SG Micro
+    role: supplier
+    source: CNINFO
+    ticker: "300661"
+    exchange: szse
+    tier: 3
+
+  - name: China Resources Microelectronics
+    role: supplier
+    source: CNINFO
+    ticker: "688396"
+    exchange: sse
+    tier: 3
+
+  - name: Ingenic Semiconductor
+    role: supplier
+    source: CNINFO
+    ticker: "300223"
+    exchange: szse
+    tier: 3
+
+  - name: Rockchip Electronics
+    role: supplier
+    source: CNINFO
+    ticker: "603893"
+    exchange: sse
+    tier: 3
+
+  - name: Unigroup Guoxin Microelectronics
+    role: supplier
+    source: CNINFO
+    ticker: "002049"
+    exchange: szse
+    tier: 3
+
+  - name: Goertek
+    role: buyer
+    source: CNINFO
+    ticker: "002241"
+    exchange: szse
+    tier: 2
+
+  - name: BOE Technology
+    role: buyer
+    source: CNINFO
+    ticker: "000725"
+    exchange: szse
+    tier: 2
+
+  - name: Wingtech Technology
+    role: buyer
+    source: CNINFO
+    ticker: "600745"
+    exchange: sse
+    tier: 2
+
+  - name: Transsion Holdings
+    role: buyer
+    source: CNINFO
+    ticker: "688036"
+    exchange: sse
+    tier: 2
+
+  # --- EDINET (Japan; requires EDINET_API_KEY on keyed VM) ---
+  # TSE codes are 4-digit (or alphanumeric e.g. Kioxia 285A); secCode + trailing 0.
   - name: Tokyo Electron
     role: supplier
     source: EDINET
@@ -1404,6 +1616,12 @@ companies:
     tier: 2
 
   # Additional JP electronics / materials suppliers (EDINET)
+  - name: Kioxia Holdings
+    role: supplier
+    source: EDINET
+    ticker: "285A"
+    tier: 2
+
   - name: Rohm
     role: supplier
     source: EDINET
@@ -1452,9 +1670,20 @@ companies:
     ticker: "6525"
     tier: 3
 
+  - name: Taiyo Yuden
+    role: supplier
+    source: EDINET
+    ticker: "6976"
+    tier: 3
+
+  - name: Hirose Electric
+    role: supplier
+    source: EDINET
+    ticker: "6806"
+    tier: 3
+
   # --- Companies House (UK; requires COMPANIES_HOUSE_API_KEY) ---
-  # LSE RNS / FCA NSM are documented separately (RNS needs LSEG; NSM API ~2027).
-  # UK deferred — prefer JP/CN/TW; CH confirmation statements lack supply language.
+  # LSE RNS / FCA NSM documented separately. UK deferred for supply-signal yield.
   - name: Renishaw
     role: supplier
     source: CH
@@ -1534,6 +1763,36 @@ companies:
     ticker: "2379"
     tier: 3
 
+  - name: Macronix International
+    role: supplier
+    source: MOPS
+    ticker: "2337"
+    tier: 3
+
+  - name: Phison Electronics
+    role: supplier
+    source: MOPS
+    ticker: "8299"
+    tier: 3
+
+  - name: Powertech Technology
+    role: supplier
+    source: MOPS
+    ticker: "6239"
+    tier: 3
+
+  - name: Yageo
+    role: supplier
+    source: MOPS
+    ticker: "2327"
+    tier: 2
+
+  - name: Delta Electronics
+    role: supplier
+    source: MOPS
+    ticker: "2308"
+    tier: 2
+
   - name: Hon Hai Precision
     role: buyer
     source: MOPS
@@ -1545,4 +1804,22 @@ companies:
     source: MOPS
     ticker: "2382"
     tier: 2
+
+  - name: Pegatron
+    role: buyer
+    source: MOPS
+    ticker: "4938"
+    tier: 2
+
+  - name: Compal Electronics
+    role: buyer
+    source: MOPS
+    ticker: "2324"
+    tier: 2
+
+  - name: Wistron
+    role: buyer
+    source: MOPS
+    ticker: "3231"
+    tier: 3
 

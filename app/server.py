@@ -10,9 +10,11 @@ Run:
 
 from __future__ import annotations
 
+import asyncio
 import csv
 import fcntl
 import os
+import secrets
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -70,6 +72,14 @@ SIGHTING_API_FIELDS = (
     "source_url",
     "excerpt",
 )
+
+# Expensive GET /api/broker-sim caps (blocking MemoryIndex fetch + multi-day sim).
+BROKER_SIM_MAX_DAYS = 90
+BROKER_SIM_OPEN_MAX_DAYS = 30
+
+
+def _env_flag(name: str) -> bool:
+    return (os.environ.get(name) or "").strip().lower() in {"1", "true", "yes", "on"}
 
 
 class VoteIn(BaseModel):
@@ -341,6 +351,8 @@ def create_app(
     aggregates_path: Path | None = None,
     session_resolver: SessionResolver | None = None,
     operator_token: str | None = None,
+    broker_sim_token: str | None = None,
+    broker_sim_open: bool | None = None,
 ) -> FastAPI:
     load_dotenv()
     signals_path = signals_path or DEFAULT_SIGNALS
@@ -361,9 +373,18 @@ def create_app(
         if operator_token is not None
         else (os.environ.get("OPERATOR_TOKEN") or "").strip()
     )
+    sim_token = (
+        broker_sim_token
+        if broker_sim_token is not None
+        else (os.environ.get("BROKER_SIM_TOKEN") or "").strip()
+    )
+    sim_open = (
+        bool(broker_sim_open) if broker_sim_open is not None else _env_flag("BROKER_SIM_OPEN")
+    )
 
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
 
     app = FastAPI(title="Memory Signals", version="0.3.0")
     app.state.auth_mode = mode
@@ -642,26 +663,80 @@ def create_app(
         events = read_aggregate_events(aggregates_path, limit=limit)
         return {"events": events, "count": len(events)}
 
+    def _authorize_broker_sim(
+        request: Request,
+        authorization: str | None,
+        x_broker_sim_token: str | None,
+    ) -> tuple[str, bool]:
+        """Return (rate_limit_key, allow_expensive) after auth gates.
+
+        allow_expensive=True → live prices and full BROKER_SIM_MAX_DAYS.
+        Open single-tenant demo forces offline + shorter days.
+        """
+        ip = request.client.host if request.client else "unknown"
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            return f"broker:{session.org_id}:{session.user_id}:{ip}", True
+
+        provided = (x_broker_sim_token or "").strip()
+        if sim_token:
+            # compare_digest requires equal-length strings; mismatch → 401, not 500.
+            ok = len(provided) == len(sim_token) and secrets.compare_digest(
+                provided, sim_token
+            )
+            if not ok:
+                raise HTTPException(status_code=401, detail="invalid broker sim token")
+            return f"broker:token:{ip}", True
+        if sim_open:
+            return f"broker:open:{ip}", False
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                "Broker sim disabled in single mode. Set BROKER_SIM_OPEN=1 for a "
+                "local offline demo, or BROKER_SIM_TOKEN and send X-Broker-Sim-Token."
+            ),
+        )
+
     @app.get("/api/broker-sim")
-    def get_broker_sim(
-        days: int = Query(30, ge=1, le=365),
+    async def get_broker_sim(
+        request: Request,
+        days: int = Query(30, ge=1, le=BROKER_SIM_MAX_DAYS),
         seed: int = Query(42),
-        live: bool = Query(True, description="Prefer MemoryIndex live/public prices"),
+        live: bool = Query(
+            False, description="Prefer MemoryIndex live/public prices (auth required)"
+        ),
         starting_cash: float = Query(250_000.0, gt=0),
         include_scored: bool = Query(
             True, description="Include scored twins with fast memory-score access"
         ),
         score_lag: int = Query(1, ge=0, le=30, description="Score lag days for twins"),
+        authorization: str | None = Header(default=None),
+        x_broker_sim_token: str | None = Header(default=None),
     ) -> dict[str, Any]:
-        """Run the broker market sim (baseline ± scored twins) + history."""
+        """Run the broker market sim (baseline ± scored twins) + history.
+
+        Clerk mode requires a session JWT. Single mode requires BROKER_SIM_TOKEN
+        (X-Broker-Sim-Token) or an explicit BROKER_SIM_OPEN=1 local demo gate.
+        Work runs off the event loop via asyncio.to_thread.
+        """
+        rate_key, allow_expensive = _authorize_broker_sim(
+            request, authorization, x_broker_sim_token
+        )
+        if not broker_sim_limiter.allow(rate_key):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+
+        effective_days = days if allow_expensive else min(days, BROKER_SIM_OPEN_MAX_DAYS)
+        effective_live = bool(live) if allow_expensive else False
+
         from dram_signals.broker_sim.simulation import run_simulation
 
-        result = run_simulation(
-            days=days,
+        result = await asyncio.to_thread(
+            run_simulation,
+            days=effective_days,
             seed=seed,
             starting_cash=starting_cash,
             companies_path=companies_path,
-            prefer_live_prices=live,
+            prefer_live_prices=effective_live,
             include_scored=include_scored,
             score_lag_days=score_lag,
         )

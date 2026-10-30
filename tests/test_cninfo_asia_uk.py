@@ -157,12 +157,27 @@ def test_chinese_terms_and_extract() -> None:
     )
     product_terms = {p.term for p in banks["products"]}
     assert "闪存" in product_terms or "存储器" in product_terms
+    # Commodity banks for CNINFO electronic / foundry language.
+    for term in (
+        "微控制器",
+        "图形处理器",
+        "中央处理器",
+        "电源管理芯片",
+        "固态硬盘",
+        "多层陶瓷电容",
+        "高速连接器",
+        "闪存芯片",
+        "晶圆厂",
+    ):
+        assert term in product_terms, term
     blob = " ".join(term for _label, term, _pat in banks["tightening"])
     assert "供应紧张" in blob or "供应短缺" in blob
+    assert "紧缺" in blob or "缺货" in blob
+    assert "产能紧张" in blob or "量价齐升" in blob
 
     text = (
-        "报告期内公司存储器产品需求旺盛，闪存供应紧张导致价格上涨。"
-        "晶圆代工产能利用率维持高位。"
+        "报告期内公司存储器与微控制器产品需求旺盛，闪存芯片供应紧张导致价格上涨。"
+        "晶圆代工产能利用率维持高位，GPU与电源管理芯片交期延长。"
     )
     assert _text_is_cjk(text)
     assert len(split_sentences(text)) >= 1

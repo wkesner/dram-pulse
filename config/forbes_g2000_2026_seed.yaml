@@ -1,0 +1,119 @@
+# Forbes Global 2000 (2026) → EDGAR seed log for EC Signals.
+#
+# Source: Forbes Global 2000 2026 list (edited Andrea Murphy & John Hyatt;
+# published on forbes.com/lists/global2000/). Machine-readable mirror used for
+# industry/country/rank fields:
+#   https://download.macrofocus.com/treemap/Forbes%20Global%202000%20-%202026.csv
+#   (Last-Modified: 2026-09-27; 2000 rows).
+#
+# Scope: semiconductors, technology hardware & equipment, plus selective
+# capital-goods / IT rows that are electronics instruments, EMS/distribution,
+# security appliances, or photonics — not pure SaaS, carriers, or EV OEMs.
+# Tickers resolved only when present in SEC company_tickers.json (no invented
+# tickers). Non-US Forbes rows skipped (JP/UK/TW/CN/etc. handled elsewhere).
+# Household names stay Tier 1 only if already on that pattern; new rows are
+# Tier 2 or 3.
+
+source:
+  list: Forbes Global 2000
+  year: 2026
+  mirror_csv: "https://download.macrofocus.com/treemap/Forbes%20Global%202000%20-%202026.csv"
+  forbes_url: "https://www.forbes.com/lists/global2000/"
+
+added:
+  - ticker: FTNT
+    name: Fortinet
+    forbes_rank: 947
+    industry: IT Software & Services
+    country: United States
+    tier: 2
+    why: Security appliances — hardware BOM peer to PANW
+  - ticker: AME
+    name: Ametek
+    forbes_rank: 994
+    industry: Capital Goods
+    country: United States
+    tier: 2
+    why: Electronic instruments / electromechanical components
+  - ticker: INGM
+    name: Ingram Micro Holding
+    forbes_rank: 1341
+    industry: IT Software & Services
+    country: United States
+    tier: 2
+    why: Electronics wholesale distribution (SNX/ARW/AVT peer)
+  - ticker: COHR
+    name: Coherent
+    forbes_rank: 1429
+    industry: Semiconductors
+    country: United States
+    tier: 3
+    why: Photonics / optics components (LITE/AAOI neighborhood)
+  - ticker: FSLR
+    name: First Solar
+    forbes_rank: 1253
+    industry: Semiconductors
+    country: United States
+    tier: 3
+    why: Forbes Semiconductors industry row; thinner memory attach
+  - ticker: Q
+    name: Qnity Electronics
+    forbes_rank: 1554
+    industry: Technology Hardware & Equipment
+    country: United States
+    tier: 3
+    why: Electronics materials / components (SEC title Qnity Electronics)
+
+skipped_examples:
+  - reason: already_covered
+    note: "47 US relevant rows already in companies.yaml (NVDA, AVGO, MU, Flex, UI, …)"
+  - reason: non_US
+    note: "84 relevant non-US Forbes rows (TSMC, Samsung, Hon Hai, Sony, ASML, …) — skip for this EDGAR pass"
+  - company: GE Vernova
+    ticker: GEV
+    forbes_rank: 175
+    reason: out_of_scope_power_generation
+  - company: Parker-Hannifin
+    ticker: PH
+    forbes_rank: 413
+    reason: out_of_scope_fluid_motion
+  - company: Bloom Energy
+    ticker: BE
+    forbes_rank: 1561
+    reason: out_of_scope_fuel_cells
+  - company: Nextpower
+    ticker: NXT
+    forbes_rank: 1865
+    reason: out_of_scope_solar_trackers
+  - company: Everpure
+    ticker: P
+    forbes_rank: 1962
+    reason: out_of_scope_water_filtration
+  - company: Sandisk
+    ticker: SNDK
+    forbes_rank: 615
+    reason: already_covered
+  - company: Astera Labs
+    ticker: ALAB
+    forbes_rank: 1746
+    reason: already_covered
+  - company: MACOM Technology Solutions Holdings
+    ticker: MTSI
+    forbes_rank: 1925
+    reason: already_covered
+  - company: Teradyne
+    ticker: TER
+    forbes_rank: 1288
+    reason: already_covered
+  - company: Ciena
+    ticker: CIEN
+    forbes_rank: 1562
+    reason: already_covered
+  - company: Sanmina-SCI
+    ticker: SANM
+    forbes_rank: 1990
+    reason: already_covered
+  - company: Ubiquiti
+    ticker: UI
+    forbes_rank: 1322
+    reason: already_covered

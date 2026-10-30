@@ -1,0 +1,24 @@
+{
+  "company": "Montage Technology",
+  "ticker": "688008",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "澜起科技2026年半年度报告",
+  "filing_date": "2026-08-28",
+  "accession_number": "1225530486",
+  "filing_id": "1225530486",
+  "title": "澜起科技2026年半年度报告",
+  "org_id": "9900039002",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-08-29/1225530486.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530486.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:38:53.213422+00:00",
+  "paths": {
+    "other_full": "data/raw/688008/1225530486/other_full.txt",
+    "document_pdf": "data/raw/688008/1225530486/document.pdf"
+  }
+}

@@ -50,9 +50,24 @@
     });
   }
 
+  function apiHeaders() {
+    const h = {};
+    if (window.msClerk?.authHeaders) {
+      Object.assign(h, window.msClerk.authHeaders());
+    }
+    // Optional single-mode shared secret (set via localStorage for curl-less demos).
+    try {
+      const tok = localStorage.getItem("ms-broker-sim-token");
+      if (tok) h["X-Broker-Sim-Token"] = tok;
+    } catch (_) {
+      /* ignore */
+    }
+    return h;
+  }
+
   async function runSim(evt) {
     if (evt) evt.preventDefault();
-    const days = Number($("f-days").value) || 30;
+    const days = Math.min(90, Math.max(1, Number($("f-days").value) || 30));
     const seed = Number($("f-seed").value) || 42;
     const live = $("f-live").checked;
     const includeScored = $("f-scored").checked;
@@ -72,8 +87,17 @@
       String(Number.isFinite(scoreLag) ? scoreLag : 1)
     );
     try {
-      const resp = await fetch(url);
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const resp = await fetch(url, { headers: apiHeaders() });
+      if (!resp.ok) {
+        let detail = `HTTP ${resp.status}`;
+        try {
+          const body = await resp.json();
+          if (body?.detail) detail = body.detail;
+        } catch (_) {
+          /* ignore */
+        }
+        throw new Error(detail);
+      }
       state.data = await resp.json();
       status.hidden = true;
       renderAll();
@@ -369,18 +393,31 @@
     });
   }
 
-  function boot() {
+  async function boot() {
     initTheme();
     initTabs();
     $("sim-form").addEventListener("submit", runSim);
     window.addEventListener("resize", () => {
       if (state.data) drawChart();
     });
+    if (window.msClerk?.init) {
+      try {
+        await window.msClerk.init();
+      } catch (err) {
+        console.warn("clerk init", err);
+      }
+    }
+    window.__msOnAuthChange = () => {
+      /* Re-run after org switch so Authorization header is current. */
+      runSim();
+    };
     runSim();
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", boot);
+    document.addEventListener("DOMContentLoaded", () => {
+      boot();
+    });
   } else {
     boot();
   }
