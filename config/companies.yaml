@@ -321,6 +321,12 @@ companies:
     source: EDGAR
     ticker: NXPI
     tier: 2
+    forms:
+      - 20-F
+      - 6-K
+      - 10-K
+      - 10-Q
+      - 8-K
 
   - name: Texas Instruments
     role: supplier
@@ -461,6 +467,46 @@ companies:
     role: supplier
     source: EDGAR
     ticker: ASML
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  # EU electronics with English SEC dual-listings (20-F / 6-K). Prefer EDGAR
+  # over BaFin/AMF/AFM portals for v1 (those are follow-on free sources).
+  # Infineon ADR (IFNNY) has no recent 20-F/6-K in lookback — use BaFin later.
+
+  - name: Nokia
+    role: buyer
+    source: EDGAR
+    ticker: NOK
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Ericsson
+    role: buyer
+    source: EDGAR
+    ticker: ERIC
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: SAP
+    role: buyer
+    source: EDGAR
+    ticker: SAP
+    tier: 2
+    forms:
+      - 20-F
+      - 6-K
+
+  - name: Philips
+    role: buyer
+    source: EDGAR
+    ticker: PHG
     tier: 2
     forms:
       - 20-F

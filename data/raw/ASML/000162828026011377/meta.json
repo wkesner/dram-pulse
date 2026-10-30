@@ -1,0 +1,30 @@
+{
+  "company": "ASML",
+  "ticker": "ASML",
+  "role": "supplier",
+  "tier": 2,
+  "cik": "0000937966",
+  "form": "6-K",
+  "filing_date": "2026-02-25",
+  "accession_number": "0001628280-26-011377",
+  "primary_document": "form6-kannualreportbasedon.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/form6-kannualreportbasedon.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:14:05.028178+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ASML/000162828026011377/primary.html",
+    "other": "data/raw/ASML/000162828026011377/other_full.txt"
+  }
+}
