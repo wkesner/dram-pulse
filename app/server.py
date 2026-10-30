@@ -89,6 +89,12 @@ class VoteIn(BaseModel):
     vote: Literal[1, -1, 0]
 
 
+class TranslateIn(BaseModel):
+    """On-demand English translation for a non-English signal excerpt."""
+
+    signal_id: str = Field(min_length=1)
+
+
 def _read_csv(path: Path) -> list[dict[str, str]]:
     if not path.is_file() or path.stat().st_size == 0:
         return []
@@ -385,6 +391,7 @@ def create_app(
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
     broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    translate_limiter = RateLimiter(max_calls=30, window_seconds=60.0)
 
     app = FastAPI(title="Memory Signals", version="0.3.0")
     app.state.auth_mode = mode
@@ -481,6 +488,9 @@ def create_app(
     def _signals_payload(
         sig_path: Path, sight_path: Path, votes_file: Path, *, user_key: str
     ) -> list[dict[str, Any]]:
+        from src.fetch_mops import filing_open_url
+        from src.term_en_map import enrich_signal_matched_terms_en
+
         signals = _read_csv(sig_path)
         sightings = _sightings_by_signal(_read_csv(sight_path))
         tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
@@ -489,8 +499,28 @@ def create_app(
             sid = row.get("signal_id") or ""
             payload = dict(row)
             payload["tier"] = _resolve_tier(row, tier_lookup)
-            payload["sightings"] = sightings.get(sid, [])
+            # TWSE OpenAPI JSON must not be used as “Open filing” hrefs.
+            payload["source_url"] = filing_open_url(
+                payload.get("source_url") or "",
+                ticker=payload.get("ticker_or_code") or "",
+                filing_date=payload.get("filing_date") or "",
+                source=payload.get("source") or "",
+            )
+            sight_list = []
+            for sight in sightings.get(sid, []):
+                srow = dict(sight)
+                srow["source_url"] = filing_open_url(
+                    srow.get("source_url") or payload.get("source_url") or "",
+                    ticker=payload.get("ticker_or_code") or "",
+                    filing_date=srow.get("filing_date")
+                    or payload.get("filing_date")
+                    or "",
+                    source=payload.get("source") or "",
+                )
+                sight_list.append(srow)
+            payload["sightings"] = sight_list
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
+            payload["matched_terms_en"] = enrich_signal_matched_terms_en(payload)
             out.append(payload)
         return out
 
@@ -646,6 +676,129 @@ def create_app(
             user=user,
             vote=body.vote,
         )
+
+    def _translate_signal_row(sig_path: Path, signal_id: str) -> dict[str, Any]:
+        """Return English excerpt for a non-EN signal; persist when newly translated."""
+        from src.dedupe import SIGNAL_COLUMNS
+        from src.translate_excerpts import (
+            display_lang,
+            is_english,
+            persist_excerpt_en,
+            translate_excerpt,
+        )
+
+        rows = _read_csv(sig_path)
+        row = next((r for r in rows if (r.get("signal_id") or "") == signal_id), None)
+        if row is None:
+            raise HTTPException(status_code=404, detail="unknown signal_id")
+        lang = row.get("language") or "en"
+        if is_english(lang):
+            raise HTTPException(
+                status_code=400,
+                detail="English signals have no translation toggle",
+            )
+        from src.term_en_map import enrich_signal_matched_terms_en
+
+        existing = (row.get("excerpt_en") or "").strip()
+        if existing:
+            row_out = dict(row)
+            row_out["excerpt_en"] = existing
+            return {
+                "signal_id": signal_id,
+                "language": lang,
+                "language_label": display_lang(lang),
+                "excerpt_en": existing,
+                "matched_terms_en": enrich_signal_matched_terms_en(row_out),
+                "cached": True,
+            }
+        excerpt = (row.get("excerpt") or "").strip()
+        if not excerpt:
+            raise HTTPException(status_code=400, detail="empty excerpt")
+        try:
+            excerpt_en = translate_excerpt(excerpt, lang, install=True)
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+        except SystemExit as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=str(exc) or "translation package unavailable",
+            ) from exc
+        except Exception as exc:  # noqa: BLE001
+            raise HTTPException(
+                status_code=503,
+                detail=f"translation failed: {exc}",
+            ) from exc
+        if not excerpt_en:
+            raise HTTPException(status_code=503, detail="translation returned empty")
+        lock_path = sig_path.with_suffix(sig_path.suffix + ".lock")
+        lock_path.parent.mkdir(parents=True, exist_ok=True)
+        with lock_path.open("a+", encoding="utf-8") as lock_fh:
+            fcntl.flock(lock_fh.fileno(), fcntl.LOCK_EX)
+            # Re-check under lock in case a concurrent request filled it.
+            again = _read_csv(sig_path)
+            current = next(
+                (r for r in again if (r.get("signal_id") or "") == signal_id),
+                None,
+            )
+            if current is not None and (current.get("excerpt_en") or "").strip():
+                excerpt_en = (current.get("excerpt_en") or "").strip()
+            else:
+                persist_excerpt_en(
+                    sig_path,
+                    signal_id,
+                    excerpt_en,
+                    columns=list(SIGNAL_COLUMNS),
+                )
+        row_out = dict(row)
+        row_out["excerpt_en"] = excerpt_en
+        return {
+            "signal_id": signal_id,
+            "language": lang,
+            "language_label": display_lang(lang),
+            "excerpt_en": excerpt_en,
+            "matched_terms_en": enrich_signal_matched_terms_en(row_out),
+            "cached": False,
+        }
+
+    def _post_translate_auth(
+        signal_id: str,
+        request: Request,
+        authorization: str | None,
+    ) -> dict[str, Any]:
+        ip = request.client.host if request.client else "unknown"
+        sid = (signal_id or "").strip()
+        if not sid:
+            raise HTTPException(status_code=400, detail="signal_id is required")
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            if not translate_limiter.allow(
+                f"tr:{session.org_id}:{session.user_id}:{ip}"
+            ):
+                raise HTTPException(status_code=429, detail="rate limit exceeded")
+            paths = org_corpus(session)
+            return _translate_signal_row(paths["signals"], sid)
+
+        if not translate_limiter.allow(f"tr:anon:{ip}"):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+        return _translate_signal_row(signals_path, sid)
+
+    @app.post("/api/translate")
+    def post_translate(
+        body: TranslateIn,
+        request: Request,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, Any]:
+        """Fill or return excerpt_en for a non-English signal (Argos offline MT)."""
+        return _post_translate_auth(body.signal_id, request, authorization)
+
+    # Alias kept for Fly tip / older app.js that still call the #23 path.
+    @app.post("/api/signals/{signal_id}/translate")
+    def post_translate_by_id(
+        signal_id: str,
+        request: Request,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, Any]:
+        return _post_translate_auth(signal_id, request, authorization)
 
     @app.get("/api/operator/aggregates")
     def operator_aggregates(

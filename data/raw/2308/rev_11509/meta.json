@@ -8,7 +8,7 @@
   "accession_number": "rev_11509",
   "filing_id": "rev_11509",
   "title": "月營收 11509",
-  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+  "source_url": "https://mopsov.twse.com.tw/mops/web/t05st10_if?encodeURIComponent=1&step=1&firstin=1&off=1&TYPEK=all&co_id=2308&year=115&month=9",
   "lookback_months": 12,
   "window_start": "2025-10-29",
   "window_end": "2026-10-29",
@@ -18,5 +18,6 @@
     "other_full": "data/raw/2308/rev_11509/other_full.txt"
   },
   "feed": "t187ap05_L",
-  "data_ym_roc": "11509"
+  "data_ym_roc": "11509",
+  "api_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
 }
