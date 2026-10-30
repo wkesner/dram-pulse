@@ -154,9 +154,15 @@ open single-tenant demo forces offline prices and caps at 30 days.
 
 ## Multi-org demo (Clerk)
 
-Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
+### Whole-app login
 
-For the multi-org demo, prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
+**Clerk** (`AUTH_MODE=clerk`): every data API and the UI require a signed-in Clerk session **and** an active organization. Unauthenticated visitors see the sign-in gate; `/api/config` stays public so the browser can bootstrap Clerk.
+
+**Single** (`AUTH_MODE=single`): open local demos by default (typed “Voting as” name). Set `APP_ACCESS_TOKEN` to require a shared secret for the whole app — the UI prompts for the token; APIs accept `Authorization: Bearer …` or `X-App-Token`.
+
+### Clerk setup
+
+Prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
 
 ```bash
 npx -y clerk@latest auth login
@@ -169,6 +175,9 @@ npx -y clerk@latest enable orgs
 #   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
 #   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
 #   OPERATOR_TOKEN=…   # optional
+# Single-tenant shared-secret alternative:
+#   AUTH_MODE=single
+#   APP_ACCESS_TOKEN=…   # gates UI + /api/*
 ```
 
 Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.

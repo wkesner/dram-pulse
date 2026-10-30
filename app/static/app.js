@@ -1245,7 +1245,23 @@
     }),
   };
 
+  function authReady() {
+    if (window.msClerk?.isAuthenticated) {
+      return window.msClerk.isAuthenticated();
+    }
+    return !window.__msAuth?.requiresAuth;
+  }
+
   async function bootApp() {
+    if (!authReady()) {
+      const stack = $("#feed-stack");
+      if (stack) {
+        stack.replaceChildren(
+          el("div", "empty", "Sign in to load signals.")
+        );
+      }
+      return;
+    }
     await loadSignals();
     await loadUserVotes();
     await loadMeta();
@@ -1258,6 +1274,7 @@
 
   window.__msOnAuthChange = async () => {
     try {
+      if (!authReady()) return;
       if (isClerkMode() && window.__msAuth?.orgId) {
         await fetch("/api/orgs/bootstrap", {
           method: "POST",

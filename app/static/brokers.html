@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Broker market — Memory Signals</title>
+    <title>Broker market — EC Signals</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
       <div id="clerk-setup-banner" class="clerk-banner" hidden></div>
       <header class="top">
         <h1>Broker market</h1>
-        <nav class="broker-nav" aria-label="App">
+        <nav class="broker-nav" aria-label="App" data-auth-hide>
           <a href="/">Signals feed</a>
           <span aria-current="page">Brokers</span>
         </nav>
@@ -37,6 +37,9 @@
       </header>
       <p id="clerk-hint" class="clerk-hint" hidden></p>
 
+      <div id="auth-gate" class="auth-gate" hidden></div>
+
+      <div id="app-main" class="broker-main">
       <p class="lede">
         Baseline Apex / Harbor / Summit trade without a memory score. Each has a
         scored twin with the same personality and $250k start cash, but
@@ -129,6 +132,7 @@
           </table>
         </div>
       </section>
+      </div>
     </div>
   </body>
 </html>

@@ -39,6 +39,16 @@ def auth_mode() -> str:
     return mode if mode in {"single", "clerk"} else "single"
 
 
+def app_access_token() -> str:
+    """Optional shared secret that gates the whole app in AUTH_MODE=single.
+
+    When set, every data API (and the UI) requires Authorization: Bearer <token>
+    or X-App-Token. Clerk mode ignores this — session JWT is the gate.
+    """
+    load_dotenv()
+    return (os.environ.get("APP_ACCESS_TOKEN") or "").strip()
+
+
 def clerk_publishable_key() -> str:
     load_dotenv()
     return (os.environ.get("CLERK_PUBLISHABLE_KEY") or "").strip()

@@ -1,9 +1,13 @@
 /**
- * Clerk browser helpers for AUTH_MODE=clerk.
+ * Clerk / app-token browser helpers.
+ * AUTH_MODE=clerk → session JWT + org required for the whole UI.
+ * AUTH_MODE=single + APP_ACCESS_TOKEN → shared secret (Bearer / X-App-Token).
  * Aligns with Clerk JS CDN quickstart (clerk-js@6 + @clerk/ui):
  * https://clerk.com/docs/js-frontend/getting-started/quickstart
  */
 (() => {
+  const APP_TOKEN_KEY = "ms-app-access-token";
+
   const state = {
     mode: "single",
     ready: false,
@@ -12,6 +16,10 @@
     orgId: null,
     userId: null,
     displayName: "",
+    requiresAuth: false,
+    requiresAppToken: false,
+    appToken: null,
+    authenticated: false,
   };
 
   async function loadConfig() {
@@ -106,9 +114,177 @@
     return token;
   }
 
+  function readStoredAppToken() {
+    try {
+      return (sessionStorage.getItem(APP_TOKEN_KEY) || "").trim();
+    } catch {
+      return "";
+    }
+  }
+
+  function writeStoredAppToken(token) {
+    try {
+      if (token) sessionStorage.setItem(APP_TOKEN_KEY, token);
+      else sessionStorage.removeItem(APP_TOKEN_KEY);
+    } catch {
+      /* ignore */
+    }
+  }
+
   function authHeaders() {
-    if (state.mode !== "clerk" || !state.sessionToken) return {};
-    return { Authorization: "Bearer " + state.sessionToken };
+    const h = {};
+    if (state.mode === "clerk" && state.sessionToken) {
+      h.Authorization = "Bearer " + state.sessionToken;
+    } else if (state.requiresAppToken && state.appToken) {
+      h.Authorization = "Bearer " + state.appToken;
+      h["X-App-Token"] = state.appToken;
+    }
+    return h;
+  }
+
+  function isAuthenticated() {
+    if (state.mode === "clerk") {
+      return Boolean(state.sessionToken && state.orgId);
+    }
+    if (state.requiresAppToken) {
+      return Boolean(state.appToken);
+    }
+    return true;
+  }
+
+  function setShellVisible(visible) {
+    document.body.classList.toggle("auth-locked", !visible);
+    const main = document.getElementById("app-main");
+    if (main) main.hidden = !visible;
+    document.querySelectorAll("[data-auth-hide]").forEach((el) => {
+      el.hidden = !visible;
+    });
+  }
+
+  function renderAuthGate({ title, body, mountSignIn, showTokenForm }) {
+    const gate = document.getElementById("auth-gate");
+    if (!gate) return;
+    gate.hidden = false;
+    gate.replaceChildren();
+
+    const panel = document.createElement("div");
+    panel.className = "auth-gate-panel";
+    const h = document.createElement("h2");
+    h.textContent = title;
+    const p = document.createElement("p");
+    p.className = "auth-gate-lede";
+    p.textContent = body;
+    panel.append(h, p);
+
+    if (showTokenForm) {
+      const form = document.createElement("form");
+      form.className = "auth-token-form";
+      form.setAttribute("autocomplete", "off");
+      const label = document.createElement("label");
+      label.textContent = "Access token";
+      const input = document.createElement("input");
+      input.type = "password";
+      input.name = "app_token";
+      input.placeholder = "APP_ACCESS_TOKEN";
+      input.required = true;
+      input.value = state.appToken || "";
+      label.append(input);
+      const btn = document.createElement("button");
+      btn.type = "submit";
+      btn.textContent = "Continue";
+      const err = document.createElement("p");
+      err.className = "auth-gate-error";
+      err.hidden = true;
+      form.append(label, btn, err);
+      form.addEventListener("submit", async (evt) => {
+        evt.preventDefault();
+        const tok = (input.value || "").trim();
+        err.hidden = true;
+        if (!tok) return;
+        // Probe a gated endpoint before unlocking the shell.
+        const probe = await fetch("/api/meta", {
+          headers: {
+            Authorization: "Bearer " + tok,
+            "X-App-Token": tok,
+          },
+        });
+        if (!probe.ok) {
+          err.hidden = false;
+          err.textContent =
+            probe.status === 401
+              ? "That token was rejected. Check APP_ACCESS_TOKEN."
+              : `Could not verify token (HTTP ${probe.status}).`;
+          return;
+        }
+        state.appToken = tok;
+        writeStoredAppToken(tok);
+        state.authenticated = true;
+        applyAuthGate();
+        if (typeof window.__msOnAuthChange === "function") {
+          window.__msOnAuthChange();
+        }
+      });
+      panel.append(form);
+    }
+
+    if (mountSignIn) {
+      const mount = document.createElement("div");
+      mount.id = "auth-gate-clerk";
+      panel.append(mount);
+      gate.append(panel);
+      if (state.clerk) state.clerk.mountSignIn(mount);
+      return;
+    }
+
+    gate.append(panel);
+  }
+
+  function applyAuthGate() {
+    state.authenticated = isAuthenticated();
+    const gate = document.getElementById("auth-gate");
+
+    if (!state.requiresAuth) {
+      if (gate) gate.hidden = true;
+      setShellVisible(true);
+      return state.authenticated;
+    }
+
+    if (state.mode === "clerk") {
+      if (!state.clerk?.user) {
+        setShellVisible(false);
+        renderAuthGate({
+          title: "Sign in to EC Signals",
+          body: "A Clerk account and organization are required to view signals, votes, and broker sims.",
+          mountSignIn: true,
+        });
+        return false;
+      }
+      if (!state.orgId) {
+        setShellVisible(false);
+        renderAuthGate({
+          title: "Select an organization",
+          body: "Create or switch to an organization in the header to load your private feed.",
+        });
+        return false;
+      }
+      if (gate) gate.hidden = true;
+      setShellVisible(true);
+      return true;
+    }
+
+    if (state.requiresAppToken && !state.appToken) {
+      setShellVisible(false);
+      renderAuthGate({
+        title: "Enter access token",
+        body: "This deployment requires APP_ACCESS_TOKEN. Paste the shared secret to continue.",
+        showTokenForm: true,
+      });
+      return false;
+    }
+
+    if (gate) gate.hidden = true;
+    setShellVisible(true);
+    return true;
   }
 
   function mountChrome(clerk) {
@@ -121,11 +297,8 @@
     row.className = "clerk-row";
 
     if (!clerk.user) {
-      const signIn = document.createElement("div");
-      signIn.id = "clerk-sign-in";
-      row.append(signIn);
+      // Full-page gate owns SignIn; keep chrome empty while signed out.
       host.append(row);
-      clerk.mountSignIn(signIn);
       return;
     }
 
@@ -135,7 +308,6 @@
     orgBtn.id = "clerk-org-switcher";
     row.append(orgBtn, userBtn);
     host.append(row);
-    // Organizations: switcher next to UserButton (Clerk SKILL "After setup")
     clerk.mountOrganizationSwitcher(orgBtn, {
       createOrganizationMode: "modal",
       organizationProfileMode: "modal",
@@ -147,19 +319,28 @@
       hint.hidden = Boolean(clerk.organization);
       hint.textContent = clerk.organization
         ? ""
-        : "Create or select an organization to load your private signal feed.";
+        : "Create or select an organization to unlock the app.";
     }
   }
 
   async function init() {
     const cfg = await loadConfig();
     state.mode = cfg.auth_mode || "single";
+    state.requiresAuth = Boolean(cfg.requires_auth);
+    state.requiresAppToken = Boolean(cfg.requires_app_token);
+    state.appToken = state.requiresAppToken ? readStoredAppToken() : null;
     window.__msAuth = state;
 
     const singleUser = document.querySelector("label.user");
     if (state.mode !== "clerk") {
       if (singleUser) singleUser.hidden = false;
-      return { mode: "single" };
+      applyAuthGate();
+      state.ready = true;
+      return {
+        mode: "single",
+        requiresAuth: state.requiresAuth,
+        authenticated: state.authenticated,
+      };
     }
 
     if (singleUser) singleUser.hidden = true;
@@ -171,7 +352,12 @@
         banner.textContent =
           "Clerk mode is on, but keys are missing. Run: npx clerk@latest auth login && npx clerk@latest link --app <id> && npx clerk@latest env pull --file .env — then set AUTH_MODE=clerk and restart uvicorn.";
       }
-      return { mode: "clerk", configured: false };
+      setShellVisible(false);
+      renderAuthGate({
+        title: "Clerk not configured",
+        body: "Set CLERK_PUBLISHABLE_KEY / CLERK_SECRET_KEY and restart the server.",
+      });
+      return { mode: "clerk", configured: false, authenticated: false };
     }
     if (banner) banner.hidden = true;
 
@@ -182,17 +368,19 @@
     state.clerk = clerk;
     await refreshSession(clerk);
     mountChrome(clerk);
+    applyAuthGate();
     state.ready = true;
 
     clerk.addListener(async () => {
       await refreshSession(clerk);
       mountChrome(clerk);
+      applyAuthGate();
       if (typeof window.__msOnAuthChange === "function") {
         window.__msOnAuthChange();
       }
     });
 
-    if (clerk.organization) {
+    if (clerk.organization && state.sessionToken) {
       try {
         await fetch("/api/orgs/bootstrap", {
           method: "POST",
@@ -203,8 +391,20 @@
       }
     }
 
-    return { mode: "clerk", configured: true, orgId: state.orgId };
+    return {
+      mode: "clerk",
+      configured: true,
+      orgId: state.orgId,
+      authenticated: state.authenticated,
+    };
   }
 
-  window.msClerk = { init, authHeaders, state, refreshSession };
+  window.msClerk = {
+    init,
+    authHeaders,
+    state,
+    refreshSession,
+    isAuthenticated,
+    applyAuthGate,
+  };
 })();
