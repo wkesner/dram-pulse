@@ -1623,6 +1623,68 @@ companies:
     ticker: "6146"
     tier: 3
 
+  # JP electronics buyers (EDINET) — memory/semicap demand side
+  - name: Sony Group
+    role: buyer
+    source: EDINET
+    ticker: "6758"
+    tier: 1
+
+  - name: Panasonic Holdings
+    role: buyer
+    source: EDINET
+    ticker: "6752"
+    tier: 2
+
+  - name: Fujitsu
+    role: buyer
+    source: EDINET
+    ticker: "6702"
+    tier: 2
+
+  - name: NEC
+    role: buyer
+    source: EDINET
+    ticker: "6701"
+    tier: 2
+
+  - name: Hitachi
+    role: buyer
+    source: EDINET
+    ticker: "6501"
+    tier: 2
+
+  - name: Mitsubishi Electric
+    role: buyer
+    source: EDINET
+    ticker: "6503"
+    tier: 2
+
+  - name: Canon
+    role: buyer
+    source: EDINET
+    ticker: "7751"
+    tier: 2
+
+  - name: Nintendo
+    role: buyer
+    source: EDINET
+    ticker: "7974"
+    tier: 2
+
+  - name: Toyota Motor
+    role: buyer
+    source: EDINET
+    ticker: "7203"
+    tier: 1
+
+  - name: Honda Motor
+    role: buyer
+    source: EDINET
+    ticker: "7267"
+    tier: 2
+
+  # Additional JP electronics / materials suppliers (EDINET)
   - name: Kioxia Holdings
     role: supplier
     source: EDINET
@@ -1635,6 +1697,30 @@ companies:
     ticker: "6963"
     tier: 2
 
+  - name: Lasertec
+    role: supplier
+    source: EDINET
+    ticker: "6920"
+    tier: 2
+
+  - name: SUMCO
+    role: supplier
+    source: EDINET
+    ticker: "3436"
+    tier: 2
+
+  - name: Shin-Etsu Chemical
+    role: supplier
+    source: EDINET
+    ticker: "4063"
+    tier: 2
+
+  - name: Ibiden
+    role: supplier
+    source: EDINET
+    ticker: "4062"
+    tier: 3
+
   - name: Kyocera
     role: supplier
     source: EDINET
@@ -1645,6 +1731,12 @@ companies:
     role: supplier
     source: EDINET
     ticker: "6770"
+    tier: 3
+
+  - name: Kokusai Electric
+    role: supplier
+    source: EDINET
+    ticker: "6525"
     tier: 3
 
   - name: Taiyo Yuden
@@ -1659,26 +1751,8 @@ companies:
     ticker: "6806"
     tier: 3
 
-  - name: SUMCO
-    role: supplier
-    source: EDINET
-    ticker: "3436"
-    tier: 3
-
-  - name: Sony Group
-    role: buyer
-    source: EDINET
-    ticker: "6758"
-    tier: 2
-
-  - name: Panasonic Holdings
-    role: buyer
-    source: EDINET
-    ticker: "6752"
-    tier: 2
-
   # Automotive Tier-1 / Toyota-orbit (EDINET). OTC ADRs are F-6 only — no
-  # usable EDGAR 20-F/6-K. Fetch needs EDINET_API_KEY on a keyed VM.
+  # usable EDGAR 20-F/6-K. Filings fetched with EDINET_API_KEY on keyed VM.
   - name: Denso
     role: buyer
     source: EDINET
@@ -1704,7 +1778,7 @@ companies:
     tier: 2
 
   # --- Companies House (UK; requires COMPANIES_HOUSE_API_KEY) ---
-  # Kept as-is — no confirmation-statement chase this pass (see europe-filings note).
+  # LSE RNS / FCA NSM documented separately. UK deferred for supply-signal yield.
   - name: Renishaw
     role: supplier
     source: CH
