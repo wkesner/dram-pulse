@@ -316,22 +316,37 @@
 
   function highlight(text, terms) {
     const frag = document.createDocumentFragment();
-    const ts = terms
-      .filter((t) => t.length > 2)
-      .sort((a, b) => b.length - a.length);
+    const raw = String(text || "");
+    const lower = raw.toLowerCase();
+    // Only terms that actually occur in this text (EN view uses matched_terms_en).
+    // Cap size so the RegExp stays reliable in the browser.
+    const ts = [...new Set(
+      (terms || [])
+        .map((t) => String(t || "").trim())
+        .filter((t) => t.length > 2 && lower.includes(t.toLowerCase()))
+    )]
+      .sort((a, b) => b.length - a.length)
+      .slice(0, 40);
     if (!ts.length) {
-      frag.append(text);
+      frag.append(raw);
       return frag;
     }
-    const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-    const re = new RegExp("(" + esc.join("|") + ")", "gi");
+    let re;
+    try {
+      const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      re = new RegExp("(" + esc.join("|") + ")", "gi");
+    } catch {
+      frag.append(raw);
+      return frag;
+    }
     let last = 0;
-    for (const m of text.matchAll(re)) {
-      frag.append(text.slice(last, m.index));
-      frag.append(el("mark", null, m[0]));
+    for (const m of raw.matchAll(re)) {
+      if (m.index > last) frag.append(raw.slice(last, m.index));
+      // Same yellow highlight as original-language matches (.excerpt mark.term-hl).
+      frag.append(el("mark", "term-hl", m[0]));
       last = m.index + m[0].length;
     }
-    frag.append(text.slice(last));
+    if (last < raw.length) frag.append(raw.slice(last));
     return frag;
   }
 
@@ -457,9 +472,10 @@
     const paintExcerpt = () => {
       ex.replaceChildren();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
-      // Original: source-language matched_terms. English: term-bank EN equivalents.
+      // Original: source-language matched_terms.
+      // English: matched_terms_en only (never fall back to CJK — those won't match).
       if (showEnglish && excerptEn) {
-        ex.append(highlight(text, termsEn.length ? termsEn : terms));
+        ex.append(highlight(text, termsEn));
       } else {
         ex.append(highlight(text, terms));
       }

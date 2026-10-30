@@ -25,9 +25,25 @@ _LATINISH = re.compile(r"^[A-Za-z0-9][A-Za-z0-9\s\-/&.']*[A-Za-z0-9]%?$")
 # Curated glosses so Argos English often lights up (term-bank sense, not free invent).
 # Keys include both simplified and traditional forms used in CNINFO / MOPS.
 _CJK_GLOSS: dict[str, list[str]] = {
-    # Packaging / foundry products
-    "约当晶圆": ["wafer equivalents", "wafer equivalent", "equivalent wafers", "wafers"],
-    "約當晶圓": ["wafer equivalents", "wafer equivalent", "equivalent wafers", "wafers"],
+    # Packaging / foundry products (incl. Argos quirks: 约当晶圆 → "crystals")
+    "约当晶圆": [
+        "wafer equivalents",
+        "wafer equivalent",
+        "equivalent wafers",
+        "wafers",
+        "wafer",
+        "crystals",
+        "crystal",
+    ],
+    "約當晶圓": [
+        "wafer equivalents",
+        "wafer equivalent",
+        "equivalent wafers",
+        "wafers",
+        "wafer",
+        "crystals",
+        "crystal",
+    ],
     "晶圆代工": ["wafer foundry", "foundry", "wafer fabrication"],
     "晶圓代工": ["wafer foundry", "foundry", "wafer fabrication"],
     "晶圆制造": ["wafer manufacturing", "wafer fabrication"],
@@ -48,8 +64,20 @@ _CJK_GLOSS: dict[str, list[str]] = {
     # Capacity / utilization
     "产能利用率": ["capacity utilization", "capacity utilization rate", "utilization", "capacity"],
     "產能利用率": ["capacity utilization", "capacity utilization rate", "utilization", "capacity"],
-    "产能满载": ["full capacity", "fully loaded", "at full capacity", "capacity"],
-    "產能滿載": ["full capacity", "fully loaded", "at full capacity", "capacity"],
+    "产能满载": [
+        "full capacity",
+        "fully loaded",
+        "at full capacity",
+        "capacity",
+        "full",
+    ],
+    "產能滿載": [
+        "full capacity",
+        "fully loaded",
+        "at full capacity",
+        "capacity",
+        "full",
+    ],
     "产能紧张": ["tight capacity", "capacity constrained", "capacity"],
     "產能緊張": ["tight capacity", "capacity constrained", "capacity"],
     "产能扩张": ["capacity expansion", "capacity expansions"],
@@ -163,18 +191,24 @@ def _build_foreign_to_en(
     en_dir = supply.get("direction") or {}
     en_sent = supply.get("sentiment") or {}
 
+    def _short_ens(terms: list[str], *, limit: int = 8) -> list[str]:
+        """Compact EN bank phrases — avoid dumping entire tightening lists."""
+        latin = _latin_terms([str(x) for x in terms])
+        return sorted(latin, key=len)[:limit]
+
     for lang_key in ("korean", "chinese", "japanese", "german"):
         block = supply.get(lang_key) or {}
         for label, foreign_terms in (block.get("topics") or {}).items():
-            ens = _latin_terms([str(x) for x in (en_topics.get(label) or [])])
+            ens = _short_ens([str(x) for x in (en_topics.get(label) or [])], limit=12)
             for ft in foreign_terms or []:
                 add(str(ft), ens)
         for label, foreign_terms in (block.get("direction") or {}).items():
-            ens = _latin_terms([str(x) for x in (en_dir.get(label) or [])])
+            # Direction banks are huge; curated glosses carry most of the weight.
+            ens = _short_ens([str(x) for x in (en_dir.get(label) or [])], limit=6)
             for ft in foreign_terms or []:
                 add(str(ft), ens)
         for label, foreign_terms in (block.get("sentiment") or {}).items():
-            ens = _latin_terms([str(x) for x in (en_sent.get(label) or [])])
+            ens = _short_ens([str(x) for x in (en_sent.get(label) or [])], limit=6)
             for ft in foreign_terms or []:
                 add(str(ft), ens)
 
@@ -235,9 +269,10 @@ def matched_terms_en(
     if excerpt_en:
         low = excerpt_en.lower()
         present = [t for t in out if t.lower() in low]
-        absent = [t for t in out if t.lower() not in low]
-        # Prefer phrases that will actually paint, then the rest.
-        out = present + absent
+        # When English text is known, only return phrases that will paint —
+        # keeps Feed RegExp small and guarantees yellow marks on Show English.
+        if present:
+            out = present
     # Drop very short tokens (mirror UI highlight filter length > 2).
     return [t for t in out if len(t) > 2]
 

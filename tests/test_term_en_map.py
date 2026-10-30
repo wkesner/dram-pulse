@@ -15,24 +15,22 @@ def test_parse_matched_terms_umc():
 
 
 def test_umc_chinese_terms_map_to_en_bank():
+    excerpt = (
+        "The overall capacity utilization rate is 92%, with several "
+        "12-inch crystal mills full"
+    )
     ens = matched_terms_en(
         "product:約當晶圓; topic:產能利用率; dir:產能滿載",
-        excerpt_en=(
-            "The overall capacity utilization rate is 92%, with several "
-            "12-inch crystal mills full"
-        ),
+        excerpt_en=excerpt,
     )
+    # Only phrases that occur in excerpt_en (so Show English can paint marks).
+    assert ens
+    assert all(t.lower() in excerpt.lower() for t in ens)
     assert "capacity utilization rate" in ens or "capacity utilization" in ens
     assert "capacity" in ens
-    # Packaging family / gloss for 約當晶圓
-    assert any("wafer" in t.lower() or "packaging" in t.lower() for t in ens)
-    # Phrases present in excerpt_en are ordered first.
-    assert ens[0].lower() in (
-        "capacity utilization rate",
-        "capacity utilization",
-        "utilization",
-        "capacity",
-    )
+    # Argos / gloss hits for 約當晶圓 / 產能滿載
+    assert "crystal" in ens or "crystals" in ens
+    assert "full" in ens
 
 
 def test_cninfo_shortage_maps():
