@@ -84,10 +84,18 @@ The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/
 
 ```bash
 pip install -r requirements.txt
-uvicorn app.server:app --reload --port 8000
-# open http://localhost:8000/  (static placeholder until Prompt 2+)
-# API: GET /api/signals  GET /api/meta  GET /api/votes?user=NAME  POST /api/votes
+scripts/run_feed.sh                    # concurrency-capped shared process (~10 users)
+# or: uvicorn app.server:app --reload --port 8000
+# open http://localhost:8000/
+# API: GET /api/signals?sightings=meta|full|none  GET /api/meta
+#      GET /api/votes?user=NAME  POST /api/votes
+#      GET /api/signals/{id}/sightings
 ```
+
+Feed hot path (no paid cache): CSV mtime cache, default slim sightings (`meta`),
+ETag/304, gzip, per-client read limits, vote responses include tallies so the UI
+does not re-dump `/api/signals` after every click. See Project doc
+`docs/ten-user-performance.md` when present in the agent store.
 
 Legacy Streamlit prototype (optional): `streamlit run app.py`.
 
@@ -212,10 +220,10 @@ Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
 | **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
 | **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
 | **France (AMF Info‑financière)** | `python -m src.fetch_amf` | none | **stub** — free OAM JSON API; wire ISINs next |
+| **Germany (UREG)** | `python -m src.fetch_ureg` | none | **v1 live** — Unternehmensregister search + IR PDF bodies (no captcha solver) |
 | TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
 | LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
 | FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
-| BaFin / Unternehmensregister (DE) | — | portal | ranked after AMF; no clean public filing API yet |
 | AFM registers (NL) | — | portal | thin vs ASML/NXP already on EDGAR |
 
 ```bash
@@ -235,18 +243,24 @@ python3 -m src.fetch_edinet --ticker 8035
 python3 -m src.fetch_companies_house
 python3 -m src.fetch_companies_house --ticker RSW
 
+# Germany — Unternehmensregister listing + IR PDF mirrors (IFX / WAF smoke)
+python3 -m src.fetch_ureg
+python3 -m src.fetch_ureg --ticker IFX
+python3 -m src.fetch_ureg --list-only --ticker WAF
+
 # Extract + verify (same dedupe path as EDGAR/DART)
 export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 python3 -m src.extract --all --no-fetch-prior
 python3 -m src.verify
 ```
 
-Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH), `de`/`en` (UREG). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`. German commodity terms land in a follow-on PR.
 
 ### Auth / rate limits / ToS (summary)
 
 - **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
 - **MOPS/TWSE**: no key. Official OpenAPI (`t187ap04_L` material info + `t187ap05_L` monthly revenue). Snapshots are latest-period (not a historical range) — re-runs accumulate cache. Prefer OpenAPI over MOPS HTML (TWSE ToS discourages automated scrape of non-API pages). Soft ≤1 r/s.
+- **UREG (Unternehmensregister)**: no key. Search-token + ACCOUNTING listing; prefer pub types 135/136/137. Document bodies often need captcha — follow IR/`config/ureg_documents.yaml` PDFs instead (no captcha solver; no BaFin MVP SOAP). Soft ≤0.5 r/s; robots.txt disallows `/de/search`.
 - **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
 - **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
 - **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.
@@ -268,13 +282,13 @@ Ranked for electronic-commodity supply signals + information imbalance. Prefer o
 
 Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). AMF stubbed. Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027. Prefer EDGAR dual-lists over Infineon OTC `IFNNY` (no live 20-F).
 
-**English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
+**English toggle:** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
 ```bash
-python3 -m src.translate_excerpts   # downloads ko→en package on first run
+python3 -m src.translate_excerpts   # downloads needed *→en packages (ko/zh/ja/de/…)
 ```
 
-Feed cards with `language != en` (and a non-empty `excerpt_en`) show **Show English** / **Original**. English rows leave `excerpt_en` blank. Re-extract preserves existing translations by `signal_id`.
+Covered filing languages: **ko** (DART), **zh** / **zh-TW** (CNINFO / MOPS), **ja** (EDINET), **de** (UREG / BaFin), plus other Argos *→en pairs (fr/es/…). Feed cards with `language != en` always show **Show English** / **Original**; if `excerpt_en` is blank the UI calls `POST /api/translate` (same Argos path) and persists the result. English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
 
 ---
 

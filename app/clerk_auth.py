@@ -114,8 +114,14 @@ _jwks_clients: dict[str, PyJWKClient] = {}
 
 
 def _jwks_client(issuer: str) -> PyJWKClient:
+    # Cache JWKS in-process (lifespan=1h) so ~10 concurrent users do not
+    # re-fetch Clerk keys on every request. No paid cache required.
     if issuer not in _jwks_clients:
-        _jwks_clients[issuer] = PyJWKClient(f"{issuer}/.well-known/jwks.json")
+        _jwks_clients[issuer] = PyJWKClient(
+            f"{issuer}/.well-known/jwks.json",
+            cache_keys=True,
+            lifespan=3600,
+        )
     return _jwks_clients[issuer]
 
 

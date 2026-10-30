@@ -48,6 +48,9 @@ topics:
     - price
   inventory:
     - elevated inventory
+    - high customer inventory
+    - customer inventory levels
+    - high inventory levels
     - inventory build
     - inventories
     - inventory
@@ -128,6 +131,9 @@ direction:
   easing:
     - inventory build
     - elevated inventory
+    - high customer inventory
+    - customer inventory levels
+    - high inventory levels
     - price decline
     - prices falling
     - prices declined
@@ -517,3 +523,144 @@ japanese:
       - 低迷
       - 悪化
       - 減速
+
+# German terms (Unternehmensregister / Bundesanzeiger). Merged at extract.
+# Prefer compounds / multi-word phrases; avoid bare Lieferkette, Bestand,
+# Kapazität, Versorgung, Preis, Nachfrage (legalese / accounting noise).
+german:
+  topics:
+    availability:
+      - Lieferengpässe
+      - Lieferengpass
+      - Lieferverzögerungen
+      - Lieferverzögerung
+      - verlängerte Lieferzeiten
+      - verlängerte Lieferzeit
+      - Lieferzeiten
+      - Lieferzeit
+      - Versorgungslage
+      - Versorgungsengpässen
+      - Versorgungsengpässe
+      - Versorgungsengpass
+      - Lieferkettenstörungen
+      - Lieferkettenstörung
+      - Störungen in der Lieferkette
+      - Unterbrechungen in der Lieferkette
+      - Verzögerungen in der Lieferkette
+      - Produktallokation
+      - auf Allokation
+      - Kontingentierung
+      - Verknappung
+      - Unterversorgung
+      - Überangebot
+      - Allokation
+    pricing:
+      - Preissteigerungen
+      - Preissteigerung
+      - Preisanstiege
+      - Preisanstieg
+      - Preisrückgänge
+      - Preisrückgang
+      - Preisdruck
+      - Durchschnittsverkaufspreise
+      - Verkaufspreise
+      - Verkaufspreis
+    inventory:
+      - Bestandsaufbau
+      - Bestandsabbau
+      - Lageraufbau
+      - Lagerbestände
+      - Lagerbestand
+      - Vorratsvermögen
+      - Überbestände
+      - Überbestand
+    capacity:
+      - Kapazitätsengpässe
+      - Kapazitätsengpass
+      - Kapazitätsauslastung
+      - Fertigungskapazität
+      - Produktionskapazität
+      - Waferkapazitäten
+      - Waferkapazität
+      - Kapazitätserweiterung
+      - Kapazitätsausbau
+      - Kapazitätsaufbau
+      - Auslastung
+    yield_quality:
+      - Ausbeute
+      - Qualifikation
+    demand:
+      - Nachfragewachstum
+      - Nachfrageschub
+      - Nachfragerückgang
+      - Nachfrageschwäche
+      - rückläufige Nachfrage
+      - nachlassende Nachfrage
+      - starke Nachfrage
+      - robuste Nachfrage
+  direction:
+    tightening:
+      - Lieferengpässe
+      - Lieferengpass
+      - Lieferverzögerungen
+      - Lieferverzögerung
+      - verlängerte Lieferzeiten
+      - verlängerte Lieferzeit
+      - Versorgungsengpässen
+      - Versorgungsengpässe
+      - Versorgungsengpass
+      - Lieferkettenstörungen
+      - Lieferkettenstörung
+      - Störungen in der Lieferkette
+      - Unterbrechungen in der Lieferkette
+      - Verzögerungen in der Lieferkette
+      - Produktallokation
+      - auf Allokation
+      - Kontingentierung
+      - Verknappung
+      - Unterversorgung
+      - Kapazitätsengpässe
+      - Kapazitätsengpass
+      - Preissteigerungen
+      - Preissteigerung
+      - Preisanstiege
+      - Preisanstieg
+      - Nachfrageschub
+      - starke Nachfrage
+    easing:
+      - Überangebot
+      - Bestandsaufbau
+      - Bestandsabbau
+      - Lageraufbau
+      - Überbestände
+      - Überbestand
+      - Preisrückgänge
+      - Preisrückgang
+      - Preisdruck
+      - Nachfragerückgang
+      - Nachfrageschwäche
+      - rückläufige Nachfrage
+      - nachlassende Nachfrage
+      - Entspannung der Versorgungslage
+      - Entspannung der Lieferkette
+    stable:
+      - ausgeglichene Versorgungslage
+      - stabile Versorgung
+      - Angebot und Nachfrage ausgewogen
+  sentiment:
+    positive:
+      - starke Nachfrage
+      - robuste Nachfrage
+      - Nachfragewachstum
+      - Rekordniveau
+      - zweistelliges Wachstum
+      - Wachstum
+      - robust
+    negative:
+      - Gegenwind
+      - belastend
+      - nachteilig
+      - schwach
+      - Rückgang
+      - Rückgänge
+      - Abschwächung

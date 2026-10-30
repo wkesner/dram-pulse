@@ -1,0 +1,28 @@
+{
+  "company": "Elmos Semiconductor",
+  "ticker": "ELG",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Elmos Semiconductor SE Jahresabschluss HGB 2025",
+  "filing_date": "2026-06-08",
+  "accession_number": "UREG_135_20260608_5e704cf8d2",
+  "filing_id": "UREG_135_20260608_5e704cf8d2",
+  "title": "Elmos Semiconductor SE Jahresabschluss HGB 2025",
+  "publication_type": "135",
+  "euid": "DER3306.HRB123561",
+  "lei": "529900UMKKDCAP4P4H63",
+  "isin": "DE0005677108",
+  "ureg_source_name": "https://www.elmos.com/fileadmin/elmos-website/about-us/investor_relations/finanzberichte/2026/elmos_hgb_2025.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://www.elmos.com/fileadmin/elmos-website/about-us/investor_relations/finanzberichte/2026/elmos_hgb_2025.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:05:54.246511+00:00",
+  "paths": {
+    "other_full": "data/raw/ELG/UREG_135_20260608_5e704cf8d2/other_full.txt",
+    "document_pdf": "data/raw/ELG/UREG_135_20260608_5e704cf8d2/document.pdf"
+  }
+}

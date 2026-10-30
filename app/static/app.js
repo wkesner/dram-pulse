@@ -397,9 +397,14 @@
       console.error("vote failed", resp.status, detail);
       return;
     }
+    const body = await resp.json();
     userVotes[s.signal_id] = v;
-    // Refresh tallies from server
-    await loadSignals({ keepFilters: true });
+    // Patch tallies locally — avoid re-downloading the full signals dump.
+    if (body.votes) {
+      const row = SIGNALS.find((x) => x.signal_id === s.signal_id);
+      if (row) row.votes = body.votes;
+      s.votes = body.votes;
+    }
     renderFeed();
   }
 
@@ -445,10 +450,22 @@
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
     const lang = String(s.language || "en").toLowerCase();
-    const excerptEn = String(s.excerpt_en || "").trim();
-    const canTranslate =
-      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    const isEnglishLang = !lang || lang === "en" || lang === "english";
+    // Any non-EN post gets a translate control; English view uses pipeline
+    // excerpt_en when present, else on-demand POST /api/translate.
+    let excerptEn = String(s.excerpt_en || "").trim();
+    const canTranslate = !isEnglishLang;
+    const langChip = (() => {
+      const raw = lang.replace(/_/g, "-");
+      if (raw === "zh-tw" || raw === "zh-hant" || raw === "zt") return "zh-TW";
+      if (raw === "zh-cn" || raw === "zh-hans") return "zh";
+      if (raw === "german" || raw === "deutsch") return "de";
+      if (raw === "japanese" || raw === "jp") return "ja";
+      if (raw === "korean") return "ko";
+      return raw || "??";
+    })();
     let showEnglish = false;
+    let translating = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
@@ -464,15 +481,61 @@
       const tog = el("button", "lang-toggle", "Show English");
       tog.type = "button";
       tog.setAttribute("aria-pressed", "false");
-      tog.title = "Machine translation (Argos); original excerpt is unchanged";
-      tog.addEventListener("click", () => {
-        showEnglish = !showEnglish;
-        tog.textContent = showEnglish ? "Original" : "Show English";
+      tog.title =
+        "Machine translation (Argos); original excerpt is unchanged. " +
+        "Uses stored excerpt_en or translates on demand.";
+      const setToggleLabel = () => {
+        if (translating) tog.textContent = "Translating…";
+        else tog.textContent = showEnglish ? "Original" : "Show English";
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        tog.disabled = translating;
+      };
+      tog.addEventListener("click", async () => {
+        if (translating) return;
+        if (showEnglish) {
+          showEnglish = false;
+          setToggleLabel();
+          paintExcerpt();
+          return;
+        }
+        if (!excerptEn) {
+          translating = true;
+          setToggleLabel();
+          try {
+            const resp = await fetch("/api/translate", {
+              method: "POST",
+              headers: apiHeaders({ "Content-Type": "application/json" }),
+              body: JSON.stringify({ signal_id: s.signal_id }),
+            });
+            if (!resp.ok) {
+              const detail = await resp.text();
+              console.error("translate failed", resp.status, detail);
+              translating = false;
+              setToggleLabel();
+              return;
+            }
+            const data = await resp.json();
+            excerptEn = String(data.excerpt_en || "").trim();
+            s.excerpt_en = excerptEn;
+            if (!excerptEn) {
+              translating = false;
+              setToggleLabel();
+              return;
+            }
+          } catch (err) {
+            console.error("translate failed", err);
+            translating = false;
+            setToggleLabel();
+            return;
+          }
+          translating = false;
+        }
+        showEnglish = true;
+        setToggleLabel();
         paintExcerpt();
       });
       find.append(tog);
-      chips.append(el("span", "chip lang", lang));
+      chips.append(el("span", "chip lang", langChip));
     }
     const open = el("a", null, "Open filing at this passage");
     open.href =
@@ -483,7 +546,10 @@
 
     const det = el("details");
     const sum = el("summary");
-    const n = sightings.length || 1;
+    const n =
+      Number(s.times_seen) ||
+      sightings.length ||
+      1;
     const latestDate = latest(s);
     if (n > 1) {
       sum.append(
@@ -495,36 +561,44 @@
       sum.append("First seen in ", el("b", null, "1 filing"));
     }
     const ul = el("ul", "sightings");
-    const list = sightings.length
-      ? [...sightings].sort((a, b) =>
-          (b.filing_date || "").localeCompare(a.filing_date || "")
-        )
-      : [firstLink];
-    for (const x of list) {
-      const li = el("li");
-      const a = el(
-        "a",
-        "d",
-        `${x.filing_date || ""} ${x.form || ""}`.trim()
-      );
-      a.href = (x.source_url || "") + fragment(x.excerpt || "");
-      a.target = "_blank";
-      a.rel = "noopener";
-      const match = x.match || "first";
-      li.append(
-        a,
-        el(
-          "span",
-          "m",
-          match === "first"
-            ? "first appearance"
-            : match === "exact"
-              ? "same text"
-              : "lightly reworded"
-        )
-      );
-      ul.append(li);
-    }
+    const paintSightings = (rows) => {
+      ul.replaceChildren();
+      const list = rows.length
+        ? [...rows].sort((a, b) =>
+            (b.filing_date || "").localeCompare(a.filing_date || "")
+          )
+        : [firstLink];
+      for (const x of list) {
+        const li = el("li");
+        const a = el(
+          "a",
+          "d",
+          `${x.filing_date || ""} ${x.form || ""}`.trim()
+        );
+        a.href = (x.source_url || "") + fragment(x.excerpt || s.excerpt || "");
+        a.target = "_blank";
+        a.rel = "noopener";
+        const match = x.match || "first";
+        li.append(
+          a,
+          el(
+            "span",
+            "m",
+            match === "first"
+              ? "first appearance"
+              : match === "exact"
+                ? "same text"
+                : "lightly reworded"
+          )
+        );
+        ul.append(li);
+      }
+    };
+    paintSightings(sightings);
+    det.addEventListener("toggle", () => {
+      if (!det.open) return;
+      ensureFullSightings(s).then(() => paintSightings(s.sightings || []));
+    });
     det.append(sum, ul);
 
     const actions = el("div", "actions");
@@ -627,11 +701,46 @@
       fillFilters();
       return;
     }
-    const resp = await fetch("/api/signals", { headers: apiHeaders() });
+    // meta = nested sightings without excerpt text (map + lists still work).
+    const headers = apiHeaders();
+    if (loadSignals._etag) headers["If-None-Match"] = loadSignals._etag;
+    const resp = await fetch("/api/signals?sightings=meta", { headers });
+    if (resp.status === 304 && SIGNALS.length) {
+      fillFilters();
+      return;
+    }
     if (!resp.ok) throw new Error(`signals ${resp.status}`);
+    const etag = resp.headers.get("ETag");
+    if (etag) loadSignals._etag = etag;
     SIGNALS = await resp.json();
-    if (!keepFilters) fillFilters();
-    else fillFilters();
+    fillFilters();
+  }
+
+  /** Lazy-load full sightings (with excerpts) when a card expander opens. */
+  async function ensureFullSightings(s) {
+    if (s._sightingsFull || !s.signal_id) return;
+    if (
+      Array.isArray(s.sightings) &&
+      s.sightings.length &&
+      s.sightings.every((x) => x.excerpt != null && x.excerpt !== "")
+    ) {
+      s._sightingsFull = true;
+      return;
+    }
+    try {
+      const resp = await fetch(
+        `/api/signals/${encodeURIComponent(s.signal_id)}/sightings`,
+        { headers: apiHeaders() }
+      );
+      if (!resp.ok) return;
+      const body = await resp.json();
+      if (Array.isArray(body.sightings)) {
+        s.sightings = body.sightings;
+        s._sightingsFull = true;
+      }
+    } catch {
+      /* ignore — card still usable with signal-level excerpt */
+    }
   }
 
   function lookbackWindow() {
