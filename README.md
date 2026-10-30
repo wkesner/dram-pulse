@@ -208,9 +208,12 @@ Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
 | **Taiwan (MOPS/TWSE)** | `python -m src.fetch_mops` | none | **v1 live** — official `openapi.twse.com.tw` |
 | **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
 | **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
+| **France (AMF Info‑financière)** | `python -m src.fetch_amf` | none | **stub** — free OAM JSON API; wire ISINs next |
 | TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
 | LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
 | FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
+| BaFin / Unternehmensregister (DE) | — | portal | ranked after AMF; no clean public filing API yet |
+| AFM registers (NL) | — | portal | thin vs ASML/NXP already on EDGAR |
 
 ```bash
 # China (no key) — SMIC / GigaDevice / Hua Hong / JCET / Luxshare / NAURA
@@ -252,13 +255,15 @@ Ranked for electronic-commodity supply signals + information imbalance. Prefer o
 
 | Rank | Market | Source | Key? | Why next | Caveats |
 |------|--------|--------|------|----------|---------|
-| 1 | **HKEX** | HKEXnews / `www1.hkexnews.hk` title search + PDF | No free official API; HTML/PDF portal is free | Dense electronics/ODM/foundry ADRs & H-shares; English+zh filings | Portal ToS / anti-bot; polite crawl + PDF text |
-| 2 | **SEDAR+ (Canada)** | Canadian Securities Administrators API / bulk | Free account for some feeds | Memory/packaging names via TSX; English | API access tiers vary; document auth |
-| 3 | **ASX (Australia)** | ASX online announcements / MarkitHub open bits | Mostly free portal | Thin electronics set but clean English | No rich open API; HTML/PDF |
-| 4 | **BaFin / Bundesanzeiger (Germany)** | Unternehmensregister / BaFin publications | Free portal; limited API | EU semis/equipment (Infineon, etc.) via DE filings | German text; register UX is clunky |
-| 5 | **India BSE/NSE** | BSE corporate announcements API-ish / NSE archives | Mixed free | Growing EMS/OSAT/design density | Endpoint stability uneven; rate carefully |
+| 1 | **AMF Info‑financière (FR)** | `info-financiere.gouv.fr` explore API | No | Best free EU filing API after EDGAR dual-lists | FR/EN mix; wire ISINs (`fetch_amf` stub) |
+| 2 | **BaFin / Unternehmensregister (DE)** | Portal publications | Free portal; limited API | High DE electronics density (Infineon, …) | German text; clunky register UX; no clean API |
+| 3 | **AFM registers (NL)** | Financial-reporting HTML register | Free portal | NL names beyond ASML/NXP | Thin vs EDGAR dual-lists |
+| 4 | **HKEX** | HKEXnews title search + PDF | No free official API | Dense electronics/ODM/foundry H-shares | Portal ToS / anti-bot |
+| 5 | **SEDAR+ (Canada)** | CSA API / bulk | Free account for some feeds | Memory/packaging via TSX | API access tiers vary |
+| 6 | **ASX (Australia)** | ASX announcements | Mostly free portal | Thin electronics; clean English | No rich open API |
+| 7 | **India BSE/NSE** | BSE/NSE archives | Mixed free | Growing EMS/OSAT/design density | Endpoint stability uneven |
 
-Already covered: **SEC EDGAR**, **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027.
+Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). AMF stubbed. Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027. Prefer EDGAR dual-lists over Infineon OTC `IFNNY` (no live 20-F).
 
 **English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
