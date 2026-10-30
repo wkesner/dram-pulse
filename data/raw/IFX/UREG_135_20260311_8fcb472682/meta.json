@@ -1,0 +1,28 @@
+{
+  "company": "Infineon Technologies",
+  "ticker": "IFX",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Infineon Technologies AG Jahresabschluss zum 30.09.2025",
+  "filing_date": "2026-03-11",
+  "accession_number": "UREG_135_20260311_8fcb472682",
+  "filing_id": "UREG_135_20260311_8fcb472682",
+  "title": "Infineon Technologies AG Jahresabschluss zum 30.09.2025",
+  "publication_type": "135",
+  "euid": "DED2601V.HRB126492",
+  "lei": "TSI2PJM6EPETEQ4X1U25",
+  "isin": "DE0006231004",
+  "ureg_source_name": "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-jahresabschluss-infineon-technologies-ag-zum-30-september-2025-v01-00-de.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-jahresabschluss-infineon-technologies-ag-zum-30-september-2025-v01-00-de.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:05:33.434080+00:00",
+  "paths": {
+    "other_full": "data/raw/IFX/UREG_135_20260311_8fcb472682/other_full.txt",
+    "document_pdf": "data/raw/IFX/UREG_135_20260311_8fcb472682/document.pdf"
+  }
+}

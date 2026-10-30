@@ -20,9 +20,11 @@ data/raw/_dart/
 data/raw/_cninfo/
 data/raw/_edinet/
 data/raw/_mops/
+data/raw/_ureg/
 data/raw/_test_dart/
 data/raw/_test_cninfo/
 data/raw/_test_mops/
+data/raw/_test_ureg/
 # Per-org Clerk corpora + anonymized aggregates (regenerated / local demo)
 data/orgs/**
 !data/orgs/.gitkeep
