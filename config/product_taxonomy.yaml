@@ -15,6 +15,9 @@ categories:
       - high bandwidth memory
       - 고대역폭 메모리
       - 고대역폭메모리
+      - 高带宽内存
+      - 高帶寬內存
+      - 高頻寬記憶體
       - HBM
     DDR5:
       - server DRAM
@@ -23,6 +26,8 @@ categories:
       - DDR5
     DDR4:
       - legacy DRAM
+      - 利基型DRAM
+      - 利基型 DRAM
       - DDR4
     LPDDR:
       - LPDDR4X
@@ -37,6 +42,8 @@ categories:
       - GDDR7
       - GDDR6
       - graphics memory
+      - 显存
+      - 顯存
       - GDDR
     DRAM_general:
       - 디램
@@ -57,14 +64,21 @@ categories:
       - UFS
       - eMMC
       - mobile NAND
+      - 嵌入式存储
+      - 嵌入式儲存
     NAND_general:
       - 낸드플래시
       - 낸드
       - NAND flash memory
       - NAND flash
       - flash memory
+      - NOR闪存
+      - NOR Flash
+      - 闪存芯片
+      - 闪存产品
       - 闪存
       - 快閃記憶體
+      - 快閃晶片
       - NAND
   Other:
     CXL:
@@ -95,11 +109,17 @@ categories:
       - advanced packaging
       - packaging capacity
       - 先进封装
+      - 封装测试
       - 封装产能
+      - 代工产能
       - 晶圆代工
       - 晶圆制造
+      - 晶圆厂
+      - 约当晶圆
       - 先進封裝
+      - 封裝測試
       - 封裝產能
+      - 代工產能
       - 晶圓代工
       - 晶圓製造
       - 晶圓廠
@@ -109,9 +129,12 @@ categories:
       - 메모리 반도체
       - 메모리반도체
       - 메모리
+      - 专用型存储
       - 存储芯片
       - 存储器
+      - 内存芯片
       - 内存
+      - 專用型儲存
       - 記憶體晶片
       - 記憶體
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
@@ -170,6 +193,10 @@ categories:
       - GPU supply
       - GPU allocation
       - allocate supply of GPUs
+      - 图形处理器
+      - 图形处理单元
+      - 圖形處理器
+      - 圖形處理單元
       - GPUs
       - GPU
     CPU:
@@ -189,6 +216,14 @@ categories:
       - CPU lead time
       - CPU supply constraints
       - CPU supply
+      - 中央处理器
+      - 中央处理单元
+      - 服务器处理器
+      - 微处理器
+      - 中央處理器
+      - 中央處理單元
+      - 伺服器處理器
+      - 微處理器
       - CPUs
       - CPU
     FPGA:
@@ -205,6 +240,12 @@ categories:
       # Avoid bare FPGA(s) — Lattice "allocating functions to FPGAs" is not supply.
       - programmable logic devices
       - programmable logic device
+      - 现场可编程门阵列
+      - 可编程逻辑器件
+      - 可编程逻辑
+      - 現場可編程門陣列
+      - 可編程邏輯器件
+      - 可編程邏輯
     MCU:
       - microcontroller units
       - microcontroller unit
@@ -218,6 +259,11 @@ categories:
       - MCU lead time
       - MCU supply constraints
       - MCU supply
+      - 微控制器产品
+      - 微控制器
+      - MCU产品
+      - 單片機
+      - 单片机
       # Bare MCU(s) too often appears in product catalogs without supply context.
   Analog:
     Power_IC:
@@ -231,6 +277,15 @@ categories:
       - power IC
       - PMICs
       - PMIC
+      - 电源管理集成电路
+      - 电源管理芯片
+      - 功率管理芯片
+      - 功率半导体
+      - 功率器件
+      - 电源芯片
+      - 電源管理積體電路
+      - 電源管理晶片
+      - 功率半導體
   Storage:
     # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
     HDD:
@@ -262,6 +317,9 @@ categories:
       - SSD shortages
       - SSD shortage
       - SSD lead times
+      - 固态硬盘
+      - 固态盘
+      - 固態硬碟
       - SSDs
       - SSD
   Interconnect:
@@ -281,7 +339,13 @@ categories:
       - interconnect lead time
       - interconnect shortages
       - interconnect shortage
+      - 高速连接器
+      - 汽车连接器
+      - 电子连接器
       - 连接器
+      - 高速連接器
+      - 汽車連接器
+      - 電子連接器
       - 連接器
       # Avoid bare connector(s)/interconnect(s)/interconnect products —
       # matched Ciena outlook slides and MaxLinear transceiver-size boilerplate.
@@ -301,7 +365,13 @@ categories:
       - MLCC shortages
       - MLCC shortage
       - MLCCs
+      - 片式多层陶瓷电容器
       - 片式多层陶瓷电容
+      - 多层陶瓷电容器
+      - 多层陶瓷电容
+      - 陶瓷电容
+      - 片式多層陶瓷電容器
+      - 多層陶瓷電容
       - MLCC
       # Avoid bare capacitor(s) alone — matched M&A fair-value "Capacitors segment".
     # Small related passive — shortage-scoped / multi-word only.
@@ -312,3 +382,7 @@ categories:
       - resistor shortage
       - resistors used in the manufacture
       - resistors used in
+      - 片式电阻
+      - 芯片电阻
+      - 片式電阻
+      - 晶片電阻
