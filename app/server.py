@@ -72,6 +72,38 @@ SIGHTING_API_FIELDS = (
     "source_url",
     "excerpt",
 )
+# Compact feed/map payload: omit nested excerpts (signal.excerpt is enough for cards).
+SIGHTING_COMPACT_FIELDS = (
+    "filing_date",
+    "form",
+    "section",
+    "match",
+    "source_url",
+)
+# Columns the SPA actually reads. Drop raw_path / char offsets / extractor noise.
+SIGNAL_COMPACT_FIELDS = (
+    "signal_id",
+    "company",
+    "ticker_or_code",
+    "role",
+    "source",
+    "form",
+    "filing_date",
+    "section",
+    "product_category",
+    "product_family",
+    "supply_direction",
+    "sentiment",
+    "matched_terms",
+    "excerpt",
+    "language",
+    "excerpt_en",
+    "source_url",
+    "last_seen",
+    "times_seen",
+    "window_start",
+    "window_end",
+)
 
 # Expensive GET /api/broker-sim caps (blocking MemoryIndex fetch + multi-day sim).
 BROKER_SIM_MAX_DAYS = 90
@@ -89,11 +121,41 @@ class VoteIn(BaseModel):
     vote: Literal[1, -1, 0]
 
 
-def _read_csv(path: Path) -> list[dict[str, str]]:
+class _CsvCache:
+    """mtime-keyed CSV cache so hot /api/signals paths skip disk re-parse."""
+
+    def __init__(self) -> None:
+        self._entries: dict[str, tuple[float, tuple[dict[str, str], ...]]] = {}
+
+    def read(self, path: Path) -> list[dict[str, str]]:
+        key = str(path)
+        try:
+            mtime = path.stat().st_mtime if path.is_file() else -1.0
+        except OSError:
+            mtime = -1.0
+        hit = self._entries.get(key)
+        if hit is not None and hit[0] == mtime:
+            return list(hit[1])
+        rows = _read_csv_uncached(path)
+        self._entries[key] = (mtime, tuple(rows))
+        return list(rows)
+
+    def invalidate(self, path: Path) -> None:
+        self._entries.pop(str(path), None)
+
+
+_CSV_CACHE = _CsvCache()
+
+
+def _read_csv_uncached(path: Path) -> list[dict[str, str]]:
     if not path.is_file() or path.stat().st_size == 0:
         return []
     with path.open(encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
+
+
+def _read_csv(path: Path) -> list[dict[str, str]]:
+    return _CSV_CACHE.read(path)
 
 
 def _latest_votes_by_user_signal(
@@ -134,18 +196,41 @@ def _vote_tallies(
 
 def _sightings_by_signal(
     sightings: list[dict[str, str]],
+    *,
+    fields: tuple[str, ...] = SIGHTING_API_FIELDS,
 ) -> dict[str, list[dict[str, str]]]:
     by_sid: dict[str, list[dict[str, str]]] = {}
     for row in sightings:
         sid = row.get("signal_id") or ""
         if not sid:
             continue
-        by_sid.setdefault(sid, []).append(
-            {k: row.get(k) or "" for k in SIGHTING_API_FIELDS}
-        )
+        by_sid.setdefault(sid, []).append({k: row.get(k) or "" for k in fields})
     for group in by_sid.values():
         group.sort(key=lambda r: r.get("filing_date") or "", reverse=True)
     return by_sid
+
+
+def _project_signal_row(
+    row: dict[str, str],
+    *,
+    compact: bool,
+    include_excerpt_en: bool,
+) -> dict[str, Any]:
+    if compact:
+        payload: dict[str, Any] = {
+            k: row.get(k) or "" for k in SIGNAL_COMPACT_FIELDS
+        }
+        if not include_excerpt_en:
+            has_en = bool(str(payload.get("excerpt_en") or "").strip())
+            payload.pop("excerpt_en", None)
+            payload["has_excerpt_en"] = has_en
+        return payload
+    payload = dict(row)
+    if not include_excerpt_en:
+        has_en = bool(str(payload.get("excerpt_en") or "").strip())
+        payload["excerpt_en"] = ""
+        payload["has_excerpt_en"] = has_en
+    return payload
 
 
 def _known_signal_ids(signals_path: Path) -> set[str]:
@@ -325,6 +410,7 @@ def _append_vote_locked(
                 writer.writeheader()
             writer.writerow({k: row.get(k, "") for k in cols})
             fh.flush()
+    _CSV_CACHE.invalidate(votes_path)
     return row
 
 
@@ -479,37 +565,132 @@ def create_app(
         }
 
     def _signals_payload(
-        sig_path: Path, sight_path: Path, votes_file: Path, *, user_key: str
-    ) -> list[dict[str, Any]]:
+        sig_path: Path,
+        sight_path: Path,
+        votes_file: Path,
+        *,
+        user_key: str,
+        compact: bool = True,
+        include_excerpt_en: bool = True,
+        limit: int | None = None,
+        offset: int = 0,
+    ) -> dict[str, Any]:
         signals = _read_csv(sig_path)
-        sightings = _sightings_by_signal(_read_csv(sight_path))
+        sight_fields = (
+            SIGHTING_COMPACT_FIELDS if compact else SIGHTING_API_FIELDS
+        )
+        sightings = _sightings_by_signal(
+            _read_csv(sight_path), fields=sight_fields
+        )
         tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
         out: list[dict[str, Any]] = []
         for row in signals:
             sid = row.get("signal_id") or ""
-            payload = dict(row)
+            payload = _project_signal_row(
+                row, compact=compact, include_excerpt_en=include_excerpt_en
+            )
             payload["tier"] = _resolve_tier(row, tier_lookup)
             payload["sightings"] = sightings.get(sid, [])
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
             out.append(payload)
-        return out
+        total = len(out)
+        if offset < 0:
+            offset = 0
+        page = out[offset:] if limit is None else out[offset : offset + limit]
+        return {
+            "items": page,
+            "total": total,
+            "offset": offset,
+            "limit": limit if limit is not None else total,
+            "compact": compact,
+        }
 
     @app.get("/api/signals")
     def get_signals(
         authorization: str | None = Header(default=None),
-    ) -> list[dict[str, Any]]:
+        compact: bool = Query(
+            True,
+            description="Slim fields; omit nested sighting excerpts (default).",
+        ),
+        include_excerpt_en: bool = Query(
+            True,
+            description="Include excerpt_en on each row (set false to defer translate).",
+        ),
+        limit: int | None = Query(
+            default=None, ge=1, le=5000, description="Optional page size."
+        ),
+        offset: int = Query(default=0, ge=0),
+        envelope: bool = Query(
+            False,
+            description="If true, return {items,total,offset,limit}; else a bare list.",
+        ),
+    ) -> list[dict[str, Any]] | dict[str, Any]:
         if mode == "clerk":
             session = resolve_session(authorization)
             paths = org_corpus(session)
-            return _signals_payload(
+            payload = _signals_payload(
                 paths["signals"],
                 paths["sightings"],
                 paths["votes"],
                 user_key="user_id",
+                compact=compact,
+                include_excerpt_en=include_excerpt_en,
+                limit=limit,
+                offset=offset,
             )
-        return _signals_payload(
-            signals_path, sightings_path, votes_path, user_key="user"
+        else:
+            payload = _signals_payload(
+                signals_path,
+                sightings_path,
+                votes_path,
+                user_key="user",
+                compact=compact,
+                include_excerpt_en=include_excerpt_en,
+                limit=limit,
+                offset=offset,
+            )
+        if envelope or limit is not None:
+            return payload
+        return payload["items"]
+
+    @app.get("/api/signals/{signal_id}")
+    def get_signal_detail(
+        signal_id: str,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, Any]:
+        """Full signal + sightings (with excerpts) for deferred card expand / translate."""
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            paths = org_corpus(session)
+            sig_path, sight_path, votes_file = (
+                paths["signals"],
+                paths["sightings"],
+                paths["votes"],
+            )
+            user_key = "user_id"
+        else:
+            sig_path, sight_path, votes_file = (
+                signals_path,
+                sightings_path,
+                votes_path,
+            )
+            user_key = "user"
+        signals = _read_csv(sig_path)
+        row = next((r for r in signals if r.get("signal_id") == signal_id), None)
+        if row is None:
+            raise HTTPException(status_code=404, detail="unknown signal_id")
+        sightings = _sightings_by_signal(
+            _read_csv(sight_path), fields=SIGHTING_API_FIELDS
         )
+        tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
+        payload = dict(row)
+        payload["tier"] = _resolve_tier(row, tier_lookup)
+        payload["sightings"] = sightings.get(signal_id, [])
+        payload["votes"] = tallies.get(signal_id, {"up": 0, "down": 0})
+        payload["has_excerpt_en"] = bool(
+            str(payload.get("excerpt_en") or "").strip()
+        )
+        return payload
 
     @app.get("/api/meta")
     def get_meta(authorization: str | None = Header(default=None)) -> dict[str, Any]:
@@ -597,12 +778,24 @@ def create_app(
                 continue
         return result
 
+    def _vote_response(
+        row: dict[str, str],
+        *,
+        votes_file: Path,
+        user_key: str,
+        signal_id: str,
+    ) -> dict[str, Any]:
+        tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
+        out: dict[str, Any] = dict(row)
+        out["votes"] = tallies.get(signal_id, {"up": 0, "down": 0})
+        return out
+
     @app.post("/api/votes")
     def post_vote(
         body: VoteIn,
         request: Request,
         authorization: str | None = Header(default=None),
-    ) -> dict[str, str]:
+    ) -> dict[str, Any]:
         if mode == "clerk":
             session = resolve_session(authorization)
             ip = request.client.host if request.client else "unknown"
@@ -633,18 +826,29 @@ def create_app(
                     direction=direction,
                     vote=body.vote,
                 )
-            return row
+            return _vote_response(
+                row,
+                votes_file=paths["votes"],
+                user_key="user_id",
+                signal_id=body.signal_id,
+            )
 
         user = body.user.strip()
         if not user:
             raise HTTPException(status_code=400, detail="user is required")
         if body.signal_id not in _known_signal_ids(signals_path):
             raise HTTPException(status_code=400, detail="unknown signal_id")
-        return _append_vote_locked(
+        row = _append_vote_locked(
             votes_path,
             signal_id=body.signal_id,
             user=user,
             vote=body.vote,
+        )
+        return _vote_response(
+            row,
+            votes_file=votes_path,
+            user_key="user",
+            signal_id=body.signal_id,
         )
 
     @app.get("/api/operator/aggregates")

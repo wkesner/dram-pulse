@@ -60,10 +60,23 @@ def test_get_signals_length_and_shape(client: TestClient, data_dir: Path):
     assert "signal_id" in row
     assert "sightings" in row and isinstance(row["sightings"], list)
     assert "votes" in row and row["votes"] == {"up": 0, "down": 0}
+    # Default compact: no nested excerpt, no raw_path noise.
+    assert "raw_path" not in row
+    assert "excerpt_en" in row or "has_excerpt_en" in row
     if row["sightings"]:
         s = row["sightings"][0]
-        for key in ("filing_date", "form", "section", "match", "source_url", "excerpt"):
+        for key in ("filing_date", "form", "section", "match", "source_url"):
             assert key in s
+        assert "excerpt" not in s
+
+
+def test_get_signals_full_includes_sighting_excerpts(client: TestClient):
+    body = client.get("/api/signals?compact=0").json()
+    assert body
+    row = next(r for r in body if r.get("sightings"))
+    s = row["sightings"][0]
+    for key in ("filing_date", "form", "section", "match", "source_url", "excerpt"):
+        assert key in s
 
 
 def test_get_signals_attaches_sightings(client: TestClient):
@@ -71,6 +84,46 @@ def test_get_signals_attaches_sightings(client: TestClient):
     multi = [r for r in body if int(r.get("times_seen") or 0) > 1]
     assert multi, "expected at least one multi-sighting signal"
     assert len(multi[0]["sightings"]) == int(multi[0]["times_seen"])
+
+
+def test_get_signals_pagination_envelope(client: TestClient, data_dir: Path):
+    with (data_dir / "signals.csv").open(encoding="utf-8", newline="") as fh:
+        expected_n = sum(1 for _ in csv.DictReader(fh))
+    resp = client.get("/api/signals?limit=5&offset=0")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["total"] == expected_n
+    assert body["offset"] == 0
+    assert body["limit"] == 5
+    assert len(body["items"]) == min(5, expected_n)
+    page2 = client.get("/api/signals?limit=5&offset=5").json()
+    if expected_n > 5:
+        assert page2["items"][0]["signal_id"] != body["items"][0]["signal_id"]
+
+
+def test_get_signals_defers_excerpt_en(client: TestClient):
+    compact = client.get("/api/signals?include_excerpt_en=0").json()
+    assert compact
+    assert all("excerpt_en" not in r for r in compact)
+    assert all("has_excerpt_en" in r for r in compact)
+    sid = next(r["signal_id"] for r in compact if r.get("has_excerpt_en"))
+    detail = client.get(f"/api/signals/{sid}").json()
+    assert detail["signal_id"] == sid
+    assert (detail.get("excerpt_en") or "").strip()
+    assert detail["sightings"]
+    assert "excerpt" in detail["sightings"][0]
+
+
+def test_get_signals_compact_smaller_than_full(client: TestClient):
+    import json
+
+    full = client.get("/api/signals?compact=0").json()
+    slim = client.get("/api/signals?compact=1&include_excerpt_en=0").json()
+    full_n = len(json.dumps(full, separators=(",", ":")).encode())
+    slim_n = len(json.dumps(slim, separators=(",", ":")).encode())
+    assert slim_n < full_n
+    # Measurable win: at least 20% smaller on current corpus.
+    assert slim_n < full_n * 0.8
 
 
 def test_post_vote_and_tallies(client: TestClient, data_dir: Path):
