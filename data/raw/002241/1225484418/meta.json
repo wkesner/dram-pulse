@@ -1,0 +1,24 @@
+{
+  "company": "Goertek",
+  "ticker": "002241",
+  "role": "buyer",
+  "source": "CNINFO",
+  "form": "2026年半年度报告摘要",
+  "filing_date": "2026-08-20",
+  "accession_number": "1225484418",
+  "filing_id": "1225484418",
+  "title": "2026年半年度报告摘要",
+  "org_id": "9900004688",
+  "exchange": "szse",
+  "adjunct_url": "finalpage/2026-08-21/1225484418.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225484418.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:42:06.266275+00:00",
+  "paths": {
+    "other_full": "data/raw/002241/1225484418/other_full.txt",
+    "document_pdf": "data/raw/002241/1225484418/document.pdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Transsion Holdings",
+  "ticker": "688036",
+  "role": "buyer",
+  "source": "CNINFO",
+  "form": "传音控股2025年年度报告",
+  "filing_date": "2026-03-27",
+  "accession_number": "1225047544",
+  "filing_id": "1225047544",
+  "title": "传音控股2025年年度报告",
+  "org_id": "9900038988",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-03-28/1225047544.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047544.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:43:11.476733+00:00",
+  "paths": {
+    "other_full": "data/raw/688036/1225047544/other_full.txt",
+    "document_pdf": "data/raw/688036/1225047544/document.pdf"
+  }
+}

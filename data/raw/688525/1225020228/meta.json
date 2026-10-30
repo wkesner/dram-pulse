@@ -1,0 +1,24 @@
+{
+  "company": "Biwin Storage",
+  "ticker": "688525",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2025年年度报告摘要",
+  "filing_date": "2026-03-19",
+  "accession_number": "1225020228",
+  "filing_id": "1225020228",
+  "title": "2025年年度报告摘要",
+  "org_id": "9900047412",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-03-20/1225020228.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-20/1225020228.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:39:57.951688+00:00",
+  "paths": {
+    "other_full": "data/raw/688525/1225020228/other_full.txt",
+    "document_pdf": "data/raw/688525/1225020228/document.pdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "company": "China Resources Microelectronics",
+  "ticker": "688396",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2025年年度报告",
+  "filing_date": "2026-04-24",
+  "accession_number": "1225190439",
+  "filing_id": "1225190439",
+  "title": "2025年年度报告",
+  "org_id": "gshk0000597",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-04-25/1225190439.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225190439.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:41:14.619659+00:00",
+  "paths": {
+    "other_full": "data/raw/688396/1225190439/other_full.txt",
+    "document_pdf": "data/raw/688396/1225190439/document.pdf"
+  }
+}
