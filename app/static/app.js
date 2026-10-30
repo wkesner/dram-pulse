@@ -445,10 +445,11 @@
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
     const lang = String(s.language || "en").toLowerCase();
-    const excerptEn = String(s.excerpt_en || "").trim();
-    const canTranslate =
-      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    let excerptEn = String(s.excerpt_en || "").trim();
+    // Any non-EN post gets a translate control (pipeline excerpt_en or on-demand API).
+    const canTranslate = Boolean(lang) && lang !== "en" && lang !== "english";
     let showEnglish = false;
+    let translating = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
@@ -464,11 +465,49 @@
       const tog = el("button", "lang-toggle", "Show English");
       tog.type = "button";
       tog.setAttribute("aria-pressed", "false");
-      tog.title = "Machine translation (Argos); original excerpt is unchanged";
-      tog.addEventListener("click", () => {
-        showEnglish = !showEnglish;
-        tog.textContent = showEnglish ? "Original" : "Show English";
+      tog.title =
+        "Machine translation (Argos); original excerpt is unchanged. " +
+        "Uses stored excerpt_en or translates on demand.";
+      const setToggleLabel = () => {
+        if (translating) tog.textContent = "Translating…";
+        else tog.textContent = showEnglish ? "Original" : "Show English";
+        tog.disabled = translating;
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+      };
+      tog.addEventListener("click", async () => {
+        if (translating) return;
+        if (showEnglish) {
+          showEnglish = false;
+          setToggleLabel();
+          paintExcerpt();
+          return;
+        }
+        if (!excerptEn) {
+          translating = true;
+          setToggleLabel();
+          try {
+            const resp = await fetch(
+              `/api/signals/${encodeURIComponent(s.signal_id)}/translate`,
+              { method: "POST", headers: apiHeaders() }
+            );
+            if (!resp.ok) {
+              const detail = await resp.text();
+              throw new Error(detail || `HTTP ${resp.status}`);
+            }
+            const body = await resp.json();
+            excerptEn = String(body.excerpt_en || "").trim();
+            s.excerpt_en = excerptEn;
+            if (!excerptEn) throw new Error("empty translation");
+          } catch (err) {
+            translating = false;
+            setToggleLabel();
+            tog.title = `Translation failed: ${err && err.message ? err.message : err}`;
+            return;
+          }
+          translating = false;
+        }
+        showEnglish = true;
+        setToggleLabel();
         paintExcerpt();
       });
       find.append(tog);

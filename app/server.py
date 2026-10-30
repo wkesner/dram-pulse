@@ -337,6 +337,38 @@ def _bearer_token(authorization: str | None) -> str | None:
     return None
 
 
+def _persist_excerpt_en_locked(
+    signals_path: Path,
+    *,
+    signal_id: str,
+    excerpt_en: str,
+) -> bool:
+    """Atomically set excerpt_en for signal_id. Returns False if missing / English."""
+    from src.dedupe import SIGNAL_COLUMNS, write_csv
+    from src.translate_excerpts import _is_english
+
+    lock_path = signals_path.with_suffix(signals_path.suffix + ".lock")
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with lock_path.open("a+", encoding="utf-8") as lock_fh:
+        fcntl.flock(lock_fh.fileno(), fcntl.LOCK_EX)
+        rows = _read_csv(signals_path)
+        found = False
+        for row in rows:
+            if row.get("signal_id") != signal_id:
+                continue
+            if _is_english(row.get("language") or "en"):
+                row["excerpt_en"] = ""
+                found = False
+                break
+            row["excerpt_en"] = excerpt_en
+            found = True
+            break
+        if not found:
+            return False
+        write_csv(signals_path, rows, SIGNAL_COLUMNS)
+        return True
+
+
 def create_app(
     *,
     signals_path: Path | None = None,
@@ -385,6 +417,8 @@ def create_app(
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
     broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    # Argos MT is CPU-heavy; keep on-demand translate modest.
+    translate_limiter = RateLimiter(max_calls=20, window_seconds=60.0)
 
     app = FastAPI(title="Memory Signals", version="0.3.0")
     app.state.auth_mode = mode
@@ -510,6 +544,92 @@ def create_app(
         return _signals_payload(
             signals_path, sightings_path, votes_path, user_key="user"
         )
+
+    @app.post("/api/signals/{signal_id}/translate")
+    def translate_signal(
+        signal_id: str,
+        request: Request,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, Any]:
+        """Return English for a non-EN signal (cached excerpt_en or on-demand Argos).
+
+        Persists excerpt_en when freshly translated. English signals are rejected
+        (400) — Feed leaves them unchanged.
+        """
+        from src.translate_excerpts import (
+            is_translatable_lang,
+            translate_row_excerpt,
+        )
+
+        ip = request.client.host if request.client else "unknown"
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            paths = org_corpus(session)
+            target_signals = paths["signals"]
+            rate_key = f"translate:{session.org_id}:{session.user_id}:{ip}"
+        else:
+            target_signals = signals_path
+            rate_key = f"translate:{ip}"
+
+        if not translate_limiter.allow(rate_key):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+
+        rows = _read_csv(target_signals)
+        row = next((r for r in rows if r.get("signal_id") == signal_id), None)
+        if row is None:
+            raise HTTPException(status_code=404, detail="unknown signal_id")
+
+        lang = (row.get("language") or "en").strip().lower()
+        if not is_translatable_lang(lang):
+            raise HTTPException(
+                status_code=400,
+                detail="english signals do not use excerpt_en",
+            )
+
+        cached = (row.get("excerpt_en") or "").strip()
+        if cached:
+            return {
+                "signal_id": signal_id,
+                "language": lang,
+                "excerpt_en": cached,
+                "cached": True,
+            }
+
+        try:
+            excerpt_en = translate_row_excerpt(row, install=True)
+        except ValueError as exc:
+            detail = str(exc)
+            if detail.startswith("unsupported_lang"):
+                raise HTTPException(
+                    status_code=422,
+                    detail=f"language not supported for offline translate: {lang}",
+                ) from exc
+            raise HTTPException(status_code=422, detail=detail) from exc
+        except SystemExit as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=str(exc) or "translation engine unavailable",
+            ) from exc
+        except ImportError as exc:
+            raise HTTPException(
+                status_code=503,
+                detail="argostranslate is not installed",
+            ) from exc
+        except Exception as exc:  # noqa: BLE001
+            raise HTTPException(
+                status_code=503,
+                detail=f"translation failed: {exc}",
+            ) from exc
+
+        _persist_excerpt_en_locked(
+            target_signals, signal_id=signal_id, excerpt_en=excerpt_en
+        )
+        return {
+            "signal_id": signal_id,
+            "language": lang,
+            "excerpt_en": excerpt_en,
+            "cached": False,
+        }
 
     @app.get("/api/meta")
     def get_meta(authorization: str | None = Header(default=None)) -> dict[str, Any]:

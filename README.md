@@ -268,13 +268,13 @@ Ranked for electronic-commodity supply signals + information imbalance. Prefer o
 
 Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). AMF stubbed. Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027. Prefer EDGAR dual-lists over Infineon OTC `IFNNY` (no live 20-F).
 
-**English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
+**English toggle:** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
 ```bash
-python3 -m src.translate_excerpts   # downloads ko→en package on first run
+python3 -m src.translate_excerpts   # downloads ko/zh/zt/ja/de→en packages as needed
 ```
 
-Feed cards with `language != en` (and a non-empty `excerpt_en`) show **Show English** / **Original**. English rows leave `excerpt_en` blank. Re-extract preserves existing translations by `signal_id`.
+Supported source languages: **ko** (DART), **zh** (CNINFO), **zh-TW** / **zt** (MOPS), **ja** (EDINET), **de** (UREG / BaFin). Feed cards with `language != en` always show **Show English** / **Original**. If `excerpt_en` is blank, the UI calls `POST /api/signals/{id}/translate` (on-demand Argos) and persists the result. English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
 
 ---
 
