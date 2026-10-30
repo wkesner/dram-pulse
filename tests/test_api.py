@@ -357,3 +357,131 @@ def test_broker_sim_open_mode_forces_offline_and_caps_days(data_dir: Path):
 def test_broker_sim_rejects_days_over_cap(client: TestClient):
     resp = client.get("/api/broker-sim", params={"days": 365, "live": "false"})
     assert resp.status_code == 422
+
+
+def test_translate_rejects_english_signal(client: TestClient):
+    body = client.get("/api/signals").json()
+    en = next(r for r in body if (r.get("language") or "en").lower() in {"en", "english", ""})
+    resp = client.post("/api/translate", json={"signal_id": en["signal_id"]})
+    assert resp.status_code == 400
+    assert "English" in resp.json()["detail"]
+
+
+def test_translate_returns_cached_excerpt_en(client: TestClient):
+    body = client.get("/api/signals").json()
+    ko = next(
+        r
+        for r in body
+        if (r.get("language") or "").lower() in {"ko", "korean"}
+        and (r.get("excerpt_en") or "").strip()
+    )
+    resp = client.post("/api/translate", json={"signal_id": ko["signal_id"]})
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["cached"] is True
+    assert data["excerpt_en"] == ko["excerpt_en"]
+    assert data["language_label"] == "ko"
+
+
+def test_translate_on_demand_persists_for_zh_and_de(data_dir: Path, monkeypatch):
+    """Non-EN without excerpt_en (CNINFO zh, UREG de) get on-demand MT + persist."""
+    from src.dedupe import SIGNAL_COLUMNS
+
+    sig_path = data_dir / "signals.csv"
+    with sig_path.open(encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+
+    # Ensure a blank-zh row exists; append a synthetic UREG/DE row.
+    zh = next(
+        (
+            r
+            for r in rows
+            if (r.get("language") or "").lower() in {"zh", "zh-cn"}
+            and not (r.get("excerpt_en") or "").strip()
+        ),
+        None,
+    )
+    assert zh is not None, "expected a Chinese signal without excerpt_en"
+
+    de_row = {c: "" for c in SIGNAL_COLUMNS}
+    de_row.update(
+        {
+            "signal_id": "test-ureg-de-translate",
+            "company": "Infineon Technologies AG",
+            "ticker_or_code": "IFX",
+            "role": "supplier",
+            "tier": "1",
+            "source": "UREG",
+            "form": "Jahresabschluss",
+            "filing_date": "2025-03-01",
+            "product_family": "MCU",
+            "supply_direction": "stable",
+            "sentiment": "neutral",
+            "excerpt": "Der Absatz von Halbleitern und DRAM blieb stabil.",
+            "language": "de",
+            "excerpt_en": "",
+            "source_url": "https://example.test/ureg/ifx",
+        }
+    )
+    rows.append(de_row)
+    with sig_path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=SIGNAL_COLUMNS, extrasaction="ignore")
+        writer.writeheader()
+        for r in rows:
+            writer.writerow({k: r.get(k, "") for k in SIGNAL_COLUMNS})
+
+    calls: list[str] = []
+
+    def fake_translate(excerpt: str, language: str, *, install: bool = True) -> str:
+        calls.append(language)
+        return f"EN({language}): {excerpt[:40]}"
+
+    monkeypatch.setattr(
+        "src.translate_excerpts.translate_excerpt", fake_translate
+    )
+
+    app = create_app(
+        signals_path=sig_path,
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
+        mount_static=False,
+        mode="single",
+    )
+    client = TestClient(app)
+
+    r_zh = client.post("/api/translate", json={"signal_id": zh["signal_id"]})
+    assert r_zh.status_code == 200
+    body_zh = r_zh.json()
+    assert body_zh["cached"] is False
+    assert body_zh["excerpt_en"].startswith("EN(")
+    assert body_zh["language_label"] == "zh"
+
+    r_de = client.post("/api/translate", json={"signal_id": "test-ureg-de-translate"})
+    assert r_de.status_code == 200
+    body_de = r_de.json()
+    assert body_de["cached"] is False
+    assert "Halbleitern" in body_de["excerpt_en"] or body_de["excerpt_en"].startswith(
+        "EN(de)"
+    )
+    assert body_de["language_label"] == "de"
+
+    # Persisted for subsequent loads / cached hit
+    r_zh2 = client.post("/api/translate", json={"signal_id": zh["signal_id"]})
+    assert r_zh2.status_code == 200
+    assert r_zh2.json()["cached"] is True
+    assert r_zh2.json()["excerpt_en"] == body_zh["excerpt_en"]
+
+    with sig_path.open(encoding="utf-8", newline="") as fh:
+        loaded = {r["signal_id"]: r for r in csv.DictReader(fh)}
+    assert loaded[zh["signal_id"]]["excerpt_en"] == body_zh["excerpt_en"]
+    assert loaded["test-ureg-de-translate"]["excerpt_en"] == body_de["excerpt_en"]
+    # Originals unchanged
+    assert loaded[zh["signal_id"]]["excerpt"] == zh["excerpt"]
+    assert "Halbleitern" in loaded["test-ureg-de-translate"]["excerpt"]
+    assert set(calls) >= {"zh", "de"}
+
+
+def test_translate_unknown_signal(client: TestClient):
+    resp = client.post("/api/translate", json={"signal_id": "does-not-exist"})
+    assert resp.status_code == 404
