@@ -1823,3 +1823,31 @@ companies:
     ticker: "3231"
     tier: 3
 
+  # German Unternehmensregister smoke path (Agent B). Full DE roster = Agent D.
+  - name: Infineon Technologies
+    role: supplier
+    source: UREG
+    ticker: IFX
+    tier: 1
+    company_name: Infineon Technologies AG
+    euid: DED2601V.HRB126492
+    lei: TSI2PJM6EPETEQ4X1U25
+    isin: DE0006231004
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Siltronic
+    role: supplier
+    source: UREG
+    ticker: WAF
+    tier: 2
+    company_name: Siltronic AG
+    euid: DED2601V.HRB150884
+    lei: 5299003NKV26NNGHHR90
+    isin: DE000WAF3001
+    forms:
+      - "135"
+      - "136"
+      - "137"
