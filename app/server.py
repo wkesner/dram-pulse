@@ -1,8 +1,13 @@
-"""Memory Signals FastAPI server — CSV-backed signals / votes API.
+"""EC Signals FastAPI server — CSV-backed signals / votes API.
 
 Auth modes:
-  AUTH_MODE=single (default) — typed name votes, shared data/signals.csv
-  AUTH_MODE=clerk — Clerk session JWT + org isolation under data/orgs/{org_id}/
+  AUTH_MODE=single (default) — typed name votes, shared data/signals.csv.
+    Optional APP_ACCESS_TOKEN gates the whole app (Bearer / X-App-Token).
+  AUTH_MODE=clerk — Clerk session JWT + org isolation under data/orgs/{org_id}/.
+    Login (session + active org) required for every data API and the UI.
+
+/api/config stays public so the browser can discover the gate and show sign-in.
+Operator aggregates use X-Operator-Token only.
 
 Run:
   uvicorn app.server:app --reload --port 8000
@@ -21,7 +26,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -29,12 +34,17 @@ from app.clerk_auth import (
     ClerkConfigError,
     ClerkSession,
     SessionResolver,
+    app_access_token,
     auth_mode,
+    check_signup_invite_key,
     clerk_authorized_parties,
     clerk_configured,
     clerk_issuer,
     clerk_publishable_key,
+    mint_signup_invite_ticket,
+    signup_invite_key,
     verify_clerk_session_token,
+    verify_signup_invite_ticket,
 )
 from app.rate_limit import RateLimiter
 from app.tenant import (
@@ -87,6 +97,11 @@ class VoteIn(BaseModel):
     user: str = ""
     # 1 = useful, -1 = not useful, 0 = skip (hide from this profile's feed)
     vote: Literal[1, -1, 0]
+
+
+class SignupInviteIn(BaseModel):
+    key: str = ""
+    ticket: str = ""
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:
@@ -353,6 +368,8 @@ def create_app(
     operator_token: str | None = None,
     broker_sim_token: str | None = None,
     broker_sim_open: bool | None = None,
+    app_token: str | None = None,
+    invite_key: str | None = None,
 ) -> FastAPI:
     load_dotenv()
     signals_path = signals_path or DEFAULT_SIGNALS
@@ -381,20 +398,34 @@ def create_app(
     sim_open = (
         bool(broker_sim_open) if broker_sim_open is not None else _env_flag("BROKER_SIM_OPEN")
     )
+    access_token = (
+        app_token if app_token is not None else app_access_token()
+    ).strip()
+    invite = (
+        invite_key if invite_key is not None else signup_invite_key()
+    ).strip()
+    # Whole-app login: Clerk always; single mode when APP_ACCESS_TOKEN is set.
+    requires_auth = mode == "clerk" or bool(access_token)
+    requires_signup_invite = mode == "clerk" and bool(invite)
 
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
     broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    invite_limiter = RateLimiter(max_calls=20, window_seconds=60.0)
 
-    app = FastAPI(title="Memory Signals", version="0.3.0")
+    app = FastAPI(title="EC Signals", version="0.3.0")
     app.state.auth_mode = mode
     app.state.orgs_root = orgs_root
+    app.state.requires_auth = requires_auth
 
     def resolve_session(
         authorization: str | None = Header(default=None),
     ) -> ClerkSession:
         if session_resolver is not None:
-            return session_resolver(_bearer_token(authorization))
+            try:
+                return session_resolver(_bearer_token(authorization))
+            except PermissionError as exc:
+                raise HTTPException(status_code=401, detail=str(exc)) from exc
         if not clerk_configured():
             raise HTTPException(
                 status_code=503,
@@ -412,9 +443,39 @@ def create_app(
         except PermissionError as exc:
             raise HTTPException(status_code=401, detail=str(exc)) from exc
 
+    def _verify_app_token(
+        authorization: str | None,
+        x_app_token: str | None,
+    ) -> None:
+        if not access_token:
+            return
+        provided = (_bearer_token(authorization) or (x_app_token or "").strip()).strip()
+        ok = (
+            bool(provided)
+            and len(provided) == len(access_token)
+            and secrets.compare_digest(provided, access_token)
+        )
+        if not ok:
+            raise HTTPException(
+                status_code=401,
+                detail="invalid or missing app access token",
+            )
+
+    def require_app_access(
+        authorization: str | None = Header(default=None),
+        x_app_token: str | None = Header(default=None),
+    ) -> ClerkSession | None:
+        """Gate every data API. Clerk → session; single+token → shared secret."""
+        if mode == "clerk":
+            return resolve_session(authorization)
+        _verify_app_token(authorization, x_app_token)
+        return None
+
     def require_clerk_session(
-        session: ClerkSession = Depends(resolve_session),
+        session: ClerkSession | None = Depends(require_app_access),
     ) -> ClerkSession:
+        if mode != "clerk" or session is None:
+            raise HTTPException(status_code=404, detail="clerk mode only")
         return session
 
     def org_corpus(session: ClerkSession) -> dict[str, Path]:
@@ -437,12 +498,46 @@ def create_app(
             "clerk_issuer": clerk_issuer() if mode == "clerk" else "",
             "authorized_parties": clerk_authorized_parties() if mode == "clerk" else [],
             "requires_org": mode == "clerk",
+            "requires_auth": requires_auth,
+            "requires_app_token": mode == "single" and bool(access_token),
+            # Never include the raw SIGNUP_INVITE_KEY — UI only needs the flag.
+            "requires_signup_invite": requires_signup_invite,
         }
+
+    @app.post("/api/signup/verify-invite")
+    def verify_signup_invite(
+        body: SignupInviteIn,
+        request: Request,
+    ) -> dict[str, Any]:
+        """Check SIGNUP_INVITE_KEY (or a prior ticket) before Clerk SignUp.
+
+        Public on purpose — no session yet. Rate-limited. Returns a short-lived
+        ticket the UI must present again before mounting SignUp.
+        """
+        if mode != "clerk":
+            raise HTTPException(status_code=404, detail="clerk mode only")
+        if not invite:
+            raise HTTPException(
+                status_code=503,
+                detail="SIGNUP_INVITE_KEY is not configured on the server",
+            )
+        ip = request.client.host if request.client else "unknown"
+        if not invite_limiter.allow(f"invite:{ip}"):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+
+        ticket = (body.ticket or "").strip()
+        if ticket:
+            if verify_signup_invite_ticket(ticket, invite_key=invite):
+                return {"ok": True, "ticket": ticket, "reused": True}
+            raise HTTPException(status_code=401, detail="invalid or expired invite ticket")
+
+        if not check_signup_invite_key(body.key or "", invite_key=invite):
+            raise HTTPException(status_code=401, detail="invalid invite key")
+        minted = mint_signup_invite_ticket(invite)
+        return {"ok": True, "ticket": minted, "reused": False}
 
     @app.get("/api/me")
     def get_me(session: ClerkSession = Depends(require_clerk_session)) -> dict[str, Any]:
-        if mode != "clerk":
-            raise HTTPException(status_code=404, detail="clerk mode only")
         return {
             "user_id": session.user_id,
             "org_id": session.org_id,
@@ -457,8 +552,6 @@ def create_app(
         session: ClerkSession = Depends(require_clerk_session),
     ) -> dict[str, Any]:
         """Seed this org's private corpus copy (idempotent)."""
-        if mode != "clerk":
-            raise HTTPException(status_code=404, detail="clerk mode only")
         ip = request.client.host if request.client else "unknown"
         if not bootstrap_limiter.allow(f"boot:{session.user_id}:{ip}"):
             raise HTTPException(status_code=429, detail="rate limit exceeded")
@@ -496,10 +589,10 @@ def create_app(
 
     @app.get("/api/signals")
     def get_signals(
-        authorization: str | None = Header(default=None),
+        session: ClerkSession | None = Depends(require_app_access),
     ) -> list[dict[str, Any]]:
         if mode == "clerk":
-            session = resolve_session(authorization)
+            assert session is not None
             paths = org_corpus(session)
             return _signals_payload(
                 paths["signals"],
@@ -512,10 +605,12 @@ def create_app(
         )
 
     @app.get("/api/meta")
-    def get_meta(authorization: str | None = Header(default=None)) -> dict[str, Any]:
+    def get_meta(
+        session: ClerkSession | None = Depends(require_app_access),
+    ) -> dict[str, Any]:
         """Coverage notes for the Signal map (companies.yaml + signals.csv)."""
         if mode == "clerk":
-            session = resolve_session(authorization)
+            assert session is not None
             paths = org_corpus(session)
             signals = _read_csv(paths["signals"])
         else:
@@ -561,11 +656,11 @@ def create_app(
     @app.get("/api/votes")
     def get_votes(
         user: str = Query(default=""),
-        authorization: str | None = Header(default=None),
+        session: ClerkSession | None = Depends(require_app_access),
     ) -> dict[str, int]:
         """Latest vote per signal_id for this user. Values are 1, -1, or 0 (skip)."""
         if mode == "clerk":
-            session = resolve_session(authorization)
+            assert session is not None
             paths = org_corpus(session)
             latest = _latest_votes_by_user_signal(
                 _read_csv(paths["votes"]), user_key="user_id"
@@ -601,10 +696,10 @@ def create_app(
     def post_vote(
         body: VoteIn,
         request: Request,
-        authorization: str | None = Header(default=None),
+        session: ClerkSession | None = Depends(require_app_access),
     ) -> dict[str, str]:
         if mode == "clerk":
-            session = resolve_session(authorization)
+            assert session is not None
             ip = request.client.host if request.client else "unknown"
             if not vote_limiter.allow(f"vote:{session.org_id}:{session.user_id}:{ip}"):
                 raise HTTPException(status_code=429, detail="rate limit exceeded")
@@ -665,18 +760,22 @@ def create_app(
 
     def _authorize_broker_sim(
         request: Request,
-        authorization: str | None,
+        session: ClerkSession | None,
         x_broker_sim_token: str | None,
     ) -> tuple[str, bool]:
         """Return (rate_limit_key, allow_expensive) after auth gates.
 
         allow_expensive=True → live prices and full BROKER_SIM_MAX_DAYS.
         Open single-tenant demo forces offline + shorter days.
+        App-authenticated callers (Clerk or APP_ACCESS_TOKEN) get full access.
         """
         ip = request.client.host if request.client else "unknown"
         if mode == "clerk":
-            session = resolve_session(authorization)
+            assert session is not None
             return f"broker:{session.org_id}:{session.user_id}:{ip}", True
+        if access_token:
+            # require_app_access already verified APP_ACCESS_TOKEN.
+            return f"broker:app:{ip}", True
 
         provided = (x_broker_sim_token or "").strip()
         if sim_token:
@@ -693,7 +792,8 @@ def create_app(
             status_code=503,
             detail=(
                 "Broker sim disabled in single mode. Set BROKER_SIM_OPEN=1 for a "
-                "local offline demo, or BROKER_SIM_TOKEN and send X-Broker-Sim-Token."
+                "local offline demo, APP_ACCESS_TOKEN for whole-app login, or "
+                "BROKER_SIM_TOKEN and send X-Broker-Sim-Token."
             ),
         )
 
@@ -710,17 +810,17 @@ def create_app(
             True, description="Include scored twins with fast memory-score access"
         ),
         score_lag: int = Query(1, ge=0, le=30, description="Score lag days for twins"),
-        authorization: str | None = Header(default=None),
+        session: ClerkSession | None = Depends(require_app_access),
         x_broker_sim_token: str | None = Header(default=None),
     ) -> dict[str, Any]:
         """Run the broker market sim (baseline ± scored twins) + history.
 
-        Clerk mode requires a session JWT. Single mode requires BROKER_SIM_TOKEN
-        (X-Broker-Sim-Token) or an explicit BROKER_SIM_OPEN=1 local demo gate.
+        Clerk / APP_ACCESS_TOKEN: authenticated callers get full access.
+        Ungated single mode still requires BROKER_SIM_TOKEN or BROKER_SIM_OPEN=1.
         Work runs off the event loop via asyncio.to_thread.
         """
         rate_key, allow_expensive = _authorize_broker_sim(
-            request, authorization, x_broker_sim_token
+            request, session, x_broker_sim_token
         )
         if not broker_sim_limiter.allow(rate_key):
             raise HTTPException(status_code=429, detail="rate limit exceeded")
@@ -742,7 +842,61 @@ def create_app(
         )
         return result.summary()
 
+    @app.middleware("http")
+    async def no_cache_auth_assets(request: Request, call_next):
+        """Prevent browsers from keeping a stale clerk-auth.js after Fly deploys."""
+        response = await call_next(request)
+        path = request.url.path or ""
+        if path.endswith("/clerk-auth.js") or path == "/clerk-auth.js":
+            response.headers["Cache-Control"] = "no-store, max-age=0, must-revalidate"
+        return response
+
     if mount_static and static_dir.is_dir():
+        # Clerk SignUp path-routing briefly hits /verify-email-address etc.
+        # StaticFiles returns 404 for those → Account Portal redirect (video bug).
+        # Serve the SPA shell so OTP stays on ec-signals.fly.dev.
+        _index_html = static_dir / "index.html"
+        _clerk_spa_paths = (
+            "/verify-email-address",
+            "/verify-phone-number",
+            "/continue",
+            "/factor-one",
+            "/factor-two",
+            "/reset-password",
+            "/sso-callback",
+        )
+
+        if _index_html.is_file():
+
+            def _spa_index() -> FileResponse:
+                return FileResponse(
+                    _index_html,
+                    media_type="text/html",
+                    headers={"Cache-Control": "no-store"},
+                )
+
+            for _spa_path in _clerk_spa_paths:
+                app.add_api_route(
+                    _spa_path,
+                    _spa_index,
+                    methods=["GET", "HEAD"],
+                    include_in_schema=False,
+                )
+
+            # virtual-v3 navigated here without a host router → blank gate.
+            app.add_api_route(
+                "/CLERK-ROUTER/{rest:path}",
+                _spa_index,
+                methods=["GET", "HEAD"],
+                include_in_schema=False,
+            )
+            app.add_api_route(
+                "/CLERK-ROUTER",
+                _spa_index,
+                methods=["GET", "HEAD"],
+                include_in_schema=False,
+            )
+
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
     return app

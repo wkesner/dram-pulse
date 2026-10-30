@@ -393,6 +393,13 @@
     });
   }
 
+  function authReady() {
+    if (window.msClerk?.isAuthenticated) {
+      return window.msClerk.isAuthenticated();
+    }
+    return !window.__msAuth?.requiresAuth;
+  }
+
   async function boot() {
     initTheme();
     initTabs();
@@ -408,10 +415,10 @@
       }
     }
     window.__msOnAuthChange = () => {
-      /* Re-run after org switch so Authorization header is current. */
+      if (!authReady()) return;
       runSim();
     };
-    runSim();
+    if (authReady()) runSim();
   }
 
   if (document.readyState === "loading") {

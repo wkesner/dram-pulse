@@ -1,0 +1,159 @@
+# Hand-maintained PDF body URLs for Unternehmensregister listings.
+# UREG search often points Jahresabschluss bodies at captcha-gated portal
+# payloads, and Halbjahresfinanzbericht sourceName at IR index pages (not
+# direct PDFs). Map ticker + publication_type (+ optional title_contains)
+# to a free issuer PDF that matches the filing.
+
+documents:
+  - ticker: IFX
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-03-11"
+    language: de
+    title: "Infineon Technologies AG Jahresabschluss zum 30.09.2025"
+    url: "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-jahresabschluss-infineon-technologies-ag-zum-30-september-2025-v01-00-de.pdf"
+
+  # Combined management report (EN) — denser supply language than the AG-only JA.
+  - ticker: IFX
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2025-12-08"
+    language: en
+    title: "Infineon Annual Report 2025 (combined management report)"
+    url: "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf"
+
+  - ticker: WAF
+    publication_type: "135"
+    title_contains: "Jahres"
+    filing_date: "2026-03-19"
+    language: de
+    title: "Siltronic AG Jahresabschluss / Lagebericht 2025"
+    url: "https://www.siltronic.com/fileadmin/investorrelations/Hauptversammlungen/HV_2026/04_2025_HGB_Jahresabschluss__Lagebericht__Testat_f%C3%BCr_Homepage.pdf"
+
+  - ticker: AIXA
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-03-26"
+    language: de
+    title: "AIXTRON Geschäftsbericht 2025"
+    url: "https://www.aixtron.com/investoren/publikationen/2025/de/Gesch%C3%A4ftsbericht%202025.pdf"
+
+  - ticker: AIXA
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-06-15"
+    language: de
+    title: "AIXTRON SE Jahresabschluss HGB 2025"
+    url: "https://aixtron.com/investoren/publikationen/2025/de/AIXTRON%20Jahresabschluss%20HGB%202025.pdf"
+
+  - ticker: ELG
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-03-25"
+    language: de
+    title: "Elmos Geschäftsbericht 2025"
+    url: "https://www.eqs-news.com/media/document/892276ed-391f-46ed-94d0-0f244b4185b6/assets/DE0005677108-JA-2025-EQ-D-00.pdf"
+
+  - ticker: ELG
+    publication_type: "135"
+    title_contains: "Jahres"
+    filing_date: "2026-06-08"
+    language: de
+    title: "Elmos Semiconductor SE Jahresabschluss HGB 2025"
+    url: "https://www.elmos.com/fileadmin/elmos-website/about-us/investor_relations/finanzberichte/2026/elmos_hgb_2025.pdf"
+
+  - ticker: SMHN
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-06-09"
+    language: de
+    title: "SUSS MicroTec Geschäftsbericht 2025"
+    url: "https://www.suss.com/de/content/download/3228/47138/2026_03_30_SUSS_Gesch%C3%A4ftsbericht%202025.pdf?version=3"
+
+  - ticker: SMHN
+    publication_type: "135"
+    title_contains: "Jahres"
+    filing_date: "2026-04-27"
+    language: de
+    title: "SUSS MicroTec SE Jahresabschluss HGB 2025"
+    url: "https://www.suss.com/de/content/download/3222/47072/2026_03_30_SUSS_SUSS%20MicroTec%20SE_Jahresabschluss%20%28HGB%29%202025.pdf?version=9"
+
+  - ticker: JEN
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-06-08"
+    language: de
+    title: "Jenoptik Geschäftsbericht 2025"
+    url: "https://www.jenoptik.de/-/media/websitedocuments/ir/berichte-und-tabellen/2025/online/jenoptik-geschaeftsbericht-2025.pdf"
+
+  - ticker: JEN
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-05-06"
+    language: de
+    title: "Jenoptik AG Jahresabschluss 2025"
+    url: "https://www.jenoptik.de/-/media/websitedocuments/ir/berichte-und-tabellen/2025/online/jahresabschluss-jenoptik-ag-2025.pdf"
+
+  - ticker: TPE1
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-04-20"
+    language: de
+    title: "PVA TePla Geschäftsbericht 2025"
+    url: "https://www.pvatepla.com/fileadmin/sitepackage/pdf/investor_relations/berichte/2026/PVA_TePla_Gesch%C3%A4ftsbericht_2025.pdf"
+
+  - ticker: TPE1
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-04-13"
+    language: de
+    title: "PVA TePla AG Jahresabschluss HGB 2025"
+    url: "https://www.pvatepla.com/fileadmin/sitepackage/pdf/investor_relations/berichte/2025/PVA_TePla_AG_HGB_Abschluss_2025.pdf"
+
+  - ticker: BSL
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-04-29"
+    language: de
+    title: "Basler AG Geschäftsbericht 2025"
+    url: "https://assets-ctf.baslerweb.com/dg51pdwahxgw/7zH3q3rF55PjzH1plMs6mK/456f0982c9380073fdd13922116b39a5/Geschaeftsbericht_2025_einschliesslich_Konzernabschluss_und_Bericht_des_Aufsichtsrats.pdf"
+
+  - ticker: SCE
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-05-05"
+    language: de
+    title: "Schweizer Electronic Geschäftsbericht 2025"
+    url: "https://schweizer.ag/fileadmin/user_upload/Downloads/Finanzberichte/Geschaeftsberichte/2025/2026-04_GB_2025.pdf"
+
+  - ticker: SCE
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-05-11"
+    language: de
+    title: "Schweizer Electronic AG Einzelabschluss 2025"
+    url: "https://schweizer.ag/fileadmin/user_upload/Downloads/Finanzberichte/2026-04_GB2025_Einzelabschluss.pdf"
+
+  - ticker: V6C
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-04-28"
+    language: de
+    title: "Viscom SE Geschäftsbericht 2025"
+    url: "https://www.viscom.com/fileadmin/content/Investor_Relations/Hauptversammlung/7_260331_Geschaeftsbericht_2025_de.pdf"
+
+  - ticker: S92
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2026-05-06"
+    language: de
+    title: "SMA Solar Technology Geschäftsbericht 2025"
+    url: "https://d3yvy865gav9f.cloudfront.net/asset/851725204959/document_9idvqc8gnd4srcpbftdc9e1d7j/Geschaeftsbericht-der-SMA-Gruppe-2025.pdf"
+
+  - ticker: S92
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-05-06"
+    language: de
+    title: "SMA Solar Technology AG Jahresabschluss 2025"
+    url: "https://d3yvy865gav9f.cloudfront.net/asset/851725204959/document_brftea5vvt23l1crs2bhjlke04/Jahresabschluss-SMA-Solar-Technology-AG-2025.pdf"

@@ -11,8 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
     />
     <link rel="stylesheet" href="/styles.css" />
+    <script>
+      // Lock feed before deferred auth JS — unauth must see gate, not empty shell.
+      document.documentElement.classList.add("auth-pending");
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="/clerk-auth.js" defer></script>
+    <script src="/clerk-auth.js?v=signup-gate-v7" defer></script>
     <script src="/signal-map.js" defer></script>
     <script src="/app.js" defer></script>
   </head>
@@ -20,8 +24,8 @@
     <div class="app">
       <div id="clerk-setup-banner" class="clerk-banner" hidden></div>
       <header class="top">
-        <h1>Memory signals</h1>
-        <div class="tabs" role="tablist" aria-label="Views">
+        <h1>EC Signals</h1>
+        <div class="tabs" role="tablist" aria-label="Views" data-auth-hide>
           <button
             class="tab"
             role="tab"
@@ -55,7 +59,7 @@
         </div>
         <div id="clerk-chrome" class="clerk-chrome" hidden></div>
         <p id="clerk-hint" class="clerk-hint" hidden></p>
-        <label class="user" for="user-name"
+        <label class="user" for="user-name" data-auth-hide
           >Voting as
           <input
             id="user-name"
@@ -64,7 +68,11 @@
             autocomplete="off"
           />
         </label>
-        <a class="tab" href="/brokers.html" style="text-decoration: none; display: inline-flex; align-items: center"
+        <a
+          class="tab"
+          href="/brokers.html"
+          data-auth-hide
+          style="text-decoration: none; display: inline-flex; align-items: center"
           >Brokers</a
         >
         <button
@@ -77,7 +85,19 @@
         </button>
       </header>
 
-      <div class="layout">
+      <div id="auth-gate" class="auth-gate">
+        <div class="auth-gate-panel auth-gate-panel-wide">
+          <h2 class="auth-gate-title">Sign in to EC Signals</h2>
+          <p class="auth-gate-lede auth-gate-lede-main">
+            Loading sign-in…
+          </p>
+          <div class="auth-clerk-panel">
+            <div id="auth-gate-clerk"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="app-main" class="layout">
         <aside class="rail" aria-label="Filters">
           <label for="f-category"
             >Category

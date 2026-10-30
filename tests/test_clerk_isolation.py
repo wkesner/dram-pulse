@@ -216,3 +216,42 @@ def test_broker_sim_works_with_clerk_session(clerk_env):
     assert resp.status_code == 200
     assert resp.json()["days"] == 2
     assert len(resp.json()["brokers"]) == 3
+
+
+def test_clerk_mode_rejects_missing_bearer(clerk_env):
+    """Whole-app gate: no Authorization → 401 on every data API."""
+
+    def resolver(token: str | None):
+        if not token:
+            raise PermissionError("missing bearer token")
+        return make_test_session(user_id="u1", org_id="org_gate", display_name="Gate")
+
+    app = create_app(
+        signals_path=clerk_env["signals"],
+        sightings_path=clerk_env["sightings"],
+        votes_path=clerk_env["votes_single"],
+        companies_path=clerk_env["companies"],
+        mount_static=False,
+        mode="clerk",
+        orgs_root=clerk_env["orgs"],
+        aggregates_path=clerk_env["aggregates"],
+        session_resolver=resolver,
+        operator_token="test-operator",
+    )
+    client = TestClient(app)
+
+    cfg = client.get("/api/config").json()
+    assert cfg["auth_mode"] == "clerk"
+    assert cfg["requires_auth"] is True
+    assert cfg["requires_org"] is True
+
+    assert client.get("/api/signals").status_code == 401
+    assert client.get("/api/meta").status_code == 401
+    assert client.get("/api/votes").status_code == 401
+    assert client.get("/api/me").status_code == 401
+    assert client.post("/api/orgs/bootstrap").status_code == 401
+    assert client.get("/api/broker-sim", params={"days": 2}).status_code == 401
+
+    ok = client.get("/api/signals", headers={"Authorization": "Bearer test-jwt"})
+    assert ok.status_code == 200
+    assert len(ok.json()) > 0

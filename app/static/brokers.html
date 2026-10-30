@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Broker market — Memory Signals</title>
+    <title>Broker market — EC Signals</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,8 +12,11 @@
     />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/brokers.css" />
+    <script>
+      document.documentElement.classList.add("auth-pending");
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="/clerk-auth.js" defer></script>
+    <script src="/clerk-auth.js?v=signup-gate-v7" defer></script>
     <script src="/brokers.js" defer></script>
   </head>
   <body>
@@ -21,7 +24,7 @@
       <div id="clerk-setup-banner" class="clerk-banner" hidden></div>
       <header class="top">
         <h1>Broker market</h1>
-        <nav class="broker-nav" aria-label="App">
+        <nav class="broker-nav" aria-label="App" data-auth-hide>
           <a href="/">Signals feed</a>
           <span aria-current="page">Brokers</span>
         </nav>
@@ -37,6 +40,19 @@
       </header>
       <p id="clerk-hint" class="clerk-hint" hidden></p>
 
+      <div id="auth-gate" class="auth-gate">
+        <div class="auth-gate-panel auth-gate-panel-wide">
+          <h2 class="auth-gate-title">Sign in to EC Signals</h2>
+          <p class="auth-gate-lede auth-gate-lede-main">
+            Loading sign-in…
+          </p>
+          <div class="auth-clerk-panel">
+            <div id="auth-gate-clerk"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="app-main" class="broker-main">
       <p class="lede">
         Baseline Apex / Harbor / Summit trade without a memory score. Each has a
         scored twin with the same personality and $250k start cash, but
@@ -129,6 +145,7 @@
           </table>
         </div>
       </section>
+      </div>
     </div>
   </body>
 </html>

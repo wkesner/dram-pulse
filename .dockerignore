@@ -1,0 +1,36 @@
+.git
+.clerk
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Collector caches — not needed to serve the feed (~1GB)
+data/raw/
+data/part_master_cache/
+data/broker_sim/memoryindex_cache.json
+data/orgs/**
+!data/orgs/.gitkeep
+data/aggregates/**
+!data/aggregates/.gitkeep
+data/*.db
+data/*.db-*
+data/export_signals.csv
+
+# Dev / non-runtime
+tests/
+fixtures/
+scripts/
+*.md
+!README.md
+docs/design/
+export_airtable.py
+export_csv.py
+app.py

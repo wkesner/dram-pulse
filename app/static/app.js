@@ -1245,7 +1245,54 @@
     }),
   };
 
+  function authReady() {
+    const auth = window.__msAuth;
+    // Clerk mode: require real session+org — never treat "single" defaults as open.
+    if (auth?.mode === "clerk" || auth?.requiresAuth) {
+      if (window.msClerk?.isAuthenticated) {
+        return window.msClerk.isAuthenticated();
+      }
+      return false;
+    }
+    if (window.msClerk?.isAuthenticated) {
+      return window.msClerk.isAuthenticated();
+    }
+    return !auth?.requiresAuth;
+  }
+
+  function lockShellForAuth() {
+    document.documentElement.classList.add("auth-pending");
+    document.body.classList.add("auth-locked");
+    const main = document.getElementById("app-main");
+    if (main) main.hidden = true;
+    document.querySelectorAll("[data-auth-hide]").forEach((node) => {
+      node.hidden = true;
+    });
+    const gate = document.getElementById("auth-gate");
+    if (gate) gate.hidden = false;
+    if (window.msClerk?.applyAuthGate) {
+      try {
+        window.msClerk.applyAuthGate({ force: true });
+      } catch (err) {
+        console.error(err);
+      }
+    } else if (gate && !gate.querySelector(".auth-gate-title")) {
+      gate.innerHTML =
+        '<div class="auth-gate-panel"><h2 class="auth-gate-title">Sign in to EC Signals</h2><p class="auth-gate-lede">Sign in required.</p></div>';
+    }
+  }
+
   async function bootApp() {
+    if (!authReady()) {
+      lockShellForAuth();
+      const stack = $("#feed-stack");
+      if (stack) {
+        stack.replaceChildren(
+          el("div", "empty", "Sign in to load signals.")
+        );
+      }
+      return;
+    }
     await loadSignals();
     await loadUserVotes();
     await loadMeta();
@@ -1258,6 +1305,10 @@
 
   window.__msOnAuthChange = async () => {
     try {
+      if (!authReady()) {
+        lockShellForAuth();
+        return;
+      }
       if (isClerkMode() && window.__msAuth?.orgId) {
         await fetch("/api/orgs/bootstrap", {
           method: "POST",
@@ -1274,14 +1325,29 @@
     try {
       if (window.msClerk?.init) {
         await window.msClerk.init();
+      } else {
+        // clerk-auth.js missing/failed — never show an unlocked empty feed.
+        const cfg = await fetch("/api/config")
+          .then((r) => r.json())
+          .catch(() => ({}));
+        if (cfg.requires_auth || cfg.auth_mode === "clerk") {
+          lockShellForAuth();
+          const gate = document.getElementById("auth-gate");
+          if (gate && !gate.querySelector(".auth-gate-panel")) {
+            gate.innerHTML =
+              '<div class="auth-gate-panel"><h2>Sign in to EC Signals</h2><p class="auth-gate-lede">Auth script failed to load. Hard-refresh the page.</p></div>';
+          }
+          return;
+        }
       }
       await bootApp();
     } catch (err) {
       console.error(err);
+      lockShellForAuth();
       const stack = $("#feed-stack");
       if (stack) {
         stack.replaceChildren(
-          el("div", "empty", "Failed to load /api/signals. Is the server running?")
+          el("div", "empty", "Sign in to load signals.")
         );
       }
     }

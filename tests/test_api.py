@@ -357,3 +357,54 @@ def test_broker_sim_open_mode_forces_offline_and_caps_days(data_dir: Path):
 def test_broker_sim_rejects_days_over_cap(client: TestClient):
     resp = client.get("/api/broker-sim", params={"days": 365, "live": "false"})
     assert resp.status_code == 422
+
+
+def test_config_reports_open_single_mode(client: TestClient):
+    cfg = client.get("/api/config").json()
+    assert cfg["auth_mode"] == "single"
+    assert cfg["requires_auth"] is False
+    assert cfg["requires_app_token"] is False
+
+
+def test_app_access_token_gates_all_data_apis(data_dir: Path):
+    app = create_app(
+        signals_path=data_dir / "signals.csv",
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
+        mount_static=False,
+        mode="single",
+        app_token="app-secret",
+        broker_sim_open=False,
+        broker_sim_token="",
+    )
+    client = TestClient(app)
+
+    cfg = client.get("/api/config").json()
+    assert cfg["requires_auth"] is True
+    assert cfg["requires_app_token"] is True
+
+    assert client.get("/api/signals").status_code == 401
+    assert client.get("/api/meta").status_code == 401
+    assert client.get("/api/votes", params={"user": "A"}).status_code == 401
+    assert client.get("/api/broker-sim", params={"days": 2}).status_code == 401
+
+    bad = client.get("/api/signals", headers={"Authorization": "Bearer wrong"})
+    assert bad.status_code == 401
+
+    ok_headers = {"Authorization": "Bearer app-secret"}
+    assert client.get("/api/signals", headers=ok_headers).status_code == 200
+    assert client.get("/api/meta", headers=ok_headers).status_code == 200
+    # X-App-Token is an accepted alternate header.
+    assert (
+        client.get("/api/signals", headers={"X-App-Token": "app-secret"}).status_code
+        == 200
+    )
+    # Authenticated callers unlock broker-sim without BROKER_SIM_OPEN/TOKEN.
+    sim = client.get(
+        "/api/broker-sim",
+        params={"days": 2, "live": "false", "include_scored": "false"},
+        headers=ok_headers,
+    )
+    assert sim.status_code == 200
+    assert sim.json()["days"] == 2

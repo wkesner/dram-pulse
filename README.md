@@ -154,9 +154,15 @@ open single-tenant demo forces offline prices and caps at 30 days.
 
 ## Multi-org demo (Clerk)
 
-Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
+### Whole-app login
 
-For the multi-org demo, prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
+**Clerk** (`AUTH_MODE=clerk`): every data API and the UI require a signed-in Clerk session **and** an active organization. Unauthenticated visitors see the sign-in gate; `/api/config` stays public so the browser can bootstrap Clerk. Set `SIGNUP_INVITE_KEY` so **Create account** asks for that invite key before Clerk email/password SignUp (Sign In stays open for existing users).
+
+**Single** (`AUTH_MODE=single`): open local demos by default (typed “Voting as” name). Set `APP_ACCESS_TOKEN` to require a shared secret for the whole app — the UI prompts for the token; APIs accept `Authorization: Bearer …` or `X-App-Token`.
+
+### Clerk setup
+
+Prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
 
 ```bash
 npx -y clerk@latest auth login
@@ -169,7 +175,28 @@ npx -y clerk@latest enable orgs
 #   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
 #   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
 #   OPERATOR_TOKEN=…   # optional
+#   SIGNUP_INVITE_KEY=…  # required before Create account (email+password)
+# Single-tenant shared-secret alternative:
+#   AUTH_MODE=single
+#   APP_ACCESS_TOKEN=…   # gates UI + /api/*
 ```
+
+### Setting `SIGNUP_INVITE_KEY`
+
+```bash
+# 1) Generate a long random key
+python3 -c "import secrets; print(secrets.token_urlsafe(24))"
+
+# 2) Put it in gitignored .env (never commit)
+#    SIGNUP_INVITE_KEY=the-value-from-step-1
+
+# 3) Restart the API
+#    AUTH_MODE=clerk python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+
+# 4) Share the key out-of-band with people who may create accounts.
+#    Sign-in does not need it; Create account → enter key → email + password.
+```
+
 
 Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.
 
@@ -212,10 +239,10 @@ Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
 | **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
 | **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
 | **France (AMF Info‑financière)** | `python -m src.fetch_amf` | none | **stub** — free OAM JSON API; wire ISINs next |
+| **Germany (UREG)** | `python -m src.fetch_ureg` | none | **v1 live** — Unternehmensregister search + IR PDF bodies (no captcha solver) |
 | TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
 | LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
 | FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
-| BaFin / Unternehmensregister (DE) | — | portal | ranked after AMF; no clean public filing API yet |
 | AFM registers (NL) | — | portal | thin vs ASML/NXP already on EDGAR |
 
 ```bash
@@ -235,18 +262,24 @@ python3 -m src.fetch_edinet --ticker 8035
 python3 -m src.fetch_companies_house
 python3 -m src.fetch_companies_house --ticker RSW
 
+# Germany — Unternehmensregister listing + IR PDF mirrors (IFX / WAF smoke)
+python3 -m src.fetch_ureg
+python3 -m src.fetch_ureg --ticker IFX
+python3 -m src.fetch_ureg --list-only --ticker WAF
+
 # Extract + verify (same dedupe path as EDGAR/DART)
 export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 python3 -m src.extract --all --no-fetch-prior
 python3 -m src.verify
 ```
 
-Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH), `de`/`en` (UREG). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`. German commodity terms land in a follow-on PR.
 
 ### Auth / rate limits / ToS (summary)
 
 - **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
 - **MOPS/TWSE**: no key. Official OpenAPI (`t187ap04_L` material info + `t187ap05_L` monthly revenue). Snapshots are latest-period (not a historical range) — re-runs accumulate cache. Prefer OpenAPI over MOPS HTML (TWSE ToS discourages automated scrape of non-API pages). Soft ≤1 r/s.
+- **UREG (Unternehmensregister)**: no key. Search-token + ACCOUNTING listing; prefer pub types 135/136/137. Document bodies often need captcha — follow IR/`config/ureg_documents.yaml` PDFs instead (no captcha solver; no BaFin MVP SOAP). Soft ≤0.5 r/s; robots.txt disallows `/de/search`.
 - **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
 - **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
 - **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.

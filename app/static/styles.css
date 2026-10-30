@@ -27,6 +27,103 @@
   max-width: 28ch;
 }
 
+.auth-gate {
+  min-height: min(70vh, 640px);
+  display: grid;
+  place-items: center;
+  padding: 24px 12px 48px;
+}
+.auth-gate-panel {
+  width: min(100%, 420px);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px 24px 32px;
+  display: grid;
+  gap: 14px;
+  box-shadow: 0 12px 40px rgba(23, 32, 38, 0.08);
+}
+.auth-gate-panel-wide {
+  width: min(100%, 480px);
+}
+.auth-mode-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.auth-mode-tab {
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--muted);
+  cursor: pointer;
+}
+.auth-mode-tab[aria-selected="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.auth-clerk-panel {
+  display: grid;
+  gap: 12px;
+}
+.auth-gate-panel h2 {
+  margin: 0;
+  font-family: var(--f-display);
+  font-size: 1.65rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.auth-gate-lede {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.auth-token-form {
+  display: grid;
+  gap: 12px;
+}
+.auth-token-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.auth-token-form input {
+  font: inherit;
+  font-family: var(--f-mono);
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.auth-token-form button {
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  cursor: pointer;
+}
+.auth-gate-error {
+  margin: 0;
+  color: var(--tight);
+  font-size: 0.9rem;
+}
+body.auth-locked .auth-gate {
+  display: grid;
+}
+#auth-gate-clerk {
+  min-height: 320px;
+}
+
 :root {
   --bg: #f3f5f6; --panel: #ffffff; --ink: #172026; --muted: #5a6872; --line: #d9dfe3;
   --accent: #0f5f63; --accent-ink: #ffffff; --tight: #b4362c; --tight-soft: #f7e3e0; --ease: #2a5fa8; --ease-soft: #e1eaf7;
@@ -52,6 +149,14 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
+/* Until clerk-auth.js decides, never flash the empty feed for unauth users. */
+html.auth-pending #app-main,
+html.auth-pending [data-auth-hide] {
+  display: none !important;
+}
+html.auth-pending #auth-gate {
+  display: grid !important;
+}
 html { overflow-x: hidden; }
 body {
   margin: 0;
