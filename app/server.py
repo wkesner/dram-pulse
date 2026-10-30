@@ -842,6 +842,15 @@ def create_app(
         )
         return result.summary()
 
+    @app.middleware("http")
+    async def no_cache_auth_assets(request: Request, call_next):
+        """Prevent browsers from keeping a stale clerk-auth.js after Fly deploys."""
+        response = await call_next(request)
+        path = request.url.path or ""
+        if path.endswith("/clerk-auth.js") or path == "/clerk-auth.js":
+            response.headers["Cache-Control"] = "no-store, max-age=0, must-revalidate"
+        return response
+
     if mount_static and static_dir.is_dir():
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
