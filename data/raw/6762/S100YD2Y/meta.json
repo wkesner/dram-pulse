@@ -1,0 +1,24 @@
+{
+  "company": "TDK",
+  "ticker": "6762",
+  "role": "supplier",
+  "source": "EDINET",
+  "form": "有価証券報告書－第130期(2025/04/01－2026/03/31)",
+  "filing_date": "2026-06-17",
+  "accession_number": "S100YD2Y",
+  "filing_id": "S100YD2Y",
+  "edinet_code": "E01780",
+  "sec_code": "67620",
+  "doc_type_code": "120",
+  "title": "有価証券報告書－第130期(2025/04/01－2026/03/31)",
+  "source_url": "https://disclosure2.edinet-fsa.go.jp/WEBSITE/download?docid=S100YD2Y",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "ja",
+  "fetched_at": "2026-10-29T20:11:08.602293+00:00",
+  "paths": {
+    "other_full": "data/raw/6762/S100YD2Y/other_full.txt",
+    "document_zip": "data/raw/6762/S100YD2Y/document.zip"
+  }
+}

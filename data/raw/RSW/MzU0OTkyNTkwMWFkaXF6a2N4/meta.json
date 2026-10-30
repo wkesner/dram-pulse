@@ -1,0 +1,22 @@
+{
+  "company": "Renishaw",
+  "ticker": "RSW",
+  "role": "supplier",
+  "source": "CH",
+  "form": "confirmation-statement-with-updates",
+  "filing_date": "2026-10-08",
+  "accession_number": "MzU0OTkyNTkwMWFkaXF6a2N4",
+  "filing_id": "MzU0OTkyNTkwMWFkaXF6a2N4",
+  "company_number": "01106260",
+  "category": "confirmation-statement",
+  "title": "confirmation-statement-with-updates",
+  "source_url": "https://find-and-update.company-information.service.gov.uk/company/01106260/filing-history",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "en",
+  "fetched_at": "2026-10-29T22:20:54.134916+00:00",
+  "paths": {
+    "other_full": "data/raw/RSW/MzU0OTkyNTkwMWFkaXF6a2N4/other_full.txt"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Fenghua Advanced Technology",
+  "ticker": "000636",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2025年年度报告摘要",
+  "filing_date": "2026-04-20",
+  "accession_number": "1225129319",
+  "filing_id": "1225129319",
+  "title": "2025年年度报告摘要",
+  "org_id": "gssz0000636",
+  "exchange": "szse",
+  "adjunct_url": "finalpage/2026-04-21/1225129319.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225129319.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:40:32.205782+00:00",
+  "paths": {
+    "other_full": "data/raw/000636/1225129319/other_full.txt",
+    "document_pdf": "data/raw/000636/1225129319/document.pdf"
+  }
+}

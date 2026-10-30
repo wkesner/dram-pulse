@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司日月光半導體製造(股)公司公告\r\n向SEMIgear,Inc.取得供營業用之機器設備",
+  "filing_date": "2026-10-29",
+  "accession_number": "1151029_173103_d3aed0079d",
+  "filing_id": "1151029_173103_d3aed0079d",
+  "title": "代子公司日月光半導體製造(股)公司公告\r\n向SEMIgear,Inc.取得供營業用之機器設備",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T22:44:08.325719+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151029_173103_d3aed0079d/other_full.txt"
+  },
+  "clause": "第20款",
+  "fact_date_roc": "1151029",
+  "announce_time": "173103",
+  "feed": "t187ap04_L"
+}

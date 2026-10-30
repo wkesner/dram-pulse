@@ -1,0 +1,24 @@
+{
+  "company": "SCREEN Holdings",
+  "ticker": "7735",
+  "role": "supplier",
+  "source": "EDINET",
+  "form": "有価証券報告書－第85期(2025/04/01－2026/03/31)",
+  "filing_date": "2026-06-25",
+  "accession_number": "S100YK9N",
+  "filing_id": "S100YK9N",
+  "edinet_code": "E02288",
+  "sec_code": "77350",
+  "doc_type_code": "120",
+  "title": "有価証券報告書－第85期(2025/04/01－2026/03/31)",
+  "source_url": "https://disclosure2.edinet-fsa.go.jp/WEBSITE/download?docid=S100YK9N",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "ja",
+  "fetched_at": "2026-10-29T20:11:10.593119+00:00",
+  "paths": {
+    "other_full": "data/raw/7735/S100YK9N/other_full.txt",
+    "document_zip": "data/raw/7735/S100YK9N/document.zip"
+  }
+}

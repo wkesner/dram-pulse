@@ -59,6 +59,7 @@ mops:
 
 # Companies House — free key (COMPANIES_HOUSE_API_KEY). 600 req / 5 min.
 # LSE RNS / FCA NSM: see README (RNS needs LSEG; NSM API ~2027).
+# Europe insight: prefer EDGAR dual-lists, then AMF (below); skip CH chase.
 companies_house:
   max_requests_per_second: 2
   api_base: "https://api.company-information.service.gov.uk"
@@ -66,6 +67,13 @@ companies_house:
     - accounts
     - annual-return
     - confirmation-statement
+
+# AMF Info-financière (France) — free OAM JSON API, no key. Stub only until
+# Euronext Paris electronics ISINs are wired (see src/fetch_amf.py).
+amf:
+  max_requests_per_second: 1
+  api_base: "https://www.info-financiere.gouv.fr/api/explore/v2.0"
+  # Soft published limit ~10k calls / IP / day — stay well under.
 
 paths:
   raw_dir: data/raw

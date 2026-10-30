@@ -1,0 +1,24 @@
+{
+  "company": "Wingtech Technology",
+  "ticker": "600745",
+  "role": "buyer",
+  "source": "CNINFO",
+  "form": "2025年年度报告摘要",
+  "filing_date": "2026-04-29",
+  "accession_number": "1225266551",
+  "filing_id": "1225266551",
+  "title": "2025年年度报告摘要",
+  "org_id": "gssh0600745",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-04-30/1225266551.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225266551.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:42:48.947120+00:00",
+  "paths": {
+    "other_full": "data/raw/600745/1225266551/other_full.txt",
+    "document_pdf": "data/raw/600745/1225266551/document.pdf"
+  }
+}

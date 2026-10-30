@@ -1,0 +1,24 @@
+{
+  "company": "Rockchip Electronics",
+  "ticker": "603893",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2026年半年度报告摘要",
+  "filing_date": "2026-08-17",
+  "accession_number": "1225478614",
+  "filing_id": "1225478614",
+  "title": "2026年半年度报告摘要",
+  "org_id": "9900033186",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-08-18/1225478614.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-18/1225478614.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:41:36.934970+00:00",
+  "paths": {
+    "other_full": "data/raw/603893/1225478614/other_full.txt",
+    "document_pdf": "data/raw/603893/1225478614/document.pdf"
+  }
+}

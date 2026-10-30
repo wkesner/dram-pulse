@@ -1,0 +1,24 @@
+{
+  "company": "Transsion Holdings",
+  "ticker": "688036",
+  "role": "buyer",
+  "source": "CNINFO",
+  "form": "传音控股2026年半年度报告",
+  "filing_date": "2026-08-17",
+  "accession_number": "1225476410",
+  "filing_id": "1225476410",
+  "title": "传音控股2026年半年度报告",
+  "org_id": "9900038988",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-08-18/1225476410.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-18/1225476410.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:43:05.408909+00:00",
+  "paths": {
+    "other_full": "data/raw/688036/1225476410/other_full.txt",
+    "document_pdf": "data/raw/688036/1225476410/document.pdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Yageo",
+  "ticker": "2327",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "公告修正本公司114年度股東會年報部分內容",
+  "filing_date": "2026-10-29",
+  "accession_number": "1151029_172839_8e6665193e",
+  "filing_id": "1151029_172839_8e6665193e",
+  "title": "公告修正本公司114年度股東會年報部分內容",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T22:44:08.324926+00:00",
+  "paths": {
+    "other_full": "data/raw/2327/1151029_172839_8e6665193e/other_full.txt"
+  },
+  "clause": "第51款",
+  "fact_date_roc": "1151029",
+  "announce_time": "172839",
+  "feed": "t187ap04_L"
+}
