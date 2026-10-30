@@ -1,0 +1,41 @@
+{
+  "company": "Ametek",
+  "ticker": "AME",
+  "role": "supplier",
+  "tier": 2,
+  "cik": "0001037868",
+  "form": "8-K",
+  "filing_date": "2026-02-03",
+  "accession_number": "0001037868-26-000006",
+  "primary_document": "ame-20260203.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000006/ame-20260203.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-03",
+  "period_end": "2026-02-03",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:08:33.502265+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ametek8kex99202-03x2026.htm",
+      "path": "data/raw/AME/000103786826000006/exhibit_99_ametek8kex99202-03x2026.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000006/ametek8kex99202-03x2026.htm"
+    },
+    {
+      "name": "ametek8kexhibit99102032026.htm",
+      "path": "data/raw/AME/000103786826000006/exhibit_99_ametek8kexhibit99102032026.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000006/ametek8kexhibit99102032026.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AME/000103786826000006/primary.html",
+    "other": "data/raw/AME/000103786826000006/other_full.txt"
+  }
+}

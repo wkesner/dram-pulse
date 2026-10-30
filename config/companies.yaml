@@ -1300,6 +1300,45 @@ companies:
     ticker: OSS
     tier: 3
 
+  # Forbes Global 2000 (2026) electronics / tech / components / semis /
+  # EMS / storage / interconnect remainder — US EDGAR only (see
+  # config/forbes_g2000_2026_seed.yaml).
+  - name: Fortinet
+    role: buyer
+    source: EDGAR
+    ticker: FTNT
+    tier: 2
+
+  - name: Ametek
+    role: supplier
+    source: EDGAR
+    ticker: AME
+    tier: 2
+
+  - name: Ingram Micro
+    role: buyer
+    source: EDGAR
+    ticker: INGM
+    tier: 2
+
+  - name: Coherent
+    role: supplier
+    source: EDGAR
+    ticker: COHR
+    tier: 3
+
+  - name: First Solar
+    role: supplier
+    source: EDGAR
+    ticker: FSLR
+    tier: 3
+
+  - name: Qnity Electronics
+    role: supplier
+    source: EDGAR
+    ticker: Q
+    tier: 3
+
   # --- CNINFO (China A-share; no API key) ---
   # orgId resolved at runtime via cninfo topSearch; exchange = sse|szse.
   - name: SMIC

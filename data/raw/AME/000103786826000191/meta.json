@@ -1,0 +1,36 @@
+{
+  "company": "Ametek",
+  "ticker": "AME",
+  "role": "supplier",
+  "tier": 2,
+  "cik": "0001037868",
+  "form": "8-K",
+  "filing_date": "2026-08-26",
+  "accession_number": "0001037868-26-000191",
+  "primary_document": "ame-20260826.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000191/ame-20260826.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-26",
+  "period_end": "2026-08-26",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:08:06.686367+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "exhibit-991indicorinstrume.htm",
+      "path": "data/raw/AME/000103786826000191/exhibit_99_exhibit-991indicorinstrume.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000191/exhibit-991indicorinstrume.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/AME/000103786826000191/primary.html",
+    "other": "data/raw/AME/000103786826000191/other_full.txt"
+  }
+}

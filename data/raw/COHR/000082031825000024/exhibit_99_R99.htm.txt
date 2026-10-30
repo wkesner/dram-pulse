@@ -1,0 +1,786 @@
+XML
+
+108
+
+R99.htm
+
+IDEA: XBRL DOCUMENT
+
+v3.25.3
+
+Restructuring Plans - Schedule of Activity and Accrual Balances for the Restructuring Plan (Details) - USD ($)
+ $ in Thousands
+
+12 Months Ended
+
+Jun. 30, 2025
+
+Jun. 30, 2024
+
+Jun. 30, 2023
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Restructuring charges
+
+$ 160,081
+
+$ 27,054
+
+$ 119,101
+
+2023 Plan
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+51,061
+
+64,379
+
+ 
+
+Restructuring charges
+
+52,997
+
+27,056
+
+119,000
+
+Payments
+
+(12,954)
+
+(13,189)
+
+ 
+
+Asset write-offs and other
+
+(46,874)
+
+(27,185)
+
+ 
+
+Ending balance
+
+44,230
+
+51,061
+
+64,379
+
+2023 Plan | Severance
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+51,061
+
+64,379
+
+ 
+
+Restructuring charges
+
+6,123
+
+(129)
+
+ 
+
+Payments
+
+(12,954)
+
+(13,189)
+
+ 
+
+Asset write-offs and other
+
+0
+
+0
+
+ 
+
+Ending balance
+
+44,230
+
+51,061
+
+64,379
+
+2023 Plan | Asset Write-Offs
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+0
+
+ 
+
+Restructuring charges
+
+24,010
+
+11,658
+
+ 
+
+Payments
+
+0
+
+0
+
+ 
+
+Asset write-offs and other
+
+(24,010)
+
+(11,658)
+
+ 
+
+Ending balance
+
+0
+
+0
+
+0
+
+2023 Plan | Other
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+0
+
+ 
+
+Restructuring charges
+
+22,864
+
+15,527
+
+ 
+
+Payments
+
+0
+
+0
+
+ 
+
+Asset write-offs and other
+
+(22,864)
+
+(15,527)
+
+ 
+
+Ending balance
+
+0
+
+0
+
+$ 0
+
+2025 Plan
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+ 
+
+ 
+
+Restructuring charges
+
+107,084
+
+ 
+
+ 
+
+Payments
+
+(59,971)
+
+ 
+
+ 
+
+Ending balance
+
+47,113
+
+0
+
+ 
+
+2025 Plan | Severance
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+ 
+
+ 
+
+Restructuring charges
+
+23,983
+
+ 
+
+ 
+
+Payments
+
+(7,261)
+
+ 
+
+ 
+
+Ending balance
+
+16,722
+
+0
+
+ 
+
+2025 Plan | Asset Write-Offs
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+ 
+
+ 
+
+Restructuring charges
+
+59,068
+
+ 
+
+ 
+
+Payments
+
+(48,574)
+
+ 
+
+ 
+
+Ending balance
+
+10,494
+
+0
+
+ 
+
+2025 Plan | Other
+
+ 
+
+ 
+
+ 
+
+Restructuring Reserve [Roll Forward]
+
+ 
+
+ 
+
+ 
+
+Beginning balance
+
+0
+
+ 
+
+ 
+
+Restructuring charges
+
+24,033
+
+ 
+
+ 
+
+Payments
+
+(4,136)
+
+ 
+
+ 
+
+Ending balance
+
+$ 19,897
+
+$ 0
+
+ 
+
+X
+
+- Definition
+Restructuring Reserve, Asset Write-Offs And Other Adjustments
+
++ References
+No definition available.
+
++ Details
+
+ Name:
+
+iivi_RestructuringReserveAssetWriteOffsAndOtherAdjustments
+
+ Namespace Prefix:
+
+iivi_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+credit
+
+ Period Type:
+
+duration
+
+X
+
+- Definition
+Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.
+
++ References
+Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (b)(2)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+Reference 2: http://www.xbrl.org/2009/role/commonPracticeRef
+ -Topic 230
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 17
+ -Subparagraph (f)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482740/230-10-45-17
+
++ Details
+
+ Name:
+
+us-gaap_PaymentsForRestructuring
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+credit
+
+ Period Type:
+
+duration
+
+X
+
+- Definition
+Amount of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.
+
++ References
+Reference 1: http://fasb.org/us-gaap/role/ref/legacyRef
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 28
+ -Subparagraph (b)
+ -SubTopic 10
+ -Topic 230
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482740/230-10-45-28
+Reference 2: http://www.xbrl.org/2003/role/exampleRef
+ -Topic 220
+ -SubTopic 40
+ -Name Accounting Standards Codification
+ -Section 55
+ -Paragraph 18
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147476153/220-40-55-18
+Reference 3: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section S99
+ -Paragraph 2
+ -Subparagraph (SAB Topic 5.P.4.b.1)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+Reference 4: http://www.xbrl.org/2009/role/commonPracticeRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section 45
+ -Paragraph 3
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482047/420-10-45-3
+Reference 5: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section S99
+ -Paragraph 1
+ -Subparagraph (SAB Topic 5.P.3)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-1
+Reference 6: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 220
+ -SubTopic 40
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 21
+ -Subparagraph (e)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147476148/220-40-50-21
+Reference 7: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 220
+ -SubTopic 40
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 6
+ -Subparagraph (b)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147476148/220-40-50-6
+
++ Details
+
+ Name:
+
+us-gaap_RestructuringCharges
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+debit
+
+ Period Type:
+
+duration
+
+X
+
+- Definition
+Carrying amount (including both current and noncurrent portions of the accrual) as of the balance sheet date pertaining to a specified type of cost associated with exit from or disposal of business activities or restructuring pursuant to a duly authorized plan.
+
++ References
+Reference 1: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section S99
+ -Paragraph 2
+ -Subparagraph (SAB Topic 5.P.4.b.2)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147479823/420-10-S99-2
+Reference 2: http://www.xbrl.org/2003/role/disclosureRef
+ -Topic 420
+ -SubTopic 10
+ -Name Accounting Standards Codification
+ -Section 50
+ -Paragraph 1
+ -Subparagraph (b)(2)
+ -Publisher FASB
+ -URI https://asc.fasb.org/1943274/2147482017/420-10-50-1
+
++ Details
+
+ Name:
+
+us-gaap_RestructuringReserve
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:monetaryItemType
+
+ Balance Type:
+
+credit
+
+ Period Type:
+
+instant
+
+X
+
+- Definition
+A roll forward is a reconciliation of a concept from the beginning of a period to the end of a period.
+
++ References
+No definition available.
+
++ Details
+
+ Name:
+
+us-gaap_RestructuringReserveRollForward
+
+ Namespace Prefix:
+
+us-gaap_
+
+ Data Type:
+
+xbrli:stringItemType
+
+ Balance Type:
+
+na
+
+ Period Type:
+
+duration
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RestructuringPlanAxis=iivi_A2023RestructuringPlanMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RestructuringCostAndReserveAxis=us-gaap_EmployeeSeveranceMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RestructuringCostAndReserveAxis=iivi_AssetWriteOffsMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RestructuringCostAndReserveAxis=us-gaap_OtherRestructuringMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:
+
+X
+
+- Details
+
+ Name:
+
+us-gaap_RestructuringPlanAxis=iivi_A2025RestructuringPlanMember
+
+ Namespace Prefix:
+
+ Data Type:
+
+na
+
+ Balance Type:
+
+ Period Type:

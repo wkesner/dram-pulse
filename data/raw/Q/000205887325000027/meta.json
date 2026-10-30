@@ -1,0 +1,36 @@
+{
+  "company": "Qnity Electronics",
+  "ticker": "Q",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0002058873",
+  "form": "8-K",
+  "filing_date": "2025-12-09",
+  "accession_number": "0002058873-25-000027",
+  "primary_document": "q-20251209.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,7.01,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2058873/000205887325000027/q-20251209.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-09",
+  "period_end": "2025-12-09",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:10:37.657970+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex991-pressreleasex12925.htm",
+      "path": "data/raw/Q/000205887325000027/exhibit_99_ex991-pressreleasex12925.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2058873/000205887325000027/ex991-pressreleasex12925.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/Q/000205887325000027/primary.html",
+    "other": "data/raw/Q/000205887325000027/other_full.txt"
+  }
+}

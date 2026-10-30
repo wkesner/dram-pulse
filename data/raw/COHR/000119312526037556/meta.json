@@ -1,0 +1,41 @@
+{
+  "company": "Coherent",
+  "ticker": "COHR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000820318",
+  "form": "8-K",
+  "filing_date": "2026-02-04",
+  "accession_number": "0001193125-26-037556",
+  "primary_document": "d101115d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115d8k.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2026-02-04",
+  "period_end": "2026-02-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:09:37.143324+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "d101115dex991.htm",
+      "path": "data/raw/COHR/000119312526037556/exhibit_99_d101115dex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex991.htm"
+    },
+    {
+      "name": "d101115dex992.htm",
+      "path": "data/raw/COHR/000119312526037556/exhibit_99_d101115dex992.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex992.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/COHR/000119312526037556/primary.html",
+    "other": "data/raw/COHR/000119312526037556/other_full.txt"
+  }
+}

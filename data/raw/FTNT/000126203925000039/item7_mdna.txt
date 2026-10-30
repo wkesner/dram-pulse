@@ -1,0 +1,1000 @@
+ITEM 2.     Management’s Discussion and Analysis of Financial Condition and Results of Operations
+In addition to historical information, this Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities and Exchange Act of 1934, as amended (the “Exchange Act”). These statements include, among other things, statements concerning our expectations regarding:
+•
+continued growth and market share gains;
+•
+variability in sales in certain product and service categories from year to year and between quarters;
+•
+expected impact of sales from certain products and services;
+•
+increasing or decreasing inflation or stagflation, and changing interest rates in many geographies and changes in currency exchange rates and currency regulations;
+•
+competition in our markets;
+•
+macroeconomic, geopolitical factors and other disruption on our manufacturing or sales, including tariffs or other trade disruptions, public health issues, wars, natural disasters and economic growth;
+•
+government regulation and other policies;
+•
+drivers of long-term growth and operating leverage, such as pricing of our products and services, sales productivity, pipeline and capacity, functionality, value and technology improvements in our product and service offerings;
+•
+growing our solution sales through channel partners to businesses, service providers and government organizations, our ability to execute these sales and the complexity of providing solutions to all segments (including the increased competition and unpredictability of timing associated with sales to larger enterprises), the impact of sales to these organizations on our long-term growth, expansion and operating results, and the effectiveness of our sales organization;
+•
+our ability to successfully anticipate market changes, including those related to cloud-based and AI solutions and to sell, support and meet service level agreements related to cloud-based solutions;
+•
+growth expectations for the secure networking market;
+•
+supply chain constraints, component availability and other factors affecting our manufacturing capacity, delivery, cost and inventory management;
+•
+forecasts of future demand and targeted inventory levels, including changing market drivers and demands;
+•
+the effect of backlog from current or prior quarters, including its effect on growth of in-quarter billings and revenue;
+•
+our ability to hire properly qualified and effective sales, support and engineering employees;
+•
+risks and expectations related to acquisitions and equity interests in private and public companies, including integration issues related to go-to-market plans, product plans, employees of such companies, controls and processes and the acquired technology, and risks of negative impact by such acquisitions and equity investments on our financial results;
+•
+trends in revenue, cost of revenue and gross margin, including expectations regarding product revenue, service revenue and inventory related charges;
+ 
+•
+trends in our operating expense, including sales and marketing expense, research and development expense, general and administrative expense, and expectations regarding these expenses;
+28
+Table of Contents
+•
+expected impact of plans and strategy for the acceleration of our data center footprint and our PoPs deployment;
+•
+expectations regarding our gross margins and operating expenses for 2025;
+•
+expectations that proceeds from the exercise of stock options in future years will be adversely impacted by the increased mix of restricted stock units and performance stock units versus stock options granted or a decline in our stock price;
+•
+uncertain tax benefits and our effective domestic and global tax rates, the impact of interpretations of or changes to tax law, and the timing of tax payments;
+•
+expectations regarding spending related to real estate assets, acquisitions and development, including data centers and points of presence, office building and warehouse investments, as well as other capital expenditures and to the impact on free cash flow and expenses;
+•
+estimates of a range of 2025 spending on capital expenditures;
+•
+expansions, development, improvements, operating, subleasing and other real property holdings activities;
+•
+expected outcomes and liabilities in litigation;
+•
+our intentions regarding share repurchases and the sufficiency of our existing cash, cash equivalents and investments to meet our cash needs, including our debt servicing requirements, for at least the next 12 months;
+•
+other statements regarding our future operations, financial condition and prospects and business strategies; and
+•
+adoption and impact of new accounting standards.
+These forward-looking statements are subject to certain risks and uncertainties that could cause our actual results to differ materially from those reflected in the forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to, those discussed in this Quarterly Report on Form 10-Q and, in particular, the risks discussed under the heading “Risk Factors” in Part II, Item 1A of this Quarterly Report on Form 10-Q and those discussed in other documents we file with the SEC. We undertake no obligation, and specifically disclaim any obligation, to revise or publicly release the results of any revision to these and any other forward-looking statements. Given these risks and uncertainties, readers are cautioned not to place undue reliance on such forward-looking statements.
+Business Overview
+Fortinet is a leader in cybersecurity, driving the convergence of networking and security. Our mission is to secure people, devices and data everywhere. Our integrated platform, the Fortinet Security Fabric, spans secure networking, unified SASE and AI-driven security operations (“SecOps”). As of September 30, 2025, our end-customers were located in over 100 countries and included enterprises across a wide variety of market verticals, including financial services, retail, healthcare and operational technology (“OT”) market verticals, communication and security service providers, and government organizations. As a global company headquartered in Sunnyvale, California, our research and development is centered in the United States and Canada with a global footprint of support and centers of excellence around the world. As of September 30, 2025, we held 1,027 U.S. patents and 1,360 global patents, including 307 AI-related patents. We have been recognized in over 140 enterprise analyst reports demonstrating both our vision and execution across security and networking products.
+Our competitive differentiation lies in our core technologies, which together provide performance, security, flexibility and integration across diverse environments.
+•
+FortiOS
+—FortiOS enables the convergence of security and networking to enforce consistent security policies across form factors and edges. As the foundation of the Fortinet Security Fabric, FortiOS empowers organizations to unify management and analytics for comprehensive network visibility and control at scale. To further validate our strategy, FortiOS has been recognized across five Gartner Magic Quadrants, including Firewall, Software-Defined Wide-Area
+29
+Table of Contents
+Network (“SD-WAN”), Security Service Edge (“SSE”), SASE Platforms and Wired and Wireless Local Area Network (“LAN”).
+•
+FortiASIC
+—Our Application-Specific Integrated Circuit (“ASIC”)-based SPUs increase the speed, scale, efficiency and value of our solutions while improving user experience, reducing footprint and power requirements. From branch and campus to data center solutions, SPU-powered Fortinet appliances deliver superior Security Compute Ratings versus industry alternatives.
+•
+FortiCloud
+—Our organically built global cloud infrastructure provides customers with global reach, flexible connectivity, and cost savings. FortiCloud is our private cloud software as a service (“SaaS”) platform, powered by FortiStack, and leveraging software and hardware to optimize and secure all layers.
+•
+FortiAI
+—FortiAI includes FortiAI-Protect, which defends against emerging AI-driven threats and ensures secure AI usage; FortiAI-Assist, our generative AI product with agentic AI, automates Security Operations Center (“SOC”) and Network Operations Center (“NOC”) operations; and FortiAI-SecureAI, which safeguards AI infrastructure and prevents data leakage into large language models. FortiAI helps security teams make faster, educated decisions while integrating into products like FortiAnalyzer, FortiManager, FortiSIEM, and FortiSOAR to streamline threat investigation, response, and automation.
+•
+FortiEndpoint
+—FortiEndpoint converges secure connectivity, endpoint protection and advanced capabilities like endpoint detection and response and extended detection and response (“XDR”), into a single agent. It simplifies management and enhances visibility while reducing costs and complexity. The solution gives IT teams the visibility and control they need, while security teams benefit from automated threat detection and response. This minimizes the need for manual intervention and provides faster remediation of threats across all environments.
+•
+OT Security
+—The Fortinet Security Fabric enables security for converged IT/OT ecosystems. It also provides an OT Security Platform with features and products to extend Security Fabric capabilities to OT networks in many areas, including factories, plants, remote locations and ships. To help alleviate security risks across the organization, we have continued to enhance our OT Security Platform offerings. These innovations range from edge products to NOC and SOC tools and services to provide effective and efficient networking and cybersecurity performance and operation.
+These competitive differentiators provide networking and security professionals with a comprehensive cyber security platform comprised of over 50 products across three solution pillars:
+•
+Secure Networking
+—Our Secure Networking solutions focus on the convergence of networking and security via FortiOS, our networking and security operating system that is the foundation of our Fortinet Security Fabric platform and supports over 30 functions that can be delivered via a physical, virtual, cloud or SaaS solutions. When delivered through our network firewall appliances, functionality is accelerated through our proprietary ASIC technology. These proprietary ASICs, allow our systems to scale, run multiple applications at higher performance, lower power consumption and perform more processor-intensive operations, such as inspecting encrypted traffic, including streaming video. Our network firewall offerings consist of a FortiGate data center, hyperscale and distributed firewalls, as well as encrypted applications (secure sockets layer inspection, virtual private network and Internet Protocol Security connectivity). Our ability to converge networking and security also enables the ethernet to become an extension of our customers’ security infrastructure through FortiSwitch and FortiLink. Our wireless LAN solution leverages secure networking to provide secure wireless access for the enterprise LAN edge. FortiExtender secures 5G/LTE and remote ethernet extenders to connect and secure any branch environment. Our Secure Connectivity solution includes FortiSwitch secure ethernet switches, FortiAP wireless local area network access points and FortiExtender 5G connectivity gateways.
+•
+Unified Secure Access Service Edge (SASE)
+—As applications move to the cloud and hybrid workforce is now the norm, enabling secure access for users with zero trust framework becomes important. The Fortinet Unified SASE solution includes a single-vendor SASE solution that includes firewall, SD-WAN, secure web gateway, cloud access services broker, DLP and zero trust network access (“ZTNA”) to deliver flexible secure access for all users. We are one of the few vendors to deliver consistent convergence and AI-powered security across Secure SD-WAN and SSE to enable a single-vendor SASE framework with a cloud-centric architecture powered by FortiOS. Our global and scalable cloud network includes over 170 PoPs to deliver the seamless secure access experience. Given this, we believe we are well positioned to support customers expanding from SD-WAN to a single-vendor SASE platform. Additionally, we offer a full suite of comprehensive, integrated cloud security solutions that enable customers to secure their applications from code to cloud. Our solutions include application security that includes our web application firewalls, cloud network security with virtualized firewalls and cloud-native firewalls, cloud-native application protection and code security. We deliver a holistic approach to cloud security, offering a single unified platform, consolidating protection across multiple disparate tools, including coding, deploying, and running
+30
+Table of Contents
+applications across hybrid and multi-clouds. Additionally, we also offer flexible consumption licensing programs that enable organizations to dynamically optimize their cloud security needs and investments as well as readily meet their cloud minimum spend commitment obligations with Cloud Service Providers. We continue to develop all the core SASE capabilities in a single operating system, FortiOS, including Next-Gen Firewall, SD-WAN, ZTNA, secure web gateway, cloud access security broker, and DLP. This native integration of our Next-Gen Firewall, SD-WAN, and SASE has become the New-Generation SASE Firewall.
+•
+AI-Driven Security Operations (SecOps)
+—Our AI-Driven SecOps portfolio provides a comprehensive suite of cybersecurity solutions that identify, protect, detect, respond and recover from threats, all integrated within the Fortinet Security Fabric. At the core is
+FortiAnalyzer,
+which serves as the central SOC platform with its unified data lake that provides built-in Security information and event management (“SIEM”), Security, orchestration, automation, and response (“SOAR”), XDR and threat intelligence, enabling centralized visibility, analytics and automation with complete control. FortiSIEM delivers robust security information and event management for more advanced SOC requirements, while FortiSOAR enables automated orchestration and playbook-driven response. This solution set also includes FortiEDR, FortiXDR, FortiNDR, FortiSandbox, FortiDeceptor, FortiDLP and FortiRecon, helping organizations achieve defense in depth, ensuring attackers face multiple layers of detection and mitigation across endpoints, networks, and applications. To bolster their security posture, organizations contending with staff shortages can tap into FortiGuard services, including SOC-as-a-Service, Managed detection and response, Security Posture Assessment and Incident Response. Finally, FortiAI generative AI assistance streamlines operations, helping security teams stay ahead of an ever-evolving threat landscape.
+FortiGuard Labs is our cybersecurity threat intelligence and research organization comprised of experienced threat hunters, researchers, analysts, engineers and data scientists who develop and utilize Machine Learning (“ML”) and AI technologies to provide timely protection updates and actionable threat intelligence for the benefit of our customers. Using millions of global network sensors, FortiGuard Labs monitors the worldwide attack surface and employs AI to mine that data for new threats.
+FortiGuard and Other Security Services
+ are a suite of AI-powered security capabilities that are natively integrated as part of the Fortinet Security Fabric to deliver coordinated detection and enforcement across the entire attack surface. The portfolio consists of FortiGuard application security services, content security services, device security services, NOC/SOC security services and web security services.
+FortiCare Technical Support Service
+ is a per-device technical support service, which provides customers access to experts to ensure efficient and effective operations and maintenance of their Fortinet capabilities. Global technical support is offered 24x7 with flexible add-ons, including enhanced service-level agreements and priority hardware replacement through in-country and local depots. Organizations have the flexibility to procure different levels of service for different devices based on their availability needs. We offer three per-device support options tailored to the needs of our enterprise customers: FortiCare Elite, FortiCare Premium and FortiCare Essential. The FortiCare Elite service aims to provide a 15-minute response time for key product families.
+In addition to FortiCare device level services, Advanced Support service options are available per account. These services are available for regional account support in three options: Core, Pro and Pro Plus, and can be available or provided on a global basis at the Pro and Pro Plus levels. Advanced Support brings support directly to each account, helping account holders to make their operations more effective and to plan and manage their solution lifecycle.
+Additionally, we are committed to addressing the cybersecurity skills shortage through training and certification programs for customers, partners and employees. The Fortinet Training Institute’s ecosystem of public and private partnerships around the world extend to industry, academia, government and nonprofits to ensure we are reaching and increasing access of our cybersecurity certifications and training to all populations. The Fortinet Training Institute has issued approximately two million certifications to date.
+Financial Highlights
+•
+Total revenue was $1.72 billion and $4.89 billion during the three and nine months ended September 30, 2025, an increase of 14% in each period, compared to $1.51 billion and $4.30 billion in the same periods last year. Product revenue was $559.3 million and $1.53 billion during the three and nine months ended September 30, 2025, an increase of 18% and 14%, respectively, compared to $473.9 million and $1.33 billion in the same periods last year. Service revenue was $1.17 billion and $3.37 billion during the three and nine months ended September 30, 2025, an increase of 13% and 14%, respectively, compared to $1.03 billion and $2.96 billion in the same periods last year.
+•
+Total gross profit was $1.39 billion and $3.95 billion during the three and nine months ended September 30, 2025, an increase of 12% and 15%, respectively, compared to $1.24 billion and $3.45 billion in the same periods last year.
+31
+Table of Contents
+•
+Total gross margin was 80.8% during the three and nine months ended September 30, 2025, a decrease of 1.7 percentage points and an increase of 0.4 percentage points, respectively, compared to 82.5% and 80.4% in the same periods last year.
+•
+Operating income was $547.3 million and $1.46 billion during the three and nine months ended September 30, 2025, an increase of 16% and 19%, respectively, compared to $470.9 million and $1.23 billion in the same periods last year.
+•
+Operating margin was 31.7% and 29.8% during the three and nine months ended September 30, 2025, an increase of 0.5 percentage points and 1.2 percentage points, respectively, compared to 31.2% and 28.6% in the same periods last year.
+•
+Cash, cash equivalents, short-term and long-term investments were $3.41 billion as of September 30, 2025.
+•
+Deferred revenue was $6.65 billion, including short-term deferred revenue of $3.46 billion, as of September 30, 2025.
+•
+Cash flows from operating activities were $1.97 billion during the nine months ended September 30, 2025, an increase of $189.9 million, or 11%, compared to the same period last year.
+Revenue continues to be diversified globally, which remains a key strength of our business. During the three months ended September 30, 2025, the EMEA region, the Americas region and the APAC region contributed 41%, 40% and 19% of our total revenue, respectively, and revenue grew 19%, 9% and 16% in these regions compared to the same period last year, respectively. During the nine months ended September 30, 2025, EMEA, the Americas and APAC regions contributed 41%, 40% and 19% of our total revenue, respectively, and revenue grew by 18%, 11% and 12% in these regions compared to the same period last year, respectively.
+Product revenue increased 18% and 14% during the three and nine months ended September 30, 2025, respectively, compared to the same periods last year. We experienced product revenue growth across our hardware products and software licensing, which mainly benefited from growth in secure networking hardware products and term licenses. We expect our product revenue to continue to grow for the remainder of 2025.
+Service revenue growth during the three and nine months ended September 30, 2025 was 13% and 14%, respectively, as compared to the same periods last year, primarily driven by the strength of our security subscription revenue, which grew 13% and 15%, respectively. The increase was primarily due to the recognition of service revenue from our growing deferred revenue balance related to FortiGuard and other security subscriptions delivered to on-premise and cloud-based environments and strength in unified SASE and SecOps. We expect our service revenue to continue to grow for the remainder of 2025.
+Our billings were diversified on a geographic basis. During the three months ended September 30, 2025, six countries represented approximately 50% of our billings and the remaining approximately 50% in the aggregate were from over 100 countries that each individually contributed less than 3% of our billings.
+Total gross margin decreased 1.7 percentage points during the three months ended September 30, 2025 compared to the same period last year, primarily driven by reduced benefit from net release of inventory related reserves and increased cloud service costs. Total gross margin increased 0.4 percentage points during the nine months ended September 30, 2025 compared to the same period last year, primarily driven by increased product gross margin benefiting from lower impact of inventory reserves in comparison to the nine months ended September 30, 2024. Our overall gross margin for the full year of 2025 will be impacted by service and product revenue mix and their respective gross margins. We do not expect our product gross margin to significantly change for the full year 2025 as compared to 2024. We expect our service gross margin to decrease for the full year of 2025 compared to 2024, as we expand our data center footprint and colocation and cloud hosting capacity to support the growth in our unified SASE and SecOps offerings. We currently do not expect the U.S. tariffs to have a meaningful impact on our gross margin. If tariffs increase in the future, we expect any resulting impact on our gross margin to mostly be on our hardware sales to U.S. customers.
+Operating expenses as a percentage of revenue decreased 2.3 and 0.8 percentage points during the three and nine months ended September 30, 2025, respectively, compared to the same periods last year, mainly because our revenue growth outpaced our personnel costs growth. Headcount increased to 15,015 employees as of September 30, 2025, a 7% increase compared to 13,986 as of September 30, 2024.
+Operating margin increased 0.5 and 1.2 percentage points during the three and nine months ended September 30, 2025, respectively, driven by revenue growth exceeding expense growth, resulting in improved operating leverage. For the full year 2025, we expect operating margin to be relatively consistent to 2024. Total revenue is expected to be higher in 2025 compared
+32
+Table of Contents
+to the prior year, while our expenses have also increased due to headcount investments in sales and marketing, product development and the continued investments in data centers and real estate. In addition, our operating expenses have increased compared to 2024 and we expect that trend to continue in part due to a weaker U.S. dollar compared to many foreign currencies, as a portion of our expenses are incurred and paid in currencies other than the U.S. dollar.
+Impact of Macroeconomic and Geopolitical Developments
+Our overall performance depends in part on worldwide economic and geopolitical conditions, such as trade policies and tariffs, GDP growth or contraction (both domestically and internationally), geopolitical instability and uncertainty, the war in Ukraine or tensions between China and Taiwan, and their impact on customer behavior. Worsening economic conditions, including tariffs, inflation, changing interest rates and other trade disruptions, slower growth, any recession, fluctuations in foreign exchange rates and other changes in economic conditions, may result in decreased sales productivity, lower growth and adversely affect our results of operations and financial performance. We have seen, and could continue to see, certain impacts on our business, results of operations, financial condition, cash flows, liquidity and capital and financial resources such as longer sales cycles, delayed purchases and increased commitments with certain suppliers and increased inventory and inventory purchase commitment reserves. For example, earlier this year the United States announced tariffs on imported goods from most countries, some of which have been temporarily suspended or adjusted from time to time. U.S. tariffs, and any new or additional retaliatory tariffs that could be imposed by other countries in response to such U.S. tariffs could have a material adverse impact on global trade, supply chains worldwide, and other worldwide economic and geopolitical conditions, which could increase our product costs for the remainder of 2025 and beyond, and also affect customer sentiment in deciding whether to purchase our products. We continue to monitor the impact of tariffs on our business.
+Worsening economic conditions may have a material negative impact on our results in future periods and may negatively impact our billings, revenue and costs, and may decrease growth and profitability. The extent of the impact of economic conditions on our operational and financial performance will depend on ongoing developments, including those discussed above and others identified in Part II, Item 1A “Risk Factors” in this Form 10-Q. Given the dynamic nature of these circumstances, the full impact of worsening economic conditions on our business and operations, results of operations, financial condition, cash flows, liquidity and capital and financial resources cannot be reasonably estimated at this time.
+Business Model
+We typically sell our security solutions to distributors that sell to networking security focused resellers and to certain service providers and managed security service providers (“MSSPs”), who, in turn, sell to end-customers or use our products and services to provide hosted solutions to other enterprises. At times, we also sell directly to enterprise customers, service providers, systems integrators and large enterprises. We also sell our software licenses and cloud delivered services via different cloud service provider platforms, both directly and through our channel partners. Our end-customers are located in over 100 countries and include small, medium and large enterprises and government organizations across a wide range of industries, including financial services, government, healthcare, manufacturing, retail, technology and telecommunications. An end-customer deployment may involve as few as one or as many as thousands of secure networking, unified SASE and security operations technology products or users, depending on the end-customer’s size and security requirements.
+Our customers purchase our hardware products, software licenses, SaaS subscriptions and cloud-delivered solutions, including our FortiGuard security subscriptions and FortiCare technical support services. Depending on the solution, these may be sold in a bundle or standalone as part of a solution sale. We generally invoice at the time of our sale for the total price of the products and services. Standard payment terms are generally no more than 60 days, though we may offer extended payment terms to certain distributors or large enterprises.
+We offer our products hosted in our own data centers, PoPs, and through colocations and major cloud service providers, including Amazon Web Services, Microsoft Azure and Google Cloud.
+Key Metrics
+We monitor several key metrics, including the key financial metrics set forth below, in order to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operational efficiencies. The following table summarizes revenue, deferred revenue, billings (non-GAAP), net cash provided by operating activities, and free cash flow (non-GAAP). We discuss revenue below under “Results of Operations,” and we discuss net cash
+33
+Table of Contents
+provided by operating activities below under “—Liquidity and Capital Resources.” Deferred revenue, billings (non-GAAP), and free cash flow (non-GAAP) are discussed immediately below the following table:
+ 
+Three Months Ended Or As Of
+September 30, 2025
+September 30, 2024
+(in millions)
+Revenue
+$
+1,724.9 
+$
+1,508.1 
+Deferred revenue
+$
+6,650.4 
+$
+6,011.7 
+Billings (non-GAAP)
+$
+1,807.7 
+$
+1,582.2 
+Net cash provided by operating activities
+$
+655.2 
+$
+608.1 
+Free cash flow (non-GAAP)
+$
+567.5 
+$
+571.8 
+Deferred revenue.
+ Our deferred revenue consists of amounts that have been invoiced but that have not yet been recognized as revenue. The majority of our deferred revenue balance consists of the unrecognized portion of service revenue from FortiGuard and other security subscriptions and FortiCare technical support service contracts, which is recognized as revenue ratably over the service term. We monitor our deferred revenue balance, short-term and total deferred revenue growth and the mix of short-term and long-term deferred revenue because deferred revenue represents a significant portion of free cash flow and of revenue to be recognized in future periods. Deferred revenue was $6.65 billion as of September 30, 2025, an increase of $289.5 million, or 5%, from December 31, 2024. Short-term deferred revenue was $3.46 billion as of September 30, 2025, an increase of $184.3 million, or 6%, from December 31, 2024.
+Billings (non-GAAP).
+We define billings as revenue recognized in accordance with GAAP plus the change in deferred revenue from the beginning to the end of the period less any deferred revenue balances acquired from business combinations during the period. We consider billings to be a useful metric for management and investors because billings drive current and future revenue, which is an important indicator of the health and viability of our business and cash flows. There are a number of limitations related to the use of billings instead of GAAP revenue. First, billings include amounts that have not yet been recognized as revenue and are impacted by the term of security subscription and support agreements. Second, we may calculate billings in a manner that is different from peer companies that report similar financial measures. Management accounts for these limitations by providing specific information regarding GAAP revenue and evaluating billings together with GAAP revenue. Total billings were $1.81 billion for the three months ended September 30, 2025, an increase of 14% compared to $1.58 billion in the same period last year.
+A reconciliation of revenue, the most directly comparable financial measure calculated and presented in accordance with GAAP, to billings is provided below:
+ 
+Three Months Ended
+September 30, 2025
+September 30, 2024
+(in millions)
+Billings:
+Revenue
+$
+1,724.9 
+$
+1,508.1 
+Add: Change in deferred revenue
+82.8 
+115.5 
+Less: Deferred revenue balance acquired in business combinations
+— 
+(41.4)
+Total billings (non-GAAP)
+$
+1,807.7 
+$
+1,582.2 
+Free cash flow (non-GAAP).
+ We define free cash flow as net cash provided by operating activities minus purchases of property and equipment and excluding any significant non-recurring items. We believe free cash flow to be a liquidity measure that provides useful information to management and investors about the amount of cash generated by the business that, after capital expenditures, can be used for strategic opportunities, including repurchasing outstanding common stock, investing in our business, making strategic acquisitions and strengthening the balance sheet. A limitation of using free cash flow rather than the GAAP measures of cash provided by or used in operating activities, investing activities, and financing activities is that free cash flow does not represent the total increase or decrease in the cash and cash equivalents balance for the period because it excludes cash flows from significant non-recurring items, investing activities other than capital expenditures and cash flows from financing activities. Management accounts for this limitation by providing information about our capital expenditures and other investing and financing activities on the condensed consolidated statements of cash flows and under “Liquidity and Capital Resources” and by presenting cash flows from investing and financing activities in our reconciliation of free cash flow. In addition, it is important to note that other companies, including companies in our industry, may not use free cash flow, may calculate free cash flow in a different manner than we do or may use other financial measures to evaluate their performance, all
+34
+Table of Contents
+of which could reduce the usefulness of free cash flow as a comparative measure. A reconciliation of net cash provided by operating activities, the most directly comparable financial measure calculated and presented in accordance with GAAP, to free cash flow is provided below:
+ 
+Three Months Ended
+September 30, 2025
+September 30, 2024
+(in millions)
+Free Cash Flow:
+Net cash provided by operating activities
+$
+655.2 
+$
+608.1 
+Less: Purchases of property and equipment
+(87.7)
+(36.3)
+Free cash flow (non-GAAP)
+$
+567.5 
+$
+571.8 
+Net cash used in investing activities
+$
+(175.8)
+$
+(327.1)
+Net cash provided by (used in) financing activities
+$
+(1,851.9)
+$
+3.0 
+Critical Accounting Policies and Estimates
+Our discussion and analysis of our financial condition and results of operations are based upon our financial statements, which have been prepared in accordance with GAAP. These principles require us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenue, cost of revenue and expenses, and related disclosures. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances. To the extent that there are material differences between these estimates and our actual results, our future financial statements will be affected.
+There were no material changes to our critical accounting policies and estimates as of and for the nine months ended September 30, 2025, as compared to the critical accounting policies and estimates described in our Annual Report on Form 10-K filed with the SEC on February 21, 2025 (the “Form 10-K”).
+See Note 1 of the notes to condensed consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q for information regarding recent accounting pronouncements.
+Results of Operations
+Three Months Ended September 30, 2025 and 2024
+Revenue
+ 
+Three Months Ended
+ 
+ 
+September 30,
+2025
+September 30,
+2024
+ 
+ 
+Amount
+% of
+Revenue
+Amount
+% of
+Revenue
+Change
+% Change
+(in millions, except percentages)
+Revenue:
+Product
+$
+559.3 
+32 
+%
+$
+473.9 
+31 
+%
+$
+85.4 
+18 
+%
+Service
+1,165.6 
+68 
+1,034.2 
+69 
+131.4 
+13 
+Total revenue
+$
+1,724.9 
+100 
+%
+$
+1,508.1 
+100 
+%
+$
+216.8 
+14 
+%
+Revenue by geography:
+Americas
+$
+680.5 
+40 
+%
+$
+624.0 
+41 
+%
+$
+56.5 
+9 
+%
+EMEA
+713.7 
+41 
+599.3 
+40 
+114.4 
+19 
+APAC
+330.7 
+19 
+284.8 
+19 
+45.9 
+16 
+Total revenue
+$
+1,724.9 
+100 
+%
+$
+1,508.1 
+100 
+%
+$
+216.8 
+14 
+%
+Percentages have been rounded for presentation purposes and may differ from unrounded results.
+35
+Table of Contents
+Total revenue increased $216.8 million, or 14%, during the three months ended September 30, 2025 compared to the same period last year. We continued to experience diversification of revenue geographically, and across customer and industry verticals. Revenue from all regions grew, with EMEA contributing the largest portion of the increase on an absolute dollar basis and on a percentage basis.
+Product revenue increased $85.4 million, or 18%, during the three months ended September 30, 2025 compared to the same period last year. We experienced product revenue growth across our hardware products and software licensing, mainly driven by growth in secure networking hardware products and term licenses.
+Service revenue increased $131.4 million, or 13%, during the three months ended September 30, 2025 compared to the same period last year. Security subscription revenue increased $76.2 million, or 13%, and technical support and other services revenue increased $55.2 million, or 13%, during the three months ended September 30, 2025 compared to the same period last year. The increase was primarily due to the reco
+gnition of revenue from our growing deferred revenue balance related to FortiGuard and other security subscriptions delivered to on-premise and cloud-based environments and growth in SaaS solutions, including unified SASE and SecOps.
+Of the service revenue recognized during the three months ended September 30, 2025, 90%
+
+was included in the deferred revenue balance as of
+ June 30, 2025. Of the service revenue recognized during the
+three months ended September 30, 2024, 88%
+ was included in the deferred revenue balance as of June 30, 2024
+.
+Cost of revenue and gross margin
+ 
+Three Months Ended
+ 
+ 
+September 30,
+2025
+September 30,
+2024
+Change
+% Change
+(in millions, except percentages)
+Cost of revenue:
+Product
+$
+180.7 
+$
+136.1 
+$
+44.6 
+33 
+%
+Service
+151.0 
+127.3 
+23.7 
+19 
+Total cost of revenue
+$
+331.7 
+$
+263.4 
+$
+68.3 
+26 
+%
+Gross margin (%):
+Product
+67.7 
+%
+71.3 
+%
+Service
+87.0 
+87.7 
+Total gross margin
+80.8 
+%
+82.5 
+%
+Total gross margin decreased 1.7 percentage points during the three months ended September 30, 2025 compared to the same period last year, primarily driven by decreased product and service gross margins.
+Product gross margin decreased 3.6 percentage points during the three months ended September 30, 2025 compared to the same period last year, primarily due to reduced benefit from net release of inventory related reserves. Cost of product revenue was comprised primarily of third-party contract manufacturers’ costs, and costs of materials used in production.
+Service gross margin decreased 0.7 percentage points during the three months ended September 30, 2025 compared to the same period last year, primarily driven by an increase in cloud service costs as a result of our acquisitions and investment in data centers and related infrastructure, partially offset by service revenue growth outpacing labor, replacement, and repair costs increase. Cost of service revenue was comprised primarily of personnel-related costs, replacement and repair costs, cloud service costs from owned data centers, colocation providers and cloud service providers, infrastructure depreciation and related operating costs, software and delivery costs, and facility-related costs.
+36
+Table of Contents
+Operating expenses
+ 
+Three Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+Amount
+% of
+Revenue
+Amount
+% of
+Revenue
+(in millions, except percentages)
+Operating expenses:
+Research and development
+$
+202.4 
+12 
+%
+$
+187.3 
+12 
+%
+$
+15.1 
+8 
+%
+Sales and marketing
+583.5 
+34 
+515.9 
+34 
+67.6 
+13 
+General and administrative
+61.4 
+4 
+71.7 
+5 
+(10.3)
+(14)
+Gain on intellectual property matters
+(1.4)
+— 
+(1.1)
+— 
+(0.3)
+27 
+Total operating expenses
+$
+845.9 
+49 
+%
+$
+773.8 
+51 
+%
+$
+72.1 
+9 
+%
+Percentages have been rounded for presentation purposes and may differ from unrounded results.
+Research and development
+Research and development expense increased $15.1 million, or 8%, during the three months ended September 30, 2025 compared to the same period last year, primarily due to an increase of $12.1 million in personnel-related costs as a result of increased headcount and compensation rates to support the development of new products and continued enhancements to our existing products and the impact of the recent acquisitions. In addition, non-personnel-related product development costs increased $4.0 million. We currently intend to continue investing in our research and development organization, and expect research and development expense to increase in absolute dollars year over year during the remainder of 2025.
+Sales and marketing
+Sales and marketing expense increased $67.6 million, or 13%, during the three months ended September 30, 2025 compared to the same period last year, primarily due to an increase of $53.6 million in personnel-related costs, an increase of $5.6 million in marketing program and related expenses, an increase of $4.1 million in amortization expense of certain intangible assets and unfavorable impact of foreign currency fluctuations. We currently intend to continue to make investments in sales and marketing resources, which are critical to support our future growth, and expect our sales and marketing expense to increase in absolute dollars year over year during the remainder of 2025.
+General and administrative
+General and administrative expense decreased $10.3 million, or 14%, during the three months ended September 30, 2025 compared to the same period last year, primarily due to a decrease of $7.6 million in legal related fees and other professional services fees and a decrease of $1.3 million in personnel-related costs. We expect our general and administrative expense to be relatively consistent in absolute dollars year over year during the remainder of 2025.
+Operating income and margin
+We generated operating income of $547.3 million during the three months ended September 30, 2025, an increase of $76.4 million, or 16%, compared to $470.9 million in the same period last year. Operating margin was 31.7% during the three months ended September 30, 2025, compared to 31.2% in the same period last year. The 0.5 percentage points increase in operating margin was primarily due to 1.2, 0.6 and 0.4 percentage points decreases in general and administrative expense, research and development expense and sales and marketing expense as a percentage of revenue, respectively, partially offset by 1.7 percentage points decrease in gross margin.
+37
+Table of Contents
+Interest income, interest expense and other income
+—
+net
+ 
+Three Months Ended
+ 
+ 
+September 30,
+2025
+September 30,
+2024
+Change
+% Change
+(in millions, except percentages)
+Interest income
+$
+40.7 
+$
+42.4 
+$
+(1.7)
+(4)
+%
+Interest expense
+$
+(6.2)
+$
+(5.0)
+$
+(1.2)
+24 
+%
+Other income—net
+$
+13.0 
+$
+118.1 
+$
+(105.1)
+(89)
+%
+Interest income and interest expense remained comparatively flat during the three months ended September 30, 2025 compared to the same period last year. Other income—net decreased $105.1 million during the three months ended September 30, 2025 compared to the same period last year, primarily due to a gain on bargain purchase of $106.3 million during the three months ended September 30, 2024 related to our acquisition of Lacework.
+Provision for income taxes
+ 
+Three Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+(in millions, except percentages)
+Provision for income taxes
+$
+120.7 
+$
+81.2 
+$
+39.5 
+49 
+%
+Effective tax rate (%)
+20 
+%
+13 
+%
+Our effective tax rate was 20% for the three months ended September 30, 2025 compared to an effective tax rate of 13% for the same period last year. The provision for income taxes for the three months ended September 30, 2025 was primarily comprised of U.S. federal and state taxes, withholding taxes and foreign taxes totaling $141.0 million, which was favorably affected by a tax benefit of $11.1 million from the foreign-derived intangible income deduction (the “FDII deduction”) and excess tax benefits from stock-based compensation expense of $9.2 million.
+The provision for income taxes for the three months ended September 30, 2024 was comprised of U.S. federal and state taxes, withholding taxes, and foreign taxes totaling $123.6 million, which were favorably affected by a tax benefit of $33.1 million from the FDII deduction and excess tax benefits from stock-based compensation expense of $9.3 million.
+On July 4, 2025, H.R. 1, the Act commonly referred to as the One Big Beautiful Bill Act, was enacted. The Act makes permanent certain elements of the Tax Cuts and Jobs Act, including immediate expensing of U.S. research and development expenditures, immediate expensing of certain eligible assets, and various modifications to the international tax framework. The income tax effects of the Act have been recognized in our provision for income taxes as of September 30, 2025. As a result of the Act, our cash paid for income taxes in 2025 could reduce by approximately $100 million to $150 million, while our GAAP effective tax rate for 2025 could increase by approximately one percentage point.
+Loss from equity method investments
+ 
+Three Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+(in millions, except percentages)
+Loss from equity method investments
+$
+(0.2)
+$
+(5.3)
+$
+5.1 
+(96)
+%
+Loss from equity method investments decreased
+ $5.1 million during the three months ended September 30, 2025 compared to the same period last year which included a $5.2 million loss due to our proportionate share of Linksys’ financial results including our share of the amortization of the basis differences during the three months ended September 30, 2024.
+38
+Table of Contents
+Nine Months Ended September 30, 2025 and 2024
+Revenue
+ 
+Nine Months Ended
+ 
+ 
+September 30,
+2025
+September 30,
+2024
+ 
+ 
+Amount
+% of
+Revenue
+Amount
+% of
+Revenue
+Change
+% Change
+(in millions, except percentages)
+Revenue:
+Product
+$
+1,527.3 
+31 
+%
+$
+1,334.7 
+31 
+%
+$
+192.6 
+14 
+%
+Service
+3,367.3 
+69 
+2,961.0 
+69 
+406.3 
+14 
+Total revenue
+$
+4,894.6 
+100 
+%
+$
+4,295.7 
+100 
+%
+$
+598.9 
+14 
+%
+Revenue by geography:
+Americas
+$
+1,969.1 
+40 
+%
+$
+1,776.3 
+41 
+%
+$
+192.8 
+11 
+%
+EMEA
+2,009.2 
+41 
+1,703.9 
+40 
+305.3 
+18 
+APAC
+916.3 
+19 
+815.5 
+19 
+100.8 
+12 
+Total revenue
+$
+4,894.6 
+100 
+%
+$
+4,295.7 
+100 
+%
+$
+598.9 
+14 
+%
+Total revenue increased $598.9 million, or 14%, during the nine months ended September 30, 2025 compared to the same period last year. We continued to experience diversification of revenue geographically, and across customer and industry verticals. Revenue from all regions grew, with EMEA contributing the largest portion of the increase on an absolute dollar basis and on a percentage basis.
+Product revenue increased $192.6 million, or 14%, during the nine months ended September 30, 2025 compared to the same period last year. We experienced product revenue growth across our hardware products and software licensing, mainly driven by growth in secure networking hardware products and term licenses.
+Service revenue increased $406.3 million, or 14%, during the nine months ended September 30, 2025 compared to the same period last year. Security subscription revenue increased $248.1 million, or 15%, and technical support and other services revenue increased $158.2 million, or 12%, during the nine months ended September 30, 2025 compared to the same period last year. The increase was primarily due to the recognition of revenue from our growing deferred revenue balance related to FortiGuard and other security subscriptions delivered
+ to
+on-premise and cloud
+-based
+environments and growth in SaaS solutions, including unified SASE and SecOps.
+Of the service revenue recognized during the nine months ended September 30, 2025 and 2024, 77%
+
+was included in the deferred revenue balance as of December 31, 2024 and 2023 in each period.
+Cost of revenue and gross margin
+ 
+Nine Months Ended
+ 
+ 
+September 30,
+2025
+September 30,
+2024
+Change
+% Change
+(in millions, except percentages)
+Cost of revenue:
+Product
+$
+496.5 
+$
+474.0 
+$
+22.5 
+5 
+%
+Service
+443.2 
+369.1 
+74.1 
+20 
+Total cost of revenue
+$
+939.7 
+$
+843.1 
+$
+96.6 
+11 
+%
+Gross margin (%):
+Product
+67.5 
+%
+64.5 
+%
+Service
+86.8 
+87.5 
+Total gross margin
+80.8 
+%
+80.4 
+%
+39
+Table of Contents
+Total gross margin increased 0.4 percentage points during the nine months ended September 30, 2025 compared to the same period last year, driven by increased product gross margin, partially offset by decreased service gross margin.
+Product gross margin increased 3.0 percentage points during the nine months ended September 30, 2025 compared to the same period last year, as inventory related reserves expense decreased and normalized as compared to the elevated levels we saw in the nine months ended September 30, 2024. Cost of product revenue was comprised primarily of third-party contract manufacturers’ costs and costs of materials used in production.
+Service gross margin decreased 0.7 percentage points during the nine months ended September 30, 2025 compared to the same period last year, primarily due to an increase in cloud service costs, partially offset by service revenue growth outpacing labor, replacement, and repair costs increase. Cost of service revenue was comprised primarily of personnel-related costs, replacement and repair costs, cloud services costs from owned data centers, colocation providers and cloud service providers, infrastructure depreciation and related operating costs, software and delivery costs, and facility-related costs.
+Operating expenses
+ 
+Nine Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+Amount
+% of
+Revenue
+Amount
+% of
+Revenue
+(in millions, except percentages)
+Operating expenses:
+Research and development
+$
+610.5 
+13 
+%
+$
+525.7 
+12 
+%
+$
+84.8 
+16 
+%
+Sales and marketing
+1,718.2 
+35 
+1,518.3 
+35 
+199.9 
+13 
+General and administrative
+176.1 
+4 
+182.7 
+4 
+(6.6)
+(4)
+Gain on intellectual property matters
+(9.0)
+— 
+(3.4)
+— 
+(5.6)
+165 
+Total operating expenses
+$
+2,495.8 
+51 
+%
+$
+2,223.3 
+52 
+%
+$
+272.5 
+12 
+%
+Percentages have been rounded for presentation purposes and may differ from unrounded results.
+Research and development
+Research and development expense increased $84.8 million, or 16%, during the nine months ended September 30, 2025 compared to the same period last year, primarily due to an increase of $64.2 million in personnel-related costs as a result of increased headcount and compensation rates to support the development of new products and continued enhancements to our existing products and the impact of the recent acquisitions. In addition, non-personnel-related product development costs increased $23.3 million.
+Sales and marketing
+Sales and marketing expense increased $199.9 million, or 13%, during the nine months ended September 30, 2025 compared to the same period last year, primarily due to an increase of $153.9 million in personnel-related costs. In addition, marketing program and related expenses increased $18.2 million and amortization expense of certain intangible assets increased $13.3 million.
+General and administrative
+General and administrative expense decreased $6.6 million, or 4%, during the nine months ended September 30, 2025 compared to the same period last year, primarily due to a decrease of $7.3 million in legal related fees and other professional services fees, partially offset by an increase of $1.4 million in personnel-related costs.
+Operating income and margin
+We generated operating income of $1.46 billion during the nine months ended September 30, 2025, an increase of $229.8 million, or 19%, compared to $1.23 billion in the same period last year. Operating margin was 29.8% during the nine months ended September 30, 2025, compared to 28.6% in the same period last year. The 1.2 percentage points increase in operating margin was primarily due to 0.7 and 0.2 percentage points decrease in general and administrative expense and sales
+40
+Table of Contents
+and marketing expense as a percentage of revenue, respectively, and 0.4 percentage points increase in gross margin, partially offset by 0.2 percentage points increase in research and development expense as a percentage of revenue.
+Interest income, interest expense and other income
+—
+net
+ 
+Nine Months Ended
+September 30,
+2025
+September 30,
+2024
+Change
+% Change
+(in millions, except percentages)
+Interest income
+$
+130.0 
+$
+112.9 
+$
+17.1 
+15 
+%
+Interest expense
+$
+(15.7)
+$
+(15.1)
+$
+(0.6)
+4 
+%
+Other income—net
+$
+58.0 
+$
+113.0 
+$
+(55.0)
+(49)
+%
+Interest income increased $17.1 million during the nine months ended September 30, 2025 compared to the same period last year, primarily due to higher average investment balances as we had higher purchases of investments net of sales and maturities. Interest income varies depending on our average investment balances during the period, types and mix of investments, and interest rates. Interest expense remained comparatively flat during the nine months ended September 30, 2025 compared to the same period last year. Other income—net decreased $55.0 million during the nine months ended September 30, 2025 compared to the same period last year, primarily due to a $66.4 million decrease in gains on bargain purchases – we recorded a gain on bargain purchase of $39.9 million related to our acquisition of Linksys during the first quarter of 2025 as compared to a gain on bargain purchase of $106.3 million related to our acquisition of Lacework recorded during the third quarter of 2024 – partially offset by a $7.3 million decrease in foreign currency exchange loss and a $4.8 million increase in net rental income from real estate leases.
+Provision for income taxes
+ 
+Nine Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+(in millions, except percentages)
+Provision for income taxes
+$
+294.3 
+$
+197.2 
+$
+97.1 
+49 
+%
+Effective tax rate (%)
+18 
+%
+14 
+%
+Our effective tax rate was 18% for the nine months ended September 30, 2025 compared to an effective tax rate of 14% for the same period last year. The provision for income taxes for the nine months ended September 30, 2025 was primarily comprised of U.S. federal and state taxes, withholding taxes and foreign taxes that were $384.2 million and a tax provision of $30.6 million related to the derecognition of deferred tax assets from the business combination with Linksys. This provision for income taxes was favorably affected by a tax benefit of $62.0 million from the FDII deduction, and excess tax benefits from stock-based compensation expense of $58.5 million.
+The provision for income taxes for the nine months ended September 30, 2024 was comprised of U.S. federal and state taxes, withholding taxes, and foreign taxes that were $315.0 million, which were favorably affected by a tax benefit of $84.0 million from the FDII deduction, and excess tax benefits from stock-based compensation expense of $33.8 million.
+Gain (loss) from equity method investments
+ 
+Nine Months Ended
+Change
+% Change
+September 30,
+2025
+September 30,
+2024
+(in millions, except percentages)
+Gain (loss) from equity method investments
+$
+10.3 
+$
+(23.9)
+$
+34.2 
+*
+* not meaningful
+The $34.2 million change in
+gain (loss) from equity method investments
+during the nine months ended September 30, 2025 compared to the same period last year was primarily driven by a $10.8 million gain related to our acquisition of Linksys in the first quarter of 2025 and a $15.4 million loss due to our proportionate share of Linksys’ financial results including our share of amortization of the basis differences and an OTTI charge of $8.0 million during the nine months ended September 30, 2024.
+41
+Table of Contents
+Liquidity and Capital Resources
+ 
+As of
+ 
+September 30,
+2025
+December 31,
+2024
+ 
+(in millions)
+Cash and cash equivalents
+$
+1,995.7 
+$
+2,875.9 
+Short-term investments
+1,127.7 
+1,190.6 
+Long-term investments
+289.1 
+— 
+Total cash, cash equivalents and investments
+$
+3,412.5 
+$
+4,066.5 
+Working capital
+$
+127.4 
+$
+1,910.8 
+ 
+Nine Months Ended
+ 
+September 30,
+2025
+September 30,
+2024
+ 
+(in millions)
+Net cash provided by operating activities
+$
+1,970.4 
+$
+1,780.5 
+Net cash used in investing activities
+(552.8)
+(647.5)
+Net cash used in financing activities
+(2,298.8)
+(41.3)
+Effect of exchange rate changes on cash and cash equivalents
+1.0 
+(0.3)
+Net increase (decrease) in cash and cash equivalents
+$
+(880.2)
+$
+1,091.4 
+Liquidity and capital resources are primarily impacted by our operating activities, as well as repurchases of our common stock, real estate purchases and other capital expenditures, investment grade debt balance, payments of taxes in connection with the net settlement of equity awards, proceeds from the issuance of common stock and business combinations.
+In recent years, we have received significant capital resources from our billings to customers, issuance of investment grade debt and, to some extent, from the exercise of stock options by our employees. Additional increases in billings may depend on a number of factors, including demand for and availability of our products and services, competition, pricing actions, market or industry changes, macroeconomic events such as rising inflation and changing interest rates, economic strength, supply chain capacity and disruptions, tariffs and other trade restrictions, international conflicts, including the war in Ukraine or tensions between China and Taiwan, an increase in installment billings, and our ability to execute. We expect proceeds from the exercise of stock options in future years to continue to be impacted by the increased mix of restricted stock units and performance stock units versus stock options granted to our employees and to vary based on our share price.
+In August 2025, our board of directors approved a $1.0 billion increase in the authorized stock repurchase amount under the Repurchase Program and extended the term of the Repurchase Program to February 28, 2027, bringing the aggregate amount authorized for repurchases to $9.25 billion of our outstanding common stock through February 28, 2027. During the nine months ended September 30, 2025, we repurchased 27.9 million shares of common stock under the Repurchase program for an aggregate purchase price of $2.23 billion. As of September 30, 2025, approximately $795.9 million remained available for future share repurchases. Refer to Note 11. Equity Plans and Share Repurchase Program.
+We expect to continue to increase our data center, PoP, office and warehouse capacity to support growth and the expansion of existing services or introduction of new services. As we purchase new properties, we will work to incorpo
+rate these
+ properties into the environmental goals we have established. We estimate capital expenditures to be between approximatel
+y $60 million and $110 million for the fourth quarter
+of
+2025.
+We believe that our cash provided by operating activities, together with our existing cash, cash equivalents and investments will be sufficient to meet our anticipated cash needs and do not currently intend to retire our Senior Notes early. Refer to Note 9. Debt in Part I, Item 1 of this Quarterly Report on Form 10-Q for information on the Senior Notes. As of September 30, 2025, the current portion of long-term debt and long-term debt, net of unamortized discount and debt issuance costs, were $995.9 million.
+We purchase components of our inventory from certain suppliers and use several independent contract manufacturers to provide manufacturing services for our products. During the normal course of business, in order to manage manufacturing lead times and help ensure adequate component supply, we enter into agreements with contract manufacturers and suppliers that allow them to procure inventory based upon criteria as defined by us or that establish the parameters defining our requirements. A significant portion of our reported purchase commitments arising from these agreements consists of firm, non-cancelable and
+42
+Table of Contents
+unconditional commitments. Certain of these inventory purchase commitments with contract manufacturers and suppliers relate to arrangements to secure supply and pricing for certain product components for multi-year periods. In certain instances, these agreements allow us the option to reschedule and adjust our requirements based on our business needs prior to firm orders being placed.
+These inventory purchase commitments as of September 30, 2025 totaled $732.5 million, an increase of $141.4 million compared to $591.1 million as of December 31, 2024, as we continued to work with contract manufacturers and suppliers to optimize our inventory and purchase commitments position based on growth trends in customer demand. We record a liability for inventory purchase commitments in excess of our future demand forecasts consistent with the valuation of our excess and obsolete inventory. As of September 30, 2025 and December 31, 2024, the liability for these inventory purchase commitments was $35.2 million and $54.0 million, respectively, and was recorded in accrued liabilities on our condensed consolidated balance sheets.
+Inventory and supply chain management remain areas of focus as we balance the need to maintain supply chain flexibility to help ensure competitive lead times with the risk of inventory obsolescence because of supply constraints, rapidly changing technology, and customer requirements. We believe the amount of our inventory and purchase commitments is appropriate for our current and expected customer demand and revenue levels.
+We also have open purchase orders and contractual obligations in the ordinary course of business for which we have not received goods or services. As of September 30, 2025, we had $112.7 million in other contractual commitments having a remaining term in excess of one year that are non-cancelable.
+There have been no significant changes to our leases as disclosed in our Annual Report on Form 10-K for the year ended December 31, 2024.
+As of September 30, 2025, our cash, cash equivalents and short-term and long-term investments of $3.41 billion were invested primarily in deposit accounts, commercial paper, corporate debt securities, U.S. government and agency securities, certificates of deposit and term deposits, money market funds and marketable equity securities. It is our investment policy to invest excess cash in a manner that preserves capital, provides liquidity, and generates return without significantly increasing risk. We currently expect to repay the outstanding balance of the 2026 Senior Notes maturing on March 15, 2026 at the date of maturity. Based on current projections, we expect to have sufficient liquidity to fund this repayment and meet our operating requirements for at least the next 12 months and thereafter for the foreseeable future, including our foreseeable future supply obligations, capital expenditures and share repurchases.
+The amount of cash, cash equivalents and investments held by our international subsidiaries was $250.6 million as of September 30, 2025 and $207.8 million as of December 31, 2024.
+We believe that our existing cash and cash equivalents and cash flow from operations will be sufficient for at least the next 12 months to meet our requirements and plans for cash, including meeting our working capital requirements and capital expenditure requirements. In the long term, our ability to support our requirements and plans for cash, including our working capital and capital expenditure requirements will depend on many factors, including our growth rate, the timing and amount of our share repurchases and debt retirement, the expansion of sales and marketing activities, pricing actions, the introduction of new and enhanced products and services offerings, the continuing market acceptance of our products, the timing and extent of spending to support development efforts, our investments in purchasing, developing or leasing real estate, cash paid for taxes and macroeconomic impacts such as rising inflation and changing interest rates, changes in tariffs and other trade restrictions, impacts of international conflicts, including the war in Ukraine or tensions between China and Taiwan. Historically, we have required capital principally to fund our working capital needs, share repurchases, capital expenditures and acquisition activities. In the event that additional financing is required from outside sources, we may not be able to raise it on terms acceptable to us or at all.
+As of September 30, 2025, we did not have any relationships with unconsolidated organizations or financial partnerships, such as structured finance or special purpose entities that would have been established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes.
+Operating Activities
+Cash generated by operating activities is our primary source of liquidity. It is primarily comprised of net income, as adjusted for non-cash items and changes in operating assets and liabilities. Non-cash adjustments consist primarily of amortization of deferred contract costs, stock-based compensation and depreciation and amortization. Changes in operating assets and liabilities consist primarily of changes in accounts receivable—net, deferred contract costs, deferred revenue, inventory, prepaid expenses and other current assets, accrued liabilities and accounts payable.
+43
+Table of Contents
+Our operating activities during the nine months ended September 30, 2025 provided cash flows of $1.97 billion as a result of the continued growth of our business, improved profitability and our ability to successfully manage our working capital. Changes in operating assets and liabilities were primarily driven by a decrease of $308.7 million in accounts receivable—net, an increase of $305.3 million in deferred contract costs and an increase of $288.1 million in our deferred revenue during nine months ended September 30, 2025. In addition, changes in operating assets and liabilities were driven by an increase of $109.1 million in inventory, an increase of $64.3 million in prepaid expenses and other current assets, a decrease of $15.5 million in accrued liabilities, and an increase of $11.5 million in accounts payable.
+Investing Activities
+The changes in cash flows from investing activities primarily relate to timing of purchases, maturities and sales of investments, purchases of property and equipment, investments in equity securities and business combinations. Historically, we have elected to own a facility if we believe that purchasing or developing buildings rather than leasing is more closely aligned with our long-term strategy. We expect to make similar decisions in the future. We may also make cash payments in connection with future business combinations.
+During the nine months ended September 30, 2025, cash used in investing activities was $552.8 million, primarily driven by $322.0 million used for the purchases of property and equipment, $189.3 million spent for purchases of investments, net of maturities and sales of investments, and $41.6 million used for payments made in connection with business combinations, net of cash acquired.
+Financing Activities
+The changes in cash flows from financing activities primarily relate to repurchase and retirement of common stock, and taxes paid related to net share settlement of equity awards, net of proceeds from the issuance of common stock under the Amended Plan.
+During the nine months ended September 30, 2025, cash used in financing activities was $2.30 billion, driven by $2.23 billion
+used to repurchase shares of our common stock and
+ $66.1 million used to pay tax withholding related to net share settlement of equity awards, net of proceeds from the issuance of common stock.
