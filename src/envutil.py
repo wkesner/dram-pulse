@@ -5,7 +5,9 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from src.fetch_edgar import REPO_ROOT
+# Repo root (…/src/envutil.py → parents[1]). Keep self-contained so the web
+# image can ship envutil without pulling fetch_edgar / BeautifulSoup.
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def load_dotenv(path: Path | None = None) -> Path | None:

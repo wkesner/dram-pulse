@@ -8,3 +8,6 @@ PyJWT[crypto]>=2.8.0,<3
 httpx>=0.27.0,<1
 requests>=2.31.0,<3
 pydantic>=2.0,<3
+# Needed when shipping full src/ helpers used by the feed (MOPS URL rewrite, term_en map).
+beautifulsoup4>=4.12.0,<5
+lxml>=5.0.0,<6
