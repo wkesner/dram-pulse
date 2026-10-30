@@ -1,0 +1,36 @@
+{
+  "company": "Visteon",
+  "ticker": "VC",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0001111335",
+  "form": "8-K",
+  "filing_date": "2026-07-23",
+  "accession_number": "0001111335-26-000045",
+  "primary_document": "vc-20260723.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1111335/000111133526000045/vc-20260723.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-07-23",
+  "period_end": "2026-07-23",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:45:44.570511+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "visteonq22026pr.htm",
+      "path": "data/raw/VC/000111133526000045/exhibit_99_visteonq22026pr.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1111335/000111133526000045/visteonq22026pr.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/VC/000111133526000045/primary.html",
+    "other": "data/raw/VC/000111133526000045/other_full.txt"
+  }
+}

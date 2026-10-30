@@ -1,0 +1,41 @@
+{
+  "company": "Aptiv",
+  "ticker": "APTV",
+  "role": "buyer",
+  "tier": 1,
+  "cik": "0001521332",
+  "form": "8-K",
+  "filing_date": "2026-03-20",
+  "accession_number": "0000950103-26-004474",
+  "primary_document": "dp243887_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1521332/000095010326004474/dp243887_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-03-20",
+  "period_end": "2026-03-20",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:43:48.721749+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "dp243887_ex9901.htm",
+      "path": "data/raw/APTV/000095010326004474/exhibit_99_dp243887_ex9901.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1521332/000095010326004474/dp243887_ex9901.htm"
+    },
+    {
+      "name": "dp243887_ex9902.htm",
+      "path": "data/raw/APTV/000095010326004474/exhibit_99_dp243887_ex9902.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1521332/000095010326004474/dp243887_ex9902.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/APTV/000095010326004474/primary.html",
+    "other": "data/raw/APTV/000095010326004474/other_full.txt"
+  }
+}

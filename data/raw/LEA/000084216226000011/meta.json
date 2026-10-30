@@ -1,0 +1,36 @@
+{
+  "company": "Lear",
+  "ticker": "LEA",
+  "role": "buyer",
+  "tier": 1,
+  "cik": "0000842162",
+  "form": "10-K",
+  "filing_date": "2026-02-13",
+  "accession_number": "0000842162-26-000011",
+  "primary_document": "lear-20251231.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/842162/000084216226000011/lear-20251231.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:44:20.730269+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/LEA/000084216226000011/primary.html",
+    "business": "data/raw/LEA/000084216226000011/item1_business.txt",
+    "risk_factors": "data/raw/LEA/000084216226000011/item1a_risk_factors.txt",
+    "mdna": "data/raw/LEA/000084216226000011/item7_mdna.txt",
+    "other": "data/raw/LEA/000084216226000011/other_full.txt"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "company": "BorgWarner",
+  "ticker": "BWA",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0000908255",
+  "form": "8-K",
+  "filing_date": "2026-07-31",
+  "accession_number": "0000908255-26-000045",
+  "primary_document": "bwa-20260730.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/908255/000090825526000045/bwa-20260730.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-07-30",
+  "period_end": "2026-07-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:45:16.739033+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/BWA/000090825526000045/primary.html",
+    "other": "data/raw/BWA/000090825526000045/other_full.txt"
+  }
+}

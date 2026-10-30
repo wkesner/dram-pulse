@@ -1,0 +1,30 @@
+{
+  "company": "Dana",
+  "ticker": "DAN",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0000026780",
+  "form": "8-K",
+  "filing_date": "2025-12-04",
+  "accession_number": "0000950142-25-003125",
+  "primary_document": "eh250713049_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "7.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/26780/000095014225003125/eh250713049_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-04",
+  "period_end": "2025-12-04",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:46:38.959816+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/DAN/000095014225003125/primary.html",
+    "other": "data/raw/DAN/000095014225003125/other_full.txt"
+  }
+}
