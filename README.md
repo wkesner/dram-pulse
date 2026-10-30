@@ -156,7 +156,7 @@ open single-tenant demo forces offline prices and caps at 30 days.
 
 ### Whole-app login
 
-**Clerk** (`AUTH_MODE=clerk`): every data API and the UI require a signed-in Clerk session **and** an active organization. Unauthenticated visitors see the sign-in gate; `/api/config` stays public so the browser can bootstrap Clerk.
+**Clerk** (`AUTH_MODE=clerk`): every data API and the UI require a signed-in Clerk session **and** an active organization. Unauthenticated visitors see the sign-in gate; `/api/config` stays public so the browser can bootstrap Clerk. Set `SIGNUP_INVITE_KEY` so **Create account** asks for that invite key before Clerk email/password SignUp (Sign In stays open for existing users).
 
 **Single** (`AUTH_MODE=single`): open local demos by default (typed “Voting as” name). Set `APP_ACCESS_TOKEN` to require a shared secret for the whole app — the UI prompts for the token; APIs accept `Authorization: Bearer …` or `X-App-Token`.
 
@@ -175,10 +175,28 @@ npx -y clerk@latest enable orgs
 #   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
 #   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
 #   OPERATOR_TOKEN=…   # optional
+#   SIGNUP_INVITE_KEY=…  # required before Create account (email+password)
 # Single-tenant shared-secret alternative:
 #   AUTH_MODE=single
 #   APP_ACCESS_TOKEN=…   # gates UI + /api/*
 ```
+
+### Setting `SIGNUP_INVITE_KEY`
+
+```bash
+# 1) Generate a long random key
+python3 -c "import secrets; print(secrets.token_urlsafe(24))"
+
+# 2) Put it in gitignored .env (never commit)
+#    SIGNUP_INVITE_KEY=the-value-from-step-1
+
+# 3) Restart the API
+#    AUTH_MODE=clerk python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+
+# 4) Share the key out-of-band with people who may create accounts.
+#    Sign-in does not need it; Create account → enter key → email + password.
+```
+
 
 Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.
 

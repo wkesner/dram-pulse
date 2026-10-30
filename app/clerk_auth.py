@@ -8,7 +8,10 @@ https://clerk.com/docs/expressjs/getting-started/quickstart
 from __future__ import annotations
 
 import base64
+import hashlib
+import hmac
 import os
+import secrets
 import time
 from dataclasses import dataclass
 from typing import Any, Callable
@@ -17,6 +20,9 @@ import jwt
 from jwt import PyJWKClient
 
 from src.envutil import load_dotenv
+
+# Short-lived ticket after a correct SIGNUP_INVITE_KEY (lets SignUp mount once).
+INVITE_TICKET_TTL_SECONDS = 15 * 60
 
 
 @dataclass(frozen=True)
@@ -47,6 +53,17 @@ def app_access_token() -> str:
     """
     load_dotenv()
     return (os.environ.get("APP_ACCESS_TOKEN") or "").strip()
+
+
+def signup_invite_key() -> str:
+    """Optional invite/access key required before Clerk account creation.
+
+    When set (AUTH_MODE=clerk), the UI asks for this key before mounting
+    Clerk SignUp. Existing users can still sign in without it.
+    Never expose the value via /api/config — only a boolean flag.
+    """
+    load_dotenv()
+    return (os.environ.get("SIGNUP_INVITE_KEY") or "").strip()
 
 
 def clerk_publishable_key() -> str:
@@ -240,4 +257,68 @@ def make_test_session(
         org_slug="",
         display_name=display_name or user_id,
         raw={"sub": user_id, "org_id": org_id, "iat": int(time.time())},
+    )
+
+
+def _invite_ticket_secret(invite_key: str) -> bytes:
+    """Derive HMAC secret from invite key (+ optional Clerk secret)."""
+    material = invite_key + "\0" + (clerk_secret_key() or "ec-signals-invite")
+    return hashlib.sha256(material.encode("utf-8")).digest()
+
+
+def mint_signup_invite_ticket(
+    invite_key: str | None = None,
+    *,
+    ttl_seconds: int = INVITE_TICKET_TTL_SECONDS,
+) -> str:
+    """Return a signed ticket after the invite key was verified."""
+    key = (invite_key if invite_key is not None else signup_invite_key()).strip()
+    if not key:
+        raise ValueError("SIGNUP_INVITE_KEY is not configured")
+    exp = int(time.time()) + max(60, int(ttl_seconds))
+    nonce = secrets.token_hex(8)
+    payload = f"v1.{exp}.{nonce}"
+    sig = hmac.new(
+        _invite_ticket_secret(key), payload.encode("utf-8"), hashlib.sha256
+    ).hexdigest()
+    return f"{payload}.{sig}"
+
+
+def verify_signup_invite_ticket(
+    ticket: str,
+    invite_key: str | None = None,
+) -> bool:
+    """True if ticket is well-formed, unexpired, and HMAC-valid."""
+    key = (invite_key if invite_key is not None else signup_invite_key()).strip()
+    if not key or not ticket:
+        return False
+    parts = ticket.strip().split(".")
+    if len(parts) != 4 or parts[0] != "v1":
+        return False
+    _ver, exp_s, nonce, sig = parts
+    if not nonce or not sig:
+        return False
+    try:
+        exp = int(exp_s)
+    except ValueError:
+        return False
+    if exp < int(time.time()):
+        return False
+    payload = f"v1.{exp}.{nonce}"
+    expected = hmac.new(
+        _invite_ticket_secret(key), payload.encode("utf-8"), hashlib.sha256
+    ).hexdigest()
+    return hmac.compare_digest(expected, sig)
+
+
+def check_signup_invite_key(provided: str, invite_key: str | None = None) -> bool:
+    """Constant-time compare of a submitted invite key against SIGNUP_INVITE_KEY."""
+    expected = (invite_key if invite_key is not None else signup_invite_key()).strip()
+    got = (provided or "").strip()
+    if not expected or not got:
+        return False
+    # Hash both sides so compare_digest always sees equal-length digests.
+    return hmac.compare_digest(
+        hashlib.sha256(got.encode("utf-8")).digest(),
+        hashlib.sha256(expected.encode("utf-8")).digest(),
     )

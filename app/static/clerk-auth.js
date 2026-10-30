@@ -7,6 +7,7 @@
  */
 (() => {
   const APP_TOKEN_KEY = "ms-app-access-token";
+  const INVITE_TICKET_KEY = "ms-signup-invite-ticket";
 
   const state = {
     mode: "single",
@@ -18,7 +19,10 @@
     displayName: "",
     requiresAuth: false,
     requiresAppToken: false,
+    requiresSignupInvite: false,
     appToken: null,
+    inviteTicket: null,
+    authPanel: "signin", // signin | invite | signup
     authenticated: false,
   };
 
@@ -131,6 +135,53 @@
     }
   }
 
+  function readInviteTicket() {
+    try {
+      return (sessionStorage.getItem(INVITE_TICKET_KEY) || "").trim();
+    } catch {
+      return "";
+    }
+  }
+
+  function writeInviteTicket(ticket) {
+    try {
+      if (ticket) sessionStorage.setItem(INVITE_TICKET_KEY, ticket);
+      else sessionStorage.removeItem(INVITE_TICKET_KEY);
+    } catch {
+      /* ignore */
+    }
+  }
+
+  async function verifyInviteKey(key) {
+    const resp = await fetch("/api/signup/verify-invite", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ key }),
+    });
+    const body = await resp.json().catch(() => ({}));
+    if (!resp.ok) {
+      const detail = body?.detail || `HTTP ${resp.status}`;
+      throw new Error(typeof detail === "string" ? detail : "invalid invite key");
+    }
+    return body.ticket || "";
+  }
+
+  async function refreshInviteTicket(ticket) {
+    if (!ticket) return "";
+    const resp = await fetch("/api/signup/verify-invite", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ticket }),
+    });
+    if (!resp.ok) {
+      writeInviteTicket("");
+      state.inviteTicket = null;
+      return "";
+    }
+    const body = await resp.json().catch(() => ({}));
+    return body.ticket || ticket;
+  }
+
   function authHeaders() {
     const h = {};
     if (state.mode === "clerk" && state.sessionToken) {
@@ -161,7 +212,7 @@
     });
   }
 
-  function renderAuthGate({ title, body, mountSignIn, showTokenForm }) {
+  function renderAuthGate({ title, body, showTokenForm, clerkPanel }) {
     const gate = document.getElementById("auth-gate");
     if (!gate) return;
     gate.hidden = false;
@@ -169,6 +220,7 @@
 
     const panel = document.createElement("div");
     panel.className = "auth-gate-panel";
+    if (clerkPanel) panel.classList.add("auth-gate-panel-wide");
     const h = document.createElement("h2");
     h.textContent = title;
     const p = document.createElement("p");
@@ -227,16 +279,162 @@
       panel.append(form);
     }
 
-    if (mountSignIn) {
-      const mount = document.createElement("div");
-      mount.id = "auth-gate-clerk";
-      panel.append(mount);
-      gate.append(panel);
-      if (state.clerk) state.clerk.mountSignIn(mount);
-      return;
+    if (clerkPanel) {
+      panel.append(buildClerkAuthPanel());
     }
 
     gate.append(panel);
+  }
+
+  function buildClerkAuthPanel() {
+    const wrap = document.createElement("div");
+    wrap.className = "auth-clerk-panel";
+
+    const tabs = document.createElement("div");
+    tabs.className = "auth-mode-tabs";
+    tabs.setAttribute("role", "tablist");
+
+    const signInTab = document.createElement("button");
+    signInTab.type = "button";
+    signInTab.className = "auth-mode-tab";
+    signInTab.textContent = "Sign in";
+    signInTab.setAttribute("aria-selected", state.authView === "signin" ? "true" : "false");
+
+    const createTab = document.createElement("button");
+    createTab.type = "button";
+    createTab.className = "auth-mode-tab";
+    createTab.textContent = "Create account";
+    createTab.setAttribute(
+      "aria-selected",
+      state.authView === "signin" ? "false" : "true"
+    );
+
+    signInTab.addEventListener("click", () => {
+      state.authView = "signin";
+      applyAuthGate();
+    });
+    createTab.addEventListener("click", async () => {
+      if (!state.requiresSignupInvite) {
+        state.authView = "signup";
+        applyAuthGate();
+        return;
+      }
+      createTab.disabled = true;
+      try {
+        const ok = await ensureInviteTicketForSignup();
+        state.authView = ok ? "signup" : "invite";
+      } finally {
+        createTab.disabled = false;
+      }
+      applyAuthGate();
+    });
+    tabs.append(signInTab, createTab);
+    wrap.append(tabs);
+
+    const mount = document.createElement("div");
+    mount.id = "auth-gate-clerk";
+    wrap.append(mount);
+
+    if (state.authView === "signin") {
+      // Hide Clerk's built-in "Sign up" footer — we own Create account + invite.
+      const hideSignupFooter = state.requiresSignupInvite
+        ? { elements: { footerAction: { display: "none" } } }
+        : undefined;
+      queueMicrotask(() => {
+        if (state.clerk) {
+          state.clerk.mountSignIn(mount, {
+            appearance: hideSignupFooter,
+          });
+        }
+      });
+      return wrap;
+    }
+
+    if (state.authView === "invite") {
+      const form = document.createElement("form");
+      form.className = "auth-token-form";
+      form.setAttribute("autocomplete", "off");
+      const label = document.createElement("label");
+      label.textContent = "Invite / access key";
+      const input = document.createElement("input");
+      input.type = "password";
+      input.name = "signup_invite";
+      input.placeholder = "SIGNUP_INVITE_KEY";
+      input.required = true;
+      label.append(input);
+      const btn = document.createElement("button");
+      btn.type = "submit";
+      btn.textContent = "Continue to create account";
+      const err = document.createElement("p");
+      err.className = "auth-gate-error";
+      err.hidden = true;
+      const hint = document.createElement("p");
+      hint.className = "auth-gate-lede";
+      hint.textContent =
+        "Ask William for the invite key, then create your account with email + password.";
+      form.append(hint, label, btn, err);
+      form.addEventListener("submit", async (evt) => {
+        evt.preventDefault();
+        err.hidden = true;
+        const key = (input.value || "").trim();
+        if (!key) return;
+        btn.disabled = true;
+        try {
+          const ticket = await verifyInviteKey(key);
+          state.inviteTicket = ticket;
+          writeInviteTicket(ticket);
+          state.authView = "signup";
+          applyAuthGate();
+        } catch (e) {
+          err.hidden = false;
+          err.textContent = e?.message || "Invalid invite key";
+        } finally {
+          btn.disabled = false;
+        }
+      });
+      mount.append(form);
+      return wrap;
+    }
+
+    // signup
+    const note = document.createElement("p");
+    note.className = "auth-gate-lede";
+    note.textContent = state.requiresSignupInvite
+      ? "Invite verified. Create your account with email and password."
+      : "Create your account with email and password.";
+    mount.append(note);
+
+    const mountSignUpNow = () => {
+      if (state.clerk) state.clerk.mountSignUp(mount);
+    };
+
+    if (!state.requiresSignupInvite) {
+      queueMicrotask(mountSignUpNow);
+      return wrap;
+    }
+
+    // Re-check ticket right before mounting SignUp (covers expired sessionStorage).
+    queueMicrotask(async () => {
+      const ok = await ensureInviteTicketForSignup();
+      if (!ok) {
+        state.authView = "invite";
+        applyAuthGate();
+        return;
+      }
+      mountSignUpNow();
+    });
+    return wrap;
+  }
+
+  async function ensureInviteTicketForSignup() {
+    if (!state.requiresSignupInvite) return true;
+    let ticket = state.inviteTicket || readInviteTicket();
+    if (!ticket) return false;
+    ticket = await refreshInviteTicket(ticket);
+    if (!ticket) return false;
+    state.inviteTicket = ticket;
+    writeInviteTicket(ticket);
+    return true;
   }
 
   function applyAuthGate() {
@@ -252,10 +450,20 @@
     if (state.mode === "clerk") {
       if (!state.clerk?.user) {
         setShellVisible(false);
+        // Never mount SignUp without a live invite ticket when required.
+        if (
+          state.authView === "signup" &&
+          state.requiresSignupInvite &&
+          !(state.inviteTicket || readInviteTicket())
+        ) {
+          state.authView = "invite";
+        }
         renderAuthGate({
           title: "Sign in to EC Signals",
-          body: "A Clerk account and organization are required to view signals, votes, and broker sims.",
-          mountSignIn: true,
+          body: state.requiresSignupInvite
+            ? "Sign in with an existing account, or create one with an invite key plus email and password."
+            : "A Clerk account and organization are required to view signals, votes, and broker sims.",
+          clerkPanel: true,
         });
         return false;
       }
@@ -328,7 +536,10 @@
     state.mode = cfg.auth_mode || "single";
     state.requiresAuth = Boolean(cfg.requires_auth);
     state.requiresAppToken = Boolean(cfg.requires_app_token);
+    state.requiresSignupInvite = Boolean(cfg.requires_signup_invite);
     state.appToken = state.requiresAppToken ? readStoredAppToken() : null;
+    state.inviteTicket = state.requiresSignupInvite ? readInviteTicket() : null;
+    state.authView = "signin";
     window.__msAuth = state;
 
     const singleUser = document.querySelector("label.user");

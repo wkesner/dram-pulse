@@ -43,6 +43,34 @@
   gap: 14px;
   box-shadow: 0 12px 40px rgba(23, 32, 38, 0.08);
 }
+.auth-gate-panel-wide {
+  width: min(100%, 480px);
+}
+.auth-mode-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.auth-mode-tab {
+  font: inherit;
+  font-weight: 600;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--muted);
+  cursor: pointer;
+}
+.auth-mode-tab[aria-selected="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.auth-clerk-panel {
+  display: grid;
+  gap: 12px;
+}
 .auth-gate-panel h2 {
   margin: 0;
   font-family: var(--f-display);

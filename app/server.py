@@ -36,11 +36,15 @@ from app.clerk_auth import (
     SessionResolver,
     app_access_token,
     auth_mode,
+    check_signup_invite_key,
     clerk_authorized_parties,
     clerk_configured,
     clerk_issuer,
     clerk_publishable_key,
+    mint_signup_invite_ticket,
+    signup_invite_key,
     verify_clerk_session_token,
+    verify_signup_invite_ticket,
 )
 from app.rate_limit import RateLimiter
 from app.tenant import (
@@ -93,6 +97,11 @@ class VoteIn(BaseModel):
     user: str = ""
     # 1 = useful, -1 = not useful, 0 = skip (hide from this profile's feed)
     vote: Literal[1, -1, 0]
+
+
+class SignupInviteIn(BaseModel):
+    key: str = ""
+    ticket: str = ""
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:
@@ -360,6 +369,7 @@ def create_app(
     broker_sim_token: str | None = None,
     broker_sim_open: bool | None = None,
     app_token: str | None = None,
+    invite_key: str | None = None,
 ) -> FastAPI:
     load_dotenv()
     signals_path = signals_path or DEFAULT_SIGNALS
@@ -391,12 +401,17 @@ def create_app(
     access_token = (
         app_token if app_token is not None else app_access_token()
     ).strip()
+    invite = (
+        invite_key if invite_key is not None else signup_invite_key()
+    ).strip()
     # Whole-app login: Clerk always; single mode when APP_ACCESS_TOKEN is set.
     requires_auth = mode == "clerk" or bool(access_token)
+    requires_signup_invite = mode == "clerk" and bool(invite)
 
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
     broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    invite_limiter = RateLimiter(max_calls=20, window_seconds=60.0)
 
     app = FastAPI(title="EC Signals", version="0.3.0")
     app.state.auth_mode = mode
@@ -485,7 +500,41 @@ def create_app(
             "requires_org": mode == "clerk",
             "requires_auth": requires_auth,
             "requires_app_token": mode == "single" and bool(access_token),
+            # Never include the raw SIGNUP_INVITE_KEY — UI only needs the flag.
+            "requires_signup_invite": requires_signup_invite,
         }
+
+    @app.post("/api/signup/verify-invite")
+    def verify_signup_invite(
+        body: SignupInviteIn,
+        request: Request,
+    ) -> dict[str, Any]:
+        """Check SIGNUP_INVITE_KEY (or a prior ticket) before Clerk SignUp.
+
+        Public on purpose — no session yet. Rate-limited. Returns a short-lived
+        ticket the UI must present again before mounting SignUp.
+        """
+        if mode != "clerk":
+            raise HTTPException(status_code=404, detail="clerk mode only")
+        if not invite:
+            raise HTTPException(
+                status_code=503,
+                detail="SIGNUP_INVITE_KEY is not configured on the server",
+            )
+        ip = request.client.host if request.client else "unknown"
+        if not invite_limiter.allow(f"invite:{ip}"):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+
+        ticket = (body.ticket or "").strip()
+        if ticket:
+            if verify_signup_invite_ticket(ticket, invite_key=invite):
+                return {"ok": True, "ticket": ticket, "reused": True}
+            raise HTTPException(status_code=401, detail="invalid or expired invite ticket")
+
+        if not check_signup_invite_key(body.key or "", invite_key=invite):
+            raise HTTPException(status_code=401, detail="invalid invite key")
+        minted = mint_signup_invite_ticket(invite)
+        return {"ok": True, "ticket": minted, "reused": False}
 
     @app.get("/api/me")
     def get_me(session: ClerkSession = Depends(require_clerk_session)) -> dict[str, Any]:
