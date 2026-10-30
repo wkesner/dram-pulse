@@ -515,6 +515,7 @@ def create_app(
     def _signals_payload(
         sig_path: Path, sight_path: Path, votes_file: Path, *, user_key: str
     ) -> list[dict[str, Any]]:
+        from src.fetch_mops import filing_open_url
         from src.term_en_map import enrich_signal_matched_terms_en
 
         signals = _read_csv(sig_path)
@@ -525,7 +526,26 @@ def create_app(
             sid = row.get("signal_id") or ""
             payload = dict(row)
             payload["tier"] = _resolve_tier(row, tier_lookup)
-            payload["sightings"] = sightings.get(sid, [])
+            # Rewrite TWSE OpenAPI JSON links → MOPS HTML portal for the browser.
+            payload["source_url"] = filing_open_url(
+                payload.get("source_url") or "",
+                ticker=payload.get("ticker_or_code") or "",
+                filing_date=payload.get("filing_date") or "",
+                source=payload.get("source") or "",
+            )
+            sight_list = []
+            for sight in sightings.get(sid, []):
+                srow = dict(sight)
+                srow["source_url"] = filing_open_url(
+                    srow.get("source_url") or payload.get("source_url") or "",
+                    ticker=payload.get("ticker_or_code") or "",
+                    filing_date=srow.get("filing_date")
+                    or payload.get("filing_date")
+                    or "",
+                    source=payload.get("source") or "",
+                )
+                sight_list.append(srow)
+            payload["sightings"] = sight_list
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
             # English highlight phrases for Show English (term-bank EN equivalents).
             payload["matched_terms_en"] = enrich_signal_matched_terms_en(payload)

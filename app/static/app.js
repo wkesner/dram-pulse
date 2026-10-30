@@ -57,6 +57,61 @@
     );
   };
 
+  // TWSE OpenAPI feeds return JSON — never use them as “Open filing” hrefs.
+  const isTwseOpenApi = (url) =>
+    /openapi\.twse\.com\.tw/i.test(String(url || "")) &&
+    /\/opendata\//i.test(String(url || ""));
+
+  const mopsPortalUrl = (ticker, filingDate, feed) => {
+    let code = String(ticker || "").trim();
+    if (/^\d+$/.test(code)) code = code.padStart(4, "0");
+    const iso = String(filingDate || "").trim().slice(0, 10);
+    let year = "";
+    let month = "";
+    if (iso.length >= 7 && iso[4] === "-") {
+      const y = parseInt(iso.slice(0, 4), 10);
+      const m = parseInt(iso.slice(5, 7), 10);
+      if (!Number.isNaN(y) && !Number.isNaN(m)) {
+        year = String(y - 1911);
+        month = String(m);
+      }
+    }
+    const rev = /t187ap05|revenue|月營收/i.test(String(feed || ""));
+    if (rev) {
+      const parts = [
+        "encodeURIComponent=1",
+        "step=1",
+        "firstin=1",
+        "off=1",
+        "TYPEK=all",
+        `co_id=${code}`,
+      ];
+      if (year) parts.push(`year=${year}`);
+      if (month) parts.push(`month=${month}`);
+      return `https://mopsov.twse.com.tw/mops/web/t05st10_if?${parts.join("&")}`;
+    }
+    const parts = ["TYPEK=all", "step=1", "firstin=true", `co_id=${code}`];
+    if (year) parts.push(`year=${year}`);
+    if (month) parts.push(`month=${month}`);
+    return `https://mopsov.twse.com.tw/mops/web/t05st01?${parts.join("&")}`;
+  };
+
+  const filingOpenHref = (url, s, excerptText) => {
+    let href = String(url || "").trim();
+    const src = String(s?.source || "").toUpperCase();
+    if (isTwseOpenApi(href) || (src === "MOPS" && isTwseOpenApi(href))) {
+      href = mopsPortalUrl(
+        s?.ticker_or_code || s?.ticker || "",
+        s?.filing_date || latest(s) || "",
+        href
+      );
+      // Portal HTML — text fragments are unreliable; open the issuer page.
+      return href;
+    }
+    if (!href) return "";
+    return href + fragment(excerptText || "");
+  };
+
   const latest = (s) => {
     if (s.last_seen) return s.last_seen;
     const dates = (s.sightings || []).map((x) => x.filing_date || "");
@@ -591,8 +646,11 @@
       chips.append(el("span", "chip lang", lang));
     }
     const open = el("a", null, "Open filing at this passage");
-    open.href =
-      (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
+    open.href = filingOpenHref(
+      firstLink.source_url || s.source_url,
+      s,
+      firstLink.excerpt || s.excerpt
+    );
     open.target = "_blank";
     open.rel = "noopener";
     find.append(open);
@@ -623,7 +681,7 @@
         "d",
         `${x.filing_date || ""} ${x.form || ""}`.trim()
       );
-      a.href = (x.source_url || "") + fragment(x.excerpt || "");
+      a.href = filingOpenHref(x.source_url || s.source_url, s, x.excerpt || "");
       a.target = "_blank";
       a.rel = "noopener";
       const match = x.match || "first";

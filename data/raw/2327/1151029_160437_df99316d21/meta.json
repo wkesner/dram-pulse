@@ -8,7 +8,7 @@
   "accession_number": "1151029_160437_df99316d21",
   "filing_id": "1151029_160437_df99316d21",
   "title": "公告本公司115年第3季合併財務報告業經提報董事會通過",
-  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "source_url": "https://mopsov.twse.com.tw/mops/web/t05st01?TYPEK=all&step=1&firstin=true&co_id=2327&year=115&month=10",
   "lookback_months": 12,
   "window_start": "2025-10-29",
   "window_end": "2026-10-29",
@@ -20,5 +20,6 @@
   "clause": "第31款",
   "fact_date_roc": "1151029",
   "announce_time": "160437",
-  "feed": "t187ap04_L"
+  "feed": "t187ap04_L",
+  "api_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
 }

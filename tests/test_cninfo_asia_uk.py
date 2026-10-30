@@ -44,6 +44,25 @@ def test_mops_roc_to_iso() -> None:
     assert roc_to_iso("11509") == "2026-09-01"
 
 
+def test_mops_portal_url_not_openapi_json() -> None:
+    from src.fetch_mops import filing_open_url, is_twse_openapi_url, mops_portal_url
+
+    api = "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
+    assert is_twse_openapi_url(api)
+    portal = mops_portal_url(
+        ticker="2303", filing_date="2026-10-28", feed="t187ap04_L"
+    )
+    assert "mopsov.twse.com.tw" in portal
+    assert "co_id=2303" in portal
+    assert "openapi.twse.com.tw" not in portal
+    # Open filing rewrite for UMC
+    fixed = filing_open_url(
+        api, ticker="2303", filing_date="2026-10-28", source="MOPS"
+    )
+    assert fixed == portal
+    assert not is_twse_openapi_url(fixed)
+
+
 def test_mops_material_body_includes_detail() -> None:
     row = _norm_row(
         {

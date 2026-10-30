@@ -8,7 +8,7 @@
   "accession_number": "1151028_171840_f42107f906",
   "filing_id": "1151028_171840_f42107f906",
   "title": "公告本公司取得機器設備",
-  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "source_url": "https://mopsov.twse.com.tw/mops/web/t05st01?TYPEK=all&step=1&firstin=true&co_id=2408&year=115&month=10",
   "lookback_months": 12,
   "window_start": "2025-10-29",
   "window_end": "2026-10-29",
@@ -20,5 +20,6 @@
   "clause": "第20款",
   "fact_date_roc": "1151028",
   "announce_time": "171840",
-  "feed": "t187ap04_L"
+  "feed": "t187ap04_L",
+  "api_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L"
 }
