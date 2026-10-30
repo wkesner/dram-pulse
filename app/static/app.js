@@ -57,6 +57,61 @@
     );
   };
 
+  // TWSE OpenAPI feeds return JSON — never use them as “Open filing” hrefs.
+  const isTwseOpenApi = (url) =>
+    /openapi\.twse\.com\.tw/i.test(String(url || "")) &&
+    /\/opendata\//i.test(String(url || ""));
+
+  const mopsPortalUrl = (ticker, filingDate, feed) => {
+    let code = String(ticker || "").trim();
+    if (/^\d+$/.test(code)) code = code.padStart(4, "0");
+    const iso = String(filingDate || "").trim().slice(0, 10);
+    let year = "";
+    let month = "";
+    if (iso.length >= 7 && iso[4] === "-") {
+      const y = parseInt(iso.slice(0, 4), 10);
+      const m = parseInt(iso.slice(5, 7), 10);
+      if (!Number.isNaN(y) && !Number.isNaN(m)) {
+        year = String(y - 1911);
+        month = String(m);
+      }
+    }
+    const rev = /t187ap05|revenue|月營收/i.test(String(feed || ""));
+    if (rev) {
+      const parts = [
+        "encodeURIComponent=1",
+        "step=1",
+        "firstin=1",
+        "off=1",
+        "TYPEK=all",
+        `co_id=${code}`,
+      ];
+      if (year) parts.push(`year=${year}`);
+      if (month) parts.push(`month=${month}`);
+      return `https://mopsov.twse.com.tw/mops/web/t05st10_if?${parts.join("&")}`;
+    }
+    const parts = ["TYPEK=all", "step=1", "firstin=true", `co_id=${code}`];
+    if (year) parts.push(`year=${year}`);
+    if (month) parts.push(`month=${month}`);
+    return `https://mopsov.twse.com.tw/mops/web/t05st01?${parts.join("&")}`;
+  };
+
+  const filingOpenHref = (url, s, excerptText) => {
+    let href = String(url || "").trim();
+    const src = String(s?.source || "").toUpperCase();
+    if (isTwseOpenApi(href) || (src === "MOPS" && isTwseOpenApi(href))) {
+      href = mopsPortalUrl(
+        s?.ticker_or_code || s?.ticker || "",
+        s?.filing_date || latest(s) || "",
+        href
+      );
+      // Portal HTML — text fragments are unreliable; open the issuer page.
+      return href;
+    }
+    if (!href) return "";
+    return href + fragment(excerptText || "");
+  };
+
   const latest = (s) => {
     if (s.last_seen) return s.last_seen;
     const dates = (s.sightings || []).map((x) => x.filing_date || "");
@@ -314,25 +369,88 @@
     });
   }
 
+  // Client-side EN supply/commodity phrases — paints yellow even if API
+  // matched_terms_en is missing (partial deploy / cached signals).
+  const EN_HIGHLIGHT_GLOSSARY = [
+    "capacity utilization rate",
+    "capacity utilization",
+    "production capacity",
+    "packaging capacity",
+    "wafer capacity",
+    "full capacity",
+    "at full capacity",
+    "fully loaded",
+    "supply shortage",
+    "component shortage",
+    "price increases",
+    "price increase",
+    "rising prices",
+    "wafer equivalents",
+    "wafer equivalent",
+    "equivalent wafers",
+    "utilization",
+    "undersupply",
+    "oversupply",
+    "allocation",
+    "shortages",
+    "shortage",
+    "capacity",
+    "crystals",
+    "crystal",
+    "wafers",
+    "wafer",
+    "foundry",
+    "supply",
+    "demand",
+    "pricing",
+    "prices",
+    "price",
+    "full",
+  ];
+
   function highlight(text, terms) {
     const frag = document.createDocumentFragment();
-    const ts = terms
-      .filter((t) => t.length > 2)
-      .sort((a, b) => b.length - a.length);
+    const raw = String(text || "");
+    const lower = raw.toLowerCase();
+    // Only terms that actually occur in this text.
+    // Cap size so the RegExp stays reliable in the browser.
+    const ts = [...new Set(
+      (terms || [])
+        .map((t) => String(t || "").trim())
+        .filter((t) => t.length > 2 && lower.includes(t.toLowerCase()))
+    )]
+      .sort((a, b) => b.length - a.length)
+      .slice(0, 40);
     if (!ts.length) {
-      frag.append(text);
+      frag.append(raw);
       return frag;
     }
-    const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-    const re = new RegExp("(" + esc.join("|") + ")", "gi");
+    let re;
+    try {
+      const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      re = new RegExp("(" + esc.join("|") + ")", "gi");
+    } catch {
+      frag.append(raw);
+      return frag;
+    }
     let last = 0;
-    for (const m of text.matchAll(re)) {
-      frag.append(text.slice(last, m.index));
-      frag.append(el("mark", null, m[0]));
+    for (const m of raw.matchAll(re)) {
+      if (m.index > last) frag.append(raw.slice(last, m.index));
+      // Same yellow highlight as original-language matches (.excerpt mark.term-hl).
+      const mark = el("mark", "term-hl", m[0]);
+      mark.style.background = "#fbe9a6";
+      mark.style.color = "#172026";
+      mark.style.borderRadius = "2px";
+      mark.style.padding = "0 1px";
+      frag.append(mark);
       last = m.index + m[0].length;
     }
-    frag.append(text.slice(last));
+    if (last < raw.length) frag.append(raw.slice(last));
     return frag;
+  }
+
+  function englishHighlightTerms(preferred) {
+    return [...(preferred || []), ...EN_HIGHLIGHT_GLOSSARY];
   }
 
   function railFilteredSignals({ ignoreTier = false } = {}) {
@@ -444,18 +562,27 @@
       .split(";")
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
+    let termsEn = Array.isArray(s.matched_terms_en)
+      ? s.matched_terms_en.map((t) => String(t || "").trim()).filter(Boolean)
+      : [];
     const lang = String(s.language || "en").toLowerCase();
-    const excerptEn = String(s.excerpt_en || "").trim();
-    const canTranslate =
-      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    let excerptEn = String(s.excerpt_en || "").trim();
+    // Any non-EN post gets a translate control (pipeline excerpt_en or on-demand API).
+    const canTranslate = Boolean(lang) && lang !== "en" && lang !== "english";
     let showEnglish = false;
+    let translating = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
-      // Highlight only on original language (matched_terms are source-language).
-      if (showEnglish && excerptEn) ex.append(text);
-      else ex.append(highlight(text, terms));
+      // Original: source-language matched_terms.
+      // English: API matched_terms_en + client EN glossary (always paint crystals /
+      // capacity utilization rate / full when present — even if API field missing).
+      if (showEnglish && excerptEn) {
+        ex.append(highlight(text, englishHighlightTerms(termsEn)));
+      } else {
+        ex.append(highlight(text, terms));
+      }
     };
     paintExcerpt();
 
@@ -464,19 +591,66 @@
       const tog = el("button", "lang-toggle", "Show English");
       tog.type = "button";
       tog.setAttribute("aria-pressed", "false");
-      tog.title = "Machine translation (Argos); original excerpt is unchanged";
-      tog.addEventListener("click", () => {
-        showEnglish = !showEnglish;
-        tog.textContent = showEnglish ? "Original" : "Show English";
+      tog.title =
+        "Machine translation (Argos); original excerpt is unchanged. " +
+        "Uses stored excerpt_en or translates on demand.";
+      const setToggleLabel = () => {
+        if (translating) tog.textContent = "Translating…";
+        else tog.textContent = showEnglish ? "Original" : "Show English";
+        tog.disabled = translating;
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+      };
+      tog.addEventListener("click", async () => {
+        if (translating) return;
+        if (showEnglish) {
+          showEnglish = false;
+          setToggleLabel();
+          paintExcerpt();
+          return;
+        }
+        if (!excerptEn) {
+          translating = true;
+          setToggleLabel();
+          try {
+            const resp = await fetch(
+              `/api/signals/${encodeURIComponent(s.signal_id)}/translate`,
+              { method: "POST", headers: apiHeaders() }
+            );
+            if (!resp.ok) {
+              const detail = await resp.text();
+              throw new Error(detail || `HTTP ${resp.status}`);
+            }
+            const body = await resp.json();
+            excerptEn = String(body.excerpt_en || "").trim();
+            s.excerpt_en = excerptEn;
+            if (Array.isArray(body.matched_terms_en)) {
+              termsEn = body.matched_terms_en
+                .map((t) => String(t || "").trim())
+                .filter(Boolean);
+              s.matched_terms_en = termsEn;
+            }
+            if (!excerptEn) throw new Error("empty translation");
+          } catch (err) {
+            translating = false;
+            setToggleLabel();
+            tog.title = `Translation failed: ${err && err.message ? err.message : err}`;
+            return;
+          }
+          translating = false;
+        }
+        showEnglish = true;
+        setToggleLabel();
         paintExcerpt();
       });
       find.append(tog);
       chips.append(el("span", "chip lang", lang));
     }
     const open = el("a", null, "Open filing at this passage");
-    open.href =
-      (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
+    open.href = filingOpenHref(
+      firstLink.source_url || s.source_url,
+      s,
+      firstLink.excerpt || s.excerpt
+    );
     open.target = "_blank";
     open.rel = "noopener";
     find.append(open);
@@ -507,7 +681,7 @@
         "d",
         `${x.filing_date || ""} ${x.form || ""}`.trim()
       );
-      a.href = (x.source_url || "") + fragment(x.excerpt || "");
+      a.href = filingOpenHref(x.source_url || s.source_url, s, x.excerpt || "");
       a.target = "_blank";
       a.rel = "noopener";
       const match = x.match || "first";

@@ -1,0 +1,28 @@
+{
+  "company": "Infineon Technologies",
+  "ticker": "IFX",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Infineon Annual Report 2025 (combined management report)",
+  "filing_date": "2025-12-08",
+  "accession_number": "UREG_135_20251208_d85a409430",
+  "filing_id": "UREG_135_20251208_d85a409430",
+  "title": "Infineon Annual Report 2025 (combined management report)",
+  "publication_type": "135",
+  "euid": "DED2601V.HRB126492",
+  "lei": "TSI2PJM6EPETEQ4X1U25",
+  "isin": "DE0006231004",
+  "ureg_source_name": "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "en",
+  "fetched_at": "2026-10-30T17:05:37.501874+00:00",
+  "paths": {
+    "other_full": "data/raw/IFX/UREG_135_20251208_d85a409430/other_full.txt",
+    "document_pdf": "data/raw/IFX/UREG_135_20251208_d85a409430/document.pdf"
+  }
+}

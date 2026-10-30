@@ -278,11 +278,28 @@ button:focus-visible, input:focus-visible, select:focus-visible {
   line-height: 1.6;
   max-width: 68ch;
 }
-.excerpt mark {
-  background: var(--mark);
+/* Signal-term highlights: same yellow for original and Show English (matched_terms_en). */
+.excerpt mark,
+.excerpt mark.term-hl {
+  background: var(--mark, #fbe9a6);
   color: inherit;
   border-radius: 2px;
   padding: 0 1px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+/* Keep yellow readable in dark theme (var(--mark) alone is too muted). */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .excerpt mark,
+  :root:not([data-theme="light"]) .excerpt mark.term-hl {
+    background: #e6c84a;
+    color: #0f1518;
+  }
+}
+:root[data-theme="dark"] .excerpt mark,
+:root[data-theme="dark"] .excerpt mark.term-hl {
+  background: #e6c84a;
+  color: #0f1518;
 }
 .find {
   display: flex;
@@ -305,6 +322,10 @@ button:focus-visible, input:focus-visible, select:focus-visible {
 .lang-toggle[aria-pressed="true"] {
   border-color: var(--accent);
   color: var(--accent);
+}
+.lang-toggle:disabled {
+  opacity: 0.65;
+  cursor: wait;
 }
 .chip.lang {
   text-transform: uppercase;

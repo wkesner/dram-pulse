@@ -99,6 +99,88 @@ def roc_to_iso(roc: str) -> str:
     return ""
 
 
+def is_twse_openapi_url(url: str) -> bool:
+    """True when URL is the JSON OpenAPI feed (downloads JSON in the browser)."""
+    u = (url or "").strip().lower()
+    return "openapi.twse.com.tw" in u and "/opendata/" in u
+
+
+def mops_portal_url(
+    *,
+    ticker: str,
+    filing_date: str = "",
+    feed: str = "t187ap04_L",
+) -> str:
+    """Human-readable MOPS portal link (HTML), not the OpenAPI JSON snapshot.
+
+    Feed data still comes from openapi.twse.com.tw; this URL is for Feed
+    “Open filing at this passage” so the browser opens 公開資訊觀測站 instead
+    of downloading a JSON file.
+    """
+    code = str(ticker or "").strip()
+    if code.isdigit():
+        code = code.zfill(4)
+    roc_year = ""
+    month = ""
+    iso = (filing_date or "").strip()[:10]
+    if len(iso) >= 7 and iso[4] == "-":
+        try:
+            y = int(iso[0:4])
+            m = int(iso[5:7])
+            roc_year = str(y - 1911)
+            month = str(m)
+        except ValueError:
+            roc_year = month = ""
+    feed_l = (feed or "").lower()
+    if "t187ap05" in feed_l or "revenue" in feed_l or "月營收" in feed_l:
+        # Monthly revenue query page (issuer + ROC year/month when known).
+        base = "https://mopsov.twse.com.tw/mops/web/t05st10_if"
+        parts = [
+            "encodeURIComponent=1",
+            "step=1",
+            "firstin=1",
+            "off=1",
+            "TYPEK=all",
+            f"co_id={code}",
+        ]
+        if roc_year:
+            parts.append(f"year={roc_year}")
+        if month:
+            parts.append(f"month={month}")
+        return f"{base}?{'&'.join(parts)}"
+    # Material information (重大訊息) search for this issuer / month.
+    base = "https://mopsov.twse.com.tw/mops/web/t05st01"
+    parts = ["TYPEK=all", "step=1", "firstin=true", f"co_id={code}"]
+    if roc_year:
+        parts.append(f"year={roc_year}")
+    if month:
+        parts.append(f"month={month}")
+    return f"{base}?{'&'.join(parts)}"
+
+
+def filing_open_url(
+    source_url: str,
+    *,
+    ticker: str = "",
+    filing_date: str = "",
+    feed: str = "",
+    source: str = "",
+) -> str:
+    """Rewrite TWSE OpenAPI JSON links to the MOPS HTML portal for the browser."""
+    src = (source or "").strip().upper()
+    if is_twse_openapi_url(source_url) or src == "MOPS":
+        if is_twse_openapi_url(source_url) or not (source_url or "").strip():
+            inferred = feed
+            if not inferred and "t187ap05" in (source_url or "").lower():
+                inferred = "t187ap05_L"
+            if not inferred:
+                inferred = "t187ap04_L"
+            return mops_portal_url(
+                ticker=ticker, filing_date=filing_date, feed=inferred
+            )
+    return (source_url or "").strip()
+
+
 def _get_json(
     url: str,
     session: requests.Session,
@@ -297,6 +379,11 @@ def run_fetch_mops(
             continue
         subject = row.get("主旨") or "重大訊息"
         fid = _filing_id(code, announce, row.get("發言時間") or "", subject)
+        human_url = mops_portal_url(
+            ticker=code,
+            filing_date=filing_date or date.today().isoformat(),
+            feed="t187ap04_L",
+        )
         if _save(
             company,
             fid,
@@ -304,7 +391,7 @@ def run_fetch_mops(
             title=subject,
             filing_date=filing_date or date.today().isoformat(),
             body=_material_body(row),
-            source_url=material_url,
+            source_url=human_url,
             settings=settings,
             window_start=w_start,
             window_end=w_end,
@@ -313,6 +400,7 @@ def run_fetch_mops(
                 "fact_date_roc": row.get("事實發生日") or "",
                 "announce_time": row.get("發言時間") or "",
                 "feed": "t187ap04_L",
+                "api_url": material_url,
             },
             force=force,
         ):
@@ -338,6 +426,11 @@ def run_fetch_mops(
                 continue
             title = f"月營收 {ym}"
             fid = f"rev_{re.sub(r'[^0-9]', '', ym) or 'unknown'}"
+            human_url = mops_portal_url(
+                ticker=code,
+                filing_date=filing_date or date.today().isoformat(),
+                feed="t187ap05_L",
+            )
             if _save(
                 company,
                 fid,
@@ -345,11 +438,15 @@ def run_fetch_mops(
                 title=title,
                 filing_date=filing_date or date.today().isoformat(),
                 body=_revenue_body(row),
-                source_url=rev_url,
+                source_url=human_url,
                 settings=settings,
                 window_start=w_start,
                 window_end=w_end,
-                extra_meta={"feed": "t187ap05_L", "data_ym_roc": ym},
+                extra_meta={
+                    "feed": "t187ap05_L",
+                    "data_ym_roc": ym,
+                    "api_url": rev_url,
+                },
                 force=force,
             ):
                 saved += 1

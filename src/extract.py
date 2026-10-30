@@ -73,6 +73,8 @@ FULL_DOC_SOURCES = {
     "COMPANIES_HOUSE",
     "MOPS",
     "TWSE",
+    "UREG",
+    "BAFIN_UREG",
 }
 
 
@@ -597,6 +599,9 @@ def _build_row(
             "MOPS": "zh-TW",
             "TWSE": "zh-TW",
             "EDINET": "ja",
+            "UREG": "de",
+            "BAFIN_UREG": "de",
+            "BAFIN": "de",
         }.get(src_u, "en")
     source = str(meta.get("source") or ctx.company.source)
     filing_id = str(
@@ -772,23 +777,28 @@ def _load_term_banks(
     ko = supply.get("korean") or {}
     zh = supply.get("chinese") or {}
     ja = supply.get("japanese") or {}
+    de = supply.get("german") or {}
     ko_topics = ko.get("topics") or {}
     zh_topics = zh.get("topics") or {}
     ja_topics = ja.get("topics") or {}
+    de_topics = de.get("topics") or {}
     ko_dir = ko.get("direction") or {}
     zh_dir = zh.get("direction") or {}
     ja_dir = ja.get("direction") or {}
+    de_dir = de.get("direction") or {}
     ko_sent = ko.get("sentiment") or {}
     zh_sent = zh.get("sentiment") or {}
     ja_sent = ja.get("sentiment") or {}
+    de_sent = de.get("sentiment") or {}
 
     topics: dict[str, list[str]] = {}
     for label, terms in (supply.get("topics") or {}).items():
         merged = _merge_term_lists(terms, ko_topics.get(label))
         merged = _merge_term_lists(merged, zh_topics.get(label))
         merged = _merge_term_lists(merged, ja_topics.get(label))
+        merged = _merge_term_lists(merged, de_topics.get(label))
         topics[label] = merged
-    for extra_topics in (ko_topics, zh_topics, ja_topics):
+    for extra_topics in (ko_topics, zh_topics, ja_topics, de_topics):
         for label, terms in extra_topics.items():
             if label not in topics:
                 topics[label] = list(terms or [])
@@ -803,11 +813,14 @@ def _load_term_banks(
                 "tightening": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("tightening"), ko_dir.get("tightening")
+                            _merge_term_lists(
+                                direction.get("tightening"), ko_dir.get("tightening")
+                            ),
+                            zh_dir.get("tightening"),
                         ),
-                        zh_dir.get("tightening"),
+                        ja_dir.get("tightening"),
                     ),
-                    ja_dir.get("tightening"),
+                    de_dir.get("tightening"),
                 )
             }
         ),
@@ -816,11 +829,14 @@ def _load_term_banks(
                 "easing": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("easing"), ko_dir.get("easing")
+                            _merge_term_lists(
+                                direction.get("easing"), ko_dir.get("easing")
+                            ),
+                            zh_dir.get("easing"),
                         ),
-                        zh_dir.get("easing"),
+                        ja_dir.get("easing"),
                     ),
-                    ja_dir.get("easing"),
+                    de_dir.get("easing"),
                 )
             }
         ),
@@ -829,11 +845,14 @@ def _load_term_banks(
                 "stable": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("stable"), ko_dir.get("stable")
+                            _merge_term_lists(
+                                direction.get("stable"), ko_dir.get("stable")
+                            ),
+                            zh_dir.get("stable"),
                         ),
-                        zh_dir.get("stable"),
+                        ja_dir.get("stable"),
                     ),
-                    ja_dir.get("stable"),
+                    de_dir.get("stable"),
                 )
             }
         ),
@@ -842,11 +861,14 @@ def _load_term_banks(
                 "positive": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            sentiment.get("positive"), ko_sent.get("positive")
+                            _merge_term_lists(
+                                sentiment.get("positive"), ko_sent.get("positive")
+                            ),
+                            zh_sent.get("positive"),
                         ),
-                        zh_sent.get("positive"),
+                        ja_sent.get("positive"),
                     ),
-                    ja_sent.get("positive"),
+                    de_sent.get("positive"),
                 )
             }
         ),
@@ -855,11 +877,14 @@ def _load_term_banks(
                 "negative": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            sentiment.get("negative"), ko_sent.get("negative")
+                            _merge_term_lists(
+                                sentiment.get("negative"), ko_sent.get("negative")
+                            ),
+                            zh_sent.get("negative"),
                         ),
-                        zh_sent.get("negative"),
+                        ja_sent.get("negative"),
                     ),
-                    ja_sent.get("negative"),
+                    de_sent.get("negative"),
                 )
             }
         ),
@@ -1139,7 +1164,9 @@ def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
 
 
 def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
-    """Map normalized Korean excerpt → prior excerpt_en (Argos is non-deterministic)."""
+    """Map normalized foreign excerpt → prior excerpt_en (Argos is non-deterministic)."""
+    from src.translate_excerpts import is_translatable_lang
+
     out: dict[str, str] = {}
     for path in csv_paths:
         if not path or not path.is_file() or path.stat().st_size == 0:
@@ -1147,7 +1174,7 @@ def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
         with path.open(encoding="utf-8", newline="") as fh:
             for row in csv.DictReader(fh):
                 lang = (row.get("language") or "en").strip().lower()
-                if lang not in {"ko", "korean"}:
+                if not is_translatable_lang(lang):
                     continue
                 en = (row.get("excerpt_en") or "").strip()
                 ex = (row.get("excerpt") or "").strip()
@@ -1181,15 +1208,24 @@ def _enrich_candidate_excerpt_en(
     *,
     prior_by_excerpt: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
-    """Attach excerpt_en on Korean candidates so cross-source dedupe can match.
+    """Attach excerpt_en on non-English candidates so cross-source dedupe can match.
 
-    Prefer a prior translation for the same Korean excerpt so rebuilds stay
+    Prefer a prior translation for the same source excerpt so rebuilds stay
     deterministic (Argos output drifts enough to change near-merge IDs).
+    Covers KO/ZH/JA/DE (DART, CNINFO, MOPS, EDINET, UREG) via Argos packages.
     """
+    from src.translate_excerpts import (
+        ensure_argos_for_langs,
+        normalize_source_lang,
+        supported_argos_lang,
+        translate_text,
+    )
+
     prior_by_excerpt = prior_by_excerpt or {}
     need: list[dict[str, Any]] = []
     for c in candidates:
-        if (c.get("language") or "en").lower() not in {"ko", "korean"}:
+        lang = (c.get("language") or "en").lower()
+        if not supported_argos_lang(lang):
             continue
         if (c.get("excerpt_en") or "").strip():
             continue
@@ -1203,23 +1239,24 @@ def _enrich_candidate_excerpt_en(
         need.append(c)
     if not need:
         return candidates
+    langs = {(c.get("language") or "") for c in need}
     try:
-        from src.translate_excerpts import _ensure_argos_ko_en, translate_text
-    except Exception:
-        return candidates
-    try:
-        _ensure_argos_ko_en(install=True)
+        ensure_argos_for_langs(langs, install=True)
     except SystemExit:
         return candidates
-    # Deduplicate Argos calls by normalized excerpt within this batch.
-    batch: dict[str, str] = {}
+    except Exception:
+        return candidates
+    # Deduplicate Argos calls by (lang, normalized excerpt) within this batch.
+    batch: dict[tuple[str, str], str] = {}
     for c in need:
-        key = normalize_excerpt(c.get("excerpt") or "")
+        lang = (c.get("language") or "en").lower()
+        argos = normalize_source_lang(lang) or lang
+        key = (argos, normalize_excerpt(c.get("excerpt") or ""))
         if key in batch:
             c["excerpt_en"] = batch[key]
             continue
         try:
-            en = translate_text(c.get("excerpt") or "", source="ko", target="en")
+            en = translate_text(c.get("excerpt") or "", source=argos, target="en")
             batch[key] = en
             c["excerpt_en"] = en
         except Exception as exc:  # noqa: BLE001
