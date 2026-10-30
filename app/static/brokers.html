@@ -12,8 +12,11 @@
     />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/brokers.css" />
+    <script>
+      document.documentElement.classList.add("auth-pending");
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="/clerk-auth.js?v=signup-gate-v5" defer></script>
+    <script src="/clerk-auth.js?v=signup-gate-v6" defer></script>
     <script src="/brokers.js" defer></script>
   </head>
   <body>
@@ -37,7 +40,17 @@
       </header>
       <p id="clerk-hint" class="clerk-hint" hidden></p>
 
-      <div id="auth-gate" class="auth-gate" hidden></div>
+      <div id="auth-gate" class="auth-gate">
+        <div class="auth-gate-panel auth-gate-panel-wide">
+          <h2 class="auth-gate-title">Sign in to EC Signals</h2>
+          <p class="auth-gate-lede auth-gate-lede-main">
+            Loading sign-in…
+          </p>
+          <div class="auth-clerk-panel">
+            <div id="auth-gate-clerk"></div>
+          </div>
+        </div>
+      </div>
 
       <div id="app-main" class="broker-main">
       <p class="lede">

@@ -149,6 +149,14 @@ body.auth-locked .auth-gate {
 
 *, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
+/* Until clerk-auth.js decides, never flash the empty feed for unauth users. */
+html.auth-pending #app-main,
+html.auth-pending [data-auth-hide] {
+  display: none !important;
+}
+html.auth-pending #auth-gate {
+  display: grid !important;
+}
 html { overflow-x: hidden; }
 body {
   margin: 0;

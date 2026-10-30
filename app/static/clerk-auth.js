@@ -11,7 +11,7 @@
 (() => {
   // Bump when shipping signup UX fixes — verify on Fly via:
   //   curl -s https://ec-signals.fly.dev/clerk-auth.js | grep __msClerkBuild
-  window.__msClerkBuild = "signup-gate-v5-20261030";
+  window.__msClerkBuild = "signup-gate-v6-20261030";
 
   /** Clerk path segments that must stay on-origin (never 404 → Account Portal). */
   const CLERK_AUTH_PATH_RE =
@@ -362,12 +362,15 @@
   }
 
   function setShellVisible(visible) {
+    document.documentElement.classList.toggle("auth-pending", !visible);
     document.body.classList.toggle("auth-locked", !visible);
     const main = document.getElementById("app-main");
     if (main) main.hidden = !visible;
     document.querySelectorAll("[data-auth-hide]").forEach((el) => {
       el.hidden = !visible;
     });
+    const gate = document.getElementById("auth-gate");
+    if (gate) gate.hidden = Boolean(visible);
   }
 
   /** Phase key — must NOT flip when clerk.user appears mid-SignUp. */
@@ -934,6 +937,9 @@
   }
 
   async function init() {
+    // Hold the HTML auth-pending lock until we know auth mode / session.
+    document.documentElement.classList.add("auth-pending");
+
     const cfg = await loadConfig();
     state.mode = cfg.auth_mode || "single";
     state.requiresAuth = Boolean(cfg.requires_auth);
