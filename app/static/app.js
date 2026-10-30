@@ -100,13 +100,11 @@
     let href = String(url || "").trim();
     const src = String(s?.source || "").toUpperCase();
     if (isTwseOpenApi(href) || (src === "MOPS" && isTwseOpenApi(href))) {
-      href = mopsPortalUrl(
+      return mopsPortalUrl(
         s?.ticker_or_code || s?.ticker || "",
         s?.filing_date || latest(s) || "",
         href
       );
-      // Portal HTML — text fragments are unreliable; open the issuer page.
-      return href;
     }
     if (!href) return "";
     return href + fragment(excerptText || "");
@@ -369,8 +367,7 @@
     });
   }
 
-  // Client-side EN supply/commodity phrases — paints yellow even if API
-  // matched_terms_en is missing (partial deploy / cached signals).
+  // Client EN supply glossary — paints yellow even if matched_terms_en missing.
   const EN_HIGHLIGHT_GLOSSARY = [
     "capacity utilization rate",
     "capacity utilization",
@@ -412,8 +409,6 @@
     const frag = document.createDocumentFragment();
     const raw = String(text || "");
     const lower = raw.toLowerCase();
-    // Only terms that actually occur in this text.
-    // Cap size so the RegExp stays reliable in the browser.
     const ts = [...new Set(
       (terms || [])
         .map((t) => String(t || "").trim())
@@ -436,7 +431,6 @@
     let last = 0;
     for (const m of raw.matchAll(re)) {
       if (m.index > last) frag.append(raw.slice(last, m.index));
-      // Same yellow highlight as original-language matches (.excerpt mark.term-hl).
       const mark = el("mark", "term-hl", m[0]);
       mark.style.background = "#fbe9a6";
       mark.style.color = "#172026";
@@ -566,18 +560,26 @@
       ? s.matched_terms_en.map((t) => String(t || "").trim()).filter(Boolean)
       : [];
     const lang = String(s.language || "en").toLowerCase();
+    const isEnglishLang = !lang || lang === "en" || lang === "english";
+    // Any non-EN post gets a translate control; English view uses pipeline
+    // excerpt_en when present, else on-demand POST /api/translate.
     let excerptEn = String(s.excerpt_en || "").trim();
-    // Any non-EN post gets a translate control (pipeline excerpt_en or on-demand API).
-    const canTranslate = Boolean(lang) && lang !== "en" && lang !== "english";
+    const canTranslate = !isEnglishLang;
+    const langChip = (() => {
+      const raw = lang.replace(/_/g, "-");
+      if (raw === "zh-tw" || raw === "zh-hant" || raw === "zt") return "zh-TW";
+      if (raw === "zh-cn" || raw === "zh-hans") return "zh";
+      if (raw === "german" || raw === "deutsch") return "de";
+      if (raw === "japanese" || raw === "jp") return "ja";
+      if (raw === "korean") return "ko";
+      return raw || "??";
+    })();
     let showEnglish = false;
     let translating = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
-      // Original: source-language matched_terms.
-      // English: API matched_terms_en + client EN glossary (always paint crystals /
-      // capacity utilization rate / full when present — even if API field missing).
       if (showEnglish && excerptEn) {
         ex.append(highlight(text, englishHighlightTerms(termsEn)));
       } else {
@@ -597,8 +599,8 @@
       const setToggleLabel = () => {
         if (translating) tog.textContent = "Translating…";
         else tog.textContent = showEnglish ? "Original" : "Show English";
-        tog.disabled = translating;
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        tog.disabled = translating;
       };
       tog.addEventListener("click", async () => {
         if (translating) return;
@@ -612,28 +614,46 @@
           translating = true;
           setToggleLabel();
           try {
-            const resp = await fetch(
-              `/api/signals/${encodeURIComponent(s.signal_id)}/translate`,
-              { method: "POST", headers: apiHeaders() }
-            );
+            // Prefer main's /api/translate; fall back to #23 path still on Fly.
+            let resp = await fetch("/api/translate", {
+              method: "POST",
+              headers: apiHeaders({ "Content-Type": "application/json" }),
+              body: JSON.stringify({ signal_id: s.signal_id }),
+            });
+            if (resp.status === 404 || resp.status === 405) {
+              resp = await fetch(
+                `/api/signals/${encodeURIComponent(s.signal_id)}/translate`,
+                { method: "POST", headers: apiHeaders() }
+              );
+            }
             if (!resp.ok) {
               const detail = await resp.text();
-              throw new Error(detail || `HTTP ${resp.status}`);
+              console.error("translate failed", resp.status, detail);
+              tog.title = `Translation failed (${resp.status}). Try again.`;
+              translating = false;
+              setToggleLabel();
+              return;
             }
-            const body = await resp.json();
-            excerptEn = String(body.excerpt_en || "").trim();
+            const data = await resp.json();
+            excerptEn = String(data.excerpt_en || "").trim();
             s.excerpt_en = excerptEn;
-            if (Array.isArray(body.matched_terms_en)) {
-              termsEn = body.matched_terms_en
+            if (Array.isArray(data.matched_terms_en)) {
+              termsEn = data.matched_terms_en
                 .map((t) => String(t || "").trim())
                 .filter(Boolean);
               s.matched_terms_en = termsEn;
             }
-            if (!excerptEn) throw new Error("empty translation");
+            if (!excerptEn) {
+              tog.title = "Translation returned empty English text.";
+              translating = false;
+              setToggleLabel();
+              return;
+            }
           } catch (err) {
+            console.error("translate failed", err);
+            tog.title = `Translation failed: ${err && err.message ? err.message : err}`;
             translating = false;
             setToggleLabel();
-            tog.title = `Translation failed: ${err && err.message ? err.message : err}`;
             return;
           }
           translating = false;
@@ -643,7 +663,7 @@
         paintExcerpt();
       });
       find.append(tog);
-      chips.append(el("span", "chip lang", lang));
+      chips.append(el("span", "chip lang", langChip));
     }
     const open = el("a", null, "Open filing at this passage");
     open.href = filingOpenHref(
@@ -681,7 +701,7 @@
         "d",
         `${x.filing_date || ""} ${x.form || ""}`.trim()
       );
-      a.href = filingOpenHref(x.source_url || s.source_url, s, x.excerpt || "");
+      a.href = (x.source_url || "") + fragment(x.excerpt || "");
       a.target = "_blank";
       a.rel = "noopener";
       const match = x.match || "first";

@@ -600,8 +600,9 @@ def _build_row(
             "TWSE": "zh-TW",
             "EDINET": "ja",
             "UREG": "de",
-            "BAFIN_UREG": "de",
             "BAFIN": "de",
+            "BAFIN_UREG": "de",
+            "AMF": "fr",
         }.get(src_u, "en")
     source = str(meta.get("source") or ctx.company.source)
     filing_id = str(
@@ -1164,8 +1165,8 @@ def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
 
 
 def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
-    """Map normalized foreign excerpt → prior excerpt_en (Argos is non-deterministic)."""
-    from src.translate_excerpts import is_translatable_lang
+    """Map normalized non-English excerpt → prior excerpt_en (MT is non-deterministic)."""
+    from src.translate_excerpts import is_english
 
     out: dict[str, str] = {}
     for path in csv_paths:
@@ -1173,8 +1174,7 @@ def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
             continue
         with path.open(encoding="utf-8", newline="") as fh:
             for row in csv.DictReader(fh):
-                lang = (row.get("language") or "en").strip().lower()
-                if not is_translatable_lang(lang):
+                if is_english(row.get("language") or "en"):
                     continue
                 en = (row.get("excerpt_en") or "").strip()
                 ex = (row.get("excerpt") or "").strip()
@@ -1189,9 +1189,10 @@ def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
 def _merge_excerpt_en(
     signals: list[dict[str, Any]], prior: dict[str, str]
 ) -> list[dict[str, Any]]:
+    from src.translate_excerpts import is_english
+
     for row in signals:
-        lang = (row.get("language") or "en").strip().lower()
-        if lang in {"", "en", "english"}:
+        if is_english(row.get("language") or "en"):
             row["excerpt_en"] = ""
             continue
         sid = row.get("signal_id") or ""
@@ -1208,24 +1209,23 @@ def _enrich_candidate_excerpt_en(
     *,
     prior_by_excerpt: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
-    """Attach excerpt_en on non-English candidates so cross-source dedupe can match.
+    """Attach excerpt_en on non-English candidates so cross-language dedupe can match.
 
     Prefer a prior translation for the same source excerpt so rebuilds stay
     deterministic (Argos output drifts enough to change near-merge IDs).
-    Covers KO/ZH/JA/DE (DART, CNINFO, MOPS, EDINET, UREG) via Argos packages.
+    Covers KO / ZH / ZH-TW / JA / DE (and other Argos *→en pairs).
     """
     from src.translate_excerpts import (
+        argos_source_code,
         ensure_argos_for_langs,
-        normalize_source_lang,
-        supported_argos_lang,
+        is_english,
         translate_text,
     )
 
     prior_by_excerpt = prior_by_excerpt or {}
     need: list[dict[str, Any]] = []
     for c in candidates:
-        lang = (c.get("language") or "en").lower()
-        if not supported_argos_lang(lang):
+        if is_english(c.get("language") or "en"):
             continue
         if (c.get("excerpt_en") or "").strip():
             continue
@@ -1236,27 +1236,29 @@ def _enrich_candidate_excerpt_en(
         if cached:
             c["excerpt_en"] = cached
             continue
+        if argos_source_code(c.get("language") or "") is None:
+            continue
         need.append(c)
     if not need:
         return candidates
-    langs = {(c.get("language") or "") for c in need}
     try:
-        ensure_argos_for_langs(langs, install=True)
+        ensure_argos_for_langs(
+            [c.get("language") or "" for c in need], install=True
+        )
     except SystemExit:
         return candidates
     except Exception:
         return candidates
-    # Deduplicate Argos calls by (lang, normalized excerpt) within this batch.
+    # Deduplicate Argos calls by (lang_code, normalized excerpt) within this batch.
     batch: dict[tuple[str, str], str] = {}
     for c in need:
-        lang = (c.get("language") or "en").lower()
-        argos = normalize_source_lang(lang) or lang
-        key = (argos, normalize_excerpt(c.get("excerpt") or ""))
+        code = argos_source_code(c.get("language") or "") or ""
+        key = (code, normalize_excerpt(c.get("excerpt") or ""))
         if key in batch:
             c["excerpt_en"] = batch[key]
             continue
         try:
-            en = translate_text(c.get("excerpt") or "", source=argos, target="en")
+            en = translate_text(c.get("excerpt") or "", source=code, target="en")
             batch[key] = en
             c["excerpt_en"] = en
         except Exception as exc:  # noqa: BLE001

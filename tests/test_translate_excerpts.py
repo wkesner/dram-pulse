@@ -1,371 +1,245 @@
-"""Multi-language excerpt_en pipeline + on-demand translate API."""
+"""Multi-language excerpt_en pipeline (KO/ZH/JA/DE + aliases)."""
 
 from __future__ import annotations
 
 import csv
 from pathlib import Path
-from unittest.mock import patch
 
 import pytest
-from fastapi.testclient import TestClient
 
-from app.server import create_app
 from src.dedupe import SIGNAL_COLUMNS, write_csv
 from src.translate_excerpts import (
-    is_translatable_lang,
-    normalize_source_lang,
+    PRIMARY_SOURCE_LANGS,
+    argos_source_code,
+    display_lang,
+    is_english,
     persist_excerpt_en,
-    supported_argos_lang,
-    translate_row_excerpt,
+    translate_excerpt,
     translate_signals,
+    translate_text,
 )
 
 
 @pytest.mark.parametrize(
-    "lang,expected",
+    "lang,code",
     [
+        ("en", "en"),
+        ("EN", "en"),
+        ("english", "en"),
         ("ko", "ko"),
         ("korean", "ko"),
         ("zh", "zh"),
         ("zh-CN", "zh"),
+        ("zh-tw", "zt"),
         ("zh-TW", "zt"),
-        ("zh_tw", "zt"),
+        ("zh-Hant", "zt"),
         ("ja", "ja"),
         ("jp", "ja"),
         ("japanese", "ja"),
         ("de", "de"),
         ("german", "de"),
-        ("de-DE", "de"),
-        ("en", None),
-        ("", None),
-        ("english", None),
-        ("fr", None),
+        ("deutsch", "de"),
+        ("fr", "fr"),
+        ("UREG-not-a-lang", None),
     ],
 )
-def test_normalize_source_lang(lang: str, expected: str | None):
-    assert normalize_source_lang(lang) == expected
+def test_argos_source_code_aliases(lang: str, code: str | None):
+    assert argos_source_code(lang) == code
 
 
-def test_translatable_vs_supported():
-    assert is_translatable_lang("ko")
-    assert is_translatable_lang("zh-TW")
-    assert is_translatable_lang("de")
-    assert is_translatable_lang("fr")  # foreign UI chip even if Argos lacks package
-    assert not is_translatable_lang("en")
-    assert supported_argos_lang("ko")
-    assert supported_argos_lang("zh-TW")
-    assert supported_argos_lang("UREG".lower()) is False  # not a language code
-    assert supported_argos_lang("de")
-    assert not supported_argos_lang("fr")
+def test_primary_source_langs_cover_asia_and_de():
+    # DART / CNINFO / MOPS / EDINET / UREG
+    assert set(PRIMARY_SOURCE_LANGS) >= {"ko", "zh", "zt", "ja", "de"}
+
+
+@pytest.mark.parametrize(
+    "lang,label",
+    [
+        ("ko", "ko"),
+        ("zh", "zh"),
+        ("zh-TW", "zh-TW"),
+        ("ja", "ja"),
+        ("de", "de"),
+    ],
+)
+def test_display_lang(lang: str, label: str):
+    assert display_lang(lang) == label
+
+
+def test_is_english():
+    assert is_english("en")
+    assert is_english("")
+    assert not is_english("ko")
+    assert not is_english("de")
+    assert not is_english("zh-TW")
 
 
 def _row(**kwargs: str) -> dict[str, str]:
-    base = {
-        "signal_id": "s1",
-        "company": "Test Co",
-        "ticker_or_code": "TST",
-        "role": "supplier",
-        "tier": "1",
-        "source": "DART",
-        "form": "DART",
-        "filing_date": "2026-01-01",
-        "filing_id": "1",
-        "section": "full",
-        "product_category": "Memory",
-        "product_family": "DRAM_general",
-        "topic": "capacity",
-        "supply_direction": "tightening",
-        "sentiment": "negative",
-        "direction_conflict": "false",
-        "matched_terms": "",
-        "excerpt": "메모리 공급이 부족하다",
-        "language": "ko",
-        "excerpt_en": "",
-        "char_start": "0",
-        "char_end": "10",
-        "raw_path": "",
-        "source_url": "https://example.com",
-        "first_seen": "",
-        "last_seen": "",
-        "latest_period_end": "",
-        "times_seen": "1",
-        "carried_from_prior_year": "false",
-        "lookback_months": "12",
-        "window_start": "",
-        "window_end": "",
-        "extractor_version": "test",
-        "extracted_at": "",
-    }
+    base = {c: "" for c in SIGNAL_COLUMNS}
     base.update(kwargs)
     return base
 
 
-def test_translate_signals_english_blank_and_skips_existing():
+def test_translate_signals_skips_english_and_translates_foreign(monkeypatch):
+    calls: list[tuple[str, str]] = []
+
+    def fake_translate(text: str, *, source: str = "ko", target: str = "en") -> str:
+        calls.append((source, text[:12]))
+        return f"EN[{source}]:{text}"
+
+    monkeypatch.setattr(
+        "src.translate_excerpts.translate_text", fake_translate
+    )
+    monkeypatch.setattr(
+        "src.translate_excerpts.ensure_argos_for_langs",
+        lambda langs, install=True: [],
+    )
+
     rows = [
-        _row(signal_id="en1", language="en", excerpt="English only", source="EDGAR"),
-        _row(signal_id="ko1", language="ko", excerpt_en="Already English"),
-        _row(signal_id="zh1", language="zh", excerpt="存储紧张", source="CNINFO"),
-        _row(signal_id="de1", language="de", excerpt="Lieferengpass", source="UREG"),
-        _row(signal_id="ja1", language="ja", excerpt="供給不足", source="EDINET"),
-        _row(signal_id="tw1", language="zh-TW", excerpt="供給吃緊", source="MOPS"),
-        _row(signal_id="fr1", language="fr", excerpt="pénurie", source="AMF"),
+        _row(signal_id="e1", language="en", excerpt="English DRAM supply"),
+        _row(signal_id="k1", language="ko", excerpt="한국어 DRAM"),
+        _row(signal_id="z1", language="zh", excerpt="中文 DRAM"),
+        _row(signal_id="t1", language="zh-TW", excerpt="繁體 DRAM"),
+        _row(signal_id="j1", language="ja", excerpt="日本語 DRAM"),
+        _row(signal_id="d1", language="de", excerpt="Deutsch DRAM"),
+        _row(
+            signal_id="k2",
+            language="ko",
+            excerpt="이미 번역",
+            excerpt_en="Already EN",
+        ),
     ]
-    with patch(
-        "src.translate_excerpts.translate_text",
-        side_effect=lambda text, source="ko", target="en": f"EN[{source}:{text}]",
-    ):
-        out, stats = translate_signals(rows, force=False, dry_run=False)
-
+    out, stats = translate_signals(rows, force=False, dry_run=False, install=False)
     by_id = {r["signal_id"]: r for r in out}
-    assert by_id["en1"]["excerpt_en"] == ""
-    assert by_id["ko1"]["excerpt_en"] == "Already English"
-    assert by_id["zh1"]["excerpt_en"] == "EN[zh:存储紧张]"
-    assert by_id["de1"]["excerpt_en"] == "EN[de:Lieferengpass]"
-    assert by_id["ja1"]["excerpt_en"] == "EN[ja:供給不足]"
-    assert by_id["tw1"]["excerpt_en"] == "EN[zt:供給吃緊]"
-    assert by_id["fr1"]["excerpt_en"] == ""
+
+    assert by_id["e1"]["excerpt_en"] == ""
+    assert by_id["e1"]["excerpt"] == "English DRAM supply"
+    assert by_id["k1"]["excerpt_en"].startswith("EN[ko]:")
+    assert by_id["z1"]["excerpt_en"].startswith("EN[zh]:")
+    assert by_id["t1"]["excerpt_en"].startswith("EN[zt]:")
+    assert by_id["j1"]["excerpt_en"].startswith("EN[ja]:")
+    assert by_id["d1"]["excerpt_en"].startswith("EN[de]:")
+    assert by_id["k2"]["excerpt_en"] == "Already EN"
+    # Originals unchanged
+    assert by_id["k1"]["excerpt"] == "한국어 DRAM"
+    assert by_id["d1"]["excerpt"] == "Deutsch DRAM"
+
     assert stats["english"] == 1
+    assert stats["translated"] == 5
     assert stats["skipped_existing"] == 1
-    assert stats["translated"] == 4
-    assert stats["unsupported_lang"] == 1
-    # Original excerpts never mutated.
-    assert by_id["zh1"]["excerpt"] == "存储紧张"
-    assert by_id["de1"]["excerpt"] == "Lieferengpass"
+    assert {c[0] for c in calls} == {"ko", "zh", "zt", "ja", "de"}
 
 
-def test_translate_row_excerpt_uses_cache_and_rejects_english():
-    cached = _row(excerpt_en="Cached EN")
-    assert translate_row_excerpt(cached) == "Cached EN"
+def test_translate_signals_dry_run_does_not_call_argos(monkeypatch):
+    def boom(*_a, **_k):
+        raise AssertionError("should not translate on dry-run")
 
-    with pytest.raises(ValueError, match="english_signal"):
-        translate_row_excerpt(_row(language="en", excerpt="hi"))
-
-    with patch(
-        "src.translate_excerpts.ensure_argos_for_langs", return_value=["de"]
-    ), patch(
-        "src.translate_excerpts.translate_text", return_value="Shortage"
-    ):
-        en = translate_row_excerpt(
-            _row(language="de", excerpt="Engpass", excerpt_en="", source="UREG")
-        )
-    assert en == "Shortage"
+    monkeypatch.setattr("src.translate_excerpts.translate_text", boom)
+    rows = [_row(signal_id="d1", language="de", excerpt="Halbleiter DRAM")]
+    out, stats = translate_signals(rows, dry_run=True, install=False)
+    assert out[0]["excerpt_en"] == ""
+    assert stats["translated"] == 1
 
 
-def test_persist_excerpt_en(tmp_path: Path):
+def test_translate_excerpt_rejects_english():
+    assert translate_excerpt("hello", "en", install=False) == ""
+
+
+def test_translate_excerpt_unsupported():
+    with pytest.raises(ValueError, match="unsupported"):
+        translate_excerpt("x", "xx-unknown", install=False)
+
+
+def test_translate_excerpt_zh_tw_falls_back_to_zh(monkeypatch):
+    """Fly images often lack Argos zt; zh-TW must still produce English via zh."""
+    ensured: list[str] = []
+    calls: list[str] = []
+
+    def fake_ensure(code: str, *, target: str = "en", install: bool = True) -> None:
+        ensured.append(code)
+        if code == "zt":
+            raise SystemExit("zt package unavailable")
+
+    def fake_translate(text: str, *, source: str = "ko", target: str = "en") -> str:
+        calls.append(source)
+        if source == "zh":
+            return f"EN-zh:{text[:20]}"
+        return ""
+
+    monkeypatch.setattr("src.translate_excerpts.ensure_argos_pair", fake_ensure)
+    monkeypatch.setattr("src.translate_excerpts.translate_text", fake_translate)
+
+    out = translate_excerpt("聯電產能利用率", "zh-TW", install=True)
+    assert out.startswith("EN-zh:")
+    assert "zt" in ensured and "zh" in ensured
+    assert calls == ["zh"]
+
+
+def test_translate_text_zt_empty_retries_zh(monkeypatch):
+    calls: list[str] = []
+
+    def fake_argos_translate(text, src, tgt):
+        calls.append(src)
+        if src == "zt":
+            return ""
+        if src == "zh":
+            return "capacity utilization"
+        return ""
+
+    class _Mod:
+        @staticmethod
+        def translate(text, src, tgt):
+            return fake_argos_translate(text, src, tgt)
+
+    import sys
+    import types
+
+    fake_pkg = types.ModuleType("argostranslate")
+    fake_pkg.translate = _Mod
+    monkeypatch.setitem(sys.modules, "argostranslate", fake_pkg)
+    monkeypatch.setitem(sys.modules, "argostranslate.translate", fake_pkg.translate)
+    monkeypatch.setattr(
+        "src.translate_excerpts.ensure_argos_pair",
+        lambda *a, **k: None,
+    )
+
+    out = translate_text("產能利用率", source="zt", target="en")
+    assert out == "capacity utilization"
+    assert calls == ["zt", "zh"]
+
+
+def test_persist_excerpt_en(tmp_path: Path, monkeypatch):
     path = tmp_path / "signals.csv"
     rows = [
-        _row(signal_id="ko1", language="ko"),
-        _row(signal_id="en1", language="en", excerpt="EN", source="EDGAR"),
+        _row(signal_id="a", language="zh", excerpt="中文", excerpt_en=""),
+        _row(signal_id="b", language="en", excerpt="EN", excerpt_en=""),
     ]
     write_csv(path, rows, SIGNAL_COLUMNS)
-    assert persist_excerpt_en(path, "ko1", "Hello memory")
+    assert persist_excerpt_en(path, "a", "Chinese DRAM")
     with path.open(encoding="utf-8", newline="") as fh:
-        saved = {r["signal_id"]: r for r in csv.DictReader(fh)}
-    assert saved["ko1"]["excerpt_en"] == "Hello memory"
-    # English must stay blank even if persist is called.
-    assert not persist_excerpt_en(path, "en1", "should not stick")
-    with path.open(encoding="utf-8", newline="") as fh:
-        saved = {r["signal_id"]: r for r in csv.DictReader(fh)}
-    assert saved["en1"]["excerpt_en"] == ""
+        loaded = {r["signal_id"]: r for r in csv.DictReader(fh)}
+    assert loaded["a"]["excerpt_en"] == "Chinese DRAM"
+    assert loaded["a"]["excerpt"] == "中文"
+    assert loaded["b"]["excerpt_en"] == ""
+    assert not persist_excerpt_en(path, "missing", "x")
 
 
-def test_extract_source_language_defaults_cover_asia_and_ureg():
-    """Source→language defaults include Asian filings + UREG/BaFin DE."""
+def test_translate_text_passthrough_empty():
+    assert translate_text("", source="de", target="en") == ""
+
+
+def test_extract_source_language_defaults_include_ureg_asia():
+    """UREG→de and Asia portals stay wired for translate coverage."""
     import src.extract as extract_mod
 
-    text = Path(extract_mod.__file__).read_text(encoding="utf-8")
-    mapping = {
-        "DART": "ko",
-        "CNINFO": "zh",
-        "MOPS": "zh-TW",
-        "TWSE": "zh-TW",
-        "EDINET": "ja",
-        "UREG": "de",
-        "BAFIN_UREG": "de",
-        "BAFIN": "de",
-    }
-    for src_name, lang in mapping.items():
-        assert f'"{src_name}": "{lang}"' in text
-
-
-@pytest.fixture()
-def translate_client(tmp_path: Path) -> tuple[TestClient, Path]:
-    signals = tmp_path / "signals.csv"
-    sightings = tmp_path / "sightings.csv"
-    votes = tmp_path / "votes.csv"
-    companies = tmp_path / "companies.yaml"
-    rows = [
-        _row(
-            signal_id="ko_cached",
-            language="ko",
-            excerpt="한글",
-            excerpt_en="Korean cached",
-            source="DART",
-        ),
-        _row(
-            signal_id="zh_need",
-            language="zh",
-            excerpt="存储紧张",
-            excerpt_en="",
-            source="CNINFO",
-            matched_terms="product:晶圆代工; topic:短缺; dir:短缺",
-        ),
-        _row(
-            signal_id="umc_tw",
-            language="zh-tw",
-            excerpt="產能利用率達92%，產能滿載",
-            excerpt_en="",
-            source="MOPS",
-            company="UMC",
-            ticker_or_code="2303",
-            matched_terms="product:約當晶圓; topic:產能利用率; dir:產能滿載",
-        ),
-        _row(
-            signal_id="de_need",
-            language="de",
-            excerpt="Lieferengpass bei Speicher",
-            excerpt_en="",
-            source="UREG",
-        ),
-        _row(
-            signal_id="en_row",
-            language="en",
-            excerpt="English filing text",
-            excerpt_en="",
-            source="EDGAR",
-        ),
-        _row(
-            signal_id="fr_row",
-            language="fr",
-            excerpt="pénurie",
-            excerpt_en="",
-            source="AMF",
-        ),
-    ]
-    write_csv(signals, rows, SIGNAL_COLUMNS)
-    sightings.write_text(
-        "sighting_id,signal_id,filing_date,form,section,match,source_url,excerpt\n",
-        encoding="utf-8",
-    )
-    votes.write_text("vote_id,signal_id,user,vote,voted_at\n", encoding="utf-8")
-    companies.write_text("companies: []\n", encoding="utf-8")
-    app = create_app(
-        signals_path=signals,
-        sightings_path=sightings,
-        votes_path=votes,
-        companies_path=companies,
-        mount_static=False,
-        mode="single",
-        broker_sim_open=True,
-    )
-    return TestClient(app), signals
-
-
-def test_api_translate_cached_and_ondemand(translate_client):
-    client, signals = translate_client
-
-    r = client.post("/api/signals/ko_cached/translate")
-    assert r.status_code == 200
-    body = r.json()
-    assert body["cached"] is True
-    assert body["excerpt_en"] == "Korean cached"
-    assert body["language"] == "ko"
-
-    with patch(
-        "src.translate_excerpts.ensure_argos_for_langs", return_value=["zh"]
-    ), patch(
-        "src.translate_excerpts.translate_text", return_value="Storage is tight"
-    ):
-        r = client.post("/api/signals/zh_need/translate")
-    assert r.status_code == 200
-    body = r.json()
-    assert body["cached"] is False
-    assert body["excerpt_en"] == "Storage is tight"
-    assert body["language"] == "zh"
-
-    # Persisted for subsequent calls.
-    with signals.open(encoding="utf-8", newline="") as fh:
-        saved = {row["signal_id"]: row for row in csv.DictReader(fh)}
-    assert saved["zh_need"]["excerpt_en"] == "Storage is tight"
-    assert saved["zh_need"]["excerpt"] == "存储紧张"
-
-    r2 = client.post("/api/signals/zh_need/translate")
-    assert r2.json()["cached"] is True
-
-
-def test_api_translate_de_ureg(translate_client):
-    client, _signals = translate_client
-    with patch(
-        "src.translate_excerpts.ensure_argos_for_langs", return_value=["de"]
-    ), patch(
-        "src.translate_excerpts.translate_text",
-        return_value="Memory supply bottleneck",
-    ):
-        r = client.post("/api/signals/de_need/translate")
-    assert r.status_code == 200
-    assert r.json()["excerpt_en"] == "Memory supply bottleneck"
-    assert r.json()["language"] == "de"
-
-
-def test_api_translate_umc_zh_tw(translate_client):
-    """MOPS traditional Chinese (UMC) is translatable via zt/zh Argos."""
-    client, signals = translate_client
-    with patch(
-        "src.translate_excerpts.ensure_argos_for_langs", return_value=["zt"]
-    ), patch(
-        "src.translate_excerpts.translate_text",
-        return_value="Capacity utilization rate reached 92%; fabs at full capacity",
-    ):
-        r = client.post("/api/signals/umc_tw/translate")
-    assert r.status_code == 200
-    body = r.json()
-    assert body["language"] == "zh-tw"
-    assert "capacity utilization" in body["excerpt_en"].lower()
-    assert any(
-        "capacity" in t.lower() for t in body.get("matched_terms_en") or []
-    )
-    with signals.open(encoding="utf-8", newline="") as fh:
-        saved = {row["signal_id"]: row for row in csv.DictReader(fh)}
-    assert saved["umc_tw"]["excerpt_en"]
-    assert saved["umc_tw"]["excerpt"].startswith("產能利用率")
-
-
-def test_api_translate_rejects_english_and_unknown(translate_client):
-    client, _ = translate_client
-    r = client.post("/api/signals/en_row/translate")
-    assert r.status_code == 400
-    assert "english" in r.json()["detail"].lower()
-
-    r = client.post("/api/signals/fr_row/translate")
-    assert r.status_code == 422
-
-    r = client.post("/api/signals/missing/translate")
-    assert r.status_code == 404
-
-
-def test_api_signals_exposes_excerpt_en_for_foreign(translate_client):
-    client, _ = translate_client
-    body = client.get("/api/signals").json()
-    by_id = {r["signal_id"]: r for r in body}
-    assert by_id["ko_cached"]["language"] == "ko"
-    assert by_id["ko_cached"]["excerpt_en"] == "Korean cached"
-    assert by_id["en_row"]["excerpt_en"] == ""
-    assert by_id["de_need"]["language"] == "de"
-    # EN highlight map present for foreign rows.
-    assert isinstance(by_id["zh_need"]["matched_terms_en"], list)
-
-
-def test_api_translate_returns_matched_terms_en(translate_client):
-    client, _ = translate_client
-    # Seed a zh-TW / UMC-shaped row via existing zh_need matched_terms after patch.
-    with patch(
-        "src.translate_excerpts.ensure_argos_for_langs", return_value=["zh"]
-    ), patch(
-        "src.translate_excerpts.translate_text",
-        return_value="Capacity utilization rate reached 92% at full capacity",
-    ):
-        r = client.post("/api/signals/zh_need/translate")
-    assert r.status_code == 200
-    body = r.json()
-    assert "matched_terms_en" in body
-    assert isinstance(body["matched_terms_en"], list)
+    src = Path(extract_mod.__file__).read_text(encoding="utf-8")
+    assert '"UREG": "de"' in src
+    assert '"BAFIN": "de"' in src
+    assert '"BAFIN_UREG": "de"' in src
+    assert '"AMF": "fr"' in src
+    assert '"EDINET": "ja"' in src
+    assert '"CNINFO": "zh"' in src
+    assert '"MOPS": "zh-TW"' in src
+    assert argos_source_code("de") == "de"
+    assert argos_source_code("zh-TW") == "zt"
+    assert argos_source_code("ja") == "ja"

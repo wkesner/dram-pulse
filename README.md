@@ -277,10 +277,10 @@ Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea Open
 **English toggle:** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
 
 ```bash
-python3 -m src.translate_excerpts   # downloads ko/zh/zt/ja/de→en packages as needed
+python3 -m src.translate_excerpts   # downloads needed *→en packages (ko/zh/zt/ja/de/…)
 ```
 
-Supported source languages: **ko** (DART), **zh** (CNINFO), **zh-TW** / **zt** (MOPS, e.g. UMC), **ja** (EDINET), **de** (UREG / BaFin). Feed cards with `language != en` always show **Show English** / **Original**. If `excerpt_en` is blank, the UI calls `POST /api/signals/{id}/translate` (on-demand Argos) and persists the result. English view highlights **term-bank EN equivalents** of `matched_terms` (`matched_terms_en` on `/api/signals`). English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
+Covered filing languages: **ko** (DART), **zh** / **zh-TW** (CNINFO / MOPS, e.g. UMC), **ja** (EDINET), **de** (UREG / BaFin), plus other Argos *→en pairs. Feed cards with `language != en` always show **Show English** / **Original**; if `excerpt_en` is blank the UI calls `POST /api/translate` (Argos; zh-TW uses `zt`, with `zh` fallback) and persists. English view highlights term-bank EN equivalents (`matched_terms_en`). English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
 
 ---
 
