@@ -517,3 +517,130 @@ japanese:
       - 低迷
       - 悪化
       - 減速
+
+# German terms (Unternehmensregister / Bundesanzeiger). Merged at extract.
+# Prefer compounds / multi-word phrases; avoid bare Lieferkette, Bestand,
+# Kapazität, Versorgung, Preis, Nachfrage (legalese / accounting noise).
+german:
+  topics:
+    availability:
+      - Lieferengpässe
+      - Lieferengpass
+      - Lieferverzögerungen
+      - Lieferverzögerung
+      - verlängerte Lieferzeiten
+      - verlängerte Lieferzeit
+      - Lieferzeiten
+      - Lieferzeit
+      - Versorgungslage
+      - Versorgungsengpässe
+      - Versorgungsengpass
+      - Lieferkettenstörungen
+      - Lieferkettenstörung
+      - Störungen in der Lieferkette
+      - Produktallokation
+      - auf Allokation
+      - Kontingentierung
+      - Verknappung
+      - Unterversorgung
+      - Überangebot
+      - Allokation
+    pricing:
+      - Preissteigerungen
+      - Preissteigerung
+      - Preisanstiege
+      - Preisanstieg
+      - Preisrückgänge
+      - Preisrückgang
+      - Preisdruck
+      - Durchschnittsverkaufspreise
+      - Verkaufspreise
+      - Verkaufspreis
+    inventory:
+      - Bestandsaufbau
+      - Lageraufbau
+      - Lagerbestände
+      - Lagerbestand
+      - Vorratsvermögen
+      - Überbestände
+      - Überbestand
+    capacity:
+      - Kapazitätsengpässe
+      - Kapazitätsengpass
+      - Kapazitätsauslastung
+      - Fertigungskapazität
+      - Produktionskapazität
+      - Waferkapazität
+      - Kapazitätserweiterung
+      - Kapazitätsausbau
+      - Auslastung
+    yield_quality:
+      - Ausbeute
+      - Qualifikation
+    demand:
+      - Nachfragewachstum
+      - Nachfrageschub
+      - Nachfragerückgang
+      - Nachfrageschwäche
+      - starke Nachfrage
+      - robuste Nachfrage
+  direction:
+    tightening:
+      - Lieferengpässe
+      - Lieferengpass
+      - Lieferverzögerungen
+      - Lieferverzögerung
+      - verlängerte Lieferzeiten
+      - verlängerte Lieferzeit
+      - Versorgungsengpässe
+      - Versorgungsengpass
+      - Lieferkettenstörungen
+      - Lieferkettenstörung
+      - Störungen in der Lieferkette
+      - Produktallokation
+      - auf Allokation
+      - Kontingentierung
+      - Verknappung
+      - Unterversorgung
+      - Kapazitätsengpässe
+      - Kapazitätsengpass
+      - Preissteigerungen
+      - Preissteigerung
+      - Preisanstiege
+      - Preisanstieg
+      - Nachfrageschub
+      - starke Nachfrage
+    easing:
+      - Überangebot
+      - Bestandsaufbau
+      - Lageraufbau
+      - Überbestände
+      - Überbestand
+      - Preisrückgänge
+      - Preisrückgang
+      - Preisdruck
+      - Nachfragerückgang
+      - Nachfrageschwäche
+      - Entspannung der Versorgungslage
+      - Entspannung der Lieferkette
+    stable:
+      - ausgeglichene Versorgungslage
+      - stabile Versorgung
+      - Angebot und Nachfrage ausgewogen
+  sentiment:
+    positive:
+      - starke Nachfrage
+      - robuste Nachfrage
+      - Nachfragewachstum
+      - Rekordniveau
+      - zweistelliges Wachstum
+      - Wachstum
+      - robust
+    negative:
+      - Gegenwind
+      - belastend
+      - nachteilig
+      - schwach
+      - Rückgang
+      - Rückgänge
+      - Abschwächung
