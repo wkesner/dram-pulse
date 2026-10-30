@@ -1,0 +1,34 @@
+{
+  "company": "Analog Devices",
+  "ticker": "ADI",
+  "cik": "0000006281",
+  "form": "10-K",
+  "filing_date": "2025-11-25",
+  "accession_number": "0000006281-25-000153",
+  "primary_document": "adi-20251101.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000153/adi-20251101.htm",
+  "fiscal_year_end": "1031",
+  "report_date": "2025-11-01",
+  "period_end": "2025-11-01",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:59.136840+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ADI/000000628125000153/primary.html",
+    "business": "data/raw/ADI/000000628125000153/item1_business.txt",
+    "risk_factors": "data/raw/ADI/000000628125000153/item1a_risk_factors.txt",
+    "mdna": "data/raw/ADI/000000628125000153/item7_mdna.txt",
+    "other": "data/raw/ADI/000000628125000153/other_full.txt"
+  }
+}

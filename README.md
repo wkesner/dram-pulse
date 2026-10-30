@@ -2,6 +2,30 @@
 
 Qualitative memory-market signals from public filings (see [`SPEC.md`](SPEC.md)).
 
+## Remotes (Origin + GitHub)
+
+- **`origin`** — Cursor Origin (`origin.cursor.com/git/william-kesner/dram-pulse`) — primary.
+- **`github`** — public mirror (`https://github.com/wkesner/dram-pulse.git`).
+
+Until GitHub credentials are available on the worker, push both explicitly:
+
+```bash
+git push -u origin HEAD
+git push -u github HEAD
+```
+
+After `gh auth login` (or a PAT in the credential helper), you can enable dual-push so one `git push origin` updates both:
+
+```bash
+ORIGIN_URL=$(git remote get-url --push origin)   # keep existing Origin URL
+git remote set-url --push --add origin "$ORIGIN_URL"
+git remote set-url --push --add origin https://github.com/wkesner/dram-pulse.git
+# Do not enable this until `git push github HEAD` succeeds — a failing GitHub
+# push URL makes the whole `git push origin` fail.
+```
+
+Never commit `.env` or API keys.
+
 ## Milestone 1 — Micron EDGAR 10-K
 
 Fetch Micron's latest 10-K from SEC EDGAR, cache it under `data/raw/`, and split Item 1 (Business), Item 1A (Risk Factors), and Item 7 (MD&A). Full plain text is kept as `other`.
@@ -78,6 +102,87 @@ python3 scripts/simulate_votes.py --reset --cover 0.72 --seed 42
 python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
 ```
 
+### Broker market simulation
+
+Three fictional DRAM component brokers compete for virtual P&L on the shared
+seed catalog (`data/seed_catalog.json`). They buy offers **under** market and
+sell customer demand **at or above** market, with partially overlapping
+customer books (buyers from `config/companies.yaml` plus invented EMS/ODM
+names — not three disjoint books). Starting cash is **$250k** per broker.
+
+| Broker | Personality |
+|--------|-------------|
+| Apex Component Brokers | Hungry buyer, patient seller, holds inventory |
+| Harbor Electronics Trading | Deep discounts only, quick flips at ≥ market |
+| Summit Memory Partners | Balanced volume, broadest customer affinity |
+
+Each baseline has a **scored twin** (same strategy + $250k) with fast access to
+a simple 0–100 **memory timing score** (shortage ≥60 / glut ≤40; inspired by
+rubric S*/D* sides). Twins observe the latent score with **lag=1 day** by
+default and nudge buy/sell thresholds; baselines are unscored. Market mid
+drift is weakly biased by the true score so earlier information can matter.
+See `dram_signals/broker_sim/memory_score.py`.
+
+**Prices:** prefer the free MemoryIndex public board
+(`GET https://memoryindex.io/api/public/v1/prices`, no key for a 10-contract
+slice; optional `MEMORYINDEX_KEY`). Rows often cite DRAMeXchange / TrendForce
+or Silicon Analysts. Free-tier license is **internal use only**. On network
+failure, last-good cache at `data/broker_sim/memoryindex_cache.json`, then the
+illustrative technology × density × grade model. Not used: DRAMeXchange HTML
+scrape (ToS), Ornn/DigiKey spot (paid keys).
+
+```bash
+python3 -m scripts.simulate_brokers --days 30 --seed 42          # baselines + scored twins
+python3 -m scripts.simulate_brokers --baseline-only --no-live
+python3 -m scripts.simulate_brokers --score-lag 1 --json
+pytest tests/test_broker_sim.py tests/test_broker_live_prices.py tests/test_broker_scored_twins.py
+```
+
+**GUI / graphs** (equity, P&L, cash, inventory; baseline vs scored). Port **8010**
+avoids colliding with the feed server on 8000:
+
+```bash
+# Local GUI (single mode): explicitly enable the offline demo gate
+BROKER_SIM_OPEN=1 uvicorn app.server:app --host 0.0.0.0 --port 8010
+# open http://127.0.0.1:8010/brokers.html
+# API (token gate): X-Broker-Sim-Token + GET /api/broker-sim?days=30&seed=42&live=false
+# Clerk mode: Authorization: Bearer <session JWT> (BROKER_SIM_OPEN does not bypass)
+```
+
+Details: `dram_signals/broker_sim/` (`live_prices.py`, `memory_score.py`). Max `days=90`;
+open single-tenant demo forces offline prices and caps at 30 days.
+
+## Multi-org demo (Clerk)
+
+Default remains **single-tenant** (`AUTH_MODE=single`): typed “Voting as” name.
+
+For the multi-org demo, prefer the [Clerk CLI](https://clerk.com/docs/cli) (FastAPI is not an accountless `clerk init` framework — we use Clerk JS + backend JWT verify):
+
+```bash
+npx -y clerk@latest auth login
+npx -y clerk@latest apps list --json          # if several apps, pick one id
+npx -y clerk@latest link --app <application_id>
+npx -y clerk@latest env pull --file .env      # publishable + secret only
+npx -y clerk@latest enable orgs
+# then ensure:
+#   AUTH_MODE=clerk
+#   CLERK_ISSUER=https://<frontend-api>.clerk.accounts.dev   # optional; derived from pk if omitted
+#   CLERK_AUTHORIZED_PARTIES=http://127.0.0.1:8000,http://localhost:8000
+#   OPERATOR_TOKEN=…   # optional
+```
+
+Dashboard still recommended: email verification + bot/CAPTCHA; Allowed origins `http://127.0.0.1:8000` and `http://localhost:8000`.
+
+```bash
+pip install -r requirements.txt
+python3 -m uvicorn app.server:app --host 0.0.0.0 --port 8000
+```
+
+Open the feed → sign in via Clerk → create/select an organization. The API seeds `data/orgs/{org_id}/` with a private copy of the base corpus. Votes never cross orgs. Anonymized events append to `data/aggregates/events.jsonl` (operator: `GET /api/operator/aggregates` + `X-Operator-Token`).
+
+Isolation tests: `pytest tests/test_clerk_isolation.py`.
+
+
 ## Milestone 5 — OpenDART + Samsung IR
 
 Korean periodic / major-event disclosures via OpenDART, plus Samsung English IR PDFs.
@@ -95,6 +200,81 @@ python3 -m src.verify              # must be 100%
 ```
 
 `document.xml` returns a **ZIP** (official OpenDART guide). Cached under `data/raw/{krx_code}/{rcept_no}/` with `meta.json` + `other_full.txt`. Korean rows use `language=ko` and Korean terms from `config/supply_terms.yaml` / `product_taxonomy.yaml`.
+
+## Asia / UK filings (JP · CN · LSE)
+
+Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
+
+| Market | Module | Auth | Status |
+|--------|--------|------|--------|
+| **China (CNINFO)** | `python -m src.fetch_cninfo` | none | **v1 live** — unofficial public JSON on the CSRC-designated site |
+| **Taiwan (MOPS/TWSE)** | `python -m src.fetch_mops` | none | **v1 live** — official `openapi.twse.com.tw` |
+| **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
+| **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
+| **France (AMF Info‑financière)** | `python -m src.fetch_amf` | none | **stub** — free OAM JSON API; wire ISINs next |
+| TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
+| LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
+| FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
+| BaFin / Unternehmensregister (DE) | — | portal | ranked after AMF; no clean public filing API yet |
+| AFM registers (NL) | — | portal | thin vs ASML/NXP already on EDGAR |
+
+```bash
+# China (no key) — SMIC / GigaDevice / Hua Hong / JCET / Luxshare / NAURA
+python3 -m src.fetch_cninfo
+python3 -m src.fetch_cninfo --ticker 603986
+
+# Taiwan (no key) — TSMC / MediaTek / ASE / UMC / Winbond / Nanya / …
+python3 -m src.fetch_mops
+python3 -m src.fetch_mops --ticker 2330
+
+# Japan — after EDINET_API_KEY is on this VM (.env or Cursor environment secret)
+python3 -m src.fetch_edinet
+python3 -m src.fetch_edinet --ticker 8035
+
+# UK Companies House — after COMPANIES_HOUSE_API_KEY is on this VM
+python3 -m src.fetch_companies_house
+python3 -m src.fetch_companies_house --ticker RSW
+
+# Extract + verify (same dedupe path as EDGAR/DART)
+export SEC_USER_AGENT="ECSignals Your Name you@example.com"
+python3 -m src.extract --all --no-fetch-prior
+python3 -m src.verify
+```
+
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+
+### Auth / rate limits / ToS (summary)
+
+- **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
+- **MOPS/TWSE**: no key. Official OpenAPI (`t187ap04_L` material info + `t187ap05_L` monthly revenue). Snapshots are latest-period (not a historical range) — re-runs accumulate cache. Prefer OpenAPI over MOPS HTML (TWSE ToS discourages automated scrape of non-API pages). Soft ≤1 r/s.
+- **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
+- **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
+- **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.
+- **FCA NSM**: free human search/CSV export; no programmatic retrieval API yet.
+
+### v2 exchange roadmap (secondary / regional)
+
+Ranked for electronic-commodity supply signals + information imbalance. Prefer official open data. **Do not start these until Taiwan/JP/UK keys are green.**
+
+| Rank | Market | Source | Key? | Why next | Caveats |
+|------|--------|--------|------|----------|---------|
+| 1 | **AMF Info‑financière (FR)** | `info-financiere.gouv.fr` explore API | No | Best free EU filing API after EDGAR dual-lists | FR/EN mix; wire ISINs (`fetch_amf` stub) |
+| 2 | **BaFin / Unternehmensregister (DE)** | Portal publications | Free portal; limited API | High DE electronics density (Infineon, …) | German text; clunky register UX; no clean API |
+| 3 | **AFM registers (NL)** | Financial-reporting HTML register | Free portal | NL names beyond ASML/NXP | Thin vs EDGAR dual-lists |
+| 4 | **HKEX** | HKEXnews title search + PDF | No free official API | Dense electronics/ODM/foundry H-shares | Portal ToS / anti-bot |
+| 5 | **SEDAR+ (Canada)** | CSA API / bulk | Free account for some feeds | Memory/packaging via TSX | API access tiers vary |
+| 6 | **ASX (Australia)** | ASX announcements | Mostly free portal | Thin electronics; clean English | No rich open API |
+| 7 | **India BSE/NSE** | BSE/NSE archives | Mixed free | Growing EMS/OSAT/design density | Endpoint stability uneven |
+
+Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea OpenDART**, **China CNINFO**, **Taiwan TWSE OpenAPI**, **Japan EDINET** (key), **UK Companies House** (key). AMF stubbed. Skip paid LSE RNS until LSEG credentials exist; revisit FCA NSM ~2027. Prefer EDGAR dual-lists over Infineon OTC `IFNNY` (no live 20-F).
+
+**English toggle (SPEC later):** originals stay in `excerpt`. Fill `excerpt_en` offline with Argos Translate (`pip install 'argostranslate>=1.9,<2'`), then:
+
+```bash
+python3 -m src.translate_excerpts   # downloads ko→en package on first run
+```
+
+Feed cards with `language != en` (and a non-empty `excerpt_en`) show **Show English** / **Original**. English rows leave `excerpt_en` blank. Re-extract preserves existing translations by `signal_id`.
 
 ---
 
@@ -363,10 +543,12 @@ dram_signals/
   collectors/icims.py           # iCIMS HTML + JSON-LD
   collectors/micron_obsolete.py # Micron obsolete part catalogs → catalog/PCN
   catalog/                      # families, variants, grades, PCN linkage
+  broker_sim/                   # three overlapping DRAM brokers (P&L sim)
   __main__.py                   # once | schedule | status | catalog
 data/job_boards.json            # curated ATS board tokens / CXS URLs / hosts
 data/seed_catalog.json          # example families with grade twins
 scripts/probe_catalogs.py       # Step 0 read-only robots + catalog probes
+scripts/simulate_brokers.py     # CLI for broker market simulation
 docs/robots-findings.md         # SK / DRAMeXchange / Samsung robots paths
 data/partnum_rules.yaml         # Step 2 PN decode rules (sourced)
 data/part_seed.txt              # Optional customer MPN list for Step 3

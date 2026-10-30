@@ -1,0 +1,322 @@
+ITEM 2.  MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+The following discussion should be read along with the unaudited consolidated condensed financial statements and notes thereto included in Item 1 of this Quarterly Report on Form 10-Q, as well as the audited consolidated financial statements and notes thereto and Management’s Discussion and Analysis of Financial Condition and Results of Operations for the fiscal year ended March 29, 2025, contained in our fiscal year 2025 Annual Report on Form 10-K filed with the Securities and Exchange Commission (the “Commission”) on May 23, 2025. 
+
+We maintain a website at 
+investor.cirrus.com
+, which makes available free of charge our
+
+most
+
+recent annual report and
+
+all
+
+other filings
+
+we have made
+
+with the
+
+Commission. 
+Special Note Regarding Forward-Looking Statements
+This Quarterly Report on Form 10-Q including Management’s Discussion and Analysis of Financial Condition and Results of Operations and certain information incorporated herein by reference contain forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”).  These forward-looking statements are based on expectations, estimates, forecasts and projections and the beliefs and assumptions of our management as of the filing of this Form 10-Q.  In some cases, forward-looking statements are identified by words such as “expect,” “anticipate,” “target,” “project,” “believe,” “goals,” “estimates,” “intend,” and variations of these types of words and similar expressions which are intended to identify these forward-looking statements.  In addition, any statements that refer to our plans, expectations, strategies or other characterizations of future events or circumstances are forward-looking statements.  Readers are cautioned that these forward-looking statements are predictions and are subject to risks, uncertainties and assumptions that are difficult to predict.  Therefore, actual results may differ materially and adversely from those expressed in any forward-looking statements and readers should not place undue reliance on such statements.  We undertake no obligation, and expressly disclaim any duty, to revise or update publicly any forward-looking statement for any reason, except as required by law.
+For additional information regarding known material factors that could cause our actual results to differ from our projected results, please see
+
+“Item 1A - Risk Factors”
+
+in our 2025 Annual Report
+
+on Form 10-K filed with the Commission on
+
+May 23, 2025,
+
+and in “
+Part II, Item 1A
+ -
+Risk Factors
+” within this Quarterly Report on Form 10-Q.  Readers should carefully review these risk factors, as well as those identified in other documents filed by us with the Commission. 
+Overview
+Cirrus Logic, Inc. (“Cirrus Logic,” “We,” “Us,” “Our,” or the “Company”) is a leader in low-power, high-precision mixed-signal processing solutions that create innovative user experiences for the world’s top mobile and consumer applications.
+The Company remains committed to our three-pronged strategy for growing our business: first, maintaining our leadership position in smartphone audio; second, increasing HPMS content in smartphones; and third, leveraging our strength in audio and HPMS to expand into additional applications and markets with new and existing components.  During the second quarter of fiscal year 2026, we continued to execute on these strategic initiatives.  We were delighted to see multiple smartphone customers introduce their latest generation devices featuring our audio and HPMS components.  Outside of smartphones, we continued to execute on our plan to grow market share in the PC market.  Progress in this space included securing our first mainstream consumer laptop design, expanding our collaboration with leading System-on-a-Chip (SoC) vendors, and developing new products with superior voice and audio capture capabilities.  Additionally, we continue to focus on our general market business.  During the quarter, we gained design momentum with customers on our latest-generation ADCs, DACs, and ultra-high-performance audio codec.  We also received positive initial feedback on our family of analog front-end components targeting imaging applications and saw increased engagement on our latest timing product family.  Looking forward, we are optimistic about the opportunities ahead of us as we continue to seek to leverage our mixed-signal design and signal processing expertise to diversify our product portfolio and expand our addressable market.
+Critical Accounting Policies and Estimates
+Our discussion and analysis of the Company’s financial condition and results of operations are based upon the unaudited consolidated condensed financial statements included in this report, which have been prepared in accordance with U.S. GAAP.  The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts.  We evaluate the estimates on an ongoing basis.  We base these estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances, the results of which form the basis for making
+17
+judgments about the carrying values of assets and liabilities that are not readily apparent from other sources.  Actual results may differ from these estimates under different assumptions and conditions. 
+There have been no significant changes during the three and six months ended September 27, 2025, to the information provided under the headings “
+Critical Accounting Estimates
+” and “
+Summary of Significant Accounting Policies
+” included in our fiscal year 2025 Annual Report on Form 10-K for the fiscal year ended March 29, 2025.
+Recently Issued Accounting Pronouncements
+For a discussion of recently issued accounting pronouncements, refer to Note 2 of the Notes to the Consolidated Condensed Financial Statements.
+Results of Operations
+ 
+Our fiscal year is the 52- or 53-week period ending on the last Saturday in March.  Fiscal years 2026 and 2025 are 52-week fiscal years.
+The following table summarizes the results of our operations for the
+three and six
+ months of fiscal years 2026
+
+and
+
+2025, respectively,
+
+as a
+
+percentage
+
+of net sales.  All
+
+percentage
+
+amounts were calculated using the underlying data in thousands, unaudited:
+Three Months Ended
+Six Months Ended
+September 27,
+September 28,
+September 27,
+September 28,
+2025
+2024
+2025
+2024
+Net sales
+100 
+%
+100 
+%
+100 
+%
+100 
+%
+Gross margin
+53 
+%
+52 
+%
+53 
+%
+52 
+%
+Research and development
+20 
+%
+21 
+%
+22 
+%
+24 
+%
+Selling, general and administrative
+7 
+%
+7 
+%
+9 
+%
+8 
+%
+Income from operations
+26 
+%
+24 
+%
+22 
+%
+20 
+%
+Interest income
+1 
+%
+2 
+%
+2 
+%
+2 
+%
+Interest expense
+— 
+%
+— 
+%
+— 
+%
+— 
+%
+Other income (expense)
+— 
+%
+— 
+%
+— 
+%
+— 
+%
+Income before income taxes
+27 
+%
+26 
+%
+24 
+%
+22 
+%
+Provision for income taxes
+4 
+%
+7 
+%
+4 
+%
+6 
+%
+Net income
+23 
+%
+19 
+%
+20 
+%
+16 
+%
+Net Sales 
+Net sales for the second quarter of fiscal year 2026 increased $19.1 million, or 4 percent, to $561.0 million from $541.9 million in the second quarter of fiscal year 2025.  Net sales from our audio products increased $1.6 million, primarily driven by higher smartphone unit volumes in the second quarter of fiscal year 2026 and sales associated with latest-generation products, partially offset by declines in average sales prices (“ASPs”).  Net sales from HPMS products increased $17.5 million for the quarter versus the second quarter of fiscal year 2025, primarily due to higher general market sales, smartphone unit volumes and sales associated with latest-generation products, partially offset by declines in ASPs.
+
+Net sales for the first six months of fiscal year 2026 increased $52.3 million, or 6 percent, to $968.2 million from $915.9 million for the first six months of fiscal year 2025.  Net sales from our audio products increased $22.7 million, primarily driven by higher smartphone unit volumes and sales associated with latest-generation products, partially offset by declines in ASPs.  Net sales from HPMS products increased $29.7 million for the year versus the first six months of fiscal year 2025, primarily due to higher general market sales, smartphone unit volumes, and sales associated with latest-generation products, partially offset by declines in ASPs.
+International sales, including sales to U.S.-based end customers that manufacture products through contract manufacturers or plants located overseas, were approximately 99 percent and 100 percent of net sales for the second quarters of
+18
+fiscal years 2026 and 2025, respectively, and 99 percent for each of the first six month periods of fiscal years 2026 and 2025.  Our sales are denominated primarily in U.S. dollars. 
+Since the components we produce are largely proprietary, we consider our end customer to be the entity specifying the use of our component in their design.  These end customers may purchase our products directly from us, through distributors, or third-party manufacturers contracted to produce their
+
+designs.  For each of the
+
+second
+
+quarters of fiscal years 2026
+
+and 2025, our ten largest end customers represented approximately
+
+97 percent, of our net sales, and 97 percent and 96 percent of our net sales for the first six months of fiscal years 2026 and 2025, respectively.
+We had one end customer, Apple Inc., that purchased through multiple contract manufacturers and represented approximately 90 percent of the Company’s total net sales for each of the second quarters of fiscal years 2026 and 2025, and 88 percent and 89 percent for the first six months of fiscal years 2026 and 2025, respectively.
+  
+No other end customer or distributor represented more than 10 percent of net sales for the three and six months ended September 27, 2025
+
+or
+
+September 28, 2024.
+For more information, please see “
+Part II, Item 1A - Risk Factors
+”
+
+—
+
+“We depend on a limited number of customers and distributors for a substantial portion of our sales, and the loss of, or a significant reduction in orders from,
+
+or pricing on products sold to,
+
+any key customer or distributor could significantly reduce our sales
+
+and our profitability.”
+Gross Margin
+Gross margin was 52.5 percent in the second quarter of fiscal year 2026, up from 52.2 percent in the second quarter of fiscal year 2025, largely due to a more favorable product mix, partially offset by higher inventory reserves.
+Gross margin was 52.5 percent for the first six months of fiscal year 2026, up from 51.5 percent for the first six months of fiscal year 2025 due to a more favorable product mix, partially offset by higher inventory reserves.
+Research and Development Expense
+Research and development expense for the second quarter of fiscal year 2026 was $110.0 million, a decrease of $2.9 million, from $112.9 million in the second quarter of fiscal year 2025.  Significant drivers included reduced stock-based compensation and product development costs, partially offset by increased employee-related costs in the current quarter.
+Research and development expense for the first six months of fiscal year 2026 was $212.9 million, a decrease of $5.4 million, from $218.3 million for the first six months of fiscal year 2025, primarily due to reduced stock-based compensation, product development, and facilities-related costs, partially offset by increased employee-related costs for the period.
+Selling, General and Administrative Expense
+Selling, general and administrative expense for the second quarter of fiscal year 2026 was $39.6 million, an increase of $1.8 million, from $37.8 million in the second quarter of fiscal year 2025, due primarily to increased stock-based compensation costs.
+Selling, general and administrative expense for the first six months of fiscal year 2026 was $78.3 million, an increase of $3.8 million, from $74.6 million for the first six months of fiscal year 2025, primarily due to increased stock-based compensation and employee-related expenses, partially offset by the non-recurring lease impairment costs related to the prior comparable period.
+Interest Income
+The Company reported interest income of $8.9 million and $17.8 million for the three and six months ended September 27, 2025, respectively, and $8.4 million and $16.8 million for the three and six months ended September 28, 2024, respectively.  Interest income increased in the current period due to
+
+returns generated from higher combined average cash, cash equivalents and marketable securities balances, compared to the
+
+prior
+
+period.
+19
+Interest Expense
+The Company reported interest expense of $0.2 million and $0.5 million for the three and six months ended September 27, 2025, respectively, and $0.2 million and $0.5 million for the three and six months ended September 28, 2024, respectively.  Interest expense consists primarily of commitment fees associated with the Company's Revolving Credit Facility (see Note 8 - Revolving Credit Facility of the Notes to the Consolidated Condensed Financial Statements).
+Other Income (Expense)
+For the three and six months ended September 27, 2025, the Company reported other expense of $0.1 million and $0.5 million, respectively.  For the three and six months ended September 28, 2024, the Company reported other income of an immaterial amount and $1.6 million, respectively.  This activity primarily
+
+related to non-investment related income (expense) and remeasurement on
+
+foreign currency
+
+denominated monetary assets and liabilities.
+  
+ 
+Income Taxes
+Our provision for income taxes is based on estimated effective tax rates derived from an estimate of annual consolidated earnings before taxes, adjusted for nondeductible expenses, other permanent items and any applicable credits. 
+The following table presents the provision for income taxes (in thousands) and the effective tax rates:
+Three Months Ended
+Six Months Ended
+September 27,
+September 28,
+September 27,
+September 28,
+2025
+2024
+2025
+2024
+Income before income taxes
+$
+153,396 
+$
+140,005 
+$
+234,024 
+$
+196,608 
+Provision for income taxes
+$
+21,800 
+$
+37,865 
+$
+41,731 
+$
+52,373 
+Effective tax rate
+14.2 
+%
+27.0 
+%
+17.8 
+%
+26.6 
+%
+Our income tax expense for the second quarter of fiscal year 2026 was $21.8 million compared to $37.9 million for the second quarter of fiscal year 2025, resulting in effective tax rates of 14.2 percent and 27.0 percent, respectively.  Our income tax expense was $41.7 million and $52.4 million for the first six months of fiscal years 2026 and 2025, respectively, resulting in effective tax rates of 17.8 percent and 26.6 percent, respectively.
+Effective tax rates for fiscal year 2025 were unfavorably impacted by a provision in the Tax Cuts and Jobs Act of 2017 that required research and development (“R&D”) expenditures incurred in tax years beginning after December 31, 2021 to be capitalized and amortized ratably over five or fifteen years depending on the location in which the research activities are conducted, which resulted in increased GILTI inclusions in these periods.  In addition, those periods were unfavorably impacted by U.S. tax rules related to refundable tax credits, including R&D expenditure credits available to us in the United Kingdom, that reduce the amount of foreign tax credits available to offset GILTI.
+The effective tax rates for the second quarter and first six months of fiscal year 2026 were lower than the prior periods presented due to the current quarter enactment of the legislation commonly referred to as the One Big Beautiful Bill Act (“OBBBA”), which was signed into law on July 4, 2025.  The OBBBA includes a broad range of tax reform provisions and extends or modifies several provisions initially enacted by the Tax Cuts and Jobs Act of 2017.  Beginning with fiscal year 2026, the OBBBA permanently eliminates the requirement to capitalize and amortize U.S. R&D expenditures.  A number of other provisions of the OBBBA, including modifications to existing international tax provisions, will take effect in fiscal year 2027.
+In connection with its initial analysis of the OBBBA, the Company determined that its forecasted annual effective tax rate for fiscal year 2026 decreased, primarily due to U.S. R&D expenditures no longer being capitalized within GILTI (renamed by the OBBBA as net controlled foreign corporation tested income), which the Company has elected to treat as a period cost.
+Liquidity and Capital Resources 
+We require cash to fund our operating expenses and working capital requirements, including outlays for inventory, capital expenditures, share repurchases, and strategic acquisitions.  Our principal sources of liquidity are cash on hand, cash generated from operations, cash generated from the sale and maturity of marketable securities, and available borrowings under our $300 million Revolving Credit Facility. 
+20
+Cash generated from our operating activities is net income adjusted for certain non-cash items and changes in working capital.  Cash generated from operations was
+
+$208.3 million for the first
+
+six months
+
+of fiscal year 2026
+
+versus $95.4 million generated for the
+
+corresponding period of fiscal year 2025.  The cash
+
+flow from
+
+operations during the
+
+first six months of fiscal year 2026 was related to the cash components of our net income and a $52.8 million unfavorable change in working capital, primarily as a result of an increase in accounts receivables and decreases in income taxes payables, partially offset by decreases in inventory, and increases in prepaid wafer usage (related to the Capacity Reservation Agreement) and accounts payable and other accrued liabilities.  The cash flow from operations during the corresponding period of fiscal year 2025 was related to the cash components of our net income and a $117.9 million unfavorable change in working capital, primarily as a result of increases in accounts receivables and inventory, partially offset by increases in accounts payable and other accrued liabilities, prepaid wafer usage (related to the Capacity Reservation Agreement), and income taxes payable.       
+Net cash
+
+used in investing activities was $14.1 million during the first six months of fiscal year 2026 versus $72.0 million during the first six months of fiscal year 2025.  The cash used in investing activities in the first six months of fiscal year 2026 was related to net purchases of marketable securities of $6.9 million and capital expenditures and technology investments of $7.3 million.  The cash used in investing activities in the corresponding period in fiscal year 2025 was related to net purchases of marketable securities of $59.2 million and capital expenditures and technology investments of $12.9 million.
+Net cash used in financing activities was $140.3 million during the first six months of fiscal year 2026 and was primarily associated with stock repurchases for the period of $140.0 million.  The cash used in financing activities during the first six months of fiscal year 2025 of $80.4 million was primarily associated with stock repurchases during the period of $91.0 million, partially offset by $10.6 million in net proceeds from the issuance of common stock, primarily related to stock option exercises.
+Our future capital requirements will depend on many factors, including the rate of sales growth, market acceptance of our products, the timing and extent of research and development projects, potential future acquisitions of companies or technologies, inventory build, and commitments under the Capacity Reservation Agreement with GlobalFoundries (discussed further in Note 12 - Commitments and Contingencies of the Notes to the Consolidated Condensed Financial Statements).  We believe our expected future cash earnings, existing cash, cash equivalents, investment balances, and available borrowings under our Revolving Credit Facility will be sufficient to meet our capital requirements both domestically and internationally, in the short-term (i.e. the next 12 months) and in the long-term, although we could be required, or could elect, to seek additional funding prior to that time.
+Revolving Credit Facility
+On July 8, 2021, the Company entered into a second amended and restated credit agreement (the “Second Amended Credit Agreement”) with Wells Fargo Bank, National Association, as administrative agent, and the lenders party thereto.  The Second Amended Credit Agreement provides for a $300 million senior secured revolving credit facility (the “Revolving Credit Facility”).  The Revolving Credit Facility matures on July 8, 2026 (the “Maturity Date”).  The Revolving Credit Facility is required to be guaranteed by all of Cirrus Logic’s material domestic subsidiaries (“Subsidiary Guarantors”).  The Revolving Credit Facility is secured by substantially all the assets of Cirrus Logic and any Subsidiary Guarantors, except for certain excluded assets.
+On March 20, 2023, the Company, entered into the First Amendment (the “Amendment”) to its Second Amended Credit Agreement, with the lending institutions party thereto and Wells Fargo Bank, National Association, as administrative agent.  The Amendment updates the benchmark interest rate provisions to replace LIBOR with Term SOFR, for the purposes of calculating interest under the terms of the Second Amended Credit Agreement.
+As of September 27, 2025, the Company had no amounts outstanding under the Revolving Credit Facility and was in compliance with all covenants under the Second Amended Credit Agreement.  
+See Note 8 — Revolving Credit Facility of the Notes to the Consolidated Condensed Financial Statements for additional information including material terms and related covenants.

@@ -1,0 +1,24 @@
+{
+  "company": "Will Semiconductor",
+  "ticker": "603501",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2025年年度报告",
+  "filing_date": "2026-03-30",
+  "accession_number": "1225055056",
+  "filing_id": "1225055056",
+  "title": "2025年年度报告",
+  "org_id": "9900030772",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-03-31/1225055056.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225055056.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:39:17.475114+00:00",
+  "paths": {
+    "other_full": "data/raw/603501/1225055056/other_full.txt",
+    "document_pdf": "data/raw/603501/1225055056/document.pdf"
+  }
+}

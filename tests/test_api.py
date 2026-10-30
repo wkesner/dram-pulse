@@ -33,12 +33,17 @@ def data_dir(tmp_path: Path) -> Path:
 
 @pytest.fixture()
 def client(data_dir: Path) -> TestClient:
+    # Explicit single-tenant mode so AUTH_MODE=clerk in a local .env
+    # does not break the classic typed-name API tests.
+    # broker_sim_open enables the local offline demo gate for /api/broker-sim.
     app = create_app(
         signals_path=data_dir / "signals.csv",
         sightings_path=data_dir / "sightings.csv",
         votes_path=data_dir / "votes.csv",
         companies_path=data_dir / "companies.yaml",
         mount_static=False,
+        mode="single",
+        broker_sim_open=True,
     )
     return TestClient(app)
 
@@ -134,6 +139,45 @@ def test_post_vote_rejects_invalid_vote_value(client: TestClient):
     assert resp.status_code == 422
 
 
+def test_skip_persists_and_does_not_tally(client: TestClient, data_dir: Path):
+    """vote=0 is Skip: stored for the profile, ignored in 👍/👎 tallies."""
+    signals = client.get("/api/signals").json()
+    sid = signals[0]["signal_id"]
+
+    r = client.post("/api/votes", json={"signal_id": sid, "user": "Dana", "vote": 0})
+    assert r.status_code == 200
+    assert r.json()["vote"] == "0"
+
+    mine = client.get("/api/votes", params={"user": "Dana"}).json()
+    assert mine[sid] == 0
+
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 0, "down": 0}
+
+    # Another user can still rate; skip does not inflate tallies.
+    client.post("/api/votes", json={"signal_id": sid, "user": "Eli", "vote": 1})
+    body = client.get("/api/signals").json()
+    row = next(r for r in body if r["signal_id"] == sid)
+    assert row["votes"] == {"up": 1, "down": 0}
+
+    with (data_dir / "votes.csv").open(encoding="utf-8", newline="") as fh:
+        votes = list(csv.DictReader(fh))
+    assert any(v["user"] == "Dana" and v["vote"] == "0" for v in votes)
+
+
+def test_meta_exposes_tiers_and_signals_have_tier(client: TestClient, data_dir: Path):
+    meta = client.get("/api/meta").json()
+    assert "tiers" in meta and len(meta["tiers"]) == 3
+    assert meta["default_map_tier"] == 1
+    assert meta["company_roster"]
+    assert {c["tier"] for c in meta["company_roster"]} <= {1, 2, 3}
+
+    signals = client.get("/api/signals").json()
+    assert signals
+    assert all(str(s.get("tier")) in {"1", "2", "3"} for s in signals)
+
+
 def test_meta_notes_match_signals(client: TestClient, data_dir: Path):
     signals = list(csv.DictReader((data_dir / "signals.csv").open(encoding="utf-8")))
     meta = client.get("/api/meta").json()
@@ -178,6 +222,7 @@ def test_meta_lists_stub_company_with_zero_signals(data_dir: Path):
         votes_path=data_dir / "votes.csv",
         companies_path=companies_path,
         mount_static=False,
+        mode="single",
     )
     client = TestClient(app)
     notes = client.get("/api/meta").json()["notes"]
@@ -198,3 +243,117 @@ def test_compute_notes_join_missing_labels():
     )
     assert notes["missing"] == "B, C, and D"
     assert notes["missing_companies"] == ["B", "C", "D"]
+
+
+def test_broker_sim_api_offline(client: TestClient):
+    resp = client.get(
+        "/api/broker-sim",
+        params={
+            "days": 3,
+            "seed": 9,
+            "live": "false",
+            "starting_cash": 250000,
+            "include_scored": "false",
+        },
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["days"] == 3
+    assert body["starting_cash"] == 250000
+    assert len(body["brokers"]) == 3
+    assert len(body["history"]) == 3
+    assert body["prices"]["source"] == "illustrative"
+    assert "equity" in body["history"][0]["brokers"]["apex"]
+
+
+def test_broker_sim_api_with_scored_twins(client: TestClient):
+    resp = client.get(
+        "/api/broker-sim",
+        params={
+            "days": 4,
+            "seed": 3,
+            "live": "false",
+            "include_scored": "true",
+            "score_lag": 1,
+        },
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert len(body["brokers"]) == 6
+    assert len(body["pair_comparisons"]) == 3
+    assert body["include_scored"] is True
+    assert "apex_scored" in body["history"][0]["brokers"]
+
+
+def test_broker_sim_disabled_without_open_or_token(data_dir: Path):
+    app = create_app(
+        signals_path=data_dir / "signals.csv",
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
+        mount_static=False,
+        mode="single",
+        broker_sim_open=False,
+        broker_sim_token="",
+    )
+    client = TestClient(app)
+    resp = client.get("/api/broker-sim", params={"days": 2, "live": "false"})
+    assert resp.status_code == 503
+    assert "disabled" in resp.json()["detail"].lower()
+
+
+def test_broker_sim_requires_valid_token(data_dir: Path):
+    app = create_app(
+        signals_path=data_dir / "signals.csv",
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
+        mount_static=False,
+        mode="single",
+        broker_sim_open=False,
+        broker_sim_token="sim-secret",
+    )
+    client = TestClient(app)
+    denied = client.get("/api/broker-sim", params={"days": 2, "live": "false"})
+    assert denied.status_code == 401
+    bad = client.get(
+        "/api/broker-sim",
+        params={"days": 2, "live": "false"},
+        headers={"X-Broker-Sim-Token": "wrong"},
+    )
+    assert bad.status_code == 401
+    ok = client.get(
+        "/api/broker-sim",
+        params={"days": 2, "live": "false", "include_scored": "false"},
+        headers={"X-Broker-Sim-Token": "sim-secret"},
+    )
+    assert ok.status_code == 200
+    assert ok.json()["days"] == 2
+
+
+def test_broker_sim_open_mode_forces_offline_and_caps_days(data_dir: Path):
+    app = create_app(
+        signals_path=data_dir / "signals.csv",
+        sightings_path=data_dir / "sightings.csv",
+        votes_path=data_dir / "votes.csv",
+        companies_path=data_dir / "companies.yaml",
+        mount_static=False,
+        mode="single",
+        broker_sim_open=True,
+        broker_sim_token="",
+    )
+    client = TestClient(app)
+    # Open gate ignores live=true (no MemoryIndex fetch) and caps days at 30.
+    resp = client.get(
+        "/api/broker-sim",
+        params={"days": 45, "live": "true", "include_scored": "false", "seed": 1},
+    )
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["days"] == 30
+    assert body["prices"]["source"] == "illustrative"
+
+
+def test_broker_sim_rejects_days_over_cap(client: TestClient):
+    resp = client.get("/api/broker-sim", params={"days": 365, "live": "false"})
+    assert resp.status_code == 422

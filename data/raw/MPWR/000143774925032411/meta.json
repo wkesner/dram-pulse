@@ -1,0 +1,28 @@
+{
+  "company": "Monolithic Power",
+  "ticker": "MPWR",
+  "cik": "0001280452",
+  "form": "8-K",
+  "filing_date": "2025-10-30",
+  "accession_number": "0001437749-25-032411",
+  "primary_document": "mpwr20250819_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925032411/mpwr20250819_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-10-30",
+  "period_end": "2025-10-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:36.525487+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MPWR/000143774925032411/primary.html",
+    "other": "data/raw/MPWR/000143774925032411/other_full.txt"
+  }
+}

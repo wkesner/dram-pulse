@@ -1,0 +1,34 @@
+{
+  "company": "Amphenol",
+  "ticker": "APH",
+  "cik": "0000820313",
+  "form": "8-K",
+  "filing_date": "2026-01-12",
+  "accession_number": "0001104659-26-002737",
+  "primary_document": "tm262701d1_8k.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.01,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926002737/tm262701d1_8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-01-09",
+  "period_end": "2026-01-09",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:43.438167+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "tm262701d1_ex99-1.htm",
+      "path": "data/raw/APH/000110465926002737/exhibit_99_tm262701d1_ex99-1.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926002737/tm262701d1_ex99-1.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/APH/000110465926002737/primary.html",
+    "other": "data/raw/APH/000110465926002737/other_full.txt"
+  }
+}

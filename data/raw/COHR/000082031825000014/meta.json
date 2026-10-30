@@ -1,0 +1,30 @@
+{
+  "company": "Coherent",
+  "ticker": "COHR",
+  "cik": "0000820318",
+  "form": "10-K",
+  "filing_date": "2025-08-15",
+  "accession_number": "0000820318-25-000014",
+  "primary_document": "iivi-20250630.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000014/iivi-20250630.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:16:06.290671+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/COHR/000082031825000014/primary.html",
+    "business": "data/raw/COHR/000082031825000014/item1_business.txt",
+    "risk_factors": "data/raw/COHR/000082031825000014/item1a_risk_factors.txt",
+    "mdna": "data/raw/COHR/000082031825000014/item7_mdna.txt",
+    "other": "data/raw/COHR/000082031825000014/other_full.txt"
+  },
+  "period_end": "2025-06-30",
+  "report_date": "2025-06-30"
+}

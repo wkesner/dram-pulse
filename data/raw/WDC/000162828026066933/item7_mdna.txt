@@ -1,0 +1,476 @@
+Item 2.    
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis contains forward-looking statements within the meaning of the federal securities laws and should be read in conjunction with the disclosures we make concerning risks and other factors that may affect our business and operating results. You should read this information in conjunction with the unaudited Condensed Consolidated Financial Statements and the notes thereto included in this Quarterly Report on Form 10-Q, and the audited Consolidated Financial Statements and notes thereto included in Part II, Item 8 of our 2026 Annual Report on Form 10-K. See also “Forward-Looking Statements” immediately prior to Part I, Item 1 in this Quarterly Report on
+
+Form 10‑Q.
+Our Company
+We are a leading developer, manufacturer, and provider of data storage devices and solutions based on HDD technology. HDDs are critical components of the global data infrastructure market and play an essential role in enabling the AI-driven data economy. They provide reliable, cost-effective, high-capacity storage for a broad range of applications, including cloud data centers, enterprise storage systems, edge computing, smart video, client and consumer devices.
+Our broad portfolio of technology and products, sold under the Western Digital® and WD® brands, addresses our customers’ storage needs through multiple end markets: “Cloud,” “Client” and “Consumer”. Cloud is our largest and fastest growing end market comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, we provide our OEM and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market offers a comprehensive portfolio of HDD external storage products that we offer globally through our retail and channel partners.
+Our fiscal year ends on the Friday nearest to June 30 and typically consists of 52 weeks. Approximately every five to six years, we report a 53-week fiscal year to align the fiscal year with the foregoing policy. Fiscal year 2027, which will end on July 2, 2027, will be comprised of 52 weeks, with all quarters presented consisting of 13 weeks each. Fiscal year 2026, which ended on July 3, 2026, was comprised of 53 weeks, with the first quarter consisting of 14 weeks and the remaining quarters consisting of 13 weeks each.
+Key Developments
+Macroeconomic Conditions and Outlook
+The increasing long-term demand for data storage in the cloud is benefiting our HDD business. The adoption of AI is contributing to additional data storage requirements as the development and use of AI applications increase the volume of data that is generated, collected and retained, including data used to train and operate AI models. In addition, the continued growth of cloud and other data-intensive workloads is increasing the need for scalable, cost-effective storage infrastructure. These trends are accelerating demand for high-capacity drives and are resulting in greater manufacturing complexity and longer production lead times. In response, customers are partnering with us earlier to support their future growth requirements and are extending the duration of their commercial arrangements.
+Recent changes to U.S. trade policy, including with regard to tariffs, and related measures by trading partners, have not materially impacted our business and results of operations through the first quarter of 2027, but we are actively monitoring developments and assessing options to mitigate potential future actions. For additional information, please see Part I, Item 1A,
+Risk Factors
+, included in our 2026 Annual Report on Form 10-K.
+32
+Table of Contents
+Results of Operations
+First Quarter Overview
+The following table sets forth, for the periods presented, selected summary information from our Condensed Consolidated Statements of Income by dollars and percentage of net revenue
+(1)
+:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+$ Change
+% Change
+($ in millions)
+Revenue, net
+$
+4,381 
+100.0 
+%
+$
+2,818 
+100.0 
+%
+$
+1,563 
+55 
+%
+Cost of revenue
+1,847 
+42.2 
+1,591 
+56.5 
+256 
+16 
+Gross profit
+2,534 
+57.8 
+1,227 
+43.5 
+1,307 
+107 
+Operating expenses:
+Research and development
+283 
+6.5 
+294 
+10.4 
+(11)
+(4)
+Selling, general and administrative
+162 
+3.7 
+138 
+4.9 
+24 
+17 
+Business realignment charges
+43 
+1.0 
+3 
+0.1 
+40 
+1,333
+Total operating expenses
+488 
+11.1 
+435 
+15.4 
+53 
+12 
+Operating income
+2,046 
+46.7 
+792 
+28.1 
+1,254 
+158 
+Interest and other income (expense):
+Interest income
+7 
+0.2 
+17 
+0.6 
+(10)
+(59)
+Interest expense
+(11)
+(0.3)
+(59)
+(2.1)
+48 
+(81)
+Gain on retained interest in Sandisk
+— 
+— 
+611 
+21.7 
+(611)
+(100)
+Other expense, net
+(4)
+(0.1)
+(24)
+(0.9)
+20 
+83 
+Total interest and other income (expense), net
+(8)
+(0.2)
+545 
+19.3 
+(553)
+(101)
+Income before taxes
+2,038 
+46.5 
+1,337 
+47.4 
+701 
+52 
+Income tax expense
+259 
+5.9 
+155 
+5.5 
+104 
+67 
+Net income
+$
+1,779 
+40.6 
+%
+$
+1,182 
+41.9 
+%
+$
+597 
+51 
+%
+(1)    
+Percentages may not total due to rounding.
+33
+Table of Contents
+The following table sets forth for the periods presented, summary information regarding our disaggregated revenue:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Net revenue by end market
+Cloud
+$
+3,868 
+$
+2,510 
+Client
+320 
+146 
+Consumer
+193 
+162 
+Total net revenue
+$
+4,381 
+$
+2,818 
+Net revenue by geography
+(1)
+Americas
+$
+2,081 
+$
+1,100 
+Asia
+1,708 
+1,175 
+Europe, Middle East and Africa
+592 
+543 
+Total net revenue
+$
+4,381 
+$
+2,818 
+(1)    
+Net revenue is attributed to geographic regions based on the ship-to location of the customer.
+Net Revenue
+Comparison of Three Months Ended October 2, 2026 to Three Months Ended October 3, 2025
+Net revenue increased by 55% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by strong demand in our Cloud, Client and Consumer markets as further discussed below.
+Cloud revenue, representing 88% of total revenue, increased by 54% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by a more than 20% increase in exabytes shipped along with an approximately 25% increase in average selling price per exabyte. The increase in exabytes shipped was driven by strong demand for our high-capacity products due to continued data growth, fueled by the ongoing expansion of cloud environments and the increasing storage demands from AI. The increase in average selling price per exabyte was due to an improved pricing environment.
+Client revenue, representing 7% of total revenue, increased by 119% for the three months ended October 2, 2026 from the comparable period in the prior year, driven by an approximately 15% increase in exabytes shipped and an approximately 90% increase in average selling price per exabyte. The increase in average selling price was driven by a shift in product mix to higher capacity drives and an improved pricing environment, while our exabytes shipped increase was driven by strong demand for our products.
+Consumer revenue, representing 5% of total revenue, increased by 19% for the three months ended October 2, 2026 from the comparable period in the prior year, which reflects an approximately 70% increase in average selling price per exabyte partially offset by an approximately 30% decrease in exabytes shipped. The increase in average selling price per exabyte was due to a shift in product mix to higher capacity drives and an improved pricing environment. The decrease in exabytes shipped was driven by general softness in demand in these end markets as a result of the increased pricing levels.
+The change in mix of net revenue by geography for the three months ended October 2, 2026 from the comparable periods in the prior year is largely driven by the deployment and build plans of our larger Cloud customers.
+34
+Table of Contents
+Beginning in the three months ended October 2, 2026, we updated our methodology for identifying customers for purposes of revenue concentration disclosure. Under the updated methodology, concentrations are attributed to the ultimate end customer when products are purchased on its behalf by distributors, contract manufacturers, or other resellers (collectively referred to as “intermediary purchasers”), rather than being attributed to such intermediary purchasers. We believe this presentation provides investors with a more meaningful reflection of the economic relationship with our customers. Prior year concentrations have been revised to conform to the current year presentation.
+Our top 10 customers accounted for 64% of our net revenue for the three months ended October 2, 2026, compared to 73% of our net revenue for the three months ended October 3, 2025. For the three months ended October 2, 2026, two customers accounted for 14% and 13%, respectively, of our net revenue, and for the three months ended October 3, 2025, four customers accounted for 16%, 13%, 13% and 12%, respectively, of our net revenue.
+35
+Table of Contents
+Gross Profit and Gross Margin
+Gross profit increased by $1.31 billion, or 14 percentage points, for the three months ended October 2, 2026 from the comparable period in the prior yea
+r, due to improved pricing, an increased volume of shipments, and a lower cost structure on our newer generation products.
+
+Operating Expenses
+Research and development expense decreased by $11 million for the three months ended October 2, 2026 from the comparable period in the prior year. The decrease was attributable to lower compensation-related costs.
+Selling, general and administrative expense increased by $24 million for the three months ended October 2, 2026 from the comparable period in the prior year. The increase was primarily attributable to higher compensation-related costs.
+For information regarding Business realignment charges, see Part I, Item 1, Note 8,
+Business Realignment Charges,
+ of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Interest and Other Income (Expense)
+Total interest and other income (expense) changed by $553 million for the three months ended October 2, 2026 from the comparable period in the prior year. The change reflects a non-recurring gain of $611 million on our retained interest in Sandisk in the prior period based on the mark-to-market value as of October 3, 2025, partially offset by lower interest expense of $48 million, which reflects the reduction in our debt.
+Income Taxes
+The following table presents our Income tax expense and the effective tax rate:
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+($ in millions)
+Income before taxes
+$
+2,038
+$
+1,337
+Income tax expense
+259
+155
+Effective tax rate
+13%
+12%
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 2, 2026 are the relative mix of earnings and losses by jurisdiction, the deduction for FDDEI, excess tax over book deductions for stock-based compensation, as well as certain tax credits. We maintain tax holidays on a portion of our earnings in the Philippines and Thailand, which are set to expire at various dates from 2029 through 2033. The tax benefits from these holidays are minimized by the implementation of the GMT and are not material to our Condensed Consolidated Financial Statements for the three months ended October 2, 2026.
+The primary drivers of the difference between the effective tax rate and the U.S. Federal statutory rate of 21% for the three months ended October 3, 2025 were the relative mix of earnings and losses by jurisdiction, the deduction for FDDEI, certain tax credits, and the tax-free gain on the retained interest in Sandisk.
+Previously, TCJA eliminated the ability to deduct R&D expenditures in the year incurred, requiring capitalization and amortization. In July 2025, the OBBBA was signed into law, which includes broad tax reform provisions that extend and modify key elements of the TCJA. Notably, the new legislation now allows an option for the immediate expensing of domestic R&D expenditures, beginning in 2026. The legislation also includes favorable modifications to international tax provisions, including changes to the Global Intangible Low-Taxed Income regime, which is renamed as Net CFC Tested Income and enhancements to the FDDEI deduction that became effective for us in 2027.
+36
+Table of Contents
+Beginning in 2027, we became subject to CAMT of 15% on corporations as our average annual AFSI exceeded $1.0 billion for the preceding three-year period. We anticipate that our CAMT liability will exceed our regular tax liability due to tax deductions in excess tax of book deductions attributable to stock-based compensation during the year. We anticipate that any CAMT paid in 2027 will generate credit carryforwards that can be carried forward indefinitely to offset future regular tax liabilities in cases where they exceed CAMT liabilities. Because we expect regular tax liabilities to exceed CAMT liabilities in future periods, no valuation allowance is required against these credit carryforwards. As a result, the CAMT liability did not impact the effective tax rate for the three months ended October 2, 2026.
+In January 2026, the OECD released a side-by-side package that modifies key elements of the Pillar Two GMT by introducing new safe harbors and providing an exemption for U.S. based multinational companies from parts of the GMT. While these safe harbors and exemptions are generally favorable to us, they require local legislative action by each country before they can be considered enacted for financial accounting purposes. We evaluated the potential effects of these rules based on current local legislative developments in jurisdictions where we operate and expect the financial statement impact associated with their enactment to be immaterial. For 2027, our effective tax rate considers GMT in Malaysia and Thailand.
+37
+Table of Contents
+Liquidity and Capital Resources
+The following table summarizes our statements of cash flows.
+Three Months Ended
+October 2,
+2026
+October 3,
+2025
+(in millions)
+Net cash provided by (used in):
+Operating activities
+$
+1,604 
+$
+672 
+Investing activities
+(225)
+(57)
+Financing activities
+(1,644)
+(678)
+Effect of exchange rate changes on cash
+— 
+(3)
+Net decrease in cash and cash equivalents
+$
+(265)
+$
+(66)
+Operating Activities
+Net cash provided by operating activities primarily consists of net income, adjusted for non-cash charges, plus or minus changes in operating assets and liabilities. The significant improvement in cash from operating activities for the three months ended October 2, 2026 was primarily driven by the improved profitability in the business from the comparable period in the prior year, partially offset by the increased net cash used for changes in operating assets and liabilities.
+Net cash used for changes in operating assets and liabilities was $331 million for the three months ended October 2, 2026, compared to $99 million for the three months ended October 3, 2025. For the three months ended October 2, 2026, net cash used for changes in operating assets and liabilities primarily consisted of a $269 million increase in inventories as we ramped production in response to growing demand and a $206 million increase in accounts receivable driven by our growth in revenue. These uses were partially offset by a $131 million increase in income taxes payable resulting from the timing of tax payments.
+For the three months ended October 3, 2025, net cash used for changes in operating assets and liabilities primarily consisted of a $503 million decrease in income taxes payable resulting from the timing of tax payments and a $101 million increase in inventories as we ramped production in response to growing demand. These uses were partially offset by a $248 million increase in accounts payable as we ramped up purchases for production as well as more favorable payment terms with suppliers, a $141 million increase in other assets and liabilities primarily driven by timing of recognition and application of taxes receivable, and a $131 million decrease in accounts receivable driven by timing of collections.
+Investing Activities
+Net cash used in investing activities for the three months ended October 2, 2026 primarily consisted of $227 million in capital expenditures. Net cash used in investing activities for the three months ended October 3, 2025 primarily consisted of $73 million in capital expenditures.
+We expect capital expenditures to average 4% to 6% of revenue over the next five years; however, we anticipate capital expenditures as a percentage of revenue will be modestly above that range over the next two years as we invest in heads and media technology and factory automation.
+Financing Activities
+Net cash used in financing activities for the three months ended October 2, 2026 primarily consisted of $1.00 billion for share repurchases, $570 million to settle a portion of our Convertible Notes, $317 million for taxes paid on vested stock awards under employee stock plans, and $56 million of dividends paid on our common stock. These uses were partially offset by $300 million of net borrowings from our Revolving Credit Facility. Net cash used in financing activities for the three months ended October 3, 2025 primarily consisted of $553 million for share repurchases, $39 million of dividends paid on our common stock and Preferred Shares, $55 million for taxes paid on vested stock awards under employee stock plans and $31 million of scheduled repayments on our term loan.
+38
+Table of Contents
+We believe our cash and cash equivalents and cash flows from operations will be sufficient to meet our working capital, debt, dividend and capital expenditure needs and fund our share repurchases for at least the next twelve months and for the foreseeable future thereafter. We also believe we can access the various debt and equity capital markets to further supplement our liquidity position, if necessary. Our ability to sustain our working capital position is subject to a number of risks that we discuss in Part I, Item 1A,
+Risk Factors
+, in our 2026 Annual Report on Form 10-K.
+In August 2024, we filed a shelf registration statement (the “Shelf Registration Statement”) with the SEC that expires in August 2027. The Shelf Registration Statement allows us to offer and sell shares of common stock, preferred stock, warrants, and debt securities. We may use the Shelf Registration Statement or other capital sources, including other offerings of equity or debt securities or the credit markets, to satisfy future financing needs, including planned or unanticipated capital expenditures, investments, debt repayments or other expenses. Any such additional financing will be subject to market conditions and may not be available on terms acceptable to us or at all.
+A total of $1.00 billion and $1.08 billion of our cash and cash equivalents was held by our foreign subsidiaries as of October 2, 2026 and July 3, 2026, respectively. There are no material tax consequences that were not previously accrued for on the repatriation of this cash.
+Our cash equivalents are primarily invested in money market funds that invest in U.S. Treasury securities and U.S. Government agency securities. In addition, from time to time, we also invest directly in certificates of deposit, asset-backed securities and corporate and municipal notes and bonds.
+Off-Balance Sheet Arrangements
+Other than certain indemnification provisions (see “Short- and Long-term Liquidity –
+Purchase Obligations and Other Commitments
+” below), we do not have any other material off-balance sheet financing arrangements or liabilities, guarantee contracts, retained or contingent interests in transferred assets, or any other obligation arising out of a material variable interest in an unconsolidated entity. We do not have any majority-owned subsidiaries that are not included in the Condensed Consolidated Financial Statements. Additionally, we do not have an interest in, or relationships with, any variable interest entities.
+39
+Table of Contents
+Short- and Long-term Liquidity
+Material Cash Requirements
+The following is a summary of our known material cash requirements as of October 2, 2026. In addition, see the discussions further below for other potential uses of cash related to our cash dividend program, Share Repurchase Program, liability for unrecognized tax benefits, global minimum tax, foreign exchange contracts, litigation matters, and potential indemnifications.
+Total
+1 Year (Remaining Nine Months of 2027)
+2-3 Years (2028-2029)
+4-5 Years (2030-2031)
+More than 5 Years (Beyond 2031)
+(in millions)
+Debt
+$
+791 
+$
+791 
+$
+— 
+$
+— 
+$
+— 
+Operating leases
+152 
+28 
+56 
+35 
+33 
+Long-term purchase obligations and other commitments
+304 
+48 
+87 
+169 
+— 
+Total
+$
+1,247 
+$
+867 
+$
+143 
+$
+204 
+$
+33 
+Debt
+As described in Part I, Item 1, Note 5,
+Debt
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q, as of October 2, 2026, $141 million in aggregate principal amount of Convertible Notes remained outstanding. The Convertible Notes are currently convertible at the option of any holder, at a conversion price of approximately $37.70 per share of common stock as of October 2, 2026. Upon any conversion of the Convertible Notes, we will pay cash for the aggregate principal amount of the notes to be converted and pay or deliver, as the case may be, cash, shares of the Company’s common stock or a combination thereof, at our election, in respect of the remainder, if any, of our conversion obligation in excess of the aggregate principal amount of the notes being converted. Through October 2, 2026, $31 million in aggregate principal amount of these notes had been tendered for conversion. We have elected to issue shares of our common stock to satisfy the conversion obligation in excess of the principal amount for substantially all of the notes tendered for conversion, which are expected to settle in the second quarter of 2027.
+On September 14, 2026, we issued a notice of redemption to redeem at par plus unpaid and accrued interest, on November 16, 2026 (the “Redemption Date”), all then-outstanding Convertible Notes that have not been converted prior to the Redemption Date. We currently expect that holders of substantially all Convertible Notes will convert such Convertible Notes before the Redemption Date.
+In addition, as of October 2, 2026, we had $650 million outstanding on our Revolving Credit Facility maturing in January 2027 and had $600 million remaining available borrowing capacity under this facility, subject to customary conditions under the loan agreement. We believe our existing cash and cash expected to be generated from our business will be adequate to meet our debt repayment requirements.
+Additional information regarding our indebtedness, including information about availability under our 2027 Revolving Credit Facility and the principal repayment terms, interest rates, covenants, collateral and other key terms of our outstanding indebtedness, is included in Part II, Item 8, Note 7,
+Debt
+, of the Notes to Consolidated Financial Statements included in our 2026 Annual Report on Form 10-K and Note 5,
+Debt
+, of the Notes to Condensed Consolidated Financial Statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q.
+We may issue additional debt securities in the future that may be guaranteed by our 100% owned domestic subsidiary, Western Digital Technologies, Inc. (“Guarantor” and, together with Western Digital Corporation, the “Obligor Group”). Such guarantees may be full and unconditional, joint and several, on a secured or unsecured, subordinated or unsubordinated basis, and may be subject to certain customary guarantor release conditions. We conduct operations almost entirely through our subsidiaries. Accordingly, the Obligor Group’s cash flow and ability to service any guaranteed registered debt securities will depend on the earnings of our subsidiaries and the distribution of those earnings to the Obligor Group, including the earnings of the non-guarantor subsidiaries, whether by dividends, loans or otherwise. Holders of such guaranteed registered debt securities would have a direct claim only against the Obligor Group.
+40
+Table of Contents
+The following tables include summarized financial information for the Obligor Group. The financial information for the Obligor Group is presented on a combined basis, excluding intercompany balances and transactions between the Company and the Guarantor, excluding net intercompany balances between the Obligor Group and non-guarantor subsidiaries, and excluding investments in and equity in the earnings of non-guarantor subsidiaries. The Obligor Group’s amounts due from, amounts due to, and transactions with non-guarantor subsidiaries have been presented in separate line items in the tables below.
+The assets and liabilities of the Obligor Group include the following:
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Current assets
+$
+2,152 
+$
+2,360 
+Non-current assets
+4,399 
+4,415 
+Net intercompany payables to non-guarantor subsidiaries
+231 
+516 
+Current liabilities
+1,988 
+2,204 
+Non-current liabilities
+590 
+449 
+The operating results of the Obligor Group include the following:
+Three Months Ended
+Year Ended
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Net sales
+$
+2,077 
+$
+5,726 
+Gross profit
+976 
+2,543 
+Operating income
+601 
+1,092 
+Net income
+337 
+6,196 
+Results for the Obligor Group include the following transactions with non-guarantor subsidiaries:
+Three Months Ended
+Year Ended
+October 2,
+2026
+July 3,
+2026
+(in millions)
+Intercompany revenue
+$
+2,374 
+$
+7,458 
+Net intercompany interest expense
+21 
+33 
+Intercompany dividend income
+44 
+94 
+Purchase Obligations and Other Commitments
+In the normal course of business, we enter into purchase orders with suppliers for the purchase of components used to manufacture our products. These purchase orders generally cover forecasted component supplies needed for production during the next quarter, are recorded as a liability upon transfer of the components, and generally may be changed or canceled at any time prior to shipment of the components. We also enter into long-term agreements with suppliers that contain fixed future commitments, which are contingent on certain conditions, such as performance, quality and technology of the vendor’s components. These arrangements are included under “Purchase obligations and other commitments” in the table above.
+Cash Dividend Program
+On April 29, 2025, our Board of Directors authorized the adoption of a cash dividend program. See Part I, Item 1, Note 10,
+ Shareholders’ Equity and Convertible Preferred Stock
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q under the caption “Dividends to Common Shareholders” for further details.
+41
+Table of Contents
+Share Repurchase Program
+Our Board of Directors has authorized a Share Repurchase Program and as of October 2, 2026, we had $2.26 billion available for repurchases under the program. See Part I, Item 1, Note 10,
+ Shareholders’ Equity and Convertible Preferred Stock
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q under the caption “Share Repurchase Program” for further details.
+Liability for Unrecognized Tax Benefits
+As of October 2, 2026, the liability for unrecognized tax benefits (excluding accrued interest and penalties) was $635 million. Accrued interest and penalties related to unrecognized tax benefits are recognized in liabilities for uncertain tax positions and are recorded in the provision for income taxes. Accrued interest and penalties included in our liability related to unrecognized tax benefits as of October 2, 2026 was $126 million. Of these amounts, approximately $351 million could result in potential cash payments to be made within the next twelve months.
+In connection with IRS settlements for the years 2008 through 2015, we expect to realize reductions to our mandatory deemed repatriation tax obligations aggregating to approximately $101 million. These tax receivables are classified in Other current assets on the Condensed Consolidated Balance Sheets as of October 2, 2026.
+Global Minimum Tax
+As of October 2, 2026, we have accrued GMT liabilities of $90 million, which encompass obligations originating from both 2026 and for the three months ended October 2, 2026. Due to transitional 18-month filing extensions permitted under the OECD Pillar Two framework, initial cash payments for these obligations are not expected to be fully settled until the second quarter of 2028.
+Foreign Exchange Contracts
+We purchase foreign exchange contracts to hedge the impact of foreign currency fluctuations on certain underlying assets, liabilities and commitments for Operating expenses and product costs denominated in foreign currencies. See Part I, Item 3,
+Quantitative and Qualitative Disclosures About Market Risk
+, included in this Quarterly Report on Form 10-Q for additional information.
+Litigation Matters
+For additional information on our litigation matters, see Part I, Item 1, Note 12,
+ Legal Proceedings
+, of the Notes to Condensed Consolidated Financial Statements included in this Quarterly Report on Form 10-Q.
+Indemnifications
+In the ordinary course of business, we may provide indemnifications of varying scope and terms to customers, vendors, lessors, business partners and other parties with respect to certain matters, including, but not limited to, losses arising out of our breach of agreements, products or services to be provided by us, environmental compliance or from intellectual property infringement claims made by third parties. In addition, we have entered into indemnification agreements with our directors and certain of our officers that require us, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. We maintain director and officer insurance, which may cover certain liabilities arising from our obligation to indemnify our directors and officers in certain circumstances.
+It is not possible to determine the maximum potential amount under these indemnification agreements due to the limited history of prior indemnification claims and the unique facts and circumstances involved in each particular agreement. Such indemnification agreements may not be subject to maximum loss clauses. Historically, we have not incurred material costs as a result of obligations under these agreements.
+42
+Table of Contents
+Recent Accounting Pronouncements
+No new accounting standards were adopted in the quarter ended October 2, 2026.
+Accounting Pronouncements Not Yet Adopted
+In May 2026, the Financial Accounting Standards Board (“FASB”) issued accounting standards update (“ASU”) No. 2026-02, “Environmental Credits and Environmental Credit Obligations (Topic 818),” which introduces specific accounting models for entities that generate, purchase, or hold environmental credits, or have an enforceable regulatory compliance obligation that may be settled with such credits. Under the new guidance, environmental credits intended for compliance are recorded at cost, while certain non-compliance credits are tested for impairment or can be subject to a fair value accounting policy election. Additionally, the standard requires gross financial statement presentation, prohibiting the netting of environmental credit assets against related compliance obligations. This standard is effective for the year beginning July 1, 2028, and interim periods within that year, with early adoption permitted. Adoption will be applied on a retrospective basis through a cumulative-effect adjustment to the opening balance of retained earnings. We are currently assessing the impact of this standard on our consolidated financial statements and related disclosures.
+In December 2025, the FASB issued ASU No. 2025-10, “Government Grants (Topic 832): Accounting for Government Grants Received by Business Entities” (“ASU 2025-10”), which establishes guidance on the recognition, measurement, and presentation of government grants. The standard may be adopted using a full retrospective, modified retrospective, or modified prospective transition method. ASU 2025-10 is effective for the year beginning June 30, 2029, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this guidance on our consolidated financial statements and related disclosures.
+In November 2025, the FASB issued ASU No. 2025-09, “Derivatives and Hedging (Topic 815): Hedge Accounting Improvements” (“ASU 2025-09”), which introduces targeted improvements to better align hedge accounting with entities’ risk management activities. ASU 2025-09 is effective for the year beginning July 3, 2027, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this guidance on our consolidated financial statements and related disclosures.
+In September 2025, the FASB issued ASU No. 2025-07, “Derivatives and Hedging (Topic 815) and Revenue from Contracts with Customers (Topic 606): Derivatives Scope Refinements and Scope Clarification for Share-Based Noncash Consideration from a Customer in a Revenue Contract” (“ASU 2025-07”), which (i) expands the scope exception of Topic 815 to exclude certain contracts with a variable that is based on operations or activities specific to one of the parties to the contract and (ii) clarifies the scope of share-based payments from a customer in a revenue contract. ASU 2025-07 is effective for the year beginning July 3, 2027, and interim periods within that year. Early adoption is permitted and must be applied as of the beginning of the fiscal year that includes the interim period. We currently do not expect this standard to have a material impact on our consolidated financial statements and related disclosures.
+In September 2025, the FASB issued ASU No. 2025-06, “Intangibles – Goodwill and Other – Internal-Use Software (Topic 350): Targeted Improvements to the Accounting for Internal-Use Software” (“ASU 2025-06”). ASU 2025-06 amends existing references to prescriptive and sequential software development stages to better align with current software development methods, such as agile development. Under the new standard, entities will begin to capitalize eligible software costs when (i) management has authorized and committed to funding the software project, and (ii) it is probable that the project will be completed and the software will be used to perform the function intended. ASU 2025-06 is effective for the year beginning July 1, 2028, and interim periods within that year, with early adoption permitted. We are currently assessing the impact of this standard on our consolidated financial statements and related disclosures.
+43
+Table of Contents
+In November 2024, the FASB issued ASU No. 2024-03, “Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,” which is intended to improve disclosures about the expenses of public entities. The new guidance requires more detailed information about the types of expenses in commonly presented expense captions (such as cost of sales and selling, general and administrative expenses) and requires public entities to disclose, on an annual and interim basis, the amounts of expenses included in each relevant expense caption presented on the face of the income statement, within continuing operations, in a tabular format. Additionally, public entities will be required to disclose a qualitative description of the amounts remaining in relevant expense captions that are not separately disaggregated quantitatively, the total amount of selling expenses and, in annual reporting periods, the definition of selling expenses. This standard is effective on either a prospective or retrospective basis with early adoption permitted. We are currently compiling the information required for these disclosures and assessing the basis of adoption and expect to adopt the guidance for annual reporting periods in our annual report on Form 10-K for the year ending June 30, 2028.
+Critical Accounting Policies and Estimates
+We have prepared the accompanying unaudited Condensed Consolidated Financial Statements in accordance with U.S. GAAP. The preparation of the financial statements requires the use of judgments and estimates that affect the reported amounts of revenues, expenses, assets, liabilities and shareholders’ equity. We have adopted accounting policies and practices that are generally accepted in the industry in which we operate. If these estimates differ significantly from actual results, the impact to the Condensed Consolidated Financial Statements may be material.
+There have been no material changes in our critical accounting policies and estimates from those disclosed in our 2026 Annual Report on Form 10‑K. Please refer to Part II, Item 7 of our 2026 Annual Report on Form 10‑K for a discussion of our critical accounting policies and estimates.
+44
+Table of Contents

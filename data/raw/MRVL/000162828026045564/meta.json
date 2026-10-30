@@ -1,0 +1,28 @@
+{
+  "company": "Marvell",
+  "ticker": "MRVL",
+  "cik": "0001835632",
+  "form": "8-K",
+  "filing_date": "2026-06-25",
+  "accession_number": "0001628280-26-045564",
+  "primary_document": "mrvl-20260625.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.07,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm",
+  "fiscal_year_end": "0130",
+  "report_date": "2026-06-25",
+  "period_end": "2026-06-25",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:52.951998+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MRVL/000162828026045564/primary.html",
+    "other": "data/raw/MRVL/000162828026045564/other_full.txt"
+  }
+}

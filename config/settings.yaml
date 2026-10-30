@@ -20,6 +20,61 @@ dart:
     - A
     - B
 
+# CNINFO (巨潮) — no key; unofficial public JSON on the designated disclosure site.
+# Be polite: ≤1 rps; cache orgIds; drop bulky PDFs from git (other_full.txt kept).
+cninfo:
+  max_requests_per_second: 1
+  top_search_url: "https://www.cninfo.com.cn/new/information/topSearch/query"
+  query_url: "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+  static_base_url: "https://static.cninfo.com.cn"
+  default_column: sse
+  categories:
+    - category_ndbg_szsh
+    - category_bndbg_szsh
+    - category_yjygjxz
+    - category_yjkb_szsh
+
+# EDINET v2 — free key (EDINET_API_KEY). Prefer API over website scrape (ToS).
+# Calendar is scanned once for all configured issuers (not per-company).
+edinet:
+  max_requests_per_second: 1
+  api_base: "https://api.edinet-fsa.go.jp/api/v2"
+  # Cap calendar days (list API is per-day). 370 ≈ full 12-month lookback.
+  max_scan_days: 370
+  doc_type_codes:
+    - "120"  # 有価証券報告書
+    - "130"  # 訂正有価証券報告書
+    - "140"  # 四半期報告書
+    - "150"  # 半期報告書
+    - "160"  # 臨時報告書
+
+# Taiwan MOPS via TWSE OpenAPI — no key. Prefer openapi.twse.com.tw over HTML scrape.
+# Snapshots are "latest period" (not historical range); re-runs accumulate cache.
+mops:
+  max_requests_per_second: 1
+  api_base: "https://openapi.twse.com.tw/v1"
+  material_info_path: "/opendata/t187ap04_L"
+  monthly_revenue_path: "/opendata/t187ap05_L"
+  fetch_monthly_revenue: true
+
+# Companies House — free key (COMPANIES_HOUSE_API_KEY). 600 req / 5 min.
+# LSE RNS / FCA NSM: see README (RNS needs LSEG; NSM API ~2027).
+# Europe insight: prefer EDGAR dual-lists, then AMF (below); skip CH chase.
+companies_house:
+  max_requests_per_second: 2
+  api_base: "https://api.company-information.service.gov.uk"
+  categories:
+    - accounts
+    - annual-return
+    - confirmation-statement
+
+# AMF Info-financière (France) — free OAM JSON API, no key. Stub only until
+# Euronext Paris electronics ISINs are wired (see src/fetch_amf.py).
+amf:
+  max_requests_per_second: 1
+  api_base: "https://www.info-financiere.gouv.fr/api/explore/v2.0"
+  # Soft published limit ~10k calls / IP / day — stay well under.
+
 paths:
   raw_dir: data/raw
   ir_documents: config/ir_documents.yaml

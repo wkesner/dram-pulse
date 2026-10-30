@@ -1,0 +1,282 @@
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with the consolidated financial statements and related notes included elsewhere in this Annual Report on Form 10-K. This discussion contains forward-looking statements that involve risks and uncertainties. Our actual results could differ materially from those discussed in those forward-looking statements. Factors that could cause or contribute to such differences include those identified below and those discussed in the section titled “Risk Factors.”
+A discussion regarding our financial condition and our results of operations for the fiscal year ended
+May 2, 2026
+ compared to the fiscal year ended
+May 3, 2025
+ is presented below. A discussion regarding our results of operations for the fiscal year ended
+May 3, 2025
+ compared to the fiscal year ended
+April 27, 2024
+ can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” of our Annual Report on Form 10-K for the fiscal year ended
+May 3, 2025
+, filed with the SEC on July 2, 2025.
+Overview
+At Credo, our mission is to transform connectivity at scale through fast, reliable and energy-efficient system solutions. The Company’s highspeed copper and optical interconnect products deliver industry-leading power and performance at up to 1.6T to meet the ever-expanding data infrastructure demands of AI. The Company’s product portfolio includes ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers, OmniConnect memory solutions and a suite of retimers and Digital Signal Processors (DSPs) for optical and copper Ethernet and PCIe, all leveraging the PILOT diagnostic and analytics software platform. Our innovations enable our customers to connect the systems that connect the world.
+Our connectivity solutions are optimized for optical and electrical Ethernet, PCIe and emerging UALink, ESUN and SUE applications, ranging in speeds from 32G (or Gigabits per second per lane) to 200G. Our products are based on our own optimized Serializer/Deserializer (SerDes) and DSP technologies. Our product families include integrated circuits (ICs), Active Electrical Cables (AECs) and SerDes Chiplets. Our intellectual property (IP) solutions consist primarily of SerDes IP licensing.
+Artificial Intelligence (AI) has bred a new generation of data centers over the past 5 years that depend much more heavily on high speed, reliable communications for Front End, Scale Out, Scale Up and emerging Scale In Networks. Our proprietary SerDes and DSP technologies enable us to achieve similar performance to leading competitors’ products but at a lower cost and more highly available legacy node (n-1 advantage). Beyond power and performance, Credo continues to innovate to address customers’ system level requirements. We partnered with Oracle to develop our ZeroFlap Optics that helps address the reliability issues known as Link Flap which plague commodity options in AI data centers enabling faster AI cluster turn on and time to first revenue.
+The multibillion-dollar data infrastructure market that we serve is driven largely by hyperscale data centers (hyperscalers) and emerging NeoClouds building AI/Machine Learning (ML) Infrastructure as well as general compute and data centers. The demands for increased bandwidth, better reliability and improved power efficiency have grown as AI model sizes have increased from billions to trillions of parameters and the workload has expanded from training to inference.
+61
+We design, market and sell both product, software and IP solutions. We help define industry conventions and standards within the markets we target by collaborating with technology leaders and standards bodies. We contract with a variety of manufacturing partners to build our products based on our proprietary SerDes and DSP technologies. We develop standard solutions we can sell broadly to our end markets and also develop tailored solutions designed to address specific customer needs. Once developed, these tailored solutions can generally be broadly leveraged across our portfolio and we are able to sell the part or license the IP to the broader market.
+During fiscal 2026 and 2025, we generated $1.3 billion and $436.8 million in total revenue, respectively. Geographically, 58% and 15% of our total revenue in fiscal 2026 and 2025 was generated from customers in North America, and 42% and 85% of our total revenue in fiscal 2026 and 2025 was generated from customers in the rest of the world, primarily in Asia. During fiscal 2026 and 2025, we generated $472.3 million and $52.2 million of net income, respectively.
+We derive the substantial majority of our revenue from a limited number of customers. We anticipate we will continue to derive a significant portion of our revenue from a limited number of customers for the foreseeable future. We expect that as our products are more widely adopted and as our number of customers increase, customer concentration will decrease.
+We sell our products to hyperscalers, Neoclouds, original equipment manufacturers (OEMs), original design manufacturers (ODMs), contract manufacturers (CM) and optical module manufacturers, as well as to companies in the enterprise and HPC markets. We work closely and have engagements with industry-leading companies across these segments. A relatively small number customers have historically accounted for and continue to account for a significant portion of our revenue. We report revenue by customer in our financial statement disclosure based on the contracting parties who place purchase orders or sign revenue contracts with us. See Note 3 to our audited consolidated financial statements included elsewhere in this Annual Report on Form 10-K. However, certain of our end customers have their contract manufacturing partners place orders with us. As a result, the contract manufacturers, rather than the end customers, are reported as our customers for financial reporting purposes. As a supplement to our financial statement footnote disclosure, and to provide further insight into our end customer concentration, the following table summarizes our revenue by customer as a percentage of total revenue based on end customer profile, rather than based on the contracting parties who place purchase orders or sign revenue contracts with us:
+Year Ended
+May 2, 2026
+May 3, 2025
+Revenue:
+Customer B
+32 
+%
+*
+Customer D
+33 
+%
+63 
+%
+Customer E
+19 
+%
+*
+* Less than 10% of total revenue.
+Our Business Model
+We are a product-focused business with a strong foundation in IP, pioneering comprehensive connectivity solutions that deliver bandwidth, scalability and end-to-end signal integrity for next-generation platforms.
+We utilize a fabless business model, working with a network of third parties to manufacture, assemble and test our connectivity products. This approach allows us to focus our engineering and design resources on our core competencies and to control our fixed costs and capital expenditures.
+62
+We employ a two-pronged sales strategy targeting both the end users of our products, as well as the suppliers of our end users. By engaging directly with the end user, we are able to better understand the needs of our customers and cater our solutions to their most pressing connectivity requirements.
+This strategy has enabled us to become the preferred vendor to a number of our customers who, in turn, in some cases, require their suppliers, OEMs, ODMs, CMs and optical module manufacturers to utilize our solutions.
+Components of Our Operating Results
+Revenue
+Our revenues primarily consist of shipments of our AEC and ICs products. Our customers are primarily hyperscalers, NeoClouds and other cloud infrastructure providers. Our revenue is driven by various trends in these markets.
+We recognize revenue upon transfer of control of promised goods and services in an amount that reflects the consideration we expect to receive in exchange for those goods and services. Our policy is to record revenue net of any applicable sales, use or excise taxes. Changes in our contract assets and contract liabilities primarily result from the timing difference between our performance and the customer’s payment. We fulfill our obligations under a contract with a customer by transferring products or services in exchange for consideration from the customer. We recognize a contract asset when we transfer products or services to a customer and the right to consideration is conditional on something other than the passage of time. Accounts receivable are recorded when the customer has been billed or the right to consideration is unconditional. We recognize deferred revenue when we have received consideration or an amount of consideration is due from the customer and we have a future obligation to transfer products or services.
+We transact with customers primarily pursuant to standard purchase orders for delivery of products and generally allow customers to cancel or change purchase orders within limited notice periods prior to the scheduled shipment date. We offer standard performance warranties of twelve months after product delivery and offer limited product return rights to certain distributors. We recognize product sales when we transfer control of promised goods in an amount that reflects the consideration to which we expect to be entitled to in exchange for those goods, net of accruals for estimated sales returns and rebates.
+Cost of Revenue
+Cost of revenue includes cost of materials, such as wafers processed by third-party foundries, cost associated with packaging and assembly, testing and shipping, cost of personnel, including share-based compensation, depreciation of equipment associated with manufacturing support, logistics and quality assurance, warranty cost, amortization of intellectual property purchased from third parties, write-down of inventories and amortization of production mask costs.
+Research and Development Expenses
+Research and development expenses consist of costs incurred in performing research and development activities and includes salaries, share-based compensation, employee benefits, occupancy costs, pre-production engineering mask costs, overhead costs and prototype wafer, packaging and test costs. Research and development costs are expensed as incurred.
+We believe that continued investments in our products are important to our future growth and, as a result, we expect our research and development expenses to continue to increase in absolute dollars.
+63
+Selling, General and Administrative Expenses
+Selling expenses consist of personnel costs including salaries, benefits and share-based compensation expense, field application engineering support, samples to customers, shipping costs and travel and entertainment costs.
+General and administrative expenses consist primarily of personnel costs including salaries, benefits and share-based compensation, related to corporate, finance, legal and human resource functions, contractor and professional services fees, audit and compliance expenses, insurance costs, acquisition and integration-related expenses and general corporate expenses including allocated facilities expenses.
+Other Income and Expense, Net
+Other income and expense, net consists primarily of interest income from cash and cash equivalents and short-term investments and interest expense relating to certain purchases of computer equipment and software.
+Provision for Income Taxes
+Current income tax expense or benefit represents the amount of income taxes expected to be payable or refundable for the current year. The Company uses the asset and liability method to account for income taxes. Under this method, deferred income tax assets and liabilities are determined based on differences between the financial statement reporting and tax bases of assets and liabilities and net operating loss and credit carryforwards. Deferred tax assets and liabilities are measured using enacted tax rates applied to taxable income in the years in which those temporary differences are expected to be recovered or settled. A valuation allowance is established when necessary to reduce deferred tax assets to the amount expected to be realized.
+We account for uncertain tax positions in accordance with ASC 740‑10,
+Accounting for Uncertainty in Income Taxes
+. We recognize the tax effects of an uncertain tax position only if it is more likely than not to be sustained based solely on its technical merits as of the reporting date and only in an amount more likely than not to be sustained upon review by the tax authorities. Interest and penalties related to uncertain tax positions are classified in the consolidated financial statements as income tax expense.
+Results of Operations
+Years Ended May 2, 2026 and May 3, 2025
+64
+The following table sets forth information derived from our consolidated statements of operations expressed as a percentage of total revenue:
+Year Ended
+May 2, 2026
+May 3, 2025
+Revenue
+100.0 
+%
+100.0 
+%
+Cost of revenue
+32.0 
+%
+35.2 
+%
+Gross margin
+68.0 
+%
+64.8 
+%
+Operating expenses:
+Research and development
+20.9 
+%
+33.6 
+%
+Selling, general and administrative
+13.8 
+%
+22.6 
+%
+Total operating expenses
+34.7 
+%
+56.3 
+%
+Operating income
+33.3 
+%
+8.5 
+%
+Other income, net
+2.3 
+%
+4.1 
+%
+Income before income taxes
+35.6 
+%
+12.6 
+%
+Provision for income taxes
+0.2 
+%
+0.7 
+%
+Net income
+35.4 
+%
+11.9 
+%
+Comparison of Years Ended May 2, 2026 and May 3, 2025
+Revenue
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Revenue
+$
+1,335,116 
+$
+436,775 
+205.7 
+%
+Revenue for fiscal 2026 increased by $898.3 million as compared to fiscal 2025 primarily due to significant increase in volume unit shipments for AEC products. The sales increase was primarily driven by the ramp-up of our AEC solutions at our hyperscale data center customers during fiscal 2026 which contributed over 99% of the increase in revenue.
+Cost of Revenue
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Cost of revenue
+$
+426,767 
+$
+153,866 
+177.4 
+%
+Cost of revenue increased by $272.9 million primarily due to significant increase of unit shipments for our AEC products discussed above.
+Gross Profit and Gross Margin
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Gross profit
+$
+908,349 
+$
+282,909 
+221.1 
+%
+Gross margin
+68.0 
+%
+64.8 
+%
+65
+Gross margin increased by 3.2 percentage points in fiscal 2026 primarily driven by the improved economies of scale in our revenue.
+Research and Development
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Research and development
+$
+279,381 
+$
+146,867 
+90.2 
+%
+% of total revenue
+20.9 
+%
+33.6 
+%
+Research and development expenses for fiscal 2026 increased by $132.5 million compared to fiscal 2025. The increase was due primarily to a $60.9 million increase in share-based compensation expense driven by increased amortization expense from new equity awards granted to employees, an $18.8 million increase in personnel costs primarily as a result of new hires for product development, a $35.4 million increase in design activities and higher engineering activities relating to testing and laboratory supplies for new product development, a $5.1 million increase in acquisition and integration related costs relating to the business acquisitions and a $4.0 million increase in depreciation expense driven by increased computer equipment and software and laboratory equipment utilized in research and development activities.
+Selling, General and Administrative
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Selling, general and administrative
+$
+183,963 
+$
+98,918 
+86.0 
+%
+% of total revenue
+13.8 
+%
+22.6 
+%
+Selling, general and administrative expenses for fiscal 2026 increased by $85.0 million compared to fiscal 2025. The increase was due primarily to a $44.4 million increase in share-based compensation expense driven by increased amortization expense from new equity awards granted to employees, a $15.1 million increase in personnel costs as a result of higher selling, general and administrative headcount and a $14.8 million increase in external professional fees relating to general and administrative function.
+Provision for Income Taxes
+Year Ended
+% Change
+May 2, 2026
+May 3, 2025
+(in thousands, except percentages)
+Provision for income taxes
+$
+3,156 
+$
+2,687 
+17.5 
+%
+% of total revenue
+0.2 
+%
+0.7 
+%
+Provision for income taxes in fiscal 2026 increased by $0.5 million compared to the same period in fiscal 2025. The increase was primarily driven by higher pre-tax income generated in tax-paying jurisdictions during the current year relative to the same period in fiscal 2025.
+Liquidity and Capital Resources
+Our activities consist primarily of selling our products. As of May 2, 2026 and May 3, 2025, we had cash and cash equivalents of $1.2 billion and $236.3 million, respectively, and working capital of $1.8 billion and $605.8 million, respectively. Our principal use of cash is to fund our operations and invest in
+66
+research and development and acquisitions of complementary businesses or technologies to support our growth. See also Note 9 to our consolidated financial statements included in this Annual Report on Form 10-K for a further discussion of our cash requirements under non-cancelable purchase obligations.
+During fiscal 2026, the Company received $736.3 million in net proceeds through the issuance of 4.8 million ordinary shares under the ATM Offering (defined below). See Note 1 to our consolidated financial statements included elsewhere in this Annual Report on Form 10-K for a further discussion of our arrangement under the ATM Offering. We believe our existing cash and cash equivalents and other components of working capital will be sufficient to meet our needs for at least the next 12 months and in the longer term. Our future capital requirements will depend on many factors, including our growth rate, the timing and extent of our sales and marketing and research and development expenditures, customer demand and the continuing market acceptance of our solutions. In the event that we need to borrow funds or issue additional equity, we cannot be assured that any such additional financing will be available on terms acceptable to us, if at all. If we are unable to raise additional capital when we need it, our business, results of operations and financial condition would be adversely affected.
+The following table summarizes our cash flows for the periods indicated.
+Year Ended
+May 2, 2026
+May 3, 2025
+(in thousands)
+Net cash provided by operating activities
+$
+464,292 
+$
+65,083 
+Net cash provided by (used in) investing activities
+$
+(253,528)
+$
+111,990 
+Net cash provided by (used in) financing activities
+$
+717,629 
+$
+(7,728)
+Cash Flows Provided by Operating Activities
+Net cash provided by operating activities was $464.3 million for fiscal 2026. The cash inflows from operating activities for fiscal 2026 were primarily due to net income of $472.3 million adjusted for the following non-cash items: share-based compensation expense of $182.6 million, depreciation and amortization of $34.6 million, write-down for excess and obsolete inventory of $15.1 million and other non-cash items of $1.9 million. This was offset by $242.3 million of cash outflows for working capital purposes. The cash outflows from working capital for fiscal 2026 were primarily driven by (a) an increase in accounts receivable of $70.8 million primarily due to increased sales in the fiscal 2026 compared to fiscal 2025 and timing of collection; (b) an increase in inventory of $174.0 million to support unfulfilled backlog and related new product ramps; (c) an increase in other current and non-current assets of $71.3 million of payment for refundable deposits to the suppliers in exchange for reserved manufacturing production capacity. This was offset by increases in accounts payable of $48.8 million and accrued compensation and benefits, other current liabilities and other non-current liabilities of $25.1 million due to increased purchases of inventory to support growing demand for our products.
+Net cash used in operating activities was $65.1 million for fiscal 2025. The cash inflows from operating activities for fiscal 2025 were primarily due to net income of $52.2 million adjusted for the following non-cash items: share-based compensation expense of $77.4 million, depreciation and amortization of $21.9 million and other non-cash items of $22.0 million. This was offset by $108.4 million of cash outflows for working capital purposes. The cash outflows from working capital for fiscal 2025 were primarily driven by (a) an increase in accounts receivable of $102.5 million primarily due to increased sales in the fiscal 2025 compared to fiscal 2024 and timing of collection; (b) and an increase in inventory of $70.5 million to support unfulfilled backlog and related new product ramps. This was offset by increases in account payable of $41.9 million and accrued compensation and benefits, other current liabilities and other non-current liabilities of $15.9 million due to increased purchases of inventory to support growing demand for our products.
+Cash Flows Provided by (Used in) Investing Activities
+67
+Net cash used in investing activities of $253.5 million for fiscal 2026 was attributable to purchases of property and equipment of $57.3 million, investments in certificates of deposit of $393.3 million and acquisitions of Hyperlume and Comira for $112.9 million, offset by maturities of investment in certificates of deposit of $310.0 million. Purchases of property and equipment primarily relate to mask sets purchases for new products introduced or in process of being introduced and computer equipment and software used for research and development purposes. The acquisitions were primarily intended to expand the Company’s comprehensive portfolio of end-to-end system-level connectivity solutions.
+Net cash used in investing activities of $112.0 million for fiscal 2025 was attributable to maturities of investment in certificates of deposit of $406.8 million, partially offset by purchases of property and equipment of $36.1 million and investment in certificates of deposit of $258.7 million. Purchases of property and equipment primarily relate to mask sets purchases for new products introduced or in process of being introduced and computer equipment and software used for research and development purposes.
+Cash Flows Provided by (Used in) Financing Activities
+Net cash provided by financing activities of $717.6 million for fiscal 2026 was primarily attributable to $736.3 million in proceeds from the ATM Offering and $7.1 million in proceeds from exercises of employee share options and the issuance of shares under our employee share purchase plan, offset by $19.2 million tax withheld related to RSU settlement and $6.6 million in payments for long-term technology license obligations.
+Net cash used in financing activities of $7.7 million for fiscal 2025 was primarily attributable to $9.3 million tax withheld related to RSU settlement and $6.3 million in payments for long-term technology license obligations, offset by $7.8 million in proceeds from exercises of employee share options and the issuance of shares under our employee share purchase plan.
+Critical Accounting Estimates
+We prepare our financial statements in conformity with GAAP. The preparation of financial statements in accordance with GAAP requires certain estimates, assumptions and judgments to be made that may affect our consolidated financial statements. Accounting policies that have a significant impact on our results are described in Note 2 to our consolidated financial statements included elsewhere in this filing. The accounting policies discussed in this section are those that we consider to be the most critical. We consider an accounting policy to be critical if the policy is subject to a material level of judgment and if changes in those judgments are reasonably likely to materially impact our results.
+We base our estimates and judgments on our historical experience, knowledge of current conditions and our beliefs of what could occur in the future, given the available information. Estimates are used for, but not limited to write-down for excess and obsolete inventories. Actual results may differ from those estimates and such differences may be material to the financial statements. See Note 2 Significant Accounting Policies included in Part II, Item 8 of this Annual Report on Form 10-K for further information on use of estimates.
+We continue to monitor and assess our critical estimates in light of developments, and as events continue to evolve and additional information becomes available, our estimates may change materially in future periods.
+Inventory Valuation
+We value our inventory, which includes raw materials, assembly and test, and other manufacturing costs, at the lower of cost and net realizable value. Cost is computed using standard cost, which approximates actual cost, on a first-in, first-out basis. Net realizable value is the estimated selling price of our products in the ordinary course of business, less reasonably predictable costs of completion, disposal and transportation. We regularly review inventory quantities on hand and non-cancellable purchase commitments and record write-downs for excess and obsolete inventory based primarily on the shipment
+68
+history and our estimated forecast of product demand. These factors are impacted by market and economic conditions, technology changes, new product introductions and changes in strategic direction. If the future demand for our products is less favorable than our forecasts, the value of the inventories may be required to be reduced, which could result in additional expense to us and affect our results of operations. We do not believe there is a reasonable likelihood that there will be a material change in the future estimates or assumptions that we use to calculate our inventory reserve. However, if estimates regarding customer demand are inaccurate or changes in technology affect demand for certain products in an unforeseen manner, we may be exposed to losses or gains that could be material.
+Recent Accounting Pronouncements
+For more information, see Note 2 to our consolidated financial statements included elsewhere in this Annual Report on Form 10-K.

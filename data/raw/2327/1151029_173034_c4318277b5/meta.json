@@ -1,0 +1,24 @@
+{
+  "company": "Yageo",
+  "ticker": "2327",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司國新投資股份有限公司公告董事會決議現金增資",
+  "filing_date": "2026-10-29",
+  "accession_number": "1151029_173034_c4318277b5",
+  "filing_id": "1151029_173034_c4318277b5",
+  "title": "代子公司國新投資股份有限公司公告董事會決議現金增資",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T22:44:08.325479+00:00",
+  "paths": {
+    "other_full": "data/raw/2327/1151029_173034_c4318277b5/other_full.txt"
+  },
+  "clause": "第11款",
+  "fact_date_roc": "1151029",
+  "announce_time": "173034",
+  "feed": "t187ap04_L"
+}

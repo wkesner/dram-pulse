@@ -1,0 +1,36 @@
+{
+  "company": "First Solar",
+  "ticker": "FSLR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0001274494",
+  "form": "8-K",
+  "filing_date": "2026-10-29",
+  "accession_number": "0001274494-26-000211",
+  "primary_document": "fslr-20261029.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000211/fslr-20261029.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-10-29",
+  "period_end": "2026-10-29",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:09:54.328654+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ex991pressreleaseq3-2026.htm",
+      "path": "data/raw/FSLR/000127449426000211/exhibit_99_ex991pressreleaseq3-2026.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000211/ex991pressreleaseq3-2026.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/FSLR/000127449426000211/primary.html",
+    "other": "data/raw/FSLR/000127449426000211/other_full.txt"
+  }
+}

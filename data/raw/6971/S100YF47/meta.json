@@ -1,0 +1,24 @@
+{
+  "company": "Kyocera",
+  "ticker": "6971",
+  "role": "supplier",
+  "source": "EDINET",
+  "form": "有価証券報告書－第72期(2025/04/01－2026/03/31)",
+  "filing_date": "2026-06-19",
+  "accession_number": "S100YF47",
+  "filing_id": "S100YF47",
+  "edinet_code": "E01182",
+  "sec_code": "69710",
+  "doc_type_code": "120",
+  "title": "有価証券報告書－第72期(2025/04/01－2026/03/31)",
+  "source_url": "https://disclosure2.edinet-fsa.go.jp/WEBSITE/download?docid=S100YF47",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "ja",
+  "fetched_at": "2026-10-29T22:44:49.564414+00:00",
+  "paths": {
+    "other_full": "data/raw/6971/S100YF47/other_full.txt",
+    "document_zip": "data/raw/6971/S100YF47/document.zip"
+  }
+}

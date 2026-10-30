@@ -1,0 +1,34 @@
+{
+  "company": "Astera Labs",
+  "ticker": "ALAB",
+  "cik": "0001736297",
+  "form": "10-K",
+  "filing_date": "2026-02-20",
+  "accession_number": "0001736297-26-000010",
+  "primary_document": "alab-20251231.htm",
+  "primary_doc_description": "10-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-12-31",
+  "period_end": "2025-12-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:49:06.286230+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/ALAB/000173629726000010/primary.html",
+    "business": "data/raw/ALAB/000173629726000010/item1_business.txt",
+    "risk_factors": "data/raw/ALAB/000173629726000010/item1a_risk_factors.txt",
+    "mdna": "data/raw/ALAB/000173629726000010/item7_mdna.txt",
+    "other": "data/raw/ALAB/000173629726000010/other_full.txt"
+  }
+}

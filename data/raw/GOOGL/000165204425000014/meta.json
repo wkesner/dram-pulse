@@ -1,0 +1,30 @@
+{
+  "company": "Alphabet",
+  "ticker": "GOOGL",
+  "cik": "0001652044",
+  "form": "10-K",
+  "filing_date": "2025-02-05",
+  "accession_number": "0001652044-25-000014",
+  "primary_document": "goog-20241231.htm",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:54:51.903797+00:00",
+  "prior_only": true,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "paths": {
+    "primary_html": "data/raw/GOOGL/000165204425000014/primary.html",
+    "business": "data/raw/GOOGL/000165204425000014/item1_business.txt",
+    "risk_factors": "data/raw/GOOGL/000165204425000014/item1a_risk_factors.txt",
+    "mdna": "data/raw/GOOGL/000165204425000014/item7_mdna.txt",
+    "other": "data/raw/GOOGL/000165204425000014/other_full.txt"
+  },
+  "period_end": "2024-12-31",
+  "report_date": "2024-12-31"
+}

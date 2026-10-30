@@ -1,0 +1,36 @@
+{
+  "company": "Ingram Micro",
+  "ticker": "INGM",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0001897762",
+  "form": "8-K",
+  "filing_date": "2025-10-30",
+  "accession_number": "0001628280-25-047529",
+  "primary_document": "ingm-20251030.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828025047529/ingm-20251030.htm",
+  "fiscal_year_end": "1228",
+  "report_date": "2025-10-30",
+  "period_end": "2025-10-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:09:16.582324+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "earningsreleaseq325.htm",
+      "path": "data/raw/INGM/000162828025047529/exhibit_99_earningsreleaseq325.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828025047529/earningsreleaseq325.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/INGM/000162828025047529/primary.html",
+    "other": "data/raw/INGM/000162828025047529/other_full.txt"
+  }
+}

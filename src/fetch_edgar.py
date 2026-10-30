@@ -49,6 +49,12 @@ class Company:
     ticker: str
     krx_code: str | None = None
     forms: tuple[str, ...] = DEFAULT_FORMS
+    # 1 = primary map; 2 = F500–F1000 electronics/DC; 3 = smaller listed.
+    tier: int = 1
+    # CNINFO: sse | szse. EDINET: optional E#####. CH: Companies House number.
+    exchange: str | None = None
+    edinet_code: str | None = None
+    company_number: str | None = None
 
 
 class RateLimitedSession:
@@ -86,7 +92,12 @@ class RateLimitedSession:
                 continue
 
             if resp.status_code in {403, 429, 502, 503, 504} and attempt + 1 < retries:
-                wait = min(2**attempt, 16) + 0.5
+                # SEC fair-access: back off hard on 403/429 so a burst does not
+                # lock the whole batch out of Archives.
+                if resp.status_code in {403, 429}:
+                    wait = 20.0 * (attempt + 1) + 0.5
+                else:
+                    wait = min(2**attempt, 16) + 0.5
                 print(
                     f"HTTP {resp.status_code} for {url} — retry in {wait:.1f}s "
                     f"({attempt + 1}/{retries})",
@@ -119,21 +130,77 @@ def load_companies(path: Path) -> list[Company]:
             form_tuple = tuple(str(f).upper() for f in forms)
         else:
             form_tuple = DEFAULT_FORMS
+        tier_raw = row.get("tier", 1)
+        try:
+            tier = int(tier_raw)
+        except (TypeError, ValueError):
+            tier = 1
+        if tier not in {1, 2, 3}:
+            tier = 1
+        ticker = str(row["ticker"])
+        source = str(row["source"]).upper()
+        # Keep KR/CN numeric codes zero-padded; JP/TW 4-digit as-is; Latin upper.
+        if ticker.isdigit():
+            if source in {"EDINET", "MOPS", "TWSE"} and len(ticker) <= 4:
+                ticker = ticker.zfill(4)
+            elif len(ticker) <= 6:
+                ticker = ticker.zfill(6)
+        else:
+            ticker = ticker.upper()
         out.append(
             Company(
                 name=row["name"],
                 role=row["role"],
                 source=row["source"],
-                ticker=str(row["ticker"]).upper(),
+                ticker=ticker,
                 krx_code=str(row["krx_code"]) if row.get("krx_code") else None,
                 forms=form_tuple,
+                tier=tier,
+                exchange=str(row["exchange"]).lower() if row.get("exchange") else None,
+                edinet_code=str(row["edinet_code"]).upper() if row.get("edinet_code") else None,
+                company_number=str(row["company_number"]) if row.get("company_number") else None,
             )
         )
     return out
 
 
+def company_tier_index(path: Path) -> dict[str, int]:
+    """Map ticker_or_code / company name → tier (lowest tier wins on conflict)."""
+    by_key: dict[str, int] = {}
+    for c in load_companies(path):
+        for key in {c.ticker, c.name, (c.krx_code or "")}:
+            if not key:
+                continue
+            k = key.strip()
+            prev = by_key.get(k)
+            if prev is None or c.tier < prev:
+                by_key[k] = c.tier
+            # Also index uppercase ticker variants
+            by_key[k.upper()] = by_key[k]
+    return by_key
+
+
 def resolve_user_agent() -> str:
+    # Prefer process env; fall back to .env (tmux/login shells often lack exports).
+    try:
+        from dotenv import load_dotenv
+
+        load_dotenv(REPO_ROOT / ".env", override=False)
+    except Exception:
+        pass
     ua = (os.environ.get("SEC_USER_AGENT") or "").strip()
+    if not ua or "your-name" in ua.lower() or "your-email" in ua.lower():
+        # Placeholder from a sample .env — force-load overriding empty/placeholder.
+        try:
+            from dotenv import dotenv_values
+
+            vals = dotenv_values(REPO_ROOT / ".env") or {}
+            cand = (vals.get("SEC_USER_AGENT") or "").strip()
+            if cand and "your-name" not in cand.lower():
+                ua = cand
+                os.environ["SEC_USER_AGENT"] = cand
+        except Exception:
+            pass
     if not ua:
         raise SystemExit(
             "SEC_USER_AGENT is required. Set it to "
@@ -147,10 +214,36 @@ def resolve_user_agent() -> str:
     return ua
 
 
-def lookup_cik(session: RateLimitedSession, tickers_url: str, ticker: str) -> str:
-    """Return zero-padded 10-digit CIK for ticker via company_tickers.json."""
+_TICKERS_CACHE: dict[str, Any] | None = None
+
+
+def load_company_tickers(
+    session: RateLimitedSession | None,
+    tickers_url: str,
+    *,
+    cache_path: Path | None = None,
+) -> dict[str, Any]:
+    """Load SEC company_tickers.json once; prefer on-disk cache to avoid repeat 403s."""
+    global _TICKERS_CACHE
+    if _TICKERS_CACHE is not None:
+        return _TICKERS_CACHE
+    path = cache_path or (REPO_ROOT / "data" / "company_tickers.json")
+    if path.is_file() and path.stat().st_size > 0:
+        _TICKERS_CACHE = json.loads(path.read_text(encoding="utf-8"))
+        return _TICKERS_CACHE
+    if session is None:
+        raise LookupError(f"company_tickers cache missing at {path} and no session")
     resp = session.get(tickers_url)
     payload = resp.json()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload), encoding="utf-8")
+    _TICKERS_CACHE = payload
+    return payload
+
+
+def lookup_cik(session: RateLimitedSession, tickers_url: str, ticker: str) -> str:
+    """Return zero-padded 10-digit CIK for ticker via company_tickers.json."""
+    payload = load_company_tickers(session, tickers_url)
     want = ticker.upper()
     for entry in payload.values():
         if str(entry.get("ticker", "")).upper() == want:
@@ -466,6 +559,8 @@ def fetch_one_filing(
     meta = {
         "company": company.name,
         "ticker": company.ticker,
+        "role": company.role,
+        "tier": company.tier,
         "cik": cik if isinstance(cik, str) else f"{int(cik):010d}",
         "form": form,
         "filing_date": filing["filingDate"],
@@ -582,12 +677,29 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Fetch EDGAR filings for Memory Signals")
     parser.add_argument("--ticker", help="Single ticker to fetch")
     parser.add_argument("--all", action="store_true", help="Fetch all EDGAR companies")
+    parser.add_argument(
+        "--tier",
+        type=int,
+        choices=(1, 2, 3),
+        help="Only EDGAR companies in this tier (can combine with --all)",
+    )
+    parser.add_argument(
+        "--missing-only",
+        action="store_true",
+        help="Skip tickers that already have a data/raw/{TICKER} directory",
+    )
     parser.add_argument("--settings", type=Path, default=DEFAULT_SETTINGS)
     parser.add_argument("--companies", type=Path, default=DEFAULT_COMPANIES)
+    parser.add_argument(
+        "--max-rps",
+        type=float,
+        default=None,
+        help="Override edgar.max_requests_per_second (stay polite to SEC)",
+    )
     args = parser.parse_args(argv)
 
-    if not args.all and not args.ticker:
-        parser.error("Provide --ticker or --all")
+    if not args.all and not args.ticker and args.tier is None:
+        parser.error("Provide --ticker, --all, and/or --tier")
 
     settings = load_yaml(args.settings)
     companies = load_companies(args.companies)
@@ -597,15 +709,33 @@ def main(argv: list[str] | None = None) -> int:
         edgar_cos = [c for c in edgar_cos if c.ticker == ticker]
         if not edgar_cos:
             raise SystemExit(f"Ticker {ticker} not in {args.companies} as EDGAR")
+    if args.tier is not None:
+        edgar_cos = [c for c in edgar_cos if c.tier == args.tier]
+        if not edgar_cos:
+            raise SystemExit(f"No EDGAR companies with tier={args.tier}")
+    if args.missing_only:
+        raw_root = REPO_ROOT / settings.get("paths", {}).get("raw_dir", "data/raw")
+        before = len(edgar_cos)
+        edgar_cos = [c for c in edgar_cos if not (raw_root / c.ticker).is_dir()]
+        print(f"missing-only: {len(edgar_cos)}/{before} tickers lack raw cache")
 
     user_agent = resolve_user_agent()
-    max_rps = float(settings.get("edgar", {}).get("max_requests_per_second", 10))
-    session = RateLimitedSession(user_agent, max_rps=min(max_rps, 8.0))
+    max_rps = float(
+        args.max_rps
+        if args.max_rps is not None
+        else settings.get("edgar", {}).get("max_requests_per_second", 10)
+    )
+    session = RateLimitedSession(user_agent, max_rps=min(max(max_rps, 0.2), 8.0))
+    print(f"SEC max_rps={session.min_interval and round(1/session.min_interval, 2)}")
 
     summary: list[dict[str, Any]] = []
     for company in edgar_cos:
-        metas = fetch_company_filings(company, settings, session)
-        summary.append({"ticker": company.ticker, "filings": len(metas)})
+        try:
+            metas = fetch_company_filings(company, settings, session)
+            summary.append({"ticker": company.ticker, "filings": len(metas), "ok": True})
+        except Exception as exc:  # noqa: BLE001 — continue batch
+            print(f"ERROR {company.ticker}: {exc}", file=sys.stderr)
+            summary.append({"ticker": company.ticker, "filings": 0, "ok": False, "error": str(exc)})
 
     print(json.dumps({"fetched": summary}, indent=2))
     return 0

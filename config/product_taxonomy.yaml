@@ -1,6 +1,9 @@
 # Product taxonomy for Memory Signals extraction.
 # Longer / more specific terms should appear first within each family
 # (the extractor also sorts by term length descending).
+#
+# Memory categories (DRAM / NAND / Other) stay first-class. Compute / Analog /
+# Passives cover other electronic commodities filterable in Feed + Map.
 
 categories:
   DRAM:
@@ -12,6 +15,9 @@ categories:
       - high bandwidth memory
       - 고대역폭 메모리
       - 고대역폭메모리
+      - 高带宽内存
+      - 高帶寬內存
+      - 高頻寬記憶體
       - HBM
     DDR5:
       - server DRAM
@@ -20,6 +26,8 @@ categories:
       - DDR5
     DDR4:
       - legacy DRAM
+      - 利基型DRAM
+      - 利基型 DRAM
       - DDR4
     LPDDR:
       - LPDDR4X
@@ -34,9 +42,14 @@ categories:
       - GDDR7
       - GDDR6
       - graphics memory
+      - 显存
+      - 顯存
       - GDDR
     DRAM_general:
       - 디램
+      - 动态随机存取存储器
+      - 動態隨機存取記憶體
+      - ディーラム
       - DRAM
   NAND:
     Data center SSD:
@@ -52,19 +65,93 @@ categories:
       - UFS
       - eMMC
       - mobile NAND
+      - 嵌入式存储
+      - 嵌入式儲存
     NAND_general:
       - 낸드플래시
       - 낸드
+      - NAND flash memory
+      - NAND flash
       - flash memory
+      - NOR闪存
+      - NOR Flash
+      - 闪存芯片
+      - 闪存产品
+      - 闪存
+      - 快閃記憶體
+      - 快閃晶片
+      - フラッシュメモリ
+      - フラッシュメモリー
       - NAND
   Other:
     CXL:
       - memory expansion
       - CXL
+    # Hyperscaler / custom-silicon BOM language (memory demand drivers).
+    # Discrete GPUs live under Compute/GPU; keep TPU / custom AI here.
+    AI_accelerators:
+      - custom AI silicon
+      - custom AI chips
+      - custom AI chip
+      - custom-built TPUs
+      - custom-built TPU
+      - custom AI accelerators
+      - custom AI accelerator
+      - AI accelerators
+      - AI accelerator
+      - Trainium4
+      - Trainium3
+      - Trainium2
+      - Trainium
+      - TPU systems
+      - TPUs
+      # Prefer "custom XPUs" — bare XPU/XPUs matched too many Broadcom risk-factor windows.
+      - custom XPUs
+      - custom XPU
+    Packaging:
+      - advanced packaging
+      - packaging capacity
+      - 先进封装
+      - 封装测试
+      - 封装产能
+      - 代工产能
+      - 晶圆代工
+      - 晶圆制造
+      - 晶圆厂
+      - 约当晶圆
+      - 先進封裝
+      - 封裝測試
+      - 封裝產能
+      - 代工產能
+      - 晶圓代工
+      - 晶圓製造
+      - 晶圓廠
+      - 約當晶圓
+      - 晶圓
+      - 半導体製造装置
+      - 後工程
+      - 前工程
+      - ウェーハ
+      - ウェハ
+      - ウエハ
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
       - 메모리
+      - 专用型存储
+      - 存储芯片
+      - 存储器
+      - 内存芯片
+      - 内存
+      - 專用型儲存
+      - 記憶體晶片
+      - 記憶體
+      - 半導体メモリ
+      - メモリー半導体
+      - 積層メモリ
+      - 半導体デバイス
+      - メモリー
+      - メモリ
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
       # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
@@ -92,3 +179,234 @@ categories:
       - costs of memory
       - price of memory
       - prices in memory
+      # Curated-pack buyer / storage phrasing (2026-10 term-list pass)
+      - shortages of semiconductors
+      - shortage of semiconductors
+      - semiconductor shortages
+      - semiconductor shortage
+      - memory chips
+      - memory devices
+      - server memory
+      - DRAM chips
+      - NAND flash memory
+      - NAND flash
+      - critical hardware
+      - hardware components
+
+  # --- Other electronic commodities (filterable alongside memory) ---
+  Compute:
+    GPU:
+      - graphics processing units
+      - graphics processing unit
+      - discrete GPUs
+      - discrete GPU
+      - GPU shortages
+      - GPU shortage
+      - GPU lead times
+      - GPU lead time
+      - GPU supply constraints
+      - GPU supply
+      - GPU allocation
+      - allocate supply of GPUs
+      - 图形处理器
+      - 图形处理单元
+      - 圖形處理器
+      - 圖形處理單元
+      - GPUs
+      - GPU
+    CPU:
+      - central processing units
+      - central processing unit
+      - server processor technology
+      - server processors
+      - server processor
+      - microprocessors
+      - microprocessor
+      - memory related microprocessors
+      - server CPUs
+      - server CPU
+      - CPU shortages
+      - CPU shortage
+      - CPU lead times
+      - CPU lead time
+      - CPU supply constraints
+      - CPU supply
+      - 中央处理器
+      - 中央处理单元
+      - 服务器处理器
+      - 微处理器
+      - 中央處理器
+      - 中央處理單元
+      - 伺服器處理器
+      - 微處理器
+      - CPUs
+      - CPU
+    FPGA:
+      - field-programmable gate arrays
+      - field programmable gate arrays
+      - field-programmable gate array
+      - field programmable gate array
+      - FPGA shortages
+      - FPGA shortage
+      - FPGA lead times
+      - FPGA lead time
+      - FPGA supply constraints
+      - FPGA supply
+      # Avoid bare FPGA(s) — Lattice "allocating functions to FPGAs" is not supply.
+      - programmable logic devices
+      - programmable logic device
+      - 现场可编程门阵列
+      - 可编程逻辑器件
+      - 可编程逻辑
+      - 現場可編程門陣列
+      - 可編程邏輯器件
+      - 可編程邏輯
+    MCU:
+      - microcontroller units
+      - microcontroller unit
+      - general-purpose microcontrollers
+      - general purpose microcontrollers
+      - microcontrollers
+      - microcontroller
+      - MCU shortages
+      - MCU shortage
+      - MCU lead times
+      - MCU lead time
+      - MCU supply constraints
+      - MCU supply
+      - 微控制器产品
+      - 微控制器
+      - MCU产品
+      - 單片機
+      - 单片机
+      - マイクロコントローラ
+      - マイコン
+      # Bare MCU(s) too often appears in product catalogs without supply context.
+  Analog:
+    Power_IC:
+      - power management integrated circuits
+      - power management ICs
+      - power management IC
+      - power management chips
+      - voltage regulator ICs
+      - voltage regulator IC
+      - power ICs
+      - power IC
+      - PMICs
+      - PMIC
+      - 电源管理集成电路
+      - 电源管理芯片
+      - 功率管理芯片
+      - 功率半导体
+      - 功率器件
+      - 电源芯片
+      - 電源管理積體電路
+      - 電源管理晶片
+      - 功率半導體
+      - パワーマネジメントIC
+      - パワー半導体
+  Storage:
+    # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
+    HDD:
+      - high-capacity hard disk drives
+      - high-capacity enterprise HDDs
+      - high-capacity HDDs
+      - high capacity HDDs
+      - capacity enterprise HDDs
+      - hard disk drives
+      - hard disk drive
+      - nearline HDDs
+      - nearline HDD
+      - mass capacity HDDs
+      - mass-capacity HDDs
+      - HDD shortages
+      - HDD shortage
+      - HDD lead times
+      - HDD lead time
+      - disk drive shortages
+      - disk drive shortage
+      # Avoid bare HDD/HDDs — matches "Seagate HDD Cayman" note boilerplate.
+
+    # Generic SSD language (enterprise/client SSD terms stay under NAND).
+    SSD:
+      - solid-state drives
+      - solid state drives
+      - solid-state drive
+      - solid state drive
+      - SSD shortages
+      - SSD shortage
+      - SSD lead times
+      - 固态硬盘
+      - 固态盘
+      - 固態硬碟
+      - SSDs
+      - SSD
+  Interconnect:
+    Connector:
+      - fiber optic connectors
+      - electrical connectors
+      - electronic connectors
+      - board-to-board connectors
+      - automotive connectors
+      - I/O connectors
+      - interconnect systems
+      - connector shortages
+      - connector shortage
+      - connector lead times
+      - connector lead time
+      - interconnect lead times
+      - interconnect lead time
+      - interconnect shortages
+      - interconnect shortage
+      - 高速连接器
+      - 汽车连接器
+      - 电子连接器
+      - 连接器
+      - 高速連接器
+      - 汽車連接器
+      - 電子連接器
+      - 連接器
+      # Avoid bare connector(s)/interconnect(s)/interconnect products —
+      # matched Ciena outlook slides and MaxLinear transceiver-size boilerplate.
+  Passives:
+    Capacitor:
+      - multilayer ceramic capacitors
+      - multilayer ceramic capacitor
+      - ceramic capacitors
+      - ceramic capacitor
+      - electrolytic capacitors
+      - electrolytic capacitor
+      - substrates and capacitors
+      - capacitors used in the manufacture
+      - capacitors used in
+      - capacitor shortages
+      - capacitor shortage
+      - MLCC shortages
+      - MLCC shortage
+      - MLCCs
+      - 片式多层陶瓷电容器
+      - 片式多层陶瓷电容
+      - 多层陶瓷电容器
+      - 多层陶瓷电容
+      - 陶瓷电容
+      - 片式多層陶瓷電容器
+      - 多層陶瓷電容
+      - 積層セラミックコンデンサ
+      - 積層セラミックコンデンサー
+      - 積層セラミック
+      - セラミックコンデンサ
+      - コンデンサ
+      - MLCC
+      # Avoid bare capacitor(s) alone — matched M&A fair-value "Capacitors segment".
+    # Small related passive — shortage-scoped / multi-word only.
+    Resistor:
+      - chip resistors
+      - chip resistor
+      - resistor shortages
+      - resistor shortage
+      - resistors used in the manufacture
+      - resistors used in
+      - 片式电阻
+      - 芯片电阻
+      - 片式電阻
+      - 晶片電阻

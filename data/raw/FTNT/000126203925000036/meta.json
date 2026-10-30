@@ -1,0 +1,36 @@
+{
+  "company": "Fortinet",
+  "ticker": "FTNT",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0001262039",
+  "form": "8-K",
+  "filing_date": "2025-11-05",
+  "accession_number": "0001262039-25-000036",
+  "primary_document": "ftnt-20251105.htm",
+  "primary_doc_description": "FORM 8-K",
+  "items": "2.02,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftnt-20251105.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-11-05",
+  "period_end": "2025-11-05",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:08:03.044552+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "ftntq3-2025ex991.htm",
+      "path": "data/raw/FTNT/000126203925000036/exhibit_99_ftntq3-2025ex991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000036/ftntq3-2025ex991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/FTNT/000126203925000036/primary.html",
+    "other": "data/raw/FTNT/000126203925000036/other_full.txt"
+  }
+}

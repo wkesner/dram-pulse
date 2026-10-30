@@ -1,0 +1,24 @@
+{
+  "company": "Wistron",
+  "ticker": "3231",
+  "role": "buyer",
+  "source": "MOPS",
+  "form": "代子公司Wiwynn Technology Corporation(WYMUS)公告\r\n進行建築物改良",
+  "filing_date": "2026-10-29",
+  "accession_number": "1151029_171108_6ca98dc366",
+  "filing_id": "1151029_171108_6ca98dc366",
+  "title": "代子公司Wiwynn Technology Corporation(WYMUS)公告\r\n進行建築物改良",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T22:44:08.324437+00:00",
+  "paths": {
+    "other_full": "data/raw/3231/1151029_171108_6ca98dc366/other_full.txt"
+  },
+  "clause": "第20款",
+  "fact_date_roc": "1151029",
+  "announce_time": "171108",
+  "feed": "t187ap04_L"
+}

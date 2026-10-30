@@ -1,0 +1,24 @@
+{
+  "company": "ASE Technology",
+  "ticker": "3711",
+  "role": "supplier",
+  "source": "MOPS",
+  "form": "代子公司環旭電子(股)公司公告董事會決議終止實施2026年\r\n員工持股計劃案",
+  "filing_date": "2026-10-28",
+  "accession_number": "1151028_223346_e772c5300e",
+  "filing_id": "1151028_223346_e772c5300e",
+  "title": "代子公司環旭電子(股)公司公告董事會決議終止實施2026年\r\n員工持股計劃案",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap04_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.287781+00:00",
+  "paths": {
+    "other_full": "data/raw/3711/1151028_223346_e772c5300e/other_full.txt"
+  },
+  "clause": "第51款",
+  "fact_date_roc": "1151027",
+  "announce_time": "223346",
+  "feed": "t187ap04_L"
+}

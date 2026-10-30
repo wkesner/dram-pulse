@@ -1,0 +1,337 @@
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+This Management’s Discussion and Analysis of Financial Condition and Results of Operations should be read in conjunction with the unaudited condensed consolidated financial statements and the related notes thereto included elsewhere in this Quarterly Report on Form 10-Q (“Form 10-Q”) and the audited consolidated financial statements and notes thereto and management’s discussion and analysis of financial condition and results of operations for the fiscal year ended November 2, 2025 (“fiscal year 2025”) included in our Annual Report on Form 10-K for fiscal year 2025 (“2025 Annual Report on Form 10-K”). This Form 10-Q contains forward-looking statements within the meaning of federal securities laws. These statements are indicated by words or phrases such as “anticipate,” “expect,” “estimate,” “seek,” “plan,” “believe,” “could,” “intend,” “will,” and similar words or phrases. Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. These forward-looking statements may include our projected financial results or expectations regarding acquisitions, business strategies and models, and developments in technology, solutions and products. Such statements are based on current expectations, estimates, forecasts and projections of our industry performance and macroeconomic conditions, based on management’s judgment, beliefs, current trends and market conditions, and involve risks and uncertainties that may cause actual results to differ materially from those contained in the forward-looking statements. We derive many of our forward-looking statements from our operating budgets and forecasts, which are based upon many detailed assumptions. While we believe that our assumptions are reasonable, we caution that it is very difficult to predict the impact of known factors, and it is impossible for us to anticipate all factors that could affect our actual results. Accordingly, we caution you not to place undue reliance on these statements. Material factors that could cause actual results to differ materially from our expectations include, but are not limited to, those disclosed under “Risk Factors” in Part II, Item 1A of this Form 10-Q, and in other documents we file from time to time with the Securities and Exchange Commission (the “SEC”). We undertake no intent or obligation to publicly update or revise any forward-looking statements for any reason, except as required by law.
+Unless stated otherwise or the context otherwise requires, references to “Broadcom,” “we,” “our,” and “us” mean Broadcom Inc. and its consolidated subsidiaries.
+Overview
+We are a global technology leader that designs, develops and supplies a broad range of semiconductor and semiconductor-based solutions and infrastructure software solutions. Our semiconductor and semiconductor-based solutions include a broad portfolio of complex digital and mixed signal devices based on silicon wafers with complementary metal oxide semiconductor transistors, III-V based devices, network interface cards and other modules, switches, subsystems and, in some cases, racks. Our solutions are used in a wide array of environments, end products and applications, such as enterprise and artificial intelligence (“AI”) data centers, servers and networking and connectivity equipment, as well as storage systems, home connectivity devices, set-top boxes, broadband access, telecommunication equipment, wireless devices and base stations, factory automation, power generation and alternative energy systems, and electronic displays. Our infrastructure software solutions help enterprises simplify their information technology environments. Our customers rely on our infrastructure and security software solutions to modernize, optimize, and secure the most complex private cloud, hybrid cloud and edge environments. This enables scalability, agility, automation, insights, resiliency and security, making it easy for customers to run their mission-critical workloads. We also offer mission-critical fibre channel storage area networking (“FC SAN”) products and related software in the form of modules, switches and subsystems incorporating multiple semiconductor products.
+We have two reportable segments: semiconductor solutions and infrastructure software. Our semiconductor solutions segment includes all of our semiconductor-based product lines and intellectual property (“IP”) licensing. Our infrastructure software segment includes our private cloud, mainframe software, cybersecurity and enterprise software portfolios, and our FC SAN business.
+Quarterly Highlights
+Highlights during the fiscal quarter ended February 1, 2026 include the following:
+•
+We generated $8,260 million of cash from operations.
+•
+We paid $3,086 million in cash dividends.
+•
+We repurchased $7,850 million of common stock.
+22
+Table of Contents
+Critical Accounting Estimates
+The preparation of financial statements in accordance with generally accepted accounting principles in the United States requires us to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period. We base our estimates and assumptions on current facts, historical experience and various other factors that we believe to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. Our actual financial results may differ materially and adversely from our estimates. Our critical accounting policies are those that affect our financial statements materially and involve difficult, subjective or complex judgments by management. Those policies include revenue recognition, business combinations, valuation of goodwill and long-lived assets, and income taxes.
+There were no significant changes in our critical accounting estimates during the fiscal quarter ended February 1, 2026 compared to those previously disclosed in “Critical Accounting Estimates” in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” included in the 2025 Annual Report on Form 10-K.
+Macroeconomic Factors
+We are subject to risks and exposures from the evolving macroeconomic environment, including uncertainty and volatility in financial markets, efforts of governments to stimulate or stabilize the economy and other unfavorable changes in economic conditions, as well as an increase in trade tensions and related tariffs with U.S. trading partners. While difficult to isolate and quantify, these risks and exposures may cause our net revenue to fluctuate significantly and disrupt supply chain operations, and we continuously monitor the broader impacts of these circumstances on our business, our supply chain and our results of operations.
+23
+Table of Contents
+Results of Operations
+Fiscal Quarter Ended February 1, 2026 Compared to Fiscal Quarter Ended February 2, 2025
+The following table sets forth our results of operations for the periods presented:
+Fiscal Quarter Ended
+February 1,
+2026
+February 2,
+2025
+February 1,
+2026
+February 2,
+2025
+(In millions)
+(As a percentage of net revenue)
+Statements of Operations Data:
+Net revenue:
+Products
+$
+14,130 
+$
+10,143 
+73 
+%
+68 
+%
+Subscriptions and services
+5,181 
+4,773 
+27 
+32 
+Total net revenue
+19,311 
+14,916 
+100 
+100 
+Cost of revenue:
+Cost of products sold
+4,041 
+2,695 
+21 
+18 
+Cost of subscriptions and services
+638 
+578 
+3 
+4 
+Amortization of acquisition-related intangible assets
+1,462 
+1,484 
+8 
+10 
+Restructuring charges
+13 
+14 
+— 
+— 
+Total cost of revenue
+6,154 
+4,771 
+32 
+32 
+Gross margin
+13,157 
+10,145 
+68 
+68 
+Research and development
+2,965 
+2,253 
+15 
+15 
+Selling, general and administrative
+1,019 
+949 
+5 
+7 
+Amortization of acquisition-related intangible assets
+507 
+511 
+3 
+3 
+Restructuring and other charges
+103 
+172 
+1 
+1 
+Total operating expenses
+4,594 
+3,885 
+24 
+26 
+Operating income
+$
+8,563 
+$
+6,260 
+44 
+%
+42 
+%
+In the fiscal quarter ended February 1, 2026, we included upfront license revenue of $1,755 million within products revenue, and the related costs, which were immaterial, in cost of products sold. To conform to the current period presentation, we reclassified $1,972 million of upfront license revenue from subscriptions and services revenue to products revenue for the fiscal quarter ended February 2, 2025. We also reclassified the related costs for the upfront license revenue, which were immaterial. See Note 2. “Revenue from Contracts with Customers” in Part I, Item 1. of this Form 10-Q for additional information.
+Net Revenue
+A relatively small number of customers account for a significant portion of our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% and 29% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively.
+We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. We expect to continue to experience significant customer concentration in future periods. The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.
+From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly. This is particularly true of our products used in AI and wireless applications as fluctuations may be magnified by the timing of customer deployments, as well as product launches. For infrastructure software, whether or not a customer has the right to terminate causes variations in revenue recognized in each period.
+24
+Table of Contents
+The following tables set forth net revenue by segment for the periods presented:
+Fiscal Quarter Ended
+Net Revenue by Segment
+February 1, 2026
+February 2, 2025
+$ Change
+% Change
+(Dollars in millions)
+Semiconductor solutions
+$
+12,515 
+$
+8,212 
+$
+4,303 
+52 
+%
+Infrastructure software
+6,796 
+6,704 
+92 
+1 
+%
+Total net revenue
+$
+19,311 
+$
+14,916 
+$
+4,395 
+29 
+%
+Fiscal Quarter Ended
+Net Revenue by Segment
+February 1,
+2026
+February 2,
+2025
+(As a percentage of net revenue)
+Semiconductor solutions
+65 
+%
+55 
+%
+Infrastructure software
+35 
+45 
+Total net revenue
+100 
+%
+100 
+%
+Net revenue from our
+semiconductor solutions segment increased in the
+fiscal quarter
+ended
+February 1, 2026 compared to the prior year fiscal period due to strong demand for our networking solutions, primarily custom AI accelerators and AI networking products.
+Gross Margin
+Gross margin was $13,157 million for the fiscal quarter ended February 1, 2026 compared to $10,145 million for the fiscal quarter ended February 2, 2025. The increase was primarily due to strong product demand for our AI-related semiconductor solutions.
+As a percentage of net revenue, gross margin was relatively flat. The gross margin benefit from our net revenue growth was offset by a higher mix of semiconductor solutions net revenue.
+Research and Development Expense
+Research and development expense increased $712 million, or 32%, for the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period. The increase was primarily due to higher stock-based compensation.
+Selling, General and Administrative Expense
+Selling, general and administrative expense increased $70 million, or 7%, for the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period. The increase was primarily due to higher stock-based compensation.
+Stock-Based Compensation Expense
+During the second quarter of fiscal year 2025, we granted two-year time- and market-based restricted stock unit awards (the “Two-Year Equity Awards”), in lieu of our annual employee equity awards historically granted in the second quarter of each fiscal year. Each of the Two-Year Equity Awards vests on the same basis as two annual grants with staggered vesting start dates of March 15, 2025 and March 15, 2026 and successive four-year vesting periods. We recognize stock-based compensation expense related to these awards from the grant date through their respective vesting date, ranging from four to five years.
+Total stock-based compensation expense was $2,176 million and $1,280 million for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. The increase was due to the Two-Year Equity Awards granted at higher grant-date fair values.
+25
+Table of Contents
+The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of February 1, 2026. The remaining weighted-average service period was 3.2 years.
+Fiscal Year:
+Unrecognized Compensation Cost, Net of Expected Forfeitures
+(In millions)
+2026 (remainder)
+$
+6,168 
+2027
+7,184 
+2028
+5,072 
+2029
+2,795 
+2030
+752 
+Total
+$
+21,971 
+Segment Operating Results
+Fiscal Quarter Ended
+Operating Income by Segment
+February 1,
+2026
+February 2,
+2025
+$ Change
+% Change
+(Dollars in millions)
+Semiconductor solutions
+$
+7,503 
+$
+4,706 
+$
+2,797 
+59 
+%
+Infrastructure software
+5,323 
+5,122 
+201 
+4 
+%
+Unallocated expenses
+(4,263)
+(3,568)
+(695)
+19 
+%
+Total operating income
+$
+8,563 
+$
+6,260 
+$
+2,303 
+37 
+%
+Operating income from our semiconductor solutions segment increased for the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period due to strong demand for our networking solutions, primarily custom AI accelerators and AI networking products.
+Unallocated expenses include stock-based compensation expense, amortization of acquisition-related intangible assets, restructuring and other charges, acquisition-related costs, and other costs, which are not used in evaluating the results of, or in allocating resources to, our segments. Unallocated expenses increased 19% for the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period primarily due to higher stock-based compensation expense.
+Non-Operating Income and Expenses
+Interest expense.
+ Interest expense was $801 million and $873 million for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. The decrease was primarily due to an overall reduction in outstanding debt balances and debt refinancing activities.
+Other income, net.
+ Other income, net includes interest income, gains and losses on investments, foreign currency remeasurement and other miscellaneous items. Other income, net, was $433 million and $103 million for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively. Other income, net included a $315 million gain from the reversal of excise tax charges on our acquisition of VMware, Inc. (“VMware”), as the final Inflation Reduction Act of 2022 regulations exempted purchases of common stock on acquisitions from excise tax. In addition, interest income increased as a result of higher invested balances.
+Provision for (benefit from) income taxes.
+ The provision for income taxes was $846 million for the fiscal quarter ended February 1, 2026 and was primarily due to income before income taxes, partially offset by excess tax benefits from stock-based awards. The benefit from income taxes was $13 million for the fiscal quarter ended February 2, 2025 and was primarily due to excess tax benefits from stock-based awards, partially offset by income before income taxes and a shift in the jurisdictional location mix of revenue and expenses.
+Liquidity and Capital Resources
+The following section discusses our principal liquidity and capital resources as well as our primary liquidity requirements and uses of cash. Our cash and cash equivalents are maintained in highly liquid investments with remaining maturities of 90 days or less at the time of purchase. We believe our cash equivalents are liquid and accessible.
+26
+Table of Contents
+Our primary sources of liquidity as of February 1, 2026 consisted of: (i) $14,174 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility. In addition, we may also generate cash from the sale of assets, and debt or equity financings from time to time.
+Our short-term and long-term liquidity requirements primarily arise from: (i) working capital requirements, (ii) research and development and capital expenditure needs, (iii) cash dividend payments (if and when declared by our Board of Directors), (iv) interest and principal payments related to our $67,970 million of outstanding indebtedness with $2,252 million principal amounts payable within 12 months, (v) payment of income taxes, (vi) discretionary stock repurchases, and (vii) business acquisitions and investments we may make from time to time. Our ability to fund these requirements will depend, in part, on our future cash flows, which are determined by our future operating performance and, therefore, subject to prevailing global macroeconomic conditions and financial, business and other factors, some of which are beyond our control.
+We believe that our cash and cash equivalents on hand, cash flows from operations and our revolving credit facility will provide sufficient liquidity to operate our business and fund our current obligations for at least the next 12 months. For additional information regarding our cash requirement from contractual obligations and indebtedness, see Note 10. “Commitments and Contingencies” and Note 6. “Borrowings” in Part I, Item 1 of this Form 10-Q.
+From time to time, we engage in discussions with third parties regarding potential acquisitions of, or investments in, businesses, technologies and product lines. Any such transaction, or evaluation of potential transactions, could require significant use of our cash and cash equivalents, or require us to increase our borrowings to fund such transactions. If we do not have sufficient cash to fund our operations or finance growth opportunities, including acquisitions, expansions of new business strategies and models, or unanticipated capital expenditures, our business and financial condition could suffer. In addition, we may agree to financial obligations, including guarantees, or increase our exposure to credit or customer default risks to support our strategic initiatives or other corporate purposes. In such circumstances, we may seek to obtain new debt or equity financing. However, we cannot assure you that such additional financing will be available on terms acceptable to us or at all. Our ability to service our outstanding indebtedness and any other indebtedness we may incur will depend on our ability to generate cash in the future. We may also elect to issue additional debt or equity securities for reasons other than those specified above. From time to time, we manage our indebtedness through financings, redemptions, repayments, exchanges, tender offers and other transactions. Such transactions will depend on prevailing market conditions, our liquidity requirements, the terms of indentures, contractual restrictions and other factors.
+Working Capital
+Working capital increased to $15,203 million at February 1, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:
+•
+Trade accounts receivable, net increased to $8,460 million at February 1, 2026 from $7,145 million at November 2, 2025 primarily due to higher billings and the timing of collections.
+•
+Employee compensation and benefits decreased to $864 million at February 1, 2026 from $2,129 million at November 2, 2025 primarily due to annual employee bonus plan payments.
+These increases in working capital were offset in part by the following:
+•
+Cash and cash equivalents decreased to $14,174 million at February 1, 2026 from $16,178 million at November 2, 2025, primarily due to $7,850 million of stock repurchases and $3,086 million of dividend payments, offset in part by $8,260 million in net cash provided by operating activities.
+27
+Table of Contents
+Capital Returns
+Fiscal Quarter Ended
+Cash Dividends Declared and Paid
+February 1,
+2026
+February 2,
+2025
+(In millions, except per share data)
+Dividends per share to common stockholders
+$
+0.65 
+$
+0.59 
+Dividends to common stockholders
+$
+3,086 
+$
+2,774 
+In April 2025, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025, which was subsequently extended through December 31, 2026 and increased to $11 billion. During the fiscal quarter ended February 1, 2026, we repurchased and retired 23 million shares for $7,850 million. As of February 1, 2026, $700 million of the authorized amount remained available for repurchase under this program.
+Subsequent to the fiscal quarter ended February 1, 2026, our Board of Directors in March 2026 authorized a stock repurchase program to repurchase up to $10 billion of our common stock from time to time through December 31, 2026.
+During the fiscal quarter ended February 2, 2025, we paid $2,036 million in employee withholding taxes due upon the vesting of net settled equity awards and withheld 8 million shares from employees in connection with such net share settlements. In the fiscal quarter ended February 1, 2026, we settled withholding taxes upon the vesting of employee equity awards using proceeds from the sale of a portion of the vested shares.
+Cash Flows
+Fiscal Quarter Ended
+February 1,
+2026
+February 2,
+2025
+(In millions)
+Net cash provided by operating activities
+$
+8,260 
+$
+6,113 
+Net cash used in investing activities
+(115)
+(174)
+Net cash used in financing activities
+(10,149)
+(5,980)
+Net change in cash and cash equivalents
+$
+(2,004)
+$
+(41)
+Operating Activities
+Cash flows from operating activities consist of net income adjusted for certain non-cash and other items and changes in assets and liabilities. The $2,147 million increase in cash provided by operations during the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period was primarily due to $1,846 million higher net income and $1,055 million higher non-cash adjustments including stock-based compensation and deferred taxes and other non-cash taxes, offset in part by $754 million from changes in operating assets and liabilities.
+Investing Activities
+Cash flows from investing activities primarily consist of capital expenditures and proceeds and payments related to investments. The cash flows from investing activities during the fiscal quarter ended February 1, 2026 was relatively flat compared to the prior year fiscal period as an increase in net proceeds from investments in the current year fiscal period was substantially offset by higher capital expenditures compared to the prior year fiscal period.
+Financing Activities
+Cash flows from financing activities primarily consist of proceeds and payments related to our borrowings, dividend payments, authorized stock repurchases, and employee withholding tax payments related to net settled equity awards. The $4,169 million increase in cash used in financing activities during the fiscal quarter ended February 1, 2026 compared to the prior year fiscal period was primarily due to stock repurchases in the current year fiscal period, offset in part by a decrease in employee withholding tax payments related to net settled equity awards and an increase in net proceeds from borrowings in the current year fiscal period compared to the prior year fiscal period.
+28
+Table of Contents

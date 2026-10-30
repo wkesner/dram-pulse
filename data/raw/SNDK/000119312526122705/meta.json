@@ -1,0 +1,28 @@
+{
+  "company": "Sandisk",
+  "ticker": "SNDK",
+  "cik": "0002023554",
+  "form": "8-K",
+  "filing_date": "2026-03-25",
+  "accession_number": "0001193125-26-122705",
+  "primary_document": "d136592d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "1.01,8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm",
+  "fiscal_year_end": "0628",
+  "report_date": "2026-03-25",
+  "period_end": "2026-03-25",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T21:53:44.997990+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SNDK/000119312526122705/primary.html",
+    "other": "data/raw/SNDK/000119312526122705/other_full.txt"
+  }
+}

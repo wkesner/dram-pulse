@@ -1,0 +1,28 @@
+{
+  "company": "Silicon Motion",
+  "ticker": "SIMO",
+  "cik": "0001329394",
+  "form": "6-K",
+  "filing_date": "2025-10-31",
+  "accession_number": "0001193125-25-259296",
+  "primary_document": "d51890d6k.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1329394/000119312525259296/d51890d6k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-10-31",
+  "period_end": "2025-10-31",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:52:17.718252+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/SIMO/000119312525259296/primary.html",
+    "other": "data/raw/SIMO/000119312525259296/other_full.txt"
+  }
+}

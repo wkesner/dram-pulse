@@ -1,0 +1,28 @@
+{
+  "company": "Rambus",
+  "ticker": "RMBS",
+  "cik": "0000917273",
+  "form": "8-K",
+  "filing_date": "2026-04-24",
+  "accession_number": "0001193125-26-177140",
+  "primary_document": "d44557d8k.htm",
+  "primary_doc_description": "8-K",
+  "items": "5.07,8.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/917273/000119312526177140/d44557d8k.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-04-23",
+  "period_end": "2026-04-23",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:03.309015+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/RMBS/000119312526177140/primary.html",
+    "other": "data/raw/RMBS/000119312526177140/other_full.txt"
+  }
+}

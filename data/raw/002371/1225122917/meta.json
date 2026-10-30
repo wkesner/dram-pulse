@@ -1,0 +1,24 @@
+{
+  "company": "NAURA",
+  "ticker": "002371",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2025年年度报告摘要",
+  "filing_date": "2026-04-17",
+  "accession_number": "1225122917",
+  "filing_id": "1225122917",
+  "title": "2025年年度报告摘要",
+  "org_id": "9900006137",
+  "exchange": "szse",
+  "adjunct_url": "finalpage/2026-04-18/1225122917.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225122917.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:43:59.940043+00:00",
+  "paths": {
+    "other_full": "data/raw/002371/1225122917/other_full.txt",
+    "document_pdf": "data/raw/002371/1225122917/document.pdf"
+  }
+}

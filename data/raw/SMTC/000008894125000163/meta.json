@@ -1,0 +1,34 @@
+{
+  "company": "Semtech",
+  "ticker": "SMTC",
+  "cik": "0000088941",
+  "form": "8-K",
+  "filing_date": "2025-11-24",
+  "accession_number": "0000088941-25-000163",
+  "primary_document": "smtc-20251124.htm",
+  "primary_doc_description": "8-K",
+  "items": "2.02,7.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/88941/000008894125000163/smtc-20251124.htm",
+  "fiscal_year_end": "0131",
+  "report_date": "2025-11-24",
+  "period_end": "2025-11-24",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:50:55.827059+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "smtc-10262025x8k991.htm",
+      "path": "data/raw/SMTC/000008894125000163/exhibit_99_smtc-10262025x8k991.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/88941/000008894125000163/smtc-10262025x8k991.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/SMTC/000008894125000163/primary.html",
+    "other": "data/raw/SMTC/000008894125000163/other_full.txt"
+  }
+}

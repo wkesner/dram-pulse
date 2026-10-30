@@ -1,0 +1,24 @@
+{
+  "company": "Luxshare Precision",
+  "ticker": "002475",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2026年半年度报告摘要",
+  "filing_date": "2026-08-24",
+  "accession_number": "1225500220",
+  "filing_id": "1225500220",
+  "title": "2026年半年度报告摘要",
+  "org_id": "9900014448",
+  "exchange": "szse",
+  "adjunct_url": "finalpage/2026-08-25/1225500220.pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225500220.pdf",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T19:23:46.924787+00:00",
+  "paths": {
+    "other_full": "data/raw/002475/1225500220/other_full.txt",
+    "document_pdf": "data/raw/002475/1225500220/document.pdf"
+  }
+}

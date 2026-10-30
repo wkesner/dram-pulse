@@ -28,6 +28,16 @@
     return e;
   };
   const label = (f) => String(f || "").replace(/_/g, " ");
+  // Corpus stores easing; UI may say "loosening" — same value.
+  const DIRECTION_LABELS = {
+    tightening: "Tightening",
+    easing: "Easing (loosening)",
+    stable: "Stable",
+    unclear: "Unclear",
+  };
+  const DIRECTION_ORDER = ["tightening", "easing", "stable", "unclear"];
+  const directionLabel = (d) =>
+    DIRECTION_LABELS[String(d || "").toLowerCase()] || label(d);
 
   // Text-fragment link: first five words, last five words (Chrome #:~:text=).
   const fragment = (text) => {
@@ -146,14 +156,18 @@
 
   // --- Feed state ---
   let SIGNALS = [];
-  /** @type {Record<string, number>} signal_id → 1|-1 for current user */
+  /** @type {Record<string, number>} signal_id → 1|-1|0 (skip) for current user */
   let userVotes = {};
-  let skipped = new Set();
   const FEED_MODE_KEY = "ms-feed-mode";
   /** @type {"stack"|"one"} */
   let feedMode = store.get(FEED_MODE_KEY, "stack") === "one" ? "one" : "stack";
 
+  function hasRated(signalId) {
+    return Object.prototype.hasOwnProperty.call(userVotes, signalId);
+  }
+
   const FILTERS = [
+    ["tier", "tier", "All tiers"],
     ["category", "product_category", "All categories"],
     ["family", "product_family", "All families"],
     ["direction", "supply_direction", "Any direction"],
@@ -162,13 +176,28 @@
     ["section", "section", "All sections"],
   ];
 
+  const MAP_TIER_KEY = "ms-map-tier";
+  /** @type {string} "" = all tiers; default Tier 1 for the primary graph */
+  let mapTier = store.get(MAP_TIER_KEY, "1");
+  if (mapTier !== "" && mapTier !== "1" && mapTier !== "2" && mapTier !== "3") {
+    mapTier = "1";
+  }
+
+  /** @type {Array<{id:number,label:string,summary:string}>} */
+  let TIER_META = [
+    { id: 1, label: "Tier 1", summary: "Core graph" },
+    { id: 2, label: "Tier 2", summary: "F500–F1000 electronics / DC" },
+    { id: 3, label: "Tier 3", summary: "Smaller listed" },
+  ];
+  /** @type {Array<{name:string,ticker:string,role:string,tier:number}>} */
+  let COMPANY_ROSTER = [];
+
   const userIn = $("#user-name");
   if (userIn) {
     const saved = store.get(USER_KEY, "");
     if (typeof saved === "string") userIn.value = saved;
     userIn.addEventListener("input", async () => {
       store.set(USER_KEY, userIn.value.trim());
-      skipped = new Set();
       await loadUserVotes();
       renderFeed();
     });
@@ -184,6 +213,79 @@
     });
   }
 
+  const FAMILY_LABELS = {
+    Power_IC: "Power IC",
+    AI_accelerators: "AI accelerators",
+    Memory_general: "Memory general",
+    DRAM_general: "DRAM general",
+    NAND_general: "NAND general",
+    "Data center SSD": "Data center SSD",
+    "Mobile/embedded": "Mobile/embedded",
+  };
+  const CATEGORY_ORDER = {
+    DRAM: 0,
+    NAND: 1,
+    Other: 2,
+    Compute: 3,
+    Analog: 4,
+    Passives: 5,
+  };
+
+  function optionLabel(field, value) {
+    if (field === "supply_direction") return directionLabel(value);
+    if (field === "product_family") {
+      return FAMILY_LABELS[value] || label(value);
+    }
+    if (field === "product_category") return String(value);
+    if (field === "tier") {
+      const meta = TIER_META.find((t) => String(t.id) === String(value));
+      return meta ? `${meta.label}` : `Tier ${value}`;
+    }
+    return String(value);
+  }
+
+  function filterValues(field) {
+    if (field === "tier") {
+      const fromRoster = new Set(
+        COMPANY_ROSTER.map((c) => String(c.tier)).filter(Boolean)
+      );
+      const fromSignals = new Set(
+        SIGNALS.map((s) => String(s.tier || "1")).filter(Boolean)
+      );
+      return ["1", "2", "3"].filter(
+        (t) => fromRoster.has(t) || fromSignals.has(t) || t === "1"
+      );
+    }
+    const present = [
+      ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
+    ];
+    if (field !== "supply_direction") {
+      return present.sort((a, b) => String(a).localeCompare(String(b)));
+    }
+    // Always expose Tightening + Easing (loosening) first, even if count is 0.
+    const rest = present
+      .filter((v) => !DIRECTION_ORDER.includes(v))
+      .sort((a, b) => String(a).localeCompare(String(b)));
+    const ordered = DIRECTION_ORDER.filter(
+      (v) => present.includes(v) || v === "tightening" || v === "easing"
+    );
+    return [...ordered, ...rest];
+  }
+
+  function activePanel() {
+    if (!$("#view-feed")?.hidden) return "feed";
+    if (!$("#view-map")?.hidden) return "map";
+    if (!$("#view-families")?.hidden) return "families";
+    return "feed";
+  }
+
+  function refreshActiveView() {
+    const view = activePanel();
+    if (view === "map") renderMap();
+    else if (view === "families") renderFamilies();
+    else renderFeed();
+  }
+
   function fillFilters() {
     for (const [id, field, all] of FILTERS) {
       const sel = $("#f-" + id);
@@ -191,18 +293,12 @@
       const prev = sel.value;
       sel.replaceChildren();
       sel.append(new Option(all, ""));
-      const values = [
-        ...new Set(SIGNALS.map((s) => s[field]).filter(Boolean)),
-      ].sort((a, b) => String(a).localeCompare(String(b)));
-      for (const v of values) {
-        sel.append(
-          new Option(field === "product_family" ? label(v) : v, v)
-        );
+      for (const v of filterValues(field)) {
+        sel.append(new Option(optionLabel(field, v), v));
       }
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
-        skipped = new Set();
-        renderFeed();
+        refreshActiveView();
       };
     }
   }
@@ -214,8 +310,7 @@
         const sel = $("#f-" + id);
         if (sel) sel.value = "";
       }
-      skipped = new Set();
-      renderFeed();
+      refreshActiveView();
     });
   }
 
@@ -240,31 +335,61 @@
     return frag;
   }
 
+  function railFilteredSignals({ ignoreTier = false } = {}) {
+    return SIGNALS.filter((s) =>
+      FILTERS.every(([id, field]) => {
+        if (ignoreTier && field === "tier") return true;
+        const sel = $("#f-" + id);
+        if (!sel?.value) return true;
+        if (field === "tier") return String(s.tier || "1") === sel.value;
+        return s[field] === sel.value;
+      })
+    );
+  }
+
   function queue() {
-    const user = (userIn?.value || "").trim();
-    const pass = (s) =>
-      FILTERS.every(
-        ([id, field]) => !$("#f-" + id)?.value || s[field] === $("#f-" + id).value
-      );
-    return SIGNALS.filter(pass)
-      .filter((s) => !skipped.has(s.signal_id))
+    // Hide anything this profile already rated (👍/👎) or skipped.
+    return railFilteredSignals()
+      .filter((s) => !hasRated(s.signal_id))
       .sort(
         (a, b) =>
-          (userVotes[a.signal_id] != null) - (userVotes[b.signal_id] != null) ||
           latest(b).localeCompare(latest(a)) ||
           a.signal_id.localeCompare(b.signal_id)
       );
   }
 
+  function isClerkMode() {
+    return window.__msAuth?.mode === "clerk";
+  }
+
+  function currentUserLabel() {
+    if (isClerkMode()) {
+      return window.__msAuth?.displayName || window.__msAuth?.userId || "";
+    }
+    return (userIn?.value || "").trim();
+  }
+
+  function apiHeaders(extra) {
+    const h = { ...(extra || {}) };
+    if (window.msClerk?.authHeaders) {
+      Object.assign(h, window.msClerk.authHeaders());
+    }
+    return h;
+  }
+
   async function castVote(s, v) {
-    const user = (userIn?.value || "").trim();
-    if (!user) {
+    const user = currentUserLabel();
+    if (!isClerkMode() && !user) {
       userIn?.focus();
+      return;
+    }
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      console.warn("select an organization before voting");
       return;
     }
     const resp = await fetch("/api/votes", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: apiHeaders({ "Content-Type": "application/json" }),
       body: JSON.stringify({ signal_id: s.signal_id, user, vote: v }),
     });
     if (!resp.ok) {
@@ -279,7 +404,10 @@
   }
 
   function buildCard(s) {
-    const user = (userIn?.value || "").trim();
+    const user = currentUserLabel();
+    const canVote = isClerkMode()
+      ? Boolean(window.__msAuth?.orgId && window.__msAuth?.sessionToken)
+      : Boolean(user);
     const sightings = s.sightings || [];
     const firstLink = primarySighting(s);
     const mine = userVotes[s.signal_id];
@@ -303,8 +431,12 @@
 
     const chips = el("div", "chips");
     chips.append(
-      el("span", `chip ${s.supply_direction}`, s.supply_direction),
-      el("span", "chip", label(s.product_family)),
+      el(
+        "span",
+        `chip ${s.supply_direction}`,
+        directionLabel(s.supply_direction)
+      ),
+      el("span", "chip", FAMILY_LABELS[s.product_family] || label(s.product_family)),
       el("span", "chip", `tone: ${s.sentiment}`)
     );
 
@@ -312,10 +444,36 @@
       .split(";")
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
+    const lang = String(s.language || "en").toLowerCase();
+    const excerptEn = String(s.excerpt_en || "").trim();
+    const canTranslate =
+      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    let showEnglish = false;
     const ex = el("p", "excerpt");
-    ex.append(highlight(s.excerpt || "", terms));
+    const paintExcerpt = () => {
+      ex.replaceChildren();
+      const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
+      // Highlight only on original language (matched_terms are source-language).
+      if (showEnglish && excerptEn) ex.append(text);
+      else ex.append(highlight(text, terms));
+    };
+    paintExcerpt();
 
     const find = el("div", "find");
+    if (canTranslate) {
+      const tog = el("button", "lang-toggle", "Show English");
+      tog.type = "button";
+      tog.setAttribute("aria-pressed", "false");
+      tog.title = "Machine translation (Argos); original excerpt is unchanged";
+      tog.addEventListener("click", () => {
+        showEnglish = !showEnglish;
+        tog.textContent = showEnglish ? "Original" : "Show English";
+        tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        paintExcerpt();
+      });
+      find.append(tog);
+      chips.append(el("span", "chip lang", lang));
+    }
     const open = el("a", null, "Open filing at this passage");
     open.href =
       (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
@@ -378,23 +536,29 @@
       if (count != null) b.append(el("span", "n", String(count)));
       if (v != null) {
         b.setAttribute("aria-pressed", String(mine === v));
-        b.disabled = !user;
+        b.disabled = !canVote;
         b.addEventListener("click", () => castVote(s, v));
       }
       return b;
     };
     const skip = mk("skip", "→", "Skip", null, null);
-    skip.addEventListener("click", () => {
-      skipped.add(s.signal_id);
-      renderFeed();
-    });
+    skip.disabled = !canVote;
+    skip.addEventListener("click", () => castVote(s, 0));
     actions.append(
       mk("up", "👍", "Useful", t.up, 1),
       mk("down", "👎", "Not useful", t.down, -1),
       skip
     );
-    if (!user) {
-      actions.append(el("span", "hint", "Type your name above to vote."));
+    if (!canVote) {
+      actions.append(
+        el(
+          "span",
+          "hint",
+          isClerkMode()
+            ? "Sign in and select an organization to vote."
+            : "Type your name above to vote."
+        )
+      );
     }
 
     card.append(meta, chips, ex, find, det, actions);
@@ -407,21 +571,27 @@
     if (!stack) return;
 
     stack.replaceChildren();
+    const scoped = railFilteredSignals();
     const q = queue();
-    const unvoted = q.filter((s) => userVotes[s.signal_id] == null).length;
+    const done = scoped.length - q.length;
     if (qLeft) {
-      qLeft.textContent = `${unvoted} of ${q.length} signals in this filter still need your vote`;
+      if (!scoped.length) {
+        qLeft.textContent = "No signals in this filter";
+      } else if (!q.length) {
+        qLeft.textContent = `Caught up — ${done} already rated or skipped in this filter`;
+      } else {
+        qLeft.textContent = `${q.length} left to rate · ${done} already done in this filter`;
+      }
     }
     if (!q.length) {
-      stack.append(
-        el(
-          "div",
-          "empty",
-          SIGNALS.length
-            ? "No signals match these filters. Clear a filter to see more."
-            : "No signals loaded."
-        )
-      );
+      let emptyMsg = "No signals loaded.";
+      if (SIGNALS.length && !scoped.length) {
+        emptyMsg = "No signals match these filters. Clear a filter to see more.";
+      } else if (scoped.length && !q.length) {
+        emptyMsg =
+          "You're caught up — every signal in this filter was already rated or skipped.";
+      }
+      stack.append(el("div", "empty", emptyMsg));
       return;
     }
     const toShow = feedMode === "one" ? q.slice(0, 1) : q;
@@ -436,8 +606,15 @@
   }
 
   async function loadUserVotes() {
-    const user = (userIn?.value || "").trim();
     userVotes = {};
+    if (isClerkMode()) {
+      if (!window.__msAuth?.orgId || !window.__msAuth?.sessionToken) return;
+      const resp = await fetch("/api/votes", { headers: apiHeaders() });
+      if (!resp.ok) return;
+      userVotes = await resp.json();
+      return;
+    }
+    const user = (userIn?.value || "").trim();
     if (!user) return;
     const resp = await fetch(`/api/votes?user=${encodeURIComponent(user)}`);
     if (!resp.ok) return;
@@ -445,7 +622,12 @@
   }
 
   async function loadSignals({ keepFilters = false } = {}) {
-    const resp = await fetch("/api/signals");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      SIGNALS = [];
+      fillFilters();
+      return;
+    }
+    const resp = await fetch("/api/signals", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`signals ${resp.status}`);
     SIGNALS = await resp.json();
     if (!keepFilters) fillFilters();
@@ -465,9 +647,16 @@
     if (win) win.textContent = lookbackWindow();
     if (!body) return;
     body.replaceChildren();
-    if (!SIGNALS.length) {
+    const scoped = railFilteredSignals();
+    if (!scoped.length) {
       const tr = el("tr");
-      const td = el("td", null, "No signals loaded.");
+      const td = el(
+        "td",
+        null,
+        SIGNALS.length
+          ? "No signals match these filters. Clear a filter to see more."
+          : "No signals loaded."
+      );
       td.colSpan = 7;
       tr.append(td);
       body.append(tr);
@@ -475,7 +664,7 @@
     }
 
     const fams = new Map();
-    for (const s of SIGNALS) {
+    for (const s of scoped) {
       const key = s.product_family || "(unknown)";
       const f =
         fams.get(key) || {
@@ -504,7 +693,7 @@
       1,
       ...values.map((f) => Math.max(f.tightening || 0, f.easing || 0))
     );
-    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const CAT = CATEGORY_ORDER;
     values
       .sort(
         (a, b) =>
@@ -541,7 +730,6 @@
           });
           const famSel = $("#f-family");
           if (famSel) famSel.value = f.family;
-          skipped = new Set();
           showTab("feed");
           renderFeed();
         };
@@ -562,11 +750,111 @@
   let META_NOTES = null;
 
   async function loadMeta() {
-    const resp = await fetch("/api/meta");
+    if (isClerkMode() && !window.__msAuth?.orgId) {
+      META_NOTES = null;
+      return null;
+    }
+    const resp = await fetch("/api/meta", { headers: apiHeaders() });
     if (!resp.ok) throw new Error(`meta ${resp.status}`);
     const data = await resp.json();
     META_NOTES = data.notes || null;
+    COMPANY_ROSTER = Array.isArray(data.company_roster) ? data.company_roster : [];
+    if (Array.isArray(data.tiers) && data.tiers.length) {
+      TIER_META = data.tiers.map((t) => ({
+        id: t.id,
+        label: t.label || `Tier ${t.id}`,
+        summary: t.summary || "",
+      }));
+    }
+    if (
+      data.default_map_tier != null &&
+      store.get(MAP_TIER_KEY, null) == null
+    ) {
+      mapTier = String(data.default_map_tier);
+    }
+    syncMapTierSwitch();
     return META_NOTES;
+  }
+
+  function renderTierRoster() {
+    const list = $("#tier-roster-list");
+    const note = $("#tier-roster-note");
+    if (!list) return;
+    list.replaceChildren();
+    const scoped = COMPANY_ROSTER.filter((c) => {
+      if (!mapTier) return true;
+      return String(c.tier) === mapTier;
+    }).sort(
+      (a, b) =>
+        String(a.role).localeCompare(String(b.role)) ||
+        String(a.name).localeCompare(String(b.name))
+    );
+    const withSignals = new Set(
+      SIGNALS.filter(
+        (s) => !mapTier || String(s.tier || "1") === mapTier
+      ).map((s) => s.company)
+    );
+    if (note) {
+      const labeled =
+        mapTier === ""
+          ? "all tiers"
+          : TIER_META.find((t) => String(t.id) === mapTier)?.label ||
+            `Tier ${mapTier}`;
+      note.textContent = `${scoped.length} companies configured for ${labeled} · ${withSignals.size} already have signals in this view`;
+    }
+    if (!scoped.length) {
+      list.append(el("div", "tr-empty", "No companies configured for this tier."));
+      return;
+    }
+    for (const c of scoped) {
+      const chip = el("span", withSignals.has(c.name) ? "tr-chip has-signal" : "tr-chip");
+      chip.append(c.name);
+      if (c.ticker) chip.append(el("span", "tk", c.ticker));
+      chip.title = `${c.role || "?"} · tier ${c.tier}${
+        withSignals.has(c.name) ? " · has signals" : " · awaiting extract"
+      }`;
+      list.append(chip);
+    }
+  }
+
+  function syncMapTierSwitch() {
+    const root = $("#map-tier-switch");
+    if (!root) return;
+    for (const btn of root.querySelectorAll("button[data-tier]")) {
+      const v = btn.getAttribute("data-tier") ?? "";
+      btn.setAttribute("aria-pressed", String(v === mapTier));
+    }
+    const note = $("#ms-tier-note");
+    if (note) {
+      const meta = TIER_META.find((t) => String(t.id) === mapTier);
+      if (mapTier === "") {
+        note.textContent = "Map shows all tiers (Tier 1–3). Feed filter is separate.";
+      } else if (meta) {
+        note.textContent = `${meta.label} map — ${meta.summary || "scoped graph"}. Switch tiers for a different company set.`;
+      }
+    }
+  }
+
+  const mapTierRoot = $("#map-tier-switch");
+  if (mapTierRoot) {
+    mapTierRoot.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-tier]");
+      if (!btn) return;
+      const next = btn.getAttribute("data-tier") ?? "";
+      // Second click on the active tier opens that set in the Feed.
+      if (next === mapTier && next !== "") {
+        const n = SIGNALS.filter((s) => String(s.tier || "1") === next).length;
+        if (n > 0) {
+          mapFamily = null;
+          openFeedFromMap();
+          return;
+        }
+      }
+      mapTier = next;
+      store.set(MAP_TIER_KEY, mapTier);
+      syncMapTierSwitch();
+      renderMap();
+    });
   }
 
   function renderDataNotes() {
@@ -597,17 +885,20 @@
   });
 
   function signalsInMapView() {
-    return SIGNALS.filter((s) => {
+    // Map has its own tier scope (default Tier 1) — separate from the feed filter.
+    return railFilteredSignals({ ignoreTier: true }).filter((s) => {
+      if (mapTier && String(s.tier || "1") !== mapTier) return false;
       if (leaveOutRisk && (s.section || "") === "risk_factors") return false;
       if (mapFamily && s.product_family !== mapFamily) return false;
       return true;
     });
   }
 
-  /** Flatten sightings for month chart; apply risk + family filters. */
+  /** Flatten sightings for month chart; apply rail + risk + family filters. */
   function sightingsInMapView() {
     const out = [];
-    for (const s of SIGNALS) {
+    for (const s of railFilteredSignals({ ignoreTier: true })) {
+      if (mapTier && String(s.tier || "1") !== mapTier) continue;
       if (mapFamily && s.product_family !== mapFamily) continue;
       const list = s.sightings || [];
       if (!list.length) {
@@ -654,11 +945,79 @@
     renderMap();
   }
 
+  /** Open the Feed with filters matching the current map scope (tier / family / direction). */
+  function openFeedFromMap({ direction = "" } = {}) {
+    for (const [id] of FILTERS) {
+      const sel = $("#f-" + id);
+      if (!sel) continue;
+      if (id === "tier") sel.value = mapTier || "";
+      else if (id === "family") sel.value = mapFamily || "";
+      else if (id === "direction") sel.value = direction || "";
+      else sel.value = "";
+    }
+    // Ensure tier options exist even before signals for that tier were loaded into filters.
+    const tierSel = $("#f-tier");
+    if (tierSel && mapTier && ![...tierSel.options].some((o) => o.value === mapTier)) {
+      tierSel.append(new Option(optionLabel("tier", mapTier), mapTier));
+      tierSel.value = mapTier;
+    }
+    const famSel = $("#f-family");
+    if (famSel && mapFamily && ![...famSel.options].some((o) => o.value === mapFamily)) {
+      famSel.append(new Option(optionLabel("product_family", mapFamily), mapFamily));
+      famSel.value = mapFamily;
+    }
+    showTab("feed");
+    renderFeed();
+    const stack = $("#feed-stack");
+    if (stack) stack.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function wireMapFeedTiles() {
+    const root = $("#headline");
+    if (!root || root.dataset.feedWired === "1") return;
+    root.dataset.feedWired = "1";
+    root.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-feed-open]");
+      if (!btn || btn.disabled) return;
+      const kind = btn.getAttribute("data-feed-open") || "signals";
+      const direction =
+        kind === "tightening" || kind === "easing" ? kind : "";
+      openFeedFromMap({ direction });
+    });
+  }
+
+  function updateTierSwitchCounts() {
+    const root = $("#map-tier-switch");
+    if (!root) return;
+    const counts = { "1": 0, "2": 0, "3": 0 };
+    for (const s of SIGNALS) {
+      const t = String(s.tier || "1");
+      if (counts[t] != null) counts[t] += 1;
+    }
+    for (const btn of root.querySelectorAll("button[data-tier]")) {
+      const v = btn.getAttribute("data-tier") ?? "";
+      if (v === "1" || v === "2" || v === "3") {
+        const n = counts[v] || 0;
+        btn.textContent = `Tier ${v} · ${n}`;
+        btn.title =
+          n > 0
+            ? `${n} signals — click again (or the Signals tile) to open Feed`
+            : `Tier ${v} — no signals yet`;
+      } else {
+        btn.textContent = "All";
+        btn.title = "Show all tiers on the map";
+      }
+    }
+  }
+
   function renderMap() {
     const ms = window.ms;
     if (!ms || !window.d3) return;
     const root = $("#signal-map");
     if (!root || root.closest("[hidden]")) return;
+
+    wireMapFeedTiles();
+    updateTierSwitchCounts();
 
     const view = signalsInMapView();
     const tightening = view.filter((s) => s.supply_direction === "tightening").length;
@@ -686,6 +1045,37 @@
       mapFamily ? ms.label(mapFamily) : "All families"
     );
 
+    const armTile = (id, enabled, label) => {
+      const btn = document.getElementById(id);
+      if (!btn) return;
+      btn.disabled = !enabled;
+      if (enabled) {
+        btn.setAttribute("aria-label", label);
+      }
+    };
+    armTile(
+      "tile-signals",
+      view.length > 0,
+      `Open ${view.length} signals in the Feed`
+    );
+    armTile(
+      "tile-tightening",
+      tightening > 0,
+      `Open ${tightening} tightening signals in the Feed`
+    );
+    armTile(
+      "tile-easing",
+      easing > 0,
+      `Open ${easing} easing signals in the Feed`
+    );
+    armTile(
+      "tile-companies",
+      view.length > 0,
+      `Open ${view.length} signals in the Feed`
+    );
+
+    renderTierRoster();
+
     const repBtn = $("#toggle-reported");
     if (repBtn) repBtn.setAttribute("aria-pressed", String(leaveOutRisk));
     const picked = $("#picked-family");
@@ -700,10 +1090,11 @@
       );
     }
 
-    // Family chart — always show all families in current risk-filter (dim non-selected)
-    const famSource = SIGNALS.filter(
-      (s) => !(leaveOutRisk && (s.section || "") === "risk_factors")
-    );
+    // Family chart — map tier + rail filters + optional risk leave-out
+    const famSource = railFilteredSignals({ ignoreTier: true }).filter((s) => {
+      if (mapTier && String(s.tier || "1") !== mapTier) return false;
+      return !(leaveOutRisk && (s.section || "") === "risk_factors");
+    });
     const fams = new Map();
     for (const s of famSource) {
       const key = s.product_family || "(unknown)";
@@ -725,13 +1116,16 @@
       d.tightening.buyer +
       d.easing.supplier +
       d.easing.buyer;
-    const CAT = { DRAM: 0, NAND: 1, Other: 2 };
+    const CAT = CATEGORY_ORDER;
     const famRows = [...fams.values()]
       .map((d) => ({
         ...d,
-        label: ms.label(d.key),
-        sub: d.category === "Other" ? "No family named" : d.category,
-        tipHead: `${ms.label(d.key)} (${d.category})`,
+        label: FAMILY_LABELS[d.key] || ms.label(d.key),
+        sub:
+          d.category === "Other" && d.key === "Memory_general"
+            ? "No family named"
+            : d.category,
+        tipHead: `${FAMILY_LABELS[d.key] || ms.label(d.key)} (${d.category})`,
       }))
       .sort(
         (a, b) =>
@@ -830,6 +1224,8 @@
     latest,
     highlight,
     label,
+    directionLabel,
+    railFilteredSignals,
     renderFeed,
     renderCard,
     renderFamilies,
@@ -849,16 +1245,37 @@
     }),
   };
 
+  async function bootApp() {
+    await loadSignals();
+    await loadUserVotes();
+    await loadMeta();
+    renderFeed();
+    renderFamilies();
+    renderDataNotes();
+    if (location.hash === "#families") showTab("families");
+    else if (location.hash === "#map") showTab("map");
+  }
+
+  window.__msOnAuthChange = async () => {
+    try {
+      if (isClerkMode() && window.__msAuth?.orgId) {
+        await fetch("/api/orgs/bootstrap", {
+          method: "POST",
+          headers: apiHeaders(),
+        });
+      }
+      await bootApp();
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   (async () => {
     try {
-      await loadSignals();
-      await loadUserVotes();
-      await loadMeta();
-      renderFeed();
-      renderFamilies();
-      renderDataNotes();
-      if (location.hash === "#families") showTab("families");
-      else if (location.hash === "#map") showTab("map");
+      if (window.msClerk?.init) {
+        await window.msClerk.init();
+      }
+      await bootApp();
     } catch (err) {
       console.error(err);
       const stack = $("#feed-stack");

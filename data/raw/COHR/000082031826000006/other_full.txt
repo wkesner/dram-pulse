@@ -1,0 +1,6005 @@
+iivi-20251231
+FALSE
+2026
+Q2
+0000820318
+06-30
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent http://fasb.org/us-gaap/2025#PrepaidExpenseAndOtherAssetsCurrent
+http://fasb.org/us-gaap/2025#OtherAssetsNoncurrent http://fasb.org/us-gaap/2025#PrepaidExpenseAndOtherAssetsCurrent
+188
+378
+366
+297
+153
+xbrli:shares
+iso4217:USD
+iso4217:USD
+xbrli:shares
+xbrli:pure
+iivi:segment
+iivi:loan
+iivi:day
+0000820318
+2025-07-01
+2025-12-31
+0000820318
+2026-02-02
+0000820318
+2025-12-31
+0000820318
+2025-06-30
+0000820318
+2024-07-01
+2025-06-30
+0000820318
+2025-10-01
+2025-12-31
+0000820318
+2024-10-01
+2024-12-31
+0000820318
+2024-07-01
+2024-12-31
+0000820318
+iivi:TermALoanFacilityMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:TermALoanFacilityMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:TermBLoanFacilityMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:TermBLoanFacilityMember
+2024-07-01
+2024-12-31
+0000820318
+2024-06-30
+0000820318
+2024-12-31
+0000820318
+us-gaap:CommonStockMember
+2025-06-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-06-30
+0000820318
+us-gaap:RetainedEarningsMember
+2025-06-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2025-06-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2025-06-30
+0000820318
+us-gaap:CommonStockMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2025-07-01
+2025-09-30
+0000820318
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:RetainedEarningsMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:CommonStockMember
+2025-09-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-09-30
+0000820318
+us-gaap:RetainedEarningsMember
+2025-09-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2025-09-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2025-09-30
+0000820318
+2025-09-30
+0000820318
+us-gaap:CommonStockMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:TreasuryStockCommonMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:RetainedEarningsMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:NoncontrollingInterestMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:CommonStockMember
+2025-12-31
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-12-31
+0000820318
+us-gaap:RetainedEarningsMember
+2025-12-31
+0000820318
+us-gaap:TreasuryStockCommonMember
+2025-12-31
+0000820318
+us-gaap:NoncontrollingInterestMember
+2025-12-31
+0000820318
+us-gaap:CommonStockMember
+2024-06-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-06-30
+0000820318
+us-gaap:RetainedEarningsMember
+2024-06-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2024-06-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2024-06-30
+0000820318
+us-gaap:CommonStockMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:RetainedEarningsMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2024-07-01
+2024-09-30
+0000820318
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:CommonStockMember
+2024-09-30
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-09-30
+0000820318
+us-gaap:RetainedEarningsMember
+2024-09-30
+0000820318
+us-gaap:TreasuryStockCommonMember
+2024-09-30
+0000820318
+us-gaap:NoncontrollingInterestMember
+2024-09-30
+0000820318
+2024-09-30
+0000820318
+us-gaap:CommonStockMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:RetainedEarningsMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:TreasuryStockCommonMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:NoncontrollingInterestMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:CommonStockMember
+2024-12-31
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2024-12-31
+0000820318
+us-gaap:RetainedEarningsMember
+2024-12-31
+0000820318
+us-gaap:TreasuryStockCommonMember
+2024-12-31
+0000820318
+us-gaap:NoncontrollingInterestMember
+2024-12-31
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:LandAndLandImprovementsMember
+2025-12-31
+0000820318
+us-gaap:LandAndLandImprovementsMember
+2025-06-30
+0000820318
+us-gaap:BuildingAndBuildingImprovementsMember
+2025-12-31
+0000820318
+us-gaap:BuildingAndBuildingImprovementsMember
+2025-06-30
+0000820318
+us-gaap:MachineryAndEquipmentMember
+2025-12-31
+0000820318
+us-gaap:MachineryAndEquipmentMember
+2025-06-30
+0000820318
+us-gaap:ConstructionInProgressMember
+2025-12-31
+0000820318
+us-gaap:ConstructionInProgressMember
+2025-06-30
+0000820318
+iivi:NetworkingSegmentMember
+2025-06-30
+0000820318
+iivi:MaterialsSegmentMember
+2025-06-30
+0000820318
+iivi:LasersSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+iivi:NetworkingSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+iivi:MaterialsSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+iivi:LasersSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+iivi:IndustrialSegmentMember
+2025-06-30
+0000820318
+us-gaap:ScenarioAdjustmentMember
+2025-06-30
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-06-30
+0000820318
+iivi:IndustrialSegmentMember
+2025-06-30
+0000820318
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2025-12-31
+0000820318
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2025-12-31
+0000820318
+us-gaap:TechnologyBasedIntangibleAssetsMember
+2025-06-30
+0000820318
+us-gaap:TradeNamesMember
+2025-12-31
+0000820318
+us-gaap:TradeNamesMember
+2025-06-30
+0000820318
+us-gaap:CustomerListsMember
+2025-12-31
+0000820318
+us-gaap:CustomerListsMember
+2025-06-30
+0000820318
+iivi:BacklogAndOtherIntangibleAssetsMember
+2025-12-31
+0000820318
+iivi:BacklogAndOtherIntangibleAssetsMember
+2025-06-30
+0000820318
+iivi:TermLoanACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:TermLoanACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+iivi:TermLoanACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+iivi:TermLoanAAndRevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+iivi:TermLoanAAndRevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+iivi:TermLoanBCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:TermLoanBCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+iivi:TermLoanBCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+us-gaap:SecuredDebtMember
+iivi:LocalLinesOfCreditMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:LocalLinesOfCreditMember
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+us-gaap:SecuredDebtMember
+iivi:ConstructionLoanDue2030Member
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:ConstructionLoanDue2030Member
+us-gaap:LineOfCreditMember
+2025-06-30
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2025-12-31
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2025-06-30
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2022-07-01
+0000820318
+iivi:TermLoanACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2022-07-01
+0000820318
+iivi:TermLoanBCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2022-07-01
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2022-07-01
+0000820318
+us-gaap:LetterOfCreditMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2022-07-01
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+0000820318
+us-gaap:LetterOfCreditMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+0000820318
+iivi:SeniorSecuredIncrementalTermACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+0000820318
+iivi:SeniorSecuredIncrementalTermACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+iivi:SeniorSecuredIncrementalTermACreditFacilityMember
+iivi:CreditAgreementMember
+srt:MinimumMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+iivi:SeniorSecuredIncrementalTermACreditFacilityMember
+iivi:CreditAgreementMember
+srt:MaximumMember
+us-gaap:LineOfCreditMember
+2025-09-26
+2025-09-26
+0000820318
+us-gaap:RevolvingCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+2025-12-31
+0000820318
+iivi:SeniorSecuredIncrementalTermACreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+2025-12-31
+0000820318
+iivi:TermLoanBCreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-09-26
+0000820318
+iivi:TermLoanB3CreditFacilityMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-12-31
+2025-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:SecuredDebtMember
+iivi:CreditAgreementMember
+us-gaap:LineOfCreditMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:CoherentInc.Member
+2022-07-01
+0000820318
+iivi:CoherentInc.Member
+2022-07-02
+2024-06-29
+0000820318
+us-gaap:SecuredDebtMember
+us-gaap:LineOfCreditMember
+2025-12-31
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2021-12-10
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:DebtInstrumentRedemptionPeriodOneMember
+us-gaap:SeniorNotesMember
+2021-12-10
+2021-12-10
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:DebtInstrumentRedemptionPeriodTwoMember
+us-gaap:SeniorNotesMember
+2021-12-10
+2021-12-10
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:DebtInstrumentRedemptionPeriodThreeMember
+us-gaap:SeniorNotesMember
+2021-12-10
+2021-12-10
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:A500SeniorNotesDueDecember2029Member
+us-gaap:SeniorNotesMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:ConvertiblePreferredStockSubjectToMandatoryRedemptionMember
+2025-12-31
+0000820318
+iivi:SeriesB1ConvertiblePreferredStockMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesB2ConvertiblePreferredStockMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:CommonStockMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2025-12-31
+0000820318
+iivi:SeriesB1ConvertiblePreferredStockMember
+us-gaap:PrivatePlacementMember
+2021-03-01
+2021-03-31
+0000820318
+iivi:SeriesB1ConvertiblePreferredStockMember
+2021-03-31
+0000820318
+iivi:SeriesB2ConvertiblePreferredStockMember
+us-gaap:PrivatePlacementMember
+2022-07-01
+2022-07-01
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2022-07-01
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+us-gaap:PrivatePlacementMember
+2022-07-01
+2022-07-01
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2021-03-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2021-03-01
+2021-03-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:CommonClassAMember
+iivi:DensoCorporationMember
+iivi:SiliconCarbideLLCMember
+us-gaap:PrivatePlacementMember
+2023-12-04
+2023-12-04
+0000820318
+iivi:DensoCorporationMember
+iivi:SiliconCarbideLLCMember
+2023-10-10
+2023-10-10
+0000820318
+us-gaap:CommonClassAMember
+iivi:MitsubishiElectricCorporationMember
+iivi:SiliconCarbideLLCMember
+us-gaap:PrivatePlacementMember
+2023-12-04
+2023-12-04
+0000820318
+iivi:MitsubishiElectricCorporationMember
+iivi:SiliconCarbideLLCMember
+2023-10-10
+2023-10-10
+0000820318
+iivi:SiliconCarbideLLCMember
+2023-10-10
+0000820318
+iivi:SiliconCarbideLLCMember
+iivi:DensoCorporationMember
+2023-10-10
+0000820318
+iivi:SiliconCarbideLLCMember
+iivi:MitsubishiElectricCorporationMember
+2023-10-10
+0000820318
+2023-10-10
+2023-10-10
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2025-06-30
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2024-06-30
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2025-12-31
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:NoncontrollingInterestMember
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockPreferredStockDividendsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockPreferredStockDividendsMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockPreferredStockDividendsMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockPreferredStockDividendsMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockDeemedDividendsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockDeemedDividendsMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockDeemedDividendsMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockDeemedDividendsMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:StockCompensationPlanMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:StockCompensationPlanMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:StockCompensationPlanMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:StockCompensationPlanMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:SeriesBConvertiblePreferredStockMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:IndustrialSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:IndustrialSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:IndustrialSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+iivi:IndustrialSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:OperatingSegmentsMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:DatacenterAndCommunicationsSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:IndustrialSegmentMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:IndustrialSegmentMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:IndustrialSegmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+iivi:IndustrialSegmentMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:IntersegmentEliminationMember
+2024-07-01
+2024-12-31
+0000820318
+srt:NorthAmericaMember
+2025-10-01
+2025-12-31
+0000820318
+srt:NorthAmericaMember
+2024-10-01
+2024-12-31
+0000820318
+srt:NorthAmericaMember
+2025-07-01
+2025-12-31
+0000820318
+srt:NorthAmericaMember
+2024-07-01
+2024-12-31
+0000820318
+srt:EuropeMember
+2025-10-01
+2025-12-31
+0000820318
+srt:EuropeMember
+2024-10-01
+2024-12-31
+0000820318
+srt:EuropeMember
+2025-07-01
+2025-12-31
+0000820318
+srt:EuropeMember
+2024-07-01
+2024-12-31
+0000820318
+country:CN
+2025-10-01
+2025-12-31
+0000820318
+country:CN
+2024-10-01
+2024-12-31
+0000820318
+country:CN
+2025-07-01
+2025-12-31
+0000820318
+country:CN
+2024-07-01
+2024-12-31
+0000820318
+country:JP
+2025-10-01
+2025-12-31
+0000820318
+country:JP
+2024-10-01
+2024-12-31
+0000820318
+country:JP
+2025-07-01
+2025-12-31
+0000820318
+country:JP
+2024-07-01
+2024-12-31
+0000820318
+iivi:OtherCountriesMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:OtherCountriesMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:OtherCountriesMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:OtherCountriesMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:EmployeeStockMember
+2025-12-31
+0000820318
+us-gaap:EmployeeStockMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:StockOptionAndStockAppreciationRightsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:StockOptionAndStockAppreciationRightsMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:StockOptionAndStockAppreciationRightsMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:StockOptionAndStockAppreciationRightsMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:RestrictedShareAwardsAndRestrictedShareUnitAwardsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:RestrictedShareAwardsAndRestrictedShareUnitAwardsMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:RestrictedShareAwardsAndRestrictedShareUnitAwardsMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:RestrictedShareAwardsAndRestrictedShareUnitAwardsMember
+2024-07-01
+2024-12-31
+0000820318
+iivi:PerformanceShareUnitsAndPerformanceShareUnitAwardsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:PerformanceShareUnitsAndPerformanceShareUnitAwardsMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:PerformanceShareUnitsAndPerformanceShareUnitAwardsMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:PerformanceShareUnitsAndPerformanceShareUnitAwardsMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:EmployeeStockMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:EmployeeStockMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:EmployeeStockMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:InterestRateCapMember
+2022-02-23
+0000820318
+us-gaap:InterestRateCapMember
+2024-08-31
+0000820318
+us-gaap:InterestRateCapMember
+2024-09-01
+0000820318
+us-gaap:InterestRateCapMember
+2025-12-31
+0000820318
+us-gaap:InterestRateCapMember
+2025-06-30
+0000820318
+us-gaap:SeniorNotesMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+us-gaap:SeniorNotesMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+us-gaap:SeniorNotesMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+us-gaap:SeniorNotesMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+iivi:TermLoanACreditFacilityMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+iivi:TermLoanACreditFacilityMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+iivi:TermLoanACreditFacilityMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+iivi:TermLoanACreditFacilityMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+iivi:TermLoanBCreditFacilityMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+iivi:TermLoanBCreditFacilityMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-12-31
+0000820318
+iivi:TermLoanBCreditFacilityMember
+us-gaap:EstimateOfFairValueFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+iivi:TermLoanBCreditFacilityMember
+us-gaap:CarryingReportedAmountFairValueDisclosureMember
+us-gaap:FairValueInputsLevel2Member
+2025-06-30
+0000820318
+us-gaap:FairValueInputsLevel1Member
+2025-12-31
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:FairValueInputsLevel1Member
+2025-12-31
+0000820318
+iivi:OtherEntitiesMember
+us-gaap:FairValueInputsLevel1Member
+2025-12-31
+0000820318
+us-gaap:FairValueInputsLevel1Member
+2025-06-30
+0000820318
+iivi:SiliconCarbideLLCMember
+us-gaap:FairValueInputsLevel1Member
+2025-06-30
+0000820318
+iivi:OtherEntitiesMember
+us-gaap:FairValueInputsLevel1Member
+2025-06-30
+0000820318
+us-gaap:FairValueInputsLevel2Member
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:FairValueInputsLevel2Member
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:FairValueInputsLevel2Member
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:FairValueInputsLevel2Member
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-06-30
+0000820318
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-06-30
+0000820318
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-06-30
+0000820318
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:AccumulatedOtherComprehensiveIncomeMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:AccumulatedTranslationAdjustmentMember
+2025-12-31
+0000820318
+us-gaap:AccumulatedGainLossNetCashFlowHedgeParentMember
+2025-12-31
+0000820318
+us-gaap:AccumulatedDefinedBenefitPlansAdjustmentMember
+2025-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-07-01
+2025-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-07-01
+2024-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2025-06-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2025-06-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2025-06-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-06-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2025-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2025-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2025-09-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2025-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2025-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2025-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2025-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2024-06-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2024-06-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2024-06-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-06-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2024-07-01
+2024-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2024-07-01
+2024-09-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-07-01
+2024-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2024-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2024-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2024-09-30
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2024-10-01
+2024-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2024-10-01
+2024-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2023RestructuringPlanMember
+2024-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2023RestructuringPlanMember
+2024-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2023RestructuringPlanMember
+2024-12-31
+0000820318
+iivi:A2023RestructuringPlanMember
+2024-12-31
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-07-01
+2025-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2025RestructuringPlanMember
+2025-06-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2025RestructuringPlanMember
+2025-06-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2025RestructuringPlanMember
+2025-06-30
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-06-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2025RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2025RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2025RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-07-01
+2025-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2025RestructuringPlanMember
+2025-09-30
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2025RestructuringPlanMember
+2025-09-30
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2025RestructuringPlanMember
+2025-09-30
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-09-30
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2025RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2025RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2025RestructuringPlanMember
+2025-10-01
+2025-12-31
+0000820318
+us-gaap:EmployeeSeveranceMember
+iivi:A2025RestructuringPlanMember
+2025-12-31
+0000820318
+iivi:AssetWriteOffsMember
+iivi:A2025RestructuringPlanMember
+2025-12-31
+0000820318
+us-gaap:OtherRestructuringMember
+iivi:A2025RestructuringPlanMember
+2025-12-31
+0000820318
+iivi:A2025RestructuringPlanMember
+2025-12-31
+0000820318
+iivi:IndustrialSegmentMember
+2025-04-01
+2025-06-30
+0000820318
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+iivi:AerospaceAndDefenseBusinessMember
+2025-09-02
+0000820318
+us-gaap:DisposalGroupDisposedOfBySaleNotDiscontinuedOperationsMember
+iivi:AerospaceAndDefenseBusinessMember
+2025-09-02
+2025-09-02
+0000820318
+us-gaap:DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+iivi:VariousCoherentEntitiesMember
+2025-12-31
+0000820318
+us-gaap:DisposalGroupHeldforsaleNotDiscontinuedOperationsMember
+iivi:VariousCoherentEntitiesMember
+2025-06-30
+0000820318
+iivi:SherriLutherMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:SherriLutherMember
+2025-12-31
+0000820318
+iivi:Dr.JulieEngMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:Dr.JulieEngMember
+2025-12-31
+0000820318
+iivi:EnricoDiGirolamoMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:EnricoDiGirolamoMember
+2025-12-31
+0000820318
+iivi:StephenSkaggsMember
+2025-10-01
+2025-12-31
+0000820318
+iivi:StephenSkaggsMember
+2025-12-31
+0000820318
+iivi:JimAndersonMember
+2025-10-01
+2025-12-31
+Table of Contents
+                  \
+
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+________________________________________________________________
+FORM
+10-Q
+
+________________________________________________________________
+☒
+Quarterly Report Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934
+For the quarterly period ended
+December 31, 2025
+☐
+Transition report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934
+for the transition period from
+                    
+ to
+                    
+.
+Commission File Number:
+001-39375
+
+________________________________________________________________
+COHERENT CORP.
+
+(Exact name of registrant as specified in its charter)
+________________________________________________________________
+Pennsylvania
+25-1214948
+(State or other jurisdiction of
+incorporation or organization)
+(I.R.S. Employer
+Identification No.)
+375 Saxonburg Boulevard
+16056
+Saxonburg,
+PA
+(Zip Code)
+(Address of principal executive offices)
+Registrant’s telephone number, including area code:
+724
+-
+352-4455
+
+N/A
+(Former name, former address and former fiscal year, if changed since last report)
+________________________________________________________________
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, no par value
+COHR
+New York Stock Exchange
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.    
+Yes
+  
+☒
+    No  
+☐
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).    
+Yes
+  
+☒
+    No  
+☐
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer
+☒
+Accelerated filer
+☐
+Non-accelerated filer
+☐
+Smaller reporting company
+☐
+Emerging growth company
+☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act    
+☐
+   
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).    Yes  
+☐
+    No  
+☒
+Indicate the number of shares outstanding of each of the issuer’s classes of common stock, as of the latest practicable date:
+At February 2, 2026,
+187,481,852
+ shares of Common Stock, no par value, of the registrant were outstanding.
+Table of Contents
+COHERENT CORP.
+INDEX
+Page No.
+PART I - FINANCIAL INFORMATION
+Item 1.
+Financial Statements:
+Condensed Consolidated Balance Sheets –
+ December 31, 2025 and June 30, 2025 (Unaudited)
+3
+Condensed Consolidated Statements of Earnings (Loss) –
+Three and Six Months Ended December 31, 2025 and 2024 (Unaudited)
+4
+Condensed Consolidated Statements of Comprehensive Income (Loss) –
+Three and Six Months Ended December 31, 2025
+ and 2024 (Unaudited)
+6
+Condensed Consolidated Statements of Cash Flows –
+Six Months Ended
+ December 31, 2025
+ and 2024 (Unaudited)
+7
+Condensed Consolidated Statements of Equity and Mezzanine Equity –
+Three and Six Months Ended December 31, 2025
+ and 2024 (Unaudited)
+10
+Notes to Condensed Consolidated Financial Statements (Unaudited)
+12
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+29
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+38
+Item 4.
+Controls and Procedures
+38
+PART II - OTHER INFORMATION
+Item 1.
+Legal Proceedings
+39
+Item 1A.
+Risk Factors
+39
+Item 5.
+Other Information
+39
+Item 6.
+Exhibits
+40
+2
+Table of Contents
+PART I - FINANCIAL INFORMATION
+Item 1.    FINANCIAL STATEMENTS
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Balance Sheets (Unaudited)
+($000)
+December 31,
+2025
+June 30,
+2025
+Assets
+Current Assets
+Cash and cash equivalents
+$
+863,739
+ 
+$
+909,200
+ 
+Restricted cash, current
+35,451
+ 
+8,897
+ 
+Accounts receivable - less allowance for doubtful accounts of $
+12,856
+ at December 31, 2025 and $
+12,189
+ at June 30, 2025
+1,054,611
+ 
+964,051
+ 
+Inventories
+1,847,907
+ 
+1,437,636
+ 
+Prepaid and refundable income taxes
+44,086
+ 
+55,773
+ 
+Prepaid and other current assets
+547,593
+ 
+551,597
+ 
+Total Current Assets
+4,393,387
+ 
+3,927,154
+ 
+Property, plant & equipment, net
+2,116,957
+ 
+1,877,507
+ 
+Goodwill
+4,462,786
+ 
+4,471,084
+ 
+Other intangible assets, net
+3,064,069
+ 
+3,204,747
+ 
+Deferred income taxes
+69,091
+ 
+53,407
+ 
+Restricted cash, non-current
+629,606
+ 
+714,816
+ 
+Other assets
+351,821
+ 
+662,221
+ 
+Total Assets
+$
+15,087,717
+ 
+$
+14,910,936
+ 
+Liabilities, Mezzanine Equity and Equity
+Current Liabilities
+Current portion of long-term debt
+$
+106,463
+ 
+$
+188,306
+ 
+Accounts payable
+1,118,506
+ 
+846,984
+ 
+Accrued compensation and benefits
+243,088
+ 
+258,650
+ 
+Operating lease current liabilities
+43,021
+ 
+41,575
+ 
+Accrued income taxes payable
+127,977
+ 
+123,762
+ 
+Other accrued liabilities
+312,033
+ 
+335,564
+ 
+Total Current Liabilities
+1,951,088
+ 
+1,794,841
+ 
+Long-term debt
+3,245,403
+ 
+3,498,615
+ 
+Deferred income taxes
+643,250
+ 
+711,717
+ 
+Operating lease liabilities
+151,638
+ 
+165,162
+ 
+Other liabilities
+208,054
+ 
+259,318
+ 
+Total Liabilities
+6,199,433
+ 
+6,429,653
+ 
+Mezzanine Equity
+Series B redeemable convertible preferred stock,
+no
+ par value,
+5
+% cumulative; issued -
+0
+ and
+215,000
+ shares at December 31, 2025 and June 30, 2025, respectively; redemption value - $
+0
+ and $
+2,540,110
+, respectively
+—
+ 
+2,483,261
+ 
+Shareholders' Equity
+Common stock,
+no
+ par value; authorized -
+300,000,000
+ shares; issued -
+204,185,841
+ shares at December 31, 2025;
+171,849,325
+ shares at June 30, 2025
+7,674,290
+ 
+5,056,168
+ 
+Accumulated other comprehensive income (AOCI)
+355,348
+ 
+372,037
+ 
+Retained earnings
+922,338
+ 
+584,374
+ 
+8,951,976
+ 
+6,012,579
+ 
+Treasury stock, at cost;
+16,763,485
+ shares at December 31, 2025 and
+16,294,119
+ shares at June 30, 2025
+(
+412,680
+)
+(
+368,065
+)
+Total Coherent Corp. Shareholders’ Equity
+8,539,296
+ 
+5,644,514
+ 
+Noncontrolling interests (NCI)
+348,988
+ 
+353,508
+ 
+Total Equity
+8,888,284
+ 
+5,998,022
+ 
+Total Liabilities, Mezzanine Equity and Equity
+$
+15,087,717
+ 
+$
+14,910,936
+ 
+See Notes to Condensed Consolidated Financial Statements
+.
+3
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Earnings (Loss) (Unaudited)
+($000, except per share data)
+Three Months Ended
+December 31,
+2025
+2024
+Revenues
+$
+1,685,629
+ 
+$
+1,434,665
+ 
+Costs, Expenses, and Other Expense (Income)
+Cost of goods sold
+1,062,809
+ 
+925,314
+ 
+Research and development
+165,708
+ 
+143,852
+ 
+Selling, general and administrative
+258,488
+ 
+220,612
+ 
+Restructuring charges
+3,609
+ 
+8,021
+ 
+Impairment of assets held-for-sale
+11,012
+ 
+—
+ 
+Interest expense
+45,937
+ 
+64,278
+ 
+Other income, net
+(
+29,922
+)
+(
+55,816
+)
+Total Costs, Expenses, & Other Expense
+1,517,641
+ 
+1,306,261
+ 
+Earnings Before Income Taxes
+167,988
+ 
+128,404
+ 
+Income Tax Expense
+24,174
+ 
+26,862
+ 
+Net Earnings
+143,814
+ 
+101,542
+ 
+Net Loss Attributable to Noncontrolling Interests
+(
+2,903
+)
+(
+1,843
+)
+Net Earnings Attributable to Coherent Corp.
+146,717
+ 
+103,385
+ 
+Less: Dividends on Preferred Stock
+1,623
+ 
+32,262
+ 
+Net Earnings Available to the Common Shareholders
+$
+145,094
+ 
+$
+71,123
+ 
+Basic Earnings Per Share
+$
+0.87
+ 
+$
+0.46
+ 
+Diluted Earnings Per Share
+$
+0.76
+ 
+$
+0.44
+ 
+See Notes to Condensed Consolidated Financial Statements.
+4
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Earnings (Loss) (Unaudited)
+($000, except per share data)
+Six Months Ended
+December 31,
+2025
+2024
+Revenues
+$
+3,267,007
+ 
+$
+2,782,800
+ 
+Costs, Expenses, and Other Expense (Income)
+Cost of goods sold
+2,064,987
+ 
+1,813,317
+ 
+Research and development
+320,585
+ 
+275,454
+ 
+Selling, general and administrative
+510,572
+ 
+449,580
+ 
+Restructuring charges
+22,885
+ 
+32,385
+ 
+Impairment of assets held-for-sale
+20,112
+ 
+—
+ 
+Gain on sale of business
+(
+115,211
+)
+—
+ 
+Interest expense
+104,658
+ 
+130,922
+ 
+Other income, net
+(
+46,455
+)
+(
+66,565
+)
+Total Costs, Expenses, & Other Expense
+2,882,133
+ 
+2,635,093
+ 
+Earnings Before Income Taxes
+384,874
+ 
+147,707
+ 
+Income Tax Expense
+15,864
+ 
+21,304
+ 
+Net Earnings
+369,010
+ 
+126,403
+ 
+Net Loss Attributable to Noncontrolling Interests
+(
+4,056
+)
+(
+2,869
+)
+Net Earnings Attributable to Coherent Corp.
+373,066
+ 
+129,272
+ 
+Less: Dividends on Preferred Stock
+35,102
+ 
+64,095
+ 
+Net Earnings Available to the Common Shareholders
+$
+337,964
+ 
+$
+65,177
+ 
+Basic Earnings Per Share
+$
+2.09
+ 
+$
+0.42
+ 
+Diluted Earnings Per Share
+$
+1.95
+ 
+$
+0.41
+ 
+See Notes to Condensed Consolidated Financial Statements.
+5
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Comprehensive Income (Loss) (Unaudited)
+($000)
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Net earnings
+$
+143,814
+ 
+$
+101,542
+ 
+$
+369,010
+ 
+$
+126,403
+ 
+Other Comprehensive Income (Loss):
+Foreign currency translation adjustments
+19,174
+ 
+(
+432,264
+)
+(
+8,423
+)
+(
+141,990
+)
+Change in fair value of interest rate instruments, net of taxes of $(
+969
+) and $(
+2,157
+) for the three and six months ended December 31, 2025, respectively; and $
+2,199
+ and $(
+2,198
+) for the three and six months ended December 31, 2024, respectively
+(
+3,487
+)
+(
+1,426
+)
+(
+7,875
+)
+(
+20,181
+)
+Pension adjustment, net of taxes of $
+0
+ for the three and six months ended December 31, 2025 and December 31, 2024
+(
+99
+)
+(
+429
+)
+(
+855
+)
+(
+584
+)
+Comprehensive Income (Loss)
+159,402
+ 
+(
+332,577
+)
+351,857
+ 
+(
+36,352
+)
+Comprehensive Loss Attributable to Noncontrolling Interests
+(
+2,903
+)
+(
+1,843
+)
+(
+4,056
+)
+(
+2,869
+)
+Foreign Currency Translation Adjustments Attributable to Noncontrolling Interests
+(
+23
+)
+(
+950
+)
+(
+464
+)
+(
+399
+)
+Comprehensive Income (Loss) Attributable to Coherent Corp.
+$
+162,328
+ 
+$
+(
+329,784
+)
+$
+356,377
+ 
+$
+(
+33,084
+)
+
+See Notes to Condensed Consolidated Financial Statements.
+6
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Cash Flows (Unaudited)
+($000)
+7
+Table of Contents
+Six Months Ended December 31,
+2025
+2024
+Cash Flows from Operating Activities
+Net earnings
+$
+369,010
+ 
+$
+126,403
+ 
+Adjustments to reconcile net earnings to net cash provided by operating activities:
+Depreciation
+108,494
+ 
+128,627
+ 
+Amortization
+139,954
+ 
+143,578
+ 
+Share-based compensation expense
+86,902
+ 
+75,689
+ 
+Amortization of debt issuance costs
+12,199
+ 
+10,418
+ 
+Non-cash restructuring and impairment charges
+20,642
+ 
+18,370
+ 
+Loss on disposal of property, plant and equipment
+148
+ 
+67
+ 
+Unrealized gains on foreign currency remeasurements and transactions
+(
+8,483
+)
+(
+9,529
+)
+Earnings from equity investments
+(
+276
+)
+(
+501
+)
+Deferred income taxes
+(
+73,064
+)
+(
+59,618
+)
+Gain on sale of business
+(
+115,211
+)
+—
+ 
+Gain on sale of equity investment
+(
+21,538
+)
+—
+ 
+Loss on debt extinguishment
+3,056
+ 
+—
+ 
+Increase (decrease) in cash from changes in (net of effect of acquisitions):
+Accounts receivable
+(
+91,387
+)
+(
+38,849
+)
+Inventories
+(
+421,373
+)
+(
+66,521
+)
+Accounts payable
+205,571
+ 
+48,020
+ 
+Contract liabilities
+(
+8,256
+)
+(
+9,845
+)
+Income taxes
+(
+29,178
+)
+8,821
+ 
+Accrued compensation and benefits
+(
+15,562
+)
+1,076
+ 
+Other operating net assets (liabilities)
+(
+57,793
+)
+(
+35,847
+)
+Net cash provided by operating activities
+103,855
+ 
+340,359
+ 
+Cash Flows from Investing Activities
+Additions to property, plant & equipment
+(
+257,544
+)
+(
+197,667
+)
+Proceeds from sale of equity investment
+31,531
+ 
+—
+ 
+Proceeds from the sale of business, net of fees
+385,797
+ 
+27,000
+ 
+Other investing activities
+(
+1,517
+)
+(
+1,126
+)
+Net cash provided by (used in) investing activities
+158,267
+ 
+(
+171,793
+)
+Cash Flows from Financing Activities
+Proceeds from borrowings of Term A Facility
+1,250,000
+ 
+—
+ 
+Proceeds from borrowings of Term B Facility
+3,267
+ 
+—
+ 
+Proceeds from borrowings of revolving credit facilities
+313,577
+ 
+—
+ 
+Payments on existing debt
+(
+1,659,425
+)
+(
+250,210
+)
+Payments on borrowings under revolving credit facilities
+(
+251,334
+)
+—
+ 
+Debt issuance costs
+(
+9,101
+)
+—
+ 
+Proceeds from exercises of stock options and purchases of stock under employee stock purchase plan
+30,087
+ 
+29,234
+ 
+Payments in satisfaction of employees' minimum tax obligations
+(
+44,616
+)
+(
+45,042
+)
+Cash dividends paid
+(
+11,438
+)
+—
+ 
+Other financing activities
+555
+ 
+(
+455
+)
+Net cash used in financing activities
+(
+378,428
+)
+(
+266,473
+)
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+12,189
+ 
+(
+23,137
+)
+Net decrease in cash, cash equivalents, and restricted cash
+(
+104,117
+)
+(
+121,044
+)
+Cash, Cash Equivalents, and Restricted Cash at Beginning of Period
+1,632,913
+ 
+1,789,686
+ 
+Cash, Cash Equivalents, and Restricted Cash at End of Period
+$
+1,528,796
+ 
+$
+1,668,642
+ 
+Supplemental Information
+Cash paid for interest
+$
+103,023
+ 
+$
+142,485
+ 
+Cash paid for income taxes
+$
+100,545
+ 
+$
+66,367
+ 
+Non-Cash Investing and Financing Activities
+Additions to property, plant & equipment included in accounts payable
+$
+126,330
+ 
+$
+74,368
+ 
+Conversions of Series B preferred stock to common stock
+$
+2,506,885
+ 
+$
+—
+ 
+8
+Table of Contents
+
+See Notes to Condensed Consolidated Financial Statements.
+The following table provides a reconciliation of cash, cash equivalents and restricted cash reported within the Condensed Consolidated Balance Sheets that sum to the total of the same amounts shown in the Condensed Consolidated Statements of Cash Flows.
+December 31,
+2025
+2024
+Cash and cash equivalents
+$
+863,739
+ 
+$
+917,815
+ 
+Restricted cash, current
+35,451
+ 
+11,826
+ 
+Restricted cash, non-current
+629,606
+ 
+739,001
+ 
+Total cash, cash equivalents, and restricted cash shown in the Condensed Consolidated Statements of Cash Flows
+$
+1,528,796
+ 
+$
+1,668,642
+ 
+9
+Table of Contents
+Coherent Corp and Subsidiaries
+Condensed Consolidated Statements of Equity and Mezzanine Equity (Unaudited)
+($000, including share amounts)
+Common Stock
+AOCI
+Retained Earnings
+Treasury Stock
+NCI
+Total
+Mezzanine Equity
+Shares
+Amount
+Shares
+Amount
+Pref Shares
+Amount
+Balance - June 30, 2025
+171,849
+ 
+$
+5,056,168
+ 
+$
+372,037
+ 
+$
+584,374
+ 
+(
+16,294
+)
+$
+(
+368,065
+)
+$
+353,508
+ 
+$
+5,998,022
+ 
+215
+ 
+$
+2,483,261
+ 
+Share-based and deferred compensation
+1,810
+ 
+62,558
+ 
+— 
+— 
+(
+412
+)
+(
+37,443
+)
+— 
+25,115
+ 
+— 
+— 
+Net earnings (loss)
+— 
+— 
+— 
+226,349
+ 
+— 
+— 
+(
+1,153
+)
+225,196
+ 
+— 
+— 
+Foreign currency translation adjustments
+— 
+— 
+(
+27,156
+)
+— 
+— 
+— 
+(
+441
+)
+(
+27,597
+)
+— 
+— 
+Change in fair value of interest rate instruments, net of taxes of $(
+1,188
+)
+— 
+— 
+(
+4,388
+)
+— 
+— 
+— 
+— 
+(
+4,388
+)
+— 
+— 
+Pension adjustment, net of taxes of $
+0
+— 
+— 
+(
+756
+)
+— 
+— 
+— 
+— 
+(
+756
+)
+— 
+— 
+Dividends
+— 
+— 
+— 
+(
+33,479
+)
+— 
+— 
+— 
+(
+33,479
+)
+— 
+22,041
+ 
+Balance - September 30, 2025
+173,659
+ 
+$
+5,118,726
+ 
+$
+339,737
+ 
+$
+777,244
+ 
+(
+16,706
+)
+$
+(
+405,508
+)
+$
+351,914
+ 
+$
+6,182,113
+ 
+215
+ 
+$
+2,505,302
+ 
+Share-based and deferred compensation
+405
+ 
+48,679
+ 
+— 
+— 
+(
+57
+)
+(
+7,172
+)
+— 
+41,507
+ 
+— 
+— 
+Conversion of Series B preferred stock
+30,122
+ 
+2,506,885
+ 
+— 
+— 
+— 
+— 
+— 
+2,506,885
+ 
+(
+215
+)
+(
+2,506,885
+)
+Net earnings (loss)
+— 
+— 
+— 
+146,717
+ 
+— 
+— 
+(
+2,903
+)
+143,814
+ 
+— 
+— 
+Foreign currency translation adjustments
+— 
+— 
+19,197
+ 
+— 
+— 
+— 
+(
+23
+)
+19,174
+ 
+— 
+— 
+Change in fair value of interest rate instruments, net of taxes of $(
+969
+)
+— 
+— 
+(
+3,487
+)
+— 
+— 
+— 
+— 
+(
+3,487
+)
+— 
+— 
+Pension adjustment, net of taxes of $
+0
+— 
+— 
+(
+99
+)
+— 
+— 
+— 
+— 
+(
+99
+)
+— 
+— 
+Dividends
+— 
+— 
+— 
+(
+1,623
+)
+— 
+— 
+— 
+(
+1,623
+)
+— 
+1,583
+ 
+Balance - December 31, 2025
+204,186
+ 
+$
+7,674,290
+ 
+$
+355,348
+ 
+$
+922,338
+ 
+(
+16,763
+)
+$
+(
+412,680
+)
+$
+348,988
+ 
+$
+8,888,284
+ 
+—
+ 
+$
+—
+ 
+Common Stock
+AOCI
+Retained Earnings
+Treasury Stock
+Total
+Mezzanine Equity
+Shares
+Amount
+Shares
+Amount
+NCI
+Pref Shares
+Amount
+Balance - June 30, 2024
+168,408
+ 
+$
+4,857,657
+ 
+$
+2,640
+ 
+$
+664,940
+ 
+(
+15,629
+)
+$
+(
+315,122
+)
+$
+371,392
+ 
+$
+5,581,507
+ 
+215
+ 
+$
+2,364,772
+ 
+Share-based and deferred compensation
+2,136
+ 
+56,015
+ 
+— 
+3
+ 
+(
+399
+)
+(
+29,923
+)
+— 
+26,095
+ 
+— 
+— 
+Net earnings (loss)
+— 
+— 
+— 
+25,887
+ 
+— 
+— 
+(
+1,026
+)
+24,861
+ 
+— 
+— 
+Foreign currency translation adjustments
+— 
+— 
+289,723
+ 
+— 
+— 
+— 
+551
+ 
+290,274
+ 
+— 
+— 
+Change in fair value of interest rate instruments, net of taxes of $(
+4,397
+)
+— 
+— 
+(
+18,755
+)
+— 
+— 
+— 
+— 
+(
+18,755
+)
+— 
+— 
+Pension adjustment, net of taxes of $
+0
+— 
+— 
+(
+155
+)
+— 
+— 
+— 
+— 
+(
+155
+)
+— 
+— 
+Dividends
+— 
+— 
+— 
+(
+31,833
+)
+— 
+— 
+— 
+(
+31,833
+)
+— 
+31,833
+ 
+Balance - September 30, 2024
+170,544
+ 
+$
+4,913,672
+ 
+$
+273,453
+ 
+$
+658,997
+ 
+(
+16,028
+)
+$
+(
+345,045
+)
+$
+370,917
+ 
+$
+5,871,994
+ 
+215
+ 
+$
+2,396,605
+ 
+Share-based and deferred compensation
+571
+ 
+43,407
+ 
+— 
+(
+3
+)
+(
+143
+)
+(
+14,212
+)
+— 
+29,192
+ 
+— 
+— 
+Net earnings (loss)
+— 
+— 
+— 
+103,385
+ 
+— 
+— 
+(
+1,843
+)
+101,542
+ 
+— 
+— 
+Foreign currency translation adjustments
+— 
+— 
+(
+431,314
+)
+— 
+— 
+— 
+(
+950
+)
+(
+432,264
+)
+— 
+— 
+Change in fair value of interest rate instruments, net of taxes of $
+2,199
+— 
+— 
+(
+1,426
+)
+— 
+— 
+— 
+— 
+(
+1,426
+)
+— 
+— 
+Pension adjustment, net of taxes $
+0
+— 
+— 
+(
+429
+)
+— 
+— 
+— 
+— 
+(
+429
+)
+— 
+— 
+Dividends
+— 
+— 
+— 
+(
+32,262
+)
+— 
+— 
+— 
+(
+32,262
+)
+— 
+32,262
+ 
+Balance - December 31, 2024
+171,115
+ 
+$
+4,957,079
+ 
+$
+(
+159,716
+)
+$
+730,117
+ 
+(
+16,171
+)
+$
+(
+359,257
+)
+$
+368,124
+ 
+$
+5,536,347
+ 
+215
+ 
+$
+2,428,867
+ 
+See Notes to Condensed Consolidated Financial Statements.
+10
+Note 1.    
+Basis of Presentation
+Basis of Presentation
+The condensed consolidated financial statements of Coherent Corp. (“Coherent”, the “Company”, “we”, “us” or “our”) for the three and six months ended December 31, 2025 and 2024 are unaudited. In the opinion of management, all adjustments considered necessary for a fair presentation for the periods presented have been included. All adjustments are of a normal recurring nature unless disclosed otherwise. Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”) have been condensed or omitted. These condensed consolidated financial statements should be read in conjunction with the audited financial statements and notes thereto included in the Company’s Annual Report on Form 10-K for the year ended June 30, 2025 filed with the Securities and Exchange Commission (the “SEC”) on August 15, 2025 and in Exhibit 99.1 to our Current Report on Form 8-K dated December 16, 2025 in which we retrospectively recast historical segment reporting to reflect our current organizational structure. The condensed consolidated results of operations for the three and six months ended December 31, 2025 are not necessarily indicative of the results to be expected for the full fiscal year. The Condensed Consolidated Balance Sheet information as of June 30, 2025 was derived from the Company’s audited consolidated financial statements.
+Certain prior year amounts have been reclassified for consistency with the current year presentation
+.
+
+11
+Coherent Corp. and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Unaudited)
+Note 2.    
+Recently Issued Financial Accounting Standards
+In December 2023, the FASB issued Accounting Standards Update (“ASU”) 2023-09, “Income Taxes (Topic 740): Improvements to Income Tax Disclosures” (“ASU 2023-09”). ASU 2023-09 includes amendments that further enhance income tax disclosures, primarily through standardization and disaggregation of rate reconciliation categories and income taxes paid by jurisdiction. ASU 2023-09 is effective for annual periods beginning after December 15, 2024, on either a prospective or retrospective basis. Early adoption is permitted. ASU 2023-09 is effective for the Company’s year beginning July 1, 2025 and the new disclosure requirements will be reflected in the Company’s Annual Report on Form 10-K for the year ending June 30, 2026.
+In November 2024, the FASB issued ASU 2024-03, “Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40), Disaggregation of Income Statement Expenses.” This ASU requires disclosure about specific types of expenses included in expense captions including purchases of inventory, employee compensation, depreciation, amortization, and depletion. This ASU is effective for our annual disclosures starting in fiscal year 2028 and interim periods starting in fiscal year 2029. Early adoption is permitted. A public entity should apply the amendments in this ASU on a prospective basis with the option to apply the standard retrospectively. The Company is currently evaluating this ASU to determine its impact on the Company’s disclosures.
+
+Note 3.    
+Revenue from Contracts with Customers
+We disaggregate revenue by market and geography. We believe that disaggregating revenue by market and geography provides the most relevant information regarding the nature, amount, timing, and uncertainty of revenues and cash flows. We do not present other levels of disaggregation, such as by type of products, customer, contracts, duration of contracts, timing of transfer of control and sales channels, as this information is not used by our CODM to manage the business.
+Effective July 1, 2025, the Company aligned its reporting of revenues into
+two
+ markets: (i) Datacenter & Communications, and (ii) Industrial. All prior period market and segment disclosure information has been reclassified to conform to the current reporting structure.
+The following tables summarize disaggregated revenue by market ($000):
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+Markets
+2025
+2024
+2025
+2024
+Datacenter & Communications
+$
+1,207,950
+ 
+$
+904,546
+ 
+$
+2,297,950
+ 
+$
+1,768,188
+ 
+Industrial
+477,679
+ 
+530,119
+ 
+969,057
+ 
+1,014,612
+ 
+Total Revenues
+$
+1,685,629
+ 
+$
+1,434,665
+ 
+$
+3,267,007
+ 
+$
+2,782,800
+ 
+Contract Liabilities
+Payments received from customers are based on invoices or billing schedules as established in contracts with customers. Contract liabilities generally relate to payments received in advance of performance under the contract. Contract liabilities are recognized as revenue when the performance obligations have been satisfied. During the six months ended December 31, 2025, we recognized revenue of $
+48
+ million related to customer payments that were included as contract liabilities in the Condensed Consolidated Balance Sheet as of June 30, 2025. We had $
+65
+ million of contract liabilities recorded in the Condensed Consolidated Balance Sheet as of December 31, 2025. As of December 31, 2025, $
+58
+ million of contract liabilities is included within Other accrued liabilities, and $
+7
+ million is included within Other liabilities on the Condensed Consolidated Balance Sheet.
+
+Note 4.    
+Inventories
+The components of inventories were as follows ($000):
+December 31,
+2025
+June 30,
+2025
+Raw materials
+$
+484,594
+ 
+$
+394,682
+ 
+Work in progress
+1,097,374
+ 
+824,360
+ 
+Finished goods
+265,939
+ 
+218,594
+ 
+Total inventories
+$
+1,847,907
+ 
+$
+1,437,636
+ 
+12
+Note 5.    
+Property, Plant and Equipment
+Property, plant and equipment consists of the following ($000):
+December 31,
+2025
+June 30,
+2025
+Land and improvements
+$
+59,527
+ 
+$
+59,543
+ 
+Buildings and improvements
+935,704
+ 
+881,578
+ 
+Machinery and equipment
+2,486,524
+ 
+2,188,509
+ 
+Construction in progress
+348,182
+ 
+363,129
+ 
+3,829,937
+ 
+3,492,759
+ 
+Less accumulated depreciation and amortization
+(
+1,712,980
+)
+(
+1,615,252
+)
+Property, plant, and equipment, net
+$
+2,116,957
+ 
+$
+1,877,507
+ 
+Note 6.    
+Goodwill and Other Intangible Assets
+Effective July 1, 2025, the Company realigned its organizational structure into
+two
+ reporting segments: (i) Datacenter & Communications, and (ii) Industrial. The information in the table below reflects the impact of this segment change whereby goodwill was reallocated to the respective reporting units on the first day of fiscal 2026 using a relative fair value approach. As a result of the change in reportable segments, the Company performed an impairment assessment immediately before and immediately after the segment change became effective, and
+no
+ impairment of goodwill was identified.
+Changes in the carrying amount of goodwill were as follows ($000):
+Six Months Ended December 31, 2025
+Networking
+Materials
+Lasers
+Datacenter & Communications
+Industrial
+Total
+Balance-beginning of period
+$
+1,038,439
+ 
+$
+241,467
+ 
+$
+3,191,178
+ 
+$
+— 
+$
+— 
+$
+4,471,084
+ 
+Segment change
+(
+1,038,439
+)
+(
+241,467
+)
+(
+3,191,178
+)
+1,150,570
+ 
+3,320,514
+ 
+—
+ 
+Balance-beginning of period
+— 
+— 
+— 
+1,150,570
+ 
+3,320,514
+ 
+4,471,084
+ 
+Other reclassifications
+(1)
+— 
+— 
+— 
+—
+ 
+28,436
+ 
+28,436
+ 
+Foreign currency translation
+— 
+— 
+— 
+(
+175
+)
+(
+36,559
+)
+(
+36,734
+)
+Balance-end of period
+$
+— 
+$
+— 
+$
+— 
+$
+1,150,395
+ 
+$
+3,312,391
+ 
+$
+4,462,786
+ 
+(1)
+Other reclassifications include adjustments to goodwill classified as held-for-sale. See Note 18. Assets Held-for-Sale and Sale of Business for further information.
+We test goodwill for impairment annually during the fourth quarter of our fiscal year, or more frequently when events or changes in circumstances indicate that fair value is below carrying value.
+The gross carrying amount and accumulated amortization of our intangible assets other than goodwill were as follows ($000):
+December 31, 2025
+June 30, 2025
+Gross
+Carrying
+Amount
+Accumulated
+Amortization
+Net
+Book
+Value
+Gross
+Carrying
+Amount
+Accumulated
+Amortization
+Net Book Value
+Technology
+$
+1,515,544
+ 
+$
+(
+550,892
+)
+$
+964,652
+ 
+$
+1,534,066
+ 
+$
+(
+513,181
+)
+$
+1,020,885
+ 
+Trade Names
+438,470
+ 
+(
+8,470
+)
+430,000
+ 
+438,471
+ 
+(
+8,471
+)
+430,000
+ 
+Customer Lists
+2,432,796
+ 
+(
+763,379
+)
+1,669,417
+ 
+2,440,834
+ 
+(
+686,972
+)
+1,753,862
+ 
+Backlog and Other
+84,804
+ 
+(
+84,804
+)
+—
+ 
+90,121
+ 
+(
+90,121
+)
+—
+ 
+Total
+$
+4,471,614
+ 
+$
+(
+1,407,545
+)
+$
+3,064,069
+ 
+$
+4,503,492
+ 
+$
+(
+1,298,745
+)
+$
+3,204,747
+ 
+13
+Table of Contents
+Note 7.    
+Debt
+The components of debt as of the dates indicated were as follows ($000):
+December 31,
+2025
+June 30,
+2025
+Term A Facility, interest at adjusted SOFR, as defined, plus
+1.50
+%
+$
+1,242,188
+ 
+$
+624,375
+ 
+Revolving Credit Facility, interest at SOFR, as defined, plus
+1.50
+%
+60,000
+ 
+—
+ 
+Debt issuance costs, Term A Facility and Revolving Credit Facility
+(
+11,806
+)
+(
+8,141
+)
+Term B Facility, interest at adjusted SOFR, as defined, plus
+1.75
+%
+1,080,000
+ 
+2,102,358
+ 
+Debt issuance costs, Term B Facility
+(
+24,352
+)
+(
+36,478
+)
+Borrowings on local lines of credit
+4,176
+ 
+2,091
+ 
+Facility construction loan in Germany
+16,123
+ 
+17,682
+ 
+5.000
+% Senior Notes
+990,000
+ 
+990,000
+ 
+Debt issuance costs and discount, Senior Notes
+(
+4,463
+)
+(
+4,966
+)
+Total debt
+3,351,866
+ 
+3,686,921
+ 
+Current portion of long-term debt
+(
+106,463
+)
+(
+188,306
+)
+Long-term debt, less current portion
+$
+3,245,403
+ 
+$
+3,498,615
+ 
+Senior Credit Facilities
+On July 1, 2022 (the “Closing Date”), Coherent entered into a credit agreement (the “Credit Agreement”) by and among the Company, as borrower (in such capacity, the “Borrower”), the lenders, and other parties thereto, and JP Morgan Chase Bank, N.A., as administrative agent and collateral agent, which provided for senior secured financing of $
+4.0
+ billion, consisting of a term loan A credit facility (the “Term A Facility”) maturing July 1, 2027, with an aggregate principal amount of $
+850
+ million, a term loan B credit facility (the “Term B Facility,” and together with the Term A Facility, the “Term Facilities”) maturing July 1, 2029, with an aggregate principal amount of $
+2,800
+ million, and a revolving credit facility (the “Revolving Credit Facility,” and together with the Term Facilities, the “Senior Credit Facilities”) maturing July 1, 2027, in an aggregate available amount of $
+350
+ million, including a letter of credit sub-facility of up to $
+50
+ million. On the Closing Date, the Borrower and certain of its direct and indirect subsidiaries provided a guaranty of all obligations of the Borrower and the other loan parties under the Credit Agreement and the other loan documents, secured cash management agreements and secured hedge agreements with the lenders and/or their affiliates (subject to certain exceptions). The Borrower and the other guarantors have also granted a security interest in substantially all of their assets to secure such obligations. On March 31, 2023, Coherent entered into Amendment No. 1 to the Credit Agreement, which replaced the adjusted LIBOR-based rate of interest therein with an adjusted SOFR-based rate of interest. On April 2, 2024, Coherent entered into Amendment No. 2 to the Credit Agreement, under which the principal amount of term B loans outstanding under the Credit Agreement (the “Existing Term B Loans”) were replaced with an equal amount of new term loans (the “New Term B Loans”) having substantially similar terms as the Existing Term B Loans, except with respect to the interest rate applicable to the New Term B Loans and certain other provisions. On January 2, 2025, Coherent entered into Amendment No. 3 to the Credit Agreement, under which the principal amount of New Term B Loans outstanding under the Credit Agreement were replaced with an equal amount of new term loans (the “New Term B-2 Loans”) having substantially similar terms as the New Term B Loans, except with respect to the interest rate applicable to the New Term B-2 Loans and certain other provisions. The maturity of the New Term B-2 Loans and Revolving Credit Facility was unchanged.
+14
+Table of Contents
+On September 26, 2025, the Company entered into Amendment No. 4 (“Amendment No. 4”) and Amendment No. 5 (“Amendment No. 5”) to the Credit Agreement.
+
+Under Amendment No. 4, (i) the existing revolving credit commitments were refinanced and replaced with new senior secured revolving credit commitments, (ii) $
+350
+ million of senior secured incremental revolving credit commitments were added, increasing the total revolving credit facility to $
+700
+ million (the “2025 Revolving Loans”), including a letter of credit sub-facility of up to $
+100
+ million, and (iii) a $
+1,250
+ million new tranche of senior secured incremental term A loans was added (the “2025 Incremental Term A Loans”), the proceeds of which were used, in part, to repay all outstanding principal, interest and fees of term A loans outstanding under the Credit Agreement (the “Existing Term A Loans”). As amended, the 2025 Revolving Loans and the 2025 Incremental Term A Loans each bear interest at an adjusted SOFR rate subject to a
+0.00
+% floor plus a range of
+1.25
+% to
+2.25
+% based on the Company’s total net leverage ratio.
+
+The interest rate applicable to the 2025 Revolving Loans and the 2025 Incremental Term A Loans is initially a SOFR-based rate plus
+1.50
+% as of December 31, 2025.
+
+The 2025 Revolving Loans and the 2025 Incremental Term A Loans mature on the earlier of September 26, 2030 or a “Springing Maturity Date,” which is a date that is
+91
+ days prior to the stated maturity of either (i) the Company’s unsecured senior notes or (ii) the term B loans then outstanding if, on such 91st day, the applicable senior notes or term B loans remain outstanding and liquidity is less than (x) $
+250
+ million plus (y) the aggregate outstanding principal amount of such notes or term B loans, as applicable. Under Amendment No. 5, the outstanding New Term B-2 Loans were replaced with an equal amount of new term loans (the “New Term B-3 Loans”) having substantially similar terms as the New Term B-2 Loans, except with respect to the interest rate applicable to the New Term B-3 Loans and certain other provisions. As further amended, the New Term B-3 Loans bear interest at a SOFR-based rate (subject to a
+0.50
+% floor) plus
+1.75
+% as of December 31, 2025. The New Term B-3 Loans will mature on July 1, 2029.
+Debt extinguishment costs related to the termination of the Existing Term Loans of $
+3
+ million were expensed in Other expense (income), net in the Condensed Consolidated Statement of Earnings during the six months ended December 31, 2025.
+In relation to the Term Facilities, the Company incurred interest expense, including amortization of debt issuance costs and the benefit of the interest rate cap and swap, of $
+33
+ million and $
+79
+ million in the three and six months ended December 31, 2025, respectively, and $
+52
+ million and $
+106
+ million in the three and six months ended December 31, 2024, respectively, which is included in Interest expense in the Condensed Consolidated Statements of Earnings (Loss).
+On July 1, 2023, our interest rate cap became effective, which together with our interest rate swap (through September 30, 2024), reduced interest expense by $
+5
+ million and $
+11
+ million during the three and six months ended December 31, 2025, respectively, and $
+7
+ million and $
+21
+ million in the three and six months ended December 31, 2024, respectively. The amortization of debt issuance costs included in interest expense was $
+2
+ million and $
+12
+ million in the three and six months ended December 31, 2025, respectively, and $
+4
+ million and $
+9
+ million in the three and six months ended December 31, 2024, respectively. Debt issuance costs are presented as a reduction to debt within the long-term debt caption in the Condensed Consolidated Balance Sheets.
+As of December 31, 2025, the Company was in compliance with all covenants under the Senior Credit Facilities.
+The Company had aggregate availability of $
+608
+ million under its Revolving Credit Facility as of December 31, 2025.
+Debt Assumed through Acquisition
+We assumed the remaining balances of
+three
+ term loans with the closing of the acquisition of Coherent, Inc.,
+two
+ of which were repaid prior to June 30, 2024. The aggregate principal amount outstanding under the remaining assumed term loan is $
+16
+ million as of December 31, 2025 and is for a Facility Construction Loan in Germany due in 2030 that bears interest at
+1.55
+% per annum. Payments are made quarterly.
+5.000
+% Senior Notes due 2029
+On December 10, 2021, the Company issued $
+990
+ million aggregate principal amount of Senior Notes pursuant to the indenture, dated as of December 10, 2021 (the “Indenture”), between the Company and U.S. Bank National Association, as trustee. The Senior Notes are guaranteed by each of the Company’s domestic subsidiaries that guarantee its obligations under the Senior Credit Facilities. Interest on the Senior Notes is payable on December 15 and June 15 of each year, commencing on June 15, 2022, at a rate of
+5.000
+% per annum. The Senior Notes will mature on December 15, 2029
+.
+15
+Table of Contents
+On or after December 15, 2024, the Company may redeem the Senior Notes, in whole at any time or in part from time to time, at the redemption prices set forth in the Indenture, plus accrued and unpaid interest, if any, to, but excluding, the applicable redemption date. In addition, at any time prior to December 15, 2024, the Company had the ability to (but did not) redeem the Senior Notes, at its option, in whole at any time or in part from time to time, at a redemption price equal to
+100
+% of the principal amount of the Senior Notes redeemed, plus a “make-whole” premium set forth in the Indenture, plus accrued and unpaid interest, if any, to, but excluding, the applicable redemption date. Notwithstanding the foregoing, at any time and from time to time prior to December 15, 2024, the Company had the ability to (but did not) redeem up to
+40
+% of the aggregate principal amount of the Senior Notes using the proceeds of certain equity offerings as set forth in the Indenture, at a redemption price equal to
+105.000
+% of the principal amount thereof, plus accrued and unpaid interest, if any, to, but excluding, the applicable redemption date.
+In relation to the Senior Notes, the Company incurred interest expense of $
+13
+ million and $
+25
+ million in each of the three and six months ended December 31, 2025 and December 31, 2024, which is included in Interest expense in the Condensed Consolidated Statements of Earnings (Loss).
+The Indenture contains customary covenants and events of default, including default relating to, among other things, payment default, failure to comply with covenants or agreements contained in the Indenture or the Senior Notes and certain provisions related to bankruptcy events. As of December 31, 2025, the Company was in compliance with all covenants under the Indenture.
+Note 8.    
+Income Taxes
+The Company’s fiscal year-to-date effective income tax rate was
+4
+% at December 31, 2025 compared to
+14
+% for the same period in the prior fiscal year. The variance from the U.S. statutory federal income tax rate of
+21
+% was primarily driven by differences between U.S. and foreign tax rates and discrete tax benefits related to German tax law changes, releases of uncertain tax positions, and stock-based compensation windfalls.
+U.S. GAAP prescribes the accounting for uncertainty in income taxes recognized in an enterprise’s financial statements which includes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return. As of December 31, 2025 and June 30, 2025, the Company’s gross unrecognized tax benefit, excluding interest and penalties, was $
+67
+ million and $
+124
+ million, respectively. The Company has classified the uncertain tax positions as non-current income tax liabilities, as the amounts are not expected to be paid within one year. Due to the U.S. valuation allowance, a large portion of the gross unrecognized tax benefit will not impact the tax rate if recognized. As of December 31, 2025, $
+6
+ million of the gross unrecognized tax benefit would impact the effective tax rate if recognized. The Company recognizes interest and penalties related to uncertain tax positions in the income tax provision in the Condensed Consolidated Statements of Earnings (Loss). The amount of accrued interest and penalties included in the gross unrecognized income tax benefit was $
+7
+ million and $
+9
+ million at December 31, 2025 and June 30, 2025, respectively.
+Fiscal years 2022 to 2025 remain open to examination by the Internal Revenue Service, fiscal years 2021 to 2025 remain open to examination by certain state jurisdictions, and fiscal years 2012 to 2025 remain open to examination by certain foreign taxing jurisdictions. The Company is currently under examination in New York City for the years ended June 30, 2023 through June 30, 2024 and for certain subsidiary companies in Vietnam for the years ended June 30, 2017 through September 30, 2021; Malaysia for the years ended June 30, 2021 through June 30, 2023; Singapore for the year ended June 30, 2023; United Kingdom for the years ended June 30, 2022 through June 30, 2023; Spain for the years ended June 30, 2023 through June 30, 2024; and Germany for the years ended September 30, 2012 through June 30, 2021. The Company believes its income tax reserves for these tax matters are adequate.
+Note 9.    
+Leases
+We determine if an arrangement is a lease at inception for arrangements with an initial term of more than 12 months, and classify it as either finance or operating.
+Finance leases are generally those that allow us to substantially utilize or pay for the entire asset over its estimated useful life. Finance lease assets are recorded in Property, plant and equipment, net, and finance lease liabilities within Other accrued liabilities and Other liabilities on our Condensed Consolidated Balance Sheets. Finance lease assets are amortized in operating expenses on a straight-line basis over the shorter of the estimated useful lives of the assets or the lease term, with the interest component for lease liabilities included in interest expense and recognized using the effective interest method over the lease term.
+Operating leases are leases that do not qualify as finance leases and are recorded in Other assets and Operating lease current liabilities and Operating lease liabilities on our Condensed Consolidated Balance Sheets. Operating lease assets are amortized on a straight-line basis in operating expenses over the lease term.
+16
+Our lease liabilities are recognized based on the present value of the remaining fixed lease payments, over the lease term, using a discount rate of similarly secured borrowings available to the Company. For the purpose of lease liability measurement, we consider only payments that are fixed and determinable at the time of commencement. Any variable payments that depend on an index or rate are expensed as incurred. We account for non-lease components, such as common area maintenance, as a component of the lease, and include it in the initial measurement of our leased assets and corresponding liabilities. Our lease terms and conditions may include options to extend or terminate. An option is recognized when it is reasonably certain that we will exercise that option.
+Our lease assets also include any lease payments made, and exclude any lease incentives received prior to commencement. Our lease assets are tested for impairment in the same manner as long-lived assets used in operations.
+The following table presents lease costs, which include leases for arrangements with an initial term of more than 12 months, remaining lease terms, and discount rates ($000):
+Three Months Ended December 31, 2025
+Six Months Ended
+December 31, 2025
+Finance lease cost
+Interest on lease liabilities
+$
+215
+ 
+$
+436
+ 
+Total finance lease cost
+215
+ 
+436
+ 
+Operating lease cost
+14,877
+ 
+29,255
+ 
+Sublease income
+(
+484
+)
+(
+812
+)
+Total lease cost
+$
+14,608
+ 
+$
+28,879
+ 
+Cash paid for amounts included in the measurement of lease liabilities
+Operating cash flows from finance leases
+$
+215
+ 
+$
+436
+ 
+Operating cash flows from operating leases
+14,762
+ 
+29,079
+ 
+Financing cash flows from finance leases
+469
+ 
+931
+ 
+Weighted-average remaining lease term (in years)
+Finance leases
+6.0
+Operating leases
+5.9
+Weighted-average discount rate
+Finance leases
+5.6
+ 
+%
+Operating leases
+6.9
+ 
+%
+Three Months Ended
+December 31, 2024
+Six Months Ended
+December 31, 2024
+Finance lease cost
+Amortization of right-of-use assets
+$
+417
+ 
+$
+833
+ 
+Interest on lease liabilities
+240
+ 
+486
+ 
+Total finance lease cost
+657
+ 
+1,319
+ 
+Operating lease cost
+14,095
+ 
+28,354
+ 
+Total lease cost
+$
+14,752
+ 
+$
+29,673
+ 
+Cash paid for amounts included in the measurement of lease liabilities
+Operating cash flows from finance leases
+$
+240
+ 
+$
+246
+ 
+Operating cash flows from operating leases
+13,918
+ 
+27,572
+ 
+Financing cash flows from finance leases
+425
+ 
+462
+ 
+Note 10.    
+Equity and Redeemable Preferred Stock
+As of December 31, 2025, the Company’s amended and restated articles of incorporation authorize our board of directors, without the approval of our shareholders, to issue
+5
+ million shares of our preferred stock. As of December 31, 2025,
+2.3
+ million shares of mandatory preferred convertible shares had been previously issued and converted to Common Stock. In the quarter
+17
+ended December 31, 2025,
+75,000
+ shares and
+140,000
+ shares of previously issued Series B-1 (“Series B-1 Preferred Stock”) and B-2 convertible preferred stock (“Series B-2 Preferred Stock” and, together with the Series B-1 Preferred Stock, the “Series B Preferred Stock”), no par value per share, respectively, were converted to
+30.1
+ million shares of Common Stock. The majority of the Series B-1 and B-2 convertible preferred stock was converted by the holder and the remainder was converted by the Company.
+No
+ Series B convertible preferred stock is outstanding at December 31, 2025. As a result of the conversion, $
+2.5
+ billion was reclassified from Mezzanine Equity to Common Stock.
+Series B Convertible Preferred Stock - Prior to Conversion in the quarter ended December 31, 2025
+In March 2021, the Company issued
+75,000
+ shares of Series B-1 Preferred Stock for $
+10,000
+ per share, resulting in an aggregate purchase price of $
+750
+ million. On July 1, 2022, the Company issued
+140,000
+ shares of Series B-2 Preferred Stock for $
+10,000
+ per share and an aggregate purchase price of $
+1.4
+ billion.
+The shares of Series B Preferred Stock were convertible into shares of Coherent Common Stock as follows:
+•
+at the election of the holder, each share of Series B Preferred Stock could have been converted into shares of Coherent Common Stock at a conversion price of $
+85
+ per share (as it may be adjusted from time to time, the “Conversion Price”); and
+•
+at the election of the Company at the then-applicable Conversion Price if the volume-weighted average price of Coherent Common Stock exceeded
+150
+% of the then-applicable Conversion Price for
+20
+ trading days out of any
+30
+ consecutive trading days.
+The issued shares of Series B Preferred Stock had voting rights, voting as one class with the Coherent Common Stock, on an as-converted basis, subject to limited exceptions.
+The Series B Preferred Stock was initially measured at fair value less issuance costs, accreted to its redemption value over a
+10-year
+ period (using the effective interest method) with such accretion accounted for as deemed dividends and reductions to Net Earnings (Loss) Available to Common Shareholders.
+Preferred stock dividends are presented as a reduction to Retained earnings on the Condensed Consolidated Balance Sheets. The Company entered into an agreement with the holder of the Series B Preferred Stock to waive dividends effective November 20, 2025. Due to the conversion of the Series B Preferred Stock to Common Stock in the quarter ended December 31, 2025,
+no
+ dividends were declared or paid for the quarter ended December 31, 2025.
+The following table presents dividends per share and dividends recognized:
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Dividends per share
+$
+8
+ 
+$
+150
+ 
+$
+163
+ 
+$
+298
+ 
+Dividends ($000)
+—
+ 
+30,727
+ 
+31,751
+ 
+61,075
+ 
+Deemed dividends ($000)
+1,623
+ 
+1,535
+ 
+3,351
+ 
+3,020
+ 
+Note 11.    
+Noncontrolling Interests
+On December 4, 2023, Silicon Carbide LLC (“Silicon Carbide”), one of the Company’s subsidiaries, completed (i) the sale of
+16,666,667
+ Class A Common Units to Denso Corporation (“Denso”) for $
+500,000,000
+ pursuant to an Investment Agreement, dated as of October 10, 2023, by and between Silicon Carbide and Denso and (ii) the sale of
+16,666,667
+ Class A Common
+18
+Units to Mitsubishi Electric Corporation (“MELCO”) for $
+500,000,000
+ pursuant to an Investment Agreement, dated as of October 10, 2023, by and between Silicon Carbide and MELCO (collectively, the “Equity Investments”).
+As a result of the Equity Investments, the Company’s ownership interest in the Class A Common units of Silicon Carbide LLC was reduced to approximately
+75
+%. Denso and MELCO each own approximately
+12.5
+% of the Class A Common Units of Silicon Carbide.
+The Equity Investments in Silicon Carbide enables Coherent to increase its available free cash flow to provide greater financial and operational flexibility to execute its capital allocation priorities, as the aggregate $
+1
+ billion investment, net of transaction costs, is being and will continue to be used to fund future capital expansion of Silicon Carbide.
+The following table presents the activity in noncontrolling interests in Silicon Carbide ($000):
+Six Months Ended December 31,
+2025
+2024
+Balance-beginning of period
+$
+353,508
+ 
+$
+371,392
+ 
+Share of foreign currency translation adjustments
+(
+464
+)
+(
+399
+)
+Net loss
+(
+4,056
+)
+(
+2,869
+)
+Balance-end of period
+$
+348,988
+ 
+$
+368,124
+ 
+Note 12.    
+Earnings Per Share
+Basic earnings per common share is computed by dividing net earnings available to the common shareholders by the weighted-average number of shares of common stock outstanding during the period.
+Diluted earnings per common share is computed by dividing the diluted earnings available to the common shareholders by the weighted-average number of shares of common stock and potentially dilutive shares of common stock outstanding during the period. Potentially dilutive shares whose effect would have been anti-dilutive are excluded from the computation of diluted earnings per common share.
+The dilutive effect of equity awards is calculated based on the average stock price for each fiscal period, using the treasury stock method. For the three and six months ended December 31, 2025 and December 31, 2024, diluted shares outstanding include the dilutive effect of the potential shares of Coherent Common Stock issuable from performance and restricted shares.
+For the three and six months ended December 31, 2025, diluted earnings per share included the potentially dilutive effect of the shares of Coherent Common Stock issuable upon conversion of the Series B Convertible Preferred Stock (under the If-Converted method) until their conversion dates, as their effects were dilutive. For the three and six months ended December 31, 2024, diluted income per share excluded the potentially dilutive effect of the shares of Coherent Common Stock issuable upon conversion of the Series B Convertible Preferred Stock (under the If-Converted method), as their effects were anti-dilutive.
+19
+Table of Contents
+The following is a reconciliation of the numerators and denominators of the basic and diluted earnings per share computations (000, except per share data):
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Numerator
+Net earnings attributable to Coherent Corp.
+$
+146,717
+ 
+$
+103,385
+ 
+$
+373,066
+ 
+$
+129,272
+ 
+Deduct Series B dividends and deemed dividends
+(
+1,623
+)
+(
+32,262
+)
+(
+35,102
+)
+(
+64,095
+)
+Basic earnings available to common shareholders
+$
+145,094
+ 
+$
+71,123
+ 
+$
+337,964
+ 
+$
+65,177
+ 
+Effect of dilutive securities:
+  Add back Series B preferred stock dividends
+$
+—
+ 
+$
+—
+ 
+$
+31,751
+ 
+$
+—
+ 
+  Add back Series B deemed dividends
+1,623
+ 
+—
+ 
+3,351
+ 
+—
+ 
+Diluted earnings available to common shareholders
+$
+146,717
+ 
+$
+71,123
+ 
+$
+373,066
+ 
+$
+65,177
+ 
+Denominator
+Weighted average shares
+167,512
+ 
+154,767
+ 
+161,834
+ 
+154,197
+ 
+Effect of dilutive securities:
+Common stock equivalents
+5,452
+ 
+5,222
+ 
+5,043
+ 
+5,078
+ 
+Series B Redeemable Preferred Stock
+19,793
+ 
+—
+ 
+24,838
+ 
+—
+ 
+Diluted weighted average common shares
+192,757
+ 
+159,989
+ 
+191,715
+ 
+159,275
+ 
+Basic earnings per common share
+$
+0.87
+ 
+$
+0.46
+ 
+$
+2.09
+ 
+$
+0.42
+ 
+Diluted earnings per common share
+$
+0.76
+ 
+$
+0.44
+ 
+$
+1.95
+ 
+$
+0.41
+ 
+The following table presents potential shares of common stock excluded from the calculation of diluted net earnings per share, as their effect would have been anti-dilutive (000):
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Common stock equivalents
+—
+ 
+—
+ 
+—
+ 
+5
+ 
+Series B Convertible Preferred Stock
+—
+ 
+28,920
+ 
+—
+ 
+28,741
+ 
+Total anti-dilutive shares
+—
+ 
+28,920
+ 
+—
+ 
+28,746
+ 
+Note 13.    
+Segment Reporting
+The Company’s businesses are organized and managed into segments based on similarities in products and services. Segment determination reflects how the chief operating decision-maker (“CODM”) evaluates the Company’s operations for decision-making operating decisions and performance assessment. Effective July 1, 2025, the Company realigned its organizational structure and now identifies multiple operating segments, which are aggregated into
+two
+ reportable segments: (i) Datacenter & Communications, and (ii) Industrial. In accordance with ASC 280 “Segment Reporting,” the aggregation of the Company’s segments is based on similarities in economic characteristics, product and service types, production processes, type or class of customers, and distribution methods. Previously, financial results had been reported in the following
+three
+ segments: (i) Networking, (ii) Materials, and (iii) Lasers. Comparative prior period segment information has been recast to conform to the new segments.
+The Datacenter & Communications segment has locations in the United States, Australia, China, Germany, Malaysia, South Korea, Sweden, Switzerland, Thailand, the Philippines and Vietnam. This segment sells primarily into the datacenter and communications market, including transceivers, systems, subsystems, modules, components, optics, and semiconductor devices.
+The Industrial segment has locations in the United States, China, Finland, Germany, Italy, Japan, Malaysia, Singapore, South Korea, Spain, Sweden, Taiwan, the Philippines, the United Kingdom and Vietnam. This segment sells primarily into the
+20
+Table of Contents
+industrial market, which includes lasers, systems, optics, components and materials for semiconductor and display capital equipment, precision manufacturing, life sciences, consumer electronics, scientific research and automotive and market applications.
+Our CODM receives and reviews financial information based on the operating segments that are aggregated into the
+two
+ reportable segments. Our CODM evaluates each segment’s performance and allocates resources based on segment revenue and segment profit, as our CODM believes segment profit is a more comprehensive profitability measure for each operating segment. Our CODM is regularly provided with segment revenue and segment profit information to assess performance of each segment. Segment profit includes operating expenses directly managed by operating segments, including research and development, direct sales, marketing and administrative expenses. Segment profit does not include share-based compensation, acquisition or integration related costs, amortization and impairment of acquisition-related intangible assets, restructuring charges, impairment charges on assets held-for-sale, gain on sale of businesses and certain other charges or gains. Additionally, we do not allocate Corporate strategic research and development, strategic marketing and sales expenses and shared general and administrative expenses, as these expenses are not directly attributable to our operating segments. The segments are managed separately due to the unique products and markets that each serves. The Company derives its reportable segment results based on how financial information is reported and aggregated within its management reporting system. The CODM uses segment profit as a key metric in the forecasting process and in making decisions related to capital allocation and resource deployment across segments. The accounting policies are consistent across each segment. Assets by segment are not a measure used to assess the performance of the company by the CODM and thus are not reported in our disclosures.
+The following table summarizes selected financial information of our operations by segment and reconciles segment profit to consolidated earnings (loss) before income taxes for the periods presented ($000):
+21
+Table of Contents
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Segment revenue
+Datacenter & Communications
+$
+1,207,950
+ 
+$
+904,546
+ 
+$
+2,297,950
+ 
+$
+1,768,188
+ 
+Industrial
+477,679
+ 
+530,119
+ 
+969,057
+ 
+1,014,612
+ 
+Total segment revenue
+1,685,629
+ 
+1,434,665
+ 
+3,267,007
+ 
+2,782,800
+ 
+Intersegment revenue
+Datacenter & Communications
+10,663
+9,177
+ 
+19,841
+ 
+19,768
+ 
+Industrial
+35,399
+ 
+23,080
+ 
+56,241
+ 
+36,468
+ 
+Elimination of intersegment revenue
+(
+46,062
+)
+(
+32,257
+)
+(
+76,082
+)
+(
+56,236
+)
+Total intersegment revenue
+— 
+— 
+— 
+— 
+Segment cost of goods sold and operating expenses
+ (1)
+Datacenter & Communications
+912,248
+ 
+701,245
+ 
+1,742,131
+ 
+1,356,138
+ 
+Industrial
+401,310
+ 
+436,850
+ 
+796,901
+ 
+865,793
+ 
+Total segment cost of goods sold and operating expenses
+1,313,558
+ 
+1,138,095
+ 
+2,539,032
+ 
+2,221,931
+ 
+Segment profit
+Datacenter & Communications
+306,366
+ 
+212,478
+ 
+575,660
+ 
+431,818
+ 
+Industrial
+111,768
+ 
+116,349
+ 
+228,397
+ 
+185,287
+ 
+Total segment profit
+418,134
+ 
+328,827
+ 
+804,057
+ 
+617,105
+ 
+Unallocated Corporate expenses
+Corporate and centralized function costs
+(2)
+(
+82,890
+)
+(
+63,880
+)
+(
+160,233
+)
+(
+134,509
+)
+Share-based compensation
+(
+44,646
+)
+(
+41,012
+)
+(
+89,329
+)
+(
+76,490
+)
+Restructuring costs
+ (3)
+(
+3,609
+)
+(
+8,021
+)
+(
+22,885
+)
+(
+32,385
+)
+Gain on sale of business
+—
+ 
+—
+ 
+115,211
+ 
+—
+ 
+Impairment of assets held-for-sale
+(
+11,012
+)
+—
+ 
+(
+20,112
+)
+—
+ 
+Integration, site consolidation and other costs
+ (4)
+(
+21,466
+)
+(
+7,332
+)
+(
+43,678
+)
+(
+18,079
+)
+Amortization of intangibles
+(
+70,508
+)
+(
+71,716
+)
+(
+139,954
+)
+(
+143,578
+)
+Interest expense
+(
+45,937
+)
+(
+64,278
+)
+(
+104,658
+)
+(
+130,922
+)
+Other (income) expense, net
+29,922
+ 
+55,816
+ 
+46,455
+ 
+66,565
+ 
+Earnings before income taxes
+$
+167,988
+ 
+$
+128,404
+ 
+$
+384,874
+ 
+$
+147,707
+ 
+(1)
+Segment cost of goods sold and operating expenses primarily include manufacturing costs, labor and research and development costs, and exclude expenses and credits that are included in the Unallocated corporate expenses category.
+(2)
+We do not allocate corporate and centralized function costs that are not directly attributable to our operating segments.
+(3)
+See Note 17. Restructuring Plans for further information.
+(4)
+Integration, site consolidation and other costs are $
+21
+ million and $
+44
+ million in the three and six months ended December 31, 2025, primarily consisting of consulting and legal costs related to initiatives to integrate recent acquisitions into common technology systems, to divest businesses and simplify legal entity structure. Integration and site consolidation costs in the three and six months ended December 31, 2024 primarily include $
+4
+ million and $
+15
+ million, respectively, in consulting costs related to projects to integrate recent acquisitions into common technology systems and simplify legal entity structure, and $
+3
+ million and $
+2
+ million, respectively, of employee severance and retention costs related to sites being shut down as part of our 2023 Restructuring Plan or Synergy and Site Consolidation Plan.
+
+Geographic information for revenues by location of the customer’s headquarters, were as follows ($000):
+22
+Table of Contents
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+North America
+$
+1,076,078
+ 
+$
+860,126
+ 
+$
+2,078,242
+ 
+$
+1,666,883
+ 
+Europe
+192,596
+ 
+167,300
+ 
+384,295
+ 
+336,212
+ 
+China
+187,985
+ 
+184,036
+ 
+365,654
+ 
+353,565
+ 
+Japan
+102,007
+ 
+101,811
+ 
+218,331
+ 
+172,467
+ 
+Rest of World
+126,963
+ 
+121,392
+ 
+220,485
+ 
+253,673
+ 
+Total
+$
+1,685,629
+ 
+$
+1,434,665
+ 
+$
+3,267,007
+ 
+$
+2,782,800
+ 
+Note 14.    
+Share-Based Compensation
+Stock Award Plans
+The Company grants equity awards pursuant to the Coherent Corp. Omnibus Incentive Plan (as amended and restated, the “Plan”). The Plan was originally approved by the Company's shareholders at the Annual Meeting in November 2018, and was subsequently amended, restated and approved by the Company’s shareholders at the Annual Meetings held in November 2020, November 2023 and November 2024. The Plan provides for the grant of stock options, stock appreciation rights, restricted shares, restricted share units, deferred shares, performance shares and performance units to employees (including officers), consultants and directors of the Company.
+The Company has an Employee Stock Purchase Plan whereby eligible employees may authorize payroll deductions (subject to certain limitations) of up to
+15
+% (or such lesser amount as may be determined by the plan administrator) of their wages and base salary to purchase shares at an amount which will not be less than
+85
+% of the lower of (i) the fair market value of the common stock on the first trading day of the offering period and (ii) the fair market value of the common stock on the last trading day of the approximately
+six-month
+ offering period.
+Share-based compensation expense for the periods indicated was as follows ($000):
+Three Months Ended
+December 31,
+Six Months Ended
+December 31,
+2025
+2024
+2025
+2024
+Stock Options and Cash-Based Stock Appreciation Rights
+$
+1,878
+ 
+$
+166
+ 
+$
+2,427
+ 
+$
+583
+ 
+Restricted Share Awards and Cash-Based Restricted Share Unit Awards
+23,295
+ 
+23,881
+ 
+47,401
+ 
+47,650
+ 
+Performance Share Awards and Cash-Based Performance Share Unit Awards
+16,575
+ 
+14,757
+ 
+33,790
+ 
+23,749
+ 
+Employee Stock Purchase Plan
+2,898
+ 
+2,208
+ 
+5,711
+ 
+4,508
+ 
+$
+44,646
+ 
+$
+41,012
+ 
+$
+89,329
+ 
+$
+76,490
+ 
+Note 15.    
+Fair Value of Financial Instruments
+The FASB defines fair value as the exchange price that would be received for an asset or paid to transfer a liability (an exit price) in the principal or most advantageous markets for the asset and liability in an orderly transaction between market participants at the measurement date. We estimate fair value of our financial instruments utilizing an established three-level hierarchy in accordance with U.S. GAAP. The hierarchy is based upon the transparency of inputs to the valuation of an asset or liability as of the measurement date as follows:
+•
+Level 1 – Valuation is based upon unadjusted quoted prices for identical assets or liabilities in active markets.
+•
+Level 2 – Valuation is based upon quoted prices for similar assets and liabilities in active markets, or other inputs that are observable for the asset or liability, either directly or indirectly, for substantially the full term of the financial instruments.
+•
+Level 3 – Valuation is based upon other unobservable inputs that are significant to the fair value measurements.
+The classification of fair value measurements within the hierarchy is based upon the lowest level of input that is significant to the measurement.
+23
+Table of Contents
+On February 23, 2022, we entered into an interest rate cap (the “Cap”) with an effective date of July 1, 2023. On March 20, 2023, we amended the Cap to replace the current reference rate (LIBOR) with SOFR, to be consistent with Amendment No. 1 to the Credit Agreement. See Note 7. Debt for further information. The Cap manages our exposure to interest rate movements on a portion of our floating rate debt. The Cap provides us with the right to receive payment if one-month SOFR exceeds
+1.92
+%. Beginning in July 2023, we began to pay a fixed monthly premium based on an annual rate of
+0.853
+% for the Cap. On September 1, 2024, we increased the notional amount from $
+500
+ million to $
+1,500
+ million. The fair value of the interest rate cap of $
+7
+ million and $
+17
+ million is recognized in the Condensed Consolidated Balance Sheet within
+Prepaid and other current assets and Other assets
+ as of December 31, 2025 and June 30, 2025, respectively.
+The Cap, as amended, is designed to mirror the terms of the Credit Agreement as amended on March 31, 2023. We designated the Cap as a cash flow hedge of the variability of the SOFR based interest payments on the Term Facilities. Every period over the life of the hedging relationship, the entire change in fair value related to the hedging instrument will first be recorded within Accumulated other comprehensive income (loss) (“AOCI”). Amounts accumulated in AOCI are reclassified into interest expense in the same period or periods in which interest expense is recognized on the Credit Agreement, or its direct replacement. The fair value of the Cap is determined using widely accepted valuation techniques and reflects the contractual terms of the Cap including the period to maturity, and while there are no quoted prices in active markets, it uses observable market-based inputs, including interest rate curves. The fair value analysis also considers a credit valuation adjustment to reflect nonperformance risk of both the Company and the single counterparty. The Cap is classified as a Level 2 item within the fair value hierarchy.
+We estimated the fair value of the Senior Notes, Term A Facility and Term B Facility (“Debt Facilities”) based on quoted market prices as of the last trading day prior to December 31, 2025; however, the Debt Facilities have only a limited trading volume and as such this fair value estimate is not necessarily the value at which the Debt Facilities could be retired or transferred. We concluded that this fair value measurement should be categorized within Level 2. The carrying values of the Debt Facilities are net of unamortized discount and issuance costs. See Note 7. Debt for details on the Company’s Debt Facilities.
+The fair value and carrying value of the Debt Facilities were as follows ($000):
+December 31, 2025
+June 30, 2025
+Fair Value
+Carrying Value
+Fair Value
+Carrying Value
+Senior Notes
+$
+987,763
+ 
+$
+985,539
+ 
+$
+973,190
+ 
+$
+985,034
+ 
+Term A Facility
+1,237,530
+ 
+1,235,212
+ 
+632,960
+ 
+616,234
+ 
+Term B Facility
+1,081,350
+ 
+1,055,648
+ 
+2,108,938
+ 
+2,065,880
+ 
+Our borrowings, including our lease obligations and the Debt Facilities, are considered Level 2 among the fair value hierarchy.
+Cash and cash equivalents are considered Level 1 among the fair value hierarchy and approximate fair value because of the short-term maturity of those investments.
+At December 31, 2025, total restricted cash was $
+665
+ million, which includes $
+661
+ million held by Silicon Carbide LLC and restricted for use only by that subsidiary, and $
+4
+ million of cash restricted for other purposes in other entities. At June 30, 2025, total restricted cash was $
+724
+ million, which includes $
+720
+ million of cash held by Silicon Carbide LLC and restricted for use only by that subsidiary, and $
+4
+ million of cash restricted for other purposes in other entities. The restricted cash is invested in money market accounts and time deposits, with maturities of one year or less, that are held-to-maturity, are considered Level 1 among the fair value hierarchy and approximate fair value. Restricted cash that is expected to be spent and released from restriction after 12 months is classified as non-current on the Condensed Consolidated Balance Sheets.
+We, from time to time, purchase foreign currency forward exchange contracts that permit us to sell specified amounts of these foreign currencies for pre-established U.S. dollar amounts at specified dates that represent assets or liabilities on the balance sheets of certain subsidiaries. These contracts are entered into for the purpose of limiting translational exposure to changes in currency exchange rates and which otherwise would expose our earnings, on the revaluation of our aggregate net assets or liabilities in respective currencies, to foreign currency risk. At December 31, 2025, we had no foreign currency forward contracts. The fair values of these instruments, when outstanding, are measured using valuations based upon quoted prices for similar assets and liabilities in active markets (Level 2) and are valued by reference to similar financial instruments, adjusted for credit risk and restrictions and other terms specific to the contracts. Realized gains related to these contracts for the three and six months ended December 31, 2025 were
+zero
+ and realized gains related to these contracts for the three and six months ended December 31, 2024 were
+zero
+ and $
+16
+ million, respectively, and were included in Other income, net in the Condensed Consolidated Statements of Earnings (Loss).
+24
+Table of Contents
+Note 16.    
+Accumulated Other Comprehensive Income (Loss)
+The changes in AOCI by component, net of tax, for the six months ended December 31, 2025 were as follows ($000):
+Foreign
+Currency
+Translation
+Adjustment
+Interest Rate Instruments
+Defined
+Benefit
+Pension Plan
+Total
+Accumulated Other
+Comprehensive
+Income (Loss)
+AOCI - June 30, 2025
+$
+381,554
+ 
+$
+4,018
+ 
+$
+(
+13,535
+)
+$
+372,037
+ 
+Other comprehensive income (loss) before reclassifications
+(
+7,959
+)
+2,854
+ 
+(
+855
+)
+(
+5,960
+)
+Amounts reclassified from AOCI
+—
+ 
+(
+10,729
+)
+—
+ 
+(
+10,729
+)
+Net current-period other comprehensive loss
+(
+7,959
+)
+(
+7,875
+)
+(
+855
+)
+(
+16,689
+)
+AOCI - December 31, 2025
+$
+373,595
+ 
+$
+(
+3,857
+)
+$
+(
+14,390
+)
+$
+355,348
+ 
+Note 17.    
+Restructuring Plans
+2023 Restructuring Plan
+On May 23, 2023, the Board of Directors approved the 2023 Plan which includes site consolidations, facilities moves and closures, as well as the relocation and requalification of certain manufacturing facilities. These restructuring actions were intended to realign our cost structure as part of a transformation to a simpler, more streamlined, resilient and sustainable business model. We evaluate restructuring charges in accordance with ASC 420, Exit or Disposal Cost Obligations (ASC 420), and ASC 712, Compensation-Nonretirement Post-Employment Benefits
+ (ASC 712).
+In the three and six months ended December 31, 2025, these activities resulted in $
+12
+ million and $
+5
+ million, respectively, of recoveries primarily for adjustments to employee termination costs previously accrued in both periods. In the six months ended December 31, 2025 the recoveries were partially offset by site move costs. In the three months ended December 31, 2024, these activities resulted in $
+8
+ million of charges primarily for site move costs, employee termination costs and accelerated depreciation. In the six months ended December 31, 2024, these activities resulted in $
+32
+ million of charges primarily for impairment losses associated with the sale of our Newton Aycliffe business, acceleration of depreciation, employee termination and site move costs.
+Activity and accrual balances for the 2023 Plan were as follows for the first two quarters of fiscal 2026 and 2025 ($000):
+Severance
+Asset Write-Offs
+Other
+Total Accrual
+Balance - June 30, 2025
+$
+44,230
+ 
+$
+—
+ 
+$
+—
+ 
+$
+44,230
+ 
+Restructuring charges
+1,237
+ 
+—
+ 
+5,268
+ 
+6,505
+ 
+Payments
+(
+2,292
+)
+—
+ 
+—
+ 
+(
+2,292
+)
+Asset write-offs and other
+1,060
+ 
+—
+ 
+(
+5,268
+)
+(
+4,208
+)
+Balance - September 30, 2025
+44,235
+ 
+—
+ 
+—
+ 
+44,235
+ 
+Restructuring charges (recoveries)
+(
+13,339
+)
+—
+ 
+1,707
+ 
+(
+11,632
+)
+Payments
+(
+2,054
+)
+—
+ 
+—
+ 
+(
+2,054
+)
+Asset write-offs and other
+(
+943
+)
+—
+ 
+(
+1,707
+)
+(
+2,650
+)
+Balance - December 31, 2025
+$
+27,899
+ 
+$
+—
+ 
+$
+—
+ 
+$
+27,899
+ 
+25
+Table of Contents
+Severance
+Asset Write-Offs
+Other
+Total Accrual
+Balance - June 30, 2024
+$
+51,061
+ 
+$
+—
+ 
+$
+—
+ 
+$
+51,061
+ 
+Restructuring charges (recoveries)
+(
+455
+)
+15,970
+ 
+8,850
+ 
+24,365
+ 
+Payments
+(
+6,796
+)
+—
+ 
+—
+ 
+(
+6,796
+)
+Asset write-offs and other
+—
+ 
+(
+15,970
+)
+(
+8,850
+)
+(
+24,820
+)
+Balance - September 30, 2024
+43,810
+ 
+—
+ 
+—
+ 
+43,810
+ 
+Restructuring charges
+2,882
+ 
+—
+ 
+5,139
+ 
+8,021
+ 
+Payments
+(
+752
+)
+—
+ 
+—
+ 
+(
+752
+)
+Asset write-offs and other
+(
+1,609
+)
+—
+ 
+(
+5,139
+)
+(
+6,748
+)
+Balance - December 31, 2024
+$
+44,331
+ 
+$
+—
+ 
+$
+—
+ 
+$
+44,331
+ 
+At December 31, 2025, $
+4
+ million and $
+24
+ million of accrued severance related costs were included in other accrued liabilities and other liabilities on our Condensed Consolidated Balance Sheet, respectively, and are expected to result in cash expenditures through fiscal 2028. The current and prior year severance related net charges are primarily comprised of accruals and adjustments for severance and pay for employees being terminated due to the consolidation of certain manufacturing sites, with severance recorded in accordance with ASC 712.
+For the three and six months ended December 31, 2025 and December 31, 2024, restructuring costs were primarily incurred in the Datacenter & Communications segment. Restructuring charges (recoveries) are recorded in Restructuring charges in our Condensed Consolidated Statements of Earnings (Loss).
+2025 Restructuring Plan
+Commencing in the quarter ended March 31, 2025, and as part of the ongoing strategic review of the Company’s business, the Company’s management approved the 2025 Plan. In connection therewith, the Company incurs charges for related severance and benefits, lease and contract termination costs, asset write-offs, facilities move and other restructuring costs. We evaluate restructuring charges in accordance with ASC 420 and ASC 712
+.
+In the three and six months ended December 31, 2025, these activities resulted in
+
+$
+15
+ million and $
+28
+ million, respectively, of charges primarily related to employee termination and site closure costs. We expect the restructuring actions to be substantially completed by the end of fiscal 2026. However, the actual timing and costs associated with these restructuring actions may differ from our current expectations and estimates and such differences may be material.
+Activity and accrual balances for the 2025 Plan were as follows for the first two quarters of fiscal 2026 ($000):
+Severance
+Asset Write-Offs
+Other
+Total Accrual
+Balance - June 30, 2025
+$
+16,722
+ 
+$
+10,494
+ 
+$
+19,897
+ 
+$
+47,113
+ 
+Restructuring charges
+
+10,871
+ 
+423
+ 
+1,477
+ 
+12,771
+ 
+Payments
+(
+5,356
+)
+—
+ 
+—
+ 
+(
+5,356
+)
+Asset write-offs and other
+(
+433
+)
+(
+1,143
+)
+(
+6,575
+)
+(
+8,151
+)
+Balance - September 30, 2025
+21,804
+ 
+9,774
+ 
+14,799
+ 
+46,377
+ 
+Restructuring charges
+10,667
+ 
+1,973
+ 
+2,601
+ 
+15,241
+ 
+Payments
+(
+4,141
+)
+—
+ 
+—
+ 
+(
+4,141
+)
+Asset write-offs and other
+225
+ 
+(
+1,973
+)
+(
+4,926
+)
+(
+6,674
+)
+Balance - December 31, 2025
+$
+28,555
+ 
+$
+9,774
+ 
+$
+12,474
+ 
+$
+50,803
+ 
+At December 31, 2025, $
+29
+ million of accrued severance related costs were included in other accrued liabilities and are expected to result in cash expenditures primarily through fiscal 2026. The current year severance related net charges are primarily comprised of accruals for severance and pay for employees being terminated due to the consolidation of certain manufacturing and distribution sites as well as workforce reductions, with severance recorded in accordance with ASC 712. At December 31, 2025, total liabilities for asset write-offs and other contract costs of $
+11
+ million and $
+11
+ million were included in other accrued liabilities and other liabilities, respectively, on our Condensed Consolidated Balance Sheet.
+The restructuring costs were incurred primarily in the Industrial segment for the three months ended December 31, 2025. In the six months ended December 31, 2025, restructuring charges were incurred primarily in the Industrial and Corporate segments.
+26
+Table of Contents
+Restructuring charges and recoveries are recorded in Restructuring charges in our Condensed Consolidated Statements of Earnings (Loss).
+Note 18.        
+Assets Held-for-Sale and Sale of Business
+In the fourth quarter of fiscal 2025, management entered into non-binding agreements to sell several entities. As a result of classifying these entities as held-for-sale, the Company recorded non-cash impairment charges of $
+85
+ million within the Industrial segment. These charges were recognized in Impairment of assets held-for-sale in our Condensed Consolidated Statements of Earnings (Loss) in the fourth quarter of fiscal 2025 to reduce the carrying values of the entities to their estimated fair value.
+On September 2, 2025, the Company completed the sale of its aerospace and defense business, which was part of the Industrial segment, for approximately $
+400
+ million, subject to customary post-closing adjustments. In connection with the sale, the Company recorded a gain of $
+115
+ million and incurred approximately $
+9
+ million in transaction related costs which were recorded in Gain on sale of business and SG&A expenses, respectively, in the Condensed Consolidated Statements of Earnings (Loss) for the first quarter of fiscal 2026.
+In the three and six months ended December 31, 2025, the Company recorded additional non-cash impairment charges of $
+11
+ million and $
+20
+ million, respectively, within the Industrial segment related to entities that continued to be classified as held-for-sale at December 31, 2025. The charges were recorded in Impairment of assets held-for-sale in the Condensed Consolidated Statements of Earnings (Loss) for the first and second quarters of fiscal 2026 to reduce the carrying value of entities classified as held-for-sale to their estimated fair value. On January 30, 2026, the Company completed the sale of its product division based in Munich, Germany that makes tools for materials processing.
+Current assets and current liabilities held for sale are recorded in Prepaid and other current assets and Other accrued liabilities, respectively, in our Consolidated Balance Sheets. Noncurrent assets and noncurrent liabilities held for sale are recorded in Other assets and Other liabilities, respectively, in our Consolidated Balance Sheets. Assets and liabilities held-for-sale are in the Industrial segment.
+Current and noncurrent assets and liabilities classified as held-for-sale as of December 31, 2025 and June 30, 2025 are as follows ($000):
+December 31, 2025
+June 30, 2025
+Cash
+$
+8,300
+ 
+$
+—
+ 
+Accounts receivable
+11,210
+ 
+43,353
+ 
+Inventories
+28,943
+ 
+97,236
+ 
+Prepaid and refundable income taxes
+8,853
+ 
+9,023
+ 
+Prepaid and other current assets
+668
+ 
+3,067
+ 
+Total current assets held-for-sale
+$
+57,974
+ 
+$
+152,679
+ 
+Property, plant & equipment, net
+$
+31,644
+ 
+$
+103,863
+ 
+Goodwill
+22,325
+ 
+174,373
+ 
+Intangible assets
+99,439
+ 
+141,647
+ 
+Other assets
+12
+ 
+32
+ 
+Less: Impairment of assets held-for-sale
+(
+108,883
+)
+(
+84,988
+)
+Total noncurrent assets held-for-sale
+$
+44,537
+ 
+$
+334,927
+ 
+Accounts payable
+$
+5,799
+ 
+$
+19,209
+ 
+Accrued compensation and benefits
+3,054
+ 
+16,768
+ 
+Operating lease current liabilities
+12
+ 
+2,441
+ 
+Accrued income taxes payable
+(
+1,638
+)
+(
+226
+)
+Other accrued liabilities
+6,290
+ 
+19,202
+ 
+Total current liabilities held-for-sale
+$
+13,517
+ 
+$
+57,394
+ 
+27
+Table of Contents
+Deferred income taxes
+$
+11,476
+ 
+$
+14,785
+ 
+Operating lease liabilities
+—
+ 
+5,980
+ 
+Other liabilities
+6,006
+ 
+7,870
+ 
+Total noncurrent liabilities held-for-sale
+$
+17,482
+ 
+$
+28,635
+ 
+Note 19.        
+Contingencies
+Regulatory Matters
+In January 2025, the Company received an inquiry from BIS concerning past product sales to Huawei; the Company is cooperating with BIS’s inquiry and conducting an internal review of those sales to determine what products are subject to Export Administrative Regulations (“EAR”) and consequently restricted for export, reexport, and transfer when Huawei is a party to the transaction. The Company has stopped shipping products to Huawei. The Company is currently in discussions with BIS regarding past product sales and cannot predict the outcome of those discussions. While the Company has received requests for additional information in this matter, the Company has not yet received any determination from BIS. In the event that the Company is found to have violated the EAR, the Company may be required to incur significant penalties and/or costs or expense as a result of the inquiry and to comply with, or remedy any violations of these regulations, but at this time, the Company is unable to determine an estimate or range of loss.
+28
+Table of Contents
+Item 2.    MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is designed to provide a reader of Coherent’s financial statements with a narrative from the perspective of management. The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our Condensed Consolidated Financial Statements and related notes included under Item 1 of this Quarterly Report on Form 10-Q. Coherent’s MD&A is presented in the following sections:
+•
+Forward-Looking Statements
+•
+Overview
+•
+Trends and Other Matters Affecting Our Business
+•
+Critical Accounting Estimates
+•
+Conversion of Series B Preferred Stock
+•
+Results of Operations
+•
+Liquidity and Capital Resources
+Forward-looking statements in Item 2 may involve risks and uncertainties that could cause results to differ materially from those projected (refer to Part II Item 1A for discussion of these risks and uncertainties).
+Forward-Looking Statements
+Certain statements contained in this Quarterly Report on Form 10-Q are forward-looking statements as defined by Section 21E of the Securities Exchange Act of 1934, as amended, including statements regarding projected growth rates, markets, product development, financial position, capital expenditures and foreign currency exposure. Forward-looking statements are also identified by words such as “expects,” “anticipates,” “intends,” “believes,” “plans,” “projects” or similar expressions.
+Although our management considers the expectations and assumptions on which the forward-looking statements in this Quarterly Report on Form 10-Q are based
+to
+ have a reasonable basis, there can be no assurance that management’s expectations, beliefs or projections as expressed in the forward-looking statements will actually occur or prove to be correct. In addition to general industry and global economic conditions, factors that could cause actual results to differ materially from those discussed in the forward-looking statements in this Quarterly Report on Form 10-Q include, but are not limited to: (i) the failure of any one or more of the expectations or assumptions on which such forward-looking statements are based to prove to be correct; and (ii) the risks relating to forward-looking statements and other “Risk Factors” discussed in Item 1A in this Quarterly Report on Form 10-Q, the Company’s Annual Report on Form 10-K for the fiscal year ended June 30, 2025 and in the Company's other reports filed with the Securities and Exchange Commission. The Company disclaims any obligation to update information contained in these forward-looking statements whether as a result of new information, future events or developments, or otherwise.
+In addition, we operate in a highly competitive and rapidly changing environment; new risk factors can arise, and it is not possible for management to anticipate all such risk factors, or to assess the impact of all such risk factors on our business or the extent to which any individual risk factor, or combination of risk factors, may cause results to differ materially from those contained in any forward-looking statement. The forward-looking statements included in this Quarterly Report on Form 10-Q are based only on information currently available to us and speak only as of the date of this report. We do not assume any obligation, and do not intend, to update any forward-looking statements, whether as a result of new information, future developments or otherwise, except as may be required by the securities laws. Investors should, however, consult any further disclosures of a forward-looking nature that the Company may make in its subsequent Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, or other disclosures filed with or furnished to the SEC.
+Investors should also be aware that, while the Company does communicate with securities analysts from time to time, such communications are conducted in accordance with applicable securities laws. Investors should not assume that the Company agrees with any statement, conclusion of any analysis, or report issued by any analyst irrespective of the content of the statement or report.
+29
+Overview
+Coherent Corp. (“Coherent”, the “Company,” “we,” “us” or “our”) is a vertically integrated manufacturing company that develops, manufactures and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials, for use in communications, industrial, instrumentation and electronics applications. We generate nearly all of our revenues, earnings, and cash flows from developing, manufacturing, and marketing a wide range of products and services for our end markets. Coherent has broad technical expertise and a deep technology stack in areas of importance to our products, including materials growth and fabrication of specialty materials, semiconductor lasers, passive optics including isolators, transceivers, transport equipment, high power lasers for semiconductor capital equipment, display manufacturing, precision manufacturing, and scientific research.
+
+Many of our products include custom integrated software that we develop internally, leveraging our deep domain expertise. Headquartered in Saxonburg, Pennsylvania, Coherent has research and development, manufacturing, sales, service, and distribution facilities worldwide.
+Trends and Other Matters Affecting Our Business
+Industry Conditions
+We continue to experience strong demand in our Datacenter and Communications markets. The increasing investments by hyperscale and other cloud providers in AI datacenter infrastructures have significantly boosted demand for our datacenter transceivers. Elevated demand for our new ZR/ZR+ transceivers and sustained growth in traditional telecom transport products drove higher shipment volumes for our telecom and other communications solutions.
+Change in Reportable Segments
+Operating segments are defined as components of a company that engage in business activities from which they may earn revenues and incur expenses, and for which discrete financial information is available and is evaluated regularly by the CODM in deciding how to allocate resources and in assessing performance. Aggregation of similar operating segments into reportable operating segments is permitted if the businesses have similar economic characteristics and meet established qualitative criteria. Effective July 1, 2025, we realigned our organizational structure and identified multiple operating segments which have been aggregated into two reportable segments based on our internal management structure and CODM oversight: (i) Datacenter & Communications, and (ii) Industrial. See Note 13. Segment Reporting for further information.
+Restructuring Plans
+2023 Plan
+On May 23, 2023, the Board of Directors approved the 2023 Plan which includes site consolidations, facilities moves and closures, as well as the relocation and requalification of certain manufacturing facilities. These restructuring actions were intended to realign our cost structure as part of a transformation to a simpler, more streamlined, resilient and sustainable business model.
+In the three and six months ended December 31, 2025, these activities resulted in recoveries of $12 million and $5 million, respectively. The current quarter recoveries are primarily for adjustments to employee termination costs and the current year-to-date recoveries are primarily for adjustments to employee termination costs partially offset by site move costs. In fiscal 2025, these activities resulted in charges of $53 million, primarily for impairment losses associated with the sale of our Newton Aycliffe business, impairment of right-of-use (“ROU”) assets, employee termination costs, site move costs and accelerated depreciation. In fiscal 2024, these activities resulted in $119 million of charges primarily for employee termination costs, and the write-off of property and equipment, net of $65 million from reimbursement arrangements. See Note 17. Restructuring Plans for further information.
+2025 Plan
+Commencing in the quarter ended March 31, 2025, and as part of the ongoing strategic review of the Company’s business, the Company’s management approved the 2025 Plan to take a number of restructuring actions, including site consolidations, facilities moves and closures, workforce reductions, contract terminations, and certain other associated cost reductions. The 2023 Plan and the 2025 Plan are collectively referred to as the
+“
+Restructuring Plans.”
+In the three and six months ended December 31, 2025, these activities resulted in $15 million and $28 million, respectively, of charges primarily related to employee termination and site closure costs. In fiscal 2025, these activities resulted in $107 million of charges primarily for the write-off of property and equipment and ROU assets, employee and contract termination costs. We expect the restructuring actions to be substantially completed by the end of fiscal 2026. However, the actual timing and costs associated with these restructuring actions may differ from our current expectations and estimates and such differences may be material. See Note 17. Restructuring Plans for further information.
+Impairment of Assets Held-for-Sale and Sale of Business
+30
+In the fourth quarter of fiscal 2025, management entered into non-binding agreements to sell several entities. As a result of classifying these entities as held-for-sale, we recorded non-cash impairment charges of $85 million within the Industrial segment. These charges were recognized in Impairment of assets held-for-sale in our Consolidated Statements of Earnings (Loss) for the fourth quarter of fiscal 2025 to reduce the carrying values of the entities to their estimated fair value. In the three and six months ended December 31, 2025, we recorded additional non-cash impairment charges of $11 million and $20 million, respectively, within the Industrial segment. The charges were recorded in Impairment of assets held-for-sale in the Condensed Consolidated Statements of Earnings (Loss) to reduce the carrying values of the entities that continue to meet the held-for-sale criteria during these periods to their estimated fair value.
+On September 2, 2025, we completed the sale of our aerospace and defense business, which is part of our Industrial segment, for approximately $400 million and recorded a gain of $115 million to Gain on sale of business in our Condensed Consolidated Statements of Earnings for the first quarter of fiscal 2026.
+See Note 18. Assets Held-for-Sale and Sale of Business for further information.
+Macroeconomic Conditions - Tariffs and Export Controls
+In early 2025, the United States implemented significant new tariffs and export restrictions affecting a broad range of countries, commodities and industries. These actions have prompted retaliatory measures from certain foreign governments, including the imposition of tariffs and export controls. As of December 2025, while some of these measures have been delayed, a number of the new tariffs remain in effect, including substantial trade sanctions between the United States and China. China has imposed restrictions on the export of certain rare earth minerals which are critical to our products.
+These tariffs, trade sanctions, and/or restrictions on the export of certain rare earth minerals used in our products did not have a material impact on our business, financial condition, operational results and/or cash flows in the second quarter of fiscal 2026.
+As a global company with a substantial and diversified manufacturing footprint our diverse manufacturing footprint provides us with some insulation against these tariffs, trade sanctions, and other geopolitical challenges. Our geographically diverse supply chain combined with the internal production of many of our most critical technology in-feeds provides adaptability and optionality that benefits our customers. As the tariff, trade sanctions, and export restrictions become clearer, we expect to identify opportunities to mitigate their impact. However, we operate in a dynamic geopolitical environment, and we are not immune to any sustained disruption in global trade conditions. Such disruptions could create future headwinds for the Company and may result in revenue reduction, cost increases on material used in our products or significant production delays, which could adversely affect our business, financial condition, results of operations and cash flows.
+Critical Accounting Estimates
+The preparation of financial statements and related disclosures are in conformity with accounting principles generally accepted in the United States of America and the Company’s discussion and analysis of its financial condition and results of operations require the Company’s management to make judgments, assumptions and estimates that affect the amounts reported in its Condensed Consolidated Financial Statements and accompanying notes.
+Note 1 of the Notes to Consolidated Financial Statements in the Company’s Annual Report on Form 10-K dated August 15, 2025 describes the significant accounting policies and methods used in the preparation of the Company’s consolidated financial statements.
+New Accounting Standards
+See Note 2. Recently Issued Financial Accounting Standards for a description of recent accounting pronouncements, including the expected dates of adoption and estimated effects, if any, on our consolidated financial statements.
+Conversion of Series B Preferred Stock
+All outstanding shares of Series B-1 and Series B-2 Preferred Stock were converted to Company Common Stock in the second quarter of fiscal 2026, and no shares of Preferred Stock are currently issued and outstanding. See Note 10. Equity and Redeemable Preferred Stock for further information.
+31
+Results of Operations
+The following tables set forth select items from our Condensed Consolidated Statements of Earnings (Loss) for the three and six months ended December 31, 2025 and 2024 ($ in millions, except per share data)
+(1)
+:
+Three Months Ended
+December 31, 2025
+Three Months Ended
+December 31, 2024
+% of
+Revenues
+% of
+Revenues
+Total revenues
+$
+1,686 
+100 
+%
+$
+1,435 
+100 
+%
+Cost of goods sold
+1,063 
+63 
+925 
+64 
+Gross margin
+623 
+37 
+509 
+36 
+Operating expenses:
+Research and development
+166 
+10 
+144 
+10 
+Selling, general and administrative
+258 
+15 
+221 
+15 
+Restructuring charges
+4 
+— 
+8 
+1 
+Impairment of assets held-for-sale
+11 
+1 
+— 
+— 
+Interest and other, net
+16 
+1 
+8 
+1 
+Earnings before income taxes
+168 
+10 
+128 
+9 
+Income taxes
+24 
+1 
+27 
+2 
+Net earnings
+144 
+9 
+102 
+7 
+Net loss attributable to noncontrolling interests
+(3)
+— 
+(2)
+— 
+Net earnings attributable to Coherent Corp.
+$
+147 
+9 
+%
+$
+103 
+7 
+%
+Diluted earnings per share
+$
+0.76 
+$
+0.44 
+(1)
+ Some amounts may not add due to rounding.
+Six Months Ended
+December 31, 2025
+Six Months Ended
+December 31, 2024
+% of
+Revenues
+% of
+Revenues
+Total revenues
+$
+3,267 
+100 
+%
+$
+2,783 
+100 
+%
+Cost of goods sold
+2,065 
+63 
+1,813 
+65 
+Gross margin
+1,202 
+37 
+970 
+35 
+Operating expenses:
+Research and development
+321 
+10 
+275 
+10 
+Selling, general and administrative
+511 
+16 
+450 
+16 
+Restructuring charges
+23 
+1 
+32 
+1 
+Impairment of assets held-for-sale
+20 
+1 
+— 
+— 
+Gain on sale of business
+(115)
+(4)
+— 
+— 
+Interest and other, net
+58 
+2 
+64 
+2 
+Earnings before income taxes
+385 
+12 
+148 
+5 
+Income taxes
+16 
+— 
+21 
+1 
+Net earnings
+369 
+11 
+126 
+5 
+Net loss attributable to noncontrolling interests
+(4)
+— 
+(3)
+— 
+Net earnings attributable to Coherent Corp.
+$
+373 
+11 
+%
+$
+129 
+5 
+%
+Diluted earnings per share
+$
+1.95 
+$
+0.41 
+(1)
+ Some amounts may not add due to rounding.
+Consolidated
+Revenues.
+Revenues for the three months ended December 31, 2025 increased 17% to $1,686 million, compared to $1,435 million for the same period last fiscal year. Revenues increased $303 million (34%) in the Datacenter & Communications
+32
+segment. Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in both data center interconnect and traditional telecom applications. In the Industrial segment, revenue decreased $52 million (10%) primarily due to the divestiture of our aerospace and defense business on September 2, 2025.
+Revenues for the six months ended December 31, 2025 increased 17% to $3,267 million, compared to $2,783 million for the same period last fiscal year. Revenues increased $530 million (30%) in the Datacenter & Communications segment. Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in both data center interconnect and traditional telecom applications. In the Industrial segment, revenue decreased $46 million (4%) primarily due to the divestiture of our aerospace and defense business on September 2, 2025 partially offset by increased volumes in our semiconductor capital equipment market.
+Gross margin.
+Gross margin for the three months ended December 31, 2025 was $623 million, or 37% of revenues, compared to $509 million, or 36% of revenues, for the same period last fiscal year, an increase of 140 basis points. The increase as a percent of revenue for the three months ended December 31, 2025 was primarily due to higher revenue volume, cost reductions in product input costs and efficiency gains from improved cycle times in the manufacturing process as well as yield improvements in the Datacenter & Communications segment. In addition, gross margin was favorably impacted by pricing optimization in the Datacenter & Communications businesses and the divestiture of our aerospace and defense business on September 2, 2025. Gross margin for the six months ended December 31, 2025 was $1,202 million, or 37% of revenues, compared to $970 million, or 35% of revenues, for the same period last fiscal year, an increase of 200 basis points. The increase as a percent of revenue for the six months ended December 31, 2025 was primarily due to cost reductions in product input costs, efficiency gains from improved cycle times in the manufacturing process as well as yield improvements in the Datacenter & Communications segment. In addition, gross margin was favorably impacted by pricing optimization in both the Datacenter & Communications and Industrial segments and the divestiture of our aerospace and defense business on September 2, 2025.
+Research and development.
+Research and development (“R&D”) expenses for the three months ended December 31, 2025 were $166 million, or 10% of revenues, compared to $144 million, or 10% of revenues, for the same period last fiscal year. R&D expenses for the six months ended December 31, 2025 were $321 million, or 10% of revenues, compared to $275 million, or 10% of revenues, for the same period last fiscal year. The increases in R&D expenses were primarily related to continued investment in our product portfolios, particularly in our Datacenter & Communications segment. We continue to prioritize R&D investments in projects with the highest expected return-on-investment, supporting our long-term growth strategy.
+Selling, general and administrative.
+Selling, general and administrative (“SG&A”) expenses for the three months ended December 31, 2025 were $258 million, or 15% of revenues, compared to $221 million, or 15% of revenues, for the same period last fiscal year. SG&A expenses for the six months ended December 31, 2025 were $511 million, or 16% of revenues, compared to $450 million, or 16% of revenues, for the same period last fiscal year. Although flat as a percentage of revenue for both the three and six months ended December 31, 2025, the increases in SG&A expenses in both periods were primarily the result of higher legal, integration and divestiture-related consulting costs, higher facility exit costs and higher share-based compensation expense, partially offset by efficiencies achieved from cost reduction initiatives.
+Restructuring charges.
+Restructuring charges for the three and six months ended December 31, 2025 were $4 million and $23 million, respectively, and consisted primarily of employee termination costs and move and other costs due to the consolidation and closure of certain manufacturing sites. Restructuring charges for the three and six months ended December 31, 2024 were $8 million and $32 million, respectively, and consisted of impairment losses associated with the sale of our Newton Aycliffe business as well as move costs, accelerated depreciation, and employee termination costs due to the consolidation of certain manufacturing sites. See Note 17. Restructuring Plans for further information.
+Impairment of assets held-for-sale.
+ Impairment of assets held-for-sale for the three and six months ended December 31, 2025 was $11 million and $20 million, respectively, and represented non-cash impairment charges to reduce our carrying value in entities that continue to meet the held-for-sale criteria at December 31, 2025 to their estimated fair value. See Note 18. Assets Held-for-Sale and Sale of Business for further information.
+Gain on sale of business.
+ Gain on sale of business for the six months ended December 31, 2025 was $115 million and represented the gain on the sale of our aerospace and defense business. See Note 18. Assets Held-for-Sale and Sale of Business for further information.
+33
+Interest and other, net.
+ Interest and other, net expense for the three months ended December 31, 2025 was $16 million, compared to $8 million for the same period in the prior fiscal year, an increase of $8 million. Included in Interest and other, net, were interest expense on borrowings, foreign currency gains and losses, amortization of debt issuance costs, equity gains and losses from unconsolidated investments, and interest and dividend income on cash balances. For the three months ended December 31, 2025, the increase of $8 million in comparison to the same period last fiscal year was driven by $33 million lower foreign exchange net gains and $4 million lower interest income partially offset by $18 million lower interest expense and $15 million gains on sales from an equity investment. The $33 million lower foreign exchange net gains were primarily due to lower volatility of exchange rates during the three months ended December 31, 2025. The $18 million lower interest expense was primarily due to lower interest expense on our Term Loans resulting from lower balances and lower interest rates, partially offset by lower interest expense benefit from our interest rate cap and swap. The $4 million lower interest and dividend income was primarily due to decreases in interest rates earned on investments as well as the decrease in average cash and restricted cash balances
+.
+Interest and other, net expense for the six months ended December 31, 2025 was $58 million, compared to $64 million for the same period in the prior fiscal year, a decrease of $6 million. Included in Interest and other, net, were interest expense on borrowings, foreign currency gains and losses, amortization of debt issuance costs, losses on debt extinguishment, equity gains and losses from unconsolidated investments, and interest and dividend income on cash balances. For the six months ended December 31, 2025, the decrease of $6 million in comparison to the same period last fiscal year was driven by $26 million lower interest expense and $22 million gains on sale from an equity investment, partially offset by $22 million lower foreign exchange net gains, $9 million lower interest income and $5 million higher debt extinguishment and debt transaction fees. The $26 million lower interest expense was primarily due to lower interest expense on our Term Loans resulting from lower balances and lower interest rates partially offset by lower interest expense benefit from our interest rate cap and swap. The $22 million lower foreign exchange net gains were primarily due to lower volatility of exchange rates during the six months ended December 31, 2025. The $9 million lower interest and dividend income was primarily due to decreases in interest rates earned on investments as well as the decrease in average cash and restricted cash balances.
+Income taxes.
+The Company’s year-to-date effective income tax rate at December 31, 2025 was 4% compared to 14% for the same period in the prior fiscal year. The variance from the U.S. statutory federal income tax rate of 21% was primarily driven by differences between U.S. and foreign tax rates and discrete tax benefits related to German tax law changes, releases of uncertain tax positions, and stock-based compensation windfalls.
+Net loss attributable to noncontrolling interests.
+Net loss attributable to noncontrolling interests for the three and six months ended December 31, 2025 was $3 million and $4 million, respectively, compared to $2 million and $3 million, respectively, in the same periods in the prior fiscal year. This amount represents the noncontrolling interest holders’ shares of losses of Silicon Carbide LLC. See Note 11. Noncontrolling Interests for further information.
+Segment Reporting
+Revenues and segment profit for the Company’s reportable segments are discussed below. Our CODM evaluates each segment’s operations for decision-making and performance assessment based on segment revenue and segment profit, as our CODM believes segment profit is a more comprehensive profitability measure for each operating segment. Segment profit includes operating expenses directly managed by operating segments, including research and development, direct sales, marketing and administrative expenses. Segment profit does not include share-based compensation, acquisition or integration related costs, amortization and impairment of acquisition-related intangible assets, restructuring charges, impairment charges on assets held-for-sale, gain on sale of businesses and certain other charges. Additionally, we do not allocate Corporate strategic research and development, strategic marketing and sales expenses and shared general and administrative expenses, as these expenses are not directly attributable to our operating segments. Management believes segment profit to be a useful measure for investors, as it reflects the results of segment performance over which management has direct control and is used by management in its evaluation of segment performance. See Note 13. Segment Reporting for further information on the Company’s reportable segments and for the reconciliation of the Company’s segment profit to earnings (loss) before income taxes, which is incorporated herein by reference. Effective July 1, 2025, we report our financial results in the following two designated segments: (i) Datacenter & Communications and (ii) Industrial.
+Comparative prior period segment information has been recast to conform to the new segments.
+Datacenter & Communications ($ in millions)
+Three Months Ended
+December 31,
+% Increase
+Six Months Ended
+December 31,
+% Increase
+2025
+2024
+2025
+2024
+Revenues
+$
+1,208 
+$
+905 
+34%
+$
+2,298 
+$
+1,768 
+30%
+Segment profit
+$
+306 
+$
+212 
+44%
+$
+576 
+$
+432 
+33%
+34
+Revenues for the three months ended December 31, 2025 increased 34% to $1,208 million, compared to $905 million for the same period in the prior fiscal year. Revenues for the six months ended December 31, 2025 increased 30% to $2,298 million, compared to $1,768 million for the same period in the prior fiscal year. The increases in revenue of $303 million and $530 million during the three and six months ended December 31, 2025, respectively, were primarily driven by growth in our Datacenter business reflecting continued strong AI datacenter demand as well as higher Communications business revenue due to increased demand for data center interconnect and traditional telecom applications.
+Segment profit for the three months ended December 31, 2025 increased 44% to $306 million, compared to segment profit of $212 million for the same period last fiscal year. Segment profit for the six months ended December 31, 2025 increased 33% to $576 million, compared to segment profit of $432 million for the same period last fiscal year. The increases in segment profit for the three and six months ended December 31, 2025 were primarily driven by higher revenues, partially offset by increased R&D investments in our product portfolio.
+Industrial ($ in millions)
+Three Months Ended
+December 31,
+% Increase (Decrease)
+Six Months Ended
+December 31,
+% Increase (Decrease)
+2025
+2024
+2025
+2024
+Revenues
+$
+478 
+$
+530 
+(10)%
+$
+969 
+$
+1,015 
+(4)%
+Segment profit
+$
+112 
+$
+116 
+(4)%
+$
+228 
+$
+185 
+23%
+Revenues for the three months ended December 31, 2025 decreased 10% to $478 million, compared to revenues of $530 million for the same period in the prior fiscal year. Revenues for the six months ended December 31, 2025 decreased 4% to $969 million, compared to revenues of $1,015 million for the same period in the prior fiscal year. Compared to the three months ended December 31, 2024, Industrial revenues decreased $52 million year-over-year, primarily due to the divestiture of our aerospace and defense business on September 2, 2025. Compared to the six months ended December 31, 2024, Industrial revenues decreased $46 million year-over-year, primarily due to the divestiture of our aerospace and defense business on September 2, 2025. The revenue decrease was partially offset by increased volumes in our semiconductor capital equipment market.
+Segment profit for the three months ended December 31, 2025 decreased 4% to $112 million, compared to segment profit of $116 million for the same period last fiscal year, primarily driven by
+
+the divestiture of our aerospace and defense business on September 2, 2025 and increased R&D investments in our product portfolio. These impacts were partially offset by lower manufacturing costs.
+
+Segment profit for the six months ended December 31, 2025 increased 23% to $228 million, compared to segment profit of $185 million for the same period last fiscal year, primarily driven by lower manufacturing costs as well as favorable product mix and improvements in pricing optimization.
+Liquidity and Capital Resources
+Historically, our primary sources of cash have been provided from operations, long-term borrowings, and advance funding from customers. Other sources of cash include proceeds from the issuance of equity, proceeds received from the exercises of stock options, and sale of equity investments and businesses. Our historic uses of cash have been for business acquisitions, capital expenditures, investment in research and development, payments of principal and interest on outstanding debt obligations, payments of debt and equity issuance costs to obtain financing and payments in satisfaction of employees’ minimum tax obligations. Supplemental information pertaining to our sources and uses of cash for the periods indicated is presented as follows:
+35
+Sources (uses) of cash ($ in millions):
+Six Months Ended
+December 31,
+2025
+2024
+Net cash provided by operating activities
+$
+104 
+$
+340 
+Proceeds from exercises of stock options and purchases of stock under employee stock purchase plan
+30
+29
+Effect of exchange rate changes on cash and cash equivalents and other items
+12
+(23)
+Proceeds from long-term borrowings and revolving credit facilities
+1,567 
+— 
+Payment of dividends
+(11)
+—
+Debt issuance costs
+(9)
+—
+Proceeds from the sale of business
+386
+27
+Proceeds from sale of equity investment
+32
+—
+Other items
+(1)
+(2)
+Payments in satisfaction of employees’ minimum tax obligations
+(45)
+(45)
+Payments on borrowings under revolving credit facilities
+(251)
+—
+Payments on existing debt
+(1,659)
+(250)
+Additions to property, plant & equipment
+(258)
+(198)
+Operating activities:
+Net cash provided by operating activities was $104 million for the six months ended December 31, 2025 compared to $340 million for the same period in the prior fiscal year. The decrease in cash flows provided by operating activities during the six months ended December 31, 2025 compared to the same period in the prior fiscal year was primarily due to increases in inventories and accounts receivable as a result of higher revenues partially offset by higher accounts payable and higher net earnings.
+Investing activities:
+Net cash provided by investing activities was $158 million for the six months ended December 31, 2025, compared to net cash used of $172 million for the same period in the prior fiscal year. The increase was primarily due to $386 million cash received from the sale of a business, net of fees, and cash received from the sale of an equity investment, partially offset by higher cash used to fund capital expenditures.
+Financing activities:
+Net cash used in financing activities was $378 million for the six months ended December 31, 2025, compared to $266 million for the same period in the prior fiscal year. Net cash outflows for both periods were primarily attributable to payments on existing debt obligations.
+36
+Table of Contents
+Senior Credit Facilities
+On September 26, 2025, the Company entered into Amendment No. 4 and Amendment No. 5 to the Credit Agreement.
+
+Under Amendment No. 4, (i) the existing revolving credit commitments were refinanced and replaced with the 2025 Revolving Loans, including the 2025 Incremental Term A Loans, the proceeds of which were used, in part, to repay all outstanding principal, interest and fees of the Existing Term A Loans. As amended, the 2025 Revolving Loans and the 2025 Incremental Term A Loans each bear interest at an adjusted SOFR rate subject to a 0.00% floor plus a range of 1.25% to 2.25% based on the Company’s total net leverage ratio.
+
+The interest rate applicable to the 2025 Revolving Loans and the 2025 Incremental Term A Loans is initially a SOFR-based rate plus 1.50% as of December 31, 2025.
+
+The 2025 Revolving Loans and the 2025 Incremental Term A Loans mature on the earlier of September 26, 2030 or a “Springing Maturity Date,” which is a date that is 91 days prior to the stated maturity of either (i) the Company’s unsecured senior notes or (ii) the term B loans then outstanding if, on such 91st day, the applicable senior notes or term B loans remain outstanding and liquidity is less than (x) $250 million plus (y) the aggregate outstanding principal amount of such notes or term B loans, as applicable. Under Amendment No. 5, the outstanding New Term B-2 Loans were replaced with the New Term B-3 Loans having substantially similar terms as the New Term B-2 Loans, except with respect to the interest rate applicable to the New Term B-3 Loans and certain other provisions. As further amended, the New Term B-3 Loans bear interest at a SOFR-based rate (subject to a 0.50% floor) plus 1.75% as of December 31, 2025. The New Term B-3 Loans will mature on July 1, 2029.
+In relation to the Term Facilities, the Company incurred expense of $33 million and $79 million, respectively, for the three and six months ended December 31, 2025, which is included in Interest expense in the Condensed Consolidated Statements of Earnings (Loss). On July 1, 2023, our interest rate cap became effective, which reduced interest expense by $5 million and $11 million, respectively, during the three and six months ended December 31, 2025.
+During the six months ended December 31, 2025, the Company made payments of $408 million for the Term Facilities, $400 million of which were voluntary payments.
+As of December 31, 2025, the Company had $60 million in borrowings outstanding under the Revolving Credit Facility.
+Our cash position, borrowing capacity and debt obligations are as follows (in millions):
+December 31, 2025
+June 30, 2025
+Cash and cash equivalents
+$
+864 
+$
+909 
+Restricted cash, current
+35 
+9 
+Restricted cash, non-current
+630 
+715 
+Available borrowing capacity under Revolving Credit Facility
+608 
+315 
+Total debt obligations
+3,352 
+3,687 
+Other Liquidity
+On December 4, 2023, the Company completed two investment agreements under which
+Silicon Carbide LLC, a Company subsidiary, received
+$1.0 billion cash in exchange for 25% of the equity of that entity. Such funds have and will continue to be used primarily to fund future capital expansion in our silicon carbide business and will enable
+us to increase our available free cash flow to provide greater financial and operational flexibility to execute our capital allocation priorities
+. See Note 11. Noncontrolling Interests
+included in Item 1 of this Quarterly Report on Form 10-Q for further information
+.
+The Company believes existing cash, cash flow from operations, and available borrowing capacity from its Senior Credit Facilities will be sufficient to fund its needs for working capital, capital expenditures, repayment of scheduled long-term borrowings and lease obligations, investments in R&D, and internal and external growth objectives at least through the next twelve months.
+Our cash and cash equivalent balances are generated and held in numerous locations throughout the world, including amounts held outside the United States. As of December 31, 2025
+, the Company held approxim
+ately $770 million of c
+ash,
+cash equivalents and restricted cash outside of the United States. Generally, cash balances held outside the United States could be repatriated to the United States.
+At December 31, 2025, we had $665 million of restricted cash, which includes $661 million at Silicon Carbide LLC that is restricted for use by only that subsidiary.
+37
+Table of Contents
+Item 3.    QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+Market Risks
+We are exposed to market risks arising from adverse changes in foreign currency exchange rates and interest rates. In the normal course of business, we have the option to use a variety of techniques and derivative financial instruments as part of our overall risk management strategy, which is primarily focused on our exposure in relation to the Chinese Renminbi, Euro, Swiss Franc, Japanese Yen, Singapore Dollar and Korean Won. As of September 30, 2024, after weighing the costs and benefits of hedging foreign exchange risks on our global balance sheets, we paused our balance sheet hedging program indefinitely. We continue to analyze these risks and the costs and benefits inherent in a hedging program.
+Interest Rate Risks
+As of December 31, 2025, our total borrowings include variable rate borrowings, which expose us to changes in interest rates. On February 23, 2022, we entered into an interest rate cap (the “Cap”), amended on March 20, 2023, with an effective date of July 1, 2023. On September 1, 2024, we increased the notional amount from $500 million to $1,500 million. If we had not effectively hedged our variable rate debt, a change in the interest rate of 100 basis points on these variable rate borrowings would have resulted in additional interest expense of $6 million and $13 million, respectively, for the three and six months ended December 31, 2025.
+Item 4.    CONTROLS AND PROCEDURES
+Evaluation of Disclosure Controls and Procedures
+The Company’s management evaluated, with the participation of the Company’s Chief Executive Officer and Chief Financial Officer and Treasurer, the effectiveness of the Company’s disclosure controls and procedures (as defined in Exchange Act Rules 13a-15(e) and 15d-15(e)) as of the end of the period covered by this Quarterly Report on Form 10-Q. The Company’s disclosure controls were designed to provide reasonable assurance that information required to be disclosed in reports that we file or submit under the Securities Exchange Act of 1934 is recorded, processed, summarized and reported within the time periods specified in the rules and forms of the Securities and Exchange Commission. It should be noted that the design of any system of controls is based in part upon certain assumptions about the likelihood of future events, and there can be no assurance that any design will succeed in achieving its stated goals under all potential future conditions, regardless of how remote. However, the controls have been designed to provide reasonable assurance of achieving the controls’ stated goals. Based on that evaluation, the Chief Executive Officer and Chief Financial Officer and Treasurer concluded that the Company’s disclosure controls and procedures were effective as of the end of the period covered by this Quarterly Report on Form 10-Q.
+Changes in Internal Control over Financial Reporting
+No changes in the Company’s internal control over financial reporting (as such term is defined in Rule 13a-15(f) under the Exchange Act) were implemented during the Company’s most recently completed fiscal quarter that have materially affected or are reasonably likely to materially affect the Company’s internal control over financial reporting.
+38
+Table of Contents
+Part II – Other Information
+Item 1.    LEGAL PROCEEDINGS
+The Company and its subsidiaries are involved in various claims and lawsuits incidental to its business. The resolution of each of these matters is subject to various uncertainties, and it is possible that these matters may be resolved unfavorably to the Company. Management believes, after consulting with legal counsel, that the ultimate liabilities, if any, resulting from such legal proceedings will not materially affect the Company’s financial condition, liquidity, or results of operations.
+Item 1A.    RISK FACTORS
+In addition to the other information set forth in this Quarterly Report on Form 10-Q, carefully consider the risk factors discussed in Part I, “Item 1A. Risk Factors” in our Annual Report on Form 10-K for the year ended June 30, 2025 and additional risk factors that may be identified from time to time in filings of the Company, any of which could materially affect our business, financial condition or future results. Those risk factors are not the only risks facing the Company. Additional risks and uncertainties not currently known or that we currently deem to be immaterial also may materially adversely affect our business, financial condition and/or operating results.
+Item 5.    OTHER INFORMATION
+During the three months ended December 31, 2025, no director or officer (as defined in Rule 16a-1(f) of the Exchange Act) of the Company
+adopted
+, modified, or
+terminated
+ a “Rule 10b5-1 trading agreement” or “non-Rule 10b5-1 trading agreement,” (each as defined in Item 408 of Regulation S-K of the Exchange Act), except as follows:
+On
+November 13, 2025
+,
+Sherri Luther
+, the Company’s
+Chief Financial Officer
+,
+entered
+ into a 10b5-1 trading arrangement (the “10b5-1 Plan”) for the sale of
+12,000
+ shares of the Company’s common stock. The 10b5-1 Plan, scheduled to commence on February 12, 2026, is intended to satisfy the affirmative defense of Rule 10b5-1(c) and will terminate on
+August 19, 2026
+.
+On
+November 21, 2025
+,
+Dr. Julie Eng
+, the Company’s
+Chief Technology Officer
+,
+entered
+ into a 10b5-1 trading arrangement (the “10b5-1 Plan”) for the sale of
+1,454
+ shares of the Company’s common stock and the potential sale of up to one hundred percent of the shares of Company common stock resulting from various performance share and restricted share award vesting in 2026 and 2027. The 10b5-1 Plan, scheduled to commence on February 20, 2026, is intended to satisfy the affirmative defense of Rule 10b5-1(c) and will terminate on
+March 5, 2027
+.
+On
+November 21, 2025,
+
+Enrico DiGirolamo
+, the
+Chairman of the Company’s board
+,
+entered
+ into a 10b5-1 trading arrangement (the “10b5-1 Plan”) for the sale of
+2,272
+ shares of the Company’s common stock.
+
+The 10b5-1 Plan, scheduled to commence on August 31, 2026, is intended to satisfy the affirmative defense of Rule 10b5-1(c) and will terminate on
+September 1, 2026
+.
+On
+December 3, 2025
+
+Stephen Skaggs
+, a
+director on the Company’s board
+,
+entered
+ into a 10b5-1 trading arrangement (the “10b5-1 Plan”) for the sale of
+5,795
+ shares of the Company’s common stock.
+
+The 10b5-1 Plan, scheduled to commence on March 9, 2026, is intended to satisfy the affirmative defense of Rule 10b5-1(c) and will terminate on
+December 31, 2026
+.
+On
+December 8, 2025
+,
+Jim Anderson
+, the Company’s
+Chief Executive Officer and a director
+ on the Company’s board,
+entered
+ into a 10b5-1 trading arrangement (the “10b5-1 Plan”) for the potential sale of a portion of the net shares of Company common stock resulting from the performance share award vesting on June 30, 2027. The 10b5-1 Plan, scheduled to commence on July 1, 2027, is intended to satisfy the affirmative defense of Rule 10b5-1(c) and will terminate on the earlier of (1) the date all the shares under the 10b5-1 Plan are sold or (2)
+December 1, 2027
+.
+39
+Table of Contents
+Item 6.    EXHIBITS
+Incorporated herein by reference
+Exhibit No.
+Form
+Exhibit No.
+Filing Date
+File No.
+31.01*
+Certification of the Chief Executive Officer pursuant to Rule 13a-14(a) of the Securities Exchange Act of 1934, as amended, and Section 302 of the Sarbanes-Oxley Act of 2002
+31.02*
+Certification of the Chief Financial Officer pursuant to Rule 13a-14(a) of the Securities Exchange Act of 1934, as amended, and Section 302 of the Sarbanes-Oxley Act of 2002
+32.01*
+Certification of the Chief Executive Officer pursuant to Rule 13a-14(b) of the Securities Exchange Act of 1934, as amended, and 18 U.S.C. § 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+32.02*
+Certification of the Chief Financial Officer pursuant to Rule 13a-14(b) of the Securities Exchange Act of 1934, as amended, and 18 U.S.C. § 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+101.INS
+Inline XBRL Instance Document - the instance document does not appear in the interactive data file because XBRL tags are embedded within the inline XBRL document
+101.SCH
+Inline XBRL Taxonomy Extension Schema Document
+101.CAL
+Inline XBRL Taxonomy Extension Calculation Linkbase Document
+101.LAB
+Inline XBRL Taxonomy Extension Label Linkbase Document
+101.DEF
+Inline XBRL Taxonomy Extension Definition Linkbase Document
+101.PRE
+Inline XBRL Taxonomy Extension Presentation Linkbase Document
+104
+Cover Page Interactive Data File - the cover page interactive data file does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document.
+* Filed herewith
+40
+Table of Contents
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+Coherent Corp.
+(Registrant)
+Date: February 4, 2026
+By:
+/s/    James R. Anderson
+James R. Anderson
+Chief Executive Officer
+Date: February 4, 2026
+By:
+/s/    Sherri Luther
+Sherri Luther
+Chief Financial Officer and Treasurer
+41

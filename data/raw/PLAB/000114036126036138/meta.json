@@ -1,0 +1,34 @@
+{
+  "company": "Photronics",
+  "ticker": "PLAB",
+  "cik": "0000810136",
+  "form": "10-Q",
+  "filing_date": "2026-09-10",
+  "accession_number": "0001140361-26-036138",
+  "primary_document": "plab-20260802.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/810136/000114036126036138/plab-20260802.htm",
+  "fiscal_year_end": "1031",
+  "report_date": "2026-08-02",
+  "period_end": "2026-08-02",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:48:41.649202+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/PLAB/000114036126036138/primary.html",
+    "business": "data/raw/PLAB/000114036126036138/item1_business.txt",
+    "risk_factors": "data/raw/PLAB/000114036126036138/item1a_risk_factors.txt",
+    "mdna": "data/raw/PLAB/000114036126036138/item7_mdna.txt",
+    "other": "data/raw/PLAB/000114036126036138/other_full.txt"
+  }
+}

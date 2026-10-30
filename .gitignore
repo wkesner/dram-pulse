@@ -10,14 +10,33 @@ data/*.db
 data/*.db-*
 data/*.csv.lock
 data/part_master_cache/
+data/broker_sim/memoryindex_cache.json
 data/export_signals.csv
 # Keep Memory Signals text caches in git for verify; skip regenerable binaries.
 data/raw/**/document.pdf
 data/raw/**/document.zip
+data/raw/**/document.xhtml
 data/raw/_dart/
+data/raw/_cninfo/
+data/raw/_edinet/
+data/raw/_mops/
 data/raw/_test_dart/
+data/raw/_test_cninfo/
+data/raw/_test_mops/
+# Per-org Clerk corpora + anonymized aggregates (regenerated / local demo)
+data/orgs/**
+!data/orgs/.gitkeep
+data/aggregates/**
+!data/aggregates/.gitkeep
 # Keep Memory Signals raw caches in git for M1 verification; ignore local DBs only.
 *.log
 .DS_Store
 .pytest_cache/
 .mypy_cache/
+
+.env.clerk.pulled
+
+.env.local
+
+.clerk/
+company_tickers.json

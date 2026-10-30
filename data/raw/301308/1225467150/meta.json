@@ -1,0 +1,24 @@
+{
+  "company": "Longsys Electronics",
+  "ticker": "301308",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2026年半年度报告",
+  "filing_date": "2026-08-10",
+  "accession_number": "1225467150",
+  "filing_id": "1225467150",
+  "title": "2026年半年度报告",
+  "org_id": "9900048787",
+  "exchange": "szse",
+  "adjunct_url": "finalpage/2026-08-11/1225467150.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225467150.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:39:38.360250+00:00",
+  "paths": {
+    "other_full": "data/raw/301308/1225467150/other_full.txt",
+    "document_pdf": "data/raw/301308/1225467150/document.pdf"
+  }
+}

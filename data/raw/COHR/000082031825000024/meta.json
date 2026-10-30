@@ -1,0 +1,36 @@
+{
+  "company": "Coherent",
+  "ticker": "COHR",
+  "role": "supplier",
+  "tier": 3,
+  "cik": "0000820318",
+  "form": "8-K",
+  "filing_date": "2025-12-16",
+  "accession_number": "0000820318-25-000024",
+  "primary_document": "iivi-20251216.htm",
+  "primary_doc_description": "8-K",
+  "items": "8.01,9.01",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000024/iivi-20251216.htm",
+  "fiscal_year_end": "0630",
+  "report_date": "2025-12-16",
+  "period_end": "2025-12-16",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:09:41.751008+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [
+    {
+      "name": "R99.htm",
+      "path": "data/raw/COHR/000082031825000024/exhibit_99_R99.htm.txt",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/820318/000082031825000024/R99.htm"
+    }
+  ],
+  "paths": {
+    "primary_html": "data/raw/COHR/000082031825000024/primary.html",
+    "other": "data/raw/COHR/000082031825000024/other_full.txt"
+  }
+}

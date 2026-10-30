@@ -1,0 +1,22 @@
+{
+  "company": "Quanta Computer",
+  "ticker": "2382",
+  "role": "buyer",
+  "source": "MOPS",
+  "form": "月營收",
+  "filing_date": "2026-09-01",
+  "accession_number": "rev_11509",
+  "filing_id": "rev_11509",
+  "title": "月營收 11509",
+  "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh-TW",
+  "fetched_at": "2026-10-29T19:59:43.730040+00:00",
+  "paths": {
+    "other_full": "data/raw/2382/rev_11509/other_full.txt"
+  },
+  "feed": "t187ap05_L",
+  "data_ym_roc": "11509"
+}

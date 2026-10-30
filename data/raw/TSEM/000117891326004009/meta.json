@@ -1,0 +1,28 @@
+{
+  "company": "Tower Semiconductor",
+  "ticker": "TSEM",
+  "cik": "0000928876",
+  "form": "6-K",
+  "filing_date": "2026-08-11",
+  "accession_number": "0001178913-26-004009",
+  "primary_document": "zk2635926.htm",
+  "primary_doc_description": "6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/928876/000117891326004009/zk2635926.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-08-11",
+  "period_end": "2026-08-11",
+  "lookback_months": 12,
+  "window_start": "2025-10-28",
+  "window_end": "2026-10-28",
+  "fetched_at": "2026-10-28T22:52:36.696172+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/TSEM/000117891326004009/primary.html",
+    "other": "data/raw/TSEM/000117891326004009/other_full.txt"
+  }
+}

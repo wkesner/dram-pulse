@@ -31,7 +31,7 @@ Paste each block into Cursor's agent chat. Attach the screenshot named in the pr
 Read SPEC.md and DEDUPE.md. Build app/server.py with FastAPI:
 - GET /api/signals: every row of data/signals.csv as JSON. For each signal, attach its sightings from data/sightings.csv as a list (filing_date, form, section, match, source_url, excerpt). Also attach the vote tallies (latest vote per user wins: up, down).
 - GET /api/votes?user=NAME: that user's latest vote per signal_id.
-- POST /api/votes {signal_id, user, vote: 1|-1}: append one row to data/votes.csv (vote_id uuid4, voted_at ISO UTC). Reject an unknown signal_id or an empty user with a 400 error.
+- POST /api/votes {signal_id, user, vote: 1|-1|0}: append one row to data/votes.csv (vote_id uuid4, voted_at ISO UTC). `0` = skip (hidden for that profile; not tallied). Reject an unknown signal_id or an empty user with a 400 error.
 - Serve app/static/ at /.
 Use a file lock when appending to votes.csv. Write tests in tests/test_api.py with a temp copy of the fixture CSVs.
 ```
@@ -53,8 +53,8 @@ Port the feed card from docs/design/feed_mockup.html (renderCard, highlight, fra
 - matched terms highlighted with <mark>, built with DOM nodes, never innerHTML
 - "Open filing at this passage" using the #:~:text= fragment (first five words, last five words)
 - "Seen in N filings, latest DATE" expanding to each sighting, each with its own passage link
-- Useful / Not useful / Skip, with running counts from all users
-- order: unvoted first, then newest last_seen
+- Useful / Not useful / Skip, with running counts from all users (skips excluded from tallies)
+- order: hide already rated/skipped for this profile; remaining by newest last_seen
 Filters in the rail: category, family, direction, company, role, section.
 ```
 

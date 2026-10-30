@@ -1,0 +1,24 @@
+{
+  "company": "CXMT",
+  "ticker": "688825",
+  "role": "supplier",
+  "source": "CNINFO",
+  "form": "2026年半年度报告摘要",
+  "filing_date": "2026-08-28",
+  "accession_number": "1225529534",
+  "filing_id": "1225529534",
+  "title": "2026年半年度报告摘要",
+  "org_id": "9920000008",
+  "exchange": "sse",
+  "adjunct_url": "finalpage/2026-08-29/1225529534.PDF",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225529534.PDF",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "zh",
+  "fetched_at": "2026-10-29T22:38:44.464183+00:00",
+  "paths": {
+    "other_full": "data/raw/688825/1225529534/other_full.txt",
+    "document_pdf": "data/raw/688825/1225529534/document.pdf"
+  }
+}

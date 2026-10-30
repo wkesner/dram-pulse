@@ -1,0 +1,22 @@
+{
+  "company": "XP Power",
+  "ticker": "XPP",
+  "role": "supplier",
+  "source": "CH",
+  "form": "confirmation-statement-with-updates",
+  "filing_date": "2026-01-07",
+  "accession_number": "MzQ5ODA2MjExM2FkaXF6a2N4",
+  "filing_id": "MzQ5ODA2MjExM2FkaXF6a2N4",
+  "company_number": "03902867",
+  "category": "confirmation-statement",
+  "title": "confirmation-statement-with-updates",
+  "source_url": "https://find-and-update.company-information.service.gov.uk/company/03902867/filing-history",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "en",
+  "fetched_at": "2026-10-29T22:21:49.625138+00:00",
+  "paths": {
+    "other_full": "data/raw/XPP/MzQ5ODA2MjExM2FkaXF6a2N4/other_full.txt"
+  }
+}
