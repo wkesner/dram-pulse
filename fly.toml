@@ -1,0 +1,38 @@
+# Fly.io — EC Signals (FastAPI + static feed).
+# Create app + volume once, then: fly secrets set … && fly deploy
+#
+#   fly apps create ec-signals
+#   fly volumes create ecsignals_data --size 1 --region iad
+#   fly secrets set AUTH_MODE=clerk CLERK_PUBLISHABLE_KEY=… CLERK_SECRET_KEY=… …
+#   fly deploy
+
+app = "ec-signals"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  AUTH_MODE = "clerk"
+  # Mutable org corpora / votes live on the volume via /data (see docker/entrypoint.sh)
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "requests"
+    hard_limit = 50
+    soft_limit = 25
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
+
+[mounts]
+  source = "ecsignals_data"
+  destination = "/data"
