@@ -22,7 +22,9 @@ from src.dedupe import (
     SIGNAL_COLUMNS,
     append_sightings,
     build_signals_from_sightings,
+    canonical_language,
     dedupe,
+    is_english_lang,
     merge_group,
     normalize as normalize_excerpt,
     window_keep_score,
@@ -1139,15 +1141,14 @@ def _prior_excerpt_en_by_id(signals_path: Path) -> dict[str, str]:
 
 
 def _prior_excerpt_en_by_excerpt(*csv_paths: Path) -> dict[str, str]:
-    """Map normalized Korean excerpt → prior excerpt_en (Argos is non-deterministic)."""
+    """Map normalized non-English excerpt → prior excerpt_en (MT is non-deterministic)."""
     out: dict[str, str] = {}
     for path in csv_paths:
         if not path or not path.is_file() or path.stat().st_size == 0:
             continue
         with path.open(encoding="utf-8", newline="") as fh:
             for row in csv.DictReader(fh):
-                lang = (row.get("language") or "en").strip().lower()
-                if lang not in {"ko", "korean"}:
+                if is_english_lang(str(row.get("language") or "en")):
                     continue
                 en = (row.get("excerpt_en") or "").strip()
                 ex = (row.get("excerpt") or "").strip()
@@ -1163,8 +1164,7 @@ def _merge_excerpt_en(
     signals: list[dict[str, Any]], prior: dict[str, str]
 ) -> list[dict[str, Any]]:
     for row in signals:
-        lang = (row.get("language") or "en").strip().lower()
-        if lang in {"", "en", "english"}:
+        if is_english_lang(str(row.get("language") or "en")):
             row["excerpt_en"] = ""
             continue
         sid = row.get("signal_id") or ""
@@ -1181,15 +1181,16 @@ def _enrich_candidate_excerpt_en(
     *,
     prior_by_excerpt: dict[str, str] | None = None,
 ) -> list[dict[str, Any]]:
-    """Attach excerpt_en on Korean candidates so cross-source dedupe can match.
+    """Attach excerpt_en on non-English candidates so cross-language dedupe can match.
 
-    Prefer a prior translation for the same Korean excerpt so rebuilds stay
+    Prefer a prior translation for the same original excerpt so rebuilds stay
     deterministic (Argos output drifts enough to change near-merge IDs).
+    Auto-translate is wired for Korean today; ZH/JA/DE reuse prior excerpt_en.
     """
     prior_by_excerpt = prior_by_excerpt or {}
-    need: list[dict[str, Any]] = []
+    need_ko: list[dict[str, Any]] = []
     for c in candidates:
-        if (c.get("language") or "en").lower() not in {"ko", "korean"}:
+        if is_english_lang(str(c.get("language") or "en")):
             continue
         if (c.get("excerpt_en") or "").strip():
             continue
@@ -1200,8 +1201,9 @@ def _enrich_candidate_excerpt_en(
         if cached:
             c["excerpt_en"] = cached
             continue
-        need.append(c)
-    if not need:
+        if canonical_language(str(c.get("language") or "")) == "ko":
+            need_ko.append(c)
+    if not need_ko:
         return candidates
     try:
         from src.translate_excerpts import _ensure_argos_ko_en, translate_text
@@ -1213,7 +1215,7 @@ def _enrich_candidate_excerpt_en(
         return candidates
     # Deduplicate Argos calls by normalized excerpt within this batch.
     batch: dict[str, str] = {}
-    for c in need:
+    for c in need_ko:
         key = normalize_excerpt(c.get("excerpt") or "")
         if key in batch:
             c["excerpt_en"] = batch[key]
@@ -1238,7 +1240,7 @@ def finalize_candidates(
     """Run dedupe, write sightings (append-only) and rebuild signals.csv."""
     prior_en = _prior_excerpt_en_by_id(signals_path)
     prior_by_excerpt = _prior_excerpt_en_by_excerpt(signals_path, sightings_path)
-    # Cross-source DART↔EDGAR near-match compares excerpt_en to English excerpts.
+    # Cross-language near-match compares excerpt_en to English excerpts.
     candidates = _enrich_candidate_excerpt_en(
         list(candidates), prior_by_excerpt=prior_by_excerpt
     )

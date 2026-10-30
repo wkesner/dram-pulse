@@ -374,3 +374,239 @@ def test_nested_window_exact_merges_into_parent():
     assert len(sightings) == 2
     assert {s["match"] for s in sightings} == {"first", "exact"}
     assert signals[0]["product_family"] == "NAND_general"
+
+
+def _multi_lang_base(**overrides) -> dict:
+    row = {
+        "company": "Acme Semi",
+        "ticker_or_code": "ACME",
+        "role": "supplier",
+        "source": "EDGAR",
+        "language": "en",
+        "form": "20-F",
+        "filing_date": "2026-08-15",
+        "filing_id": "acme-en",
+        "section": "other",
+        "product_category": "DRAM",
+        "product_family": "DRAM_general",
+        "supply_direction": "tightening",
+        "sentiment": "mixed",
+        "direction_conflict": "false",
+        "matched_terms": "product:DRAM",
+        "excerpt": (
+            "Both DRAM and NAND flash experienced significant further price increases "
+            "following those in the previous quarter, and AI-related products such as "
+            "server DRAM and eSSDs led this trend."
+        ),
+        "excerpt_en": "",
+        "char_start": "10",
+        "char_end": "120",
+        "raw_path": "data/raw/ACME/en/other_full.txt",
+        "source_url": "https://example.com/en",
+        "lookback_months": "12",
+        "window_start": "2025-10-28",
+        "window_end": "2026-10-28",
+        "extractor_version": "0.4.0",
+        "extracted_at": "2026-10-30T00:00:00+00:00",
+        "topic": "pricing",
+        "period_end": "2026-06-30",
+        "signal_id": "old-en",
+    }
+    row.update(overrides)
+    return row
+
+
+def test_canonical_language_aliases():
+    from src.dedupe import canonical_language, is_cross_language
+
+    assert canonical_language("EN") == "en"
+    assert canonical_language("korean") == "ko"
+    assert canonical_language("zh-CN") == "zh"
+    assert canonical_language("zh-TW") == "zh"
+    assert canonical_language("jp") == "ja"
+    assert canonical_language("German") == "de"
+    a = _multi_lang_base(language="ko")
+    b = _multi_lang_base(language="zh")
+    assert is_cross_language(a, b)
+
+
+@pytest.mark.parametrize(
+    "lang,source,filing_id,raw",
+    [
+        ("ko", "DART", "dart-ko", "data/raw/ACME/ko/other_full.txt"),
+        ("zh", "CNINFO", "cn-zh", "data/raw/ACME/zh/other_full.txt"),
+        ("ja", "EDINET", "ja-1", "data/raw/ACME/ja/other_full.txt"),
+        ("de", "BAFIN", "de-1", "data/raw/ACME/de/other_full.txt"),
+    ],
+)
+def test_cross_language_near_merges_each_lang(lang, source, filing_id, raw):
+    """EN ↔ KO/ZH/JA/DE near-merge via excerpt_en within the date window."""
+    edgar = _multi_lang_base()
+    other = _multi_lang_base(
+        source=source,
+        language=lang,
+        filing_date="2026-08-12",
+        filing_id=filing_id,
+        sentiment="positive",
+        excerpt=f"native-{lang}-claim",
+        excerpt_en=(
+            "The second quarter of the sales was KRW 2 trillion and KRW 2 trillion "
+            "were KRW 2 trillion in the demand tax and limited supply environment. "
+            "Both DRAM and NAND have recorded a large width price rise, and AI "
+            "related products such as server DRAM and enterprise SSD have led these "
+            "flows. Our second quarter sales increased by 51% compared to the "
+            "previous quarter."
+        ),
+        char_start="20",
+        char_end="100",
+        raw_path=raw,
+        source_url=f"https://example.com/{lang}",
+        signal_id=f"old-{lang}",
+        product_family="NAND_general",
+        product_category="NAND",
+    )
+    signals, sightings = dedupe([other, edgar])
+    assert len(signals) == 1, f"{lang} should near-merge across families"
+    assert len(sightings) == 2
+    assert {s["match"] for s in sightings} == {"first", "near"}
+    assert signals[0]["language"] == "en"
+
+
+def test_same_language_different_filing_date_keeps_both_sightings():
+    """Exact restatement: same language, different dates → one signal, both sightings."""
+    first = _multi_lang_base(
+        filing_date="2026-02-10",
+        filing_id="en-q1",
+        raw_path="data/raw/ACME/q1/other_full.txt",
+        signal_id="old-q1",
+    )
+    later = _multi_lang_base(
+        filing_date="2026-08-10",
+        filing_id="en-q3",
+        char_start="40",
+        char_end="150",
+        raw_path="data/raw/ACME/q3/other_full.txt",
+        signal_id="old-q3",
+    )
+    signals, sightings = dedupe([first, later])
+    assert len(signals) == 1
+    assert len(sightings) == 2
+    assert {s["match"] for s in sightings} == {"first", "exact"}
+    assert {s["filing_date"] for s in sightings} == {"2026-02-10", "2026-08-10"}
+    assert signals[0]["times_seen"] == "2"
+
+
+def test_cross_family_exact_collapses_across_merge_groups():
+    """Identical Ambarella-style span tagged MCU + Power_IC + Memory → one card."""
+    excerpt = (
+        "Our customers purchase components used in the manufacture of their products "
+        "from various sources of supply, often involving several specialized components, "
+        "including lenses, sensors, microcontrollers, power management integrated "
+        "circuits (PMICs), Wi-Fi chips, and memory chips. Any supply shortage of these "
+        "components could materially and adversely affect our business."
+    )
+    base = {
+        "company": "Ambarella",
+        "ticker_or_code": "AMBA",
+        "role": "buyer",
+        "source": "EDGAR",
+        "language": "en",
+        "form": "10-K",
+        "filing_date": "2026-03-23",
+        "filing_id": "amba-1",
+        "section": "risk_factors",
+        "supply_direction": "tightening",
+        "sentiment": "negative",
+        "direction_conflict": "false",
+        "excerpt": excerpt,
+        "excerpt_en": "",
+        "char_start": "1000",
+        "char_end": "1400",
+        "raw_path": "data/raw/AMBA/a/risk.txt",
+        "source_url": "https://example.com/amba",
+        "lookback_months": "12",
+        "window_start": "2025-01-01",
+        "window_end": "2026-01-01",
+        "extractor_version": "0.4.0",
+        "extracted_at": "2026-10-30T00:00:00+00:00",
+        "topic": "pricing",
+        "period_end": "2026-01-31",
+    }
+    rows = [
+        {
+            **base,
+            "product_family": "MCU",
+            "product_category": "Compute",
+            "matched_terms": "product:microcontrollers",
+            "signal_id": "old-mcu",
+        },
+        {
+            **base,
+            "product_family": "Power_IC",
+            "product_category": "Analog",
+            "matched_terms": "product:PMICs",
+            "signal_id": "old-pmic",
+        },
+        {
+            **base,
+            "product_family": "Memory_general",
+            "product_category": "Other",
+            "matched_terms": "product:memory chips",
+            "signal_id": "old-mem",
+        },
+    ]
+    signals, sightings = dedupe(rows)
+    assert len(signals) == 1
+    assert len(sightings) == 3
+    assert sum(1 for s in sightings if s["match"] == "exact") == 2
+
+
+def test_cross_group_containment_different_date_keeps_both():
+    """Soft Memory⊂Capacitor overlap on a later filing must not swallow Passives."""
+    long_excerpt = (
+        "Similarly, certain non-proprietary materials or components such as memory, "
+        "printed circuit boards (PCBs), interposers, substrates and capacitors used in "
+        "the manufacture of our products are currently available from only a limited "
+        "number of suppliers. For example, there is currently an industry-wide memory "
+        "shortage as the demand for such components has outpaced supply."
+    )
+    short_excerpt = (
+        "Similarly, certain non-proprietary materials or components such as memory, "
+        "printed circuit boards (PCBs), interposers, substrates and capacitors used in "
+        "the manufacture of our products are currently available from only a limited "
+        "number of suppliers."
+    )
+    memory = _multi_lang_base(
+        company="AMD",
+        ticker_or_code="AMD",
+        role="buyer",
+        filing_date="2026-02-04",
+        filing_id="amd-mem",
+        product_family="Memory_general",
+        product_category="Other",
+        excerpt=long_excerpt,
+        char_start="100",
+        char_end="400",
+        raw_path="data/raw/AMD/mem/risk.txt",
+        signal_id="old-mem",
+        matched_terms="product:memory",
+    )
+    caps = _multi_lang_base(
+        company="AMD",
+        ticker_or_code="AMD",
+        role="buyer",
+        filing_date="2025-11-05",
+        filing_id="amd-cap",
+        product_family="Capacitor",
+        product_category="Passives",
+        excerpt=short_excerpt,
+        char_start="50",
+        char_end="250",
+        raw_path="data/raw/AMD/cap/risk.txt",
+        signal_id="old-cap",
+        matched_terms="product:capacitors",
+    )
+    signals, sightings = dedupe([caps, memory])
+    assert len(signals) == 2
+    assert len(sightings) == 2
+    assert {s["product_family"] for s in signals} == {"Memory_general", "Capacitor"}
