@@ -11,11 +11,12 @@
 (() => {
   // Bump when shipping signup UX fixes — verify on Fly via:
   //   curl -s https://ec-signals.fly.dev/clerk-auth.js | grep __msClerkBuild
-  window.__msClerkBuild = "signup-virtual-v3-20261030";
+  window.__msClerkBuild = "signup-hash-v4-20261030";
 
   /** Clerk path segments that must stay on-origin (never 404 → Account Portal). */
   const CLERK_AUTH_PATH_RE =
     /^\/(verify-email-address|verify-phone-number|continue|factor-one|factor-two|reset-password|sso-callback)\/?$/;
+  const CLERK_VIRTUAL_PATH_RE = /^\/CLERK-ROUTER(\/|$)/i;
 
   const APP_TOKEN_KEY = "ms-app-access-token";
   const INVITE_TICKET_KEY = "ms-signup-invite-ticket";
@@ -132,15 +133,62 @@
       // Keep SignIn/SignUp on this origin — never bounce to *.accounts.dev mid-flow.
       signInUrl: "/",
       signUpUrl: "/",
+      // Without these, routing:"virtual" (and some UI paths) hard-navigate to
+      // /CLERK-ROUTER/VIRTUAL/... which Fly 404s and blanks the gate on load.
+      routerPush: (to) => clerkHostNavigate(to, false),
+      routerReplace: (to) => clerkHostNavigate(to, true),
     });
     return clerk;
+  }
+
+  /**
+   * Keep Clerk internal navigation inside the SPA (hash on `/`).
+   * Never allow a full document load of /CLERK-ROUTER/VIRTUAL/*.
+   */
+  function clerkHostNavigate(to, replace) {
+    try {
+      const raw = typeof to === "string" ? to : String(to || "");
+      if (!raw) return;
+      if (CLERK_VIRTUAL_PATH_RE.test(raw) || /CLERK-ROUTER\/VIRTUAL/i.test(raw)) {
+        return; // virtual steps stay in-component when host router is present
+      }
+      let hash = "";
+      if (raw.startsWith("#")) {
+        hash = raw;
+      } else if (raw.startsWith("/")) {
+        hash = "#" + raw;
+      } else if (/^https?:\/\//i.test(raw)) {
+        const u = new URL(raw);
+        if (u.origin === location.origin) {
+          hash = u.hash || (u.pathname !== "/" ? "#" + u.pathname : "");
+        } else {
+          if (replace) location.replace(raw);
+          else location.assign(raw);
+          return;
+        }
+      } else {
+        hash = "#/" + raw.replace(/^\/+/, "");
+      }
+      const next = "/" + (location.search || "") + hash;
+      if (replace) history.replaceState(null, "", next);
+      else history.pushState(null, "", next);
+      try {
+        window.dispatchEvent(new HashChangeEvent("hashchange"));
+      } catch {
+        /* ignore */
+      }
+    } catch {
+      /* ignore */
+    }
   }
 
   /** Path or hash that means we are mid Clerk email/phone verify. */
   function clerkAuthRouteActive() {
     try {
       const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
-      if (CLERK_AUTH_PATH_RE.test(path)) return true;
+      if (CLERK_AUTH_PATH_RE.test(path) || CLERK_VIRTUAL_PATH_RE.test(path)) {
+        return true;
+      }
       const hash = String(location.hash || "");
       if (/verify-email-address|verify-phone-number|factor-one|factor-two/i.test(hash)) {
         return true;
@@ -152,15 +200,14 @@
   }
 
   /**
-   * Video bug: SignUp used path routing → /verify-email-address → Fly 404 →
-   * Clerk Account Portal (accounts.dev). Collapse that path back to / and
-   * keep the signup gate open so OTP stays embedded.
+   * Collapse /verify-email-address or /CLERK-ROUTER/VIRTUAL/* back to `/` and
+   * keep the signup gate open so OTP stays embedded (video + virtual-v3 break).
    */
   function recoverClerkAuthPathIntoSignup() {
     if (!clerkAuthRouteActive()) return false;
     try {
-      const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
-      if (CLERK_AUTH_PATH_RE.test(path)) {
+      const path = location.pathname || "/";
+      if (CLERK_AUTH_PATH_RE.test(path.replace(/\/+$/, "") || "/") || CLERK_VIRTUAL_PATH_RE.test(path)) {
         history.replaceState(null, "", "/" + (location.search || "") + (location.hash || ""));
       }
     } catch {
@@ -342,12 +389,14 @@
   }
 
   function clerkComponentOpts(extra) {
-    // Virtual routing keeps verify-email OTP in-memory — no /verify-email-address
-    // path (Fly 404) and no #hash that Account Portal can intercept.
+    // Hash is the supported mount strategy for clerk-js CDN (path|hash only).
+    // routing:"virtual" (v3) hard-navigated to /CLERK-ROUTER/VIRTUAL/... → Fly 404
+    // and blanked the auth gate on load. Host routerPush/Replace above keep
+    // internal steps in-app; SPA fallback serves verify paths if path slips.
     // Do NOT set forceRedirectUrl / *ForceRedirectUrl (hard-nav mid-flow).
     return Object.assign(
       {
-        routing: "virtual",
+        routing: "hash",
         signInUrl: "/",
         signUpUrl: "/",
       },

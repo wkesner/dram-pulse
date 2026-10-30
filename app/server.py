@@ -883,6 +883,20 @@ def create_app(
                     include_in_schema=False,
                 )
 
+            # virtual-v3 navigated here without a host router → blank gate.
+            app.add_api_route(
+                "/CLERK-ROUTER/{rest:path}",
+                _spa_index,
+                methods=["GET", "HEAD"],
+                include_in_schema=False,
+            )
+            app.add_api_route(
+                "/CLERK-ROUTER",
+                _spa_index,
+                methods=["GET", "HEAD"],
+                include_in_schema=False,
+            )
+
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
     return app
