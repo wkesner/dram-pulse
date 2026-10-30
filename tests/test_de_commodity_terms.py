@@ -31,7 +31,9 @@ def test_german_product_terms_present() -> None:
     assert "Mikrocontroller" in product_terms
     assert "Mehrschicht-Keramikkondensatoren" in product_terms
     assert "Siliziumwafer" in product_terms or "Waferfertigung" in product_terms
+    assert "Waferkapazitäten" in product_terms or "Waferkapazität" in product_terms
     assert "Grafikprozessoren" in product_terms
+    assert "power semiconductors" in product_terms or "power semiconductor" in product_terms
     # Bare noisy tokens deliberately omitted.
     assert "Speicher" not in product_terms
     assert "Kondensator" not in product_terms
@@ -45,6 +47,7 @@ def test_german_supply_terms_merged() -> None:
     topics = " ".join(term for _label, term, _pat in banks["topic_compiled"])
     assert "Lieferengpass" in tightening or "Lieferengpässe" in tightening
     assert "Verknappung" in tightening
+    assert "Versorgungsengpässen" in tightening or "Versorgungsengpässe" in tightening
     assert "Bestandsaufbau" in easing
     assert "Allokation" in topics or "Produktallokation" in topics
     assert "Lagerbestand" in topics or "Lagerbestände" in topics

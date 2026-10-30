@@ -48,6 +48,9 @@ topics:
     - price
   inventory:
     - elevated inventory
+    - high customer inventory
+    - customer inventory levels
+    - high inventory levels
     - inventory build
     - inventories
     - inventory
@@ -128,6 +131,9 @@ direction:
   easing:
     - inventory build
     - elevated inventory
+    - high customer inventory
+    - customer inventory levels
+    - high inventory levels
     - price decline
     - prices falling
     - prices declined
@@ -533,11 +539,14 @@ german:
       - Lieferzeiten
       - Lieferzeit
       - Versorgungslage
+      - Versorgungsengpässen
       - Versorgungsengpässe
       - Versorgungsengpass
       - Lieferkettenstörungen
       - Lieferkettenstörung
       - Störungen in der Lieferkette
+      - Unterbrechungen in der Lieferkette
+      - Verzögerungen in der Lieferkette
       - Produktallokation
       - auf Allokation
       - Kontingentierung
@@ -558,6 +567,7 @@ german:
       - Verkaufspreis
     inventory:
       - Bestandsaufbau
+      - Bestandsabbau
       - Lageraufbau
       - Lagerbestände
       - Lagerbestand
@@ -570,9 +580,11 @@ german:
       - Kapazitätsauslastung
       - Fertigungskapazität
       - Produktionskapazität
+      - Waferkapazitäten
       - Waferkapazität
       - Kapazitätserweiterung
       - Kapazitätsausbau
+      - Kapazitätsaufbau
       - Auslastung
     yield_quality:
       - Ausbeute
@@ -582,6 +594,8 @@ german:
       - Nachfrageschub
       - Nachfragerückgang
       - Nachfrageschwäche
+      - rückläufige Nachfrage
+      - nachlassende Nachfrage
       - starke Nachfrage
       - robuste Nachfrage
   direction:
@@ -592,11 +606,14 @@ german:
       - Lieferverzögerung
       - verlängerte Lieferzeiten
       - verlängerte Lieferzeit
+      - Versorgungsengpässen
       - Versorgungsengpässe
       - Versorgungsengpass
       - Lieferkettenstörungen
       - Lieferkettenstörung
       - Störungen in der Lieferkette
+      - Unterbrechungen in der Lieferkette
+      - Verzögerungen in der Lieferkette
       - Produktallokation
       - auf Allokation
       - Kontingentierung
@@ -613,6 +630,7 @@ german:
     easing:
       - Überangebot
       - Bestandsaufbau
+      - Bestandsabbau
       - Lageraufbau
       - Überbestände
       - Überbestand
@@ -621,6 +639,8 @@ german:
       - Preisdruck
       - Nachfragerückgang
       - Nachfrageschwäche
+      - rückläufige Nachfrage
+      - nachlassende Nachfrage
       - Entspannung der Versorgungslage
       - Entspannung der Lieferkette
     stable:

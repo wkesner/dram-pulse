@@ -153,6 +153,7 @@ categories:
       - Foundry-Fertigung
       - Auftragsfertigung
       - Waferfertigung
+      - Waferkapazitäten
       - Waferkapazität
       - Siliziumwafer
       - Silizium-Wafer
@@ -362,6 +363,9 @@ categories:
       - Leistungs-IC
       - Power-Management-ICs
       - Power-Management-IC
+      # EN Infineon / peer 20-F-style wording (UREG IR mirrors often ship EN ARs).
+      - power semiconductors
+      - power semiconductor
   Storage:
     # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
     HDD:

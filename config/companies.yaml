@@ -1823,7 +1823,9 @@ companies:
     ticker: "3231"
     tier: 3
 
-  # German Unternehmensregister smoke path (Agent B). Full DE roster = Agent D.
+  # German electronics via Unternehmensregister (UREG). Prefer DE text for names
+  # without usable English EDGAR 20-F (Infineon ADR IFNNY skipped). Skip NXP /
+  # STMicro / ASML / TE Connectivity — already covered by EDGAR dual-lists.
   - name: Infineon Technologies
     role: supplier
     source: UREG
@@ -1847,6 +1849,125 @@ companies:
     euid: DED2601V.HRB150884
     lei: 5299003NKV26NNGHHR90
     isin: DE000WAF3001
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Aixtron
+    role: supplier
+    source: UREG
+    ticker: AIXA
+    tier: 2
+    company_name: AIXTRON SE
+    euid: DER3101.HRB16590
+    lei: 5299004UJ4D51M25LD67
+    isin: DE000A0WMPJ6
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Elmos Semiconductor
+    role: supplier
+    source: UREG
+    ticker: ELG
+    tier: 2
+    company_name: Elmos Semiconductor SE
+    euid: DER3306.HRB123561
+    lei: 529900UMKKDCAP4P4H63
+    isin: DE0005677108
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: SUSS MicroTec
+    role: supplier
+    source: UREG
+    ticker: SMHN
+    tier: 2
+    company_name: SÜSS MicroTec SE
+    euid: DED2601V.HRB235132
+    isin: DE000A1K0235
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Jenoptik
+    role: supplier
+    source: UREG
+    ticker: JEN
+    tier: 2
+    company_name: Jenoptik AG
+    euid: DEY1206.HRB200146
+    isin: DE000A2NB601
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: PVA TePla
+    role: supplier
+    source: UREG
+    ticker: TPE1
+    tier: 3
+    company_name: PVA TePla AG
+    euid: DEM1406.HRB6845
+    isin: DE0007461006
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Basler
+    role: supplier
+    source: UREG
+    ticker: BSL
+    tier: 3
+    company_name: Basler AG
+    euid: DEX1721R.HRB4090AH
+    isin: DE0005102008
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Schweizer Electronic
+    role: supplier
+    source: UREG
+    ticker: SCE
+    tier: 3
+    company_name: Schweizer Electronic AG
+    euid: DEB8534.HRB480540
+    isin: DE0005156236
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: Viscom
+    role: supplier
+    source: UREG
+    ticker: V6C
+    tier: 3
+    company_name: Viscom SE
+    euid: DEP2305.HRB59616
+    isin: DE0007846867
+    forms:
+      - "135"
+      - "136"
+      - "137"
+
+  - name: SMA Solar Technology
+    role: supplier
+    source: UREG
+    ticker: S92
+    tier: 3
+    company_name: SMA Solar Technology AG
+    euid: DEM1607.HRB3972
+    isin: DE000A0DJ6J9
     forms:
       - "135"
       - "136"

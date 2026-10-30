@@ -1,0 +1,28 @@
+{
+  "company": "Siltronic",
+  "ticker": "WAF",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Siltronic AG Jahresabschluss / Lagebericht 2025",
+  "filing_date": "2026-03-19",
+  "accession_number": "UREG_135_20260319_399cf961b4",
+  "filing_id": "UREG_135_20260319_399cf961b4",
+  "title": "Siltronic AG Jahresabschluss / Lagebericht 2025",
+  "publication_type": "135",
+  "euid": "DED2601V.HRB150884",
+  "lei": "5299003NKV26NNGHHR90",
+  "isin": "DE000WAF3001",
+  "ureg_source_name": "https://www.siltronic.com/fileadmin/investorrelations/Hauptversammlungen/HV_2026/04_2025_HGB_Jahresabschluss__Lagebericht__Testat_f%C3%BCr_Homepage.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://www.siltronic.com/fileadmin/investorrelations/Hauptversammlungen/HV_2026/04_2025_HGB_Jahresabschluss__Lagebericht__Testat_f%C3%BCr_Homepage.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:05:43.129380+00:00",
+  "paths": {
+    "other_full": "data/raw/WAF/UREG_135_20260319_399cf961b4/other_full.txt",
+    "document_pdf": "data/raw/WAF/UREG_135_20260319_399cf961b4/document.pdf"
+  }
+}
