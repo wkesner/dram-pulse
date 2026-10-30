@@ -13,16 +13,19 @@
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/brokers.css" />
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="/clerk-auth.js" defer></script>
     <script src="/brokers.js" defer></script>
   </head>
   <body>
     <div class="app broker-app">
+      <div id="clerk-setup-banner" class="clerk-banner" hidden></div>
       <header class="top">
         <h1>Broker market</h1>
         <nav class="broker-nav" aria-label="App">
           <a href="/">Signals feed</a>
           <span aria-current="page">Brokers</span>
         </nav>
+        <div id="clerk-chrome" class="clerk-chrome" hidden></div>
         <button
           class="theme-toggle"
           id="theme-toggle"
@@ -32,6 +35,7 @@
           Theme
         </button>
       </header>
+      <p id="clerk-hint" class="clerk-hint" hidden></p>
 
       <p class="lede">
         Baseline Apex / Harbor / Summit trade without a memory score. Each has a
@@ -43,7 +47,7 @@
       <form class="broker-controls" id="sim-form">
         <label
           >Days
-          <input id="f-days" type="number" min="1" max="365" value="30" />
+          <input id="f-days" type="number" min="1" max="90" value="30" />
         </label>
         <label
           >Seed
@@ -58,7 +62,7 @@
           Include scored twins
         </label>
         <label class="check">
-          <input id="f-live" type="checkbox" checked />
+          <input id="f-live" type="checkbox" />
           Live MemoryIndex prices
         </label>
         <button type="submit" class="run-btn">Run simulation</button>

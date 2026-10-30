@@ -180,3 +180,39 @@ def test_bootstrap_seeds_corpus(clerk_env):
     assert resp.json()["org_id"] == "org_gamma"
     assert (clerk_env["orgs"] / "org_gamma" / "signals.csv").is_file()
     assert (clerk_env["orgs"] / "org_gamma" / "sightings.csv").is_file()
+
+
+def test_broker_sim_requires_clerk_session(clerk_env, monkeypatch):
+    monkeypatch.setenv("AUTH_MODE", "clerk")
+    monkeypatch.setenv("CLERK_PUBLISHABLE_KEY", "")
+    monkeypatch.setenv("CLERK_SECRET_KEY", "")
+    monkeypatch.setenv("CLERK_ISSUER", "")
+    monkeypatch.setenv("CLERK_JWT_KEY", "")
+    app = create_app(
+        signals_path=clerk_env["signals"],
+        sightings_path=clerk_env["sightings"],
+        votes_path=clerk_env["votes_single"],
+        companies_path=clerk_env["companies"],
+        mount_static=False,
+        mode="clerk",
+        orgs_root=clerk_env["orgs"],
+        aggregates_path=clerk_env["aggregates"],
+        session_resolver=None,
+        operator_token="x",
+        broker_sim_open=True,  # open gate must not bypass clerk auth
+    )
+    client = TestClient(app)
+    resp = client.get("/api/broker-sim", params={"days": 2, "live": "false"})
+    assert resp.status_code == 503
+    assert "not configured" in resp.json()["detail"].lower() or "CLERK" in resp.json()["detail"]
+
+
+def test_broker_sim_works_with_clerk_session(clerk_env):
+    client, _ = _client(clerk_env, "org_sim", "user_sim")
+    resp = client.get(
+        "/api/broker-sim",
+        params={"days": 2, "live": "false", "include_scored": "false", "seed": 2},
+    )
+    assert resp.status_code == 200
+    assert resp.json()["days"] == 2
+    assert len(resp.json()["brokers"]) == 3
