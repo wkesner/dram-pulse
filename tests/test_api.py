@@ -53,6 +53,7 @@ def test_get_signals_length_and_shape(client: TestClient, data_dir: Path):
         expected_n = sum(1 for _ in csv.DictReader(fh))
     resp = client.get("/api/signals")
     assert resp.status_code == 200
+    assert resp.headers.get("etag")
     body = resp.json()
     assert len(body) == expected_n
     assert expected_n > 0
@@ -62,8 +63,10 @@ def test_get_signals_length_and_shape(client: TestClient, data_dir: Path):
     assert "votes" in row and row["votes"] == {"up": 0, "down": 0}
     if row["sightings"]:
         s = row["sightings"][0]
-        for key in ("filing_date", "form", "section", "match", "source_url", "excerpt"):
+        # Default sightings=meta: structure without shipping excerpt text.
+        for key in ("filing_date", "form", "section", "match", "source_url"):
             assert key in s
+        assert "excerpt" not in s
 
 
 def test_get_signals_attaches_sightings(client: TestClient):
@@ -71,6 +74,33 @@ def test_get_signals_attaches_sightings(client: TestClient):
     multi = [r for r in body if int(r.get("times_seen") or 0) > 1]
     assert multi, "expected at least one multi-sighting signal"
     assert len(multi[0]["sightings"]) == int(multi[0]["times_seen"])
+
+
+def test_get_signals_full_includes_excerpts(client: TestClient):
+    body = client.get("/api/signals", params={"sightings": "full"}).json()
+    multi = [r for r in body if r.get("sightings")]
+    assert multi
+    s = multi[0]["sightings"][0]
+    for key in ("filing_date", "form", "section", "match", "source_url", "excerpt"):
+        assert key in s
+
+
+def test_get_signals_etag_304(client: TestClient):
+    first = client.get("/api/signals")
+    etag = first.headers["etag"]
+    again = client.get("/api/signals", headers={"If-None-Match": etag})
+    assert again.status_code == 304
+
+
+def test_signal_sightings_endpoint(client: TestClient):
+    sid = client.get("/api/signals").json()[0]["signal_id"]
+    resp = client.get(f"/api/signals/{sid}/sightings")
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["signal_id"] == sid
+    assert isinstance(body["sightings"], list)
+    if body["sightings"]:
+        assert "excerpt" in body["sightings"][0]
 
 
 def test_post_vote_and_tallies(client: TestClient, data_dir: Path):
@@ -84,9 +114,11 @@ def test_post_vote_and_tallies(client: TestClient, data_dir: Path):
     assert r1.json()["vote"] == "1"
     assert r1.json()["vote_id"]
     assert r1.json()["voted_at"]
+    assert r1.json()["votes"] == {"up": 1, "down": 0}
 
     r2 = client.post("/api/votes", json={"signal_id": sid, "user": "Bob", "vote": -1})
     assert r2.status_code == 200
+    assert r2.json()["votes"] == {"up": 1, "down": 1}
 
     body = client.get("/api/signals").json()
     row = next(r for r in body if r["signal_id"] == sid)

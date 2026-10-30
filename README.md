@@ -84,10 +84,18 @@ The feed UI is **FastAPI + static HTML** (not Streamlit). Design mockups: `docs/
 
 ```bash
 pip install -r requirements.txt
-uvicorn app.server:app --reload --port 8000
-# open http://localhost:8000/  (static placeholder until Prompt 2+)
-# API: GET /api/signals  GET /api/meta  GET /api/votes?user=NAME  POST /api/votes
+scripts/run_feed.sh                    # concurrency-capped shared process (~10 users)
+# or: uvicorn app.server:app --reload --port 8000
+# open http://localhost:8000/
+# API: GET /api/signals?sightings=meta|full|none  GET /api/meta
+#      GET /api/votes?user=NAME  POST /api/votes
+#      GET /api/signals/{id}/sightings
 ```
+
+Feed hot path (no paid cache): CSV mtime cache, default slim sightings (`meta`),
+ETag/304, gzip, per-client read limits, vote responses include tallies so the UI
+does not re-dump `/api/signals` after every click. See Project doc
+`docs/ten-user-performance.md` when present in the agent store.
 
 Legacy Streamlit prototype (optional): `streamlit run app.py`.
 
