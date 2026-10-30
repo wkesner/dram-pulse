@@ -1,0 +1,1253 @@
+Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes included elsewhere in this report. Some of the information contained in this discussion and analysis includes forward-looking statements that involve risks and uncertainties. You should review the sections titled “Cautionary Note Regarding Forward-Looking Statements” and “Risk Factors” included elsewhere in this report for a discussion of forward-looking statements and important factors that could cause actual results to differ materially from the results described in or implied by the forward-looking statements contained in the following discussion and analysis.
+Company Overview
+Mobileye is a leader in the development and deployment of ADAS and autonomous driving technologies and solutions. We pioneered ADAS technology more than 25 years ago and have continuously expanded the scope of our ADAS offerings, while leading the evolution to autonomous driving solutions.
+Our portfolio of solutions is built upon a comprehensive suite of purpose-built software and hardware technologies designed to provide the capabilities needed to make the future of ADAS and autonomous driving a reality. These technologies can be harnessed to deliver mission-critical capabilities at the edge and in the cloud, advancing the safety of road users, and revolutionizing the driving experience and the movement of people and goods globally.
+77
+
+Table of Contents
+As of December 27, 2025, our solutions had been installed in approximately 1,400 vehicle models (including local country, year, and other vehicle model variations), and our SoCs had been deployed in more than 230 million vehicles. We are actively working with more than 50 OEMs worldwide on the implementation of our ADAS solutions. For the year ended December 27, 2025, we shipped approximately 35.7 million of our systems, of which the substantial majority were EyeQ™ SoCs. This represents an increase from the approximately 29.0 million of our systems that we shipped in 2024 and a decrease from the approximately 37.4 million of our systems that we shipped in 2023.
+We were founded in Israel in 1999. Our co-founder, Professor Amnon Shashua, is our President and Chief Executive Officer. In 2014, we completed an initial public offering as a foreign private issuer and traded under the symbol “MBLY” on the New York Stock Exchange. Intel acquired Mobileye for $15.3 billion in 2017, after which we became a wholly-owned subsidiary of Intel. We completed the Reorganization and Mobileye IPO in October 2022.
+Secondary Offering, Share Repurchase, Option and Conversion
+On July 9, 2025, the Company announced the pricing of a public secondary offering of 50,000,000 shares of Class A common stock (which shares were received upon the conversion of 50,000,000 shares of Class B common stock into Class A common stock) by Intel at a public offering price of $16.50 per share (the “Secondary Offering”), with Intel granting the underwriters a 30-day option to purchase up to an additional 7,500,000 shares of Class A common stock (the “Option”). The Secondary Offering closed on July 11, 2025.
+In connection with and conditional upon the closing of the Secondary Offering, on July 11, 2025 the Company purchased from Intel 6,231,985 shares of Class A common stock (which shares were received upon the conversion of 6,231,985 shares of Class B common stock into Class A common stock) at a price of $16.04625 share, which is equal to the per share purchase price paid by the underwriters in the Secondary Offering pursuant to a share repurchase agreement with Intel (the “Share Repurchase”). The aggregate consideration paid by the Company for the Share Repurchase was $100 million. Upon closing of the Share Repurchase, the Company cancelled and retired the 6,231,985 shares of Class A common stock acquired pursuant to the Share Repurchase.
+Following the closing of the Share Repurchase, the underwriters exercised the Option (which shares were received upon the conversion of 7,500,000 shares of Class B common stock into Class A common stock), which closed on July 11, 2025. The Company did not sell any shares of Class A common stock in the Secondary Offering or in respect of the exercise of the Option, and did not receive any proceeds from the sale of shares offered by Intel in each instance.
+In addition to and conditional upon the closing of the Secondary Offering, Intel voluntarily converted pursuant to the Company’s Amended and Restated Certificate of Incorporation an additional 50,000,000 shares of Class B common stock to Class A common stock (the “Conversion”). The shares issued to Intel pursuant to the Conversion were issued pursuant to an exemption from registration pursuant to Section 3(a)(9) of the U.S. Securities Act of 1933. The Company received no proceeds from issuance of shares in the Conversion.
+The Company paid the costs associated with the registration of shares in connection with the Secondary Offering and the Option, other than underwriting discounts, fees and commissions.
+Upon completion of the Secondary Offering, Share Repurchase, Option and Conversion, Intel continues to directly or indirectly hold all of the Class B common stock of Mobileye as well as 50,000,000 shares of Class A common stock, which as of December 27, 2025, together represent approximately 79.5% of our outstanding common stock and 97.3% of the voting power of our common stock. Due to the issuance of shares of Class A common stock in connection with the Acquisition (as defined below), Intel beneficially owns approximately 77.0% of our outstanding common stock and 96.9% of the voting power of our outstanding common stock as of February 3, 2026.
+Acquisition of Mentee Robotics
+On February 3, 2026, the Company and Mobileye Vision Technologies Ltd. (a wholly-owned indirect subsidiary of the Company) acquired 100% of the issued and outstanding stock of Mentee Robotics Ltd. (“Mentee Robotics” and such transaction, the “Acquisition”), pursuant to a share purchase agreement dated as of January 5, 2026, by and among the Company, Mobileye Vision Technologies Ltd., Mentee Robotics, the shareholders of Mentee Robotics, and Shareholder Representative Services LLC, as the exclusive representative of the Mentee Robotics shareholders.
+78
+
+Table of Contents
+The Acquisition was approved by the Company’s Board of Directors (the “Board”), acting on the recommendation of a strategic transaction committee consisting of four disinterested directors (two of whom are independent). The Audit Committee of the Board also approved the Acquisition pursuant to the Company’s Related Persons Transaction Policy. Intel, as the sole beneficial holder of the Company’s issued and outstanding Class B common stock, also approved the Acquisition pursuant to the Company’s Amended and Restated Certificate of Incorporation. Prof. Amnon Shashua recused himself from the Board’s consideration and approval of the Acquisition. Prof. Shashua, President and CEO of the Company, is the Chairman, Co-Founder and a significant shareholder of Mentee Robotics, and Prof. Shai Shalev-Shwartz, Chief Technology Officer of the Company, is Co-Founder and a significant shareholder of Mentee Robotics (Prof. Shalev-Shwartz, together with Prof. Shashua and Prof. Lior Wolf, the Chief Executive Officer and a Co-Founder of Mentee Robotics, the “Mentee Founders”). In addition, Prof. Shashua’s son and son-in-law, are both employees of Mentee Robotics and each held vested and unvested options issued pursuant to Mentee Robotics’ employee incentive plan and therefore received some consideration pursuant to the terms of the Share Purchase Agreement.
+The Share Purchase Agreement provided for an aggregate purchase price of $900 million, which consisted of (i) approximately $612 million in cash (subject to certain adjustments,) and (ii) 26,279,824 shares of Class A common stock of the Company. The entirety of such Class A common stock was allocated to the Mentee Founders (the “Aggregate Stock Consideration”). 10% of the Aggregate Stock Consideration is subject to a six-month lock-up period pursuant to a Lock-Up Agreement. The remaining 90% of the Aggregate Stock Consideration was deposited with a deferred consideration trustee and will be released in equal portions twenty-four and forty-eight months after the closing date on February 3, 2026, subject to continued employment, or under certain circumstances affiliation, with the Company and its subsidiaries. Prof. Shashua received 37.83% of the total consideration, valued at approximately $341 million, to be paid evenly in cash and the Company’s Class A Stock, and Prof. Shalev-Shwartz received 13.07% of the total consideration, valued at approximately $118 million, to be paid evenly in cash and the Company’s Class A common stock.
+At the closing, $95 million of the purchase price was deposited with an escrow agent (provided that with respect to Mentee Founders, 50% of their pro rata portion of the escrow was deposited in the form of Class A common stock) to secure the post-closing purchase price adjustments and certain indemnification obligations of the shareholders of Mentee Robotics.
+Pursuant to the Share Purchase Agreement, (i) all vested options to acquire shares of Mentee Robotics (each option, a “Mentee Option”) and 20% of unvested Mentee Options were cancelled and converted into the right to receive a portion of the cash consideration based on the intrinsic value of such Mentee Options at the purchase price and (ii) all remaining unvested Mentee Options were cancelled and converted into the right to receive a number of unvested RSUs of the Company calculated based on the volume weighted average of the closing sale prices for the Company’s Class A common stock over the thirty (30) Trading Days ending immediately prior to February 3, 2026 and with a value equal to the intrinsic value of such Mentee Options at the purchase price.
+The Share Purchase Agreement contains customary representations, warranties and covenants of the Company, Mobileye Vision Technologies Ltd. and Mentee Robotics, certain of which (except for the representations and warranties of the Company) shall survive the closing of the Acquisition. The shareholders of Mentee Robotics have agreed to indemnify the Company and Mobileye Vision Technologies Ltd. for certain breaches of representations, warranties and covenants.
+Our Business Model
+We currently derive substantially all of our revenue from our commercially deployed ADAS solutions, including our Premium ADAS solutions. We are now approaching the start of production of an advanced set of solutions, including Mobileye Surround ADAS™, Mobileye SuperVision™, Mobileye Chauffeur™ and Mobileye Drive™. These solutions are propelled by our EyeQ™6 SOC and subsequent EyeQ™ generations, our next-generation software solutions, and our software-defined imaging radars. We expect these solutions will, over time, meaningfully contribute to changes in our mix of revenue and result in broader adoption of premium ADAS and AV products by our customers.
+We generate the majority of our revenue from the sale of our EyeQ™ SoCs to OEMs through sales to Tier 1 automotive suppliers. We typically sell our products with volume-based pricing and recognize the revenue and costs associated with our products upon shipment.
+We invest significant time and other resources early in the process of new program sourcing as part of our relationship with an OEM. We typically have visibility into the number of models that are expected to include our products at least two to three years in advance based on OEM information provided during the sourcing and nomination process, although there is no contractual commitment
+79
+
+Table of Contents
+by the OEM to purchase particular volumes, and programs are subject to changes with respect to timing and volumes. The revenue that we may recognize in any given year is attributable to program design wins in previous years.
+We partner with STMicroelectronics, a leading supplier and innovator of semiconductor devices for automotive applications, in manufacturing, design, and research and development. We have co-developed six generations of our automotive grade SoC, EyeQ™, with STMicroelectronics including EyeQ™5 and EyeQ™6. We have also established relationships with several suppliers, such as Quanta Computer, to develop and assemble our ECUs, including the design for our Mobileye SuperVision™, which includes our EyeQ™5 SoCs manufactured by STMicroelectronics. As part of an effort to establish redundancy and better control of our supply chain, we have sought additional qualified suppliers, and we have recently entered into an agreement with TSMC (Taiwan Semiconductor Manufacturing Company Ltd.) pursuant to which it will manufacture components of our imaging radar and some of our future generations of our EyeQ™ product, and potentially other future products.
+Our close partnership with Intel exists on multiple fronts. As a result of our relationship with Intel, we have access to unique and differentiating technologies. For example, we may license certain technologies from Intel that support the design and development of our software-defined imaging radar, including Intel’s mmWave technologies. Intel’s strength in government affairs and policy development around the world will continue to be of significant value to us as we collaborate with regulators who are preparing frameworks to enable commercial deployment of AVs.
+Key Factors Affecting Our Performance
+We believe there are several important factors that have affected and that we expect to continue to affect our results of operations:
+Global demand for automotive vehicles.
+ Our business performance is related to global automotive sales and automotive vehicle production by our OEM customers. Economic conditions in North America, Europe and Asia can have a large impact on the production volume of new vehicles, and, accordingly, have an impact on our revenue. Our OEM customers’ production can vary from period to period due to global demand, market conditions and competitive conditions, geopolitical issues including trade restrictions and tariffs, as well as other factors. For example, towards the end of the first half of 2024, global automotive production forecasts weakened, which disproportionately impacted our core customers, primarily due to their continued market share losses in China. We cannot be certain of the severity and length of the continued volatility in the global automotive market, including macro factors impacting our sales to OEMs in China, and the extent of the adverse effect that such volatility could have on our results of operations, financial condition and business in the long term. While automotive production has now recovered to approximately 2019 levels, current uncertain economic conditions and inflation may contribute to a reduction in consumer demand. In addition to economic conditions, in prior periods, including during the supply chain crisis and semi-conductor shortage of 2021 and 2022, certain Tier 1 customers increased their orders for components and parts, including our solutions, to counteract the impact of supply chain shortages for auto parts. As a result, some demand for our solutions and the corresponding revenue from these customers were shifted to earlier time periods than otherwise would have occurred absent a general supply chain shortage and inflationary environment. As a result of our standard planning process for 2024, including discussions with our Tier 1 customers, we became aware in late 2023 of significant excess inventory at our customers. This as well as lower than expected production at certain OEMs during 2023 led to the decision by our Tier 1 customers to prioritize in the first quarter of 2024 the utilization of excess inventory on hand before using new shipments to meet the demand of OEMs. We estimate our customers used the vast majority of this excess customer inventory in 2024 in accordance with our expectations, but there is no guarantee that orders will remain normalized or that our customers won’t build up excess inventory in the future. Further, recent increased demand for semi-conductor and other components has resulted in component shortages, price increases and longer order lead times, which may increase the pricing of our solutions and/or our ability to meet our customers’ demand. Certain Tier 1 customers may increase their orders for our solutions to counteract these component shortages and any resulting price increases or other impacts, causing some demand for our solutions and the corresponding revenue to be shifted to earlier time period than otherwise would have occurred. ADAS volumes have grown faster in recent years than the overall automotive market as ADAS penetration rates have increased, and we believe that we will continue to benefit from that trend. Our revenue of $1,894 million for the year ended December 27, 2025 was up 15% year-over-year, primarily due to the normalization of excess inventory by our Tier 1 customers that was previously used to satisfy demand during the first half of 2024. Continued or future constraints on global automotive production resulting from the effects of economic uncertainty, both global and in specific markets in which we operate, may be a limiting factor on our ability to increase revenue. We expect to continue to capitalize on our strong and collaborative relationships with OEMs and Tier 1s to expand our presence in key markets and capture the long-term growth opportunities in those markets.
+80
+
+Table of Contents
+Acquisition and integration of new technologies and expansion into adjacent markets.
+ Our results of operations may be affected by our ability to successfully integrate acquired businesses and technologies and to effectively allocate resources to new areas of development. On February 3, 2026, we acquired Mentee Robotics, a privately held Israeli company focused on humanoid robotics, which we expect to operate as an independent subsidiary in the short to medium term. The integration of Mentee Robotics’ personnel, technology and operations may require significant management attention, capital investment and operating expenses, and we may not realize the anticipated benefits of the acquisition on the expected timeline or at all. Humanoid robotics is a nascent and rapidly evolving area characterized by significant technical complexity, long development timelines, potentially high capital requirements, uncertain customer demand and evolving regulatory and safety frameworks. Our investment in this area may result in increased research and development and operating expenses and may divert resources from our core ADAS and autonomous driving initiatives. In addition, the timing and extent of commercialization of humanoid robotics solutions remains uncertain with respect to scalability, economic viability and regulatory approval. As a result, our expansion into adjacent markets, including through the acquisition of Mentee Robotics, may adversely affect our results of operations, margins and cash flows, particularly in the near to medium term.
+Trade policies, sanctions and import and export controls.
+ Trade policies, sanctions and import and export controls. Trade policies and international disputes at times result in increased tariffs, trade barriers and other restrictions, which can increase our manufacturing costs, make our solutions less competitive, reduce demand for our solutions, limit our ability to sell to certain customers, limit our ability to procure raw components or raw materials or impede or slow the movement of our goods across borders. In addition, tariffs could lead to higher prices for finished automobiles, which would reduce demand for automobiles and thus the market for our products.
+During 2025, the United States implemented a series of broad-based and sector-specific tariffs affecting passenger vehicles, automotive components and other industrial inputs, as well as country-specific tariff regimes and reciprocal trade measures. These actions were accompanied by ongoing bilateral and multilateral negotiations, interim trade agreements, pauses, delays and retaliatory measures by certain countries, resulting in significant uncertainty regarding the scope, timing and duration of applicable tariffs and export controls. In addition, sector-specific measures announced during 2025, including tariffs on certain raw materials, and export controls affecting the semiconductor supply chain, have increased complexity and risk across global automotive and technology markets.
+As of the date of this report, there remains a high degree of uncertainty surrounding U.S. trade policy, how it will be implemented, how other countries will react, and how it will ultimately impact our industry and business. For example, our customers may have shifted or will shift orders for components and parts, including our solutions, adjust sourcing strategies or modify productions schedules, which could shift demand for our solutions and corresponding revenue between periods. While we continually evaluate changes in U.S. trade policy and global reactions thereto, as well as our ability to mitigate their impact, these developments may negatively impact our customers, our results of operations and our business.
+Design wins with new and existing customers.
+ Global OEMs are continuously looking for innovative ways to improve the customer appeal and safety of their vehicles. Additional program design wins for production programs are important to our future revenue growth. However, the revenue generated by each design win and the time necessary to achieve a design win can vary significantly. To achieve program design wins, we must maintain our technological leadership and continue to deliver differentiated solutions versus our competition, including in-house technologies developed by our customers, through investment in research and development. Together with Tier 1 automotive suppliers, we work closely with OEMs to understand their solution requirements and have built close long-term relationships with them extending across multiple generations of EyeQ™ products, though there is no guarantee that our customers will purchase our solutions in any certain quantity or at any certain price even after we achieve design wins.
+Investment in technology leadership and product development.
+ We believe our ability to continue to develop and design highly advanced and cost-efficient ADAS and AV solutions will position us to extend our technology leadership and encourage greater adoption of our solutions by enabling greater levels of autonomy. We also believe that our roadmap for future generations of EyeQ™ SoCs and advanced systems will ultimately power autonomous driving solutions. The EyeQ™ family design further enables scalable ECU architectures, from supporting a variety of ADAS solution architectures to hosting the full workload of autonomous driving, while meeting stringent cost and power efficiency requirements. We expect that our software-defined imaging radar will provide a significant cost advantage by eliminating the need for multiple high-cost lidars around the vehicle and require only a single front-facing lidar, significantly lowering the overall cost of the required sensors compared to solutions that use lidar centric or lidar-only systems.
+81
+
+Table of Contents
+Regulation for ADAS and autonomous driving solutions.
+ Demand for our solutions is influenced by the impact of regulation and the ratings systems deployed by the various NCAPs, particularly the Euro NCAP and the U.S. NCAP, administered by the National Highway Traffic Safety Administration. As these NCAPs demand more ADAS applications such as automatic emergency braking, OEMs will increasingly include ADAS as a standard feature in their models to maintain or to achieve the highest safety ratings. In many countries, these safety assessments have created a “market for safety” as car manufacturers seek to demonstrate that their models satisfy the NCAPs’ highest ratings. We expect national NCAPs to continue to add specific ADAS applications to their evaluation items over the next several years, led by the Euro NCAP. In recent years, as regulatory requirements and NCAP ratings have increased, OEMs have also begun to highlight their safety features as a competitive advantage. As additional regulations are implemented around the world, we expect this to lead to increased global adoption of ADAS, and we believe that we are well positioned to benefit from such increasing safety regulations globally, particularly due to the verifiable nature of our current and future solutions.
+Fully autonomous vehicles are still nascent, and regulation of autonomous driving is evolving globally on both a local and national level. We believe that regulatory bodies will demand that AV undergo certain validation and audit requirements before autonomous driving is permitted. The potential impact of regulatory requirements and initiatives on the timing for widespread adoption of fully autonomous driving and on the cost of developing and introducing autonomous driving solutions is uncertain. RSS is our framework that informs our driving policy and formalizes a driving safety concept. Our RSS framework and decision-making engine have inspired a global standardization effort of AV safety including IEEE 2846, which is an industry working group that we lead. We are actively engaged in AV regulations globally as they have implications for the pace at which autonomous driving technologies may be deployed as well as which AV technology validation and audit requirements must be met. Importantly, we believe RSS, which is a pragmatic method that is architected to deliver a provably acceptable level of risk defined by governments, will facilitate standardization efforts worldwide as AV deployments accelerate. In addition to impacting the pace at which autonomous driving technologies are deployed, we expect regulations to impact our financial performance on an ongoing basis over time once autonomous driving gains market adoption. We cannot provide any assurance how any such regulations will impact us and the extent of such impact, particularly if autonomous driving is prohibited in certain areas.
+Consumer adoption of our ADAS and autonomous driving solutions.
+ Our financial performance is in part driven by public awareness and demand for ADAS solutions. Over time we expect autonomous driving solutions to contribute meaningfully to our revenue growth. As a result, consumers’ demand for, and willingness to adopt, ADAS and autonomous driving technologies, including robotaxi services, will significantly impact our financial performance. We believe that our leadership position in ADAS positions us to continue to set the standard for advanced autonomous solutions and will help us benefit from increasing consumer confidence in and demand for autonomous technology over time.
+Solution mix, pricing, and product costs.
+ Solution mix is among the most important factors affecting our revenue and gross margin, as our prices vary significantly across our solutions. The price of our solutions depends on the bundle of applications that are included in the specific product. Our solutions have different margin profiles. As we develop, bundle, and sell full systems that include third-party hardware beyond EyeQ™ SoCs, we expect that our gross margin will decrease on a percentage basis because of the greater third-party hardware content. However, as a result of a higher expected selling price for such systems, we expect our gross profit per unit will increase on a dollar basis.
+ASP varies based on a solution’s applications and complexity. As a particular solution matures and unit volumes increase, we expect its ASP to decline. In addition, there are generally step-downs in pricing over periods of production as volumes ramp up. While individual solution ASPs may decline, we seek to continually offer new features and functionality and increase the value that our solutions offer to OEM customers as we target new design win opportunities, manage the life cycles of existing solutions and create new ADAS categories with advanced features. We also are currently delivering full system solutions consisting of higher-function products such as SuperVision™ which carry significantly higher prices as compared to our single EyeQ™ SoC and cloud-enhanced ADAS products. We believe our differentiated and scalable solutions consistently enhanced by additional features can enable us to maintain or increase overall ASPs over time, as SuperVision™ and other advanced solutions become a larger portion of our product mix.
+The cost of input materials and manufacturing costs are significant factors affecting our gross margin. Material costs are affected by a variety of factors, including the availability of sufficient supply to meet market demand. For example, in late 2021, semiconductor fabrication costs increased as a result of a global supply shortage that began in 2020. We experienced increases in input costs in 2022 and 2023 as a result of supply chain shortages, including the global semiconductor shortage, and inflationary pressures. While we were largely successful in increasing our ASPs to reflect these cost increases, we experienced a reduction in percentage gross margin as a result of these cost increases. More recently, the AI industry has generated increased demand for components necessary for the
+82
+
+Table of Contents
+production of our solutions, including EyeQ™ SoCs and ECUs for our SuperVision™, Mobileye Chauffeur™ and Mobileye Drive™ solutions. This new demand has resulted in and may continue to result in shortages of components necessary for our solutions and substantial increases in prices for such components. Our gross margin has been and may continue to be affected by our ability to offset these and any future cost increases through realizing pricing increases on our solutions and achieving decreases in other production costs. We work closely with STMicroelectronics, Quanta Computer and other suppliers on a continuous basis to manage material costs, increase yields and improve manufacturing, assembly, and test costs.
+Supply and manufacturing capacity.
+ Our solutions are dependent on the global semiconductor supply chain. The continued and timely supply of input materials, the availability of manufacturing capacity, and packaging and testing services at reasonable prices impact our ability to meet customer demand. Supply chain disruptions, shortages of raw material, such as wafers and substrates, and manufacturing limitations could limit our ability to meet customer demand and result in delayed, reduced, or canceled orders. During 2021 and 2022, the semiconductor industry experienced widespread shortages of substrates and other components and available foundry manufacturing capacity. We entered 2022 with significantly lower inventories of our EyeQ™ SoCs on our balance sheet as a result of the limited supply during 2021. Further, STMicroelectronics, our sole supplier of EyeQ™ SoCs, was not able to meet our demand for EyeQ™ SoCs during 2022, causing a further significant reduction in our company-owned inventory level. Starting in late 2022 and early 2023, such supply chain disruptions, raw material shortages and manufacturing limitations abated and during 2023, we successfully increased levels of EyeQ™ SoC inventory on hand, mitigating the potential for future supply constraints to cause a shortfall of chips. However, in the event of a reoccurrence of supply chain constraints, and subject to the duration and severity thereof, we may be required to operate with minimal or no inventory of EyeQ™ SoCs or SuperVision™ ECUs on hand. As a result, we are substantially reliant on timely shipments of EyeQ™ SoCs from STMicroelectronics and ECUs from Quanta Computer (or other suppliers) and may in the future become reliant on additional suppliers such as TSMC, to fulfill customer orders and if such a shortfall of chips or ECUs were to occur, we may be unable to offset future supply constraints through the use of inventory on hand. Further, in 2025 and in 2026 the AI industry has generated increased demand for components necessary for the production of our solutions, including EyeQ™ SoCs and ECUs for our SuperVision™, Mobileye Chauffeur™ and Mobileye Drive™ solutions. This new demand has resulted in and may continue to result in shortages of components necessary for our solutions, substantial increases in prices for such components and suppliers requiring us to increase lead times and purchase greater quantities of such components in advance in order to ensure we secure sufficient supply. Such shortages of components, as well as the increases in pricing, order requirements and lead times, has and may continue to impact our ability to supply solutions to our customers in order to meet demand as well as impact OEMs’ ability to purchase our solutions. Our reliance on single or limited suppliers and vendors for certain components, equipment, and services and the aforementioned shortages of substrates and other components have led to increased supply chain risks and continue to stress our ability to meet the supply demands of our customers. To mitigate these supply chain constraints, management continues to monitor inventory levels on an ongoing basis. Although we cannot fully predict the length and the severity of the impact these pressures will have on a long-term basis, we do not anticipate that our current supply chain constraints would materially adversely affect our results of operations, capital resources, sales, profits, and liquidity on a long-term basis.
+Equity compensation expenses.
+ In connection with the Mobileye IPO, we established an equity incentive plan for purposes of granting share-based compensation awards to certain members of our senior management, to our non-employee directors and to employees, to incentivize their performance and align their interests with ours. Historically, grants of share-based compensation to our employees were made pursuant to Intel’s employee equity incentive plans, and such historical grants will continue to be based on their original vesting schedules. Equity compensation has been, and will continue to be, an important part of our future compensation strategy and a significant component of our future expenses, which we expect to increase over time.
+Intel Segment Reporting
+Certain of our financial results are presented as an operating segment within Intel’s publicly reported financial results. The financial results for us reported by Intel in its segment reporting may differ from our standalone financial results primarily due to Intel’s reporting of expenses related to certain corporate overhead functions and differences in the materiality thresholds applied to prepare consolidated financial results for Intel and for Mobileye on a standalone basis.
+83
+
+Table of Contents
+Components of Results of Operations
+Revenue
+We currently derive substantially all of our revenue from our commercially deployed ADAS solutions including our Premium ADAS solutions. We generate the majority of our revenue from the sale of our EyeQ™ SoCs to OEMs primarily through sales to Tier 1 automotive suppliers that implement our product into vehicles, in which case our direct customer is the Tier 1 automotive supplier that is responsible for paying us for our products. Because of the complex nature of our products and the need to customize and validate a product and to integrate it into the OEM’s overall ADAS system, we also have strong direct relationships with the OEMs.
+EyeQ™ SoC sales represented approximately 91% and 86% of our revenue for the years 2025 and 2024, respectively. Sales of our SuperVision™ product represented the majority of the remainder of our revenue for both 2025 and 2024. Revenue from the sale of our EyeQ™ products and SuperVision™ products is recognized at the time of product shipment from our facilities, as determined by the agreed-upon shipping terms. Our sales to any single Tier 1 automotive supplier typically cover more than one OEM and more than one production program from any OEM.
+Cost of Revenue
+Cost of revenue consists primarily of expenses associated with the manufacturing cost of our EyeQ™ SoCs and our SuperVision™ product, and amortization of acquired intangible assets, identified as developed technology. Additional costs are royalty fees for the intellectual property that is included in the EyeQ™ SoC, personnel-related expenses, logistics and insurance costs and allocated overhead costs. As we develop and sell full systems that include hardware beyond EyeQ™ SoCs, we expect that our gross margin will decrease over time because of the greater hardware content included in our solutions. However, as a result of a higher expected selling price for such systems, we expect our gross profit per unit will increase on a dollar basis in future periods.
+Research and Development Expenses, net
+Research and development expenses primarily consist of expenses associated with personnel related expenses, facilities, equipment and supplies for research and development activities, materials, parts and other prototype development, cloud computing services, consulting and other professional services, quality assurance within the development programs, and allocated overhead costs.
+We enter into best-efforts nonrefundable non-recurring engineering (“NRE”) arrangements pursuant to which we are reimbursed for a portion of the research and development expenses attributable to specific development programs. We do not receive any additional compensation or royalties upon completion of such projects and the potential customer does not commit to purchase the resulting product in the future. The participation reimbursement that we receive does not depend on whether there are future benefits from the project. All intellectual property generated from these arrangements are exclusively owned by us.
+We intend to continue our significant investment in research and development activities to attain our strategic objectives. Accordingly, we expect research and development expenses to increase in absolute dollars, but to gradually decrease as a percentage of total revenue. The expected increase is mainly due to additional research and development headcount and higher direct expenses that we expect to incur in connection with the development of our new EyeQ™ SoC generations, Premium Driver-Assist offerings and the investment in software and hardware infrastructure for our AV solutions and active sensor suite.
+Sales and Marketing Expenses
+Sales and marketing expenses consist primarily of expenses associated with the amortization of acquired intangible assets, comprised of customer relationships and brands, personnel-related expenses, including share-based compensation of our sales force, as well as marketing expenses and allocated overhead costs.
+We expect to increase our sales and marketing expenses over time, as we continue our efforts to increase market awareness of the benefits of our solutions, but we expect sales and marketing expenses to decrease as a percentage of total revenue as our business grows.
+84
+
+Table of Contents
+General and Administrative Expenses
+General and administrative expenses consist of personnel-related expenses, including share-based compensation of our executive, insurance costs, expenses associated with finance and legal departments, including legal and accounting fees, litigation expenses, and fees for professional and contract services.
+We expect our general and administrative expenses to moderately increase in absolute dollars but to decrease as a percentage of total revenue as our business grows. The expected increase is mainly associated with the costs related to being a public company, as well as the increased use of share-based compensation for general and administrative personnel.
+Goodwill Impairment
+Goodwill impairment expenses consist of a non-cash impairment loss recognized for the goodwill of the “Mobileye” reporting unit in the year ended December 28, 2024, as a result of the impairment analysis the Company performed during the third quarter of 2024.
+Financial Income (Expense), net
+Financial income (expense), net, consists primarily of income related to investments in money market funds, as well as income from short term deposits, fair value revaluation of equity investments and fluctuations in value due to foreign exchange differences between our monetary assets and liabilities denominated in New Israeli Shekels and to a much lesser extent, the Euro, the Chinese Yuan, the Japanese Yen, and other currencies.
+Benefit (provision) for income taxes
+Benefit (provision) for income taxes consists primarily of income taxes related to the United States, Israel and other foreign jurisdictions in which we conduct business. We also have incurred deferred tax liabilities with respect to tax amortization of certain acquired intangible assets. We are eligible for certain tax benefits in Israel under the Investment Law, at a reduced tax rate, subject to specified terms. In addition, in 2021, the OECD announced an Inclusive Framework on Base Erosion and Profit Shifting including Pillar Two Model Rules defining the global minimum tax, which calls for the taxation of large multinational corporations at a minimum rate of 15%. Subsequently, multiple sets of administrative guidance have been issued. Many non-US tax jurisdictions have either recently enacted legislation to adopt certain components of the Pillar Two Model Rules beginning in 2024 (including the European Union Member States), with the adoption of additional components in later years, or announced their plans to enact legislation in future years. In Israel, the regulations of Pillar Two Model Rules will become effective for tax years beginning after January 1, 2026. The Pillar Two Model Rules did not have a material effect on our income tax provision for the 2025 fiscal year. We are continuing to evaluate the impacts of enacted legislation and pending legislation to enact Pillar Two Model Rules in the non-US tax jurisdictions in which we operate. The Company is a constituent entity of its Parent for Pillar Two Model Rules purposes.
+In July 2025, the United States enacted tax reform through the One Big Beautiful Bill Act (“OBBBA”). Included in this legislation are provisions that allow for the immediate expensing of research and development costs conducted in the United States, immediate expensing of certain capital expenditures, and other changes to the U.S. taxation of profits derived from foreign operations. The Company is monitoring developments related to the implementation of the OBBBA and any additional guidance issued by the U.S. Department of the Treasury, the Internal Revenue Service, or other standard-setting bodies that may affect the Company’s accounting for income taxes. Based on information available at the end of the reporting period and management’s assessment of that information, the OBBBA does not have and is not expected to have a material impact on the Company’s consolidated financial statements.
+During the years presented in our consolidated financial statements, certain components of our business operations were included in the consolidated U.S. tax return filed by Intel. We also file certain foreign income tax returns on a separate basis, distinct from Intel. Following the Secondary Offering, which resulted in the Tax Deconsolidation (see Note 1 to the consolidated financial statements), the Company is no longer included in Intel’s U.S. federal consolidated income tax return and will be filing its own U.S. federal income tax returns for periods beginning July 12, 2025 onwards. Since prior to the Tax Deconsolidation, the Company’s income tax provision was calculated using the separate return method, as if the Company had filed its own U.S. federal income tax returns, the Tax Deconsolidation event does not have a material impact on the Company’s tax provision for the year ended December 27, 2025.
+In 2021, Mobileye’s Israeli operations became taxable in the United States as a branch entity. In 2022, Moovit’s Israeli operations became taxable in the United States as a branch entity. As a result, these operations are taxed both in the United States and Israel. For U.S. tax purposes, there are favorable future tax deductions that we have not benefited due to a valuation allowance position. If warranted, based on the assessment of verifiable evidence in support of the realization of deferred tax assets, the valuation allowances may be released, resulting in a tax benefit.
+85
+
+Table of Contents
+Realization of deferred tax assets is based on our judgment and various factors including reversal of deferred tax liabilities, the ability to generate future taxable income in jurisdictions where such assets have arisen, and potential tax planning strategies. The valuation allowance for the years presented in our consolidated financial statements primarily relates to U.S. branch deferred tax assets not currently expected to be realized given that we have sustained recent losses.
+Certain net operating losses and tax credit carry-forward tax attributes generated by the Company and reflected in these consolidated financial statements have been utilized as part of Intel’s consolidated income tax return filings in the periods prior to the Tax Deconsolidation. The Company’s post Tax Deconsolidation net operating loss carryforwards have been reflected in these consolidated financial statements and the Company will recognize a benefit for these net operating losses when determined to be realizable.
+Results of Operations
+The following table sets forth our results of operations in dollars and as a percentage of revenue for the periods indicated:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Year Ended
+ 
+​
+​
+December 27,
+  ​ ​ ​
+December 28,
+  ​ ​ ​
+December 30,
+​
+​
+​
+2025
+  ​ ​ ​
+2024
+  ​ ​ ​
+2023
+ 
+U.S. dollars in millions
+​
+Amount
+  ​ ​ ​
+% of Revenue
+​
+Amount
+  ​ ​ ​
+% of Revenue
+​
+Amount
+  ​ ​ ​
+% of Revenue
+ 
+Revenue
+​
+$
+ 1,894
+ 
+ 100
+%  
+$
+ 1,654
+ 
+ 100
+%  
+$
+ 2,079
+ 
+ 100
+%
+Cost of revenue
+​
+ 
+ 990
+ 
+ 52
+%  
+ 
+ 913
+ 
+ 55
+%  
+ 
+ 1,032
+ 
+ 50
+%
+Gross profit
+​
+ 
+ 904
+ 
+ 48
+%  
+ 
+ 741
+ 
+ 45
+%  
+ 
+ 1,047
+ 
+ 50
+%
+Operating expenses:
+​
+ 
+​
+ 
+​
+​
+ 
+​
+ 
+  ​
+​
+ 
+​
+ 
+  ​
+​
+Research and development, net
+​
+ 
+ 1,151
+ 
+ 61
+%  
+ 
+ 1,083
+ 
+ 65
+%  
+ 
+ 889
+ 
+ 43
+%
+Sales and marketing
+​
+ 
+ 113
+ 
+ 6
+%  
+ 
+ 118
+ 
+ 7
+%  
+ 
+ 118
+ 
+ 6
+%
+General and administrative
+​
+ 
+ 80
+ 
+ 4
+%  
+ 
+ 70
+ 
+ 4
+%  
+ 
+ 73
+ 
+ 4
+%
+Goodwill impairment
+​
+​
+ —
+​
+ —
+%  
+​
+ 2,695
+​
+ 163
+%  
+​
+ —
+​
+ —
+%  
+Total operating expenses
+​
+ 
+ 1,344
+ 
+ 71
+%  
+ 
+ 3,966
+ 
+ 240
+%  
+ 
+ 1,080
+ 
+ 52
+%
+Operating income (loss)
+​
+$
+ (440)
+ 
+ (23)
+%  
+$
+ (3,225)
+ 
+ (195)
+%  
+$
+ (33)
+ 
+ (2)
+%
+Financial income (expense), net
+​
+ 
+ 63
+ 
+ 3
+%  
+ 
+ 62
+ 
+ 4
+%  
+ 
+ 49
+ 
+ 2
+%
+Income (loss) before income taxes
+​
+ 
+ (377)
+ 
+ (20)
+%  
+ 
+ (3,163)
+ 
+ (191)
+%  
+ 
+ 16
+ 
+ 1
+%
+Benefit (provision) for income taxes
+​
+ 
+ (15)
+ 
+ (1)
+%  
+ 
+ 73
+ 
+ 4
+%  
+ 
+ (43)
+ 
+ (2)
+%
+Net income (loss)
+​
+$
+ (392)
+ 
+ (21)
+%  
+$
+ (3,090)
+ 
+ (187)
+%  
+$
+ (27)
+ 
+ (1)
+%
+(1)
+Includes amortization of acquired intangible assets, as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended
+​
+  ​ ​ ​
+December 27,
+  ​ ​ ​
+December 28,
+  ​ ​ ​
+December 30,
+U.S. dollars in millions
+​
+2025
+​
+2024
+​
+2023
+Cost of revenue
+​
+$
+ 377
+​
+$
+ 376
+​
+$
+ 406
+Sales and marketing
+​
+ 
+ 66
+​
+ 
+ 68
+​
+ 
+ 68
+Total amortization of acquired intangible assets
+​
+$
+ 443
+​
+$
+ 444
+​
+$
+ 474
+(2)
+Includes share-based compensation expense, as follows:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+  ​ ​ ​
+Year Ended
+​
+  ​ ​ ​
+December 27,
+  ​ ​ ​
+December 28,
+  ​ ​ ​
+December 30,
+U.S. dollars in millions
+​
+2025
+​
+2024
+​
+2023
+Cost of revenue
+​
+$
+ 2
+​
+$
+ 2
+​
+$
+ 2
+Research and development, net
+​
+ 
+ 239
+​
+ 
+ 244
+​
+ 
+ 212
+Sales and marketing
+​
+ 
+ 6
+​
+ 
+ 6
+​
+ 
+ 7
+General and administrative
+​
+ 
+ 30
+​
+ 
+ 27
+​
+ 
+ 31
+Total share-based compensation
+​
+$
+ 277
+​
+$
+ 279
+​
+$
+ 252
+​
+86
+
+Table of Contents
+Comparison of the years ended December 27, 2025 and December 28, 2024
+Revenue
+In 2025, revenue was $1,894 million, up $240 million, or 15%, compared to 2024. This increase in revenue was primarily due to an increase of $308 million, or 22%, in EyeQ™ SoC revenue attributable mainly to a 23% increase in volume, resulting mainly from the normalization of excess inventory by our Tier 1 customers that was previously used to satisfy demand during the first half of 2024. This was slightly offset by a decrease in SuperVision™ related revenue. Average System Price, calculated as the sum of revenue related to EyeQ™ and SuperVision™ systems divided by the number of systems delivered, decreased by 6% mainly due to lower percentage of SuperVision™ related revenue as compared to 2024.
+Cost of Revenue
+In 2025, our cost of revenue increased by $77 million, or 8%, compared to 2024. This increase was primarily due to an increase of $81 million in manufacturing costs relating primarily to the increase in sales of our EyeQ™ SoC which was partially offset by the decrease in sales of SuperVision™ systems.
+Gross Profit and margin
+In 2025, our gross profit increased by $163 million, or 22%, compared to 2024. This increase was primarily due to the increase in revenue from sales of EyeQ™ systems, which was slightly offset by the decrease in sales of SuperVision™ systems.
+Our gross margin increased from 45% during 2024, to 48% during 2025. This increase was primarily due to the lower impact of amortization of intangible assets as a percentage of revenue as well as an increase in the percentage of revenue attributable to EyeQ™ SoCs.
+Research and Development Expenses, net
+Research and development expenses, net, in 2025, increased by $68 million, or 6%, compared to 2024. This increase was primarily due to an increase in payroll and related expenses, resulting from an increase in average research and development headcount of 147 employees and the costs related to the reduction in workforce implemented during the fourth quarter of 2025. This was partially offset by a decrease in direct expenses including professional services mostly related to the wind-down of the Lidar R&D Unit that took place in 2024, in addition to lower share-based compensation.
+Sales and Marketing Expenses
+Sales and marketing expenses, in 2025, decreased by $5 million, or 4%, compared to 2024, mainly due to a decrease in payroll and related expenses due to the winding down of the Aftermarket Solutions Unit that took place in 2024, in addition to a decrease in amortization of intangible assets.
+General and Administrative Expenses
+General and administrative expenses in 2025 increased by $10 million, or 14%, compared to 2024. This increase was mainly due to an increase in legal and corporate expenses in addition to an increase in share-based compensation expenses.
+Goodwill Impairment
+Goodwill impairment expenses were zero in 2025 and $2,695 million in 2024. During the third quarter of 2024, the Company performed an interim quantitative goodwill impairment analysis for the “Mobileye” reporting unit, resulting in a non-cash impairment loss. For further details, see Note 10 to the Consolidated Financial Statements included in this report.
+87
+
+Table of Contents
+Financial Income (expense), net
+Financial income (expense) net in 2025, was $63 million compared to $62 million in 2024. This increase was mainly due to an increase in interest earned on short term bank deposits, partially offset by a decrease in interest earned on investments in money market funds and an increase in exchange rate differences expenses.
+Benefit (Provision) for Income Tax
+In 2025, the provision for income tax was $(15) million, compared to a benefit for income tax of $73 million in 2024. This change is mainly due to the deferred tax effects of $82 million attributed to goodwill impairment of the Mobileye reporting unit which was recognized in the prior year period.
+Comparison
+ of the years ended December 28, 2024 and December 30, 2023
+Revenue
+In 2024, revenue was $1,654 million, down $425 million, or 20%, compared to 2023. This decrease in revenue was primarily due to a decrease of $438 million, or 24%, in EyeQ™ SoC revenue attributable mainly to a 23% decrease in volume, which was primarily related to the previously disclosed meaningful build-up of inventory at our Tier 1 customers, including in the fourth quarter of 2023. The vast majority of this excess inventory was consumed to satisfy demand in the first half of 2024. This was offset by a slight increase in SuperVision™ related revenue.
+Cost of
+Revenue
+
+In 2024, our cost of revenue decreased by $119 million, or 12%, compared to 2023. This decrease was primarily due to a decrease of $87 million in manufacturing costs relating primarily due to the decrease in sales of our EyeQ™ SoC, in addition to a $30 million decrease in amortization expenses of intangible assets.
+Gross Profit
+and
+ Margin
+In 2024, our gross profit decreased by $306 million, or 29%, compared to 2023. The decrease was mainly due to the decrease in revenue from our EyeQ™ SoC sales, partially offset by the decrease in amortization expenses of intangible assets.
+Our gross margin decreased from 50% during 2023, to 45% during 2024. This decrease was mainly due to a higher impact of amortization of intangible assets as a percentage of revenues, as well as the impact of higher EyeQ™-related costs per unit due to mix effects.
+Research and Development Expenses, Net
+Research and development expenses, net, in 2024, increased by $194 million, or 22%, compared to 2023. This increase was primarily due to an increase in payroll and related expenses, resulting from an increase in average research and development headcount of 348 employees, and an increase in share-based compensation, which was partially offset by military duty reserve refunds from the state of Israel. In addition, there was an increase related to investments attributable to new product development and also an increase in depreciation costs associated with the new campus and additional sites.
+Sales and
+Marketing
+ Expenses
+Sales and marketing expenses in 2024 remained flat compared to 2023, mainly due to an increase in marketing expenses which was offset by a decrease in payroll and related expenses including share-based compensation which is mainly associated to the winding down of the Aftermarket Solutions Unit in 2024.
+General
+and
+ Administrative Expenses
+General and administrative expenses in 2024 decreased by $3 million, or 4%, compared to 2023. This decrease was mainly due to a decrease in legal and corporate expenses.
+88
+
+Table of Contents
+Goodwill Impairment
+Goodwill impairment expenses were $2,695 million in 2024 and zero in 2023. During the third quarter of 2024, the Company performed an interim quantitative goodwill impairment analysis for the “Mobileye” reporting unit, resulting in a non-cash impairment loss. For further details, refer to Note 10 to the Consolidated Financial Statements included in this report.
+Financial Income (Expense), net
+Financial income (expense), net in 2024, was $62 million compared to $49 million in 2023. This increase was mainly due to an increase in interest earned on short term bank deposits, a decrease in exchange rate differences expense and income from fair value revaluation of equity investments executed during 2024.
+Benefit (
+Provision
+) for Income Tax
+In 2024, benefit for income tax was $73 million, compared to a $(43) million provision for income tax in 2023. This change is mainly due to the deferred tax effects of goodwill impairment to the Mobileye reporting unit, as well as higher loss before income taxes in 2024.
+Liquidity and Capital Resources
+We believe we have sufficient sources of funding to meet our business requirements and plans for the next 12 months and in the longer term. Cash generated by operations is our primary source of liquidity for funding our strategic business requirements.
+Our primary uses of funds have been for funding increases in headcount in our research and development departments, investments attributable to new product development, as well as for funding our capital expenditures. Our capital expenditures have related mainly to data storage and other computer related equipment, expenditure related to research and development projects and to the construction of new sites were $79 million and $81 million for 2025 and 2024, respectively.
+To fund our cash requirements in the ordinary course of business, we anticipate that we will continue to primarily rely on operating cash flows, supplemented by our total cash and cash equivalents. We expect our total capital expenditures for 2026 to be higher compared to our total capital expenditures in 2025. We continue to invest in equipment related to the development of our next generation products. Our future capital requirements will depend on many factors, including our growth rate and the timing and extent of operating expenses.
+We have lease obligations and other contractual obligations and commitments as part of our ordinary course of business. We did not have during the periods presented, and we do not currently have, any off-balance sheet arrangements involving commitments or obligations, including contingent obligations, arising from arrangements with unconsolidated entities or persons that have or are reasonably likely to have a material current or future effect on our financial condition, results of operations, liquidity, cash requirements or capital resources.
+Cash Flows
+The following table sets forth certain consolidated statements of cash flow data:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended
+​
+  ​ ​ ​
+December 27,
+  ​ ​ ​
+December 28,
+  ​ ​ ​
+December 30,
+U.S. dollars in millions
+ 
+2025
+​
+2024
+​
+2023
+Net cash provided by operating activities
+​
+$
+ 602
+​
+$
+ 400
+​
+$
+ 394
+Net cash used in investing activities
+​
+ 
+ (91)
+​
+ 
+ (120)
+​
+ 
+ (98)
+Net cash used in financing activities
+​
+ 
+ (106)
+​
+ 
+ (66)
+​
+ 
+ (100)
+Effect of foreign exchange rate changes on cash and cash equivalents
+​
+ 
+ 17
+​
+ 
+ (2)
+​
+ 
+ (5)
+Increase in cash, cash equivalents and restricted cash
+​
+$
+ 422
+​
+$
+ 212
+​
+$
+ 191
+​
+89
+
+Table of Contents
+Operating activities
+For 2025 compared to 2024, the $202 million increase in cash provided by operating activities was mainly due to an increase in revenue as well as a decrease in inventories compared to an increase in the prior year period, partially offset by a decrease in trade accounts receivable compared to the prior year period.
+For 2024 compared to 2023, the $6 million increase in cash provided by operating activities was mainly due to a lower increase in inventories compared to the prior year period during which the company rebuilt its strategic inventory of EyeQ™ chips and a decrease in accounts receivable due to reduction in revenue. This was mostly offset by an increase of $3,063 million in net loss, which was adjusted by $2,695 million of non-cash goodwill impairment loss.
+Investing activities
+Net cash used in investing activities in 2025 was $91 million, consisting of capital expenditures and debt investments.
+Net cash used in investing activities in 2024 was $120 million, consisting mostly of capital expenditures and purchases of debt and equity investments.
+Net cash used in investing activities in 2023 was $98 million, consisting of capital expenditures in connection with the construction of our campus and electronic equipment.
+Financing activities
+Net cash used in financing activities in 2025 was $106 million, consisting of the $100 million Share Repurchase from Intel and share-based compensation recharge payments made to Intel.
+Net cash used in financing activities in 2024 and 2023 was $66 million and $100 million, respectively, consisting of share-based compensation recharge payments made to Intel.
+Liability in respect of employee rights upon retirement
+Israeli labor laws and agreements require severance payments upon dismissal of an employee or upon termination of employment in other circumstances. The severance pay liability with respect to Israeli employees is calculated pursuant to Israeli Severance Pay Law based on the most recent salary of the employees multiplied by the number of years of employment as of the balance sheet date.
+Our liability for all of our Israeli employees is covered by monthly deposits with severance pay funds. The value of the deposited funds is based on the cash surrender value of these policies and includes profits (or loss) accumulated through the balance sheet date. The deposited funds may be withdrawn only upon the fulfillment of the obligations pursuant to Israeli Severance Pay Law or labor agreements.
+The majority of our liability for severance pay is covered by the provisions of Section 14 of the Israeli Severance Pay Law (“Section 14”). Under Section 14 employees are entitled to monthly deposits, at a rate of 8.33% of their monthly salary, contributed by us on their behalf to their insurance funds. Payments in accordance with Section 14 release us from any future severance payments in respect of those employees. As a result, we do not recognize any liability for severance pay due to these employees and the deposits under Section 14 are not recorded as assets on the consolidated balance sheets.
+Severance pay liability increased from $62 million as of December 28, 2024, to $78 million and as of December 27, 2025, reflecting the impact of annual salary increases and fluctuations in foreign exchange rates.
+Lease liabilities
+We have lease agreements for vehicles and offices. We lease office space in various locations in Israel and around the world including USA, Germany and China. All leases are operating leases with fixed payment terms where some of the leases include annual increases to lease payments based on an index or a rate. Lease liabilities, representing the present value of future lease payments, have
+90
+
+Table of Contents
+increased from $50 million as of December 28, 2024 to $62 million as of December 27, 2025, reflecting mainly new lease contracts and foreign currency exchange effects, partially offset by the progress in lease payments for existing arrangements.
+Indebtedness
+We have several bank guarantees aggregating approximately $20 million as of December 27, 2025 (denominated in New Israeli Shekels) mainly in connection with lease agreements and import of vehicles.
+Non-GAAP Financial Measures
+Our management uses Adjusted Gross Profit and Margin, Adjusted Operating Income (Loss) and Margin and Adjusted Net Income (Loss), collectively, as key measures in operating our business. We use such non-GAAP financial measures to make strategic decisions, establish business plans and forecasts, identify trends affecting our business, and evaluate performance. For example, we use these non-GAAP financial measures to assess our pricing and sourcing strategy, in the preparation of our annual operating budget, and as a measure of our operating performance. We believe that these non-GAAP financial measures, when taken collectively, may be helpful to investors because they allow for greater transparency into what measures our management (and Intel’s management) uses in operating our business and measuring our performance, and enable comparison of financial trends and results between periods where items may vary independent of business performance. The non-GAAP financial measures are presented for supplemental informational purposes only, should not be considered a substitute for financial information presented in accordance with GAAP, and may be different from similarly titled non-GAAP measures used by other companies. A reconciliation is provided below for each non-GAAP financial measure to the most directly comparable financial measure presented in accordance with GAAP. Investors are encouraged to review the related GAAP financial measures and the reconciliation of these non-GAAP financial measures to their most directly comparable GAAP financial measures, as well as our consolidated financial statements and related notes included elsewhere in this report.
+We believe excluding items that neither relate to the ordinary course of business nor reflect our underlying business performance, such as the amortization of intangible assets, enables management and our investors to compare our underlying business performance from period-to-period. Accordingly, we believe these adjustments facilitate a useful evaluation of our current operating performance and comparison to our past operating performance and provide investors with additional means to evaluate cost and expense trends. In addition, we also believe these adjustments enhance comparability of our financial performance against those of other technology companies.
+Our non-GAAP financial measures reflect adjustments for amortization charges for our acquisition-related intangible assets, share-based compensation expense, impairment of goodwill as well as the related income tax effects where applicable. We exclude amortization charges for our acquisition-related intangible assets for purposes of calculating certain non-GAAP measures, although revenue is generated, in part, by these intangible assets, to eliminate the impact of these non-cash charges that are inconsistent in size and are significantly impacted by the timing and valuation of our acquisitions. We believe that the exclusion of share-based compensation expense is appropriate because it eliminates the impact of non-cash expenses for equity-based compensation costs that are based upon valuation methodologies and assumptions that vary over time, and the amount of the expense can vary significantly between companies due to factors that are unrelated to their core operating performance and that can be outside of their control. Although we exclude share-based compensation expenses from our non-GAAP measures, equity compensation has been, and will continue to be, an important part of our future compensation strategy and a significant component of our future expenses, and may increase in future periods. We believe that the exclusion of goodwill impairment is appropriate because it does not reflect our core operating performance, and excluding such non-cash impairment loss facilitates a useful evaluation of our performance and comparisons to past operating results.
+91
+
+Table of Contents
+Adjusted Gross Profit and Margin
+We define Adjusted Gross Profit as gross profit presented in accordance with GAAP, excluding amortization of acquisition related intangibles and share-based compensation expense. Adjusted Gross Margin is calculated as Adjusted Gross Profit divided by total revenue.
+Set forth below is the reconciliation of gross profit to Adjusted Gross Profit and the calculations of Gross Margin and Adjusted Gross Margin:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended
+ 
+​
+​
+December 27,
+​
+December 28,
+​
+December 30,
+ 
+​
+​
+2025
+​
+2024
+​
+2023
+ 
+​
+  ​ ​ ​
+​
+  ​ ​ ​
+% of
+  ​ ​ ​
+​
+  ​ ​ ​
+% of
+  ​ ​ ​
+​
+  ​ ​ ​
+% of
+ 
+U.S. dollars in millions
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+ 
+Gross Profit and Margin
+​
+$
+ 904
+ 
+ 48
+%  
+$
+ 741
+ 
+ 45
+%  
+$
+ 1,047
+ 
+ 50
+%
+Add: Amortization of acquired intangible assets
+​
+ 
+ 377
+ 
+ 20
+%  
+ 
+ 376
+ 
+ 23
+%  
+ 
+ 406
+ 
+ 20
+%
+Add: Share-based compensation expense
+​
+ 
+ 2
+ 
+ —
+%  
+ 
+ 2
+ 
+ —
+%  
+ 
+ 2
+ 
+ —
+%
+Adjusted Gross Profit and Margin
+​
+$
+ 1,283
+ 
+ 68
+%  
+$
+ 1,119
+ 
+ 68
+%  
+$
+ 1,455
+ 
+ 70
+%
+​
+Our Gross Margin (gross profit as a percentage of revenue) and Adjusted Gross Margin (Adjusted Gross Profit as a percentage of revenue) reflect the high value-added nature of our solutions. As we develop and sell full systems that include hardware beyond EyeQ™ SoCs, we expect that our Gross Margin and Adjusted Gross Margin will decrease over time because of the greater hardware content included in our solutions. However, as a result of a higher expected selling price for such systems, we expect our gross profit per unit will increase on a dollar basis.
+Our Adjusted Gross Margin was 68% both in 2024 and in 2025. This was due to a higher EyeQ™-related cost per unit given the different mix of EyeQ™ products sold which was fully offset by the higher percentage of revenue attributed to EyeQ™.
+Our Adjusted Gross Margin decreased from 70% for 2023 to 68% for 2024. The decrease was primarily due to the downward impact of the increased cost per unit of our EyeQ™ SoCs due to mix effects. The decrease was also related to higher percentage of revenue attributable to SuperVision™.
+Adjusted Operating Income (Loss) and Margin
+We define Adjusted Operating Income (Loss) as operating income (loss) presented in accordance with GAAP, adjusted to exclude amortization of acquisition related intangibles and share-based compensation expenses and impairment of goodwill. Operating Margin is calculated as operating income (loss) divided by total revenue, and Adjusted Operating Margin is calculated as Adjusted Operating Income (Loss) divided by total revenue.
+Set forth below is the reconciliation of operating income (loss) to Adjusted Operating Income (Loss) and the calculations of Operating Margin and Adjusted Operating Margin:
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended
+ 
+​
+​
+December 27,
+​
+December 28,
+​
+December 30,
+ 
+​
+​
+2025
+​
+2024
+​
+2023
+ 
+​
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+% of
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+% of
+  ​ ​ ​
+​
+​
+  ​ ​ ​
+% of
+ 
+U.S. dollars in millions
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+ 
+Operating Income (Loss) and Margin
+​
+$
+ (440)
+ 
+ (23)
+%  
+$
+ (3,225)
+ 
+ (195)
+%  
+$
+ (33)
+ 
+ (2)
+%
+Add: Amortization of acquired intangible assets
+​
+ 
+ 443
+ 
+ 23
+%  
+ 
+ 444
+ 
+ 27
+%  
+ 
+ 474
+ 
+ 23
+%
+Add: Share-based compensation expense
+​
+ 
+ 277
+ 
+ 15
+%  
+ 
+ 279
+ 
+ 17
+%  
+ 
+ 252
+ 
+ 12
+%
+Add: Goodwill impairment
+​
+​
+ —
+​
+ —
+%  
+​
+ 2,695
+​
+ 163
+%  
+​
+ —
+​
+ —
+%
+Adjusted Operating Income (Loss) and Margin
+​
+$
+ 280
+ 
+ 15
+%  
+$
+ 193
+ 
+ 12
+%  
+$
+ 693
+ 
+ 33
+%
+​
+92
+
+Table of Contents
+Our operating loss decreased by $2,785 million in 2025 compared to 2024, and increased by $3,192 million in 2024 compared to 2023, mainly as a result of the goodwill impairment loss recognized during the third quarter of 2024.
+Our Adjusted Operating Income increased by $87 million in 2025 compared to 2024, primarily due to an increase in adjusted gross profit, partially offset by higher operating expenses. Our Adjusted Operating Income decreased by $500 million in 2024 compared to 2023, primarily due to a reduction in revenue, and an increase in operating expenses.
+Our Adjusted Operating Margin increased from 12% in 2024 to 15% in 2025, primarily due to a lower impact of operating expenses as a percentage of revenue. Our Adjusted Operating Margin decreased from 33% in 2023 to 12% in 2024, primarily due to a higher operating expenses on a lower revenue base, in addition to lower Adjusted Gross Margin.
+We expect that our Adjusted Operating Margin in the mid-term future will increase compared to 2025, mainly due to an expected decrease in operating expenses as a percentage of revenue, taking into account an expected decrease in Adjusted Gross Margin over time as we develop and sell full system solutions contributing higher gross profit dollars per unit but lower percentage Gross Margin given the greater hardware content included in these systems.
+Adjusted Net Income (Loss)
+We define Adjusted Net Income (Loss) as net income (loss) presented in accordance with GAAP, adjusted to exclude amortization of acquisition related intangibles and share-based compensation expenses and impairment of goodwill, as well as the related income tax effects. Income tax effects have been calculated using the applicable statutory tax rate for each adjustment taking into consideration the associated valuation allowance impacts. The adjustment for income tax effects consists primarily of the deferred tax impact of the amortization of acquired intangible assets and impairment of goodwill.
+Set forth below is the reconciliation of net income (loss) to Adjusted Net Income (Loss):
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Year Ended
+ 
+​
+​
+December 27,
+​
+December 28,
+​
+December 30,
+ 
+​
+​
+2025
+​
+2024
+​
+2023
+ 
+​
+  ​ ​ ​
+​
+​
+​
+% of
+​
+​
+​
+​
+% of
+​
+​
+​
+​
+% of
+ 
+U.S. dollars in millions
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+​
+Amount
+​
+Revenue
+ 
+Net Income (Loss)
+​
+$
+ (392)
+ 
+ (21)
+%  
+$
+ (3,090)
+ 
+ (187)
+%  
+$
+ (27)
+ 
+ (1)
+%
+Add: Amortization of acquired intangible assets
+​
+ 
+ 443
+ 
+ 23
+%  
+ 
+ 444
+ 
+ 27
+%  
+ 
+ 474
+ 
+ 23
+%
+Add: Share-based compensation expense
+​
+ 
+ 277
+ 
+ 15
+%  
+ 
+ 279
+ 
+ 17
+%  
+ 
+ 252
+ 
+ 12
+%
+Add: Goodwill impairment
+​
+​
+ —
+​
+ —
+%  
+​
+ 2,695
+​
+ 163
+%  
+​
+ —
+​
+ —
+%  
+Less: Income tax effects
+​
+ 
+ (42)
+ 
+ (2)
+%  
+ 
+ (123)
+ 
+ (7)
+%  
+ 
+ (40)
+ 
+ (2)
+%
+Adjusted Net Income (Loss)
+​
+$
+ 286
+ 
+ 15
+%  
+$
+ 205
+ 
+ 12
+%  
+$
+ 659
+ 
+ 32
+%
+​
+Our net loss decreased by $2,698 million in 2025 compared to 2024, and increased by $3,063 million in 2024 compared to 2023, primarily due to the goodwill impairment loss recognized during the third quarter of 2024.
+Our Adjusted Net Income increased by $81 million in 2025 compared to 2024, primarily due to an increase in adjusted gross profit, partially offset by higher operating expenses. Our Adjusted Net Income decreased by $454 million in 2024 compared to 2023, primarily due to a reduction in revenue, and an increase in research and development expenses.
+We expect that our Adjusted Net Income (Loss) Margin (which is the Adjusted Net Income (Loss) divided by total revenue) in the mid-term future will increase compared to 2025, mainly due to an expected decrease in operating expenses as a percentage of revenue, taking into account an expected decrease in Adjusted Gross Margin over time as we develop and sell full systems solutions contributing higher gross profit dollars per unit but lower percentage Gross Margin given the greater hardware content included in these systems.
+Critical Accounting Policies and Estimates
+Our audited consolidated financial statements have been prepared in accordance with U.S. GAAP. The preparation of financial statements and related disclosures in conformity with U.S. GAAP and the Company’s discussion and analysis of its financial condition and operating results require the Company’s management to make judgments, assumptions and estimates that affect the amounts
+93
+
+Table of Contents
+reported. We base our assumptions, estimates and judgments on historical experience, current trends and other factors that management believes to be relevant at the time the estimate was made.
+We consider an accounting policy to be a critical estimate if: (1) we must make assumptions that were uncertain when the judgment was made, and (2) changes in the relevant estimate or assumptions, or selection of a different estimate methodology, could have a significant impact on our financial position or the results that we report in our consolidated financial statements.
+We believe that our estimates, assumptions, and judgments are reasonable in that they were based on information available when the estimates, assumptions and judgments were made. However, because future events and their effects cannot be determined with certainty, actual results could differ materially from those implied by our assumptions and estimates.
+On an ongoing basis, management evaluates its estimates, including those related to intangible assets, goodwill and deferred taxes. We base our estimates, assumptions and judgments on historical experience and on various other factors that we believe to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results may materially differ from the results implied by these estimates and judgments under different assumptions or conditions.
+Intangible Assets
+Our consolidated financial statements include acquisition-related intangible assets, consisting of developed technology and customer relationships and brands. The identification and recognition of those intangible assets involve significant judgments relating to, among other things, the projected cash flows attributable to these intangible assets and the estimated useful lives of these intangible assets. We amortize acquisition-related intangible assets that are subject to amortization over their estimated useful lives. The useful lives are determined by management at the time of acquisition, based on historical experience and the economic life of the underlying technology, and are regularly reviewed for appropriateness.
+We perform an annual review of significant finite-lived identified intangible assets to make a judgment on whether facts and circumstances indicate that the carrying amount may not be recoverable and an impairment may be required.
+These reviews can be affected by various factors, including external factors such as industry and economic trends, and internal factors such as changes in our business strategy and our forecasts for specific product lines.
+During the third quarter of 2024, we performed an impairment assessment of intangible assets and concluded that the sum of the expected future undiscounted cash flows expected to be generated by the intangible assets is substantially above their carrying amount and therefore no impairment was identified. The Company did not record any impairment of intangible assets for any of the periods presented.
+Goodwill
+We perform an annual impairment assessment of goodwill at the reporting unit level in the fourth quarter of each year, or more frequently if indicators of potential impairment exist. The analysis may include both qualitative and quantitative factors to assess the likelihood of impairment. Additionally, in accordance with ASC 350, we first assess qualitative factors to determine the existence of events or circumstances which indicate that it is more likely than not that the fair value of a reporting unit is less than its carrying amount. A quantitative impairment test is only required if we determine, based on the qualitative assessment, that it is more likely than not that a reporting unit’s fair value is less than its carrying amount.
+Qualitative factors include industry and market considerations, overall financial performance, and other relevant events and factors affecting the reporting unit.
+Our quantitative impairment test considers both the income approach and the market approach to estimate a reporting unit’s fair value. Significant estimates include business projections, growth rates, and discount rates based on a reporting unit’s weighted average cost of capital. The estimated fair value using a market approach is based on a number of assumptions, including current market capitalization as corroboration of fair value.
+94
+
+Table of Contents
+2024 Goodwill Impairment Test
+During the third quarter of 2024, the Company performed an interim quantitative goodwill impairment analysis for the “Mobileye” reporting unit due to a then recent decline in the share price of the Company’s Class A common stock and the corresponding decline in market capitalization, as well as macroeconomic and industry factors. The quantitative impairment test estimated the fair value of the reporting unit using an income approach. Significant inputs and assumptions incorporated in the valuation included business projections, terminal growth rate, and discount rate based on the reporting unit’s weighted average cost of capital.
+The Company also assessed the reasonableness of the estimated fair value of the reporting unit by comparison to its market capitalization, including consideration of expected acquirer synergies, control premium, and the current market.
+The results of the impairment analysis in 2024 indicated that the fair value of the Mobileye reporting unit was below its carrying amount and therefore a non-cash impairment loss of $2,695 million was recognized in the Consolidated Statements of Operations and Comprehensive Income (Loss).
+During the fourth quarter of 2024, we completed our annual impairment assessment. Based on the assessment, the fair value of the “Mobileye” reporting unit exceeded its book value. We also performed a detailed quantitative analysis for the “Other” reporting unit which showed that no impairment was required. Fair value was estimated using the expected present value of future cash flows and was categorized as Level 3 within the fair value hierarchy due to the use of unobservable inputs.
+2025 Goodwill Impairment Test
+During the fourth quarter of 2025, we completed our annual impairment assessment. For the “Mobileye” reporting unit, the assessment was performed using a quantitative test. The quantitative impairment test estimated the fair value of the reporting unit using an income approach. When using the income approach, we tested the reasonableness of the inputs and outcomes of our discounted cash flow analysis against available market data. Significant inputs and assumptions incorporated in the valuation included business projections, terminal growth rate, and discount rate based on the reporting unit’s weighted average cost of capital.
+The Company also assessed the reasonableness of the estimated fair value of the reporting unit by comparison to its market capitalization, including consideration of expected acquirer synergies, control premium, and the current market.
+Based on the assessment, no impairment was recorded.
+The results of the impairment analysis indicated that the fair value of the Mobileye reporting unit exceeded its carrying amount by less than 10%. Due to the inherent uncertainties involved in measuring fair value using an income approach, underlying assumptions may change in future periods. Unfavorable changes in certain of these key assumptions may affect future testing results, especially since the impairment loss recognized in 2024 reduced the headroom between the Mobileye reporting unit’s carrying mount and its estimated fair value.
+A 1% increase in the discount rate, while holding all other assumptions constant, would result in an impairment loss of approximately $834 million to the Mobileye reporting unit goodwill. A 0.5% decrease in the terminal growth rate while holding all other assumptions constant, would not result in an impairment loss to the Mobileye reporting unit goodwill.
+Due to the equity of the Company being above the market capitalization of the Company as of December 27, 2025, a further sustained decline in our share price and market capitalization may require further testing of our Mobileye reporting unit, which may result in an impairment.
+For the “Other” reporting unit, our annual goodwill impairment assessment was performed using a qualitative test and concluded that the fair value of the “Other” reporting unit substantially exceeds its book value.
+95
+
+Table of Contents
+Income Taxes
+The provision for income tax consists of income taxes in the various jurisdictions where the Company is subject to taxation, primarily the United States and Israel.
+Certain components of the Company’s business operations were included in the consolidated U.S. domestic income tax return filed by Intel. The Company also files various foreign income tax returns on a separate basis, distinct from Intel. Following the Secondary Offering, which resulted in the Tax Deconsolidation (see also Note 1
+General
+), the Company is no longer included in the Parent’s U.S. domestic consolidated federal and applicable state income tax returns and will be filing its own U.S. corporate income tax returns for periods beginning July 12, 2025 onwards. Prior to the Tax Deconsolidation event, the income tax provision included in the Company’s consolidated financial statements was calculated using the separate return method, as if the Company had filed its own U.S. corporate income tax returns.
+The Company had previously entered into a Tax Sharing Agreement with Intel, which was amended and restated on August 14, 2024 (the Tax Sharing Agreement, as amended, the “TSA”), and establishes the amount of cash payable for the Company’s share of the tax liability owed on consolidated tax return filings with Intel. For periods prior to the Tax Deconsolidation, any differences between taxes currently payable to Intel under the Tax Sharing Agreement and the current tax provision computed on a separate return basis, were reflected as adjustments to additional paid-in capital in the consolidated statement of changes in equity and financing activities within the consolidated statement of cash flows. As a result of the Tax Deconsolidation, starting July 12, 2025 the computation of cash payable between the Company and Intel, under the TSA, is no longer applicable with respect to U.S. federal and applicable state income taxes. Accordingly, starting July 12, 2025, Mobileye calculates and reports its U.S. federal and applicable state income tax liabilities as a standalone taxpayer and will no longer allocate or share tax attributes, liabilities nor benefits with its Parent as previously required under the TSA. For periods prior to Tax Deconsolidation, Mobileye and its Parent will continue to account for any outstanding tax sharing obligations in accordance with the terms of the TSA.
+Deferred tax assets and liabilities are recognized based on the future tax consequences attributable to temporary differences between the consolidated financial statement carrying amounts of existing assets and liabilities and their respective tax bases. We reduce the carrying amounts of deferred tax assets by a valuation allowance if, based on the available evidence, it is more likely than not that such assets will not be realized. Use of the term “more likely than not” indicates the likelihood of occurrence is greater than 50%.
+Accordingly, the need to establish valuation allowances for deferred tax assets is continually assessed based on a more-likely-than-not realization threshold. This assessment considers, among other matters, the nature, frequency and severity of current and cumulative losses, forecasts of profitability and taxable income, the duration of statutory carryforward periods, our experience with the utilization of operating loss and tax credit carryforwards before expiration and tax planning strategies. In making such judgments, significant weight is given to evidence that can be objectively verified.
+The Company recognizes tax benefits from uncertain tax positions only if it is more likely than not that the tax positions will be sustained on examination by the tax authorities, based on the technical merits of the position. The tax benefits recognized in the financial statements from such positions are measured based on the largest amount that is more than 50% likely to be realized upon ultimate settlement. The Company recognizes interest and penalties related to unrecognized tax benefits within the Benefit (provision) for income taxes on the Consolidated Statements of Operations and Comprehensive Income (Loss).
+For additional information regarding income taxes, see Note 8 to the Consolidated Financial Statements included in this report.
+New Accounting Pronouncements
+See “Note 2 - Significant Accounting Policies” to our consolidated financial statements included elsewhere in this report for information on new accounting pronouncements.
+96
+
+Table of Contents

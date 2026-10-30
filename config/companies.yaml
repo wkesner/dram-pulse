@@ -46,6 +46,13 @@ companies:
     krx_code: "005930"
     tier: 1
 
+  - name: Hyundai Mobis
+    role: buyer
+    source: DART
+    ticker: "012330"
+    krx_code: "012330"
+    tier: 1
+
   - name: Apple
     role: buyer
     source: EDGAR
@@ -511,6 +518,68 @@ companies:
     forms:
       - 20-F
       - 6-K
+
+  # --- Automotive Tier-1 CMs / mega-suppliers (EDGAR) ---
+  # Role=buyer: they procure semis/memory for vehicle electronics / modules.
+  # Skip private (ZF, Bosch, Yazaki, Benteler) and DE/FR portal-only names
+  # (Continental, Valeo, Forvia) — leave those to BaFin/UREG/AMF agents.
+
+  - name: Magna International
+    role: buyer
+    source: EDGAR
+    ticker: MGA
+    tier: 1
+    forms:
+      - 40-F
+      - 6-K
+
+  - name: Aptiv
+    role: buyer
+    source: EDGAR
+    ticker: APTV
+    tier: 1
+
+  - name: Lear
+    role: buyer
+    source: EDGAR
+    ticker: LEA
+    tier: 1
+
+  - name: Adient
+    role: buyer
+    source: EDGAR
+    ticker: ADNT
+    tier: 2
+
+  - name: Autoliv
+    role: buyer
+    source: EDGAR
+    ticker: ALV
+    tier: 2
+
+  - name: BorgWarner
+    role: buyer
+    source: EDGAR
+    ticker: BWA
+    tier: 2
+
+  - name: Visteon
+    role: buyer
+    source: EDGAR
+    ticker: VC
+    tier: 2
+
+  - name: Dana
+    role: buyer
+    source: EDGAR
+    ticker: DAN
+    tier: 2
+
+  - name: Mobileye
+    role: buyer
+    source: EDGAR
+    ticker: MBLY
+    tier: 2
 
   - name: TE Connectivity
     role: supplier
@@ -1681,6 +1750,32 @@ companies:
     source: EDINET
     ticker: "6806"
     tier: 3
+
+  # Automotive Tier-1 / Toyota-orbit (EDINET). OTC ADRs are F-6 only — no
+  # usable EDGAR 20-F/6-K. Filings fetched with EDINET_API_KEY on keyed VM.
+  - name: Denso
+    role: buyer
+    source: EDINET
+    ticker: "6902"
+    tier: 1
+
+  - name: Aisin
+    role: buyer
+    source: EDINET
+    ticker: "7259"
+    tier: 2
+
+  - name: Sumitomo Electric
+    role: buyer
+    source: EDINET
+    ticker: "5802"
+    tier: 2
+
+  - name: Toyota Tsusho
+    role: buyer
+    source: EDINET
+    ticker: "8015"
+    tier: 2
 
   # --- Companies House (UK; requires COMPANIES_HOUSE_API_KEY) ---
   # LSE RNS / FCA NSM documented separately. UK deferred for supply-signal yield.

@@ -1,0 +1,30 @@
+{
+  "company": "Magna International",
+  "ticker": "MGA",
+  "role": "buyer",
+  "tier": 1,
+  "cik": "0000749098",
+  "form": "6-K",
+  "filing_date": "2026-02-19",
+  "accession_number": "0001171843-26-000933",
+  "primary_document": "f6k_021926.htm",
+  "primary_doc_description": "FORM 6-K",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/749098/000117184326000933/f6k_021926.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2026-02-19",
+  "period_end": "2026-02-19",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "fetched_at": "2026-10-30T16:43:36.489020+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/MGA/000117184326000933/primary.html",
+    "other": "data/raw/MGA/000117184326000933/other_full.txt"
+  }
+}

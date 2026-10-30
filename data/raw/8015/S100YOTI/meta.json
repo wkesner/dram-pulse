@@ -1,0 +1,24 @@
+{
+  "company": "Toyota Tsusho",
+  "ticker": "8015",
+  "role": "buyer",
+  "source": "EDINET",
+  "form": "訂正有価証券報告書－第103期(2023/04/01－2024/03/31)",
+  "filing_date": "2026-07-06",
+  "accession_number": "S100YOTI",
+  "filing_id": "S100YOTI",
+  "edinet_code": "E02505",
+  "sec_code": "80150",
+  "doc_type_code": "130",
+  "title": "訂正有価証券報告書－第103期(2023/04/01－2024/03/31)",
+  "source_url": "https://disclosure2.edinet-fsa.go.jp/WEBSITE/download?docid=S100YOTI",
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "ja",
+  "fetched_at": "2026-10-30T17:00:18.478254+00:00",
+  "paths": {
+    "other_full": "data/raw/8015/S100YOTI/other_full.txt",
+    "document_zip": "data/raw/8015/S100YOTI/document.zip"
+  }
+}
