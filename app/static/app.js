@@ -314,11 +314,50 @@
     });
   }
 
+  // Client-side EN supply/commodity phrases — paints yellow even if API
+  // matched_terms_en is missing (partial deploy / cached signals).
+  const EN_HIGHLIGHT_GLOSSARY = [
+    "capacity utilization rate",
+    "capacity utilization",
+    "production capacity",
+    "packaging capacity",
+    "wafer capacity",
+    "full capacity",
+    "at full capacity",
+    "fully loaded",
+    "supply shortage",
+    "component shortage",
+    "price increases",
+    "price increase",
+    "rising prices",
+    "wafer equivalents",
+    "wafer equivalent",
+    "equivalent wafers",
+    "utilization",
+    "undersupply",
+    "oversupply",
+    "allocation",
+    "shortages",
+    "shortage",
+    "capacity",
+    "crystals",
+    "crystal",
+    "wafers",
+    "wafer",
+    "foundry",
+    "supply",
+    "demand",
+    "pricing",
+    "prices",
+    "price",
+    "full",
+  ];
+
   function highlight(text, terms) {
     const frag = document.createDocumentFragment();
     const raw = String(text || "");
     const lower = raw.toLowerCase();
-    // Only terms that actually occur in this text (EN view uses matched_terms_en).
+    // Only terms that actually occur in this text.
     // Cap size so the RegExp stays reliable in the browser.
     const ts = [...new Set(
       (terms || [])
@@ -343,11 +382,20 @@
     for (const m of raw.matchAll(re)) {
       if (m.index > last) frag.append(raw.slice(last, m.index));
       // Same yellow highlight as original-language matches (.excerpt mark.term-hl).
-      frag.append(el("mark", "term-hl", m[0]));
+      const mark = el("mark", "term-hl", m[0]);
+      mark.style.background = "#fbe9a6";
+      mark.style.color = "#172026";
+      mark.style.borderRadius = "2px";
+      mark.style.padding = "0 1px";
+      frag.append(mark);
       last = m.index + m[0].length;
     }
     if (last < raw.length) frag.append(raw.slice(last));
     return frag;
+  }
+
+  function englishHighlightTerms(preferred) {
+    return [...(preferred || []), ...EN_HIGHLIGHT_GLOSSARY];
   }
 
   function railFilteredSignals({ ignoreTier = false } = {}) {
@@ -473,9 +521,10 @@
       ex.replaceChildren();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
       // Original: source-language matched_terms.
-      // English: matched_terms_en only (never fall back to CJK — those won't match).
+      // English: API matched_terms_en + client EN glossary (always paint crystals /
+      // capacity utilization rate / full when present — even if API field missing).
       if (showEnglish && excerptEn) {
-        ex.append(highlight(text, termsEn));
+        ex.append(highlight(text, englishHighlightTerms(termsEn)));
       } else {
         ex.append(highlight(text, terms));
       }
