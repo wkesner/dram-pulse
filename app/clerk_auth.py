@@ -21,8 +21,8 @@ from jwt import PyJWKClient
 
 from src.envutil import load_dotenv
 
-# Short-lived ticket after a correct SIGNUP_INVITE_KEY (lets SignUp mount once).
-INVITE_TICKET_TTL_SECONDS = 15 * 60
+# Ticket after a correct SIGNUP_INVITE_KEY (covers multi-step Clerk SignUp).
+INVITE_TICKET_TTL_SECONDS = 60 * 60
 
 
 @dataclass(frozen=True)

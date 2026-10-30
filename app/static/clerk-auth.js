@@ -4,10 +4,14 @@
  * AUTH_MODE=single + APP_ACCESS_TOKEN → shared secret (Bearer / X-App-Token).
  * Aligns with Clerk JS CDN quickstart (clerk-js@6 + @clerk/ui):
  * https://clerk.com/docs/js-frontend/getting-started/quickstart
+ *
+ * Signup invite: SIGNUP_INVITE_KEY is verified once; the ticket + authView are
+ * persisted so Clerk SignUp can finish without a remount that wipes the form.
  */
 (() => {
   const APP_TOKEN_KEY = "ms-app-access-token";
   const INVITE_TICKET_KEY = "ms-signup-invite-ticket";
+  const AUTH_VIEW_KEY = "ms-auth-view";
 
   const state = {
     mode: "single",
@@ -22,9 +26,33 @@
     requiresSignupInvite: false,
     appToken: null,
     inviteTicket: null,
-    authPanel: "signin", // signin | invite | signup
+    authView: "signin", // signin | invite | signup
     authenticated: false,
+    /** Last gate render key — skip DOM tear-down when unchanged. */
+    _gateKey: null,
   };
+
+  function storageGet(key) {
+    try {
+      return (sessionStorage.getItem(key) || localStorage.getItem(key) || "").trim();
+    } catch {
+      return "";
+    }
+  }
+
+  function storageSet(key, value) {
+    try {
+      if (value) {
+        sessionStorage.setItem(key, value);
+        localStorage.setItem(key, value);
+      } else {
+        sessionStorage.removeItem(key);
+        localStorage.removeItem(key);
+      }
+    } catch {
+      /* ignore */
+    }
+  }
 
   async function loadConfig() {
     const resp = await fetch("/api/config");
@@ -76,7 +104,6 @@
     if (!fapi) fapi = frontendApiFromPublishableKey(publishableKey);
     if (!fapi) throw new Error("cannot resolve Clerk Frontend API host");
 
-    // Official CDN pattern: UI bundle then clerk-js@6 with data-clerk-publishable-key
     if (!window.__internal_ClerkUICtor) {
       await loadScript(
         `https://${fapi}/npm/@clerk/ui@1/dist/ui.browser.js`
@@ -119,37 +146,35 @@
   }
 
   function readStoredAppToken() {
-    try {
-      return (sessionStorage.getItem(APP_TOKEN_KEY) || "").trim();
-    } catch {
-      return "";
-    }
+    return storageGet(APP_TOKEN_KEY);
   }
 
   function writeStoredAppToken(token) {
-    try {
-      if (token) sessionStorage.setItem(APP_TOKEN_KEY, token);
-      else sessionStorage.removeItem(APP_TOKEN_KEY);
-    } catch {
-      /* ignore */
-    }
+    storageSet(APP_TOKEN_KEY, token || "");
   }
 
   function readInviteTicket() {
-    try {
-      return (sessionStorage.getItem(INVITE_TICKET_KEY) || "").trim();
-    } catch {
-      return "";
-    }
+    return storageGet(INVITE_TICKET_KEY);
   }
 
   function writeInviteTicket(ticket) {
-    try {
-      if (ticket) sessionStorage.setItem(INVITE_TICKET_KEY, ticket);
-      else sessionStorage.removeItem(INVITE_TICKET_KEY);
-    } catch {
-      /* ignore */
-    }
+    storageSet(INVITE_TICKET_KEY, ticket || "");
+  }
+
+  function readAuthView() {
+    const v = storageGet(AUTH_VIEW_KEY);
+    return v === "invite" || v === "signup" || v === "signin" ? v : "";
+  }
+
+  function writeAuthView(view) {
+    state.authView = view;
+    storageSet(AUTH_VIEW_KEY, view || "");
+  }
+
+  function clearSignupProgress() {
+    writeInviteTicket("");
+    writeAuthView("signin");
+    state.inviteTicket = null;
   }
 
   async function verifyInviteKey(key) {
@@ -212,6 +237,33 @@
     });
   }
 
+  /** Stable key for the auth gate — remount only when this changes. */
+  function gateRenderKey() {
+    if (!state.requiresAuth) return "open";
+    if (state.mode === "clerk") {
+      if (state.clerk?.user && state.orgId) return "clerk:ready";
+      if (state.clerk?.user) return "clerk:need-org";
+      // Keep SignUp mounted across Clerk client events during multi-step signup.
+      return `clerk:anon:${state.authView}`;
+    }
+    if (state.requiresAppToken && !state.appToken) return "single:token";
+    return "open";
+  }
+
+  function clerkComponentOpts(extra) {
+    // Hash routing keeps multi-step SignUp/SignIn in-page (no full reload that
+    // would wipe invite ticket / remount progress).
+    return Object.assign(
+      {
+        routing: "hash",
+        // Stay on this origin after completion; listener advances the gate.
+        forceRedirectUrl: window.location.origin + "/",
+        fallbackRedirectUrl: window.location.origin + "/",
+      },
+      extra || {}
+    );
+  }
+
   function renderAuthGate({ title, body, showTokenForm, clerkPanel }) {
     const gate = document.getElementById("auth-gate");
     if (!gate) return;
@@ -253,7 +305,6 @@
         const tok = (input.value || "").trim();
         err.hidden = true;
         if (!tok) return;
-        // Probe a gated endpoint before unlocking the shell.
         const probe = await fetch("/api/meta", {
           headers: {
             Authorization: "Bearer " + tok,
@@ -271,6 +322,7 @@
         state.appToken = tok;
         writeStoredAppToken(tok);
         state.authenticated = true;
+        state._gateKey = null;
         applyAuthGate();
         if (typeof window.__msOnAuthChange === "function") {
           window.__msOnAuthChange();
@@ -298,7 +350,10 @@
     signInTab.type = "button";
     signInTab.className = "auth-mode-tab";
     signInTab.textContent = "Sign in";
-    signInTab.setAttribute("aria-selected", state.authView === "signin" ? "true" : "false");
+    signInTab.setAttribute(
+      "aria-selected",
+      state.authView === "signin" ? "true" : "false"
+    );
 
     const createTab = document.createElement("button");
     createTab.type = "button";
@@ -310,22 +365,25 @@
     );
 
     signInTab.addEventListener("click", () => {
-      state.authView = "signin";
+      writeAuthView("signin");
+      state._gateKey = null;
       applyAuthGate();
     });
     createTab.addEventListener("click", async () => {
       if (!state.requiresSignupInvite) {
-        state.authView = "signup";
+        writeAuthView("signup");
+        state._gateKey = null;
         applyAuthGate();
         return;
       }
       createTab.disabled = true;
       try {
         const ok = await ensureInviteTicketForSignup();
-        state.authView = ok ? "signup" : "invite";
+        writeAuthView(ok ? "signup" : "invite");
       } finally {
         createTab.disabled = false;
       }
+      state._gateKey = null;
       applyAuthGate();
     });
     tabs.append(signInTab, createTab);
@@ -336,16 +394,15 @@
     wrap.append(mount);
 
     if (state.authView === "signin") {
-      // Hide Clerk's built-in "Sign up" footer — we own Create account + invite.
       const hideSignupFooter = state.requiresSignupInvite
         ? { elements: { footerAction: { display: "none" } } }
         : undefined;
       queueMicrotask(() => {
-        if (state.clerk) {
-          state.clerk.mountSignIn(mount, {
-            appearance: hideSignupFooter,
-          });
-        }
+        if (!state.clerk) return;
+        state.clerk.mountSignIn(
+          mount,
+          clerkComponentOpts({ appearance: hideSignupFooter })
+        );
       });
       return wrap;
     }
@@ -383,7 +440,8 @@
           const ticket = await verifyInviteKey(key);
           state.inviteTicket = ticket;
           writeInviteTicket(ticket);
-          state.authView = "signup";
+          writeAuthView("signup");
+          state._gateKey = null;
           applyAuthGate();
         } catch (e) {
           err.hidden = false;
@@ -396,16 +454,21 @@
       return wrap;
     }
 
-    // signup
+    // signup — invite already verified (or not required)
     const note = document.createElement("p");
     note.className = "auth-gate-lede";
     note.textContent = state.requiresSignupInvite
-      ? "Invite verified. Create your account with email and password."
+      ? "Invite verified. Create your account with email and password — stay on this page through confirm."
       : "Create your account with email and password.";
     mount.append(note);
 
     const mountSignUpNow = () => {
-      if (state.clerk) state.clerk.mountSignUp(mount);
+      if (!state.clerk) return;
+      // Empty the note-only mount node before Clerk owns it? Keep note as sibling.
+      const host = document.createElement("div");
+      host.id = "auth-gate-clerk-signup";
+      mount.append(host);
+      state.clerk.mountSignUp(host, clerkComponentOpts({}));
     };
 
     if (!state.requiresSignupInvite) {
@@ -413,11 +476,11 @@
       return wrap;
     }
 
-    // Re-check ticket right before mounting SignUp (covers expired sessionStorage).
     queueMicrotask(async () => {
       const ok = await ensureInviteTicketForSignup();
       if (!ok) {
-        state.authView = "invite";
+        writeAuthView("invite");
+        state._gateKey = null;
         applyAuthGate();
         return;
       }
@@ -437,9 +500,25 @@
     return true;
   }
 
-  function applyAuthGate() {
+  function applyAuthGate(opts) {
+    const force = Boolean(opts && opts.force);
     state.authenticated = isAuthenticated();
     const gate = document.getElementById("auth-gate");
+    const key = gateRenderKey();
+
+    // Skip tear-down/remount when the gate state is unchanged (critical during
+    // Clerk SignUp password → confirm steps — listener fires often).
+    if (!force && key === state._gateKey) {
+      if (key === "clerk:ready" || key === "open") {
+        setShellVisible(true);
+        if (gate) gate.hidden = true;
+      } else if (key.startsWith("clerk:") || key === "single:token") {
+        setShellVisible(false);
+        if (gate) gate.hidden = false;
+      }
+      return state.authenticated;
+    }
+    state._gateKey = key;
 
     if (!state.requiresAuth) {
       if (gate) gate.hidden = true;
@@ -448,26 +527,14 @@
     }
 
     if (state.mode === "clerk") {
-      if (!state.clerk?.user) {
-        setShellVisible(false);
-        // Never mount SignUp without a live invite ticket when required.
-        if (
-          state.authView === "signup" &&
-          state.requiresSignupInvite &&
-          !(state.inviteTicket || readInviteTicket())
-        ) {
-          state.authView = "invite";
-        }
-        renderAuthGate({
-          title: "Sign in to EC Signals",
-          body: state.requiresSignupInvite
-            ? "Sign in with an existing account, or create one with an invite key plus email and password."
-            : "A Clerk account and organization are required to view signals, votes, and broker sims.",
-          clerkPanel: true,
-        });
-        return false;
+      if (state.clerk?.user && state.orgId) {
+        clearSignupProgress();
+        if (gate) gate.hidden = true;
+        setShellVisible(true);
+        return true;
       }
-      if (!state.orgId) {
+      if (state.clerk?.user) {
+        // Signed in but no org — invite no longer needed.
         setShellVisible(false);
         renderAuthGate({
           title: "Select an organization",
@@ -475,9 +542,24 @@
         });
         return false;
       }
-      if (gate) gate.hidden = true;
-      setShellVisible(true);
-      return true;
+
+      setShellVisible(false);
+      if (
+        state.authView === "signup" &&
+        state.requiresSignupInvite &&
+        !(state.inviteTicket || readInviteTicket())
+      ) {
+        writeAuthView("invite");
+        state._gateKey = gateRenderKey();
+      }
+      renderAuthGate({
+        title: "Sign in to EC Signals",
+        body: state.requiresSignupInvite
+          ? "Sign in with an existing account, or create one with an invite key plus email and password."
+          : "A Clerk account and organization are required to view signals, votes, and broker sims.",
+        clerkPanel: true,
+      });
+      return false;
     }
 
     if (state.requiresAppToken && !state.appToken) {
@@ -505,7 +587,6 @@
     row.className = "clerk-row";
 
     if (!clerk.user) {
-      // Full-page gate owns SignIn; keep chrome empty while signed out.
       host.append(row);
       return;
     }
@@ -531,6 +612,22 @@
     }
   }
 
+  function restoreAuthViewFromStorage() {
+    const saved = readAuthView();
+    const ticket = readInviteTicket();
+    if (ticket && saved !== "signin") {
+      // Resume Create account after reload mid SignUp (password → confirm).
+      state.inviteTicket = ticket;
+      writeAuthView("signup");
+      return;
+    }
+    if (saved) {
+      writeAuthView(saved);
+      return;
+    }
+    writeAuthView("signin");
+  }
+
   async function init() {
     const cfg = await loadConfig();
     state.mode = cfg.auth_mode || "single";
@@ -539,13 +636,14 @@
     state.requiresSignupInvite = Boolean(cfg.requires_signup_invite);
     state.appToken = state.requiresAppToken ? readStoredAppToken() : null;
     state.inviteTicket = state.requiresSignupInvite ? readInviteTicket() : null;
-    state.authView = "signin";
+    restoreAuthViewFromStorage();
+    state._gateKey = null;
     window.__msAuth = state;
 
     const singleUser = document.querySelector("label.user");
     if (state.mode !== "clerk") {
       if (singleUser) singleUser.hidden = false;
-      applyAuthGate();
+      applyAuthGate({ force: true });
       state.ready = true;
       return {
         mode: "single",
@@ -579,14 +677,22 @@
     state.clerk = clerk;
     await refreshSession(clerk);
     mountChrome(clerk);
-    applyAuthGate();
+    applyAuthGate({ force: true });
     state.ready = true;
 
     clerk.addListener(async () => {
+      const prevUser = state.userId;
+      const prevOrg = state.orgId;
       await refreshSession(clerk);
-      mountChrome(clerk);
+      // Only remount chrome when identity changes — not on every SignUp tick.
+      if (state.userId !== prevUser || state.orgId !== prevOrg) {
+        mountChrome(clerk);
+      }
       applyAuthGate();
-      if (typeof window.__msOnAuthChange === "function") {
+      if (
+        (state.userId !== prevUser || state.orgId !== prevOrg) &&
+        typeof window.__msOnAuthChange === "function"
+      ) {
         window.__msOnAuthChange();
       }
     });
