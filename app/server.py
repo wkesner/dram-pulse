@@ -26,7 +26,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
@@ -852,6 +852,37 @@ def create_app(
         return response
 
     if mount_static and static_dir.is_dir():
+        # Clerk SignUp path-routing briefly hits /verify-email-address etc.
+        # StaticFiles returns 404 for those → Account Portal redirect (video bug).
+        # Serve the SPA shell so OTP stays on ec-signals.fly.dev.
+        _index_html = static_dir / "index.html"
+        _clerk_spa_paths = (
+            "/verify-email-address",
+            "/verify-phone-number",
+            "/continue",
+            "/factor-one",
+            "/factor-two",
+            "/reset-password",
+            "/sso-callback",
+        )
+
+        if _index_html.is_file():
+
+            def _spa_index() -> FileResponse:
+                return FileResponse(
+                    _index_html,
+                    media_type="text/html",
+                    headers={"Cache-Control": "no-store"},
+                )
+
+            for _spa_path in _clerk_spa_paths:
+                app.add_api_route(
+                    _spa_path,
+                    _spa_index,
+                    methods=["GET", "HEAD"],
+                    include_in_schema=False,
+                )
+
         app.mount("/", StaticFiles(directory=str(static_dir), html=True), name="static")
 
     return app

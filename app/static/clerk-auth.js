@@ -11,7 +11,11 @@
 (() => {
   // Bump when shipping signup UX fixes — verify on Fly via:
   //   curl -s https://ec-signals.fly.dev/clerk-auth.js | grep __msClerkBuild
-  window.__msClerkBuild = "signup-phase-v2-20261030";
+  window.__msClerkBuild = "signup-virtual-v3-20261030";
+
+  /** Clerk path segments that must stay on-origin (never 404 → Account Portal). */
+  const CLERK_AUTH_PATH_RE =
+    /^\/(verify-email-address|verify-phone-number|continue|factor-one|factor-two|reset-password|sso-callback)\/?$/;
 
   const APP_TOKEN_KEY = "ms-app-access-token";
   const INVITE_TICKET_KEY = "ms-signup-invite-ticket";
@@ -125,8 +129,45 @@
     await clerk.load({
       publishableKey,
       ui: { ClerkUI: window.__internal_ClerkUICtor },
+      // Keep SignIn/SignUp on this origin — never bounce to *.accounts.dev mid-flow.
+      signInUrl: "/",
+      signUpUrl: "/",
     });
     return clerk;
+  }
+
+  /** Path or hash that means we are mid Clerk email/phone verify. */
+  function clerkAuthRouteActive() {
+    try {
+      const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+      if (CLERK_AUTH_PATH_RE.test(path)) return true;
+      const hash = String(location.hash || "");
+      if (/verify-email-address|verify-phone-number|factor-one|factor-two/i.test(hash)) {
+        return true;
+      }
+    } catch {
+      /* ignore */
+    }
+    return false;
+  }
+
+  /**
+   * Video bug: SignUp used path routing → /verify-email-address → Fly 404 →
+   * Clerk Account Portal (accounts.dev). Collapse that path back to / and
+   * keep the signup gate open so OTP stays embedded.
+   */
+  function recoverClerkAuthPathIntoSignup() {
+    if (!clerkAuthRouteActive()) return false;
+    try {
+      const path = (location.pathname || "/").replace(/\/+$/, "") || "/";
+      if (CLERK_AUTH_PATH_RE.test(path)) {
+        history.replaceState(null, "", "/" + (location.search || "") + (location.hash || ""));
+      }
+    } catch {
+      /* ignore */
+    }
+    writeAuthView("signup");
+    return true;
   }
 
   function sessionIsActive(clerk) {
@@ -289,12 +330,9 @@
       const finished = signupFlowFinished(state.clerk);
       if (finished && state.orgId) return "clerk:ready";
       if (finished) return "clerk:need-org";
-      // Stick to signup phase while SignUp is open / mounted, even if user exists.
-      if (
-        state.authView === "signup" ||
-        state._signUpMounted ||
-        signUpStillOpen(state.clerk)
-      ) {
+      // Stick to signup only when we intentionally opened it (or mounted).
+      // Do NOT key off signUpStillOpen alone — that trapped Sign-in tab (Bugbot).
+      if (state.authView === "signup" || state._signUpMounted) {
         return "clerk:anon:signup";
       }
       return `clerk:anon:${state.authView}`;
@@ -304,11 +342,14 @@
   }
 
   function clerkComponentOpts(extra) {
-    // Hash routing; do NOT set forceRedirectUrl — that hard-navigates mid-flow
-    // and was part of the remount / Create-account reset on Fly.
+    // Virtual routing keeps verify-email OTP in-memory — no /verify-email-address
+    // path (Fly 404) and no #hash that Account Portal can intercept.
+    // Do NOT set forceRedirectUrl / *ForceRedirectUrl (hard-nav mid-flow).
     return Object.assign(
       {
-        routing: "hash",
+        routing: "virtual",
+        signInUrl: "/",
+        signUpUrl: "/",
       },
       extra || {}
     );
@@ -779,6 +820,11 @@
   }
 
   function restoreAuthViewFromStorage() {
+    if (recoverClerkAuthPathIntoSignup()) {
+      const ticket = readInviteTicket();
+      if (ticket) state.inviteTicket = ticket;
+      return;
+    }
     const saved = readAuthView();
     const ticket = readInviteTicket();
     if (ticket && saved !== "signin") {
@@ -849,13 +895,24 @@
     applyAuthGate({ force: true });
     state.ready = true;
 
+    let prevFinished = signupFlowFinished(clerk);
+    let prevOrgId = state.orgId;
     clerk.addListener(async () => {
-      const wasFinished = signupFlowFinished(clerk);
+      // If Clerk slipped onto /verify-email-address, pull back before gate runs.
+      if (clerkAuthRouteActive() && !signupFlowFinished(clerk)) {
+        recoverClerkAuthPathIntoSignup();
+      }
+
       await refreshSession(clerk);
       const nowFinished = signupFlowFinished(clerk);
+      const nowOrgId = state.orgId;
 
-      // Only remount chrome when signup actually completes (or org changes).
-      if (nowFinished) {
+      // Remount chrome only when signup completes or org changes — not every
+      // mid-SignUp clerk.user flicker (that remounted Create-account on Fly).
+      if (
+        nowFinished &&
+        (!prevFinished || nowOrgId !== prevOrgId)
+      ) {
         mountChrome(clerk);
       }
 
@@ -863,18 +920,21 @@
 
       if (
         nowFinished &&
-        !wasFinished &&
+        !prevFinished &&
         typeof window.__msOnAuthChange === "function"
       ) {
         window.__msOnAuthChange();
       } else if (
         nowFinished &&
-        state.orgId &&
+        nowOrgId &&
+        nowOrgId !== prevOrgId &&
         typeof window.__msOnAuthChange === "function"
       ) {
-        // Org switch after ready
         window.__msOnAuthChange();
       }
+
+      prevFinished = nowFinished;
+      prevOrgId = nowOrgId;
     });
 
     if (signupFlowFinished(clerk) && clerk.organization && state.sessionToken) {
