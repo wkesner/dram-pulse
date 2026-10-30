@@ -1,0 +1,28 @@
+{
+  "company": "SMA Solar Technology",
+  "ticker": "S92",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "SMA Solar Technology Geschäftsbericht 2025",
+  "filing_date": "2026-05-06",
+  "accession_number": "UREG_135_20260506_7d53d64bbe",
+  "filing_id": "UREG_135_20260506_7d53d64bbe",
+  "title": "SMA Solar Technology Geschäftsbericht 2025",
+  "publication_type": "135",
+  "euid": "DEM1607.HRB3972",
+  "lei": "",
+  "isin": "DE000A0DJ6J9",
+  "ureg_source_name": "https://d3yvy865gav9f.cloudfront.net/asset/851725204959/document_9idvqc8gnd4srcpbftdc9e1d7j/Geschaeftsbericht-der-SMA-Gruppe-2025.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://d3yvy865gav9f.cloudfront.net/asset/851725204959/document_9idvqc8gnd4srcpbftdc9e1d7j/Geschaeftsbericht-der-SMA-Gruppe-2025.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:06:51.825735+00:00",
+  "paths": {
+    "other_full": "data/raw/S92/UREG_135_20260506_7d53d64bbe/other_full.txt",
+    "document_pdf": "data/raw/S92/UREG_135_20260506_7d53d64bbe/document.pdf"
+  }
+}

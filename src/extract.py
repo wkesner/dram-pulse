@@ -73,6 +73,8 @@ FULL_DOC_SOURCES = {
     "COMPANIES_HOUSE",
     "MOPS",
     "TWSE",
+    "UREG",
+    "BAFIN_UREG",
 }
 
 
@@ -775,23 +777,28 @@ def _load_term_banks(
     ko = supply.get("korean") or {}
     zh = supply.get("chinese") or {}
     ja = supply.get("japanese") or {}
+    de = supply.get("german") or {}
     ko_topics = ko.get("topics") or {}
     zh_topics = zh.get("topics") or {}
     ja_topics = ja.get("topics") or {}
+    de_topics = de.get("topics") or {}
     ko_dir = ko.get("direction") or {}
     zh_dir = zh.get("direction") or {}
     ja_dir = ja.get("direction") or {}
+    de_dir = de.get("direction") or {}
     ko_sent = ko.get("sentiment") or {}
     zh_sent = zh.get("sentiment") or {}
     ja_sent = ja.get("sentiment") or {}
+    de_sent = de.get("sentiment") or {}
 
     topics: dict[str, list[str]] = {}
     for label, terms in (supply.get("topics") or {}).items():
         merged = _merge_term_lists(terms, ko_topics.get(label))
         merged = _merge_term_lists(merged, zh_topics.get(label))
         merged = _merge_term_lists(merged, ja_topics.get(label))
+        merged = _merge_term_lists(merged, de_topics.get(label))
         topics[label] = merged
-    for extra_topics in (ko_topics, zh_topics, ja_topics):
+    for extra_topics in (ko_topics, zh_topics, ja_topics, de_topics):
         for label, terms in extra_topics.items():
             if label not in topics:
                 topics[label] = list(terms or [])
@@ -806,11 +813,14 @@ def _load_term_banks(
                 "tightening": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("tightening"), ko_dir.get("tightening")
+                            _merge_term_lists(
+                                direction.get("tightening"), ko_dir.get("tightening")
+                            ),
+                            zh_dir.get("tightening"),
                         ),
-                        zh_dir.get("tightening"),
+                        ja_dir.get("tightening"),
                     ),
-                    ja_dir.get("tightening"),
+                    de_dir.get("tightening"),
                 )
             }
         ),
@@ -819,11 +829,14 @@ def _load_term_banks(
                 "easing": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("easing"), ko_dir.get("easing")
+                            _merge_term_lists(
+                                direction.get("easing"), ko_dir.get("easing")
+                            ),
+                            zh_dir.get("easing"),
                         ),
-                        zh_dir.get("easing"),
+                        ja_dir.get("easing"),
                     ),
-                    ja_dir.get("easing"),
+                    de_dir.get("easing"),
                 )
             }
         ),
@@ -832,11 +845,14 @@ def _load_term_banks(
                 "stable": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            direction.get("stable"), ko_dir.get("stable")
+                            _merge_term_lists(
+                                direction.get("stable"), ko_dir.get("stable")
+                            ),
+                            zh_dir.get("stable"),
                         ),
-                        zh_dir.get("stable"),
+                        ja_dir.get("stable"),
                     ),
-                    ja_dir.get("stable"),
+                    de_dir.get("stable"),
                 )
             }
         ),
@@ -845,11 +861,14 @@ def _load_term_banks(
                 "positive": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            sentiment.get("positive"), ko_sent.get("positive")
+                            _merge_term_lists(
+                                sentiment.get("positive"), ko_sent.get("positive")
+                            ),
+                            zh_sent.get("positive"),
                         ),
-                        zh_sent.get("positive"),
+                        ja_sent.get("positive"),
                     ),
-                    ja_sent.get("positive"),
+                    de_sent.get("positive"),
                 )
             }
         ),
@@ -858,11 +877,14 @@ def _load_term_banks(
                 "negative": _merge_term_lists(
                     _merge_term_lists(
                         _merge_term_lists(
-                            sentiment.get("negative"), ko_sent.get("negative")
+                            _merge_term_lists(
+                                sentiment.get("negative"), ko_sent.get("negative")
+                            ),
+                            zh_sent.get("negative"),
                         ),
-                        zh_sent.get("negative"),
+                        ja_sent.get("negative"),
                     ),
-                    ja_sent.get("negative"),
+                    de_sent.get("negative"),
                 )
             }
         ),
