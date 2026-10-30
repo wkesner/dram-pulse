@@ -1,0 +1,36 @@
+{
+  "company": "Ingram Micro",
+  "ticker": "INGM",
+  "role": "buyer",
+  "tier": 2,
+  "cik": "0001897762",
+  "form": "10-Q",
+  "filing_date": "2025-10-30",
+  "accession_number": "0001628280-25-047537",
+  "primary_document": "ingm-20250927.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828025047537/ingm-20250927.htm",
+  "fiscal_year_end": "1228",
+  "report_date": "2025-09-27",
+  "period_end": "2025-09-27",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:09:13.343644+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "business",
+    "mdna",
+    "other",
+    "risk_factors"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/INGM/000162828025047537/primary.html",
+    "business": "data/raw/INGM/000162828025047537/item1_business.txt",
+    "risk_factors": "data/raw/INGM/000162828025047537/item1a_risk_factors.txt",
+    "mdna": "data/raw/INGM/000162828025047537/item7_mdna.txt",
+    "other": "data/raw/INGM/000162828025047537/other_full.txt"
+  }
+}

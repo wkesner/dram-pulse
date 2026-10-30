@@ -1,0 +1,32 @@
+{
+  "company": "Ametek",
+  "ticker": "AME",
+  "role": "supplier",
+  "tier": 2,
+  "cik": "0001037868",
+  "form": "10-Q",
+  "filing_date": "2025-10-30",
+  "accession_number": "0001037868-25-000077",
+  "primary_document": "ame-20250930.htm",
+  "primary_doc_description": "10-Q",
+  "items": "",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786825000077/ame-20250930.htm",
+  "fiscal_year_end": "1231",
+  "report_date": "2025-09-30",
+  "period_end": "2025-09-30",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "fetched_at": "2026-10-29T22:08:35.017201+00:00",
+  "prior_only": false,
+  "sections_present": [
+    "mdna",
+    "other"
+  ],
+  "exhibits": [],
+  "paths": {
+    "primary_html": "data/raw/AME/000103786825000077/primary.html",
+    "mdna": "data/raw/AME/000103786825000077/item7_mdna.txt",
+    "other": "data/raw/AME/000103786825000077/other_full.txt"
+  }
+}
