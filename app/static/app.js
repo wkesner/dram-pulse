@@ -445,10 +445,22 @@
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
     const lang = String(s.language || "en").toLowerCase();
-    const excerptEn = String(s.excerpt_en || "").trim();
-    const canTranslate =
-      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+    const isEnglishLang = !lang || lang === "en" || lang === "english";
+    // Any non-EN post gets a translate control; English view uses pipeline
+    // excerpt_en when present, else on-demand POST /api/translate.
+    let excerptEn = String(s.excerpt_en || "").trim();
+    const canTranslate = !isEnglishLang;
+    const langChip = (() => {
+      const raw = lang.replace(/_/g, "-");
+      if (raw === "zh-tw" || raw === "zh-hant" || raw === "zt") return "zh-TW";
+      if (raw === "zh-cn" || raw === "zh-hans") return "zh";
+      if (raw === "german" || raw === "deutsch") return "de";
+      if (raw === "japanese" || raw === "jp") return "ja";
+      if (raw === "korean") return "ko";
+      return raw || "??";
+    })();
     let showEnglish = false;
+    let translating = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
@@ -464,15 +476,61 @@
       const tog = el("button", "lang-toggle", "Show English");
       tog.type = "button";
       tog.setAttribute("aria-pressed", "false");
-      tog.title = "Machine translation (Argos); original excerpt is unchanged";
-      tog.addEventListener("click", () => {
-        showEnglish = !showEnglish;
-        tog.textContent = showEnglish ? "Original" : "Show English";
+      tog.title =
+        "Machine translation (Argos); original excerpt is unchanged. " +
+        "Uses stored excerpt_en or translates on demand.";
+      const setToggleLabel = () => {
+        if (translating) tog.textContent = "Translating…";
+        else tog.textContent = showEnglish ? "Original" : "Show English";
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
+        tog.disabled = translating;
+      };
+      tog.addEventListener("click", async () => {
+        if (translating) return;
+        if (showEnglish) {
+          showEnglish = false;
+          setToggleLabel();
+          paintExcerpt();
+          return;
+        }
+        if (!excerptEn) {
+          translating = true;
+          setToggleLabel();
+          try {
+            const resp = await fetch("/api/translate", {
+              method: "POST",
+              headers: apiHeaders({ "Content-Type": "application/json" }),
+              body: JSON.stringify({ signal_id: s.signal_id }),
+            });
+            if (!resp.ok) {
+              const detail = await resp.text();
+              console.error("translate failed", resp.status, detail);
+              translating = false;
+              setToggleLabel();
+              return;
+            }
+            const data = await resp.json();
+            excerptEn = String(data.excerpt_en || "").trim();
+            s.excerpt_en = excerptEn;
+            if (!excerptEn) {
+              translating = false;
+              setToggleLabel();
+              return;
+            }
+          } catch (err) {
+            console.error("translate failed", err);
+            translating = false;
+            setToggleLabel();
+            return;
+          }
+          translating = false;
+        }
+        showEnglish = true;
+        setToggleLabel();
         paintExcerpt();
       });
       find.append(tog);
-      chips.append(el("span", "chip lang", lang));
+      chips.append(el("span", "chip lang", langChip));
     }
     const open = el("a", null, "Open filing at this passage");
     open.href =

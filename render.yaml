@@ -1,0 +1,26 @@
+# Optional Render Blueprint — connect GitHub wkesner/dram-pulse.
+# Free tier: no disk (votes/orgs ephemeral). For real demos, add a persistent disk
+# in the Dashboard (mount /data) or upgrade the service plan.
+services:
+  - type: web
+    name: ec-signals
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/config
+    envVars:
+      - key: AUTH_MODE
+        value: clerk
+      - key: CLERK_PUBLISHABLE_KEY
+        sync: false
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: CLERK_ISSUER
+        sync: false
+      - key: CLERK_AUTHORIZED_PARTIES
+        sync: false
+      - key: OPERATOR_TOKEN
+        sync: false
+      - key: BROKER_SIM_TOKEN
+        sync: false

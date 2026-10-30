@@ -1,0 +1,28 @@
+{
+  "company": "Basler",
+  "ticker": "BSL",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Basler AG Geschäftsbericht 2025",
+  "filing_date": "2026-04-29",
+  "accession_number": "UREG_135_20260429_51c67026a9",
+  "filing_id": "UREG_135_20260429_51c67026a9",
+  "title": "Basler AG Geschäftsbericht 2025",
+  "publication_type": "135",
+  "euid": "DEX1721R.HRB4090AH",
+  "lei": "",
+  "isin": "DE0005102008",
+  "ureg_source_name": "https://assets-ctf.baslerweb.com/dg51pdwahxgw/7zH3q3rF55PjzH1plMs6mK/456f0982c9380073fdd13922116b39a5/Geschaeftsbericht_2025_einschliesslich_Konzernabschluss_und_Bericht_des_Aufsichtsrats.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://assets-ctf.baslerweb.com/dg51pdwahxgw/7zH3q3rF55PjzH1plMs6mK/456f0982c9380073fdd13922116b39a5/Geschaeftsbericht_2025_einschliesslich_Konzernabschluss_und_Bericht_des_Aufsichtsrats.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:06:38.068791+00:00",
+  "paths": {
+    "other_full": "data/raw/BSL/UREG_135_20260429_51c67026a9/other_full.txt",
+    "document_pdf": "data/raw/BSL/UREG_135_20260429_51c67026a9/document.pdf"
+  }
+}

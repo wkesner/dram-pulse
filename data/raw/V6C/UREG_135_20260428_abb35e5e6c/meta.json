@@ -1,0 +1,28 @@
+{
+  "company": "Viscom",
+  "ticker": "V6C",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "Viscom SE Geschäftsbericht 2025",
+  "filing_date": "2026-04-28",
+  "accession_number": "UREG_135_20260428_abb35e5e6c",
+  "filing_id": "UREG_135_20260428_abb35e5e6c",
+  "title": "Viscom SE Geschäftsbericht 2025",
+  "publication_type": "135",
+  "euid": "DEP2305.HRB59616",
+  "lei": "",
+  "isin": "DE0007846867",
+  "ureg_source_name": "https://www.viscom.com/fileadmin/content/Investor_Relations/Hauptversammlung/7_260331_Geschaeftsbericht_2025_de.pdf",
+  "body_provenance": "source_name",
+  "source_url": "https://www.viscom.com/fileadmin/content/Investor_Relations/Hauptversammlung/7_260331_Geschaeftsbericht_2025_de.pdf",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:06:48.181579+00:00",
+  "paths": {
+    "other_full": "data/raw/V6C/UREG_135_20260428_abb35e5e6c/other_full.txt",
+    "document_pdf": "data/raw/V6C/UREG_135_20260428_abb35e5e6c/document.pdf"
+  }
+}

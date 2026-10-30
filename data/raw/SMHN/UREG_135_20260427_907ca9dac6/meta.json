@@ -1,0 +1,28 @@
+{
+  "company": "SUSS MicroTec",
+  "ticker": "SMHN",
+  "role": "supplier",
+  "source": "UREG",
+  "form": "SUSS MicroTec SE Jahresabschluss HGB 2025",
+  "filing_date": "2026-04-27",
+  "accession_number": "UREG_135_20260427_907ca9dac6",
+  "filing_id": "UREG_135_20260427_907ca9dac6",
+  "title": "SUSS MicroTec SE Jahresabschluss HGB 2025",
+  "publication_type": "135",
+  "euid": "DED2601V.HRB235132",
+  "lei": "",
+  "isin": "DE000A1K0235",
+  "ureg_source_name": "https://www.suss.com/de/content/download/3222/47072/2026_03_30_SUSS_SUSS%20MicroTec%20SE_Jahresabschluss%20%28HGB%29%202025.pdf?version=9",
+  "body_provenance": "source_name",
+  "source_url": "https://www.suss.com/de/content/download/3222/47072/2026_03_30_SUSS_SUSS%20MicroTec%20SE_Jahresabschluss%20%28HGB%29%202025.pdf?version=9",
+  "esef_pub": false,
+  "lookback_months": 12,
+  "window_start": "2025-10-30",
+  "window_end": "2026-10-30",
+  "language": "de",
+  "fetched_at": "2026-10-30T17:06:05.017642+00:00",
+  "paths": {
+    "other_full": "data/raw/SMHN/UREG_135_20260427_907ca9dac6/other_full.txt",
+    "document_pdf": "data/raw/SMHN/UREG_135_20260427_907ca9dac6/document.pdf"
+  }
+}
