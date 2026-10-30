@@ -89,6 +89,12 @@ class VoteIn(BaseModel):
     vote: Literal[1, -1, 0]
 
 
+class TranslateIn(BaseModel):
+    """On-demand English translation for a non-English signal excerpt."""
+
+    signal_id: str = Field(min_length=1)
+
+
 def _read_csv(path: Path) -> list[dict[str, str]]:
     if not path.is_file() or path.stat().st_size == 0:
         return []
@@ -385,6 +391,7 @@ def create_app(
     vote_limiter = RateLimiter(max_calls=60, window_seconds=60.0)
     bootstrap_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
     broker_sim_limiter = RateLimiter(max_calls=10, window_seconds=60.0)
+    translate_limiter = RateLimiter(max_calls=30, window_seconds=60.0)
 
     app = FastAPI(title="Memory Signals", version="0.3.0")
     app.state.auth_mode = mode
@@ -646,6 +653,102 @@ def create_app(
             user=user,
             vote=body.vote,
         )
+
+    def _translate_signal_row(sig_path: Path, signal_id: str) -> dict[str, Any]:
+        """Return English excerpt for a non-EN signal; persist when newly translated."""
+        from src.dedupe import SIGNAL_COLUMNS
+        from src.translate_excerpts import (
+            display_lang,
+            is_english,
+            persist_excerpt_en,
+            translate_excerpt,
+        )
+
+        rows = _read_csv(sig_path)
+        row = next((r for r in rows if (r.get("signal_id") or "") == signal_id), None)
+        if row is None:
+            raise HTTPException(status_code=404, detail="unknown signal_id")
+        lang = row.get("language") or "en"
+        if is_english(lang):
+            raise HTTPException(
+                status_code=400,
+                detail="English signals have no translation toggle",
+            )
+        existing = (row.get("excerpt_en") or "").strip()
+        if existing:
+            return {
+                "signal_id": signal_id,
+                "language": lang,
+                "language_label": display_lang(lang),
+                "excerpt_en": existing,
+                "cached": True,
+            }
+        excerpt = (row.get("excerpt") or "").strip()
+        if not excerpt:
+            raise HTTPException(status_code=400, detail="empty excerpt")
+        try:
+            excerpt_en = translate_excerpt(excerpt, lang, install=True)
+        except ValueError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+        except SystemExit as exc:
+            raise HTTPException(
+                status_code=503,
+                detail=str(exc) or "translation package unavailable",
+            ) from exc
+        except Exception as exc:  # noqa: BLE001
+            raise HTTPException(
+                status_code=503,
+                detail=f"translation failed: {exc}",
+            ) from exc
+        if not excerpt_en:
+            raise HTTPException(status_code=503, detail="translation returned empty")
+        lock_path = sig_path.with_suffix(sig_path.suffix + ".lock")
+        lock_path.parent.mkdir(parents=True, exist_ok=True)
+        with lock_path.open("a+", encoding="utf-8") as lock_fh:
+            fcntl.flock(lock_fh.fileno(), fcntl.LOCK_EX)
+            # Re-check under lock in case a concurrent request filled it.
+            again = _read_csv(sig_path)
+            current = next(
+                (r for r in again if (r.get("signal_id") or "") == signal_id),
+                None,
+            )
+            if current is not None and (current.get("excerpt_en") or "").strip():
+                excerpt_en = (current.get("excerpt_en") or "").strip()
+            else:
+                persist_excerpt_en(
+                    sig_path,
+                    signal_id,
+                    excerpt_en,
+                    columns=list(SIGNAL_COLUMNS),
+                )
+        return {
+            "signal_id": signal_id,
+            "language": lang,
+            "language_label": display_lang(lang),
+            "excerpt_en": excerpt_en,
+            "cached": False,
+        }
+
+    @app.post("/api/translate")
+    def post_translate(
+        body: TranslateIn,
+        request: Request,
+        authorization: str | None = Header(default=None),
+    ) -> dict[str, Any]:
+        """Fill or return excerpt_en for a non-English signal (Argos offline MT)."""
+        ip = request.client.host if request.client else "unknown"
+        if mode == "clerk":
+            session = resolve_session(authorization)
+            if not translate_limiter.allow(
+                f"tr:{session.org_id}:{session.user_id}:{ip}"
+            ):
+                raise HTTPException(status_code=429, detail="rate limit exceeded")
+            paths = org_corpus(session)
+            return _translate_signal_row(paths["signals"], body.signal_id.strip())
+
+        if not translate_limiter.allow(f"tr:anon:{ip}"):
+            raise HTTPException(status_code=429, detail="rate limit exceeded")
+        return _translate_signal_row(signals_path, body.signal_id.strip())
 
     @app.get("/api/operator/aggregates")
     def operator_aggregates(
