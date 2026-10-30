@@ -11,7 +11,7 @@
 (() => {
   // Bump when shipping signup UX fixes — verify on Fly via:
   //   curl -s https://ec-signals.fly.dev/clerk-auth.js | grep __msClerkBuild
-  window.__msClerkBuild = "signup-gate-v6-20261030";
+  window.__msClerkBuild = "signup-gate-v7-20261030";
 
   /** Clerk path segments that must stay on-origin (never 404 → Account Portal). */
   const CLERK_AUTH_PATH_RE =
@@ -862,7 +862,10 @@
     if (!signupFlowFinished(clerk)) {
       if (!clerk.user) {
         host.replaceChildren();
-        host.append(document.createElement("div")).className = "clerk-row";
+        // Node.append() returns undefined — must set className on the element.
+        const row = document.createElement("div");
+        row.className = "clerk-row";
+        host.append(row);
       }
       return;
     }
@@ -1007,7 +1010,12 @@
     }
     state.clerk = clerk;
     await refreshSession(clerk);
-    mountChrome(clerk);
+    try {
+      mountChrome(clerk);
+    } catch (err) {
+      // Never let chrome paint abort the auth gate (live TypeError on append().className).
+      console.error("mountChrome", err);
+    }
     try {
       applyAuthGate({ force: true });
     } catch (err) {
