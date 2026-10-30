@@ -178,8 +178,31 @@ def is_match_text_contained(a: str, b: str, *, min_chars: int = _CONTAINMENT_MIN
     return na in nb or nb in na
 
 
+# Filing languages we bridge via excerpt_en for cross-language dedupe.
+SUPPORTED_SIGNAL_LANGS = frozenset({"en", "ko", "zh", "ja", "de"})
+
+
+def canonical_language(lang: str) -> str:
+    """Normalize language tags to en / ko / zh / ja / de (or the raw lower tag)."""
+    raw = (lang or "en").strip().lower().replace("_", "-")
+    if raw in {"", "en", "english"}:
+        return "en"
+    if raw in {"ko", "korean"}:
+        return "ko"
+    if raw in {"zh", "zh-cn", "zh-tw", "chinese", "cn"}:
+        return "zh"
+    if raw in {"ja", "jp", "japanese"}:
+        return "ja"
+    if raw in {"de", "german", "deu", "ger"}:
+        return "de"
+    # Bare regional tags already canonical.
+    if raw in SUPPORTED_SIGNAL_LANGS:
+        return raw
+    return raw
+
+
 def is_english_lang(lang: str) -> bool:
-    return (lang or "en").strip().lower() in {"", "en", "english"}
+    return canonical_language(lang) == "en"
 
 
 def match_text(row: dict[str, Any]) -> str:
@@ -195,12 +218,22 @@ def source_key(row: dict[str, Any]) -> str:
     return (row.get("source") or "").strip().upper()
 
 
+def is_cross_language(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    """True when rows are tagged with different languages (EN/KO/ZH/JA/DE/…)."""
+    return canonical_language(str(a.get("language") or "en")) != canonical_language(
+        str(b.get("language") or "en")
+    )
+
+
 def is_cross_source(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    """True when source differs or language differs (any EN/KO/ZH/JA/DE pair).
+
+    Cross-language pairs use the relaxed near threshold even on the same portal
+    (e.g. a CNINFO zh row vs an EDGAR en dual-list, or future JA/DE IR mirrors).
+    """
     if source_key(a) != source_key(b):
         return True
-    la = (a.get("language") or "en").strip().lower()
-    lb = (b.get("language") or "en").strip().lower()
-    return is_english_lang(la) != is_english_lang(lb)
+    return is_cross_language(a, b)
 
 
 def _parse_filing_date(value: str):
@@ -213,6 +246,12 @@ def _parse_filing_date(value: str):
         return date.fromisoformat(raw)
     except ValueError:
         return None
+
+
+def same_filing_date(a: dict[str, Any], b: dict[str, Any]) -> bool:
+    da = _parse_filing_date(str(a.get("filing_date") or ""))
+    db = _parse_filing_date(str(b.get("filing_date") or ""))
+    return da is not None and db is not None and da == db
 
 
 def within_filing_date_window(
@@ -370,10 +409,16 @@ def dedupe(
     Exact match on company using `match_text` (excerpt_en for non-English when
     present), including across product_family — the same Silicon Labs shortage
     paragraph must not become three Feed cards (DRAM + NAND + Memory_general).
-    Near match stays scoped to (company, product_family) except cross-source
-    pairs (DART↔EDGAR/IR), which use a lower Jaccard threshold because
-    translations paraphrase. Prefer English EDGAR as the canonical signal row
-    at rebuild time (see `canonical_sighting`).
+    Identical clones across merge groups (e.g. Memory + MCU + Power_IC on one
+    Ambarella span) also exact-merge; nested-window containment stays merge-group
+    scoped so a co-listed Capacitor on a different filing date is kept apart
+    ("same language + different filing date = keep both" for soft overlaps).
+
+    Near match stays scoped to (company, product_family) for same-language
+    same-source pairs. Cross-source / cross-language pairs (any EN/KO/ZH/JA/DE
+    combo, any product family) use a lower Jaccard threshold because
+    translations paraphrase, with a filing-date window. Prefer English EDGAR
+    as the canonical signal row at rebuild time (see `canonical_sighting`).
 
     `prior_year_norms` maps company → normalized prior-year 10-K bodies (or
     chunks) used for carried_from_prior_year. Optional.
@@ -394,9 +439,9 @@ def dedupe(
         )
     )
 
-    # Per (company, family): open signals for near compare
+    # Per (company, family): open signals for same-language near compare
     open_signals: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
-    # Flat per-company index for cross-family exact matches
+    # Flat per-company index for cross-family exact + cross-language near
     open_by_company: dict[str, list[dict[str, Any]]] = defaultdict(list)
     sightings: list[dict[str, Any]] = []
     # signal_id → accumulator of sightings / first row
@@ -425,27 +470,36 @@ def dedupe(
         similarity = 1.0
         chosen_sid: str | None = None
 
-        # Exact: same normalized claim for this company. Cross-family merges only
-        # within a merge group (all Memory categories together; Compute/Analog/
-        # Passives only with themselves) so a co-listed Capacitor/MCU is not
-        # swallowed by Memory_general.
+        # Exact: same normalized claim for this company.
+        # - Same family or same merge group: exact + nested containment (any date).
+        # - Cross merge-group: identical match_text only (collapses Ambarella-style
+        #   multi-family clones). Containment does not cross groups, so soft
+        #   overlaps on a later filing date stay separate signals.
         row_group = merge_group(str(row.get("product_category") or ""))
         for sig in open_by_company[company]:
             if sig["direction"] != direction:
                 continue
             sig_family = str((sig.get("first_row") or {}).get("product_family") or "")
             sig_cat = str((sig.get("first_row") or {}).get("product_category") or "")
+            same_family = sig_family == family
             same_group = merge_group(sig_cat) == row_group
-            if not (sig_family == family or same_group):
-                continue
-            if norm in sig["norms"] or any(
+            exact_hit = norm in sig["norms"] or any(
                 normalize(t) == norm for t in sig["match_texts"]
-            ):
+            )
+            if exact_hit:
+                # Identical match_text collapses across families, sources, and
+                # languages. Later filings stay as sightings under one signal_id
+                # (same language + different filing date → keep both sightings).
                 match = "exact"
                 similarity = 1.0
                 chosen_sid = sig["signal_id"]
                 break
-            if sig_family != family and any(
+            # Nested-window containment stays merge-group scoped so a soft
+            # overlap (e.g. Memory vs Capacitor on different dates) is kept as
+            # two signals.
+            if not (same_family or same_group):
+                continue
+            if not same_family and any(
                 is_match_text_contained(mtext, prev) for prev in sig["match_texts"]
             ):
                 match = "exact"
@@ -453,18 +507,26 @@ def dedupe(
                 chosen_sid = sig["signal_id"]
                 break
 
-        # Near (same-source strict within family; cross-source paraphrased)
+        # Near (same-language same-source: strict within family;
+        # cross-source / cross-language: paraphrased, any family)
         if chosen_sid is None:
             best_sim = 0.0
             best_sid = None
-            for sig in open_signals[key]:
+
+            def _consider_near(
+                sig: dict[str, Any], *, cross: bool, require_family: bool
+            ) -> None:
+                nonlocal best_sim, best_sid
                 if sig["direction"] != direction:
-                    continue
-                cross = is_cross_source(row, sig["first_row"])
-                # Same-source keeps sentiment; cross-source skips it — Argos /
-                # keyword labels often disagree (mixed vs positive) on the same claim.
+                    return
+                if require_family and str(
+                    (sig.get("first_row") or {}).get("product_family") or ""
+                ) != family:
+                    return
+                # Same-language keeps sentiment; cross-lang/source skips it —
+                # Argos / keyword labels often disagree on the same claim.
                 if not cross and sig["sentiment"] != sentiment:
-                    continue
+                    return
                 threshold = cross_source_near_jaccard if cross else near_jaccard
                 for prev_text, prev_row in zip(sig["match_texts"], sig["rows"]):
                     if not cross:
@@ -472,14 +534,31 @@ def dedupe(
                             continue
                         sim = jaccard(mtext, prev_text)
                     else:
-                        # Cross-source: proximate filings (SK hynix 6-K vs DART
-                        # often a few days apart) + sentence-aware similarity.
+                        # Proximate filings (SK hynix 6-K vs DART often a few
+                        # days apart) + sentence-aware similarity.
                         if not within_filing_date_window(row, prev_row):
                             continue
                         sim = cross_source_similarity(mtext, prev_text)
                     if sim >= threshold and sim > best_sim:
                         best_sim = sim
                         best_sid = sig["signal_id"]
+
+            # Same-language same-source: family-scoped strict near (restatements).
+            for sig in open_signals[key]:
+                cross = is_cross_source(row, sig["first_row"])
+                if cross:
+                    continue
+                _consider_near(sig, cross=False, require_family=True)
+
+            # Cross-source / cross-language: scan every open signal for this
+            # company so EN/KO/ZH/JA/DE clones collapse across families.
+            if best_sid is None:
+                for sig in open_by_company[company]:
+                    cross = is_cross_source(row, sig["first_row"])
+                    if not cross:
+                        continue
+                    _consider_near(sig, cross=True, require_family=False)
+
             if best_sid is not None:
                 match = "near"
                 similarity = best_sim
