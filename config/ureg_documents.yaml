@@ -1,0 +1,33 @@
+# Hand-maintained PDF body URLs for Unternehmensregister listings.
+# UREG search often points Jahresabschluss bodies at captcha-gated portal
+# payloads, and Halbjahresfinanzbericht sourceName at IR index pages (not
+# direct PDFs). Map ticker + publication_type (+ optional title_contains)
+# to a free issuer PDF that matches the filing.
+#
+# Agent D may extend this as more DE electronics names are rostered.
+
+documents:
+  - ticker: IFX
+    publication_type: "135"
+    title_contains: "Jahresabschluss"
+    filing_date: "2026-03-11"
+    language: de
+    title: "Infineon Technologies AG Jahresabschluss zum 30.09.2025"
+    url: "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-jahresabschluss-infineon-technologies-ag-zum-30-september-2025-v01-00-de.pdf"
+
+  # Combined management report (EN) — denser supply language than the AG-only JA.
+  - ticker: IFX
+    publication_type: "135"
+    title_contains: "Konzernabschluss"
+    filing_date: "2025-12-08"
+    language: en
+    title: "Infineon Annual Report 2025 (combined management report)"
+    url: "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf"
+
+  - ticker: WAF
+    publication_type: "135"
+    title_contains: "Jahres"
+    filing_date: "2026-03-19"
+    language: de
+    title: "Siltronic AG Jahresabschluss / Lagebericht 2025"
+    url: "https://www.siltronic.com/fileadmin/investorrelations/Hauptversammlungen/HV_2026/04_2025_HGB_Jahresabschluss__Lagebericht__Testat_f%C3%BCr_Homepage.pdf"
