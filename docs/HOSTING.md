@@ -10,18 +10,29 @@ Project doc `docs/hosting-options.md` (Cursor Project store).
 ```bash
 fly apps create ec-signals          # once; name must match fly.toml
 fly volumes create ecsignals_data --size 1 --region iad
+# Demo on *.fly.dev → Development instance keys (pk_test_/sk_test_), not pk_live_
 fly secrets set AUTH_MODE=clerk \
-  CLERK_PUBLISHABLE_KEY=pk_live_… \
-  CLERK_SECRET_KEY=sk_live_… \
-  CLERK_ISSUER=https://… \
-  CLERK_AUTHORIZED_PARTIES=https://ec-signals.fly.dev,https://app.yourdomain.com \
+  CLERK_PUBLISHABLE_KEY=pk_test_… \
+  CLERK_SECRET_KEY=sk_test_… \
+  CLERK_ISSUER=https://….clerk.accounts.dev \
+  CLERK_AUTHORIZED_PARTIES=https://ec-signals.fly.dev \
   OPERATOR_TOKEN=… BROKER_SIM_TOKEN=…
 fly deploy
 ```
 
 - Image: `Dockerfile` + `requirements-web.txt` (no `data/raw/`).
 - Volume `/data` holds `orgs/`, `aggregates/`, `votes.csv` via `docker/entrypoint.sh`.
-- HTTPS via Fly; set Clerk production domain + allowlists before sharing.
+- HTTPS via Fly.
+
+### Clerk + `*.fly.dev`
+
+Clerk **production Domains refuse `*.fly.dev`**. For https://ec-signals.fly.dev:
+
+1. Use the **Development** instance (`pk_test_` / `sk_test_` — already on this app).
+2. Dashboard → **Configure → Paths** on **Dev**: allow redirect/origin `https://ec-signals.fly.dev`.
+3. Do not add fly.dev under Production → Domains.
+
+Production Clerk (`pk_live_`) needs a **custom domain** you own (`fly certs add …` + Clerk DNS), then swap secrets / authorized parties.
 
 ## Alternatives
 
