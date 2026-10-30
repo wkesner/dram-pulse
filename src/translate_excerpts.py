@@ -165,7 +165,11 @@ def _ensure_argos_ko_en(*, install: bool = True) -> None:
 
 
 def translate_text(text: str, *, source: str = "ko", target: str = "en") -> str:
-    """Translate `text` with Argos. `source` may be a CSV lang or Argos code."""
+    """Translate `text` with Argos. `source` may be a CSV lang or Argos code.
+
+    For traditional Chinese (`zt` / zh-TW), falls back to simplified `zh` if the
+    zt package yields an empty string (MOPS/UMC path).
+    """
     import argostranslate.translate
 
     from_code = normalize_source_lang(source) or (source or "").strip().lower()
@@ -173,8 +177,15 @@ def translate_text(text: str, *, source: str = "ko", target: str = "en") -> str:
         return ""
     if target.strip().lower() not in {"en", "english"}:
         raise ValueError(f"Only English target is supported (got {target!r})")
-    out = argostranslate.translate.translate(text, from_code, "en")
-    return (out or "").strip()
+    out = (argostranslate.translate.translate(text, from_code, "en") or "").strip()
+    if not out and from_code == "zt":
+        # Traditional package missing / empty → try simplified model.
+        try:
+            _ensure_argos_package("zh", install=True)
+        except SystemExit:
+            return ""
+        out = (argostranslate.translate.translate(text, "zh", "en") or "").strip()
+    return out
 
 
 def translate_signals(

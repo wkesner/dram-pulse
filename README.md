@@ -274,7 +274,7 @@ Already covered: **SEC EDGAR** (incl. EU dual-lists STM/NXPI/ASML), **Korea Open
 python3 -m src.translate_excerpts   # downloads ko/zh/zt/ja/de→en packages as needed
 ```
 
-Supported source languages: **ko** (DART), **zh** (CNINFO), **zh-TW** / **zt** (MOPS), **ja** (EDINET), **de** (UREG / BaFin). Feed cards with `language != en` always show **Show English** / **Original**. If `excerpt_en` is blank, the UI calls `POST /api/signals/{id}/translate` (on-demand Argos) and persists the result. English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
+Supported source languages: **ko** (DART), **zh** (CNINFO), **zh-TW** / **zt** (MOPS, e.g. UMC), **ja** (EDINET), **de** (UREG / BaFin). Feed cards with `language != en` always show **Show English** / **Original**. If `excerpt_en` is blank, the UI calls `POST /api/signals/{id}/translate` (on-demand Argos) and persists the result. English view highlights **term-bank EN equivalents** of `matched_terms` (`matched_terms_en` on `/api/signals`). English rows leave `excerpt_en` blank and have no toggle. Re-extract preserves existing translations by `signal_id`.
 
 ---
 

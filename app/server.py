@@ -515,6 +515,8 @@ def create_app(
     def _signals_payload(
         sig_path: Path, sight_path: Path, votes_file: Path, *, user_key: str
     ) -> list[dict[str, Any]]:
+        from src.term_en_map import enrich_signal_matched_terms_en
+
         signals = _read_csv(sig_path)
         sightings = _sightings_by_signal(_read_csv(sight_path))
         tallies = _vote_tallies(_read_csv(votes_file), user_key=user_key)
@@ -525,6 +527,8 @@ def create_app(
             payload["tier"] = _resolve_tier(row, tier_lookup)
             payload["sightings"] = sightings.get(sid, [])
             payload["votes"] = tallies.get(sid, {"up": 0, "down": 0})
+            # English highlight phrases for Show English (term-bank EN equivalents).
+            payload["matched_terms_en"] = enrich_signal_matched_terms_en(payload)
             out.append(payload)
         return out
 
@@ -586,12 +590,17 @@ def create_app(
                 detail="english signals do not use excerpt_en",
             )
 
+        from src.term_en_map import enrich_signal_matched_terms_en
+
         cached = (row.get("excerpt_en") or "").strip()
         if cached:
+            row_out = dict(row)
+            row_out["excerpt_en"] = cached
             return {
                 "signal_id": signal_id,
                 "language": lang,
                 "excerpt_en": cached,
+                "matched_terms_en": enrich_signal_matched_terms_en(row_out),
                 "cached": True,
             }
 
@@ -624,10 +633,13 @@ def create_app(
         _persist_excerpt_en_locked(
             target_signals, signal_id=signal_id, excerpt_en=excerpt_en
         )
+        row_out = dict(row)
+        row_out["excerpt_en"] = excerpt_en
         return {
             "signal_id": signal_id,
             "language": lang,
             "excerpt_en": excerpt_en,
+            "matched_terms_en": enrich_signal_matched_terms_en(row_out),
             "cached": False,
         }
 

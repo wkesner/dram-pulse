@@ -208,6 +208,17 @@ def translate_client(tmp_path: Path) -> tuple[TestClient, Path]:
             excerpt="存储紧张",
             excerpt_en="",
             source="CNINFO",
+            matched_terms="product:晶圆代工; topic:短缺; dir:短缺",
+        ),
+        _row(
+            signal_id="umc_tw",
+            language="zh-tw",
+            excerpt="產能利用率達92%，產能滿載",
+            excerpt_en="",
+            source="MOPS",
+            company="UMC",
+            ticker_or_code="2303",
+            matched_terms="product:約當晶圓; topic:產能利用率; dir:產能滿載",
         ),
         _row(
             signal_id="de_need",
@@ -296,6 +307,29 @@ def test_api_translate_de_ureg(translate_client):
     assert r.json()["language"] == "de"
 
 
+def test_api_translate_umc_zh_tw(translate_client):
+    """MOPS traditional Chinese (UMC) is translatable via zt/zh Argos."""
+    client, signals = translate_client
+    with patch(
+        "src.translate_excerpts.ensure_argos_for_langs", return_value=["zt"]
+    ), patch(
+        "src.translate_excerpts.translate_text",
+        return_value="Capacity utilization rate reached 92%; fabs at full capacity",
+    ):
+        r = client.post("/api/signals/umc_tw/translate")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["language"] == "zh-tw"
+    assert "capacity utilization" in body["excerpt_en"].lower()
+    assert any(
+        "capacity" in t.lower() for t in body.get("matched_terms_en") or []
+    )
+    with signals.open(encoding="utf-8", newline="") as fh:
+        saved = {row["signal_id"]: row for row in csv.DictReader(fh)}
+    assert saved["umc_tw"]["excerpt_en"]
+    assert saved["umc_tw"]["excerpt"].startswith("產能利用率")
+
+
 def test_api_translate_rejects_english_and_unknown(translate_client):
     client, _ = translate_client
     r = client.post("/api/signals/en_row/translate")
@@ -317,3 +351,21 @@ def test_api_signals_exposes_excerpt_en_for_foreign(translate_client):
     assert by_id["ko_cached"]["excerpt_en"] == "Korean cached"
     assert by_id["en_row"]["excerpt_en"] == ""
     assert by_id["de_need"]["language"] == "de"
+    # EN highlight map present for foreign rows.
+    assert isinstance(by_id["zh_need"]["matched_terms_en"], list)
+
+
+def test_api_translate_returns_matched_terms_en(translate_client):
+    client, _ = translate_client
+    # Seed a zh-TW / UMC-shaped row via existing zh_need matched_terms after patch.
+    with patch(
+        "src.translate_excerpts.ensure_argos_for_langs", return_value=["zh"]
+    ), patch(
+        "src.translate_excerpts.translate_text",
+        return_value="Capacity utilization rate reached 92% at full capacity",
+    ):
+        r = client.post("/api/signals/zh_need/translate")
+    assert r.status_code == 200
+    body = r.json()
+    assert "matched_terms_en" in body
+    assert isinstance(body["matched_terms_en"], list)

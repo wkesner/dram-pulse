@@ -444,6 +444,9 @@
       .split(";")
       .map((t) => t.split(":").slice(1).join(":").trim())
       .filter(Boolean);
+    let termsEn = Array.isArray(s.matched_terms_en)
+      ? s.matched_terms_en.map((t) => String(t || "").trim()).filter(Boolean)
+      : [];
     const lang = String(s.language || "en").toLowerCase();
     let excerptEn = String(s.excerpt_en || "").trim();
     // Any non-EN post gets a translate control (pipeline excerpt_en or on-demand API).
@@ -454,9 +457,12 @@
     const paintExcerpt = () => {
       ex.replaceChildren();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
-      // Highlight only on original language (matched_terms are source-language).
-      if (showEnglish && excerptEn) ex.append(text);
-      else ex.append(highlight(text, terms));
+      // Original: source-language matched_terms. English: term-bank EN equivalents.
+      if (showEnglish && excerptEn) {
+        ex.append(highlight(text, termsEn.length ? termsEn : terms));
+      } else {
+        ex.append(highlight(text, terms));
+      }
     };
     paintExcerpt();
 
@@ -497,6 +503,12 @@
             const body = await resp.json();
             excerptEn = String(body.excerpt_en || "").trim();
             s.excerpt_en = excerptEn;
+            if (Array.isArray(body.matched_terms_en)) {
+              termsEn = body.matched_terms_en
+                .map((t) => String(t || "").trim())
+                .filter(Boolean);
+              s.matched_terms_en = termsEn;
+            }
             if (!excerptEn) throw new Error("empty translation");
           } catch (err) {
             translating = false;
