@@ -212,10 +212,10 @@ Parallel fetch path for electronics-commodity issuers outside SEC/OpenDART.
 | **Japan (EDINET)** | `python -m src.fetch_edinet` | `EDINET_API_KEY` | code ready; needs free key on the agent VM |
 | **UK (Companies House)** | `python -m src.fetch_companies_house` | `COMPANIES_HOUSE_API_KEY` | code ready; idle until key is on the agent VM |
 | **France (AMF Info‑financière)** | `python -m src.fetch_amf` | none | **stub** — free OAM JSON API; wire ISINs next |
+| **Germany (UREG)** | `python -m src.fetch_ureg` | none | **v1 live** — Unternehmensregister search + IR PDF bodies (no captcha solver) |
 | TDnet (JP timely) | — | — | use EDINET API (site scrape discouraged by ToS) |
 | LSE RNS / LSEG | — | commercial | blocked without LSEG credentials |
 | FCA National Storage Mechanism | — | browser only | free search/download in UI; public API ~late 2027 |
-| BaFin / Unternehmensregister (DE) | — | portal | ranked after AMF; no clean public filing API yet |
 | AFM registers (NL) | — | portal | thin vs ASML/NXP already on EDGAR |
 
 ```bash
@@ -235,18 +235,24 @@ python3 -m src.fetch_edinet --ticker 8035
 python3 -m src.fetch_companies_house
 python3 -m src.fetch_companies_house --ticker RSW
 
+# Germany — Unternehmensregister listing + IR PDF mirrors (IFX / WAF smoke)
+python3 -m src.fetch_ureg
+python3 -m src.fetch_ureg --ticker IFX
+python3 -m src.fetch_ureg --list-only --ticker WAF
+
 # Extract + verify (same dedupe path as EDGAR/DART)
 export SEC_USER_AGENT="ECSignals Your Name you@example.com"
 python3 -m src.extract --all --no-fetch-prior
 python3 -m src.verify
 ```
 
-Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`.
+Cache layout matches DART: `data/raw/{ticker}/{filing_id}/meta.json` + `other_full.txt`. Languages: `zh` (CNINFO), `zh-TW` (MOPS), `ja` (EDINET), `en` (CH), `de`/`en` (UREG). Chinese / Japanese starter terms live in `config/supply_terms.yaml` and `config/product_taxonomy.yaml`. German commodity terms land in a follow-on PR.
 
 ### Auth / rate limits / ToS (summary)
 
 - **CNINFO**: no key. Soft-cap ~1 r/s. Unofficial `hisAnnouncement/query` + `static.cninfo.com.cn` PDFs; treat as best-effort and prefer any future official API.
 - **MOPS/TWSE**: no key. Official OpenAPI (`t187ap04_L` material info + `t187ap05_L` monthly revenue). Snapshots are latest-period (not a historical range) — re-runs accumulate cache. Prefer OpenAPI over MOPS HTML (TWSE ToS discourages automated scrape of non-API pages). Soft ≤1 r/s.
+- **UREG (Unternehmensregister)**: no key. Search-token + ACCOUNTING listing; prefer pub types 135/136/137. Document bodies often need captcha — follow IR/`config/ureg_documents.yaml` PDFs instead (no captcha solver; no BaFin MVP SOAP). Soft ≤0.5 r/s; robots.txt disallows `/de/search`.
 - **EDINET**: free key (email + MFA). Prefer API over website scrape (ToS). No published hard RPS — stay ≤1 doc/s, cache, backoff.
 - **Companies House**: free key; Basic auth; **600 req / 5 min** (HTTP 429). Document API for PDF / iXBRL.
 - **LSE RNS**: LSEG Announcement API needs commercial user/accessKey; not free.

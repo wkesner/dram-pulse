@@ -177,6 +177,8 @@ def test_extract_source_language_defaults_include_ureg_asia():
     src = Path(extract_mod.__file__).read_text(encoding="utf-8")
     assert '"UREG": "de"' in src
     assert '"BAFIN": "de"' in src
+    assert '"BAFIN_UREG": "de"' in src
+    assert '"AMF": "fr"' in src
     assert '"EDINET": "ja"' in src
     assert '"CNINFO": "zh"' in src
     assert '"MOPS": "zh-TW"' in src

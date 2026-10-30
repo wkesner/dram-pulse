@@ -50,6 +50,16 @@ categories:
       - 动态随机存取存储器
       - 動態隨機存取記憶體
       - ディーラム
+      # German (Unternehmensregister / Bundesanzeiger) — prefer compounds; bare Speicher is noisy.
+      - DRAM-Bausteine
+      - DRAM-Baustein
+      - DRAM-Speicher
+      - Speichermodule
+      - Speichermodulen
+      - Speichermodul
+      - Speicherchips
+      - Speicherchip
+      - Halbleiterspeicher
       - DRAM
   NAND:
     Data center SSD:
@@ -82,6 +92,10 @@ categories:
       - 快閃晶片
       - フラッシュメモリ
       - フラッシュメモリー
+      - NAND-Flash-Speicher
+      - NAND-Flash
+      - Flash-Speicher
+      - Flashspeicher
       - NAND
   Other:
     CXL:
@@ -134,6 +148,17 @@ categories:
       - ウェーハ
       - ウェハ
       - ウエハ
+      # German wafer / foundry / OSAT (avoid bare Wafer — Siltronic boilerplate).
+      - Foundry-Kapazität
+      - Foundry-Fertigung
+      - Auftragsfertigung
+      - Waferfertigung
+      - Waferkapazitäten
+      - Waferkapazität
+      - Siliziumwafer
+      - Silizium-Wafer
+      - Chip-Gehäuse
+      - Gehäuseherstellung
     Memory_general:
       - 메모리 반도체
       - 메모리반도체
@@ -152,6 +177,9 @@ categories:
       - 半導体デバイス
       - メモリー
       - メモリ
+      - Speicherbausteine
+      - Speicherbaustein
+      - Halbleiter-Speicher
       # Prefer multi-word forms; bare "memory" alone is too noisy in supplier 10-Ks.
       # Buyer filings often say "memory components" / "memory shortage" / NVDA-style phrases.
       - memory and storage
@@ -212,6 +240,10 @@ categories:
       - 图形处理单元
       - 圖形處理器
       - 圖形處理單元
+      - Grafikprozessoren
+      - Grafikprozessor
+      - Grafikverarbeitungseinheiten
+      - Grafikverarbeitungseinheit
       - GPUs
       - GPU
     CPU:
@@ -239,6 +271,12 @@ categories:
       - 中央處理單元
       - 伺服器處理器
       - 微處理器
+      - Zentralprozessoren
+      - Zentralprozessor
+      - Serverprozessoren
+      - Serverprozessor
+      - Mikroprozessoren
+      - Mikroprozessor
       - CPUs
       - CPU
     FPGA:
@@ -261,6 +299,11 @@ categories:
       - 現場可編程門陣列
       - 可編程邏輯器件
       - 可編程邏輯
+      - feldprogrammierbare Gate-Arrays
+      - feldprogrammierbares Gate-Array
+      - programmierbare Logikbausteine
+      - programmierbarer Logikbaustein
+      - programmierbare Logik
     MCU:
       - microcontroller units
       - microcontroller unit
@@ -281,6 +324,10 @@ categories:
       - 单片机
       - マイクロコントローラ
       - マイコン
+      - Mikrocontrollern
+      - Mikrocontroller
+      - Mikrocontroller-Einheiten
+      - Mikrocontroller-Einheit
       # Bare MCU(s) too often appears in product catalogs without supply context.
   Analog:
     Power_IC:
@@ -305,6 +352,20 @@ categories:
       - 功率半導體
       - パワーマネジメントIC
       - パワー半導体
+      # German Infineon-style power semiconductors (avoid bare Halbleiter).
+      - Leistungshalbleitern
+      - Leistungshalbleiter
+      - Leistungstransistoren
+      - Leistungstransistor
+      - Leistungsmodule
+      - Leistungsmodul
+      - Leistungs-ICs
+      - Leistungs-IC
+      - Power-Management-ICs
+      - Power-Management-IC
+      # EN Infineon / peer 20-F-style wording (UREG IR mirrors often ship EN ARs).
+      - power semiconductors
+      - power semiconductor
   Storage:
     # Distinct from NAND flash families — mass-capacity drives (Seagate/WDC).
     HDD:
@@ -339,6 +400,10 @@ categories:
       - 固态硬盘
       - 固态盘
       - 固態硬碟
+      - Solid-State-Drives
+      - Solid-State-Drive
+      - Festkörperlaufwerke
+      - Festkörperlaufwerk
       - SSDs
       - SSD
   Interconnect:
@@ -396,8 +461,14 @@ categories:
       - 積層セラミック
       - セラミックコンデンサ
       - コンデンサ
+      - Mehrschicht-Keramikkondensatoren
+      - Mehrschicht-Keramikkondensator
+      - Keramikkondensatoren
+      - Keramikkondensator
+      - MLCC-Kondensatoren
+      - MLCC-Kondensator
       - MLCC
-      # Avoid bare capacitor(s) alone — matched M&A fair-value "Capacitors segment".
+      # Avoid bare capacitor(s)/Kondensator(en) — segment & legalese noise.
     # Small related passive — shortage-scoped / multi-word only.
     Resistor:
       - chip resistors
@@ -410,3 +481,5 @@ categories:
       - 芯片电阻
       - 片式電阻
       - 晶片電阻
+      - Chipwiderstände
+      - Chipwiderstand

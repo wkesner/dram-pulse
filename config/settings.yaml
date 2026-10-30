@@ -75,6 +75,25 @@ amf:
   api_base: "https://www.info-financiere.gouv.fr/api/explore/v2.0"
   # Soft published limit ~10k calls / IP / day — stay well under.
 
+# Unternehmensregister (DE) — no key. Search listing is free; many document
+# bodies need FoxCaptcha. Prefer IR / external sourceName PDFs and
+# config/ureg_documents.yaml mirrors. robots.txt disallows /de/search —
+# stay ≤0.5–1 r/s with an identifiable User-Agent. No BaFin MVP SOAP.
+ureg:
+  max_requests_per_second: 0.5
+  base_url: "https://www.unternehmensregister.de"
+  search_token_path: "/api/search-token"
+  search_path: "/de/search"
+  default_form_type: ACCOUNTING
+  publication_types:
+    - "135"  # Jahresabschlüsse
+    - "136"  # Halbjahresfinanzbericht nach WpHG
+    - "137"  # Zwischenmitteilung nach WpHG
+  follow_external_source_urls: true
+  skip_captcha_bodies: true
+  documents_path: config/ureg_documents.yaml
+
 paths:
   raw_dir: data/raw
   ir_documents: config/ir_documents.yaml
+  ureg_documents: config/ureg_documents.yaml
