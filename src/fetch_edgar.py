@@ -55,6 +55,11 @@ class Company:
     exchange: str | None = None
     edinet_code: str | None = None
     company_number: str | None = None
+    # UREG (Unternehmensregister): exact search name + identifiers.
+    company_name: str | None = None
+    euid: str | None = None
+    lei: str | None = None
+    isin: str | None = None
 
 
 class RateLimitedSession:
@@ -147,6 +152,9 @@ def load_companies(path: Path) -> list[Company]:
                 ticker = ticker.zfill(6)
         else:
             ticker = ticker.upper()
+        # UREG defaults: publication-type ids, not EDGAR 10-K forms.
+        if not forms and source in {"UREG", "BAFIN_UREG"}:
+            form_tuple = ("135", "136", "137")
         out.append(
             Company(
                 name=row["name"],
@@ -159,6 +167,10 @@ def load_companies(path: Path) -> list[Company]:
                 exchange=str(row["exchange"]).lower() if row.get("exchange") else None,
                 edinet_code=str(row["edinet_code"]).upper() if row.get("edinet_code") else None,
                 company_number=str(row["company_number"]) if row.get("company_number") else None,
+                company_name=str(row["company_name"]) if row.get("company_name") else None,
+                euid=str(row["euid"]).strip() if row.get("euid") else None,
+                lei=str(row["lei"]).strip().upper() if row.get("lei") else None,
+                isin=str(row["isin"]).strip().upper() if row.get("isin") else None,
             )
         )
     return out

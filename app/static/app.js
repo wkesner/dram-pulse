@@ -132,7 +132,10 @@
       tab.setAttribute("aria-selected", on ? "true" : "false");
       panel.hidden = !on;
     }
-    if (selected === $("#tab-feed")) renderFeed();
+    if (selected === $("#tab-feed")) {
+      feedVisibleCount = Math.max(feedVisibleCount, FEED_PAGE_SIZE);
+      renderFeed();
+    }
     if (selected === $("#tab-families")) renderFamilies();
     if (selected === $("#tab-map")) {
       // Charts need a visible width; draw after layout.
@@ -161,6 +164,13 @@
   const FEED_MODE_KEY = "ms-feed-mode";
   /** @type {"stack"|"one"} */
   let feedMode = store.get(FEED_MODE_KEY, "stack") === "one" ? "one" : "stack";
+  /** Stack virtualization: paint this many cards, then "Show more". */
+  const FEED_PAGE_SIZE = 24;
+  let feedVisibleCount = FEED_PAGE_SIZE;
+  /** @type {Map<string, RegExp>} */
+  const highlightReCache = new Map();
+  /** @type {{key:string, ignoreTier:boolean, rows:any[]}|null} */
+  let railFilterCache = null;
 
   function hasRated(signalId) {
     return Object.prototype.hasOwnProperty.call(userVotes, signalId);
@@ -209,8 +219,29 @@
     feedModeSel.addEventListener("change", () => {
       feedMode = feedModeSel.value === "one" ? "one" : "stack";
       store.set(FEED_MODE_KEY, feedMode);
+      feedVisibleCount = FEED_PAGE_SIZE;
       renderFeed();
     });
+  }
+
+  function parseMatchedTerms(raw) {
+    return String(raw || "")
+      .split(";")
+      .map((t) => t.split(":").slice(1).join(":").trim())
+      .filter(Boolean);
+  }
+
+  function normalizeSignal(s) {
+    s._terms = parseMatchedTerms(s.matched_terms);
+    s._latest = latest(s);
+    if (s.has_excerpt_en == null) {
+      s.has_excerpt_en = Boolean(String(s.excerpt_en || "").trim());
+    }
+    return s;
+  }
+
+  function invalidateRailFilterCache() {
+    railFilterCache = null;
   }
 
   const FAMILY_LABELS = {
@@ -298,6 +329,8 @@
       }
       if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
       sel.onchange = () => {
+        feedVisibleCount = FEED_PAGE_SIZE;
+        invalidateRailFilterCache();
         refreshActiveView();
       };
     }
@@ -310,33 +343,59 @@
         const sel = $("#f-" + id);
         if (sel) sel.value = "";
       }
+      feedVisibleCount = FEED_PAGE_SIZE;
+      invalidateRailFilterCache();
       refreshActiveView();
     });
   }
 
   function highlight(text, terms) {
     const frag = document.createDocumentFragment();
-    const ts = terms
-      .filter((t) => t.length > 2)
+    const ts = (terms || [])
+      .filter((t) => t && t.length > 2)
       .sort((a, b) => b.length - a.length);
     if (!ts.length) {
       frag.append(text);
       return frag;
     }
-    const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-    const re = new RegExp("(" + esc.join("|") + ")", "gi");
+    const cacheKey = ts.join("\0");
+    let re = highlightReCache.get(cacheKey);
+    if (!re) {
+      const esc = ts.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      re = new RegExp("(" + esc.join("|") + ")", "gi");
+      highlightReCache.set(cacheKey, re);
+    } else {
+      re.lastIndex = 0;
+    }
     let last = 0;
-    for (const m of text.matchAll(re)) {
-      frag.append(text.slice(last, m.index));
+    const src = String(text || "");
+    for (const m of src.matchAll(re)) {
+      frag.append(src.slice(last, m.index));
       frag.append(el("mark", null, m[0]));
       last = m.index + m[0].length;
     }
-    frag.append(text.slice(last));
+    frag.append(src.slice(last));
     return frag;
   }
 
+  function currentFilterKey(ignoreTier) {
+    return FILTERS.map(([id, field]) => {
+      if (ignoreTier && field === "tier") return `${id}=*`;
+      const sel = $("#f-" + id);
+      return `${id}=${sel?.value || ""}`;
+    }).join("|");
+  }
+
   function railFilteredSignals({ ignoreTier = false } = {}) {
-    return SIGNALS.filter((s) =>
+    const key = currentFilterKey(ignoreTier);
+    if (
+      railFilterCache &&
+      railFilterCache.key === key &&
+      railFilterCache.ignoreTier === ignoreTier
+    ) {
+      return railFilterCache.rows;
+    }
+    const rows = SIGNALS.filter((s) =>
       FILTERS.every(([id, field]) => {
         if (ignoreTier && field === "tier") return true;
         const sel = $("#f-" + id);
@@ -345,6 +404,8 @@
         return s[field] === sel.value;
       })
     );
+    railFilterCache = { key, ignoreTier, rows };
+    return rows;
   }
 
   function queue() {
@@ -353,7 +414,7 @@
       .filter((s) => !hasRated(s.signal_id))
       .sort(
         (a, b) =>
-          latest(b).localeCompare(latest(a)) ||
+          (b._latest || latest(b)).localeCompare(a._latest || latest(a)) ||
           a.signal_id.localeCompare(b.signal_id)
       );
   }
@@ -397,10 +458,49 @@
       console.error("vote failed", resp.status, detail);
       return;
     }
+    const body = await resp.json();
     userVotes[s.signal_id] = v;
-    // Refresh tallies from server
-    await loadSignals({ keepFilters: true });
+    // Avoid re-fetching the whole corpus — apply tallies from the vote response.
+    if (body && body.votes) {
+      s.votes = body.votes;
+      const live = SIGNALS.find((row) => row.signal_id === s.signal_id);
+      if (live) live.votes = body.votes;
+    }
     renderFeed();
+  }
+
+  async function ensureSignalDetail(s) {
+    if (s._detailLoaded) return s;
+    s._detailLoaded = true;
+    try {
+      const resp = await fetch(
+        `/api/signals/${encodeURIComponent(s.signal_id)}`,
+        { headers: apiHeaders() }
+      );
+      if (!resp.ok) return s;
+      const detail = await resp.json();
+      if (detail.excerpt_en) s.excerpt_en = detail.excerpt_en;
+      if (Array.isArray(detail.sightings) && detail.sightings.length) {
+        s.sightings = detail.sightings;
+        s._latest = latest(s);
+      }
+      s.has_excerpt_en = Boolean(String(s.excerpt_en || "").trim());
+    } catch {
+      /* keep compact row */
+    }
+    return s;
+  }
+
+  async function ensureExcerptEn(s) {
+    if (String(s.excerpt_en || "").trim()) return s.excerpt_en;
+    await ensureSignalDetail(s);
+    return s.excerpt_en || "";
+  }
+
+  function sightingsAreCompact(s) {
+    const list = s.sightings || [];
+    if (!list.length) return false;
+    return list.some((x) => x && !Object.prototype.hasOwnProperty.call(x, "excerpt"));
   }
 
   function buildCard(s) {
@@ -422,7 +522,7 @@
       el(
         "span",
         "filing",
-        `${s.form} · ${latest(s)} · ${label(s.section)}`
+        `${s.form} · ${s._latest || latest(s)} · ${label(s.section)}`
       )
     );
     if (s.source && s.source !== "EDGAR") {
@@ -440,18 +540,18 @@
       el("span", "chip", `tone: ${s.sentiment}`)
     );
 
-    const terms = String(s.matched_terms || "")
-      .split(";")
-      .map((t) => t.split(":").slice(1).join(":").trim())
-      .filter(Boolean);
+    const terms = s._terms || parseMatchedTerms(s.matched_terms);
     const lang = String(s.language || "en").toLowerCase();
-    const excerptEn = String(s.excerpt_en || "").trim();
     const canTranslate =
-      Boolean(excerptEn) && lang && lang !== "en" && lang !== "english";
+      (s.has_excerpt_en || Boolean(String(s.excerpt_en || "").trim())) &&
+      lang &&
+      lang !== "en" &&
+      lang !== "english";
     let showEnglish = false;
     const ex = el("p", "excerpt");
     const paintExcerpt = () => {
       ex.replaceChildren();
+      const excerptEn = String(s.excerpt_en || "").trim();
       const text = showEnglish && excerptEn ? excerptEn : s.excerpt || "";
       // Highlight only on original language (matched_terms are source-language).
       if (showEnglish && excerptEn) ex.append(text);
@@ -465,7 +565,18 @@
       tog.type = "button";
       tog.setAttribute("aria-pressed", "false");
       tog.title = "Machine translation (Argos); original excerpt is unchanged";
-      tog.addEventListener("click", () => {
+      tog.addEventListener("click", async () => {
+        if (!showEnglish) {
+          tog.disabled = true;
+          tog.textContent = "Translating…";
+          await ensureExcerptEn(s);
+          tog.disabled = false;
+          if (!String(s.excerpt_en || "").trim()) {
+            tog.textContent = "Show English";
+            tog.title = "No English translation available yet";
+            return;
+          }
+        }
         showEnglish = !showEnglish;
         tog.textContent = showEnglish ? "Original" : "Show English";
         tog.setAttribute("aria-pressed", showEnglish ? "true" : "false");
@@ -476,7 +587,8 @@
     }
     const open = el("a", null, "Open filing at this passage");
     open.href =
-      (firstLink.source_url || "") + fragment(firstLink.excerpt || s.excerpt);
+      (firstLink.source_url || "") +
+      fragment(firstLink.excerpt || s.excerpt || "");
     open.target = "_blank";
     open.rel = "noopener";
     find.append(open);
@@ -484,7 +596,7 @@
     const det = el("details");
     const sum = el("summary");
     const n = sightings.length || 1;
-    const latestDate = latest(s);
+    const latestDate = s._latest || latest(s);
     if (n > 1) {
       sum.append(
         "Seen in ",
@@ -495,36 +607,48 @@
       sum.append("First seen in ", el("b", null, "1 filing"));
     }
     const ul = el("ul", "sightings");
-    const list = sightings.length
-      ? [...sightings].sort((a, b) =>
-          (b.filing_date || "").localeCompare(a.filing_date || "")
-        )
-      : [firstLink];
-    for (const x of list) {
-      const li = el("li");
-      const a = el(
-        "a",
-        "d",
-        `${x.filing_date || ""} ${x.form || ""}`.trim()
-      );
-      a.href = (x.source_url || "") + fragment(x.excerpt || "");
-      a.target = "_blank";
-      a.rel = "noopener";
-      const match = x.match || "first";
-      li.append(
-        a,
-        el(
-          "span",
-          "m",
-          match === "first"
-            ? "first appearance"
-            : match === "exact"
-              ? "same text"
-              : "lightly reworded"
-        )
-      );
-      ul.append(li);
-    }
+    // Defer sighting DOM (+ optional detail fetch for text-fragment excerpts)
+    // until the user expands the disclosure.
+    let sightingsPainted = false;
+    const paintSightings = async () => {
+      if (sightingsPainted) return;
+      sightingsPainted = true;
+      ul.replaceChildren(el("li", null, "Loading…"));
+      if (sightingsAreCompact(s)) {
+        await ensureSignalDetail(s);
+      }
+      const list = (s.sightings || []).length ? s.sightings : [firstLink];
+      ul.replaceChildren();
+      for (const x of list) {
+        const li = el("li");
+        const a = el(
+          "a",
+          "d",
+          `${x.filing_date || ""} ${x.form || ""}`.trim()
+        );
+        const excerptBit = x.excerpt || s.excerpt || "";
+        a.href = (x.source_url || "") + fragment(excerptBit);
+        a.target = "_blank";
+        a.rel = "noopener";
+        const match = x.match || "first";
+        li.append(
+          a,
+          el(
+            "span",
+            "m",
+            match === "first"
+              ? "first appearance"
+              : match === "exact"
+                ? "same text"
+                : "lightly reworded"
+          )
+        );
+        ul.append(li);
+      }
+    };
+    det.addEventListener("toggle", () => {
+      if (det.open) paintSightings();
+    });
     det.append(sum, ul);
 
     const actions = el("div", "actions");
@@ -594,9 +718,23 @@
       stack.append(el("div", "empty", emptyMsg));
       return;
     }
-    const toShow = feedMode === "one" ? q.slice(0, 1) : q;
+    const toShow =
+      feedMode === "one" ? q.slice(0, 1) : q.slice(0, feedVisibleCount);
     for (const s of toShow) {
       stack.append(buildCard(s));
+    }
+    if (feedMode === "stack" && q.length > feedVisibleCount) {
+      const more = el(
+        "button",
+        "feed-more",
+        `Show more (${q.length - feedVisibleCount} left)`
+      );
+      more.type = "button";
+      more.addEventListener("click", () => {
+        feedVisibleCount += FEED_PAGE_SIZE;
+        renderFeed();
+      });
+      stack.append(more);
     }
   }
 
@@ -624,14 +762,23 @@
   async function loadSignals({ keepFilters = false } = {}) {
     if (isClerkMode() && !window.__msAuth?.orgId) {
       SIGNALS = [];
+      invalidateRailFilterCache();
       fillFilters();
       return;
     }
-    const resp = await fetch("/api/signals", { headers: apiHeaders() });
+    // Compact list + defer excerpt_en until Show English / sightings expand.
+    const resp = await fetch(
+      "/api/signals?compact=1&include_excerpt_en=0",
+      { headers: apiHeaders() }
+    );
     if (!resp.ok) throw new Error(`signals ${resp.status}`);
-    SIGNALS = await resp.json();
-    if (!keepFilters) fillFilters();
-    else fillFilters();
+    const body = await resp.json();
+    const rows = Array.isArray(body) ? body : body.items || [];
+    SIGNALS = rows.map(normalizeSignal);
+    feedVisibleCount = FEED_PAGE_SIZE;
+    invalidateRailFilterCache();
+    fillFilters();
+    void keepFilters;
   }
 
   function lookbackWindow() {
