@@ -1,0 +1,24 @@
+{
+  "company": "Honda Motor",
+  "ticker": "7267",
+  "role": "buyer",
+  "source": "EDINET",
+  "form": "半期報告書－第102期(2025/04/01－2026/03/31)",
+  "filing_date": "2025-11-11",
+  "accession_number": "S100X0TR",
+  "filing_id": "S100X0TR",
+  "edinet_code": "E02166",
+  "sec_code": "72670",
+  "doc_type_code": "160",
+  "title": "半期報告書－第102期(2025/04/01－2026/03/31)",
+  "source_url": "https://disclosure2.edinet-fsa.go.jp/WEBSITE/download?docid=S100X0TR",
+  "lookback_months": 12,
+  "window_start": "2025-10-29",
+  "window_end": "2026-10-29",
+  "language": "ja",
+  "fetched_at": "2026-10-29T22:44:37.271413+00:00",
+  "paths": {
+    "other_full": "data/raw/7267/S100X0TR/other_full.txt",
+    "document_zip": "data/raw/7267/S100X0TR/document.zip"
+  }
+}

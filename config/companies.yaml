@@ -1342,8 +1342,119 @@ companies:
     ticker: "6146"
     tier: 3
 
+  # JP electronics buyers (EDINET) — memory/semicap demand side
+  - name: Sony Group
+    role: buyer
+    source: EDINET
+    ticker: "6758"
+    tier: 1
+
+  - name: Panasonic Holdings
+    role: buyer
+    source: EDINET
+    ticker: "6752"
+    tier: 2
+
+  - name: Fujitsu
+    role: buyer
+    source: EDINET
+    ticker: "6702"
+    tier: 2
+
+  - name: NEC
+    role: buyer
+    source: EDINET
+    ticker: "6701"
+    tier: 2
+
+  - name: Hitachi
+    role: buyer
+    source: EDINET
+    ticker: "6501"
+    tier: 2
+
+  - name: Mitsubishi Electric
+    role: buyer
+    source: EDINET
+    ticker: "6503"
+    tier: 2
+
+  - name: Canon
+    role: buyer
+    source: EDINET
+    ticker: "7751"
+    tier: 2
+
+  - name: Nintendo
+    role: buyer
+    source: EDINET
+    ticker: "7974"
+    tier: 2
+
+  - name: Toyota Motor
+    role: buyer
+    source: EDINET
+    ticker: "7203"
+    tier: 1
+
+  - name: Honda Motor
+    role: buyer
+    source: EDINET
+    ticker: "7267"
+    tier: 2
+
+  # Additional JP electronics / materials suppliers (EDINET)
+  - name: Rohm
+    role: supplier
+    source: EDINET
+    ticker: "6963"
+    tier: 2
+
+  - name: Lasertec
+    role: supplier
+    source: EDINET
+    ticker: "6920"
+    tier: 2
+
+  - name: SUMCO
+    role: supplier
+    source: EDINET
+    ticker: "3436"
+    tier: 2
+
+  - name: Shin-Etsu Chemical
+    role: supplier
+    source: EDINET
+    ticker: "4063"
+    tier: 2
+
+  - name: Ibiden
+    role: supplier
+    source: EDINET
+    ticker: "4062"
+    tier: 3
+
+  - name: Kyocera
+    role: supplier
+    source: EDINET
+    ticker: "6971"
+    tier: 2
+
+  - name: Alps Alpine
+    role: supplier
+    source: EDINET
+    ticker: "6770"
+    tier: 3
+
+  - name: Kokusai Electric
+    role: supplier
+    source: EDINET
+    ticker: "6525"
+    tier: 3
+
   # --- Companies House (UK; requires COMPANIES_HOUSE_API_KEY) ---
   # LSE RNS / FCA NSM are documented separately (RNS needs LSEG; NSM API ~2027).
+  # UK deferred — prefer JP/CN/TW; CH confirmation statements lack supply language.
   - name: Renishaw
     role: supplier
     source: CH
